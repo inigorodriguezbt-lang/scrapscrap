@@ -18,9 +18,31 @@ DIST_DIR = ROOT / "dist"
 SITE_DIR = ROOT / "site"
 
 
+DISCOVERED_PATH = ROOT / "config" / "discovered_sources.yaml"
+
+
 def load_config() -> dict:
+    """Load paper.yaml, folding in the discovered source list when enabled.
+
+    The curated entries in paper.yaml win on conflict: a crawl can tell us how
+    often an account is cited, but not whether it speaks for a lab. Discovered
+    accounts are added, never allowed to overwrite a hand-set tier or weight.
+    """
     with CONFIG_PATH.open(encoding="utf-8") as fh:
-        return yaml.safe_load(fh)
+        cfg = yaml.safe_load(fh)
+
+    if cfg.get("source_list") == "merged" and DISCOVERED_PATH.exists():
+        with DISCOVERED_PATH.open(encoding="utf-8") as fh:
+            discovered = (yaml.safe_load(fh) or {}).get("sources", []) or []
+
+        curated = {s["handle"].lower(): s for s in cfg.get("sources", [])}
+        merged = list(cfg.get("sources", []))
+        for source in discovered:
+            if source["handle"].lower() not in curated:
+                merged.append(source)
+        cfg["sources"] = merged
+
+    return cfg
 
 
 def utcnow() -> datetime:

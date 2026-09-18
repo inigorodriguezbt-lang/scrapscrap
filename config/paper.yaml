@@ -8,8 +8,16 @@ paper:
   volume: "Vol. I"
   timezone: "America/New_York"
 
+# How the source list is assembled:
+#   merged  -- the curated accounts below, plus config/discovered_sources.yaml
+#   inline  -- only the curated accounts below
+# Regenerate the discovered half with:
+#   python -m pipeline.discover_sources --days 45
+source_list: merged
+
 # ─────────────────────────────────────────────────────────────
 # Ingestion. Accounts are scraped via twscrape; see pipeline/scrape.py.
+# These are hand-set and always win over a discovered entry of the same handle.
 # `weight` biases a source's pull when ranking stories (1.0 = neutral).
 # `tier` marks primary sources (labs, companies) vs commentary.
 # ─────────────────────────────────────────────────────────────

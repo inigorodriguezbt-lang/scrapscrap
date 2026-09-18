@@ -58,6 +58,32 @@ the writer whether a source is the company itself (`primary`), a reporter
 (`press`), or a bystander (`commentary`). That distinction matters — it's how
 the copy avoids laundering a vendor claim into fact.
 
+## Where the source list came from
+
+The seed list in `config/paper.yaml` is hand-written. The bulk of the list was
+recovered empirically:
+
+```bash
+python -m pipeline.discover_sources --days 45
+```
+
+HuggingNews does not publish which accounts it monitors, but it credits the
+accounts behind every story on the story page. This crawls its public sitemap
+(`robots.txt` is `Allow: /`), tallies those credits, and writes
+`config/discovered_sources.yaml` ranked by how often each account is actually
+cited. Only handles are stored -- no article text. Pages are cached under
+`.cache/`, so retuning costs the site nothing.
+
+**This recovers ~236 accounts, not the ~1,200 HuggingNews says it monitors.** A
+story page credits only the accounts that contributed to *that* story, so the
+crawl sees the active subset -- accounts that actually produced news in the
+window -- and never the silent remainder of the pool. The published archive also
+only goes back about three weeks. Re-run it periodically and the list grows.
+
+`source_list: merged` in `config/paper.yaml` unions the two. Curated entries win
+on conflict: a crawl can count citations, but it cannot tell whether an account
+speaks for a lab or merely about one.
+
 ## The pipeline
 
 | Stage | Command | Output |
