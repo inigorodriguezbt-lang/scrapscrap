@@ -1,0 +1,99 @@
+# ─────────────────────────────────────────────────────────────
+# The paper's identity. Change these and the whole site follows.
+# ─────────────────────────────────────────────────────────────
+paper:
+  name: "The Latent Times"
+  tagline: "The daily record of machine intelligence"
+  # Shown in the folio line under the masthead, newspaper-style.
+  volume: "Vol. I"
+  timezone: "America/New_York"
+
+# ─────────────────────────────────────────────────────────────
+# Ingestion. Accounts are scraped via twscrape; see pipeline/scrape.py.
+# `weight` biases a source's pull when ranking stories (1.0 = neutral).
+# `tier` marks primary sources (labs, companies) vs commentary.
+# ─────────────────────────────────────────────────────────────
+sources:
+  - { handle: OpenAI,            weight: 1.6, tier: primary }
+  - { handle: AnthropicAI,       weight: 1.6, tier: primary }
+  - { handle: GoogleDeepMind,    weight: 1.6, tier: primary }
+  - { handle: MistralAI,         weight: 1.4, tier: primary }
+  - { handle: AIatMeta,          weight: 1.4, tier: primary }
+  - { handle: nvidia,            weight: 1.3, tier: primary }
+  - { handle: huggingface,       weight: 1.4, tier: primary }
+  - { handle: Alibaba_Qwen,      weight: 1.3, tier: primary }
+  - { handle: deepseek_ai,       weight: 1.4, tier: primary }
+  - { handle: AIatAMD,           weight: 1.1, tier: primary }
+  - { handle: karpathy,          weight: 1.5, tier: commentary }
+  - { handle: ylecun,            weight: 1.3, tier: commentary }
+  - { handle: sama,              weight: 1.4, tier: commentary }
+  - { handle: demishassabis,     weight: 1.3, tier: commentary }
+  - { handle: ClementDelangue,   weight: 1.2, tier: commentary }
+  - { handle: soumithchintala,   weight: 1.2, tier: commentary }
+  - { handle: _akhaliq,          weight: 1.2, tier: commentary }
+  - { handle: arankomatsuzaki,   weight: 1.2, tier: commentary }
+  - { handle: TheRundownAI,      weight: 0.9, tier: commentary }
+  - { handle: rowancheung,       weight: 0.9, tier: commentary }
+  - { handle: steph_palazzolo,   weight: 1.3, tier: press }
+  - { handle: kateclarktweets,   weight: 1.1, tier: press }
+  - { handle: emilychangtv,      weight: 1.0, tier: press }
+  - { handle: zephoria,          weight: 0.9, tier: press }
+
+# ─────────────────────────────────────────────────────────────
+# Sections of the paper. `slug` becomes the section page URL.
+# Keywords seed the classifier that Claude double-checks when writing.
+# ─────────────────────────────────────────────────────────────
+sections:
+  - slug: models
+    name: "Models & Research"
+    keywords: [model, benchmark, weights, checkpoint, paper, arxiv, sota, eval, reasoning, fine-tune]
+  - slug: infrastructure
+    name: "Infrastructure"
+    keywords: [cluster, datacenter, training run, inference, serving, cuda, kernel, throughput, gpu-hours]
+  - slug: chips
+    name: "Silicon"
+    keywords: [chip, gpu, tpu, wafer, fab, nvidia, blackwell, tsmc, accelerator, hbm]
+  - slug: business
+    name: "Business & Funding"
+    keywords: [funding, raise, valuation, revenue, acquisition, ipo, round, layoffs, partnership]
+  - slug: policy
+    name: "Policy & Regulation"
+    keywords: [regulation, eu ai act, executive order, lawsuit, copyright, safety institute, ban, compliance]
+  - slug: products
+    name: "Products"
+    keywords: [launch, release, available, app, api, pricing, general availability, waitlist, ships]
+
+# Entities get their own filter pages, like a newspaper's "companies" index.
+entities:
+  - OpenAI
+  - Anthropic
+  - Google
+  - Meta
+  - Nvidia
+  - Microsoft
+  - Hugging Face
+  - Mistral
+  - DeepSeek
+  - Alibaba
+  - Apple
+  - Amazon
+  - xAI
+  - Tesla
+  - AMD
+  - TSMC
+
+# ─────────────────────────────────────────────────────────────
+# Editorial rules. These are the knobs that decide what becomes a story.
+# ─────────────────────────────────────────────────────────────
+editorial:
+  # A cluster is only "a story" once this many INDEPENDENT accounts touch it.
+  # This is the single most important setting in the file: it is what
+  # separates a newspaper from a firehose.
+  min_independent_sources: 2
+  # Posts older than this are not eligible for a new story.
+  window_hours: 24
+  # Similarity (0-1) above which two posts are considered the same event.
+  cluster_threshold: 0.34
+  # Stories per edition, and how many get front-page treatment.
+  max_stories_per_edition: 24
+  front_page_slots: 7

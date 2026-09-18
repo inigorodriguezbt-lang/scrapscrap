@@ -1,0 +1,42 @@
+{
+  "edition_date": "2026-09-18",
+  "stories": [
+    {
+      "cluster_id": "c90505253",
+      "placement": "lead",
+      "section": "models",
+      "headline": "OpenAI puts Orion-2 reasoning model in the API today",
+      "standfirst": "The model ships with a 400,000-token context window and, according to one reporter, sits below the company's previous frontier tier on price.",
+      "body": [
+        "OpenAI released Orion-2, a reasoning model it describes as frontier-class, and made it available in its API on the day of announcement. The company gives the context window as 400,000 tokens. No staged rollout or waitlist was mentioned in the announcement.",
+        "Reporting from The Information's Stephanie Palazzolo adds a detail the company did not state directly: that Orion-2 is priced below OpenAI's previous frontier tier. Andrej Karpathy, writing separately, pointed to the reasoning benchmark results rather than the context window as the more consequential change, calling the evaluation jump the real story.",
+        "The two claims sit in different registers and should be read that way. The context window and availability come from OpenAI itself. The pricing position is a reporter's characterisation, and the benchmark assessment is one researcher's reading of results OpenAI published."
+      ],
+      "entities": ["OpenAI"],
+      "sources": [
+        {"author": "OpenAI", "url": "https://x.com/OpenAI/status/1000"},
+        {"author": "karpathy", "url": "https://x.com/karpathy/status/1001"},
+        {"author": "steph_palazzolo", "url": "https://x.com/steph_palazzolo/status/1002"},
+        {"author": "_akhaliq", "url": "https://x.com/_akhaliq/status/1003"}
+      ]
+    },
+    {
+      "cluster_id": "c38064031",
+      "placement": "front",
+      "section": "chips",
+      "headline": "Nvidia ships Blackwell Ultra to cloud partners, AMD answers",
+      "standfirst": "Nvidia claims 2.4 times the inference throughput of the prior generation on large mixture-of-experts workloads; AMD says MI400 begins sampling next quarter.",
+      "body": [
+        "Nvidia said Blackwell Ultra is now shipping to cloud partners, and put the gain at 2.4 times the inference throughput of the previous generation on large mixture-of-experts workloads. The figure is the company's own, measured on workloads it selected, and has not been independently verified.",
+        "AMD responded the same day, saying MI400 begins sampling next quarter with what it called competitive HBM bandwidth. It offered no throughput comparison of its own. Bloomberg's Emily Chang reported both claims together, treating the AMD statement as a direct answer to the Blackwell Ultra timing.",
+        "Sampling and shipping are different stages. Nvidia is describing hardware reaching partners now; AMD is describing parts going out for evaluation in a later quarter."
+      ],
+      "entities": ["Nvidia", "AMD"],
+      "sources": [
+        {"author": "nvidia", "url": "https://x.com/nvidia/status/1004"},
+        {"author": "AIatAMD", "url": "https://x.com/AIatAMD/status/1005"},
+        {"author": "emilychangtv", "url": "https://x.com/emilychangtv/status/1006"}
+      ]
+    }
+  ]
+}

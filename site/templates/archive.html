@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Archive · {{ paper.name }}{% endblock %}
+{% block content %}
+<section class="inside" style="border-top:0;margin-top:26px">
+  <div class="rail__title">Back Issues</div>
+  {% for issue in issues %}
+  <div style="padding:14px 0;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:16px">
+    <a href="{{ rel }}issue/{{ issue.date }}.html" class="hed" style="font-size:20px">{{ issue.date_long }}</a>
+    <span style="font-family:var(--label);color:var(--ink-faint);letter-spacing:.08em;white-space:nowrap">{{ issue.count }} stories</span>
+  </div>
+  {% endfor %}
+</section>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% import "_story.html" as s %}
+{% block content %}
+
+{% if not stories %}
+<p style="padding:60px 0;text-align:center;color:var(--ink-faint)">
+  No edition has been written yet. Run the pipeline, then <code>/write-edition</code>.
+</p>
+{% else %}
+
+<div class="frontpage">
+  <div>
+    {% if lead %}{{ s.block(lead, 'lead', rel) }}{% endif %}
+  </div>
+
+  <aside class="rail">
+    <div class="rail__title">Also Developing</div>
+    {% for story in briefs %}
+      {{ s.block(story, 'brief', rel, show_body=False) }}
+    {% endfor %}
+  </aside>
+</div>
+
+{% if front %}
+<div class="deck">
+  {% for story in front %}
+  <div>{{ s.block(story, 'front', rel, show_body=False) }}</div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if inside %}
+<section class="inside">
+  <div class="rail__title">Inside Today</div>
+  <div class="inside__grid">
+    {% for story in inside %}
+      {{ s.block(story, 'inside', rel, show_body=False) }}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% endif %}
+{% endblock %}

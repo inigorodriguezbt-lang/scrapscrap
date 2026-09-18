@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ paper.name }}{% endblock %}</title>
+<meta name="description" content="{{ paper.tagline }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Spectral:ital,wght@0,400;0,600;1,400&family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ rel }}style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead__ears">
+      <span>{{ paper.volume }} · No. {{ edition_number }}</span>
+      <span>{{ story_count }} stories · {{ source_count }} sources</span>
+    </div>
+    <h1 class="masthead__name"><a href="{{ rel }}index.html">{{ paper.name }}</a></h1>
+    <div class="masthead__tagline">{{ paper.tagline }}</div>
+    <div class="folio">
+      <span>{{ edition_date_long }}</span>
+      <span>Assembled {{ generated_at_short }}</span>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="{{ rel }}index.html"{% if not current_section %} aria-current="page"{% endif %}>Front Page</a>
+    {% for section in sections %}
+    <a href="{{ rel }}section/{{ section.slug }}.html"{% if current_section == section.slug %} aria-current="page"{% endif %}>{{ section.name }}</a>
+    {% endfor %}
+    <a href="{{ rel }}archive.html">Archive</a>
+  </nav>
+
+  {% block content %}{% endblock %}
+
+  <footer class="colophon">
+    <span>{{ paper.name }} · {{ paper.tagline }}</span>
+    <span>Stories are written from public posts and are confirmed by {{ min_sources }}+ independent accounts before publication.</span>
+  </footer>
+
+</div>
+</body>
+</html>

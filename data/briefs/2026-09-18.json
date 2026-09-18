@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-18T11:39:07.172299+00:00",
+  "edition_date": "2026-09-18",
+  "source_file": "posts-fixture.jsonl",
+  "posts_considered": 10,
+  "clusters_found": 5,
+  "stories_declared": 2,
+  "front_page_slots": 7,
+  "stories": [
+    {
+      "cluster_id": "c90505253",
+      "score": 16.808,
+      "suggested_section": "models",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI",
+        "_akhaliq",
+        "karpathy",
+        "steph_palazzolo"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-18T11:08:07.681274+00:00",
+      "last_seen": "2026-09-18T11:26:07.681274+00:00",
+      "links": [
+        "https://openai.com/blog/orion-2",
+        "https://openai.com/blog/orion-2?utm_source=twitter"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Introducing Orion-2, our new frontier reasoning model. Available today in the API with a 400k context window.",
+          "url": "https://x.com/OpenAI/status/1000",
+          "created_at": "2026-09-18T11:08:07.681274+00:00",
+          "engagement": 13200
+        },
+        {
+          "author": "karpathy",
+          "tier": "commentary",
+          "text": "Orion-2 numbers on the reasoning benchmarks are genuinely surprising. The 400k context is the headline but the eval jump is the story.",
+          "url": "https://x.com/karpathy/status/1001",
+          "created_at": "2026-09-18T11:14:07.681274+00:00",
+          "engagement": 8000
+        },
+        {
+          "author": "steph_palazzolo",
+          "tier": "press",
+          "text": "OpenAI has released Orion-2, a reasoning model with a 400k context window, priced below the previous frontier tier.",
+          "url": "https://x.com/steph_palazzolo/status/1002",
+          "created_at": "2026-09-18T11:20:07.681274+00:00",
+          "engagement": 2640
+        },
+        {
+          "author": "_akhaliq",
+          "tier": "commentary",
+          "text": "Orion-2 is out. Frontier reasoning model, 400k context, API available today.",
+          "url": "https://x.com/_akhaliq/status/1003",
+          "created_at": "2026-09-18T11:26:07.681274+00:00",
+          "engagement": 1500
+        }
+      ]
+    },
+    {
+      "cluster_id": "c38064031",
+      "score": 13.977,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia",
+        "AMD"
+      ],
+      "independent_sources": [
+        "AIatAMD",
+        "emilychangtv",
+        "nvidia"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-18T08:38:07.681274+00:00",
+      "last_seen": "2026-09-18T09:38:07.681274+00:00",
+      "links": [
+        "https://nvidia.com/blackwell-ultra"
+      ],
+      "posts": [
+        {
+          "author": "nvidia",
+          "tier": "primary",
+          "text": "Blackwell Ultra is now shipping to cloud partners. 2.4x inference throughput over the prior generation on large MoE workloads.",
+          "url": "https://x.com/nvidia/status/1004",
+          "created_at": "2026-09-18T08:38:07.681274+00:00",
+          "engagement": 8400
+        },
+        {
+          "author": "AIatAMD",
+          "tier": "primary",
+          "text": "Our response to Blackwell Ultra shipping: MI400 sampling begins next quarter with competitive HBM bandwidth.",
+          "url": "https://x.com/AIatAMD/status/1005",
+          "created_at": "2026-09-18T09:14:07.681274+00:00",
+          "engagement": 1720
+        },
+        {
+          "author": "emilychangtv",
+          "tier": "press",
+          "text": "Nvidia says Blackwell Ultra is shipping to cloud partners now, claiming 2.4x inference throughput. AMD counters with MI400 sampling.",
+          "url": "https://x.com/emilychangtv/status/1006",
+          "created_at": "2026-09-18T09:38:07.681274+00:00",
+          "engagement": 1180
+        }
+      ]
+    }
+  ]
+}

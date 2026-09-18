@@ -1,0 +1,20 @@
+{% macro sourcing(story) %}
+<div class="sourcing">
+  <strong>Confirmed by {{ story.sources|length }} {{ 'source' if story.sources|length == 1 else 'sources' }}:</strong>
+  {% for source in story.sources %}<a href="{{ source.url }}" rel="nofollow noopener" target="_blank">@{{ source.author }}</a>{{ ", " if not loop.last }}{% endfor %}
+</div>
+{% endmacro %}
+
+{% macro block(story, variant, rel, show_body=True) %}
+<article class="story story--{{ variant }}">
+  <span class="kicker">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>
+  <h2 class="hed"><a href="{{ rel }}story/{{ story.cluster_id }}.html">{{ story.headline }}</a></h2>
+  {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}
+  {% if show_body %}
+  <div class="body">
+    {% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}
+  </div>
+  {% endif %}
+  {{ sourcing(story) }}
+</article>
+{% endmacro %}
