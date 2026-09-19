@@ -36,6 +36,16 @@
   --rule: #2c2c2c; --rule-mid: #444; --rule-hard: #f0f0f0; --link: #f0f0f0;
 }
 
+/* The masthead face. Self-hosted so it renders identically everywhere
+   and needs no network round trip before the page has a nameplate. */
+@font-face {
+  font-family: "Old London";
+  src: url("assets/fonts/oldlondon.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;   /* never flash a fallback nameplate */
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 
@@ -50,10 +60,23 @@ a { color: inherit; text-decoration: none; }
 
 /* ── masthead ───────────────────────────────────────────────────── */
 
-.masthead { text-align: center; padding: 34px 0 20px; border-bottom: 1px solid var(--rule-hard); }
-.masthead__art { display: block; margin: 0 auto; max-width: min(520px, 78%); height: auto; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .masthead__art { filter: invert(1); } }
-:root[data-theme="dark"] .masthead__art { filter: invert(1); }
+.masthead { text-align: center; padding: 42px 0 30px; border-bottom: 1px solid var(--rule-hard); }
+
+.masthead__name {
+  display: block;
+  font-family: "Old London", var(--serif);
+  font-weight: 400;
+  /* Blackletter carries its weight in the strokes, so it can run large
+     without shouting. Scales from phone to desktop. */
+  font-size: clamp(46px, 9.2vw, 124px);
+  line-height: .92;
+  letter-spacing: .015em;
+  color: var(--ink);
+  /* Blackletter descenders run long; leave them room to clear the rule. */
+  padding-bottom: .1em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
 /* ── navigation ─────────────────────────────────────────────────── */
 
