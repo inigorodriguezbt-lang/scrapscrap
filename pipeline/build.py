@@ -17,6 +17,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from .cards import render as render_card
 from .common import DIST_DIR, EDITIONS_DIR, SITE_DIR, load_config, utcnow
 
 
@@ -150,13 +151,21 @@ def render_site() -> None:
                 seen_ids.add(story["cluster_id"])
                 all_stories.append(story)
 
+    # One preview card per story, so a shared link carries its own headline
+    # rather than the same nameplate every time.
+    cards_dir = DIST_DIR / "assets" / "cards"
+    for story in all_stories:
+        render_card(story, cards_dir / f"{story['cluster_id']}.png",
+                    paper_name=cfg["paper"]["name"])
+
     for story in all_stories:
         env.get_template("story.html").stream(
             **{**base, "current_section": story.get("section"),
                "page_title": story["headline"],
                "page_description": story.get("standfirst") or cfg["paper"]["tagline"],
                "page_path": f"story/{story['cluster_id']}/",
-               "page_type": "article"},
+               "page_type": "article",
+               "page_image": f"assets/cards/{story['cluster_id']}.png"},
             rel="../../", story=story,
         ).dump(page("story", story["cluster_id"]))
 
