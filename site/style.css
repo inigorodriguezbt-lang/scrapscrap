@@ -48,28 +48,12 @@ body {
 a { color: inherit; text-decoration: none; }
 .wrap { max-width: var(--measure); margin: 0 auto; padding: 0 var(--gutter); }
 
-/* ── top strip ──────────────────────────────────────────────────── */
-
-.ears {
-  display: flex; justify-content: space-between; align-items: center; gap: 16px;
-  padding: 10px 0; border-bottom: 1px solid var(--rule);
-  font-family: var(--sans); font-size: 12px; color: var(--ink-3);
-}
-.ears__live { color: var(--ink-2); }
-
 /* ── masthead ───────────────────────────────────────────────────── */
 
-.masthead { text-align: center; padding: 22px 0 12px; }
+.masthead { text-align: center; padding: 34px 0 20px; border-bottom: 1px solid var(--rule-hard); }
 .masthead__art { display: block; margin: 0 auto; max-width: min(520px, 78%); height: auto; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .masthead__art { filter: invert(1); } }
 :root[data-theme="dark"] .masthead__art { filter: invert(1); }
-
-.masthead__rule {
-  margin-top: 14px; padding: 8px 0;
-  border-top: 1px solid var(--rule-hard); border-bottom: 1px solid var(--rule);
-  display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap;
-  font-family: var(--sans); font-size: 12px; color: var(--ink-3);
-}
 
 /* ── navigation ─────────────────────────────────────────────────── */
 

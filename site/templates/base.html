@@ -14,20 +14,10 @@
 <body>
 <div class="wrap">
 
-  <div class="ears">
-    <span>{{ edition_date_long }}</span>
-    <span class="ears__live">Updated {{ generated_at_short }}</span>
-    <span>{{ paper.volume }} · No. {{ edition_number }}</span>
-  </div>
-
   <header class="masthead">
     <a href="{{ rel }}index.html">
       <img class="masthead__art" src="{{ rel }}assets/masthead.png" alt="{{ paper.name }}">
     </a>
-    <div class="masthead__rule">
-      <span>{{ paper.tagline }}</span>
-      <span>{{ story_count }} stories · {{ source_count }} sources</span>
-    </div>
   </header>
 
   <nav class="nav">
