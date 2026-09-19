@@ -39,6 +39,11 @@ that is `inside`.
 
 ## How to write
 
+**Read `style/` before writing.** `01-voice.md` carries the measured targets,
+`02-headlines.md` the headline grammar, `03-structure.md` the story shape,
+`04-attribution.md` the sourcing tiers, `05-forbidden.md` the banned list, and
+`06-examples.md` worked rewrites. What follows is the short form.
+
 **Headline.** Present tense, active voice, no more than about ten words. State
 what happened, not what it means. "Nvidia ships Blackwell Ultra to cloud
 partners" — not "A new era in inference." Never use a colon to fake importance,
@@ -79,7 +84,26 @@ to leave out. It should not restate the headline in different words.
 **Sources.** Copy every post's `author` and `url` into `sources`. Attribution is
 the whole basis of the paper's credibility; never drop one.
 
+## Before you ship
+
+Run the style checker:
+
+```bash
+python -m pipeline.stylecheck data/editions/<edition_date>.json
+```
+
+It exits non-zero on any error. **Rewrite until it passes** -- do not relax the
+rules, and do not edit the thresholds to make a story fit. Warnings are
+advisory; judge them individually.
+
+Two findings deserve real thought rather than a quick patch:
+
+- *no attribution anywhere* means a story states claims without saying who makes
+  them. Adding the word "said" is not the fix; finding the source is.
+- *hedges under 3.0/1k* means the copy sounds more certain than the reporting
+  supports. Check every sentence against `04-attribution.md`'s three tiers.
+
 ## Finally
 
-After writing the edition file, run `python -m pipeline.build` to render the
-site, and report the headline count by section.
+After the checker passes, run `python -m pipeline.build` to render the site, and
+report the headline count by section.

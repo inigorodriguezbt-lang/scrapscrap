@@ -84,6 +84,25 @@ only goes back about three weeks. Re-run it periodically and the list grows.
 on conflict: a crawl can count citations, but it cannot tell whether an account
 speaks for a lab or merely about one.
 
+## House style
+
+`style/` documents how the paper writes: voice targets derived from measuring
+214 headlines and 213 standfirsts of professional news copy, headline grammar,
+story structure, the attribution tiers, the banned list, and worked rewrites.
+
+The measurable rules are enforced, not merely documented:
+
+```bash
+python -m pipeline.stylecheck data/editions/2026-09-18.json
+```
+
+Non-zero exit blocks publication. `/write-edition` runs it before shipping.
+
+The most useful finding from the measurement: professional copy hedges *more
+often than it attributes* -- 5.8 `could`/`may`/`according to` per thousand words
+against 5.2 for `said`. Confident declarative prose is the failure mode, so the
+checker warns when hedging falls too low.
+
 ## The pipeline
 
 | Stage | Command | Output |
@@ -91,6 +110,7 @@ speaks for a lab or merely about one.
 | Collect | `python -m pipeline.scrape --hours 24` | `data/raw/posts-*.jsonl` |
 | Cluster | `python -m pipeline.cluster` | `data/briefs/<date>.json` |
 | Write | `/write-edition` in Claude Code | `data/editions/<date>.json` |
+| Check | `python -m pipeline.stylecheck data/editions/<date>.json` | pass/fail |
 | Render | `python -m pipeline.build` | `dist/` |
 
 ### How clustering works
