@@ -7,6 +7,7 @@
   <span class="kicker">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>
   <h1 class="hed">{{ story.headline }}</h1>
   {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}
+  {{ s.figure(story.image) }}
   <div class="body">
     {% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}
   </div>

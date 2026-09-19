@@ -44,6 +44,7 @@ def decorate(stories: list[dict], sections: list[dict]) -> list[dict]:
         story.setdefault("sources", [])
         story.setdefault("body", [])
         story.setdefault("standfirst", "")
+        story.setdefault("image", None)
     return stories
 
 

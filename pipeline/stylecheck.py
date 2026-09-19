@@ -218,6 +218,54 @@ def check_body(body: list[str], report: Report) -> None:
             report.warn(f"body: rule-of-three construction — \"{hit}\"")
 
 
+def check_image(image, headline: str, report: Report) -> None:
+    """Captions and credits are how a reader audits a picture. See style/07."""
+    if not image:
+        return                      # most stories run without one, by design
+    if not image.get("src"):
+        report.error("image: present but has no src")
+        return
+
+    alt = (image.get("alt") or "").strip()
+    if not alt:
+        report.error("image: no alt text")
+    elif re.match(r"^(image|photo|picture|graphic)\s+(of|showing)\b", alt, re.I):
+        report.warn("image: alt text opens with 'image of' — describe the content instead")
+
+    caption = (image.get("caption") or "").strip()
+    if not caption:
+        report.error("image: no caption")
+    else:
+        if len(sentences(caption)) > 2:
+            report.error(f"image: caption has {len(sentences(caption))} sentences, maximum is two")
+        if caption.rstrip(".").lower() == headline.rstrip(".").lower():
+            report.error("image: caption repeats the headline")
+        flag_banned(caption, report, "caption")
+
+    credit = (image.get("credit") or "").strip()
+    if not credit:
+        report.error("image: no credit line")
+    elif credit.startswith("(") or credit.endswith(")"):
+        report.warn("image: credit should not include its own parentheses")
+
+
+def check_chart(chart, report: Report) -> None:
+    """A chart is a claim. See style/08."""
+    if not chart:
+        return
+    if not chart.get("data_source"):
+        report.error("chart: no data source line")
+    if not chart.get("alt"):
+        report.error("chart: no alt text stating the takeaway")
+    points = chart.get("points")
+    if isinstance(points, int) and points <= 3:
+        report.error(f"chart: only {points} data points — three or fewer belong in a sentence")
+    if chart.get("type") == "pie":
+        report.error("chart: pie charts are not used")
+    if chart.get("type") == "bar" and chart.get("axis_starts_at_zero") is False:
+        report.error("chart: bar axis does not start at zero")
+
+
 def check_story(story: dict, index: int) -> Report:
     headline = story.get("headline", "")
     label = f"[{index}] {headline[:58] or '(no headline)'}"
@@ -225,6 +273,8 @@ def check_story(story: dict, index: int) -> Report:
     check_headline(headline, report)
     check_standfirst(story.get("standfirst", ""), report)
     check_body(story.get("body", []) or [], report)
+    check_image(story.get("image"), headline, report)
+    check_chart(story.get("chart"), report)
     if not story.get("sources"):
         report.error("sources: none listed")
     return report

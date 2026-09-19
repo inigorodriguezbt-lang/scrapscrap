@@ -138,6 +138,24 @@ a:hover .hed { text-decoration: underline; text-underline-offset: 3px; }
   padding: 4px 8px 0 0; color: var(--ink);
 }
 
+/* ── figures ─────────────────────────────────────────────────── */
+
+figure { margin: 0 0 16px; }
+figure img, figure svg { width: 100%; height: auto; display: block; background: var(--rule); }
+
+figcaption {
+  font-family: var(--body); font-size: 14px; line-height: 1.45;
+  color: var(--ink-soft); padding-top: 7px;
+  border-top: 1px solid var(--rule); margin-top: 7px;
+}
+.credit {
+  font-family: var(--label); font-size: 11.5px;
+  letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-faint); white-space: nowrap;
+}
+.story--lead figure { margin-bottom: 20px; }
+.story--brief figure img { max-height: 150px; object-fit: cover; }
+
 /* ── sourcing line: the paper's credibility, made visible ─────── */
 
 .sourcing {
