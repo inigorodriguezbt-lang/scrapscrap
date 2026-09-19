@@ -110,6 +110,7 @@ def render_site() -> None:
         "source_count": len(all_sources),
         "current_section": None,
         "topics": cfg.get("topics", []),
+        "site_url": cfg["paper"].get("site_url", "").rstrip("/"),
     }
 
     by_placement = lambda kind: [s for s in stories if s.get("placement") == kind]
@@ -129,13 +130,19 @@ def render_site() -> None:
 
     for story in stories:
         env.get_template("story.html").stream(
-            **{**base, "current_section": story.get("section")},
+            **{**base, "current_section": story.get("section"),
+               "page_title": story["headline"],
+               "page_description": story.get("standfirst") or cfg["paper"]["tagline"],
+               "page_path": f"story/{story['cluster_id']}.html",
+               "page_type": "article"},
             rel="../", story=story,
         ).dump(str(DIST_DIR / "story" / f"{story['cluster_id']}.html"))
 
     for section in sections:
         env.get_template("section.html").stream(
-            **{**base, "current_section": section["slug"]},
+            **{**base, "current_section": section["slug"],
+               "page_title": f"{section['name']} · {cfg['paper']['name']}",
+               "page_path": f"section/{section['slug']}.html"},
             rel="../", section=section,
             stories=[s for s in stories if s.get("section") == section["slug"]],
         ).dump(str(DIST_DIR / "section" / f"{section['slug']}.html"))
@@ -159,8 +166,60 @@ def render_site() -> None:
         str(DIST_DIR / "archive.html")
     )
 
+    site = base["site_url"]
+    host = site.replace("https://", "").replace("http://", "")
+
+    # Custom domain for GitHub Pages.
+    (DIST_DIR / "CNAME").write_text(host + "\n", encoding="utf-8")
+
+    (DIST_DIR / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\n\nSitemap: {site}/sitemap.xml\n", encoding="utf-8")
+
+    # Sitemap over every page actually rendered.
+    urls = []
+    for path in sorted(DIST_DIR.rglob("*.html")):
+        rel_path = path.relative_to(DIST_DIR).as_posix()
+        if rel_path == "404.html":
+            continue
+        loc = f"{site}/" + ("" if rel_path == "index.html" else rel_path)
+        urls.append(f"  <url><loc>{loc}</loc></url>")
+    (DIST_DIR / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(urls) + "\n</urlset>\n", encoding="utf-8")
+
+    # Atom feed. A newspaper without a feed is not readable by machines.
+    def esc(text: str) -> str:
+        return (text.replace("&", "&amp;").replace("<", "&lt;")
+                    .replace(">", "&gt;").replace('"', "&quot;"))
+    entries = []
+    for story in stories:
+        url = f"{site}/story/{story['cluster_id']}.html"
+        published = story.get("published_at") or utcnow().isoformat()
+        entries.append(
+            f"  <entry>\n    <id>{url}</id>\n"
+            f"    <title>{esc(story['headline'])}</title>\n"
+            f'    <link rel="alternate" type="text/html" href="{url}"/>\n'
+            f"    <updated>{published}</updated>\n"
+            f"    <summary>{esc(story.get('standfirst') or '')}</summary>\n"
+            f"    <category term=\"{esc(story.get('section_name') or '')}\"/>\n  </entry>")
+    (DIST_DIR / "feed.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<feed xmlns="http://www.w3.org/2005/Atom">\n'
+        f"  <id>{site}</id>\n  <title>{esc(cfg['paper']['name'])}</title>\n"
+        f"  <subtitle>{esc(cfg['paper']['tagline'])}</subtitle>\n"
+        f"  <updated>{utcnow().isoformat()}</updated>\n"
+        f'  <link rel="self" href="{site}/feed.xml"/>\n'
+        f'  <link rel="alternate" href="{site}"/>\n'
+        + "\n".join(entries) + "\n</feed>\n", encoding="utf-8")
+
+    env.get_template("notfound.html").stream(
+        **{**base, "page_title": f"Page not found · {cfg['paper']['name']}"}, rel=""
+    ).dump(str(DIST_DIR / "404.html"))
+
     pages = len(list(DIST_DIR.rglob("*.html")))
     print(f"Rendered {pages} pages → {DIST_DIR}")
+    print(f"  {host} · sitemap {len(urls)} urls · feed {len(entries)} entries")
     print(f"  front page: {len(stories)} stories, {len(all_sources)} sources, {len(issues)} back issues")
 
 

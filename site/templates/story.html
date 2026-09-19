@@ -2,6 +2,18 @@
 {% import "_story.html" as s %}
 {% block title %}{{ story.headline|nbhy }} · {{ paper.name }}{% endblock %}
 {% block content %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ story.headline|tojson }},
+  "description": {{ story.standfirst|tojson }},
+  "datePublished": {{ story.published_at|default('', true)|tojson }},
+  "articleSection": {{ story.section_name|tojson }},
+  "publisher": {"@type": "NewsMediaOrganization", "name": {{ paper.name|tojson }}},
+  "mainEntityOfPage": {{ (site_url ~ '/story/' ~ story.cluster_id ~ '.html')|tojson }}
+}
+</script>
 <article class="article story">
   <a class="backlink" href="{{ rel }}index.html">← Front Page</a>
   <span class="kicker">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>

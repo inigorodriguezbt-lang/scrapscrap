@@ -4,7 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ paper.name }} · {{ paper.tagline }}{% endblock %}</title>
-<meta name="description" content="{{ paper.tagline }}">
+<meta name="description" content="{{ page_description|default(paper.tagline, true) }}">
+<link rel="canonical" href="{{ site_url }}/{{ page_path|default('', true) }}">
+<link rel="alternate" type="application/atom+xml" title="{{ paper.name }}" href="{{ rel }}feed.xml">
+
+<!-- Link previews. Without these a shared story renders as a bare URL. -->
+<meta property="og:site_name" content="{{ paper.name }}">
+<meta property="og:type" content="{{ page_type|default('website', true) }}">
+<meta property="og:title" content="{{ page_title|default(paper.name, true) }}">
+<meta property="og:description" content="{{ page_description|default(paper.tagline, true) }}">
+<meta property="og:url" content="{{ site_url }}/{{ page_path|default('', true) }}">
+<meta property="og:image" content="{{ site_url }}/assets/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title|default(paper.name, true) }}">
+<meta name="twitter:description" content="{{ page_description|default(paper.tagline, true) }}">
+<meta name="twitter:image" content="{{ site_url }}/assets/social-card.png">
 <link rel="icon" href="{{ rel }}assets/monogram.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
