@@ -44,7 +44,10 @@
 {% endif %}
 {% endmacro %}
 
-{% macro block(story, variant, rel, show_body=False, show_figure=True, quiet_kicker=False) %}
+{# show_body prints the whole piece and belongs only on a story page. The
+   front page trails: headline, standfirst, and for the lead a single opening
+   paragraph with a link through. #}
+{% macro block(story, variant, rel, show_body=False, show_figure=True, quiet_kicker=False, teaser=0) %}
 <article class="story story--{{ variant }}" {% if story.topic %}id="{{ story.topic }}"{% endif %}>
   <span class="kicker{% if quiet_kicker %} kicker--quiet{% endif %}">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>
   <h2 class="hed"><a href="{{ rel }}story/{{ story.cluster_id }}.html">{{ story.headline|nbhy }}</a></h2>
@@ -52,6 +55,11 @@
   {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}
   {% if show_body and story.body %}
   <div class="body">{% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}</div>
+  {% elif teaser and story.body %}
+  <div class="body">
+    {% for paragraph in story.body[:teaser] %}<p>{{ paragraph }}</p>{% endfor %}
+    <p class="jump"><a href="{{ rel }}story/{{ story.cluster_id }}.html">Continue reading</a></p>
+  </div>
   {% endif %}
   {{ sourcing(story) }}
 </article>

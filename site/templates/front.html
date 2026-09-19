@@ -8,23 +8,27 @@
 </p>
 {% else %}
 
-<div class="frontpage">
+{# An empty column is worse than a narrower page, so the grid only carries
+   the columns that have copy in them. A thin edition reads as a thin
+   edition, not as a broken layout. #}
+{% set cols = 1 + (1 if left else 0) + (1 if latest else 0) %}
+<div class="frontpage frontpage--{{ cols }}">
 
-  {# left column: the secondary stories #}
+  {% if left %}
   <div class="col">
     {% for story in left %}{{ s.block(story, 'column', rel) }}{% endfor %}
   </div>
+  {% endif %}
 
   {# centre: the lead, then what runs under it #}
-  <div class="col">
-    {% if lead %}{{ s.block(lead, 'lead', rel, show_body=True) }}{% endif %}
+  <div class="col col--main">
+    {% if lead %}{{ s.block(lead, 'lead', rel, teaser=1) }}{% endif %}
     {% for story in second %}{{ s.block(story, 'second', rel) }}{% endfor %}
   </div>
 
-  {# right: the timestamped pulse of the paper #}
+  {% if latest %}
   <div class="col col--briefs">
     <div class="rail__head">Latest</div>
-    {% if latest %}
     <ul class="latest">
       {% for story in latest %}
       <li>
@@ -33,8 +37,8 @@
       </li>
       {% endfor %}
     </ul>
-    {% endif %}
   </div>
+  {% endif %}
 
 </div>
 
