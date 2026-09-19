@@ -201,21 +201,17 @@ def render_site() -> None:
             latest=(issue_front[5:] + issue_inside)[:9], inside=issue_inside[:8],
         ).dump(page("issue", date))
 
-    # Games. Two draw their puzzles from the archive, so every headline the
-    # paper publishes is also a puzzle; the rest read hand-written data.
-    from .games import build_games
-    build_games(all_stories, DIST_DIR / "assets" / "games")
+    # Games. Three daily puzzles, generated with a uniqueness solver at build
+    # time and shipped without their solutions.
+    from .puzzles import build_puzzles
+    build_puzzles(DIST_DIR / "assets" / "games")
     games = [
-        {"slug": "turing", "name": "Turing", "glyph": "🟦🟦⬛🟦🟦", "kicker": "Human or machine",
-         "pitch": "Five passages. Some by a person, some by a machine. Say which."},
-        {"slug": "redact", "name": "Redact", "glyph": "🟦⬛🟦🟦", "kicker": "A headline, blacked out",
-         "pitch": "Today's headline with three words missing. Six misses and it stays classified."},
-        {"slug": "ballpark", "name": "Ballpark", "glyph": "⬛⬜🟦", "kicker": "Guess the number",
-         "pitch": "One number from today's news. Higher or lower, five tries, within ten percent wins."},
-        {"slug": "timeline", "name": "Timeline", "glyph": "🟦⬛🟦🟦🟦", "kicker": "Put it in order",
-         "pitch": "Five moments in the history of AI, shuffled. Earliest first. Two checks."},
-        {"slug": "splice", "name": "Splice", "glyph": "🟦🟦⬛", "kicker": "Find the seam",
-         "pitch": "Two of our headlines joined into one. Tap the word where they meet."},
+        {"slug": "lanterns", "name": "Lanterns", "glyph": "🟦⬜⬜🟦", "kicker": "Light the room",
+         "pitch": "Place lanterns so every square is lit and no two lanterns can see each other. Against the clock."},
+        {"slug": "camp", "name": "Camp", "glyph": "⬜🟦⬜🟦", "kicker": "Pitch the tents",
+         "pitch": "One tent beside every tree. Tents never touch. The margins tell you how many go in each line."},
+        {"slug": "nine", "name": "Nine", "glyph": "🟦🟦🟦", "kicker": "Find the words",
+         "pitch": "Nine letters, one nine-letter word hiding in them. Find as many words as you can; the nine is the prize."},
     ]
     env.get_template("games/index.html").stream(
         **{**base, "topics": None, "current_section": "games", "page_title": f"Games · {cfg['paper']['name']}",

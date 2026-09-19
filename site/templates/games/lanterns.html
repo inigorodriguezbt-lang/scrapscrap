@@ -1,0 +1,86 @@
+{% extends "games/_game.html" %}
+{% block rules %}Light every square. A lantern lights its row and column until it hits a wall. <b>No lantern may shine on another.</b> A number on a wall is how many lanterns touch it. Tap a square for a lantern; tap again to mark it empty.{% endblock %}
+{% block script %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var G = Games, el = G.el, root = document.getElementById("root"), rel = document.getElementById("game").dataset.rel;
+  document.getElementById("num").textContent = G.number();
+  G.fetchJSON(rel + "assets/games/lanterns.json").then(function (d) {
+    var p = G.pick(d.puzzles, G.day()), n = p.n;
+    var walls = {}; p.walls.forEach(function (w) { walls[w[0] + "," + w[1]] = w[2]; });
+    var s = G.state("lanterns") || G.setState("lanterns", { marks: {} });
+    var clock = el("span", { class: "clock" }); document.getElementById("meta-right").appendChild(clock);
+    var t = G.timer("lanterns", s, clock);
+    var board = el("div", { class: "board", style: "grid-template-columns: repeat(" + n + ", 1fr); max-width: 420px;" });
+    root.appendChild(board);
+    var bar = el("div", { class: "row" }, [el("button", { class: "btn btn--ghost", onclick: function () { if (s.solved) return; s.marks = {}; G.setState("lanterns", s); render(); } }, ["Clear"])]);
+    root.appendChild(bar);
+    var done = el("div"); root.appendChild(done);
+    render();
+
+    function key(r, c) { return r + "," + c; }
+    function lamps() { return Object.keys(s.marks).filter(function (k) { return s.marks[k] === "L"; }).map(function (k) { return k.split(",").map(Number); }); }
+    function analyse() {
+      var lit = {}, seen = {};
+      lamps().forEach(function (L) {
+        var k = key(L[0], L[1]); lit[k] = (lit[k] || 0) + 1;
+        [[0, 1], [0, -1], [1, 0], [-1, 0]].forEach(function (d) {
+          var r = L[0] + d[0], c = L[1] + d[1];
+          while (r >= 0 && r < n && c >= 0 && c < n && !(key(r, c) in walls)) {
+            var kk = key(r, c); lit[kk] = (lit[kk] || 0) + 1;
+            if (s.marks[kk] === "L") { seen[kk] = 1; seen[k] = 1; }
+            r += d[0]; c += d[1];
+          }
+        });
+      });
+      var wallState = {};
+      Object.keys(walls).forEach(function (k) {
+        if (walls[k] === null) return;
+        var rc = k.split(",").map(Number), cnt = 0;
+        [[0, 1], [0, -1], [1, 0], [-1, 0]].forEach(function (d) { if (s.marks[key(rc[0] + d[0], rc[1] + d[1])] === "L") cnt++; });
+        wallState[k] = cnt === walls[k] ? "ok" : cnt > walls[k] ? "over" : "";
+      });
+      var allLit = true;
+      for (var r = 0; r < n; r++) for (var c = 0; c < n; c++) if (!(key(r, c) in walls) && !lit[key(r, c)]) allLit = false;
+      var solved = allLit && !Object.keys(seen).length && Object.keys(wallState).every(function (k) { return wallState[k] === "ok"; });
+      return { lit: lit, seen: seen, wallState: wallState, solved: solved };
+    }
+    function render() {
+      var a = analyse();
+      board.innerHTML = "";
+      board.classList.toggle("board--done", !!s.solved);
+      for (var r = 0; r < n; r++) for (var c = 0; c < n; c++) (function (r, c) {
+        var k = key(r, c);
+        if (k in walls) {
+          board.appendChild(el("div", { class: "cell cell--wall " + (a.wallState[k] || "") }, [walls[k] === null ? "" : String(walls[k])]));
+          return;
+        }
+        var kids = [];
+        if (s.marks[k] === "L") kids.push(el("div", { class: "lamp" + (a.seen[k] ? " bad" : "") }));
+        else if (s.marks[k] === "X") kids.push(el("div", { class: "x" }));
+        board.appendChild(el("div", { class: "cell" + (a.lit[k] ? " cell--lit" : ""), role: "button", tabindex: "0", "aria-label": "Row " + (r + 1) + " column " + (c + 1),
+          onclick: function () { tap(k); }, onkeydown: function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tap(k); } } }, kids));
+      })(r, c);
+      if (a.solved && !s.solved) { s.solved = true; var time = t.stop(); G.setState("lanterns", s); finish(time); }
+      else if (s.solved && !done.childNodes.length) finish(t.text());
+    }
+    function tap(k) {
+      if (s.solved) return;
+      t.start();
+      s.marks[k] = s.marks[k] === "L" ? "X" : s.marks[k] === "X" ? undefined : "L";
+      if (!s.marks[k]) delete s.marks[k];
+      G.setState("lanterns", s); render();
+    }
+    function finish(time) {
+      var st = G.record("lanterns", true);
+      bar.style.display = "none";
+      done.innerHTML = "";
+      done.appendChild(G.resultPanel({
+        title: "Lit in " + time + ".", lines: [], stats: st,
+        shareText: "Lanterns #" + G.number() + " · " + time + (st.streak > 1 ? " · streak " + st.streak : "") + "\n" + G.SITE + "/games/lanterns/"
+      }));
+    }
+  });
+});
+</script>
+{% endblock %}

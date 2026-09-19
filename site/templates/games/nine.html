@@ -1,0 +1,80 @@
+{% extends "games/_game.html" %}
+{% block rules %}Nine letters. Make words of four letters or more, each letter used once per word. <b>One nine-letter word is hiding in there.</b> Find it, or reach Genius, to keep your streak.{% endblock %}
+{% block script %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var G = Games, el = G.el, root = document.getElementById("root"), rel = document.getElementById("game").dataset.rel;
+  var TIERS = [["Beginner", 0], ["Good start", .08], ["Moving up", .18], ["Good", .3], ["Solid", .42], ["Great", .55], ["Amazing", .7], ["Genius", .85]];
+  document.getElementById("num").textContent = G.number();
+  G.fetchJSON(rel + "assets/games/nine.json").then(function (d) {
+    var p = G.pick(d.puzzles, G.day());
+    var valid = {}; p.words.forEach(function (w) { valid[w] = 1; });
+    var s = G.state("nine") || G.setState("nine", { found: [], order: p.letters.split("") });
+    var entry = [];   // indices into s.order
+    document.getElementById("meta-right").textContent = p.words.length + " words · " + p.max + " points";
+    var entryEl = el("div", { class: "entry" }), tiles = el("div", { class: "tiles" });
+    var rank = el("div", { class: "rank" }), bar = el("div", { class: "bar" }), found = el("div", { class: "found" }), done = el("div");
+    var controls = el("div", { class: "row" }, [
+      el("button", { class: "btn btn--ghost", onclick: function () { entry.pop(); paint(); } }, ["Delete"]),
+      el("button", { class: "btn btn--ghost", onclick: function () { s.order = G.shuffle(s.order, Date.now() & 0xffff); entry = []; G.setState("nine", s); paint(); } }, ["Shuffle"]),
+      el("button", { class: "btn", onclick: submit }, ["Enter"])
+    ]);
+    [entryEl, tiles, controls, rank, bar, found, done].forEach(function (x) { root.appendChild(x); });
+    document.addEventListener("keydown", function (e) {
+      if (s.revealed) return;
+      if (e.key === "Enter") { submit(); return; }
+      if (e.key === "Backspace") { entry.pop(); paint(); return; }
+      if (/^[a-z]$/i.test(e.key)) {
+        var ch = e.key.toLowerCase();
+        for (var i = 0; i < s.order.length; i++) if (s.order[i] === ch && entry.indexOf(i) < 0) { entry.push(i); paint(); return; }
+      }
+    });
+    paint();
+
+    function score() { return s.found.reduce(function (a, w) { return a + w.length + (w.length === 9 ? 20 : 0); }, 0); }
+    function tier() { var sc = score() / p.max, t = TIERS[0]; TIERS.forEach(function (x) { if (sc >= x[1]) t = x; }); return t; }
+    function hasNine() { return s.found.some(function (w) { return w.length === 9; }); }
+    function paint() {
+      var word = entry.map(function (i) { return s.order[i]; }).join("");
+      entryEl.innerHTML = ""; entryEl.appendChild(document.createTextNode(word)); if (!s.revealed) entryEl.appendChild(el("span", { class: "caret" }));
+      tiles.innerHTML = "";
+      s.order.forEach(function (ch, i) {
+        tiles.appendChild(el("div", { class: "tile-l" + (entry.indexOf(i) >= 0 ? " used" : ""), role: "button", tabindex: "0",
+          onclick: function () { if (s.revealed) return; var k = entry.indexOf(i); if (k >= 0) entry.splice(k, 1); else entry.push(i); paint(); } }, [ch]));
+      });
+      var t = tier(), sc = score();
+      rank.innerHTML = ""; rank.appendChild(el("span", null, [el("b", null, [t[0]]), " · " + sc + " points"])); rank.appendChild(el("span", null, [s.found.length + " word" + (s.found.length === 1 ? "" : "s") + (hasNine() ? " · nine ✓" : "")]));
+      bar.innerHTML = ""; bar.appendChild(el("b", { style: "width:" + Math.min(100, 100 * sc / p.max) + "%" }));
+      TIERS.forEach(function (x) { bar.appendChild(el("i", { class: sc / p.max >= x[1] ? "hit" : "", style: "left:" + (100 * x[1]) + "%", title: x[0] })); });
+      found.innerHTML = ""; found.className = "found" + (s.found.length ? "" : " found--empty");
+      if (!s.found.length) found.textContent = "Your words appear here.";
+      s.found.slice().sort().forEach(function (w) { found.appendChild(el("div", { class: w.length === 9 ? "nine9" : "" }, [w])); });
+      if ((t[0] === "Genius" || hasNine()) && !s.won) { s.won = true; G.setState("nine", s); G.record("nine", true); }
+      done.innerHTML = "";
+      if (s.won || s.revealed) {
+        var st = G.stats("nine");
+        done.appendChild(G.resultPanel({
+          title: s.revealed && !s.won ? "The nine was " + p.nines.join(" / ") + "." : hasNine() ? "You found the nine." : "Genius.",
+          lines: [], stats: st,
+          shareText: "Nine #" + G.number() + " · " + t[0] + " · " + s.found.length + " words" + (hasNine() ? " · found the nine" : "") + "\n" + G.SITE + "/games/nine/",
+          extra: el("p", null, ["Keep going: " + (p.words.length - s.found.length) + " words left, " + (p.max - sc) + " points."])
+        }));
+      } else if (s.found.length >= 8) {
+        done.appendChild(el("p", { class: "note", style: "margin-top:16px" }, [el("a", { href: "#", onclick: function (e) { e.preventDefault(); if (confirm("Show the nine-letter word? That ends today's streak.")) { s.revealed = true; G.setState("nine", s); G.record("nine", false); paint(); } } }, ["Show me the nine"]), " (ends the streak)"]));
+      }
+    }
+    function submit() {
+      if (s.revealed) return;
+      var word = entry.map(function (i) { return s.order[i]; }).join("");
+      entry = [];
+      if (word.length < 4) { G.toast("Four letters or more"); paint(); return; }
+      if (s.found.indexOf(word) >= 0) { G.toast("Already found"); paint(); return; }
+      if (!valid[word]) { G.toast("Not in the list"); paint(); return; }
+      s.found.push(word); G.setState("nine", s);
+      G.toast(word.length === 9 ? "The nine! +" + (9 + 20) : ["Nice", "Good", "Great", "Excellent"][Math.min(3, word.length - 4)] + " +" + word.length);
+      paint();
+    }
+  });
+});
+</script>
+{% endblock %}

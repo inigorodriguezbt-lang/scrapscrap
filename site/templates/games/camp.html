@@ -1,0 +1,80 @@
+{% extends "games/_game.html" %}
+{% block rules %}Pitch one tent next to every tree, up, down, left or right. <b>Tents never touch, not even at a corner.</b> The numbers say how many tents are in each row and column. Tap for a tent; tap again to mark grass.{% endblock %}
+{% block script %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var G = Games, el = G.el, root = document.getElementById("root"), rel = document.getElementById("game").dataset.rel;
+  document.getElementById("num").textContent = G.number();
+  G.fetchJSON(rel + "assets/games/camp.json").then(function (d) {
+    var p = G.pick(d.puzzles, G.day()), n = p.n;
+    var trees = {}; p.trees.forEach(function (t) { trees[t[0] + "," + t[1]] = 1; });
+    var s = G.state("camp") || G.setState("camp", { marks: {} });
+    var clock = el("span", { class: "clock" }); document.getElementById("meta-right").appendChild(clock);
+    var t = G.timer("camp", s, clock);
+    var wrap = el("div", { class: "boardwrap" });
+    var corner = el("div"), top = el("div", { class: "margins", style: "grid-template-columns: repeat(" + n + ", 1fr)" }), left = el("div", { class: "margins", style: "grid-template-rows: repeat(" + n + ", 1fr)" });
+    var board = el("div", { class: "board", style: "grid-template-columns: repeat(" + n + ", 1fr)" });
+    wrap.appendChild(corner); wrap.appendChild(top); wrap.appendChild(left); wrap.appendChild(board);
+    root.appendChild(wrap);
+    var bar = el("div", { class: "row" }, [el("button", { class: "btn btn--ghost", onclick: function () { if (s.solved) return; s.marks = {}; G.setState("camp", s); render(); } }, ["Clear"])]);
+    root.appendChild(bar);
+    var done = el("div"); root.appendChild(done);
+    render();
+
+    function key(r, c) { return r + "," + c; }
+    function tents() { return Object.keys(s.marks).filter(function (k) { return s.marks[k] === "T"; }).map(function (k) { return k.split(",").map(Number); }); }
+    function matchable(T) {
+      var treeList = p.trees.map(function (t) { return key(t[0], t[1]); }), idx = {}; treeList.forEach(function (k, i) { idx[k] = i; });
+      var match = treeList.map(function () { return -1; });
+      function adj(tent) { return [[0, 1], [0, -1], [1, 0], [-1, 0]].map(function (d) { return idx[key(tent[0] + d[0], tent[1] + d[1])]; }).filter(function (i) { return i !== undefined; }); }
+      function aug(i, seen) { var opts = adj(T[i]); for (var q = 0; q < opts.length; q++) { var j = opts[q]; if (seen[j]) continue; seen[j] = 1; if (match[j] === -1 || aug(match[j], seen)) { match[j] = i; return true; } } return false; }
+      for (var i = 0; i < T.length; i++) if (!aug(i, {})) return false;
+      return true;
+    }
+    function analyse() {
+      var T = tents(), bad = {}, rows = [], cols = [];
+      for (var i = 0; i < n; i++) { rows.push(0); cols.push(0); }
+      T.forEach(function (a) { rows[a[0]]++; cols[a[1]]++; });
+      T.forEach(function (a) { T.forEach(function (b) { if (a !== b && Math.abs(a[0] - b[0]) <= 1 && Math.abs(a[1] - b[1]) <= 1) { bad[key(a[0], a[1])] = 1; } }); });
+      var counts = rows.every(function (v, i) { return v === p.rows[i]; }) && cols.every(function (v, i) { return v === p.cols[i]; });
+      var solved = counts && !Object.keys(bad).length && T.length === p.trees.length && matchable(T);
+      return { rows: rows, cols: cols, bad: bad, solved: solved };
+    }
+    function margin(v, want) { return el("div", { class: "margin " + (v === want ? "ok" : v > want ? "over" : "") }, [String(want)]); }
+    function render() {
+      var a = analyse();
+      top.innerHTML = ""; left.innerHTML = ""; board.innerHTML = "";
+      board.classList.toggle("board--done", !!s.solved);
+      for (var i = 0; i < n; i++) { top.appendChild(margin(a.cols[i], p.cols[i])); left.appendChild(margin(a.rows[i], p.rows[i])); }
+      for (var r = 0; r < n; r++) for (var c = 0; c < n; c++) (function (r, c) {
+        var k = key(r, c);
+        if (trees[k]) { board.appendChild(el("div", { class: "cell cell--tree" }, [el("div", { class: "tree" })])); return; }
+        var kids = [];
+        if (s.marks[k] === "T") kids.push(el("div", { class: "tent" + (a.bad[k] ? " bad" : "") }));
+        else if (s.marks[k] === "X") kids.push(el("div", { class: "x" }));
+        board.appendChild(el("div", { class: "cell", role: "button", tabindex: "0", "aria-label": "Row " + (r + 1) + " column " + (c + 1),
+          onclick: function () { tap(k); }, onkeydown: function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tap(k); } } }, kids));
+      })(r, c);
+      if (a.solved && !s.solved) { s.solved = true; var time = t.stop(); G.setState("camp", s); finish(time); }
+      else if (s.solved && !done.childNodes.length) finish(t.text());
+    }
+    function tap(k) {
+      if (s.solved) return;
+      t.start();
+      s.marks[k] = s.marks[k] === "T" ? "X" : s.marks[k] === "X" ? undefined : "T";
+      if (!s.marks[k]) delete s.marks[k];
+      G.setState("camp", s); render();
+    }
+    function finish(time) {
+      var st = G.record("camp", true);
+      bar.style.display = "none";
+      done.innerHTML = "";
+      done.appendChild(G.resultPanel({
+        title: "Camp pitched in " + time + ".", lines: [], stats: st,
+        shareText: "Camp #" + G.number() + " · " + time + (st.streak > 1 ? " · streak " + st.streak : "") + "\n" + G.SITE + "/games/camp/"
+      }));
+    }
+  });
+});
+</script>
+{% endblock %}

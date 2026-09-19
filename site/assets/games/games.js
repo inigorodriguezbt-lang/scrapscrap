@@ -139,9 +139,22 @@ window.Games = (function () {
     return el("div", { class: "stat" }, [el("div", { class: "stat__v" }, [String(v)]), el("div", { class: "stat__l" }, [label])]);
   }
 
+  // ---- timer: starts on the first move, survives a reload, stops on solve
+  function timer(game, s, node) {
+    function fmt(ms) { var t = Math.max(0, Math.floor(ms / 1000)); return Math.floor(t / 60) + ":" + ("0" + (t % 60)).slice(-2); }
+    function paint() { node.textContent = s.elapsed != null ? fmt(s.elapsed) : s.startedAt ? fmt(Date.now() - s.startedAt) : "0:00"; }
+    paint();
+    var iv = setInterval(function () { paint(); if (s.elapsed != null) clearInterval(iv); }, 250);
+    return {
+      start: function () { if (!s.startedAt && s.elapsed == null) { s.startedAt = Date.now(); setState(game, s); } },
+      stop: function () { if (s.elapsed == null) { s.elapsed = Date.now() - (s.startedAt || Date.now()); setState(game, s); } paint(); return fmt(s.elapsed); },
+      text: function () { return fmt(s.elapsed != null ? s.elapsed : Date.now() - (s.startedAt || Date.now())); }
+    };
+  }
+
   function fetchJSON(url) { return fetch(url, { cache: "no-cache" }).then(function (r) { return r.json(); }); }
 
-  return { day: day, number: number, rng: rng, shuffle: shuffle, pick: pick, state: state, setState: setState,
+  return { timer: timer, day: day, number: number, rng: rng, shuffle: shuffle, pick: pick, state: state, setState: setState,
            record: record, stats: stats, el: el, toast: toast, share: share, countdown: countdown,
            resultPanel: resultPanel, fetchJSON: fetchJSON, SITE: "theaipost.net" };
 })();
