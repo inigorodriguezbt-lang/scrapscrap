@@ -1,24 +1,25 @@
 {
   "source": "Chronicling America (Library of Congress), public domain",
-  "pages_fetched": 4,
-  "complete": false,
+  "pages_fetched": 24,
+  "complete": true,
+  "note": "Whole-page OCR filtered to news-like prose; see clean_sentences().",
   "overall": {
-    "sentences": 214,
-    "words": 4682,
-    "mean_sentence_words": 21.9,
-    "median_sentence_words": 19.0,
-    "p90_sentence_words": 38.0,
-    "mean_word_chars": 4.69,
-    "long_word_share": 0.236,
-    "type_token_ratio": 0.396,
-    "attribution_said_per_1k": 4.27,
-    "hedges_per_1k": 1.71,
-    "adverbs_ly_per_1k": 6.19,
-    "intensifiers_per_1k": 0.21,
-    "hype_per_1k": 0.0,
-    "passive_per_1k": 6.83,
-    "semicolon_per_1k": 1.71,
-    "em_dash_per_1k": 1.92
+    "sentences": 2031,
+    "words": 46492,
+    "mean_sentence_words": 22.9,
+    "median_sentence_words": 20,
+    "p90_sentence_words": 35.0,
+    "mean_word_chars": 4.42,
+    "long_word_share": 0.224,
+    "type_token_ratio": 0.119,
+    "attribution_said_per_1k": 21.27,
+    "hedges_per_1k": 1.16,
+    "adverbs_ly_per_1k": 3.55,
+    "intensifiers_per_1k": 0.24,
+    "hype_per_1k": 0.02,
+    "passive_per_1k": 3.85,
+    "semicolon_per_1k": 1.66,
+    "em_dash_per_1k": 5.29
   },
   "by_era": {
     "1900-1919": {
@@ -38,6 +39,81 @@
       "passive_per_1k": 6.83,
       "semicolon_per_1k": 1.71,
       "em_dash_per_1k": 1.92
+    },
+    "1920-1939": {
+      "sentences": 1361,
+      "words": 32281,
+      "mean_sentence_words": 23.7,
+      "median_sentence_words": 21,
+      "p90_sentence_words": 35.0,
+      "mean_word_chars": 4.3,
+      "long_word_share": 0.22,
+      "type_token_ratio": 0.144,
+      "attribution_said_per_1k": 28.1,
+      "hedges_per_1k": 0.62,
+      "adverbs_ly_per_1k": 2.04,
+      "intensifiers_per_1k": 0.12,
+      "hype_per_1k": 0.0,
+      "passive_per_1k": 2.51,
+      "semicolon_per_1k": 1.61,
+      "em_dash_per_1k": 6.85
+    },
+    "1940-1963": {
+      "sentences": 456,
+      "words": 9529,
+      "mean_sentence_words": 20.9,
+      "median_sentence_words": 19.0,
+      "p90_sentence_words": 35.0,
+      "mean_word_chars": 4.67,
+      "long_word_share": 0.231,
+      "type_token_ratio": 0.309,
+      "attribution_said_per_1k": 6.51,
+      "hedges_per_1k": 2.73,
+      "adverbs_ly_per_1k": 7.35,
+      "intensifiers_per_1k": 0.63,
+      "hype_per_1k": 0.1,
+      "passive_per_1k": 6.93,
+      "semicolon_per_1k": 1.78,
+      "em_dash_per_1k": 1.68
     }
-  }
+  },
+  "sampling_queries": [
+    "said yesterday",
+    "announced today",
+    "according to officials",
+    "the committee said",
+    "declared that",
+    "reported that"
+  ],
+  "INVALID_MEASURES": {
+    "fields": [
+      "attribution_said_per_1k",
+      "hedges_per_1k"
+    ],
+    "reason": "Pages were selected by searching for attribution phrases, then attribution was measured on the pages those searches returned. The corpus was selected for the variable being measured, so these rates are circular and must not be used. 'according to' is both a query term and part of the hedge pattern, so hedges are affected too.",
+    "not_duplication": "Checked: only 2% of sentences repeat, and deduplicating moves the said rate 20.07 -> 19.27/1k. The fault is sampling, not repeats."
+  },
+  "VALID_MEASURES": {
+    "fields": [
+      "mean_sentence_words",
+      "median_sentence_words",
+      "p90_sentence_words",
+      "mean_word_chars",
+      "long_word_share",
+      "hype_per_1k",
+      "intensifiers_per_1k",
+      "passive_per_1k",
+      "adverbs_ly_per_1k",
+      "semicolon_per_1k",
+      "em_dash_per_1k"
+    ],
+    "reason": "None of these words or constructions appears in any query term.",
+    "stable_across_eras": {
+      "hype_per_1k": "0.0 / 0.0 / 0.1 - effectively zero for sixty years",
+      "intensifiers_per_1k": "0.21 / 0.12 / 0.63 - near zero throughout",
+      "semicolon_per_1k": "1.71 / 1.61 / 1.78 - strikingly stable; refutes the absolute ban",
+      "mean_sentence_words": "21.9 / 23.7 / 20.9 - stable, and longer than modern copy"
+    }
+  },
+  "type_token_note": "TTR falls with corpus size, so 0.396 at 4.7k words vs 0.119 at 46k words is a size artifact, not evidence of duplication."
 }
