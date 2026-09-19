@@ -90,6 +90,9 @@ def render_site() -> None:
         shutil.rmtree(DIST_DIR)
     for sub in ("story", "section", "issue"):
         (DIST_DIR / sub).mkdir(parents=True, exist_ok=True)
+    import hashlib
+    css_bytes = (SITE_DIR / "style.css").read_bytes()
+    css_version = hashlib.sha256(css_bytes).hexdigest()[:8]
     shutil.copy(SITE_DIR / "style.css", DIST_DIR / "style.css")
     assets = SITE_DIR / "assets"
     if assets.exists():
@@ -111,6 +114,8 @@ def render_site() -> None:
         "current_section": None,
         "topics": cfg.get("topics", []),
         "site_url": cfg["paper"].get("site_url", "").rstrip("/"),
+        # Cache-buster: changes whenever the stylesheet does.
+        "css_version": css_version,
     }
 
     by_placement = lambda kind: [s for s in stories if s.get("placement") == kind]
