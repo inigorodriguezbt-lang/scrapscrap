@@ -1,9 +1,12 @@
 name: Publish edition
 
-# HuggingNews runs its pipeline every two hours; this matches that cadence.
+# Runs on GitHub's infrastructure, not your machine. Secrets live in
+# GitHub Secrets, which is real secret storage -- Claude Code web's
+# environment-variables field is explicitly not (it warns against
+# credentials), which is why the schedule lives here.
 on:
   schedule:
-    - cron: "5 */2 * * *"
+    - cron: "5 */2 * * *"     # every two hours
   workflow_dispatch:
 
 permissions:
@@ -28,30 +31,36 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # The account pool lives in a secret, not the repo. See README.
-      - name: Restore scraper accounts
-        env:
-          TWSCRAPE_ACCOUNTS_DB: ${{ secrets.TWSCRAPE_ACCOUNTS_DB }}
-        run: |
-          if [ -z "$TWSCRAPE_ACCOUNTS_DB" ]; then
-            echo "::error::TWSCRAPE_ACCOUNTS_DB secret is not set; see README."
-            exit 1
-          fi
-          echo "$TWSCRAPE_ACCOUNTS_DB" | base64 -d > accounts.db
-
+      # Base wire: free, breaches nobody's terms, needs no key.
       - name: Collect the wire
-        run: python -m pipeline.scrape --hours 24 --limit 60
+        run: python -m pipeline.wire --hours 24
+
+      # Optional. Skipped entirely when no key is set, so the edition
+      # still ships without a paid provider.
+      - name: Search X for corroboration
+        if: ${{ secrets.XQUIK_API_KEY != '' }}
+        env:
+          XQUIK_API_KEY: ${{ secrets.XQUIK_API_KEY }}
+          X_PROVIDER: xquik
+        run: |
+          python -m pipeline.xsearch --check
+          # Narrow queries only -- every returned row is billed.
+          python -m pipeline.xsearch \
+            --query "(OpenAI OR Anthropic OR Nvidia) (launch OR release OR raises) -filter:replies" \
+            --limit 100 --out data/raw/x-$(date -u +%Y%m%dT%H%M%SZ).jsonl
 
       - name: Declare stories
         run: python -m pipeline.cluster
 
-      # The newsroom. Claude reads the brief and writes the copy.
       - name: Write the edition
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: "/write-edition"
-          claude_args: "--allowedTools Read,Write,Edit,Bash(python -m pipeline.build)"
+          claude_args: "--allowedTools Read,Write,Edit,Bash(python -m pipeline.build),Bash(python -m pipeline.stylecheck)"
+
+      - name: Check house style
+        run: python -m pipeline.stylecheck data/editions/$(date -u +%Y-%m-%d).json
 
       - name: Render the site
         run: python -m pipeline.build
