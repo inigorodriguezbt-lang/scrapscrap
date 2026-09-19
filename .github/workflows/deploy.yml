@@ -1,0 +1,69 @@
+name: Deploy site
+
+# Every push that touches the paper rebuilds and republishes it. This is what
+# makes writing a story and it appearing on the site a single action: the
+# edition JSON is committed, this runs, theaipost.net updates.
+#
+# No secrets. Nothing here reads X or calls a paid API, so it cannot fail for
+# want of a key, and it keeps working if a provider goes away.
+on:
+  push:
+    branches: [claude/keen-cerf-tu0nb3]
+    paths:
+      - 'data/editions/**'
+      - 'site/**'
+      - 'config/**'
+      - 'pipeline/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; always let the newer one win.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # The style gate runs before anything ships. A story that fails the
+      # house rules should not reach the domain.
+      - name: Check house style
+        run: |
+          shopt -s nullglob
+          for edition in data/editions/*.json; do
+            echo "── $edition"
+            python -m pipeline.stylecheck "$edition"
+          done
+
+      - name: Build
+        run: python -m pipeline.build
+
+      - name: Confirm the custom domain is in the build
+        run: |
+          test -f dist/CNAME || { echo "::error::dist/CNAME missing"; exit 1; }
+          echo "CNAME -> $(cat dist/CNAME)"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
