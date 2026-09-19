@@ -116,10 +116,24 @@ class Report:
         return not self.errors
 
 
+QUOTED = re.compile(r'"[^"]*"|\u201c[^\u201d]*\u201d')
+
+
+def strip_quotes(text: str) -> str:
+    """Blank out quoted spans, preserving offsets.
+
+    The banned lists govern how the paper writes, not how a source speaks. If
+    an executive says "very early innings", reporting that phrase is accurate
+    reporting; rewording a quotation to satisfy a house rule is not.
+    """
+    return QUOTED.sub(lambda m: " " * len(m.group(0)), text)
+
+
 def flag_banned(text: str, report: Report, where: str) -> None:
+    unquoted = strip_quotes(text)
     for name, rx in RX.items():
-        for hit in {m.group(0).strip().lower() for m in rx.finditer(text)}:
-            report.error(f"{where}: banned {name.replace('_', ' ')} — \"{hit}\"")
+        for hit in {m.group(0).strip().lower() for m in rx.finditer(unquoted)}:
+            report.error(f"{where}: banned {name.replace('_', ' ')} \u2014 \"{hit}\"")
 
 
 # ── the checks ───────────────────────────────────────────────────────────────

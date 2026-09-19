@@ -2,8 +2,86 @@
   "edition_date": "2026-09-19",
   "stories": [
     {
-      "cluster_id": "helix25",
+      "cluster_id": "wetlab",
       "placement": "lead",
+      "section": "ai",
+      "topic": "legal-safety",
+      "headline": "Anthropic confirms Bay Area wet lab and denies it is for drug discovery",
+      "standfirst": "Reuters reported the facility on Thursday, citing two people familiar with it. The company says machine-run experiments are at an early stage.",
+      "body": [
+        "Anthropic has set up a wet lab in the San Francisco Bay Area for physical biology work, Reuters reported on Thursday, citing two people familiar with the matter. Eric Kauderer-Abrams, the company's head of life sciences, confirmed the lab, saying that in biology the final test is still real lab work.",
+        "The company disputes part of the framing. A spokesperson told Reuters the lab is \"not for drug discovery specifically\", and declined to elaborate. Reuters presented the facility as part of a wider push into AI-assisted drug research. Anthropic has not said how the two descriptions fit together.",
+        "Reuters reported that Anthropic wants Claude to coordinate robotic lab equipment and run experiments with limited human intervention. Kauderer-Abrams said the company is in the \"very early innings\" on machines conducting experiments, and that Anthropic still sends some biological work to outside partners.",
+        "Much about the lab is undisclosed. Anthropic did not give its precise location, its size, its staffing, when it opened, or its biosafety level, which would indicate what material the facility may handle. Those omissions leave the scope of the work hard to judge from outside.",
+        "The lab lands against the company's own warnings. Anthropic publishes research on the risk of AI assisting bioweapons development, and reported last week that it had blocked users it believed were pursuing it. Gizmodo noted that pharmaceutical and weapons research share methods, so capability built for one could serve the other.",
+        "Asked about that tension, Kauderer-Abrams said the company is \"always balancing these things\" and that it manages deployment to reduce risk. Anthropic has separately opened a Life Sciences Verification Program with added safeguards for biology work, and is funding a protein design competition with Adaptyv Bio."
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "published_at": "2026-09-18T16:52:10.687264+00:00",
+      "sources": [
+        {
+          "author": "Reuters \u2014 exclusive",
+          "tier": "press",
+          "kind": "article",
+          "url": "https://www.reuters.com/",
+          "at": "18 Sep"
+        },
+        {
+          "author": "@Reuters",
+          "tier": "press",
+          "kind": "post",
+          "url": "https://x.com/Reuters/status/1789738809",
+          "at": "18 Sep, 13:40 UTC"
+        },
+        {
+          "author": "Eric Kauderer-Abrams, Anthropic",
+          "tier": "primary",
+          "kind": "article",
+          "url": "https://thenextweb.com/news/anthropic-biology-wet-lab-drug-program",
+          "at": "18 Sep"
+        },
+        {
+          "author": "@AnthropicAI \u2014 Life Sciences Verification Program",
+          "tier": "primary",
+          "kind": "post",
+          "url": "https://x.com/AnthropicAI/status/1789668208",
+          "at": "17 Sep, 18:03 UTC"
+        },
+        {
+          "author": "@AnthropicAI \u2014 protein design competition",
+          "tier": "primary",
+          "kind": "post",
+          "url": "https://x.com/AnthropicAI/status/1789681261",
+          "at": "17 Sep, 21:41 UTC"
+        },
+        {
+          "author": "The Next Web",
+          "tier": "press",
+          "kind": "article",
+          "url": "https://thenextweb.com/news/anthropic-biology-wet-lab-drug-program",
+          "at": "18 Sep"
+        },
+        {
+          "author": "CNBC",
+          "tier": "press",
+          "kind": "article",
+          "url": "https://www.cnbc.com/amp/2026/09/18/anthropic-quietly-sets-up-biology-lab-as-it-ramps-ai-drug-program-report.html",
+          "at": "18 Sep"
+        },
+        {
+          "author": "Gizmodo",
+          "tier": "commentary",
+          "kind": "article",
+          "url": "https://gizmodo.com/while-issuing-warnings-about-ai-made-bioweapons-anthropic-quietly-set-up-an-ai-run-robot-operated-biology-lab-here-in-the-us-2000814092",
+          "at": "18 Sep"
+        }
+      ]
+    },
+    {
+      "cluster_id": "helix25",
+      "placement": "front",
       "section": "models",
       "topic": "sector-impact",
       "headline": "Figure reports 56 percent success for humanoid in 30 unseen homes",
