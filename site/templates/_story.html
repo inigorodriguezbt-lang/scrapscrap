@@ -9,11 +9,40 @@
 {% endif %}
 {% endmacro %}
 
+{# Compact credit line, used on the front page where space is tight. #}
 {% macro sourcing(story) %}
 <div class="sourcing">
   <strong>{{ story.sources|length }} {{ 'source' if story.sources|length == 1 else 'sources' }}:</strong>
   {% for source in story.sources %}<a href="{{ source.url }}" rel="nofollow noopener" target="_blank">{{ source.author }}</a>{{ ", " if not loop.last }}{% endfor %}
 </div>
+{% endmacro %}
+
+{# The full block, on the story page. Every source is named, given its role,
+   timestamped and linked out. We link rather than reproduce: the post belongs
+   to whoever wrote it, and a link sends the reader to them. #}
+{% macro source_list(story) %}
+{% if story.sources %}
+<section class="sources">
+  <h2 class="sources__head">
+    Sources
+    <span class="sources__count">{{ story.sources|length }} {{ 'source' if story.sources|length == 1 else 'sources' }}</span>
+  </h2>
+  <ol class="sources__list">
+    {% for source in story.sources %}
+    <li class="src src--{{ source.tier|default('press', true) }}">
+      <a href="{{ source.url }}" target="_blank" rel="external noopener noreferrer nofollow">
+        <span class="src__role">{{ {'primary': 'Primary', 'press': 'Press', 'commentary': 'Commentary'}.get(source.tier, 'Source') }}</span>
+        <span class="src__main">
+          <span class="src__who">{{ source.author }}</span>{% if source.kind == 'post' %}<span class="src__kind">post on X</span>{% endif %}
+        </span>
+        {% if source.at %}<time class="src__at">{{ source.at }}</time>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="sources__note">Every claim in this story traces to a source above. Posts are linked, not reproduced.</p>
+</section>
+{% endif %}
 {% endmacro %}
 
 {% macro block(story, variant, rel, show_body=False, show_figure=True, quiet_kicker=False) %}

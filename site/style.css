@@ -170,6 +170,49 @@ figcaption { font-family: var(--sans); font-size: 12.5px; line-height: 1.45; col
 .sourcing strong { font-weight: 600; color: var(--ink-2); }
 .sourcing a:hover { text-decoration: underline; }
 
+/* ── sources block ──────────────────────────────────────────────── */
+
+.sources { max-width: 660px; margin: 30px auto 0; border-top: 1px solid var(--rule-hard); padding-top: 14px; }
+
+.sources__head {
+  font-family: var(--sans); font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .06em; margin: 0 0 12px;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+}
+.sources__count { font-weight: 400; color: var(--ink-3); letter-spacing: 0; text-transform: none; }
+
+.sources__list { list-style: none; margin: 0; padding: 0; }
+.src { border-bottom: 1px solid var(--rule); }
+.src:last-child { border-bottom: 0; }
+.src a {
+  display: grid; grid-template-columns: 92px 1fr auto; align-items: baseline;
+  gap: 12px; padding: 11px 0;
+}
+.src a:hover .src__who { text-decoration: underline; text-underline-offset: 3px; }
+
+.src__role {
+  font-family: var(--sans); font-size: 10.5px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3);
+}
+/* A company speaking about itself is marked, because the reader should
+   weigh it differently from a reporter. */
+.src--primary .src__role { color: var(--ink); }
+
+.src__main { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; min-width: 0; }
+.src__who { font-size: 16px; font-weight: 600; }
+.src__kind, .src__at {
+  font-family: var(--sans); font-size: 11.5px; color: var(--ink-3); white-space: nowrap;
+}
+
+.sources__note {
+  font-family: var(--sans); font-size: 11.5px; color: var(--ink-3);
+  margin: 12px 0 0; padding-top: 10px; border-top: 1px solid var(--rule);
+}
+
+@media (max-width: 560px) {
+  .src a { grid-template-columns: 1fr; gap: 3px; }
+}
+
 /* ── inside bands ───────────────────────────────────────────────── */
 
 .band { border-top: 1px solid var(--rule-hard); margin-top: 32px; padding-top: 16px; }

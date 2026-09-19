@@ -21,6 +21,6 @@
   {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}
   {{ s.figure(story.image) }}
   <div class="body">{% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}</div>
-  {{ s.sourcing(story) }}
 </article>
+{{ s.source_list(story) }}
 {% endblock %}
