@@ -1,0 +1,47 @@
+/* Charts — Newsroom Editorial
+   All charts share these conventions: white bg, off-black ink, action blue as the accent series.
+   Pure SVG. No JS dependencies. 4px-aligned.
+*/
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+}
+.chart {
+  padding: 20px 24px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.chart .eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #767676;
+}
+.chart .title {
+  font-family: Carnas, "Arial Black", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: #111111;
+}
+.chart .subtitle {
+  font-size: 12px;
+  color: #595959;
+}
+.chart svg { display: block; max-width: 100%; height: auto; }
+.chart text { font-family: Arial, sans-serif; }
+.tick { fill: #767676; font-size: 10px; }
+.axis { stroke: #c4c4c4; stroke-width: 1; }
+.gridline { stroke: #f2f2f2; stroke-width: 1; }
+.label { fill: #111111; font-size: 11px; font-weight: 700; }
+.value { fill: #111111; font-size: 11px; font-weight: 700; }
+.legend { display: flex; gap: 16px; font-size: 11px; color: #595959; flex-wrap: wrap; }
+.legend .swatch { width: 10px; height: 10px; display: inline-block; margin-right: 6px; vertical-align: middle; border-radius: 1px; }

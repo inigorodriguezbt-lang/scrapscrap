@@ -18,7 +18,6 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .cards import render as render_card
-from .chart import bars as render_chart
 from .common import DIST_DIR, EDITIONS_DIR, SITE_DIR, load_config, utcnow
 
 
@@ -155,16 +154,17 @@ def render_site() -> None:
     # One preview card per story, so a shared link carries its own headline
     # rather than the same nameplate every time.
     cards_dir = DIST_DIR / "assets" / "cards"
-    charts_dir = DIST_DIR / "assets" / "charts"
+    # Charts are rendered when the story is written (pipeline/charts_ds.py
+    # needs a browser, which the deploy runner does not have) and committed
+    # under site/assets/charts/, so here they only need to exist.
     for story in all_stories:
         render_card(story, cards_dir / f"{story['cluster_id']}.png",
                     paper_name=cfg["paper"]["name"])
-        spec = story.get("chart_spec")
-        if spec:
-            render_chart(panels=[{**p, "rows": [tuple(r) for r in p["rows"]]}
-                                 for p in spec["panels"]],
-                         source=spec["source"],
-                         out=charts_dir / f"{story['cluster_id']}.png")
+        if story.get("chart_spec"):
+            chart = SITE_DIR / "assets" / "charts" / f"{story['cluster_id']}.png"
+            if not chart.exists():
+                raise SystemExit(f"{story['cluster_id']}: chart_spec set but {chart} is missing; "
+                                 f"run: python -m pipeline.charts_ds story <edition> {story['cluster_id']}")
 
     for story in all_stories:
         env.get_template("story.html").stream(

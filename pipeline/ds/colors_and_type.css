@@ -1,0 +1,213 @@
+/* =============================================================
+   Newsroom Editorial Design System — Design Tokens
+   Colors + Typography
+   Palette derived from The Washington Post's published web
+   palette (off-black ink #111111, charcoal #2a2a2a, gray-mid
+   #595959, action blue #166dfc, link blue #1366b3).
+   ============================================================= */
+
+@font-face {
+  font-family: "Carnas";
+  src: url("./fonts/CarnasW03-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* -----------------------------------------------------------
+     COLORS — base palette
+     ----------------------------------------------------------- */
+  --wp-white: #ffffff;
+  --wp-ink: #111111;               /* off-black — body text, rules, ink */
+  --wp-black: #000000;             /* full-bleed inverse sections */
+  --wp-blue: #166dfc;              /* action / accent — CTAs, key stat, one per view */
+  --wp-blue-deep: #1366b3;         /* links, hover, fills carrying white text */
+  --wp-blue-tint: #eaf2fe;         /* callout / highlighted-row wash */
+  --wp-blue-tint-strong: #bcd8fd;  /* tint border, secondary chart series */
+  --wp-red: #c9221c;               /* breaking / live / negative only */
+
+  /* Neutral scale — cool grey, matches the off-black ink */
+  --wp-ink-900: #000000;
+  --wp-ink-800: #111111;
+  --wp-ink-700: #2a2a2a;
+  --wp-ink-600: #595959;
+  --wp-ink-500: #767676;
+  --wp-ink-400: #9e9e9e;
+  --wp-ink-300: #c4c4c4;
+  --wp-ink-200: #e0e0e0;
+  --wp-ink-100: #f2f2f2;
+  --wp-ink-050: #f7f7f7;
+
+  /* -----------------------------------------------------------
+     COLORS — semantic
+     ----------------------------------------------------------- */
+  --wp-bg: var(--wp-white);
+  --wp-bg-subtle: var(--wp-ink-050);
+  --wp-bg-inverse: var(--wp-black);
+
+  --wp-fg: var(--wp-ink);
+  --wp-fg-muted: var(--wp-ink-600);
+  --wp-fg-subtle: var(--wp-ink-500);
+  --wp-fg-on-dark: var(--wp-white);
+  --wp-fg-on-accent: var(--wp-white);
+
+  --wp-accent: var(--wp-blue);
+  --wp-accent-hover: var(--wp-blue-deep);
+  --wp-link: var(--wp-blue-deep);
+
+  --wp-border: var(--wp-ink-200);
+  --wp-border-strong: var(--wp-ink-300);
+  --wp-divider: var(--wp-ink-200);
+
+  /* Status — used sparingly; the system is near-monochrome */
+  --wp-success: #1f7a4d;
+  --wp-warning: #a8710f;
+  --wp-danger:  var(--wp-red);
+
+  /* -----------------------------------------------------------
+     TYPOGRAPHY — families
+     ----------------------------------------------------------- */
+  --wp-font-display: "Carnas", "Arial Black", Arial, sans-serif;
+  --wp-font-body:    Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  --wp-text-xs:   12px;
+  --wp-text-sm:   14px;
+  --wp-text-base: 16px;
+  --wp-text-md:   18px;
+  --wp-text-lg:   22px;
+  --wp-text-xl:   28px;
+  --wp-text-2xl:  36px;
+  --wp-text-3xl:  48px;
+  --wp-text-4xl:  64px;
+  --wp-text-5xl:  88px;
+  --wp-text-6xl:  120px;
+
+  --wp-leading-tight: 1.05;
+  --wp-leading-snug:  1.15;
+  --wp-leading-normal: 1.4;
+  --wp-leading-loose:  1.6;
+
+  --wp-tracking-tight: -0.02em;
+  --wp-tracking-normal: 0;
+  --wp-tracking-wide:   0.08em;
+
+  /* -----------------------------------------------------------
+     SPACING — 4px base
+     ----------------------------------------------------------- */
+  --wp-space-1: 4px;
+  --wp-space-2: 8px;
+  --wp-space-3: 12px;
+  --wp-space-4: 16px;
+  --wp-space-5: 24px;
+  --wp-space-6: 32px;
+  --wp-space-7: 48px;
+  --wp-space-8: 64px;
+  --wp-space-9: 96px;
+  --wp-space-10: 128px;
+
+  /* -----------------------------------------------------------
+     RADIUS — sharp. Newsprint has no rounded corners.
+     ----------------------------------------------------------- */
+  --wp-radius-none: 0;
+  --wp-radius-sm:   2px;
+  --wp-radius-md:   4px;
+  --wp-radius-pill: 999px;
+
+  /* -----------------------------------------------------------
+     ELEVATION — subtle
+     ----------------------------------------------------------- */
+  --wp-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --wp-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --wp-shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.12);
+
+  /* -----------------------------------------------------------
+     LAYOUT
+     ----------------------------------------------------------- */
+  --wp-container-max: 1200px;
+  --wp-gutter: 24px;
+
+  /* -----------------------------------------------------------
+     MOTION
+     ----------------------------------------------------------- */
+  --wp-ease: cubic-bezier(0.2, 0.7, 0.2, 1); /* @kind other */
+  --wp-dur-fast: 140ms; /* @kind other */
+  --wp-dur-base: 240ms; /* @kind other */
+  --wp-dur-slow: 480ms; /* @kind other */
+}
+
+/* =============================================================
+   SEMANTIC TYPOGRAPHY
+   ============================================================= */
+
+.wp-display,
+.wp-h1,
+.wp-h2,
+.wp-h3,
+.wp-h4 {
+  font-family: var(--wp-font-display);
+  font-weight: 700;
+  color: var(--wp-fg);
+  letter-spacing: var(--wp-tracking-tight);
+}
+
+.wp-display {
+  font-size: var(--wp-text-6xl);
+  line-height: var(--wp-leading-tight);
+  letter-spacing: -0.03em;
+}
+
+.wp-h1 { font-size: var(--wp-text-4xl); line-height: var(--wp-leading-tight); }
+.wp-h2 { font-size: var(--wp-text-3xl); line-height: var(--wp-leading-snug); }
+.wp-h3 { font-size: var(--wp-text-2xl); line-height: var(--wp-leading-snug); }
+.wp-h4 { font-size: var(--wp-text-xl); line-height: var(--wp-leading-snug); }
+
+.wp-eyebrow {
+  font-family: var(--wp-font-body);
+  font-weight: 700;
+  font-size: var(--wp-text-xs);
+  letter-spacing: var(--wp-tracking-wide);
+  text-transform: uppercase;
+  color: var(--wp-fg-muted);
+}
+
+.wp-lede {
+  font-family: var(--wp-font-body);
+  font-size: var(--wp-text-lg);
+  line-height: var(--wp-leading-normal);
+  color: var(--wp-fg);
+}
+
+.wp-body {
+  font-family: var(--wp-font-body);
+  font-size: var(--wp-text-base);
+  line-height: var(--wp-leading-loose);
+  color: var(--wp-fg);
+}
+
+.wp-small {
+  font-family: var(--wp-font-body);
+  font-size: var(--wp-text-sm);
+  line-height: var(--wp-leading-normal);
+  color: var(--wp-fg-muted);
+}
+
+.wp-caption {
+  font-family: var(--wp-font-body);
+  font-size: var(--wp-text-xs);
+  line-height: var(--wp-leading-normal);
+  color: var(--wp-fg-subtle);
+  letter-spacing: 0.02em;
+}
+
+.wp-stat {
+  font-family: var(--wp-font-display);
+  font-weight: 700;
+  font-size: var(--wp-text-5xl);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--wp-fg);
+}
+
+a { color: var(--wp-link); }
+a:hover { color: var(--wp-ink); }

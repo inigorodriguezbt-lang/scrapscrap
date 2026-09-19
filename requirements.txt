@@ -1,3 +1,6 @@
 twscrape>=0.17
 PyYAML>=6.0
 Jinja2>=3.1
+
+# Charts are rendered when a story is written, not at deploy: pip install playwright
+# (uses the preinstalled Chromium; see pipeline/charts_ds.py). Deploy never needs it.

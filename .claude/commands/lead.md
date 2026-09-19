@@ -96,8 +96,17 @@ parentheses, and alt text describing the content.
 Per `style/08-charts.md`. Apply the three-part test: the story turns on a
 comparison or trend, **and** prose handles it badly, **and** we have cited data.
 
-**Three numbers or fewer go in a sentence.** The default is no chart. The house
-chart system is supplied separately; do not improvise one.
+**Three numbers or fewer go in a sentence.** The default is no chart.
+
+If the story earns one, pick the form from `python -m pipeline.charts_ds list`,
+first tier before plain (a dumbbell for a gap, a slope for a shift, a lollipop
+for a ranking; a bar only when nothing sharper fits), write the `chart_spec`
+into the story, then render and commit the PNG:
+
+    python -m pipeline.charts_ds story data/editions/<date>.json <cluster_id>
+
+Set `image.src` to `../../assets/charts/<cluster_id>.png` with alt text that
+states the takeaway. Do not improvise a chart outside the system.
 
 ## Step 7 — File
 

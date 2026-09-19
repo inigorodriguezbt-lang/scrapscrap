@@ -286,8 +286,22 @@ def check_chart(chart, report: Report) -> None:
         report.error(f"chart: only {points} data points — three or fewer belong in a sentence")
     if chart.get("type") == "pie":
         report.error("chart: pie charts are not used")
-    if chart.get("type") == "bar" and chart.get("axis_starts_at_zero") is False:
+    if chart.get("type") in ("bar", "hbar", "lollipop") and chart.get("axis_starts_at_zero") is False:
         report.error("chart: bar axis does not start at zero")
+
+
+def check_chart_spec(spec, report: Report) -> None:
+    """The form must be one the house runs; see pipeline/charts_ds.py."""
+    if not spec:
+        return
+    from .charts_ds import EXCLUDED, PRESETS
+    preset = spec.get("preset")
+    if preset in EXCLUDED:
+        report.error(f"chart_spec: {preset} is ruled out — {EXCLUDED[preset]}")
+    elif preset not in PRESETS:
+        report.error(f"chart_spec: {preset!r} is not a house preset (python -m pipeline.charts_ds list)")
+    if not spec.get("source"):
+        report.error("chart_spec: no source line")
 
 
 def check_story(story: dict, index: int) -> Report:
@@ -299,6 +313,7 @@ def check_story(story: dict, index: int) -> Report:
     check_body(story.get("body", []) or [], report)
     check_image(story.get("image"), headline, report)
     check_chart(story.get("chart"), report)
+    check_chart_spec(story.get("chart_spec"), report)
     if not story.get("sources"):
         report.error("sources: none listed")
     return report

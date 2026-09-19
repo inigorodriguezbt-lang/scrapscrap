@@ -1,9 +1,12 @@
+{# A chart PNG carries its own source line (pipeline/charts_ds.py draws it
+   under every chart), so printing the credit again would double it. #}
 {% macro figure(image) %}
 {% if image and image.src %}
+{% set show_credit = image.credit and 'assets/charts/' not in image.src %}
 <figure>
   <img src="{{ image.src }}" alt="{{ image.alt|default('', true) }}" loading="lazy">
-  {% if image.caption or image.credit %}
-  <figcaption>{{ image.caption }}{% if image.credit %} <span class="credit">({{ image.credit }})</span>{% endif %}</figcaption>
+  {% if image.caption or show_credit %}
+  <figcaption>{{ image.caption }}{% if show_credit %} <span class="credit">({{ image.credit }})</span>{% endif %}</figcaption>
   {% endif %}
 </figure>
 {% endif %}

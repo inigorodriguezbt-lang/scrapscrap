@@ -67,8 +67,41 @@ the chart's own title — `Nvidia's reported throughput gain` — or do not draw
   `Revenue grew each quarter from 2024, with the steepest rise in Q3 2026`.
 - Contrast must hold in both light and dark rendering of the page.
 
-## Pending
+## The house chart system
 
-The house chart design system is supplied separately. Until it lands, the rule
-above stands unchanged: **most stories need no chart.** Apply the three-part
-test first, and only then reach for the design system.
+The charts are drawn by the newsroom design system (`pipeline/ds/`, kept
+verbatim) through `pipeline/charts_ds.py`, which holds the presets we run.
+`python -m pipeline.charts_ds list` prints them in three tiers.
+
+**Reach for the first tier before the plain forms.** A bar chart shows the
+numbers; a dumbbell, a slope or a waterfall shows what the numbers did. When
+the data has the shape for a sharper form, the plain bar or line is the wrong
+choice, not the safe one.
+
+| The data is | Reach for | Not |
+|---|---|---|
+| a gap per category, before/after or A/B | dumbbell, dotPlot | grouped bar |
+| several things at two points in time | slope | two bars each |
+| ranked magnitudes, 5–12 rows | lollipop | horizontal bar |
+| gains and losses around zero | divergingBar, deltaDot | bar with negatives |
+| rank over time | bump | multi-line |
+| how a total was built or eaten | waterfall | stacked bar |
+| a series with uncertainty | rangeBand, forecastCone | line |
+| every point in each group | strip, box, violin | bar of averages |
+| a matrix | heatmap, cohort | table |
+| shares of a whole | treemap, stacked100 | pie (never) |
+| flows | sankey | anything else |
+
+Pie, donut, gauge, ring, radial and dual-axis forms are not in the registry
+and the style check refuses them.
+
+**The three-part test still comes first.** A sharp form is no reason to run a
+chart the story does not need; most stories need none.
+
+A story that runs a chart carries a `chart_spec` (preset, title, subtitle,
+data in the preset's shape, source line). Render it when the story is written:
+
+    python -m pipeline.charts_ds story data/editions/<date>.json <cluster_id>
+
+The PNG lands in `site/assets/charts/` and is committed with the story; the
+deploy runner has no browser and only checks that it is there.
