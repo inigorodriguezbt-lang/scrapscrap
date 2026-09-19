@@ -2,7 +2,7 @@
 # The paper's identity. Change these and the whole site follows.
 # ─────────────────────────────────────────────────────────────
 paper:
-  name: "The Latent Times"
+  name: "The AI Post"
   tagline: "The daily record of machine intelligence"
   # Shown in the folio line under the masthead, newspaper-style.
   volume: "Vol. I"
@@ -52,24 +52,43 @@ sources:
 # Keywords seed the classifier that Claude double-checks when writing.
 # ─────────────────────────────────────────────────────────────
 sections:
+  - slug: ai
+    name: "AI"
+    keywords: [model, agent, llm, reasoning, training, inference, benchmark, eval]
   - slug: models
-    name: "Models & Research"
-    keywords: [model, benchmark, weights, checkpoint, paper, arxiv, sota, eval, reasoning, fine-tune]
-  - slug: infrastructure
-    name: "Infrastructure"
-    keywords: [cluster, datacenter, training run, inference, serving, cuda, kernel, throughput, gpu-hours]
+    name: "Model Releases"
+    keywords: [release, weights, checkpoint, open model, launch, available, ships]
   - slug: chips
-    name: "Silicon"
-    keywords: [chip, gpu, tpu, wafer, fab, nvidia, blackwell, tsmc, accelerator, hbm]
+    name: "Compute & Chips"
+    keywords: [chip, gpu, tpu, datacenter, cluster, wafer, fab, accelerator, hbm]
+  - slug: research
+    name: "Research & Evals"
+    keywords: [paper, arxiv, benchmark, eval, study, sota, ablation, reproduce]
   - slug: business
-    name: "Business & Funding"
-    keywords: [funding, raise, valuation, revenue, acquisition, ipo, round, layoffs, partnership]
+    name: "Business"
+    keywords: [funding, raise, valuation, revenue, acquisition, ipo, round, layoffs]
   - slug: policy
     name: "Policy & Regulation"
-    keywords: [regulation, eu ai act, executive order, lawsuit, copyright, safety institute, ban, compliance]
+    keywords: [regulation, eu ai act, executive order, lawsuit, copyright, ban, compliance]
+  - slug: security
+    name: "Security"
+    keywords: [breach, exploit, vulnerability, jailbreak, prompt injection, malware, leak]
   - slug: products
     name: "Products"
-    keywords: [launch, release, available, app, api, pricing, general availability, waitlist, ships]
+    keywords: [app, api, pricing, general availability, feature, waitlist, subscription]
+
+# Topic strip under the section bar, mirroring HuggingNews's tag taxonomy.
+topics:
+  - { slug: agents-coding,      name: "Agents & Coding" }
+  - { slug: open-models,        name: "Open Models" }
+  - { slug: enterprise,         name: "Enterprise" }
+  - { slug: fundraising,        name: "Fundraising" }
+  - { slug: generative-media,   name: "Generative Media" }
+  - { slug: governance,         name: "Governance" }
+  - { slug: inference,          name: "Inference" }
+  - { slug: infrastructure,     name: "Infrastructure" }
+  - { slug: legal-safety,       name: "Legal & Safety" }
+  - { slug: sector-impact,      name: "Sector Impact" }
 
 # Entities get their own filter pages, like a newspaper's "companies" index.
 entities:

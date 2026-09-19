@@ -2,14 +2,14 @@
 {% import "_story.html" as s %}
 {% block title %}{{ section.name }} · {{ paper.name }}{% endblock %}
 {% block content %}
-<section class="inside" style="border-top:0;margin-top:26px">
-  <div class="rail__title">{{ section.name }}</div>
+<section class="band" style="border-top:0;margin-top:26px">
+  <div class="band__head">{{ section.name }}</div>
   {% if stories %}
-  <div class="inside__grid">
-    {% for story in stories %}{{ s.block(story, 'inside', rel, show_body=False) }}{% endfor %}
+  <div class="grid-3">
+    {% for story in stories %}{{ s.block(story, 'inside', rel) }}{% endfor %}
   </div>
   {% else %}
-  <p style="padding:40px 0;color:var(--ink-faint)">Nothing filed in this section today.</p>
+  <p style="padding:50px 0;color:var(--ink-3);font-family:var(--label);font-size:13px;letter-spacing:.08em;text-transform:uppercase">Nothing filed in this section today</p>
   {% endif %}
 </section>
 {% endblock %}

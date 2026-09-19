@@ -1,33 +1,29 @@
-{% macro sourcing(story) %}
-<div class="sourcing">
-  <strong>Confirmed by {{ story.sources|length }} {{ 'source' if story.sources|length == 1 else 'sources' }}:</strong>
-  {% for source in story.sources %}<a href="{{ source.url }}" rel="nofollow noopener" target="_blank">@{{ source.author }}</a>{{ ", " if not loop.last }}{% endfor %}
-</div>
-{% endmacro %}
-
 {% macro figure(image) %}
 {% if image and image.src %}
 <figure>
   <img src="{{ image.src }}" alt="{{ image.alt|default('', true) }}" loading="lazy">
   {% if image.caption or image.credit %}
-  <figcaption>
-    {{ image.caption }}{% if image.credit %} <span class="credit">({{ image.credit }})</span>{% endif %}
-  </figcaption>
+  <figcaption>{{ image.caption }}{% if image.credit %} <span class="credit">({{ image.credit }})</span>{% endif %}</figcaption>
   {% endif %}
 </figure>
 {% endif %}
 {% endmacro %}
 
-{% macro block(story, variant, rel, show_body=True) %}
-<article class="story story--{{ variant }}">
-  <span class="kicker">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>
-  <h2 class="hed"><a href="{{ rel }}story/{{ story.cluster_id }}.html">{{ story.headline }}</a></h2>
-  {{ figure(story.image) }}
+{% macro sourcing(story) %}
+<div class="sourcing">
+  <strong>{{ story.sources|length }} {{ 'source' if story.sources|length == 1 else 'sources' }}:</strong>
+  {% for source in story.sources %}<a href="{{ source.url }}" rel="nofollow noopener" target="_blank">{{ source.author }}</a>{{ ", " if not loop.last }}{% endfor %}
+</div>
+{% endmacro %}
+
+{% macro block(story, variant, rel, show_body=False, show_figure=True, quiet_kicker=False) %}
+<article class="story story--{{ variant }}" {% if story.topic %}id="{{ story.topic }}"{% endif %}>
+  <span class="kicker{% if quiet_kicker %} kicker--quiet{% endif %}">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>
+  <h2 class="hed"><a href="{{ rel }}story/{{ story.cluster_id }}.html">{{ story.headline|nbhy }}</a></h2>
+  {% if show_figure %}{{ figure(story.image) }}{% endif %}
   {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}
-  {% if show_body %}
-  <div class="body">
-    {% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}
-  </div>
+  {% if show_body and story.body %}
+  <div class="body">{% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}</div>
   {% endif %}
   {{ sourcing(story) }}
 </article>

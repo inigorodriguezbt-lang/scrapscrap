@@ -3,39 +3,46 @@
 {% block content %}
 
 {% if not stories %}
-<p style="padding:60px 0;text-align:center;color:var(--ink-faint)">
-  No edition has been written yet. Run the pipeline, then <code>/write-edition</code>.
+<p style="padding:80px 0;text-align:center;color:var(--ink-3);font-family:var(--label);letter-spacing:.1em;text-transform:uppercase;font-size:13px">
+  No edition has been written yet
 </p>
 {% else %}
 
 <div class="frontpage">
-  <div>
-    {% if lead %}{{ s.block(lead, 'lead', rel) }}{% endif %}
+
+  {# left column: the secondary stories #}
+  <div class="col">
+    {% for story in left %}{{ s.block(story, 'column', rel) }}{% endfor %}
   </div>
 
-  <aside class="rail">
-    <div class="rail__title">Also Developing</div>
-    {% for story in briefs %}
-      {{ s.block(story, 'brief', rel, show_body=False) }}
-    {% endfor %}
-  </aside>
-</div>
+  {# centre: the lead, then what runs under it #}
+  <div class="col">
+    {% if lead %}{{ s.block(lead, 'lead', rel, show_body=True) }}{% endif %}
+    {% for story in second %}{{ s.block(story, 'second', rel) }}{% endfor %}
+  </div>
 
-{% if front %}
-<div class="deck">
-  {% for story in front %}
-  <div>{{ s.block(story, 'front', rel, show_body=False) }}</div>
-  {% endfor %}
+  {# right: the timestamped pulse of the paper #}
+  <div class="col col--briefs">
+    <div class="rail__head">Latest</div>
+    {% if latest %}
+    <ul class="latest">
+      {% for story in latest %}
+      <li>
+        <time>{{ story.time_label }}</time>
+        <a class="t" href="{{ rel }}story/{{ story.cluster_id }}.html">{{ story.headline|nbhy }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+
 </div>
-{% endif %}
 
 {% if inside %}
-<section class="inside">
-  <div class="rail__title">Inside Today</div>
-  <div class="inside__grid">
-    {% for story in inside %}
-      {{ s.block(story, 'inside', rel, show_body=False) }}
-    {% endfor %}
+<section class="band">
+  <div class="band__head">Inside Today</div>
+  <div class="grid-4">
+    {% for story in inside %}{{ s.block(story, 'brief', rel, show_figure=False, quiet_kicker=True) }}{% endfor %}
   </div>
 </section>
 {% endif %}

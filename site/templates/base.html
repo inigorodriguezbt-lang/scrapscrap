@@ -3,26 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}{{ paper.name }}{% endblock %}</title>
+<title>{% block title %}{{ paper.name }} · {{ paper.tagline }}{% endblock %}</title>
 <meta name="description" content="{{ paper.tagline }}">
+<link rel="icon" href="{{ rel }}assets/monogram.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Spectral:ital,wght@0,400;0,600;1,400&family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..700&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ rel }}style.css">
 </head>
 <body>
 <div class="wrap">
 
+  <div class="ears">
+    <span>{{ edition_date_long }}</span>
+    <span class="ears__live">Updated {{ generated_at_short }}</span>
+    <span>{{ paper.volume }} · No. {{ edition_number }}</span>
+  </div>
+
   <header class="masthead">
-    <div class="masthead__ears">
-      <span>{{ paper.volume }} · No. {{ edition_number }}</span>
+    <a href="{{ rel }}index.html">
+      <img class="masthead__art" src="{{ rel }}assets/masthead.png" alt="{{ paper.name }}">
+    </a>
+    <div class="masthead__rule">
+      <span>{{ paper.tagline }}</span>
       <span>{{ story_count }} stories · {{ source_count }} sources</span>
-    </div>
-    <h1 class="masthead__name"><a href="{{ rel }}index.html">{{ paper.name }}</a></h1>
-    <div class="masthead__tagline">{{ paper.tagline }}</div>
-    <div class="folio">
-      <span>{{ edition_date_long }}</span>
-      <span>Assembled {{ generated_at_short }}</span>
     </div>
   </header>
 
@@ -34,11 +38,17 @@
     <a href="{{ rel }}archive.html">Archive</a>
   </nav>
 
+  {% if topics %}
+  <div class="topics">
+    {% for topic in topics %}<a href="{{ rel }}index.html#{{ topic.slug }}">{{ topic.name }}</a>{% endfor %}
+  </div>
+  {% endif %}
+
   {% block content %}{% endblock %}
 
   <footer class="colophon">
     <span>{{ paper.name }} · {{ paper.tagline }}</span>
-    <span>Stories are written from public posts and are confirmed by {{ min_sources }}+ independent accounts before publication.</span>
+    <span>Every story is confirmed by {{ min_sources }}+ independent sources before publication.</span>
   </footer>
 
 </div>

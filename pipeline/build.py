@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import json
 import shutil
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -24,6 +24,26 @@ def long_date(iso: str) -> str:
     day = datetime.strptime(iso, "%Y-%m-%d")
     # Strip the zero-pad without %-d, which is not portable.
     return day.strftime("%A, %B ") + str(day.day) + day.strftime(", %Y")
+
+
+def relative_time(stamp: str | None) -> str:
+    """A newspaper's rail is timestamped; that is what makes it read as live."""
+    if not stamp:
+        return "—"
+    try:
+        when = datetime.fromisoformat(stamp)
+    except ValueError:
+        return "—"
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=timezone.utc)
+    minutes = (utcnow() - when).total_seconds() / 60
+    if minutes < 1:
+        return "now"
+    if minutes < 60:
+        return f"{int(minutes)}m"
+    if minutes < 1440:
+        return f"{int(minutes // 60)}h"
+    return when.strftime("%d %b")
 
 
 def load_editions() -> list[dict]:
@@ -45,6 +65,8 @@ def decorate(stories: list[dict], sections: list[dict]) -> list[dict]:
         story.setdefault("body", [])
         story.setdefault("standfirst", "")
         story.setdefault("image", None)
+        story.setdefault("topic", None)
+        story["time_label"] = relative_time(story.get("published_at"))
     return stories
 
 
@@ -59,12 +81,19 @@ def render_site() -> None:
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    # A hyphen inside a name ("Atlas-3", "GPT-5") must not become a line
+    # break in a headline. U+2011 is the non-breaking hyphen.
+    import re as _re
+    env.filters["nbhy"] = lambda text: _re.sub(r"(?<=\w)-(?=\w)", "\u2011", text or "")
 
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)
     for sub in ("story", "section", "issue"):
         (DIST_DIR / sub).mkdir(parents=True, exist_ok=True)
     shutil.copy(SITE_DIR / "style.css", DIST_DIR / "style.css")
+    assets = SITE_DIR / "assets"
+    if assets.exists():
+        shutil.copytree(assets, DIST_DIR / "assets", dirs_exist_ok=True)
 
     latest = editions[-1] if editions else {"edition_date": utcnow().strftime("%Y-%m-%d"), "stories": []}
     stories = decorate(latest.get("stories", []), sections)
@@ -80,17 +109,22 @@ def render_site() -> None:
         "story_count": len(stories),
         "source_count": len(all_sources),
         "current_section": None,
+        "topics": cfg.get("topics", []),
     }
 
     by_placement = lambda kind: [s for s in stories if s.get("placement") == kind]
     lead_list = by_placement("lead")
     lead = lead_list[0] if lead_list else (stories[0] if stories else None)
     front = [s for s in by_placement("front") if s is not lead]
+    inside = by_placement("inside")
 
-    # The rail carries the next few front-page items; the deck carries the rest.
+    # Broadsheet composition: two secondaries under the lead, three down the
+    # left column, everything else timestamped in the right-hand rail.
     env.get_template("front.html").stream(
         **base, rel="", stories=stories, lead=lead,
-        briefs=front[:4], front=front[4:], inside=by_placement("inside"),
+        second=front[:2], left=front[2:5],
+        latest=(front[5:] + inside)[:9],
+        inside=inside[:8],
     ).dump(str(DIST_DIR / "index.html"))
 
     for story in stories:
@@ -111,13 +145,14 @@ def render_site() -> None:
         date = edition["edition_date"]
         issue_stories = decorate(edition.get("stories", []), sections)
         issues.append({"date": date, "date_long": long_date(date), "count": len(issue_stories)})
+        issue_front = [s for s in issue_stories if s.get("placement") == "front"]
+        issue_inside = [s for s in issue_stories if s.get("placement") == "inside"]
         env.get_template("front.html").stream(
             **{**base, "edition_date_long": long_date(date), "story_count": len(issue_stories)},
             rel="../", stories=issue_stories,
             lead=next((s for s in issue_stories if s.get("placement") == "lead"), None),
-            briefs=[s for s in issue_stories if s.get("placement") == "front"][:4],
-            front=[s for s in issue_stories if s.get("placement") == "front"][4:],
-            inside=[s for s in issue_stories if s.get("placement") == "inside"],
+            second=issue_front[:2], left=issue_front[2:5],
+            latest=(issue_front[5:] + issue_inside)[:9], inside=issue_inside[:8],
         ).dump(str(DIST_DIR / "issue" / f"{date}.html"))
 
     env.get_template("archive.html").stream(**base, rel="", issues=issues).dump(
