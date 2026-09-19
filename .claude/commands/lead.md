@@ -27,10 +27,23 @@ checking is not that — narrow it first.
 3. **Trade press and specialist outlets** for the beat.
 4. **Aggregators** only to find the above. Never cite an aggregator as the source.
 
-**On X posts:** this session cannot read X. The login wall blocks unauthenticated
-reads and there is no account pool. If the lead rests on a post, ask the editor
-to paste its text, or work from outlets that quote it. **Never reconstruct what
-a post "probably said."**
+**On X posts:** X is readable only through a paid provider or a pasted quote.
+
+```bash
+python -m pipeline.xsearch --check                       # is a provider configured?
+python -m pipeline.xsearch --query "from:OpenAI since:2026-09-19" --limit 50
+```
+
+If a provider is configured, search it — narrowly. Every returned row is billed,
+so use advanced operators (`from:`, `since:`, `until:`, `filter:media`) to ask a
+precise question rather than pulling a timeline. A hosted MCP server may also be
+connected, in which case query it directly as a tool.
+
+If no provider is configured, ask the editor to paste the post text, or work
+from outlets that quote it. **Never reconstruct what a post "probably said."**
+
+An X post is one person asserting something. It is a lead or a quote, not
+corroboration, and two posts about the same rumour are still one rumour.
 
 ### Recency is the hazard
 

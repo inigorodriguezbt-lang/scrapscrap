@@ -103,6 +103,25 @@ often than it attributes* -- 5.8 `could`/`may`/`according to` per thousand words
 against 5.2 for `said`. Confident declarative prose is the failure mode, so the
 checker warns when hedging falls too low.
 
+## Reading X
+
+X gates timeline reads behind a login, so it costs credentials or money.
+`docs/x-access.md` has verified pricing, a cost model, and the terms-of-service
+question you have to answer for yourself.
+
+`pipeline/xsearch.py` talks to a provider interface, not a vendor, so switching
+is a config change:
+
+```bash
+export XQUIK_API_KEY=xq_...
+python -m pipeline.xsearch --check
+python -m pipeline.xsearch --query "from:OpenAI since:2026-09-19"
+```
+
+Feeds remain the base wire. They are free, breach nobody's terms, and two
+outlets independently covering an event is stronger corroboration than two
+accounts posting about it. X is for chasing a specific lead.
+
 ## The pipeline
 
 | Stage | Command | Output |
