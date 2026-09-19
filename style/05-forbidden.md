@@ -56,8 +56,11 @@ copy, so they are not banned — but they appear as parenthetical punctuation,
 not as suspense. `The result — and this is the remarkable part — was…` is not
 news writing.
 
-**The semicolon.** Observed **zero** times in 5,017 words. If you reach for one,
-you have two sentences.
+**The semicolon.** Not banned — that was an earlier error here, drawn from
+standfirst data where a semicolon is structurally almost impossible. Body prose
+in the archive uses them at 1.7 per thousand. Never in a headline or standfirst;
+sparing in body copy. If the two halves stand alone comfortably, prefer two
+sentences.
 
 **Elegant variation.** Having called it `the model`, do not switch to `the
 system`, `the offering`, `the platform`. Repeat the noun. Variation makes the

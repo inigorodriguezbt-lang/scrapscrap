@@ -30,23 +30,32 @@ writing.
 | hype (`unprecedented`, `revolutionary`, `landmark`) | 0.4 | zero |
 | passive `was/were` + past participle | 2.6 | under 6 |
 | em dash | 2.8 | sparingly; never for drama |
-| semicolon | **0.0** | never |
+| semicolon | 0.0 in standfirsts, **1.7 in body prose** | never in a standfirst; sparing in body |
 
 ## What the numbers mean
 
-**Hedging outranks attribution.** The single most counterintuitive result: hedge
-words appear at 5.8 per thousand against 5.2 for `said`. Serious news writing
-marks uncertainty *more often than it names sources*. The instinct to write
-confident, declarative copy is the instinct to write badly. When something is
-not established, the sentence must say so — `could`, `is expected to`,
-`according to` are not weak writing, they are the writing.
+**Hedging outranks attribution — in modern copy.** Modern standfirsts carry
+hedges at 5.8 per thousand against 5.2 for `said`. The archive does not support
+treating this as a timeless rule: in early-twentieth-century body prose the
+order reverses, with `said` at 4.3 and hedges at 1.7. Marking uncertainty
+explicitly is a *modern* convention, and a strengthening one.
+
+Follow the modern practice, because that is the register we publish into. But
+hold the claim at its real size: this is how news is written now, not a law of
+the craft. When something is not established the sentence must say so —
+`could`, `is expected to`, `according to` are not weak writing.
 
 **Intensifiers and hype are absent, not rare.** At 0.2 and 0.4 per thousand
 these round to zero in a 300-word story. A single `revolutionary` in a piece
 this short is a measurable deviation from the register, and reads as one.
 
-**The semicolon never appears.** Not once in 5,017 words. If a sentence needs
-one, it is two sentences.
+**The semicolon, corrected.** An earlier version of this guide banned it
+outright, citing zero occurrences in 5,017 words of standfirsts. That was a
+measurement error: a semicolon joins two independent clauses, and 61% of those
+standfirsts were a single sentence, so they could not have contained one. The
+archive's body prose uses semicolons at 1.7 per thousand. The rule is therefore
+narrower — never in a headline or standfirst, sparing in body copy, and if the
+clauses stand alone comfortably, prefer two sentences.
 
 **Short words, short sentences, ordinary vocabulary.** Mean word length just
 over five characters and a type/token ratio of 0.369 describe prose that reuses

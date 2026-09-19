@@ -152,6 +152,8 @@ def check_standfirst(standfirst: str, report: Report) -> None:
         report.error(f"standfirst: {n} words, over {high}")
     if len(sentences(standfirst)) > 2:
         report.error("standfirst: more than two sentences")
+    if ";" in standfirst:
+        report.error("standfirst: semicolon (absent from the standfirst corpus)")
     flag_banned(standfirst, report, "standfirst")
 
 
@@ -178,7 +180,9 @@ def check_body(body: list[str], report: Report) -> None:
                 report.error(f"paragraph {i}: {sn}-word sentence, over {MAX_SENTENCE_WORDS}")
 
         if ";" in para:
-            report.error(f"paragraph {i}: semicolon (observed zero times in the sample)")
+            # Not an error: body prose in the archive carries semicolons at
+            # 1.7/1k. Rare enough to flag, common enough not to block.
+            report.warn(f"paragraph {i}: semicolon (rare in news body copy)")
 
         flag_banned(para, report, f"paragraph {i}")
 
