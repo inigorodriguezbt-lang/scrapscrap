@@ -7,6 +7,10 @@ paper:
   # Shown in the folio line under the masthead, newspaper-style.
   volume: "Vol. I"
   timezone: "America/New_York"
+  # Canonical site, used to build the story URLs that go in every post.
+  # Change this the moment the domain is live.
+  site_url: "https://theaipost.com"
+  x_handle: "@theaipost"
 
 # How the source list is assembled:
 #   merged  -- the curated accounts below, plus config/discovered_sources.yaml
