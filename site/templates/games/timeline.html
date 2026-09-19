@@ -1,0 +1,80 @@
+{% extends "games/_game.html" %}
+{% block rules %}Five moments in the history of AI, shuffled. Put them in order, earliest first. Tap two to swap, or use the arrows. <b>Two checks.</b>{% endblock %}
+{% block script %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var G = Games, el = G.el, root = document.getElementById("root"), rel = document.getElementById("game").dataset.rel;
+  var TRIES = 2;
+  document.getElementById("num").textContent = G.number();
+  G.fetchJSON(rel + "assets/games/timeline.json").then(function (d) {
+    // five events, distinct years, chosen for the day
+    var chosen = [], years = {};
+    G.shuffle(d.events, G.day() * 7 + 3).forEach(function (e) {
+      var y = e.date.slice(0, 4);
+      if (chosen.length < 5 && !years[y]) { years[y] = 1; chosen.push(e); }
+    });
+    var truth = chosen.slice().sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+    var start = G.shuffle(truth, G.day() * 7 + 4);
+    var s = G.state("timeline") || G.setState("timeline", { order: start.map(function (e) { return e.label; }), checks: [] });
+    var byLabel = {}; chosen.forEach(function (e) { byLabel[e.label] = e; });
+    var sel = null;
+    document.getElementById("meta-right").textContent = "2 checks";
+    render();
+
+    function pretty(date) {
+      var m = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      return m[+date.slice(5, 7) - 1] + " " + date.slice(0, 4);
+    }
+    function locked(i) { var last = s.checks[s.checks.length - 1]; return !!(last && last[i]); }
+    function done() { var last = s.checks[s.checks.length - 1]; return s.checks.length >= TRIES || (last && last.every(Boolean)); }
+    function swap(i, j) {
+      if (i === j || locked(i) || locked(j)) return;
+      var t = s.order[i]; s.order[i] = s.order[j]; s.order[j] = t;
+      G.setState("timeline", s);
+    }
+    function render() {
+      root.innerHTML = "";
+      if (done()) return finish();
+      var list = el("ol", { class: "order" });
+      s.order.forEach(function (label, i) {
+        var li = el("li", { class: (locked(i) ? "ok" : "") + (sel === i ? " sel" : ""), onclick: function () {
+          if (locked(i)) return;
+          if (sel === null) { sel = i; } else { swap(sel, i); sel = null; }
+          render();
+        } }, [
+          el("span", { class: "t" }, [label]),
+          locked(i) ? el("span", { class: "d" }, [pretty(byLabel[label].date)]) : el("span", { class: "mv" }, [
+            el("button", { "aria-label": "Move up", onclick: function (e) { e.stopPropagation(); swap(i, i - 1); sel = null; render(); } }, ["▲"]),
+            el("button", { "aria-label": "Move down", onclick: function (e) { e.stopPropagation(); swap(i, i + 1); sel = null; render(); } }, ["▼"])
+          ])
+        ]);
+        list.appendChild(li);
+      });
+      root.appendChild(list);
+      root.appendChild(el("button", { class: "btn btn--wide", onclick: check }, [s.checks.length ? "Check again (last one)" : "Check"]));
+      if (s.checks.length) root.appendChild(el("p", { class: "note" }, ["Blue ones are in the right place and now locked. Move the rest."]));
+    }
+    function check() {
+      s.checks.push(s.order.map(function (label, i) { return label === truth[i].label; }));
+      G.setState("timeline", s); sel = null; render();
+    }
+    function finish() {
+      var last = s.checks[s.checks.length - 1];
+      var won = last.every(Boolean);
+      var st = G.record("timeline", won);
+      var grid = s.checks.map(function (row) { return row.map(function (ok) { return ok ? "🟦" : "⬛"; }).join(""); });
+      var list = el("ol", { class: "order" }, truth.map(function (e, i) {
+        return el("li", { class: s.order[i] === e.label ? "ok" : "bad" }, [el("span", { class: "t" }, [e.label]), el("span", { class: "d" }, [pretty(e.date)])]);
+      }));
+      root.appendChild(list);
+      var right = last.filter(Boolean).length;
+      root.appendChild(G.resultPanel({
+        title: won ? (s.checks.length === 1 ? "In order, first time." : "In order.") : right + " of 5 in place.",
+        lines: grid, stats: st,
+        shareText: "Timeline #" + G.number() + " · " + (won ? s.checks.length + "/2" : "X") + "\n" + grid.join("\n") + "\n" + G.SITE + "/games/timeline/"
+      }));
+    }
+  });
+});
+</script>
+{% endblock %}

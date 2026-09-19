@@ -26,6 +26,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..700&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ rel }}style.css?v={{ css_version }}">
+{% block head %}{% endblock %}
 </head>
 <body>
 <div class="wrap">
@@ -40,6 +41,7 @@
     <a href="{{ rel }}section/{{ section.slug }}/"{% if current_section == section.slug %} aria-current="page"{% endif %}>{{ section.name }}</a>
     {% endfor %}
     <a href="{{ rel }}archive/">Archive</a>
+    <a href="{{ rel }}games/"{% if current_section == "games" %} aria-current="page"{% endif %}>Games</a>
   </nav>
 
   {% if topics %}

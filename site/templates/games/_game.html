@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ game_name }} · Games · {{ paper.name }}{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ rel }}assets/games/games.css?v={{ css_version }}">
+<script src="{{ rel }}assets/games/games.js?v={{ css_version }}" defer></script>
+{% endblock %}
+{% block content %}
+<main class="game" id="game" data-rel="{{ rel }}">
+  <div class="game__kicker"><a href="{{ rel }}games/">Games</a> · {{ game_kicker }}</div>
+  <h1 class="game__title">{{ game_name }}</h1>
+  <p class="game__rules">{% block rules %}{% endblock %}</p>
+  <div class="game__meta"><span>No. <span id="num"></span></span><span id="meta-right"></span></div>
+  <div id="root"></div>
+</main>
+{% block script %}{% endblock %}
+{% endblock %}

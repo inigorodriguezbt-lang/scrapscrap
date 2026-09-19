@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Games · {{ paper.name }}{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ rel }}assets/games/games.css?v={{ css_version }}">{% endblock %}
+{% block content %}
+<main class="hub">
+  <div class="game__kicker">Games</div>
+  <h1 class="game__title">One puzzle a day. Same for everyone.</h1>
+  <p class="hub__lede">Five test builds. Each takes a minute or two, resets at midnight, keeps your streak in your browser, and gives you a grid to share. Tell us which one you came back for.</p>
+  <div class="hub__grid">
+    {% for g in games %}
+    <a class="tile" href="{{ rel }}games/{{ g.slug }}/">
+      <div class="tile__glyph">{{ g.glyph }}</div>
+      <h2 class="tile__name">{{ g.name }}</h2>
+      <p class="tile__pitch">{{ g.pitch }}</p>
+      <span class="tile__cta">Play today's →</span>
+    </a>
+    {% endfor %}
+  </div>
+</main>
+{% endblock %}

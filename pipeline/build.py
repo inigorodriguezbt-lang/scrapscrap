@@ -201,6 +201,34 @@ def render_site() -> None:
             latest=(issue_front[5:] + issue_inside)[:9], inside=issue_inside[:8],
         ).dump(page("issue", date))
 
+    # Games. Two draw their puzzles from the archive, so every headline the
+    # paper publishes is also a puzzle; the rest read hand-written data.
+    from .games import build_games
+    build_games(all_stories, DIST_DIR / "assets" / "games")
+    games = [
+        {"slug": "turing", "name": "Turing", "glyph": "🟦🟦⬛🟦🟦", "kicker": "Human or machine",
+         "pitch": "Five passages. Some by a person, some by a machine. Say which."},
+        {"slug": "redact", "name": "Redact", "glyph": "🟦⬛🟦🟦", "kicker": "A headline, blacked out",
+         "pitch": "Today's headline with three words missing. Six misses and it stays classified."},
+        {"slug": "ballpark", "name": "Ballpark", "glyph": "⬛⬜🟦", "kicker": "Guess the number",
+         "pitch": "One number from today's news. Higher or lower, five tries, within ten percent wins."},
+        {"slug": "timeline", "name": "Timeline", "glyph": "🟦⬛🟦🟦🟦", "kicker": "Put it in order",
+         "pitch": "Five moments in the history of AI, shuffled. Earliest first. Two checks."},
+        {"slug": "splice", "name": "Splice", "glyph": "🟦🟦⬛", "kicker": "Find the seam",
+         "pitch": "Two of our headlines joined into one. Tap the word where they meet."},
+    ]
+    env.get_template("games/index.html").stream(
+        **{**base, "topics": None, "current_section": "games", "page_title": f"Games · {cfg['paper']['name']}",
+           "page_description": "One puzzle a day, the same for everyone.", "page_path": "games/"},
+        rel="../", games=games,
+    ).dump(page("games"))
+    for g in games:
+        env.get_template(f"games/{g['slug']}.html").stream(
+            **{**base, "topics": None, "current_section": "games", "page_title": f"{g['name']} · Games · {cfg['paper']['name']}",
+               "page_description": g["pitch"], "page_path": f"games/{g['slug']}/"},
+            rel="../../", game_name=g["name"], game_kicker=g["kicker"],
+        ).dump(page("games", g["slug"]))
+
     env.get_template("archive.html").stream(**base, rel="../", issues=issues).dump(
         page("archive")
     )
