@@ -91,7 +91,8 @@
       "hedges_per_1k"
     ],
     "reason": "Pages were selected by searching for attribution phrases, then attribution was measured on the pages those searches returned. The corpus was selected for the variable being measured, so these rates are circular and must not be used. 'according to' is both a query term and part of the hedge pattern, so hedges are affected too.",
-    "not_duplication": "Checked: only 2% of sentences repeat, and deduplicating moves the said rate 20.07 -> 19.27/1k. The fault is sampling, not repeats."
+    "not_duplication": "Checked: only 2% of sentences repeat, and deduplicating moves the said rate 20.07 -> 19.27/1k. The fault is sampling, not repeats.",
+    "superseded_by": "neutral_sample"
   },
   "VALID_MEASURES": {
     "fields": [
@@ -115,5 +116,54 @@
       "mean_sentence_words": "21.9 / 23.7 / 20.9 - stable, and longer than modern copy"
     }
   },
-  "type_token_note": "TTR falls with corpus size, so 0.396 at 4.7k words vs 0.119 at 46k words is a size artifact, not evidence of duplication."
+  "type_token_note": "TTR falls with corpus size, so 0.396 at 4.7k words vs 0.119 at 46k words is a size artifact, not evidence of duplication.",
+  "neutral_sample": {
+    "queries": [
+      "city council",
+      "monday morning",
+      "school board",
+      "railroad",
+      "harvest"
+    ],
+    "why": "Content words with no attribution or hedge marker, to break the circular sampling.",
+    "words": 37692,
+    "by_era": {
+      "1900-1919": {
+        "mean_sentence_words": 22.0,
+        "attribution_said_per_1k": 2.3,
+        "hedges_per_1k": 2.62,
+        "passive_per_1k": 3.11,
+        "adverbs_ly_per_1k": 8.1,
+        "hype_per_1k": 0.19,
+        "semicolon_per_1k": 2.06,
+        "words": 16057
+      },
+      "1920-1939": {
+        "mean_sentence_words": 21.4,
+        "attribution_said_per_1k": 3.13,
+        "hedges_per_1k": 2.61,
+        "passive_per_1k": 3.23,
+        "adverbs_ly_per_1k": 6.99,
+        "hype_per_1k": 0.1,
+        "semicolon_per_1k": 2.19,
+        "words": 9583
+      },
+      "1940-1963": {
+        "mean_sentence_words": 21.1,
+        "attribution_said_per_1k": 4.07,
+        "hedges_per_1k": 3.15,
+        "passive_per_1k": 3.24,
+        "adverbs_ly_per_1k": 7.63,
+        "hype_per_1k": 0.08,
+        "semicolon_per_1k": 1.91,
+        "words": 12052
+      }
+    },
+    "overall": {
+      "attribution_said_per_1k": 3.08,
+      "hedges_per_1k": 2.79
+    },
+    "bias_measured": "Keyword-selected sample gave said=21.27/1k; neutral sample gives 3.08/1k (7x inflation).",
+    "note": "Two era-queries timed out, so 1940-1963 rests on three of five queries."
+  }
 }

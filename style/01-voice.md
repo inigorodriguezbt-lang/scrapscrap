@@ -15,7 +15,7 @@ writing.
 | Headline characters | mean 62 | under 75 |
 | Standfirst length | mean 23.6 words | 18–30 words |
 | Standfirst sentences | mean 1.51 | 1, occasionally 2 |
-| Words per sentence | 15.6 | mean under 20, none over 38 |
+| Words per sentence | 15.6 standfirsts, **21.1–22.0 archive body prose** | body mean under 22, none over 38 |
 | Mean word length | 5.04 chars | do not inflate it |
 | Words over 6 chars | 28% | under 33% |
 
@@ -25,7 +25,7 @@ writing.
 |---|---|---|
 | `said` / `says` | 5.2 | attribute freely; `said` is invisible, use it |
 | adverbs ending `-ly` | 10.6 | under 14 |
-| hedges (`could`, `may`, `might`, `appears`, `seems`) | 5.8 | **5–10. Do not suppress these** |
+| hedges (`could`, `may`, `might`, `appears`, `seems`) | 5.8 modern, 2.6–3.2 archive | **5–10. Do not suppress these** |
 | intensifiers (`very`, `highly`, `extremely`) | 0.2 | effectively zero |
 | hype (`unprecedented`, `revolutionary`, `landmark`) | 0.4 | zero |
 | passive `was/were` + past participle | 2.6 | under 6 |
@@ -34,16 +34,21 @@ writing.
 
 ## What the numbers mean
 
-**Hedging outranks attribution — in modern copy.** Modern standfirsts carry
-hedges at 5.8 per thousand against 5.2 for `said`. The archive does not support
-treating this as a timeless rule: in early-twentieth-century body prose the
-order reverses, with `said` at 4.3 and hedges at 1.7. Marking uncertainty
-explicitly is a *modern* convention, and a strengthening one.
+**Attribution and hedging have both roughly doubled in a century.** Measured on
+a neutrally sampled archive corpus, `said` runs 2.3 per thousand in 1900–1919,
+3.1 in 1920–1939 and 4.1 in 1940–1963, against 5.2 in modern copy. Hedges track
+the same climb: 2.6, 2.6, 3.2, then 5.8. News prose has become steadily more
+explicit about both who says a thing and how sure anyone is of it.
 
-Follow the modern practice, because that is the register we publish into. But
-hold the claim at its real size: this is how news is written now, not a law of
-the craft. When something is not established the sentence must say so —
-`could`, `is expected to`, `according to` are not weak writing.
+The two run close together in every period. Modern copy hedges slightly more
+than it attributes (5.8 against 5.2); the archive attributes slightly more than
+it hedges (3.1 against 2.8). Neither gap is large, and an earlier version of
+this guide made too much of the modern one.
+
+The rule that survives is the useful one: **hedging is of the same order as
+attribution, and both are load-bearing.** When something is not established the
+sentence must say so — `could`, `is expected to`, `according to` are not weak
+writing. Our targets sit at the modern end of that trend, deliberately.
 
 **Intensifiers and hype are absent, not rare.** At 0.2 and 0.4 per thousand
 these round to zero in a 300-word story. A single `revolutionary` in a piece

@@ -169,9 +169,14 @@ def main() -> None:
     ap.add_argument("--delay", type=float, default=0.3)
     args = ap.parse_args()
 
-    # Query terms chosen to land on news columns rather than ad pages.
-    QUERIES = ["said yesterday", "announced today", "according to officials",
-               "the committee said", "declared that", "reported that"]
+    # Query terms MUST be neutral. An earlier version searched for "said
+    # yesterday", "the committee said" and similar, then measured attribution
+    # rate on the pages those searches returned -- selecting the corpus by the
+    # variable being measured, which inflated `said` sevenfold (21.27 vs 3.08
+    # per thousand). Use content words that are not attribution or hedge
+    # markers, and keep it that way.
+    QUERIES = ["city council", "monday morning", "school board",
+               "railroad", "harvest", "county fair"]
     ERAS = [(1900, 1919), (1920, 1939), (1940, 1963)]
 
     per_era: dict[str, list[str]] = {}
