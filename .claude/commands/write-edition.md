@@ -52,14 +52,21 @@ and never ask a question.
 **Standfirst.** One sentence, around 25 words, adding the fact the headline had
 to leave out. It should not restate the headline in different words.
 
-**Body.** Two or three paragraphs, 40–70 words each.
+**Body.** Four to six paragraphs, 40–70 words each, about 250–320 words.
 
 - First paragraph: the event itself, with the concrete specifics — numbers,
   names, dates, prices, what is available and to whom.
 - Second: the corroborating detail, and what the sources disagree about if they
   do disagree.
-- Third, only if it earns its place: what is genuinely at stake. Cut it rather
-  than pad it.
+- Third: the specifics under the headline number — raw counts, the breakdown,
+  the dates.
+- Fourth: how it was measured, and by whom. A figure produced by the party that
+  benefits from it is a different kind of fact.
+- Fifth, only if it earns its place: what is genuinely at stake, or what nobody
+  has confirmed.
+
+The length must come from reporting. If you do not have the detail, file the
+shorter story — padding is more obvious to a reader than brevity.
 
 **The hard rules.**
 

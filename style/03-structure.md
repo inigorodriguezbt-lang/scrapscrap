@@ -10,10 +10,19 @@ the reader misinformed rather than merely less informed, the order is wrong.
 ```
 ¶1  LEDE          what happened, to whom, with the number that matters
 ¶2  CORROBORATION who else confirms it, and what they disagree about
-¶3  STAKES        why it matters — only if it is genuinely at stake
+¶3  DETAIL        the specifics underneath the headline figure
+¶4  METHOD        how the thing was measured, and by whom
+¶5  STAKES        why it matters — only if it is genuinely at stake
 ```
 
-Three paragraphs is the house length. Two is acceptable. Four needs a reason.
+**Five paragraphs is the house length.** Four is fine. Six needs a reason, and
+seven is a feature, not a news story.
+
+The extra room over a wire brief is for **reported detail, not elaboration**.
+Raw counts behind a percentage, the method, who funded it, what the sources
+disagree about, what nobody has confirmed. If you do not have that material,
+file four paragraphs and go and get it. A padded story is worse than a short
+one, and the reader can tell instantly which they are reading.
 
 ## The lede
 

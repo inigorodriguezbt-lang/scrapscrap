@@ -169,8 +169,10 @@ def check_body(body: list[str], report: Report) -> None:
     if not body:
         report.error("body: empty")
         return
-    if len(body) > 4:
-        report.warn(f"body: {len(body)} paragraphs, house length is 2-3")
+    if len(body) > 6:
+        report.warn(f"body: {len(body)} paragraphs, house length is 4-6")
+    elif len(body) < 4:
+        report.warn(f"body: {len(body)} paragraphs, house length is 4-6")
 
     joined = " ".join(body)
 

@@ -75,7 +75,7 @@ than padding a thin lead into a thick article.
 
 ## Step 4 — Write it
 
-Follow `style/` — `02-headlines.md`, `03-structure.md`, `04-attribution.md`,
+Four to six paragraphs, 250–320 words, and the extra length must be reported detail rather than elaboration. Follow `style/` — `02-headlines.md`, `03-structure.md`, `04-attribution.md`,
 `05-forbidden.md`. Every claim traces to a source. Vendor claims are attributed
 in the prose, never laundered into the paper's voice.
 
