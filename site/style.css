@@ -25,6 +25,16 @@
   --measure: 1200px;
 }
 
+/* The masthead face. Self-hosted so it renders identically everywhere and
+   needs no network round trip before the page has a nameplate. */
+@font-face {
+  font-family: "Old London";
+  src: url("assets/fonts/oldlondon.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;   /* never flash a fallback nameplate */
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 
