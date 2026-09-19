@@ -411,7 +411,56 @@
           "url": "https://x.com/SawyerMerritt/status/1789676902",
           "at": "17 Sep, 20:28 UTC"
         }
-      ]
+      ],
+      "chart_spec": {
+        "panels": [
+          {
+            "title": "All three tasks, full completion",
+            "rows": [
+              [
+                "With Index pretraining",
+                56
+              ],
+              [
+                "Trained from scratch",
+                9
+              ]
+            ],
+            "note": "Identical models, same 420 trials."
+          },
+          {
+            "title": "By task, pretrained model",
+            "rows": [
+              [
+                "Making beds",
+                67
+              ],
+              [
+                "Folding towels",
+                62
+              ],
+              [
+                "Tidying toys away",
+                40
+              ]
+            ]
+          }
+        ],
+        "source": "Chart: The AI Post. Data: Figure, which ran and scored the evaluation."
+      },
+      "chart": {
+        "type": "bar",
+        "points": 5,
+        "axis_starts_at_zero": true,
+        "data_source": "Figure's published evaluation",
+        "alt": "Pretraining lifts full-task completion from 9 to 56 percent. By task, bed-making reaches 67 percent and tidying toys 40."
+      },
+      "image": {
+        "src": "../../assets/charts/helix25.png",
+        "alt": "Bar chart. Pretraining lifts full-task completion from 9 to 56 percent. By task, bed-making reaches 67 percent, folding towels 62, tidying toys 40.",
+        "caption": "Figure reports full completion only, with no partial credit and every safety intervention counted as a failure.",
+        "credit": "Chart: The AI Post. Data: Figure"
+      }
     },
     {
       "cluster_id": "manus-raise",

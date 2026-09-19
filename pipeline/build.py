@@ -18,6 +18,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .cards import render as render_card
+from .chart import bars as render_chart
 from .common import DIST_DIR, EDITIONS_DIR, SITE_DIR, load_config, utcnow
 
 
@@ -154,9 +155,16 @@ def render_site() -> None:
     # One preview card per story, so a shared link carries its own headline
     # rather than the same nameplate every time.
     cards_dir = DIST_DIR / "assets" / "cards"
+    charts_dir = DIST_DIR / "assets" / "charts"
     for story in all_stories:
         render_card(story, cards_dir / f"{story['cluster_id']}.png",
                     paper_name=cfg["paper"]["name"])
+        spec = story.get("chart_spec")
+        if spec:
+            render_chart(panels=[{**p, "rows": [tuple(r) for r in p["rows"]]}
+                                 for p in spec["panels"]],
+                         source=spec["source"],
+                         out=charts_dir / f"{story['cluster_id']}.png")
 
     for story in all_stories:
         env.get_template("story.html").stream(
