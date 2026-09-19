@@ -30,7 +30,7 @@ UA = "LatentTimes-StyleStudy/1.0 (newspaper register research)"
 CACHE = Path(".cache/archive")
 
 
-def fetch(url: str, timeout: int = 60) -> str:
+def fetch(url: str, timeout: int = 15) -> str:
     key = CACHE / (re.sub(r"[^A-Za-z0-9]+", "_", url)[-120:] + ".json")
     if key.exists():
         return key.read_text(encoding="utf-8")
@@ -195,6 +195,19 @@ def main() -> None:
                     sentences.extend(clean_sentences(raw))
             print(f"  · {era} {query!r}: {len(sentences)} clean sentences so far")
         per_era[era] = sentences
+        # Checkpoint: a run cut short still leaves usable statistics rather
+        # than nothing, since results were previously only written at the end.
+        if sentences:
+            partial = {
+                "source": "Chronicling America (Library of Congress), public domain",
+                "pages_fetched": pages_seen,
+                "complete": False,
+                "overall": measure([x for v in per_era.values() for x in v]),
+                "by_era": {e: measure(v) for e, v in per_era.items() if v},
+            }
+            args.out.parent.mkdir(parents=True, exist_ok=True)
+            args.out.write_text(json.dumps(partial, indent=2), encoding="utf-8")
+            print(f"  [checkpoint] {era}: {len(sentences)} sentences written")
 
     all_sentences = [s for v in per_era.values() for s in v]
     if not all_sentences:
@@ -203,6 +216,7 @@ def main() -> None:
     result = {
         "source": "Chronicling America (Library of Congress), public domain",
         "pages_fetched": pages_seen,
+        "complete": True,
         "note": "Whole-page OCR filtered to news-like prose; see clean_sentences().",
         "overall": measure(all_sentences),
         "by_era": {era: measure(s) for era, s in per_era.items() if s},
