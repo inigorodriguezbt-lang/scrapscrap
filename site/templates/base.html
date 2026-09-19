@@ -31,20 +31,20 @@
 <div class="wrap">
 
   <header class="masthead">
-    <a href="{{ rel }}index.html" class="masthead__name">{{ paper.name }}</a>
+    <a href="{{ rel }}" class="masthead__name">{{ paper.name }}</a>
   </header>
 
   <nav class="nav">
-    <a href="{{ rel }}index.html"{% if not current_section %} aria-current="page"{% endif %}>Front Page</a>
+    <a href="{{ rel }}"{% if not current_section %} aria-current="page"{% endif %}>Front Page</a>
     {% for section in sections %}
-    <a href="{{ rel }}section/{{ section.slug }}.html"{% if current_section == section.slug %} aria-current="page"{% endif %}>{{ section.name }}</a>
+    <a href="{{ rel }}section/{{ section.slug }}/"{% if current_section == section.slug %} aria-current="page"{% endif %}>{{ section.name }}</a>
     {% endfor %}
-    <a href="{{ rel }}archive.html">Archive</a>
+    <a href="{{ rel }}archive/">Archive</a>
   </nav>
 
   {% if topics %}
   <div class="topics">
-    {% for topic in topics %}<a href="{{ rel }}index.html#{{ topic.slug }}">{{ topic.name }}</a>{% endfor %}
+    {% for topic in topics %}<a href="{{ rel }}#{{ topic.slug }}">{{ topic.name }}</a>{% endfor %}
   </div>
   {% endif %}
 

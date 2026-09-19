@@ -33,7 +33,7 @@
       {% for story in latest %}
       <li>
         <time>{{ story.time_label }}</time>
-        <a class="t" href="{{ rel }}story/{{ story.cluster_id }}.html">{{ story.headline|nbhy }}</a>
+        <a class="t" href="{{ rel }}story/{{ story.cluster_id }}/">{{ story.headline|nbhy }}</a>
       </li>
       {% endfor %}
     </ul>

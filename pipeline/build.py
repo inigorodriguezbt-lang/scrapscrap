@@ -90,6 +90,13 @@ def render_site() -> None:
         shutil.rmtree(DIST_DIR)
     for sub in ("story", "section", "issue"):
         (DIST_DIR / sub).mkdir(parents=True, exist_ok=True)
+
+    def page(*parts: str) -> str:
+        """A page at /a/b/ is written to a/b/index.html, so the URL carries
+        no .html extension. Returns the path to dump into."""
+        target = DIST_DIR.joinpath(*parts)
+        target.mkdir(parents=True, exist_ok=True)
+        return str(target / "index.html")
     import hashlib
     css_bytes = (SITE_DIR / "style.css").read_bytes()
     css_version = hashlib.sha256(css_bytes).hexdigest()[:8]
@@ -133,24 +140,34 @@ def render_site() -> None:
         inside=inside[:8],
     ).dump(str(DIST_DIR / "index.html"))
 
-    for story in stories:
+    # Every edition's stories get a page, not just today's, otherwise the
+    # archive links into nothing.
+    seen_ids: set[str] = set()
+    all_stories = []
+    for edition in reversed(editions):
+        for story in decorate(edition.get("stories", []), sections):
+            if story["cluster_id"] not in seen_ids:
+                seen_ids.add(story["cluster_id"])
+                all_stories.append(story)
+
+    for story in all_stories:
         env.get_template("story.html").stream(
             **{**base, "current_section": story.get("section"),
                "page_title": story["headline"],
                "page_description": story.get("standfirst") or cfg["paper"]["tagline"],
-               "page_path": f"story/{story['cluster_id']}.html",
+               "page_path": f"story/{story['cluster_id']}/",
                "page_type": "article"},
-            rel="../", story=story,
-        ).dump(str(DIST_DIR / "story" / f"{story['cluster_id']}.html"))
+            rel="../../", story=story,
+        ).dump(page("story", story["cluster_id"]))
 
     for section in sections:
         env.get_template("section.html").stream(
             **{**base, "current_section": section["slug"],
                "page_title": f"{section['name']} · {cfg['paper']['name']}",
-               "page_path": f"section/{section['slug']}.html"},
-            rel="../", section=section,
+               "page_path": f"section/{section['slug']}/"},
+            rel="../../", section=section,
             stories=[s for s in stories if s.get("section") == section["slug"]],
-        ).dump(str(DIST_DIR / "section" / f"{section['slug']}.html"))
+        ).dump(page("section", section["slug"]))
 
     issues = []
     for edition in reversed(editions):
@@ -161,14 +178,14 @@ def render_site() -> None:
         issue_inside = [s for s in issue_stories if s.get("placement") == "inside"]
         env.get_template("front.html").stream(
             **{**base, "edition_date_long": long_date(date), "story_count": len(issue_stories)},
-            rel="../", stories=issue_stories,
+            rel="../../", stories=issue_stories,
             lead=next((s for s in issue_stories if s.get("placement") == "lead"), None),
             second=issue_front[:2], left=issue_front[2:5],
             latest=(issue_front[5:] + issue_inside)[:9], inside=issue_inside[:8],
-        ).dump(str(DIST_DIR / "issue" / f"{date}.html"))
+        ).dump(page("issue", date))
 
-    env.get_template("archive.html").stream(**base, rel="", issues=issues).dump(
-        str(DIST_DIR / "archive.html")
+    env.get_template("archive.html").stream(**base, rel="../", issues=issues).dump(
+        page("archive")
     )
 
     site = base["site_url"]
@@ -186,7 +203,9 @@ def render_site() -> None:
         rel_path = path.relative_to(DIST_DIR).as_posix()
         if rel_path == "404.html":
             continue
-        loc = f"{site}/" + ("" if rel_path == "index.html" else rel_path)
+        # /a/b/index.html is served at /a/b/ — publish the clean form.
+        clean = "" if rel_path == "index.html" else rel_path.removesuffix("/index.html") + "/"
+        loc = f"{site}/" + clean
         urls.append(f"  <url><loc>{loc}</loc></url>")
     (DIST_DIR / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -199,7 +218,7 @@ def render_site() -> None:
                     .replace(">", "&gt;").replace('"', "&quot;"))
     entries = []
     for story in stories:
-        url = f"{site}/story/{story['cluster_id']}.html"
+        url = f"{site}/story/{story['cluster_id']}/"
         published = story.get("published_at") or utcnow().isoformat()
         entries.append(
             f"  <entry>\n    <id>{url}</id>\n"

@@ -11,11 +11,11 @@
   "datePublished": {{ story.published_at|default('', true)|tojson }},
   "articleSection": {{ story.section_name|tojson }},
   "publisher": {"@type": "NewsMediaOrganization", "name": {{ paper.name|tojson }}},
-  "mainEntityOfPage": {{ (site_url ~ '/story/' ~ story.cluster_id ~ '.html')|tojson }}
+  "mainEntityOfPage": {{ (site_url ~ '/story/' ~ story.cluster_id ~ '/')|tojson }}
 }
 </script>
 <article class="article story">
-  <a class="backlink" href="{{ rel }}index.html">← Front Page</a>
+  <a class="backlink" href="{{ rel }}">← Front Page</a>
   <span class="kicker">{{ story.section_name }}{% if story.entities %} · {{ story.entities|join(' · ') }}{% endif %}</span>
   <h1 class="hed">{{ story.headline|nbhy }}</h1>
   {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}

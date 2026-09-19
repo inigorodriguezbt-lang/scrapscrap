@@ -40,7 +40,7 @@ HYPE = re.compile(
 
 def story_url(story: dict, cfg: dict) -> str:
     base = cfg["paper"].get("site_url", "").rstrip("/")
-    return f"{base}/story/{story['cluster_id']}.html"
+    return f"{base}/story/{story['cluster_id']}/"
 
 
 def weight(text: str) -> int:
