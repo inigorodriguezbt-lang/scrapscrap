@@ -62,14 +62,22 @@ ATTRIBUTION = (r"\b(said|says|according to|told|confirmed|declined to comment|"
                r"citing|stated|put the \w+ at|pointed to)\b")
 
 
-def clean(pattern: str) -> re.Pattern:
-    return re.compile(re.sub(r"\s*\n\s*", "", pattern), re.IGNORECASE | re.MULTILINE)
+def clean(pattern: str, word_bounded: bool = True) -> re.Pattern:
+    """Compile a banned-word alternation.
+
+    Word boundaries are not optional here: without them "very" matches inside
+    "every" and "historic" inside "prehistoric", which fails clean copy.
+    """
+    body = re.sub(r"\s*\n\s*", "", pattern)
+    if word_bounded:
+        body = rf"\b(?:{body})\b"
+    return re.compile(body, re.IGNORECASE | re.MULTILINE)
 
 
 RX = {
     "hype": clean(HYPE), "intensifier": clean(INTENSIFIERS),
-    "editorial_verb": clean(EDITORIAL_VERBS), "vague": clean(VAGUE),
-    "ai_tell": clean(AI_TELLS),
+    "editorial_verb": clean(EDITORIAL_VERBS), "vague": clean(VAGUE, word_bounded=False),
+    "ai_tell": clean(AI_TELLS, word_bounded=False),
 }
 
 
