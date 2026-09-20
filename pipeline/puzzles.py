@@ -207,32 +207,83 @@ def camp_puzzle(rnd: random.Random, n: int = 6) -> dict:
 
 # ── Nine ──────────────────────────────────────────────────────────────────────
 
-def nine_puzzle(rnd: random.Random, common: list[str], valid: set[str]) -> dict:
+def letter_mask(word: str) -> int:
+    """Bitmask of the distinct letters in a word, for a fast first filter."""
+    m = 0
+    for ch in word:
+        m |= 1 << (ord(ch) - 97)
+    return m
+
+
+def nine_puzzle(rnd: random.Random, common: list[str], entries: list[tuple],
+                common_set: set[str]) -> dict:
+    """Nine letters hiding a nine-letter word.
+
+    Two word lists do two different jobs, and conflating them was a bug:
+
+      - **Accepting** a word asks "is this English?", so it uses the whole
+        dictionary. A player who finds `aconite` should be given the points,
+        not told it is not a word.
+      - **Ranking** asks "how much of this would a person plausibly find?",
+        so the tiers are scored against the common-word subset only. Setting
+        Genius at a share of every obscure word in the dictionary would put
+        it out of reach of any human.
+
+    Points beyond the target still count, so finding the rare ones carries
+    you past Genius rather than being the price of admission.
+    """
     from collections import Counter
-    nines = [w for w in common if len(w) == 9 and w in valid and len(set(w)) >= 6]
+
+    nines = [w for w in common if len(w) == 9 and w in common_set and len(set(w)) >= 6]
     while True:
         target = rnd.choice(nines)
         pool = Counter(target)
-        words = sorted({w for w in common if 4 <= len(w) <= 9 and w in valid and not (Counter(w) - pool)})
-        if len(words) < 25:
+        pool_mask = letter_mask(target)
+        words = sorted(w for w, wmask, wc in entries
+                       if not (wmask & ~pool_mask) and not (wc - pool))
+        common_words = [w for w in words if w in common_set]
+        # The gate is on the words a person would know, not on the dictionary
+        # total. It decides whether the puzzle is worth playing, and keeping it
+        # here also keeps the letters identical to what was already published.
+        if len(common_words) < 25:
             continue
-        letters = list(target); rnd.shuffle(letters)
-        score = sum(len(w) for w in words) + 20 * sum(1 for w in words if len(w) == 9)
-        return {"letters": "".join(letters), "words": words, "max": score,
-                "nines": [w for w in words if len(w) == 9]}
+        letters = list(target)
+        rnd.shuffle(letters)
+        score = lambda ws: sum(len(w) + (20 if len(w) == 9 else 0) for w in ws)
+        return {
+            "letters": "".join(letters),
+            "words": words,                       # everything the game accepts
+            "target": score(common_words),        # what the ranks are measured against
+            "target_words": len(common_words),
+            "max": score(words),
+            "nines": [w for w in words if len(w) == 9],
+        }
 
 
 # ── build ─────────────────────────────────────────────────────────────────────
 
 def build_puzzles(out_dir: Path, days: int = DAYS) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
+    from collections import Counter
     common = [w.strip() for w in (ROOT / "data/words/common.txt").read_text().split() if w.strip().isalpha()]
     valid = {w.strip() for w in (ROOT / "data/words/enable1.txt").read_text().split()}
+    # Every dictionary word the game could accept, pre-measured once: the word,
+    # a bitmask of its letters, and its letter counts. 120 puzzles against a
+    # hundred thousand words is too much work to redo per puzzle.
+    # Blocked words are dropped from what the game accepts, but the gate below
+    # still counts them, so the published letters never shift.
+    # One word per line, "#" comments. Splitting on whitespace instead would
+    # turn every word of the header comment into a blocked word.
+    blocked = {line.strip() for line in (ROOT / "data/words/excluded.txt").read_text().splitlines()
+               if line.strip() and not line.lstrip().startswith("#")}
+    entries = [(w, letter_mask(w), Counter(w)) for w in sorted(valid)
+               if 4 <= len(w) <= 9 and w.isalpha() and w not in blocked]
+    common_set = set(common) & valid
 
     def strip(p): return {k: v for k, v in p.items() if not k.startswith("_")}
     lant = [lanterns_puzzle(random.Random(1000 + d)) for d in range(days)]
     camp = [camp_puzzle(random.Random(2000 + d)) for d in range(days)]
-    nine = [nine_puzzle(random.Random(3000 + d), common, valid) for d in range(days)]
+    nine = [nine_puzzle(random.Random(3000 + d), common, entries, common_set) for d in range(days)]
     (out_dir / "lanterns.json").write_text(json.dumps({"puzzles": [strip(p) for p in lant]}))
     (out_dir / "camp.json").write_text(json.dumps({"puzzles": [strip(p) for p in camp]}))
     (out_dir / "nine.json").write_text(json.dumps({"puzzles": nine}))

@@ -1,5 +1,5 @@
 {% extends "games/_game.html" %}
-{% block rules %}Nine letters. Make words of four letters or more, each letter used once per word. <b>One nine-letter word is hiding in there.</b> Find it, or reach Genius, to keep your streak.{% endblock %}
+{% block rules %}Nine letters. Make words of four letters or more, each letter used once per word — any word in the dictionary counts. <b>One nine-letter word is hiding in there.</b> Find it, or reach Genius, to keep your streak.{% endblock %}
 {% block script %}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -11,7 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
     var valid = {}; p.words.forEach(function (w) { valid[w] = 1; });
     var s = G.state("nine") || G.setState("nine", { found: [], order: p.letters.split("") });
     var entry = [];   // indices into s.order
-    document.getElementById("meta-right").textContent = p.words.length + " words · " + p.max + " points";
+    // The ranks are measured against the words a person would plausibly find,
+    // not against every entry in the dictionary — the game accepts far more
+    // than that, and pegging Genius to the full list would put it out of reach.
+    var GENIUS = Math.ceil(p.target * TIERS[TIERS.length - 1][1]);
+    document.getElementById("meta-right").textContent = "Genius at " + GENIUS + " points";
     var entryEl = el("div", { class: "entry" }), tiles = el("div", { class: "tiles" });
     var rank = el("div", { class: "rank" }), bar = el("div", { class: "bar" }), found = el("div", { class: "found" }), done = el("div");
     var controls = el("div", { class: "row" }, [
@@ -32,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     paint();
 
     function score() { return s.found.reduce(function (a, w) { return a + w.length + (w.length === 9 ? 20 : 0); }, 0); }
-    function tier() { var sc = score() / p.max, t = TIERS[0]; TIERS.forEach(function (x) { if (sc >= x[1]) t = x; }); return t; }
+    function tier() { var sc = score() / p.target, t = TIERS[0]; TIERS.forEach(function (x) { if (sc >= x[1]) t = x; }); return t; }
     function hasNine() { return s.found.some(function (w) { return w.length === 9; }); }
     function paint() {
       var word = entry.map(function (i) { return s.order[i]; }).join("");
@@ -44,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       var t = tier(), sc = score();
       rank.innerHTML = ""; rank.appendChild(el("span", null, [el("b", null, [t[0]]), " · " + sc + " points"])); rank.appendChild(el("span", null, [s.found.length + " word" + (s.found.length === 1 ? "" : "s") + (hasNine() ? " · nine ✓" : "")]));
-      bar.innerHTML = ""; bar.appendChild(el("b", { style: "width:" + Math.min(100, 100 * sc / p.max) + "%" }));
-      TIERS.forEach(function (x) { bar.appendChild(el("i", { class: sc / p.max >= x[1] ? "hit" : "", style: "left:" + (100 * x[1]) + "%", title: x[0] })); });
+      bar.innerHTML = ""; bar.appendChild(el("b", { style: "width:" + Math.min(100, 100 * sc / p.target) + "%" }));
+      TIERS.forEach(function (x) { bar.appendChild(el("i", { class: sc / p.target >= x[1] ? "hit" : "", style: "left:" + (100 * x[1]) + "%", title: x[0] })); });
       found.innerHTML = ""; found.className = "found" + (s.found.length ? "" : " found--empty");
       if (!s.found.length) found.textContent = "Your words appear here.";
       s.found.slice().sort().forEach(function (w) { found.appendChild(el("div", { class: w.length === 9 ? "nine9" : "" }, [w])); });
@@ -57,7 +61,11 @@ document.addEventListener("DOMContentLoaded", function () {
           title: s.revealed && !s.won ? "The nine was " + p.nines.join(" / ") + "." : hasNine() ? "You found the nine." : "Genius.",
           lines: [], stats: st,
           shareText: "Nine #" + G.number() + " · " + t[0] + " · " + s.found.length + " words" + (hasNine() ? " · found the nine" : "") + "\n" + G.SITE + "/games/nine/",
-          extra: el("p", null, ["Keep going: " + (p.words.length - s.found.length) + " words left, " + (p.max - sc) + " points."])
+          extra: el("p", null, [sc < GENIUS
+            ? "Keep going: " + (GENIUS - sc) + " points to Genius. The board holds "
+              + (p.words.length - s.found.length) + " more words if you want them."
+            : "Past Genius. The board still holds " + (p.words.length - s.found.length)
+              + " more words in the dictionary."])
         }));
       } else if (s.found.length >= 8) {
         done.appendChild(el("p", { class: "note", style: "margin-top:16px" }, [el("a", { href: "#", onclick: function (e) { e.preventDefault(); if (confirm("Show the nine-letter word? That ends today's streak.")) { s.revealed = true; G.setState("nine", s); G.record("nine", false); paint(); } } }, ["Show me the nine"]), " (ends the streak)"]));
