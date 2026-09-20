@@ -26,54 +26,63 @@ the register. A hashtag on a news post reads as marketing.
 **Short.** Median 146 characters, roughly half the limit. The restraint is the
 signal: a paper that has the story does not need to work for the click.
 
-## The two house styles
+## The house template
 
-The sample splits cleanly.
-
-### Wire — Reuters, the FT, the Guardian · median 108 characters
-
-The headline, then the link. Nothing else. One line.
+Every post the paper sends uses one shape, three blocks separated by blank
+lines:
 
 ```
-Corvid ships Kestrel accelerator to cloud partners
-https://theaipost.com/story/kestrel
+<headline, exactly as it runs in the paper>
+
+<standfirst, exactly as it runs in the paper>
+
+<link to the story>
 ```
 
-No verb changes, no teaser. The headline already did the work, and it was
-written to be read cold.
-
-### Sell — the Times, the Post, the Economist · median 223 characters
-
-The story restated for someone scrolling, often in two blocks separated by a
-blank line: the fact, then the turn.
-
 ```
-Figure rented 30 homes in the Bay Area and sent in a humanoid with no
-training for any of them.
+Alibaba's Qwen releases a 7B image model with open weights
 
-It finished 56% of the chores.
+Qwen-Image-2.1 generates and edits in one model, takes up to ten reference
+images and outputs transparent layers, and ComfyUI and vLLM supported it
+within the hour.
 
-https://theaipost.com/story/helix25
+https://theaipost.net/story/qwen-image-21/
 ```
 
-The second block is doing the work — it carries the number, the qualification,
-or the thing that complicates the first block. It is not a restatement.
+Three reasons it is this and not something else.
 
-## Which one we use
+**Nothing is rewritten for the post.** The headline and the standfirst have
+already passed the checks in `02-headlines.md` and `01-voice.md`. Rewriting
+either one for social is how a paper ends up with a post that promises more
+than the story delivers.
 
-**Default to wire.** Headline, newline, link. It is honest, it is fast, and it
-cannot overpromise, because the headline has already passed the checks in
-`02-headlines.md`.
+**The standfirst is already the right second block.** The sampled papers that
+use two blocks put the fact in the first and the thing that complicates it in
+the second. That is the standfirst's job on the page — it exists to add what
+the headline had to leave out — so it needs no adaptation.
 
-**Use sell for the lead story only**, at most a few times a day. The second
-block must add a fact the headline left out — a number, a caveat, a conflict.
-If it only rephrases, use wire instead.
+**The link stands alone at the end.** It is the last line, on its own, so the
+preview card attaches to it and the reader's eye lands on it last.
+
+Where this sits against the sample: it is the Times/Post/Economist "sell"
+shape, which ran to a median of 223 characters. The paper uses it for every
+story rather than for the lead alone, because every story here has a
+standfirst written to that standard.
+
+### The fallback
+
+A story with no standfirst gets the headline and the link, one line each —
+the Reuters/FT/Guardian "wire" shape. The same applies if the assembled post
+somehow exceeds the platform's 280 characters: it falls back rather than being
+cut mid-sentence. Both cases are rare, and `pipeline/social.py` handles them
+without asking.
 
 ## Rules
 
 - **The link, always.** No exceptions, including threads and quote posts.
 - **No hashtag, no emoji**, in any position.
-- Under 200 characters including the URL. Wire posts should be well under.
+- Under 280 characters including the URL, which the template stays inside so
+  long as the headline and standfirst are within their own limits.
 - Never a claim the story does not support. The post is the paper speaking, and
   it carries the same attribution rules as the copy — `04-attribution.md`
   applies in full. A vendor's benchmark is attributed here too.

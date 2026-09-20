@@ -16,7 +16,7 @@ For each story, show the editor, in plain terms:
 - The **number of independent sources**, and who they are
 - **What could not be confirmed**
 - The **drafted post**, exactly as it would appear, with its character count and
-  whether it is wire or sell style
+  whether it uses the house template or the wire fallback
 - Any validation problems
 
 Then verify before asking:
