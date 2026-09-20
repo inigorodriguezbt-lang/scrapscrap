@@ -81,6 +81,9 @@ window.Games = (function () {
     return n;
   }
   function toast(msg) {
+    // One at a time. Two toasts share the same fixed position, so a player
+    // submitting quickly would otherwise stack them and read neither.
+    document.querySelectorAll(".toast").forEach(function (old) { old.remove(); });
     var t = el("div", { class: "toast" }, [msg]);
     document.body.appendChild(t);
     requestAnimationFrame(function () { t.classList.add("toast--in"); });
