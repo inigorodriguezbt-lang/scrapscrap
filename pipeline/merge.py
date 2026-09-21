@@ -26,17 +26,70 @@ import argparse
 import json
 from pathlib import Path
 
-from .common import load_config
+from .common import EDITIONS_DIR, load_config, normalize_url, tokenize
+
+# Two headlines this alike, about the same beat, are the same event.
+# Measured against the pair that slipped through: "Trump says he will form an
+# AI Force and name an AI czar" against "Trump wants to name an 'AI czar' to
+# head new 'AI Force'" scores 0.50.
+SAME_STORY = 0.45
+MIN_SHARED_TOKENS = 2
 
 
 def _key(story: dict) -> str:
     return story.get("cluster_id", "")
 
 
+def _urls(story: dict) -> set[str]:
+    return {normalize_url(src.get("url", "")) for src in story.get("sources", []) if src.get("url")}
+
+
+def _words(story: dict) -> set[str]:
+    return set(tokenize(story.get("headline", "")))
+
+
+def published_fingerprints(window_hours: int = 96) -> list[dict]:
+    """Everything the paper has run recently, as things to compare against.
+
+    Deduplicating on cluster_id alone cannot work: the id is a hash of the
+    post ids in the cluster, so the same event picked up an hour later with
+    one extra post hashes to something entirely different. The paper ran the
+    same Trump story twice that way. So compare what the story is about.
+    """
+    out = []
+    for path in sorted(EDITIONS_DIR.glob("*.json"))[-6:]:
+        try:
+            edition = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        for story in edition.get("stories", []) or []:
+            out.append({"id": _key(story), "urls": _urls(story), "words": _words(story),
+                        "headline": story.get("headline", ""), "date": path.stem})
+    return out
+
+
+def already_published(story: dict, published: list[dict]) -> str | None:
+    """Why this story is a repeat, or None if it is genuinely new."""
+    cid, urls, words = _key(story), _urls(story), _words(story)
+    for prior in published:
+        if cid and cid == prior["id"]:
+            return f"same cluster id as {prior['headline'][:48]!r}"
+        shared_urls = urls & prior["urls"]
+        if shared_urls:
+            return f"shares a source with {prior['headline'][:48]!r} ({prior['date']})"
+        if words and prior["words"]:
+            overlap = words & prior["words"]
+            union = words | prior["words"]
+            if len(overlap) >= MIN_SHARED_TOKENS and len(overlap) / len(union) >= SAME_STORY:
+                return (f"reads as {prior['headline'][:48]!r} ({prior['date']}), "
+                        f"{len(overlap)}/{len(union)} words shared")
+    return None
+
+
 def merge(edition: dict, incoming: list[dict], front_slots: int) -> tuple[dict, list[str], list[str]]:
     """Return the merged edition, the ids added, and the ids skipped."""
     existing = edition.get("stories", []) or []
-    known = {_key(s) for s in existing}
+    published = published_fingerprints()
 
     added, skipped = [], []
     fresh = []
@@ -45,10 +98,12 @@ def merge(edition: dict, incoming: list[dict], front_slots: int) -> tuple[dict, 
         if not cid:
             skipped.append("(no cluster_id)")
             continue
-        if cid in known:
-            skipped.append(cid)          # already published; leave it alone
+        repeat = already_published(story, published)
+        if repeat:
+            skipped.append(f"{story.get('headline', cid)[:44]!r} — {repeat}")
             continue
-        known.add(cid)
+        published.append({"id": cid, "urls": _urls(story), "words": _words(story),
+                          "headline": story.get("headline", ""), "date": "this run"})
         fresh.append(story)
         added.append(cid)
 
