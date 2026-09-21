@@ -37,6 +37,61 @@ class ProviderError(RuntimeError):
     pass
 
 
+def _iso(value) -> str:
+    """The API returns unix seconds; the rest of the pipeline wants ISO."""
+    if isinstance(value, (int, float)):
+        return dt.datetime.fromtimestamp(int(value), dt.timezone.utc).isoformat()
+    return value or utcnow().isoformat()
+
+
+def load_watermark(path: Path) -> int | None:
+    """Epoch of the newest post the last sweep already paid for."""
+    try:
+        return int(json.loads(path.read_text(encoding="utf-8"))["last_epoch"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+
+
+def save_watermark(path: Path, records: list[dict], fallback: int) -> int:
+    """Advance the mark past the newest row we just bought.
+
+    Billing is one credit per delivered post, so a sweep that re-asks for
+    posts it already holds pays for them twice. The mark is what stops that.
+    """
+    if not records:
+        # Nothing new. Holding the mark still matters: nudging it forward on
+        # every quiet sweep would walk past posts that land in the skipped
+        # seconds, and a quiet sweep costs nothing anyway.
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"last_epoch": fallback}, indent=1) + "\n", encoding="utf-8")
+        return fallback
+
+    newest = fallback
+    for record in records:
+        try:
+            stamp = dt.datetime.fromisoformat(record["created_at"])
+        except (ValueError, KeyError, TypeError):
+            continue
+        if stamp.tzinfo is None:
+            stamp = stamp.replace(tzinfo=dt.timezone.utc)
+        newest = max(newest, int(stamp.timestamp()))
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"last_epoch": newest + 1}, indent=1) + "\n", encoding="utf-8")
+    return newest + 1
+
+
+def source_batches(count: int, per_batch: int = 20) -> list[str]:
+    """`(from:a OR from:b ...)` over the top `count` configured handles.
+
+    Batched because a single query carrying 100 handles is long enough that
+    the search rejects it. Twenty per request is tested and works.
+    """
+    from .common import load_config
+    handles = [s["handle"] for s in load_config().get("sources", [])][:count]
+    return ["(" + " OR ".join(f"from:{h}" for h in handles[i:i + per_batch]) + ")"
+            for i in range(0, len(handles), per_batch)]
+
+
 class Provider:
     """Minimum surface the paper needs from any X data vendor."""
 
@@ -50,7 +105,7 @@ class Provider:
     def configured(self) -> bool:
         return bool(self.key)
 
-    def search(self, query: str, limit: int) -> list[dict]:
+    def search(self, query: str, limit: int, since_epoch: int | None = None) -> list[dict]:
         raise NotImplementedError
 
     # Shared: turn a vendor row into the paper's record shape.
@@ -79,11 +134,17 @@ class Provider:
 class Xquik(Provider):
     name = "xquik"
     env_key = "XQUIK_API_KEY"
-    BASE = "https://api.xquik.com/v1"
+    # The live REST surface is xquik.com/api/v1, and the search parameter is
+    # "q". An earlier guess at api.xquik.com/v1 with "query" 404s.
+    BASE = "https://xquik.com/api/v1"
 
-    def search(self, query: str, limit: int) -> list[dict]:
-        url = f"{self.BASE}/tweets/search?" + urllib.parse.urlencode(
-            {"query": query, "limit": limit})
+    def search(self, query: str, limit: int, since_epoch: int | None = None) -> list[dict]:
+        params = {"q": query, "limit": limit}
+        if since_epoch:
+            # Only posts newer than the last run. Without this the same rows
+            # come back every sweep and every one of them is billed again.
+            params["sinceTime"] = int(since_epoch)
+        url = f"{self.BASE}/x/tweets/search?" + urllib.parse.urlencode(params)
         req = urllib.request.Request(url, headers={
             "x-api-key": self.key, "Accept": "application/json"})
         try:
@@ -104,7 +165,7 @@ class Xquik(Provider):
                 tweet_id=tid,
                 author=handle,
                 text=row.get("text") or row.get("full_text") or "",
-                created=row.get("created_at") or utcnow().isoformat(),
+                created=_iso(row.get("created_at")),
                 url=row.get("url") or (f"https://x.com/{handle}/status/{tid}" if tid else ""),
                 likes=row.get("like_count") or row.get("favorite_count"),
                 reposts=row.get("retweet_count"),
@@ -155,6 +216,11 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Search X through a paid provider.")
     ap.add_argument("--query", help="X search string; advanced operators allowed")
     ap.add_argument("--limit", type=int, default=50)
+    ap.add_argument("--sources", type=int, metavar="N",
+                    help="sweep the top N configured handles instead of --query")
+    ap.add_argument("--state", type=Path,
+                    help="high-water-mark file; only posts newer than the last "
+                         "run are fetched, so none is paid for twice")
     ap.add_argument("--check", action="store_true", help="report configuration only")
     ap.add_argument("--out", type=Path, help="write JSONL here instead of stdout")
     args = ap.parse_args()
@@ -172,13 +238,27 @@ def main() -> None:
             print("\nSee docs/x-access.md for costs and the terms-of-service question.")
         return
 
-    if not args.query:
-        ap.error("--query is required unless --check is given")
+    if not args.query and not args.sources:
+        ap.error("--query or --sources is required unless --check is given")
 
     if not provider.configured:
         sys.exit(f"{provider.env_key} is not set. Run --check, or see docs/x-access.md.")
 
-    records = provider.search(args.query, args.limit)
+    since = load_watermark(args.state) if args.state else None
+    queries = source_batches(args.sources) if args.sources else [args.query]
+
+    records: list[dict] = []
+    for query in queries:
+        records.extend(provider.search(query, args.limit, since_epoch=since))
+
+    seen: set[str] = set()
+    records = [r for r in records if not (r["id"] in seen or seen.add(r["id"]))]
+
+    if args.state:
+        mark = save_watermark(args.state, records, since or int(utcnow().timestamp()))
+        window = "everything" if since is None else f"since {_iso(since)}"
+        print(f"{len(records)} posts, {window}; next sweep starts at {_iso(mark)}")
+
     if args.out:
         args.out.parent.mkdir(parents=True, exist_ok=True)
         with args.out.open("w", encoding="utf-8") as fh:

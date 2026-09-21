@@ -128,3 +128,8 @@ editorial:
   # Stories per edition, and how many get front-page treatment.
   max_stories_per_edition: 24
   front_page_slots: 7
+
+  # The front page is a rolling window, not one day's file. Stories from
+  # earlier editions are carried beneath today's until this old, so the
+  # page is never empty at one minute past midnight.
+  front_page_carry_hours: 48
