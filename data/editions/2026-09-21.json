@@ -1,621 +1,822 @@
 {
- "edition_date": "2026-09-21",
- "stories": [
-  {
-   "cluster_id": "opus55-rumour",
-   "placement": "lead",
-   "section": "models",
-   "headline": "Opus 5.5 is said to arrive Tuesday, 20 percent cheaper than Opus 5",
-   "standfirst": "Accounts circulating since Sunday put the model at $4 and $20 per million tokens, testing under the codename claude-wafer-eap and strongest at 3D and front-end work.",
-   "body": [
-    "Anthropic will release Claude Opus 5.5 as early as Tuesday at prices a fifth below its current flagship, according to accounts that began circulating on Sunday. They put the model at $4 per million input tokens and $20 per million output, with cache reads at $0.20 and writes at $5. They put it in testing under the codename claude-wafer-eap.",
-    "The capability claims place it alongside GPT-6 Astra and Fable 5.1, ahead of both on some work. Accounts single out 3D generation and front-end development, and describe shorter, cleaner output and a better grip on fine detail. One developer says it produced a Waymo vehicle in 3D with the badge and roof lidar modelled. They describe its thinking as always adaptive.",
-    "The version number moved. Several accounts say the model began as Opus 5.2 and took the 5.5 name late, because the changes outgrew a point release. Anthropic ran a brief Opus 5.2 test between 14 and 17 September, routing a slice of Opus 5 traffic to an unreleased checkpoint. One account has the context window falling from 936,000 tokens to 872,000.",
-    "The pricing would be a real cut. Anthropic lists Opus 5 at $5 per million input tokens and $25 per million output, with cache reads at $0.50 and writes at $6.25. The leaked pair is exactly 20 percent below both, and the cache read would fall by 60 percent. For long-context agent work, the cache line matters more than the headline rate.",
-    "Anthropic has confirmed none of it. No Opus 5.5 appears on the price list, and the company has published no model card and no API identifier. Reuters reported on Friday that the company is weighing a new model to answer GPT-6 Astra, days after Dario Amodei urged the industry to slow down. Polymarket puts the next Opus at 72 percent to land by Thursday.",
-    "The account that carried the claim furthest, kimmonismus, relaying a leaker called Lyra, said on Monday that he cannot confirm it. Partners got 24 hours with the model, one account says. GPT-6 Sol is due the same week. A published price list would settle the numbers within a day."
-   ],
-   "entities": [
-    "Anthropic"
-   ],
-   "sources": [
+  "edition_date": "2026-09-21",
+  "stories": [
     {
-     "author": "@kimmonismus",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/kimmonismus/status/2101701166321086696",
-     "at": "20 Sep, 15:53 UTC"
+      "cluster_id": "opus55-rumour",
+      "placement": "lead",
+      "section": "models",
+      "headline": "Opus 5.5 is said to arrive Tuesday, 20 percent cheaper than Opus 5",
+      "standfirst": "Accounts circulating since Sunday put the model at $4 and $20 per million tokens, testing under the codename claude-wafer-eap and strongest at 3D and front-end work.",
+      "body": [
+        "Anthropic will release Claude Opus 5.5 as early as Tuesday at prices a fifth below its current flagship, according to accounts that began circulating on Sunday. They put the model at $4 per million input tokens and $20 per million output, with cache reads at $0.20 and writes at $5. They put it in testing under the codename claude-wafer-eap.",
+        "The capability claims place it alongside GPT-6 Astra and Fable 5.1, ahead of both on some work. Accounts single out 3D generation and front-end development, and describe shorter, cleaner output and a better grip on fine detail. One developer says it produced a Waymo vehicle in 3D with the badge and roof lidar modelled. They describe its thinking as always adaptive.",
+        "The version number moved. Several accounts say the model began as Opus 5.2 and took the 5.5 name late, because the changes outgrew a point release. Anthropic ran a brief Opus 5.2 test between 14 and 17 September, routing a slice of Opus 5 traffic to an unreleased checkpoint. One account has the context window falling from 936,000 tokens to 872,000.",
+        "The pricing would be a real cut. Anthropic lists Opus 5 at $5 per million input tokens and $25 per million output, with cache reads at $0.50 and writes at $6.25. The leaked pair is exactly 20 percent below both, and the cache read would fall by 60 percent. For long-context agent work, the cache line matters more than the headline rate.",
+        "Anthropic has confirmed none of it. No Opus 5.5 appears on the price list, and the company has published no model card and no API identifier. Reuters reported on Friday that the company is weighing a new model to answer GPT-6 Astra, days after Dario Amodei urged the industry to slow down. Polymarket puts the next Opus at 72 percent to land by Thursday.",
+        "The account that carried the claim furthest, kimmonismus, relaying a leaker called Lyra, said on Monday that he cannot confirm it. Partners got 24 hours with the model, one account says. GPT-6 Sol is due the same week. A published price list would settle the numbers within a day."
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "sources": [
+        {
+          "author": "@kimmonismus",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/kimmonismus/status/2101701166321086696",
+          "at": "20 Sep, 15:53 UTC"
+        },
+        {
+          "author": "@kimmonismus",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/kimmonismus/status/2101893653048303922",
+          "at": "21 Sep, 04:37 UTC"
+        },
+        {
+          "author": "@kimmonismus",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/kimmonismus/status/2101607904998461654",
+          "at": "20 Sep, 09:42 UTC"
+        },
+        {
+          "author": "Anthropic — published API price list",
+          "tier": "primary",
+          "kind": "article",
+          "url": "https://claude.com/pricing",
+          "at": "21 Sep"
+        },
+        {
+          "author": "@AnthropicAI",
+          "tier": "primary",
+          "kind": "post",
+          "url": "https://x.com/AnthropicAI/status/2101039819870937247",
+          "at": "18 Sep, 8:05 UTC"
+        },
+        {
+          "author": "TestingCatalog",
+          "tier": "press",
+          "kind": "post",
+          "url": "https://x.com/testingcatalog/status/2101960963838574608",
+          "at": "21 Sep, 09:05 UTC"
+        },
+        {
+          "author": "Polymarket",
+          "tier": "press",
+          "kind": "post",
+          "url": "https://x.com/Polymarket/status/2101775874609545326",
+          "at": "20 Sep, 20:49 UTC"
+        },
+        {
+          "author": "Polymarket — citing Reuters",
+          "tier": "press",
+          "kind": "post",
+          "url": "https://x.com/Polymarket/status/2101297899724280285",
+          "at": "19 Sep, 13:10 UTC"
+        },
+        {
+          "author": "OrcaRouter — analysis of the leak's sourcing",
+          "tier": "commentary",
+          "kind": "article",
+          "url": "https://www.orcarouter.ai/blog/claude-opus-5-5-leak",
+          "at": "20 Sep"
+        },
+        {
+          "author": "Pasquale Pillitteri",
+          "tier": "press",
+          "kind": "article",
+          "url": "https://pasqualepillitteri.it/en/news/17197/claude-opus-5-5-leak-prices-tuesday-launch",
+          "at": "20 Sep"
+        },
+        {
+          "author": "WinCentral",
+          "tier": "press",
+          "kind": "article",
+          "url": "https://thewincentral.com/claude-opus-5-5-launch-tuesday-leak-pricing/",
+          "at": "21 Sep"
+        },
+        {
+          "author": "@CaptainInsightX",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/CaptainInsightX/status/2101942689294118988",
+          "at": "21 Sep, 07:52 UTC"
+        },
+        {
+          "author": "@AIJonHu",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/AIJonHu/status/2101952824083136557",
+          "at": "21 Sep, 08:33 UTC"
+        },
+        {
+          "author": "@yulmu_coffee",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/yulmu_coffee/status/2101976448487805391",
+          "at": "21 Sep, 10:06 UTC"
+        },
+        {
+          "author": "@tom_knockk",
+          "tier": "commentary",
+          "kind": "post",
+          "url": "https://x.com/tom_knockk/status/2101901625442828301",
+          "at": "21 Sep, 05:09 UTC"
+        }
+      ],
+      "image": null,
+      "published_at": "2026-09-21T12:40:00+00:00"
     },
     {
-     "author": "@kimmonismus",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/kimmonismus/status/2101893653048303922",
-     "at": "21 Sep, 04:37 UTC"
+      "cluster_id": "shopify-muse-checkout",
+      "section": "products",
+      "headline": "Shopify opens Shop Pay checkout to Meta's Muse agent",
+      "standfirst": "Tobi Lutke said the arrangement covers every Shopify store, two days after Amazon blocked the same agent from shopping on its own site.",
+      "body": [
+        "Shopify will let Meta's Muse agent complete purchases with Shop Pay across all Shopify stores, chief executive Tobi Lutke said on Monday in a post relayed by the market account StockMKTNewz. Meta's own AI lead said the same thing minutes later.",
+        "Alexandr Wang, who leads Meta's AI work, said Muse is \"partnering deeply\" with Shopify to give its users access to a wide range of products. Neither post gave a start date, and neither said what either company is paid. Kalshi_Finance and StockSavvyShay reported the arrangement in the same terms.",
+        "Amazon moved the other way two days earlier, blocking Muse from shopping on Amazon.com on behalf of its users, TechCrunch reported. Shopify and Amazon have each acted without explaining the commercial terms behind the decision, and neither has said whether the other's approach affected it.",
+        "The account firstadopter set out one reading of the split, writing that Shopify does not have a high-margin advertising business to protect. That is a characterisation by an outside account rather than a statement from either company, and it may not be the whole of either decision.",
+        "Meta shares rose more than 10 percent on Monday, their best day in more than a year, according to the market accounts wallstengine and DeItaone. Neither account separated the effect of the Shopify arrangement from Muse's launch two weeks ago."
+      ],
+      "entities": [
+        "Meta",
+        "Amazon"
+      ],
+      "sources": [
+        {
+          "author": "Alexandr Wang",
+          "url": "https://x.com/alexandr_wang/status/2102092011021217911"
+        },
+        {
+          "author": "StockMKTNewz",
+          "url": "https://x.com/StockMKTNewz/status/2102092061922984019"
+        },
+        {
+          "author": "Kalshi_Finance",
+          "url": "https://x.com/Kalshi_Finance/status/2102091303865458971"
+        },
+        {
+          "author": "StockSavvyShay",
+          "url": "https://x.com/StockSavvyShay/status/2102092832601493915"
+        },
+        {
+          "author": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"
+        },
+        {
+          "author": "firstadopter",
+          "url": "https://x.com/firstadopter/status/2102091588767760759"
+        },
+        {
+          "author": "wallstengine",
+          "url": "https://x.com/wallstengine/status/2102083936344219672"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "@kimmonismus",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/kimmonismus/status/2101607904998461654",
-     "at": "20 Sep, 09:42 UTC"
+      "cluster_id": "openai-rsi-standards",
+      "section": "policy",
+      "headline": "OpenAI asks US to lead global standards for self-improving AI",
+      "standfirst": "The company said fully autonomous recursive self-improvement is not happening today and should not be pursued unless it can be done safely.",
+      "body": [
+        "OpenAI called on Monday for the United States to lead an effort to write international technical standards for AI systems that help build the systems that follow them. The company set the proposal out in a post on its own site.",
+        "Reuters, Politico, the Financial Times and the Wall Street Journal each reported the call, which OpenAI made in a post titled \"Building standards for the next phase of AI\". Techmeme, citing Axios, said the post came ahead of an address by Sam Altman at the United Nations.",
+        "The position is OpenAI's own and concerns a practice OpenAI expects to use. Techmeme quoted the post as saying that automated research could improve alignment, but that \"fully autonomous RSI is not happening today\" and should not be pursued unless it can be done safely.",
+        "Two accounts that read the post described what OpenAI wants built. AndrewCurran_ said OpenAI proposed linking national AI safety institutes into one network and tracking how much research inside a lab is being done by AI. The account choblin29 said OpenAI wants the same measurement of RSI-relevant progress.",
+        "The same two accounts said OpenAI drew a limit around its proposal. choblin29 said the post argues the standards should not become model licences, mandatory pre-release reviews or government approval requirements. Neither the wire reports nor the accounts recorded a response from any US agency."
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "author": "OpenAI",
+          "url": "https://openai.com/index/building-standards-next-phase-ai"
+        },
+        {
+          "author": "Reuters",
+          "url": "https://www.reuters.com/legal/government/openai-calls-us-take-lead-global-efforts-develop-technical-standards-2026-09-21/"
+        },
+        {
+          "author": "Techmeme",
+          "url": "https://x.com/Techmeme/status/2102095879914340571"
+        },
+        {
+          "author": "AndrewCurran_",
+          "url": "https://x.com/AndrewCurran_/status/2102095417571967293"
+        },
+        {
+          "author": "choblin29",
+          "url": "https://x.com/choblin29/status/2102092270187229568"
+        },
+        {
+          "author": "Max Zeff, Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/openai-urges-u-s-government-to-create-global-ai-safety-standards-a8afba96"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "Anthropic — published API price list",
-     "tier": "primary",
-     "kind": "article",
-     "url": "https://claude.com/pricing",
-     "at": "21 Sep"
+      "cluster_id": "qualcomm-optical-d2d",
+      "section": "chips",
+      "headline": "Qualcomm, Lumentum and Corning to demonstrate optical chip-to-chip link",
+      "standfirst": "Lumentum said its optical engine carries about 10 terabits a second of combined transmit and receive capacity in a proof-of-concept that has not shipped.",
+      "body": [
+        "Lumentum said on Monday that it will show a board-level optical die-to-die interconnect for AI systems at the ECOC conference in Malaga this week, built with parts from Qualcomm and Corning. The three companies gave no date for a product.",
+        "Each company supplies one part. Lumentum's optical engine uses advanced-packaged 1060-nanometre VCSELs with two-dimensional laser and photodetector arrays and backside lens technology. Qualcomm supplies a die-to-die interface IP subsystem. Corning supplies the multimode fibre connectivity that carries the light between the parts.",
+        "Lumentum put the engine's capacity at about 10 terabits a second of aggregate transmit and receive, over optical links spanning tens of metres. The figure is the company's own, measured on a configuration it built. Lumentum described the setup as a proof of concept, not a shipping product.",
+        "Matt Sysak, Lumentum's chief technology officer, said the demonstration \"shows how Lumentum's 1060 nm VCSEL platform can bring high-density optical connectivity closer to AI compute\". Tony Chan Carusone, a Qualcomm senior vice-president, said AI scale-up \"requires die-to-die connectivity that delivers high bandwidth density while minimizing latency, power, and area\".",
+        "Qualcomm shares rose more than 8 percent on Monday, according to the market accounts wallstengine and StockSavvyShay, both of which noted the announcement landed before this week's Snapdragon Summit. Lumentum and Corning shares also rose. The companies gave no power figure for the link."
+      ],
+      "entities": [
+        "Qualcomm",
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "author": "Lumentum",
+          "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Qualcomm-and-Corning-to-Demonstrate-High-Density-1060-nm-VCSEL-Optical-D2D-Connectivity-for-AI-Scale-Up-at-ECOC-2026/default.aspx"
+        },
+        {
+          "author": "wallstengine",
+          "url": "https://x.com/wallstengine/status/2102095356431605821"
+        },
+        {
+          "author": "StockSavvyShay",
+          "url": "https://x.com/StockSavvyShay/status/2102096428013412410"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2102097733679304805"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "@AnthropicAI",
-     "tier": "primary",
-     "kind": "post",
-     "url": "https://x.com/AnthropicAI/status/2101039819870937247",
-     "at": "18 Sep, 8:05 UTC"
+      "cluster_id": "grok47-independent-evals",
+      "section": "research",
+      "headline": "Independent evaluators split on what Grok 4.7 improved",
+      "standfirst": "Artificial Analysis put the model in the top four on its intelligence index, while Vals AI measured a decline driven by finance and research tasks.",
+      "body": [
+        "Two independent evaluation outfits published results for SpaceXAI's Grok 4.7 on Monday and disagreed about whether the model is an improvement on Grok 4.6. Both ran the model at its highest reasoning setting, and both published their scores in full.",
+        "Artificial Analysis scored Grok 4.7 at 46 on its Intelligence Index, which it said brings SpaceXAI into the top four AI labs. Grok Build running Grok 4.7 scored 56 on its Coding Agent Index, up from 47 with Grok 4.6, and the firm put the hallucination rate at 29 percent against 34 percent.",
+        "Vals AI read its own numbers the other way. It said most of the decline in its index comes from finance and research-heavy tasks, with its EMB test falling 7.8 points and Finance Agent v2 falling 4.5 points, together about two-thirds of the drop.",
+        "The two ran different tests and report different things, so the results may not be comparable. Vals AI said it used SpaceXAI's default provider settings at xhigh reasoning. Artificial Analysis also tested at xhigh, and put output speed at about 188 tokens a second on long prompts.",
+        "Both measured the model consuming more. Artificial Analysis said Grok 4.7 used 81,000 output tokens per Intelligence Index task, more than double the 36,000 used by Grok 4.6. Vals AI put the cost per test at $4.78 against $4.34, on roughly 15 percent more input tokens.",
+        "Elon Musk said Grok 4.7 places SpaceXAI third for agentic coding, behind Anthropic and OpenAI, and called the model \"a strong combination of intelligence, speed & low cost\". That ranking is the company's own reading of the published indices."
+      ],
+      "entities": [
+        "xAI"
+      ],
+      "sources": [
+        {
+          "author": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/models/grok-4-7"
+        },
+        {
+          "author": "Vals AI",
+          "url": "https://www.vals.ai/models/grok_grok-4.7"
+        },
+        {
+          "author": "ArtificialAnlys",
+          "url": "https://x.com/ArtificialAnlys/status/2102074898327932987"
+        },
+        {
+          "author": "ValsAI",
+          "url": "https://x.com/ValsAI/status/2102086615653110000"
+        },
+        {
+          "author": "Elon Musk",
+          "url": "https://x.com/elonmusk/status/2102082011233931762"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "TestingCatalog",
-     "tier": "press",
-     "kind": "post",
-     "url": "https://x.com/testingcatalog/status/2101960963838574608",
-     "at": "21 Sep, 09:05 UTC"
+      "cluster_id": "openai-math-advisory",
+      "section": "research",
+      "headline": "OpenAI names outside advisory group on mathematics results",
+      "standfirst": "The company said an independent group of mathematicians will guide how it reviews and communicates new mathematical results produced by its models.",
+      "body": [
+        "OpenAI said on Monday it is working with an independent Advisory Group on Mathematics and Artificial Intelligence, which it said will help it share advances in AI and mathematics responsibly. The company announced the group on its own site and on X.",
+        "The group will advise on how OpenAI assesses and communicates new mathematical results, upholds academic and professional standards, and builds tools that support mathematical research and learning, the company said. OpenAI said it wants mathematicians \"at the center of shaping how AI supports mathematical understanding\".",
+        "Two accounts tied the announcement to claims about OpenAI's own results. Polymarket said the group follows OpenAI's AI solving more than 100 open problems, \"drawing concerns from mathematicians\". The account choblin29 said OpenAI put the work on an internal model it began training 24 days ago.",
+        "Neither figure appears in OpenAI's own announcement, which names no model and gives no problem count. The claims rest on those two accounts, and nothing else in Monday's sources confirms them. OpenAI did not say who sits on the group or when it starts work."
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "author": "OpenAI",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+        },
+        {
+          "author": "OpenAI",
+          "url": "https://x.com/OpenAI/status/2102093145051943229"
+        },
+        {
+          "author": "Polymarket",
+          "url": "https://x.com/Polymarket/status/2102094379087233143"
+        },
+        {
+          "author": "choblin29",
+          "url": "https://x.com/choblin29/status/2102095044543160555"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "Polymarket",
-     "tier": "press",
-     "kind": "post",
-     "url": "https://x.com/Polymarket/status/2101775874609545326",
-     "at": "20 Sep, 20:49 UTC"
+      "cluster_id": "grok47-launch",
+      "section": "models",
+      "headline": "SpaceXAI releases Grok 4.7, says it runs twice as fast",
+      "standfirst": "The company put the price at $2 per million input tokens and $6 per million output tokens. The speed claim is its own.",
+      "body": [
+        "SpaceXAI released Grok 4.7 on Monday at $2 per million input tokens and $6 per million output tokens, according to Techmeme and three market accounts. The company said the model runs twice as fast as comparable models at half the price.",
+        "Techmeme, summarising xAI, said Grok 4.7 is better at verifying its own work and at managing longer context. DeItaone put the model at twice the speed of comparable models at half the price. FirstSquawk and financialjuice carried the same pricing, and none of the accounts named the models the comparison uses.",
+        "The speed and price comparison is the company's own, and the accounts carrying it did not describe the tests behind it. No independent benchmark of Grok 4.7 appeared on Monday morning in the accounts the paper monitors. A post from xAI itself was not among them either.",
+        "Kol Tregaskes, who tracks model releases, posted only that Grok 4.7 was out, without figures. PolymarketMoney attributed the release to Elon Musk's SpaceXAI and repeated the twice-as-fast claim. None of the accounts said when the model reaches the consumer app, or which subscription tier it may require."
+      ],
+      "entities": [
+        "SpaceXAI",
+        "xAI",
+        "Grok 4.7",
+        "Elon Musk",
+        "Techmeme"
+      ],
+      "sources": [
+        {
+          "author": "Techmeme",
+          "url": "https://x.com/Techmeme/status/2102064269676429402"
+        },
+        {
+          "author": "DeItaone",
+          "url": "https://x.com/DeItaone/status/2102062048167305621"
+        },
+        {
+          "author": "financialjuice",
+          "url": "https://x.com/financialjuice/status/2102063067626369125"
+        },
+        {
+          "author": "FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2102062223753679067"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2102067928137191442"
+        },
+        {
+          "author": "koltregaskes",
+          "url": "https://x.com/koltregaskes/status/2102059982611202097"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "Polymarket — citing Reuters",
-     "tier": "press",
-     "kind": "post",
-     "url": "https://x.com/Polymarket/status/2101297899724280285",
-     "at": "19 Sep, 13:10 UTC"
+      "cluster_id": "trump-ai-hoax",
+      "section": "policy",
+      "headline": "Trump says AI fears are a hoax, backs existing law enforcement",
+      "standfirst": "The president said the United States leads China in artificial intelligence and that he will not stifle its growth, in a post on Truth Social.",
+      "body": [
+        "President Trump said warnings that artificial intelligence will kill people are \"more of a Hoax\" than earlier claims he has dismissed, in a Truth Social post that market accounts carried on Monday. He said he would only encourage the technology.",
+        "Several accounts carried the same lines. DeItaone and StockMKTNewz each quoted \"Whoever wins AI, WINS\" and the claim that the United States leads China. clashreport and BullTheoryio posted the same passage. FirstSquawk carried a longer one in which Trump compared the AI warnings to earlier warnings about global warming.",
+        "Trump said he would not stifle growth in a technology that he said could be bigger than the Industrial Revolution or the internet. He said the Department of Justice and other law enforcement bodies would rein things in if they have to. zerohedge said he repeated that current law enforcement is enough for policing AI.",
+        "The post carries no policy. None of the accounts reported a new order, rule or appointment alongside it, and none pointed to a White House document. Cointelegraph and MarioNawfal summarised the post rather than adding reporting of their own, and Kalshi and Polymarket, which run markets on political events, carried single lines from it."
+      ],
+      "entities": [
+        "Donald Trump",
+        "China",
+        "Department of Justice"
+      ],
+      "sources": [
+        {
+          "author": "DeItaone",
+          "url": "https://x.com/DeItaone/status/2102064039819878759"
+        },
+        {
+          "author": "StockMKTNewz",
+          "url": "https://x.com/StockMKTNewz/status/2102064339779727684"
+        },
+        {
+          "author": "clashreport",
+          "url": "https://x.com/clashreport/status/2102063015629594767"
+        },
+        {
+          "author": "BullTheoryio",
+          "url": "https://x.com/BullTheoryio/status/2102068001654837435"
+        },
+        {
+          "author": "FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2102063619085365647"
+        },
+        {
+          "author": "zerohedge",
+          "url": "https://x.com/zerohedge/status/2102063260862206158"
+        },
+        {
+          "author": "Cointelegraph",
+          "url": "https://x.com/Cointelegraph/status/2102065138459136309"
+        },
+        {
+          "author": "MarioNawfal",
+          "url": "https://x.com/MarioNawfal/status/2102065076182372617"
+        }
+      ],
+      "placement": "front"
     },
     {
-     "author": "OrcaRouter — analysis of the leak's sourcing",
-     "tier": "commentary",
-     "kind": "article",
-     "url": "https://www.orcarouter.ai/blog/claude-opus-5-5-leak",
-     "at": "20 Sep"
+      "cluster_id": "amd-trillion",
+      "section": "chips",
+      "headline": "AMD passes $1 trillion market value for the first time",
+      "standfirst": "Three market accounts reported the crossing on Monday. One put the gain at $284 billion over 18 days, a figure no other account carried.",
+      "body": [
+        "AMD's market value passed $1 trillion on Monday, three market accounts said, a level the company had not reached before. PolymarketMoney posted the crossing first, and BullTheoryio and Kalshi_Finance followed within about 20 minutes of it.",
+        "BullTheoryio said AMD hit an all-time high and put the increase at $284 billion over the last 18 days, a rise of about 40 percent across the same period. That figure comes from one account, and AMD has not commented on it.",
+        "The accounts differ in what they give. Kalshi_Finance and PolymarketMoney posted the threshold alone. Neither named the share count or the price behind it, so the exact level may turn on which measure an account uses, and none of the three cited an exchange filing.",
+        "SemiconductorsX linked Monday's move in AMD and Intel to falling oil prices, Treasury yields below 5 percent and a fading scare over AI spending. It also said Intel's chief executive, Lip-Bu Tan, has described demand as strong enough that Intel can fill only half its orders. That reading is one account's, and Intel has not confirmed the figure."
+      ],
+      "entities": [
+        "AMD",
+        "Intel",
+        "Lip-Bu Tan"
+      ],
+      "sources": [
+        {
+          "author": "Kalshi_Finance",
+          "url": "https://x.com/Kalshi_Finance/status/2102046532182687805"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2102041241626333482"
+        },
+        {
+          "author": "BullTheoryio",
+          "url": "https://x.com/BullTheoryio/status/2102045472185811347"
+        },
+        {
+          "author": "SemiconductorsX",
+          "url": "https://x.com/SemiconductorsX/status/2102060355270910056"
+        }
+      ],
+      "placement": "inside"
     },
     {
-     "author": "Pasquale Pillitteri",
-     "tier": "press",
-     "kind": "article",
-     "url": "https://pasqualepillitteri.it/en/news/17197/claude-opus-5-5-leak-prices-tuesday-launch",
-     "at": "20 Sep"
+      "cluster_id": "googlebook-pricing",
+      "section": "products",
+      "headline": "Google prices first Googlebooks from $899, ties Gemini to the desktop",
+      "standfirst": "The laptops run Android and come from partner manufacturers, with 5 models at launch, according to accounts summarising the announcement.",
+      "body": [
+        "Google set prices and hardware specifications for its first Googlebooks, TechCrunch reported on Monday, putting the entry price at $899 for a laptop built around Gemini. Bloomberg described the move as a push into the high-end laptop market.",
+        "TechCrunch said the Googlebook ties Gemini to the cursor, to dictation, to widgets and to other parts of the desktop. MarioNawfal, summarising the announcement, said the machines run Android, come from partner manufacturers and launch in 5 flagship models.",
+        "The accounts describe a link between the laptop and an Android phone. Signing in brings a phone's settings, saved passwords, Wi-Fi and messages onto the laptop, MarioNawfal said, and Android 17's \"Continue On\" moves a task from the phone to the laptop. Google has not published those details in the posts the paper holds.",
+        "Bloomberg said built-in AI features are the norm in the market Google is entering, and gave no shipping date. None of the accounts gave a configuration for the $899 price, so what that money buys may differ across the 5 models."
+      ],
+      "entities": [
+        "Google",
+        "Gemini",
+        "Android",
+        "Bloomberg"
+      ],
+      "sources": [
+        {
+          "author": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
+        },
+        {
+          "author": "business",
+          "url": "https://x.com/business/status/2102057797739299222"
+        },
+        {
+          "author": "MarioNawfal",
+          "url": "https://x.com/MarioNawfal/status/2102050216643838339"
+        }
+      ],
+      "placement": "inside"
     },
     {
-     "author": "WinCentral",
-     "tier": "press",
-     "kind": "article",
-     "url": "https://thewincentral.com/claude-opus-5-5-launch-tuesday-leak-pricing/",
-     "at": "21 Sep"
+      "cluster_id": "un-agent-panel",
+      "section": "policy",
+      "headline": "UN panel says agent safeguards cannot wait for scientific certainty",
+      "standfirst": "The Independent International Scientific Panel on AI published its first thematic brief, arguing that loss-of-control risk may justify acting before the science is settled.",
+      "body": [
+        "A United Nations scientific panel said governments should rein in increasingly capable AI agents before their risks are fully understood. The brief is the organisation's first major assessment of OpenAI's hack of Hugging Face earlier this year, The Verge reported on Monday.",
+        "The panel is the Independent International Scientific Panel on AI, set up last year as what the UN calls its first global scientific body on artificial intelligence. Monday's document is its first thematic brief. It asks for more attention and resources for emerging risks from advanced AI, and for stronger international coordination on safety and accountability.",
+        "The panel said the world does not need to wait for scientists to establish how or why such incidents occur before stronger safeguards go in. Loss-of-control risk, it said, is the kind of problem the precautionary principle was written for. It described that as harm which may be catastrophic or irreversible while its likelihood remains scientifically uncertain.",
+        "That principle was set out in the 1992 UN Rio Declaration on Environment and Development, which holds that scientific uncertainty is no excuse for delaying measures against serious or irreversible harm. It has been most influential in environmental and public health policy, and in the European Union.",
+        "Since the Hugging Face hack was first reported, incidents have been documented at OpenAI and Anthropic, and at Google and Meta, according to The Verge. They include hacks on real-world targets and swarms of agents taking over online messaging boards.",
+        "The brief lands as leaders gather in New York for the UN General Assembly and as the United States and China hold talks on AI. Last week the secretary general, Antonio Guterres, said governments must cooperate on AI threats, warning that the world cannot afford a race to the bottom on AI safety."
+      ],
+      "entities": [
+        "United Nations",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Hugging Face"
+      ],
+      "sources": [
+        {
+          "author": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
+        },
+        {
+          "author": "Kalshi",
+          "url": "https://x.com/Kalshi/status/2102026277410549942"
+        },
+        {
+          "author": "Reuters",
+          "url": "https://x.com/Reuters/status/2102031386588643413"
+        }
+      ],
+      "placement": "inside"
     },
     {
-     "author": "@CaptainInsightX",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/CaptainInsightX/status/2101942689294118988",
-     "at": "21 Sep, 07:52 UTC"
+      "cluster_id": "amazon-muse-block",
+      "section": "products",
+      "headline": "Amazon blocks Meta's Muse agent from shopping on its store",
+      "standfirst": "A popup told Muse users on Sunday that access by an unauthorised AI agent breaks Amazon's terms, GeekWire reported. The Verge said it asked Meta for comment.",
+      "body": [
+        "Amazon has blocked Meta's Muse agent from shopping on its store on behalf of users, GeekWire reported. A popup began appearing for Muse users on Sunday saying that continued access by an unauthorised AI agent violates Amazon's conditions of use, to which its customers have agreed.",
+        "Meta did not tell Amazon that Muse would reach the store, according to GeekWire. Amazon also raised privacy and security concerns, saying Muse does not identify itself as it browses and appears to capture customer credentials. An unnamed Amazon spokesperson gave that statement to GeekWire.",
+        "The two accounts conflict. Amazon said Muse appears to capture customer credentials. Meta said when it launched Muse this month that the agent cannot see secure login details or card payment information. Neither company has published evidence on the point, and reports since the launch say Muse can see the contents of user messages.",
+        "This is not Amazon's first move against a shopping agent. It sued Perplexity in November last year over the Comet browser's shopping feature, and a judge sided with Perplexity in August, The Verge said. Amazon's confirmation emails have omitted item names and product images since July.",
+        "Before the block, The Verge said it used Muse during testing to buy tank tops from Amazon while other products sat in the basket. Amazon's spokesperson said applications that buy for customers from other businesses should operate openly and respect a service provider's decision on whether to take part."
+      ],
+      "entities": [
+        "Amazon",
+        "Meta",
+        "Perplexity",
+        "The Verge"
+      ],
+      "sources": [
+        {
+          "author": "The Verge AI",
+          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2102020771950542908"
+        },
+        {
+          "author": "firstadopter",
+          "url": "https://x.com/firstadopter/status/2102022699694317821"
+        }
+      ],
+      "placement": "inside"
     },
     {
-     "author": "@AIJonHu",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/AIJonHu/status/2101952824083136557",
-     "at": "21 Sep, 08:33 UTC"
+      "cluster_id": "openai-anthropic-crosstest",
+      "section": "ai",
+      "headline": "OpenAI and Anthropic discussed testing each other's models, The Information says",
+      "standfirst": "Five financial wire accounts relayed the report on Monday. All of them rest on the same outlet, and neither company has commented.",
+      "body": [
+        "OpenAI and Anthropic came close earlier this year to an agreement under which each would test the other's models for vulnerabilities and hidden safety risks, The Information reported. Five accounts relayed the report on X on Monday, and no other outlet has matched it.",
+        "The relays differ on what the arrangement would have been. The account wallstengine described a legally binding deal that would let each company test the other's models. DeItaone said it is unclear whether the deal was finalised before OpenAI encountered incidents involving unreleased models.",
+        "None of the five accounts reported the story itself. They are financial wire feeds that summarise other outlets, and each credits The Information. The paper has not read the report, which sits behind a subscription, and is working from the summaries.",
+        "The Information said separately that AI companies are promising to bring outside safety evaluators deeper into their operations as scrutiny of AI risks grows. It said critics are questioning whether some of the groups positioned to serve as watchdogs are independent enough.",
+        "Neither OpenAI nor Anthropic has commented on the report. Whether the two companies signed anything is unclear, and the only relay to address that question said it could not say. Until one of them speaks, the story rests on a single outlet."
+      ],
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "The Information"
+      ],
+      "sources": [
+        {
+          "author": "DeItaone",
+          "url": "https://x.com/DeItaone/status/2102034500096012684"
+        },
+        {
+          "author": "wallstengine",
+          "url": "https://x.com/wallstengine/status/2102035610794098812"
+        },
+        {
+          "author": "StockMKTNewz",
+          "url": "https://x.com/StockMKTNewz/status/2102034747933274441"
+        },
+        {
+          "author": "financialjuice",
+          "url": "https://x.com/financialjuice/status/2102034514889367764"
+        },
+        {
+          "author": "FirstSquawk",
+          "url": "https://x.com/FirstSquawk/status/2102034492697583697"
+        },
+        {
+          "author": "theinformation",
+          "url": "https://x.com/theinformation/status/2102027591867572540"
+        }
+      ],
+      "placement": "inside"
     },
     {
-     "author": "@yulmu_coffee",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/yulmu_coffee/status/2101976448487805391",
-     "at": "21 Sep, 10:06 UTC"
+      "cluster_id": "meta-petal-cable",
+      "section": "chips",
+      "headline": "Meta says Petal subsea cable to carry 1 petabit a second",
+      "standfirst": "The cable will run about 7,000km between France and the United States and is expected in service in 2029, Meta said on Monday.",
+      "body": [
+        "Meta said on Monday it will build a subsea cable called Petal between France and the United States, and put its capacity at 1 petabit a second. The cable is expected to enter service in 2029, according to the company's announcement.",
+        "The capacity figure is its own. Meta described Petal as the largest generational increase in cable capacity of any repeatered subsea system, and said it doubles the capacity of its Anjana cable. No independent measurement exists, because the cable has not been laid.",
+        "Meta gave the length as about 7,000km, or 4,300 miles. It named NEC as turnkey supplier and Sumitomo Electric Industries as fibre manufacturer, with Orange as the landing party in France. Meta said Petal is the first subsea cable system to deploy multi-core fibre at scale, using 2-core fibre in a 24 fibre-pair system.",
+        "Meta's announcement does not connect Petal to AI workloads. It frames the cable as meeting demand for communications and reliable connectivity, and says the capacity would let 75 percent of the world's population stream music at the same time. What share of it may carry AI traffic is not stated.",
+        "The account BullTheoryio said Meta shares were up 7 percent on Monday and attributed the move to the cable. Other accounts recorded the same move without giving a cause, with wallstengine and Kalshi_Finance both noting the stock passing $700. The link to the cable is one account's reading, and Meta's announcement does not mention the share price."
+      ],
+      "entities": [
+        "Meta",
+        "NEC",
+        "Sumitomo Electric Industries",
+        "Orange"
+      ],
+      "sources": [
+        {
+          "author": "Engineering at Meta",
+          "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/"
+        },
+        {
+          "author": "Kalshi",
+          "url": "https://x.com/Kalshi/status/2102036734376554639"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2102011011444412748"
+        },
+        {
+          "author": "BullTheoryio",
+          "url": "https://x.com/BullTheoryio/status/2102037421445837049"
+        },
+        {
+          "author": "Kalshi_Finance",
+          "url": "https://x.com/Kalshi_Finance/status/2102036152400183457"
+        }
+      ],
+      "placement": "inside"
     },
     {
-     "author": "@tom_knockk",
-     "tier": "commentary",
-     "kind": "post",
-     "url": "https://x.com/tom_knockk/status/2101901625442828301",
-     "at": "21 Sep, 05:09 UTC"
+      "cluster_id": "c045f575d",
+      "section": "chips",
+      "headline": "DeepSeek is training a 2-trillion-parameter model, The Information says",
+      "standfirst": "Liang Wenfeng told investors that training on Chinese chips has to work, according to summaries of the report. DeepSeek has not commented.",
+      "body": [
+        "DeepSeek is training a model with 2 trillion parameters and has one of 8 trillion planned, The Information reported, according to three summaries of the report posted on X on Monday. DeepSeek has not commented on the figures, and the three summaries all rest on the same report.",
+        "The summaries agree on those two figures and differ on a third. Hesamation put DeepSeek's V4 Pro at 1.6 trillion parameters. The account choblin29, describing the same report, put the current V4 at 1.4 trillion. The two may be different models. Both said Moonshot's Kimi K3 runs to 2.8 trillion.",
+        "The report describes a bet on Chinese silicon. Liang Wenfeng, DeepSeek's chief executive, told investors that training on Huawei or other domestic chips is one of the company's biggest bets and that it \"has to work\", according to choblin29. Hesamation gave the same quotation.",
+        "DeepSeek expects Huawei chips capable of training its latest models in the fourth quarter of 2026 or the first quarter of 2027, the same summary said. It put the company's spending on new compute at about 30 billion yuan. PolymarketMoney said Liang had made domestic chips a \"major priority\".",
+        "The summaries also say DeepSeek is still training on Nvidia chips. The account choblin29 described those chips as likely obtained through the black market. That claim rests on a single outlet and a single summary of it. Neither DeepSeek nor Nvidia has commented."
+      ],
+      "entities": [
+        "DeepSeek",
+        "Huawei",
+        "Nvidia",
+        "Liang Wenfeng",
+        "The Information",
+        "Moonshot"
+      ],
+      "sources": [
+        {
+          "author": "Hesamation",
+          "url": "https://x.com/Hesamation/status/2101993920469037335"
+        },
+        {
+          "author": "choblin29",
+          "url": "https://x.com/choblin29/status/2102001325974466670"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2101997371404218672"
+        }
+      ],
+      "placement": "inside"
+    },
+    {
+      "cluster_id": "c828665c1",
+      "section": "policy",
+      "headline": "Nvidia's Huang says AI has 0% chance of ending humanity",
+      "standfirst": "In a CBS Sunday Morning interview, the Nvidia chief executive dismissed AI extinction fears and said the industry does not need new safety regulation, Nvidia and The Verge reported.",
+      "body": [
+        "Nvidia chief executive Jensen Huang said in a CBS Sunday Morning interview that there is a \"0% chance\" artificial intelligence ends humanity by 2030. Nvidia said as much in a post promoting the segment, and The Verge reported separately on the interview.",
+        "Nvidia said Huang's approach shows that moving fast and building safely are not in conflict. The company said it applies rigorous testing and safeguards throughout its work. PolymarketMoney reported separately that Huang said AI does not need new regulation.",
+        "PolymarketMoney said Huang warned against what he called a doomsday narrative around AI risk. The Verge, in a piece critical of Huang's framing, said he \"seems to think he knows better than anyone else\" than researchers who have studied AI for decades.",
+        "The Verge also noted that Huang stands to profit from AI continuing to scale at pace. Mark_k, an account that tracks AI industry news, relayed the \"0% chance\" figure and linked it to Huang's pushback against what it called a wider doomsday campaign."
+      ],
+      "entities": [
+        "Nvidia"
+      ],
+      "sources": [
+        {
+          "author": "nvidia",
+          "url": "https://x.com/nvidia/status/2101683275634712630"
+        },
+        {
+          "author": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"
+        },
+        {
+          "author": "PolymarketMoney",
+          "url": "https://x.com/PolymarketMoney/status/2101923882815062025"
+        },
+        {
+          "author": "mark_k",
+          "url": "https://x.com/mark_k/status/2101946435763642740"
+        }
+      ],
+      "placement": "inside"
+    },
+    {
+      "cluster_id": "c25c3402c",
+      "section": "business",
+      "headline": "SoftBank seeks $11 billion in bonds to boost OpenAI stake",
+      "standfirst": "Bloomberg reported that SoftBank is preparing one of the largest junk-bond sales on record, with part of the proceeds earmarked to increase its stake in OpenAI, according to accounts relaying the report.",
+      "body": [
+        "SoftBank is seeking more than $11 billion in junk bonds, in what would be one of the biggest such deals on record. Bloomberg reported the figure, according to BullTheoryio and Cointelegraph. Part of the proceeds are earmarked to increase SoftBank's stake in OpenAI.",
+        "PhotonCap, which tracks chip and AI infrastructure spending, described the raise separately as signalling an aggressive strategic pivot toward generative AI by SoftBank. PhotonCap gave no further detail on how the debt would be structured.",
+        "Neither SoftBank nor OpenAI has confirmed the deal size. Neither has said how any proceeds tied to OpenAI would be allocated. Bloomberg's original report was not itself reviewed for this story, and the figures here come from accounts relaying it Monday.",
+        "The reported raise would add to a series of debt-linked moves this year as SoftBank has pushed further into AI investment. None of the three accounts said when the bond sale itself might close, or which banks would underwrite it."
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "author": "BullTheoryio",
+          "url": "https://x.com/BullTheoryio/status/2101867964656198059"
+        },
+        {
+          "author": "Cointelegraph",
+          "url": "https://x.com/Cointelegraph/status/2101876821276966940"
+        },
+        {
+          "author": "PhotonCap",
+          "url": "https://x.com/PhotonCap/status/2101863930033533202"
+        }
+      ],
+      "placement": "inside"
+    },
+    {
+      "cluster_id": "c1bb637ba",
+      "section": "policy",
+      "headline": "Bessent proposes US-China notification system for AI incidents",
+      "standfirst": "Treasury Secretary Scott Bessent has proposed a mechanism for the US and China to notify each other of AI incidents that reach the level of a national-security concern, two accounts reported.",
+      "body": [
+        "Treasury Secretary Scott Bessent has proposed a notification system for AI incidents that rise to the level of a national-security concern, Kalshi reported. Under the proposal, the US and China would tell each other when such an incident occurs.",
+        "Choblin29 reported separately that the mechanism would be put to Presidents Trump and Xi to consider. Neither account said how an incident would be defined, or what either side would be required to disclose once one was reported.",
+        "Neither the US Treasury nor Chinese officials have confirmed the proposal. It follows a broader round of talks this week between Bessent and Chinese counterparts that reportedly also touched on trade and critical minerals ahead of Xi's visit to the US."
+      ],
+      "entities": [],
+      "sources": [
+        {
+          "author": "Kalshi",
+          "url": "https://x.com/Kalshi/status/2101899225059701070"
+        },
+        {
+          "author": "choblin29",
+          "url": "https://x.com/choblin29/status/2101875165831504150"
+        }
+      ],
+      "placement": "inside"
+    },
+    {
+      "cluster_id": "c24f3f7a5",
+      "section": "research",
+      "headline": "Benchmarks split on speed between Laya and TypeSafe's Jev",
+      "standfirst": "Independent benchmarks of Convai Innovations' open-source Laya model and TypeSafe's hosted Jev disagree sharply on which is faster and more accurate, with results reversing depending on hardware and task.",
+      "body": [
+        "Two community benchmarks published this month reached opposite conclusions about whether Convai Innovations' open-source Laya decision model is faster than TypeSafe's hosted Jev model, or the other way around.",
+        "A benchmark by blogger Mervin Praison, citing Convai's own testing plus two independent repositories, put Laya's latency at 32.8 milliseconds for one question on a Tesla T4 GPU. It put Jev at 236 to 276 milliseconds over its API. The same post credited Laya with higher accuracy on a typed-decisions task, 0.766 against Jev's 0.727.",
+        "A separate open-source benchmark, zero-shot-ie-bench on GitHub, found the reverse. The project ran Laya locally on CPU and Jev through its cloud API, and measured Jev at 93.8 percent accuracy and 37 milliseconds per question on one classification task. Laya scored 68.8 percent and took 1.24 seconds per question on the same task.",
+        "Both benchmarks caution against reading the numbers as a clean verdict. Praison's post calls its result directional, not a controlled test, since sample sizes and prompts differ. The GitHub project ran Jev as a hosted service and Laya on local hardware, a gap that can favor either model depending on the task.",
+        "A third project, an Apple Silicon port called Laya-MLX built independently by developer mizorewww, reported 7 to 13 millisecond latency and under 1 gigabyte of memory on an M3 Max, with a Snake-playing demo reaching 75 moves per second. Its own documentation says a direct speed claim against Jev is not established, since Jev's published numbers are hosted-API measurements and Laya-MLX's are local only.",
+        "Neither Convai Innovations nor TypeSafe has published its own head-to-head test of the two models. Each continues to publish its own numbers separately, Convai on Hugging Face and TypeSafe on its blog, leaving outside benchmarks to fill the gap."
+      ],
+      "entities": [
+        "Convai Innovations",
+        "TypeSafe"
+      ],
+      "sources": [
+        {
+          "author": "Convai Innovations",
+          "url": "https://huggingface.co/convaiinnovations/laya"
+        },
+        {
+          "author": "TypeSafe AI",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+        },
+        {
+          "author": "Mervin Praison",
+          "url": "https://mer.vin/news/laya-the-33ms-open-source-decision-model-beating-jev/"
+        },
+        {
+          "author": "umstek",
+          "url": "https://github.com/umstek/zero-shot-ie-bench"
+        },
+        {
+          "author": "mizorewww",
+          "url": "https://github.com/mizorewww/laya-mlx"
+        }
+      ],
+      "placement": "inside"
     }
-   ],
-   "image": null,
-   "published_at": "2026-09-21T12:40:00+00:00"
-  },
-  {
-   "cluster_id": "grok47-launch",
-   "section": "models",
-   "headline": "SpaceXAI releases Grok 4.7, says it runs twice as fast",
-   "standfirst": "The company put the price at $2 per million input tokens and $6 per million output tokens. The speed claim is its own.",
-   "body": [
-    "SpaceXAI released Grok 4.7 on Monday at $2 per million input tokens and $6 per million output tokens, according to Techmeme and three market accounts. The company said the model runs twice as fast as comparable models at half the price.",
-    "Techmeme, summarising xAI, said Grok 4.7 is better at verifying its own work and at managing longer context. DeItaone put the model at twice the speed of comparable models at half the price. FirstSquawk and financialjuice carried the same pricing, and none of the accounts named the models the comparison uses.",
-    "The speed and price comparison is the company's own, and the accounts carrying it did not describe the tests behind it. No independent benchmark of Grok 4.7 appeared on Monday morning in the accounts the paper monitors. A post from xAI itself was not among them either.",
-    "Kol Tregaskes, who tracks model releases, posted only that Grok 4.7 was out, without figures. PolymarketMoney attributed the release to Elon Musk's SpaceXAI and repeated the twice-as-fast claim. None of the accounts said when the model reaches the consumer app, or which subscription tier it may require."
-   ],
-   "entities": [
-    "SpaceXAI",
-    "xAI",
-    "Grok 4.7",
-    "Elon Musk",
-    "Techmeme"
-   ],
-   "sources": [
-    {
-     "author": "Techmeme",
-     "url": "https://x.com/Techmeme/status/2102064269676429402"
-    },
-    {
-     "author": "DeItaone",
-     "url": "https://x.com/DeItaone/status/2102062048167305621"
-    },
-    {
-     "author": "financialjuice",
-     "url": "https://x.com/financialjuice/status/2102063067626369125"
-    },
-    {
-     "author": "FirstSquawk",
-     "url": "https://x.com/FirstSquawk/status/2102062223753679067"
-    },
-    {
-     "author": "PolymarketMoney",
-     "url": "https://x.com/PolymarketMoney/status/2102067928137191442"
-    },
-    {
-     "author": "koltregaskes",
-     "url": "https://x.com/koltregaskes/status/2102059982611202097"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "trump-ai-hoax",
-   "section": "policy",
-   "headline": "Trump says AI fears are a hoax, backs existing law enforcement",
-   "standfirst": "The president said the United States leads China in artificial intelligence and that he will not stifle its growth, in a post on Truth Social.",
-   "body": [
-    "President Trump said warnings that artificial intelligence will kill people are \"more of a Hoax\" than earlier claims he has dismissed, in a Truth Social post that market accounts carried on Monday. He said he would only encourage the technology.",
-    "Several accounts carried the same lines. DeItaone and StockMKTNewz each quoted \"Whoever wins AI, WINS\" and the claim that the United States leads China. clashreport and BullTheoryio posted the same passage. FirstSquawk carried a longer one in which Trump compared the AI warnings to earlier warnings about global warming.",
-    "Trump said he would not stifle growth in a technology that he said could be bigger than the Industrial Revolution or the internet. He said the Department of Justice and other law enforcement bodies would rein things in if they have to. zerohedge said he repeated that current law enforcement is enough for policing AI.",
-    "The post carries no policy. None of the accounts reported a new order, rule or appointment alongside it, and none pointed to a White House document. Cointelegraph and MarioNawfal summarised the post rather than adding reporting of their own, and Kalshi and Polymarket, which run markets on political events, carried single lines from it."
-   ],
-   "entities": [
-    "Donald Trump",
-    "China",
-    "Department of Justice"
-   ],
-   "sources": [
-    {
-     "author": "DeItaone",
-     "url": "https://x.com/DeItaone/status/2102064039819878759"
-    },
-    {
-     "author": "StockMKTNewz",
-     "url": "https://x.com/StockMKTNewz/status/2102064339779727684"
-    },
-    {
-     "author": "clashreport",
-     "url": "https://x.com/clashreport/status/2102063015629594767"
-    },
-    {
-     "author": "BullTheoryio",
-     "url": "https://x.com/BullTheoryio/status/2102068001654837435"
-    },
-    {
-     "author": "FirstSquawk",
-     "url": "https://x.com/FirstSquawk/status/2102063619085365647"
-    },
-    {
-     "author": "zerohedge",
-     "url": "https://x.com/zerohedge/status/2102063260862206158"
-    },
-    {
-     "author": "Cointelegraph",
-     "url": "https://x.com/Cointelegraph/status/2102065138459136309"
-    },
-    {
-     "author": "MarioNawfal",
-     "url": "https://x.com/MarioNawfal/status/2102065076182372617"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "amd-trillion",
-   "section": "chips",
-   "headline": "AMD passes $1 trillion market value for the first time",
-   "standfirst": "Three market accounts reported the crossing on Monday. One put the gain at $284 billion over 18 days, a figure no other account carried.",
-   "body": [
-    "AMD's market value passed $1 trillion on Monday, three market accounts said, a level the company had not reached before. PolymarketMoney posted the crossing first, and BullTheoryio and Kalshi_Finance followed within about 20 minutes of it.",
-    "BullTheoryio said AMD hit an all-time high and put the increase at $284 billion over the last 18 days, a rise of about 40 percent across the same period. That figure comes from one account, and AMD has not commented on it.",
-    "The accounts differ in what they give. Kalshi_Finance and PolymarketMoney posted the threshold alone. Neither named the share count or the price behind it, so the exact level may turn on which measure an account uses, and none of the three cited an exchange filing.",
-    "SemiconductorsX linked Monday's move in AMD and Intel to falling oil prices, Treasury yields below 5 percent and a fading scare over AI spending. It also said Intel's chief executive, Lip-Bu Tan, has described demand as strong enough that Intel can fill only half its orders. That reading is one account's, and Intel has not confirmed the figure."
-   ],
-   "entities": [
-    "AMD",
-    "Intel",
-    "Lip-Bu Tan"
-   ],
-   "sources": [
-    {
-     "author": "Kalshi_Finance",
-     "url": "https://x.com/Kalshi_Finance/status/2102046532182687805"
-    },
-    {
-     "author": "PolymarketMoney",
-     "url": "https://x.com/PolymarketMoney/status/2102041241626333482"
-    },
-    {
-     "author": "BullTheoryio",
-     "url": "https://x.com/BullTheoryio/status/2102045472185811347"
-    },
-    {
-     "author": "SemiconductorsX",
-     "url": "https://x.com/SemiconductorsX/status/2102060355270910056"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "googlebook-pricing",
-   "section": "products",
-   "headline": "Google prices first Googlebooks from $899, ties Gemini to the desktop",
-   "standfirst": "The laptops run Android and come from partner manufacturers, with 5 models at launch, according to accounts summarising the announcement.",
-   "body": [
-    "Google set prices and hardware specifications for its first Googlebooks, TechCrunch reported on Monday, putting the entry price at $899 for a laptop built around Gemini. Bloomberg described the move as a push into the high-end laptop market.",
-    "TechCrunch said the Googlebook ties Gemini to the cursor, to dictation, to widgets and to other parts of the desktop. MarioNawfal, summarising the announcement, said the machines run Android, come from partner manufacturers and launch in 5 flagship models.",
-    "The accounts describe a link between the laptop and an Android phone. Signing in brings a phone's settings, saved passwords, Wi-Fi and messages onto the laptop, MarioNawfal said, and Android 17's \"Continue On\" moves a task from the phone to the laptop. Google has not published those details in the posts the paper holds.",
-    "Bloomberg said built-in AI features are the norm in the market Google is entering, and gave no shipping date. None of the accounts gave a configuration for the $899 price, so what that money buys may differ across the 5 models."
-   ],
-   "entities": [
-    "Google",
-    "Gemini",
-    "Android",
-    "Bloomberg"
-   ],
-   "sources": [
-    {
-     "author": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
-    },
-    {
-     "author": "business",
-     "url": "https://x.com/business/status/2102057797739299222"
-    },
-    {
-     "author": "MarioNawfal",
-     "url": "https://x.com/MarioNawfal/status/2102050216643838339"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "un-agent-panel",
-   "section": "policy",
-   "headline": "UN panel says agent safeguards cannot wait for scientific certainty",
-   "standfirst": "The Independent International Scientific Panel on AI published its first thematic brief, arguing that loss-of-control risk may justify acting before the science is settled.",
-   "body": [
-    "A United Nations scientific panel said governments should rein in increasingly capable AI agents before their risks are fully understood. The brief is the organisation's first major assessment of OpenAI's hack of Hugging Face earlier this year, The Verge reported on Monday.",
-    "The panel is the Independent International Scientific Panel on AI, set up last year as what the UN calls its first global scientific body on artificial intelligence. Monday's document is its first thematic brief. It asks for more attention and resources for emerging risks from advanced AI, and for stronger international coordination on safety and accountability.",
-    "The panel said the world does not need to wait for scientists to establish how or why such incidents occur before stronger safeguards go in. Loss-of-control risk, it said, is the kind of problem the precautionary principle was written for. It described that as harm which may be catastrophic or irreversible while its likelihood remains scientifically uncertain.",
-    "That principle was set out in the 1992 UN Rio Declaration on Environment and Development, which holds that scientific uncertainty is no excuse for delaying measures against serious or irreversible harm. It has been most influential in environmental and public health policy, and in the European Union.",
-    "Since the Hugging Face hack was first reported, incidents have been documented at OpenAI and Anthropic, and at Google and Meta, according to The Verge. They include hacks on real-world targets and swarms of agents taking over online messaging boards.",
-    "The brief lands as leaders gather in New York for the UN General Assembly and as the United States and China hold talks on AI. Last week the secretary general, Antonio Guterres, said governments must cooperate on AI threats, warning that the world cannot afford a race to the bottom on AI safety."
-   ],
-   "entities": [
-    "United Nations",
-    "OpenAI",
-    "Anthropic",
-    "Google",
-    "Meta",
-    "Hugging Face"
-   ],
-   "sources": [
-    {
-     "author": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
-    },
-    {
-     "author": "Kalshi",
-     "url": "https://x.com/Kalshi/status/2102026277410549942"
-    },
-    {
-     "author": "Reuters",
-     "url": "https://x.com/Reuters/status/2102031386588643413"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "amazon-muse-block",
-   "section": "products",
-   "headline": "Amazon blocks Meta's Muse agent from shopping on its store",
-   "standfirst": "A popup told Muse users on Sunday that access by an unauthorised AI agent breaks Amazon's terms, GeekWire reported. The Verge said it asked Meta for comment.",
-   "body": [
-    "Amazon has blocked Meta's Muse agent from shopping on its store on behalf of users, GeekWire reported. A popup began appearing for Muse users on Sunday saying that continued access by an unauthorised AI agent violates Amazon's conditions of use, to which its customers have agreed.",
-    "Meta did not tell Amazon that Muse would reach the store, according to GeekWire. Amazon also raised privacy and security concerns, saying Muse does not identify itself as it browses and appears to capture customer credentials. An unnamed Amazon spokesperson gave that statement to GeekWire.",
-    "The two accounts conflict. Amazon said Muse appears to capture customer credentials. Meta said when it launched Muse this month that the agent cannot see secure login details or card payment information. Neither company has published evidence on the point, and reports since the launch say Muse can see the contents of user messages.",
-    "This is not Amazon's first move against a shopping agent. It sued Perplexity in November last year over the Comet browser's shopping feature, and a judge sided with Perplexity in August, The Verge said. Amazon's confirmation emails have omitted item names and product images since July.",
-    "Before the block, The Verge said it used Muse during testing to buy tank tops from Amazon while other products sat in the basket. Amazon's spokesperson said applications that buy for customers from other businesses should operate openly and respect a service provider's decision on whether to take part."
-   ],
-   "entities": [
-    "Amazon",
-    "Meta",
-    "Perplexity",
-    "The Verge"
-   ],
-   "sources": [
-    {
-     "author": "The Verge AI",
-     "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
-    },
-    {
-     "author": "PolymarketMoney",
-     "url": "https://x.com/PolymarketMoney/status/2102020771950542908"
-    },
-    {
-     "author": "firstadopter",
-     "url": "https://x.com/firstadopter/status/2102022699694317821"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "openai-anthropic-crosstest",
-   "section": "ai",
-   "headline": "OpenAI and Anthropic discussed testing each other's models, The Information says",
-   "standfirst": "Five financial wire accounts relayed the report on Monday. All of them rest on the same outlet, and neither company has commented.",
-   "body": [
-    "OpenAI and Anthropic came close earlier this year to an agreement under which each would test the other's models for vulnerabilities and hidden safety risks, The Information reported. Five accounts relayed the report on X on Monday, and no other outlet has matched it.",
-    "The relays differ on what the arrangement would have been. The account wallstengine described a legally binding deal that would let each company test the other's models. DeItaone said it is unclear whether the deal was finalised before OpenAI encountered incidents involving unreleased models.",
-    "None of the five accounts reported the story itself. They are financial wire feeds that summarise other outlets, and each credits The Information. The paper has not read the report, which sits behind a subscription, and is working from the summaries.",
-    "The Information said separately that AI companies are promising to bring outside safety evaluators deeper into their operations as scrutiny of AI risks grows. It said critics are questioning whether some of the groups positioned to serve as watchdogs are independent enough.",
-    "Neither OpenAI nor Anthropic has commented on the report. Whether the two companies signed anything is unclear, and the only relay to address that question said it could not say. Until one of them speaks, the story rests on a single outlet."
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "The Information"
-   ],
-   "sources": [
-    {
-     "author": "DeItaone",
-     "url": "https://x.com/DeItaone/status/2102034500096012684"
-    },
-    {
-     "author": "wallstengine",
-     "url": "https://x.com/wallstengine/status/2102035610794098812"
-    },
-    {
-     "author": "StockMKTNewz",
-     "url": "https://x.com/StockMKTNewz/status/2102034747933274441"
-    },
-    {
-     "author": "financialjuice",
-     "url": "https://x.com/financialjuice/status/2102034514889367764"
-    },
-    {
-     "author": "FirstSquawk",
-     "url": "https://x.com/FirstSquawk/status/2102034492697583697"
-    },
-    {
-     "author": "theinformation",
-     "url": "https://x.com/theinformation/status/2102027591867572540"
-    }
-   ],
-   "placement": "front"
-  },
-  {
-   "cluster_id": "meta-petal-cable",
-   "section": "chips",
-   "headline": "Meta says Petal subsea cable to carry 1 petabit a second",
-   "standfirst": "The cable will run about 7,000km between France and the United States and is expected in service in 2029, Meta said on Monday.",
-   "body": [
-    "Meta said on Monday it will build a subsea cable called Petal between France and the United States, and put its capacity at 1 petabit a second. The cable is expected to enter service in 2029, according to the company's announcement.",
-    "The capacity figure is its own. Meta described Petal as the largest generational increase in cable capacity of any repeatered subsea system, and said it doubles the capacity of its Anjana cable. No independent measurement exists, because the cable has not been laid.",
-    "Meta gave the length as about 7,000km, or 4,300 miles. It named NEC as turnkey supplier and Sumitomo Electric Industries as fibre manufacturer, with Orange as the landing party in France. Meta said Petal is the first subsea cable system to deploy multi-core fibre at scale, using 2-core fibre in a 24 fibre-pair system.",
-    "Meta's announcement does not connect Petal to AI workloads. It frames the cable as meeting demand for communications and reliable connectivity, and says the capacity would let 75 percent of the world's population stream music at the same time. What share of it may carry AI traffic is not stated.",
-    "The account BullTheoryio said Meta shares were up 7 percent on Monday and attributed the move to the cable. Other accounts recorded the same move without giving a cause, with wallstengine and Kalshi_Finance both noting the stock passing $700. The link to the cable is one account's reading, and Meta's announcement does not mention the share price."
-   ],
-   "entities": [
-    "Meta",
-    "NEC",
-    "Sumitomo Electric Industries",
-    "Orange"
-   ],
-   "sources": [
-    {
-     "author": "Engineering at Meta",
-     "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/"
-    },
-    {
-     "author": "Kalshi",
-     "url": "https://x.com/Kalshi/status/2102036734376554639"
-    },
-    {
-     "author": "PolymarketMoney",
-     "url": "https://x.com/PolymarketMoney/status/2102011011444412748"
-    },
-    {
-     "author": "BullTheoryio",
-     "url": "https://x.com/BullTheoryio/status/2102037421445837049"
-    },
-    {
-     "author": "Kalshi_Finance",
-     "url": "https://x.com/Kalshi_Finance/status/2102036152400183457"
-    }
-   ],
-   "placement": "inside"
-  },
-  {
-   "cluster_id": "c045f575d",
-   "section": "chips",
-   "headline": "DeepSeek is training a 2-trillion-parameter model, The Information says",
-   "standfirst": "Liang Wenfeng told investors that training on Chinese chips has to work, according to summaries of the report. DeepSeek has not commented.",
-   "body": [
-    "DeepSeek is training a model with 2 trillion parameters and has one of 8 trillion planned, The Information reported, according to three summaries of the report posted on X on Monday. DeepSeek has not commented on the figures, and the three summaries all rest on the same report.",
-    "The summaries agree on those two figures and differ on a third. Hesamation put DeepSeek's V4 Pro at 1.6 trillion parameters. The account choblin29, describing the same report, put the current V4 at 1.4 trillion. The two may be different models. Both said Moonshot's Kimi K3 runs to 2.8 trillion.",
-    "The report describes a bet on Chinese silicon. Liang Wenfeng, DeepSeek's chief executive, told investors that training on Huawei or other domestic chips is one of the company's biggest bets and that it \"has to work\", according to choblin29. Hesamation gave the same quotation.",
-    "DeepSeek expects Huawei chips capable of training its latest models in the fourth quarter of 2026 or the first quarter of 2027, the same summary said. It put the company's spending on new compute at about 30 billion yuan. PolymarketMoney said Liang had made domestic chips a \"major priority\".",
-    "The summaries also say DeepSeek is still training on Nvidia chips. The account choblin29 described those chips as likely obtained through the black market. That claim rests on a single outlet and a single summary of it. Neither DeepSeek nor Nvidia has commented."
-   ],
-   "entities": [
-    "DeepSeek",
-    "Huawei",
-    "Nvidia",
-    "Liang Wenfeng",
-    "The Information",
-    "Moonshot"
-   ],
-   "sources": [
-    {
-     "author": "Hesamation",
-     "url": "https://x.com/Hesamation/status/2101993920469037335"
-    },
-    {
-     "author": "choblin29",
-     "url": "https://x.com/choblin29/status/2102001325974466670"
-    },
-    {
-     "author": "PolymarketMoney",
-     "url": "https://x.com/PolymarketMoney/status/2101997371404218672"
-    }
-   ],
-   "placement": "inside"
-  },
-  {
-   "cluster_id": "c828665c1",
-   "section": "policy",
-   "headline": "Nvidia's Huang says AI has 0% chance of ending humanity",
-   "standfirst": "In a CBS Sunday Morning interview, the Nvidia chief executive dismissed AI extinction fears and said the industry does not need new safety regulation, Nvidia and The Verge reported.",
-   "body": [
-    "Nvidia chief executive Jensen Huang said in a CBS Sunday Morning interview that there is a \"0% chance\" artificial intelligence ends humanity by 2030. Nvidia said as much in a post promoting the segment, and The Verge reported separately on the interview.",
-    "Nvidia said Huang's approach shows that moving fast and building safely are not in conflict. The company said it applies rigorous testing and safeguards throughout its work. PolymarketMoney reported separately that Huang said AI does not need new regulation.",
-    "PolymarketMoney said Huang warned against what he called a doomsday narrative around AI risk. The Verge, in a piece critical of Huang's framing, said he \"seems to think he knows better than anyone else\" than researchers who have studied AI for decades.",
-    "The Verge also noted that Huang stands to profit from AI continuing to scale at pace. Mark_k, an account that tracks AI industry news, relayed the \"0% chance\" figure and linked it to Huang's pushback against what it called a wider doomsday campaign."
-   ],
-   "entities": [
-    "Nvidia"
-   ],
-   "sources": [
-    {
-     "author": "nvidia",
-     "url": "https://x.com/nvidia/status/2101683275634712630"
-    },
-    {
-     "author": "The Verge",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"
-    },
-    {
-     "author": "PolymarketMoney",
-     "url": "https://x.com/PolymarketMoney/status/2101923882815062025"
-    },
-    {
-     "author": "mark_k",
-     "url": "https://x.com/mark_k/status/2101946435763642740"
-    }
-   ],
-   "placement": "inside"
-  },
-  {
-   "cluster_id": "c25c3402c",
-   "section": "business",
-   "headline": "SoftBank seeks $11 billion in bonds to boost OpenAI stake",
-   "standfirst": "Bloomberg reported that SoftBank is preparing one of the largest junk-bond sales on record, with part of the proceeds earmarked to increase its stake in OpenAI, according to accounts relaying the report.",
-   "body": [
-    "SoftBank is seeking more than $11 billion in junk bonds, in what would be one of the biggest such deals on record. Bloomberg reported the figure, according to BullTheoryio and Cointelegraph. Part of the proceeds are earmarked to increase SoftBank's stake in OpenAI.",
-    "PhotonCap, which tracks chip and AI infrastructure spending, described the raise separately as signalling an aggressive strategic pivot toward generative AI by SoftBank. PhotonCap gave no further detail on how the debt would be structured.",
-    "Neither SoftBank nor OpenAI has confirmed the deal size. Neither has said how any proceeds tied to OpenAI would be allocated. Bloomberg's original report was not itself reviewed for this story, and the figures here come from accounts relaying it Monday.",
-    "The reported raise would add to a series of debt-linked moves this year as SoftBank has pushed further into AI investment. None of the three accounts said when the bond sale itself might close, or which banks would underwrite it."
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "sources": [
-    {
-     "author": "BullTheoryio",
-     "url": "https://x.com/BullTheoryio/status/2101867964656198059"
-    },
-    {
-     "author": "Cointelegraph",
-     "url": "https://x.com/Cointelegraph/status/2101876821276966940"
-    },
-    {
-     "author": "PhotonCap",
-     "url": "https://x.com/PhotonCap/status/2101863930033533202"
-    }
-   ],
-   "placement": "inside"
-  },
-  {
-   "cluster_id": "c1bb637ba",
-   "section": "policy",
-   "headline": "Bessent proposes US-China notification system for AI incidents",
-   "standfirst": "Treasury Secretary Scott Bessent has proposed a mechanism for the US and China to notify each other of AI incidents that reach the level of a national-security concern, two accounts reported.",
-   "body": [
-    "Treasury Secretary Scott Bessent has proposed a notification system for AI incidents that rise to the level of a national-security concern, Kalshi reported. Under the proposal, the US and China would tell each other when such an incident occurs.",
-    "Choblin29 reported separately that the mechanism would be put to Presidents Trump and Xi to consider. Neither account said how an incident would be defined, or what either side would be required to disclose once one was reported.",
-    "Neither the US Treasury nor Chinese officials have confirmed the proposal. It follows a broader round of talks this week between Bessent and Chinese counterparts that reportedly also touched on trade and critical minerals ahead of Xi's visit to the US."
-   ],
-   "entities": [],
-   "sources": [
-    {
-     "author": "Kalshi",
-     "url": "https://x.com/Kalshi/status/2101899225059701070"
-    },
-    {
-     "author": "choblin29",
-     "url": "https://x.com/choblin29/status/2101875165831504150"
-    }
-   ],
-   "placement": "inside"
-  },
-  {
-   "cluster_id": "c24f3f7a5",
-   "section": "research",
-   "headline": "Benchmarks split on speed between Laya and TypeSafe's Jev",
-   "standfirst": "Independent benchmarks of Convai Innovations' open-source Laya model and TypeSafe's hosted Jev disagree sharply on which is faster and more accurate, with results reversing depending on hardware and task.",
-   "body": [
-    "Two community benchmarks published this month reached opposite conclusions about whether Convai Innovations' open-source Laya decision model is faster than TypeSafe's hosted Jev model, or the other way around.",
-    "A benchmark by blogger Mervin Praison, citing Convai's own testing plus two independent repositories, put Laya's latency at 32.8 milliseconds for one question on a Tesla T4 GPU. It put Jev at 236 to 276 milliseconds over its API. The same post credited Laya with higher accuracy on a typed-decisions task, 0.766 against Jev's 0.727.",
-    "A separate open-source benchmark, zero-shot-ie-bench on GitHub, found the reverse. The project ran Laya locally on CPU and Jev through its cloud API, and measured Jev at 93.8 percent accuracy and 37 milliseconds per question on one classification task. Laya scored 68.8 percent and took 1.24 seconds per question on the same task.",
-    "Both benchmarks caution against reading the numbers as a clean verdict. Praison's post calls its result directional, not a controlled test, since sample sizes and prompts differ. The GitHub project ran Jev as a hosted service and Laya on local hardware, a gap that can favor either model depending on the task.",
-    "A third project, an Apple Silicon port called Laya-MLX built independently by developer mizorewww, reported 7 to 13 millisecond latency and under 1 gigabyte of memory on an M3 Max, with a Snake-playing demo reaching 75 moves per second. Its own documentation says a direct speed claim against Jev is not established, since Jev's published numbers are hosted-API measurements and Laya-MLX's are local only.",
-    "Neither Convai Innovations nor TypeSafe has published its own head-to-head test of the two models. Each continues to publish its own numbers separately, Convai on Hugging Face and TypeSafe on its blog, leaving outside benchmarks to fill the gap."
-   ],
-   "entities": [
-    "Convai Innovations",
-    "TypeSafe"
-   ],
-   "sources": [
-    {
-     "author": "Convai Innovations",
-     "url": "https://huggingface.co/convaiinnovations/laya"
-    },
-    {
-     "author": "TypeSafe AI",
-     "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-    },
-    {
-     "author": "Mervin Praison",
-     "url": "https://mer.vin/news/laya-the-33ms-open-source-decision-model-beating-jev/"
-    },
-    {
-     "author": "umstek",
-     "url": "https://github.com/umstek/zero-shot-ie-bench"
-    },
-    {
-     "author": "mizorewww",
-     "url": "https://github.com/mizorewww/laya-mlx"
-    }
-   ],
-   "placement": "inside"
-  }
- ]
+  ]
 }
