@@ -21,6 +21,11 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # The secrets context is not available in a step-level `if`, and naming it
+    # there makes the whole file invalid, so every run fails before any job
+    # starts. Bound to the job's env instead, which `if` can read.
+    env:
+      XQUIK_API_KEY: ${{ secrets.XQUIK_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -42,9 +47,8 @@ jobs:
       # Optional. Skipped entirely when no key is set, so the edition
       # still ships without a paid provider.
       - name: Search X for corroboration
-        if: ${{ secrets.XQUIK_API_KEY != '' }}
+        if: env.XQUIK_API_KEY != ''
         env:
-          XQUIK_API_KEY: ${{ secrets.XQUIK_API_KEY }}
           X_PROVIDER: xquik
         run: |
           python -m pipeline.xsearch --check
