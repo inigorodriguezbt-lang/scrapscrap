@@ -214,6 +214,46 @@
     }
    ],
    "placement": "front"
+  },
+  {
+   "cluster_id": "c24f3f7a5",
+   "section": "research",
+   "headline": "Benchmarks split on speed between Laya and TypeSafe's Jev",
+   "standfirst": "Independent benchmarks of Convai Innovations' open-source Laya model and TypeSafe's hosted Jev disagree sharply on which is faster and more accurate, with results reversing depending on hardware and task.",
+   "body": [
+    "Two community benchmarks published this month reached opposite conclusions about whether Convai Innovations' open-source Laya decision model is faster than TypeSafe's hosted Jev model, or the other way around.",
+    "A benchmark by blogger Mervin Praison, citing Convai's own testing plus two independent repositories, put Laya's latency at 32.8 milliseconds for one question on a Tesla T4 GPU. It put Jev at 236 to 276 milliseconds over its API. The same post credited Laya with higher accuracy on a typed-decisions task, 0.766 against Jev's 0.727.",
+    "A separate open-source benchmark, zero-shot-ie-bench on GitHub, found the reverse. The project ran Laya locally on CPU and Jev through its cloud API, and measured Jev at 93.8 percent accuracy and 37 milliseconds per question on one classification task. Laya scored 68.8 percent and took 1.24 seconds per question on the same task.",
+    "Both benchmarks caution against reading the numbers as a clean verdict. Praison's post calls its result directional, not a controlled test, since sample sizes and prompts differ. The GitHub project ran Jev as a hosted service and Laya on local hardware, a gap that can favor either model depending on the task.",
+    "A third project, an Apple Silicon port called Laya-MLX built independently by developer mizorewww, reported 7 to 13 millisecond latency and under 1 gigabyte of memory on an M3 Max, with a Snake-playing demo reaching 75 moves per second. Its own documentation says a direct speed claim against Jev is not established, since Jev's published numbers are hosted-API measurements and Laya-MLX's are local only.",
+    "Neither Convai Innovations nor TypeSafe has published its own head-to-head test of the two models. Each continues to publish its own numbers separately, Convai on Hugging Face and TypeSafe on its blog, leaving outside benchmarks to fill the gap."
+   ],
+   "entities": [
+    "Convai Innovations",
+    "TypeSafe"
+   ],
+   "sources": [
+    {
+     "author": "Convai Innovations",
+     "url": "https://huggingface.co/convaiinnovations/laya"
+    },
+    {
+     "author": "TypeSafe AI",
+     "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+    },
+    {
+     "author": "Mervin Praison",
+     "url": "https://mer.vin/news/laya-the-33ms-open-source-decision-model-beating-jev/"
+    },
+    {
+     "author": "umstek",
+     "url": "https://github.com/umstek/zero-shot-ie-bench"
+    },
+    {
+     "author": "mizorewww",
+     "url": "https://github.com/mizorewww/laya-mlx"
+    }
+   ]
   }
  ]
 }
