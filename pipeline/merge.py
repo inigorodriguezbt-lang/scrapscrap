@@ -56,8 +56,13 @@ def published_fingerprints(window_hours: int = 96) -> list[dict]:
     one extra post hashes to something entirely different. The paper ran the
     same Trump story twice that way. So compare what the story is about.
     """
+    # `--new` lives in this directory too, and a bare *.json glob picks it up:
+    # the incoming story then matches itself and every hourly run merges
+    # nothing. Side files are not published editions, so skip them.
+    editions = sorted(p for p in EDITIONS_DIR.glob("*.json")
+                      if not p.name.endswith(".new.json"))
     out = []
-    for path in sorted(EDITIONS_DIR.glob("*.json"))[-6:]:
+    for path in editions[-6:]:
         try:
             edition = json.loads(path.read_text(encoding="utf-8"))
         except (OSError, ValueError):
