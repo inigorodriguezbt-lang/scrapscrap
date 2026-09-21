@@ -15,6 +15,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -273,7 +274,9 @@ def build_briefs(raw_path: Path | None) -> dict:
         links = sorted({u for p in group for u in p.get("links", [])})
 
         stories.append({
-            "cluster_id": f"c{abs(hash(tuple(sorted(p['id'] for p in group)))) % 10**8:08d}",
+            "cluster_id": "c" + hashlib.sha1(
+                "|".join(sorted(p["id"] for p in group)).encode("utf-8")
+            ).hexdigest()[:8],
             "score": score_cluster(group, now),
             "suggested_section": classify(combined, sections),
             "entities": find_entities(combined, cfg["entities"]),
@@ -302,7 +305,7 @@ def build_briefs(raw_path: Path | None) -> dict:
     return {
         "generated_at": now.isoformat(),
         "edition_date": now.strftime("%Y-%m-%d"),
-        "source_file": raw_path.name,
+        "source_file": raw_path.name if raw_path else str(RAW_DIR),
         "posts_considered": len(posts),
         "clusters_found": len(clusters),
         "stories_declared": len(stories),
