@@ -125,6 +125,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Draft X posts for an edition.")
     ap.add_argument("--edition", type=Path, required=True)
     ap.add_argument("--check", action="store_true", help="validate only, write nothing")
+    ap.add_argument("--pending", action="store_true",
+                    help="print only the posts the editor has not sent yet")
     args = ap.parse_args()
 
     cfg = load_config()
@@ -157,8 +159,29 @@ def main() -> None:
     if args.check:
         raise SystemExit(1 if failures else 0)
 
+    if args.pending:
+        pass        # handled after the queue is written, so statuses are current
+
     QUEUE_DIR.mkdir(parents=True, exist_ok=True)
     out = QUEUE_DIR / f"{edition.get('edition_date', 'queue')}.json"
+
+    # On an hourly cadence this file is rewritten every run. Carry over what
+    # the editor has already done to each post, or a tweet sent at 09:00 looks
+    # unsent again at 10:00 and gets posted twice.
+    if out.exists():
+        try:
+            previous = json.loads(out.read_text(encoding="utf-8")).get("posts", [])
+        except (OSError, ValueError):
+            previous = []
+        kept = {p.get("cluster_id"): p for p in previous}
+        for post in posts:
+            before = kept.get(post["cluster_id"])
+            if not before:
+                continue
+            for field in ("status", "note", "posted_url", "site_published_at"):
+                if before.get(field):
+                    post[field] = before[field]
+
     out.write_text(json.dumps({
         "edition_date": edition.get("edition_date"),
         "drafted_at": utcnow().isoformat(),
@@ -166,7 +189,14 @@ def main() -> None:
         "posts": posts,
     }, indent=2), encoding="utf-8")
     print(f"Queued for review → {out}")
-    print("Nothing has been posted. Approve with /publish.")
+    print("Nothing has been posted. The editor sends these by hand.")
+
+    if args.pending:
+        unsent = [p for p in posts if p.get("status", "pending_review") == "pending_review"]
+        print(f"\n{'═' * 58}\n{len(unsent)} post(s) waiting to be sent\n")
+        for post in unsent:
+            print(post["text"])
+            print(f"\n{'─' * 58}\n")
 
 
 if __name__ == "__main__":

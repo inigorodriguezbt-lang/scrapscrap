@@ -183,25 +183,64 @@ def score_cluster(posts: list[dict], now: datetime) -> float:
 
 # ── assembly ─────────────────────────────────────────────────────────────────
 
-def load_recent_posts(raw_path: Path, window_hours: int) -> list[dict]:
-    cutoff = utcnow() - timedelta(hours=window_hours)
+def _read_window(path: Path, cutoff: datetime) -> list[dict]:
     posts = []
-    with raw_path.open(encoding="utf-8") as fh:
+    with path.open(encoding="utf-8") as fh:
         for line in fh:
             if not line.strip():
                 continue
-            post = json.loads(line)
-            if datetime.fromisoformat(post["created_at"]) >= cutoff:
+            try:
+                post = json.loads(line)
+                stamp = datetime.fromisoformat(post["created_at"])
+            except (ValueError, KeyError):
+                continue
+            if stamp.tzinfo is None:
+                stamp = stamp.replace(tzinfo=timezone.utc)
+            if stamp >= cutoff:
                 posts.append(post)
     return posts
 
 
-def build_briefs(raw_path: Path) -> dict:
+def load_recent_posts(raw_path: Path | None, window_hours: int) -> list[dict]:
+    """Every raw file inside the window, wire and X alike.
+
+    Reading one file was enough when the whole edition came from a single
+    nightly scrape. On an hourly cadence the window spans many files, and
+    the X sweep writes x-*.jsonl rather than posts-*.jsonl, so globbing only
+    posts-* silently dropped everything the paid search returned.
+    """
+    cutoff = utcnow() - timedelta(hours=window_hours)
+    if raw_path is not None:
+        return _read_window(raw_path, cutoff)
+
+    posts, seen_ids = [], set()
+    for path in sorted(RAW_DIR.glob("*.jsonl")):
+        if path.name == "posts-fixture.jsonl":
+            continue
+        for post in _read_window(path, cutoff):
+            if post["id"] in seen_ids:      # the same post can land in two sweeps
+                continue
+            seen_ids.add(post["id"])
+            posts.append(post)
+    return posts
+
+
+def build_briefs(raw_path: Path | None) -> dict:
     cfg = load_config()
     rules = cfg["editorial"]
     posts = load_recent_posts(raw_path, rules["window_hours"])
     if not posts:
-        raise SystemExit(f"No posts inside the {rules['window_hours']}h window in {raw_path}")
+        # A quiet hour is a normal result on this cadence, not a failure. The
+        # caller writes an empty brief, the writer files nothing, and the
+        # workflow's gate stops before it republishes an unchanged site.
+        return {
+            "generated_at": utcnow().isoformat(),
+            "edition_date": utcnow().strftime("%Y-%m-%d"),
+            "source_file": str(raw_path or RAW_DIR),
+            "posts_considered": 0, "clusters_found": 0, "stories_declared": 0,
+            "front_page_slots": rules.get("front_page_slots", 7),
+            "stories": [],
+        }
 
     # Deduplicate verbatim reposts of the same text by the same account.
     seen: set[tuple[str, str]] = set()
@@ -278,11 +317,8 @@ def main() -> None:
     args = parser.parse_args()
 
     raw_path = args.raw
-    if raw_path is None:
-        candidates = sorted(RAW_DIR.glob("posts-*.jsonl"))
-        if not candidates:
-            raise SystemExit("No raw files. Run: python -m pipeline.scrape")
-        raw_path = candidates[-1]
+    if raw_path is None and not any(RAW_DIR.glob("*.jsonl")):
+        raise SystemExit("No raw files. Run: python -m pipeline.wire")
 
     briefs = build_briefs(raw_path)
 

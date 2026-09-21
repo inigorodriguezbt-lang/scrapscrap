@@ -6,7 +6,7 @@ name: Publish edition
 # credentials), which is why the schedule lives here.
 on:
   schedule:
-    - cron: "5 */2 * * *"     # every two hours
+    - cron: "5 * * * *"       # hourly
   workflow_dispatch:
 
 permissions:
@@ -21,6 +21,11 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # The secrets context is not available in a step-level `if`, and naming it
+    # there makes the whole file invalid, so every run fails before any job
+    # starts. Bound to the job's env instead, which `if` can read.
+    env:
+      XQUIK_API_KEY: ${{ secrets.XQUIK_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,46 +40,92 @@ jobs:
       - name: Collect the wire
         run: python -m pipeline.wire --hours 24
 
+      - name: Today
+        id: day
+        run: echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
       # Optional. Skipped entirely when no key is set, so the edition
       # still ships without a paid provider.
       - name: Search X for corroboration
-        if: ${{ secrets.XQUIK_API_KEY != '' }}
+        if: env.XQUIK_API_KEY != ''
         env:
-          XQUIK_API_KEY: ${{ secrets.XQUIK_API_KEY }}
           X_PROVIDER: xquik
         run: |
           python -m pipeline.xsearch --check
-          # Narrow queries only -- every returned row is billed.
+          # Every returned row is billed, so the sweep carries a high-water
+          # mark and asks only for what is newer than the last run. Without
+          # it each run re-buys the same posts; at this cadence that is the
+          # difference between paying once and paying twelve times.
           python -m pipeline.xsearch \
-            --query "(OpenAI OR Anthropic OR Nvidia) (launch OR release OR raises) -filter:replies" \
+            --sources 100 --state data/state/xsearch.json \
             --limit 100 --out data/raw/x-$(date -u +%Y%m%dT%H%M%SZ).jsonl
 
       - name: Declare stories
         run: python -m pipeline.cluster
 
-      - name: Write the edition
+      # Writes only clusters not already in today's edition, into a side file.
+      # Published copy is never rewritten; see .claude/commands/hourly.md.
+      - name: Write what is new
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt: "/write-edition"
-          claude_args: "--allowedTools Read,Write,Edit,Bash(python -m pipeline.build),Bash(python -m pipeline.stylecheck)"
+          prompt: "/hourly"
+          claude_args: >-
+            --allowedTools Read,Write,Edit,
+            Bash(python -m pipeline.merge),
+            Bash(python -m pipeline.stylecheck),
+            Bash(python -m pipeline.charts_ds)
+
+      - name: Merge into today's edition
+        run: |
+          python -m pipeline.merge \
+            --edition data/editions/${{ steps.day.outputs.date }}.json \
+            --new data/editions/${{ steps.day.outputs.date }}.new.json
+
+      - name: Stop here if nothing new was filed
+        id: gate
+        run: |
+          test -f data/editions/${{ steps.day.outputs.date }}.json || {
+            echo "no edition yet"; echo "go=no" >> "$GITHUB_OUTPUT"; exit 0; }
+          git diff --quiet -- data/editions && echo "go=no" >> "$GITHUB_OUTPUT" \
+            || echo "go=yes" >> "$GITHUB_OUTPUT"
 
       - name: Check house style
-        run: python -m pipeline.stylecheck data/editions/$(date -u +%Y-%m-%d).json
+        if: steps.gate.outputs.go == 'yes'
+        run: python -m pipeline.stylecheck data/editions/${{ steps.day.outputs.date }}.json
+
+      # Drafts the posts and leaves them in the queue. Nothing is sent from
+      # here; the editor posts by hand. Statuses carry over between runs.
+      - name: Draft the posts and show what is waiting
+        if: steps.gate.outputs.go == 'yes'
+        run: |
+          python -m pipeline.social \
+            --edition data/editions/${{ steps.day.outputs.date }}.json --pending \
+            | tee /tmp/posts.txt
+          {
+            echo "## Posts waiting to be sent"
+            echo '```'
+            sed -n '/waiting to be sent/,$p' /tmp/posts.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Render the site
+        if: steps.gate.outputs.go == 'yes'
         run: python -m pipeline.build
 
       - name: Commit the issue
+        if: steps.gate.outputs.go == 'yes'
         run: |
           git config user.name  "the-desk"
           git config user.email "noreply@users.noreply.github.com"
-          git add data/briefs data/editions
+          git add data/briefs data/editions data/state data/queue site/assets/charts
           git diff --staged --quiet || git commit -m "Edition of $(date -u +%Y-%m-%d\ %H:%M) UTC"
           git push
 
       - uses: actions/upload-pages-artifact@v3
+        if: steps.gate.outputs.go == 'yes'
         with:
           path: dist
 
       - uses: actions/deploy-pages@v4
+        if: steps.gate.outputs.go == 'yes'
