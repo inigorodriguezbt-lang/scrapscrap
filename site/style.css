@@ -239,9 +239,26 @@ figcaption { font-family: var(--sans); font-size: 12.5px; line-height: 1.45; col
 @media (max-width: 720px) {
   :root { --gutter: 16px; }
   .frontpage { display: flex; flex-direction: column; }
-  .frontpage .col:nth-child(2) { order: 1; }
-  .frontpage .col:nth-child(1) { order: 2; }
+
+  /* Order by what a column is, not where it sits. Keying off nth-child
+     assumed three columns; on a thin edition there is no left column, so
+     nth-child(2) was the Latest rail and the reader met 900px of headline
+     list before the lead story. */
+  .frontpage .col { order: 2; }
+  .frontpage .col--main { order: 1; }
   .frontpage .col--briefs { order: 3; }
+
+  /* The nameplate and the section bar were taking 257px, most of a phone's
+     first screen, before a word of news. The bar scrolls sideways on one
+     line rather than stacking into three. */
+  .masthead { padding: 22px 0 16px; }
+  .masthead__name { font-size: clamp(44px, 13vw, 72px); }
+  .nav {
+    flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start;
+    padding: 10px var(--gutter); margin: 0 calc(var(--gutter) * -1);
+    scrollbar-width: none; -ms-overflow-style: none;
+  }
+  .nav::-webkit-scrollbar { display: none; }
   .col + .col { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 18px; }
   .col--briefs .latest { columns: 1; }
   .grid-3, .grid-4 { grid-template-columns: 1fr; }

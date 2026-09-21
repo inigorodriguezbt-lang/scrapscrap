@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import json
 import shutil
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -108,6 +108,37 @@ def render_site() -> None:
 
     latest = editions[-1] if editions else {"edition_date": utcnow().strftime("%Y-%m-%d"), "stories": []}
     stories = decorate(latest.get("stories", []), sections)
+
+    # A paper that files continuously cannot show one edition file and stop.
+    # At 00:01 today's edition holds nothing, and yesterday's front page
+    # disappears even though the news on it is hours old. So the front page
+    # is a rolling window: today's stories first, keeping their placements,
+    # then recent ones carried forward beneath them, oldest dropping off by
+    # age rather than by the calendar. They carry their own timestamps, so a
+    # reader can see what is fresh and what is not.
+    carry_hours = cfg["editorial"].get("front_page_carry_hours", 48)
+    cutoff = utcnow() - timedelta(hours=carry_hours)
+    seen_front = {s["cluster_id"] for s in stories}
+    carried = []
+    for edition in reversed(editions[:-1]):
+        for story in decorate(edition.get("stories", []), sections):
+            if story["cluster_id"] in seen_front:
+                continue
+            try:
+                when = datetime.fromisoformat(story.get("published_at") or "")
+            except ValueError:
+                continue
+            if when.tzinfo is None:
+                when = when.replace(tzinfo=timezone.utc)
+            if when < cutoff:
+                continue
+            seen_front.add(story["cluster_id"])
+            # Carried stories never take the lead or a front slot; they fill
+            # the rail and the band, where the timestamp does the work.
+            story["placement"] = "inside"
+            carried.append(story)
+    carried.sort(key=lambda s: s.get("published_at") or "", reverse=True)
+    stories = stories + carried
 
     all_sources = {s["author"] for story in stories for s in story["sources"]}
     base = {
