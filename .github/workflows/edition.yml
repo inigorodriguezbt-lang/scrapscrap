@@ -44,9 +44,12 @@ jobs:
           X_PROVIDER: xquik
         run: |
           python -m pipeline.xsearch --check
-          # Narrow queries only -- every returned row is billed.
+          # Every returned row is billed, so the sweep carries a high-water
+          # mark and asks only for what is newer than the last run. Without
+          # it each run re-buys the same posts; at this cadence that is the
+          # difference between paying once and paying twelve times.
           python -m pipeline.xsearch \
-            --query "(OpenAI OR Anthropic OR Nvidia) (launch OR release OR raises) -filter:replies" \
+            --sources 100 --state data/state/xsearch.json \
             --limit 100 --out data/raw/x-$(date -u +%Y%m%dT%H%M%SZ).jsonl
 
       - name: Declare stories
@@ -69,7 +72,7 @@ jobs:
         run: |
           git config user.name  "the-desk"
           git config user.email "noreply@users.noreply.github.com"
-          git add data/briefs data/editions
+          git add data/briefs data/editions data/state
           git diff --staged --quiet || git commit -m "Edition of $(date -u +%Y-%m-%d\ %H:%M) UTC"
           git push
 
