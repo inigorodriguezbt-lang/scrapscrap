@@ -27,6 +27,113 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "cac-deepseek-moonshot-probe",
+   "section": "policy",
+   "headline": "China probes DeepSeek and Moonshot over Anthropic data, The Information says",
+   "standfirst": "Anthropic alleged that the two companies routed customer requests to Claude, according to summaries of the report posted on X on Tuesday.",
+   "body": [
+    "China's Cyberspace Administration is investigating DeepSeek and Moonshot AI over customer data the two are alleged to have routed to Anthropic, The Information reported on Tuesday. Six accounts on X carried the report within an hour, and none of them reported a response from either company.",
+    "Techmeme, citing The Information, said the regulator has questioned employees at the two companies. The account kyleichan quoted the report as saying the regulator summoned representatives of seven companies named by Anthropic for questioning, then narrowed its attention to DeepSeek and Moonshot. The article itself is behind a subscription.",
+    "The account wallstengine, summarising the same report, put Moonshot's total at more than 23 million exchanges routed to Claude between May and July, and DeepSeek's at more than 12.1 million over 14 days in July. This paper could not check either figure against the article.",
+    "The data allegedly included surveillance footage near facilities linked to the People's Liberation Army, along with internal Chinese corporate information, wallstengine said. That detail rests on one outlet and on one account's summary of it.",
+    "Anthropic's allegation is its own, and what the regulator makes of it is a separate question. Four other accounts carried the investigation without adding detail beyond the headline. None said what the regulator may do next, and none reported a comment from Anthropic."
+   ],
+   "entities": [
+    "DeepSeek",
+    "Moonshot AI",
+    "Anthropic",
+    "Cyberspace Administration of China",
+    "The Information"
+   ],
+   "sources": [
+    {
+     "author": "Techmeme",
+     "url": "https://x.com/Techmeme/status/2102361245253050808"
+    },
+    {
+     "author": "wallstengine",
+     "url": "https://x.com/wallstengine/status/2102358839672869288"
+    },
+    {
+     "author": "DeItaone",
+     "url": "https://x.com/DeItaone/status/2102357242347704659"
+    },
+    {
+     "author": "kyleichan",
+     "url": "https://x.com/kyleichan/status/2102362041558421914"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "unsc-ai-briefing",
+   "section": "policy",
+   "headline": "Amodei and Altman to brief UN Security Council on AI Wednesday",
+   "standfirst": "Bloomberg and Reuters both have the meeting, and Reuters reports that DeepSeek and Moonshot are among the companies due to speak.",
+   "body": [
+    "Dario Amodei, Anthropic's chief executive, is due to brief the UN Security Council on Wednesday alongside Sam Altman of OpenAI, Bloomberg said on Tuesday. The meeting is given over to the future of artificial intelligence, according to Bloomberg's account of it.",
+    "Reuters has DeepSeek and Moonshot among the companies briefing the council on AI risks and international security during the General Assembly, Techmeme said, citing the Reuters reporter Laurie Chen. The Bloomberg item named just the two American chief executives.",
+    "The account choblin29, which describes its item as an exclusive, said DeepSeek will brief the council on Wednesday alongside Altman and representatives it expects Anthropic to send. It said Moonshot has also been invited to speak. That matches what Techmeme attributes to Reuters.",
+    "The agenda is AI misuse and advanced models that may slip beyond human control, according to choblin29. Neither the Bloomberg post nor the Reuters summary carried an agenda. The account financialjuice carried Amodei's appearance without naming any other speaker.",
+    "Bloomberg also said that AI, the Iran war and the war in Ukraine are likely to dominate the week's talks in New York. None of the accounts said what the council may do after the briefing, and none reported a comment from any of the four companies."
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI",
+    "DeepSeek",
+    "Moonshot",
+    "United Nations",
+    "Dario Amodei",
+    "Sam Altman"
+   ],
+   "sources": [
+    {
+     "author": "business",
+     "url": "https://x.com/business/status/2102368576770294113"
+    },
+    {
+     "author": "Techmeme",
+     "url": "https://x.com/Techmeme/status/2102365275782078870"
+    },
+    {
+     "author": "choblin29",
+     "url": "https://x.com/choblin29/status/2102340822108864517"
+    },
+    {
+     "author": "financialjuice",
+     "url": "https://x.com/financialjuice/status/2102368193633288342"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "meta-muse-hotfix",
+   "section": "security",
+   "headline": "Meta issues hotfix for Muse flaw, calls real-world risk low",
+   "standfirst": "Meta patched the Muse macOS app within hours of the Ars Technica report, and said the attack needed code already running on the user's machine.",
+   "body": [
+    "Meta has issued a patch for the Muse macOS app after a zero-day that could let an attacker take control of the agent, The Verge reported on Tuesday. The company patched the flaw in the hours after Ars Technica published the researcher Patrick Wardle's account of it.",
+    "\"This was a local privilege escalation attack, not a remote exploit,\" David Singleton of Meta Superintelligence Labs said on X, in remarks The Verge quoted. He said the practical risk to users of the Muse Mac app was therefore quite low, and that Meta had issued a hotfix to address the issue.",
+    "The bug used an undocumented Muse setting that let local code redirect transcription from Meta's servers to an attacker's endpoint, The Verge said, citing Ars Technica. Proof-of-concept attacks Wardle wrote could take pictures and write files to disk, in many cases without alerting the user.",
+    "\"At the very least, they should be thinking about security from the very start, and they are just not,\" Wardle told Ars Technica. Meta emphasised privacy and security when it announced the agent this month, The Verge said. Meta did not answer emailed questions put to it before the Ars Technica report.",
+    "Neither Meta nor Wardle has said which versions of the app carry the flaw. Meta's account of the practical risk is its own, and rests on the attack needing local access. The patch is reported here by The Verge alone, and this paper has not seen the fixed app."
+   ],
+   "entities": [
+    "Meta",
+    "Patrick Wardle",
+    "Ars Technica",
+    "The Verge",
+    "David Singleton"
+   ],
+   "sources": [
+    {
+     "author": "The Verge AI",
+     "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "reuters-ipsos-ai-poll",
    "section": "policy",
    "headline": "Reuters/Ipsos poll finds 73% worry AI firms have not done enough",
@@ -154,7 +261,7 @@
      "url": "https://x.com/business/status/2102295600100204582"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "morphotonics-40m",
@@ -183,7 +290,7 @@
      "url": "https://x.com/Techmeme/status/2102282018394693896"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "mit-tr-border-towers",
@@ -219,7 +326,7 @@
      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "tsmc-a14-trial-production",
