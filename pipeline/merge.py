@@ -26,7 +26,12 @@ import argparse
 import json
 from pathlib import Path
 
-from .common import EDITIONS_DIR, load_config, normalize_url, tokenize
+from .common import DATA_DIR, EDITIONS_DIR, load_config, normalize_url, tokenize
+
+# What this run actually added, so the post drafter can show the editor those
+# and not the whole backlog. A run that adds nothing writes an empty list,
+# which is the correct answer to "what should I send now".
+LAST_RUN = DATA_DIR / "state" / "last_run.json"
 
 # Two headlines this alike, about the same beat, are the same event.
 # Measured against the pair that slipped through: "Trump says he will form an
@@ -153,6 +158,8 @@ def main() -> None:
     incoming = payload.get("stories", payload if isinstance(payload, list) else [])
     if not incoming:
         print("No new stories in this run.")
+        LAST_RUN.parent.mkdir(parents=True, exist_ok=True)
+        LAST_RUN.write_text(json.dumps({"added": []}, indent=1) + "\n", encoding="utf-8")
         if not args.keep_new:
             args.new.unlink()
         return
@@ -171,6 +178,9 @@ def main() -> None:
                             encoding="utf-8")
     if not args.keep_new:
         args.new.unlink()
+
+    LAST_RUN.parent.mkdir(parents=True, exist_ok=True)
+    LAST_RUN.write_text(json.dumps({"added": added}, indent=1) + "\n", encoding="utf-8")
 
     print(f"{before} → {len(edition['stories'])} stories in {args.edition.name}")
     if added:

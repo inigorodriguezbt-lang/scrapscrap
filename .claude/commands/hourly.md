@@ -92,3 +92,13 @@ the reporting supports.
 
 Do not post anything to X. `pipeline/social.py` drafts into the queue and the
 editor sends them by hand. That is deliberate.
+
+Show the editor **only the posts for the stories you wrote this run**, not the
+whole unsent queue:
+
+```bash
+python -m pipeline.social --edition data/editions/<today>.json --pending --this-run
+```
+
+The backlog only grows, and most of it they have already seen and chosen not to
+send. If you wrote nothing, say so and show nothing.

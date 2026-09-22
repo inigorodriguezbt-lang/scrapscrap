@@ -100,7 +100,7 @@ jobs:
         if: steps.gate.outputs.go == 'yes'
         run: |
           python -m pipeline.social \
-            --edition data/editions/${{ steps.day.outputs.date }}.json --pending \
+            --edition data/editions/${{ steps.day.outputs.date }}.json --pending --this-run \
             | tee /tmp/posts.txt
           {
             echo "## Posts waiting to be sent"

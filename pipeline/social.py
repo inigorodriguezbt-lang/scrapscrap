@@ -127,6 +127,9 @@ def main() -> None:
     ap.add_argument("--check", action="store_true", help="validate only, write nothing")
     ap.add_argument("--pending", action="store_true",
                     help="print only the posts the editor has not sent yet")
+    ap.add_argument("--this-run", action="store_true",
+                    help="with --pending, show only what the last merge added, "
+                         "not the whole unsent backlog")
     args = ap.parse_args()
 
     cfg = load_config()
@@ -193,10 +196,29 @@ def main() -> None:
 
     if args.pending:
         unsent = [p for p in posts if p.get("status", "pending_review") == "pending_review"]
-        print(f"\n{'═' * 58}\n{len(unsent)} post(s) waiting to be sent\n")
+        label = "waiting to be sent"
+
+        if args.this_run:
+            # An unsent backlog only grows: by the second day it was handing
+            # the editor forty-odd posts every run, most of them already seen
+            # and consciously not sent. Only this run's own stories are news
+            # to them.
+            from .merge import LAST_RUN
+            try:
+                added = set(json.loads(LAST_RUN.read_text(encoding="utf-8"))["added"])
+            except (OSError, ValueError, KeyError):
+                added = None
+            if added is not None:
+                unsent = [p for p in unsent if p["cluster_id"] in added]
+                label = "from this run"
+
+        print(f"\n{'═' * 58}\n{len(unsent)} post(s) {label}\n")
         for post in unsent:
             print(post["text"])
             print(f"\n{'─' * 58}\n")
+        if args.this_run and not unsent:
+            print("Nothing new this run. The older unsent posts are still in "
+                  "the queue; run without --this-run to see them.\n")
 
 
 if __name__ == "__main__":
