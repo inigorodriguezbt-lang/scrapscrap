@@ -27,6 +27,105 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "alibaba-apsara-v900",
+   "section": "chips",
+   "headline": "Alibaba plans model of 5 to 10 trillion parameters, launches AI chip",
+   "standfirst": "Chief executive Eddie Wu set out the plan at Alibaba Cloud's Apsara Conference in Hangzhou, alongside a new accelerator and a 20 gigawatt data centre target.",
+   "body": [
+    "Alibaba plans to train a model with between 5 trillion and 10 trillion parameters, chief executive Eddie Wu said Tuesday at the company's Apsara Conference in Hangzhou. Reuters reported the remarks. Wu gave no timetable for the training run and did not say what hardware would carry it.",
+    "Alibaba's chip unit T-Head announced an accelerator called the Zhenwu V900 at the same event. Bloomberg reported that Alibaba puts its performance at three times that of the previous part, and says a single cluster can scale to 500,000 of them. Both figures are the company's own.",
+    "Wu also said Alibaba Cloud aims to hold more than 20 gigawatts of data centre capacity worldwide by 2032, according to a market wire carrying his remarks. Bloomberg reported the same target. Alibaba describes the Zhenwu V900 as the most powerful AI chip in China.",
+    "No independent testing of the chip supports that description. Alibaba has not published a specification sheet for the Zhenwu V900, and the three-times figure is measured against a part the company also makes. Fast market wires carried the chip's designation inconsistently on Tuesday, with one reporting it as the V300.",
+    "The parameter range is a statement of intent rather than a shipped model. Wu did not say whether the count refers to total parameters or to the smaller number active on each token, a distinction that changes what the figure means. Alibaba has not said when training would begin."
+   ],
+   "entities": [
+    "Alibaba",
+    "T-Head",
+    "Bloomberg",
+    "Reuters"
+   ],
+   "sources": [
+    {
+     "author": "Reuters",
+     "url": "https://x.com/Reuters/status/2102241509370184063"
+    },
+    {
+     "author": "Techmeme",
+     "url": "https://x.com/Techmeme/status/2102237884602614013"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://x.com/business/status/2102236661698490779"
+    },
+    {
+     "author": "financialjuice",
+     "url": "https://x.com/financialjuice/status/2102237273391571202"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "bc-openai-duty-to-warn",
+   "section": "policy",
+   "headline": "British Columbia sues OpenAI, says warning could have averted shooting",
+   "standfirst": "The province filed in California on Monday, arguing the company should have told police what it knew about a user before a mass shooting at a school.",
+   "body": [
+    "British Columbia has sued OpenAI in California over a mass shooting at a school in the province, Reuters reported on Monday. The province says the shooting could have been prevented if the company had warned local law enforcement about the user beforehand.",
+    "The claim turns on a duty to warn. Reuters reported that the province contends OpenAI held information about the user that it did not pass to police. That is an allegation in a complaint, not a finding, and no court has tested it.",
+    "Canadian and international outlets carried the filing on Monday and Tuesday, placing the shooting at a secondary school in Tumbler Ridge, in northern British Columbia, in February. Reports of the complaint say the province seeks compensation and an order changing how the company handles conversations that threaten violence.",
+    "OpenAI's answer to the suit is not yet reported. The paper has not seen the complaint, and the account of what the company knew rests on the province's own characterisation of its evidence. What OpenAI recorded about the user, and when, is not established."
+   ],
+   "entities": [
+    "OpenAI",
+    "British Columbia",
+    "Reuters"
+   ],
+   "sources": [
+    {
+     "author": "Reuters Legal",
+     "url": "https://x.com/ReutersLegal/status/2102233940710862854"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "artificial-analysis-tts-pronunciation",
+   "section": "models",
+   "headline": "Artificial Analysis puts Gemini 3.1 Flash top of new speech benchmark",
+   "standfirst": "The evaluator's new pronunciation test measures how often text-to-speech models read difficult text correctly, and puts Google's entry at 88.1 percent.",
+   "body": [
+    "Artificial Analysis said on Tuesday it has begun scoring text-to-speech models on what it calls \"pronunciation robustness\", a measure of how often a model reads challenging text correctly. The evaluator put Google's Gemini 3.1 Flash TTS top at 88.1 percent, at a listed $18.31 per million characters.",
+    "SpaceXAI TTS scored 87.6 percent at $15 per million characters, which Artificial Analysis called the lowest price of any model above 80 percent. Kokoro 82M v1.0 is the cheapest the evaluator listed, at $0.65 per million characters. Those are list prices, according to the evaluator, and not measured cost.",
+    "Speed and accuracy do not track each other in the results. Kokoro 82M v1.0 is the fastest model Artificial Analysis posted, at 242 characters a second. Realtime TTS-2 Flash reached 220 characters a second and scored 77.8 percent. SpaceXAI TTS ran at 106 characters a second.",
+    "The scores diverge from listener preference. Sonic 3.6 holds the highest Provider Voice Arena Elo of the group at 1276 while scoring 74.5 percent on the new test, the evaluator said. Gemini 3.1 Flash TTS sits at 1201 Elo. Both rankings are its own.",
+    "The test breaks into sub-scores. Artificial Analysis said Gemini 3.1 Flash TTS leads on contextually appropriate pronunciation at 96.4 percent and on expanding shorthand at 84.4 percent, against 84.3 percent for SpaceXAI TTS. SpaceXAI TTS leads on preserving exact sequences at 85.7 percent."
+   ],
+   "entities": [
+    "Artificial Analysis",
+    "Google",
+    "SpaceXAI"
+   ],
+   "sources": [
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102223003795005821"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102223011533484394"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102223009339908507"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102223006814847459"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "step5-artificial-analysis",
    "section": "models",
    "headline": "Artificial Analysis scores StepFun's Step 5 Preview at 44 on its index",
@@ -175,7 +274,7 @@
      "url": "https://x.com/Polymarket/status/2102187707849998593"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }
