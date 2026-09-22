@@ -1,49 +1,61 @@
 {
-  "generated_at": "2026-09-22T08:12:11.449570+00:00",
+  "generated_at": "2026-09-22T10:14:48.430552+00:00",
   "edition_date": "2026-09-22",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 82,
-  "clusters_found": 5,
-  "stories_declared": 2,
+  "posts_considered": 83,
+  "clusters_found": 3,
+  "stories_declared": 1,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c05657c0f",
-      "score": 17.514,
+      "cluster_id": "c182f832d",
+      "score": 19.032,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
+        "Google",
         "Meta",
         "Nvidia",
+        "Hugging Face",
         "Alibaba",
+        "Apple",
         "Amazon",
-        "xAI"
+        "xAI",
+        "Tesla",
+        "AMD"
       ],
       "independent_sources": [
         "AWS ML",
         "Ars Technica",
-        "CoinMarketCap",
-        "Cointelegraph",
-        "FT",
+        "Hugging Face",
+        "Import AI",
+        "Kalshi",
+        "MIT Tech Review",
         "MarioNawfal",
         "NVIDIA",
+        "OpenAI",
+        "PolymarketMoney",
+        "Reuters",
+        "ReutersLegal",
+        "ShanuMathew93",
         "Simon Willison",
+        "StockSavvyShay",
+        "Stratechery",
         "TechCrunch AI",
         "Techmeme",
         "The Verge AI",
-        "TheHackersNews",
-        "WesRoth",
         "arXiv",
+        "axios",
         "business",
-        "choblin29",
-        "financialjuice",
-        "jukan05",
+        "clashreport",
         "koltregaskes",
-        "mark_k"
+        "mark_k",
+        "testingcatalog",
+        "wallstengine"
       ],
-      "source_count": 20,
-      "first_seen": "2026-09-21T09:21:47+00:00",
-      "last_seen": "2026-09-22T08:00:08+00:00",
+      "source_count": 27,
+      "first_seen": "2026-09-21T10:18:06+00:00",
+      "last_seen": "2026-09-22T10:10:05+00:00",
       "links": [
         "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
         "https://arxiv.org/abs/2609.24894v1",
@@ -78,40 +90,166 @@
         "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
         "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
         "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+        "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+        "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+        "https://huggingface.co/blog/omlx",
+        "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
+        "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+        "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
         "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
         "https://simonwillison.net/2026/Sep/21/jev/",
+        "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
         "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+        "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+        "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+        "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
         "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
         "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
         "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+        "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+        "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
         "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+        "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+        "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+        "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+        "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+        "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+        "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
         "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
-        "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-        "https://x.com/CoinMarketCap/status/2102287322830045445",
-        "https://x.com/Cointelegraph/status/2102284368412598290",
-        "https://x.com/FT/status/2102291373873357098",
-        "https://x.com/FT/status/2102306942127366591",
-        "https://x.com/MarioNawfal/status/2102291811339468887",
-        "https://x.com/MarioNawfal/status/2102294324092563460",
-        "https://x.com/Techmeme/status/2102282018394693896",
-        "https://x.com/Techmeme/status/2102304839002931677",
-        "https://x.com/TheHackersNews/status/2102285324747419665",
-        "https://x.com/WesRoth/status/2102281916787630390",
-        "https://x.com/WesRoth/status/2102302984604684798",
-        "https://x.com/business/status/2102295600100204582",
-        "https://x.com/choblin29/status/2102287974427984323",
-        "https://x.com/financialjuice/status/2102298384010993737",
-        "https://x.com/jukan05/status/2102285095336096033",
-        "https://x.com/koltregaskes/status/2102286529309929574",
-        "https://x.com/mark_k/status/2102289339233309028"
+        "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+        "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+        "https://x.com/Kalshi/status/2102327039860568216",
+        "https://x.com/MarioNawfal/status/2102337122036224293",
+        "https://x.com/MarioNawfal/status/2102339622982590866",
+        "https://x.com/PolymarketMoney/status/2102338113045430295",
+        "https://x.com/Reuters/status/2102322113424028157",
+        "https://x.com/Reuters/status/2102324543297581096",
+        "https://x.com/ReutersLegal/status/2102339644150988998",
+        "https://x.com/ShanuMathew93/status/2102317734432292960",
+        "https://x.com/StockSavvyShay/status/2102335460764963227",
+        "https://x.com/Techmeme/status/2102334780155244807",
+        "https://x.com/axios/status/2102323635901882536",
+        "https://x.com/axios/status/2102324714240692437",
+        "https://x.com/business/status/2102324574318711132",
+        "https://x.com/business/status/2102328316300517856",
+        "https://x.com/clashreport/status/2102311734006485368",
+        "https://x.com/koltregaskes/status/2102314469536018602",
+        "https://x.com/mark_k/status/2102313865123975661",
+        "https://x.com/testingcatalog/status/2102324410468245529",
+        "https://x.com/wallstengine/status/2102325720714506748",
+        "https://x.com/wallstengine/status/2102327464467042466"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Amazon blocks Meta’s Muse AI agent. Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that [&#8230;]",
-          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-          "created_at": "2026-09-21T09:21:47+00:00",
+          "text": "UN says AI safeguards can’t wait for certainty. Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging Face earlier this year. The report cements AI's place on the global diplomatic agenda this week as leaders gather in New York [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+          "created_at": "2026-09-21T10:18:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”. Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&#160;Dying on Camera, a collaboration between&#160;MIT Technology Review&#160;and&#160;Times of San Diego. Journalists in both newsrooms spent the past&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+          "created_at": "2026-09-21T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "4 ways to address the failures we found along the US border’s “virtual wall”. MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+          "created_at": "2026-09-21T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "The US spent billions on border surveillance. Why can’t it catch people before they die?. When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses.&#160; As he walked through the desert in southern New Mexico that morning, he was within range of three surveillance towers. Newly installed&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+          "created_at": "2026-09-21T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "She died at the San Diego border. A surveillance camera was in plain sight. She had only walked for a couple of hours, and already she was lost.&#160; It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern California, sending voice messages to her mother and sister as she walked.&#160; This story is part of&#160;Dying&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+          "created_at": "2026-09-21T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Advisory Group on Mathematics and Artificial Intelligence. OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "created_at": "2026-09-21T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Higgsfield AI ships new video features in a day with GPT-6 Astra. With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "created_at": "2026-09-21T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "The Download: investigating deaths at the US border’s “virtual wall”. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, the day before&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+          "created_at": "2026-09-21T12:20:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Import AI",
+          "tier": "commentary",
+          "text": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics. Is the wall AI is hitting in the room with us right now?",
+          "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
+          "created_at": "2026-09-21T12:31:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement. Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and [&#8230;]",
+          "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+          "created_at": "2026-09-21T13:36:52+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Can John Ternus find Apple’s next big thing?. Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On.&#160; Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was [&#8230;]",
+          "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+          "created_at": "2026-09-21T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026. Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
+          "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+          "created_at": "2026-09-21T14:15:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+          "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+          "created_at": "2026-09-21T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini. Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets, and other parts of the desktop experience.",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "created_at": "2026-09-21T14:39:22+00:00",
           "engagement": 0
         },
         {
@@ -120,6 +258,30 @@
           "text": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack. AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
           "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
           "created_at": "2026-09-21T14:51:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026. Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
+          "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+          "created_at": "2026-09-21T15:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale. Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+          "created_at": "2026-09-21T16:00:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Why Deploying Physical AI at Scale Demands Safety at Every Layer. Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+          "created_at": "2026-09-21T16:00:46+00:00",
           "engagement": 0
         },
         {
@@ -443,334 +605,6 @@
           "engagement": 0
         },
         {
-          "author": "WesRoth",
-          "tier": "commentary",
-          "text": "whoa... first game Gemini has an early goal against Astra\n\ncrazy https://t.co/YbvlIchpMf",
-          "url": "https://x.com/WesRoth/status/2102281916787630390",
-          "created_at": "2026-09-22T06:20:42+00:00",
-          "engagement": 5
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "Dutch nanoimprint lithography startup Morphotonics raised €40M from 3M Ventures, EIC Fund, and others, and plans to expand into data center optical components (TechCrunch)\n\n(Visit Techmeme dot com for the link and full context!)",
-          "url": "https://x.com/Techmeme/status/2102282018394693896",
-          "created_at": "2026-09-22T06:21:06+00:00",
-          "engagement": 5
-        },
-        {
-          "author": "Cointelegraph",
-          "tier": "commentary",
-          "text": "🇨🇳 NEW: China's Alibaba has unveiled its Zhenwu V900 AI chip to rival Nvidia, aiming to power 20GW of data center capacity by 2032. https://t.co/JfnLAqoCdJ",
-          "url": "https://x.com/Cointelegraph/status/2102284368412598290",
-          "created_at": "2026-09-22T06:30:26+00:00",
-          "engagement": 141
-        },
-        {
-          "author": "jukan05",
-          "tier": "commentary",
-          "text": "Korean media reports that Samsung is considering expanding its 4nm capacity and investing in a new 2nm production line to meet surging demand for HBM4 base dies and prepare for HBM5.\n\nAmid strong demand, Samsung has reportedly recently raised prices for new 4nm foundry orders, as well as for HBM4 base dies.\n\nSamsung also expects its Q3 HBM4 revenue to more than triple quarter over quarter, with HBM4 accounting for well over 60% of its total HBM revenue in the second half.\n\nhttps://t.co/DFsYDF8mdj",
-          "url": "https://x.com/jukan05/status/2102285095336096033",
-          "created_at": "2026-09-22T06:33:19+00:00",
-          "engagement": 167
-        },
-        {
-          "author": "TheHackersNews",
-          "tier": "commentary",
-          "text": "‼️ One hidden Meta Muse setting can turn the AI assistant into a backdoor on an already-compromised Mac.\n\nA researcher showed how attackers could redirect dictation, feed Muse trusted instructions, and steal its session token to control the assistant across devices.\n\nRead → https://t.co/AjgxiM2wFO",
-          "url": "https://x.com/TheHackersNews/status/2102285324747419665",
-          "created_at": "2026-09-22T06:34:14+00:00",
-          "engagement": 26
-        },
-        {
-          "author": "koltregaskes",
-          "tier": "commentary",
-          "text": "Claude 5.5 on the way, rumours suggest today launch.\n\nWe also might see GPT-6 Sol and GPT-6 Luna later too.  Tera seems to have been dropped as a tier.  I don't think I've ever used it myself.",
-          "url": "https://x.com/koltregaskes/status/2102286529309929574",
-          "created_at": "2026-09-22T06:39:01+00:00",
-          "engagement": 16
-        },
-        {
-          "author": "CoinMarketCap",
-          "tier": "commentary",
-          "text": "LATEST: 🤖 The CFTC is launching a \"Frontier Forum Series\" of public roundtables on tech that's transforming US financial markets, with its inaugural session focused on AI and agentic finance set for Oct. 28. https://t.co/AVXWxmiJ4X",
-          "url": "https://x.com/CoinMarketCap/status/2102287322830045445",
-          "created_at": "2026-09-22T06:42:11+00:00",
-          "engagement": 57
-        },
-        {
-          "author": "choblin29",
-          "tier": "commentary",
-          "text": "🚨SCOOP: Multiple staff at the UK AI Safety Institute have been signed off work with stress and are undergoing counselling, FT reports.\n\nFour people said tight schedules testing unreleased AI models and alarm over rapidly growing capabilities have contributed to low morale and burnout.\n\nA former AISI researcher says cyber and bio teams are particularly alarmed by recent capability jumps, with models now able to find undiscovered code flaws and create viruses “unknown in nature.”\n\nA DeepMind employee says there have also been 'various quittings and a lot of mental health leave': 'This need for pace ... it's not compatible with safety.'",
-          "url": "https://x.com/choblin29/status/2102287974427984323",
-          "created_at": "2026-09-22T06:44:46+00:00",
-          "engagement": 6
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Alibaba is going big: 5–10 TRILLION parameters for future Qwen models, with artificial superintelligence as the goal. Qwen 4 is already training, with that massive scale planned for Qwen 4.5 and Qwen 5.\n\nAlongside it, @Alibaba_Qwen unveiled its new Zhenwu V900 AI chip and announced plans to exceed 20 GW of data center capacity by 2032.\n\nPerhaps the most interesting part: Alibaba says its models are making progress at improving themselves, identifying weaknesses, running experiments and generating training data with limited human involvement.",
-          "url": "https://x.com/mark_k/status/2102289339233309028",
-          "created_at": "2026-09-22T06:50:11+00:00",
-          "engagement": 59
-        },
-        {
-          "author": "FT",
-          "tier": "commentary",
-          "text": "AI optimism lifts Asian stocks after Nasdaq ends at record high https://t.co/TwVPUp1thp",
-          "url": "https://x.com/FT/status/2102291373873357098",
-          "created_at": "2026-09-22T06:58:16+00:00",
-          "engagement": 16
-        },
-        {
-          "author": "MarioNawfal",
-          "tier": "commentary",
-          "text": "Most people think serious AI compute in orbit is years away.\n\nFor SpaceX, that is way too slow. They already control the stack.\n\nThe plan is to launch the first orbital compute satellites next year, using the Starlink V3 bus with the payload swapped for compute and much bigger solar arrays.\n\nThen scale hard into 2028.\n\nSame rocket company. Same satellite stack. Very different workload.\n\n@SpaceX @SpaceXAI @Starlink / Writer: Annette, Grok Imagine Designer: Janné",
-          "url": "https://x.com/MarioNawfal/status/2102291811339468887",
-          "created_at": "2026-09-22T07:00:01+00:00",
-          "engagement": 43
-        },
-        {
-          "author": "MarioNawfal",
-          "tier": "commentary",
-          "text": "Welcome to the future of retail, where AI tracks what catches your attention\n\nSoon, everything we do in public will be analysed and optimised for more sales\n\nWriter: Ian",
-          "url": "https://x.com/MarioNawfal/status/2102294324092563460",
-          "created_at": "2026-09-22T07:10:00+00:00",
-          "engagement": 78
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "Cloud startup Verda raises $189 million in fresh financing, underscoring continued investor appetite for the infrastructure powering AI https://t.co/IG4RhkA2L6",
-          "url": "https://x.com/business/status/2102295600100204582",
-          "created_at": "2026-09-22T07:15:04+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "financialjuice",
-          "tier": "commentary",
-          "text": "UBS CEO: AI will be important for us to bring down costs",
-          "url": "https://x.com/financialjuice/status/2102298384010993737",
-          "created_at": "2026-09-22T07:26:08+00:00",
-          "engagement": 15
-        },
-        {
-          "author": "WesRoth",
-          "tier": "commentary",
-          "text": "Claude wins! wow\n\nmore coming soon https://t.co/O1O0NiBx37",
-          "url": "https://x.com/WesRoth/status/2102302984604684798",
-          "created_at": "2026-09-22T07:44:25+00:00",
-          "engagement": 6
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "Some universities have barred using AI detectors due to student-instructor distrust over false positives; some educators have just cancelled writing assignments (@willoremus / The Atlantic)\n\n(Visit Techmeme dot com for the link and full context!)",
-          "url": "https://x.com/Techmeme/status/2102304839002931677",
-          "created_at": "2026-09-22T07:51:47+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "FT",
-          "tier": "commentary",
-          "text": "FT Exclusive: Multiple staff at the UK’s AI Safety Institute, the global leader in the independent testing of frontier AI models, have been signed off work with stress and are undergoing counselling, according to people with knowledge of the matter. https://t.co/31qcwLHCNW",
-          "url": "https://x.com/FT/status/2102306942127366591",
-          "created_at": "2026-09-22T08:00:08+00:00",
-          "engagement": 3
-        }
-      ]
-    },
-    {
-      "cluster_id": "c1c4604bb",
-      "score": 10.711,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Nvidia",
-        "Hugging Face",
-        "Apple"
-      ],
-      "independent_sources": [
-        "Hugging Face",
-        "Import AI",
-        "MIT Tech Review",
-        "NVIDIA",
-        "OpenAI",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 7,
-      "first_seen": "2026-09-21T10:00:00+00:00",
-      "last_seen": "2026-09-22T00:00:00+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-        "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-        "https://huggingface.co/blog/omlx",
-        "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
-        "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-        "https://openai.com/index/building-standards-next-phase-ai",
-        "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-        "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
-        "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-        "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
-        "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
-        "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
-        "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
-        "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
-        "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-        "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-        "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
-        "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-        "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
-        "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Building standards for the next phase of AI. OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-          "url": "https://openai.com/index/building-standards-next-phase-ai",
-          "created_at": "2026-09-21T10:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "UN says AI safeguards can’t wait for certainty. Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging Face earlier this year. The report cements AI's place on the global diplomatic agenda this week as leaders gather in New York [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-          "created_at": "2026-09-21T10:18:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”. Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&#160;Dying on Camera, a collaboration between&#160;MIT Technology Review&#160;and&#160;Times of San Diego. Journalists in both newsrooms spent the past&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
-          "created_at": "2026-09-21T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "4 ways to address the failures we found along the US border’s “virtual wall”. MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
-          "created_at": "2026-09-21T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "The US spent billions on border surveillance. Why can’t it catch people before they die?. When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses.&#160; As he walked through the desert in southern New Mexico that morning, he was within range of three surveillance towers. Newly installed&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-          "created_at": "2026-09-21T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "She died at the San Diego border. A surveillance camera was in plain sight. She had only walked for a couple of hours, and already she was lost.&#160; It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern California, sending voice messages to her mother and sister as she walked.&#160; This story is part of&#160;Dying&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-          "created_at": "2026-09-21T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Advisory Group on Mathematics and Artificial Intelligence. OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-          "created_at": "2026-09-21T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Higgsfield AI ships new video features in a day with GPT-6 Astra. With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-          "created_at": "2026-09-21T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "The Download: investigating deaths at the US border’s “virtual wall”. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, the day before&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
-          "created_at": "2026-09-21T12:20:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Import AI",
-          "tier": "commentary",
-          "text": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics. Is the wall AI is hitting in the room with us right now?",
-          "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
-          "created_at": "2026-09-21T12:31:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement. Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and [&#8230;]",
-          "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
-          "created_at": "2026-09-21T13:36:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Can John Ternus find Apple’s next big thing?. Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On.&#160; Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was [&#8230;]",
-          "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
-          "created_at": "2026-09-21T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026. Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
-          "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
-          "created_at": "2026-09-21T14:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
-          "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
-          "created_at": "2026-09-21T14:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini. Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets, and other parts of the desktop experience.",
-          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-          "created_at": "2026-09-21T14:39:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026. Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
-          "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
-          "created_at": "2026-09-21T15:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale. Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
-          "created_at": "2026-09-21T16:00:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Why Deploying Physical AI at Scale Demands Safety at Every Layer. Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-          "created_at": "2026-09-21T16:00:46+00:00",
-          "engagement": 0
-        },
-        {
           "author": "TechCrunch AI",
           "tier": "press",
           "text": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping. Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
@@ -784,6 +618,174 @@
           "text": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
           "url": "https://huggingface.co/blog/omlx",
           "created_at": "2026-09-22T00:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "clashreport",
+          "tier": "commentary",
+          "text": "Brazilian President Lula: I have already told Trump it is important that you do not interfere in Brazil's elections. There are already signs of interference involving artificial intelligence.",
+          "url": "https://x.com/clashreport/status/2102311734006485368",
+          "created_at": "2026-09-22T08:19:11+00:00",
+          "engagement": 103
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "AMD just crossed $1 trillion. The AI compute race keeps minting giants.\n\nAccording to Reuters, AMD reached the milestone for the first time on Monday, becoming the fourth US chipmaker to do so, alongside Nvidia, Broadcom and Micron.",
+          "url": "https://x.com/mark_k/status/2102313865123975661",
+          "created_at": "2026-09-22T08:27:39+00:00",
+          "engagement": 16
+        },
+        {
+          "author": "koltregaskes",
+          "tier": "commentary",
+          "text": "Grok 4.7 doesn't seem like a huge jump and improvements are slowing. For a +2 point AA index score, Grok 4.7 outputs jump from Grok 4.6's $1.86 per task to $2.73 per task. Is the extra cost worth this small jump?\n\nAPI pricing stays the same though apparently. https://t.co/7KkhsP1Za8",
+          "url": "https://x.com/koltregaskes/status/2102314469536018602",
+          "created_at": "2026-09-22T08:30:03+00:00",
+          "engagement": 10
+        },
+        {
+          "author": "ShanuMathew93",
+          "tier": "commentary",
+          "text": "Compute Heat Rate (CHR) estimates the maximum electricity price an AI workload can economically support, in $/MWh. Hans Royal's Q3 2026 model distinguishes long-run CHR ~$5,630/MWh and Dispatch CHR ~$9,070/MWh. These are modeled thresholds, sensitive to pricing, utilization and throughput, rather than observed bids or power-price forecasts.",
+          "url": "https://x.com/ShanuMathew93/status/2102317734432292960",
+          "created_at": "2026-09-22T08:43:01+00:00",
+          "engagement": 13
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "As Trump and Xi meet, investors play both sides of AI divide https://t.co/WrR25umXoW",
+          "url": "https://x.com/Reuters/status/2102322113424028157",
+          "created_at": "2026-09-22T09:00:25+00:00",
+          "engagement": 21
+        },
+        {
+          "author": "axios",
+          "tier": "commentary",
+          "text": "\"The last invention that man need ever make\": The risk of self-improving AI https://t.co/NqHI1sFIie",
+          "url": "https://x.com/axios/status/2102323635901882536",
+          "created_at": "2026-09-22T09:06:28+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "ALIBABA: Qwen 4 Max, Qwen 4 Flash, Qwen 4 Plus and Qwen 4 27B models have been announced!\n\nThe next major upgrade is expected to be a 5-10T parameters model.\n\nQwen 4 27B is always the most exciting one to test. Alibaba is clearly on a full shipment mode this year. https://t.co/oKLwHOkmtV",
+          "url": "https://x.com/testingcatalog/status/2102324410468245529",
+          "created_at": "2026-09-22T09:09:33+00:00",
+          "engagement": 231
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Morning Bid: AI trade gets its Muse https://t.co/w46L4kvTJw",
+          "url": "https://x.com/Reuters/status/2102324543297581096",
+          "created_at": "2026-09-22T09:10:05+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "Meta's new Muse AI agent has topped Apple's App Store and reignited the AI trade, lifting chipmakers. Anthony Stephens has more. https://t.co/gDjWGF8S1K",
+          "url": "https://x.com/business/status/2102324574318711132",
+          "created_at": "2026-09-22T09:10:12+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "axios",
+          "tier": "commentary",
+          "text": "With $7 trillion on the line, AI safety may always take a backseat to market domination https://t.co/sHgYMH2IRN",
+          "url": "https://x.com/axios/status/2102324714240692437",
+          "created_at": "2026-09-22T09:10:45+00:00",
+          "engagement": 11
+        },
+        {
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "SOFTBANK DRAWS $20B+ OF EARLY DEMAND FOR $11B JUNK BOND DEAL TO FUND OPENAI BET\n\nSoftBank has received more than $20B of preliminary investor interest for its planned $11B+ bond sale, roughly 1.8x the initial deal size.\n\nThe offering includes $10B in dollar bonds and EUR1B in euro notes, with proceeds helping fund SoftBank's nearly $65B commitment to OpenAI.\n\nThe longest dollar tranche has been discussed at yields approaching 10%, which would be record territory for comparable SoftBank debt.\n\nSoftBank says demand is substantial but it currently has no plans to increase the size of the offering.",
+          "url": "https://x.com/wallstengine/status/2102325720714506748",
+          "created_at": "2026-09-22T09:14:45+00:00",
+          "engagement": 65
+        },
+        {
+          "author": "Kalshi",
+          "tier": "commentary",
+          "text": "BREAKING: Gates Foundation commits $400 million to bring AI tools into US classrooms",
+          "url": "https://x.com/Kalshi/status/2102327039860568216",
+          "created_at": "2026-09-22T09:20:00+00:00",
+          "engagement": 62
+        },
+        {
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "$BABA UNVEILS NEW AI CHIP, PLANS 5T-10T PARAMETER MODELS AND 20GW+ OF DATA CENTER CAPACITY\n\nAlibaba unveiled its new Zhenwu V900 AI chip, designed for both model training and inference, with performance roughly 3x higher than its predecessor released just four months ago.\n\nThe V900 is expected to enter mass production and commercial release in Q1 2027. Alibaba says clusters built around the chip can scale to as many as 500,000 accelerators for training and running frontier AI models.\n\nAlibaba is also targeting more than 20GW of global data center capacity by 2032 and plans to launch its new Yitian 720 and 730 CPUs for agentic AI workloads in 2027.\n\nQwen4 is currently in training and expected soon, while future Qwen generations are expected to scale to roughly 5T-10T parameters, versus 2.4T for the current Qwen 3.8 Max.\n\nAlibaba has committed more than $53B over three years toward AI infrastructure and capabilities.",
+          "url": "https://x.com/wallstengine/status/2102327464467042466",
+          "created_at": "2026-09-22T09:21:41+00:00",
+          "engagement": 91
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "A deluge of AI-crafted distortions are saturating the Israeli information environment just weeks before the country's elections https://t.co/OTQPb8DkXy",
+          "url": "https://x.com/business/status/2102328316300517856",
+          "created_at": "2026-09-22T09:25:04+00:00",
+          "engagement": 10
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Chinese optical transceiver maker Ligent jumps 19% in its Hong Kong debut, giving it a ~$4.6B market cap, after raising ~$727M, the latest Hong Kong AI IPO (@sangmi_cha / Bloomberg)",
+          "url": "https://x.com/Techmeme/status/2102334780155244807",
+          "created_at": "2026-09-22T09:50:45+00:00",
+          "engagement": 2
+        },
+        {
+          "author": "StockSavvyShay",
+          "tier": "commentary",
+          "text": "$BABA just unveiled a new AI chip while laying out plans for 5T to 10T parameter models and more than 20GW of data center capacity by 2032.\n\nThat roadmap is now backed by more than $53B of AI investment over three years. https://t.co/a192D6H0bn",
+          "url": "https://x.com/StockSavvyShay/status/2102335460764963227",
+          "created_at": "2026-09-22T09:53:28+00:00",
+          "engagement": 73
+        },
+        {
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator. Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat.",
+          "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
+          "created_at": "2026-09-22T10:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MarioNawfal",
+          "tier": "commentary",
+          "text": "Australia and New Zealand are about to get a very close look at Tesla's endgame. Cybercab is down under, giving people their first proper look at the purpose-built Robotaxi up close. No steering wheel. No pedals.",
+          "url": "https://x.com/MarioNawfal/status/2102337122036224293",
+          "created_at": "2026-09-22T10:00:04+00:00",
+          "engagement": 10
+        },
+        {
+          "author": "PolymarketMoney",
+          "tier": "commentary",
+          "text": "BREAKING: Palantir CEO Alex Karp declares frontier AI labs' only real exit is nationalization, bluntly saying \"nationalize us, please.\"",
+          "url": "https://x.com/PolymarketMoney/status/2102338113045430295",
+          "created_at": "2026-09-22T10:04:00+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "MarioNawfal",
+          "tier": "commentary",
+          "text": "AI's next bottleneck might not be chips or smarter models. It might be electricity.\n\nThe IEA found data-center electricity demand jumped 17% in 2025, with AI-focused sites growing even faster, while global electricity demand rose about 3%.\n\nIt expects data-center use to roughly double by 2030, with AI-driven demand tripling.\n\nGrid connections, transformers and turbines are already struggling to keep pace.\n\nMorgan Stanley now projects a 15-gigawatt U.S. power shortfall relative to AI chip demand by 2027, widening to 30 to 40% by 2028.\n\nRoughly 43 gigawatts of AI data-center capacity is planned across the U.S., but interconnection queues in hubs like Northern Virginia, Phoenix and Dallas can stretch 4 to 7 years.\n\nMuch of that capacity is waiting on power, not GPUs.\n\nSources: IEA, Financial Times, SiliconReport / Writer: Julie",
+          "url": "https://x.com/MarioNawfal/status/2102339622982590866",
+          "created_at": "2026-09-22T10:10:00+00:00",
+          "engagement": 8
+        },
+        {
+          "author": "ReutersLegal",
+          "tier": "commentary",
+          "text": "Three-quarters of Americans, some 73%, worry that AI companies haven't gone far enough to prevent AI from causing serious harm to society, as concerns grow about where the technology may lead, according to a new Reuters/Ipsos poll. https://t.co/oFh1bFMO9G",
+          "url": "https://x.com/ReutersLegal/status/2102339644150988998",
+          "created_at": "2026-09-22T10:10:05+00:00",
           "engagement": 0
         }
       ]
