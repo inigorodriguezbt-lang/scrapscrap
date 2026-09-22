@@ -27,6 +27,141 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "mit-tr-border-towers",
+   "section": "policy",
+   "headline": "MIT Technology Review maps deaths near AI border surveillance towers",
+   "standfirst": "A 15-month investigation with Times of San Diego found people who walked undetected past AI-enabled towers and died nearby, the outlet said.",
+   "body": [
+    "MIT Technology Review published an investigation on Monday into deaths near the surveillance towers the US government has installed along its border with Mexico. Journalists at both newsrooms spent 15 months on the work, which the outlets call Dying on Camera.",
+    "The investigation describes what it calls the first comprehensive map of deaths along the line of towers. Reporters found cases of people who walked undetected through areas the AI-enabled towers were meant to watch, and who later died nearby, where their bodies went unnoticed. The mapping and the count are the outlets' own, and no other newsroom has published a comparable figure.",
+    "One case is José Morales Bernal, who crossed into the United States on 8 April 2024, the day before his 32nd birthday. He walked through the desert in southern New Mexico within range of three towers, according to the investigation.",
+    "A second account follows Graciela Gómez Hernández, 30, who crossed from the eastern edge of Tijuana into Southern California on 14 September 2025. She sent voice messages to her mother and sister as she walked, and a surveillance camera stood in plain sight, the reporters wrote.",
+    "The outlets published a companion piece setting out four changes they say could address the failures. The US government has spent billions of dollars on border surveillance, the investigation said. The published summaries do not carry a response from the agencies that operate the towers."
+   ],
+   "entities": [
+    "MIT Technology Review",
+    "Times of San Diego"
+   ],
+   "sources": [
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/"
+    },
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/"
+    },
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/"
+    },
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "tsmc-a14-trial-production",
+   "section": "chips",
+   "headline": "TSMC to start A14 trial production in early 2027, newspaper says",
+   "standfirst": "Commercial Times, citing chip-design houses, said the A14 CyberShuttle ran in the second quarter of 2026, while TSMC's two prior nodes are still ramping.",
+   "body": [
+    "Trial production of TSMC's A14 process is due in the first quarter of 2027 at Fab 20 in Hsinchu Baoshan, the Taiwanese newspaper Commercial Times reported, citing chip-design houses. The account SemiconductorsX relayed the report on X on Tuesday.",
+    "The volume site is Taichung Fab 25, according to the report. The report puts completion there before the second quarter of 2027, with trial runs to follow. TSMC has not published a schedule for A14, and the newspaper attributes the dates to design houses rather than to the company.",
+    "The A14 CyberShuttle already ran in the second quarter of 2026, the report said. That puts the shuttle run three quarters ahead of the trial production date. The report does not say which customers may have taken part.",
+    "The story rests on one Taiwanese newspaper, relayed by one account on X, and no second outlet has carried the same dates. The report as relayed carries no comment from TSMC, and the company has not confirmed the fab assignments."
+   ],
+   "entities": [
+    "TSMC",
+    "Commercial Times"
+   ],
+   "sources": [
+    {
+     "author": "SemiconductorsX",
+     "url": "https://x.com/SemiconductorsX/status/2102262486158467537"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "grok46-bedrock",
+   "section": "products",
+   "headline": "Amazon Bedrock adds xAI's Grok 4.6 with 500K token context window",
+   "standfirst": "AWS said the model runs on two Bedrock endpoints, with four reasoning effort levels and support for cross-Region inference.",
+   "body": [
+    "xAI's Grok 4.6 is now available in Amazon Bedrock, Amazon Web Services said in a post on Monday. The company put the context window at 500,000 tokens and described the model as built for long-running agents and for coding.",
+    "The characterisation is xAI's and Amazon's own, offered in a vendor post. AWS published no benchmark scores with the announcement, and no independent evaluation of Grok 4.6 running on Bedrock has appeared in the material available so far.",
+    "The model runs on both the bedrock-mantle and bedrock-runtime endpoints, AWS said, with Converse API and cross-Region inference support. The post lists four reasoning effort levels, and does not say what separates them. AWS gave no price for the model in the post.",
+    "Grok 4.6 is the version before Grok 4.7. The account theo, posting on X, said Grok 4.7 does not beat Grok 4.6 on many benchmarks, and called Grok 4.6 slower and more expensive than Grok 4.5. Those are one user's assessments, and may not hold across other tasks."
+   ],
+   "entities": [
+    "Amazon Web Services",
+    "xAI"
+   ],
+   "sources": [
+    {
+     "author": "AWS ML",
+     "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
+    },
+    {
+     "author": "theo",
+     "url": "https://x.com/theo/status/2102268678779895993"
+    },
+    {
+     "author": "theo",
+     "url": "https://x.com/theo/status/2102259624313549130"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "tencent-hy-image-35",
+   "section": "models",
+   "headline": "Tencent launches Hy Image 3.5 Preview, says it matches Seedream 5.0 Pro",
+   "standfirst": "The comparison with ByteDance's image model comes from Tencent's internal testing, according to a Bloomberg report relayed on Tuesday.",
+   "body": [
+    "Tencent has launched Hy Image 3.5 Preview, an image model, according to a Bloomberg report that the aggregator Techmeme relayed on Tuesday. Tencent said that in internal testing the model reached results on par with ByteDance's Seedream 5.0 Pro.",
+    "The comparison is Tencent's own, drawn from tests the company ran and selected. No independent benchmark of Hy Image 3.5 Preview against Seedream 5.0 Pro has been published, and ByteDance has not responded to the claim in the material available.",
+    "The relayed report does not give a release date, a price, or the regions where the model is available. It does not say whether Tencent has released weights, or whether the preview is open to developers outside China.",
+    "The story rests on one outlet. Bloomberg has it, and no second newsroom has carried the launch in the material gathered so far. The preview label suggests the model may still change before a wider release."
+   ],
+   "entities": [
+    "Tencent",
+    "ByteDance"
+   ],
+   "sources": [
+    {
+     "author": "Techmeme",
+     "url": "https://x.com/Techmeme/status/2102251736488665331"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "spott-series-a",
+   "section": "business",
+   "headline": "Belgian AI recruitment startup Spott raises $21 million Series A",
+   "standfirst": "Balderton led the round, with Base10, Y Combinator and Fortino taking part, bringing the company's total funding to $24 million.",
+   "body": [
+    "Spott, a recruitment platform based in Belgium, has raised $21 million in a Series A led by Balderton, according to a report by Chris Metinko for Axios that Techmeme relayed on Tuesday. Base10, Y Combinator and Fortino also took part.",
+    "The round brings Spott's total funding to $24 million, the report said. The report describes Spott as an AI recruitment platform. Neither the valuation nor the use of proceeds appears in the relayed report, and it carries no comment from Balderton.",
+    "The story rests on one outlet. Axios has it, and no second newsroom has carried the round in the material gathered so far. The $24 million total implies about $3 million raised before this round, though the report does not break that figure down."
+   ],
+   "entities": [
+    "Spott",
+    "Balderton"
+   ],
+   "sources": [
+    {
+     "author": "Techmeme",
+     "url": "https://x.com/Techmeme/status/2102274380357317010"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "alibaba-apsara-v900",
    "section": "chips",
    "headline": "Alibaba plans model of 5 to 10 trillion parameters, launches AI chip",
@@ -123,7 +258,7 @@
      "url": "https://x.com/ArtificialAnlys/status/2102223006814847459"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "step5-artificial-analysis",
@@ -160,7 +295,7 @@
      "url": "https://artificialanalysis.ai/models/step-5"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "microsoft-taiwan-datacentres",
@@ -191,7 +326,7 @@
      "url": "https://money.udn.com/money/story/11162/9769220"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "lg-microsoft-cooling",
@@ -217,7 +352,7 @@
      "url": "https://en.sedaily.com/finance/2026/09/22/lg-chairman-koo-meets-microsofts-nadella-to-forge-ai"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "openai-aeon-rumour",
@@ -248,7 +383,7 @@
      "url": "https://x.com/MTSlive/status/2102186716648145146"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "apple-siri-settlement-claims",

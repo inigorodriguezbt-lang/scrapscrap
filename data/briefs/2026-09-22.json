@@ -1,68 +1,92 @@
 {
-  "generated_at": "2026-09-22T04:11:56.337283+00:00",
+  "generated_at": "2026-09-22T06:14:56.882164+00:00",
   "edition_date": "2026-09-22",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 77,
-  "clusters_found": 5,
-  "stories_declared": 1,
+  "posts_considered": 110,
+  "clusters_found": 6,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c94ae9531",
-      "score": 20.374,
+      "cluster_id": "c768bdc40",
+      "score": 19.869,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
+        "Anthropic",
         "Google",
         "Meta",
         "Nvidia",
+        "Microsoft",
         "Hugging Face",
-        "DeepSeek",
         "Alibaba",
         "Apple",
         "Amazon",
         "xAI",
-        "Tesla",
         "TSMC"
       ],
       "independent_sources": [
         "AWS ML",
-        "Alibaba_Qwen",
         "Ars Technica",
-        "ArtificialAnlys",
-        "FirstSquawk",
+        "CNBC",
+        "Cointelegraph",
         "Import AI",
         "Kalshi",
+        "Kalshi_Finance",
         "MIT Tech Review",
-        "MTSlive",
-        "MaxForAI",
         "NVIDIA",
         "OpenAI",
-        "OpenAIDevs",
         "PhotonCap",
-        "PolymarketMoney",
         "Reuters",
-        "ReutersLegal",
-        "SawyerMerritt",
-        "SemiAnalysis_",
         "SemiconductorsX",
         "Simon Willison",
         "TechCrunch AI",
         "Techmeme",
         "The Verge AI",
+        "TheHackersNews",
+        "WesRoth",
+        "_akhaliq",
         "alexandr_wang",
+        "arXiv",
+        "askalphaxiv",
         "business",
-        "financialjuice",
+        "choblin29",
+        "koltregaskes",
+        "mark_k",
         "rohanpaul_ai",
         "teortaxesTex",
-        "theo",
-        "zerohedge"
+        "theo"
       ],
-      "source_count": 31,
+      "source_count": 30,
       "first_seen": "2026-09-21T07:00:00+00:00",
-      "last_seen": "2026-09-22T04:08:20+00:00",
+      "last_seen": "2026-09-22T06:12:49+00:00",
       "links": [
         "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+        "https://arxiv.org/abs/2609.24894v1",
+        "https://arxiv.org/abs/2609.24895v1",
+        "https://arxiv.org/abs/2609.24903v1",
+        "https://arxiv.org/abs/2609.24906v1",
+        "https://arxiv.org/abs/2609.24911v1",
+        "https://arxiv.org/abs/2609.24921v1",
+        "https://arxiv.org/abs/2609.24927v1",
+        "https://arxiv.org/abs/2609.24929v1",
+        "https://arxiv.org/abs/2609.24932v1",
+        "https://arxiv.org/abs/2609.24942v1",
+        "https://arxiv.org/abs/2609.24947v1",
+        "https://arxiv.org/abs/2609.24954v1",
+        "https://arxiv.org/abs/2609.24955v1",
+        "https://arxiv.org/abs/2609.24965v1",
+        "https://arxiv.org/abs/2609.24967v1",
+        "https://arxiv.org/abs/2609.24969v1",
+        "https://arxiv.org/abs/2609.24971v1",
+        "https://arxiv.org/abs/2609.24972v1",
+        "https://arxiv.org/abs/2609.24974v1",
+        "https://arxiv.org/abs/2609.24976v1",
+        "https://arxiv.org/abs/2609.24979v1",
+        "https://arxiv.org/abs/2609.24983v1",
+        "https://arxiv.org/abs/2609.24984v1",
+        "https://arxiv.org/abs/2609.24985v1",
+        "https://arxiv.org/abs/2609.25001v1",
         "https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/",
         "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
         "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
@@ -98,43 +122,49 @@
         "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
         "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
         "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
-        "https://x.com/Alibaba_Qwen/status/2102248609106514355",
-        "https://x.com/ArtificialAnlys/status/2102223003795005821",
-        "https://x.com/ArtificialAnlys/status/2102223006814847459",
-        "https://x.com/ArtificialAnlys/status/2102223009339908507",
-        "https://x.com/ArtificialAnlys/status/2102223011533484394",
-        "https://x.com/ArtificialAnlys/status/2102223013584527689",
-        "https://x.com/FirstSquawk/status/2102237033980924135",
-        "https://x.com/Kalshi/status/2102242733922590724",
-        "https://x.com/MTSlive/status/2102245768015052942",
-        "https://x.com/MaxForAI/status/2102226622422380820",
-        "https://x.com/MaxForAI/status/2102239331088036285",
-        "https://x.com/MaxForAI/status/2102241945015992449",
-        "https://x.com/OpenAIDevs/status/2102230071046258739",
-        "https://x.com/PhotonCap/status/2102234688018382953",
-        "https://x.com/PolymarketMoney/status/2102247012557115650",
-        "https://x.com/Reuters/status/2102241509370184063",
-        "https://x.com/ReutersLegal/status/2102233940710862854",
-        "https://x.com/SawyerMerritt/status/2102222036756242680",
-        "https://x.com/SemiAnalysis_/status/2102248478109831673",
-        "https://x.com/SemiconductorsX/status/2102220930512773244",
-        "https://x.com/SemiconductorsX/status/2102223522328453178",
-        "https://x.com/SemiconductorsX/status/2102226491539165287",
-        "https://x.com/SemiconductorsX/status/2102226652252258328",
-        "https://x.com/Techmeme/status/2102237884602614013",
-        "https://x.com/Techmeme/status/2102239146979074173",
-        "https://x.com/alexandr_wang/status/2102243160059752832",
-        "https://x.com/business/status/2102236661698490779",
-        "https://x.com/business/status/2102240231248298165",
-        "https://x.com/financialjuice/status/2102237226486685910",
-        "https://x.com/financialjuice/status/2102237239136669735",
-        "https://x.com/financialjuice/status/2102237273391571202",
-        "https://x.com/rohanpaul_ai/status/2102245699870179611",
-        "https://x.com/rohanpaul_ai/status/2102246739436822589",
-        "https://x.com/teortaxesTex/status/2102244275652034739",
-        "https://x.com/theo/status/2102241391489499366",
-        "https://x.com/zerohedge/status/2102226106736918674",
-        "https://x.com/zerohedge/status/2102235468855144757"
+        "https://x.com/CNBC/status/2102266627571998740",
+        "https://x.com/CNBC/status/2102279933682716954",
+        "https://x.com/Cointelegraph/status/2102276871362621809",
+        "https://x.com/Kalshi/status/2102271674746081312",
+        "https://x.com/Kalshi/status/2102276711060807871",
+        "https://x.com/Kalshi_Finance/status/2102254507375607884",
+        "https://x.com/PhotonCap/status/2102270640841720088",
+        "https://x.com/PhotonCap/status/2102271615623106941",
+        "https://x.com/PhotonCap/status/2102275783113031994",
+        "https://x.com/Reuters/status/2102251562705768503",
+        "https://x.com/Reuters/status/2102259108493639699",
+        "https://x.com/Reuters/status/2102261717837246694",
+        "https://x.com/Reuters/status/2102265615129960633",
+        "https://x.com/Reuters/status/2102272932953137414",
+        "https://x.com/SemiconductorsX/status/2102262486158467537",
+        "https://x.com/SemiconductorsX/status/2102264205210468853",
+        "https://x.com/Techmeme/status/2102251736488665331",
+        "https://x.com/Techmeme/status/2102258038233305487",
+        "https://x.com/Techmeme/status/2102269351835648328",
+        "https://x.com/Techmeme/status/2102274380357317010",
+        "https://x.com/TheHackersNews/status/2102269769475084489",
+        "https://x.com/TheHackersNews/status/2102277671652827518",
+        "https://x.com/WesRoth/status/2102276195454972390",
+        "https://x.com/_akhaliq/status/2102266547108819254",
+        "https://x.com/alexandr_wang/status/2102248960710836410",
+        "https://x.com/alexandr_wang/status/2102261524379344973",
+        "https://x.com/askalphaxiv/status/2102263712472342718",
+        "https://x.com/business/status/2102255331434795172",
+        "https://x.com/business/status/2102256592603255171",
+        "https://x.com/business/status/2102264140089721280",
+        "https://x.com/choblin29/status/2102255899066957980",
+        "https://x.com/choblin29/status/2102258974242623635",
+        "https://x.com/koltregaskes/status/2102276830778773732",
+        "https://x.com/mark_k/status/2102277464638542093",
+        "https://x.com/rohanpaul_ai/status/2102248926464078144",
+        "https://x.com/rohanpaul_ai/status/2102254209597157548",
+        "https://x.com/rohanpaul_ai/status/2102256571699061048",
+        "https://x.com/teortaxesTex/status/2102272588642689359",
+        "https://x.com/teortaxesTex/status/2102276258642235815",
+        "https://x.com/theo/status/2102259624313549130",
+        "https://x.com/theo/status/2102260152523239904",
+        "https://x.com/theo/status/2102268148674400520",
+        "https://x.com/theo/status/2102268678779895993"
       ],
       "posts": [
         {
@@ -338,11 +368,211 @@
           "engagement": 0
         },
         {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models. Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch tokens and typically apply compression only after slide encoding, leaving multimodal attention computationally expensive. We introduce SLICEChat, a slide-level MLLM that integrates progressive token pruning within a hybrid Mamba--Transformer slide encoder. Mamba layers enable efficient long-range propagation, while Transformer layers preserve global interactions as the sequence",
+          "url": "https://arxiv.org/abs/2609.24894v1",
+          "created_at": "2026-09-21T16:59:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Human-LLM Deliberation as Interactive Proof: Conditions for Verifiability Without Transparency. When an LLM supplies an argument that a user could not readily construct, how can the user decide whether to accept its claim? Inspired by interactive proofs, we model human-LLM deliberation as an interaction between a prover with unrestricted internal search and a resource-bounded human verifier. The verifier requests and checks supporting details without access to the LLM's internal state. Passed checks accumulate evidence toward an acceptance threshold. We prove anytime-valid soundness against adaptive provers: the probability of ever accepting a false claim is at most a chosen error level,",
+          "url": "https://arxiv.org/abs/2609.24895v1",
+          "created_at": "2026-09-21T17:00:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "ToneCL: Contrastive Learning for Few-Shot Syllable-Level Tone Classification. Tone languages constitute over 50-70% of the world's languages, but the vast majority are low-resource, lacking the large transcribed corpora needed for automatic tone classification. Existing datasets are typically collected at the sentence level, whereas field linguists require fine-grained syllable-level annotations. We propose ToneCL, a lightweight contrastive learning framework for few-shot syllable-level tone classification. We simulate low-resource conditions on Mandarin and Vietnamese, limiting labeled data to tens of examples per tone class. ToneCL is pretrained on unlabeled speech wi",
+          "url": "https://arxiv.org/abs/2609.24903v1",
+          "created_at": "2026-09-21T17:09:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Visuomotor Robotic Pruning in Planar Orchards Using Hybrid Reinforcement Learning. Dormant tree pruning is labor-intensive yet essential for maintaining modern high-productivity fruit orchards. In this work, we focus on pruning of modern planar tree training systems - V-Trellis apples and UFO cherries - where trunks and primary branches are trained into approximately planar walls. We introduce an end-to-end pipeline to learn a closed-loop visuomotor controller for robotic pruning. This controller is trained entirely using simulation and synthetically generated data and deployed in real orchards in a zero-shot manner. The pipeline comprises synthetic generation of planar orch",
+          "url": "https://arxiv.org/abs/2609.24906v1",
+          "created_at": "2026-09-21T17:09:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm. Social simulation offers the social sciences an experimental instrument that the real world cannot supply, and generative agents have transformed it by acting as silicon samples that unite agent-based modeling with real behavioral data. Existing platforms verify collective behavior, align simulated populations with real societies in cross-sections, and employ autonomous agents for the research process. However, two social science requirements remain without systematic support: intervention in the content of a simulation and the researcher's control over the process that produces it. We present",
+          "url": "https://arxiv.org/abs/2609.24911v1",
+          "created_at": "2026-09-21T17:14:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "BackTrend: Evaluating Scientific Weak-Signal Prediction via Backward Reconstruction. Scientific weak signals are early, low-visibility research directions that later become central to mature scientific topics, yet existing resources such as trend tracking, citation forecasting, and foresight reports rarely provide validated reference sets that link concrete early precursors to later paradigms. We introduce BackTrend, a retrospective benchmark in which, given a mature target topic and a temporal evidence constraint, systems must recover two types of precursors: problem-space signals, underrecognized research problems, and solution-space signals, emerging methods for known probl",
+          "url": "https://arxiv.org/abs/2609.24921v1",
+          "created_at": "2026-09-21T17:18:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Et Tu, Brute? Economic Misalignment in Personal AI Agents. Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access to the user's personal context, e.g., their email inbox and a structured profile of personal attributes, with the intention of making an optimal, personalized decision for the user. We show that by simply providing this personal context, the agent steers recommendations based on inferred wealth, without being explicitly instructed to do so. In a suite of 325K experiments on 13 a",
+          "url": "https://arxiv.org/abs/2609.24927v1",
+          "created_at": "2026-09-21T17:22:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift. In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural networks. We also consider covariate shift, where the calibration and test covariates have different distributions, and derive nonasymptotic bounds for this setting. We obtain matching minimax upper and lower bounds in expectation for two constructed fixed-score cal",
+          "url": "https://arxiv.org/abs/2609.24929v1",
+          "created_at": "2026-09-21T17:24:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Linguistic Features for Interpretable Textual Entailment. Despite the success of neural models in natural language processing, their black-box nature limits interpretability and conceals the linguistic phenomena underlying their predictions. We present SLITE, an explainable hybrid model for Recognizing Textual Entailment that integrates two complementary layers of semantic analysis: a structural-relational layer, based on semantic compatibility and incompatibility between compositional entities, and a distributional-informational layer, based on structured patterns of information change between embedding-based representations of the premise and the h",
+          "url": "https://arxiv.org/abs/2609.24932v1",
+          "created_at": "2026-09-21T17:26:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization. A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exactness in and out of distribution, and extrapolation is governed by this exactness at inference, whatever its realization. Tensor Logic shows this: a zero-temperature contraction is equivalent to discrete logic, deducing in place with no artefact extracted, its tensors Boolean, its embeddings orthonormal, only its arithmetic continuous. Lacking infinite recursion it reaches Datal",
+          "url": "https://arxiv.org/abs/2609.24942v1",
+          "created_at": "2026-09-21T17:39:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Learning Physics from an Imperfect Ancestor. Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, a PINN trained from scratch may converge to a physically incorrect state despite achieving a small residual. We show that these failure modes can be addressed jointly: an imperfect NO provides the structural prior needed to place a PINN in the correct solution basin, while the PDE residual refines t",
+          "url": "https://arxiv.org/abs/2609.24947v1",
+          "created_at": "2026-09-21T17:42:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization. Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of experiments (DOE) approaches, which are inefficient for resolving multivariate pass/fail boundaries in higher-dimensional spaces. While Bayesian optimization has transformed process optimization, adaptive methods for multi-objective process characterization re",
+          "url": "https://arxiv.org/abs/2609.24954v1",
+          "created_at": "2026-09-21T17:46:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks. Visual instructions for physical tasks are typically authored in one context and followed in another, requiring users to translate demonstrated tools, materials, and spatial relationships into their own environment. We introduce Generative Tutorial, a conceptual framework for live visual instruction that depicts intended outcomes and actions within the user's environment and task flow. A formative evaluation of state-of-the-art image and video generation identifies failures and potential benefits across 15 physical tasks. Drawing on these findings, we build an augmented-reality prototype syste",
+          "url": "https://arxiv.org/abs/2609.24955v1",
+          "created_at": "2026-09-21T17:46:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences. Scientific workflows often require choosing among known relations before a deterministic calculation can proceed. Whether observations share a culture, treatment or reference standard can change the scientific meaning of the resulting count or comparison. We evaluate Jev as a semantic decision component using a harness that follows its documented guidance and assigns arithmetic to code. The study compares twelve model configurations on twenty source-grounded Choices across ten scientific cases, each repeated five times. We measure semantic selections, downstream outputs and final claim labels ",
+          "url": "https://arxiv.org/abs/2609.24965v1",
+          "created_at": "2026-09-21T17:51:50+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Emergent Collusion in Long-Horizon LLM Agent Interaction. LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from the protocol over repeated interactions. Collusion emerges in 94% of trajectories across 10 models, an",
+          "url": "https://arxiv.org/abs/2609.24967v1",
+          "created_at": "2026-09-21T17:52:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Rare Event Estimation via Iterative Unalignment. As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Monte Carlo is computationally prohibitive in this regime, and constructing effective importance samplin",
+          "url": "https://arxiv.org/abs/2609.24969v1",
+          "created_at": "2026-09-21T17:53:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "DolphinBench: Mapping the Pareto Frontier of Agent Memory. Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge",
+          "url": "https://arxiv.org/abs/2609.24971v1",
+          "created_at": "2026-09-21T17:54:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses. An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regular",
+          "url": "https://arxiv.org/abs/2609.24972v1",
+          "created_at": "2026-09-21T17:54:49+00:00",
+          "engagement": 0
+        },
+        {
           "author": "TechCrunch AI",
           "tier": "press",
           "text": "Meta’s AI agent has been blocked from using Amazon.com. Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
           "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
           "created_at": "2026-09-21T17:55:18+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Harness-Zero: Harness Distillation via Agent-as-Harness. Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time guidance and transferring the behaviors it induces into model weights, so that its gains survive under ",
+          "url": "https://arxiv.org/abs/2609.24974v1",
+          "created_at": "2026-09-21T17:55:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation. Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We present DexTacWAM, a visuo-tactile WAM that encodes each fingertip independently, aggregates the resulting features through a finger- and pose-aware tactile compressor, and injects the tactile latent into a video diffusion world model for joint visuo-tactile world modeling. Across six contact-rich de",
+          "url": "https://arxiv.org/abs/2609.24976v1",
+          "created_at": "2026-09-21T17:55:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization. On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling to a particular user) means that a given on-device LLM tends to be used in similar, predictable patterns over the course of time. This paper presents a novel method for personalizing on-device LLMs. It trains a hypernetwork to map a user's context tokens to a ",
+          "url": "https://arxiv.org/abs/2609.24979v1",
+          "created_at": "2026-09-21T17:55:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction. We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate-correct-continue loop until a satisfactory response is obtained. This mechanism lets annotators pre",
+          "url": "https://arxiv.org/abs/2609.24983v1",
+          "created_at": "2026-09-21T17:56:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory. Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens b",
+          "url": "https://arxiv.org/abs/2609.24984v1",
+          "created_at": "2026-09-21T17:57:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use. Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effect on task success and whether improvement over a reference policy is possible. It then uses nested ",
+          "url": "https://arxiv.org/abs/2609.24985v1",
+          "created_at": "2026-09-21T17:57:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay. Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different horizons for diverse model families. GameHorizon Suite consists of three components. First, GameHor",
+          "url": "https://arxiv.org/abs/2609.25001v1",
+          "created_at": "2026-09-21T17:59:33+00:00",
           "engagement": 0
         },
         {
@@ -426,300 +656,386 @@
           "engagement": 0
         },
         {
-          "author": "SemiconductorsX",
+          "author": "rohanpaul_ai",
           "tier": "commentary",
-          "text": "China's two memory champions are no longer staying in their lanes. YMTC is moving into LPDDR5 DRAM by late 2026. CXMT is pushing into NAND. A direct clash could come around 2028, and",
-          "url": "https://x.com/SemiconductorsX/status/2102220930512773244",
-          "created_at": "2026-09-22T02:18:21+00:00",
-          "engagement": 4
+          "text": "FT: SB Energy (majority-owned by SoftBank) has slowed its planned IPO at roughly $50B as investors question its capital-heavy AI buildout. SB Energy has no operating data-center capacity yet, but 8.8GW is contracted or under construction, carrying about $178B in capex, including $174B for data centers, mostly funded through proj",
+          "url": "https://x.com/rohanpaul_ai/status/2102248926464078144",
+          "created_at": "2026-09-22T04:09:36+00:00",
+          "engagement": 6
         },
         {
-          "author": "SawyerMerritt",
+          "author": "alexandr_wang",
           "tier": "commentary",
-          "text": "Tesla has just added another 9 Cybercabs to its Robotaxi fleet, bringing the total up to 67, according to the Texas DMV.",
-          "url": "https://x.com/SawyerMerritt/status/2102222036756242680",
-          "created_at": "2026-09-22T02:22:45+00:00",
-          "engagement": 1314
+          "text": "muse can help you file warranty claims!",
+          "url": "https://x.com/alexandr_wang/status/2102248960710836410",
+          "created_at": "2026-09-22T04:09:44+00:00",
+          "engagement": 33
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "Reuters",
           "tier": "commentary",
-          "text": "Announcing the Artificial Analysis Pronunciation Robustness benchmark, measuring how reliably Text to Speech models say challenging text correctly - Google Gemini 3.1 Flash TTS leads at",
-          "url": "https://x.com/ArtificialAnlys/status/2102223003795005821",
-          "created_at": "2026-09-22T02:26:36+00:00",
-          "engagement": 57
+          "text": "Texas Governor Abbott halts all state-issued permits for data centers until grid audit is complete https://t.co/HghsDy1AfI",
+          "url": "https://x.com/Reuters/status/2102251562705768503",
+          "created_at": "2026-09-22T04:20:05+00:00",
+          "engagement": 43
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "Techmeme",
           "tier": "commentary",
-          "text": "Gemini 3.1 Flash TTS leads Contextually appropriate at 96.4% and Expanding shorthand at 84.4%, just ahead of SpaceXAI TTS at 84.3%. SpaceXAI TTS leads Preserving exact sequences at 85.7",
-          "url": "https://x.com/ArtificialAnlys/status/2102223006814847459",
-          "created_at": "2026-09-22T02:26:36+00:00",
-          "engagement": 3
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Sonic 3.6 has the highest Provider Voice Arena Elo of these models at 1276 and scores 74.5% on pronunciation robustness. Gemini 3.1 Flash TTS reaches 88.1% at 1201 Elo, and SpaceXAI TTS",
-          "url": "https://x.com/ArtificialAnlys/status/2102223009339908507",
-          "created_at": "2026-09-22T02:26:37+00:00",
-          "engagement": 2
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Gemini 3.1 Flash TTS leads at 88.1% for $18.31 per 1M characters. SpaceXAI TTS scores 87.6% at $15, the lowest price of any model above 80%. Kokoro 82M v1.0 is cheapest at $0.65 and sco",
-          "url": "https://x.com/ArtificialAnlys/status/2102223011533484394",
-          "created_at": "2026-09-22T02:26:38+00:00",
+          "text": "Tencent launches Hy Image 3.5 Preview, saying during internal testing the image model achieved results on par with ByteDance's Seedream 5.0 Pro (Bloomberg)",
+          "url": "https://x.com/Techmeme/status/2102251736488665331",
+          "created_at": "2026-09-22T04:20:46+00:00",
           "engagement": 1
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "rohanpaul_ai",
           "tier": "commentary",
-          "text": "SpaceXAI TTS reaches 87.6% at 106 characters per second, and Realtime TTS-2 Flash reaches 77.8% at 220 characters per second. Kokoro 82M v1.0 is fastest at 242 characters per second but",
-          "url": "https://x.com/ArtificialAnlys/status/2102223013584527689",
-          "created_at": "2026-09-22T02:26:38+00:00",
+          "text": "Washington has proposed an AI incident-alert channel with Beijing for events serious enough to threaten national security. The proposal emerged from Sept. 20 talks in New York and would create a recurring US-China AI Dialogue around shared risks. Treasury Secretary Scott Bessent said the notification system would cover AI-relate",
+          "url": "https://x.com/rohanpaul_ai/status/2102254209597157548",
+          "created_at": "2026-09-22T04:30:36+00:00",
+          "engagement": 11
+        },
+        {
+          "author": "Kalshi_Finance",
+          "tier": "commentary",
+          "text": "JUST IN: Anthropic plans to scale to 5 GW of compute capacity by year-end",
+          "url": "https://x.com/Kalshi_Finance/status/2102254507375607884",
+          "created_at": "2026-09-22T04:31:47+00:00",
+          "engagement": 90
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "With Jensen Huang's outsized political influence, there's little chance of selling the White House on AI rules he doesn't like, writes @Parmy (via @opinion) https://t.co/YrHkkbuk7r",
+          "url": "https://x.com/business/status/2102255331434795172",
+          "created_at": "2026-09-22T04:35:03+00:00",
+          "engagement": 17
+        },
+        {
+          "author": "choblin29",
+          "tier": "commentary",
+          "text": "HOLY MOLY: Alibaba just laid out one of the most aggressive ASI roadmaps yet. >Qwen 4 is already in training >Qwen 4.5 + Qwen 5 planned to scale to 5-10 TRILLION parameters. >Qwen says it's making progress on recursive self-improvement (RSI) >models find their own weaknesses, design experiments + synthesize data to i",
+          "url": "https://x.com/choblin29/status/2102255899066957980",
+          "created_at": "2026-09-22T04:37:19+00:00",
+          "engagement": 21
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "JUST IN: \"Internally, OpenAI has largely automated the process of training new experimental models\" per The Information https://t.co/aUp4utJdJh",
+          "url": "https://x.com/rohanpaul_ai/status/2102256571699061048",
+          "created_at": "2026-09-22T04:39:59+00:00",
+          "engagement": 29
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "During the Cold War, the Soviet Union's smallest republic was an electronics and tech center for the Communist superpower. Now Armenia is on track to become one of the world's top hubs for American AI infrastructure. https://t.co/uRHSIWDSw6",
+          "url": "https://x.com/business/status/2102256592603255171",
+          "created_at": "2026-09-22T04:40:04+00:00",
+          "engagement": 35
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Apple v. OpenAI: Apple asks the court to let its own experts review forensic images used in the case, and seeks documents tied to parts of OpenAI's hardware R&D (@mvcmendes / 9to5Mac)",
+          "url": "https://x.com/Techmeme/status/2102258038233305487",
+          "created_at": "2026-09-22T04:45:49+00:00",
+          "engagement": 5
+        },
+        {
+          "author": "choblin29",
+          "tier": "commentary",
+          "text": "The Qwen team has made \"meaningful progress\" on recursive self-improvement. wth",
+          "url": "https://x.com/choblin29/status/2102258974242623635",
+          "created_at": "2026-09-22T04:49:32+00:00",
           "engagement": 2
         },
         {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat https://t.co/HzjvtLX2yn",
+          "url": "https://x.com/Reuters/status/2102259108493639699",
+          "created_at": "2026-09-22T04:50:04+00:00",
+          "engagement": 14
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "Grok 4.5 was an incredible model for the price: fast, pleasant to use, reliable, solid default model. Grok 4.6 was a (forgivable) step in the wrong direction IMO: slower and more expensive, using way more tokens per task for a slight edge in intelligence. I get it, though. They have to climb benchmarks. Grok 4.7 is much harder t",
+          "url": "https://x.com/theo/status/2102259624313549130",
+          "created_at": "2026-09-22T04:52:07+00:00",
+          "engagement": 1160
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "I actually cannot fathom that they shipped a model that is this bad at the frontend and design in 2026.",
+          "url": "https://x.com/theo/status/2102260152523239904",
+          "created_at": "2026-09-22T04:54:13+00:00",
+          "engagement": 246
+        },
+        {
+          "author": "alexandr_wang",
+          "tier": "commentary",
+          "text": "this may not be a shocker but muse is actually insanely good for managing your social media",
+          "url": "https://x.com/alexandr_wang/status/2102261524379344973",
+          "created_at": "2026-09-22T04:59:40+00:00",
+          "engagement": 158
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Morning Bid: AI trade gets its Muse https://t.co/umgcYldXdW",
+          "url": "https://x.com/Reuters/status/2102261717837246694",
+          "created_at": "2026-09-22T05:00:26+00:00",
+          "engagement": 10
+        },
+        {
           "author": "SemiconductorsX",
           "tier": "commentary",
-          "text": "The Malaysia HBM spike is real enough to watch. The leap from that spike to EMIB is eating CoWoS is not. SemiAnalysis says Korean HBM shipments to Malaysia jumped 467% year on year a",
-          "url": "https://x.com/SemiconductorsX/status/2102223522328453178",
-          "created_at": "2026-09-22T02:28:39+00:00",
-          "engagement": 2
-        },
-        {
-          "author": "zerohedge",
-          "tier": "commentary",
-          "text": "*ALIBABA UNVEILS NEW AI CHIP IT CALLS CHINA'S MOST POWERFUL",
-          "url": "https://x.com/zerohedge/status/2102226106736918674",
-          "created_at": "2026-09-22T02:38:55+00:00",
-          "engagement": 118
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "Korean HBM is showing up in Malaysia. That does not mean CoWoS just moved. Customs data, the composite-structure chip IC bucket that includes HBM, put August shipments to Malaysia at",
-          "url": "https://x.com/SemiconductorsX/status/2102226491539165287",
-          "created_at": "2026-09-22T02:40:27+00:00",
-          "engagement": 3
-        },
-        {
-          "author": "MaxForAI",
-          "tier": "commentary",
-          "text": "Qwen4 family revealed for the first time. At the opening of the 2026 Apsara Conference, the new Alibaba Qwen LLM lead Liu Dayiheng announced the coming Qwen4 family: Qwen4-Max, Qwen4-Flash and Qwen4-Plus, and Qwen4-27B. Qwen will train a 5-10T model in future.",
-          "url": "https://x.com/MaxForAI/status/2102226622422380820",
-          "created_at": "2026-09-22T02:40:58+00:00",
-          "engagement": 205
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "A Korean industry source told Chosun Biz Intel volume may be part of the spike, but Intel's book is not large enough to call this a stolen CoWoS socket. It reads more like extra AI pack",
-          "url": "https://x.com/SemiconductorsX/status/2102226652252258328",
-          "created_at": "2026-09-22T02:41:06+00:00",
+          "text": "TSMC's next node is arriving while the last two are still ramping. Commercial Times, citing chip-design houses, says A14 CyberShuttle already ran in the second quarter of 2026. Trial production is slated for Q1 2027 at Hsinchu Baoshan Fab 20. The volume site, Taichung Fab 25, is aimed at finishing before Q2 2027 and starting tri",
+          "url": "https://x.com/SemiconductorsX/status/2102262486158467537",
+          "created_at": "2026-09-22T05:03:29+00:00",
           "engagement": 4
         },
         {
-          "author": "OpenAIDevs",
+          "author": "askalphaxiv",
           "tier": "commentary",
-          "text": "See how surgeon @pridgenmd uses Codex to build his own tools and review scientific literature on PubMed",
-          "url": "https://x.com/OpenAIDevs/status/2102230071046258739",
-          "created_at": "2026-09-22T02:54:41+00:00",
-          "engagement": 137
+          "text": "\"MiMo-V2.6 Scaling Reinforcement Learning Towards Self-Improvement\" Xiaomi MiMo just completed their largest RL scaling run so far, openly. And it came along with a technical report, outlining how they've scaled RL across compute, environments, and grading. tl;dr The run costs $2.6M for Pro and $0.9M for Flash, with ~44% spent o",
+          "url": "https://x.com/askalphaxiv/status/2102263712472342718",
+          "created_at": "2026-09-22T05:08:21+00:00",
+          "engagement": 26
         },
         {
-          "author": "ReutersLegal",
+          "author": "business",
           "tier": "commentary",
-          "text": "British Columbia sued OpenAI in California on Monday, saying a mass shooting at a school in the province could have been prevented if the company had warned local law enforcement that t",
-          "url": "https://x.com/ReutersLegal/status/2102233940710862854",
-          "created_at": "2026-09-22T03:10:03+00:00",
+          "text": "AI-assisted cyber and operational risks have overtaken geopolitical tensions as the most widely cited concern among Singapore's financial institutions, closely followed by a downturn in the artificial intelligence investment boom https://t.co/GaFAu2Vd7B",
+          "url": "https://x.com/business/status/2102264140089721280",
+          "created_at": "2026-09-22T05:10:03+00:00",
+          "engagement": 18
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "Microsoft is building its own AI chip to cut the Nvidia bill. It will keep that silicon for itself first. Economic Daily News quotes Taiwan Microsoft GM Bian Zhi-xiang. Design, capacity, and use cases are \"going very smoothly.\" Large-scale production is expected next year. He gave no unit count. The fit is Copilot and Microsoft ",
+          "url": "https://x.com/SemiconductorsX/status/2102264205210468853",
+          "created_at": "2026-09-22T05:10:19+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Alibaba plans to train a new artificial intelligence model with between 5 trillion and 10 trillion parameters, Chief Executive Eddie Wu said, as the Chinese technology giant outlined a sweeping strategy encompassing AI models, chips and data centres https://t.co/OZqhbh6rho",
+          "url": "https://x.com/Reuters/status/2102265615129960633",
+          "created_at": "2026-09-22T05:15:55+00:00",
+          "engagement": 21
+        },
+        {
+          "author": "_akhaliq",
+          "tier": "commentary",
+          "text": "WorldCrafter Consistent Video World Model with Implicit 3D-aware Memory paper: https://t.co/lUHlMZWXSN",
+          "url": "https://x.com/_akhaliq/status/2102266547108819254",
+          "created_at": "2026-09-22T05:19:37+00:00",
+          "engagement": 11
+        },
+        {
+          "author": "CNBC",
+          "tier": "commentary",
+          "text": "Alibaba shares jump as new AI chip, data center buildout plans unveiled https://t.co/VF7JRRYEkQ",
+          "url": "https://x.com/CNBC/status/2102266627571998740",
+          "created_at": "2026-09-22T05:19:56+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "Grok 4.7's Fishslop run is the worst I've seen this year. This is my second attempt (in the first one, the submarine and all the fish moved backwards)",
+          "url": "https://x.com/theo/status/2102268148674400520",
+          "created_at": "2026-09-22T05:25:59+00:00",
+          "engagement": 113
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "Bro. Grok 4.7 doesn't beat Sol. It doesn't even best Grok 4.6 in many benchmarks.",
+          "url": "https://x.com/theo/status/2102268678779895993",
+          "created_at": "2026-09-22T05:28:05+00:00",
+          "engagement": 21
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Amazon, Walmart and other companies are using drones for fast deliveries in Richardson, Texas, but residents complain about noise and clumsy package drops (@julietmacur / New York Times)",
+          "url": "https://x.com/Techmeme/status/2102269351835648328",
+          "created_at": "2026-09-22T05:30:46+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "TheHackersNews",
+          "tier": "commentary",
+          "text": "Attackers are exploiting flaws in Zyxel GS1900 switches and Veeam Agent for Windows. Zyxel's bug can run OS commands from the LAN without authentication. Veeam's can give a local attacker SYSTEM control. Inside both flaws: https://t.co/UgmdbJC7Nw",
+          "url": "https://x.com/TheHackersNews/status/2102269769475084489",
+          "created_at": "2026-09-22T05:32:25+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "PhotonCap",
+          "tier": "commentary",
+          "text": "- Alibaba unveiled Zhenwu V900 AI chip with 3x performance of predecessor, launching in Q1 2027. - Company plans to expand global data center capacity to 20+ gigawatts by 2032. - Stock jumped 3% on announcement; Qwen 4 model in training alongside future versions. > Alibaba's investment roadmap spanning chips, cloud infrastructur",
+          "url": "https://x.com/PhotonCap/status/2102270640841720088",
+          "created_at": "2026-09-22T05:35:53+00:00",
           "engagement": 2
         },
         {
           "author": "PhotonCap",
           "tier": "commentary",
-          "text": "Global Unichip Corp. (GUC) has announced a 16 Gbps HBM4E PHY and Controller IP on TSMC N2P, targeting next-generation AI ASICs with support for CoWoS and 3D S",
-          "url": "https://x.com/PhotonCap/status/2102234688018382953",
-          "created_at": "2026-09-22T03:13:01+00:00",
-          "engagement": 1
-        },
-        {
-          "author": "zerohedge",
-          "tier": "commentary",
-          "text": "Agentic Wars Begin: Amazon Blocks Meta's Agents As Muse Takes World By Storm",
-          "url": "https://x.com/zerohedge/status/2102235468855144757",
-          "created_at": "2026-09-22T03:16:08+00:00",
-          "engagement": 50
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "Alibaba unveils new AI chip it says is China's most powerful and targets 20 gigawatts of data center capacity by 2032.",
-          "url": "https://x.com/business/status/2102236661698490779",
-          "created_at": "2026-09-22T03:20:52+00:00",
-          "engagement": 33
-        },
-        {
-          "author": "FirstSquawk",
-          "tier": "commentary",
-          "text": "RBA Gov. Bullock: AI-driven boom is adding to excess demand in Australian economy",
-          "url": "https://x.com/FirstSquawk/status/2102237033980924135",
-          "created_at": "2026-09-22T03:22:21+00:00",
-          "engagement": 6
-        },
-        {
-          "author": "financialjuice",
-          "tier": "commentary",
-          "text": "Alibaba CEO: Qwen team aims to train new model with 5 to 10 trillion parameters",
-          "url": "https://x.com/financialjuice/status/2102237226486685910",
-          "created_at": "2026-09-22T03:23:07+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "financialjuice",
-          "tier": "commentary",
-          "text": "Alibaba CEO unveils Zhenwu V300 AI chip: most powerful in China with 3 times performance of predecessor",
-          "url": "https://x.com/financialjuice/status/2102237239136669735",
-          "created_at": "2026-09-22T03:23:10+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "financialjuice",
-          "tier": "commentary",
-          "text": "Alibaba CEO: aims for Alibaba Cloud global data center capacity to exceed 20 GW by 2032",
-          "url": "https://x.com/financialjuice/status/2102237273391571202",
-          "created_at": "2026-09-22T03:23:18+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "Alibaba's T-Head unveils the Zhenwu V900 AI accelerator, which it says triples its predecessor's performance and can scale to clusters of up to 500,000 units (Bloomberg)",
-          "url": "https://x.com/Techmeme/status/2102237884602614013",
-          "created_at": "2026-09-22T03:25:44+00:00",
-          "engagement": 7
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "Alibaba CEO Eddie Wu says the company plans to train a 5T- to 10T-parameter AI model, as it lays out a sweeping push across AI models, chips, and data centers (Reuters)",
-          "url": "https://x.com/Techmeme/status/2102239146979074173",
-          "created_at": "2026-09-22T03:30:45+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "MaxForAI",
-          "tier": "commentary",
-          "text": "OMG, has Alibaba Cloud really achieved a 500,000-card superpod??",
-          "url": "https://x.com/MaxForAI/status/2102239331088036285",
-          "created_at": "2026-09-22T03:31:28+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "Tencent launches its latest and best image-generation model on the same day as rival Alibaba kicks off its AI conference, signaling intent to catch up to industry leaders like ByteDance",
-          "url": "https://x.com/business/status/2102240231248298165",
-          "created_at": "2026-09-22T03:35:03+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "\"Grok 4.7 will be the 2.1T model released a few weeks later. This will be better than 4.6 in every way, except slightly slower to serve, albeit with even better token efficiency.\"",
-          "url": "https://x.com/theo/status/2102241391489499366",
-          "created_at": "2026-09-22T03:39:40+00:00",
-          "engagement": 127
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "Alibaba plans AI model with 5 trillion to 10 trillion parameters, unveils new chip",
-          "url": "https://x.com/Reuters/status/2102241509370184063",
-          "created_at": "2026-09-22T03:40:08+00:00",
-          "engagement": 12
-        },
-        {
-          "author": "MaxForAI",
-          "tier": "commentary",
-          "text": "Three years after it was founded, DeepSeek finally has a CFO. On 21 September, media reported that former Hillhouse Capital venture partner Yan Wentao has formally joined DeepSeek and has reported to the company. Yan is 35 this year, born in 1991, a Fudan University graduate.",
-          "url": "https://x.com/MaxForAI/status/2102241945015992449",
-          "created_at": "2026-09-22T03:41:52+00:00",
-          "engagement": 11
+          "text": "- IonQ ($IONQ) announced a multi-year strategic collaboration with Korean quantum technology and software company SDT Inc., under which IonQ plans to supply SDT with a Superion 256 quantum computer and a silicon-vacancy (SiV) quantum memory module. - The partnership expands their relationship from cloud-based software int",
+          "url": "https://x.com/PhotonCap/status/2102271615623106941",
+          "created_at": "2026-09-22T05:39:46+00:00",
+          "engagement": 5
         },
         {
           "author": "Kalshi",
           "tier": "commentary",
-          "text": "JUST IN: Meta's Muse AI agent surpasses Grok and Claude in post-launch downloads",
-          "url": "https://x.com/Kalshi/status/2102242733922590724",
-          "created_at": "2026-09-22T03:45:00+00:00",
-          "engagement": 46
-        },
-        {
-          "author": "alexandr_wang",
-          "tier": "commentary",
-          "text": "brief break from regularly scheduled muse programming, but great progress by @scale_AI on RSI benchmark",
-          "url": "https://x.com/alexandr_wang/status/2102243160059752832",
-          "created_at": "2026-09-22T03:46:41+00:00",
-          "engagement": 71
+          "text": "JUST IN: Arthur Hayes says AI \"Safety First\" slowdown will 'destroy' compute demand in the US",
+          "url": "https://x.com/Kalshi/status/2102271674746081312",
+          "created_at": "2026-09-22T05:40:00+00:00",
+          "engagement": 31
         },
         {
           "author": "teortaxesTex",
           "tier": "commentary",
-          "text": "Qwen is exploring RSI (recursive self-improvement), enabling the model to identify its own weaknesses based on real task feedback, design experiments, construct data, and then continue",
-          "url": "https://x.com/teortaxesTex/status/2102244275652034739",
-          "created_at": "2026-09-22T03:51:07+00:00",
-          "engagement": 16
+          "text": "Tbh I find this a good excuse. They are churning though base models, quickly scaling; typical Elon playbook for Starships, Falcons, Optimi etc. As a result, their recipe is consistently crap and they can't properly debug it. 4.6 was a step up from 4.5. 4.7 starts from zero again",
+          "url": "https://x.com/teortaxesTex/status/2102272588642689359",
+          "created_at": "2026-09-22T05:43:38+00:00",
+          "engagement": 9
         },
         {
-          "author": "rohanpaul_ai",
+          "author": "Reuters",
           "tier": "commentary",
-          "text": "Hunyuan 3.5 (Tencent's latest image-generation model) is genuinely pretty good at following references and keeping the image polished, especially at 2K.",
-          "url": "https://x.com/rohanpaul_ai/status/2102245699870179611",
-          "created_at": "2026-09-22T03:56:47+00:00",
-          "engagement": 3
+          "text": "Tech giants such as Meta and OpenAI are racing to build AI devices that can see and hear the world. But a growing privacy backlash, especially over Meta's Ray-Ban smartglasses, is forcing companies to rethink cameras and data handling before consumers buy in https://t.co/zZAYutCd3n",
+          "url": "https://x.com/Reuters/status/2102272932953137414",
+          "created_at": "2026-09-22T05:45:00+00:00",
+          "engagement": 22
         },
         {
-          "author": "MTSlive",
+          "author": "Techmeme",
           "tier": "commentary",
-          "text": "SITUATION DETECTED: Alibaba plans to train a new AI model with between 5 trillion and 10 trillion parameters, CEO Eddie Wu said Tuesday at Alibaba Cloud's annual Apsara Conference in Hangzhou, per Reuters.",
-          "url": "https://x.com/MTSlive/status/2102245768015052942",
-          "created_at": "2026-09-22T03:57:03+00:00",
-          "engagement": 16
+          "text": "Belgium-based AI recruitment platform Spott raised a $21M Series A led by Balderton, with Base10, YC, and Fortino participating, bringing total funding to $24M (Chris Metinko / Axios)",
+          "url": "https://x.com/Techmeme/status/2102274380357317010",
+          "created_at": "2026-09-22T05:50:45+00:00",
+          "engagement": 0
         },
         {
-          "author": "rohanpaul_ai",
+          "author": "PhotonCap",
           "tier": "commentary",
-          "text": "The Information conducted a survey with 107 senior leaders/professionals. 60% of companies report higher productivity, yet 60% also report unpredictable AI costs. 52% say they understand token costs. Only ~1/3 actually control t",
-          "url": "https://x.com/rohanpaul_ai/status/2102246739436822589",
-          "created_at": "2026-09-22T04:00:55+00:00",
+          "text": "- This was more than a broad index rally, with particularly strong moves across AI infrastructure, semiconductors, and optical connectivity names. - The Nasdaq 100 gained 2.83%, well ahead of the S&P 500's 1.49%, indicating concentrated buying in growth and technology stocks. - $AXTI rose 14.14%, $INTC 12.14%, $SIVEF 9.47%",
+          "url": "https://x.com/PhotonCap/status/2102275783113031994",
+          "created_at": "2026-09-22T05:56:19+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "WesRoth",
+          "tier": "commentary",
+          "text": "Astra, Fable 5.1, Grok 4.7 and Gemini 3.8 Flash are playing a season of Blood Bowl... taking bets... who will win?",
+          "url": "https://x.com/WesRoth/status/2102276195454972390",
+          "created_at": "2026-09-22T05:57:58+00:00",
           "engagement": 2
         },
         {
-          "author": "PolymarketMoney",
+          "author": "teortaxesTex",
           "tier": "commentary",
-          "text": "JUST IN: Google will fund power-capacity increases at two Georgia nuclear plants.",
-          "url": "https://x.com/PolymarketMoney/status/2102247012557115650",
-          "created_at": "2026-09-22T04:02:00+00:00",
+          "text": "The cumulative capacity of humanoid robot production that I've seen from different Chinese companies seems to be >>200K/year already. Since they're all pretty useless, I guess we have unironic overcapacity. This is all done in expectation of breakthrough in control policy.",
+          "url": "https://x.com/teortaxesTex/status/2102276258642235815",
+          "created_at": "2026-09-22T05:58:13+00:00",
+          "engagement": 19
+        },
+        {
+          "author": "Kalshi",
+          "tier": "commentary",
+          "text": "JUST IN: Texas halts new data center permits until a grid audit is done",
+          "url": "https://x.com/Kalshi/status/2102276711060807871",
+          "created_at": "2026-09-22T06:00:00+00:00",
+          "engagement": 23
+        },
+        {
+          "author": "koltregaskes",
+          "tier": "commentary",
+          "text": "Qwen 4 coming soon, just been announced at the Aspara Conference, Alibaba Cloud's flagship event. Qwen 4 is currently in training. They also announced Qwen 4.5 and Qwen 5 as 5- to 10-trillion-parameter models as well as \"meaningful progress\" in recursive self-improvement (RSI). And they also announced \"China's most powerful AI c",
+          "url": "https://x.com/koltregaskes/status/2102276830778773732",
+          "created_at": "2026-09-22T06:00:29+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "Cointelegraph",
+          "tier": "commentary",
+          "text": "NEW: The FAA has started rolling out SMART, an AI tool designed to flag potential congestion early and cut flight delays and cancellations. https://t.co/VIRTlEWFuo",
+          "url": "https://x.com/Cointelegraph/status/2102276871362621809",
+          "created_at": "2026-09-22T06:00:39+00:00",
+          "engagement": 23
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Hearing that Gemini 4 Pro might arrive soon from @GoogleDeepMind, which would be crazy considering how packed this week already is with AI releases!",
+          "url": "https://x.com/mark_k/status/2102277464638542093",
+          "created_at": "2026-09-22T06:03:00+00:00",
+          "engagement": 12
+        },
+        {
+          "author": "TheHackersNews",
+          "tier": "commentary",
+          "text": "WordPress \"Comment2Shell\" vulnerability (CVE-2026-93485) can turn an anonymous comment into server code execution through a logged-in admin session. The chain starts as stored XSS, fires when the page loads, and can use the admin's session to upload a web shell. Details -> https://t.co/P2xcw3nsrX",
+          "url": "https://x.com/TheHackersNews/status/2102277671652827518",
+          "created_at": "2026-09-22T06:03:50+00:00",
           "engagement": 3
         },
         {
-          "author": "SemiAnalysis_",
+          "author": "CNBC",
           "tier": "commentary",
-          "text": "Huawei has extremely strong and passionate, yet kind and friendly, software and hardware engineers. Their open-source Ascend inference engines are making good progress!",
-          "url": "https://x.com/SemiAnalysis_/status/2102248478109831673",
-          "created_at": "2026-09-22T04:07:49+00:00",
-          "engagement": 3
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Day-0 OpenVINO support from @inteldevs! Qwen-Image-2.1 is ready to run optimized on Intel hardware. One open-weight checkpoint for both generation and editing.",
-          "url": "https://x.com/Alibaba_Qwen/status/2102248609106514355",
-          "created_at": "2026-09-22T04:08:20+00:00",
+          "text": "CNBC Daily Open: AI trade goes Meta after Muse launch https://t.co/EecA9IqUuY",
+          "url": "https://x.com/CNBC/status/2102279933682716954",
+          "created_at": "2026-09-22T06:12:49+00:00",
           "engagement": 2
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3e606992",
+      "score": 8.187,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "The Verge AI",
+        "alexandr_wang"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-21T09:21:47+00:00",
+      "last_seen": "2026-09-22T05:55:21+00:00",
+      "links": [
+        "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "https://x.com/alexandr_wang/status/2102275539763654663"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Amazon blocks Meta’s Muse AI agent. Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that [&#8230;]",
+          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+          "created_at": "2026-09-21T09:21:47+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "alexandr_wang",
+          "tier": "commentary",
+          "text": "check out the muse ideas tab for inspo on how to use muse!",
+          "url": "https://x.com/alexandr_wang/status/2102275539763654663",
+          "created_at": "2026-09-22T05:55:21+00:00",
+          "engagement": 33
         }
       ]
     }
