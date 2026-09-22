@@ -27,6 +27,102 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "qualcomm-snapdragon-8-elite-gen6",
+   "section": "chips",
+   "headline": "Qualcomm says top Snapdragon chip runs 30-billion-parameter model on device",
+   "standfirst": "The Snapdragon 8 Elite Extreme Gen 6 and a standard Gen 6 are the company's first phone processors built on a 2-nanometre process.",
+   "body": [
+    "Qualcomm launched two flagship smartphone processors at its Snapdragon Summit in Maui on Tuesday, both built on a 2-nanometre process. The company said the higher tier, the Snapdragon 8 Elite Extreme Gen 6, can run a 30-billion-parameter mixture-of-experts model on the handset itself.",
+    "The SemiconductorsX account, posting from the summit, said Qualcomm split its flagship line in two, with the extra part carrying a 5-gigahertz Oryon core and 8K video capture. TechCrunch reported the Extreme part will appear first in Motorola's Signature 27, which is expected to reach general availability this year.",
+    "SemiconductorsX put the Extreme part at 13% better CPU performance than the previous generation and the standard Gen 6 at 10%. On graphics it gave 44% for the Extreme and 37% for the standard part. The figures come from Qualcomm's own summit presentation and could not be checked independently.",
+    "The on-device model claim is Qualcomm's own. TechCrunch noted that Apple released a 20-billion-parameter mixture-of-experts model at its developer conference in June. Qualcomm chief executive Cristiano Amon said the company is switching from a smartphone-centric to an agent-centric experience, and that smartphones are not going to disappear."
+   ],
+   "entities": [
+    "Qualcomm",
+    "Motorola",
+    "Apple"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@SemiconductorsX",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/SemiconductorsX/status/2102490531431628907",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@SemiconductorsX",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/SemiconductorsX/status/2102490844884599177",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@SemiconductorsX",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/SemiconductorsX/status/2102491120718762270",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@PolymarketMoney",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/PolymarketMoney/status/2102496558885507119",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "cme-gpu-rental-futures-cftc",
+   "section": "business",
+   "headline": "CME's Nvidia GPU rental futures miss October start, The Information says",
+   "standfirst": "The contracts cover rental prices for Nvidia's H100 and B200 chips, and the CFTC is seeking more information before they list, the outlet reported.",
+   "body": [
+    "CME Group's planned futures contracts covering Nvidia H100 and B200 rental prices will not launch in October as originally targeted, The Information reported on Tuesday. The delay follows a request for more information from the Commodity Futures Trading Commission.",
+    "The article, by Dakin Campbell, is headlined \"Wall Street's GPU Futures Push Stalls at the CFTC\". The Information's @amir account said regulators are seeking more information, and that the market is meant to make the chips an investable asset class. Both posts trace to the same article.",
+    "The contracts reference rental prices for Nvidia's H100 and B200 accelerators, according to the wallstengine post, which described October as the original launch target. Neither post said how long the CFTC review may run, nor what information the regulator asked for.",
+    "Whether the contracts open this year may depend on how long the CFTC review takes. The delay rests on a single outlet. No confirmation from CME Group or from the regulator has appeared, and neither the wallstengine post nor The Information named a revised launch date."
+   ],
+   "entities": [
+    "CME Group",
+    "Nvidia",
+    "CFTC"
+   ],
+   "sources": [
+    {
+     "author": "@wallstengine",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/wallstengine/status/2102513922423300320",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@amir",
+     "tier": "press",
+     "kind": "post",
+     "url": "https://x.com/amir/status/2102508768944963977",
+     "at": "22 Sep"
+    },
+    {
+     "author": "The Information",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://www.theinformation.com/articles/wall-streets-gpu-futures-push-stalls-cftc",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "meta-muse-openclaw-credit",
    "section": "products",
    "headline": "Meta says Muse drew heavily on open-source project OpenClaw",
@@ -229,7 +325,7 @@
      "at": "22 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "gpt6-sol-luna-launch",
@@ -276,7 +372,7 @@
      "at": "22 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "openai-third-party-assessments",
