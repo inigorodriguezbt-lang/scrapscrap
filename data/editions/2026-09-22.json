@@ -27,6 +27,155 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "meta-muse-openclaw-credit",
+   "section": "products",
+   "headline": "Meta says Muse drew heavily on open-source project OpenClaw",
+   "standfirst": "Nat Friedman said Meta built the assistant from scratch but took the product idea from Peter Steinberger's OpenClaw, after users found matching workspace filenames.",
+   "entities": [
+    "Meta",
+    "OpenClaw",
+    "Nat Friedman",
+    "Peter Steinberger"
+   ],
+   "body": [
+    "Meta built its Muse assistant from scratch but took the product idea from OpenClaw, Nat Friedman said on X in remarks TechCrunch reported on Tuesday. Friedman is head of product at Meta Superintelligence Labs. \"We built Muse from scratch, but it is definitely heavily inspired as a product by OpenClaw,\" he wrote.",
+    "The comment followed users comparing the two assistants. TechCrunch reported that Muse and OpenClaw share workspace filenames, and that the contents of their SOUL.md files are close to identical. That file sets an agent's personality and behavioural boundaries.",
+    "OpenClaw is an open-source project by Peter Steinberger that spread fast this year. OpenAI hired Steinberger in February 2026, according to TechCrunch. Friedman used OpenClaw in January and then bought Mac minis for the Meta Superintelligence Labs team, TechCrunch said.",
+    "The two claims sit apart. Whether Muse's code was written from scratch is Meta's own account, and no outside party has checked it. The matching filenames and the SOUL.md overlap are what users and TechCrunch say they found in the shipped app."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "astroforge-autonomy-1-solo",
+   "section": "research",
+   "headline": "AstroForge puts in-house transformer model in command of 2027 spacecraft",
+   "standfirst": "The company said its model, Solo, will handle anomalies and subsystems on Autonomy-1, a NASA-backed probe it plans to fly without a receiving radio.",
+   "entities": [
+    "AstroForge",
+    "NASA",
+    "Stoke Space",
+    "Matthew Gialich"
+   ],
+   "body": [
+    "AstroForge plans to put a small transformer-based model in charge of its next spacecraft, the company told TechCrunch. The model, called Solo, was built in-house and is meant to resolve anomalies and manage spacecraft subsystems on Autonomy-1, a NASA-backed probe the company expects to launch in 2027.",
+    "Solo will manage power generation and navigation, along with its star tracker systems, and draws on data from about 2,500 sensors, according to TechCrunch. The capability claim is AstroForge's own, and the model has not yet flown. Autonomy-1 is due to launch on the first flight of Stoke Space's rocket.",
+    "The company has lost spacecraft before. AstroForge lost communication control of its Odin probe after launching it into deep space in 2025, and limited ground antenna access prevented a recovery, TechCrunch reported. Two earlier prototype spacecraft suffered anomalies that stopped them completing their missions.",
+    "Chief executive Matthew Gialich framed the model as an alternative to ground infrastructure. \"Do I go build my own ground network... for $200 million... or do I try to remove it with a model?\" he told TechCrunch. He said he does not plan to fly radios that can receive from Earth on Autonomy-1.",
+    "AstroForge has raised $56 million in venture backing since it was founded in 2022, according to TechCrunch. A third vehicle, DeepSpace-2, is due to launch with an Intuitive Machines moon mission by the end of 2026, the report said."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "isaac-ros-5-roscon",
+   "section": "products",
+   "headline": "Nvidia releases Isaac ROS 5.0 free and open source at ROSCon",
+   "standfirst": "The company said the robotics packages add agent-ready skills and support for ROS Lyrical and Ubuntu 24.04, and run on Jetson hardware from Orin Nano to Thor.",
+   "entities": [
+    "Nvidia",
+    "Open Robotics",
+    "Ekumen",
+    "Jetson"
+   ],
+   "body": [
+    "Nvidia released Isaac ROS 5.0 on Tuesday at the ROSCon conference in Toronto, and said the collection of GPU-accelerated robotics packages is free and open source. The release adds support for ROS Lyrical and Ubuntu 24.04, according to the company.",
+    "The additions Nvidia describes are aimed at AI agents doing robot setup and manipulation work. They include a fine-tuning skill for the FoundationStereo perception model, an inference library for the FoundationPose object pose model, and a standalone pick-and-place skill, the company said.",
+    "Two speed figures come from Nvidia and a partner rather than from independent testing. Nvidia said FoundationPose lets robots track an object's position and orientation up to 5.5 times faster. It said Ekumen's isaac_ros_cumotion maps a collision-free path for a warehouse arm in roughly 2 to 5 milliseconds.",
+    "The packages run on Nvidia's Jetson line, from the Jetson Orin Nano to Jetson Thor, the company said. Nvidia named RealSense, Intrinsic, Seeed Studio, Magna, Foxglove, Flexiv, Ekumen, Ouster, Universal Robots and ROBOTIS among the companies working with the release.",
+    "ROS is an open framework from Open Robotics, and Isaac ROS is Nvidia's set of packages built on it. Nvidia also said the release adds a standard data-handling interface meant to carry GPU acceleration across different hardware."
+   ],
+   "sources": [
+    {
+     "author": "NVIDIA",
+     "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "stepaudio-3-asr-aa-wer",
+   "section": "models",
+   "headline": "StepFun speech model tops Artificial Analysis transcription index at 1.7%",
+   "standfirst": "The evaluator said StepAudio 3 ASR cuts word error rate from 4.7% to 1.7%, but costs more per minute than four rivals.",
+   "entities": [
+    "StepFun",
+    "Artificial Analysis",
+    "ElevenLabs",
+    "xAI"
+   ],
+   "body": [
+    "StepFun's StepAudio 3 ASR ranks first on the AA-WER Index for non-streaming speech to text at a 1.7% word error rate, Artificial Analysis said on Tuesday. The evaluator put the previous model, StepAudio 2.5 ASR, at 4.7% on the same index.",
+    "The score is the first time a StepFun model has reached the top of that leaderboard, according to Artificial Analysis. The model is available through the StepFun API for non-streaming transcription. The figures are the evaluator's own measurements, run on its index rather than supplied by StepFun.",
+    "Price runs the other way. StepAudio 3 ASR costs $0.40 per hour of audio, or $6.67 per 1,000 minutes, Artificial Analysis said. The evaluator called that the most expensive of the five most accurate models on its non-streaming leaderboard.",
+    "MAI-Transcribe-2 and Grok Voice Transcribe 2.0 cost $1.67 per 1,000 minutes on the evaluator's figures, and ElevenLabs Scribe v2 costs $3.67. On that account the model trades a higher price per minute for its accuracy lead on conversational audio.",
+    "On speed the model sits mid-table. Artificial Analysis put StepAudio 3 ASR at 88 times real time. That is behind MAI-Transcribe-2 at 374 times and Grok Voice Transcribe 2.0 at 154 times, and roughly level with ElevenLabs Scribe v2 at 84 times."
+   ],
+   "sources": [
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102485740248842710"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102485744673845289"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102485746791948440"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "aa-multilingual-tts-arena",
+   "section": "models",
+   "headline": "Artificial Analysis opens speech leaderboards for 9 languages beyond English",
+   "standfirst": "The evaluator said no single model leads everywhere, with Cartesia's Sonic 3.6 top in 4 languages and four labs splitting the open-weights lead.",
+   "entities": [
+    "Artificial Analysis",
+    "Cartesia",
+    "ElevenLabs",
+    "Mistral AI"
+   ],
+   "body": [
+    "Artificial Analysis opened Multilingual Text to Speech Arena leaderboards on Tuesday, covering nine languages beyond English. The evaluator said performance varies across languages, and that models which do well in English do not necessarily deliver the same pronunciation and naturalness elsewhere.",
+    "Cartesia's Sonic 3.6 leads Hindi and Arabic, with a 33-point Elo lead in Hindi and a 132-point lead in Arabic over the next model, according to Artificial Analysis. ElevenLabs' Eleven v3 ranks second in both, and v3 Conversational third in both.",
+    "In Hindi the evaluator put Sonic 3.6 at 1,179 Elo and Eleven v3 at 1,146. Sonic 3.6 also leads Japanese and Vietnamese. Inworld's Realtime TTS-2 ranks first in Mandarin, where StepFun's StepAudio 2.5 TTS is third at 1,130 Elo, 16 points behind Sonic 3.6.",
+    "No single open-weights model leads across the set. Boson AI's Higgs Audio V3 TTS is top on open weights in four of the nine languages, among them Hindi and Portuguese, the evaluator said. FishAudio's OpenAudio S1 Mini leads on open weights in Japanese and Arabic, and Mistral's Voxtral TTS leads the rest.",
+    "The rankings are Artificial Analysis's own. The Elo scores come from its arena rather than from the labs, and it published them in the same week as a separate English pronunciation test. The evaluator has not said how many votes each language's leaderboard rests on."
+   ],
+   "sources": [
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102490340678856997"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102490346139849029"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102490343841366319"
+    },
+    {
+     "author": "ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2102490350837449169"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "opus-55-release",
    "section": "models",
    "headline": "Anthropic ships Claude Opus 5.5 at $4 per million input tokens",
@@ -175,7 +324,7 @@
      "at": "22 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "bessent-ai-czar",
@@ -212,7 +361,7 @@
      "at": "22 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "trump-unga-super-intelligence",
@@ -261,7 +410,7 @@
      "url": "https://clashreport.com/world/articles/trump-rebrands-ai-as-super-intelligence-says-whoever-wins-si-wins-rcjzfcfl2wr"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "muse-human-operators",
@@ -296,7 +445,7 @@
      "url": "https://x.com/StockSavvyShay/status/2102429799478407497"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "meta-paypal-muse-checkout",
@@ -333,7 +482,7 @@
      "url": "https://x.com/StockSavvyShay/status/2102420432611901551"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "grok-bot-400k-users",
