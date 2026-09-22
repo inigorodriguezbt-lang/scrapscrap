@@ -27,6 +27,38 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "opus-55-rumour",
+   "section": "models",
+   "headline": "Testing Catalog says Anthropic is testing Opus 5.5 for release today",
+   "standfirst": "The claim traces to a post naming an internal codename and an API identifier, and Anthropic's newsroom carries no announcement.",
+   "body": [
+    "Anthropic is testing a model identified as claude-opus-5-5 under the codename claude-wafer-eap, Testing Catalog reported on Monday, citing a post published on Saturday that put the release on Tuesday. Tuesday is today. Anthropic has not commented.",
+    "The evidence is a screenshot. Testing Catalog, which covers pre-release software, traces the identifier and the date to a single account posting on Saturday, and says Anthropic has not commented on what it describes as a possible A/B test.",
+    "Anthropic's newsroom carries no announcement of it. The most recent post there dates from 18 September and concerns an evaluation partnership with Accenture. The most recent model announcement remains Fable 5.1 and Mythos 5.1, from 1 September, and the company's published model list still ends there.",
+    "The post puts the model near Astra and Fable 5.1 on benchmarks and ahead of both on 3D modelling and frontend work, according to Testing Catalog. Nobody has tested that independently, no pricing has appeared, and the claim rests on that one account."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Testing Catalog — Dwaybe Cubbins",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://www.testingcatalog.com/anthropic-tests-fable-5-2-and-opus-5-5-ahead-of-the-release/",
+     "at": "21 Sep"
+    },
+    {
+     "author": "Anthropic — newsroom",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://www.anthropic.com/news",
+     "at": "18 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "a16z-ai-academy",
    "section": "business",
    "headline": "Andreessen Horowitz puts $35 million into two-year college alternative",
@@ -255,7 +287,7 @@
      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "reuters-ipsos-ai-poll",
