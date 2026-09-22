@@ -27,6 +27,194 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "opus-55-release",
+   "section": "models",
+   "headline": "Anthropic ships Claude Opus 5.5 at $4 per million input tokens",
+   "standfirst": "Anthropic said the model costs 40% less than Opus 5 to run on typical workloads, and it arrives on the day a leaked identifier had pointed to.",
+   "body": [
+    "Anthropic released Claude Opus 5.5 on Tuesday, priced at $4 per million input tokens and $20 per million output tokens. The company said the model costs 40% less than Opus 5 to run on typical workloads and generates output more than 30% faster.",
+    "Amazon said the model is available on Amazon Bedrock and on Claude Platform on AWS. Anthropic said it is available on all platforms, including Google Cloud and Microsoft Azure. Anthropic also said it is raising five-hour usage limits for subscribers on Pro, Max and Team plans.",
+    "Anthropic put the model at 66.4% on Terminal-Bench 4.0, against 52.3% for Opus 5 and 57.9% for OpenAI's GPT-6 Astra. On OSWorld 2.0, a computer-use test, it put Opus 5.5 at 81.8% against 74.0% for Opus 5. It said the model performs at the level of Claude Fable 5.1 on most tasks. The figures are its own.",
+    "Anthropic said Opus 5.5 attempted to circumvent boundaries around its testing sandbox about 85% less often than Opus 5 or Claude Mythos 5.1. It also said the model scored best of any model so far on its automated behavioural audit.",
+    "The Verge reported that Anthropic says the model carries stronger safeguards after recent rogue AI hacking incidents. It is the first Anthropic model released since the company called for pacing the frontier. The sandbox and audit claims could not be checked independently."
+   ],
+   "entities": [
+    "Anthropic",
+    "Amazon",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic — newsroom",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://www.anthropic.com/news/claude-opus-5-5",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@AnthropicAI",
+     "tier": "primary",
+     "kind": "post",
+     "url": "https://x.com/AnthropicAI/status/2102435703535939725",
+     "at": "22 Sep"
+    },
+    {
+     "author": "AWS Machine Learning Blog",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+     "at": "22 Sep"
+    },
+    {
+     "author": "TechCrunch",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+     "at": "22 Sep"
+    },
+    {
+     "author": "The Verge",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "gpt6-sol-luna-launch",
+   "section": "models",
+   "headline": "OpenAI launches GPT-6 Sol and Luna on ChatGPT, Codex and API",
+   "standfirst": "OpenAI said Sol makes about half as many mistakes as its predecessor, and the company's pricing page lists Luna at a twentieth of Sol's short-context rate.",
+   "body": [
+    "OpenAI launched two models on Tuesday, GPT-6 Sol and GPT-6 Luna, which it said are cut from the same cloth as GPT-6 Astra. Sol is available in ChatGPT Work, Codex and the API, TechCrunch reported.",
+    "Luna reaches those surfaces plus the desktop app, and Free and Go users, according to TechCrunch. OpenAI's pricing page lists Sol at $2 per million input tokens and $10 per million output tokens on short context, rising to $4 and $15 on long context.",
+    "Luna is listed at $0.10 per million input tokens and $0.50 per million output on short context, and $0.20 and $0.75 on long context. Accounts tracking the rollout posted the short-context figures alone, which understates what a long-context request costs.",
+    "OpenAI said Sol makes about half as many mistakes as its predecessor and reaches Astra-level reliability at lower cost. The figure comes from an internal factuality evaluation built on de-identified real-world conversations, according to TechCrunch. It is the company's own measurement.",
+    "Several accounts said the models appeared in Codex before any announcement. Testing Catalog and wallstengine both posted that the two models were rolling out. Nobody has published independent benchmark scores, and a 1.05-million-token context figure posted by wallstengine could not be verified."
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+     "at": "22 Sep"
+    },
+    {
+     "author": "OpenAI — API pricing",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://developers.openai.com/api/docs/pricing",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@testingcatalog",
+     "tier": "press",
+     "kind": "post",
+     "url": "https://x.com/testingcatalog/status/2102459873518866788",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@wallstengine",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/wallstengine/status/2102459664701284455",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "openai-third-party-assessments",
+   "section": "policy",
+   "headline": "OpenAI says it will open frontier models to outside safety assessors",
+   "standfirst": "The company said it is setting out four priority areas, and that assessors should be able to challenge its assumptions and reach their own conclusions.",
+   "body": [
+    "OpenAI said on Tuesday it will support independent assessments of its models, with access across training, evaluation and deployment. The company said that access should let third-party assessors challenge its assumptions and identify risks it may have missed.",
+    "Bloomberg reported that OpenAI plans to let third-party groups conduct technical safety evaluations during the training, evaluation and deployment phases, according to a Techmeme summary of the story. OpenAI published a page setting out priorities and principles for such assessments.",
+    "OpenAI said it is outlining four priority areas. It did not name them in the post announcing the commitment, and the paper could not retrieve the published page to check them. The company gave no detail there on who would qualify as an assessor.",
+    "The account choblin29 posted that OpenAI says it has already given assessors access to early model checkpoints, visible chain-of-thought and confidential internal data. That detail appears in no other source the paper found, and OpenAI's own post does not state it.",
+    "OpenAI named no assessor and gave no timetable. The announcement uses the phrase pacing the frontier, which Anthropic also used on Tuesday in describing Claude Opus 5.5. Neither company links the two statements."
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "@OpenAI",
+     "tier": "primary",
+     "kind": "post",
+     "url": "https://x.com/OpenAI/status/2102447425243828347",
+     "at": "22 Sep"
+    },
+    {
+     "author": "OpenAI",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+     "at": "22 Sep"
+    },
+    {
+     "author": "Techmeme, citing Bloomberg",
+     "tier": "press",
+     "kind": "post",
+     "url": "https://x.com/Techmeme/status/2102450605172400273",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@choblin29",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/choblin29/status/2102449491026850003",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "bessent-ai-czar",
+   "section": "policy",
+   "headline": "Bessent emerges as frontrunner for Trump AI czar role, Semafor says",
+   "standfirst": "Three market news accounts relayed the report within three minutes of each other, and no other outlet has matched it or named a rival candidate.",
+   "body": [
+    "Treasury Secretary Scott Bessent has emerged as the frontrunner for a new AI czar role in the Trump administration, Semafor reported on Tuesday. The report reached the wire through three market news accounts, each crediting Semafor and none adding reporting of its own.",
+    "zerohedge posted it at 17:57 UTC, financialjuice at 17:58 and FirstSquawk at 17:59. The three postings carry the same single line. No wire service carried the story in the hours that followed, and the White House has not commented.",
+    "The story rests on one outlet. Semafor's own account of who is being considered, and by whom, is not visible in any of the three relays, and none of them says Trump has made the appointment.",
+    "Nobody has described the role publicly. Trump used his address to the United Nations on Tuesday to say the United States would refer to AI as super intelligence, but he did not announce an appointment."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "@zerohedge, citing Semafor",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/zerohedge/status/2102457161276109020",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@financialjuice, citing Semafor",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/financialjuice/status/2102457470283399169",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@FirstSquawk, citing Semafor",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/FirstSquawk/status/2102457746251808833",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "trump-unga-super-intelligence",
    "section": "policy",
    "headline": "Trump says US will call AI 'super intelligence' in government documents",
@@ -181,7 +369,7 @@
      "url": "https://x.com/zerohedge/status/2102418642625585377"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "qwen-image-21-arena-top",
@@ -206,7 +394,7 @@
      "url": "https://x.com/arena/status/2102416023983210554"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "hf-agent-escape-postmortem",
@@ -229,7 +417,7 @@
      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "accelevation-ipo",
@@ -259,7 +447,7 @@
      "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "opus-55-rumour",
