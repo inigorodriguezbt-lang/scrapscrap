@@ -1,0 +1,87 @@
+{
+ "edition_date": "2026-09-22",
+ "stories": [
+  {
+   "cluster_id": "muse-zero-day-wardle",
+   "section": "security",
+   "headline": "Researcher finds zero-day that hands attackers control of Meta's Muse",
+   "standfirst": "Patrick Wardle said any local app can steal the token that controls a Muse account. Meta did not answer questions from Ars Technica.",
+   "body": [
+    "Any app or terminal command running on a Mac can seize control of a user's Muse account, the security researcher Patrick Wardle told Ars Technica. Meta released the assistant a few weeks ago. Wardle said he has written several working proof-of-concept attacks against it.",
+    "The flaw sits in a list of undocumented settings that Meta lets any local process change, according to Wardle. Most control cosmetic things such as dark mode. One sets the server address where Muse sends speech for transcription, and pointing it at an attacker's machine hands over the account token.",
+    "\"We can manipulate the agent and leverage its privileges to do whatever we want,\" Wardle said. He said the attacks can write files to disk and take photographs with no sign to an alert user. A variant of the ClickFix technique is enough to start one.",
+    "Meta has published two posts in as many weeks on the design decisions behind Muse, and Mark Zuckerberg has said the assistant is built from the ground up for privacy and security. Meta representatives did not answer emailed questions, Ars Technica said.",
+    "Wardle said Muse could have avoided the flaw by transcribing speech on the device, as macOS allows, rather than in Meta's cloud. The account rests on Wardle's own testing, and Meta has not said whether it plans a fix. He may give more detail at a conference in November."
+   ],
+   "entities": [
+    "Meta",
+    "Apple",
+    "Amazon"
+   ],
+   "sources": [
+    {
+     "author": "Ars Technica",
+     "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "openai-aeon-rumour",
+   "section": "products",
+   "headline": "OpenAI is preparing always-on agent called Aeon, two accounts say",
+   "standfirst": "Neither account cites a document or an OpenAI statement, and the company has not confirmed that the agent exists.",
+   "body": [
+    "OpenAI is preparing an always-on agent named Aeon, two accounts that follow the company closely said on Monday. Kol Tregaskes described it as ChatGPT's answer to Grok Bot. Neither account cited a document or an OpenAI statement, and OpenAI has not said that the product exists.",
+    "Andrew Curran said the name is Aeon, that OpenAI built it ahead of schedule with help from GPT-Astra, and that he believes it will arrive on Thursday morning. Curran offered the timing as his own belief rather than as something a source had told him.",
+    "The two posts sit against agents already shipping. Meta released Muse this month, and SpaceXAI runs Grok Bot, the product Tregaskes named as OpenAI's target. The account MTSlive said on Monday that personal agents are reaching a mainstream audience across all three.",
+    "Nothing in either post can be checked against an OpenAI source. The company has not announced an agent by that name, and a date resting on one observer's belief may move. OpenAI has referred to GPT-6 Astra in its own posts, in a note about a customer's video tools."
+   ],
+   "entities": [
+    "OpenAI",
+    "Meta"
+   ],
+   "sources": [
+    {
+     "author": "koltregaskes",
+     "url": "https://x.com/koltregaskes/status/2102178064180621418"
+    },
+    {
+     "author": "AndrewCurran_",
+     "url": "https://x.com/AndrewCurran_/status/2102184522389574129"
+    },
+    {
+     "author": "MTSlive",
+     "url": "https://x.com/MTSlive/status/2102186716648145146"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "apple-siri-settlement-claims",
+   "section": "policy",
+   "headline": "Apple opens claims in $250 million settlement over AI Siri delay",
+   "standfirst": "US owners of the iPhone 15 Pro and iPhone 16 have until 21 December to file, with an estimated $25 per device.",
+   "body": [
+    "Apple is taking claims in a $250 million settlement over its failure to ship an AI-upgraded Siri alongside the iPhone 16, The Verge reported on Monday. US buyers of the iPhone 15 Pro, iPhone 15 Pro Max or any iPhone 16 model qualify.",
+    "The purchase must fall between 10 June 2024 and 29 March 2025, and claims close on 21 December 2026, according to The Verge. Payouts are estimated at $25 per eligible device. The settlement website says that figure could rise to $95 depending on how many people file.",
+    "The class action alleged Apple created a clear and reasonable consumer expectation that AI features previewed at WWDC 2024 would arrive with the iPhone 16. The phone shipped with a narrower set of capabilities while carrying the label built for Apple Intelligence, the complaint said.",
+    "Apple has denied any wrongdoing. The company later delayed the AI-upgraded Siri, which arrived with iOS 27 earlier this month, according to The Verge. MacRumors reported the opening of claims first, The Verge said. Filing requires a name, contact details and an iPhone serial number."
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
+    },
+    {
+     "author": "Polymarket",
+     "url": "https://x.com/Polymarket/status/2102187707849998593"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
