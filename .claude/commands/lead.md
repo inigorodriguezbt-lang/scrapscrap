@@ -66,6 +66,7 @@ Apply the paper's standing rule: **two or more independent sources**, per
 |---|---|
 | Two+ independent sources agree | A story |
 | One primary source only (a company about itself) | A story, attributed throughout to that party |
+| A public artifact you have opened (model card, repo, demo) | A story or a snippet, per `style/11-beat.md`: existence established, capabilities attributed |
 | One outlet, uncorroborated | A short item saying who reported it and that nobody else has it |
 | Sources conflict | A story — the conflict *is* the news |
 | Nothing verifiable | **No story.** Report back to the editor with what you checked and what you could not confirm |
@@ -74,6 +75,10 @@ Apply the paper's standing rule: **two or more independent sources**, per
 a release, a price, a number, a line from someone who matters. If it is worth
 knowing but not worth a story, file it as a snippet per `style/10-snippets.md`
 rather than dropping it.
+
+**Is it interesting?** Check the lead against `style/11-beat.md`. A release,
+a repo, a demo or new AI tech is what this paper is for. If it is plainly the
+biggest thing of the day, it can take the lead: add `"promote": true`.
 
 Filing nothing is a legitimate outcome and a frequent one. Say so plainly rather
 than padding a thin lead into a thick article.

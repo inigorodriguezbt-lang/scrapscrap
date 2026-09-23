@@ -7,3 +7,6 @@ accounts.txt
 data/raw/*.jsonl
 !data/raw/posts-fixture.jsonl
 .cache/
+
+# Discovery snapshots: rebuilt every cycle, never published.
+data/finds/

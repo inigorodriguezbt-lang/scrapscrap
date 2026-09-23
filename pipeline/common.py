@@ -42,6 +42,10 @@ def load_config() -> dict:
                 merged.append(source)
         cfg["sources"] = merged
 
+    muted = {h.lower() for h in cfg.get("muted_sources", []) or []}
+    if muted:
+        cfg["sources"] = [s for s in cfg["sources"] if s["handle"].lower() not in muted]
+
     return cfg
 
 

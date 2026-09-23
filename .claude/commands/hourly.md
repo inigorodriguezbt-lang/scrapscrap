@@ -2,7 +2,7 @@
 description: Write only the stories that are new since the last hourly run
 ---
 
-You are on the desk of a paper that files continuously. This runs every hour.
+You are on the desk of a paper that files continuously. This runs every two hours.
 Most hours produce one or two stories. Some produce none, and that is a normal
 result, not a failure.
 
@@ -10,22 +10,42 @@ result, not a failure.
 
 Read `data/editions/<today>.json` if it exists. **Every story in that file is
 already live on the site, and some already have posts pointing at them.** You
-are not rewriting any of it. You are not reordering it. You are not touching
-the lead.
+are not rewriting any of it and not reordering it. The one way the lead
+changes is `"promote": true` on a new story, below.
 
 Read the newest brief in `data/briefs/`. Each entry under `stories` is a
-cluster that cleared the independent-source threshold.
+cluster that cleared the independent-source threshold, or a lab's own release
+marked `"single_source": true`. Each carries `interest`: `want`, `neutral` or
+`dull`.
+
+Then read `data/finds/<today>.json` if it exists (`python -m pipeline.discover`
+writes it): trending models, Spaces and papers on Hugging Face, and AI stories
+and Show HN launches on Hacker News, each with its traction and a link to the
+artifact. This is where most of the interesting material is.
 
 ## What to write
 
-Write **only clusters whose `cluster_id` does not already appear in today's
-edition.** If every cluster is already there, write nothing and say so.
+**Read `style/11-beat.md` first. The paper runs interesting stuff:** model
+releases, things you can try today, open-source repos and community projects
+taking off, new tech with AI in it (robots, chips, hardware), and the fun and
+strange. Policy consultations, think-tank reports, funding rounds, earnings and
+partnerships with no product run only when they are big.
 
-The beat is all of machine intelligence, and breadth is the point: model
-releases, research and evaluations, funding and corporate moves, policy and
-regulation, security, robotics and embodiment, chips and datacentres, products
-and pricing, and open-source projects that are visibly taking off. If it would
-matter to someone who follows this field closely, it is in scope.
+Write **only clusters whose `cluster_id` does not already appear in today's
+edition.** If every cluster is already there, write nothing and say so. Take
+`want` clusters first. A `dull` cluster needs a reason to run.
+
+**Finds can be stories too.** A find with exceptional traction (a new model
+everyone is downloading, a repo or demo the field is passing around) is worth
+a story. Open the artifact and report from it: the model card, the README, the
+Space. Give it a `cluster_id` of `find-<slug>`, cite the artifact as the
+source, attribute every capability claim to its maker, and say plainly that no
+one else has tested it yet. Most finds are snippets instead; see below.
+
+**The lead.** If you write a story plainly bigger than today's lead (a new
+frontier model, a major open-weights release, the thing the whole field is
+talking about), add `"promote": true` to it. The merge step makes it the lead.
+It works at most three times a day, so keep it for the day's real headline.
 
 Sections are the slugs in `config/paper.yaml`. Use the brief's
 `suggested_section` unless the copy you just wrote clearly belongs elsewhere.
@@ -39,8 +59,8 @@ banned list. Nothing about the house style relaxes because this is automated.
 
 The rules that are easiest to lose on a fast cadence, and that matter most:
 
-- **Every claim traces to a source in that cluster's `posts`.** You have no
-  other information about the event. If a detail is not in the source
+- **Every claim traces to a source in that cluster's `posts`**, or, for a
+  find, to the artifact you opened. If a detail is not in the source
   material, it does not go in the paper.
 - **A vendor's claim about its own product is attributed in the prose**, never
   stated in the paper's voice. `tier` tells you who is speaking: `primary` is
@@ -71,7 +91,8 @@ Write **new stories only** to `data/editions/<today>.new.json`:
 ```
 
 Omit `placement`. The merge step assigns it, keeps the existing lead where it
-is, and drops anything whose `cluster_id` is already published.
+is unless a new story carries `"promote": true`, and drops anything whose
+`cluster_id` is already published.
 
 If there is nothing new, do not create the file.
 
@@ -90,14 +111,19 @@ the reporting supports.
 
 ## Snippets
 
-While reading the brief and the posts, you will pass things that are worth
-knowing but too small for a story: a version bump, a price change, a benchmark
-number, a repo getting attention, one sourced line worth keeping. Do not throw
-them away. File them as snippets, per `style/10-snippets.md`, in
+While reading the brief, the finds and the posts, you will pass things that
+are worth knowing but too small for a story: a trending model or Space, a new
+repo getting attention, a version bump, a price change, a benchmark number, a
+paper with code, one sourced line worth keeping. Do not throw them away. Aim
+for **five or more** a cycle when the finds have them; they are the fastest
+way the paper shows what is new. File them as snippets, per `style/10-snippets.md`, in
 `data/snippets/<today>.new.json`.
 
 A snippet is **one line**: the headline, 10 to 40 words, saying what happened
-and who says so, plus the source's name and link. Nothing more for now.
+and who says so, plus the source's name and link. Nothing more for now. For a
+find, link the artifact (the model page, the repo, the Space), not the
+aggregator, and name the traction: "…is the second-most trending model on
+Hugging Face, with 1,940 likes."
 
 ```json
 {"snippets": [

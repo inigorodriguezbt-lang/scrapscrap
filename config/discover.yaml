@@ -1,0 +1,44 @@
+# Discovery: where the interesting things turn up before the press has them.
+#
+# The RSS wire is newsrooms and company blogs, which skews the paper towards
+# policy and business. These sources are the other half: what people are
+# actually downloading, trying, starring and arguing about. They feed
+# data/finds/<date>.json, which the desk reads alongside the brief.
+#
+# Everything here is free except the X queries, which are billed per post.
+#
+#   python -m pipeline.discover            # write today's finds
+#   python -m pipeline.discover --print    # show them, write nothing
+
+# Items older than this are not finds any more.
+max_age_days: 21
+
+huggingface:
+  models:   { limit: 60, keep: 12 }      # trending model repos
+  spaces:   { limit: 60, keep: 6, min_likes: 40 }   # trending demos
+  papers:   { keep: 8, min_upvotes: 15 } # daily papers, community-upvoted
+  # Repacks and quantisations are not news; the original release is.
+  skip: [gguf, awq, gptq, exl2, mlx, "-4bit", "-8bit", quant, uncensored, abliterated, nsfw, lora-uncensored]
+
+hackernews:
+  front_page: { keep: 12, min_points: 60 }
+  show_hn:    { keep: 8,  min_points: 15 }
+  # A story must match one of these to count as ours.
+  ai_terms: [ai, llm, llms, gpt, claude, gemini, llama, qwen, deepseek, mistral,
+             openai, anthropic, deepmind, "hugging face", huggingface, model, models,
+             agent, agents, agentic, neural, transformer, diffusion, inference,
+             robot, robots, robotics, humanoid, gpu, gpus, cuda, npu, tpu,
+             copilot, cursor, embedding, embeddings, rag, mcp, "machine learning",
+             "fine-tune", "fine-tuning", "text-to-speech", tts, "speech-to-text",
+             vllm, ollama, "llama.cpp", "open weights", "open-weights", chatbot]
+
+# X queries run on top of the account sweep. They are the costliest source
+# here, so the whole X spend per cycle is capped (see x.budget) and every
+# query asks only for posts that already have traction.
+x:
+  budget: 100          # posts per cycle, across the account sweep AND these
+  sweep_share: 80      # of which the account sweep gets this many
+  min_faves: 25        # account sweep: skip the low-traction posts
+  queries:
+    # New public repos people are sharing, already taking off.
+    - "(url:github.com OR url:huggingface.co) (AI OR LLM OR model OR agent OR robot) min_faves:300 -filter:replies"

@@ -24,6 +24,11 @@ can see. **Never state this in the paper's voice.**
 
 The second sentence is optional but often the most valuable in the story.
 
+A released artifact is Tier 2 evidence you can open: a model card, a repo, a
+demo. Its existence is established; what it claims to do is its maker's claim.
+That is why a release can run on one primary source (`11-beat.md`), and why
+every capability in such a story is attributed.
+
 ### Tier 3 — Reported but unconfirmed
 One outlet has it; nobody else does yet.
 

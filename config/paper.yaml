@@ -51,6 +51,48 @@ sources:
   - { handle: emilychangtv,      weight: 1.0, tier: press }
   - { handle: zephoria,          weight: 0.9, tier: press }
 
+  # ── builders: the labs, tools and people who ship things you can try ──
+  # First in line for the X budget, because releases, repos and demos are
+  # what the paper is for (style/11-beat.md).
+  - { handle: xai,               weight: 1.3, tier: primary }
+  - { handle: Kimi_Moonshot,     weight: 1.2, tier: primary }
+  - { handle: MiniMax__AI,       weight: 1.2, tier: primary }
+  - { handle: Zai_org,           weight: 1.2, tier: primary }
+  - { handle: ollama,            weight: 1.2, tier: primary }
+  - { handle: vllm_project,      weight: 1.2, tier: primary }
+  - { handle: lmstudio,          weight: 1.1, tier: primary }
+  - { handle: ComfyUI,           weight: 1.2, tier: primary }
+  - { handle: cursor_ai,         weight: 1.2, tier: primary }
+  - { handle: OpenRouterAI,      weight: 1.2, tier: primary }
+  - { handle: perplexity_ai,     weight: 1.1, tier: primary }
+  - { handle: elevenlabsio,      weight: 1.1, tier: primary }
+  - { handle: bfl_ml,            weight: 1.2, tier: primary }
+  - { handle: runwayml,          weight: 1.2, tier: primary }
+  - { handle: LumaLabsAI,        weight: 1.1, tier: primary }
+  - { handle: Kling_ai,          weight: 1.1, tier: primary }
+  - { handle: krea_ai,           weight: 1.1, tier: primary }
+  - { handle: StabilityAI,       weight: 1.1, tier: primary }
+  - { handle: Figure_robot,      weight: 1.2, tier: primary }
+  - { handle: UnitreeRobotics,   weight: 1.2, tier: primary }
+  - { handle: physical_int,      weight: 1.2, tier: primary }
+  - { handle: fal,               weight: 1.0, tier: primary }
+  - { handle: replicate,         weight: 1.0, tier: primary }
+  - { handle: gradio,            weight: 1.0, tier: primary }
+  - { handle: simonw,            weight: 1.4, tier: commentary }
+  - { handle: ggerganov,         weight: 1.2, tier: commentary }
+  - { handle: awnihannun,        weight: 1.1, tier: commentary }
+  - { handle: OfficialLoganK,    weight: 1.2, tier: commentary }
+
+# Accounts the crawl found that are not this paper's beat: markets tickers,
+# prediction markets, crypto and politics feeds. Dropped from the merged list,
+# so the X budget is not spent on them. The RSS press covers corroboration.
+muted_sources: [wallstengine, FirstSquawk, financialjuice, StockMKTNewz, StockSavvyShay,
+                DeItaone, Polymarket, PolymarketMoney, Kalshi, Kalshi_Finance, Cointelegraph,
+                CoinMarketCap, politico, tradfi, clashreport, zerohedge, BullTheoryio,
+                Beth_Kindig, TFTC21, MarioNawfal, PhotonCap, atrupar, TrendSpider,
+                ShanuMathew93, business, CNBC, WSJ, FT, ReutersLegal, EdLudlow,
+                SawyerMerritt, firstadopter, choblin29, MTSlive]
+
 # ─────────────────────────────────────────────────────────────
 # Sections of the paper. `slug` becomes the section page URL.
 # Keywords seed the classifier that Claude double-checks when writing.
@@ -133,6 +175,40 @@ editorial:
   # earlier editions are carried beneath today's until this old, so the
   # page is never empty at one minute past midnight.
   front_page_carry_hours: 48
+
+  # What the paper is FOR (style/11-beat.md). Clusters matching `want` rank
+  # up; clusters matching only `dull` rank down. Nothing is ever dropped for
+  # being dull, it just stops crowding out the releases.
+  interest:
+    want_bonus: 2.5
+    dull_penalty: 2.0
+    want: [release, releases, released, launch, launches, launched, introducing,
+           "now available", "open source", open-source, "open weights", open-weight,
+           open-weights, weights, github, repo, repository, demo, playground,
+           "try it", checkpoint, "hugging face", humanoid, robot, robots, robotics,
+           "text-to-video", "text-to-image", "video model", "image model", "voice model",
+           "speech model", "music model", benchmark, leaderboard, agent, agents,
+           "coding agent", sdk, cli, plugin, extension, ships, shipped, preview, beta,
+           "new model", jailbreak, "world model", game, 3d, chip, gpu]
+    dull: [consultation, lobbying, lobby, "think tank", "white paper", survey, poll,
+           tariff, tariffs, "export control", earnings, quarterly, shares, stock,
+           valuation, stake, appoints, appointed, hires, executive, senate, congress,
+           parliament, committee, hearing, bill, legislation, regulator, regulators,
+           lawsuit, sued, court, antitrust, "trade deal", minister, governor, campaign,
+           tickets, "save up to", "last chance", webinar, register, sponsored, "partner content"]
+
+  # A release announced by the lab itself is news before anyone else writes
+  # it up. A cluster with ONE source qualifies when that source is a primary
+  # feed at least this heavy and the cluster reads as `want`. The writer
+  # attributes it throughout and says nobody else has reported it yet.
+  single_source_primary:
+    enabled: true
+    min_weight: 1.3
+    max_per_brief: 6
+    # ...and names a thing you can use, not a programme or a partnership.
+    artifact: [model, models, weights, open-source, "open source", github, api, app,
+               demo, robot, checkpoint, "now available", agent, sdk, cli, dataset,
+               "release notes", version, "available today"]
 
 # One-line items in the front-page rail. See pipeline/snippets.py.
 snippets:

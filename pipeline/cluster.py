@@ -59,7 +59,42 @@ def cosine(a: dict[str, float], b: dict[str, float]) -> float:
 
 # A token this rare is almost always a proper noun -- a model name, a chip, a
 # company. Two posts sharing one are very likely about the same event.
-RARE_IDF = 1.9
+#
+# Rarity is a document-frequency cut, not an idf threshold. The old test,
+# idf >= 1.9, works out to "in fewer than ~40% of posts", which let words like
+# "founders" and "disrupt" count as proper nouns: one shared common word
+# lifted any pair over the cluster threshold and the greedy pass chained 63 of
+# 70 wire items into a single blob. A term is rare when it appears in at most
+# RARE_SHARE of posts, with a floor so a small window still has names.
+RARE_SHARE = 0.10
+RARE_MIN_DF = 5
+
+
+_NAME_RE = re.compile(r"(?<![.!?:]\s)(?<!^)\b([A-Z][A-Za-z0-9]*[A-Z0-9][A-Za-z0-9]*|[A-Z][a-z]{2,})\b"
+                      r"|\b([A-Za-z]+[-.]?\d[\w.-]*|[a-z]+[A-Z][A-Za-z0-9]*|\d+(?:\.\d+)?[a-zA-Z]+)\b")
+
+
+def name_like(text: str) -> set[str]:
+    """Tokens written the way names are: capitalised mid-sentence, or mixing
+    letters and digits ("Opus", "Qwen", "GPT-6", "H200", "vLLM", "400k").
+
+    Rarity alone is not enough in a small window: in 70 wire items, "days"
+    and "save" are rare too, and one of them shared was lifting unrelated
+    pairs over the threshold.
+    """
+    out = set()
+    for match in _NAME_RE.finditer(re.sub(r"https?://\S+", " ", text)):
+        word = (match.group(1) or match.group(2) or "").lower()
+        out.update(tokenize(word))
+    return out
+
+
+def rare_terms(token_docs: list[list[str]]) -> set[str]:
+    df: Counter[str] = Counter()
+    for tokens in token_docs:
+        df.update(set(tokens))
+    cut = max(RARE_MIN_DF, int(RARE_SHARE * len(token_docs)))
+    return {term for term, count in df.items() if count <= cut}
 
 
 def rare_overlap(post_a: dict, post_b: dict) -> set[str]:
@@ -83,7 +118,10 @@ def similarity(post_a: dict, post_b: dict) -> float:
     if len(shared_rare) >= 2:
         score = max(score, 0.55)
     elif len(shared_rare) == 1:
-        score = max(score, 0.40)
+        # One shared name is a nudge, not proof: "Nvidia" in two posts says
+        # they mention the same company, not that they report the same event.
+        # A flat 0.40 floor here chained unrelated items into one cluster.
+        score += 0.10
 
     return min(score, 1.0)
 
@@ -182,6 +220,30 @@ def score_cluster(posts: list[dict], now: datetime) -> float:
     return round(corroboration * source_weight + primary_bonus + reach + freshness, 3)
 
 
+def _hits(text: str, terms: list[str]) -> int:
+    return sum(1 for t in terms
+               if re.search(rf"(?<![a-z0-9]){re.escape(t.lower())}(?![a-z0-9])", text))
+
+
+def interest(text: str, rules: dict) -> tuple[str, float]:
+    """('want' | 'neutral' | 'dull', score delta) for a cluster's text.
+
+    The paper covers everything, but it leads with things people can try:
+    releases, repos, demos, robots. Policy and markets still run; they just
+    stop outranking a model launch. See style/11-beat.md.
+    """
+    cfg = rules.get("interest") or {}
+    if not cfg:
+        return "neutral", 0.0
+    lower = text.lower()
+    want, dull = _hits(lower, cfg.get("want", [])), _hits(lower, cfg.get("dull", []))
+    if want >= 2 or (want and want >= dull):
+        return "want", cfg.get("want_bonus", 2.5) * (1.4 if want >= 4 else 1.0)
+    if dull >= 2 and dull > want:
+        return "dull", -cfg.get("dull_penalty", 2.0)
+    return "neutral", 0.0
+
+
 # ── assembly ─────────────────────────────────────────────────────────────────
 
 def _read_window(path: Path, cutoff: datetime) -> list[dict]:
@@ -255,29 +317,46 @@ def build_briefs(raw_path: Path | None) -> dict:
 
     token_docs = [tokenize(p["text"]) for p in posts]
     idf = build_idf(token_docs)
+    rare = rare_terms(token_docs)
     for post, tokens in zip(posts, token_docs):
         post["_vec"] = to_vector(tokens, idf)
         post["_links"] = {normalize_url(u) for u in post.get("links", [])}
-        post["_rare"] = {t for t in set(tokens) if idf.get(t, 0.0) >= RARE_IDF}
+        post["_rare"] = set(tokens) & rare & name_like(post["text"])
 
     clusters = cluster_posts(posts, rules["cluster_threshold"])
     now = utcnow()
     sections = cfg["sections"]
 
-    stories = []
-    for group in clusters:
-        independent = sorted({p["handle"] for p in group})
-        if len(independent) < rules["min_independent_sources"]:
-            continue
+    single = rules.get("single_source_primary") or {}
+    singles_left = single.get("max_per_brief", 0) if single.get("enabled") else 0
 
+    stories = []
+    for group in sorted(clusters, key=lambda g: -score_cluster(g, now)):
+        independent = sorted({p["handle"] for p in group})
         combined = " ".join(p["text"] for p in group)
+        label, delta = interest(combined, rules)
+
+        single_source = False
+        if len(independent) < rules["min_independent_sources"]:
+            # One exception: a lab announcing its own release. The artifact
+            # is public, so the writer reports from it and attributes it.
+            primary = [p for p in group if p.get("tier") == "primary"
+                       and p.get("weight", 1.0) >= single.get("min_weight", 99)]
+            artifact = _hits(combined.lower(), single.get("artifact", []))
+            if not (singles_left and primary and label == "want" and artifact):
+                continue
+            singles_left -= 1
+            single_source = True
+
         links = sorted({u for p in group for u in p.get("links", [])})
 
         stories.append({
             "cluster_id": "c" + hashlib.sha1(
                 "|".join(sorted(p["id"] for p in group)).encode("utf-8")
             ).hexdigest()[:8],
-            "score": score_cluster(group, now),
+            "score": round(score_cluster(group, now) + delta, 3),
+            "interest": label,
+            "single_source": single_source,
             "suggested_section": classify(combined, sections),
             "entities": find_entities(combined, cfg["entities"]),
             "independent_sources": independent,
@@ -337,7 +416,9 @@ def main() -> None:
     print(f"Brief → {out}")
     for story in briefs["stories"][:8]:
         srcs = ", ".join(story["independent_sources"][:4])
-        print(f"  {story['score']:6.2f}  [{story['suggested_section']:<14}] {srcs}")
+        mark = {"want": "+", "dull": "-"}.get(story["interest"], " ")
+        one = " (single source)" if story["single_source"] else ""
+        print(f"  {story['score']:6.2f} {mark} [{story['suggested_section']:<14}] {srcs}{one}")
 
 
 if __name__ == "__main__":

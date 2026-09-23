@@ -16,6 +16,7 @@ Usage:
     python -m pipeline.xsearch --query "from:OpenAI since:2026-09-18"
     python -m pipeline.xsearch --query "blackwell ultra" --limit 50
     python -m pipeline.xsearch --check
+    python -m pipeline.xsearch --sources 100 --budget 100   # the hourly sweep
 """
 
 from __future__ import annotations
@@ -80,16 +81,38 @@ def save_watermark(path: Path, records: list[dict], fallback: int) -> int:
     return newest + 1
 
 
-def source_batches(count: int, per_batch: int = 20) -> list[str]:
+def source_batches(count: int, per_batch: int = 20, min_faves: int = 0) -> list[str]:
     """`(from:a OR from:b ...)` over the top `count` configured handles.
 
     Batched because a single query carrying 100 handles is long enough that
     the search rejects it. Twenty per request is tested and works.
+    `min_faves` drops the low-traction posts before they are billed.
     """
     from .common import load_config
     handles = [s["handle"] for s in load_config().get("sources", [])][:count]
-    return ["(" + " OR ".join(f"from:{h}" for h in handles[i:i + per_batch]) + ")"
+    tail = f" min_faves:{min_faves}" if min_faves else ""
+    return ["(" + " OR ".join(f"from:{h}" for h in handles[i:i + per_batch]) + ")" + tail
             for i in range(0, len(handles), per_batch)]
+
+
+def budgeted_plan(count: int, budget: int) -> list[tuple[str, int]]:
+    """(query, limit) pairs whose limits add up to no more than `budget`.
+
+    Credits are the constraint, so the cap is per cycle across every query,
+    not per query. config/discover.yaml sets the split: the account sweep
+    gets `sweep_share`, the discovery queries share what is left.
+    """
+    import yaml
+    from .common import ROOT
+    x = yaml.safe_load((ROOT / "config" / "discover.yaml").read_text(encoding="utf-8")).get("x", {})
+    sweep = source_batches(count, min_faves=x.get("min_faves", 0))
+    extra = x.get("queries", []) or []
+    sweep_total = min(budget, x.get("sweep_share", budget)) if extra else budget
+    plan = [(q, sweep_total // len(sweep)) for q in sweep] if sweep else []
+    left = budget - sum(n for _, n in plan)
+    if extra and left > 0:
+        plan += [(q, left // len(extra)) for q in extra]
+    return [(q, n) for q, n in plan if n > 0]
 
 
 class Provider:
@@ -218,6 +241,9 @@ def main() -> None:
     ap.add_argument("--limit", type=int, default=50)
     ap.add_argument("--sources", type=int, metavar="N",
                     help="sweep the top N configured handles instead of --query")
+    ap.add_argument("--budget", type=int, metavar="N",
+                    help="with --sources: at most N posts this cycle across the "
+                         "sweep and the discovery queries in config/discover.yaml")
     ap.add_argument("--state", type=Path,
                     help="high-water-mark file; only posts newer than the last "
                          "run are fetched, so none is paid for twice")
@@ -245,11 +271,16 @@ def main() -> None:
         sys.exit(f"{provider.env_key} is not set. Run --check, or see docs/x-access.md.")
 
     since = load_watermark(args.state) if args.state else None
-    queries = source_batches(args.sources) if args.sources else [args.query]
+    if args.sources and args.budget:
+        plan = budgeted_plan(args.sources, args.budget)
+    elif args.sources:
+        plan = [(q, args.limit) for q in source_batches(args.sources)]
+    else:
+        plan = [(args.query, args.limit)]
 
     records: list[dict] = []
-    for query in queries:
-        records.extend(provider.search(query, args.limit, since_epoch=since))
+    for query, limit in plan:
+        records.extend(provider.search(query, limit, since_epoch=since)[:limit])
 
     seen: set[str] = set()
     records = [r for r in records if not (r["id"] in seen or seen.add(r["id"]))]

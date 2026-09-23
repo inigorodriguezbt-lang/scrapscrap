@@ -1,6 +1,6 @@
 # House Style
 
-How this paper writes. Six documents, each answering one question.
+How this paper writes, and what it writes about. Each document answers one question.
 
 | File | Question it answers |
 |---|---|
@@ -10,6 +10,11 @@ How this paper writes. Six documents, each answering one question.
 | `04-attribution.md` | How do we say how much we know? |
 | `05-forbidden.md` | What never appears in the paper? |
 | `06-examples.md` | What does the difference look like on the page? |
+| `07-images.md` | When does a story get a picture? |
+| `08-charts.md` | When does a story get a chart? |
+| `09-social.md` | What does the post that sells a story look like? |
+| `10-snippets.md` | What is a one-line snippet? |
+| `11-beat.md` | **What is interesting enough to run, and what leads?** |
 
 ## How this was derived
 

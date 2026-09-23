@@ -40,6 +40,12 @@ jobs:
       - name: Collect the wire
         run: python -m pipeline.wire --hours 24
 
+      # Finds: trending models, Spaces and papers on Hugging Face, AI stories
+      # and Show HN launches on Hacker News. Free, no key. This is where the
+      # interesting material is; see style/11-beat.md.
+      - name: Collect finds
+        run: python -m pipeline.discover || echo "::warning::discovery failed; running on the wire alone"
+
       - name: Today
         id: day
         run: echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
@@ -56,9 +62,12 @@ jobs:
           # mark and asks only for what is newer than the last run. Without
           # it each run re-buys the same posts; at this cadence that is the
           # difference between paying once and paying twelve times.
+          #
+          # --budget caps the whole cycle at 100 posts, split between the
+          # account sweep and the repo query in config/discover.yaml.
           python -m pipeline.xsearch \
-            --sources 100 --state data/state/xsearch.json \
-            --limit 100 --out data/raw/x-$(date -u +%Y%m%dT%H%M%SZ).jsonl
+            --sources 100 --budget 100 --state data/state/xsearch.json \
+            --out data/raw/x-$(date -u +%Y%m%dT%H%M%SZ).jsonl
 
       - name: Declare stories
         run: python -m pipeline.cluster
@@ -71,7 +80,7 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: "/hourly"
           claude_args: >-
-            --allowedTools Read,Write,Edit,
+            --allowedTools Read,Write,Edit,WebFetch,
             Bash(python -m pipeline.merge),
             Bash(python -m pipeline.stylecheck),
             Bash(python -m pipeline.charts_ds)

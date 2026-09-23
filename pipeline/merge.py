@@ -15,6 +15,12 @@ leading keeps leading unless a human moves it. New stories enter the front,
 the front is capped at the configured slot count, and what overflows drops to
 inside, oldest first.
 
+One exception. A new story the desk marks `"promote": true` -- a frontier
+model, a major open-weights release, the thing everyone will be talking about
+-- takes the lead, and the old lead moves to the top of the front. Moving a
+story changes where it sits, never its URL, so posts already sent still
+resolve. At most MAX_PROMOTIONS a day, so the lead cannot churn every cycle.
+
 Usage:
     python -m pipeline.merge --edition data/editions/2026-09-21.json \\
                              --new data/editions/2026-09-21.new.json
@@ -39,6 +45,9 @@ LAST_RUN = DATA_DIR / "state" / "last_run.json"
 # head new 'AI Force'" scores 0.50.
 SAME_STORY = 0.45
 MIN_SHARED_TOKENS = 2
+
+# How many times a day a new story may take the lead. See the module docstring.
+MAX_PROMOTIONS = 3
 
 
 def _key(story: dict) -> str:
@@ -122,6 +131,26 @@ def merge(edition: dict, incoming: list[dict], front_slots: int) -> tuple[dict, 
 
     lead = next((s for s in existing if s.get("placement") == "lead"), None)
     rest = [s for s in existing if s is not lead]
+
+    # A promoted story takes the lead; the old lead heads the front below it.
+    promoted = next((s for s in fresh if s.pop("promote", False)), None)
+    for story in fresh:
+        story.pop("promote", None)
+    history = edition.get("lead_changes", [])
+    if promoted is not None and lead is None:
+        promoted = None                 # nothing to displace; it leads anyway
+    if promoted is not None and len(history) < MAX_PROMOTIONS:
+        edition["lead_changes"] = history
+        fresh = [lead] + [s for s in fresh if s is not promoted]   # old lead heads the front
+        history.append({"cluster_id": _key(promoted), "replaced": _key(lead)})
+        lead = promoted
+        promoted_note = f"promoted to lead: {_key(promoted)}"
+    elif promoted is not None:
+        promoted_note = f"not promoted: {MAX_PROMOTIONS} lead changes already today"
+    else:
+        promoted_note = ""
+    if promoted_note:
+        print(f"  lead:    {promoted_note}")
 
     # New stories sit directly under the lead, newest first, then everything
     # that was already there keeps its relative order beneath them.
