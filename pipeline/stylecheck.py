@@ -350,10 +350,10 @@ def check_snippet(item: dict, index: int) -> Report:
         report.error("text: ends on a question")
     flag_banned(text, report, "text")
 
+    # Optional for now: the desk files the one line only. When the newsletter
+    # goes live it will need `why`, and this becomes an error again.
     why = (item.get("why") or "").strip()
-    if not why:
-        report.error("why: missing — the newsletter needs the line of context")
-    else:
+    if why:
         n = len(words(why))
         low, high = SNIPPET_WHY_WORDS
         if n < low or n > high:

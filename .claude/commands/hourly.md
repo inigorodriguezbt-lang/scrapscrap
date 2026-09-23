@@ -94,7 +94,20 @@ While reading the brief and the posts, you will pass things that are worth
 knowing but too small for a story: a version bump, a price change, a benchmark
 number, a repo getting attention, one sourced line worth keeping. Do not throw
 them away. File them as snippets, per `style/10-snippets.md`, in
-`data/snippets/<today>.new.json`. Each needs its `why` written at the same time.
+`data/snippets/<today>.new.json`.
+
+A snippet is **one line**: the headline, 10 to 40 words, saying what happened
+and who says so, plus the source's name and link. Nothing more for now.
+
+```json
+{"snippets": [
+  {"text": "vLLM shipped version 0.30.0, built from 762 commits by 315 contributors, 104 of them first-timers.",
+   "source": {"name": "vLLM", "url": "https://x.com/vllm_project/status/2102593516740411733"},
+   "published_at": "2026-09-23T10:18:53+00:00"}
+]}
+```
+
+`published_at` is the source's timestamp, not the time you file it.
 
 Check them before you finish:
 
