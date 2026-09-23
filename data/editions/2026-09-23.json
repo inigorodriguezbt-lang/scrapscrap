@@ -1,446 +1,568 @@
 {
-  "edition_date": "2026-09-23",
-  "stories": [
+ "edition_date": "2026-09-23",
+ "stories": [
+  {
+   "cluster_id": "eviltokens-takedown",
+   "section": "security",
+   "headline": "Microsoft seizes 50 sites behind phishing kit that took 12,000 inboxes",
+   "standfirst": "Microsoft said EvilTokens sold device-code phishing for $1,500 and a $500 monthly fee, and that about 1,000 criminals used it before the takedown.",
+   "body": [
+    "Microsoft said it disrupted EvilTokens, a phishing service that compromised more than 12,000 email inboxes at over 10,000 organisations worldwide. Acting on a 15 September order from the US District Court for the Eastern District of Virginia, the company and its partners seized 50 websites and disabled more than 175 domains, CyberScoop reported.",
+    "Ars Technica described EvilTokens as an end-to-end platform that makes mass compromises faster and easier. Microsoft said the service emerged in February 2026, and CyberScoop reported that about 1,000 criminals used it between then and June. Its operators charged $1,500 to buy in and $500 a month after that, according to Microsoft.",
+    "Microsoft said the kit sold AI features alongside the phishing. Assistants tailored lures and sifted through stolen mailboxes to pick out high-value targets, and the platform carried 44 email themes for building templates and landing pages. The description is Microsoft's own.",
+    "Health-ISAC, Cloudflare, OpenAI, Shadowserver, TRM Labs, SpyCloud and Coinbase joined the disruption, CyberScoop reported. UK Metropolitan Police arrested two men on 18 September in greater London on suspicion of making articles for use in fraud and money laundering. Police released both on bail.",
+    "Steven Masada, Microsoft's associate general counsel, said the takedown removed the infrastructure but not the model it demonstrated. Microsoft correlated at least 13 complaints to the FBI's Internet Crime Complaint Center with the service, worth about $1.7 million in reported losses. Coinbase traced about $1.1 million in revenue to the operators, according to CyberScoop."
+   ],
+   "entities": [
+    "Microsoft",
+    "OpenAI",
+    "Cloudflare",
+    "Coinbase"
+   ],
+   "sources": [
     {
-      "cluster_id": "eviltokens-takedown",
-      "section": "security",
-      "headline": "Microsoft seizes 50 sites behind phishing kit that took 12,000 inboxes",
-      "standfirst": "Microsoft said EvilTokens sold device-code phishing for $1,500 and a $500 monthly fee, and that about 1,000 criminals used it before the takedown.",
-      "body": [
-        "Microsoft said it disrupted EvilTokens, a phishing service that compromised more than 12,000 email inboxes at over 10,000 organisations worldwide. Acting on a 15 September order from the US District Court for the Eastern District of Virginia, the company and its partners seized 50 websites and disabled more than 175 domains, CyberScoop reported.",
-        "Ars Technica described EvilTokens as an end-to-end platform that makes mass compromises faster and easier. Microsoft said the service emerged in February 2026, and CyberScoop reported that about 1,000 criminals used it between then and June. Its operators charged $1,500 to buy in and $500 a month after that, according to Microsoft.",
-        "Microsoft said the kit sold AI features alongside the phishing. Assistants tailored lures and sifted through stolen mailboxes to pick out high-value targets, and the platform carried 44 email themes for building templates and landing pages. The description is Microsoft's own.",
-        "Health-ISAC, Cloudflare, OpenAI, Shadowserver, TRM Labs, SpyCloud and Coinbase joined the disruption, CyberScoop reported. UK Metropolitan Police arrested two men on 18 September in greater London on suspicion of making articles for use in fraud and money laundering. Police released both on bail.",
-        "Steven Masada, Microsoft's associate general counsel, said the takedown removed the infrastructure but not the model it demonstrated. Microsoft correlated at least 13 complaints to the FBI's Internet Crime Complaint Center with the service, worth about $1.7 million in reported losses. Coinbase traced about $1.1 million in revenue to the operators, according to CyberScoop."
-      ],
-      "entities": [
-        "Microsoft",
-        "OpenAI",
-        "Cloudflare",
-        "Coinbase"
-      ],
-      "sources": [
-        {
-          "author": "Microsoft Security Blog",
-          "tier": "primary",
-          "kind": "article",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
-          "at": "22 Sep"
-        },
-        {
-          "author": "Ars Technica",
-          "tier": "press",
-          "kind": "article",
-          "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-          "at": "22 Sep"
-        },
-        {
-          "author": "CyberScoop",
-          "tier": "press",
-          "kind": "article",
-          "url": "https://cyberscoop.com/microsoft-eviltokens-cybercrime-service-takedown/",
-          "at": "22 Sep"
-        }
-      ],
-      "placement": "lead"
+     "author": "Microsoft Security Blog",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+     "at": "22 Sep"
     },
     {
-      "cluster_id": "taiwan-august-export-orders",
-      "section": "chips",
-      "headline": "Taiwan export orders reach $102.96 billion in August, ministry says",
-      "standfirst": "Taiwan's Ministry of Economic Affairs put August export orders 71.4 percent above a year earlier, the first month above $100 billion.",
-      "body": [
-        "Taiwan's Ministry of Economic Affairs said August export orders came to $102.96 billion, 71.4 percent above the same month a year earlier. The figure is the first monthly total above $100 billion, and passes the previous record of $97.94 billion set in July.",
-        "Taiwan's Central News Agency reported the ministry's numbers and attributed the rise to demand for AI servers and to work by large US cloud providers on their own application-specific chips. The Commercial Times carried the same figures, according to the account SemiconductorsX, which posted them on Wednesday.",
-        "Electronics orders came to $45.75 billion, up 83.9 percent, and information and communication products to $34.21 billion, up 100.5 percent, the agency reported. The two categories together account for about 78 percent of the month's orders. The ministry did not break either total down by customer.",
-        "The ministry forecast September orders of $106.0 billion to $109.1 billion, a range it put at 50.7 to 55.1 percent above a year earlier, and said the full year could reach $1.1 trillion against $743.73 billion in 2025. Export orders record demand booked rather than goods shipped, and may not convert in the same month."
-      ],
-      "entities": [
-        "Taiwan",
-        "Ministry of Economic Affairs"
-      ],
-      "sources": [
-        {
-          "author": "Focus Taiwan",
-          "url": "https://focustaiwan.tw/business/202609220025"
-        },
-        {
-          "author": "SemiconductorsX",
-          "url": "https://x.com/SemiconductorsX/status/2102589511264063966"
-        },
-        {
-          "author": "Commercial Times",
-          "url": "https://www.ctee.com.tw/news/20260923700060-430102"
-        }
-      ],
-      "placement": "front"
+     "author": "Ars Technica",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+     "at": "22 Sep"
     },
     {
-      "cluster_id": "carnegie-ai-talent-race",
-      "section": "research",
-      "headline": "Carnegie report traces 57% of elite AI researchers to Chinese degrees",
-      "standfirst": "The share of top AI researchers who took an undergraduate degree in China rose from 27 percent in 2022, the report says.",
-      "body": [
-        "A report published this week by Carnegie China said 57 percent of the world's elite AI researchers took their undergraduate degree in China in 2025, against 27 percent in 2022. The share holding a US undergraduate degree fell from 46 percent to 13 percent over the same three years.",
-        "The report is the work of Damien Ma and Binyi Yang. Two accounts circulated the figures on Wednesday. The researcher Kyle Chan linked the report itself. The account teortaxesTex posted a different pair of numbers, giving the 2022 Chinese share as 46 percent and the US share as 20 percent. The report's own figures are 27 and 46.",
-        "Where researchers trained and where they work are separate counts. The report put 41 percent of AI researchers working in the United States in 2025 against 34 percent in China, and said Chinese retention rose from 57 percent in 2022 to 69 percent in 2025. US retention was 89 percent.",
-        "The flow still runs one way, the report said, counting 30 China-origin researchers working in the United States for every one US-origin researcher working in China. Origin here means the country of a researcher's undergraduate degree, a proxy that may not match nationality or where someone grew up.",
-        "The report also gives a net US gain of 2,145 researchers in 2025 and a net Chinese loss of 1,729. It sets those counts beside the rising Chinese retention figure without reconciling the two in its summary, and does not say how the researcher sample was drawn."
-      ],
-      "entities": [
-        "Carnegie China",
-        "China",
-        "United States"
-      ],
-      "sources": [
-        {
-          "author": "Carnegie China",
-          "url": "https://carnegieendowment.org/features/whos-ahead-in-the-global-ai-talent-race"
-        },
-        {
-          "author": "kyleichan",
-          "url": "https://x.com/kyleichan/status/2102589367181042106"
-        },
-        {
-          "author": "teortaxesTex",
-          "url": "https://x.com/teortaxesTex/status/2102605744763818116"
-        }
-      ],
-      "placement": "front"
-    },
-    {
-      "cluster_id": "anthropic-stream-apollo-talks",
-      "section": "business",
-      "headline": "Anthropic in talks for 1 gigawatt of Apollo-backed compute, report says",
-      "standfirst": "The Information reported early talks to lease capacity from Stream, a data centre developer majority-owned by Apollo Global Management.",
-      "body": [
-        "Anthropic is in early talks to lease up to a gigawatt of compute capacity from Stream, a data centre developer majority-owned by Apollo Global Management, The Information reported this week. Neither company has announced an agreement, and the report describes the talks as early.",
-        "The story carries the byline of Amir Efrati, who posted it on Wednesday, and the account rohanpaul_ai summarised it the same day. Both trace to the same outlet. The talks rest on that single report, and no party to them has confirmed the capacity figure in public.",
-        "Apollo said in 2025 that Stream controlled more than 4 gigawatts of powered land, according to the report. Anthropic could fill the sites with Google TPUs co-designed with Broadcom, the report said, and Nvidia GPUs are also under discussion.",
-        "A direct lease would move Anthropic past part of the cloud-provider layer it has used to date. That could give the company more say over chip supply, hardware configuration and cost, the report said, while shifting more of the financing and the operating work onto Anthropic itself.",
-        "Neither account gives a figure for what the lease would cost or when the two sides might sign. The report describes the gigawatt as an upper bound on what the talks cover rather than a contracted amount, and does not say how much of Stream's land it would take up."
-      ],
-      "entities": [
-        "Anthropic",
-        "Apollo Global Management",
-        "Stream",
-        "Google",
-        "Broadcom",
-        "Nvidia"
-      ],
-      "sources": [
-        {
-          "author": "amir",
-          "url": "https://x.com/amir/status/2102584936306008443"
-        },
-        {
-          "author": "rohanpaul_ai",
-          "url": "https://x.com/rohanpaul_ai/status/2102604124282093956"
-        },
-        {
-          "author": "The Information",
-          "url": "https://www.theinformation.com/articles/anthropic-talks-cement-control-data-centers"
-        }
-      ],
-      "placement": "front"
-    },
-    {
-      "cluster_id": "alibaba-europe-cloud-regions",
-      "section": "chips",
-      "headline": "Alibaba to open first cloud regions in Turkey, Finland and Netherlands",
-      "standfirst": "Bloomberg reported the three sites will open within 12 months, as part of a global buildout Alibaba puts at 20 gigawatts.",
-      "body": [
-        "Alibaba said it plans to open its first cloud regions in Turkey, Finland and the Netherlands over the next 12 months, Bloomberg reported on Wednesday. The company is adding data centre capacity in the Middle East as well, according to the same report.",
-        "Bloomberg's account was carried the same day by Techmeme and by Bloomberg's own account on X, both pointing at the one story. No second publication has the plan, so the country list and the timing rest on a single outlet's reporting.",
-        "The 20-gigawatt figure is Alibaba's own and describes a global buildout rather than the three new regions. It may include capacity already running. Bloomberg gave no capacity figure for Turkey, Finland or the Netherlands, and no cost for the three sites.",
-        "Bloomberg set the expansion against competition between China and the United States in AI chips and models. That framing is the outlet's rather than a statement from Alibaba, and the report does not say the new regions answer any particular US measure. A cloud region is a company's own unit of account and may cover more than one building."
-      ],
-      "entities": [
-        "Alibaba",
-        "Turkey",
-        "Finland",
-        "Netherlands"
-      ],
-      "sources": [
-        {
-          "author": "business",
-          "url": "https://x.com/business/status/2102607652920455567"
-        },
-        {
-          "author": "Techmeme",
-          "url": "https://x.com/Techmeme/status/2102594149463863730"
-        },
-        {
-          "author": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-23/alibaba-to-add-data-centers-in-europe-middle-east-in-ai-push"
-        }
-      ],
-      "placement": "front"
-    },
-    {
-      "cluster_id": "valsai-mimo-v26-index-top",
-      "section": "research",
-      "headline": "Vals AI puts Xiaomi's MiMo v2.6 Pro and Flash top of open-weight index",
-      "standfirst": "The evaluator priced the two models at $0.39 and $0.20 per task, against $6.47 for Kimi K3, and said both sit on its cost frontier.",
-      "body": [
-        "Vals AI said Xiaomi's MiMo V2.6 Pro and Flash are the new first and second open-weight models on the Vals Index. The evaluator posted the results early on Wednesday, a day after Xiaomi released the two models. It put the gain over their predecessor, MiMo v2.5, at 19 to 20 points on the index score.",
-        "The figures are the evaluator's own, from runs it conducted, and the paper has not reproduced them. Vals AI said Flash costs $0.20 per task and Pro $0.39, and that both score higher than Kimi K3 at $6.47 and GLM 5.3 at $6.73. That puts the cost gap at 17 to 34 times, according to its posts.",
-        "Vals AI put the two models within 0.04 points of each other overall, at 59.73 and 59.69. The order in which it gave those figures would place Flash above Pro, which does not sit easily with ranking Pro first. The evaluator did not say which score belongs to which model.",
-        "Pro is better at finance, Vibe Code Bench, Code Migration and Legal Research, Vals AI said, and Flash better at Terminal-Bench and EMB. It called Flash the better terminal-agent model at half the price. Both score under 45 on Code Migration, where the evaluator put the frontier at 55 to 68.",
-        "The models were run on Xiaomi's default provider settings, at temperature 1 and top-p 0.95, Vals AI said. It gave the context window as 1 million tokens and maximum output as 128,000. Neither Xiaomi nor Vals AI has published the task mix behind the index, so the ordering may not hold on a particular workload."
-      ],
-      "entities": [
-        "Xiaomi",
-        "Vals AI",
-        "MiMo V2.6",
-        "Kimi K3",
-        "GLM 5.3"
-      ],
-      "sources": [
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102553413087371719",
-          "at": "23 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102553415473918261",
-          "at": "23 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102553418145685650",
-          "at": "23 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102553420435787922",
-          "at": "23 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102553421706600704",
-          "at": "23 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102553422994255951",
-          "at": "23 Sep"
-        }
-      ],
-      "placement": "front"
-    },
-    {
-      "cluster_id": "msft-copilot-discounts",
-      "section": "business",
-      "headline": "Microsoft plans Copilot discounts of up to 50%, The Information says",
-      "standfirst": "Four market accounts relayed the report within minutes of each other on Tuesday, and they differ on the size of the cut.",
-      "body": [
-        "Microsoft is preparing discounts of 30% to 50% on corporate Copilot subscriptions, The Information reported on Tuesday. The outlet tied the cuts to a new Copilot \"super app\" that brings coding tools and AI agents together, according to accounts relaying the report.",
-        "The relays do not agree on the figure. Wall St Engine put the range at 30% to 50%. StockSavvyShay put it at about 40% and said it applies to large enterprise customers. First Squawk and Financial Juice carried the headline without a number.",
-        "All four accounts rest on the same report, and none of them cites the article's detail. Microsoft has not commented on the pricing, and the paper has not seen The Information's piece. No start date for the discounts appears in any of the summaries.",
-        "The Information separately reported that software companies are cutting prices to drive AI adoption, with longer free trials, more AI credits and straight discounts. That piece is about the sector rather than Microsoft, and the outlet did not link the two."
-      ],
-      "entities": [
-        "Microsoft"
-      ],
-      "sources": [
-        {
-          "author": "@wallstengine",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/wallstengine/status/2102546360700654050",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@StockSavvyShay",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/StockSavvyShay/status/2102548234480828534",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@FirstSquawk",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/FirstSquawk/status/2102543900091224244",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@financialjuice",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/financialjuice/status/2102543769820426434",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@theinformation",
-          "tier": "press",
-          "kind": "post",
-          "url": "https://x.com/theinformation/status/2102545852556312856",
-          "at": "22 Sep"
-        }
-      ],
-      "placement": "front"
-    },
-    {
-      "cluster_id": "aa-cost-per-task-opus55-gpt6",
-      "section": "research",
-      "headline": "Artificial Analysis puts Opus 5.5 at $5.98 per task, near Opus 5",
-      "standfirst": "The evaluator said a 20% price cut and cheaper cache reads offset a token-usage increase that would otherwise have pushed the figure to $10.51.",
-      "body": [
-        "Artificial Analysis said Claude Opus 5.5 costs $5.98 to run its Intelligence Index, against $5.86 for Opus 5, both at maximum reasoning. The evaluator published the figures on Tuesday, hours after Anthropic released the model. It said the two are similar.",
-        "Getting there took two price cuts against one increase, Artificial Analysis said. Opus 5.5 uses more tokens than Opus 5, which on its own would have raised cost per task by about 80%, to $10.51. Anthropic's 20% cut to base prices brought that to $8.41.",
-        "Cutting cache reads to $0.20 per million tokens took a further 29% off, the evaluator said, landing at $5.98. The 29% is a further cut on top of the base-price reduction, not a restatement of it. PhotonCap put the cache-read cut at 60% against Opus 5, according to its summary of Anthropic's announcement.",
-        "On OpenAI's side, Artificial Analysis said GPT-6 Sol and Luna halve the cost of the models they replace while scoring about the same on its index. It put the driver at a roughly 50% reduction in token pricing rather than any change in how much the models write.",
-        "Simon Willison, who writes about language models, said GPT-6 Luna is half the price of GPT-5.6 Luna, which he had called cheap. These numbers may not hold for a particular workload, since the index is one evaluator's own mix of tasks."
-      ],
-      "entities": [
-        "Anthropic",
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "author": "@ArtificialAnlys",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ArtificialAnlys/status/2102541956014657615",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@ArtificialAnlys",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ArtificialAnlys/status/2102527962201624915",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@PhotonCap",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/PhotonCap/status/2102546106060283914",
-          "at": "22 Sep"
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "kind": "article",
-          "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-          "at": "22 Sep"
-        }
-      ],
-      "placement": "front"
-    },
-    {
-      "cluster_id": "openai-gpt6-prompt-caching",
-      "section": "products",
-      "headline": "OpenAI adds cache breakpoints and prewarming to GPT-6 prompt caching",
-      "standfirst": "The company said the changes raise hit rates and cut latency, and that reasoning changes no longer throw away a cached prefix.",
-      "body": [
-        "OpenAI said it has changed how prompt caching works for GPT-6, adding higher cache hit rates, new diagnostics, explicit breakpoints and prewarming. The company published the changes on Tuesday evening, hours after launching GPT-6 Sol and Luna.",
-        "Rohan Paul, who summarises AI papers and releases, said the point is long-running agents that resend instructions, tool definitions and context on every turn. OpenAI's own page frames the changes the same way, as controls that reduce latency and cost.",
-        "The figures are not there. OpenAI's announcement names the features without putting a number on the hit-rate gain, the latency saving or the discount on cached tokens. Neither account gives a figure, and the paper has not tested the behaviour.",
-        "Prompt caching cuts what a developer pays to resend the same prefix, so the changes may matter most to agent builders running long tool loops. Whether the higher hit rates arrive in practice rests on OpenAI's description, which is the only account of them so far."
-      ],
-      "entities": [
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "kind": "article",
-          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@rohanpaul_ai",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/rohanpaul_ai/status/2102541845679255986",
-          "at": "22 Sep"
-        }
-      ],
-      "placement": "inside"
-    },
-    {
-      "cluster_id": "rabbit-os3-standalone",
-      "section": "products",
-      "headline": "Rabbit releases cloud agent that runs without its R1 device",
-      "standfirst": "The company said OS3 runs in the cloud but acts locally on Windows, Mac and Linux machines, and Wired had the story first.",
-      "body": [
-        "Rabbit is rolling out a standalone AI agent that does not need the company's R1 hardware, The Verge reported on Tuesday. Rabbit calls it OS3, an \"agentic operating system\" that runs in the cloud while operating locally across Windows, Mac and Linux devices.",
-        "Wired had the story first, according to The Verge, which credited the earlier report. The Verge called the R1 underwhelming in its own description of the company. Rabbit's claims about what OS3 can do are the company's own.",
-        "No price, no launch date and no model provider appear in the summary the paper has. Rabbit has not published figures on what OS3 costs or which models it calls, and neither outlet's account of the rollout gives a start date.",
-        "Agent products that run across a user's own machines raise the question of what permissions they hold on the machine. Neither account describes what access OS3 asks for, and Rabbit has not published that detail. The paper has not run it."
-      ],
-      "entities": [
-        "Rabbit"
-      ],
-      "sources": [
-        {
-          "author": "The Verge",
-          "tier": "press",
-          "kind": "article",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-          "at": "22 Sep"
-        }
-      ],
-      "placement": "inside"
-    },
-    {
-      "cluster_id": "valsai-ling-30-flash-fin",
-      "section": "models",
-      "headline": "Vals AI scores Ant Group's Ling 3.0 Flash Fin at 54.9% on finance test",
-      "standfirst": "The evaluator put the model fourth among open-weight entries and said it costs $0.045 per task, the cheapest in the top 20.",
-      "body": [
-        "Vals AI said Ant Group's Ling 3.0 Flash Fin scores 54.9% on its Finance Agent v2 benchmark, at $0.045 per task. The evaluator ranked the model fourth among open-weight entries and 16th overall, and called it the cheapest in the top 20 by a wide margin.",
-        "Vals AI put the score within one point of GPT-5.6 Terra and Claude Sonnet 5, at roughly 25 to 75 times less per task. Those comparisons come from the evaluator's own runs, according to its posts, and the paper has not reproduced them.",
-        "The model is specialised, not stronger overall, Vals AI said. LegalBench falls from 79.7% to 68.7%, MedScribe from 80.9% to 75.6% and MedCode from 32.3% to 29.3%. The evaluator did not name the model those declines compare with, and gave no dates for the runs.",
-        "Long-horizon coding is where the model falls away, on the evaluator's numbers. It scores 3.4% on Vibe Code Bench, 2.9% on Code Migration and zero on HLAB. Vals AI gave no figure for how rivals score on those three.",
-        "Open-weight finance models that price this low could change what a bank pays for routine analysis, if the scores hold outside one evaluator's harness. Neither Ant Group nor Vals AI has published the task mix behind Finance Agent v2."
-      ],
-      "entities": [
-        "Ant Group",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "sources": [
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102535475240350101",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102535478180549048",
-          "at": "22 Sep"
-        },
-        {
-          "author": "@ValsAI",
-          "tier": "commentary",
-          "kind": "post",
-          "url": "https://x.com/ValsAI/status/2102535486187458662",
-          "at": "22 Sep"
-        }
-      ],
-      "placement": "inside"
+     "author": "CyberScoop",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://cyberscoop.com/microsoft-eviltokens-cybercrime-service-takedown/",
+     "at": "22 Sep"
     }
-  ]
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "sasac-broadcom-switch-survey",
+   "section": "chips",
+   "headline": "China surveys Broadcom switch use in state data centres, FT says",
+   "standfirst": "Beijing's state-assets regulator counted the switches in state-controlled facilities and could issue informal guidance to cut their use, according to the Financial Times.",
+   "body": [
+    "China's State-owned Assets Supervision and Administration Commission has surveyed the number of Broadcom switches running in state-backed data centres, the Financial Times reported on Wednesday. The newspaper tied the survey to a campaign to move state computing onto domestic parts.",
+    "Reuters and Techmeme both carried the report on Wednesday without adding independent confirmation, and the paper has seen no comment from Broadcom or from the commission. The Financial Times said preliminary findings put Broadcom switches at as much as 90% of the equipment in use, a share no other outlet has published.",
+    "On those findings the commission may issue informal guidance telling state-run data centres to scale back their use of the switches, the Financial Times said. Informal guidance is not a ban. The report did not give a timetable, name the facilities covered, or say how many sites the survey reached.",
+    "Nvidia products are already barred from state-backed data centres, according to the report, which leaves switches among the last large categories of American hardware still widely installed in them. The material available carries no figure for Broadcom's revenue from Chinese state buyers, and the 90% share describes equipment counted, not money.",
+    "Two accounts summarising the report on X framed it as part of a push for full-stack hardware independence in China. That framing is theirs. The Financial Times report, as relayed, describes a survey and possible guidance, not a decision to pull the switches out."
+   ],
+   "entities": [
+    "Broadcom",
+    "SASAC",
+    "Nvidia",
+    "Financial Times"
+   ],
+   "sources": [
+    {
+     "author": "@FT",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/FT/status/2102613977079423058",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@Reuters",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/Reuters/status/2102631607345557680",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@Techmeme",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/Techmeme/status/2102640579935142316",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@rohanpaul_ai",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/rohanpaul_ai/status/2102630585269456908",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@Kalshi",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/Kalshi/status/2102629029480141002",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@jukan05",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/jukan05/status/2102623753582883049",
+     "at": "23 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "valsai-gpt6-sol-index",
+   "section": "research",
+   "headline": "Vals AI puts GPT-6 Sol 8th on its index at half the cost",
+   "standfirst": "The evaluator said the model scores about level with GPT-5.6 Sol while OpenAI has halved its per-token price, and that it slips on finance, tax and law.",
+   "body": [
+    "Vals AI said GPT-6 Sol ranks 8th on the Vals Index, about level with GPT-5.6 Sol at half the cost. The evaluator posted the results on Wednesday, a day after OpenAI released GPT-6 Sol and GPT-6 Luna. It gave no overall index score in the posts.",
+    "The figures are the evaluator's own, from runs it conducted, and the paper has not reproduced them. Vals AI said it ran the model on OpenAI's default provider settings, leaving temperature, top-p and top-k at their defaults and setting reasoning effort to maximum.",
+    "The gains are in code. Vals AI put GPT-6 Sol 7 points above GPT-5.6 Sol on its Vibe Code test and 5 points above on Code Migration. It said the model regresses on several of its knowledge-work benchmarks, among them finance, tax and law, which it said reward completeness of answer.",
+    "On BioMysteryBench, an open-source benchmark for agentic biology tasks, Vals AI placed GPT-6 Sol 4th at 74.8%, behind three models tied at 79.3%. It put the cost at $0.66 per test and called that cost-effective. The evaluator did not name the three models above it.",
+    "Vals AI gave the context window as 1 million tokens and maximum output as 128,000. It said OpenAI has cut per-token pricing by half, from $4 and $20 per million to $2 and $10. Vals AI has not published the task mix behind the index, so the ranking may not hold on a particular workload."
+   ],
+   "entities": [
+    "Vals AI",
+    "OpenAI",
+    "GPT-6 Sol",
+    "GPT-5.6 Sol",
+    "GPT-6 Luna"
+   ],
+   "sources": [
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102629857972932819",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102629861596770804",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102629864540950705",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102629867309449533",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102629868580286593",
+     "at": "23 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "taiwan-august-export-orders",
+   "section": "chips",
+   "headline": "Taiwan export orders reach $102.96 billion in August, ministry says",
+   "standfirst": "Taiwan's Ministry of Economic Affairs put August export orders 71.4 percent above a year earlier, the first month above $100 billion.",
+   "body": [
+    "Taiwan's Ministry of Economic Affairs said August export orders came to $102.96 billion, 71.4 percent above the same month a year earlier. The figure is the first monthly total above $100 billion, and passes the previous record of $97.94 billion set in July.",
+    "Taiwan's Central News Agency reported the ministry's numbers and attributed the rise to demand for AI servers and to work by large US cloud providers on their own application-specific chips. The Commercial Times carried the same figures, according to the account SemiconductorsX, which posted them on Wednesday.",
+    "Electronics orders came to $45.75 billion, up 83.9 percent, and information and communication products to $34.21 billion, up 100.5 percent, the agency reported. The two categories together account for about 78 percent of the month's orders. The ministry did not break either total down by customer.",
+    "The ministry forecast September orders of $106.0 billion to $109.1 billion, a range it put at 50.7 to 55.1 percent above a year earlier, and said the full year could reach $1.1 trillion against $743.73 billion in 2025. Export orders record demand booked rather than goods shipped, and may not convert in the same month."
+   ],
+   "entities": [
+    "Taiwan",
+    "Ministry of Economic Affairs"
+   ],
+   "sources": [
+    {
+     "author": "Focus Taiwan",
+     "url": "https://focustaiwan.tw/business/202609220025"
+    },
+    {
+     "author": "SemiconductorsX",
+     "url": "https://x.com/SemiconductorsX/status/2102589511264063966"
+    },
+    {
+     "author": "Commercial Times",
+     "url": "https://www.ctee.com.tw/news/20260923700060-430102"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "carnegie-ai-talent-race",
+   "section": "research",
+   "headline": "Carnegie report traces 57% of elite AI researchers to Chinese degrees",
+   "standfirst": "The share of top AI researchers who took an undergraduate degree in China rose from 27 percent in 2022, the report says.",
+   "body": [
+    "A report published this week by Carnegie China said 57 percent of the world's elite AI researchers took their undergraduate degree in China in 2025, against 27 percent in 2022. The share holding a US undergraduate degree fell from 46 percent to 13 percent over the same three years.",
+    "The report is the work of Damien Ma and Binyi Yang. Two accounts circulated the figures on Wednesday. The researcher Kyle Chan linked the report itself. The account teortaxesTex posted a different pair of numbers, giving the 2022 Chinese share as 46 percent and the US share as 20 percent. The report's own figures are 27 and 46.",
+    "Where researchers trained and where they work are separate counts. The report put 41 percent of AI researchers working in the United States in 2025 against 34 percent in China, and said Chinese retention rose from 57 percent in 2022 to 69 percent in 2025. US retention was 89 percent.",
+    "The flow still runs one way, the report said, counting 30 China-origin researchers working in the United States for every one US-origin researcher working in China. Origin here means the country of a researcher's undergraduate degree, a proxy that may not match nationality or where someone grew up.",
+    "The report also gives a net US gain of 2,145 researchers in 2025 and a net Chinese loss of 1,729. It sets those counts beside the rising Chinese retention figure without reconciling the two in its summary, and does not say how the researcher sample was drawn."
+   ],
+   "entities": [
+    "Carnegie China",
+    "China",
+    "United States"
+   ],
+   "sources": [
+    {
+     "author": "Carnegie China",
+     "url": "https://carnegieendowment.org/features/whos-ahead-in-the-global-ai-talent-race"
+    },
+    {
+     "author": "kyleichan",
+     "url": "https://x.com/kyleichan/status/2102589367181042106"
+    },
+    {
+     "author": "teortaxesTex",
+     "url": "https://x.com/teortaxesTex/status/2102605744763818116"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "anthropic-stream-apollo-talks",
+   "section": "business",
+   "headline": "Anthropic in talks for 1 gigawatt of Apollo-backed compute, report says",
+   "standfirst": "The Information reported early talks to lease capacity from Stream, a data centre developer majority-owned by Apollo Global Management.",
+   "body": [
+    "Anthropic is in early talks to lease up to a gigawatt of compute capacity from Stream, a data centre developer majority-owned by Apollo Global Management, The Information reported this week. Neither company has announced an agreement, and the report describes the talks as early.",
+    "The story carries the byline of Amir Efrati, who posted it on Wednesday, and the account rohanpaul_ai summarised it the same day. Both trace to the same outlet. The talks rest on that single report, and no party to them has confirmed the capacity figure in public.",
+    "Apollo said in 2025 that Stream controlled more than 4 gigawatts of powered land, according to the report. Anthropic could fill the sites with Google TPUs co-designed with Broadcom, the report said, and Nvidia GPUs are also under discussion.",
+    "A direct lease would move Anthropic past part of the cloud-provider layer it has used to date. That could give the company more say over chip supply, hardware configuration and cost, the report said, while shifting more of the financing and the operating work onto Anthropic itself.",
+    "Neither account gives a figure for what the lease would cost or when the two sides might sign. The report describes the gigawatt as an upper bound on what the talks cover rather than a contracted amount, and does not say how much of Stream's land it would take up."
+   ],
+   "entities": [
+    "Anthropic",
+    "Apollo Global Management",
+    "Stream",
+    "Google",
+    "Broadcom",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "amir",
+     "url": "https://x.com/amir/status/2102584936306008443"
+    },
+    {
+     "author": "rohanpaul_ai",
+     "url": "https://x.com/rohanpaul_ai/status/2102604124282093956"
+    },
+    {
+     "author": "The Information",
+     "url": "https://www.theinformation.com/articles/anthropic-talks-cement-control-data-centers"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "alibaba-europe-cloud-regions",
+   "section": "chips",
+   "headline": "Alibaba to open first cloud regions in Turkey, Finland and Netherlands",
+   "standfirst": "Bloomberg reported the three sites will open within 12 months, as part of a global buildout Alibaba puts at 20 gigawatts.",
+   "body": [
+    "Alibaba said it plans to open its first cloud regions in Turkey, Finland and the Netherlands over the next 12 months, Bloomberg reported on Wednesday. The company is adding data centre capacity in the Middle East as well, according to the same report.",
+    "Bloomberg's account was carried the same day by Techmeme and by Bloomberg's own account on X, both pointing at the one story. No second publication has the plan, so the country list and the timing rest on a single outlet's reporting.",
+    "The 20-gigawatt figure is Alibaba's own and describes a global buildout rather than the three new regions. It may include capacity already running. Bloomberg gave no capacity figure for Turkey, Finland or the Netherlands, and no cost for the three sites.",
+    "Bloomberg set the expansion against competition between China and the United States in AI chips and models. That framing is the outlet's rather than a statement from Alibaba, and the report does not say the new regions answer any particular US measure. A cloud region is a company's own unit of account and may cover more than one building."
+   ],
+   "entities": [
+    "Alibaba",
+    "Turkey",
+    "Finland",
+    "Netherlands"
+   ],
+   "sources": [
+    {
+     "author": "business",
+     "url": "https://x.com/business/status/2102607652920455567"
+    },
+    {
+     "author": "Techmeme",
+     "url": "https://x.com/Techmeme/status/2102594149463863730"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-23/alibaba-to-add-data-centers-in-europe-middle-east-in-ai-push"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "valsai-mimo-v26-index-top",
+   "section": "research",
+   "headline": "Vals AI puts Xiaomi's MiMo v2.6 Pro and Flash top of open-weight index",
+   "standfirst": "The evaluator priced the two models at $0.39 and $0.20 per task, against $6.47 for Kimi K3, and said both sit on its cost frontier.",
+   "body": [
+    "Vals AI said Xiaomi's MiMo V2.6 Pro and Flash are the new first and second open-weight models on the Vals Index. The evaluator posted the results early on Wednesday, a day after Xiaomi released the two models. It put the gain over their predecessor, MiMo v2.5, at 19 to 20 points on the index score.",
+    "The figures are the evaluator's own, from runs it conducted, and the paper has not reproduced them. Vals AI said Flash costs $0.20 per task and Pro $0.39, and that both score higher than Kimi K3 at $6.47 and GLM 5.3 at $6.73. That puts the cost gap at 17 to 34 times, according to its posts.",
+    "Vals AI put the two models within 0.04 points of each other overall, at 59.73 and 59.69. The order in which it gave those figures would place Flash above Pro, which does not sit easily with ranking Pro first. The evaluator did not say which score belongs to which model.",
+    "Pro is better at finance, Vibe Code Bench, Code Migration and Legal Research, Vals AI said, and Flash better at Terminal-Bench and EMB. It called Flash the better terminal-agent model at half the price. Both score under 45 on Code Migration, where the evaluator put the frontier at 55 to 68.",
+    "The models were run on Xiaomi's default provider settings, at temperature 1 and top-p 0.95, Vals AI said. It gave the context window as 1 million tokens and maximum output as 128,000. Neither Xiaomi nor Vals AI has published the task mix behind the index, so the ordering may not hold on a particular workload."
+   ],
+   "entities": [
+    "Xiaomi",
+    "Vals AI",
+    "MiMo V2.6",
+    "Kimi K3",
+    "GLM 5.3"
+   ],
+   "sources": [
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102553413087371719",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102553415473918261",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102553418145685650",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102553420435787922",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102553421706600704",
+     "at": "23 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102553422994255951",
+     "at": "23 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "msft-copilot-discounts",
+   "section": "business",
+   "headline": "Microsoft plans Copilot discounts of up to 50%, The Information says",
+   "standfirst": "Four market accounts relayed the report within minutes of each other on Tuesday, and they differ on the size of the cut.",
+   "body": [
+    "Microsoft is preparing discounts of 30% to 50% on corporate Copilot subscriptions, The Information reported on Tuesday. The outlet tied the cuts to a new Copilot \"super app\" that brings coding tools and AI agents together, according to accounts relaying the report.",
+    "The relays do not agree on the figure. Wall St Engine put the range at 30% to 50%. StockSavvyShay put it at about 40% and said it applies to large enterprise customers. First Squawk and Financial Juice carried the headline without a number.",
+    "All four accounts rest on the same report, and none of them cites the article's detail. Microsoft has not commented on the pricing, and the paper has not seen The Information's piece. No start date for the discounts appears in any of the summaries.",
+    "The Information separately reported that software companies are cutting prices to drive AI adoption, with longer free trials, more AI credits and straight discounts. That piece is about the sector rather than Microsoft, and the outlet did not link the two."
+   ],
+   "entities": [
+    "Microsoft"
+   ],
+   "sources": [
+    {
+     "author": "@wallstengine",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/wallstengine/status/2102546360700654050",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@StockSavvyShay",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/StockSavvyShay/status/2102548234480828534",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@FirstSquawk",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/FirstSquawk/status/2102543900091224244",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@financialjuice",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/financialjuice/status/2102543769820426434",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@theinformation",
+     "tier": "press",
+     "kind": "post",
+     "url": "https://x.com/theinformation/status/2102545852556312856",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
+   "cluster_id": "aa-cost-per-task-opus55-gpt6",
+   "section": "research",
+   "headline": "Artificial Analysis puts Opus 5.5 at $5.98 per task, near Opus 5",
+   "standfirst": "The evaluator said a 20% price cut and cheaper cache reads offset a token-usage increase that would otherwise have pushed the figure to $10.51.",
+   "body": [
+    "Artificial Analysis said Claude Opus 5.5 costs $5.98 to run its Intelligence Index, against $5.86 for Opus 5, both at maximum reasoning. The evaluator published the figures on Tuesday, hours after Anthropic released the model. It said the two are similar.",
+    "Getting there took two price cuts against one increase, Artificial Analysis said. Opus 5.5 uses more tokens than Opus 5, which on its own would have raised cost per task by about 80%, to $10.51. Anthropic's 20% cut to base prices brought that to $8.41.",
+    "Cutting cache reads to $0.20 per million tokens took a further 29% off, the evaluator said, landing at $5.98. The 29% is a further cut on top of the base-price reduction, not a restatement of it. PhotonCap put the cache-read cut at 60% against Opus 5, according to its summary of Anthropic's announcement.",
+    "On OpenAI's side, Artificial Analysis said GPT-6 Sol and Luna halve the cost of the models they replace while scoring about the same on its index. It put the driver at a roughly 50% reduction in token pricing rather than any change in how much the models write.",
+    "Simon Willison, who writes about language models, said GPT-6 Luna is half the price of GPT-5.6 Luna, which he had called cheap. These numbers may not hold for a particular workload, since the index is one evaluator's own mix of tasks."
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "@ArtificialAnlys",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ArtificialAnlys/status/2102541956014657615",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@ArtificialAnlys",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ArtificialAnlys/status/2102527962201624915",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@PhotonCap",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/PhotonCap/status/2102546106060283914",
+     "at": "22 Sep"
+    },
+    {
+     "author": "Simon Willison",
+     "tier": "commentary",
+     "kind": "article",
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
+   "cluster_id": "openai-gpt6-prompt-caching",
+   "section": "products",
+   "headline": "OpenAI adds cache breakpoints and prewarming to GPT-6 prompt caching",
+   "standfirst": "The company said the changes raise hit rates and cut latency, and that reasoning changes no longer throw away a cached prefix.",
+   "body": [
+    "OpenAI said it has changed how prompt caching works for GPT-6, adding higher cache hit rates, new diagnostics, explicit breakpoints and prewarming. The company published the changes on Tuesday evening, hours after launching GPT-6 Sol and Luna.",
+    "Rohan Paul, who summarises AI papers and releases, said the point is long-running agents that resend instructions, tool definitions and context on every turn. OpenAI's own page frames the changes the same way, as controls that reduce latency and cost.",
+    "The figures are not there. OpenAI's announcement names the features without putting a number on the hit-rate gain, the latency saving or the discount on cached tokens. Neither account gives a figure, and the paper has not tested the behaviour.",
+    "Prompt caching cuts what a developer pays to resend the same prefix, so the changes may matter most to agent builders running long tool loops. Whether the higher hit rates arrive in practice rests on OpenAI's description, which is the only account of them so far."
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "OpenAI",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@rohanpaul_ai",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/rohanpaul_ai/status/2102541845679255986",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
+   "cluster_id": "rabbit-os3-standalone",
+   "section": "products",
+   "headline": "Rabbit releases cloud agent that runs without its R1 device",
+   "standfirst": "The company said OS3 runs in the cloud but acts locally on Windows, Mac and Linux machines, and Wired had the story first.",
+   "body": [
+    "Rabbit is rolling out a standalone AI agent that does not need the company's R1 hardware, The Verge reported on Tuesday. Rabbit calls it OS3, an \"agentic operating system\" that runs in the cloud while operating locally across Windows, Mac and Linux devices.",
+    "Wired had the story first, according to The Verge, which credited the earlier report. The Verge called the R1 underwhelming in its own description of the company. Rabbit's claims about what OS3 can do are the company's own.",
+    "No price, no launch date and no model provider appear in the summary the paper has. Rabbit has not published figures on what OS3 costs or which models it calls, and neither outlet's account of the rollout gives a start date.",
+    "Agent products that run across a user's own machines raise the question of what permissions they hold on the machine. Neither account describes what access OS3 asks for, and Rabbit has not published that detail. The paper has not run it."
+   ],
+   "entities": [
+    "Rabbit"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
+   "cluster_id": "valsai-ling-30-flash-fin",
+   "section": "models",
+   "headline": "Vals AI scores Ant Group's Ling 3.0 Flash Fin at 54.9% on finance test",
+   "standfirst": "The evaluator put the model fourth among open-weight entries and said it costs $0.045 per task, the cheapest in the top 20.",
+   "body": [
+    "Vals AI said Ant Group's Ling 3.0 Flash Fin scores 54.9% on its Finance Agent v2 benchmark, at $0.045 per task. The evaluator ranked the model fourth among open-weight entries and 16th overall, and called it the cheapest in the top 20 by a wide margin.",
+    "Vals AI put the score within one point of GPT-5.6 Terra and Claude Sonnet 5, at roughly 25 to 75 times less per task. Those comparisons come from the evaluator's own runs, according to its posts, and the paper has not reproduced them.",
+    "The model is specialised, not stronger overall, Vals AI said. LegalBench falls from 79.7% to 68.7%, MedScribe from 80.9% to 75.6% and MedCode from 32.3% to 29.3%. The evaluator did not name the model those declines compare with, and gave no dates for the runs.",
+    "Long-horizon coding is where the model falls away, on the evaluator's numbers. It scores 3.4% on Vibe Code Bench, 2.9% on Code Migration and zero on HLAB. Vals AI gave no figure for how rivals score on those three.",
+    "Open-weight finance models that price this low could change what a bank pays for routine analysis, if the scores hold outside one evaluator's harness. Neither Ant Group nor Vals AI has published the task mix behind Finance Agent v2."
+   ],
+   "entities": [
+    "Ant Group",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102535475240350101",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102535478180549048",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102535486187458662",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "inside"
+  }
+ ]
 }
