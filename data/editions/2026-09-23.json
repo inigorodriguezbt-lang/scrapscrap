@@ -30,6 +30,85 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-nemotron-3-diarization",
+   "section": "models",
+   "headline": "Nvidia releases 100M open-weight diarization model, says it tops VoiceArena",
+   "standfirst": "Nemotron 3 Diarization labels who spoke when for up to 8 speakers, and Nvidia says it cuts diarization error to 14.72% against 19.3% for the next system.",
+   "body": [
+    "Nvidia released Nemotron 3 Diarization on Wednesday, a 100-million-parameter open-weight model that labels which speaker is talking in a recording or a live stream, for up to 8 speakers. The company published it in a post on Hugging Face.",
+    "Nvidia says the model ranks first on VoiceArena's Diarization-Bench, with a 14.72% diarization error rate against 19.3% for the next system. That figure is the company's own, taken from its post, and nobody else has yet published a test of the release.",
+    "The model takes single-channel audio at 16 kHz and runs offline or streaming, with input-buffer latency configurable from 30.4 seconds down to 0.32 seconds, according to the post. It carries the OpenMDW License Agreement v1.1 rather than one of the usual open-source licences.",
+    "Nvidia puts the gain at an average 40% relative reduction in diarization error at 1.04 seconds of latency, measured against its own earlier Streaming Sortformer baseline. On DIHARD III it reports 12.73% error at the 30.4-second setting. Both comparisons are the company's, on datasets it selected.",
+    "The weights sit on Hugging Face and the code ships in Nvidia's NeMo Speech framework on GitHub, with a demo Space linked from the post. The model page returned an authorisation error to an anonymous request, which may mean the licence gates access to the files."
+   ],
+   "entities": [
+    "Nvidia",
+    "Hugging Face",
+    "VoiceArena"
+   ],
+   "sources": [
+    {
+     "author": "Nvidia",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-diarization"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-jevbench",
+   "section": "research",
+   "headline": "Benchmark scores 76 decision systems, puts TypeSafe's Jev on top",
+   "standfirst": "JevBench, published by Benchmark Heaven under an MIT licence, ranks typed decision models on 534 public and 308 sealed decisions, and its authors call the set partial.",
+   "body": [
+    "Benchmark Heaven published version 1.4.0 of JevBench on Wednesday, a leaderboard that scores 76 typed decision systems on 534 public and 308 sealed decisions. Such systems take a state and a bounded rubric and return a typed answer rather than free text, according to the benchmark's own description.",
+    "The leaderboard puts TypeSafe AI's Jev 1.13.0 first on 63.3, followed by JevK5 v0.2.0 on 62.0, Hopper on 59.4, Winnow-12B Q8 on 55.6 and reflex 4B on 54.0. The score weighs accuracy above chance against calibration, then applies separate gates for speed and cost, according to the benchmark's own methodology page.",
+    "The run places two models this paper reported on Monday, when community benchmarks disagreed over which was faster. Convai Innovations' open-source Laya sits 32nd on 30.3. An OpenJev entry, credited to razorback16 rather than to the checkpoints trending on Hugging Face, sits 21st on 36.9.",
+    "A third of the decisions are held back. The page says the text and answers of the 308 sealed items stay private and only system-level aggregates appear, and that a penalty applies when a system's public accuracy exceeds its sealed accuracy by more than 25 points. The harness, the public tasks and the scoring rules are on GitHub under an MIT licence.",
+    "Commenters on Hacker News, where the Show HN post drew 123 points and 33 comments, questioned what the tasks cover. One, hbrn, wrote that Jev performs on a par with a system built in a couple of days and costs twice as much. Another said the tasks do not cover much of what Jev was likely trained to do.",
+    "The author, posting as florianstandhar, said a missing zero-shot baseline, BART-large-MNLI, would be added in the next run, and invited submissions through the repository. The benchmark's own page says its scores describe the tested configurations rather than every application."
+   ],
+   "entities": [
+    "Benchmark Heaven",
+    "TypeSafe AI",
+    "Convai Innovations",
+    "Hacker News"
+   ],
+   "sources": [
+    {
+     "author": "Benchmark Heaven",
+     "url": "https://benchmarkheaven.com/jev-models"
+    },
+    {
+     "author": "florianstandhar",
+     "url": "https://news.ycombinator.com/item?id=49800574"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "spotify-taste-profile-us",
+   "section": "products",
+   "headline": "Spotify launches Taste Profile in US, lets Premium users steer recommendations",
+   "standfirst": "TechCrunch reported the beta feature shows listeners how Spotify reads their taste and lets them change it in plain language, for subscribers aged 18 and over.",
+   "body": [
+    "Spotify began rolling out Taste Profile to Premium subscribers in the United States on Wednesday, a beta feature that shows listeners how the service reads their taste and lets them change it in plain language, TechCrunch reported.",
+    "That report is the only account of the US launch so far. No statement from Spotify appears in it, and the company gave no timeline for reaching a wider audience, according to TechCrunch. The feature had run in beta in New Zealand before this.",
+    "The profile covers podcasts and audiobooks as well as music. TechCrunch said listeners can ask for more variety, raise or lower particular genres and artists, and keep things like sleep sounds or children's music from shaping what Spotify serves them.",
+    "Spotify's co-chief executive Gustav Soderstrom showed the feature at SXSW in March, according to TechCrunch. It remains a beta in the United States, where only Premium subscribers aged 18 and over can use it for now."
+   ],
+   "entities": [
+    "Spotify",
+    "TechCrunch"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "openai-daybreak-ukraine",
    "section": "security",
    "headline": "OpenAI gives Ukraine its Daybreak cyber defence system and GPT-5.6 Sol",
@@ -175,7 +254,7 @@
      "url": "https://huggingface.co/Altworld/Hemmingway-1"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "qwen-intelligence-honor",
@@ -210,7 +289,7 @@
      "url": "https://www.kucoin.com/news/flash/alibaba-launches-qwen-intelligence-for-mobile-agents-partners-with-honor"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "qualcomm-picknik-moveit",
@@ -250,7 +329,7 @@
      "url": "https://x.com/StockSavvyShay/status/2102725141583298775"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cma-google-choice-screens-ai",
