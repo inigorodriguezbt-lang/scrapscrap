@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-23T00:13:17.646379+00:00",
+  "generated_at": "2026-09-23T02:13:43.878747+00:00",
   "edition_date": "2026-09-23",
-  "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 77,
-  "clusters_found": 4,
+  "source_file": "tmp-noarxiv.jsonl",
+  "posts_considered": 74,
+  "clusters_found": 3,
   "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c264f5bb5",
-      "score": 20.192,
+      "cluster_id": "c7077c291",
+      "score": 19.094,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
@@ -18,47 +18,46 @@
         "Meta",
         "Nvidia",
         "Microsoft",
-        "Alibaba",
+        "DeepSeek",
+        "Apple",
         "Amazon",
-        "Tesla"
+        "TSMC"
       ],
       "independent_sources": [
         "AWS ML",
+        "Alibaba_Qwen",
         "Ars Technica",
-        "ArtificialAnlys",
+        "CNBC",
         "CoinMarketCap",
         "Cointelegraph",
         "FirstSquawk",
-        "Kalshi",
         "MTSlive",
         "NVIDIA",
         "OpenAI",
         "PhotonCap",
+        "Polymarket",
         "PolymarketMoney",
         "Reuters",
         "ReutersLegal",
-        "SawyerMerritt",
         "Simon Willison",
-        "StockSavvyShay",
         "Stratechery",
         "TechCrunch AI",
-        "Techmeme",
         "The Verge AI",
         "ValsAI",
-        "WSJ",
-        "financialjuice",
+        "business",
+        "dnystedt",
+        "omarsar0",
         "rohanpaul_ai",
         "teortaxesTex",
-        "theinformation",
-        "theo",
-        "wallstengine",
-        "zerohedge"
+        "theinformation"
       ],
-      "source_count": 30,
+      "source_count": 26,
       "first_seen": "2026-09-22T10:00:00+00:00",
-      "last_seen": "2026-09-23T00:04:37+00:00",
+      "last_seen": "2026-09-23T02:05:10+00:00",
       "links": [
         "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+        "https://arxiv.org/abs/2609.04852",
+        "https://arxiv.org/abs/2609.18182",
         "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
         "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
@@ -68,8 +67,10 @@
         "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
         "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
         "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+        "https://cnb.cx/4zdyByP",
         "https://openai.com/index/better-prompt-caching-for-gpt-6",
         "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://reut.rs/4xQnURG",
         "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
         "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
         "https://simonwillison.net/2026/Sep/22/llm/",
@@ -85,43 +86,37 @@
         "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
         "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
         "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+        "https://www.bloomberg.com/news/articles/2026-09-22/china-probes-deepseek-moonshot-over-data-security-information",
+        "https://www.bloomberg.com/news/articles/2026-09-22/singapore-wants-ai-to-shop-but-with-strict-limits-study-shows",
+        "https://www.ctee.com.tw/news/20260923700094-430502",
+        "https://www.ctee.com.tw/news/20260923700097-430501",
+        "https://www.reuters.com/legal/litigation/anthropic-openevidence-partner-bring-medical-ai-worldwide-2026-09-22/",
         "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
         "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
         "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
         "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-        "https://x.com/ArtificialAnlys/status/2102527962201624915",
-        "https://x.com/ArtificialAnlys/status/2102541956014657615",
-        "https://x.com/CoinMarketCap/status/2102536673770848303",
-        "https://x.com/Cointelegraph/status/2102525955331735848",
-        "https://x.com/Cointelegraph/status/2102549659898061030",
-        "https://x.com/FirstSquawk/status/2102535414846566865",
-        "https://x.com/FirstSquawk/status/2102543900091224244",
-        "https://x.com/FirstSquawk/status/2102548945142702462",
-        "https://x.com/Kalshi/status/2102525850155663737",
-        "https://x.com/MTSlive/status/2102534352005677314",
-        "https://x.com/MTSlive/status/2102539007104287121",
-        "https://x.com/PhotonCap/status/2102546106060283914",
-        "https://x.com/PolymarketMoney/status/2102524183427375278",
-        "https://x.com/Reuters/status/2102543501917364652",
-        "https://x.com/Reuters/status/2102544751434064006",
-        "https://x.com/Reuters/status/2102548504572776533",
-        "https://x.com/ReutersLegal/status/2102544743464939676",
-        "https://x.com/SawyerMerritt/status/2102535754148900969",
-        "https://x.com/StockSavvyShay/status/2102548234480828534",
-        "https://x.com/Techmeme/status/2102540021563834801",
-        "https://x.com/ValsAI/status/2102535475240350101",
-        "https://x.com/ValsAI/status/2102535478180549048",
-        "https://x.com/ValsAI/status/2102535486187458662",
-        "https://x.com/WSJ/status/2102543399698018551",
-        "https://x.com/financialjuice/status/2102543769820426434",
-        "https://x.com/rohanpaul_ai/status/2102541845679255986",
-        "https://x.com/rohanpaul_ai/status/2102546161127375088",
-        "https://x.com/teortaxesTex/status/2102536582012322126",
-        "https://x.com/teortaxesTex/status/2102546636970844172",
-        "https://x.com/theinformation/status/2102545852556312856",
-        "https://x.com/theo/status/2102533370937053281",
-        "https://x.com/wallstengine/status/2102546360700654050",
-        "https://x.com/zerohedge/status/2102546870157582346"
+        "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+        "https://x.com/Alibaba_Qwen/status/2102569821997346912",
+        "https://x.com/CoinMarketCap/status/2102580001178562862",
+        "https://x.com/Cointelegraph/status/2102556250756010374",
+        "https://x.com/Cointelegraph/status/2102573954393080306",
+        "https://x.com/Cointelegraph/status/2102578910944719188",
+        "https://x.com/FirstSquawk/status/2102575724800733564",
+        "https://x.com/MTSlive/status/2102566187850000000",
+        "https://x.com/PhotonCap/status/2102566017360949665",
+        "https://x.com/Polymarket/status/2102570142878363878",
+        "https://x.com/Polymarket/status/2102570301481533803",
+        "https://x.com/PolymarketMoney/status/2102552376175636558",
+        "https://x.com/PolymarketMoney/status/2102569386447974450",
+        "https://x.com/ValsAI/status/2102553415473918261",
+        "https://x.com/ValsAI/status/2102553418145685650",
+        "https://x.com/ValsAI/status/2102553420435787922",
+        "https://x.com/ValsAI/status/2102553422994255951",
+        "https://x.com/ValsAI/status/2102568755624829439",
+        "https://x.com/ValsAI/status/2102568758586056955",
+        "https://x.com/dnystedt/status/2102556551378846092",
+        "https://x.com/teortaxesTex/status/2102566390909575580",
+        "https://x.com/theinformation/status/2102556193516405214"
       ],
       "posts": [
         {
@@ -357,196 +352,12 @@
           "engagement": 0
         },
         {
-          "author": "PolymarketMoney",
-          "tier": "commentary",
-          "text": "BREAKING: CFTC delays CME’s planned Nvidia GPU rental futures, citing “novel or complex” issues and market manipulation concerns.",
-          "url": "https://x.com/PolymarketMoney/status/2102524183427375278",
-          "created_at": "2026-09-22T22:23:22+00:00",
-          "engagement": 27
-        },
-        {
-          "author": "Kalshi",
-          "tier": "commentary",
-          "text": "JUST IN: SpaceXAI's Grok Bot agent surpasses 400,000 users in its first month, up 24% in the past week",
-          "url": "https://x.com/Kalshi/status/2102525850155663737",
-          "created_at": "2026-09-22T22:30:00+00:00",
-          "engagement": 202
-        },
-        {
-          "author": "Cointelegraph",
-          "tier": "commentary",
-          "text": "NEW: OpenAI launches GPT-6 Sol and GPT-6 Luna with API prices 50% lower than its GPT-5.6 models.",
-          "url": "https://x.com/Cointelegraph/status/2102525955331735848",
-          "created_at": "2026-09-22T22:30:25+00:00",
-          "engagement": 59
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "GPT-6 Sol and Luna continue to push the cost efficiency frontier for OpenAI. The two new models halve the cost of their predecessors with similar scores in the Intelligence Index. Charting the Artificial Analysis Intelligence Index shows the trade-off between Intelligence and Cost per Intelligence Index Task. Cost improvements in GPT-6 Sol and Luna are driven by a ~50% reduction in token pricing",
-          "url": "https://x.com/ArtificialAnlys/status/2102527962201624915",
-          "created_at": "2026-09-22T22:38:23+00:00",
-          "engagement": 224
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "How are we feeling about GPT-6 Sol and Luna so far?",
-          "url": "https://x.com/theo/status/2102533370937053281",
-          "created_at": "2026-09-22T22:59:53+00:00",
-          "engagement": 554
-        },
-        {
-          "author": "MTSlive",
-          "tier": "commentary",
-          "text": "SITUATION EXPLAINED: Alibaba published its AI roadmap. Qwen 5 will be 5 to 10 trillion parameters. Qwen 4 is in training now, with Qwen 4.5 and Qwen 5 scaling to 5 to 10 trillion, roughly the size of Mythos, Fable, and Astra. Qwen 3.8 is",
-          "url": "https://x.com/MTSlive/status/2102534352005677314",
-          "created_at": "2026-09-22T23:03:47+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "FirstSquawk",
-          "tier": "commentary",
-          "text": "CANADA PM CARNEY: US HAS DEEPER COOPERATION WITH CHINA THAN CANADA; SEES SCOPE TO BOOST POTASH SALES TO US & SUPPORTS AI REGULATION",
-          "url": "https://x.com/FirstSquawk/status/2102535414846566865",
-          "created_at": "2026-09-22T23:08:00+00:00",
-          "engagement": 26
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "Ant Group’s Ling 3.0 Flash Fin is a finance-specialized open-weight model that delivers strong financial analysis at budget-model pricing. On Finance Agent v2, it scores 54.9% at just $0.045 per task.",
-          "url": "https://x.com/ValsAI/status/2102535475240350101",
-          "created_at": "2026-09-22T23:08:15+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "It ranks #4 among open-weight models and #16 overall on Finance Agent v2, within 1 point of GPT-5.6 Terra and Claude Sonnet 5 while costing roughly 25 to 75 times less per task. It is also the cheapest model in the top 20 by a wide margin.",
-          "url": "https://x.com/ValsAI/status/2102535478180549048",
-          "created_at": "2026-09-22T23:08:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "The tradeoff is that Ling 3.0 Flash Fin is a finance-specialized model, not a stronger general-purpose one. LegalBench falls from 79.7% to 68.7%, MedScribe from 80.9% to 75.6%, and MedCode from 32.3% to 29.3%, while long-horizon coding remains weak at 3.4% on Vibe Code Bench, 2.9% on Code Migration, and 0% on HLAB.",
-          "url": "https://x.com/ValsAI/status/2102535486187458662",
-          "created_at": "2026-09-22T23:08:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "SawyerMerritt",
-          "tier": "commentary",
-          "text": "Tesla in new drive unit video: “Cybercab is 40% more efficient than Model Y.”",
-          "url": "https://x.com/SawyerMerritt/status/2102535754148900969",
-          "created_at": "2026-09-22T23:09:21+00:00",
-          "engagement": 1413
-        },
-        {
-          "author": "teortaxesTex",
-          "tier": "commentary",
-          "text": "RAND has published their report on the U.S. strategy on the «uncertain path to Superintelligence». Goals: 1. secure US geopolitical advantage; 2. ensure humanity's survival with agency. In that order. Takeaway: maximize optionality. Profound. Buckle up.",
-          "url": "https://x.com/teortaxesTex/status/2102536582012322126",
-          "created_at": "2026-09-22T23:12:39+00:00",
-          "engagement": 56
-        },
-        {
-          "author": "CoinMarketCap",
-          "tier": "commentary",
-          "text": "ANALYSIS: AI tokens gained roughly 5% on Tuesday, leading crypto for a second day while Bitcoin and Ethereum barely moved. CoinMarketCap breaks down what’s driving the rally.",
-          "url": "https://x.com/CoinMarketCap/status/2102536673770848303",
-          "created_at": "2026-09-22T23:13:00+00:00",
-          "engagement": 45
-        },
-        {
           "author": "TechCrunch AI",
           "tier": "press",
           "text": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4. Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
           "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
           "created_at": "2026-09-22T23:21:49+00:00",
           "engagement": 0
-        },
-        {
-          "author": "MTSlive",
-          "tier": "commentary",
-          "text": "SITUATION EXPLAINED: OpenAI wants evaluators auditing its evaluations, and its evaluators disclosing who pays them. Four priority areas. First, independent assessment of safety cases, the structured argument for why a model's risks are acceptable",
-          "url": "https://x.com/MTSlive/status/2102539007104287121",
-          "created_at": "2026-09-22T23:22:17+00:00",
-          "engagement": 10
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "Firecrawl, which provides web scraping tools for AI agents, raised a $75M Series B led by Smash Capital (Maria Deutscher / SiliconANGLE)",
-          "url": "https://x.com/Techmeme/status/2102540021563834801",
-          "created_at": "2026-09-22T23:26:19+00:00",
-          "engagement": 2
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "OpenAI is making GPT-6 prompt caching more reliable and controllable, adding higher hit rates, diagnostics, breakpoints, prewarming, and cache-preserving reasoning changes. Long-running agents often resend instructions, tool definitions, and context",
-          "url": "https://x.com/rohanpaul_ai/status/2102541845679255986",
-          "created_at": "2026-09-22T23:33:34+00:00",
-          "engagement": 9
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Claude Opus 5.5 (max) costs $5.98 per Intelligence Index task, which is similar to Opus 5 (max) at $5.86, but this bundles a significant token usage increase with Anthropic’s price reductions. Compared to Opus 5, Opus 5.5’s increased token usage would drive an ~80% increase in cost per task to $10.51. However, the 20% cut to base prices takes that to $8.41, and then cutting cache reads further to $0.20 takes it to $5.98 (an additional 29% cut)",
-          "url": "https://x.com/ArtificialAnlys/status/2102541956014657615",
-          "created_at": "2026-09-22T23:34:00+00:00",
-          "engagement": 121
-        },
-        {
-          "author": "WSJ",
-          "tier": "commentary",
-          "text": "K-pop conquered the world by constantly reinventing itself—but as the industry embraces robotics and artificial intelligence, fans and regulators are growing concerned about AI’s impact on creativity and authenticity.",
-          "url": "https://x.com/WSJ/status/2102543399698018551",
-          "created_at": "2026-09-22T23:39:44+00:00",
-          "engagement": 16
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "US Treasury secretary could take on AI czar role, source says",
-          "url": "https://x.com/Reuters/status/2102543501917364652",
-          "created_at": "2026-09-22T23:40:08+00:00",
-          "engagement": 13
-        },
-        {
-          "author": "financialjuice",
-          "tier": "commentary",
-          "text": "Microsoft to increase Copilot discounts as it introduces AI ‘super app’ - The Information",
-          "url": "https://x.com/financialjuice/status/2102543769820426434",
-          "created_at": "2026-09-22T23:41:12+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "FirstSquawk",
-          "tier": "commentary",
-          "text": "MICROSOFT BOOSTS COPILOT DISCOUNTS AS IT LAUNCHES AI “SUPER APP” — THE INFORMATION",
-          "url": "https://x.com/FirstSquawk/status/2102543900091224244",
-          "created_at": "2026-09-22T23:41:43+00:00",
-          "engagement": 16
-        },
-        {
-          "author": "ReutersLegal",
-          "tier": "commentary",
-          "text": "The founder of the trust and safety team at Alphabet’s Google this week called for a slowdown in AI development, warning that the tech industry was repeating the same mistakes from the social media era, potentially causing even greater harm to children.",
-          "url": "https://x.com/ReutersLegal/status/2102544743464939676",
-          "created_at": "2026-09-22T23:45:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "Microsoft to give DARPA hands-on access to quantum system at new Maryland site",
-          "url": "https://x.com/Reuters/status/2102544751434064006",
-          "created_at": "2026-09-22T23:45:06+00:00",
-          "engagement": 16
         },
         {
           "author": "Simon Willison",
@@ -557,90 +368,266 @@
           "engagement": 0
         },
         {
-          "author": "theinformation",
+          "author": "PolymarketMoney",
           "tier": "commentary",
-          "text": "Software companies are cutting prices to drive AI adoption. The Information’s @LauraBratton5 breaks down what that looks like: “Some software companies are offering longer free trials. Some are offering more AI credits. Some are offering straight up discounts.”",
-          "url": "https://x.com/theinformation/status/2102545852556312856",
-          "created_at": "2026-09-22T23:49:29+00:00",
-          "engagement": 5
+          "text": "BREAKING: Microsoft is cutting Copilot pricing by up to 50% for large enterprises while preparing a new \"super app\" combining coding tools and AI agents.",
+          "url": "https://x.com/PolymarketMoney/status/2102552376175636558",
+          "created_at": "2026-09-23T00:15:24+00:00",
+          "engagement": 79
         },
         {
-          "author": "PhotonCap",
-          "tier": "commentary",
-          "text": "Anthropic released Claude Opus 5.5 on September 22, 2026, matching Claude Fable 5.1 performance at 40% lower cost than Opus 5. Model shows strongest alignment scores in Anthropic's behavioral audit and improved resistance to prompt injection attacks. Input/output tokens priced at $4/$20 per million (20% cheaper), cache reads at $0.20 per million (60% cheaper); generation speed improved over 30%.",
-          "url": "https://x.com/PhotonCap/status/2102546106060283914",
-          "created_at": "2026-09-22T23:50:29+00:00",
-          "engagement": 10
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "Semafor: Treasury Secretary Scott Bessent is emerging as a leading candidate for President Trump’s new AI czar role. Trump said on Sept-9 that he would create an “AI Force” and appoint a new AI czar. Bessent has already moved into a central role",
-          "url": "https://x.com/rohanpaul_ai/status/2102546161127375088",
-          "created_at": "2026-09-22T23:50:42+00:00",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI wants to consult elite mathematicians about how to not fumble again. After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+          "created_at": "2026-09-23T00:17:17+00:00",
           "engagement": 0
         },
         {
-          "author": "wallstengine",
+          "author": "ValsAI",
           "tier": "commentary",
-          "text": "$MSFT PLANS DEEPER COPILOT DISCOUNTS ALONGSIDE NEW AI “SUPER APP”. Microsoft is preparing discounts of 30%-50% on corporate Copilot subscriptions as it looks to drive broader enterprise adoption, per The Information. The discounts are expected",
-          "url": "https://x.com/wallstengine/status/2102546360700654050",
-          "created_at": "2026-09-22T23:51:30+00:00",
-          "engagement": 32
+          "text": "Compared to its predecessor, MiMo v2.5, the Index score increased +19-20pts. That is because of the monumental increases on Vibe Code Bench, Legal Research, Finance Agent, and Code Migration.",
+          "url": "https://x.com/ValsAI/status/2102553415473918261",
+          "created_at": "2026-09-23T00:19:32+00:00",
+          "engagement": 0
         },
         {
-          "author": "teortaxesTex",
+          "author": "ValsAI",
           "tier": "commentary",
-          "text": "It's actually a very good report from RAND! This is proper think tank work, they honestly go through enumerating the options and aren't just doing advocacy or Chyna hawkery. They even consider highly exotic solutions for how to cope with superintelligence in the long term.",
-          "url": "https://x.com/teortaxesTex/status/2102546636970844172",
-          "created_at": "2026-09-22T23:52:36+00:00",
-          "engagement": 13
+          "text": "Flash and Pro are nearly tied overall (59.73 vs 59.69), but have different strengths. Pro is better at finance, Vibe Code Bench, Code Migration, and Legal Research, while Flash is better at Terminal-Bench and EMB. Flash is actually the better terminal-agent model at half the price.",
+          "url": "https://x.com/ValsAI/status/2102553420435787922",
+          "created_at": "2026-09-23T00:19:33+00:00",
+          "engagement": 0
         },
         {
-          "author": "zerohedge",
+          "author": "ValsAI",
           "tier": "commentary",
-          "text": "And here's the one that started it all: Meta's 5GW Hyperion (aka Project Beignet), the largest data center in the world... when (if) it is completed some time in the 2030s",
-          "url": "https://x.com/zerohedge/status/2102546870157582346",
-          "created_at": "2026-09-22T23:53:31+00:00",
-          "engagement": 21
+          "text": "Both are extremely cost-efficient. Flash ($0.20/task) and Pro ($0.39/task) score higher than Kimi K3 ($6.47) and GLM 5.3 ($6.73) at 17-34x lower cost, and both sit on the open-weight cost/accuracy Pareto frontier - along with MiMo V2.5, which means every point on that frontier is now a Xiaomi model.",
+          "url": "https://x.com/ValsAI/status/2102553418145685650",
+          "created_at": "2026-09-23T00:19:33+00:00",
+          "engagement": 0
         },
         {
-          "author": "StockSavvyShay",
+          "author": "ValsAI",
           "tier": "commentary",
-          "text": "$MSFT is cutting Copilot pricing by ~40% for large enterprise customers while preparing a new Copilot “super app” that combines coding tools and AI agents. Microsoft is lowering entry price to accelerate adoption while shifting more monetisation",
-          "url": "https://x.com/StockSavvyShay/status/2102548234480828534",
-          "created_at": "2026-09-22T23:58:57+00:00",
-          "engagement": 32
+          "text": "This model has 1M context window and 128k max output tokens. It was run on Xiaomi's default provider settings: Temperature=1, Top P=0.95, Default Top-K.",
+          "url": "https://x.com/ValsAI/status/2102553422994255951",
+          "created_at": "2026-09-23T00:19:34+00:00",
+          "engagement": 0
         },
         {
           "author": "Reuters",
           "tier": "commentary",
-          "text": "The Nasdaq notched a record high close, lifted by Micron Technology and other AI-related stocks, while the S&P 500 ended flat and the Dow closed lower. Lisa Bernhard reports",
-          "url": "https://x.com/Reuters/status/2102548504572776533",
-          "created_at": "2026-09-23T00:00:01+00:00",
-          "engagement": 3
+          "text": "Anthropic unveils Claude Opus 5.5",
+          "url": "https://x.com/Reuters/status/2102556092223906147",
+          "created_at": "2026-09-23T00:30:10+00:00",
+          "engagement": 14
         },
         {
-          "author": "FirstSquawk",
+          "author": "theinformation",
           "tier": "commentary",
-          "text": "SK HYNIX SHARES GAIN 3%",
-          "url": "https://x.com/FirstSquawk/status/2102548945142702462",
-          "created_at": "2026-09-23T00:01:46+00:00",
-          "engagement": 5
+          "text": "Data center power consumption is a problem if it drives up consumers' electricity bills, says Flex CEO Revathi Advaithi: \"Now, the power situation is different because if you have a utility that is directing power to the data center, taking it away from consumers and hiking bills for consumers, that is a problem.\"",
+          "url": "https://x.com/theinformation/status/2102556193516405214",
+          "created_at": "2026-09-23T00:30:34+00:00",
+          "engagement": 6
         },
         {
           "author": "Cointelegraph",
           "tier": "commentary",
-          "text": "LATEST: Treasury Secretary Scott Bessent is reportedly being considered for the role of President Trump's new AI czar, per Semafor.",
-          "url": "https://x.com/Cointelegraph/status/2102549659898061030",
-          "created_at": "2026-09-23T00:04:37+00:00",
-          "engagement": 35
+          "text": "NEW: Coinbase teamed up with Microsoft to help dismantle EvilTokens, an AI-driven cybercrime network, leading to arrests of its operators.",
+          "url": "https://x.com/Cointelegraph/status/2102556250756010374",
+          "created_at": "2026-09-23T00:30:48+00:00",
+          "engagement": 157
+        },
+        {
+          "author": "dnystedt",
+          "tier": "commentary",
+          "text": "Taiwan's August export orders soared 71.4% year-on-year to a fresh record high US$102.96 billion, media report, beating the 63% growth expected. AI-related demand led, but a surge in custom ASIC chip design orders caused August's upside surprise, said W.C. Huang, director-general of Taiwan's statistics bureau. Orders for ICT rose 100.5% year-on-year to $34.21B, while electronics +83.9% to $45.75 billion",
+          "url": "https://x.com/dnystedt/status/2102556551378846092",
+          "created_at": "2026-09-23T00:32:00+00:00",
+          "engagement": 39
+        },
+        {
+          "author": "dnystedt",
+          "tier": "commentary",
+          "text": "TSMC-made 2nm chips have already hit the market in Apple iPhone 18 Pro series phones, while more are on the way soon, media report: Xiaomi 18 Pro series (Qualcomm Snapdragon 8 Elite Gen 6 inside, 2nm), Vivo X500 Pro / Pro Max, Oppo Find X10 Pro Max (Vivo & Oppo both to launch soon with MediaTek Dimensity 9600 Pro 2nm chips)",
+          "url": "https://x.com/dnystedt/status/2102561166044369129",
+          "created_at": "2026-09-23T00:50:20+00:00",
+          "engagement": 12
+        },
+        {
+          "author": "PhotonCap",
+          "tier": "commentary",
+          "text": "Lightmatter officially introduced Passage L20 CPX on September 17 and joined the Open CPX MSA, describing the product as the first bidirectional Open CPX optical engine for AI infrastructure. Passage L20 CPX uses 1311 nm and 1331 nm wavelengths to carry transmit and receive traffic over the same single-mode fiber, cutting fiber and connector requirements by roughly 50% versus conventional Uni",
+          "url": "https://x.com/PhotonCap/status/2102566017360949665",
+          "created_at": "2026-09-23T01:09:36+00:00",
+          "engagement": 5
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "DeepSeek's DSec unit is pretty large. approximately 384 EPYC 9655 chips. But still, that's peak 12.6 concurrent sandboxes per CPU core. I think it's 25-30% of max achievable CPU utilization (they report 41.4% transient peak).",
+          "url": "https://x.com/teortaxesTex/status/2102566390909575580",
+          "created_at": "2026-09-23T01:11:06+00:00",
+          "engagement": 13
+        },
+        {
+          "author": "dnystedt",
+          "tier": "commentary",
+          "text": "Prices of silicon wafers used in semiconductor production are set to rise in 2027 as more firms ink long term agreements (LTAs), media report, noting capacity expansion for both memory and logic chips is fueling demand. 12-inch Epitaxial wafers: estimated up 15%-25%. 12-inch Polished Wafers: seen up over 40% for most, 50% for 2nd tier clients. GlobalWafers, Taiwan's biggest maker, is seen at $122 average selling price",
+          "url": "https://x.com/dnystedt/status/2102567627570938188",
+          "created_at": "2026-09-23T01:16:00+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": "OpenAI researcher Houda Nait says the hardest boundary for personal agents is knowing what they should never automate, even when you explicitly ask them to: \"Agents should have this understanding of what are the set of things that you should never try to automate from people because they matter to them.\"",
+          "url": "https://x.com/MTSlive/status/2102566187850000000",
+          "created_at": "2026-09-23T01:16:27+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "ValsAI",
+          "tier": "commentary",
+          "text": "Opus 5.5 is #1 on the Vals Index, up 2 spots and 2 pts from Opus 5. Anthropic regains the top three spots on the Index, but GPT-6 Sol results will be released soon.",
+          "url": "https://x.com/ValsAI/status/2102568755624829439",
+          "created_at": "2026-09-23T01:20:29+00:00",
+          "engagement": 24
+        },
+        {
+          "author": "ValsAI",
+          "tier": "commentary",
+          "text": "Anthropic cut Opus 5.5's token pricing by 20%, from $5/$25 per million input/output tokens on Opus 5 to $4/$20. However, Opus 5.5 often uses more tokens, especially on coding benchmarks (where it saw the largest gain). The discount lowers the sticker price, but it is offset by higher usage.",
+          "url": "https://x.com/ValsAI/status/2102568758586056955",
+          "created_at": "2026-09-23T01:20:30+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "PolymarketMoney",
+          "tier": "commentary",
+          "text": "JUST IN: President Trump's Xi state dinner will bring together Zuckerberg, Musk, Huang, Altman, Pichai, Bezos, Cook, Nadella and Dimon as Trump says \"whoever wins AI wins.\"",
+          "url": "https://x.com/PolymarketMoney/status/2102569386447974450",
+          "created_at": "2026-09-23T01:23:00+00:00",
+          "engagement": 76
+        },
+        {
+          "author": "Alibaba_Qwen",
+          "tier": "commentary",
+          "text": "Thanks @arena for the recognition! Qwen-Image-2.1 is now the #1 open-source model in both the Image Edit and Text-to-Image Arenas. Try it now and show us what you create!",
+          "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
+          "created_at": "2026-09-23T01:24:44+00:00",
+          "engagement": 95
+        },
+        {
+          "author": "Polymarket",
+          "tier": "commentary",
+          "text": "JUST IN: Bill Gates warns the world may have to \"suffer a few of the negatives\" of AI before regulation catches up.",
+          "url": "https://x.com/Polymarket/status/2102570142878363878",
+          "created_at": "2026-09-23T01:26:00+00:00",
+          "engagement": 246
+        },
+        {
+          "author": "Polymarket",
+          "tier": "commentary",
+          "text": "8% chance the U.S. enacts an AI safety bill by end of year.",
+          "url": "https://x.com/Polymarket/status/2102570301481533803",
+          "created_at": "2026-09-23T01:26:38+00:00",
+          "engagement": 12
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "A model's context window does not have to be an agent's workspace limit. KVMEM makes million-token agent memory practical by paging old KV state, cutting recall cost while beating compaction on task success. On DeepSWE with Qwen3.8-27B, Pass@1 rose from 43.8% to 48.4% versus compaction-only. Across controlled benchmarks, recovery was 11.4-53.8x faster than Compact+RAG. On a laptop with a 24 GB RTX 5090 GPU, KVMEM supported a 1M-token workspace at about 50 tokens/s.",
+          "url": "https://x.com/rohanpaul_ai/status/2102572744378585312",
+          "created_at": "2026-09-23T01:36:20+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Title: \"KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU\"",
+          "url": "https://x.com/rohanpaul_ai/status/2102572747088162911",
+          "created_at": "2026-09-23T01:36:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "Singaporeans are among the most open to allowing an artificial intelligence agent to shop for them but they also want the strictest guardrails, research shows",
+          "url": "https://x.com/business/status/2102573264828580302",
+          "created_at": "2026-09-23T01:38:24+00:00",
+          "engagement": 2
+        },
+        {
+          "author": "ReutersLegal",
+          "tier": "commentary",
+          "text": "Artificial intelligence startup Anthropic and medical knowledge platform OpenEvidence are collaborating to bring AI-powered clinical decision support to physicians in regions without access to the technology, the companies said on Tuesday.",
+          "url": "https://x.com/ReutersLegal/status/2102573688910393649",
+          "created_at": "2026-09-23T01:40:06+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "Cointelegraph",
+          "tier": "commentary",
+          "text": "TODAY: BlackRock's latest research says the rise of AI agents could become a major driver of crypto adoption, with stablecoins and blockchains serving as the payment rails for machine-to-machine commerce.",
+          "url": "https://x.com/Cointelegraph/status/2102573954393080306",
+          "created_at": "2026-09-23T01:41:09+00:00",
+          "engagement": 92
+        },
+        {
+          "author": "CNBC",
+          "tier": "commentary",
+          "text": "Anthropic and OpenAI announced new, less costly artificial intelligence models, as both labs face stiff competition from rivals offering open-weight models.",
+          "url": "https://x.com/CNBC/status/2102574686181675392",
+          "created_at": "2026-09-23T01:44:03+00:00",
+          "engagement": 6
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "China has opened a probe into data security at DeepSeek and Moonshot AI following Anthropic's accusations that the companies had been routing sensitive data through its Claude models, The Information reported.",
+          "url": "https://x.com/business/status/2102574944613753300",
+          "created_at": "2026-09-23T01:45:05+00:00",
+          "engagement": 2
+        },
+        {
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "BlackRock says AI computing capacity may become tokenized in the future",
+          "url": "https://x.com/FirstSquawk/status/2102575724800733564",
+          "created_at": "2026-09-23T01:48:11+00:00",
+          "engagement": 12
+        },
+        {
+          "author": "Cointelegraph",
+          "tier": "commentary",
+          "text": "ELON MUSK: \"AI will beat all fields by the end of next year or maybe 2028, at the latest.\"",
+          "url": "https://x.com/Cointelegraph/status/2102578910944719188",
+          "created_at": "2026-09-23T02:00:51+00:00",
+          "engagement": 22
+        },
+        {
+          "author": "omarsar0",
+          "tier": "commentary",
+          "text": "Interesting paper on agent memory stored as a linked markdown wiki. WFM is a Wiki Foundation Model trained to use both dense page text and inter-page links at once. It turns an LLM Wiki into a graph and retrieves from it with message passing conditioned on the query.",
+          "url": "https://x.com/omarsar0/status/2102579964436680959",
+          "created_at": "2026-09-23T02:05:02+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "CoinMarketCap",
+          "tier": "commentary",
+          "text": "LATEST: Former US President Barack Obama says there's a \"non-zero chance\" AI models will decide humans are \"not necessary\" and either \"kill us\" or make us \"bow down to them.\"",
+          "url": "https://x.com/CoinMarketCap/status/2102580001178562862",
+          "created_at": "2026-09-23T02:05:10+00:00",
+          "engagement": 14
         }
       ]
     },
     {
-      "cluster_id": "cb2b3eae7",
-      "score": 14.07,
+      "cluster_id": "c093a9bfe",
+      "score": 13.372,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
@@ -651,16 +638,15 @@
       ],
       "independent_sources": [
         "Ars Technica",
-        "CoinMarketCap",
         "MIT Tech Review",
         "OpenAI",
-        "Reuters",
+        "SemiAnalysis_",
         "TechCrunch AI",
         "The Verge AI"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "first_seen": "2026-09-22T11:04:51+00:00",
-      "last_seen": "2026-09-22T23:20:04+00:00",
+      "last_seen": "2026-09-23T01:02:48+00:00",
       "links": [
         "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
         "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
@@ -671,8 +657,7 @@
         "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
         "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
         "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-        "https://x.com/CoinMarketCap/status/2102534705216110666",
-        "https://x.com/Reuters/status/2102538448502444097"
+        "https://x.com/SemiAnalysis_/status/2102564302544638461"
       ],
       "posts": [
         {
@@ -748,20 +733,12 @@
           "engagement": 0
         },
         {
-          "author": "CoinMarketCap",
+          "author": "SemiAnalysis_",
           "tier": "commentary",
-          "text": "LATEST: Texas Gov. Greg Abbott ordered a halt on all data center permits until the state finishes auditing its grid connection waitlist.",
-          "url": "https://x.com/CoinMarketCap/status/2102534705216110666",
-          "created_at": "2026-09-22T23:05:11+00:00",
-          "engagement": 45
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "EXCLUSIVE: Meta testing a 'human concierge' for its new personal AI agent, Muse",
-          "url": "https://x.com/Reuters/status/2102538448502444097",
-          "created_at": "2026-09-22T23:20:04+00:00",
-          "engagement": 19
+          "text": "We tracked China's STAR Market semiconductor IPOs since Jan 2025, 13 in total with 60 days of trading, from IPO price to first-day close to day 60. All four chip designers are red from the first close, though none below issue. Packaging & test fared better: 3 of 4 green.",
+          "url": "https://x.com/SemiAnalysis_/status/2102564302544638461",
+          "created_at": "2026-09-23T01:02:48+00:00",
+          "engagement": 39
         }
       ]
     }
