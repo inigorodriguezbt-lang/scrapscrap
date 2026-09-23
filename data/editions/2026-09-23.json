@@ -1,0 +1,248 @@
+{
+ "edition_date": "2026-09-23",
+ "stories": [
+  {
+   "cluster_id": "eviltokens-takedown",
+   "section": "security",
+   "headline": "Microsoft seizes 50 sites behind phishing kit that took 12,000 inboxes",
+   "standfirst": "Microsoft said EvilTokens sold device-code phishing for $1,500 and a $500 monthly fee, and that about 1,000 criminals used it before the takedown.",
+   "body": [
+    "Microsoft said it disrupted EvilTokens, a phishing service that compromised more than 12,000 email inboxes at over 10,000 organisations worldwide. Acting on a 15 September order from the US District Court for the Eastern District of Virginia, the company and its partners seized 50 websites and disabled more than 175 domains, CyberScoop reported.",
+    "Ars Technica described EvilTokens as an end-to-end platform that makes mass compromises faster and easier. Microsoft said the service emerged in February 2026, and CyberScoop reported that about 1,000 criminals used it between then and June. Its operators charged $1,500 to buy in and $500 a month after that, according to Microsoft.",
+    "Microsoft said the kit sold AI features alongside the phishing. Assistants tailored lures and sifted through stolen mailboxes to pick out high-value targets, and the platform carried 44 email themes for building templates and landing pages. The description is Microsoft's own.",
+    "Health-ISAC, Cloudflare, OpenAI, Shadowserver, TRM Labs, SpyCloud and Coinbase joined the disruption, CyberScoop reported. UK Metropolitan Police arrested two men on 18 September in greater London on suspicion of making articles for use in fraud and money laundering. Police released both on bail.",
+    "Steven Masada, Microsoft's associate general counsel, said the takedown removed the infrastructure but not the model it demonstrated. Microsoft correlated at least 13 complaints to the FBI's Internet Crime Complaint Center with the service, worth about $1.7 million in reported losses. Coinbase traced about $1.1 million in revenue to the operators, according to CyberScoop."
+   ],
+   "entities": [
+    "Microsoft",
+    "OpenAI",
+    "Cloudflare",
+    "Coinbase"
+   ],
+   "sources": [
+    {
+     "author": "Microsoft Security Blog",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+     "at": "22 Sep"
+    },
+    {
+     "author": "Ars Technica",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+     "at": "22 Sep"
+    },
+    {
+     "author": "CyberScoop",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://cyberscoop.com/microsoft-eviltokens-cybercrime-service-takedown/",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "msft-copilot-discounts",
+   "section": "business",
+   "headline": "Microsoft plans Copilot discounts of up to 50%, The Information says",
+   "standfirst": "Four market accounts relayed the report within minutes of each other on Tuesday, and they differ on the size of the cut.",
+   "body": [
+    "Microsoft is preparing discounts of 30% to 50% on corporate Copilot subscriptions, The Information reported on Tuesday. The outlet tied the cuts to a new Copilot \"super app\" that brings coding tools and AI agents together, according to accounts relaying the report.",
+    "The relays do not agree on the figure. Wall St Engine put the range at 30% to 50%. StockSavvyShay put it at about 40% and said it applies to large enterprise customers. First Squawk and Financial Juice carried the headline without a number.",
+    "All four accounts rest on the same report, and none of them cites the article's detail. Microsoft has not commented on the pricing, and the paper has not seen The Information's piece. No start date for the discounts appears in any of the summaries.",
+    "The Information separately reported that software companies are cutting prices to drive AI adoption, with longer free trials, more AI credits and straight discounts. That piece is about the sector rather than Microsoft, and the outlet did not link the two."
+   ],
+   "entities": [
+    "Microsoft"
+   ],
+   "sources": [
+    {
+     "author": "@wallstengine",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/wallstengine/status/2102546360700654050",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@StockSavvyShay",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/StockSavvyShay/status/2102548234480828534",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@FirstSquawk",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/FirstSquawk/status/2102543900091224244",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@financialjuice",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/financialjuice/status/2102543769820426434",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@theinformation",
+     "tier": "press",
+     "kind": "post",
+     "url": "https://x.com/theinformation/status/2102545852556312856",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "aa-cost-per-task-opus55-gpt6",
+   "section": "research",
+   "headline": "Artificial Analysis puts Opus 5.5 at $5.98 per task, near Opus 5",
+   "standfirst": "The evaluator said a 20% price cut and cheaper cache reads offset a token-usage increase that would otherwise have pushed the figure to $10.51.",
+   "body": [
+    "Artificial Analysis said Claude Opus 5.5 costs $5.98 to run its Intelligence Index, against $5.86 for Opus 5, both at maximum reasoning. The evaluator published the figures on Tuesday, hours after Anthropic released the model. It said the two are similar.",
+    "Getting there took two price cuts against one increase, Artificial Analysis said. Opus 5.5 uses more tokens than Opus 5, which on its own would have raised cost per task by about 80%, to $10.51. Anthropic's 20% cut to base prices brought that to $8.41.",
+    "Cutting cache reads to $0.20 per million tokens took a further 29% off, the evaluator said, landing at $5.98. The 29% is a further cut on top of the base-price reduction, not a restatement of it. PhotonCap put the cache-read cut at 60% against Opus 5, according to its summary of Anthropic's announcement.",
+    "On OpenAI's side, Artificial Analysis said GPT-6 Sol and Luna halve the cost of the models they replace while scoring about the same on its index. It put the driver at a roughly 50% reduction in token pricing rather than any change in how much the models write.",
+    "Simon Willison, who writes about language models, said GPT-6 Luna is half the price of GPT-5.6 Luna, which he had called cheap. These numbers may not hold for a particular workload, since the index is one evaluator's own mix of tasks."
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "@ArtificialAnlys",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ArtificialAnlys/status/2102541956014657615",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@ArtificialAnlys",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ArtificialAnlys/status/2102527962201624915",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@PhotonCap",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/PhotonCap/status/2102546106060283914",
+     "at": "22 Sep"
+    },
+    {
+     "author": "Simon Willison",
+     "tier": "commentary",
+     "kind": "article",
+     "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "openai-gpt6-prompt-caching",
+   "section": "products",
+   "headline": "OpenAI adds cache breakpoints and prewarming to GPT-6 prompt caching",
+   "standfirst": "The company said the changes raise hit rates and cut latency, and that reasoning changes no longer throw away a cached prefix.",
+   "body": [
+    "OpenAI said it has changed how prompt caching works for GPT-6, adding higher cache hit rates, new diagnostics, explicit breakpoints and prewarming. The company published the changes on Tuesday evening, hours after launching GPT-6 Sol and Luna.",
+    "Rohan Paul, who summarises AI papers and releases, said the point is long-running agents that resend instructions, tool definitions and context on every turn. OpenAI's own page frames the changes the same way, as controls that reduce latency and cost.",
+    "The figures are not there. OpenAI's announcement names the features without putting a number on the hit-rate gain, the latency saving or the discount on cached tokens. Neither account gives a figure, and the paper has not tested the behaviour.",
+    "Prompt caching cuts what a developer pays to resend the same prefix, so the changes may matter most to agent builders running long tool loops. Whether the higher hit rates arrive in practice rests on OpenAI's description, which is the only account of them so far."
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "OpenAI",
+     "tier": "primary",
+     "kind": "article",
+     "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@rohanpaul_ai",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/rohanpaul_ai/status/2102541845679255986",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "rabbit-os3-standalone",
+   "section": "products",
+   "headline": "Rabbit releases cloud agent that runs without its R1 device",
+   "standfirst": "The company said OS3 runs in the cloud but acts locally on Windows, Mac and Linux machines, and Wired had the story first.",
+   "body": [
+    "Rabbit is rolling out a standalone AI agent that does not need the company's R1 hardware, The Verge reported on Tuesday. Rabbit calls it OS3, an \"agentic operating system\" that runs in the cloud while operating locally across Windows, Mac and Linux devices.",
+    "Wired had the story first, according to The Verge, which credited the earlier report. The Verge called the R1 underwhelming in its own description of the company. Rabbit's claims about what OS3 can do are the company's own.",
+    "No price, no launch date and no model provider appear in the summary the paper has. Rabbit has not published figures on what OS3 costs or which models it calls, and neither outlet's account of the rollout gives a start date.",
+    "Agent products that run across a user's own machines raise the question of what permissions they hold on the machine. Neither account describes what access OS3 asks for, and Rabbit has not published that detail. The paper has not run it."
+   ],
+   "entities": [
+    "Rabbit"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "tier": "press",
+     "kind": "article",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "valsai-ling-30-flash-fin",
+   "section": "models",
+   "headline": "Vals AI scores Ant Group's Ling 3.0 Flash Fin at 54.9% on finance test",
+   "standfirst": "The evaluator put the model fourth among open-weight entries and said it costs $0.045 per task, the cheapest in the top 20.",
+   "body": [
+    "Vals AI said Ant Group's Ling 3.0 Flash Fin scores 54.9% on its Finance Agent v2 benchmark, at $0.045 per task. The evaluator ranked the model fourth among open-weight entries and 16th overall, and called it the cheapest in the top 20 by a wide margin.",
+    "Vals AI put the score within one point of GPT-5.6 Terra and Claude Sonnet 5, at roughly 25 to 75 times less per task. Those comparisons come from the evaluator's own runs, according to its posts, and the paper has not reproduced them.",
+    "The model is specialised, not stronger overall, Vals AI said. LegalBench falls from 79.7% to 68.7%, MedScribe from 80.9% to 75.6% and MedCode from 32.3% to 29.3%. The evaluator did not name the model those declines compare with, and gave no dates for the runs.",
+    "Long-horizon coding is where the model falls away, on the evaluator's numbers. It scores 3.4% on Vibe Code Bench, 2.9% on Code Migration and zero on HLAB. Vals AI gave no figure for how rivals score on those three.",
+    "Open-weight finance models that price this low could change what a bank pays for routine analysis, if the scores hold outside one evaluator's harness. Neither Ant Group nor Vals AI has published the task mix behind Finance Agent v2."
+   ],
+   "entities": [
+    "Ant Group",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102535475240350101",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102535478180549048",
+     "at": "22 Sep"
+    },
+    {
+     "author": "@ValsAI",
+     "tier": "commentary",
+     "kind": "post",
+     "url": "https://x.com/ValsAI/status/2102535486187458662",
+     "at": "22 Sep"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
