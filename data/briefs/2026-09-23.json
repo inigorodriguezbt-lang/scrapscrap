@@ -1,32 +1,34 @@
 {
-  "generated_at": "2026-09-23T20:05:15.870031+00:00",
+  "generated_at": "2026-09-23T22:04:57.461369+00:00",
   "edition_date": "2026-09-23",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 66,
-  "clusters_found": 59,
-  "stories_declared": 2,
+  "posts_considered": 71,
+  "clusters_found": 61,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c1d6323ec",
-      "score": 11.991,
+      "cluster_id": "cb0e7777d",
+      "score": 13.0,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "models",
       "entities": [
         "OpenAI",
         "Anthropic"
       ],
       "independent_sources": [
-        "ArtificialAnlys",
-        "Simon Willison"
+        "Simon Willison",
+        "The Verge AI",
+        "arena"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-22T23:46:41+00:00",
-      "last_seen": "2026-09-23T18:54:11+00:00",
+      "last_seen": "2026-09-23T20:15:40+00:00",
       "links": [
         "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "https://x.com/ArtificialAnlys/status/2102833926788288704"
+        "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+        "https://x.com/arena/status/2102854430454669767"
       ],
       "posts": [
         {
@@ -38,53 +40,135 @@
           "engagement": 0
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic&#8217;s biolab made a discovery it&#8217;s comparing to Crispr. Anthropic says its AI Claude has \"autonomously discovered\" a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr. It's the first result from Anthropic's newly-launched wet lab and an early test of Claude's usefulness for science as the company prepares to go public. The company says Claude found the enzyme system after [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+          "created_at": "2026-09-23T18:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
           "tier": "commentary",
-          "text": "The Intelligence Index vs Cost per Task Pareto frontier shifted this week with the releases of MiMo-V2.6-Pro, Claude Opus 5.5, GPT-6 Luna, and GPT-6 Sol. Together they have established eleven new points on the Pareto frontier (driven by different reasoning efforts): five from GPT-6 Luna",
-          "url": "https://x.com/ArtificialAnlys/status/2102833926788288704",
-          "created_at": "2026-09-23T18:54:11+00:00",
-          "engagement": 287
+          "text": "Check out side-by-side outputs generated on Arena from Claude Opus 5.5 by Anthropic and GPT-6 Sol by OpenAI. Scores for Opus 5.5 are coming soon.",
+          "url": "https://x.com/arena/status/2102854430454669767",
+          "created_at": "2026-09-23T20:15:40+00:00",
+          "engagement": 314
         }
       ]
     },
     {
-      "cluster_id": "c9a4e4cc8",
-      "score": 11.001,
-      "interest": "want",
+      "cluster_id": "c47d698db",
+      "score": 12.244,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Hugging Face"
+        "OpenAI"
       ],
       "independent_sources": [
-        "MIT Tech Review",
-        "SemiAnalysis_"
+        "AndrewCurran_",
+        "OpenAI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T09:00:00+00:00",
-      "last_seen": "2026-09-23T18:00:35+00:00",
+      "first_seen": "2026-09-23T12:00:00+00:00",
+      "last_seen": "2026-09-23T20:51:36+00:00",
       "links": [
-        "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-        "https://x.com/SemiAnalysis_/status/2102820439202394458"
+        "https://openai.com/index/sam-altman-un-security-council-remarks",
+        "https://x.com/AndrewCurran_/status/2102863476767297540"
       ],
       "posts": [
         {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "The AI Hype Index: AI loves cheating. Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-          "created_at": "2026-09-23T09:00:00+00:00",
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Sam Altman’s remarks at the United Nations Security Council. OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "created_at": "2026-09-23T12:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "SemiAnalysis_",
+          "author": "AndrewCurran_",
           "tier": "commentary",
-          "text": "OpenAI's myriad elementary technical errors in its cyberattack of Hugging Face have received little attention. Here, we go through a few of them.",
-          "url": "https://x.com/SemiAnalysis_/status/2102820439202394458",
-          "created_at": "2026-09-23T18:00:35+00:00",
-          "engagement": 70
+          "text": "Australia has been hacked. And today, I spoke with the CEO of OpenAI, Sam Altman, to express Australia's extreme concern about this incident. And I also expressed my disappointment that it took the company way too long to inform the government what had occurred.",
+          "url": "https://x.com/AndrewCurran_/status/2102863476767297540",
+          "created_at": "2026-09-23T20:51:36+00:00",
+          "engagement": 1030
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6558a778",
+      "score": 11.431,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "simonw"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T17:12:27+00:00",
+      "last_seen": "2026-09-23T20:45:19+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+        "https://x.com/simonw/status/2102861892549279922"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Gemini 3.8 TTS Playground. Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with diffe",
+          "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+          "created_at": "2026-09-23T17:12:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "simonw",
+          "tier": "commentary",
+          "text": "The new Gemini 3.8 TTS models are super-cheap and can generate conversations between multiple voices (from 2,000+, or you can clone your own) - I built a little UI for it, then had Claude knock up a script where two pelicans debate moving to Pacifica Pier",
+          "url": "https://x.com/simonw/status/2102861892549279922",
+          "created_at": "2026-09-23T20:45:19+00:00",
+          "engagement": 117
+        }
+      ]
+    },
+    {
+      "cluster_id": "c5864bfd0",
+      "score": 10.982,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "OpenAI",
+        "ValsAI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T12:00:00+00:00",
+      "last_seen": "2026-09-23T20:22:24+00:00",
+      "links": [
+        "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+        "https://x.com/ValsAI/status/2102856128623456450"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Harvey turns legal context into stronger drafts with GPT-6 Astra. GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+          "created_at": "2026-09-23T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ValsAI",
+          "tier": "commentary",
+          "text": "GPT-6 Astra landed on every planet and moon in KSP with a surface (14 worlds) and flew a kerbal home from 13 of them. Only Eve's return stopped it. It scored 90.5% on KSP-bench.",
+          "url": "https://x.com/ValsAI/status/2102856128623456450",
+          "created_at": "2026-09-23T20:22:24+00:00",
+          "engagement": 143
         }
       ]
     }

@@ -33,6 +33,36 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "cursor-rollouts-security-reviewer",
+   "section": "products",
+   "headline": "Cursor ships bot that watches deploys, offers to revert bad ones",
+   "standfirst": "Rollouts reads a pull request, writes a monitoring plan, then compares live telemetry against a pre-deploy baseline. It is on Teams and Enterprise plans today.",
+   "body": [
+    "Cursor released Rollouts on Tuesday, a bot that follows a code change into production and offers to revert it when live telemetry says the change went wrong. It is available on Teams and Enterprise plans.",
+    "Before a change merges, Cursor says Rollouts reads the diff and writes a monitoring plan. The plan sets out the risks the bot sees and the effects the change is meant to have. After deployment it compares those signals against the pre-deploy baseline. It connects to source control, the deploy system and telemetry tools such as Datadog and Grafana.",
+    "On finding a regression, Cursor says the bot names the change it suspects and what it plans to do. That may be a message to the author, a paused progressive rollout, or a revert pull request left waiting for approval. Cursor says it can also tell a deliberate spike apart from a regression, so a planned change does not page anyone.",
+    "The same post updated Security Reviewer, which looks for injection flaws, committed secrets and vulnerable dependencies. Cursor says a review now finishes in 3.8 minutes on average, down from 4.8. Acceptance of its comments has risen from 45 to 50 per cent to between 60 and 70 per cent, according to the company.",
+    "The figures are Cursor's own, and no outside party has published a test of either bot. Support for feature flags, and for release trains and deploy freezes, is described as coming. Cursor said it is including Rollouts usage credits for the next 10 days so customers can try it on real changes."
+   ],
+   "entities": [
+    "Cursor",
+    "Datadog",
+    "Grafana",
+    "Honeycomb"
+   ],
+   "sources": [
+    {
+     "author": "Cursor",
+     "url": "https://cursor.com/blog/rollouts-and-security-reviewer"
+    },
+    {
+     "author": "Cursor on X",
+     "url": "https://x.com/cursor_ai/status/2102861817160904808"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "anthropic-claude-marketplace",
    "section": "products",
    "headline": "Anthropic opens Claude Marketplace, lets buyers pay with existing commitments",
@@ -271,7 +301,7 @@
      "url": "https://news.ycombinator.com/front"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-drivingbench",
