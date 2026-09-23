@@ -45,6 +45,65 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "firmus-10bn-indonesia",
+   "section": "business",
+   "headline": "Firmus in talks over $10 billion for Indonesian data centre, Bloomberg says",
+   "standfirst": "The Australian company is negotiating with lenders on a financing deal to buy Nvidia chips, Bloomberg reported. Firmus has not commented publicly.",
+   "body": [
+    "Firmus Technologies is in talks with lenders over a financing deal worth roughly $10 billion to buy Nvidia chips for its data centre in Indonesia, Bloomberg reported on Wednesday. The report describes talks rather than a signed agreement, and names no lender.",
+    "Two market wire accounts carried the report within the hour and described the company differently. FirstSquawk called Firmus \"Nvidia-supported\" and said it aims to raise the money \"for AI chip development\". financialjuice called the company \"Nvidia-backed\". Bloomberg's own wording says only that the financing would buy Nvidia chips.",
+    "The distinction matters and no account resolves it. A company buying Nvidia parts and a company Nvidia has invested in are different things, and the two wire posts assert the second without pointing to a stake or a figure. Nvidia has not said anything about Firmus in this material.",
+    "None of the three accounts gives terms, a closing date, or how much of the $10 billion would go on chips rather than on the site. Firmus did not comment in any of them, and the reporting rests on Bloomberg alone. The deal may not close on the terms described, or at all."
+   ],
+   "entities": [
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "business",
+     "url": "https://x.com/business/status/2102668058544242993"
+    },
+    {
+     "author": "FirstSquawk",
+     "url": "https://x.com/FirstSquawk/status/2102666380281807348"
+    },
+    {
+     "author": "financialjuice",
+     "url": "https://x.com/financialjuice/status/2102665836813222076"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "samsung-d0a-b1b-hybrid-bonding",
+   "section": "chips",
+   "headline": "Samsung renames next DRAM node around wafer bonding, ZDNet Korea says",
+   "standfirst": "D0a now refers to the B1b hybrid-bonding process, while the vertical-transistor design that carried the name becomes D0a-V, according to the report.",
+   "body": [
+    "Samsung Electronics has moved B1b, a wafer-to-wafer hybrid bonding process, onto its official DRAM roadmap and given it the D0a designation, ZDNet Korea reported on Wednesday. B1b had been in research and development outside the roadmap until the revision.",
+    "Two accounts carried the reporting. jukan05 posted a full translation of the article, and SemiconductorsX summarised it and quoted the same unnamed source. Both trace to ZDNet Korea, which attributes the change to people close to the plan. Samsung has not published anything on the revision.",
+    "D0a is meant to be Samsung's first DRAM below 10 nanometres. The most recent part in volume is 1c, around 11 to 12 nanometres, with 1d at 10 to 11 and likely the last of the class, according to the report, which notes these are marketing terms rather than physical dimensions.",
+    "B1b builds the memory cells on one wafer and the driver circuitry on another, then joins them by connecting their copper interconnects directly. Vertical-channel DRAM, now labelled D0a-V, takes a different route, cutting cell area from 6F² to 4F², but it needs high-aspect-ratio etching and new materials to hold down leakage.",
+    "Samsung is reviewing B1b for HBM5, which the report expects in mass production around 2029 with a target of 50% or more over HBM4E on operating speed. Commercialisation of B1b-based D0a is at least two years out, and the industry expects the investment schedule around the middle of next year, the report said."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "jukan05",
+     "url": "https://x.com/jukan05/status/2102642359687401795"
+    },
+    {
+     "author": "SemiconductorsX",
+     "url": "https://x.com/SemiconductorsX/status/2102646848507015519"
+    },
+    {
+     "author": "SemiconductorsX",
+     "url": "https://x.com/SemiconductorsX/status/2102647186546983348"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "sasac-broadcom-switch-survey",
    "section": "chips",
    "headline": "China surveys Broadcom switch use in state data centres, FT says",
@@ -297,7 +356,7 @@
      "url": "https://www.bloomberg.com/news/articles/2026-09-23/alibaba-to-add-data-centers-in-europe-middle-east-in-ai-push"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "valsai-mimo-v26-index-top",
@@ -362,7 +421,7 @@
      "at": "23 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "msft-copilot-discounts",
