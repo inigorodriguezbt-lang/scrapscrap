@@ -22,8 +22,10 @@ Then read `data/finds/<today>.json` if it exists (`python -m pipeline.discover`
 writes it): trending models, Spaces and papers on Hugging Face, and AI stories
 and Show HN launches on Hacker News, each with its traction and a link to the
 artifact. This is where most of the interesting material is. It also carries
-**tips** from HuggingNews, Techmeme and TestingCatalog: leads, never sources.
-Report from the posts and pages they credit, and never cite the tip outlet.
+**tips** from HuggingNews and Techmeme (leads, never sources: report from the
+posts and pages they credit and never cite them) and TestingCatalog (its own
+reporting, citable as unconfirmed). An `update` find is an old event with a
+new post in the last three hours; only the new post is news.
 
 **Fresh or nothing.** This publishes every two hours. A story is about
 something that happened in the last six hours, a snippet the last twelve, by

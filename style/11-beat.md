@@ -71,8 +71,11 @@ Finds are **tips** from fast newsrooms (HuggingNews, Techmeme,
 TestingCatalog), trending models, Spaces and daily papers on Hugging Face, AI
 stories on the Hacker News front page, and AI launches on Show HN.
 
-**A tip is a lead, never a source.** Never cite HuggingNews, Techmeme or
-TestingCatalog, and never reuse their wording. A HuggingNews tip lists the X
+**A tip is a lead, never a source.** Never cite HuggingNews or Techmeme, and
+never reuse their wording. (TestingCatalog is different: it reports its own
+findings from app strings and live tests, so cite it by name, as a
+`commentary`-tier source whose findings are unconfirmed until the company
+ships.) A HuggingNews tip lists the X
 posts it credits (`credits`): open those, and report from them and from the
 primary pages they point at. A Techmeme tip's `url` is the outlet that has the
 story: cite that outlet, by name.

@@ -104,6 +104,16 @@ def find(kind, title, url, source_name, signal, created_at, summary="", rank=0.0
 # ── Tips: fast newsrooms ─────────────────────────────────────────────────────
 
 X_STATUS = re.compile(r"https?://(?:x|twitter)\.com/\w+/status/\d+")
+X_EPOCH_MS = 1288834974657
+
+
+def x_posted_at(url: str) -> dt.datetime | None:
+    """When an X post was made, read from its id (ids are timestamped)."""
+    try:
+        post_id = int(url.rstrip("/").rsplit("/", 1)[1])
+    except (ValueError, IndexError):
+        return None
+    return dt.datetime.fromtimestamp(((post_id >> 22) + X_EPOCH_MS) / 1000, dt.timezone.utc)
 
 
 def _hn_page(url: str) -> dict | None:
@@ -144,13 +154,28 @@ def huggingnews(cfg: dict, max_age) -> list[dict]:
     for (loc, stamp), page in zip(entries, pages):
         if not page or not page["title"]:
             continue
-        primary = page["credits"][0] if page["credits"] else loc
-        updated = "/update-" in loc
-        signal = (f"{'updated' if updated else 'filed'} by HuggingNews "
-                  f"{_age_hours(stamp)}h ago, crediting {len(page['credits'])} X posts")
-        out.append(find("tip", page["title"], primary, "HuggingNews (tip)", signal, stamp,
-                        rank=100 - (_age_hours(stamp) or 0),
-                        extra={"credits": page["credits"], "tip_url": loc}))
+        # HuggingNews re-files "updates" on events a day or two old, so its
+        # own timestamp says nothing about freshness. The credited posts do:
+        # the oldest is when the event broke, the newest is the latest turn.
+        dated = sorted((t, u) for u in page["credits"] if (t := x_posted_at(u)))
+        if not dated:
+            continue
+        broke, (latest, latest_url) = dated[0][0], dated[-1]
+        if broke < cutoff:
+            # An old event. Keep it only if something new was said about it
+            # inside the last few hours, and point at that post.
+            if utcnow() - latest > dt.timedelta(hours=3):
+                continue
+            kind, primary, when = "update", latest_url, latest
+            signal = (f"new post {_age_hours(latest)}h ago on an event that broke "
+                      f"{_age_hours(broke)}h ago; HuggingNews credits {len(dated)} X posts")
+        else:
+            kind, primary, when = "tip", dated[0][1], broke
+            signal = (f"broke {_age_hours(broke)}h ago; HuggingNews credits "
+                      f"{len(dated)} X posts")
+        out.append(find(kind, page["title"], primary, "HuggingNews (tip)", signal, when,
+                        rank=100 - (_age_hours(when) or 0),
+                        extra={"credits": [u for _, u in dated], "tip_url": loc}))
     return out
 
 
