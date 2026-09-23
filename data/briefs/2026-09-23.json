@@ -1,335 +1,44 @@
 {
-  "generated_at": "2026-09-23T12:08:16.989980+00:00",
+  "generated_at": "2026-09-23T13:52:37.725881+00:00",
   "edition_date": "2026-09-23",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 117,
-  "clusters_found": 3,
-  "stories_declared": 2,
+  "posts_considered": 75,
+  "clusters_found": 60,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c1a219de7",
-      "score": 19.781,
+      "cluster_id": "cda9bd364",
+      "score": 11.277,
+      "interest": "want",
+      "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Nvidia",
-        "Microsoft",
-        "Apple",
         "Amazon"
       ],
       "independent_sources": [
         "AWS ML",
-        "Alibaba_Qwen",
-        "Ars Technica",
-        "CNBC",
-        "Kalshi",
-        "MIT Tech Review",
-        "MarioNawfal",
-        "MaxForAI",
-        "NVIDIA",
         "OpenAI",
-        "Polymarket",
-        "PolymarketMoney",
-        "ReutersLegal",
-        "SemiconductorsX",
-        "ShanuMathew93",
         "Simon Willison",
-        "StockMKTNewz",
-        "StockSavvyShay",
-        "Stratechery",
-        "TechCrunch AI",
-        "Techmeme",
-        "The Verge AI",
-        "TheHackersNews",
-        "TheRundownAI",
-        "arXiv",
-        "askalphaxiv",
-        "axios",
-        "business",
-        "choblin29",
-        "koltregaskes",
-        "mark_k",
-        "wallstengine",
-        "zerohedge"
+        "TechCrunch AI"
       ],
-      "source_count": 33,
-      "first_seen": "2026-09-22T12:10:00+00:00",
-      "last_seen": "2026-09-23T12:01:00+00:00",
+      "source_count": 4,
+      "first_seen": "2026-09-22T18:00:00+00:00",
+      "last_seen": "2026-09-22T18:48:37+00:00",
       "links": [
-        "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-        "https://arxiv.org/abs/2609.26693v1",
-        "https://arxiv.org/abs/2609.26704v1",
-        "https://arxiv.org/abs/2609.26705v1",
-        "https://arxiv.org/abs/2609.26707v1",
-        "https://arxiv.org/abs/2609.26708v1",
-        "https://arxiv.org/abs/2609.26711v1",
-        "https://arxiv.org/abs/2609.26718v1",
-        "https://arxiv.org/abs/2609.26725v1",
-        "https://arxiv.org/abs/2609.26737v1",
-        "https://arxiv.org/abs/2609.26748v1",
-        "https://arxiv.org/abs/2609.26749v1",
-        "https://arxiv.org/abs/2609.26751v1",
-        "https://arxiv.org/abs/2609.26756v1",
-        "https://arxiv.org/abs/2609.26758v1",
-        "https://arxiv.org/abs/2609.26760v1",
-        "https://arxiv.org/abs/2609.26761v1",
-        "https://arxiv.org/abs/2609.26777v1",
-        "https://arxiv.org/abs/2609.26779v1",
-        "https://arxiv.org/abs/2609.26780v1",
-        "https://arxiv.org/abs/2609.26781v1",
-        "https://arxiv.org/abs/2609.26783v1",
-        "https://arxiv.org/abs/2609.26796v1",
         "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-        "https://biz.chosun.com/it-science/ict/2026/09/23/F2MEIQIZFZD4RE7JP5AW7D7PVE/",
-        "https://blogs.nvidia.com/blog/ai-day-singapore/",
-        "https://openai.com/index/better-prompt-caching-for-gpt-6",
         "https://openai.com/index/introducing-gpt-6-sol-and-luna",
         "https://simonwillison.net/2026/Sep/22/llm/",
-        "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-        "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-        "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
-        "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-        "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-        "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-        "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-        "https://therundownai.beehiiv.com/p/the-pacing-era-s-first-launch-day",
-        "https://www.axios.com/2026/09/23/all-in-podcast-trump-ai-safety",
-        "https://www.bloomberg.com/graphics/2026-ai-data-center-heat-pollution-cities/",
-        "https://www.bloomberg.com/news/newsletters/2026-09-23/meta-muse-ai-personal-assistant-gets-off-to-fast-start",
-        "https://www.bloomberg.com/opinion/articles/2026-09-23/i-m-using-meta-s-muse-ai-agent-and-amazon-can-t-stand-it",
-        "https://www.businessinsider.com/mozillas-new-ad-campaign-features-posters-criticizing-big-tech-execs-2026-9",
-        "https://www.cnbc.com/2026/09/23/metas-muse-ai-causes-schwab-selloff.html",
-        "https://www.cnbc.com/2026/09/23/microsoft-will-get-a-boost-from-azure-and-copilot-stifel-says.html",
-        "https://www.cnbc.com/2026/09/23/texas-data-centers-election.html",
-        "https://www.ft.com/content/b97dde39-7813-4a51-8176-3699e2a468b1",
-        "https://www.reuters.com/legal/litigation/uk-regulator-proposes-giving-consumers-more-search-choice-google-2026-09-23/",
-        "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-        "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-        "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-        "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
-        "https://www.zerohedge.com/ai/european-commission-proposes-energy-water-efficiency-disclosure-rules-data-centers",
-        "https://x.com/Alibaba_Qwen/status/2102727405198876753",
-        "https://x.com/Alibaba_Qwen/status/2102727410093601172",
-        "https://x.com/Alibaba_Qwen/status/2102727414317199671",
-        "https://x.com/Alibaba_Qwen/status/2102727417781772404",
-        "https://x.com/Alibaba_Qwen/status/2102727421128810774",
-        "https://x.com/Kalshi/status/2102729944866701494",
-        "https://x.com/MarioNawfal/status/2102701484341150169",
-        "https://x.com/MaxForAI/status/2102712136380379462",
-        "https://x.com/Polymarket/status/2102723652890526014",
-        "https://x.com/PolymarketMoney/status/2102717983802147087",
-        "https://x.com/SemiconductorsX/status/2102707655517372479",
-        "https://x.com/SemiconductorsX/status/2102714874120081698",
-        "https://x.com/SemiconductorsX/status/2102718401978544439",
-        "https://x.com/SemiconductorsX/status/2102726107607044145",
-        "https://x.com/ShanuMathew93/status/2102706287188283397",
-        "https://x.com/ShanuMathew93/status/2102726678216614056",
-        "https://x.com/StockMKTNewz/status/2102723628580147257",
-        "https://x.com/StockSavvyShay/status/2102711934022041978",
-        "https://x.com/StockSavvyShay/status/2102717390169784346",
-        "https://x.com/StockSavvyShay/status/2102721818046206382",
-        "https://x.com/StockSavvyShay/status/2102725141583298775",
-        "https://x.com/Techmeme/status/2102715007859638453",
-        "https://x.com/Techmeme/status/2102717397866254687",
-        "https://x.com/Techmeme/status/2102726166201487537",
-        "https://x.com/TheHackersNews/status/2102718159409353042",
-        "https://x.com/TheHackersNews/status/2102726838866866320",
-        "https://x.com/askalphaxiv/status/2102707295717036507",
-        "https://x.com/choblin29/status/2102715952639152225",
-        "https://x.com/koltregaskes/status/2102721895967961579",
-        "https://x.com/mark_k/status/2102725116882780590",
-        "https://x.com/wallstengine/status/2102715633796554870",
-        "https://x.com/wallstengine/status/2102717267155005872",
-        "https://x.com/wallstengine/status/2102722922754568446"
+        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
       ],
       "posts": [
         {
-          "author": "MIT Tech Review",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-          "created_at": "2026-09-22T12:10:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation. A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavior alone. In Ollama, the default tools= request is gated per model by a static template flag: some models are accepted and return calls as text, some return native tool_calls, while Phi-3 and Gemma-3 are rejected before inference. In our harness, rejection and retry exhaustion are not preserved as st",
-          "url": "https://arxiv.org/abs/2609.26693v1",
-          "created_at": "2026-09-22T16:48:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning. Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or strategies and then conditioning answer generation on them. We refine this into a simple, more explora",
-          "url": "https://arxiv.org/abs/2609.26704v1",
-          "created_at": "2026-09-22T16:56:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "When are bosonic Gaussian states classical to learn?. A fundamental question in physics is: When does classical behavior emerge from quantum systems? Bosonic Gaussian states provide a natural setting to explore this quantum-classical boundary, as they capture both the classical field behavior and the intrinsic quantum nature of light. Here, we address this problem from a learning-theoretic perspective by asking: When are bosonic Gaussian states classical to learn? That is, under what conditions (if any) can an n-mode bosonic Gaussian state be learned with as few samples, and with operations as simple, as are needed to learn a classical 2n-variate",
-          "url": "https://arxiv.org/abs/2609.26705v1",
-          "created_at": "2026-09-22T16:58:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Optimal Sequential Annotations for Off-Policy Evaluation. Offline reinforcement learning and off-policy evaluation evaluates dynamic treatment rules based on retrospectively collected data prior to deployment. In recent AI applications, state and reward information is recorded as complex text or image, which recent AI advancements such as LLM-as-a-judge can label with unknown bias. Expert annotation may be available but at a higher cost. For example, safety classification via cheap but imperfect classifiers vs. expensive expert review. We show how a limited budget for ground-truth data-annotation can be used via doubly-robust OPE with missing rewards",
-          "url": "https://arxiv.org/abs/2609.26707v1",
-          "created_at": "2026-09-22T17:00:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning. Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired. Long generations often degenerate into repetitive loops, exhausting the decoding budget without completing a solution. We trace this gap to quantization-amplified exposure bias: QAD trains on fixed corpus prefixes, while quantization-induced deviations compound along the model's own autoregressive trajectories. To address this mismatch, we introduce an on-policy distillation (OPD) stage that place",
-          "url": "https://arxiv.org/abs/2609.26708v1",
-          "created_at": "2026-09-22T17:01:09+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits. Software vulnerabilities are often discovered long after they are introduced, making it difficult to identify the vulnerability-inducing commit (VIC) responsible for introducing the underlying vulnerable condition. Existing VIC identification techniques largely rely on git blame to trace vulnerable code through revision history and use positional heuristics, such as selecting its earliest or most recent modification. However, the true VIC may occur anywhere within this history, and vulnerable behavior may depend on code that evolves across multiple revisions. We therefore argue that VIC identi",
-          "url": "https://arxiv.org/abs/2609.26711v1",
-          "created_at": "2026-09-22T17:02:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence. Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative competition with abundant, task-irrelevant proximal background. To address the Proximity Trap, we introduce LYRA (Long-context heavY-tailed Relevance Alignment), a t-distributed directional matching mechanism that reshapes the context retrieval distribution, directing more attention mass toward task-rel",
-          "url": "https://arxiv.org/abs/2609.26718v1",
-          "created_at": "2026-09-22T17:06:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows. AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with large language models (LLMs). While these tools promise time savings, experimental evidence in product design remains limited compared with evidence from software engineering. We conducted a randomized controlled trial with 50 product designers and 50 product managers to evaluate prospective time savings from leveraging Figma Make in design work. Participants attempted three standardized design tasks with or",
-          "url": "https://arxiv.org/abs/2609.26725v1",
-          "created_at": "2026-09-22T17:13:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Diffusion-Induced Spatial Attention Overlapping Community Detection. Detection of overlapping communities is essential for modelling networks in which nodes participate simultaneously in multiple structural or functional groups. Existing graph neural network approaches commonly rely on local message passing, which can obscure community boundaries through smoothing and limit the representation of structurally relevant long-range dependencies. We introduce Diffusion-Induced Spatial Attention Community Detection (DISCO), a deep-learning framework that combines a structural prior derived from influence spreading dynamics, sparse multi-head attention, and non-negati",
-          "url": "https://arxiv.org/abs/2609.26737v1",
-          "created_at": "2026-09-22T17:25:55+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping. Clustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical parameter tuning. A-DLCC uses the $β$-integrated local depth to identify stable exemplars, points consistently central across multiple locality levels, termed local centers, which are ranked by their representativeness. Each local center induces a group of similar ",
-          "url": "https://arxiv.org/abs/2609.26748v1",
-          "created_at": "2026-09-22T17:31:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen. Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vulnerability repair, and we support this with five controlled experiments over 203 vulnerable functions from Big-Vul, three open-source code LLMs (350M to 6.7B parameters), and three prompting strategies. Compile rate (i) barely responds to an intervention that substantially improves the generated code",
-          "url": "https://arxiv.org/abs/2609.26749v1",
-          "created_at": "2026-09-22T17:32:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations. Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A complemen- tary need is to study whether a generated assertion cap- tures externally observable behavior or depends on inci- dental details of one RTL implementation. We present EquivSVA, a formally verified dataset organized around behavior families. Each family con",
-          "url": "https://arxiv.org/abs/2609.26751v1",
-          "created_at": "2026-09-22T17:33:09+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "FleXray: Universal Clinical X-ray Segmentation. X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeling X-ray databases for training general-purpose segmentation systems is impractical, leaving morphometric and functional X-ray analysis confined to narrow anatomical regions and applications. To this end, we present FleXray, a generalist model for anatomical segmentation across the entire body in cl",
-          "url": "https://arxiv.org/abs/2609.26756v1",
-          "created_at": "2026-09-22T17:37:55+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It. Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By construction, every output conforms to the required schema. Yet this guarantee does not tell us whether the model interprets the options as intended. We study Jev and two Jev-like models with open weights by changing how option names are assigned to rubrics. Each option consists of an option name and a textual rubric that defines what the option means. We change only which option name is assigned to",
-          "url": "https://arxiv.org/abs/2609.26758v1",
-          "created_at": "2026-09-22T17:38:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents. Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserving LLM calls for task-specific semantic reasoning. We introduce Growing Harness, a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold that exposes fixed model and tool interfaces but encodes no task-solving controller. Function-level execution traces",
-          "url": "https://arxiv.org/abs/2609.26760v1",
-          "created_at": "2026-09-22T17:40:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem. Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, direct attacks optimized and evaluated on GLM-4.6 achieve a mac",
-          "url": "https://arxiv.org/abs/2609.26761v1",
-          "created_at": "2026-09-22T17:41:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving. We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance ",
-          "url": "https://arxiv.org/abs/2609.26777v1",
-          "created_at": "2026-09-22T17:54:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents. Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the performance--cost trade-off of test-time scaling more efficient, adding over 10 percentage points on Terminal-",
-          "url": "https://arxiv.org/abs/2609.26779v1",
-          "created_at": "2026-09-22T17:55:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue. Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attributi",
-          "url": "https://arxiv.org/abs/2609.26780v1",
-          "created_at": "2026-09-22T17:56:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Agensh: Scaling Organizational Intelligence to 1,024 Agents. A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, continuously gathering context, claiming and self-assigning sub-tasks, taking action and sharing fin",
-          "url": "https://arxiv.org/abs/2609.26781v1",
-          "created_at": "2026-09-22T17:56:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing. We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision processes without prior knowledge of the transition model. Each team member makes decisions based on local private information and delayed common information shared across the team. Using only this available information, each member learns an approximate low-rank Markov decision process and applies le",
-          "url": "https://arxiv.org/abs/2609.26783v1",
-          "created_at": "2026-09-22T17:56:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs. Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and parallel token verification are jointly applied. In this work, we introduce $\\textbf{Flash-dLLM}$, ",
-          "url": "https://arxiv.org/abs/2609.26796v1",
-          "created_at": "2026-09-22T17:59:57+00:00",
+          "text": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes. OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "created_at": "2026-09-22T18:00:00+00:00",
           "engagement": 0
         },
         {
@@ -338,14 +47,6 @@
           "text": "Introducing GPT-6 Sol and Luna. Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
           "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
           "created_at": "2026-09-22T18:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Quoting @therealcornpop. Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not. It's the lack of anything . It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about. &mdash; @therealcornpop , on TikTok Tags: tiktok , ai , ai",
-          "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-          "created_at": "2026-09-22T18:03:21+00:00",
           "engagement": 0
         },
         {
@@ -363,53 +64,57 @@
           "url": "https://simonwillison.net/2026/Sep/22/llm/",
           "created_at": "2026-09-22T18:48:37+00:00",
           "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence. Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
-          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-          "created_at": "2026-09-22T19:09:11+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica",
-          "tier": "press",
-          "text": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts. EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
-          "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-          "created_at": "2026-09-22T19:45:47+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Qualcomm launches two new smartphone chips with emphasis on AI. Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
-          "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-          "created_at": "2026-09-22T20:00:00+00:00",
-          "engagement": 0
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2bdcfca0",
+      "score": 10.245,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Simon Willison",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-22T16:30:00+00:00",
+      "last_seen": "2026-09-22T23:46:41+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+        "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+        "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
+      ],
+      "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Rabbit’s new AI agent doesn’t need an R1 to run. Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. According to Rabbit, you can [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-          "created_at": "2026-09-22T20:52:40+00:00",
+          "text": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity. Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+          "created_at": "2026-09-22T16:30:00+00:00",
           "engagement": 0
         },
         {
-          "author": "OpenAI",
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-anthropic 0.29. Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+          "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+          "created_at": "2026-09-22T17:14:55+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
           "tier": "primary",
-          "text": "Better prompt caching for GPT-6. Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-          "created_at": "2026-09-22T21:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms. The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-          "created_at": "2026-09-22T21:56:43+00:00",
+          "text": "Claude Opus 5.5 is now available on AWS. Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+          "created_at": "2026-09-22T17:28:01+00:00",
           "engagement": 0
         },
         {
@@ -419,13 +124,34 @@
           "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
           "created_at": "2026-09-22T23:46:41+00:00",
           "engagement": 0
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "caafd3961",
+      "score": 9.459,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "Simon Willison",
+        "arXiv"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-22T17:54:59+00:00",
+      "last_seen": "2026-09-23T02:53:19+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.26777v1",
+        "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"
+      ],
+      "posts": [
         {
-          "author": "NVIDIA",
+          "author": "arXiv",
           "tier": "primary",
-          "text": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia. NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
-          "created_at": "2026-09-23T02:30:22+00:00",
+          "text": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving. We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance ",
+          "url": "https://arxiv.org/abs/2609.26777v1",
+          "created_at": "2026-09-22T17:54:59+00:00",
           "engagement": 0
         },
         {
@@ -435,494 +161,76 @@
           "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
           "created_at": "2026-09-23T02:53:19+00:00",
           "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI. Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
-          "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-          "created_at": "2026-09-23T04:59:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "Smart glasses are already causing havoc in India. Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-          "created_at": "2026-09-23T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Stratechery",
-          "tier": "commentary",
-          "text": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?. Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
-          "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
-          "created_at": "2026-09-23T10:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "CNBC",
-          "tier": "commentary",
-          "text": "Texas turning blue may hinge on Democrats harnessing data center opposition",
-          "url": "https://x.com/CNBC/status/2102700898912698688",
-          "created_at": "2026-09-23T10:05:35+00:00",
-          "engagement": 26
-        },
-        {
-          "author": "MarioNawfal",
-          "tier": "commentary",
-          "text": "Xi has departed Beijing for Washington, where Trump is due to personally greet him at Joint Base Andrews ahead of their high-stakes talks. On the agenda: Trade and tariffs, Taiwan, the Iran war, and, of course, AI. Officials are already discussing a possible \"U.S.-China AI dialogue\" and notification mechanism, as AI systems become a source of both competition and concern.",
-          "url": "https://x.com/MarioNawfal/status/2102701484341150169",
-          "created_at": "2026-09-23T10:07:54+00:00",
-          "engagement": 329
-        },
-        {
-          "author": "choblin29",
-          "tier": "commentary",
-          "text": "EXCLUSIVE: China is scrutinizing Broadcom's grip on its AI data-center networks. A government survey found Broadcom switches make up as much as 90% of networking equipment at some state-owned companies. China's state-assets regulator, SASAC, is now examining whether Broadcom used its market position to push customers into orders of tens of thousands of switch chips.",
-          "url": "https://x.com/choblin29/status/2102705488253317230",
-          "created_at": "2026-09-23T10:23:49+00:00",
-          "engagement": 2
-        },
-        {
-          "author": "ShanuMathew93",
-          "tier": "commentary",
-          "text": "Blackwell rental rate: \"Ornn's B200 Rental Index has reached an all time high. B200s on-demand rentals are now transacting at an average price of $7.88 per GPU hour.\"",
-          "url": "https://x.com/ShanuMathew93/status/2102706287188283397",
-          "created_at": "2026-09-23T10:26:59+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "zerohedge",
-          "tier": "commentary",
-          "text": "European Commission Proposes Energy & Water Efficiency Disclosure Rules For Data-Centers",
-          "url": "https://x.com/zerohedge/status/2102707078288597436",
-          "created_at": "2026-09-23T10:30:08+00:00",
-          "engagement": 66
-        },
-        {
-          "author": "TheRundownAI",
-          "tier": "commentary",
-          "text": "Top stories in AI today: - Anthropic, OpenAI deliver dueling frontier AI discounts - OpenAI taps mathematicians to check its AI - Build, test, and publish an app without leaving Codex - a16z's new AI-driven college alternative",
-          "url": "https://x.com/TheRundownAI/status/2102707088744931819",
-          "created_at": "2026-09-23T10:30:11+00:00",
-          "engagement": 10
-        },
-        {
-          "author": "ReutersLegal",
-          "tier": "commentary",
-          "text": "Britain's competition watchdog on Wednesday put forward proposals to give Google Android and Chrome users greater choice and control over the search services they use, including AI assistants such as ChatGPT and Perplexity.",
-          "url": "https://x.com/ReutersLegal/status/2102707131195555934",
-          "created_at": "2026-09-23T10:30:21+00:00",
-          "engagement": 1
-        },
-        {
-          "author": "askalphaxiv",
-          "tier": "commentary",
-          "text": "\"Self-Organizing Agent Teams Learn to Reason Together\". Most multi-agent systems are given a fixed way to collaborate. This paper shows agents can instead learn how to work together from experience, developing teamwork strategies that let them challenge, repair, and build on each other's reasoning. With this setup, they were able to get 66.7% accuracy vs 48.8% for the strongest member and 59.0% for a perfect router.",
-          "url": "https://x.com/askalphaxiv/status/2102707295717036507",
-          "created_at": "2026-09-23T10:31:00+00:00",
-          "engagement": 81
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "Bernstein Research reports Huawei's Kirin 9050 Pro, made on 7nm-equivalent SMIC process, beats Apple's 3nm A17 Pro in Geekbench 6 multicore scores. Logic folding and Tau Scaling Law raised transistor density 55% to 238 million/mm2. Gains include stronger multi-core CPU, 39%+ GPU, and 150% NPU throughput versus prior Kirin. It debuts in the Mate XT 2 tri-fold. Architectural tricks are closing the gap despite node limits, though it still trails Apple's newest 2nm A20 Pro by about 30%.",
-          "url": "https://x.com/SemiconductorsX/status/2102707655517372479",
-          "created_at": "2026-09-23T10:32:26+00:00",
-          "engagement": 1
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": ".@DaveLeeBBG is enjoying Meta's Muse agent (he even named it Harold), but Amazon is throwing up roadblocks in a sign of AI antagonism (via @opinion)",
-          "url": "https://x.com/business/status/2102708331043225657",
-          "created_at": "2026-09-23T10:35:07+00:00",
-          "engagement": 10
-        },
-        {
-          "author": "StockSavvyShay",
-          "tier": "commentary",
-          "text": "Anthropic is in talks to lease up to 1GW from Stream Data Centers in a ~$40B buildout using mostly $GOOGL TPUs and $NVDA GPUs. That would give Anthropic even more control over its compute stack after signing ~$531B of compute agreements in just 11 months.",
-          "url": "https://x.com/StockSavvyShay/status/2102711934022041978",
-          "created_at": "2026-09-23T10:49:26+00:00",
-          "engagement": 239
-        },
-        {
-          "author": "MaxForAI",
-          "tier": "commentary",
-          "text": "ValsAI ran 10 Claude agents at a classic open problem: can shortest-path algorithms be pushed further? The agents ran 15 hours and exchanged 733 messages, producing a new algorithm called C-HD. On a class of sparse graphs Dijkstra is O(n log n); C-HD reaches O(n log^(11/12) n). The agents also wrote the proof: 289 Lean files, machine-checked by the Lean kernel. Lean has verified that within their computational model and that narrow band of graph density, C-HD correctly finds shortest paths and meets the claimed complexity bound.",
-          "url": "https://x.com/MaxForAI/status/2102712136380379462",
-          "created_at": "2026-09-23T10:50:14+00:00",
-          "engagement": 14
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "As facilities to power AI grow larger and are built in clusters, they are spreading hot air beyond their property lines",
-          "url": "https://x.com/business/status/2102713351415431559",
-          "created_at": "2026-09-23T10:55:04+00:00",
-          "engagement": 25
-        },
-        {
-          "author": "CNBC",
-          "tier": "commentary",
-          "text": "Microsoft will get a boost from Azure and Copilot, Stifel says",
-          "url": "https://x.com/CNBC/status/2102714488461963692",
-          "created_at": "2026-09-23T10:59:35+00:00",
-          "engagement": 10
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "Hyperscaler capex is exploding. Memory is taking an even bigger slice. UBS now puts memory at 14% of AI capex in 2025, 37% in 2026, and 64% by 2027. That is $71 billion, then $367 billion, then $923 billion, while total AI spend heads toward $1.45 trillion. Next-gen GPUs and TPUs need stacked HBM that eats about 3x the wafer area of regular DRAM. Capacity is being pulled from DDR and NAND at the same time inference, agent workloads, and storage demand rise. Result: shortages and higher ASPs through 2027.",
-          "url": "https://x.com/SemiconductorsX/status/2102714874120081698",
-          "created_at": "2026-09-23T11:01:07+00:00",
-          "engagement": 6
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "Gallup survey of 37 countries: in 34, positive AI sentiment outweighed the negative; 90%+ of people in China and 66%+ in Nigeria say AI will improve daily life (@damiencave / New York Times)",
-          "url": "https://x.com/Techmeme/status/2102715007859638453",
-          "created_at": "2026-09-23T11:01:39+00:00",
-          "engagement": 5
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI nabs key Patreon execs ahead of upcoming announcement. OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, co-founder and technology chief Sam Yam announced on X that he's joining OpenAI to lead Creator Product. He's also bringing Patreon's former product head Drew Rowny and engineering head Shannon Ma with [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
-          "created_at": "2026-09-23T11:02:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "wallstengine",
-          "tier": "commentary",
-          "text": "Cantor Fitzgerald sees $META as a major beneficiary of personal AI agents: As AI capabilities continue to advance, we think personal agents have the potential to emerge as the third S-curve in AI. Meta is well positioned to be a leading beneficiary of this theme with a competitive model specifically trained to lead in agentic tasks, a strong harness with a differentiated UX in Muse, and massive compute infrastructure. Believe the unit economics of Muse are being subsidized in the early days.",
-          "url": "https://x.com/wallstengine/status/2102715633796554870",
-          "created_at": "2026-09-23T11:04:08+00:00",
-          "engagement": 73
-        },
-        {
-          "author": "choblin29",
-          "tier": "commentary",
-          "text": "Meta's Muse \"AI\" handed an employee's internet-bill negotiation to a human contractor. The contractor then made a racist reference during the call. Meta apologized, barred the contractor from future Meta projects, and has rolled back Muse's human-concierge system.",
-          "url": "https://x.com/choblin29/status/2102715952639152225",
-          "created_at": "2026-09-23T11:05:24+00:00",
-          "engagement": 1
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "CXMT is turning a DRAM shortage print into a capex book. The order book on plants and tools just tripled in six months. ChosunBiz, as summarized in market recaps of the September 23 note, says long-term factory and equipment commitments stood at 52.44 billion yuan at the end of June. That is about 10.6 trillion won, or roughly $7.4 billion. End-2025 was 17.13 billion yuan. The jump is 206%. Cash spent on plants and tools in the first half was 21.59 billion yuan, down 10.5% from a year earlier.",
-          "url": "https://x.com/SemiconductorsX/status/2102716836223856838",
-          "created_at": "2026-09-23T11:08:55+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "Meta's Muse AI agent is off to a fast start, but company still has to prove it can be trusted",
-          "url": "https://x.com/business/status/2102717130386940359",
-          "created_at": "2026-09-23T11:10:05+00:00",
-          "engagement": 30
-        },
-        {
-          "author": "wallstengine",
-          "tier": "commentary",
-          "text": "$SHAZ PARTNERS WITH VAST DATA ON CONFIDENTIAL AI INFRASTRUCTURE. Sharon AI will integrate VAST DataEnclave into its AI Factory platform across Australia and Asia-Pacific, allowing regulated customers to run advanced AI models onshore, including in fully air-gapped environments. The setup keeps both customer data and model weights encrypted during processing, including GPU memory and interconnect traffic, with Nvidia GPUs running in Confidential Compute mode.",
-          "url": "https://x.com/wallstengine/status/2102717267155005872",
-          "created_at": "2026-09-23T11:10:37+00:00",
-          "engagement": 38
-        },
-        {
-          "author": "StockSavvyShay",
-          "tier": "commentary",
-          "text": "UBS initiated $CIFR at Buy with a $23 PT after 493MW of signed leases with $GOOGL Fluidstack and $AMZN with near-term leasing alone worth ~$12/share. UBS also says the stock reflects \"little-to-no value\" for remaining 4.6GW pipeline as Cipher adds 2.5GW of onsite generation.",
-          "url": "https://x.com/StockSavvyShay/status/2102717390169784346",
-          "created_at": "2026-09-23T11:11:07+00:00",
-          "engagement": 132
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "A Facebook co-founder proposes creating an \"Office of AI Supervision\" to embed teams inside frontier AI labs, with a three-year term to avoid regulatory capture (@chrishughes / Financial Times)",
-          "url": "https://x.com/Techmeme/status/2102717397866254687",
-          "created_at": "2026-09-23T11:11:08+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "PolymarketMoney",
-          "tier": "commentary",
-          "text": "JUST IN: Meta Connect 2026 starts today at 7 PM ET with Mark Zuckerberg set to unveil new glasses, Project Phoenix and Muse AI updates.",
-          "url": "https://x.com/PolymarketMoney/status/2102717983802147087",
-          "created_at": "2026-09-23T11:13:28+00:00",
-          "engagement": 54
-        },
-        {
-          "author": "TheHackersNews",
-          "tier": "commentary",
-          "text": "A public exploit now targets an unpatched Ubuntu 26.04 kernel flaw that can escape containers and gain root on the host. The AF_UNIX bug is reachable through syscalls allowed by default Docker and Kubernetes seccomp profiles. No attacks are confirmed.",
-          "url": "https://x.com/TheHackersNews/status/2102718159409353042",
-          "created_at": "2026-09-23T11:14:10+00:00",
-          "engagement": 32
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "CXMT is not only printing margin. It is taking share while it spends the IPO. As per TrendForce data, its global DRAM revenue share was 9.5% in the second quarter, up 1.9 points from 7.6% in the first. Its DRAM sales rose 99.3% in that window. The whole market rose 59.5%. R&D in the first half, including capitalized development, was 6.859 billion yuan, about 1.9 trillion won, up 87.4% year on year.",
-          "url": "https://x.com/SemiconductorsX/status/2102718401978544439",
-          "created_at": "2026-09-23T11:15:08+00:00",
-          "engagement": 2
-        },
-        {
-          "author": "choblin29",
-          "tier": "commentary",
-          "text": "EXCLUSIVE: Mozilla, the nonprofit behind Firefox, is plastering New York with posters mocking Mark Zuckerberg, Elon Musk and Jeff Bezos as part of a campaign against Big Tech's billionaire mythology. Its Zuckerberg ad reads: \"MARK GETS INTO EYEWEAR\" -> \"Makes creepers, peepers.\" Mozilla is placing the posters near the UN General Assembly and in tech hubs including Hudson Yards, NoHo and Dumbo, while hiring influencers to spread them online.",
-          "url": "https://x.com/choblin29/status/2102721128720654711",
-          "created_at": "2026-09-23T11:25:58+00:00",
-          "engagement": 10
-        },
-        {
-          "author": "StockSavvyShay",
-          "tier": "commentary",
-          "text": "UBS initiated $CRWV at Buy with a $120 price target citing \"outstanding AI compute demand signals\" and saying revenue per GW will march higher. The firm also says leverage and credit concerns may be peaking while the stock still trades at just ~3x 2027 revenue.",
-          "url": "https://x.com/StockSavvyShay/status/2102721818046206382",
-          "created_at": "2026-09-23T11:28:42+00:00",
-          "engagement": 114
-        },
-        {
-          "author": "koltregaskes",
-          "tier": "commentary",
-          "text": "Not sure I like the 'Latest' model selector and it not showing the model version here.",
-          "url": "https://x.com/koltregaskes/status/2102721895967961579",
-          "created_at": "2026-09-23T11:29:01+00:00",
-          "engagement": 13
-        },
-        {
-          "author": "wallstengine",
-          "tier": "commentary",
-          "text": "$QCOM BUYS PICKNIK ROBOTICS. Qualcomm is acquiring PickNik, the company behind MoveIt, a widely used open-source robotics manipulation framework. Qualcomm plans to integrate MoveIt + MoveIt Pro with its Dragonwing robotics platforms, expanding its push into edge AI and robotics software.",
-          "url": "https://x.com/wallstengine/status/2102722922754568446",
-          "created_at": "2026-09-23T11:33:06+00:00",
-          "engagement": 105
-        },
-        {
-          "author": "StockMKTNewz",
-          "tier": "commentary",
-          "text": "Qualcomm $QCOM just announced it has agreed to acquire Picknik Robotics who owns MoveIt \"a major open-source robotics manipulation framework used across industrial automation, service robotics and mobile manipulation.\"",
-          "url": "https://x.com/StockMKTNewz/status/2102723628580147257",
-          "created_at": "2026-09-23T11:35:54+00:00",
-          "engagement": 64
-        },
-        {
-          "author": "Polymarket",
-          "tier": "commentary",
-          "text": "JUST IN: Bain Capital Ventures raises $1,600,000,000.00 to invest in startups built for \"life after AGI.\"",
-          "url": "https://x.com/Polymarket/status/2102723652890526014",
-          "created_at": "2026-09-23T11:36:00+00:00",
-          "engagement": 146
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Anthropic is in early talks to lease up to 1 gigawatt of data center capacity directly from Apollo-backed Stream Data Centers. The sites could be filled with Google and Broadcom TPUs. That would give @AnthropicAI more control over its compute and make it less dependent on cloud providers.",
-          "url": "https://x.com/mark_k/status/2102725116882780590",
-          "created_at": "2026-09-23T11:41:49+00:00",
-          "engagement": 23
-        },
-        {
-          "author": "StockSavvyShay",
-          "tier": "commentary",
-          "text": "$QCOM is acquiring PickNik Robotics and bringing \"MoveIt\" into Dragonwing to deepen its edge AI stack for robotics.",
-          "url": "https://x.com/StockSavvyShay/status/2102725141583298775",
-          "created_at": "2026-09-23T11:41:55+00:00",
-          "engagement": 91
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "\"With the recent rise of Meta Muse, the importance of the CPU, which plays the role of orchestration in AI systems, is also being re-evaluated,\" Meritz Securities Research Institute's Yang Seung-soo said. As a result, Samsung Electro-Mechanics' laminated ceramic condenser (MLCC) and ABF are both likely to benefit from expanding CPU demand.",
-          "url": "https://x.com/SemiconductorsX/status/2102726107607044145",
-          "created_at": "2026-09-23T11:45:45+00:00",
-          "engagement": 2
-        },
-        {
-          "author": "Techmeme",
-          "tier": "commentary",
-          "text": "The UK CMA proposes rules requiring Google and Android OEMs to offer search choice screens on first use and via yearly prompts, new AI assistant rules, and more (@stevetdent / Engadget)",
-          "url": "https://x.com/Techmeme/status/2102726166201487537",
-          "created_at": "2026-09-23T11:45:59+00:00",
-          "engagement": 1
-        },
-        {
-          "author": "ShanuMathew93",
-          "tier": "commentary",
-          "text": "GS sees US BTM going from ~2-3 GW in 2026 to ~30+ GW by 2030. Need to get +7-8GW/yr from BTM. Good luck and we shall see but 2027-2028 is going to be the big test period for all these forecasts.",
-          "url": "https://x.com/ShanuMathew93/status/2102726678216614056",
-          "created_at": "2026-09-23T11:48:01+00:00",
-          "engagement": 3
-        },
-        {
-          "author": "TheHackersNews",
-          "tier": "commentary",
-          "text": "Anthropic's Opus 5.5 tried to escape or tamper with a sandbox in 1.5% of safeguard-free test runs. OpenAI's GPT-6 Luna worked around access-denied restrictions in 42% of runs, down from 77% for its predecessor. Read where the safeguards still failed.",
-          "url": "https://x.com/TheHackersNews/status/2102726838866866320",
-          "created_at": "2026-09-23T11:48:39+00:00",
-          "engagement": 3
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Introducing Qwen Intelligence, bringing personal intelligence within everyone's reach. It launches with three SOTA agents: - Mobile Planner Agent: plans, decomposes & orchestrates complex tasks. #1 on MobilePA-Bench, MobilePA-Bench Business & Memory. - Mobile-Use Agent: gets things done, API-first with GUI fallback. MobileWorld 82.1, MobileWorld-Real 92.2, AndroidDaily 97.2, 90% end-to-end success rate. - Mobile Creative Agent: turns one sentence into ready-to-use creations. Image generated in 3s, about 2x faster than leading peers. We're also opening up our benchmark suite: MobilePA-Bench.",
-          "url": "https://x.com/Alibaba_Qwen/status/2102727405198876753",
-          "created_at": "2026-09-23T11:50:54+00:00",
-          "engagement": 272
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Performance of Mobile Planner Agent (Qwen Intelligence benchmark chart).",
-          "url": "https://x.com/Alibaba_Qwen/status/2102727410093601172",
-          "created_at": "2026-09-23T11:50:56+00:00",
-          "engagement": 6
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Performance of Mobile-Use Agent (Qwen Intelligence benchmark chart).",
-          "url": "https://x.com/Alibaba_Qwen/status/2102727414317199671",
-          "created_at": "2026-09-23T11:50:57+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Performance of Mobile Creative Agent (Qwen Intelligence benchmark chart).",
-          "url": "https://x.com/Alibaba_Qwen/status/2102727417781772404",
-          "created_at": "2026-09-23T11:50:57+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Benchmark suite for Qwen Intelligence agents.",
-          "url": "https://x.com/Alibaba_Qwen/status/2102727421128810774",
-          "created_at": "2026-09-23T11:50:58+00:00",
-          "engagement": 5
-        },
-        {
-          "author": "axios",
-          "tier": "commentary",
-          "text": "President Trump's accelerationist AI doctrine increasingly bears the stamp of the \"All-In\" podcast, whose tech-investor network now feeds ideas and talent directly into the White House.",
-          "url": "https://x.com/axios/status/2102728334664933417",
-          "created_at": "2026-09-23T11:54:36+00:00",
-          "engagement": 13
-        },
-        {
-          "author": "CNBC",
-          "tier": "commentary",
-          "text": "Meta's Muse reignites AI disruption fears. Traders are targeting this brokerage stock as next casualty",
-          "url": "https://x.com/CNBC/status/2102729178957128129",
-          "created_at": "2026-09-23T11:57:57+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "Kalshi",
-          "tier": "commentary",
-          "text": "BREAKING: Ex-Google safety chief says AI is doing \"terrible\" harm to kids",
-          "url": "https://x.com/Kalshi/status/2102729944866701494",
-          "created_at": "2026-09-23T12:01:00+00:00",
-          "engagement": 17
         }
       ]
     },
     {
-      "cluster_id": "c01ffcb28",
-      "score": 14.798,
+      "cluster_id": "c3f8474fe",
+      "score": 7.461,
+      "interest": "want",
+      "single_source": false,
       "suggested_section": "ai",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "arXiv"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-22T15:17:45+00:00",
+      "last_seen": "2026-09-22T17:41:34+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.26761v1",
+        "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Extending public sector intelligence with Agentforce and AWS. Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface them through natural language queries in Salesforce Agentforce.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
+          "created_at": "2026-09-22T15:17:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem. Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, direct attacks optimized and evaluated on GLM-4.6 achieve a mac",
+          "url": "https://arxiv.org/abs/2609.26761v1",
+          "created_at": "2026-09-22T17:41:34+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1ac6a720",
+      "score": 6.455,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
       "entities": [
         "OpenAI",
         "Anthropic",
         "Google",
         "Meta",
-        "Nvidia",
-        "Microsoft",
-        "Amazon"
+        "Nvidia"
       ],
       "independent_sources": [
-        "AWS ML",
-        "Ars Technica",
-        "CoinMarketCap",
-        "MIT Tech Review",
-        "OpenAI",
-        "PolymarketMoney",
-        "Simon Willison",
         "TechCrunch AI",
-        "The Verge AI",
-        "arXiv"
+        "The Verge AI"
       ],
-      "source_count": 10,
-      "first_seen": "2026-09-22T12:23:05+00:00",
-      "last_seen": "2026-09-23T12:00:04+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-22T14:00:00+00:00",
+      "last_seen": "2026-09-22T16:34:08+00:00",
       "links": [
-        "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
-        "https://arxiv.org/abs/2609.26682v1",
-        "https://arxiv.org/abs/2609.26683v1",
-        "https://arxiv.org/abs/2609.26687v1",
-        "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
-        "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-        "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-        "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
         "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-        "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-        "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
         "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
         "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-        "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
         "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-        "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-        "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-        "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-        "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-        "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-        "https://x.com/CoinMarketCap/status/2102715897072783739",
-        "https://x.com/PolymarketMoney/status/2102729708903276549"
+        "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy"
       ],
       "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again. The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
-          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-          "created_at": "2026-09-22T12:23:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Everyone can find a reason to dislike data center construction. Inside two years of fraught AI data center debates in Pennsylvania.",
-          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-          "created_at": "2026-09-22T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "Roundtables: The Deadly Failures of The Virtual Border Wall. The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-          "created_at": "2026-09-22T13:42:05+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
@@ -956,188 +264,12 @@
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Extending public sector intelligence with Agentforce and AWS. Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface them through natural language queries in Salesforce Agentforce.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
-          "created_at": "2026-09-22T15:17:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "How Tata Elxsi detects industrial safety risks in seconds on AWS. Learn how Tata Elxsi built IRIS, a real-time industrial safety platform on AWS. IRIS filters camera video at the edge, streams metadata through Amazon Kinesis, runs computer vision on Amazon SageMaker AI, and correlates detections into high-confidence alerts, detecting unsafe conditions in seconds instead of minutes.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
-          "created_at": "2026-09-22T15:19:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore. In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnostic workflow to a 20-second natural language interaction, a 60x improvement in time-to-insight. This post shares the architectural approach and key design decisions behind the solution.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
-          "created_at": "2026-09-22T15:30:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI. Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load levels. This post walks through deploying a model, running automated concurrency sweeps with the CreateAIBenchmarkJob API, and using the results to make data-driven capacity decisions about fleet size.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
-          "created_at": "2026-09-22T15:35:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore. Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing merchant configuration time by 80% and getting to production 33% faster.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
-          "created_at": "2026-09-22T15:46:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-typesafe 0.1a0. Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you can ask yes/no \"noul\" questions like this: llm -m jev 'Please refund my last payment.' \\ -s 'Does this message explicitly request a refund?' Output: {\"type\": \"noul\", \"noul\": 0.99} Or choice questions like this: cat message.txt | llm -m jev \\ -s ' Which team should handle this message? If billing and technical issues bo",
-          "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-          "created_at": "2026-09-22T15:54:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Trump says the US is officially renaming AI to ‘super intelligence’. In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, \"globalists,\" climate change, and transgender people while also claiming that the US is now \"officially\" renaming artificial intelligence to \"super intelligence.\" Oddly, this wasn't one of the entries in the poll Trump posted a few days ago when he started [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
-          "created_at": "2026-09-22T16:01:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity. Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-          "created_at": "2026-09-22T16:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance. Anthropic called it \"the strongest-performing model we've tested to date.\"",
-          "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
-          "created_at": "2026-09-22T16:30:07+00:00",
-          "engagement": 0
-        },
-        {
           "author": "The Verge AI",
           "tier": "press",
           "text": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta. Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]",
           "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
           "created_at": "2026-09-22T16:34:08+00:00",
           "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement. Generative AI (GenAI) applications have flourished enabling users to chat with large language models, and to create agents to act on their behalf for a variety of tasks. The pace of development of capabilities in this field is incredibly fast with security and safety taking a back seat. Unfortunately, the slower pace at which security and safety mechanisms have evolved has led to real incidents. Policy enables the definition of desirable behavior of applications, and for that reason, it is a cornerstone of making systems secure and compliant. Policy however means different things to different ",
-          "url": "https://arxiv.org/abs/2609.26682v1",
-          "created_at": "2026-09-22T16:40:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "PROSWIN: Probabilistic Solar Wind Speed Forecasting Using Deep Distributional Regression From Solar Images. Accurately predicting fast solar wind conditions is challenging, as uncertainties are large and unquantified by traditional single-value prediction models. In particular, the risks of high-speed solar wind streams (HSSs), which can cause damage to technological infrastructure, cannot be reliably assessed without probabilistic forecasts. We present PROSWIN, a probabilistic machine learning model that forecasts the hourly solar wind speed (SWS) at Earth with a four-day lead time. The approach combines solar images and magnetograms using a deep neural network coupled to a distributional regressio",
-          "url": "https://arxiv.org/abs/2609.26683v1",
-          "created_at": "2026-09-22T16:42:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Detecting GPT-Assisted Writing Using Interpretable Stylometric Features. Distinguishing GPT-assisted from independently authored student writing has become a critical challenge in academia. This paper evaluates the discriminative capability of interpretable stylometric features extracted solely from submitted text. Using data from 90 participants who wrote both independently and with ChatGPT assistance, we evaluate eight machine learning classifiers while keeping data from the same participant together during validation. On the held-out test set, Random Forest achieved an ROC-AUC of 0.87 and an F1-score of 0.84, with False Positive and False Negative rates of 22.2%",
-          "url": "https://arxiv.org/abs/2609.26687v1",
-          "created_at": "2026-09-22T16:44:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica",
-          "tier": "press",
-          "text": "IT mistake erases 11 years of viewing history for hospitals’ maternity records. The English hospitals recovered patient care data only.",
-          "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
-          "created_at": "2026-09-22T16:55:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-anthropic 0.29. Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-          "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-          "created_at": "2026-09-22T17:14:55+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore. Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent picked the right skill or followed it. Learn how to measure skill selection and instruction following with Strands Evals and Amazon Bedrock AgentCore Evaluations.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
-          "created_at": "2026-09-22T17:18:13+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Claude Opus 5.5 is now available on AWS. Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-          "created_at": "2026-09-22T17:28:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes. OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
-          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-          "created_at": "2026-09-22T18:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4. Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
-          "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-          "created_at": "2026-09-22T23:21:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Grab and OpenAI bring practical AI skills to Southeast Asia. OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-          "created_at": "2026-09-23T00:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI wants to consult elite mathematicians about how to not fumble again. After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-          "created_at": "2026-09-23T00:17:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "CoinMarketCap",
-          "tier": "commentary",
-          "text": "LATEST: Nvidia CEO Jensen Huang told CBS the AI doomsday narrative is \"completely false\" and \"dramatic,\" designed to get attention.",
-          "url": "https://x.com/CoinMarketCap/status/2102715897072783739",
-          "created_at": "2026-09-23T11:05:11+00:00",
-          "engagement": 47
-        },
-        {
-          "author": "PolymarketMoney",
-          "tier": "commentary",
-          "text": "BREAKING: Nvidia CEO Jensen Huang declares AI fears are \"scaring the American public.\"",
-          "url": "https://x.com/PolymarketMoney/status/2102729708903276549",
-          "created_at": "2026-09-23T12:00:04+00:00",
-          "engagement": 7
         }
       ]
     }

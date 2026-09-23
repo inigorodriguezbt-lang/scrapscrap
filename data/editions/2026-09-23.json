@@ -2,6 +2,84 @@
  "edition_date": "2026-09-23",
  "stories": [
   {
+   "cluster_id": "find-enigma-mvueh-gpt6-astra",
+   "section": "ai",
+   "headline": "Enigma message unread since 2005 broken with help from GPT-6 Astra",
+   "standfirst": "Cryptologic historian Frode Weierud says a German Army signal from July 1941 gave up its key after the model wrote its own Bombe in two days.",
+   "body": [
+    "A German Army Enigma message that had resisted solution since 2005 has been read, according to Frode Weierud of Crypto Cellar Research, who says the cryptanalysis was carried out by OpenAI's GPT-6 Astra under the direction of Carter Leffer. Weierud's account, updated on 19 September, dates the break to 15 September.",
+    "The signal, known by its indicator MVUEH, was sent on 10 July 1941. Weierud says the model wrote its own Enigma simulation and Bombe software in Python and C++, then ran the attack using the repeated place name ROSENOW ROSENOW as a crib. It picked message number 172 as the most promising target on its own, he says, and suspected a link to a related message number 173.",
+    "The recovered key used wheel order 253, which Weierud notes differs from the other keys known for 10 July. He says the ciphertext also carried transcription errors, and that the left-hand wheel turned over at the 72nd letter, a rare event that complicates a crib attack.",
+    "Weierud, who has published Enigma material for decades, writes that what the model achieved in two days \"would take a human researcher weeks or even months\". That judgement is his own, and the claim rests on his account of the work. Neither OpenAI nor any other cryptanalyst has published an independent reconstruction of the break.",
+    "The page reached the front page of Hacker News on Tuesday with 696 points and 408 comments. Messages left unbroken after the wartime archives were opened are a small and well-worked set, and the ones that remain are usually corrupt, short, or both."
+   ],
+   "entities": [
+    "OpenAI",
+    "Crypto Cellar Research"
+   ],
+   "sources": [
+    {
+     "author": "Frode Weierud, Crypto Cellar Research",
+     "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+    },
+    {
+     "author": "Hacker News",
+     "url": "https://news.ycombinator.com/front"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-unreal-agent",
+   "section": "products",
+   "single_source": true,
+   "headline": "Unreal Labs open-sources agent harness, claims 40% saving against Codex",
+   "standfirst": "Unreal Agent runs tool calls asynchronously so the model no longer pays tokens to wait, according to the company's benchmark post.",
+   "body": [
+    "Unreal Labs has released Unreal Agent, an open-source agent harness written in Go, and says it cuts the cost of running coding agents by handling tool calls asynchronously. The company says the design \"relieves the underlying model of the need to manage waits, polls, and heartbeats for tools\", which lets calls run in parallel without spending tokens on the bookkeeping.",
+    "The company reports up to 40% lower cost than Codex on what it describes as production workloads. Its own runs put the harness at 57.9% on Terminal-Bench 4.0 at a total cost of $1,428, 65.8% on SWE-Atlas at $936, and 72.4% on DeepSWE 1.1 at $1,367. On ALE-CLI it reports a 30% full pass rate at $217.",
+    "The release on GitHub includes a Go library, a runner executable and the benchmark runner itself, which would let others reproduce the figures. All of the numbers above come from Unreal Labs, and no outside party has checked them.",
+    "The post, dated 22 September, reached the Hacker News front page on Tuesday with 217 points and 114 comments. Unreal Labs publishes the code at github.com/unreallabsai/unreal-agent, and says its founders previously worked at CERN and DeepMind."
+   ],
+   "entities": [
+    "Unreal Labs",
+    "GitHub"
+   ],
+   "sources": [
+    {
+     "author": "Unreal Labs",
+     "url": "https://unreallabs.ai/blog/unreal-agent/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-agents-md-telemetry-flag",
+   "section": "products",
+   "single_source": true,
+   "headline": "Developer says Claude Code skips AGENTS.md when telemetry is off",
+   "standfirst": "Przemek Szypowicz reports the loader sits behind a remote feature flag that fails closed, and says users get no warning when the file is ignored.",
+   "body": [
+    "A developer says recent builds of Anthropic's Claude Code quietly stop reading local AGENTS.md files when telemetry is switched off. Przemek Szypowicz, writing on his own blog on Wednesday, says the behaviour appears in version 2.1.277 and later, and that he tested it on 2.1.280.",
+    "His method was a canary. Szypowicz says he created an empty directory containing only an AGENTS.md file with the word PERIWINKLE in it, then asked the tool for the canary word with telemetry disabled. He says the file was not read when DISABLE_TELEMETRY=1 or CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1 was set.",
+    "The cause, according to the post, is that the agents-md plugin ships with isOnByDefault set to false and checks a remote flag named tengu_agents_md_mod, falling back to unavailable when it cannot reach the service.",
+    "Szypowicz says that makes the loader fail closed for anyone who has turned off nonessential traffic, and that users on third-party gateways such as Bedrock and Vertex may be affected. He suggests a one-line CLAUDE.md containing @AGENTS.md as a workaround.",
+    "Anthropic has not responded publicly to the post, and the paper has not reproduced the test. Szypowicz presents the findings as his own observations rather than confirmed behaviour. The post reached the Hacker News front page on Wednesday with 178 points and 67 comments."
+   ],
+   "entities": [
+    "Anthropic",
+    "Amazon",
+    "Google"
+   ],
+   "sources": [
+    {
+     "author": "Przemek Szypowicz",
+     "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "eviltokens-takedown",
    "section": "security",
    "headline": "Microsoft seizes 50 sites behind phishing kit that took 12,000 inboxes",
@@ -42,7 +120,32 @@
      "at": "22 Sep"
     }
    ],
-   "placement": "lead"
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-hemmingway-1",
+   "section": "models",
+   "single_source": true,
+   "headline": "Altworld releases 27B writing model, says it beats GPT-6 Astra on messages",
+   "standfirst": "Hemmingway-1 is a fine-tune of Qwen3.8-27B aimed at everyday email and chat, and it is the ninth most trending model on Hugging Face.",
+   "body": [
+    "A small outfit called Altworld has published Hemmingway-1, a 27-billion-parameter model built on Alibaba's Qwen3.8-27B and tuned for everyday writing such as messages and email. The model card says it \"writes the best everyday messages of any model we tested\", and claims it outperforms larger models including GPT-6 Astra and Fable 5.1 on communication tasks.",
+    "The weights carry a CC BY-NC 4.0 licence, which allows non-commercial use, with commercial terms available by agreement. The model page had 539 likes and 3,787 downloads on Wednesday, putting it ninth on Hugging Face's trending list. It was first published on 20 September and last updated on 22 September.",
+    "Most of the numbers on the card are Altworld's own. It reports 72% on what it calls difficult persuasive writing against 9% for GPT-6 Astra, and says the model finished \"twenty-six points clear of the next model\" on human-likeness. The card states plainly that CommunicationBench, Human-Likeness and StoryBench are the company's own benchmarks.",
+    "The one external figure Altworld cites is a third place on EQ-Bench 4, an independent emotional-intelligence benchmark it did not build. No other party appears to have run Hemmingway-1 against the models it names, so the comparative claims rest on Altworld's testing alone."
+   ],
+   "entities": [
+    "Altworld",
+    "Alibaba",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Altworld model card",
+     "url": "https://huggingface.co/Altworld/Hemmingway-1"
+    }
+   ],
+   "placement": "front"
   },
   {
    "cluster_id": "qwen-intelligence-honor",
@@ -200,7 +303,7 @@
      "url": "https://x.com/gpumaxxer/status/2102610790725632044"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "opus55-kernelbench-arledge",
@@ -233,7 +336,7 @@
      "url": "https://x.com/SahilExec/status/2102498892659261742"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "sanders-casar-superintelligence-ban",
@@ -265,7 +368,7 @@
      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "tekever-500m-first-close",
@@ -294,7 +397,7 @@
      "url": "https://x.com/CNBC/status/2102697610641355186"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "samsung-lpddr6-snapdragon-validation",
@@ -933,6 +1036,12 @@
     }
    ],
    "placement": "inside"
+  }
+ ],
+ "lead_changes": [
+  {
+   "cluster_id": "find-enigma-mvueh-gpt6-astra",
+   "replaced": "eviltokens-takedown"
   }
  ]
 }
