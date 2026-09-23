@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-23T16:06:01.121202+00:00",
+  "generated_at": "2026-09-23T18:05:07.698397+00:00",
   "edition_date": "2026-09-23",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 91,
-  "clusters_found": 74,
-  "stories_declared": 6,
+  "posts_considered": 65,
+  "clusters_found": 55,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ce6e976f6",
-      "score": 16.637,
+      "cluster_id": "c7dd1b0aa",
+      "score": 19.039,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -20,49 +20,25 @@
       ],
       "independent_sources": [
         "AWS ML",
+        "OpenAI",
         "Simon Willison",
         "The Verge AI",
-        "reach_vb",
-        "teortaxesTex"
+        "arena",
+        "mark_k"
       ],
-      "source_count": 5,
-      "first_seen": "2026-09-22T16:30:00+00:00",
-      "last_seen": "2026-09-23T15:01:36+00:00",
+      "source_count": 6,
+      "first_seen": "2026-09-22T18:10:22+00:00",
+      "last_seen": "2026-09-23T18:00:00+00:00",
       "links": [
         "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-        "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
         "https://simonwillison.net/2026/Sep/22/llm/",
         "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-        "https://x.com/reach_vb/status/2102771245783925069",
-        "https://x.com/teortaxesTex/status/2102775394206179335"
+        "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+        "https://x.com/OpenAI/status/2102808325742322002",
+        "https://x.com/arena/status/2102806554340974612",
+        "https://x.com/mark_k/status/2102801097320693948"
       ],
       "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity. Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-          "created_at": "2026-09-22T16:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-anthropic 0.29. Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-          "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-          "created_at": "2026-09-22T17:14:55+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Claude Opus 5.5 is now available on AWS. Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-          "created_at": "2026-09-22T17:28:01+00:00",
-          "engagement": 0
-        },
         {
           "author": "AWS ML",
           "tier": "primary",
@@ -88,244 +64,110 @@
           "engagement": 0
         },
         {
-          "author": "reach_vb",
+          "author": "mark_k",
           "tier": "commentary",
-          "text": "GPT-6 Luna (Max) is a pretty good model at an incredibly cheap price point!\n\nIt's a meaningful default for a lot of my automations and for bouncing around ideas with code & design",
-          "url": "https://x.com/reach_vb/status/2102771245783925069",
-          "created_at": "2026-09-23T14:45:07+00:00",
-          "engagement": 82
+          "text": "Reactions to GPT-6 Sol are very mixed so far.\n\nOn the one hand, the pricing is great. No doubt about that.\n\nBut there's also quite a bit of negativity around its performance. In benchmarks and real-world coding, it seems nowhere close to Astra or Opus 5.5, despite OpenAI's claims",
+          "url": "https://x.com/mark_k/status/2102801097320693948",
+          "created_at": "2026-09-23T16:43:44+00:00",
+          "engagement": 68
         },
         {
-          "author": "teortaxesTex",
+          "author": "arena",
           "tier": "commentary",
-          "text": "Xiaomi is skipping a generation. V2.6 still uses MiMo Hybrid-SWA, a very 2025 design; HySparse went the way of NSA and MoBA, a published research idea.\nHySparseV2 is V4.1's more cautious cousin. YOCO, still full-attention backbone layers etc. Prefill and memory efficiency gains.",
-          "url": "https://x.com/teortaxesTex/status/2102775394206179335",
-          "created_at": "2026-09-23T15:01:36+00:00",
-          "engagement": 83
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3efb540e",
-      "score": 14.823,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "ArtificialAnlys",
-        "GoogleDeepMind",
-        "OfficialLoganK",
-        "testingcatalog"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-23T15:25:59+00:00",
-      "last_seen": "2026-09-23T15:44:12+00:00",
-      "links": [
-        "https://x.com/ArtificialAnlys/status/2102784197853380647",
-        "https://x.com/GoogleDeepMind/status/2102781530867126505",
-        "https://x.com/OfficialLoganK/status/2102785495726219305",
-        "https://x.com/OfficialLoganK/status/2102786116453880283",
-        "https://x.com/testingcatalog/status/2102782476829487419"
-      ],
-      "posts": [
-        {
-          "author": "GoogleDeepMind",
-          "tier": "commentary",
-          "text": "Create and deploy custom audio with our new text-to-speech models:\n\nGemini 3.8 Flash TTS: Design unique voices with distinct accents and characteristics.\n\nGemini 3.8 Flash-Lite TTS: Built for efficiency and scale, choose from your created styles or our expansive production-ready library.",
-          "url": "https://x.com/GoogleDeepMind/status/2102781530867126505",
-          "created_at": "2026-09-23T15:25:59+00:00",
-          "engagement": 143
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "GOOGLE: Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are now live on Google AI Studio and APIs!\n\n> \"Flagship TTS model for Voice Design and dual-speaker screenplay control. Prompt custom vocal personas, direct line-by-line delivery, and add vocal bursts.\"\n\n> \"Our most expressive audio generation models yet.\"\n\nTTeSting time!",
-          "url": "https://x.com/testingcatalog/status/2102782476829487419",
-          "created_at": "2026-09-23T15:29:44+00:00",
-          "engagement": 56
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Google has released Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Gemini 3.8 Flash TTS debuts at #1 on our Pronunciation Robustness Benchmark and #2 on our Provider Voice Arena Leaderboard\n\nGemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are @GoogleDeepMind's latest Text to Speech models, supporting preset voices and voice replication. Gemini 3.1 Flash TTS led our Pronunciation Robustness",
-          "url": "https://x.com/ArtificialAnlys/status/2102784197853380647",
-          "created_at": "2026-09-23T15:36:35+00:00",
-          "engagement": 112
-        },
-        {
-          "author": "OfficialLoganK",
-          "tier": "commentary",
-          "text": "Introducing Gemini 3.8 Flash and Flash-Lite TTS, our new SOTA text to speech model with:\n\n- a new voice design experience\n- 2,000+ production ready voices\n- voice replication \n- support for 100 languages\n- voice remixing (soon)\n- #1 spot on Hume AI's voice benchmarks\n\nand more!!",
-          "url": "https://x.com/OfficialLoganK/status/2102785495726219305",
-          "created_at": "2026-09-23T15:41:44+00:00",
-          "engagement": 521
-        },
-        {
-          "author": "OfficialLoganK",
-          "tier": "commentary",
-          "text": "all of this, along with a new experince in @GoogleAIStudio, with a lower cost than our previous 3.1 Flash TTS model!  \n\nRead more: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-          "url": "https://x.com/OfficialLoganK/status/2102786116453880283",
-          "created_at": "2026-09-23T15:44:12+00:00",
-          "engagement": 29
-        }
-      ]
-    },
-    {
-      "cluster_id": "c95f03ee4",
-      "score": 10.925,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "IntCyberDigest",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-22T16:34:08+00:00",
-      "last_seen": "2026-09-23T14:07:24+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-        "https://x.com/IntCyberDigest/status/2102761753046143131"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta. Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-          "created_at": "2026-09-22T16:34:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "BREAKING: CERT Polska tied a toll-fraud scheme targeting Poland to 17 malicious Google Play apps and 852 Meta ads, including fake warnings that \"Your PDF application has expired\".\n\nMeta ads were the front door for toll fraud, a form of mobile billing abuse in which malware enrolls a subscriber in a paid service without informed consent.\n\nMeta removed the ads only after CERT reported them.",
-          "url": "https://x.com/IntCyberDigest/status/2102761753046143131",
-          "created_at": "2026-09-23T14:07:24+00:00",
-          "engagement": 79
-        }
-      ]
-    },
-    {
-      "cluster_id": "caafd3961",
-      "score": 9.088,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Simon Willison",
-        "arXiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-22T17:54:59+00:00",
-      "last_seen": "2026-09-23T02:53:19+00:00",
-      "links": [
-        "https://arxiv.org/abs/2609.26777v1",
-        "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving. We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance ",
-          "url": "https://arxiv.org/abs/2609.26777v1",
-          "created_at": "2026-09-22T17:54:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "SF October 14th: A Birds of a Feather Session on Agentic Engineering. SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market. ​Expect one flowing convers",
-          "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-          "created_at": "2026-09-23T02:53:19+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce1f5a2c8",
-      "score": 8.614,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-22T18:00:00+00:00",
-      "last_seen": "2026-09-22T18:00:00+00:00",
-      "links": [
-        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes. OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
-          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-          "created_at": "2026-09-22T18:00:00+00:00",
-          "engagement": 0
+          "text": "Real-world results are in for GPT-6 Sol (Max) by @OpenAI. It landed #4 in the Code Arena: WebDev with 1689 pts, and has reshaped the Pareto frontier, at $8/M tokens (blended input/output)!\n\nThis performance is on par with Claude Opus 5 (Max), while costing less than half as much,",
+          "url": "https://x.com/arena/status/2102806554340974612",
+          "created_at": "2026-09-23T17:05:25+00:00",
+          "engagement": 137
         },
         {
           "author": "OpenAI",
-          "tier": "primary",
-          "text": "Introducing GPT-6 Sol and Luna. Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-          "created_at": "2026-09-22T18:00:00+00:00",
+          "tier": "commentary",
+          "text": "We heard you loud and clear. ChatGPT Voice can now:\n\n- Use plugins like your email, calendar, and Slack.\n\n- Be powered by GPT-6 Astra, Sol, and Luna.\n\n- Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in th",
+          "url": "https://x.com/OpenAI/status/2102808325742322002",
+          "created_at": "2026-09-23T17:12:27+00:00",
+          "engagement": 3721
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic&#8217;s biolab made a discovery it&#8217;s comparing to Crispr. Anthropic says its AI Claude has \"autonomously discovered\" a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr. It's the first result from Anthropic's newly-launched wet lab and an early test of Claude's usefulness for science as the company prepares to go public. The company says Claude found the enzyme system after [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+          "created_at": "2026-09-23T18:00:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c762b9776",
-      "score": 6.326,
+      "cluster_id": "c2d91791c",
+      "score": 11.023,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [],
       "independent_sources": [
-        "TechCrunch AI",
+        "elonmusk",
+        "mark_k"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T16:35:15+00:00",
+      "last_seen": "2026-09-23T17:44:10+00:00",
+      "links": [
+        "https://x.com/elonmusk/status/2102798963837665464",
+        "https://x.com/mark_k/status/2102816305774739946"
+      ],
+      "posts": [
+        {
+          "author": "elonmusk",
+          "tier": "commentary",
+          "text": "New Grok @Bot features!",
+          "url": "https://x.com/elonmusk/status/2102798963837665464",
+          "created_at": "2026-09-23T16:35:15+00:00",
+          "engagement": 6669
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Big week for Grok Bot! New features:\n\n• Voice calls\n• 1Password\n• Inline forms\n• Inline drafts for email and Slack\n• Account switching\n• Route traffic through your desktop\n\nGrok Bot is rapidly evolving from a chatbot into a serious AI coworker.",
+          "url": "https://x.com/mark_k/status/2102816305774739946",
+          "created_at": "2026-09-23T17:44:10+00:00",
+          "engagement": 26
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3f6768a4",
+      "score": 7.41,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [],
+      "independent_sources": [
+        "AndrewCurran_",
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T14:30:00+00:00",
-      "last_seen": "2026-09-23T15:19:30+00:00",
+      "first_seen": "2026-09-23T16:23:05+00:00",
+      "last_seen": "2026-09-23T16:27:11+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
-        "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests"
+        "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
+        "https://x.com/AndrewCurran_/status/2102796931584167939"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "YouTube is building AI creator tools that do almost everything for them. Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Made on YouTube [&#8230;]",
-          "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
-          "created_at": "2026-09-23T14:30:00+00:00",
+          "text": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison. Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the \"destruction or disempowerment of humanity,\" including by overthrowing the government. Under the Ban Artificial Superintelligence Act, AI leaders would face up to 20 years [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
+          "created_at": "2026-09-23T16:23:05+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "YouTube Music gets more conversational with new AI features. YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podcasts, and “Your Podcast Lineup,” a personalized [&#8230;]",
-          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
-          "created_at": "2026-09-23T15:19:30+00:00",
-          "engagement": 0
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Bernie Sanders and Greg Casar introduced the Ban Artificial Superintelligence Act today. It will:\n\n- ban the development or deployment of Artificial Superintelligence, aka any AI that 'exceeds human cognitive performance and capabilities across most domains, or has sufficient cap",
+          "url": "https://x.com/AndrewCurran_/status/2102796931584167939",
+          "created_at": "2026-09-23T16:27:11+00:00",
+          "engagement": 374
         }
       ]
     }

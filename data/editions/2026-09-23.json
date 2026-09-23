@@ -2,6 +2,37 @@
  "edition_date": "2026-09-23",
  "stories": [
   {
+   "cluster_id": "anthropic-claude-art-enzyme",
+   "section": "research",
+   "headline": "Anthropic says Claude agents found a new enzyme system in DNA data",
+   "standfirst": "The company says about 950 agents searched sequence databases for 21 hours and turned up a reverse transcriptase next to a repeat array.",
+   "body": [
+    "Anthropic said on Tuesday that agents running on its Claude models had found a new enzyme system in bacteriophages, which it calls array-associated reverse transcriptases, or ART. The company said the system pairs a reverse transcriptase with an accessory protein of unknown function and a long array of evenly spaced DNA repeats.",
+    "The search is the company's own account, and no outside group has yet reproduced it. Anthropic said about 950 agents spent 21 hours and 210 million tokens reading a database of DNA sequences, gathering more than 200,000 reverse transcriptases, narrowing those to about 3,500 candidate systems, and writing up the 20 it found most compelling.",
+    "The comparison to CRISPR is Anthropic's. The company described the repeat array as \"a pattern reminiscent of CRISPR\", and The Verge reported the company is comparing the find to the gene-editing tool. What ART does is not established. \"Although we don't yet know its function, the system that Claude discovered has a set of characteristics\" worth following, Anthropic wrote, adding that its work on the primary function is ongoing.",
+    "Human scientists did the bench work, at Anthropic's Bay Area laboratory at biosafety levels 1 and 2. The company said its first experiments show the ART array is also expressed as a set of distinct short RNAs, and said that suggests something analogous to CRISPR may be at play. Anthropic has posted a preprint with the detail.",
+    "One outside researcher has commented. Feng Zhang of MIT and the Broad Institute, who worked on CRISPR gene editing, said the identification of RNA-repeat arrays sitting next to reverse transcriptases \"is genuinely intriguing and merits further investigation\". He did not say the finding was confirmed."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude",
+    "Feng Zhang",
+    "Broad Institute",
+    "The Verge"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
    "cluster_id": "c3efb540e",
    "section": "models",
    "headline": "Google ships 2 Gemini 3.8 speech models, says they top Hume benchmark",
@@ -53,7 +84,78 @@
      "url": "https://ai.google.dev/gemini-api/docs/pricing"
     }
    ],
-   "placement": "lead"
+   "placement": "front"
+  },
+  {
+   "cluster_id": "openai-chatgpt-voice-plugins-work",
+   "section": "products",
+   "headline": "OpenAI gives ChatGPT Voice plugins, opens Work tab on phones",
+   "standfirst": "Voice can now reach a user's email, calendar and Slack, and Plus and Pro subscribers get agentic tasks on mobile.",
+   "body": [
+    "OpenAI said on Tuesday that ChatGPT Voice can now use plugins, including a user's email, calendar and Slack, and that it can be driven by GPT-6 Astra, Sol and Luna. The company said Voice also works in ChatGPT Work on web and mobile, where it can create documents, decks, sites and spreadsheets.",
+    "TechCrunch reported the mobile side separately. Plus and Pro subscribers get the Work tab on their phones for agentic tasks, it said, while Free and Go users can work with plugins and connected apps. The rollout runs on GPT-Live, the conversational model OpenAI put in the desktop app in July, according to the report.",
+    "The claims about what Voice can do are OpenAI's own, and nobody outside the company has tested the feature set yet. OpenAI opened its post with \"We heard you loud and clear\", which reads as a response to complaints that Voice had been cut off from the rest of the product.",
+    "Thomas Sottiaux, who works at OpenAI, said he had grown used to calling ChatGPT to check email, do some coding and manage his calendar, and that it works across third-party plugins as well as OpenAI's own. His post had drawn more than 1,100 likes by Tuesday evening.",
+    "Conversations can move between devices. A user may start one on a phone and resume it on desktop, TechCrunch said, and voice replies now carry richer text output with a switch between text and speech. OpenAI did not give a date for wider availability."
+   ],
+   "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "TechCrunch",
+    "Slack",
+    "GPT-Live"
+   ],
+   "sources": [
+    {
+     "author": "OpenAI",
+     "url": "https://x.com/OpenAI/status/2102808325742322002"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
+    },
+    {
+     "author": "Thomas Sottiaux",
+     "url": "https://x.com/thsottiaux/status/2102814202117411196"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "youtube-custom-feeds-gemini",
+   "section": "products",
+   "headline": "YouTube lets viewers write their own feeds, built by Gemini",
+   "standfirst": "Custom feeds turn a typed description into a pinned tab on the home page, and reach web and mobile next month.",
+   "body": [
+    "YouTube said at its Made on YouTube event that viewers will be able to describe the videos they want in their own words and have Google's Gemini build a feed around the description. The feeds appear as tabs pinned to the top of the home page, separate from the main recommendation feed, and roll out on web and mobile from October.",
+    "TechCrunch and Wired both reported the feature on Tuesday. A user may ask for \"video podcasts to watch during your 30-minute train commute\" or \"relaxing commentary videos to unwind with\", TechCrunch said, and can say what to exclude and what to put first. Users can make more than one feed.",
+    "How well it works is not established, and nobody outside YouTube has used it yet. Emily Moxley, YouTube's vice president of product management for viewer AI, put the corpus at more than 20 billion videos and said a viewer is \"always one search away from a treasure trove of topics\".",
+    "The same event brought creator tools. YouTube is adding features to generate ideas and to test thumbnails inside its Studio app, TechCrunch said, alongside an assistant for script analysis and tools aimed at microdramas. The Wall Street Journal framed that set as part of a fight with Netflix over top creators.",
+    "Spotify launched its Taste Profile in the United States on the same day, letting Premium subscribers steer their recommendations. Bluesky, Threads, Instagram and X have each offered some form of user-built feed before this."
+   ],
+   "entities": [
+    "YouTube",
+    "Google",
+    "Gemini",
+    "Emily Moxley",
+    "TechCrunch",
+    "Wired"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/"
+    },
+    {
+     "author": "Wired",
+     "url": "https://www.wired.com/story/youtube-custom-feeds-let-you-steer-the-algorithm-without-breaking-it/"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests"
+    }
+   ],
+   "placement": "front"
   },
   {
    "cluster_id": "find-enigma-mvueh-gpt6-astra",
@@ -197,7 +299,7 @@
      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-jevbench",
@@ -228,7 +330,7 @@
      "url": "https://news.ycombinator.com/item?id=49800574"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "spotify-taste-profile-us",
@@ -251,7 +353,7 @@
      "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "openai-daybreak-ukraine",
@@ -1300,6 +1402,10 @@
   {
    "cluster_id": "c3efb540e",
    "replaced": "find-enigma-mvueh-gpt6-astra"
+  },
+  {
+   "cluster_id": "anthropic-claude-art-enzyme",
+   "replaced": "c3efb540e"
   }
  ]
 }
