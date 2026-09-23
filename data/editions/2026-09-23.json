@@ -2,6 +2,60 @@
  "edition_date": "2026-09-23",
  "stories": [
   {
+   "cluster_id": "c3efb540e",
+   "section": "models",
+   "headline": "Google ships 2 Gemini 3.8 speech models, says they top Hume benchmark",
+   "standfirst": "Both models are live in the Gemini API and Google AI Studio, and Artificial Analysis puts one of them first on its pronunciation benchmark.",
+   "body": [
+    "Google released two text-to-speech models on Wednesday, Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Both are live in the Gemini API and Google AI Studio. The company says they cover more than 100 languages and dialects, among them Quebec French and Scots English.",
+    "Artificial Analysis, which tests models independently, said Gemini 3.8 Flash TTS debuted first on its benchmark for how reliably a model pronounces hard text. It came second on the provider voice arena leaderboard. On a controlled voice arena, Gemini 3.8 Flash-Lite TTS took first in Japanese at an Elo of 1,212, with the larger model second.",
+    "Google says a user can write a prompt to create a voice, then direct the delivery line by line. It says a voice can be replicated from a 30-second sample after what it describes as consent verification. The library runs from 30 original voices to more than 2,000 production-ready ones, and every clip carries a SynthID watermark, according to the company.",
+    "Logan Kilpatrick, who leads Google AI Studio, said on X that the models cost less than the earlier Gemini 3.1 Flash TTS. Google's price list puts audio output for Gemini 3.8 Flash TTS at $9.00 per million tokens through 31 December 2026. Gemini 3.1 Flash TTS is listed at $20.00. The new price rises to $18.00 in January.",
+    "Artificial Analysis priced the models per million characters of input text rather than per token, and reached the opposite comparison. It put Gemini 3.8 Flash TTS at $32.98 and the Flash-Lite model at $22.07, against $18.31 for Gemini 3.1 Flash TTS. It measured the larger model at 44.1 characters a second, behind Falcon 2 at 204.9."
+   ],
+   "entities": [
+    "Google",
+    "Google DeepMind",
+    "Artificial Analysis",
+    "Hume AI"
+   ],
+   "sources": [
+    {
+     "author": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+    },
+    {
+     "author": "Google DeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2102781530867126505"
+    },
+    {
+     "author": "Logan Kilpatrick",
+     "url": "https://x.com/OfficialLoganK/status/2102785495726219305"
+    },
+    {
+     "author": "Logan Kilpatrick",
+     "url": "https://x.com/OfficialLoganK/status/2102786116453880283"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2102784197853380647"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2102784214185681194"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2102784207764529295"
+    },
+    {
+     "author": "Google",
+     "url": "https://ai.google.dev/gemini-api/docs/pricing"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
    "cluster_id": "find-enigma-mvueh-gpt6-astra",
    "section": "ai",
    "headline": "Enigma message unread since 2005 broken with help from GPT-6 Astra",
@@ -27,7 +81,57 @@
      "url": "https://news.ycombinator.com/front"
     }
    ],
-   "placement": "lead"
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-drivingbench",
+   "section": "research",
+   "headline": "Benchmark gives 4 models control of a Corolla, 1 finishes the course",
+   "standfirst": "Three researchers say they let language models steer a real car around a cone course, and published the token bill for each attempt.",
+   "body": [
+    "A benchmark published at drivingbench.com hands language models direct control of a Toyota Corolla's steering and pedals on a fixed cone course. Of the four models on its leaderboard, only GPT-6 Astra finished. The paper has not verified the runs, and no one else appears to have reproduced them.",
+    "The site credits Aditya Ramabadran, Simon Mahns and Tobias Gessler with equal contributions, and describes the work as experimental software with no official affiliation to any car or AI company. Each model gets up to three attempts in one continuous chat, according to the page.",
+    "GPT-6 Astra completed the course on its second attempt in 5 minutes 22 seconds, the leaderboard says, after reaching 49% on the first. It puts the best progress of Claude Fable 5.1 at 45%, Grok 4.6 at 11% and GPT-5.6 Sol at 6%.",
+    "The finishing run consumed 246.6 million tokens and cost $7.74, according to the same table. Scoring counts how far a model travels along the course centreline while staying within 4 metres of it. Completion time, distance covered, token use and cost also feature.",
+    "The page does not say when the runs took place, what prompt or scaffolding each model got, how often it answered, or whether anyone sat in the car. The submission had 67 points and 41 comments on the Hacker News front page an hour after it appeared."
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "xAI",
+    "Toyota"
+   ],
+   "sources": [
+    {
+     "author": "DrivingBench",
+     "url": "https://drivingbench.com/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "amazon-accelerate-claude-seller-tools",
+   "section": "products",
+   "headline": "Amazon opens seller tools to outside AI agents, starting with Claude",
+   "standfirst": "The beta lets United States merchants check inventory, change prices and edit listings from Anthropic's Claude or Amazon's own Quick assistant.",
+   "body": [
+    "Amazon said on Wednesday at its Accelerate seller conference in Seattle that it is opening its seller management tools to third-party AI agents, beginning with Anthropic's Claude and Amazon's own Quick assistant. The beta covers Amazon's United States marketplace, with other countries planned.",
+    "A plugin lets sellers check inventory, adjust prices and update listings through either agent, according to GeekWire, which reported from the conference. Amazon says setup takes about 60 seconds and no coding. GeekWire's account does not say how many sellers are in the beta, or which protocol the plugin uses.",
+    "Mary Beth Westmoreland, Amazon's vice-president of worldwide selling partner experience, told GeekWire that the aim was that sellers \"would never have to log into Seller Central. We would just bring it to them where they work.\"",
+    "Amazon also added a canvas feature to its Seller Assistant for visual analysis of a seller's data, and background automations that watch a business and act once the seller approves. The company says the assistant now keeps a memory of a seller's pricing patterns and growth goals.",
+    "More integrations will follow, Amazon says, without naming them. It is also giving primary seller accounts a free 12-month Amazon Quick Plus subscription through 31 December 2026, with two co-workers included at no cost. Anthropic has published nothing of its own on the arrangement."
+   ],
+   "entities": [
+    "Amazon",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "GeekWire",
+     "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/"
+    }
+   ],
+   "placement": "front"
   },
   {
    "cluster_id": "opencode-space-bunny",
@@ -177,7 +281,7 @@
      "url": "https://www.bbc.com/news/articles/c90kly26d7pzo"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-unreal-agent",
@@ -201,7 +305,7 @@
      "url": "https://unreallabs.ai/blog/unreal-agent/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-agents-md-telemetry-flag",
@@ -227,7 +331,7 @@
      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "eviltokens-takedown",
@@ -1192,6 +1296,10 @@
   {
    "cluster_id": "find-enigma-mvueh-gpt6-astra",
    "replaced": "eviltokens-takedown"
+  },
+  {
+   "cluster_id": "c3efb540e",
+   "replaced": "find-enigma-mvueh-gpt6-astra"
   }
  ]
 }

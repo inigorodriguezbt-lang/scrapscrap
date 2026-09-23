@@ -1,75 +1,15 @@
 {
-  "generated_at": "2026-09-23T13:52:37.725881+00:00",
+  "generated_at": "2026-09-23T16:06:01.121202+00:00",
   "edition_date": "2026-09-23",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 75,
-  "clusters_found": 60,
-  "stories_declared": 5,
+  "posts_considered": 91,
+  "clusters_found": 74,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cda9bd364",
-      "score": 11.277,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "OpenAI",
-        "Simon Willison",
-        "TechCrunch AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-22T18:00:00+00:00",
-      "last_seen": "2026-09-22T18:48:37+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "https://simonwillison.net/2026/Sep/22/llm/",
-        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes. OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
-          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-          "created_at": "2026-09-22T18:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Introducing GPT-6 Sol and Luna. Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-          "created_at": "2026-09-22T18:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock. GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-          "created_at": "2026-09-22T18:10:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm 0.36. Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations . The first plugin to use this is llm-typesafe . #1692 Reasoning traces in the Markdown output of llm logs are now wrapped in <details><summary> tags. #1701 Plus bug fixes from five new contributors . ",
-          "url": "https://simonwillison.net/2026/Sep/22/llm/",
-          "created_at": "2026-09-22T18:48:37+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2bdcfca0",
-      "score": 10.245,
+      "cluster_id": "ce6e976f6",
+      "score": 16.637,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -81,16 +21,22 @@
       "independent_sources": [
         "AWS ML",
         "Simon Willison",
-        "The Verge AI"
+        "The Verge AI",
+        "reach_vb",
+        "teortaxesTex"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "first_seen": "2026-09-22T16:30:00+00:00",
-      "last_seen": "2026-09-22T23:46:41+00:00",
+      "last_seen": "2026-09-23T15:01:36+00:00",
       "links": [
+        "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
         "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+        "https://simonwillison.net/2026/Sep/22/llm/",
         "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
+        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+        "https://x.com/reach_vb/status/2102771245783925069",
+        "https://x.com/teortaxesTex/status/2102775394206179335"
       ],
       "posts": [
         {
@@ -118,18 +64,161 @@
           "engagement": 0
         },
         {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock. GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+          "created_at": "2026-09-22T18:10:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm 0.36. Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations . The first plugin to use this is llm-typesafe . #1692 Reasoning traces in the Markdown output of llm logs are now wrapped in <details><summary> tags. #1701 Plus bug fixes from five new contributors . ",
+          "url": "https://simonwillison.net/2026/Sep/22/llm/",
+          "created_at": "2026-09-22T18:48:37+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Simon Willison",
           "tier": "commentary",
           "text": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war. Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really cheap . Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduct",
           "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
           "created_at": "2026-09-22T23:46:41+00:00",
           "engagement": 0
+        },
+        {
+          "author": "reach_vb",
+          "tier": "commentary",
+          "text": "GPT-6 Luna (Max) is a pretty good model at an incredibly cheap price point!\n\nIt's a meaningful default for a lot of my automations and for bouncing around ideas with code & design",
+          "url": "https://x.com/reach_vb/status/2102771245783925069",
+          "created_at": "2026-09-23T14:45:07+00:00",
+          "engagement": 82
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "Xiaomi is skipping a generation. V2.6 still uses MiMo Hybrid-SWA, a very 2025 design; HySparse went the way of NSA and MoBA, a published research idea.\nHySparseV2 is V4.1's more cautious cousin. YOCO, still full-attention backbone layers etc. Prefill and memory efficiency gains.",
+          "url": "https://x.com/teortaxesTex/status/2102775394206179335",
+          "created_at": "2026-09-23T15:01:36+00:00",
+          "engagement": 83
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3efb540e",
+      "score": 14.823,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "ArtificialAnlys",
+        "GoogleDeepMind",
+        "OfficialLoganK",
+        "testingcatalog"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-23T15:25:59+00:00",
+      "last_seen": "2026-09-23T15:44:12+00:00",
+      "links": [
+        "https://x.com/ArtificialAnlys/status/2102784197853380647",
+        "https://x.com/GoogleDeepMind/status/2102781530867126505",
+        "https://x.com/OfficialLoganK/status/2102785495726219305",
+        "https://x.com/OfficialLoganK/status/2102786116453880283",
+        "https://x.com/testingcatalog/status/2102782476829487419"
+      ],
+      "posts": [
+        {
+          "author": "GoogleDeepMind",
+          "tier": "commentary",
+          "text": "Create and deploy custom audio with our new text-to-speech models:\n\nGemini 3.8 Flash TTS: Design unique voices with distinct accents and characteristics.\n\nGemini 3.8 Flash-Lite TTS: Built for efficiency and scale, choose from your created styles or our expansive production-ready library.",
+          "url": "https://x.com/GoogleDeepMind/status/2102781530867126505",
+          "created_at": "2026-09-23T15:25:59+00:00",
+          "engagement": 143
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "GOOGLE: Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are now live on Google AI Studio and APIs!\n\n> \"Flagship TTS model for Voice Design and dual-speaker screenplay control. Prompt custom vocal personas, direct line-by-line delivery, and add vocal bursts.\"\n\n> \"Our most expressive audio generation models yet.\"\n\nTTeSting time!",
+          "url": "https://x.com/testingcatalog/status/2102782476829487419",
+          "created_at": "2026-09-23T15:29:44+00:00",
+          "engagement": 56
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Google has released Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Gemini 3.8 Flash TTS debuts at #1 on our Pronunciation Robustness Benchmark and #2 on our Provider Voice Arena Leaderboard\n\nGemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are @GoogleDeepMind's latest Text to Speech models, supporting preset voices and voice replication. Gemini 3.1 Flash TTS led our Pronunciation Robustness",
+          "url": "https://x.com/ArtificialAnlys/status/2102784197853380647",
+          "created_at": "2026-09-23T15:36:35+00:00",
+          "engagement": 112
+        },
+        {
+          "author": "OfficialLoganK",
+          "tier": "commentary",
+          "text": "Introducing Gemini 3.8 Flash and Flash-Lite TTS, our new SOTA text to speech model with:\n\n- a new voice design experience\n- 2,000+ production ready voices\n- voice replication \n- support for 100 languages\n- voice remixing (soon)\n- #1 spot on Hume AI's voice benchmarks\n\nand more!!",
+          "url": "https://x.com/OfficialLoganK/status/2102785495726219305",
+          "created_at": "2026-09-23T15:41:44+00:00",
+          "engagement": 521
+        },
+        {
+          "author": "OfficialLoganK",
+          "tier": "commentary",
+          "text": "all of this, along with a new experince in @GoogleAIStudio, with a lower cost than our previous 3.1 Flash TTS model!  \n\nRead more: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+          "url": "https://x.com/OfficialLoganK/status/2102786116453880283",
+          "created_at": "2026-09-23T15:44:12+00:00",
+          "engagement": 29
+        }
+      ]
+    },
+    {
+      "cluster_id": "c95f03ee4",
+      "score": 10.925,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "IntCyberDigest",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-22T16:34:08+00:00",
+      "last_seen": "2026-09-23T14:07:24+00:00",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+        "https://x.com/IntCyberDigest/status/2102761753046143131"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta. Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+          "created_at": "2026-09-22T16:34:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "BREAKING: CERT Polska tied a toll-fraud scheme targeting Poland to 17 malicious Google Play apps and 852 Meta ads, including fake warnings that \"Your PDF application has expired\".\n\nMeta ads were the front door for toll fraud, a form of mobile billing abuse in which malware enrolls a subscriber in a paid service without informed consent.\n\nMeta removed the ads only after CERT reported them.",
+          "url": "https://x.com/IntCyberDigest/status/2102761753046143131",
+          "created_at": "2026-09-23T14:07:24+00:00",
+          "engagement": 79
         }
       ]
     },
     {
       "cluster_id": "caafd3961",
-      "score": 9.459,
+      "score": 9.088,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -165,110 +254,77 @@
       ]
     },
     {
-      "cluster_id": "c3f8474fe",
-      "score": 7.461,
+      "cluster_id": "ce1f5a2c8",
+      "score": 8.614,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Amazon"
+        "OpenAI"
       ],
       "independent_sources": [
-        "AWS ML",
-        "arXiv"
+        "OpenAI",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-22T15:17:45+00:00",
-      "last_seen": "2026-09-22T17:41:34+00:00",
+      "first_seen": "2026-09-22T18:00:00+00:00",
+      "last_seen": "2026-09-22T18:00:00+00:00",
       "links": [
-        "https://arxiv.org/abs/2609.26761v1",
-        "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/"
+        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
       ],
       "posts": [
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Extending public sector intelligence with Agentforce and AWS. Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface them through natural language queries in Salesforce Agentforce.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
-          "created_at": "2026-09-22T15:17:45+00:00",
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes. OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "created_at": "2026-09-22T18:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "arXiv",
+          "author": "OpenAI",
           "tier": "primary",
-          "text": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem. Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, direct attacks optimized and evaluated on GLM-4.6 achieve a mac",
-          "url": "https://arxiv.org/abs/2609.26761v1",
-          "created_at": "2026-09-22T17:41:34+00:00",
+          "text": "Introducing GPT-6 Sol and Luna. Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "created_at": "2026-09-22T18:00:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c1ac6a720",
-      "score": 6.455,
-      "interest": "want",
+      "cluster_id": "c762b9776",
+      "score": 6.326,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Nvidia"
-      ],
+      "suggested_section": "products",
+      "entities": [],
       "independent_sources": [
         "TechCrunch AI",
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-22T14:00:00+00:00",
-      "last_seen": "2026-09-22T16:34:08+00:00",
+      "first_seen": "2026-09-23T14:30:00+00:00",
+      "last_seen": "2026-09-23T15:19:30+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-        "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
-        "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-        "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-        "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy"
+        "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+        "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026. Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
-          "url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
-          "created_at": "2026-09-22T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026. We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.",
-          "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
-          "created_at": "2026-09-22T14:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage. Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.",
-          "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
-          "created_at": "2026-09-22T14:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda. At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.",
-          "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-          "created_at": "2026-09-22T15:00:00+00:00",
-          "engagement": 0
-        },
-        {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta. Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-          "created_at": "2026-09-22T16:34:08+00:00",
+          "text": "YouTube is building AI creator tools that do almost everything for them. Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Made on YouTube [&#8230;]",
+          "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+          "created_at": "2026-09-23T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "YouTube Music gets more conversational with new AI features. YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podcasts, and “Your Podcast Lineup,” a personalized [&#8230;]",
+          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+          "created_at": "2026-09-23T15:19:30+00:00",
           "engagement": 0
         }
       ]
