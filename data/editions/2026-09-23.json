@@ -30,6 +30,47 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "opencode-space-bunny",
+   "section": "models",
+   "headline": "OpenCode offers free access to Space Bunny, an unnamed stealth coding model",
+   "standfirst": "The model takes text, images and video, and has a context window of about a million tokens. OpenCode has not said who built it.",
+   "body": [
+    "OpenCode, the open-source coding agent, has added a model called Space Bunny to its Zen and Go model services and made it free to use. Its documentation describes Space Bunny as a stealth model: OpenCode has not named the company that built it. The listing went live on Wednesday.",
+    "According to models.dev, the model registry OpenCode uses, Space Bunny is an anonymous preview reasoning model for coding, agentic tasks, tool use and multimodal input. It accepts images and video as well as text, and returns text. The listing gives a context window of 1,048,576 tokens, with up to 524,288 tokens of output.",
+    "OpenCode says the provider keeps no data and does not use it to train models. Its Go documentation lists usage as unlimited and retention as zero days. Developers select it with the model ID space-bunny-free. The listing sets every price, including cached input, at zero, and marks the weights as closed.",
+    "OpenCode describes the free access as available for a limited time. A public tracker of free AI offers lists it as ending on 30 September. OpenCode merged the change into its code on Wednesday. Nobody has published benchmark results, and nobody outside OpenCode has yet reported testing the model or identifying its maker."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "OpenCode (Zen documentation)",
+     "tier": "primary",
+     "url": "https://opencode.ai/docs/zen/"
+    },
+    {
+     "author": "OpenCode (Go documentation)",
+     "tier": "primary",
+     "url": "https://opencode.ai/docs/go/"
+    },
+    {
+     "author": "models.dev",
+     "tier": "commentary",
+     "url": "https://models.dev/"
+    },
+    {
+     "author": "OpenCode pull request #50572",
+     "tier": "primary",
+     "url": "https://github.com/anomalyco/opencode/pull/50572"
+    },
+    {
+     "author": "freetokens tracker",
+     "tier": "commentary",
+     "url": "https://github.com/luongnv89/freetokens/issues/466"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-nemotron-3-diarization",
    "section": "models",
    "headline": "Nvidia releases 100M open-weight diarization model, says it tops VoiceArena",
@@ -229,7 +270,7 @@
      "at": "22 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-hemmingway-1",
