@@ -10,18 +10,35 @@
 #   python -m pipeline.discover            # write today's finds
 #   python -m pipeline.discover --print    # show them, write nothing
 
-# Items older than this are not finds any more.
-max_age_days: 21
+# The paper publishes every two hours, so a find has to be NEW, not merely
+# popular. Each source has its own window, in hours, measured from when the
+# thing was created or posted. Anything older is left out entirely.
+max_age_hours:
+  tips: 8            # HuggingNews, Techmeme, TestingCatalog: breaking items
+  hn: 12             # Hacker News front page, by submission time
+  show_hn: 24
+  models: 48         # a model created in the last two days and already trending
+  spaces: 48
+  papers: 30         # today's daily papers only
+
+# Newsrooms that move fast on this beat. Their headlines are TIPS: never
+# copied, never cited. Each tip carries the primary links the outlet credits
+# (for HuggingNews, the X posts it sourced), and the desk reports from those.
+tips:
+  huggingnews: { max_pages: 30 }
+  feeds:
+    - { name: Techmeme,       url: "https://www.techmeme.com/feed.xml", ai_only: true }
+    - { name: TestingCatalog, url: "https://www.testingcatalog.com/rss/", ai_only: false }
 
 huggingface:
-  models:   { limit: 60, keep: 12 }      # trending model repos
-  spaces:   { limit: 60, keep: 6, min_likes: 40 }   # trending demos
+  models:   { limit: 100, keep: 12 }     # trending model repos
+  spaces:   { limit: 100, keep: 6, min_likes: 20 }   # trending demos
   papers:   { keep: 8, min_upvotes: 15 } # daily papers, community-upvoted
   # Repacks and quantisations are not news; the original release is.
   skip: [gguf, awq, gptq, exl2, mlx, "-4bit", "-8bit", quant, uncensored, abliterated, nsfw, lora-uncensored]
 
 hackernews:
-  front_page: { keep: 12, min_points: 60 }
+  front_page: { keep: 12, min_points: 40 }
   show_hn:    { keep: 8,  min_points: 15 }
   # A story must match one of these to count as ours.
   ai_terms: [ai, llm, llms, gpt, claude, gemini, llama, qwen, deepseek, mistral,

@@ -8,8 +8,14 @@ somewhere else first.
 
 This collects those, from free public APIs:
 
+    Tips           HuggingNews, Techmeme, TestingCatalog: what broke in the
+                   last few hours, with the primary links each one credits
     Hugging Face   trending models, trending Spaces (demos), daily papers
     Hacker News    AI stories on the front page, and Show HN launches
+
+Every source has a freshness window (config/discover.yaml, max_age_hours).
+The paper publishes every two hours; a thing that is merely popular but days
+old is not news, so it is left out rather than ranked low.
 
 and writes a ranked list to data/finds/<date>.json. The desk reads it next to
 the brief. A find is not a story: it is a pointer to a public artifact, which
@@ -36,8 +42,11 @@ import urllib.request
 
 import yaml
 
+from concurrent.futures import ThreadPoolExecutor
+
 from .common import DATA_DIR, EDITIONS_DIR, ROOT, normalize_url, utcnow
 from .snippets import fingerprints as snippet_fingerprints
+from .wire import parse_date, strip_html
 
 CONFIG = ROOT / "config" / "discover.yaml"
 FINDS_DIR = DATA_DIR / "finds"
@@ -48,10 +57,14 @@ def load_cfg() -> dict:
     return yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
 
 
-def get_json(url: str, timeout: int = 20):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+def get(url: str, timeout: int = 20) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=timeout) as response:
-        return json.loads(response.read())
+        return response.read()
+
+
+def get_json(url: str, timeout: int = 20):
+    return json.loads(get(url, timeout))
 
 
 def _when(raw: str | None) -> dt.datetime | None:
@@ -74,11 +87,101 @@ def _skip(name: str, tags: list[str], words: list[str]) -> bool:
     return any(w in hay for w in words)
 
 
+def _age_hours(raw) -> float | None:
+    stamp = raw if isinstance(raw, dt.datetime) else _when(raw)
+    return None if stamp is None else round((utcnow() - stamp).total_seconds() / 3600, 1)
+
+
 def find(kind, title, url, source_name, signal, created_at, summary="", rank=0.0, extra=None) -> dict:
+    if isinstance(created_at, dt.datetime):
+        created_at = created_at.isoformat(timespec="seconds")
     return {"kind": kind, "title": title, "url": url,
             "source": {"name": source_name, "url": url},
-            "signal": signal, "created_at": created_at,
+            "signal": signal, "created_at": created_at, "age_hours": _age_hours(created_at),
             "summary": summary[:400], "rank": round(rank, 3), **(extra or {})}
+
+
+# ── Tips: fast newsrooms ─────────────────────────────────────────────────────
+
+X_STATUS = re.compile(r"https?://(?:x|twitter)\.com/\w+/status/\d+")
+
+
+def _hn_page(url: str) -> dict | None:
+    try:
+        html = get(url, timeout=15).decode("utf-8", "replace")
+    except Exception:
+        return None
+    title = re.search(r"<title>(.*?)(?: \| HuggingNews)?</title>", html, re.S)
+    published = re.search(r'"datePublished":"([^"]+)"', html)
+    return {"title": strip_html(title.group(1)) if title else "",
+            "published": published.group(1) if published else None,
+            "credits": sorted(set(X_STATUS.findall(html)))}
+
+
+def huggingnews(cfg: dict, max_age) -> list[dict]:
+    """Stories HuggingNews filed or updated inside the window.
+
+    Only the headline is kept, as a tip, and the X posts it credits, which
+    are the primary sources. None of its prose is stored or used.
+    """
+    cutoff = utcnow() - max_age
+    days = {utcnow().date(), (utcnow() - dt.timedelta(days=1)).date()}
+    entries = []
+    for day in sorted(days):
+        try:
+            xml = get(f"https://huggingnews.com/sitemaps/stories-{day.isoformat()}.xml").decode()
+        except Exception:
+            continue
+        for loc, mod in re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", xml):
+            stamp = _when(mod)
+            if stamp and stamp >= cutoff:
+                entries.append((loc, stamp))
+    entries.sort(key=lambda e: e[1], reverse=True)
+    entries = entries[: cfg["tips"]["huggingnews"]["max_pages"]]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        pages = list(pool.map(lambda e: _hn_page(e[0]), entries))
+    out = []
+    for (loc, stamp), page in zip(entries, pages):
+        if not page or not page["title"]:
+            continue
+        primary = page["credits"][0] if page["credits"] else loc
+        updated = "/update-" in loc
+        signal = (f"{'updated' if updated else 'filed'} by HuggingNews "
+                  f"{_age_hours(stamp)}h ago, crediting {len(page['credits'])} X posts")
+        out.append(find("tip", page["title"], primary, "HuggingNews (tip)", signal, stamp,
+                        rank=100 - (_age_hours(stamp) or 0),
+                        extra={"credits": page["credits"], "tip_url": loc}))
+    return out
+
+
+def tip_feeds(cfg: dict, max_age) -> list[dict]:
+    from xml.etree import ElementTree as ET
+    cutoff = utcnow() - max_age
+    terms = cfg["hackernews"]["ai_terms"]
+    out = []
+    for feed in cfg["tips"].get("feeds", []):
+        try:
+            root = ET.fromstring(get(feed["url"]))
+        except Exception:
+            continue
+        for item in root.findall(".//item"):
+            stamp = parse_date(item.findtext("pubDate"))
+            if stamp is None or stamp < cutoff:
+                continue
+            title = strip_html(item.findtext("title") or "")
+            if feed.get("ai_only") and not _is_ai(title, terms):
+                continue
+            desc = item.findtext("description") or ""
+            # Techmeme's item links to itself; the story it points at is the
+            # first outbound link in the description. That is the source.
+            outbound = [u for u in re.findall(r'HREF="(https?://[^"]+)"', desc, re.I)
+                        if "techmeme.com" not in u]
+            link = outbound[0] if outbound else (item.findtext("link") or "").strip()
+            title = re.sub(r"\s*\([^()]*/[^()]*\)\s*$", "", title)   # drop "(Reporter/Outlet)"
+            out.append(find("tip", title, link, f"{feed['name']} (tip)",
+                            f"on {feed['name']} {_age_hours(stamp)}h ago", stamp,
+                            rank=100 - (_age_hours(stamp) or 0)))
+    return out
 
 
 # ── Hugging Face ─────────────────────────────────────────────────────────────
@@ -129,13 +232,13 @@ def hf_papers(cfg: dict, max_age) -> list[dict]:
     for row in rows:
         p = row.get("paper", {})
         votes = p.get("upvotes", 0)
-        if votes < c["min_upvotes"]:
+        if votes < c["min_upvotes"] or not _fresh(p.get("submittedOnDailyAt"), max_age):
             continue
         org = (row.get("organization") or p.get("organization") or {}).get("fullname")
         extra = {"project_page": p.get("projectPage"), "github": p.get("githubRepo")}
         signal = f"{votes} upvotes on Hugging Face daily papers" + (f"; from {org}" if org else "")
         out.append(find("paper", p.get("title", ""), f"https://huggingface.co/papers/{p.get('id')}",
-                        org or "arXiv", signal, row.get("publishedAt"),
+                        org or "arXiv", signal, p.get("submittedOnDailyAt") or row.get("publishedAt"),
                         summary=p.get("summary") or row.get("summary") or "", rank=votes,
                         extra={k: v for k, v in extra.items() if v}))
     out.sort(key=lambda f: f["rank"], reverse=True)
@@ -160,6 +263,8 @@ def hn_front(cfg: dict, max_age) -> list[dict]:
         title, pts = h.get("title") or "", h.get("points") or 0
         if pts < c["min_points"] or not _is_ai(title, terms):
             continue
+        if not _fresh(h.get("created_at"), max_age):
+            continue
         link = h.get("url") or f"https://news.ycombinator.com/item?id={h['objectID']}"
         host = urllib.parse.urlparse(link).netloc.removeprefix("www.")
         signal = f"{pts} points, {h.get('num_comments') or 0} comments on the Hacker News front page"
@@ -171,7 +276,7 @@ def hn_front(cfg: dict, max_age) -> list[dict]:
 
 def hn_show(cfg: dict, max_age) -> list[dict]:
     c, terms = cfg["hackernews"]["show_hn"], cfg["hackernews"]["ai_terms"]
-    since = int(time.time()) - 2 * 86400
+    since = int(time.time() - max_age.total_seconds())
     q = urllib.parse.quote(f"created_at_i>{since},points>{c['min_points']}")
     out = []
     for h in _hn(f"tags=show_hn&numericFilters={q}&hitsPerPage=60"):
@@ -202,30 +307,36 @@ def carried(days: int = 7) -> set[str]:
     return seen
 
 
-COLLECTORS = [("Hugging Face models", hf_models), ("Hugging Face Spaces", hf_spaces),
-              ("Hugging Face papers", hf_papers), ("Hacker News", hn_front),
-              ("Show HN", hn_show)]
+# (label, collector, key into max_age_hours)
+COLLECTORS = [("HuggingNews", huggingnews, "tips"), ("Techmeme, TestingCatalog", tip_feeds, "tips"),
+              ("Hugging Face models", hf_models, "models"), ("Hugging Face Spaces", hf_spaces, "spaces"),
+              ("Hugging Face papers", hf_papers, "papers"), ("Hacker News", hn_front, "hn"),
+              ("Show HN", hn_show, "show_hn")]
 
 
 def collect() -> tuple[list[dict], list[str]]:
     cfg = load_cfg()
-    max_age = dt.timedelta(days=cfg.get("max_age_days", 21))
+    windows = cfg.get("max_age_hours", {})
     already = carried()
     finds, report = [], []
-    for name, fn in COLLECTORS:
+    for name, fn, key in COLLECTORS:
+        max_age = dt.timedelta(hours=windows.get(key, 24))
         try:
             got = fn(cfg, max_age)
         except Exception as exc:              # one dead source must not stop the cycle
             report.append(f"! {name:<20} FAIL {type(exc).__name__}")
             continue
-        fresh = [f for f in got if normalize_url(f["url"]) not in already]
+        fresh = [f for f in got if normalize_url(f["url"]) not in already
+                 and not (set(map(normalize_url, f.get("credits", []))) & already)]
         finds.extend(fresh)
-        report.append(f"· {name:<20} {len(fresh)} new, {len(got) - len(fresh)} already carried")
+        report.append(f"· {name:<24} {len(fresh)} new, {len(got) - len(fresh)} already carried"
+                      f"  (last {windows.get(key, 24)}h)")
+    finds.sort(key=lambda f: f["age_hours"] if f["age_hours"] is not None else 999)
     return finds, report
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Collect finds from Hugging Face and Hacker News.")
+    ap = argparse.ArgumentParser(description="Collect fresh finds: tips, Hugging Face, Hacker News.")
     ap.add_argument("--print", action="store_true", help="print, write nothing")
     args = ap.parse_args()
 
@@ -233,7 +344,7 @@ def main() -> None:
     print("\n".join(report))
     if args.print:
         for f in finds:
-            print(f"  [{f['kind']:<6}] {f['title'][:70]:<70}  {f['signal']}")
+            print(f"  {f['age_hours']:>5}h [{f['kind']:<6}] {f['title'][:70]:<70}  {f['signal']}")
         return
 
     day = utcnow().date().isoformat()

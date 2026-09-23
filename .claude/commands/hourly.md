@@ -21,7 +21,13 @@ marked `"single_source": true`. Each carries `interest`: `want`, `neutral` or
 Then read `data/finds/<today>.json` if it exists (`python -m pipeline.discover`
 writes it): trending models, Spaces and papers on Hugging Face, and AI stories
 and Show HN launches on Hacker News, each with its traction and a link to the
-artifact. This is where most of the interesting material is.
+artifact. This is where most of the interesting material is. It also carries
+**tips** from HuggingNews, Techmeme and TestingCatalog: leads, never sources.
+Report from the posts and pages they credit, and never cite the tip outlet.
+
+**Fresh or nothing.** This publishes every two hours. A story is about
+something that happened in the last six hours, a snippet the last twelve, by
+the source's own timestamp. Every find has `age_hours`; work from the top.
 
 ## What to write
 

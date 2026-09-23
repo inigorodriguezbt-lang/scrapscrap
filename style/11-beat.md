@@ -9,6 +9,20 @@ If it is something they can download, try, run, watch, star or argue about,
 the answer is usually yes. If it is a consultation closing, a think-tank report
 or a funding round for a company nobody has heard of, the answer is usually no.
 
+## Fresh or nothing
+
+The paper publishes every two hours. **A story is about something that
+happened in the last six hours; a snippet, the last twelve.** Measure from the
+source's own timestamp (the post, the release, the commit), not from when an
+aggregator noticed it. A model that has been trending for three days is not
+news today, however many likes it has; if the paper missed it, it missed it.
+
+The one exception is a genuinely new development on an older thing: a result
+someone just published, a price that just changed. Then the development is
+the story and its timestamp is the one that counts.
+
+Every find carries `age_hours`. Start from the top of the list.
+
 ## What we want, in order
 
 1. **Model releases.** New frontier models, new open weights, new image,
@@ -53,10 +67,19 @@ skews dull on its own. So each cycle also reads **finds**:
 python -m pipeline.discover        # → data/finds/<today>.json
 ```
 
-Finds are trending models, Spaces and daily papers on Hugging Face, AI stories
-on the Hacker News front page, and AI launches on Show HN. Each has a `signal`
-(how much traction, measured where) and a link to the artifact itself. The X
-sweep adds posts linking to GitHub and Hugging Face that already have traction.
+Finds are **tips** from fast newsrooms (HuggingNews, Techmeme,
+TestingCatalog), trending models, Spaces and daily papers on Hugging Face, AI
+stories on the Hacker News front page, and AI launches on Show HN.
+
+**A tip is a lead, never a source.** Never cite HuggingNews, Techmeme or
+TestingCatalog, and never reuse their wording. A HuggingNews tip lists the X
+posts it credits (`credits`): open those, and report from them and from the
+primary pages they point at. A Techmeme tip's `url` is the outlet that has the
+story: cite that outlet, by name.
+
+Every find has a `signal` (how much traction, measured where) and a link to
+the thing itself. The X sweep adds posts linking to GitHub and Hugging Face
+that already have traction.
 
 **A find is a pointer, not a source.** Open the link. Report from the model
 card, the repo README, the Space, the release notes. The trending number is
