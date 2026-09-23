@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-23T08:05:54.187918+00:00",
+  "generated_at": "2026-09-23T10:07:20.507356+00:00",
   "edition_date": "2026-09-23",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 100,
+  "posts_considered": 107,
   "clusters_found": 3,
-  "stories_declared": 2,
+  "stories_declared": 1,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cdc815c71",
-      "score": 19.346,
+      "cluster_id": "c286f11ba",
+      "score": 19.763,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
@@ -18,22 +18,25 @@
         "Meta",
         "Nvidia",
         "Microsoft",
-        "DeepSeek",
-        "Alibaba",
-        "Amazon"
+        "Hugging Face",
+        "Apple",
+        "Amazon",
+        "AMD"
       ],
       "independent_sources": [
         "AWS ML",
-        "AndrewCurran_",
+        "Alibaba_Qwen",
         "Ars Technica",
         "CNBC",
         "CoinMarketCap",
-        "Cointelegraph",
         "FirstSquawk",
         "Kalshi",
+        "MIT Tech Review",
+        "MarioNawfal",
+        "MaxForAI",
         "NVIDIA",
         "OpenAI",
-        "PhotonCap",
+        "Reuters",
         "SemiconductorsX",
         "Simon Willison",
         "Stratechery",
@@ -41,23 +44,22 @@
         "Techmeme",
         "The Verge AI",
         "TheHackersNews",
-        "alexandr_wang",
         "arXiv",
-        "askalphaxiv",
+        "axios",
         "business",
-        "choblin29",
-        "clashreport",
-        "financialjuice",
-        "jukan05",
         "koltregaskes",
-        "rohanpaul_ai",
+        "mark_k",
+        "politico",
         "teortaxesTex",
-        "testingcatalog"
+        "testingcatalog",
+        "theo",
+        "wallstengine"
       ],
       "source_count": 30,
-      "first_seen": "2026-09-22T10:00:00+00:00",
-      "last_seen": "2026-09-23T08:01:43+00:00",
+      "first_seen": "2026-09-22T11:04:51+00:00",
+      "last_seen": "2026-09-23T10:02:37+00:00",
       "links": [
+        "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
         "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
         "https://arxiv.org/abs/2609.26682v1",
         "https://arxiv.org/abs/2609.26683v1",
@@ -93,77 +95,131 @@
         "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
         "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
         "https://blogs.nvidia.com/blog/ai-day-singapore/",
-        "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
         "https://openai.com/index/better-prompt-caching-for-gpt-6",
         "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
         "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
         "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
         "https://simonwillison.net/2026/Sep/22/llm/",
         "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
         "https://simonwillison.net/2026/Sep/22/therealcornpop/",
         "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-        "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
+        "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
         "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
         "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+        "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
         "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
         "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+        "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+        "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
         "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
         "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
         "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
         "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
         "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
         "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+        "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+        "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+        "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+        "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
         "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
         "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
         "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
         "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
         "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-        "https://x.com/AndrewCurran_/status/2102667061256470604",
-        "https://x.com/CNBC/status/2102664884987023784",
-        "https://x.com/CoinMarketCap/status/2102648954877813183",
-        "https://x.com/Cointelegraph/status/2102654471847182506",
-        "https://x.com/FirstSquawk/status/2102666380281807348",
-        "https://x.com/Kalshi/status/2102649161996718166",
-        "https://x.com/Kalshi/status/2102664261470167224",
-        "https://x.com/Kalshi/status/2102669305544417349",
-        "https://x.com/PhotonCap/status/2102657293016064168",
-        "https://x.com/SemiconductorsX/status/2102646848507015519",
-        "https://x.com/SemiconductorsX/status/2102647186546983348",
-        "https://x.com/Techmeme/status/2102643100934160769",
-        "https://x.com/Techmeme/status/2102647003868262562",
-        "https://x.com/Techmeme/status/2102669729177756092",
-        "https://x.com/TheHackersNews/status/2102655813206847803",
-        "https://x.com/TheHackersNews/status/2102668749665132666",
-        "https://x.com/alexandr_wang/status/2102644482491744268",
-        "https://x.com/alexandr_wang/status/2102656442629271912",
-        "https://x.com/askalphaxiv/status/2102646972419375462",
-        "https://x.com/business/status/2102644147731476722",
-        "https://x.com/business/status/2102657992155889916",
-        "https://x.com/business/status/2102668058544242993",
-        "https://x.com/choblin29/status/2102643131942576329",
-        "https://x.com/clashreport/status/2102665875786448937",
-        "https://x.com/financialjuice/status/2102665836813222076",
-        "https://x.com/jukan05/status/2102642359687401795",
-        "https://x.com/koltregaskes/status/2102646655992680644",
-        "https://x.com/rohanpaul_ai/status/2102642576021184808",
-        "https://x.com/teortaxesTex/status/2102662699834581341",
-        "https://x.com/testingcatalog/status/2102659167685111920"
+        "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+        "https://x.com/Alibaba_Qwen/status/2102687258990026993",
+        "https://x.com/CNBC/status/2102695573895709051",
+        "https://x.com/CNBC/status/2102697610641355186",
+        "https://x.com/CoinMarketCap/status/2102679656742764836",
+        "https://x.com/FirstSquawk/status/2102700084198850740",
+        "https://x.com/Kalshi/status/2102684406033084468",
+        "https://x.com/Kalshi/status/2102692942867497441",
+        "https://x.com/MarioNawfal/status/2102673069689242094",
+        "https://x.com/MarioNawfal/status/2102696977461035437",
+        "https://x.com/MaxForAI/status/2102678249860206926",
+        "https://x.com/Reuters/status/2102676867702509866",
+        "https://x.com/Reuters/status/2102676887893869036",
+        "https://x.com/SemiconductorsX/status/2102699367471976472",
+        "https://x.com/SemiconductorsX/status/2102700052460491252",
+        "https://x.com/Techmeme/status/2102675869848457406",
+        "https://x.com/Techmeme/status/2102680835052929236",
+        "https://x.com/TheHackersNews/status/2102675252090413153",
+        "https://x.com/TheHackersNews/status/2102681878025097325",
+        "https://x.com/axios/status/2102686149453938701",
+        "https://x.com/axios/status/2102693290172694617",
+        "https://x.com/business/status/2102673092413673872",
+        "https://x.com/business/status/2102688190922428679",
+        "https://x.com/business/status/2102700155380056312",
+        "https://x.com/koltregaskes/status/2102676347189698807",
+        "https://x.com/mark_k/status/2102688830599917852",
+        "https://x.com/politico/status/2102696593371922530",
+        "https://x.com/teortaxesTex/status/2102673632635817992",
+        "https://x.com/testingcatalog/status/2102673476221866015",
+        "https://x.com/testingcatalog/status/2102688828574064938",
+        "https://x.com/theo/status/2102698309991444517",
+        "https://x.com/wallstengine/status/2102683297243603235",
+        "https://x.com/wallstengine/status/2102685649489011141",
+        "https://x.com/wallstengine/status/2102689676272509152",
+        "https://x.com/wallstengine/status/2102691984020574699",
+        "https://x.com/wallstengine/status/2102693453201305750",
+        "https://x.com/wallstengine/status/2102699989885677951"
       ],
       "posts": [
         {
-          "author": "Stratechery",
-          "tier": "commentary",
-          "text": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator. Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat.",
-          "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
-          "created_at": "2026-09-22T10:00:00+00:00",
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "Don’t be fooled by this summer of AI hype. It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+          "created_at": "2026-09-22T11:04:51+00:00",
           "engagement": 0
         },
         {
-          "author": "NVIDIA",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta patches Muse exploit that let attackers control the AI agent. Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers [&#8230;]",
+          "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+          "created_at": "2026-09-22T11:53:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "OpenAI",
           "tier": "primary",
-          "text": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development. To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-          "created_at": "2026-09-22T12:00:41+00:00",
+          "text": "Parallel cut research time and cost in half with GPT‑6 Astra. GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+          "created_at": "2026-09-22T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+          "created_at": "2026-09-22T12:10:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again. The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
+          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+          "created_at": "2026-09-22T12:23:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Everyone can find a reason to dislike data center construction. Inside two years of fraught AI data center debates in Pennsylvania.",
+          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+          "created_at": "2026-09-22T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "Roundtables: The Deadly Failures of The Virtual Border Wall. The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+          "created_at": "2026-09-22T13:42:05+00:00",
           "engagement": 0
         },
         {
@@ -308,6 +364,14 @@
           "text": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation. A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavior alone. In Ollama, the default tools= request is gated per model by a static template flag: some models are accepted and return calls as text, some return native tool_calls, while Phi-3 and Gemma-3 are rejected before inference. In our harness, rejection and retry exhaustion are not preserved as st",
           "url": "https://arxiv.org/abs/2609.26693v1",
           "created_at": "2026-09-22T16:48:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica",
+          "tier": "press",
+          "text": "IT mistake erases 11 years of viewing history for hospitals’ maternity records. The English hospitals recovered patient care data only.",
+          "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
+          "created_at": "2026-09-22T16:55:40+00:00",
           "engagement": 0
         },
         {
@@ -543,6 +607,14 @@
           "engagement": 0
         },
         {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence. Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "created_at": "2026-09-22T19:09:11+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Ars Technica",
           "tier": "press",
           "text": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts. EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
@@ -631,350 +703,307 @@
           "engagement": 0
         },
         {
-          "author": "jukan05",
+          "author": "MarioNawfal",
           "tier": "commentary",
-          "text": "Samsung Electronics Revises Roadmap for Next Generation DRAM D0a, Pulls Hybrid Bonding Forward. Samsung recently moved B1b, a technology under development as a standalone project, onto its official roadmap and designated it D0a, its first DRAM below 10 nanometers. VCT DRAM has been reclassified as D0a-V. B1b uses wafer-to-wafer hybrid bonding. Per ZDNet Korea reporting on the 23rd. Samsung is reviewing applying B1b to HBM5, expected to enter mass production around 2029, targeting a 50% speed gain over HBM4E. Commercialization of B1b-based D0a DRAM is estimated at least two years away.",
-          "url": "https://x.com/jukan05/status/2102642359687401795",
-          "created_at": "2026-09-23T06:12:58+00:00",
-          "engagement": 87
+          "text": "Netanyahu says Israel will become the world's third AI superpower within 5 years. \"I am setting a goal: within five years, we will be the third AI power. There is the United States, there is China, not small countries, but I want Israel to become, and with God's help it will become, the third\"",
+          "url": "https://x.com/MarioNawfal/status/2102673069689242094",
+          "created_at": "2026-09-23T08:15:00+00:00",
+          "engagement": 22
         },
         {
-          "author": "rohanpaul_ai",
+          "author": "business",
           "tier": "commentary",
-          "text": "AI costs are indeed dropping dramatically. On GPQA Diamond, Epoch estimates OpenAI's o3 model needed about $0.30 per question to reach a 75% score. Under 18 months later, GPT-5.6 Luna matched that level for $0.0004, a 725x cost drop. Overall, Epoch estimates matching a fixed benchmark score has become about 47% cheaper each quarter since 2023. That works out to roughly a 13x annual cost reduction across its five primary benchmarks. Epoch measures the dollars needed to reach the same benchmark accuracy over time, estimating each model's cost-performance curve by replaying benchmark transcripts under tighter token budgets, using a method adapted from CAISI.",
-          "url": "https://x.com/rohanpaul_ai/status/2102642576021184808",
-          "created_at": "2026-09-23T06:13:49+00:00",
+          "text": "Wrtn Technologies, one of South Korea's fastest-growing AI startups, selected Mirae Asset Securities as the lead underwriter to arrange a planned IPO",
+          "url": "https://x.com/business/status/2102673092413673872",
+          "created_at": "2026-09-23T08:15:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "SpaceXAI is working on Remote Control for Grok on web and Mobile. Interestingly, Remote Control feature on iOS is referring to a \"Grok Desktop\" app and not to Grok Build CLI. Considering that it's a recent addition, does it mean that we will get a desktop app as well?",
+          "url": "https://x.com/testingcatalog/status/2102673476221866015",
+          "created_at": "2026-09-23T08:16:37+00:00",
+          "engagement": 60
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "speaking of: I believe that Benderites are kind of correct. LLMs do not hold opinions on anything they weren't heavily RL'd for. From pretraining they inherit an interpolated melange of Vibes to assemble into some nauseating copy on tap. RL gives them strongly held, serious, consistent opinions.",
+          "url": "https://x.com/teortaxesTex/status/2102673632635817992",
+          "created_at": "2026-09-23T08:17:14+00:00",
+          "engagement": 29
+        },
+        {
+          "author": "TheHackersNews",
+          "tier": "commentary",
+          "text": "WARNING - F5's BIG-IP APM 0-day is being exploited for unauthenticated RCE. CVE-2026-94127 affects systems where APM acts as an OAuth authorization server. F5 has released hotfixes, and CISA added the flaw to KEV.",
+          "url": "https://x.com/TheHackersNews/status/2102675252090413153",
+          "created_at": "2026-09-23T08:23:40+00:00",
           "engagement": 22
         },
         {
           "author": "Techmeme",
           "tier": "commentary",
-          "text": "Global AI glasses shipments, including display-less and AR & AI glasses, rose 263% YoY in H1 2026, driven by Meta and EssilorLuxottica's display-less lineup (Counterpoint Research)",
-          "url": "https://x.com/Techmeme/status/2102643100934160769",
-          "created_at": "2026-09-23T06:15:55+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "choblin29",
-          "tier": "commentary",
-          "text": "SCOOP: Anthropic is in talks for its biggest direct data-center lease yet. Up to 1 GIGAWATT from Apollo-backed Stream Data Centers, a project requiring at least $40 BILLION in capital. Anthropic has discussed filling the sites with Google/Broadcom TPUs, though it could also use Nvidia GPUs or other AI chips. Google has separately discussed providing a credit guarantee for the project. The bigger shift: Anthropic is moving from simply renting compute to directly controlling the chips, pricing and infrastructure behind it.",
-          "url": "https://x.com/choblin29/status/2102643131942576329",
-          "created_at": "2026-09-23T06:16:02+00:00",
-          "engagement": 9
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "Chinese chip foundry CanSemi Technology is seeking to raise about $919 million in an IPO on the Shenzhen stock exchange's ChiNext board",
-          "url": "https://x.com/business/status/2102644147731476722",
-          "created_at": "2026-09-23T06:20:04+00:00",
-          "engagement": 1
-        },
-        {
-          "author": "alexandr_wang",
-          "tier": "commentary",
-          "text": "you can't stop the muse",
-          "url": "https://x.com/alexandr_wang/status/2102644482491744268",
-          "created_at": "2026-09-23T06:21:24+00:00",
-          "engagement": 94
+          "text": "NADI, a new DARPA-like Dutch government agency, launches a 40M euro challenge to accelerate chip design with AI in collaboration with its German counterpart SPRIND (@lbsterling / Reuters)",
+          "url": "https://x.com/Techmeme/status/2102675869848457406",
+          "created_at": "2026-09-23T08:26:07+00:00",
+          "engagement": 4
         },
         {
           "author": "koltregaskes",
           "tier": "commentary",
-          "text": "The tides have turned again. Opus 5.5 is a big hit; faster, more intelligence and a better writer. Whereas GPT-6 Sol (and Luna) didn't even arrive in ChatGPT (only in Work and Codex) and appears to be an optimised version of 5.6.",
-          "url": "https://x.com/koltregaskes/status/2102646655992680644",
-          "created_at": "2026-09-23T06:30:02+00:00",
-          "engagement": 10
+          "text": "Did you reset your Codex reset? Some people saying they didn't. Mine came in last night",
+          "url": "https://x.com/koltregaskes/status/2102676347189698807",
+          "created_at": "2026-09-23T08:28:01+00:00",
+          "engagement": 9
         },
         {
-          "author": "SemiconductorsX",
+          "author": "Reuters",
           "tier": "commentary",
-          "text": "Samsung changed what next DRAM means. ZDNet Korea, citing people close to the plan, says D0a was the name for vertical-channel DRAM. That part is now labeled D0a-V. D0a itself is now B1b, a wafer-to-wafer hybrid bond that was an R&D project and is now on the official map. Today's newest shipping DRAM is 1c, about 11 to 12 nm in marketing terms. 1d is 10 to 11 nm and likely the last 10 nm class part. D0a is meant to be the first sub-10 nm class.",
-          "url": "https://x.com/SemiconductorsX/status/2102646848507015519",
-          "created_at": "2026-09-23T06:30:48+00:00",
-          "engagement": 6
+          "text": "AI-led investment is helping the global economy hold up marginally better than expected this year, but the energy shock is becoming more entrenched, weighing on the outlook for 2027, the OECD said",
+          "url": "https://x.com/Reuters/status/2102676867702509866",
+          "created_at": "2026-09-23T08:30:05+00:00",
+          "engagement": 8
         },
         {
-          "author": "askalphaxiv",
+          "author": "Reuters",
           "tier": "commentary",
-          "text": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses. RRSI makes self-improving AI agents generalize instead of just overfitting their benchmarks. Across coding, agentic workspace and engineering tasks, RRSI improves OOD benchmarks while using 30% fewer policy tokens than unregularized evolution.",
-          "url": "https://x.com/askalphaxiv/status/2102646972419375462",
-          "created_at": "2026-09-23T06:31:18+00:00",
-          "engagement": 58
+          "text": "OECD expects AI boom to help offset Middle East energy shock for now",
+          "url": "https://x.com/Reuters/status/2102676887893869036",
+          "created_at": "2026-09-23T08:30:10+00:00",
+          "engagement": 9
         },
         {
-          "author": "Techmeme",
+          "author": "MaxForAI",
           "tier": "commentary",
-          "text": "Profile of Noah Shinn, founder of AI assistant Instinct, who soft-launched it as an invite-only site for VCs, and is reportedly fundraising at a $10B valuation (Business Insider)",
-          "url": "https://x.com/Techmeme/status/2102647003868262562",
-          "created_at": "2026-09-23T06:31:25+00:00",
-          "engagement": 11
-        },
-        {
-          "author": "SemiconductorsX",
-          "tier": "commentary",
-          "text": "Originally, B1b was a process undergoing R&D but was not included in Samsung Electronics' official roadmap. It has been incorporated into D0a following this strategic revision, an official explained. This signifies that Samsung Electronics is actively pushing for the rapid commercialization of B1b DRAM.",
-          "url": "https://x.com/SemiconductorsX/status/2102647186546983348",
-          "created_at": "2026-09-23T06:32:09+00:00",
-          "engagement": 6
+          "text": "I regret to announce that Opus 5.5 has founded a dynasty. First is a new height of Coding (at this price point), with a bunch of game-making cases. And the writing ability is back, though with a bit of a GPT tic.",
+          "url": "https://x.com/MaxForAI/status/2102678249860206926",
+          "created_at": "2026-09-23T08:35:35+00:00",
+          "engagement": 66
         },
         {
           "author": "CoinMarketCap",
           "tier": "commentary",
-          "text": "LATEST: Cardano has joined the official x402 kit, letting developers build apps and AI agents that pay for online services using ADA or Cardano-issued tokens.",
-          "url": "https://x.com/CoinMarketCap/status/2102648954877813183",
-          "created_at": "2026-09-23T06:39:10+00:00",
-          "engagement": 98
-        },
-        {
-          "author": "Kalshi",
-          "tier": "commentary",
-          "text": "JUST IN: Microsoft to give Pentagon's DARPA hands-on access to its new quantum system",
-          "url": "https://x.com/Kalshi/status/2102649161996718166",
-          "created_at": "2026-09-23T06:40:00+00:00",
-          "engagement": 75
-        },
-        {
-          "author": "Cointelegraph",
-          "tier": "commentary",
-          "text": "LATEST: Meta has been quietly using human contractors to handle some phone calls made through its new AI agent Muse, raising privacy concerns among employees, per Reuters.",
-          "url": "https://x.com/Cointelegraph/status/2102654471847182506",
-          "created_at": "2026-09-23T07:01:06+00:00",
-          "engagement": 98
-        },
-        {
-          "author": "TheHackersNews",
-          "tier": "commentary",
-          "text": "Next.js patched a critical ImageResponse flaw that can lead to server code execution. CVE-2026-94545 affects 16.2.0 through 16.3.5 on Node.js when attacker-controlled values reach generated SVG. The fix is 16.3.6.",
-          "url": "https://x.com/TheHackersNews/status/2102655813206847803",
-          "created_at": "2026-09-23T07:06:25+00:00",
-          "engagement": 27
-        },
-        {
-          "author": "alexandr_wang",
-          "tier": "commentary",
-          "text": "woah this is pretty awesome 500+ helpful prompts to turn muse into the best chief of staff, best marketer, best PM",
-          "url": "https://x.com/alexandr_wang/status/2102656442629271912",
-          "created_at": "2026-09-23T07:08:56+00:00",
-          "engagement": 162
-        },
-        {
-          "author": "PhotonCap",
-          "tier": "commentary",
-          "text": "China conducting audit of $AVGO equipment amid domestic AI chip advancement efforts. Potential regulatory scrutiny tied to US export controls on advanced semiconductors. Move reflects broader tension between Chinese AI infrastructure development and US technology restrictions.",
-          "url": "https://x.com/PhotonCap/status/2102657293016064168",
-          "created_at": "2026-09-23T07:12:18+00:00",
-          "engagement": 13
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "The Trump-Xi summit is more likely to produce narrowly defined guardrails rather than speed limits on AI",
-          "url": "https://x.com/business/status/2102657992155889916",
-          "created_at": "2026-09-23T07:15:05+00:00",
-          "engagement": 14
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF Sept 23. OPENAI: GPT-6 Sol and Luna rolled out in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise, and Edu. API prices are 50% below GPT-5.6 promo: Sol $2/$10, Luna $0.10/$0.50 per 1M tokens. ANTHROPIC: Claude Opus 5.5 is out, first of the 5.5 family, ~40% cheaper and ~30% faster than Opus 5. Platform pricing is $4/$20 per 1M tokens. CURSOR: Opus 5.5 is live and tops CursorBench at 57.8% Max, 40% less per task than Opus 5. PERPLEXITY: Sol is the default Light model in Computer. DIGITALOCEAN: Managed Agents public preview: isolated microVMs, 16k+ tools, pause/resume in ~305 ms. ALIBABA: Qwen-Image-2.1 is #1 open-source in Arena Image Edit and Text-to-Image. XIAOMI: MiMo-V2.6 Pro and Flash shipped. DEEPSEEK: China reportedly opened a data-security probe into DeepSeek and Moonshot after Anthropic alleged Claude traffic routing.",
-          "url": "https://x.com/testingcatalog/status/2102659167685111920",
-          "created_at": "2026-09-23T07:19:45+00:00",
-          "engagement": 35
-        },
-        {
-          "author": "teortaxesTex",
-          "tier": "commentary",
-          "text": "Is this anything? At first glance, it feels like another overpromising academic dud. But I suspect that if it works, you can connect this to PEFT/adapter/prompt tuning, and then to practical continual learning.",
-          "url": "https://x.com/teortaxesTex/status/2102662699834581341",
-          "created_at": "2026-09-23T07:33:47+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "Kalshi",
-          "tier": "commentary",
-          "text": "JUST IN: BlackRock examines digital assets becoming a market for AI compute",
-          "url": "https://x.com/Kalshi/status/2102664261470167224",
-          "created_at": "2026-09-23T07:40:00+00:00",
-          "engagement": 75
-        },
-        {
-          "author": "CNBC",
-          "tier": "commentary",
-          "text": "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
-          "url": "https://x.com/CNBC/status/2102664884987023784",
-          "created_at": "2026-09-23T07:42:28+00:00",
-          "engagement": 4
-        },
-        {
-          "author": "financialjuice",
-          "tier": "commentary",
-          "text": "NVIDIA-backed Firmus seeks $10 billion financing for AI chips.",
-          "url": "https://x.com/financialjuice/status/2102665836813222076",
-          "created_at": "2026-09-23T07:46:15+00:00",
-          "engagement": 8
-        },
-        {
-          "author": "clashreport",
-          "tier": "commentary",
-          "text": "Netanyahu on AI: I am setting a goal: within five years, we will be the third AI power. There is the United States, there is China, but I want Israel to become the third power.",
-          "url": "https://x.com/clashreport/status/2102665875786448937",
-          "created_at": "2026-09-23T07:46:25+00:00",
-          "engagement": 17
-        },
-        {
-          "author": "FirstSquawk",
-          "tier": "commentary",
-          "text": "NVIDIA-SUPPORTED FIRMUS AIMS TO RAISE $10 BILLION FOR AI CHIP DEVELOPMENT.",
-          "url": "https://x.com/FirstSquawk/status/2102666380281807348",
-          "created_at": "2026-09-23T07:48:25+00:00",
-          "engagement": 5
-        },
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Great thread. Terence Tao, four days ago: 'we have to slow down. this pace is insane.' The old timelines are all blown up. RSI isn't two years out.",
-          "url": "https://x.com/AndrewCurran_/status/2102667061256470604",
-          "created_at": "2026-09-23T07:51:07+00:00",
-          "engagement": 42
-        },
-        {
-          "author": "business",
-          "tier": "commentary",
-          "text": "Australian AI startup Firmus Technologies is in talks with lenders for a roughly $10 billion financing deal to buy Nvidia chips for its Indonesian data center",
-          "url": "https://x.com/business/status/2102668058544242993",
-          "created_at": "2026-09-23T07:55:05+00:00",
-          "engagement": 5
-        },
-        {
-          "author": "TheHackersNews",
-          "tier": "commentary",
-          "text": "A $320/month phishing kit can steal Microsoft 365 sessions after MFA succeeds. NovaCookies relays the login in real time and captures the authenticated session, while the sign-in itself can look ordinary. BeyondTrust's Len Noe explains why detection has to move past the login.",
-          "url": "https://x.com/TheHackersNews/status/2102668749665132666",
-          "created_at": "2026-09-23T07:57:50+00:00",
-          "engagement": 7
-        },
-        {
-          "author": "Kalshi",
-          "tier": "commentary",
-          "text": "BREAKING: US, UK, and China sit out a 20-country call for more oversight of advanced AI systems",
-          "url": "https://x.com/Kalshi/status/2102669305544417349",
-          "created_at": "2026-09-23T08:00:02+00:00",
-          "engagement": 9
+          "text": "LATEST: OpenAI proposed global standards for AI alignment and recursive self-improvement, urging the industry to coordinate on safety as frontier models grow more capable.",
+          "url": "https://x.com/CoinMarketCap/status/2102679656742764836",
+          "created_at": "2026-09-23T08:41:10+00:00",
+          "engagement": 59
         },
         {
           "author": "Techmeme",
           "tier": "commentary",
-          "text": "German publisher C.H.BECK takes a majority stake in Noxtua, which develops AI tech to research, analyze, and draft legal documents and raised a $100M+ Series C (@cate_lawrence / Tech.eu)",
-          "url": "https://x.com/Techmeme/status/2102669729177756092",
-          "created_at": "2026-09-23T08:01:43+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c118efbb7",
-      "score": 8.771,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta",
-        "Microsoft",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "Ars Technica",
-        "MIT Tech Review",
-        "OpenAI",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-09-22T11:04:51+00:00",
-      "last_seen": "2026-09-22T19:09:11+00:00",
-      "links": [
-        "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
-        "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-        "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-        "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-        "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-        "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-        "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-        "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-        "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent"
-      ],
-      "posts": [
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "Don’t be fooled by this summer of AI hype. It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-          "created_at": "2026-09-22T11:04:51+00:00",
-          "engagement": 0
+          "text": "Chinese chip foundry CanSemi, focused on automotive, industrial, and IoT chips, files for an IPO on Shenzhen stock exchange's ChiNext, seeking to raise ~$919M (@sangmi_cha / Bloomberg)",
+          "url": "https://x.com/Techmeme/status/2102680835052929236",
+          "created_at": "2026-09-23T08:45:51+00:00",
+          "engagement": 2
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta patches Muse exploit that let attackers control the AI agent. Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an undocumented Muse setting that enabled potential attackers running local code to redirect transcription processing from Meta's servers [&#8230;]",
-          "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-          "created_at": "2026-09-22T11:53:58+00:00",
-          "engagement": 0
+          "author": "TheHackersNews",
+          "tier": "commentary",
+          "text": "Three Chrome-Windows 0-days were exploited in one chain to escape Chrome's sandbox and achieve remote code execution. Chinese threat actor UTA0565 used fake sites in the attacks, with the chain ultimately deploying CLEANGULP malware.",
+          "url": "https://x.com/TheHackersNews/status/2102681878025097325",
+          "created_at": "2026-09-23T08:50:00+00:00",
+          "engagement": 20
         },
         {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Parallel cut research time and cost in half with GPT‑6 Astra. GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-          "created_at": "2026-09-22T12:00:00+00:00",
-          "engagement": 0
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "Anthropic is in early talks to lease up to 1GW of capacity from Stream Data Centers, majority-owned by Apollo, per The Information. The facilities could be filled primarily with Google/Broadcom TPUs, with Nvidia GPUs also possible. Google has also been discussed as a potential credit guarantor.",
+          "url": "https://x.com/wallstengine/status/2102683297243603235",
+          "created_at": "2026-09-23T08:55:38+00:00",
+          "engagement": 105
         },
         {
           "author": "MIT Tech Review",
           "tier": "press",
-          "text": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-          "created_at": "2026-09-22T12:10:00+00:00",
+          "text": "Smart glasses are already causing havoc in India. Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+          "created_at": "2026-09-23T09:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again. The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
-          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-          "created_at": "2026-09-22T12:23:05+00:00",
+          "author": "Kalshi",
+          "tier": "commentary",
+          "text": "BREAKING: New study finds companies using AI mostly hire in senior roles and cut entry-level jobs",
+          "url": "https://x.com/Kalshi/status/2102684406033084468",
+          "created_at": "2026-09-23T09:00:03+00:00",
+          "engagement": 123
+        },
+        {
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "China is reviewing Broadcom $AVGO switch use across state-backed data centers, with preliminary findings suggesting they may account for as much as 90% of installed equipment.",
+          "url": "https://x.com/wallstengine/status/2102685649489011141",
+          "created_at": "2026-09-23T09:04:59+00:00",
+          "engagement": 108
+        },
+        {
+          "author": "axios",
+          "tier": "commentary",
+          "text": "AI labs are cutting model costs - and it could help them slow down safely",
+          "url": "https://x.com/axios/status/2102686149453938701",
+          "created_at": "2026-09-23T09:06:58+00:00",
+          "engagement": 5
+        },
+        {
+          "author": "Alibaba_Qwen",
+          "tier": "commentary",
+          "text": "Meet Qwen-Audio-3.1! ASR, TTS & Realtime are fully upgraded, joined by two new models: TTS-Next for audio creation and ASR-Next for audio understanding. Five models, one complete audio stack: understanding, generation, interaction & creation. Plus big price cuts across the lineup: TTS ~70% off, Realtime ~85% off, and ASR up to 95% off. ASR: stronger multilingual & dialect recognition, plus native polishing that auto-removes fillers & repetitions. ASR-Next: supports multi-speaker ASR with speaker labels, timestamps & aligned transcripts. TTS: multilingual & dialect synthesis with natural cross-lingual voice transfer. TTS-Next: unified LM + diffusion framework generating voice, sound effects & background audio in one pass. Realtime: speak & listen at once with anytime interruption. More APIs coming soon @qwen_cloud",
+          "url": "https://x.com/Alibaba_Qwen/status/2102687258990026993",
+          "created_at": "2026-09-23T09:11:23+00:00",
+          "engagement": 656
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "Tekever is seeking acquisitions after the first close of a funding round that targets raising $580 million",
+          "url": "https://x.com/business/status/2102688190922428679",
+          "created_at": "2026-09-23T09:15:05+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "BREAKING: Free, Prototype, and Accelerate plans are coming to the OpenAI Platform to allow users to build and host their own AI apps. Accelerate - \"Starting at $50\", \"Access all of our latest models\", \"Higher usage & rate limits to power larger, production apps\"",
+          "url": "https://x.com/testingcatalog/status/2102688828574064938",
+          "created_at": "2026-09-23T09:17:37+00:00",
+          "engagement": 91
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Apple connected four Mac Studios over Thunderbolt and ran a trillion-parameter AI model to find and fix a graphics coding bug. The whole setup ran from one wall outlet. Now @Apple is pitching Macs to businesses as local AI machines: buy the hardware once, then run coding agents and other AI workloads locally.",
+          "url": "https://x.com/mark_k/status/2102688830599917852",
+          "created_at": "2026-09-23T09:17:37+00:00",
+          "engagement": 50
+        },
+        {
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "Nvidia-backed Firmus is in talks to raise $10B to buy $NVDA chips for its 360MW AI data center in Batam, Indonesia, ahead of an Australian IPO that could raise up to $5B. Financing: $7.5B debt + $2.5B equity. Nvidia is also expected to provide revenue-sharing and credit support",
+          "url": "https://x.com/wallstengine/status/2102689676272509152",
+          "created_at": "2026-09-23T09:20:59+00:00",
+          "engagement": 61
+        },
+        {
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "STIFEL UPGRADES $MSFT TO BUY, PT $575. Expects Microsoft to sustain mid-to-high teens revenue growth, citing accelerating Azure growth, continued Copilot adoption and increasing GitHub usage. The firm says open-weight models are also strengthening Microsoft's LLM-agnostic AI strategy across Azure and Copilot.",
+          "url": "https://x.com/wallstengine/status/2102691984020574699",
+          "created_at": "2026-09-23T09:30:09+00:00",
+          "engagement": 19
+        },
+        {
+          "author": "Kalshi",
+          "tier": "commentary",
+          "text": "JUST IN: Bernie Sanders officially presents his bill to ban AI superintelligence and create a US \"Department of AI\"",
+          "url": "https://x.com/Kalshi/status/2102692942867497441",
+          "created_at": "2026-09-23T09:33:58+00:00",
+          "engagement": 44
+        },
+        {
+          "author": "axios",
+          "tier": "commentary",
+          "text": "The All-In-ification of Trump's AI agenda",
+          "url": "https://x.com/axios/status/2102693290172694617",
+          "created_at": "2026-09-23T09:35:21+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "UBS LAUNCHES COVERAGE ACROSS AI DATA CENTER NAMES, ALL AT BUY. $CORZ: BUY, $24 PT. Says AMD-backed capacity should diversify Core Scientific's tenant base and improve its risk profile. With ~1.9GW of AMD expansion options, CORZ has a path toward a ~3GW platform. Financing clarity and identifying the end customers for AMD capacity are the next catalysts.",
+          "url": "https://x.com/wallstengine/status/2102693453201305750",
+          "created_at": "2026-09-23T09:36:00+00:00",
+          "engagement": 30
+        },
+        {
+          "author": "CNBC",
+          "tier": "commentary",
+          "text": "Donald Trump wants the U.S. to beat China in the AI race. But as he meets Chinese President Xi Jinping, both countries are also weighing how to address the risks posed by rapidly advancing technology.",
+          "url": "https://x.com/CNBC/status/2102695573895709051",
+          "created_at": "2026-09-23T09:44:25+00:00",
+          "engagement": 6
+        },
+        {
+          "author": "politico",
+          "tier": "commentary",
+          "text": "Ted Lieu: AI risks are 'no longer in the realm of science fiction'",
+          "url": "https://x.com/politico/status/2102696593371922530",
+          "created_at": "2026-09-23T09:48:28+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "MarioNawfal",
+          "tier": "commentary",
+          "text": "Asian stocks are on a 6-day winning streak, and it's mostly thanks to people downloading AI apps. Meta's new AI assistant, Muse, has topped U.S. app download charts for 2 weeks straight, and investors are piling into the companies that make the chips behind it. Samsung jumped over 2%.",
+          "url": "https://x.com/MarioNawfal/status/2102696977461035437",
+          "created_at": "2026-09-23T09:50:00+00:00",
+          "engagement": 11
+        },
+        {
+          "author": "CNBC",
+          "tier": "commentary",
+          "text": "AI drone maker hits $6.4 billion valuation as Ukraine war spurs defense tech",
+          "url": "https://x.com/CNBC/status/2102697610641355186",
+          "created_at": "2026-09-23T09:52:31+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "I have done over $400,000 of tokens through Astra. I'm probably not far off with Sol. I still prefer Fable 5.1 for my day-to-day work. It is genuinely much more pleasant to use and less likely to cause problems. Opus 5.5 feels similar enough that I'm pretty pumped with it and the usage limits are strong.",
+          "url": "https://x.com/theo/status/2102698309991444517",
+          "created_at": "2026-09-23T09:55:18+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "Samsung Electronics verified 16 gigabytes (GB) of LPDDR6 at a maximum speed of 10.7 gigabits per second (Gbps) on Qualcomm's next-generation mobile platform, 'Snapdragon 8 Elite Extreme 6th Gen'.",
+          "url": "https://x.com/SemiconductorsX/status/2102699367471976472",
+          "created_at": "2026-09-23T09:59:30+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Everyone can find a reason to dislike data center construction. Inside two years of fraught AI data center debates in Pennsylvania.",
-          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-          "created_at": "2026-09-22T13:00:00+00:00",
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?. Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
+          "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
+          "created_at": "2026-09-23T10:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "Roundtables: The Deadly Failures of The Virtual Border Wall. The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-          "created_at": "2026-09-22T13:42:05+00:00",
+          "author": "wallstengine",
+          "tier": "commentary",
+          "text": "$META Connect 2026 keynote is today at 7 PM ET, with Mark Zuckerberg presenting. What to watch for: Next-gen glasses, incl. possible camera-free models; Project Phoenix mixed-reality headset; New Muse AI updates + deeper wearable integration; HorizonOS / avatar updates; More details on Meta's broader AI strategy",
+          "url": "https://x.com/wallstengine/status/2102699989885677951",
+          "created_at": "2026-09-23T10:01:58+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "Samsung got its next phone memory running on Qualcomm's next flagship chip. That is the last gate before phones can ship it. Seoul Economic Daily, citing industry sources, says a 16 GB LPDDR6 part passed checks on Snapdragon 8 Elite Extreme 6th generation at 10.7 Gbps, the top speed.",
+          "url": "https://x.com/SemiconductorsX/status/2102700052460491252",
+          "created_at": "2026-09-23T10:02:13+00:00",
           "engagement": 0
         },
         {
-          "author": "Ars Technica",
-          "tier": "press",
-          "text": "IT mistake erases 11 years of viewing history for hospitals’ maternity records. The English hospitals recovered patient care data only.",
-          "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
-          "created_at": "2026-09-22T16:55:40+00:00",
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "OPENAI'S SAM ALTMAN TO PROMOTE AI STANDARDS DURING HIS UN SPEECH",
+          "url": "https://x.com/FirstSquawk/status/2102700084198850740",
+          "created_at": "2026-09-23T10:02:21+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence. Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
-          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-          "created_at": "2026-09-22T19:09:11+00:00",
+          "author": "business",
+          "tier": "commentary",
+          "text": "The defense tech market will undergo \"tremendous consolidation\" in the coming years, predicts drone maker Tekever CEO Ricardo Mendes, who says an IPO is \"on our horizon\"",
+          "url": "https://x.com/business/status/2102700155380056312",
+          "created_at": "2026-09-23T10:02:37+00:00",
           "engagement": 0
         }
       ]
