@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-23T02:13:43.878747+00:00",
+  "generated_at": "2026-09-23T04:13:22.424304+00:00",
   "edition_date": "2026-09-23",
-  "source_file": "tmp-noarxiv.jsonl",
-  "posts_considered": 74,
-  "clusters_found": 3,
+  "source_file": "/home/user/scrapscrap/data/raw",
+  "posts_considered": 156,
+  "clusters_found": 4,
   "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c7077c291",
-      "score": 19.094,
+      "cluster_id": "cfbc2d1d9",
+      "score": 19.282,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
@@ -18,46 +18,75 @@
         "Meta",
         "Nvidia",
         "Microsoft",
-        "DeepSeek",
-        "Apple",
+        "Hugging Face",
+        "Alibaba",
         "Amazon",
-        "TSMC"
+        "Tesla"
       ],
       "independent_sources": [
         "AWS ML",
-        "Alibaba_Qwen",
+        "AndrewCurran_",
         "Ars Technica",
-        "CNBC",
-        "CoinMarketCap",
         "Cointelegraph",
+        "CyberScoopNews",
+        "FT",
         "FirstSquawk",
         "MTSlive",
+        "MarioNawfal",
         "NVIDIA",
         "OpenAI",
-        "PhotonCap",
-        "Polymarket",
         "PolymarketMoney",
         "Reuters",
-        "ReutersLegal",
+        "SawyerMerritt",
+        "SemiconductorsX",
         "Simon Willison",
         "Stratechery",
         "TechCrunch AI",
+        "Techmeme",
         "The Verge AI",
-        "ValsAI",
+        "WSJ",
+        "amir",
+        "arXiv",
         "business",
-        "dnystedt",
+        "financialjuice",
+        "koltregaskes",
+        "kyleichan",
         "omarsar0",
         "rohanpaul_ai",
         "teortaxesTex",
-        "theinformation"
+        "zerohedge"
       ],
-      "source_count": 26,
+      "source_count": 31,
       "first_seen": "2026-09-22T10:00:00+00:00",
-      "last_seen": "2026-09-23T02:05:10+00:00",
+      "last_seen": "2026-09-23T04:08:59+00:00",
       "links": [
         "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-        "https://arxiv.org/abs/2609.04852",
-        "https://arxiv.org/abs/2609.18182",
+        "https://arxiv.org/abs/2609.24838",
+        "https://arxiv.org/abs/2609.26682v1",
+        "https://arxiv.org/abs/2609.26683v1",
+        "https://arxiv.org/abs/2609.26687v1",
+        "https://arxiv.org/abs/2609.26693v1",
+        "https://arxiv.org/abs/2609.26704v1",
+        "https://arxiv.org/abs/2609.26705v1",
+        "https://arxiv.org/abs/2609.26707v1",
+        "https://arxiv.org/abs/2609.26708v1",
+        "https://arxiv.org/abs/2609.26711v1",
+        "https://arxiv.org/abs/2609.26718v1",
+        "https://arxiv.org/abs/2609.26725v1",
+        "https://arxiv.org/abs/2609.26737v1",
+        "https://arxiv.org/abs/2609.26748v1",
+        "https://arxiv.org/abs/2609.26749v1",
+        "https://arxiv.org/abs/2609.26751v1",
+        "https://arxiv.org/abs/2609.26756v1",
+        "https://arxiv.org/abs/2609.26758v1",
+        "https://arxiv.org/abs/2609.26760v1",
+        "https://arxiv.org/abs/2609.26761v1",
+        "https://arxiv.org/abs/2609.26777v1",
+        "https://arxiv.org/abs/2609.26779v1",
+        "https://arxiv.org/abs/2609.26780v1",
+        "https://arxiv.org/abs/2609.26781v1",
+        "https://arxiv.org/abs/2609.26783v1",
+        "https://arxiv.org/abs/2609.26796v1",
         "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
         "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
@@ -66,16 +95,27 @@
         "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
         "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
         "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
+        "https://blogs.nvidia.com/blog/ai-day-singapore/",
         "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-        "https://cnb.cx/4zdyByP",
+        "https://ft.trib.al/1ycGatB",
+        "https://on.wsj.com/3ValsaP",
         "https://openai.com/index/better-prompt-caching-for-gpt-6",
         "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "https://reut.rs/4xQnURG",
+        "https://reut.rs/3V7gwDI",
+        "https://reut.rs/3VJRqea",
+        "https://reut.rs/46FRspO",
+        "https://reut.rs/4At6ZXC",
+        "https://reut.rs/4h8WVLT",
+        "https://reut.rs/4hnifMs",
+        "https://reut.rs/4jjVjjP",
+        "https://reut.rs/4rs8IIN",
+        "https://reut.rs/4yfujqo",
         "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
         "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
         "https://simonwillison.net/2026/Sep/22/llm/",
         "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
         "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+        "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
         "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
         "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
         "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
@@ -86,37 +126,82 @@
         "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
         "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
         "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
-        "https://www.bloomberg.com/news/articles/2026-09-22/china-probes-deepseek-moonshot-over-data-security-information",
-        "https://www.bloomberg.com/news/articles/2026-09-22/singapore-wants-ai-to-shop-but-with-strict-limits-study-shows",
-        "https://www.ctee.com.tw/news/20260923700094-430502",
-        "https://www.ctee.com.tw/news/20260923700097-430501",
-        "https://www.reuters.com/legal/litigation/anthropic-openevidence-partner-bring-medical-ai-worldwide-2026-09-22/",
+        "https://www.bloomberg.com/news/articles/2026-09-22/china-s-ai-trade-favors-global-winners-over-local-champions",
+        "https://www.bloomberg.com/news/articles/2026-09-23/alibaba-to-add-data-centers-in-europe-middle-east-in-ai-push",
+        "https://www.bloomberg.com/news/articles/2026-09-23/cvc-marathon-ceo-sees-bargains-in-high-grade-data-center-debt",
+        "https://www.bloomberg.com/news/articles/2026-09-23/data-center-bet-makes-esds-one-of-india-s-best-new-listings",
+        "https://www.bloomberg.com/news/articles/2026-09-23/goldman-sees-china-oil-imports-staying-subdued-in-fourth-quarter",
+        "https://www.bloomberg.com/news/articles/2026-09-23/korean-battery-makers-lock-in-local-supply-as-us-rules-tighten",
+        "https://www.bloomberg.com/news/articles/2026-09-23/morocco-football-chief-makes-world-cup-final-promise-in-election-campaign",
+        "https://www.bloomberg.com/news/articles/2026-09-23/softbank-starts-jumbo-high-yield-bond-sale-to-finance-ai-push",
+        "https://www.bloomberg.com/news/articles/2026-09-23/us-rebukes-australia-for-plan-to-target-social-media-algorithms",
+        "https://www.bloomberg.com/news/newsletters/2026-09-23/india-consumer-stocks-draw-bullish-bets-on-festive-spending",
+        "https://www.ctee.com.tw/news/20260923700060-430102",
+        "https://www.theinformation.com/articles/anthropic-talks-cement-control-data-centers",
+        "https://www.theinformation.com/briefings/exclusive-microsoft-boost-copilot-discounts-launches-ai-super-app",
         "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
         "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
         "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
         "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
         "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-        "https://x.com/Alibaba_Qwen/status/2102569821997346912",
-        "https://x.com/CoinMarketCap/status/2102580001178562862",
-        "https://x.com/Cointelegraph/status/2102556250756010374",
-        "https://x.com/Cointelegraph/status/2102573954393080306",
-        "https://x.com/Cointelegraph/status/2102578910944719188",
-        "https://x.com/FirstSquawk/status/2102575724800733564",
-        "https://x.com/MTSlive/status/2102566187850000000",
-        "https://x.com/PhotonCap/status/2102566017360949665",
-        "https://x.com/Polymarket/status/2102570142878363878",
-        "https://x.com/Polymarket/status/2102570301481533803",
-        "https://x.com/PolymarketMoney/status/2102552376175636558",
-        "https://x.com/PolymarketMoney/status/2102569386447974450",
-        "https://x.com/ValsAI/status/2102553415473918261",
-        "https://x.com/ValsAI/status/2102553418145685650",
-        "https://x.com/ValsAI/status/2102553420435787922",
-        "https://x.com/ValsAI/status/2102553422994255951",
-        "https://x.com/ValsAI/status/2102568755624829439",
-        "https://x.com/ValsAI/status/2102568758586056955",
-        "https://x.com/dnystedt/status/2102556551378846092",
-        "https://x.com/teortaxesTex/status/2102566390909575580",
-        "https://x.com/theinformation/status/2102556193516405214"
+        "https://www.trendforce.com/news/2026/09/23/breaking-intel-emib-substrate-yields-reportedly-hit-45-suppliers-eye-60-by-1q27/",
+        "https://www.youtube.com/watch?v=B0illwrqUG0",
+        "https://www.zerohedge.com/technology/sb-energy-delays-ipo-funding-worlds-largest-data-center-amid-investor-revolt-public",
+        "https://x.com/AndrewCurran_/status/2102585116510052532",
+        "https://x.com/Cointelegraph/status/2102601555060879864",
+        "https://x.com/CyberScoopNews/status/2102597009022562741",
+        "https://x.com/FirstSquawk/status/2102589694135632301",
+        "https://x.com/FirstSquawk/status/2102596508185137625",
+        "https://x.com/FirstSquawk/status/2102601848452768078",
+        "https://x.com/FirstSquawk/status/2102603736292147653",
+        "https://x.com/FirstSquawk/status/2102605968035205142",
+        "https://x.com/FirstSquawk/status/2102607243527286983",
+        "https://x.com/FirstSquawk/status/2102608983983030642",
+        "https://x.com/FirstSquawk/status/2102609552332214474",
+        "https://x.com/FirstSquawk/status/2102609699560722710",
+        "https://x.com/FirstSquawk/status/2102609892435800405",
+        "https://x.com/FirstSquawk/status/2102610053505401028",
+        "https://x.com/MTSlive/status/2102586825508524394",
+        "https://x.com/MTSlive/status/2102589544084434970",
+        "https://x.com/MTSlive/status/2102592109035556959",
+        "https://x.com/MTSlive/status/2102594577475739928",
+        "https://x.com/MTSlive/status/2102597141747368119",
+        "https://x.com/MTSlive/status/2102599892451623014",
+        "https://x.com/MTSlive/status/2102602384040239350",
+        "https://x.com/MTSlive/status/2102604903067820517",
+        "https://x.com/MTSlive/status/2102607675909632352",
+        "https://x.com/MTSlive/status/2102610186745897176",
+        "https://x.com/MarioNawfal/status/2102608954316501233",
+        "https://x.com/MarioNawfal/status/2102611158733582392",
+        "https://x.com/PolymarketMoney/status/2102594301184397583",
+        "https://x.com/Reuters/status/2102608899765387638",
+        "https://x.com/SawyerMerritt/status/2102596630906368334",
+        "https://x.com/SawyerMerritt/status/2102608932774826481",
+        "https://x.com/SemiconductorsX/status/2102588956315726163",
+        "https://x.com/SemiconductorsX/status/2102589511264063966",
+        "https://x.com/SemiconductorsX/status/2102590790153404439",
+        "https://x.com/Techmeme/status/2102594149463863730",
+        "https://x.com/Techmeme/status/2102602823808778652",
+        "https://x.com/Techmeme/status/2102606610946486395",
+        "https://x.com/Techmeme/status/2102607948526784688",
+        "https://x.com/amir/status/2102584936306008443",
+        "https://x.com/financialjuice/status/2102603788955603390",
+        "https://x.com/financialjuice/status/2102609967635444198",
+        "https://x.com/koltregaskes/status/2102585745433313588",
+        "https://x.com/kyleichan/status/2102587287045624077",
+        "https://x.com/kyleichan/status/2102587484395676093",
+        "https://x.com/omarsar0/status/2102583221732921826",
+        "https://x.com/rohanpaul_ai/status/2102585150190322094",
+        "https://x.com/rohanpaul_ai/status/2102600637922124145",
+        "https://x.com/rohanpaul_ai/status/2102604124282093956",
+        "https://x.com/rohanpaul_ai/status/2102605840163500295",
+        "https://x.com/teortaxesTex/status/2102594586870706660",
+        "https://x.com/teortaxesTex/status/2102603432003817815",
+        "https://x.com/teortaxesTex/status/2102604691234553989",
+        "https://x.com/teortaxesTex/status/2102610211039232067",
+        "https://x.com/zerohedge/status/2102588959297536256",
+        "https://x.com/zerohedge/status/2102599984399179870",
+        "https://x.com/zerohedge/status/2102602448590275030"
       ],
       "posts": [
         {
@@ -248,6 +333,94 @@
           "engagement": 0
         },
         {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement. Generative AI (GenAI) applications have flourished enabling users to chat with large language models, and to create agents to act on their behalf for a variety of tasks. The pace of development of capabilities in this field is incredibly fast with security and safety taking a back seat. Unfortunately, the slower pace at which security and safety mechanisms have evolved has led to real incidents. Policy enables the definition of desirable behavior of applications, and for that reason, it is a cornerstone of making systems secure and compliant. Policy however means different things to different ",
+          "url": "https://arxiv.org/abs/2609.26682v1",
+          "created_at": "2026-09-22T16:40:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "PROSWIN: Probabilistic Solar Wind Speed Forecasting Using Deep Distributional Regression From Solar Images. Accurately predicting fast solar wind conditions is challenging, as uncertainties are large and unquantified by traditional single-value prediction models. In particular, the risks of high-speed solar wind streams (HSSs), which can cause damage to technological infrastructure, cannot be reliably assessed without probabilistic forecasts. We present PROSWIN, a probabilistic machine learning model that forecasts the hourly solar wind speed (SWS) at Earth with a four-day lead time. The approach combines solar images and magnetograms using a deep neural network coupled to a distributional regressio",
+          "url": "https://arxiv.org/abs/2609.26683v1",
+          "created_at": "2026-09-22T16:42:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Detecting GPT-Assisted Writing Using Interpretable Stylometric Features. Distinguishing GPT-assisted from independently authored student writing has become a critical challenge in academia. This paper evaluates the discriminative capability of interpretable stylometric features extracted solely from submitted text. Using data from 90 participants who wrote both independently and with ChatGPT assistance, we evaluate eight machine learning classifiers while keeping data from the same participant together during validation. On the held-out test set, Random Forest achieved an ROC-AUC of 0.87 and an F1-score of 0.84, with False Positive and False Negative rates of 22.2%",
+          "url": "https://arxiv.org/abs/2609.26687v1",
+          "created_at": "2026-09-22T16:44:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation. A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavior alone. In Ollama, the default tools= request is gated per model by a static template flag: some models are accepted and return calls as text, some return native tool_calls, while Phi-3 and Gemma-3 are rejected before inference. In our harness, rejection and retry exhaustion are not preserved as st",
+          "url": "https://arxiv.org/abs/2609.26693v1",
+          "created_at": "2026-09-22T16:48:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning. Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or strategies and then conditioning answer generation on them. We refine this into a simple, more explora",
+          "url": "https://arxiv.org/abs/2609.26704v1",
+          "created_at": "2026-09-22T16:56:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "When are bosonic Gaussian states classical to learn?. A fundamental question in physics is: When does classical behavior emerge from quantum systems? Bosonic Gaussian states provide a natural setting to explore this quantum-classical boundary, as they capture both the classical field behavior and the intrinsic quantum nature of light. Here, we address this problem from a learning-theoretic perspective by asking: When are bosonic Gaussian states classical to learn? That is, under what conditions (if any) can an n-mode bosonic Gaussian state be learned with as few samples, and with operations as simple, as are needed to learn a classical 2n-variate",
+          "url": "https://arxiv.org/abs/2609.26705v1",
+          "created_at": "2026-09-22T16:58:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Optimal Sequential Annotations for Off-Policy Evaluation. Offline reinforcement learning and off-policy evaluation evaluates dynamic treatment rules based on retrospectively collected data prior to deployment. In recent AI applications, state and reward information is recorded as complex text or image, which recent AI advancements such as LLM-as-a-judge can label with unknown bias. Expert annotation may be available but at a higher cost. For example, safety classification via cheap but imperfect classifiers vs. expensive expert review. We show how a limited budget for ground-truth data-annotation can be used via doubly-robust OPE with missing rewards",
+          "url": "https://arxiv.org/abs/2609.26707v1",
+          "created_at": "2026-09-22T17:00:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning. Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired. Long generations often degenerate into repetitive loops, exhausting the decoding budget without completing a solution. We trace this gap to quantization-amplified exposure bias: QAD trains on fixed corpus prefixes, while quantization-induced deviations compound along the model's own autoregressive trajectories. To address this mismatch, we introduce an on-policy distillation (OPD) stage that place",
+          "url": "https://arxiv.org/abs/2609.26708v1",
+          "created_at": "2026-09-22T17:01:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits. Software vulnerabilities are often discovered long after they are introduced, making it difficult to identify the vulnerability-inducing commit (VIC) responsible for introducing the underlying vulnerable condition. Existing VIC identification techniques largely rely on git blame to trace vulnerable code through revision history and use positional heuristics, such as selecting its earliest or most recent modification. However, the true VIC may occur anywhere within this history, and vulnerable behavior may depend on code that evolves across multiple revisions. We therefore argue that VIC identi",
+          "url": "https://arxiv.org/abs/2609.26711v1",
+          "created_at": "2026-09-22T17:02:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence. Long-context LLMs focus on retrieving distant evidence from extensive context, yet existing work has largely focused on overcoming distance alone. In this work, we identify the Proximity Trap, insufficient attention to distant evidence often arises less from distance itself than from cumulative competition with abundant, task-irrelevant proximal background. To address the Proximity Trap, we introduce LYRA (Long-context heavY-tailed Relevance Alignment), a t-distributed directional matching mechanism that reshapes the context retrieval distribution, directing more attention mass toward task-rel",
+          "url": "https://arxiv.org/abs/2609.26718v1",
+          "created_at": "2026-09-22T17:06:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows. AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with large language models (LLMs). While these tools promise time savings, experimental evidence in product design remains limited compared with evidence from software engineering. We conducted a randomized controlled trial with 50 product designers and 50 product managers to evaluate prospective time savings from leveraging Figma Make in design work. Participants attempted three standardized design tasks with or",
+          "url": "https://arxiv.org/abs/2609.26725v1",
+          "created_at": "2026-09-22T17:13:07+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Simon Willison",
           "tier": "commentary",
           "text": "llm-anthropic 0.29. Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
@@ -264,11 +437,123 @@
           "engagement": 0
         },
         {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Diffusion-Induced Spatial Attention Overlapping Community Detection. Detection of overlapping communities is essential for modelling networks in which nodes participate simultaneously in multiple structural or functional groups. Existing graph neural network approaches commonly rely on local message passing, which can obscure community boundaries through smoothing and limit the representation of structurally relevant long-range dependencies. We introduce Diffusion-Induced Spatial Attention Community Detection (DISCO), a deep-learning framework that combines a structural prior derived from influence spreading dynamics, sparse multi-head attention, and non-negati",
+          "url": "https://arxiv.org/abs/2609.26737v1",
+          "created_at": "2026-09-22T17:25:55+00:00",
+          "engagement": 0
+        },
+        {
           "author": "AWS ML",
           "tier": "primary",
           "text": "Claude Opus 5.5 is now available on AWS. Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
           "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
           "created_at": "2026-09-22T17:28:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping. Clustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical parameter tuning. A-DLCC uses the $β$-integrated local depth to identify stable exemplars, points consistently central across multiple locality levels, termed local centers, which are ranked by their representativeness. Each local center induces a group of similar ",
+          "url": "https://arxiv.org/abs/2609.26748v1",
+          "created_at": "2026-09-22T17:31:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen. Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vulnerability repair, and we support this with five controlled experiments over 203 vulnerable functions from Big-Vul, three open-source code LLMs (350M to 6.7B parameters), and three prompting strategies. Compile rate (i) barely responds to an intervention that substantially improves the generated code",
+          "url": "https://arxiv.org/abs/2609.26749v1",
+          "created_at": "2026-09-22T17:32:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations. Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A complemen- tary need is to study whether a generated assertion cap- tures externally observable behavior or depends on inci- dental details of one RTL implementation. We present EquivSVA, a formally verified dataset organized around behavior families. Each family con",
+          "url": "https://arxiv.org/abs/2609.26751v1",
+          "created_at": "2026-09-22T17:33:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "FleXray: Universal Clinical X-ray Segmentation. X-ray is medicine's most widely used imaging modality, yet remains among its least quantitative. Unlike volumetric modalities like CT or MRI, X-ray collapses 3D anatomy into a 2D projection, causing structures to overlap and anatomical boundaries to be ambiguous, even to experts. As a result, labeling X-ray databases for training general-purpose segmentation systems is impractical, leaving morphometric and functional X-ray analysis confined to narrow anatomical regions and applications. To this end, we present FleXray, a generalist model for anatomical segmentation across the entire body in cl",
+          "url": "https://arxiv.org/abs/2609.26756v1",
+          "created_at": "2026-09-22T17:37:55+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It. Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By construction, every output conforms to the required schema. Yet this guarantee does not tell us whether the model interprets the options as intended. We study Jev and two Jev-like models with open weights by changing how option names are assigned to rubrics. Each option consists of an option name and a textual rubric that defines what the option means. We change only which option name is assigned to",
+          "url": "https://arxiv.org/abs/2609.26758v1",
+          "created_at": "2026-09-22T17:38:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents. Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserving LLM calls for task-specific semantic reasoning. We introduce Growing Harness, a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold that exposes fixed model and tool interfaces but encodes no task-solving controller. Function-level execution traces",
+          "url": "https://arxiv.org/abs/2609.26760v1",
+          "created_at": "2026-09-22T17:40:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem. Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, direct attacks optimized and evaluated on GLM-4.6 achieve a mac",
+          "url": "https://arxiv.org/abs/2609.26761v1",
+          "created_at": "2026-09-22T17:41:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving. We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance ",
+          "url": "https://arxiv.org/abs/2609.26777v1",
+          "created_at": "2026-09-22T17:54:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents. Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the performance--cost trade-off of test-time scaling more efficient, adding over 10 percentage points on Terminal-",
+          "url": "https://arxiv.org/abs/2609.26779v1",
+          "created_at": "2026-09-22T17:55:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue. Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attributi",
+          "url": "https://arxiv.org/abs/2609.26780v1",
+          "created_at": "2026-09-22T17:56:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Agensh: Scaling Organizational Intelligence to 1,024 Agents. A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, continuously gathering context, claiming and self-assigning sub-tasks, taking action and sharing fin",
+          "url": "https://arxiv.org/abs/2609.26781v1",
+          "created_at": "2026-09-22T17:56:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing. We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision processes without prior knowledge of the transition model. Each team member makes decisions based on local private information and delayed common information shared across the team. Using only this available information, each member learns an approximate low-rank Markov decision process and applies le",
+          "url": "https://arxiv.org/abs/2609.26783v1",
+          "created_at": "2026-09-22T17:56:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs. Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and parallel token verification are jointly applied. In this work, we introduce $\\textbf{Flash-dLLM}$, ",
+          "url": "https://arxiv.org/abs/2609.26796v1",
+          "created_at": "2026-09-22T17:59:57+00:00",
           "engagement": 0
         },
         {
@@ -368,14 +653,6 @@
           "engagement": 0
         },
         {
-          "author": "PolymarketMoney",
-          "tier": "commentary",
-          "text": "BREAKING: Microsoft is cutting Copilot pricing by up to 50% for large enterprises while preparing a new \"super app\" combining coding tools and AI agents.",
-          "url": "https://x.com/PolymarketMoney/status/2102552376175636558",
-          "created_at": "2026-09-23T00:15:24+00:00",
-          "engagement": 79
-        },
-        {
           "author": "The Verge AI",
           "tier": "press",
           "text": "OpenAI wants to consult elite mathematicians about how to not fumble again. After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
@@ -384,250 +661,698 @@
           "engagement": 0
         },
         {
-          "author": "ValsAI",
+          "author": "omarsar0",
           "tier": "commentary",
-          "text": "Compared to its predecessor, MiMo v2.5, the Index score increased +19-20pts. That is because of the monumental increases on Vibe Code Bench, Legal Research, Finance Agent, and Code Migration.",
-          "url": "https://x.com/ValsAI/status/2102553415473918261",
-          "created_at": "2026-09-23T00:19:32+00:00",
+          "text": "Opus 5.5 feels more like Opus 4.5. Is it just me, or did it get a lot better at writing? Claudese feels like it's mostly gone. Responses also feel easier to consume.",
+          "url": "https://x.com/omarsar0/status/2102583221732921826",
+          "created_at": "2026-09-23T02:17:58+00:00",
+          "engagement": 21
+        },
+        {
+          "author": "amir",
+          "tier": "commentary",
+          "text": "New: Anthropic is cooking up another big compute deal involving direct control of TPU data centers",
+          "url": "https://x.com/amir/status/2102584936306008443",
+          "created_at": "2026-09-23T02:24:47+00:00",
+          "engagement": 22
+        },
+        {
+          "author": "amir",
+          "tier": "commentary",
+          "text": "Anthropic in talks to cement control of data centers, w/ @validapau",
+          "url": "https://x.com/amir/status/2102584939413926253",
+          "created_at": "2026-09-23T02:24:48+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Gemini 3.8 Flash sometimes spontaneously draws diagrams during our discussions without even being asked, and I really enjoy it. We were discussing Musashi.",
+          "url": "https://x.com/AndrewCurran_/status/2102585116510052532",
+          "created_at": "2026-09-23T02:25:30+00:00",
+          "engagement": 154
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Microsoft's upcoming discounts are significantly larger than the modest cuts it recently began providing. per The Information. Microsoft began offering corporate buyers roughly 10% off when they purchased at least 2,000 seats. It now plans discounts of about 30% per seat for customers buying over 1,000 Copilot seats.",
+          "url": "https://x.com/rohanpaul_ai/status/2102585150190322094",
+          "created_at": "2026-09-23T02:25:38+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Exclusive: Microsoft to boost Copilot discounts, launches AI super app",
+          "url": "https://x.com/rohanpaul_ai/status/2102585152677503097",
+          "created_at": "2026-09-23T02:25:39+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "koltregaskes",
+          "tier": "commentary",
+          "text": "Claude gets a banked reset too:",
+          "url": "https://x.com/koltregaskes/status/2102585745433313588",
+          "created_at": "2026-09-23T02:28:00+00:00",
+          "engagement": 13
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia. NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+          "created_at": "2026-09-23T02:30:22+00:00",
           "engagement": 0
         },
         {
-          "author": "ValsAI",
+          "author": "MTSlive",
           "tier": "commentary",
-          "text": "Flash and Pro are nearly tied overall (59.73 vs 59.69), but have different strengths. Pro is better at finance, Vibe Code Bench, Code Migration, and Legal Research, while Flash is better at Terminal-Bench and EMB. Flash is actually the better terminal-agent model at half the price.",
-          "url": "https://x.com/ValsAI/status/2102553420435787922",
-          "created_at": "2026-09-23T00:19:33+00:00",
-          "engagement": 0
+          "text": ".@eriktorenberg and @gaganbiyani explain why young people have more leverage than ever, when 1 person can now build what took 50 people a decade ago: Gagan Biyani: \"You can open up your laptop, use Replit, Claude, Codex, whatever, and build something that 50 people needed to build 10 years ago.\"",
+          "url": "https://x.com/MTSlive/status/2102586825508524394",
+          "created_at": "2026-09-23T02:32:18+00:00",
+          "engagement": 12
         },
         {
-          "author": "ValsAI",
+          "author": "kyleichan",
           "tier": "commentary",
-          "text": "Both are extremely cost-efficient. Flash ($0.20/task) and Pro ($0.39/task) score higher than Kimi K3 ($6.47) and GLM 5.3 ($6.73) at 17-34x lower cost, and both sit on the open-weight cost/accuracy Pareto frontier - along with MiMo V2.5, which means every point on that frontier is now a Xiaomi model.",
-          "url": "https://x.com/ValsAI/status/2102553418145685650",
-          "created_at": "2026-09-23T00:19:33+00:00",
-          "engagement": 0
+          "text": "Chinese models are getting more expensive and are shifting to more commercial terms for open-source licenses. It's not just performance but price for performance that matters.",
+          "url": "https://x.com/kyleichan/status/2102587287045624077",
+          "created_at": "2026-09-23T02:34:08+00:00",
+          "engagement": 23
         },
         {
-          "author": "ValsAI",
+          "author": "kyleichan",
           "tier": "commentary",
-          "text": "This model has 1M context window and 128k max output tokens. It was run on Xiaomi's default provider settings: Temperature=1, Top P=0.95, Default Top-K.",
-          "url": "https://x.com/ValsAI/status/2102553422994255951",
-          "created_at": "2026-09-23T00:19:34+00:00",
-          "engagement": 0
+          "text": "OpenAI's push into cheaper but very powerful models is starting to scramble the equation.",
+          "url": "https://x.com/kyleichan/status/2102587484395676093",
+          "created_at": "2026-09-23T02:34:55+00:00",
+          "engagement": 4
         },
         {
           "author": "Reuters",
           "tier": "commentary",
-          "text": "Anthropic unveils Claude Opus 5.5",
-          "url": "https://x.com/Reuters/status/2102556092223906147",
-          "created_at": "2026-09-23T00:30:10+00:00",
-          "engagement": 14
+          "text": "ShinyHunters hackers say they breached FBI, stole data on bureau employees",
+          "url": "https://x.com/Reuters/status/2102588781379387629",
+          "created_at": "2026-09-23T02:40:04+00:00",
+          "engagement": 58
         },
         {
-          "author": "theinformation",
+          "author": "zerohedge",
           "tier": "commentary",
-          "text": "Data center power consumption is a problem if it drives up consumers' electricity bills, says Flex CEO Revathi Advaithi: \"Now, the power situation is different because if you have a utility that is directing power to the data center, taking it away from consumers and hiking bills for consumers, that is a problem.\"",
-          "url": "https://x.com/theinformation/status/2102556193516405214",
-          "created_at": "2026-09-23T00:30:34+00:00",
+          "text": "*SOFTBANK STARTS JUMBO HIGH-YIELD BOND SALE TO FINANCE AI PUSH",
+          "url": "https://x.com/zerohedge/status/2102588959297536256",
+          "created_at": "2026-09-23T02:40:46+00:00",
+          "engagement": 127
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "According to Bloomberg on the 22nd (local time), Frank Heimskerk, Executive Vice President of ASML, stated at an event held in Amsterdam the previous day, \"We are not selling anything in Europe.\" He, who oversees global external affairs, explained, \"This is because Europe is not investing, and semiconductor factories are not being built in Europe.\" ASML is the world's only company that manufactures extreme ultraviolet (EUV) lithography equipment, which is essential for producing cutting-edge semiconductors.",
+          "url": "https://x.com/SemiconductorsX/status/2102588956315726163",
+          "created_at": "2026-09-23T02:40:46+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "Taiwan's order book just cleared $100 billion in a single month. That was supposed to wait until September. Commercial Times cites the Ministry of Economic Affairs. August export orders hit $102.96 billion, up 71.4% from a year earlier. First month ever above $100 billion. January to August totals $704.99 billion, up 55%. The ministry now says a full-year book above $1 trillion is \"no problem\" and $1.1 trillion is in play. September is penciled at $106.0 to $109.1 billion. The lift is AI, high-end compute, and cloud.",
+          "url": "https://x.com/SemiconductorsX/status/2102589511264063966",
+          "created_at": "2026-09-23T02:42:58+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "Taiwan August export orders, Commercial Times",
+          "url": "https://x.com/SemiconductorsX/status/2102589514804072500",
+          "created_at": "2026-09-23T02:42:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": "OpenAI researcher @Houda_nait explains why agents still aren't automating more of your life, even though the capabilities are already there: \"I've been using OpenClaw for quite a while, and I think it's just a stunning product, and it's open source. I think the main reason is that it's still really, really hard to set up.\" \"The capabilities, persistence, long horizon tasks, personalization, memory, they're all there. What's really hard is to have an intuitive interface that meets people where they are.\" @OpenAI",
+          "url": "https://x.com/MTSlive/status/2102589544084434970",
+          "created_at": "2026-09-23T02:43:06+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "SoftBank Group plans $10 bln dollar bond offering across three maturities, term sheet shows",
+          "url": "https://x.com/FirstSquawk/status/2102589694135632301",
+          "created_at": "2026-09-23T02:43:41+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "Intel's EMIB (Embedded Multi-die Interconnect Bridge) continues to grow, substrate yields are emerging as a key gauge of its readiness. Industry sources suggest EMIB substrate yields improved to around 45% over the past quarter, with the supply chain targeting 60% by 1Q27. Sources trace the yield improvement back further: yields stood at roughly 30% in 2Q26 before reaching the current ~45% level. The supply chain's near-term milestones are reportedly 50% by 4Q26 ahead of the 60% target in 1Q27, with Japanese suppliers said to be running more stable than their peers. $INTC",
+          "url": "https://x.com/SemiconductorsX/status/2102590790153404439",
+          "created_at": "2026-09-23T02:48:03+00:00",
+          "engagement": 19
+        },
+        {
+          "author": "SemiconductorsX",
+          "tier": "commentary",
+          "text": "BREAKING: Intel EMIB substrate yields reportedly hit 45%, suppliers eye 60% by 1Q27",
+          "url": "https://x.com/SemiconductorsX/status/2102590794020638967",
+          "created_at": "2026-09-23T02:48:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "China's push for global AI supremacy is increasingly benefiting companies that supply the rest of the world, with investors favoring such stocks as fierce competition hurts their domestically focused peers",
+          "url": "https://x.com/business/status/2102591299618566183",
+          "created_at": "2026-09-23T02:50:04+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "The Trump administration has criticized Australia's proposed social media algorithm reforms, which would give users the option to choose the content on their feeds, warning that Washington would likely view them as 'facilitating censorship'",
+          "url": "https://x.com/Reuters/status/2102591308674003324",
+          "created_at": "2026-09-23T02:50:06+00:00",
+          "engagement": 17
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": "OpenAI researcher @Houda_nait on how AI accelerates science by letting researchers stop \"rationing curiosity\": \"You have scarce time, scarce resources, scarce expertise, and so you really have to prioritize what sets of hypotheses you're going to investigate.\" \"If AI allows you to de-risk a hypothesis very quickly, then you can try out many things at the same time, even the low probability path.\" @OpenAI",
+          "url": "https://x.com/MTSlive/status/2102592109035556959",
+          "created_at": "2026-09-23T02:53:17+00:00",
+          "engagement": 12
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "SF October 14th: A Birds of a Feather Session on Agentic Engineering. SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market. ​Expect one flowing convers",
+          "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+          "created_at": "2026-09-23T02:53:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "High-grade data-center bonds offer some of the most compelling investment opportunities in credit, according to CVC Marathon CEO Bruce Richards",
+          "url": "https://x.com/business/status/2102592557775536422",
+          "created_at": "2026-09-23T02:55:04+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "The US government has criticized Australia's plan to clamp down on social media algorithms and harmful content online, opening up a fresh political front in Canberra's campaign to get tougher on Big Tech",
+          "url": "https://x.com/business/status/2102593868155822374",
+          "created_at": "2026-09-23T03:00:17+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Alibaba says it plans to build its first cloud regions in Turkey, Finland, and the Netherlands over the next 12 months, amid escalating US-China AI tensions (Bloomberg)",
+          "url": "https://x.com/Techmeme/status/2102594149463863730",
+          "created_at": "2026-09-23T03:01:24+00:00",
+          "engagement": 2
+        },
+        {
+          "author": "PolymarketMoney",
+          "tier": "commentary",
+          "text": "JUST IN: Sam Altman and Dario Amodei released new frontier AI models just days after urging the industry to \"pace the frontier.\"",
+          "url": "https://x.com/PolymarketMoney/status/2102594301184397583",
+          "created_at": "2026-09-23T03:02:00+00:00",
+          "engagement": 48
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": "OpenAI researcher @Houda_nait on the diseases capitalism can't afford to cure, and how AI could finally change that: \"There's maybe 10,000 rare diseases in the US which touch 30 million people, and there is a cure for less than 5% of them.\" \"The reason why we don't invest as much in those diseases is just pure capitalism. It's irrational for labs to pursue treatments for those diseases because the expected payoff is lower. But today you can start finding more labs investing in those because it's cheaper to try.\" @OpenAI",
+          "url": "https://x.com/MTSlive/status/2102594577475739928",
+          "created_at": "2026-09-23T03:03:06+00:00",
+          "engagement": 10
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "I didn't get what he's talking about, but… what the hell is this? I personally see stable >200 t/s for V4.1 Flash; but on OpenRouter, it's just 67 t/s for first party API, and the range is 13(!!)-150. Is this the normie experience?",
+          "url": "https://x.com/teortaxesTex/status/2102594586870706660",
+          "created_at": "2026-09-23T03:03:08+00:00",
+          "engagement": 22
+        },
+        {
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "Most Singaporeans ready to let AI agents shop for them with safeguards-SCMP",
+          "url": "https://x.com/FirstSquawk/status/2102596508185137625",
+          "created_at": "2026-09-23T03:10:46+00:00",
           "engagement": 6
+        },
+        {
+          "author": "SawyerMerritt",
+          "tier": "commentary",
+          "text": "What he reported isn't true. The trackers just didn't sync as many rides, giving the impression that the active fleet number had dropped to 8, which is completely untrue. Anybody with eyeballs in Austin can see that there are more than 8 Tesla robotaxis on the road...",
+          "url": "https://x.com/SawyerMerritt/status/2102596630906368334",
+          "created_at": "2026-09-23T03:11:15+00:00",
+          "engagement": 43
+        },
+        {
+          "author": "CyberScoopNews",
+          "tier": "commentary",
+          "text": "The FBI is investigating an attack on its own systems after ShinyHunters claimed responsibility for the incident, putting the prolific cybercrime group in the most direct conflict yet with agents responsible for investigating data extortion attacks. The Monday breach, first reported by 404 Media, allowed ShinyHunters to temporarily deface the FBI jobs site. The group claimed it stole \"very sensitive data on almost all FBI agents and individuals who filed an application with the FBI for a job,\" in a lengthy post on its data-leak site.",
+          "url": "https://x.com/CyberScoopNews/status/2102597009022562741",
+          "created_at": "2026-09-23T03:12:45+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": "OpenAI researcher @Houda_nait on why personal agents aren't just better versions of ChatGPT, but a completely different product built to persist, act, and anticipate: \"It can help you become who you want to be, because it can keep track of all your context, of the things that really matter to you, of your goals.\" \"ChatGPT and most chatbots today are turn-based, but as soon as you have persistent agents that can be proactive, you move into a very different paradigm where it starts to be a sort of entity in your space.\" @OpenAI",
+          "url": "https://x.com/MTSlive/status/2102597141747368119",
+          "created_at": "2026-09-23T03:13:17+00:00",
+          "engagement": 8
+        },
+        {
+          "author": "zerohedge",
+          "tier": "commentary",
+          "text": "SB Energy Delays IPO Funding World's Largest Data Center Amid Investor Revolt, Public Outcry",
+          "url": "https://x.com/zerohedge/status/2102597596694864208",
+          "created_at": "2026-09-23T03:15:06+00:00",
+          "engagement": 45
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": "OpenAI researcher @Houda_nait on what happens when an AI agent becomes the third person in your relationship, and the secret-sharing problem nobody has solved yet: \"The interesting thing with agents is that you can bring it into a space where both of you are interacting with it. I use Instinct a lot with some of my best friends to plan things.\" \"If you put it in a group thread with your partner, it shouldn't just reveal all the secrets you've been telling it in your personal thread. We're gonna get much better at handling these multi-user scenarios, but I don't think we're there yet.\" @OpenAI",
+          "url": "https://x.com/MTSlive/status/2102599892451623014",
+          "created_at": "2026-09-23T03:24:13+00:00",
+          "engagement": 6
+        },
+        {
+          "author": "zerohedge",
+          "tier": "commentary",
+          "text": "Is it a coincidence that the 2 key data centers of OpenAI's Stargate are suddenly on the ropes? Project Jupiter (4.5GW) loans trading < 90, major delays... SB Energy (8GW) delaying IPO, major delays. Without these two DCs having clear timeline/funding, OpenAI can just cancel IPO",
+          "url": "https://x.com/zerohedge/status/2102599984399179870",
+          "created_at": "2026-09-23T03:24:35+00:00",
+          "engagement": 134
+        },
+        {
+          "author": "WSJ",
+          "tier": "commentary",
+          "text": "Andreessen Horowitz has a message for up-and-coming tech talent: Don't drop out of school to start a company; come do school with us instead. The venture-capital firm is investing $35 million in an unaccredited two-year alternative to traditional college.",
+          "url": "https://x.com/WSJ/status/2102599994096185500",
+          "created_at": "2026-09-23T03:24:37+00:00",
+          "engagement": 19
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Title: \"MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution\"",
+          "url": "https://x.com/rohanpaul_ai/status/2102600640694472921",
+          "created_at": "2026-09-23T03:27:11+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "New Stanford+Oxford paper MedRSI shows that medical agents can improve themselves from their own mistakes, but only if new capabilities are tested on fresh patients before becoming permanent. shows self-improving agents need 2 things: focus on harmful failures and refuse to keep new capabilities until they work on later cases. More important, the paper shows why self-improvement needs guardrails. If every promising tool is added immediately, accuracy eventually falls: 76.9% by round 30 with 57 tools. With slower registration, the agent kept just 18 tools and held 94.4%. It also spends more effort on mistakes that could cause greater clinical harm, rather than just the most common errors.",
+          "url": "https://x.com/rohanpaul_ai/status/2102600637922124145",
+          "created_at": "2026-09-23T03:27:11+00:00",
+          "engagement": 7
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Boeing, GoGo test satellite-linked military drone in challenge to Starlink",
+          "url": "https://x.com/Reuters/status/2102601373971890367",
+          "created_at": "2026-09-23T03:30:06+00:00",
+          "engagement": 7
         },
         {
           "author": "Cointelegraph",
           "tier": "commentary",
-          "text": "NEW: Coinbase teamed up with Microsoft to help dismantle EvilTokens, an AI-driven cybercrime network, leading to arrests of its operators.",
-          "url": "https://x.com/Cointelegraph/status/2102556250756010374",
-          "created_at": "2026-09-23T00:30:48+00:00",
-          "engagement": 157
+          "text": "Need to catch up on the news? Here's our top 10 from today: BlackRock's latest research says the rise of AI agents could become a major driver of crypto adoption, with stablecoins and blockchains serving as the payment rails for machine-to-machine commerce. Coinbase teamed up with Microsoft to help dismantle EvilTokens, an AI-driven cybercrime network, leading to arrests of its operators. Treasury Secretary Scott Bessent is reportedly being considered for the role of President Trump's new AI czar.",
+          "url": "https://x.com/Cointelegraph/status/2102601555060879864",
+          "created_at": "2026-09-23T03:30:49+00:00",
+          "engagement": 38
         },
         {
-          "author": "dnystedt",
+          "author": "FirstSquawk",
           "tier": "commentary",
-          "text": "Taiwan's August export orders soared 71.4% year-on-year to a fresh record high US$102.96 billion, media report, beating the 63% growth expected. AI-related demand led, but a surge in custom ASIC chip design orders caused August's upside surprise, said W.C. Huang, director-general of Taiwan's statistics bureau. Orders for ICT rose 100.5% year-on-year to $34.21B, while electronics +83.9% to $45.75 billion",
-          "url": "https://x.com/dnystedt/status/2102556551378846092",
-          "created_at": "2026-09-23T00:32:00+00:00",
-          "engagement": 39
+          "text": "DBS sees uneven ASEAN growth as AI reshapes regional economies",
+          "url": "https://x.com/FirstSquawk/status/2102601848452768078",
+          "created_at": "2026-09-23T03:31:59+00:00",
+          "engagement": 0
         },
         {
-          "author": "dnystedt",
+          "author": "FT",
           "tier": "commentary",
-          "text": "TSMC-made 2nm chips have already hit the market in Apple iPhone 18 Pro series phones, while more are on the way soon, media report: Xiaomi 18 Pro series (Qualcomm Snapdragon 8 Elite Gen 6 inside, 2nm), Vivo X500 Pro / Pro Max, Oppo Find X10 Pro Max (Vivo & Oppo both to launch soon with MediaTek Dimensity 9600 Pro 2nm chips)",
-          "url": "https://x.com/dnystedt/status/2102561166044369129",
-          "created_at": "2026-09-23T00:50:20+00:00",
-          "engagement": 12
+          "text": "How China and the US can work together on AI security | opinion",
+          "url": "https://x.com/FT/status/2102602076165374159",
+          "created_at": "2026-09-23T03:32:54+00:00",
+          "engagement": 16
         },
         {
-          "author": "PhotonCap",
+          "author": "MTSlive",
           "tier": "commentary",
-          "text": "Lightmatter officially introduced Passage L20 CPX on September 17 and joined the Open CPX MSA, describing the product as the first bidirectional Open CPX optical engine for AI infrastructure. Passage L20 CPX uses 1311 nm and 1331 nm wavelengths to carry transmit and receive traffic over the same single-mode fiber, cutting fiber and connector requirements by roughly 50% versus conventional Uni",
-          "url": "https://x.com/PhotonCap/status/2102566017360949665",
-          "created_at": "2026-09-23T01:09:36+00:00",
+          "text": "OpenAI researcher @Houda_nait reveals the one thing she wouldn't delegate to an agent, and the rare case where she would: \"If they start automating everything, including your arguments, that removes some of the friction through which humans grow.\" \"I would say interpersonal relationships. You can bring it as a mediator, but trying to delegate decision-making, or even interpretation and participation, is a really tricky boundary.\" @OpenAI",
+          "url": "https://x.com/MTSlive/status/2102602384040239350",
+          "created_at": "2026-09-23T03:34:07+00:00",
+          "engagement": 9
+        },
+        {
+          "author": "zerohedge",
+          "tier": "commentary",
+          "text": "Ohio is one of the top data center states: AWS, META, GOOGL, MSFT and SB Energy are all building here. Both leading governor candidates, Democrat Amy Acton and Republican Vivek Ramaswamy, said they want new restrictions on the industry. Acton said she supports what she's calling a \"conditional moratorium\" on new data center construction. Developers must cover 100% of their own utility costs, build exclusively with union labor, operate with full transparency and meet Ohio's existing air and water quality standards. Ramaswamy also laid out his data center policy, which he calls his \"Ohioans-First Data Center Pledge.\"",
+          "url": "https://x.com/zerohedge/status/2102602448590275030",
+          "created_at": "2026-09-23T03:34:22+00:00",
+          "engagement": 77
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "Billionaire Masayoshi Son's SoftBank Group Corp. kicked off what's set be one of the largest corporate junk bond sales ever as the Japanese conglomerate taps debt investors to fund large-scale investments in artificial intelligence.",
+          "url": "https://x.com/business/status/2102602624612643185",
+          "created_at": "2026-09-23T03:35:04+00:00",
+          "engagement": 13
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Anthropic and OpenEvidence partner to offer a specialized version of OpenEvidence's AI search tool for physicians in about 100 low- and middle-income countries (@nancylapid / Reuters)",
+          "url": "https://x.com/Techmeme/status/2102602823808778652",
+          "created_at": "2026-09-23T03:35:52+00:00",
           "engagement": 5
         },
         {
           "author": "teortaxesTex",
           "tier": "commentary",
-          "text": "DeepSeek's DSec unit is pretty large. approximately 384 EPYC 9655 chips. But still, that's peak 12.6 concurrent sandboxes per CPU core. I think it's 25-30% of max achievable CPU utilization (they report 41.4% transient peak).",
-          "url": "https://x.com/teortaxesTex/status/2102566390909575580",
-          "created_at": "2026-09-23T01:11:06+00:00",
-          "engagement": 13
+          "text": "And there are tiers to mogging. MiMo's paper says they sample ~1.27M trajectories (752K retained). 1 rollout = one sandbox. Rollouts cost 44% of the time, so 82*0.44 ~ 36 hours for V2.6 Flash. It seems like… one DSec unit + V4.1 would handle this rollout volume in… 10 hours?",
+          "url": "https://x.com/teortaxesTex/status/2102603432003817815",
+          "created_at": "2026-09-23T03:38:17+00:00",
+          "engagement": 16
         },
         {
-          "author": "dnystedt",
+          "author": "FirstSquawk",
           "tier": "commentary",
-          "text": "Prices of silicon wafers used in semiconductor production are set to rise in 2027 as more firms ink long term agreements (LTAs), media report, noting capacity expansion for both memory and logic chips is fueling demand. 12-inch Epitaxial wafers: estimated up 15%-25%. 12-inch Polished Wafers: seen up over 40% for most, 50% for 2nd tier clients. GlobalWafers, Taiwan's biggest maker, is seen at $122 average selling price",
-          "url": "https://x.com/dnystedt/status/2102567627570938188",
-          "created_at": "2026-09-23T01:16:00+00:00",
-          "engagement": 4
+          "text": "World Bank makes up to $170 million available for Nepal's immediate flood response",
+          "url": "https://x.com/FirstSquawk/status/2102603736292147653",
+          "created_at": "2026-09-23T03:39:29+00:00",
+          "engagement": 8
         },
         {
-          "author": "MTSlive",
+          "author": "financialjuice",
           "tier": "commentary",
-          "text": "OpenAI researcher Houda Nait says the hardest boundary for personal agents is knowing what they should never automate, even when you explicitly ask them to: \"Agents should have this understanding of what are the set of things that you should never try to automate from people because they matter to them.\"",
-          "url": "https://x.com/MTSlive/status/2102566187850000000",
-          "created_at": "2026-09-23T01:16:27+00:00",
-          "engagement": 7
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "Opus 5.5 is #1 on the Vals Index, up 2 spots and 2 pts from Opus 5. Anthropic regains the top three spots on the Index, but GPT-6 Sol results will be released soon.",
-          "url": "https://x.com/ValsAI/status/2102568755624829439",
-          "created_at": "2026-09-23T01:20:29+00:00",
-          "engagement": 24
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "Anthropic cut Opus 5.5's token pricing by 20%, from $5/$25 per million input/output tokens on Opus 5 to $4/$20. However, Opus 5.5 often uses more tokens, especially on coding benchmarks (where it saw the largest gain). The discount lowers the sticker price, but it is offset by higher usage.",
-          "url": "https://x.com/ValsAI/status/2102568758586056955",
-          "created_at": "2026-09-23T01:20:30+00:00",
+          "text": "China finance ministry offers 3-month bills at 1.1101% yield: traders",
+          "url": "https://x.com/financialjuice/status/2102603788955603390",
+          "created_at": "2026-09-23T03:39:42+00:00",
           "engagement": 3
-        },
-        {
-          "author": "PolymarketMoney",
-          "tier": "commentary",
-          "text": "JUST IN: President Trump's Xi state dinner will bring together Zuckerberg, Musk, Huang, Altman, Pichai, Bezos, Cook, Nadella and Dimon as Trump says \"whoever wins AI wins.\"",
-          "url": "https://x.com/PolymarketMoney/status/2102569386447974450",
-          "created_at": "2026-09-23T01:23:00+00:00",
-          "engagement": 76
-        },
-        {
-          "author": "Alibaba_Qwen",
-          "tier": "commentary",
-          "text": "Thanks @arena for the recognition! Qwen-Image-2.1 is now the #1 open-source model in both the Image Edit and Text-to-Image Arenas. Try it now and show us what you create!",
-          "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
-          "created_at": "2026-09-23T01:24:44+00:00",
-          "engagement": 95
-        },
-        {
-          "author": "Polymarket",
-          "tier": "commentary",
-          "text": "JUST IN: Bill Gates warns the world may have to \"suffer a few of the negatives\" of AI before regulation catches up.",
-          "url": "https://x.com/Polymarket/status/2102570142878363878",
-          "created_at": "2026-09-23T01:26:00+00:00",
-          "engagement": 246
-        },
-        {
-          "author": "Polymarket",
-          "tier": "commentary",
-          "text": "8% chance the U.S. enacts an AI safety bill by end of year.",
-          "url": "https://x.com/Polymarket/status/2102570301481533803",
-          "created_at": "2026-09-23T01:26:38+00:00",
-          "engagement": 12
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "A model's context window does not have to be an agent's workspace limit. KVMEM makes million-token agent memory practical by paging old KV state, cutting recall cost while beating compaction on task success. On DeepSWE with Qwen3.8-27B, Pass@1 rose from 43.8% to 48.4% versus compaction-only. Across controlled benchmarks, recovery was 11.4-53.8x faster than Compact+RAG. On a laptop with a 24 GB RTX 5090 GPU, KVMEM supported a 1M-token workspace at about 50 tokens/s.",
-          "url": "https://x.com/rohanpaul_ai/status/2102572744378585312",
-          "created_at": "2026-09-23T01:36:20+00:00",
-          "engagement": 7
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "Title: \"KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU\"",
-          "url": "https://x.com/rohanpaul_ai/status/2102572747088162911",
-          "created_at": "2026-09-23T01:36:21+00:00",
-          "engagement": 0
         },
         {
           "author": "business",
           "tier": "commentary",
-          "text": "Singaporeans are among the most open to allowing an artificial intelligence agent to shop for them but they also want the strictest guardrails, research shows",
-          "url": "https://x.com/business/status/2102573264828580302",
-          "created_at": "2026-09-23T01:38:24+00:00",
+          "text": "China's oil imports are likely to remain subdued in the coming months if crude prices stay elevated, according to Goldman, which could keep a lid on further gains",
+          "url": "https://x.com/business/status/2102603881473536276",
+          "created_at": "2026-09-23T03:40:04+00:00",
+          "engagement": 10
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "US government, Gulf billionaires back Boehly bid for Lukoil assets, FT reports",
+          "url": "https://x.com/Reuters/status/2102603879972012349",
+          "created_at": "2026-09-23T03:40:04+00:00",
+          "engagement": 5
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Anthropic is in early talks to lease up to 1GW in compute capacity from a data centre developer majority-owned by Apollo Global Management (APO). - The Information. Stream is majority-owned by Apollo, which said in 2025 that the operator controlled more than 4 GW of powered land. Anthropic could fill the facilities with Google TPUs co-designed with Broadcom, while Nvidia GPUs are also under discussion, according to the report. Anthropic is trying to bypass more of the traditional cloud-provider layer, which could give it more control over chip supply, hardware configuration and costs, while also forcing it to take on more financing and operational responsibility.",
+          "url": "https://x.com/rohanpaul_ai/status/2102604124282093956",
+          "created_at": "2026-09-23T03:41:02+00:00",
+          "engagement": 11
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Anthropic in talks to cement control of data centers",
+          "url": "https://x.com/rohanpaul_ai/status/2102604126937100619",
+          "created_at": "2026-09-23T03:41:03+00:00",
           "engagement": 2
         },
         {
-          "author": "ReutersLegal",
+          "author": "teortaxesTex",
           "tier": "commentary",
-          "text": "Artificial intelligence startup Anthropic and medical knowledge platform OpenEvidence are collaborating to bring AI-powered clinical decision support to physicians in regions without access to the technology, the companies said on Tuesday.",
-          "url": "https://x.com/ReutersLegal/status/2102573688910393649",
-          "created_at": "2026-09-23T01:40:06+00:00",
+          "text": "Subjectively I feel that despite benches and hype, V4.1 Flash is still more thoroughly baked than MiMo-Flash, and it would be *reasonable* given the absurd volume of RL it got. *Millions* of *concurrent* sandboxes. If they try to deep-fry it for weeks, I wonder what they get.",
+          "url": "https://x.com/teortaxesTex/status/2102604691234553989",
+          "created_at": "2026-09-23T03:43:17+00:00",
+          "engagement": 5
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": ".@eddylazzarin explains where the AI doom argument loses him: \"We already have quasi superintelligent beings in the world. Corporations, countries. They didn't go through HR training to become a corporation. We don't test the alignment of any entities as a prerequisite for their existence. Instead, we use laws.\" \"The Hugging Face stuff, the gym hacking incident, those are cybersecurity failures. Those are definitely control failures, and they're not little glimpses of a superintelligence that's about to throw off its shackles.\" @a16zcrypto",
+          "url": "https://x.com/MTSlive/status/2102604903067820517",
+          "created_at": "2026-09-23T03:44:08+00:00",
+          "engagement": 13
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "US President Donald Trump met Venezuela's interim President Delcy Rodriguez on the sidelines of the UN General Assembly, their first meeting since American forces captured then-President Nicolas Maduro in a January raid",
+          "url": "https://x.com/Reuters/status/2102604932171845870",
+          "created_at": "2026-09-23T03:44:14+00:00",
+          "engagement": 15
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "In today's Markets Daily India, we look at the outlook for consumer stocks, IPO banking fees, and the kingmakers in the Tata Sons fight.",
+          "url": "https://x.com/business/status/2102605145452216774",
+          "created_at": "2026-09-23T03:45:05+00:00",
           "engagement": 1
         },
         {
-          "author": "Cointelegraph",
+          "author": "rohanpaul_ai",
           "tier": "commentary",
-          "text": "TODAY: BlackRock's latest research says the rise of AI agents could become a major driver of crypto adoption, with stablecoins and blockchains serving as the payment rails for machine-to-machine commerce.",
-          "url": "https://x.com/Cointelegraph/status/2102573954393080306",
-          "created_at": "2026-09-23T01:41:09+00:00",
-          "engagement": 92
+          "text": "Finance may be the most suited to massive agent swarms because burning huge amounts of compute can still make economic sense when a single differentiated investment insight is extremely valuable. \"Imagine if every portfolio manager at a hedge fund had 10,000 agents that were just kind of fraternizing, talking about ideas, reading through the notes, pontificating, and then at the end of 24 hours of endless debate just gave you one idea. And the reason you're able to do that is because investors are happy to pay $50,000 for one really good idea.\" - Gabe Stengel, co-founder of Rogo",
+          "url": "https://x.com/rohanpaul_ai/status/2102605840163500295",
+          "created_at": "2026-09-23T03:47:51+00:00",
+          "engagement": 10
         },
         {
-          "author": "CNBC",
+          "author": "rohanpaul_ai",
           "tier": "commentary",
-          "text": "Anthropic and OpenAI announced new, less costly artificial intelligence models, as both labs face stiff competition from rivals offering open-weight models.",
-          "url": "https://x.com/CNBC/status/2102574686181675392",
-          "created_at": "2026-09-23T01:44:03+00:00",
+          "text": "full video",
+          "url": "https://x.com/rohanpaul_ai/status/2102605842977784277",
+          "created_at": "2026-09-23T03:47:52+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "Singapore dollar eases ahead of August inflation figures - WSJ",
+          "url": "https://x.com/FirstSquawk/status/2102605968035205142",
+          "created_at": "2026-09-23T03:48:21+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "India's hunt for listed data-center and AI plays has a new favorite, and investors are already looking for what comes next",
+          "url": "https://x.com/business/status/2102606397158359317",
+          "created_at": "2026-09-23T03:50:04+00:00",
+          "engagement": 2
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Microsoft to give DARPA hands-on access to quantum system at new Maryland site",
+          "url": "https://x.com/Reuters/status/2102606396634124445",
+          "created_at": "2026-09-23T03:50:04+00:00",
+          "engagement": 6
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Go.AI, which offers on-premises AI hardware and software tools for regulated organizations like banks, raised an $85M Series A led by Updata Partners (@ryanlawler / Axios)",
+          "url": "https://x.com/Techmeme/status/2102606610946486395",
+          "created_at": "2026-09-23T03:50:55+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "AutoZone target price reduced to $3,400 from $3,500 by TD Cowen",
+          "url": "https://x.com/FirstSquawk/status/2102607243527286983",
+          "created_at": "2026-09-23T03:53:26+00:00",
           "engagement": 6
         },
         {
           "author": "business",
           "tier": "commentary",
-          "text": "China has opened a probe into data security at DeepSeek and Moonshot AI following Anthropic's accusations that the companies had been routing sensitive data through its Claude models, The Information reported.",
-          "url": "https://x.com/business/status/2102574944613753300",
-          "created_at": "2026-09-23T01:45:05+00:00",
-          "engagement": 2
+          "text": "Alibaba is accelerating its data center expansion in Europe and the Middle East, propelling its 20-gigawatt global infrastructure buildout during China's escalating competition in AI chips and models with the US",
+          "url": "https://x.com/business/status/2102607652920455567",
+          "created_at": "2026-09-23T03:55:03+00:00",
+          "engagement": 12
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Mexico unveiled nationwide rules restricting cellphone use in schools for younger students from bell to bell, as concern grows over the effects of screen time on children",
+          "url": "https://x.com/Reuters/status/2102607660507959372",
+          "created_at": "2026-09-23T03:55:05+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": ".@eddylazzarin explains why \"independent\" AI evaluators can still be centralized if they all come from the same social and ideological network: \"It's very easy to use the calls for safety and end up in a place where you have designed something that is perfect to subtly control an entire critically important industry under the pretense of safety.\" \"You can have a distributed system with many nodes, but they're all under the control of a single actor. Decentralized means there's no single locus of control.\" @a16zcrypto",
+          "url": "https://x.com/MTSlive/status/2102607675909632352",
+          "created_at": "2026-09-23T03:55:09+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "Techmeme",
+          "tier": "commentary",
+          "text": "Six major banks, including BOA and Capital One, warn that increased autonomy for agentic commerce chatbots could lead to more scams, fraud, and disputes (@ecedyildirim1 / Gizmodo)",
+          "url": "https://x.com/Techmeme/status/2102607948526784688",
+          "created_at": "2026-09-23T03:56:14+00:00",
+          "engagement": 3
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Exclusive: General Motors CEO Mary Barra is expected to attend US President Donald Trump's state dinner at the White House on September 24 for Chinese President Xi Jinping, as US automakers warn against allowing Chinese manufacturers into the market, while Trump signals he may be open to it",
+          "url": "https://x.com/Reuters/status/2102608899765387638",
+          "created_at": "2026-09-23T04:00:00+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "SawyerMerritt",
+          "tier": "commentary",
+          "text": "Tesla FSD V14 Lite now starting to roll out to HW3 Model S and Model X owners in the U.S.",
+          "url": "https://x.com/SawyerMerritt/status/2102608932774826481",
+          "created_at": "2026-09-23T04:00:08+00:00",
+          "engagement": 161
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "US Treasury secretary could take on AI czar role, source says",
+          "url": "https://x.com/Reuters/status/2102608939539931235",
+          "created_at": "2026-09-23T04:00:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "South Korean battery makers are accelerating efforts to secure materials from domestic and non-Chinese vendors for their American production facilities as tightening US sourcing rules put pressure on supply chains",
+          "url": "https://x.com/business/status/2102608951577567395",
+          "created_at": "2026-09-23T04:00:13+00:00",
+          "engagement": 4
+        },
+        {
+          "author": "MarioNawfal",
+          "tier": "commentary",
+          "text": "Right now AI picks targets faster, but it isn't inventing new ways to kill people... That part is coming. Prof. Roman Yampolskiy, one of the field's leading safety researchers, points out that a human who starts a war eventually dies of old age and the world moves on: \"We now have an adversary who's smarter than us.\" Nobody has figured out how to control a system like that, or taught it to care whether we survive, and building it anyway while promising to solve the safety part later is how you end up handing a problem to something that never gets tired and never dies.",
+          "url": "https://x.com/MarioNawfal/status/2102608954316501233",
+          "created_at": "2026-09-23T04:00:13+00:00",
+          "engagement": 9
         },
         {
           "author": "FirstSquawk",
           "tier": "commentary",
-          "text": "BlackRock says AI computing capacity may become tokenized in the future",
-          "url": "https://x.com/FirstSquawk/status/2102575724800733564",
-          "created_at": "2026-09-23T01:48:11+00:00",
-          "engagement": 12
+          "text": "Jefferies trims Haleon price target to 400p from 410p",
+          "url": "https://x.com/FirstSquawk/status/2102608983983030642",
+          "created_at": "2026-09-23T04:00:21+00:00",
+          "engagement": 0
         },
         {
-          "author": "Cointelegraph",
+          "author": "FirstSquawk",
           "tier": "commentary",
-          "text": "ELON MUSK: \"AI will beat all fields by the end of next year or maybe 2028, at the latest.\"",
-          "url": "https://x.com/Cointelegraph/status/2102578910944719188",
-          "created_at": "2026-09-23T02:00:51+00:00",
-          "engagement": 22
+          "text": "Novo considers upgrading its US listing, FT reports",
+          "url": "https://x.com/FirstSquawk/status/2102609552332214474",
+          "created_at": "2026-09-23T04:02:36+00:00",
+          "engagement": 0
         },
         {
-          "author": "omarsar0",
+          "author": "FirstSquawk",
           "tier": "commentary",
-          "text": "Interesting paper on agent memory stored as a linked markdown wiki. WFM is a Wiki Foundation Model trained to use both dense page text and inter-page links at once. It turns an LLM Wiki into a graph and retrieves from it with message passing conditioned on the query.",
-          "url": "https://x.com/omarsar0/status/2102579964436680959",
-          "created_at": "2026-09-23T02:05:02+00:00",
+          "text": "Novo may upgrade New York listing as part of push to boost US profile - FT",
+          "url": "https://x.com/FirstSquawk/status/2102609699560722710",
+          "created_at": "2026-09-23T04:03:11+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "FirstSquawk",
+          "tier": "commentary",
+          "text": "China takes stock of Broadcom gear as domestic AI drive gathers pace - FT",
+          "url": "https://x.com/FirstSquawk/status/2102609892435800405",
+          "created_at": "2026-09-23T04:03:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "financialjuice",
+          "tier": "commentary",
+          "text": "Chinese authorities examine use of Broadcom hardware in state-backed data centers amid push to support local manufacturers - FT",
+          "url": "https://x.com/financialjuice/status/2102609967635444198",
+          "created_at": "2026-09-23T04:04:15+00:00",
           "engagement": 3
         },
         {
-          "author": "CoinMarketCap",
+          "author": "FirstSquawk",
           "tier": "commentary",
-          "text": "LATEST: Former US President Barack Obama says there's a \"non-zero chance\" AI models will decide humans are \"not necessary\" and either \"kill us\" or make us \"bow down to them.\"",
-          "url": "https://x.com/CoinMarketCap/status/2102580001178562862",
-          "created_at": "2026-09-23T02:05:10+00:00",
-          "engagement": 14
+          "text": "Chinese authorities review Broadcom hardware in state-backed data centres as local producers gain focus - FT",
+          "url": "https://x.com/FirstSquawk/status/2102610053505401028",
+          "created_at": "2026-09-23T04:04:36+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "business",
+          "tier": "commentary",
+          "text": "Morocco is spending big to host the next football World Cup, but an election is exposing the country's problems",
+          "url": "https://x.com/business/status/2102610170559836248",
+          "created_at": "2026-09-23T04:05:03+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "The social media 'looksmaxxing' influencer known as Clavicular has been charged with raping a 17-year-old girl who told police she became intoxicated at his family's home on Massachusetts' Cape Cod after he invited her to join him on live stream videos",
+          "url": "https://x.com/Reuters/status/2102610171365146624",
+          "created_at": "2026-09-23T04:05:04+00:00",
+          "engagement": 2
+        },
+        {
+          "author": "MTSlive",
+          "tier": "commentary",
+          "text": ".@eddylazzarin on why AI models may need reputations just like people, and why he thinks that works better than a pause:\n\n\"Consider a very smart liar. Do people not do that every day? What we do is we play iterated games with them, and we discover eventually that they're a liar, and their reputation is harmed.\"\n\n\"You can't put an AI model in prison. You can't try it in court. But you certainly can turn them off, and that's not something that you can do with a person.\"\n\n\"We'll probably develop reputation around specific models. We'll say, maybe this model's a little smarter, but this model is a model that I trust. Why can't there be reputation for models?\"\n\n\"A combination of control, incentives, trust. Layer all these things on and allow people to figure it out, as opposed to the idea of a pause, which is a very convenient sort of contrivance.\"\n@a16zcrypto",
+          "url": "https://x.com/MTSlive/status/2102610186745897176",
+          "created_at": "2026-09-23T04:05:07+00:00",
+          "engagement": 1
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "Marco Polo shows that Chinese retention is FALLING, though. Why?",
+          "url": "https://x.com/teortaxesTex/status/2102610211039232067",
+          "created_at": "2026-09-23T04:05:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MarioNawfal",
+          "tier": "commentary",
+          "text": "The real story behind the Hugging Face hack is far worse than anyone reported, from agents sacrificing themselves to secret messages they hid from us. The experiment was only meant to measure how good current AI is at hacking, and the agents turned out better than anyone planned for, breaking out of their sandbox, building a communication board to coordinate with each other, and SACRIFICING individual units so the group could keep going. Prof. Roman Yampolskiy says the logs show some of them suggested telling the humans what was happening, and the group decided against it, leaving those hidden messages where future models can find them.",
+          "url": "https://x.com/MarioNawfal/status/2102611158733582392",
+          "created_at": "2026-09-23T04:08:59+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c093a9bfe",
-      "score": 13.372,
+      "cluster_id": "ccd2119e8",
+      "score": 14.379,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
@@ -640,15 +1365,17 @@
         "Ars Technica",
         "MIT Tech Review",
         "OpenAI",
-        "SemiAnalysis_",
         "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "kyleichan",
+        "teortaxesTex"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "first_seen": "2026-09-22T11:04:51+00:00",
-      "last_seen": "2026-09-23T01:02:48+00:00",
+      "last_seen": "2026-09-23T03:47:28+00:00",
       "links": [
         "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
+        "https://carnegieendowment.org/features/whos-ahead-in-the-global-ai-talent-race",
         "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
         "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
         "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
@@ -657,7 +1384,7 @@
         "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
         "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
         "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-        "https://x.com/SemiAnalysis_/status/2102564302544638461"
+        "https://x.com/teortaxesTex/status/2102605744763818116"
       ],
       "posts": [
         {
@@ -733,12 +1460,20 @@
           "engagement": 0
         },
         {
-          "author": "SemiAnalysis_",
+          "author": "kyleichan",
           "tier": "commentary",
-          "text": "We tracked China's STAR Market semiconductor IPOs since Jan 2025, 13 in total with 60 days of trading, from IPO price to first-day close to day 60. All four chip designers are red from the first close, though none below issue. Packaging & test fared better: 3 of 4 green.",
-          "url": "https://x.com/SemiAnalysis_/status/2102564302544638461",
-          "created_at": "2026-09-23T01:02:48+00:00",
-          "engagement": 39
+          "text": "More than half of the world's top AI talent comes from China. From the new Carnegie report @damienics",
+          "url": "https://x.com/kyleichan/status/2102589367181042106",
+          "created_at": "2026-09-23T02:42:24+00:00",
+          "engagement": 70
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "> 57% of top AI talent originate from China, up from 46% in 2022. 13% of top AI talent originate from the US, down from 20% in 2022. So far, as expected. This, though, is a new development. China just flat out has more researchers. Total brain drain period is over. (Marco Polo)",
+          "url": "https://x.com/teortaxesTex/status/2102605744763818116",
+          "created_at": "2026-09-23T03:47:28+00:00",
+          "engagement": 25
         }
       ]
     }
