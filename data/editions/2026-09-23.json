@@ -33,6 +33,94 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "anthropic-claude-marketplace",
+   "section": "products",
+   "headline": "Anthropic opens Claude Marketplace, lets buyers pay with existing commitments",
+   "standfirst": "The directory lists connectors, agents and consultancies from Cursor, CrowdStrike, Harvey and Snowflake, and Anthropic says an existing contract can pay for them.",
+   "body": [
+    "Anthropic opened Claude Marketplace on Wednesday, a directory of connectors, plugins, agents and service partners that its customers can buy against money they have already committed to the company. The announcement named plugins such as Slack and Notion, products from Cursor and CrowdStrike, and service partners including Accenture and Deloitte.",
+    "The marketplace page carries 15 products, grouped by use case. Augment, Base44, CodeRabbit, Factory, GitLab, Lovable and Vercel sit under code, Gamma and Snowflake under data, Harvey and Legora under legal, and Hebbia and Rogo under financial services. Anthropic said sellers can also list their own tools, agents or services.",
+    "The pitch is financial rather than technical. \"Put your Anthropic commitment toward software that already does the job,\" the page says, offering to let a buyer draw on one contracted budget across several Claude-powered tools instead of negotiating with each seller. Anthropic listed the benefit as \"consolidated AI spend\".",
+    "How much of that spend transfers, and on what terms, the page does not say. It publishes no prices, does not state which Claude plans reach the marketplace, and points enterprise buyers at a \"Request to buy\" form. Anthropic did not say how a listing is reviewed before it appears."
+   ],
+   "entities": [
+    "Anthropic",
+    "Cursor",
+    "CrowdStrike",
+    "Snowflake",
+    "Harvey",
+    "Accenture",
+    "Deloitte"
+   ],
+   "sources": [
+    {
+     "author": "Claude (Anthropic)",
+     "url": "https://x.com/claudeai/status/2102840851538080172"
+    },
+    {
+     "author": "Anthropic",
+     "url": "https://claude.com/platform/marketplace"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "vllm-inferact-tpu-megakernel",
+   "section": "chips",
+   "headline": "vLLM says open-source TPU kernel runs Kimi K3 at 709 tokens a second",
+   "standfirst": "The project put that against 450 tokens a second on Nvidia's GB200, and said all 92 of the model's expert layers run in one kernel.",
+   "body": [
+    "The vLLM project said on Wednesday that a TPU megakernel open-sourced by the inferact team runs Moonshot's Kimi K3 at 709 tokens a second, against 450 on Nvidia's GB200. It credited the inferact team with the work and said a writeup and a repository link sat further down its thread.",
+    "SemiAnalysis, which benchmarks inference hardware, reported the same result and put it at 56% better performance than the GB200 NVL72 rack. The firm said the figure showed that Google's work to make its TPU software usable outside Google was, in its words, full steam ahead. Neither account has been reproduced elsewhere.",
+    "The technique is a single kernel rather than a faster chip. All 92 of Kimi K3's mixture-of-experts layers run in one Pallas kernel, vLLM said, with weight prefetching that reaches across layer boundaries, so transfers for one layer overlap with computation in the previous one.",
+    "Neither post gave the batch size, the chip count or the context length behind the numbers, and a tokens-a-second figure depends on all three. Kimi K3's weights are public, which means anyone with the hardware could in principle check the comparison. Nobody outside the two accounts has yet published one."
+   ],
+   "entities": [
+    "vLLM",
+    "inferact",
+    "Moonshot AI",
+    "Nvidia",
+    "Google",
+    "SemiAnalysis"
+   ],
+   "sources": [
+    {
+     "author": "vLLM",
+     "url": "https://x.com/vllm_project/status/2102825414762930551"
+    },
+    {
+     "author": "SemiAnalysis",
+     "url": "https://x.com/SemiAnalysis_/status/2102833399475879977"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-claude-ai-3x-faster",
+   "section": "ai",
+   "headline": "Anthropic says a 2-week sprint made claude.ai 3.1 times faster",
+   "standfirst": "Engineers credit a model working in a single Slack channel, and put a fresh web load at 550 milliseconds against 3,085 before the sprint.",
+   "body": [
+    "Anthropic said on Wednesday that a two-week sprint made claude.ai and its desktop app 3.1 times faster, a geometric mean across 13 measurements at the 75th percentile. According to the post, the company compared real user monitoring on 13 August with 27 August, across four journeys it said make up 95% of activity.",
+    "A fresh load of claude.ai fell from 3,085 milliseconds to 550, the post said. A desktop cold start went from 6,310 milliseconds to 3,328, loading a conversation on the desktop app from 1,353 to 488, and sending a message in Claude Cowork from 928 milliseconds to 48.",
+    "The three authors, Raymond Wang, Sam Attard and Issac G., said the sprint ran in one Slack channel with Claude in every thread. An engineer would open a thread on a slow stretch, Claude would trace it and build a benchmark, then return with pull requests sized for review, anything user-visible behind a flag.",
+    "One example: message-tree assembly was resolving the same message ID three times. Cutting that removed 48% of the CPU instructions on the path and 78% of the wall-clock time, the post said, and the team then made any pull request that raised the count fail its tests.",
+    "The numbers are Anthropic's own and nobody outside the company has checked them. The post said the work targeted the 75th percentile, and that the 95th percentile, other journeys and the longest conversations may still have room to improve. Anthropic estimates the gains could save tens of thousands of user-hours of waiting a day."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude",
+    "Claude Cowork"
+   ],
+   "sources": [
+    {
+     "author": "Raymond Wang, Sam Attard and Issac G. (Anthropic)",
+     "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "c3efb540e",
    "section": "models",
    "headline": "Google ships 2 Gemini 3.8 speech models, says they top Hume benchmark",
@@ -209,7 +297,7 @@
      "url": "https://drivingbench.com/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "amazon-accelerate-claude-seller-tools",
@@ -233,7 +321,7 @@
      "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "opencode-space-bunny",
@@ -274,7 +362,7 @@
      "url": "https://github.com/luongnv89/freetokens/issues/466"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nemotron-3-diarization",

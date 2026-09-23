@@ -1,60 +1,34 @@
 {
-  "generated_at": "2026-09-23T18:05:07.698397+00:00",
+  "generated_at": "2026-09-23T20:05:15.870031+00:00",
   "edition_date": "2026-09-23",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 65,
-  "clusters_found": 55,
-  "stories_declared": 3,
+  "posts_considered": 66,
+  "clusters_found": 59,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c7dd1b0aa",
-      "score": 19.039,
+      "cluster_id": "c1d6323ec",
+      "score": 11.991,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Anthropic",
-        "Amazon"
+        "Anthropic"
       ],
       "independent_sources": [
-        "AWS ML",
-        "OpenAI",
-        "Simon Willison",
-        "The Verge AI",
-        "arena",
-        "mark_k"
+        "ArtificialAnlys",
+        "Simon Willison"
       ],
-      "source_count": 6,
-      "first_seen": "2026-09-22T18:10:22+00:00",
-      "last_seen": "2026-09-23T18:00:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-22T23:46:41+00:00",
+      "last_seen": "2026-09-23T18:54:11+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-        "https://simonwillison.net/2026/Sep/22/llm/",
         "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
-        "https://x.com/OpenAI/status/2102808325742322002",
-        "https://x.com/arena/status/2102806554340974612",
-        "https://x.com/mark_k/status/2102801097320693948"
+        "https://x.com/ArtificialAnlys/status/2102833926788288704"
       ],
       "posts": [
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock. GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-          "created_at": "2026-09-22T18:10:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm 0.36. Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations . The first plugin to use this is llm-typesafe . #1692 Reasoning traces in the Markdown output of llm logs are now wrapped in <details><summary> tags. #1701 Plus bug fixes from five new contributors . ",
-          "url": "https://simonwillison.net/2026/Sep/22/llm/",
-          "created_at": "2026-09-22T18:48:37+00:00",
-          "engagement": 0
-        },
         {
           "author": "Simon Willison",
           "tier": "commentary",
@@ -64,110 +38,53 @@
           "engagement": 0
         },
         {
-          "author": "mark_k",
+          "author": "ArtificialAnlys",
           "tier": "commentary",
-          "text": "Reactions to GPT-6 Sol are very mixed so far.\n\nOn the one hand, the pricing is great. No doubt about that.\n\nBut there's also quite a bit of negativity around its performance. In benchmarks and real-world coding, it seems nowhere close to Astra or Opus 5.5, despite OpenAI's claims",
-          "url": "https://x.com/mark_k/status/2102801097320693948",
-          "created_at": "2026-09-23T16:43:44+00:00",
-          "engagement": 68
-        },
-        {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "Real-world results are in for GPT-6 Sol (Max) by @OpenAI. It landed #4 in the Code Arena: WebDev with 1689 pts, and has reshaped the Pareto frontier, at $8/M tokens (blended input/output)!\n\nThis performance is on par with Claude Opus 5 (Max), while costing less than half as much,",
-          "url": "https://x.com/arena/status/2102806554340974612",
-          "created_at": "2026-09-23T17:05:25+00:00",
-          "engagement": 137
-        },
-        {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "We heard you loud and clear. ChatGPT Voice can now:\n\n- Use plugins like your email, calendar, and Slack.\n\n- Be powered by GPT-6 Astra, Sol, and Luna.\n\n- Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in th",
-          "url": "https://x.com/OpenAI/status/2102808325742322002",
-          "created_at": "2026-09-23T17:12:27+00:00",
-          "engagement": 3721
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Anthropic&#8217;s biolab made a discovery it&#8217;s comparing to Crispr. Anthropic says its AI Claude has \"autonomously discovered\" a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr. It's the first result from Anthropic's newly-launched wet lab and an early test of Claude's usefulness for science as the company prepares to go public. The company says Claude found the enzyme system after [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
-          "created_at": "2026-09-23T18:00:00+00:00",
-          "engagement": 0
+          "text": "The Intelligence Index vs Cost per Task Pareto frontier shifted this week with the releases of MiMo-V2.6-Pro, Claude Opus 5.5, GPT-6 Luna, and GPT-6 Sol. Together they have established eleven new points on the Pareto frontier (driven by different reasoning efforts): five from GPT-6 Luna",
+          "url": "https://x.com/ArtificialAnlys/status/2102833926788288704",
+          "created_at": "2026-09-23T18:54:11+00:00",
+          "engagement": 287
         }
       ]
     },
     {
-      "cluster_id": "c2d91791c",
-      "score": 11.023,
-      "interest": "neutral",
+      "cluster_id": "c9a4e4cc8",
+      "score": 11.001,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Hugging Face"
+      ],
       "independent_sources": [
-        "elonmusk",
-        "mark_k"
+        "MIT Tech Review",
+        "SemiAnalysis_"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T16:35:15+00:00",
-      "last_seen": "2026-09-23T17:44:10+00:00",
+      "first_seen": "2026-09-23T09:00:00+00:00",
+      "last_seen": "2026-09-23T18:00:35+00:00",
       "links": [
-        "https://x.com/elonmusk/status/2102798963837665464",
-        "https://x.com/mark_k/status/2102816305774739946"
+        "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+        "https://x.com/SemiAnalysis_/status/2102820439202394458"
       ],
       "posts": [
         {
-          "author": "elonmusk",
-          "tier": "commentary",
-          "text": "New Grok @Bot features!",
-          "url": "https://x.com/elonmusk/status/2102798963837665464",
-          "created_at": "2026-09-23T16:35:15+00:00",
-          "engagement": 6669
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Big week for Grok Bot! New features:\n\n• Voice calls\n• 1Password\n• Inline forms\n• Inline drafts for email and Slack\n• Account switching\n• Route traffic through your desktop\n\nGrok Bot is rapidly evolving from a chatbot into a serious AI coworker.",
-          "url": "https://x.com/mark_k/status/2102816305774739946",
-          "created_at": "2026-09-23T17:44:10+00:00",
-          "engagement": 26
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3f6768a4",
-      "score": 7.41,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [],
-      "independent_sources": [
-        "AndrewCurran_",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T16:23:05+00:00",
-      "last_seen": "2026-09-23T16:27:11+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
-        "https://x.com/AndrewCurran_/status/2102796931584167939"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
+          "author": "MIT Tech Review",
           "tier": "press",
-          "text": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison. Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the \"destruction or disempowerment of humanity,\" including by overthrowing the government. Under the Ban Artificial Superintelligence Act, AI leaders would face up to 20 years [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
-          "created_at": "2026-09-23T16:23:05+00:00",
+          "text": "The AI Hype Index: AI loves cheating. Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+          "created_at": "2026-09-23T09:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "AndrewCurran_",
+          "author": "SemiAnalysis_",
           "tier": "commentary",
-          "text": "Bernie Sanders and Greg Casar introduced the Ban Artificial Superintelligence Act today. It will:\n\n- ban the development or deployment of Artificial Superintelligence, aka any AI that 'exceeds human cognitive performance and capabilities across most domains, or has sufficient cap",
-          "url": "https://x.com/AndrewCurran_/status/2102796931584167939",
-          "created_at": "2026-09-23T16:27:11+00:00",
-          "engagement": 374
+          "text": "OpenAI's myriad elementary technical errors in its cyberattack of Hugging Face have received little attention. Here, we go through a few of them.",
+          "url": "https://x.com/SemiAnalysis_/status/2102820439202394458",
+          "created_at": "2026-09-23T18:00:35+00:00",
+          "engagement": 70
         }
       ]
     }
