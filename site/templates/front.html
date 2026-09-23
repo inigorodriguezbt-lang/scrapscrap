@@ -26,17 +26,21 @@
     {% for story in second %}{{ s.block(story, 'second', rel) }}{% endfor %}
   </div>
 
+  {# Snippets: one-line items too small for a story. Each links straight to
+     its source, because a snippet has no page of its own. #}
   {% if latest %}
   <div class="col col--briefs">
-    <div class="rail__head">Latest</div>
+    <div class="rail__head">Snippets</div>
     <ul class="latest">
-      {% for story in latest %}
+      {% for item in latest %}
       <li>
-        <time>{{ story.time_label }}</time>
-        <a class="t" href="{{ rel }}story/{{ story.cluster_id }}/">{{ story.headline|nbhy }}</a>
+        <time>{{ item.time_label }}</time>
+        <span class="t">{{ item.text|nbhy }}</span>
+        <a class="src" href="{{ item.source.url }}" target="_blank" rel="external noopener noreferrer nofollow">{{ item.source.name }}</a>
       </li>
       {% endfor %}
     </ul>
+    <a class="rail__more" href="{{ rel }}snippets/">All snippets</a>
   </div>
   {% endif %}
 

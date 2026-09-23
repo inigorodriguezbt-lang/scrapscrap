@@ -1,0 +1,115 @@
+{
+ "date": "2026-09-23",
+ "snippets": [
+  {
+   "id": "vllm-0-30",
+   "tag": "research",
+   "published_at": "2026-09-23T02:58:53+00:00",
+   "text": "vLLM shipped version 0.30.0, built from 762 commits by 315 contributors, 104 of them first-timers.",
+   "why": "vLLM is the engine most open-weight models are served on, so its release notes set what those models can do in production.",
+   "source": {
+    "name": "vLLM",
+    "url": "https://x.com/vllm_project/status/2102593516740411733"
+   }
+  },
+  {
+   "id": "qwen-image-arena",
+   "tag": "models",
+   "published_at": "2026-09-23T01:24:44+00:00",
+   "text": "Qwen-Image-2.1 now tops the open-source models on both the Image Edit and Text-to-Image arenas, Alibaba's Qwen team says.",
+   "why": "The 7B model went out with open weights on Sunday, which puts a model anyone can download at the top of both lists.",
+   "source": {
+    "name": "Qwen",
+    "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912"
+   }
+  },
+  {
+   "id": "cursorbench-opus-5-5",
+   "tag": "products",
+   "published_at": "2026-09-22T17:22:13+00:00",
+   "text": "Cursor says Claude Opus 5.5 is the new top model on CursorBench at 57.8% and costs 40% less per task than Opus 5.",
+   "why": "CursorBench is Cursor's own test, so this is one vendor's measurement, but Cursor is where many developers will use the model.",
+   "source": {
+    "name": "Cursor",
+    "url": "https://x.com/cursor_ai/status/2102448392773435706"
+   }
+  },
+  {
+   "id": "perplexity-wandr-opus-5-5",
+   "tag": "products",
+   "published_at": "2026-09-22T16:48:21+00:00",
+   "text": "Perplexity says Opus 5.5 scored 0.610 on its WANDR benchmark at $4.13 a task, slightly ahead of Fable 5.1 at 67.6% lower cost.",
+   "why": "If the figure holds, most of Fable 5.1's performance at about a third of the price changes which model agent products default to.",
+   "source": {
+    "name": "Perplexity",
+    "url": "https://x.com/perplexity_ai/status/2102439872485355547"
+   }
+  },
+  {
+   "id": "copilot-gpt-6-sol-luna",
+   "tag": "products",
+   "published_at": "2026-09-22T18:41:29+00:00",
+   "text": "GitHub made OpenAI's GPT-6 Sol and GPT-6 Luna generally available in Copilot, with Luna as the lowest-cost option.",
+   "why": "Both launched the same day in OpenAI's API at half the price of GPT-5.6, and Copilot is where most developers will meet them.",
+   "source": {
+    "name": "GitHub",
+    "url": "https://x.com/github/status/2102468342007439789"
+   }
+  },
+  {
+   "id": "stepaudio-3-asr",
+   "tag": "models",
+   "published_at": "2026-09-22T19:50:37+00:00",
+   "text": "StepFun's StepAudio 3 ASR took first place on Artificial Analysis's non-streaming speech-to-text index, with a 1.7% word error rate.",
+   "why": "That is down from 4.7% for its predecessor, and lands in the same week StepFun put out its Step 5 Preview language model.",
+   "source": {
+    "name": "Artificial Analysis",
+    "url": "https://x.com/ArtificialAnlys/status/2102485740248842710"
+   }
+  },
+  {
+   "id": "ollama-billing-error",
+   "tag": "products",
+   "published_at": "2026-09-22T05:26:18+00:00",
+   "text": "Ollama says some requests to deepseek-v4.1-flash were billed at the wrong rate for a few hours, and has apologised to affected users.",
+   "why": "If you ran that model on Ollama's hosted service this week, the post explains how the affected usage is being handled.",
+   "source": {
+    "name": "Ollama",
+    "url": "https://x.com/ollama/status/2102268230052274300"
+   }
+  },
+  {
+   "id": "perplexity-self-distillation",
+   "tag": "research",
+   "published_at": "2026-09-22T20:21:54+00:00",
+   "text": "Perplexity says training its Computer agent to learn from its own errors cut tool-call failures by 21.2% in a live A/B test.",
+   "why": "The method, hint-guided self-distillation, trains the agent on its own failed attempts rather than on fresh human labels.",
+   "source": {
+    "name": "Perplexity",
+    "url": "https://x.com/perplexity_ai/status/2102493613192298913"
+   }
+  },
+  {
+   "id": "kimi-browser-extension",
+   "tag": "products",
+   "published_at": "2026-09-22T12:20:52+00:00",
+   "text": "Moonshot renamed Kimi WebBridge the Kimi Browser Extension, which can record a task's steps once and save them as a reusable skill.",
+   "why": "Recording a workflow once and replaying it is what turns a browser chat assistant into something that does repetitive work for you.",
+   "source": {
+    "name": "Moonshot AI",
+    "url": "https://x.com/Kimi_Moonshot/status/2102372557190230244"
+   }
+  },
+  {
+   "id": "tts-pronunciation-benchmark",
+   "tag": "research",
+   "published_at": "2026-09-22T02:26:36+00:00",
+   "text": "Artificial Analysis launched a benchmark for how reliably text-to-speech models pronounce hard text. Google's Gemini 3.1 Flash TTS leads at 88.1%.",
+   "why": "Names, numbers and technical terms are the words voice agents get wrong, and this is a test built to measure exactly that.",
+   "source": {
+    "name": "Artificial Analysis",
+    "url": "https://x.com/ArtificialAnlys/status/2102223003795005821"
+   }
+  }
+ ]
+}

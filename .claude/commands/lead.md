@@ -70,6 +70,11 @@ Apply the paper's standing rule: **two or more independent sources**, per
 | Sources conflict | A story — the conflict *is* the news |
 | Nothing verifiable | **No story.** Report back to the editor with what you checked and what you could not confirm |
 
+**Keep what you pass on the way.** Reporting a lead turns up smaller things —
+a release, a price, a number, a line from someone who matters. If it is worth
+knowing but not worth a story, file it as a snippet per `style/10-snippets.md`
+rather than dropping it.
+
 Filing nothing is a legitimate outcome and a frequent one. Say so plainly rather
 than padding a thin lead into a thick article.
 

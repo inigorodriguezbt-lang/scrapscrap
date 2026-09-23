@@ -88,6 +88,24 @@ than a quick patch: *no attribution anywhere* means the source is missing, not
 the word `said`; *hedges under 3.0/1k* means the copy sounds more certain than
 the reporting supports.
 
+## Snippets
+
+While reading the brief and the posts, you will pass things that are worth
+knowing but too small for a story: a version bump, a price change, a benchmark
+number, a repo getting attention, one sourced line worth keeping. Do not throw
+them away. File them as snippets, per `style/10-snippets.md`, in
+`data/snippets/<today>.new.json`. Each needs its `why` written at the same time.
+
+Check them before you finish:
+
+```bash
+python -m pipeline.stylecheck --snippets data/snippets/<today>.new.json
+```
+
+The workflow files them after you. A snippet that repeats a story in today's
+edition, or a link already carried this week, does not belong. If you found
+none, do not create the file.
+
 ## Posting
 
 Do not post anything to X. `pipeline/social.py` drafts into the queue and the

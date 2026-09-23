@@ -33,6 +33,12 @@ MAX_ADVERB_RATE = 14.0        # per 1,000 words
 MAX_PASSIVE_RATE = 8.0
 MIN_HEDGE_RATE = 3.0          # hedging is load-bearing; too little is a fault
 
+# Snippets are one-line items for the front-page rail (pipeline/snippets.py).
+# They are a different content type, not short stories, so they get their own
+# checks below rather than a loosening of the story thresholds above.
+SNIPPET_WORDS = (10, 40)
+SNIPPET_WHY_WORDS = (8, 30)
+
 HYPE = r"""unprecedented|revolutionary|game.?chang\w+|groundbreaking|landmark|
 seismic|historic|monumental|transformative|disruptive|cutting.?edge|
 state.?of.?the.?art|next.?generation|breakthrough"""
@@ -319,12 +325,58 @@ def check_story(story: dict, index: int) -> Report:
     return report
 
 
+def check_snippet(item: dict, index: int) -> Report:
+    """A one-line item: a fact, a source, and a line of context.
+
+    The banned lists still apply, because a snippet is the paper speaking.
+    The per-1,000-word rates do not: at 25 words a single adverb reads as 40
+    per thousand, so the hedge, passive and adverb checks would fire on clean
+    copy and be ignored, which is worse than not running them.
+    """
+    text = (item.get("text") or "").strip()
+    report = Report(f"[{index}] snippet · {text[:52] or '(no text)'}")
+
+    n = len(words(text))
+    low, high = SNIPPET_WORDS
+    if not text:
+        report.error("text: empty")
+    elif n < low:
+        report.error(f"text: {n} words, under {low} — say what happened")
+    elif n > high:
+        report.error(f"text: {n} words, over {high} — this is a story, not a snippet")
+    if text and len(sentences(text)) > 2:
+        report.error(f"text: {len(sentences(text))} sentences, maximum is two")
+    if text.rstrip().endswith("?"):
+        report.error("text: ends on a question")
+    flag_banned(text, report, "text")
+
+    why = (item.get("why") or "").strip()
+    if not why:
+        report.error("why: missing — the newsletter needs the line of context")
+    else:
+        n = len(words(why))
+        low, high = SNIPPET_WHY_WORDS
+        if n < low or n > high:
+            report.error(f"why: {n} words, outside {low}–{high}")
+        if len(sentences(why)) > 1:
+            report.warn("why: more than one sentence")
+        flag_banned(why, report, "why")
+
+    source = item.get("source") or {}
+    if not source.get("name"):
+        report.error("source: no name")
+    if not re.match(r"https?://\S+$", source.get("url") or ""):
+        report.error("source: no link — the rail links out to it")
+    return report
+
+
 # ── entry point ──────────────────────────────────────────────────────────────
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Check copy against house style.")
     parser.add_argument("edition", nargs="?", type=Path, help="edition JSON to check")
     parser.add_argument("--text", help="check a single headline or passage instead")
+    parser.add_argument("--snippets", type=Path, help="check a snippets file instead")
     parser.add_argument("--strict", action="store_true", help="treat warnings as failures")
     args = parser.parse_args()
 
@@ -337,6 +389,13 @@ def main() -> None:
         else:
             check_body([args.text], report)
         reports.append(report)
+    elif args.snippets:
+        raw = json.loads(args.snippets.read_text(encoding="utf-8"))
+        items = raw.get("snippets", []) if isinstance(raw, dict) else raw
+        if not items:
+            print("No snippets in file.")
+            sys.exit(1)
+        reports = [check_snippet(item, i) for i, item in enumerate(items, 1)]
     elif args.edition:
         edition = json.loads(args.edition.read_text(encoding="utf-8"))
         stories = edition.get("stories", [])
@@ -345,7 +404,7 @@ def main() -> None:
             sys.exit(1)
         reports = [check_story(s, i) for i, s in enumerate(stories, 1)]
     else:
-        parser.error("give an edition file or --text")
+        parser.error("give an edition file, --snippets or --text")
 
     errors = warnings = 0
     for report in reports:

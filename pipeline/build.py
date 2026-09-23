@@ -19,6 +19,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .cards import render as render_card
 from .common import DIST_DIR, EDITIONS_DIR, SITE_DIR, load_config, utcnow
+from .snippets import load_all as load_all_snippets, load_snippets, read_day
 
 
 def long_date(iso: str) -> str:
@@ -157,19 +158,29 @@ def render_site() -> None:
         "css_version": css_version,
     }
 
+    snip_cfg = cfg.get("snippets", {})
+
     by_placement = lambda kind: [s for s in stories if s.get("placement") == kind]
     lead_list = by_placement("lead")
     lead = lead_list[0] if lead_list else (stories[0] if stories else None)
     front = [s for s in by_placement("front") if s is not lead]
     inside = by_placement("inside")
 
+    # The right-hand rail carries snippets: one-line items from the last few
+    # days, newest first. Stories that overflow the front slots still reach
+    # the Inside Today band below, so moving them out of the rail loses none.
+    snippets = load_snippets(days=snip_cfg.get("rail_days", 3))
+    for item in snippets:
+        item["time_label"] = relative_time(item.get("published_at"))
+    rail = snippets[:snip_cfg.get("rail_items", 9)]
+
     # Broadsheet composition: two secondaries under the lead, three down the
-    # left column, everything else timestamped in the right-hand rail.
+    # left column, the snippets rail on the right.
     env.get_template("front.html").stream(
         **base, rel="", stories=stories, lead=lead,
         second=front[:2], left=front[2:5],
-        latest=(front[5:] + inside)[:9],
-        inside=inside[:8],
+        latest=rail,
+        inside=(front[5:] + inside)[:8],
     ).dump(str(DIST_DIR / "index.html"))
 
     # Every edition's stories get a page, not just today's, otherwise the
@@ -217,6 +228,13 @@ def render_site() -> None:
             stories=[s for s in stories if s.get("section") == section["slug"]],
         ).dump(page("section", section["slug"]))
 
+    def issue_snippets(day: str) -> list[dict]:
+        """A back issue shows the snippets filed that day, as it ran."""
+        items = sorted(read_day(day), key=lambda i: i.get("published_at") or "", reverse=True)
+        for item in items:
+            item["time_label"] = relative_time(item.get("published_at"))
+        return items[:snip_cfg.get("rail_items", 9)]
+
     issues = []
     for edition in reversed(editions):
         date = edition["edition_date"]
@@ -229,7 +247,7 @@ def render_site() -> None:
             rel="../../", stories=issue_stories,
             lead=next((s for s in issue_stories if s.get("placement") == "lead"), None),
             second=issue_front[:2], left=issue_front[2:5],
-            latest=(issue_front[5:] + issue_inside)[:9], inside=issue_inside[:8],
+            latest=issue_snippets(date), inside=(issue_front[5:] + issue_inside)[:8],
         ).dump(page("issue", date))
 
     # Games. Three daily puzzles, generated with a uniqueness solver at build
@@ -259,6 +277,21 @@ def render_site() -> None:
     env.get_template("archive.html").stream(**base, rel="../", issues=issues).dump(
         page("archive")
     )
+
+    # Every snippet ever filed, grouped by the day it was filed.
+    snippet_days: dict[str, list[dict]] = {}
+    for item in load_all_snippets():
+        item["time_label"] = relative_time(item.get("published_at"))
+        snippet_days.setdefault(item["date"], []).append(item)
+    env.get_template("snippets.html").stream(
+        **{**base, "current_section": "snippets",
+           "page_title": f"Snippets · {cfg['paper']['name']}",
+           "page_description": "Small items from the AI beat, each in one line, with its source.",
+           "page_path": "snippets/"},
+        rel="../",
+        days=[{"date": d, "date_long": long_date(d), "items": snippet_days[d]}
+              for d in sorted(snippet_days, reverse=True)],
+    ).dump(page("snippets"))
 
     site = base["site_url"]
     host = site.replace("https://", "").replace("http://", "")

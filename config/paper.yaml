@@ -133,3 +133,8 @@ editorial:
   # earlier editions are carried beneath today's until this old, so the
   # page is never empty at one minute past midnight.
   front_page_carry_hours: 48
+
+# One-line items in the front-page rail. See pipeline/snippets.py.
+snippets:
+  rail_items: 9       # how many the rail shows
+  rail_days: 3        # how far back it reaches for them

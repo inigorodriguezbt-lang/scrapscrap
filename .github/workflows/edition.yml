@@ -82,13 +82,33 @@ jobs:
             --edition data/editions/${{ steps.day.outputs.date }}.json \
             --new data/editions/${{ steps.day.outputs.date }}.new.json
 
+      # Snippets: one-line items the desk found while writing, in a side file
+      # like the stories. Checked before they are filed; a bad batch is
+      # dropped with a warning rather than blocking the stories.
+      - name: File snippets
+        run: |
+          f=data/snippets/${{ steps.day.outputs.date }}.new.json
+          if [ -f "$f" ]; then
+            if python -m pipeline.stylecheck --snippets "$f"; then
+              python -m pipeline.snippets add "$f" --date ${{ steps.day.outputs.date }}
+            else
+              echo "::warning::snippets failed house style and were not filed"
+              rm -f "$f"
+            fi
+          fi
+
       - name: Stop here if nothing new was filed
         id: gate
         run: |
           test -f data/editions/${{ steps.day.outputs.date }}.json || {
             echo "no edition yet"; echo "go=no" >> "$GITHUB_OUTPUT"; exit 0; }
-          git diff --quiet -- data/editions && echo "go=no" >> "$GITHUB_OUTPUT" \
-            || echo "go=yes" >> "$GITHUB_OUTPUT"
+          # status, not diff: diff ignores untracked files, so a new day's
+          # edition or snippets file would read as "nothing changed".
+          if [ -z "$(git status --porcelain -- data/editions data/snippets)" ]; then
+            echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Check house style
         if: steps.gate.outputs.go == 'yes'
@@ -118,7 +138,7 @@ jobs:
         run: |
           git config user.name  "the-desk"
           git config user.email "noreply@users.noreply.github.com"
-          git add data/briefs data/editions data/state data/queue site/assets/charts
+          git add data/briefs data/editions data/snippets data/state data/queue site/assets/charts
           git diff --staged --quiet || git commit -m "Edition of $(date -u +%Y-%m-%d\ %H:%M) UTC"
           git push
 

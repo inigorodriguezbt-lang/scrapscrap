@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Snippets · {{ paper.name }}{% endblock %}
+{% block content %}
+{# Every snippet the paper has filed, one day at a time. A snippet has no
+   page of its own, so each links to its source. #}
+<section class="snippets">
+  <h1 class="snippets__title">Snippets</h1>
+  <p class="snippets__lede">The small items from the beat — a release, a price, a number, a line worth keeping — each in one sentence, with its source.</p>
+  {% if not days %}
+  <p class="snippets__empty">Nothing filed yet.</p>
+  {% endif %}
+  {% for day in days %}
+  <div class="snippets__day">
+    <div class="band__head">{{ day.date_long }}</div>
+    <ul class="latest latest--page">
+      {% for item in day["items"] %}
+      <li id="{{ item.id }}">
+        <time>{{ item.time_label }}</time>
+        <span class="t">{{ item.text|nbhy }}</span>
+        {% if item.why %}<span class="why">{{ item.why }}</span>{% endif %}
+        <a class="src" href="{{ item.source.url }}" target="_blank" rel="external noopener noreferrer nofollow">{{ item.source.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+{% endblock %}
