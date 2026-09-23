@@ -45,6 +45,87 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "opus55-one-shot-games",
+   "section": "products",
+   "headline": "Developers fill X with games they say Opus 5.5 built in one prompt",
+   "standfirst": "A Roblox fighter, browser Minecraft clones and a guitar-shop simulator drew thousands of likes within a day, though two builders said their demos are unfinished.",
+   "body": [
+    "Developers spent Tuesday and Wednesday posting games and 3D scenes they said Claude Opus 5.5 produced from a single prompt, a day after Anthropic released the model. The most widely shared came from the account WoahWurdz, which posted a Roblox fighting game in the style of Super Smash Bros and passed 2,600 likes.",
+    "WoahWurdz called it one-shotted, said it was built only using toolbox and nothing else, and put it leagues above Fable. Three hours later the same account said the one-shot prompt was still not finished and that it would post a finished result once it was. What circulated, on the account's own description, is a partial run.",
+    "The second most-shared build carries its own qualification. bijanbowen posted a guitar-shop simulator that turns into a beat-em-up when the player makes too much noise, and said the model produced more than 300 individual guitar models with every instrument playable. The same post called it a bit laggy in three.js and said it would be redone in Blender or Godot.",
+    "Browser Minecraft clones were the other common test. buildwithsid posted one running in a browser that passed 900 likes. luckeyfaraday said Opus 5.5 gave the best result they had seen on a one-shot HTML Minecraft test they run against every major model, from one prompt into one file with no iteration, and placed it ahead of GPT-6 Astra.",
+    "Not all of the work is games. Voxyz_ai posted an animation and said the model wrote the story, drew every frame in JavaScript with no image assets, synthesised the music in Python, then went through the render second by second. gpumaxxer said a 20-hour overnight run built an Unreal Engine world of agents told to form a society, and that by morning the agents were fighting.",
+    "Every claim here is the builder's own, attached to a video rather than to code. None of the demos has been reproduced by anyone else, a clip does not show how many attempts came before it, and two of the most-shared builders have already said theirs is unfinished or needs rebuilding. What the posts establish is enthusiasm and volume, not a measured capability."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "WoahWurdz",
+     "url": "https://x.com/WoahWurdz/status/2102487879809126834"
+    },
+    {
+     "author": "WoahWurdz",
+     "url": "https://x.com/WoahWurdz/status/2102527280941846582"
+    },
+    {
+     "author": "bijanbowen",
+     "url": "https://x.com/bijanbowen/status/2102532400353829356"
+    },
+    {
+     "author": "buildwithsid",
+     "url": "https://x.com/buildwithsid/status/2102461886247948571"
+    },
+    {
+     "author": "luckeyfaraday",
+     "url": "https://x.com/luckeyfaraday/status/2102479021389004934"
+    },
+    {
+     "author": "Voxyz_ai",
+     "url": "https://x.com/Voxyz_ai/status/2102531681450119426"
+    },
+    {
+     "author": "gpumaxxer",
+     "url": "https://x.com/gpumaxxer/status/2102610790725632044"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "opus55-kernelbench-arledge",
+   "section": "research",
+   "headline": "Engineer says Opus 5.5 wrote a GPU kernel at 35.5 times PyTorch",
+   "standfirst": "Elliot Arledge published a run-by-run comparison on his own hardware and put GPT-6 Astra second at 24.8 times the baseline.",
+   "body": [
+    "A performance engineer said Claude Opus 5.5 wrote a GPU kernel that ran 35.5 times faster than an optimised PyTorch baseline on the KernelBench-Mega benchmark, against 24.8 times for GPT-6 Astra. Elliot Arledge posted the result on Wednesday, describing the output as a Kimi-Linear decode megakernel.",
+    "Arledge said he gave each model one session on his own RTX PRO 6000 machine, with no budget cap. The figures are isolated regrades, he said, made after an audit of the run traces and submissions for reward hacking. That check matters: a kernel benchmark can be gamed by a model that weakens the baseline it is timed against.",
+    "The runs differed more in shape than in their final numbers. Arledge said Opus 5.5 had a working megakernel at 21 times the baseline after 31 minutes. Astra reached 14 times after an hour, then spent four hours moving from 24 to 25. Fable 5.1 reached 23 times in two hours before the session died on an API error.",
+    "One session per model is a small sample and the traces are not published, so the ordering may not hold on a rerun. Arledge said he runs 20 such jobs in parallel. That is why he values how the model reports status: he said it takes him seconds to see what is blocking a run. He also said he suspects reports of weakened kernel performance apply to TPU or Trainium rather than CUDA.",
+    "A week of testing at Every produced a more mixed account. The publication said Opus 5.5 will not stop on its own and will eat a weekly limit. Given ten minutes to produce a run of show, it built a data generator and handouts, then ran out of time before the schedule. It also rejected 90% of its own work for reasons its designer could not trace.",
+    "Every also said the model builds on feedback instead of arguing with it. Its prose is the most readable the publication has measured, it said, though it still buries the lede. On cost, the account SahilExec ran the same prompt through the same harness. It logged $75 and 2 hours 10 minutes for Opus 5.5, against $61 and 1 hour 25 minutes for Astra."
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "elliotarledge",
+     "url": "https://x.com/elliotarledge/status/2102566065163424168"
+    },
+    {
+     "author": "every",
+     "url": "https://x.com/every/status/2102495448825262388"
+    },
+    {
+     "author": "SahilExec",
+     "url": "https://x.com/SahilExec/status/2102498892659261742"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "sanders-casar-superintelligence-ban",
    "section": "policy",
    "headline": "Sanders bill would ban superintelligence, create Department of AI",
@@ -221,7 +302,7 @@
      "url": "https://x.com/SemiconductorsX/status/2102647186546983348"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "sasac-broadcom-switch-survey",
@@ -285,7 +366,7 @@
      "at": "23 Sep"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "valsai-gpt6-sol-index",
