@@ -45,6 +45,116 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "qwen-intelligence-honor",
+   "section": "products",
+   "headline": "Alibaba launches Qwen Intelligence, says its 3 phone agents run on Honor",
+   "standfirst": "The company put end-to-end task completion at 90% and said its planner agent tops MobilePA-Bench, a benchmark suite Alibaba wrote and published itself.",
+   "body": [
+    "Alibaba launched Qwen Intelligence on Wednesday, a package of three agents it is selling to phone makers. The three are a planner agent, a mobile-use agent that drives apps, and a creative agent that makes images. Trade reports of the launch say the stack is already running on Honor's MagicOS.",
+    "The planner agent takes first place on MobilePA-Bench, according to Alibaba, which published that benchmark alongside the launch. A technical report for Qwen-Planner-Agent 27B puts the model at 77.05% overall on it, 9.83 points above its baseline, at an estimated $2.41 per 1,000 tasks.",
+    "Alibaba put the mobile-use agent at 82.1 on MobileWorld, 92.2 on MobileWorld-Real and 97.2 on AndroidDaily, with a 90% end-to-end success rate. It said the agent calls an app's interface where one exists and falls back to reading the screen and tapping where none does.",
+    "Every figure here is Alibaba's, measured on tests it chose, and the benchmark its planner leads is one it wrote. No outside evaluator has published a score for any of the three agents. Alibaba did not give pricing for phone makers, or name other handset brands.",
+    "The creative agent produces a first image in about three seconds, which Alibaba said is roughly twice as fast as leading peers. It did not name the peers or the hardware. Honor has published no figures of its own, and the companies did not say how many phones carry the stack."
+   ],
+   "entities": [
+    "Alibaba",
+    "Honor"
+   ],
+   "sources": [
+    {
+     "author": "Qwen",
+     "tier": "primary",
+     "url": "https://x.com/Alibaba_Qwen/status/2102727405198876753"
+    },
+    {
+     "author": "Qwen-Planner-Agent technical report",
+     "tier": "primary",
+     "url": "https://github.com/Tongyi-MAI/Qwen-Planner-Agent"
+    },
+    {
+     "author": "KuCoin, citing BlockBeats",
+     "tier": "press",
+     "url": "https://www.kucoin.com/news/flash/alibaba-launches-qwen-intelligence-for-mobile-agents-partners-with-honor"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "qualcomm-picknik-moveit",
+   "section": "business",
+   "headline": "Qualcomm to buy PickNik Robotics, says MoveIt stays open source",
+   "standfirst": "The company said it will keep MoveIt 1 and 2 under their existing licence and fold PickNik's commercial MoveIt Pro into its Dragonwing platform. Terms were not disclosed.",
+   "body": [
+    "Qualcomm has agreed to acquire PickNik, the Boulder company that maintains the open-source robotics framework MoveIt, the two said at ROSCon in Toronto. Terms were not disclosed, and the deal is subject to customary closing conditions.",
+    "Three market-news accounts carried the announcement within an hour of each other on Wednesday, and The Robot Report published the fullest account of it. Qualcomm said it will keep MoveIt 1 and 2 open source under their existing licence and community roadmaps, and will continue supporting MoveIt on third-party hardware.",
+    "MoveIt handles motion planning and manipulation, the software that decides how a robot arm moves. Qualcomm said pairing it with Dragonwing, its robotics chip platform, should shorten the path from an AI model to planning and real-time control. That claim is the company's own.",
+    "PickNik was founded in 2015 and counted Google as an early customer. Dave Coleman, its founder and chief product officer, said joining Qualcomm would let the company expand investment in MoveIt as a training platform for robotics. Nakul Duggal, a Qualcomm executive vice-president, said PickNik had earned trust through its stewardship of MoveIt.",
+    "Neither company gave a price, a closing date or a headcount. Nvidia released Isaac ROS 5.0 as free and open source at the same conference a day earlier. Qualcomm has not said what happens to MoveIt's governance once the deal closes."
+   ],
+   "entities": [
+    "Qualcomm",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "The Robot Report",
+     "tier": "press",
+     "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/"
+    },
+    {
+     "author": "Evan (StockMKTNewz)",
+     "tier": "commentary",
+     "url": "https://x.com/StockMKTNewz/status/2102723628580147257"
+    },
+    {
+     "author": "Wall St Engine",
+     "tier": "commentary",
+     "url": "https://x.com/wallstengine/status/2102722922754568446"
+    },
+    {
+     "author": "StockSavvyShay",
+     "tier": "commentary",
+     "url": "https://x.com/StockSavvyShay/status/2102725141583298775"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "cma-google-choice-screens-ai",
+   "section": "policy",
+   "headline": "UK regulator would put AI assistants on Google's choice screens",
+   "standfirst": "The Competition and Markets Authority proposed that assistants meeting Google's technical and security criteria sit alongside search engines, with consultation open until 9 October.",
+   "body": [
+    "Britain's Competition and Markets Authority proposed on Wednesday that Google show Android and Chrome users a choice of search providers on first setup, and that AI assistants be allowed onto those screens. Assistants that meet Google's technical and security criteria could sit alongside search engines under the proposals.",
+    "The proposals would also prompt users once a year to pick a default, and would require search providers to attribute publisher content so readers can reach the source material. Reuters and Engadget both reported the package on Wednesday.",
+    "Sarah Cardell, the authority's chief executive, said the way people search for information online is changing. She said the regulator was responding to the rise of AI assistants, which people increasingly use as a search service but which Google's choice screens do not carry.",
+    "Assistants would have to meet Google's own technical and security criteria to appear on the screens. Reuters named ChatGPT and Perplexity as examples of the services at issue. The authority has not said how it would test whether Google applies those criteria fairly.",
+    "Consultation runs until 9 October, and the authority is expected to make a final decision by the end of the year. Neither account says when any requirement would take effect. Google's response is not in either report, and the company has not published one."
+   ],
+   "entities": [
+    "Google",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "Reuters",
+     "tier": "press",
+     "url": "https://www.reuters.com/legal/litigation/uk-regulator-proposes-giving-consumers-more-search-choice-google-2026-09-23/"
+    },
+    {
+     "author": "Engadget",
+     "tier": "press",
+     "url": "https://www.engadget.com/2266226/uk-competition-watchdog-wants-to-give-android-and-chrome-users-more-search-engine-choices/"
+    },
+    {
+     "author": "Techmeme",
+     "tier": "press",
+     "url": "https://x.com/Techmeme/status/2102726166201487537"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "opus55-one-shot-games",
    "section": "products",
    "headline": "Developers fill X with games they say Opus 5.5 built in one prompt",
@@ -216,7 +326,7 @@
      "url": "https://en.sedaily.com/finance/2026/09/23/samsung-validates-next-generation-lpddr6-on-qualcomm-chip"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "qwen-audio-31",
@@ -243,7 +353,7 @@
      "url": "https://www.qwencloud.com/models/qwen-audio-3.1-asr-flash-filetrans"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "firmus-10bn-indonesia",
@@ -273,7 +383,7 @@
      "url": "https://x.com/financialjuice/status/2102665836813222076"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "samsung-d0a-b1b-hybrid-bonding",
