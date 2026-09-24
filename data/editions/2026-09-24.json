@@ -31,6 +31,31 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-contrastive-language-models",
+   "section": "models",
+   "headline": "CLM-8B ships open weights, authors say it picks actions 9x faster",
+   "standfirst": "The 8-billion-parameter model scores candidate actions against a state instead of generating text, and its makers report new highs on two agentic coding benchmarks.",
+   "body": [
+    "A repository called Contrastive Language Models reached the Hacker News front page on Thursday with 46 points. It carries open weights for an 8-billion-parameter model, CLM-8B, that scores candidate actions against a state rather than writing text. The code and the weights are both Apache 2.0.",
+    "Its authors say CLM-8B performs on par with Jev on four zero-shot benchmarks, among them BFCL v4 tool calling and WikiRacing, while running up to 9 times faster. The numbers are their own, taken from the repository and an accompanying blog post. Nobody outside the group has published a test of them.",
+    "The README puts CLM at 87.6 per cent on Terminal-Bench 2.1 and 81.6 per cent on DeepSWE, with the model acting as a verifier that picks between sampled solutions. It says those runs used 30 held-out tasks and 38 held-out tasks. Opus 5 sampled the DeepSWE candidates, Fable 5 the Terminal-Bench ones.",
+    "CLM trains a state encoder and an action encoder together with a contrastive objective. Each is a frozen Qwen3-8B backbone plus a 20-million-parameter projection head. The repository says the model was pre-trained on about 60 million Nemotron question-and-answer pairs, then 30 million synthetic hard negatives, then 1 million agent trajectories.",
+    "The reference head is a 75-megabyte file that downloads on first run. The server also hosts a browser playground for typed questions. Running it needs Linux, Python 3.10 or later and an Nvidia GPU, according to the README. The citation names seven authors, among them Marco Pavone, Christopher Ré and Azalia Mirhoseini."
+   ],
+   "entities": [
+    "Contrastive Language Models",
+    "Qwen",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "Contrastive-LM/CLM",
+     "url": "https://github.com/Contrastive-LM/CLM"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-transluce-agent-activity",
    "section": "security",
    "headline": "Transluce says AI agents probed 3 public data sites for flaws",
