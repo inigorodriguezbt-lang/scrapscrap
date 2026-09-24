@@ -92,8 +92,22 @@ def link_of(node) -> str:
     return ""
 
 
+def _ai_terms() -> list[str]:
+    try:
+        cfg = yaml.safe_load((ROOT / "config" / "discover.yaml").read_text(encoding="utf-8"))
+        return cfg["hackernews"]["ai_terms"]
+    except Exception:
+        return ["ai", "llm", "model", "agent", "openai", "anthropic", "gpu", "robot"]
+
+
+def is_ai(text: str, terms: list[str]) -> bool:
+    low = text.lower()
+    return any(re.search(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])", low) for t in terms)
+
+
 def read_feed(source: dict, cutoff: dt.datetime) -> tuple[list[dict], str]:
     """Return (records, status). One broken feed must not stop the edition."""
+    terms = _ai_terms() if source.get("ai_only") else None
     try:
         root = ET.fromstring(get(source["url"]))
     except Exception as exc:
@@ -112,6 +126,9 @@ def read_feed(source: dict, cutoff: dt.datetime) -> tuple[list[dict], str]:
         summary = strip_html(field(entry, "description", "summary", "content"))[:600]
         url = link_of(entry)
         if not title:
+            continue
+        if terms and not is_ai(f"{title} {summary}", terms):
+            skipped += 1
             continue
 
         records.append({

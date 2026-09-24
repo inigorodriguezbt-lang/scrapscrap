@@ -14,8 +14,8 @@
 # popular. Each source has its own window, in hours, measured from when the
 # thing was created or posted. Anything older is left out entirely.
 max_age_hours:
-  tips: 8            # HuggingNews, Techmeme, TestingCatalog: breaking items
-  hn: 12             # Hacker News front page, by submission time
+  tips: 12           # HuggingNews, Techmeme, TestingCatalog: breaking items
+  hn: 24             # Hacker News front page, by submission time
   show_hn: 24
   models: 48         # a model created in the last two days and already trending
   spaces: 48

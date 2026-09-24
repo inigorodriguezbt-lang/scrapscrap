@@ -12,7 +12,7 @@ or a funding round for a company nobody has heard of, the answer is usually no.
 ## Fresh or nothing
 
 The paper publishes every two hours. **A story is about something that
-happened in the last six hours; a snippet, the last twelve.** Measure from the
+happened in the last twelve hours; a snippet, the last twenty-four.** Measure from the
 source's own timestamp (the post, the release, the commit), not from when an
 aggregator noticed it. A model that has been trending for three days is not
 news today, however many likes it has; if the paper missed it, it missed it.
