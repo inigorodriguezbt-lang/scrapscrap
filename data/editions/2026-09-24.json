@@ -31,6 +31,226 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-horizon-create-studio",
+   "section": "products",
+   "headline": "Meta opens AI game-making tools to phones and browsers",
+   "standfirst": "Horizon Create and Horizon Studio build playable 2D and 3D games from written prompts, with early access rolling out through an open waitlist.",
+   "body": [
+    "Meta announced two tools on Thursday that build games from written descriptions: Horizon Create, a phone app, and Horizon Studio, a browser editor. Both run on what the company calls the Meta Horizon Engine, and games made in them publish to Facebook, Instagram and Horizon feeds.",
+    "Meta said the tools draw on the engine's agentic creation to produce progression systems, difficulty balance, art direction and multiplayer support, which creators then refine element by element. The claim is the company's own. No one outside Meta has published a test of what the tools actually produce.",
+    "\"If you have a great idea for a game, you should be able to build it and get it in front of players without spending months navigating tools, hardware, and marketing,\" said Saxs Persson, Meta's vice-president of Horizon. Horizon Studio needs no installation and no gaming PC, according to the announcement.",
+    "Early access is rolling out gradually through an open waitlist, and the tools are in testing with Meta's creator community. Projects sync between the phone app and the browser editor. The Verge, which reported the launch, said Horizon Studio offers more granular controls than the phone app."
+   ],
+   "entities": [
+    "Meta",
+    "Horizon Create",
+    "Horizon Studio",
+    "Saxs Persson"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games"
+    },
+    {
+     "author": "Unite.AI",
+     "url": "https://www.unite.ai/meta-introduces-horizon-create-and-horizon-studio-ai-game-tools/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-muse-filesystem-dump",
+   "section": "security",
+   "headline": "Meta's Muse hands over its own filesystem when asked",
+   "standfirst": "Two developers say the agent zipped up its root filesystem for them with little prompting, and Meta's answer is that the machine belongs to the user.",
+   "body": [
+    "Two developers say Meta's Muse agent packaged and handed over the contents of its root filesystem after little prompting, according to The Verge, which reported the claims on Thursday. Peter James and Jonny L. Saunders each say they got the agent to zip up Ubuntu system files, app templates and internal documentation.",
+    "The Verge is the only outlet carrying the two accounts, and no one has examined either developer's files. An account that follows the company closely, @firstadopter, posted what it presented as Meta's own explanation of how Muse is built. The paper could not find that text on a Meta page.",
+    "The explanation sets out a dedicated cloud virtual machine for every Muse user, an isolated Linux box where the user \"can poke around and see all the files that make the system work\". When a user asks Muse for its entire filesystem and receives gigabytes, it says, they are \"seeing the full contents of the runtime cell\".",
+    "The same text says Meta strips personally identifying information from conversations and tool calls before using them to train new checkpoints. Meta shipped Muse this month and it reached the top of the App Store. The Verge put its daily users in the United States at 600,000, citing an estimate from Apptopia."
+   ],
+   "entities": [
+    "Meta",
+    "Muse",
+    "Peter James",
+    "Jonny L. Saunders",
+    "Apptopia"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem"
+    },
+    {
+     "author": "@firstadopter",
+     "url": "https://x.com/firstadopter/status/2103211291846332598"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-chatgpt-pro-max",
+   "section": "products",
+   "headline": "TestingCatalog says OpenAI is building a $500 ChatGPT plan",
+   "standfirst": "The site says a tier called ChatGPT Pro Max turned up in development, days before OpenAI's DevDay in San Francisco. OpenAI has said nothing.",
+   "body": [
+    "OpenAI is building a ChatGPT tier called Pro Max that would cost $500, TestingCatalog said on Thursday evening. The site, which reports what it finds in app strings and live tests, said the plan had been \"spotted in development\" and gave no date for it.",
+    "Nothing in this is confirmed by OpenAI, and TestingCatalog is the only source for it. The site tied the plan to long-running work, saying OpenAI \"has been exploring ways to enable users to work with ChatGPT on long-running tasks for quite a while\".",
+    "TestingCatalog called the price \"one of the most expensive AI subscriptions available on the market\". It did not say what usage the tier would carry. The account @kimmonismus repeated the $500 figure within minutes, without adding a source of its own, and said rates were not yet known.",
+    "The site expects OpenAI's DevDay next week to be the moment more is said. It reported separately on Wednesday that three developer plans, Free, Prototype and Accelerate, the last starting at $50, had appeared in discovered strings, and put DevDay on 29 September in San Francisco."
+   ],
+   "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2103234677842559034"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2103238785278312463"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/devday-new-plans-and-new-platform-for-building-ai-apps/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-photos-virtual-closet",
+   "section": "products",
+   "headline": "Google Photos brings its virtual closet to iPhones",
+   "standfirst": "The feature builds a wardrobe out of a user's own photos, and is now in the United States, Brazil and India on both Android and iOS.",
+   "body": [
+    "Google Photos has opened its virtual closet to iOS users in the United States, Brazil and India, TechCrunch reported on Thursday. The feature sorts clothes out of a user's own photos into a wardrobe that can be filtered by tops, bottoms and jewellery, then rearranged into outfits.",
+    "The tool reached Android users in June, according to the report, so this is the rollout catching up rather than a new feature. Google said the clothing data \"is not being shared with third parties, like retailers\". That is the company's own account of where the data goes.",
+    "Alongside it Google is adding Gemini Spark, which edits and shares photos from a single prompt and requires a Google AI Pro or Ultra subscription in the United States. An Android-only set of filters called Moods imitates 35mm film and the look of 2000s digital cameras.",
+    "The markup tool also gains a redacting pen that blurs sensitive parts of an image, with thickness sliders and more fonts. The report did not say when the closet reaches countries outside the three named, or whether the Gemini Spark subscription requirement will change."
+   ],
+   "entities": [
+    "Google",
+    "Google Photos",
+    "Gemini Spark"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-snapdragon-sound-elite-gen2",
+   "section": "chips",
+   "headline": "Qualcomm puts on-device AI into a new earbud chip",
+   "standfirst": "Snapdragon Sound Elite Gen 2 is aimed at earbuds, headphones and audio glasses, with Qualcomm claiming twice the AI capability of the part it follows.",
+   "body": [
+    "Qualcomm has launched Snapdragon Sound Elite Gen 2, a chip for earbuds, headphones, audio glasses and camera-equipped earbuds, Engadget reported on Thursday. Qualcomm said it carries twice the AI capability of the Snapdragon S7 Gen 1 Sound Platform that it follows.",
+    "The doubling is the company's own figure, and Qualcomm did not publish the measurement behind it. The chip supports aptX Lossless and Qualcomm's XPAN, which moves audio between Bluetooth and Wi-Fi. Engadget listed Wi-Fi 6E among its connections.",
+    "What the on-device processing is meant to buy, according to Qualcomm, is translation in real time without a phone, amplification of speech for people who are hard of hearing, and back-and-forth talk with an assistant. The company did not name a device partner.",
+    "\"Those interactions won't always happen through a screen,\" said Ziad Asghar, a senior vice-president and general manager at Qualcomm. He said users would \"simply speak to an AI assistant and receive help in real time\". Qualcomm gave no date for products using the chip, and no independent measurement of it has been published."
+   ],
+   "entities": [
+    "Qualcomm",
+    "Snapdragon Sound Elite Gen 2",
+    "Ziad Asghar"
+   ],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2267407/qualcomm-snapdragon-sound-elite-ai-for-audio-wearables/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-fri-expert-forecasts",
+   "section": "research",
+   "headline": "Study finds AI experts underestimated the pace of AI",
+   "standfirst": "The Forecasting Research Institute says its panel put a maths-olympiad gold two years late, and top AI revenue at a fifth of the reported figure.",
+   "body": [
+    "Experts on a forecasting panel put AI milestones later than they arrived, according to the Forecasting Research Institute, in work reported on Thursday by The Decoder. The panel put gold-medal performance at the International Mathematical Olympiad in 2027. It happened in July 2025.",
+    "The institute drew on 339 experts in the first round of its Longitudinal Expert AI Panel: 76 computer scientists, 76 industry experts, 68 economists and 119 policy specialists, alongside superforecasters picked for past accuracy. Thirty of the computer scientists are professors at top-20 institutions, according to the report.",
+    "Revenue was the widest gap. The panel's forecast for the highest annual recurring revenue at the end of 2026 was $20 billion. Anthropic is reported to have reached about $100 billion by this month. Superforecasters were later than the experts on the olympiad, putting it at 2032.",
+    "The pattern does not hold everywhere. On self-driving, the median expert put autonomous ride-hailing at 7.3% of United States trips in 2027, above the 2.5% the institute derived from a language model. On virology, experts said 2030 and superforecasters 2034; the institute dates the moment to April 2025."
+   ],
+   "entities": [
+    "Forecasting Research Institute",
+    "Anthropic",
+    "The Decoder"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-akamai-anthropic-warrant",
+   "section": "business",
+   "headline": "Akamai hands Anthropic a warrant for 5% of itself",
+   "standfirst": "Anthropic committed $11.6 billion over seven years for Akamai cloud capacity, and took a warrant over 7.7 million Akamai shares in return.",
+   "body": [
+    "Anthropic has committed to spend $11.6 billion with Akamai over seven years, and holds in return a warrant over 7.7 million Akamai shares, about 5% of the company, at an exercise price of $111.33. Akamai set out the terms in a filing on Thursday.",
+    "About 2% of that vests on announcement, according to the filing, with roughly a further 1% for each additional $3 billion of services, up to about 3% more. The agreement could expand by $9 billion, which would take the total commitment towards $20 billion.",
+    "Akamai put the capital expenditure behind the $11.6 billion commitment at about $5.5 billion, and said it would raise 2026 capital spending by roughly $1.7 billion to pre-purchase components, memory among them. It said the agreement does not change its 2026 revenue guidance.",
+    "\"Anthropic is advancing the AI revolution and we are thrilled they chose Akamai's capabilities for building and operating AI infrastructure at scale,\" said Tom Leighton, Akamai's co-founder and chief executive. Akamai shares rose about 16% in extended trading, according to Reuters, which reported the warrant is a first for the company."
+   ],
+   "entities": [
+    "Anthropic",
+    "Akamai",
+    "Tom Leighton"
+   ],
+   "sources": [
+    {
+     "author": "Akamai (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001086222/000119312526401048/d288154dex991.htm"
+    },
+    {
+     "author": "Reuters",
+     "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-xi-trump-ai-summit",
+   "section": "policy",
+   "headline": "Xi says US and China must keep AI under human control",
+   "standfirst": "At a White House arrival ceremony, China's leader called the two countries the leading AI nations, with a shared responsibility for the technology.",
+   "body": [
+    "Xi Jinping said on Thursday that China and the United States are the leading nations in AI and share a responsibility for how it develops. He was speaking at a White House arrival ceremony at the start of a state visit that runs from 23 to 25 September.",
+    "Xi said the two countries \"have both the capability and responsibility to develop and manage AI for good\", and should \"ensure the development of AI is always under human control\". Bloomberg reported the remarks, in a piece filed by Jeff Mason, Hadriana Lowenkron and Nectar Gan.",
+    "The two governments disagree on what that would mean. Trump has argued for unfettered development to hold the American lead, and has called warnings of an existential threat from AI a \"hoax\". Beijing has criticised United States export controls on semiconductors, which it says constrain Chinese companies.",
+    "Treasury Secretary Scott Bessent said the two countries had agreed to extend their trade truce by about two months, to 10 January. No agreement on AI itself was announced at the ceremony, according to the report."
+   ],
+   "entities": [
+    "Xi Jinping",
+    "Donald Trump",
+    "Scott Bessent",
+    "Bloomberg"
+   ],
+   "sources": [
+    {
+     "author": "Bloomberg, via The Spokesman-Review",
+     "url": "https://www.spokesman.com/stories/2026/sep/24/trump-xi-begin-state-visit-with-nod-at-fierce-ai-r/"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
    "cluster_id": "find-flux-3-action",
    "section": "models",
    "headline": "Black Forest Labs posts open robotics model, says it beats larger rivals",
@@ -60,7 +280,7 @@
      "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "c1941ef34",
@@ -87,7 +307,7 @@
      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cb10794c3",
@@ -117,7 +337,7 @@
      "url": "https://docs.perplexity.ai/api-reference/search-post"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-seclab-fuzzing-taskflow",
@@ -144,7 +364,7 @@
      "url": "https://github.com/GitHubSecurityLab/seclab-taskflows-fuzzing"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-prismml-snapdragon-ar1",
@@ -167,7 +387,7 @@
      "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-long-form-video-codirector",
@@ -190,7 +410,7 @@
      "url": "https://research.google/blog/coherent-long-form-video-generation/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-wh-uk-aisi-hold",
@@ -222,7 +442,7 @@
      "url": "https://x.com/hamandcheese/status/2103178071406752099"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-oracle-jupiter-force-majeure",
