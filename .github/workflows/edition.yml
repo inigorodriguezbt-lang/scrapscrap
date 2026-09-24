@@ -72,6 +72,11 @@ jobs:
       - name: Declare stories
         run: python -m pipeline.cluster
 
+      # The worklist: brief + finds, minus everything already carried. The
+      # desk reads this one file instead of the brief, finds and editions.
+      - name: Build the worklist
+        run: python -m pipeline.desk
+
       # Writes only clusters not already in today's edition, into a side file.
       # Published copy is never rewritten; see .claude/commands/hourly.md.
       - name: Write what is new
@@ -82,6 +87,7 @@ jobs:
           claude_args: >-
             --allowedTools Read,Write,Edit,WebFetch,
             Bash(python -m pipeline.merge),
+            Bash(python -m pipeline.snippets),
             Bash(python -m pipeline.stylecheck),
             Bash(python -m pipeline.charts_ds)
 
