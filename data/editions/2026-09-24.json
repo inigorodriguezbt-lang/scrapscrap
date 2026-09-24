@@ -31,6 +31,38 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "c992649ec",
+   "section": "models",
+   "headline": "DeepMind chief says Gemini 4 has entered early post-training",
+   "standfirst": "Koray Kavukcuoglu told a conference on Wednesday that Google aims to release the model much earlier than the end of the year.",
+   "body": [
+    "The new head of Google DeepMind, Koray Kavukcuoglu, said on Wednesday that Gemini 4 has entered the early stages of post-training, and that Google aims to release it much earlier than the end of this year. He was speaking at The Information's AI Agenda Live Summit, in what the publication described as his first media appearance since taking the job.",
+    "According to The Information's account, Kavukcuoglu said Google intends to put out an early post-training version of the model as soon as possible, because the results so far have encouraged the team. The Verge and Investing.com both carried the remarks on Thursday. Google has not published a release date, a price or a parameter count.",
+    "Post-training is the refinement that follows the base-model run, the stage at which a model is tuned for reliability and for following instructions. Kavukcuoglu's account places Gemini 4 near the start of that stage rather than the end, so the timing may still move. Nobody outside Google has tested the model.",
+    "Google released two Gemini 3.8 text-to-speech models on Tuesday, gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts, according to the developer Simon Willison, who built a browser playground for them. Those are additions to the Gemini 3 line. Gemini 4 would be the first new flagship from the division since Kavukcuoglu took charge."
+   ],
+   "entities": [
+    "Google DeepMind",
+    "Google",
+    "The Information"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
+    },
+    {
+     "author": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/google-nears-release-of-gemini-4-ai-model-deepmind-head-tells-the-information-93CH-4914393"
+    },
+    {
+     "author": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-higgsfield-model-duels",
    "section": "ai",
    "headline": "Higgsfield posts a week of Opus 5.5 against GPT-6 duels",
@@ -216,7 +248,7 @@
      "url": "https://transluce.org/agent-activity"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "meta-muse-realtime-avatar",

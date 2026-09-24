@@ -1,52 +1,15 @@
 {
-  "generated_at": "2026-09-24T08:04:20.371169+00:00",
+  "generated_at": "2026-09-24T10:05:02.381936+00:00",
   "edition_date": "2026-09-24",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 89,
-  "clusters_found": 79,
+  "posts_considered": 77,
+  "clusters_found": 68,
   "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccbe7efba",
-      "score": 8.297,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "Reuters",
-        "rohanpaul_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-24T06:25:01+00:00",
-      "last_seen": "2026-09-24T06:36:41+00:00",
-      "links": [
-        "https://x.com/Reuters/status/2103007781447995653",
-        "https://x.com/rohanpaul_ai/status/2103010718408917063"
-      ],
-      "posts": [
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "US President Donald Trump welcomes Chinese President Xi Jinping to the White House for a lavish state summit expected to be heavy on symbolism but light on substance, with both leaders keen to showcase stable ties despite a deep underlying rivalry",
-          "url": "https://x.com/Reuters/status/2103007781447995653",
-          "created_at": "2026-09-24T06:25:01+00:00",
-          "engagement": 68
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "\"THE US TOTALLY REJECTS ANY ATTEMPT TO CONSTRUCT A GLOBALIST SCHEME OF CONTROL FOR SUPERINTELLIGENCE.\" - Michael Kratsios, senior technology adviser to President Trump, at the UN Security Council. At the UN Security Council on Sept-23, White House science adviser Michael Kratsios said rapid progress can not justify pausing development or creating new global governance str",
-          "url": "https://x.com/rohanpaul_ai/status/2103010718408917063",
-          "created_at": "2026-09-24T06:36:41+00:00",
-          "engagement": 28
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca859affe",
-      "score": 7.814,
+      "cluster_id": "c02255a83",
+      "score": 9.977,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -54,13 +17,15 @@
         "Meta"
       ],
       "independent_sources": [
+        "Stratechery",
         "TechCrunch AI",
         "The Verge AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-23T22:30:00+00:00",
-      "last_seen": "2026-09-24T01:13:32+00:00",
+      "last_seen": "2026-09-24T10:00:00+00:00",
       "links": [
+        "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
         "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
         "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
         "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
@@ -98,12 +63,59 @@
           "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
           "created_at": "2026-09-24T01:13:32+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg. An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
+          "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+          "created_at": "2026-09-24T10:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c992649ec",
+      "score": 9.951,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T17:12:27+00:00",
+      "last_seen": "2026-09-24T09:04:18+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Gemini 3.8 TTS Playground. Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with diffe",
+          "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+          "created_at": "2026-09-23T17:12:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Gemini 4 is almost ready, says new Google DeepMind chief. Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is [&#8230;]",
+          "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+          "created_at": "2026-09-24T09:04:18+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c263b51d1",
-      "score": 7.325,
+      "score": 6.99,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
