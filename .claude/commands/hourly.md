@@ -183,3 +183,16 @@ python -m pipeline.social --edition data/editions/<today>.json --pending --this-
 
 The backlog only grows, and most of it they have already seen and chosen not to
 send. If you wrote nothing, say so and show nothing.
+
+## The copy file
+
+Then write this run's articles, in full, to one file for the editor:
+
+```bash
+python -m pipeline.copydesk
+```
+
+It writes `data/copy/<today>-<HHMM>.md` with each new story's headline,
+standfirst, full body, live URL and drafted post. Commit it with the rest,
+and send it to the editor as a file. Keep the chat reply short: the
+headlines only, one per line. The full text lives in the file, not the chat.
