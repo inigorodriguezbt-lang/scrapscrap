@@ -1,130 +1,111 @@
 {
-  "generated_at": "2026-09-24T00:04:44.340241+00:00",
+  "generated_at": "2026-09-24T02:02:55.378019+00:00",
   "edition_date": "2026-09-24",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 82,
-  "clusters_found": 73,
-  "stories_declared": 4,
+  "posts_considered": 74,
+  "clusters_found": 64,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2b9993f7",
-      "score": 11.844,
+      "cluster_id": "ca859affe",
+      "score": 8.818,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "AnthropicAI",
-        "WesRoth"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T22:25:24+00:00",
-      "last_seen": "2026-09-23T23:08:15+00:00",
-      "links": [
-        "https://x.com/AnthropicAI/status/2102897863097545197",
-        "https://x.com/WesRoth/status/2102887080695394534"
-      ],
-      "posts": [
-        {
-          "author": "WesRoth",
-          "tier": "commentary",
-          "text": "Claude showed INTUITION in it's bio discovery today\n\nthere were 950 agents using tools to comb thru MASSIVE genomic data\n\none Claude agent noticed something weird and READ THE RAW DNA LETTERS into it's context memory\n\nthese LLM are a lot more similar to our brains that we imagine",
-          "url": "https://x.com/WesRoth/status/2102887080695394534",
-          "created_at": "2026-09-23T22:25:24+00:00",
-          "engagement": 33
-        },
-        {
-          "author": "AnthropicAI",
-          "tier": "commentary",
-          "text": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines, @WHOAFRO, and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant.\n\nRead the full piece here: https://t.co/lQKx17Mxc3",
-          "url": "https://x.com/AnthropicAI/status/2102897863097545197",
-          "created_at": "2026-09-23T23:08:15+00:00",
-          "engagement": 447
-        }
-      ]
-    },
-    {
-      "cluster_id": "c37a27660",
-      "score": 11.523,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "models",
       "entities": [
-        "OpenAI"
+        "Meta"
       ],
       "independent_sources": [
-        "OpenAI",
-        "Reuters"
+        "TechCrunch AI",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T12:00:00+00:00",
-      "last_seen": "2026-09-23T22:15:00+00:00",
+      "first_seen": "2026-09-23T22:30:00+00:00",
+      "last_seen": "2026-09-24T01:13:32+00:00",
       "links": [
-        "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "https://x.com/Reuters/status/2102884462925107203"
+        "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+        "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
+        "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
+        "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware"
       ],
       "posts": [
         {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Sam Altman’s remarks at the United Nations Security Council. OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-          "created_at": "2026-09-23T12:00:00+00:00",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch. It's time once again for Meta's annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live. Meta says that today's keynote by Mark Zuckerberg will be about how \"Meta is building a future for everyone\" - something he wrote at length about in a recent [&#8230;]",
+          "url": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
+          "created_at": "2026-09-23T22:30:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "President Volodymyr Zelenskiy warned Moscow at the United Nations that Ukraine would strike back and make the coming winter deeply 'painful' for Russia, if the two sides cannot agree on a truce on energy before the cold sets in",
-          "url": "https://x.com/Reuters/status/2102884462925107203",
-          "created_at": "2026-09-23T22:15:00+00:00",
-          "engagement": 366
-        }
-      ]
-    },
-    {
-      "cluster_id": "cfbd13825",
-      "score": 11.275,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "IntCyberDigest",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T04:59:08+00:00",
-      "last_seen": "2026-09-23T21:54:58+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-        "https://x.com/IntCyberDigest/status/2102879420541186390"
-      ],
-      "posts": [
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta Connect 2026: The biggest news and announcements. It&#8217;s about time for Meta Connect, the company&#8217;s annual product launch event. This year, given the company&#8217;s major focus on AI and wearables like smart glasses, it seems likely that we&#8217;ll see updates from CEO Mark Zuckerberg and his team on those categories. The company has been facing significant scrutiny because of how some users [&#8230;]",
+          "url": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
+          "created_at": "2026-09-23T22:45:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta is making a standalone Muse AI gadget. Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little lanyard for [&#8230;]",
+          "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+          "created_at": "2026-09-24T00:15:20+00:00",
+          "engagement": 0
+        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
-          "text": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI. Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
-          "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-          "created_at": "2026-09-23T04:59:08+00:00",
+          "text": "Everything new coming to Meta’s AI agent Muse. CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+          "created_at": "2026-09-24T01:13:32+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2488bd0a",
+      "score": 8.45,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "arXiv"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T12:33:57+00:00",
+      "last_seen": "2026-09-23T15:00:32+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.28007v1",
+        "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints. Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. The primary benchmark contains 100 systematically validated questions derived from a 109-page industrial R&D report, and the evaluation protocol is replicated using a second 112-page public-sector report and an independently constructed 100-question set. All models are evaluated locally on an NVIDIA",
+          "url": "https://arxiv.org/abs/2609.28007v1",
+          "created_at": "2026-09-23T12:33:57+00:00",
           "engagement": 0
         },
         {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "BREAKING: An OpenAI agent gained unauthorised access to Australia's Medicare portal in June and reached files that were not intended for public access, Prime Minister Anthony Albanese revealed in New York.\n\nAlbanese says he told Sam Altman of Australia's \"extreme concern\" and said OpenAI took \"way too long\" to inform the government, calling the way it did so \"unacceptable.\"\n\nEvidence currently",
-          "url": "https://x.com/IntCyberDigest/status/2102879420541186390",
-          "created_at": "2026-09-23T21:54:58+00:00",
-          "engagement": 150
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale. When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+          "created_at": "2026-09-23T15:00:32+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c263b51d1",
-      "score": 8.658,
+      "score": 8.329,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
