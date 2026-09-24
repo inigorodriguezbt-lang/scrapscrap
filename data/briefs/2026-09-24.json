@@ -1,15 +1,214 @@
 {
-  "generated_at": "2026-09-24T12:05:23.034889+00:00",
+  "generated_at": "2026-09-24T14:04:42.517797+00:00",
   "edition_date": "2026-09-24",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 64,
-  "clusters_found": 55,
-  "stories_declared": 3,
+  "posts_considered": 135,
+  "clusters_found": 102,
+  "stories_declared": 11,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c02255a83",
-      "score": 9.642,
+      "cluster_id": "c5a2a4777",
+      "score": 11.898,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Hugging Face"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Engadget",
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-09-24T09:08:58+00:00",
+      "last_seen": "2026-09-24T14:01:05+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+        "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+        "https://www.bloomberg.com/news/videos/2026-09-24/openai-agent-hacked-australian-government-website-video",
+        "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
+        "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+        "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI Agent Hacked Australian Government Website. An OpenAI model hacked an Australian government website earlier this year, marking one of the first known cyberattacks by AI on a government database. Paul Allen has more. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/openai-agent-hacked-australian-government-website-video",
+          "created_at": "2026-09-24T09:08:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "OpenAI's agent hacked into an Australian government website. Researchers and the Prime Minister of Australia have revealed more instances of OpenAI's agents going rogue.",
+          "url": "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
+          "created_at": "2026-09-24T10:01:55+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later. The country’s prime minister expressed disappointment at being informed of the hack only via email. Now Australia is investigating whether OpenAI broke the law.",
+          "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+          "created_at": "2026-09-24T10:46:56+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI agents hacked an Australian government website in search for data. OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems and the responsibility of the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+          "created_at": "2026-09-24T11:52:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Australia to investigate if OpenAI hack of government health website broke the law. The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+          "created_at": "2026-09-24T12:54:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI's agents went after government and university sites months before Hugging Face. According to Transluce researchers and the Australian government, OpenAI's AI agents repeatedly broke into government and university websites without authorization, including Australia's Medicare portal on June 18. The cause was a mundane data search. Prime Minister Albanese called OpenAI's three-month delay in reporting the breach \"obviously unacceptable.\" Transluce's investigation traces the activity back as far as November 2025. The article OpenAI&#039;s agents went after government and university sites months before Hugging Face appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+          "created_at": "2026-09-24T14:01:05+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c557dd292",
+      "score": 11.633,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Bloomberg Tech",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-23T16:37:43+00:00",
+      "last_seen": "2026-09-24T13:35:44+00:00",
+      "links": [
+        "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/",
+        "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+        "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
+        "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
+        "https://www.bloomberg.com/news/articles/2026-09-24/ex-deepmind-researcher-thore-graepel-raising-funds-for-ai-reasoning-startup",
+        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing. YouTube is adding AI tools to its creator studio. A storytelling assistant analyzes scripts and rough cuts, Gemini becomes a chat-based editing assistant for Shorts, and a new live translation feature turns English streams into Spanish. The article YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing appeared first on The Decoder .",
+          "url": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
+          "created_at": "2026-09-23T16:37:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new Flash TTS models let you design AI voices from scratch using text descriptions. Google is introducing two new text-to-speech models, Gemini 3.8 Flash TTS and Flash-Lite TTS, which support more than 100 languages. Flash TTS can create new voices from text descriptions, and both models let users add stage directions to individual lines and generate two-voice dialogue from a single script. A voice cloning feature can build a voice profile from a 30-second sample. The article Google&#039;s new Flash TTS models let you design AI voices from scratch using text descriptions appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
+          "created_at": "2026-09-23T17:39:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Gemini 4 is almost ready, says new Google DeepMind chief. Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is [&#8230;]",
+          "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+          "created_at": "2026-09-24T09:04:18+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Ex-DeepMind Researcher Thore Graepel Raising Funds for AI Reasoning Startup. A co-creator of AlphaGo, the landmark AI program from Google DeepMind, is the latest prominent researcher from the company to depart and seek significant funding for a new startup, according to people familiar with the matter.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-24/ex-deepmind-researcher-thore-graepel-raising-funds-for-ai-reasoning-startup",
+          "created_at": "2026-09-24T11:21:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Adobe expands creative tool access to Google Gemini, brings Acrobat to Claude. Adobe today announced two major expansions to its AI chatbot integrations, bringing its creative tools to Google Gemini while adding Acrobat tools to Claude. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/",
+          "created_at": "2026-09-24T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door. Google Deepmind chief Koray Kavukcuoglu wants to release Gemini 4 \"much earlier\" than the end of the year. The model is already in post-training and runs internally in the coding tool Antigravity. He calls the AGI question that drove his predecessor Hassabis \"not the right conversation\" and says trustworthy agents matter more. After Gemini 3.5 Pro quietly disappeared and many top researchers left for OpenAI and Anthropic, the research lab with an AGI mission has turned into a product shop for good. The article Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door ",
+          "url": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+          "created_at": "2026-09-24T13:35:44+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c24f7232e",
+      "score": 10.938,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Alibaba"
+      ],
+      "independent_sources": [
+        "Tom's Hardware",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T15:34:36+00:00",
+      "last_seen": "2026-09-24T13:25:22+00:00",
+      "links": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-claims-new-qwen-image-2-1-ai-model-beats-google-nano-banana-2-0-with-minuscule-7b-parameter-model-benchmarks-show-open-weight-contender-is-competitive-with-openai-and-meta-image-models",
+        "https://x.com/testingcatalog/status/2103113565880090830"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model. Alibaba Group's AI division has released Qwen 2.1 Image, an ultra-lightweight image generation model with just 7B parameters, able to run on local hardware like the RTX 3090.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-claims-new-qwen-image-2-1-ai-model-beats-google-nano-banana-2-0-with-minuscule-7b-parameter-model-benchmarks-show-open-weight-contender-is-competitive-with-openai-and-meta-image-models",
+          "created_at": "2026-09-23T15:34:36+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "GOOGLE: Nano Banana 2.5 Flash traces have been spotted on Google Flow.\n\nSoon?",
+          "url": "https://x.com/testingcatalog/status/2103113565880090830",
+          "created_at": "2026-09-24T13:25:22+00:00",
+          "engagement": 97
+        }
+      ]
+    },
+    {
+      "cluster_id": "c601a82a0",
+      "score": 10.617,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -17,19 +216,23 @@
         "Meta"
       ],
       "independent_sources": [
+        "9to5Mac",
         "Stratechery",
         "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "Wired AI"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "first_seen": "2026-09-23T22:30:00+00:00",
       "last_seen": "2026-09-24T10:00:00+00:00",
       "links": [
+        "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
         "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
         "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
         "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
         "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
-        "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware"
+        "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+        "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/"
       ],
       "posts": [
         {
@@ -49,6 +252,14 @@
           "engagement": 0
         },
         {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices. At its Meta Connect event, CEO Mark Zuckerberg announced a handful of new smart glasses, including a slimmed-down VR headset and the company’s first camera-free glasses.",
+          "url": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
+          "created_at": "2026-09-23T23:42:44+00:00",
+          "engagement": 0
+        },
+        {
           "author": "The Verge AI",
           "tier": "press",
           "text": "Meta is making a standalone Muse AI gadget. Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little lanyard for [&#8230;]",
@@ -65,6 +276,14 @@
           "engagement": 0
         },
         {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Meta announces camera-free glasses, dedicated Muse AI gadget, more. Meta announced today a series of AI-powered devices, including the Muse Charm, a palm-sized gadget designed specifically for its new Muse AI assistant. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
+          "created_at": "2026-09-24T01:24:44+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Stratechery",
           "tier": "commentary",
           "text": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg. An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
@@ -75,71 +294,244 @@
       ]
     },
     {
-      "cluster_id": "c992649ec",
-      "score": 9.617,
+      "cluster_id": "cb51b7b47",
+      "score": 8.863,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "Google"
+        "OpenAI",
+        "Meta",
+        "Apple"
       ],
       "independent_sources": [
-        "Simon Willison",
+        "The Decoder",
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T17:12:27+00:00",
-      "last_seen": "2026-09-24T09:04:18+00:00",
+      "first_seen": "2026-09-23T14:42:38+00:00",
+      "last_seen": "2026-09-24T13:31:43+00:00",
       "links": [
-        "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-        "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
+        "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+        "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/",
+        "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Gemini 3.8 TTS Playground. Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with diffe",
-          "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-          "created_at": "2026-09-23T17:12:27+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta's AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw. Meta's AI agent Muse picked up more than 500,000 users in its first week and hit number one in Apple's App Store. But Meta admits the product is \"heavily inspired\" by the open-source project OpenClaw, and some of the file names and contents are nearly identical. OpenAI is already discussing a response of its own. The article Meta&#039;s AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw appeared first on The Decoder .",
+          "url": "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/",
+          "created_at": "2026-09-23T14:42:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta gives its Muse AI agent video avatars, email addresses, and Mac control. At Meta Connect 2026, Meta expanded its AI agent, Muse, and unveiled several new devices. The article Meta gives its Muse AI agent video avatars, email addresses, and Mac control appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+          "created_at": "2026-09-24T13:10:54+00:00",
           "engagement": 0
         },
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Gemini 4 is almost ready, says new Google DeepMind chief. Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is [&#8230;]",
-          "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
-          "created_at": "2026-09-24T09:04:18+00:00",
+          "text": "Meta’s Muse AI Charms can interact with each other. Meta's handheld AI gadget, called the Muse Charm, will be able to recognize and interact with other nearby Charms when it launches later this year. That's according to a report from Bloomberg, which includes more details about the device that the company teased during its Meta Connect keynote on Wednesday. The Muse Charm houses the [&#8230;]",
+          "url": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
+          "created_at": "2026-09-24T13:31:43+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c263b51d1",
-      "score": 6.656,
+      "cluster_id": "c42ba6ee5",
+      "score": 7.847,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
+      "suggested_section": "chips",
+      "entities": [],
+      "independent_sources": [
+        "9to5Google",
+        "Engadget"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T18:30:00+00:00",
+      "last_seen": "2026-09-24T11:23:00+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/23/qualcomm-announces-snapdragon-sound-elite-gen-2/",
+        "https://www.engadget.com/2267407/qualcomm-snapdragon-sound-elite-ai-for-audio-wearables/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Qualcomm announces Snapdragon Sound Elite Gen 2 for AI ‘hearables,’ even ones with cameras. Qualcomm announced the Snapdragon Sound Elite Gen 2 as a substantial chipset for upcoming audio devices, with a massive focus on better AI performance for audio wearables. more…",
+          "url": "https://9to5google.com/2026/09/23/qualcomm-announces-snapdragon-sound-elite-gen-2/",
+          "created_at": "2026-09-23T18:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Qualcomm's Snapdragon Sound Elite is a new AI chip for audio wearables. Qualcomm has launched a new chip that will enable AI features on small audio devices.",
+          "url": "https://www.engadget.com/2267407/qualcomm-snapdragon-sound-elite-ai-for-audio-wearables/",
+          "created_at": "2026-09-24T11:23:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c25c83018",
+      "score": 7.625,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "Wired AI",
+        "arXiv"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T17:46:50+00:00",
+      "last_seen": "2026-09-23T18:03:00+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.28449v1",
+        "https://www.wired.com/story/popes-ai-advisor-warns-of-cartel-behavior-big-labs/"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark. Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snippets or functions. We introduce SWE-Flux, a repository-level benchmark for dynamic execution reasoning containing 480 execution-grounded instances across 12 real Python repositories, with gold answers automatically harvested from instrumented test executions rather than written ma",
+          "url": "https://arxiv.org/abs/2609.28449v1",
+          "created_at": "2026-09-23T17:46:50+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "The Pope’s AI Guy Is Worried About ‘Cartel’ Behavior Among Big Labs. Paolo Benanti tells WIRED that hysteria over whether godlike AI could destroy humanity is distracting from the need for public debate about how to govern the technology.",
+          "url": "https://www.wired.com/story/popes-ai-advisor-warns-of-cartel-behavior-big-labs/",
+          "created_at": "2026-09-23T18:03:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1754da0e",
+      "score": 6.408,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-24T00:05:03+00:00",
+      "last_seen": "2026-09-24T00:46:17+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+        "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Meta put Muse in a Tamagotchi like 'Charm' device. Meta's Muse Charm is a Tamagotchi-like device with Muse AI.",
+          "url": "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
+          "created_at": "2026-09-24T00:05:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta made a Tamagotchi-like wearable for its Muse AI agent. The tiny hardware device creates another mobile home for its AI agent Muse.",
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+          "created_at": "2026-09-24T00:46:17+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd0e4e208",
+      "score": 6.34,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "The Decoder",
+        "Tom's Hardware"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-23T17:24:11+00:00",
+      "last_seen": "2026-09-24T10:30:00+00:00",
+      "links": [
+        "https://9to5mac.com/2026/09/23/openai-just-upgraded-chatgpt-voice-in-three-ways/",
+        "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/british-columbia-sues-openai-to-pay-for-new-school-after-tumbler-ridge-shooting-lawsuit-says-openai-identified-shooters-chatgpt-account-eight-months-prior-but-didnt-warn-police"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI just upgraded ChatGPT Voice in three ways. Talking to ChatGPT is getting better in three ways starting today. OpenAI is rolling out a collection of improvements to how ChatGPT Voice mode works. more…",
+          "url": "https://9to5mac.com/2026/09/23/openai-just-upgraded-chatgpt-voice-in-three-ways/",
+          "created_at": "2026-09-23T17:24:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access. ChatGPT Voice now runs on OpenAI's new GPT-6 Astra, Sol, and Luna models and can tap into plugins like email, calendar, and Slack. Users can manage appointments, send emails, or build websites just by talking. The update moves OpenAI closer to the everyday AI assistant Sam Altman has long compared to the one in the sci-fi film \"Her.\" The article ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
+          "created_at": "2026-09-23T17:57:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "British Columbia sues OpenAI and Sam Altman for 'aiding and abetting' school shooter. B.C. is demanding compensation after it says OpenAI's reviewers wanted to call police about the Tumbler Ridge shooter before the attack.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/british-columbia-sues-openai-to-pay-for-new-school-after-tumbler-ridge-shooting-lawsuit-says-openai-identified-shooters-chatgpt-account-eight-months-prior-but-didnt-warn-police",
+          "created_at": "2026-09-24T10:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca56edbf0",
+      "score": 3.955,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
       "entities": [
         "Anthropic"
       ],
       "independent_sources": [
         "TechCrunch AI",
-        "The Verge AI"
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T18:00:00+00:00",
+      "first_seen": "2026-09-23T15:14:34+00:00",
       "last_seen": "2026-09-23T22:17:39+00:00",
       "links": [
         "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-        "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr"
+        "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Anthropic&#8217;s biolab made a discovery it&#8217;s comparing to Crispr. Anthropic says its AI Claude has \"autonomously discovered\" a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr. It's the first result from Anthropic's newly-launched wet lab and an early test of Claude's usefulness for science as the company prepares to go public. The company says Claude found the enzyme system after [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
-          "created_at": "2026-09-23T18:00:00+00:00",
+          "text": "Anthropic engineer explains why Claude's writing got worse although the model got smarter. Anthropic employee Jackson Kernion explains why newer Claude models write so oddly. Optimizing for math, code, and technical explanations aimed at other AI models has created a style that sounds like \"overly-dense info dumps\" to humans. Opus 5.5 tries to fix this, but Opus 4.6 remains unmatched as a pure writing model. The article Anthropic engineer explains why Claude&#039;s writing got worse although the model got smarter appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/",
+          "created_at": "2026-09-23T15:14:34+00:00",
           "engagement": 0
         },
         {
@@ -148,6 +540,43 @@
           "text": "Anthropic says its biology lab has already found something big. But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
           "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
           "created_at": "2026-09-23T22:17:39+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c22ea4435",
+      "score": 3.625,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "9to5Google",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-23T14:30:00+00:00",
+      "last_seen": "2026-09-23T15:19:30+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/23/youtube-music-ask-gemini/",
+        "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "YouTube Music adding corner access to ‘Ask Music’ with Gemini. As part of Made on YouTube 2026 , a handful of updates to YouTube Music that are coming later this year were previewed. more…",
+          "url": "https://9to5google.com/2026/09/23/youtube-music-ask-gemini/",
+          "created_at": "2026-09-23T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "YouTube Music gets more conversational with new AI features. Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
+          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+          "created_at": "2026-09-23T15:19:30+00:00",
           "engagement": 0
         }
       ]
