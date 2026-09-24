@@ -54,8 +54,14 @@ hackernews:
 # query asks only for posts that already have traction.
 x:
   budget: 100          # posts per cycle, across the account sweep AND these
-  sweep_share: 80      # of which the account sweep gets this many
+  sweep_share: 70      # of which the account sweep gets this many
   min_faves: 25        # account sweep: skip the low-traction posts
   queries:
     # New public repos people are sharing, already taking off.
     - "(url:github.com OR url:huggingface.co) (AI OR LLM OR model OR agent OR robot) min_faves:300 -filter:replies"
+    # What people are BUILDING with a model that just shipped. The account
+    # sweep catches the launch; it never catches the week that follows, which
+    # is where the demos, the stunts and the head-to-heads live. Deliberately
+    # model-agnostic: names go stale in a fortnight, "I built X with it" does
+    # not. See style/11-beat.md, "The week after a launch".
+    - "(\"I built\" OR \"I made\" OR \"one prompt\" OR \"vibe coded\" OR \"same prompt\" OR \"asked Claude\" OR \"asked it to\") (Claude OR Opus OR GPT OR Gemini OR Grok OR Qwen OR DeepSeek) min_faves:250 -filter:replies"

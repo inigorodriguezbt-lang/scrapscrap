@@ -21,6 +21,32 @@ The one exception is a genuinely new development on an older thing: a result
 someone just published, a price that just changed. Then the development is
 the story and its timestamp is the one that counts.
 
+### The week after a launch
+
+Community reaction is the second exception, and it exists because the first
+rule would otherwise make item 3 under *What we want* unwritable. Nobody builds anything
+worth reading about in the six hours after a model ships. The demos, the
+head-to-heads and the stunts arrive over the following two or three days, so
+measuring them from the launch kills the story before it is ready.
+
+**For what people are doing with a model released in the last seven days, the
+clock runs on the reaction, not on the release.** The test is whether the
+reaction is still moving: quote traction you have read today, and say when you
+read it. Four conditions, all of them:
+
+- the model shipped within the last week,
+- the posts you are reporting are from the last 48 hours,
+- the traction is current, and you name the number and where it came from,
+- no story already published covers the same posts.
+
+That last one is not a formality. This material clusters, so the same demo
+reaches the desk three cycles running under three different accounts. Read
+the last two editions before writing, and let the merge step's repeat
+detection stand when it fires. A second story about the same overnight build
+is worse than no story.
+
+Everything else on this beat keeps the six-hour rule.
+
 Every find carries `age_hours`. Start from the top of the list.
 
 ## What we want, in order
@@ -31,14 +57,21 @@ Every find carries `age_hours`. Start from the top of the list.
    the maker claims it beats.
 2. **Things you can try today.** A new app, feature, demo, playground or
    Hugging Face Space. Say where it is and what it does.
-3. **Open-source projects and repos taking off.** A new repo with real
+3. **What people are doing with a model that just shipped.** The launch is
+   item 1; this is the week that follows, and it is usually the better read.
+   The demo someone built overnight, the head-to-head somebody ran on their
+   own machine, the stunt, the thing the model was not meant to do. Weight
+   these as heavily as the release itself: a release is a press cycle, but
+   what people build with it is evidence. Name the maker, give the traction,
+   and keep every capability claim attached to whoever is making it.
+4. **Open-source projects and repos taking off.** A new repo with real
    traction, a tool the community is passing around, a Show HN that people
    are actually using. Traction is the news: say how much (stars, likes,
    downloads, points) and who measured it.
-4. **New tech with AI in it.** Robots, humanoids, chips, AI hardware, a new
+5. **New tech with AI in it.** Robots, humanoids, chips, AI hardware, a new
    technique that changes what is possible, a striking research result with
    code or a demo.
-5. **Fun and strange.** A model beating a game, an agent doing something
+6. **Fun and strange.** A model beating a game, an agent doing something
    unexpected, a jailbreak, a leaderboard upset, a community stunt. Still
    reported, sourced and attributed; fun is not an excuse for sloppy.
 
@@ -81,8 +114,22 @@ primary pages they point at. A Techmeme tip's `url` is the outlet that has the
 story: cite that outlet, by name.
 
 Every find has a `signal` (how much traction, measured where) and a link to
-the thing itself. The X sweep adds posts linking to GitHub and Hugging Face
-that already have traction.
+the thing itself.
+
+The X sweep adds two discovery queries on top of the account lists, and they
+are there to feed items 3 and 4 above:
+
+- posts linking to GitHub or Hugging Face that already have traction, which
+  are the repos and models taking off;
+- posts in which somebody says they built, made or tested something with a
+  model — the launch week's demos and head-to-heads. This query is worded
+  around what people say ("I built", "one prompt", "same prompt") rather than
+  around model names, which go stale in a fortnight.
+
+The account sweep will bring you the launch. It will not bring you the week
+after it, and the week after it is usually the better paper. `sweep_share` in
+`config/discover.yaml` sets the split; the discovery queries hold 30 of the
+100 posts.
 
 **A find is a pointer, not a source.** Open the link. Report from the model
 card, the repo README, the Space, the release notes. The trending number is

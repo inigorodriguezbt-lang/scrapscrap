@@ -34,10 +34,19 @@ the source's own timestamp. Every find has `age_hours`; work from the top.
 ## What to write
 
 **Read `style/11-beat.md` first. The paper runs interesting stuff:** model
-releases, things you can try today, open-source repos and community projects
-taking off, new tech with AI in it (robots, chips, hardware), and the fun and
-strange. Policy consultations, think-tank reports, funding rounds, earnings and
-partnerships with no product run only when they are big.
+releases, things you can try today, **what people are doing with a model that
+just shipped**, open-source repos and community projects taking off, new tech
+with AI in it (robots, chips, hardware), and the fun and strange. Policy
+consultations, think-tank reports, funding rounds, earnings and partnerships
+with no product run only when they are big.
+
+**Launch-week reaction carries the same weight as the launch.** When a model
+shipped in the last seven days, the demos, head-to-heads and stunts people
+post about it are stories, and the clock runs on the reaction rather than the
+release (`11-beat.md`, "The week after a launch"). Two things that follow:
+the 48-hour window on those posts is the real limit, and this material repeats
+across cycles, so read the last two editions before writing one. If the merge
+step calls your story an already-published repeat, it is usually right.
 
 Write **only clusters whose `cluster_id` does not already appear in today's
 edition.** If every cluster is already there, write nothing and say so. Take
