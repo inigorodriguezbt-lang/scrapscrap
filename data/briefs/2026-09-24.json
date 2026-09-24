@@ -1,114 +1,148 @@
 {
-  "generated_at": "2026-09-24T18:05:38.301595+00:00",
+  "generated_at": "2026-09-24T20:04:38.661609+00:00",
   "edition_date": "2026-09-24",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 138,
-  "clusters_found": 98,
+  "posts_considered": 153,
+  "clusters_found": 108,
   "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccf328192",
-      "score": 13.121,
+      "cluster_id": "c291a8111",
+      "score": 15.697,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
+      "suggested_section": "ai",
       "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "AndrewCurran_",
-        "Ars Technica AI",
-        "The Decoder"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-24T16:16:34+00:00",
-      "last_seen": "2026-09-24T17:45:44+00:00",
-      "links": [
-        "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
-        "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
-        "https://x.com/AndrewCurran_/status/2103163493021343847"
-      ],
-      "posts": [
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google's first Suncatcher orbital data center test launches October 1. Google's experimental orbital data center will have four TPUs and only run for 15 minutes at a time.",
-          "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
-          "created_at": "2026-09-24T16:16:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Project Suncatcher is launching a prototype datacenter satellite October 1st on a SpaceX Falcon 9. Some new info in this NYT report: plans for a flock of more than 80 networked satellites flying in formation, and a custom satellite the length of a soccer field.",
-          "url": "https://x.com/AndrewCurran_/status/2103163493021343847",
-          "created_at": "2026-09-24T16:43:46+00:00",
-          "engagement": 254
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's Suncatcher project aims to put AI data centers in orbit powered by solar energy. Google's \"Suncatcher\" project aims to run AI infrastructure in orbit on solar power. A fridge-sized experimental satellite is set to launch on a SpaceX Falcon 9 on October 1. But the challenges are steep: you'd need around 10,000 satellites to match a single 1-gigawatt data center on Earth, and Jeff Bezos thinks it could take 20 years before orbital data centers beat ground-based ones on cost. The article Google&#039;s Suncatcher project aims to put AI data centers in orbit powered by solar energy appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
-          "created_at": "2026-09-24T17:45:44+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf41a4acd",
-      "score": 11.041,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Meta",
-        "Apple"
+        "Meta"
       ],
       "independent_sources": [
         "9to5Mac",
-        "kimmonismus"
+        "Ars Technica AI",
+        "Bloomberg Tech",
+        "Engadget",
+        "Reuters",
+        "TechCrunch AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T21:17:11+00:00",
-      "last_seen": "2026-09-24T17:17:54+00:00",
+      "source_count": 6,
+      "first_seen": "2026-09-23T23:57:28+00:00",
+      "last_seen": "2026-09-24T19:15:00+00:00",
       "links": [
-        "https://9to5mac.com/2026/09/23/macwhisper-update-brings-real-time-meeting-transcripts-improved-speaker-recognition-more/",
-        "https://9to5mac.com/2026/09/23/openai-says-apple-intelligence-users-showed-little-interest-in-chatgpt-integration/",
-        "https://x.com/kimmonismus/status/2103172083152982150"
+        "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
+        "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+        "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+        "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+        "https://www.bloomberg.com/news/articles/2026-09-23/meta-debuts-a-dedicated-palm-sized-muse-charm-device-to-use-ai-on-the-go",
+        "https://www.bloomberg.com/news/videos/2026-09-24/ai-emerges-as-a-flashpoint-in-trump-xi-talks-video",
+        "https://www.bloomberg.com/news/videos/2026-09-24/bloomberg-tech-9-24-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-09-24/darktrace-ceo-ai-agents-are-the-new-insider-threat-video",
+        "https://www.bloomberg.com/news/videos/2026-09-24/meta-bets-on-ai-devices-for-its-next-chapter-video",
+        "https://www.bloomberg.com/news/videos/2026-09-24/meta-introduces-palm-sized-device-to-use-muse-ai-video",
+        "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
+        "https://x.com/Reuters/status/2103201551854837969"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "MacWhisper update brings real-time meeting transcripts, improved speaker recognition, more. My transcription tool of choice on the Mac, MacWhisper, got another major update today with real-time meeting transcripts, significantly improved speaker recognition, tighter integration with Apple Intelligence, and a new transcription model. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/23/macwhisper-update-brings-real-time-meeting-transcripts-improved-speaker-recognition-more/",
-          "created_at": "2026-09-23T21:17:11+00:00",
+          "text": "Meta Debuts Dedicated Muse Charm Gadget for AI Assistant Users. Meta Platforms Inc. unveiled a palm-sized, dedicated gadget for using Muse, the company’s popular new artificial intelligence assistant, pushing deeper into the AI devices market with a surprise announcement.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-23/meta-debuts-a-dedicated-palm-sized-muse-charm-device-to-use-ai-on-the-go",
+          "created_at": "2026-09-23T23:57:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Meta put Muse in a Tamagotchi like 'Charm' device. Meta's Muse Charm is a Tamagotchi-like device with Muse AI.",
+          "url": "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
+          "created_at": "2026-09-24T00:05:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta made a Tamagotchi-like wearable for its Muse AI agent. The tiny hardware device creates another mobile home for its AI agent Muse.",
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+          "created_at": "2026-09-24T00:46:17+00:00",
           "engagement": 0
         },
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "OpenAI says Apple Intelligence users showed little interest in ChatGPT integration. As reported by The Financial Times , new court filings show that OpenAI was disappointed by the adoption of ChatGPT through Apple Intelligence, which it says “dramatically underperformed” after launching in 2024. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/23/openai-says-apple-intelligence-users-showed-little-interest-in-chatgpt-integration/",
-          "created_at": "2026-09-23T23:58:31+00:00",
+          "text": "Meta announces camera-free glasses, dedicated Muse AI gadget, more. Meta announced today a series of AI-powered devices, including the Muse Charm, a palm-sized gadget designed specifically for its new Muse AI assistant. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
+          "created_at": "2026-09-24T01:24:44+00:00",
           "engagement": 0
         },
         {
-          "author": "kimmonismus",
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Meta puts its AI assistant on a keychain. Meta says the keychain-sized Muse Charm will ship in December.",
+          "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+          "created_at": "2026-09-24T14:03:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta Introduces Palm-Sized Device to Use Muse AI on the Go. Meta Platforms Inc. unveiled a palm-sized, dedicated gadget for using Muse, the company’s popular new artificial intelligence assistant, pushing deeper into the AI devices market with a surprise announcement. Bloomberg's Mandeep Singh joins to discuss. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/meta-introduces-palm-sized-device-to-use-muse-ai-video",
+          "created_at": "2026-09-24T16:35:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend. Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",
+          "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+          "created_at": "2026-09-24T17:39:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta Bets on AI, Devices for Its Next Chapter. Meta is experimenting with new ways to move beyond its social media roots, from the fast-growing Muse AI assistant to smart glasses and its new palm-sized Charm device. eMarketer Senior Analyst Minda Smiley discusses whether Muse marks a turning point for Meta’s AI strategy, why the company is testing multiple hardware form factors, and whether its latest products have staying power or risk becoming another short-lived technology fad. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/meta-bets-on-ai-devices-for-its-next-chapter-video",
+          "created_at": "2026-09-24T18:28:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Emerges as a Flashpoint in Trump-Xi Talks. The US-China AI race is emerging as a key issue surrounding talks between President Donald Trump and Xi Jinping, as Chinese open-weight models close the gap with leading US systems. Rhodium Group’s Reva Goujon discusses tensions over AI safety and export controls, divisions within the Trump administration over potential guardrails, and how technology restrictions, critical minerals and Taiwan factor into the broader US-China negotiations. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/ai-emerges-as-a-flashpoint-in-trump-xi-talks-video",
+          "created_at": "2026-09-24T18:31:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Darktrace CEO: AI Agents Are the New ‘Insider Threat’. Darktrace CEO Ed Jennings says AI agents are becoming a new kind of “insider threat” as companies rapidly deploy autonomous systems with access to sensitive data and infrastructure. As Darktrace launches new tools to track shadow AI, agent identities and behavior, Jennings discusses why cybersecurity is racing to catch up with adoption, what happens when agents act beyond their intended roles, and why behavioral monitoring could help companies safely capture the benefits of AI. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/darktrace-ceo-ai-agents-are-the-new-insider-threat-video",
+          "created_at": "2026-09-24T18:32:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Takes Center Stage From Oracle to the White House. Bloomberg’s Ed Ludlow breaks down Oracle's latest move to protect itself from mounting costs on a massive New Mexico data center facing regulatory setbacks and local opposition. Plus, Meta comes out with a new palm-sized device for using its popular new AI assistant, Muse; and all eyes are on President Trump and China's President Xi Jinping as they meet in the White House and discuss AI. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-24/bloomberg-tech-9-24-2026-video",
+          "created_at": "2026-09-24T18:35:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Reuters",
           "tier": "commentary",
-          "text": "Meta's Muse could become most widely used consumer AI App since ChatGPT, JPMorgan says. This success needs to be studied. Second half of 2026 is all about AI agents. Really excited to see how OpenAI responds with their Grok Bot/Muse alternative. Probably revealed on DevDay.",
-          "url": "https://x.com/kimmonismus/status/2103172083152982150",
-          "created_at": "2026-09-24T17:17:54+00:00",
-          "engagement": 120
+          "text": "Chinese President Xi Jinping said China and the US have the 'capability and responsibility to develop and manage AI for good' and make sure that AI's development remains under human control",
+          "url": "https://x.com/Reuters/status/2103201551854837969",
+          "created_at": "2026-09-24T19:15:00+00:00",
+          "engagement": 102
         }
       ]
     },
     {
-      "cluster_id": "cbaad82b6",
-      "score": 10.997,
+      "cluster_id": "c9074809c",
+      "score": 14.134,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -119,19 +153,22 @@
       "independent_sources": [
         "Ars Technica AI",
         "Engadget",
+        "Hesamation",
         "TechCrunch AI",
         "The Decoder",
         "Wired AI"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-09-24T10:01:55+00:00",
-      "last_seen": "2026-09-24T16:01:16+00:00",
+      "last_seen": "2026-09-24T19:36:35+00:00",
       "links": [
         "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
         "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
         "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
         "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
-        "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/"
+        "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+        "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+        "https://x.com/Hesamation/status/2103191229563346961"
       ],
       "posts": [
         {
@@ -173,12 +210,163 @@
           "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
           "created_at": "2026-09-24T16:01:16+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Hesamation",
+          "tier": "commentary",
+          "text": "This is aging pretty well. Sam Altman in July, 13 days after Hugging Face disclosed the hack.",
+          "url": "https://x.com/Hesamation/status/2103191229563346961",
+          "created_at": "2026-09-24T18:33:59+00:00",
+          "engagement": 59
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "I Think I Found an AI Agent Worth the Risk. Instinct saved me $550, booked my restaurant reservations, and warned me about a phishing scam. It also wasted $64 and might be a security nightmare.",
+          "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+          "created_at": "2026-09-24T19:36:35+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb10794c3",
+      "score": 11.598,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "AravSrinivas",
+        "perplexity_ai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-24T18:07:51+00:00",
+      "last_seen": "2026-09-24T18:50:30+00:00",
+      "links": [
+        "https://x.com/AravSrinivas/status/2103195385804238972",
+        "https://x.com/perplexity_ai/status/2103184653373014509"
+      ],
+      "posts": [
+        {
+          "author": "perplexity_ai",
+          "tier": "commentary",
+          "text": "Introducing Fast Search in the Perplexity Search API.\n\nFast Search runs on Photon, our new Rust-based retrieval and ranking service that we built with a small team of engineers and hundreds of agents.\n\nIt returns 95% of search results in 230 ms or less.",
+          "url": "https://x.com/perplexity_ai/status/2103184653373014509",
+          "created_at": "2026-09-24T18:07:51+00:00",
+          "engagement": 212
+        },
+        {
+          "author": "AravSrinivas",
+          "tier": "commentary",
+          "text": "Perplexity has the fastest and most capable Search API, powered by our own Rust-based retrieval and ranking engine, Photon, achieving sub-250ms p95 latency while still ranking highly on relevance and accuracy benchmarks. Photon was built by a small team and hundreds of auto-research loops powered by a more capable internal version of Perplexity Computer.",
+          "url": "https://x.com/AravSrinivas/status/2103195385804238972",
+          "created_at": "2026-09-24T18:50:30+00:00",
+          "engagement": 133
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd2cf152d",
+      "score": 11.526,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Decoder",
+        "synthwavedd"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-23T22:17:39+00:00",
+      "last_seen": "2026-09-24T19:18:33+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+        "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/",
+        "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
+        "https://x.com/synthwavedd/status/2103192588048310404"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic says its biology lab has already found something big. But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
+          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+          "created_at": "2026-09-23T22:17:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining. Anthropic's AI model Claude found a previously unknown enzyme system in DNA databases, doing most of the analysis on its own. The article Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/",
+          "created_at": "2026-09-24T16:04:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "synthwavedd",
+          "tier": "commentary",
+          "text": "Using Claude regularly again has made obvious one of the biggest differences between Anthropic and OpenAI models: taste. GPT (Astra included) just doesn't really compete. Sure, you can get ~similar quality outputs with enough prompting, time and effort, but Opus 5.5 just combines great taste, intuition and vision in a way no model before it has.",
+          "url": "https://x.com/synthwavedd/status/2103192588048310404",
+          "created_at": "2026-09-24T18:39:23+00:00",
+          "engagement": 1459
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Top AI experts badly underestimated how fast the field is moving, study finds. Leading AI experts have consistently underestimated how fast AI is advancing, according to the Forecasting Research Institute. AI reached gold-medal level at the International Mathematical Olympiad five years ahead of the median expert forecast, and Anthropic's annualized revenue is about five times what experts predicted. But forecasts for real-world uses like self-driving cars paint a more mixed picture. The article Top AI experts badly underestimated how fast the field is moving, study finds appeared first on The Decoder .",
+          "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
+          "created_at": "2026-09-24T19:18:33+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1941ef34",
+      "score": 10.935,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "DeepMind",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-24T16:20:39+00:00",
+      "last_seen": "2026-09-24T19:59:26+00:00",
+      "links": [
+        "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+        "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
+      ],
+      "posts": [
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Introducing Gemini 3.8 Live with Live Avatar",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "created_at": "2026-09-24T16:20:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face. Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 [&#8230;]",
+          "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "created_at": "2026-09-24T19:59:26+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c2ef5b48e",
-      "score": 10.684,
+      "score": 10.353,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -246,126 +434,45 @@
       ]
     },
     {
-      "cluster_id": "c611fb5a0",
-      "score": 10.6,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "Engadget",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-24T00:05:03+00:00",
-      "last_seen": "2026-09-24T17:39:24+00:00",
-      "links": [
-        "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
-        "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
-        "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
-        "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Meta put Muse in a Tamagotchi like 'Charm' device. Meta's Muse Charm is a Tamagotchi-like device with Muse AI.",
-          "url": "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
-          "created_at": "2026-09-24T00:05:03+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta’s Muse AI Charms can interact with each other. Meta's handheld AI gadget, called the Muse Charm, will be able to recognize and interact with other nearby Charms when it launches later this year. That's according to a report from Bloomberg, which includes more details about the device that the company teased during its Meta Connect keynote on Wednesday. The Muse Charm houses the [&#8230;]",
-          "url": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
-          "created_at": "2026-09-24T13:31:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Meta puts its AI assistant on a keychain. Meta says the keychain-sized Muse Charm will ship in December.",
-          "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
-          "created_at": "2026-09-24T14:03:38+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend. Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",
-          "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
-          "created_at": "2026-09-24T17:39:24+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c1c3141b7",
-      "score": 10.153,
-      "interest": "want",
+      "cluster_id": "c8d03112f",
+      "score": 8.994,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
+      "entities": [],
       "independent_sources": [
-        "Stratechery",
-        "TechCrunch AI",
-        "The Verge AI",
-        "Wired AI"
+        "AndrewCurran_",
+        "Reuters"
       ],
-      "source_count": 4,
-      "first_seen": "2026-09-23T23:42:44+00:00",
-      "last_seen": "2026-09-24T14:15:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-24T18:07:44+00:00",
+      "last_seen": "2026-09-24T18:20:00+00:00",
       "links": [
-        "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
-        "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-        "https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers",
-        "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/"
+        "https://x.com/AndrewCurran_/status/2103184624440811605",
+        "https://x.com/Reuters/status/2103187710852911157"
       ],
       "posts": [
         {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices. At its Meta Connect event, CEO Mark Zuckerberg announced a handful of new smart glasses, including a slimmed-down VR headset and the company’s first camera-free glasses.",
-          "url": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
-          "created_at": "2026-09-23T23:42:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Everything new coming to Meta’s AI agent Muse. CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
-          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-          "created_at": "2026-09-24T01:13:32+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Stratechery",
+          "author": "AndrewCurran_",
           "tier": "commentary",
-          "text": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg. An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
-          "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
-          "created_at": "2026-09-24T10:00:00+00:00",
-          "engagement": 0
+          "text": "The White House working on cutting off UKAISI. Also, I don't know about UKAISI, but I presume CAISI will have to change their name to CSISI. All US Government docs are being updated to the new name.",
+          "url": "https://x.com/AndrewCurran_/status/2103184624440811605",
+          "created_at": "2026-09-24T18:07:44+00:00",
+          "engagement": 267
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "I have some questions for Mark Zuckerberg. It&#8217;s a big week for Meta. The company just kicked off its big Connect conference on Wednesday, and the new Muse AI agent appears to be an early hit. I&#8217;ve been using it — it is surprisingly good.&#160; CEO Mark Zuckerberg has obviously been out there taking a victory lap and participating in a lot [&#8230;]",
-          "url": "https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers",
-          "created_at": "2026-09-24T14:15:00+00:00",
-          "engagement": 0
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Protesters gathered outside the Chinese embassy and the White House to rally against Chinese President Xi Jinping's visit to the United States",
+          "url": "https://x.com/Reuters/status/2103187710852911157",
+          "created_at": "2026-09-24T18:20:00+00:00",
+          "engagement": 67
         }
       ]
     },
     {
-      "cluster_id": "c86dc092a",
-      "score": 7.891,
+      "cluster_id": "c208878ca",
+      "score": 8.964,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -375,13 +482,15 @@
       ],
       "independent_sources": [
         "9to5Google",
+        "The Verge AI",
         "Tom's Hardware"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-24T09:30:00+00:00",
-      "last_seen": "2026-09-24T15:40:01+00:00",
+      "last_seen": "2026-09-24T18:04:44+00:00",
       "links": [
         "https://9to5google.com/2026/09/24/score-unlocked-pixel-11-at-under-750-via-best-buy-today/",
+        "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
         "https://www.tomshardware.com/pc-components/gpus/chinas-ultimate-gaming-gpu-hits-a-performance-wall-lx-7g100-barely-crawls-past-amds-nine-year-old-rx-580",
         "https://www.tomshardware.com/pc-components/gpus/cyberpowerpc-lands-rare-rtx-50-series-founders-edition-cards-in-discounted-walmart-rigs-complete-rtx-5090-pc-costs-usd2-400-less-than-a-standalone-gpu",
         "https://www.tomshardware.com/pc-components/gpus/lucky-3d-artist-scores-jensen-huang-signed-rtx-5090-from-used-marketplace-unused-asus-rog-astra-white-oc-expected-to-fetch-usd10-000-to-usd15-000-at-auction",
@@ -427,129 +536,101 @@
           "url": "https://9to5google.com/2026/09/24/score-unlocked-pixel-11-at-under-750-via-best-buy-today/",
           "created_at": "2026-09-24T15:40:01+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Jensen Huang talks about AI and climate change like a supervillain. As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the [&#8230;]",
+          "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+          "created_at": "2026-09-24T18:04:44+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c42ba6ee5",
-      "score": 7.177,
+      "cluster_id": "c39610c65",
+      "score": 8.734,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "chips",
-      "entities": [],
-      "independent_sources": [
-        "9to5Google",
-        "Engadget"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T18:30:00+00:00",
-      "last_seen": "2026-09-24T11:23:00+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/23/qualcomm-announces-snapdragon-sound-elite-gen-2/",
-        "https://www.engadget.com/2267407/qualcomm-snapdragon-sound-elite-ai-for-audio-wearables/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Qualcomm announces Snapdragon Sound Elite Gen 2 for AI ‘hearables,’ even ones with cameras. Qualcomm announced the Snapdragon Sound Elite Gen 2 as a substantial chipset for upcoming audio devices, with a massive focus on better AI performance for audio wearables. more…",
-          "url": "https://9to5google.com/2026/09/23/qualcomm-announces-snapdragon-sound-elite-gen-2/",
-          "created_at": "2026-09-23T18:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Qualcomm's Snapdragon Sound Elite is a new AI chip for audio wearables. Qualcomm has launched a new chip that will enable AI features on small audio devices.",
-          "url": "https://www.engadget.com/2267407/qualcomm-snapdragon-sound-elite-ai-for-audio-wearables/",
-          "created_at": "2026-09-24T11:23:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3f93ab2d",
-      "score": 6.203,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "models",
       "entities": [
-        "Meta"
+        "Google"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "Bloomberg Tech"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T23:57:28+00:00",
-      "last_seen": "2026-09-24T16:35:05+00:00",
-      "links": [
-        "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
-        "https://www.bloomberg.com/news/articles/2026-09-23/meta-debuts-a-dedicated-palm-sized-muse-charm-device-to-use-ai-on-the-go",
-        "https://www.bloomberg.com/news/videos/2026-09-24/meta-introduces-palm-sized-device-to-use-muse-ai-video"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Meta Debuts Dedicated Muse Charm Gadget for AI Assistant Users. Meta Platforms Inc. unveiled a palm-sized, dedicated gadget for using Muse, the company’s popular new artificial intelligence assistant, pushing deeper into the AI devices market with a surprise announcement.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-23/meta-debuts-a-dedicated-palm-sized-muse-charm-device-to-use-ai-on-the-go",
-          "created_at": "2026-09-23T23:57:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Meta announces camera-free glasses, dedicated Muse AI gadget, more. Meta announced today a series of AI-powered devices, including the Muse Charm, a palm-sized gadget designed specifically for its new Muse AI assistant. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/23/meta-announces-camera-free-glasses-dedicated-muse-ai-gadget-more/",
-          "created_at": "2026-09-24T01:24:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Meta Introduces Palm-Sized Device to Use Muse AI on the Go. Meta Platforms Inc. unveiled a palm-sized, dedicated gadget for using Muse, the company’s popular new artificial intelligence assistant, pushing deeper into the AI devices market with a surprise announcement. Bloomberg's Mandeep Singh joins to discuss. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-24/meta-introduces-palm-sized-device-to-use-muse-ai-video",
-          "created_at": "2026-09-24T16:35:05+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c95faa14d",
-      "score": 6.118,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
+        "Ars Technica AI",
         "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-23T22:17:39+00:00",
-      "last_seen": "2026-09-24T16:04:26+00:00",
+      "first_seen": "2026-09-24T16:16:34+00:00",
+      "last_seen": "2026-09-24T17:45:44+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-        "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/"
+        "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
+        "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Anthropic says its biology lab has already found something big. But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
-          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-          "created_at": "2026-09-23T22:17:39+00:00",
+          "text": "Google's first Suncatcher orbital data center test launches October 1. Google's experimental orbital data center will have four TPUs and only run for 15 minutes at a time.",
+          "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
+          "created_at": "2026-09-24T16:16:34+00:00",
           "engagement": 0
         },
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining. Anthropic's AI model Claude found a previously unknown enzyme system in DNA databases, doing most of the analysis on its own. The article Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/",
-          "created_at": "2026-09-24T16:04:26+00:00",
+          "text": "Google's Suncatcher project aims to put AI data centers in orbit powered by solar energy. Google's \"Suncatcher\" project aims to run AI infrastructure in orbit on solar power. A fridge-sized experimental satellite is set to launch on a SpaceX Falcon 9 on October 1. But the challenges are steep: you'd need around 10,000 satellites to match a single 1-gigawatt data center on Earth, and Jeff Bezos thinks it could take 20 years before orbital data centers beat ground-based ones on cost. The article Google&#039;s Suncatcher project aims to put AI data centers in orbit powered by solar energy appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
+          "created_at": "2026-09-24T17:45:44+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c81cc047d",
+      "score": 8.311,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "Stratechery",
+        "TechCrunch AI",
+        "Wired AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-23T23:42:44+00:00",
+      "last_seen": "2026-09-24T10:00:00+00:00",
+      "links": [
+        "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+        "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+        "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/"
+      ],
+      "posts": [
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices. At its Meta Connect event, CEO Mark Zuckerberg announced a handful of new smart glasses, including a slimmed-down VR headset and the company’s first camera-free glasses.",
+          "url": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
+          "created_at": "2026-09-23T23:42:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Everything new coming to Meta’s AI agent Muse. CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+          "created_at": "2026-09-24T01:13:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg. An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
+          "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+          "created_at": "2026-09-24T10:00:00+00:00",
           "engagement": 0
         }
       ]
