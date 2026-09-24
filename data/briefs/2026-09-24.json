@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-24T02:02:55.378019+00:00",
+  "generated_at": "2026-09-24T04:04:26.502847+00:00",
   "edition_date": "2026-09-24",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 74,
+  "posts_considered": 72,
   "clusters_found": 64,
-  "stories_declared": 3,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "ca859affe",
-      "score": 8.818,
+      "score": 8.48,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -65,47 +65,8 @@
       ]
     },
     {
-      "cluster_id": "c2488bd0a",
-      "score": 8.45,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "arXiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-23T12:33:57+00:00",
-      "last_seen": "2026-09-23T15:00:32+00:00",
-      "links": [
-        "https://arxiv.org/abs/2609.28007v1",
-        "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints. Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. The primary benchmark contains 100 systematically validated questions derived from a 109-page industrial R&D report, and the evaluation protocol is replicated using a second 112-page public-sector report and an independently constructed 100-question set. All models are evaluated locally on an NVIDIA",
-          "url": "https://arxiv.org/abs/2609.28007v1",
-          "created_at": "2026-09-23T12:33:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale. When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
-          "created_at": "2026-09-23T15:00:32+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c263b51d1",
-      "score": 8.329,
+      "score": 7.992,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
