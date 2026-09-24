@@ -48,9 +48,9 @@ def render(stories: list[dict], day: str, site: str) -> str:
     stamp = utcnow().strftime("%Y-%m-%d %H:%M UTC")
     out = [f"# The AI Post: {len(stories)} new {'story' if len(stories) == 1 else 'stories'}",
            f"_{stamp}_", ""]
-    for n, s in enumerate(stories, 1):
+    for s in stories:
         url = f"{site}/story/{s['cluster_id']}/"
-        out += [RULE, "", f"## {n}. {s['headline']}", "", f"**{s.get('standfirst', '')}**", ""]
+        out += [RULE, "", f"## {s['headline']}", "", f"**{s.get('standfirst', '')}**", ""]
         out += [p + "\n" for p in s.get("body", [])]
         out += [f"Read it on the site: {url}", ""]
         sources = ", ".join(src.get("author", "") for src in s.get("sources", []) if src.get("author"))
