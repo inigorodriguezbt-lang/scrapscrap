@@ -75,8 +75,19 @@ def tokenize(text: str) -> list[str]:
     return [t for t in _TOKEN_RE.findall(text) if t not in STOPWORDS and len(t) > 2]
 
 
+# Query parameters that identify the page rather than track the click. Dropping
+# them made every Hacker News thread (item?id=...) and every YouTube video
+# (watch?v=...) the same URL, so the merge skipped unrelated stories as repeats.
+KEEP_PARAMS = {"id", "v", "p", "story_fbid", "fbid"}
+
+
 def normalize_url(url: str) -> str:
     """Strip tracking junk so the same link from two accounts compares equal."""
-    url = re.sub(r"[?#].*$", "", url.strip())
+    url = url.strip()
+    query = re.search(r"\?([^#]*)", url)
+    kept = sorted(pair for pair in (query.group(1).split("&") if query else [])
+                  if pair.split("=", 1)[0] in KEEP_PARAMS)
+    url = re.sub(r"[?#].*$", "", url)
     url = re.sub(r"^https?://(www\.)?", "", url)
-    return url.rstrip("/").lower()
+    url = url.rstrip("/").lower()
+    return url + ("?" + "&".join(kept) if kept else "")
