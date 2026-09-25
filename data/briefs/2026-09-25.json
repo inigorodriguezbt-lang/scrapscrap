@@ -1,186 +1,21 @@
 {
-  "generated_at": "2026-09-25T08:04:19.614119+00:00",
+  "generated_at": "2026-09-25T10:05:14.942348+00:00",
   "edition_date": "2026-09-25",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 172,
-  "clusters_found": 120,
-  "stories_declared": 9,
+  "posts_considered": 151,
+  "clusters_found": 107,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cf3ff6630",
-      "score": 13.397,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "arXiv",
-        "theo"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-24T17:59:54+00:00",
-      "last_seen": "2026-09-25T07:32:20+00:00",
-      "links": [
-        "https://arxiv.org/abs/2609.30266v1",
-        "https://x.com/theo/status/2103379591830347925",
-        "https://x.com/theo/status/2103387109537275983"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "LLM Agents Can Easily Tamper With Their Own Traces. Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that external attackers can exploit this gap to induce trace deletion. Finally, we show that trace tampering ",
-          "url": "https://arxiv.org/abs/2609.30266v1",
-          "created_at": "2026-09-24T17:59:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "Most people think of T3 Code as a Codex alternative. I think of is as an Xcode alternative.",
-          "url": "https://x.com/theo/status/2103379591830347925",
-          "created_at": "2026-09-25T07:02:28+00:00",
-          "engagement": 201
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "For those moving back to Claude Code after being on the ChatGPT/Codex app for awhile, how are you feeling about the move? What do you miss?",
-          "url": "https://x.com/theo/status/2103387109537275983",
-          "created_at": "2026-09-25T07:32:20+00:00",
-          "engagement": 267
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccdada44b",
-      "score": 12.374,
+      "cluster_id": "c3ed1da4a",
+      "score": 11.06,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Google"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "kimmonismus",
-        "testingcatalog"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-24T13:35:44+00:00",
-      "last_seen": "2026-09-25T07:15:01+00:00",
-      "links": [
-        "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
-        "https://x.com/kimmonismus/status/2103382749507948554",
-        "https://x.com/testingcatalog/status/2103371709281632423"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door. Google Deepmind chief Koray Kavukcuoglu wants to release Gemini 4 \"much earlier\" than the end of the year. The model is already in post-training and runs internally in the coding tool Antigravity. He calls the AGI question that drove his predecessor Hassabis \"not the right conversation\" and says trustworthy agents matter more. After Gemini 3.5 Pro quietly disappeared and many top researchers left for OpenAI and Anthropic, the research lab with an AGI mission has turned into a product shop for good. The article Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door ",
-          "url": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
-          "created_at": "2026-09-24T13:35:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF - Sept 25. OPENAI: Upcoming ChatGPT Pro Max is $500/mo. GOOGLE: Gemini 3.8 Live with Live Avatar is GA in Gemini Enterprise. Project Suncatcher flies a TPU prototype on SpaceX Transporter-18 with Planet. ANTHROPIC: Resumed charging for safeguard blocks. PERPLEXITY: Fast Search is live in the Search API on Photon.",
-          "url": "https://x.com/testingcatalog/status/2103371709281632423",
-          "created_at": "2026-09-25T06:31:08+00:00",
-          "engagement": 93
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "I am sure that power supply, grid connections, and data center construction will be among AI's biggest bottlenecks in the coming years. Google's Project Suncatcher explores an interesting possibility: moving AI compute into orbit, with TPU-equipped satellites connected by lasers. Google says solar panels in the right orbit could be up to 8x more productive than on Earth. The first step is a prototype developed with Planet, scheduled to launch aboard SpaceX's Transporter-18 mission.",
-          "url": "https://x.com/kimmonismus/status/2103382749507948554",
-          "created_at": "2026-09-25T07:15:01+00:00",
-          "engagement": 74
-        }
-      ]
-    },
-    {
-      "cluster_id": "c35a2802f",
-      "score": 10.525,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta",
-        "Apple"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Latent Space",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-24T08:12:59+00:00",
-      "last_seen": "2026-09-25T06:27:28+00:00",
-      "links": [
-        "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
-        "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
-        "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-        "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-        "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
-      ],
-      "posts": [
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm. Team Zuck is absolutely on fire.",
-          "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-          "created_at": "2026-09-24T08:12:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta gives its Muse AI agent video avatars, email addresses, and Mac control. At Meta Connect 2026, Meta expanded its AI agent, Muse, and unveiled several new devices. The article Meta gives its Muse AI agent video avatars, email addresses, and Mac control appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
-          "created_at": "2026-09-24T13:10:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "It’s sinister that Meta’s Muse AI mascot is so cute. This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health [&#8230;]",
-          "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
-          "created_at": "2026-09-24T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Muse will apparently let you download its entire filesystem. A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-          "created_at": "2026-09-24T17:14:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Meta's Muse Agent Makes Waves: Market Snapshot. Major banks, insurers and online travel agencies stocks took a tumble this week after Meta’s new artificial intelligence agent, Muse rose to the top of Apple's app store. Increasing usage of the app sparked fears that personal AI tools could disrupt businesses that benefit from so-called consumer inertia. The Opening Trade spoke to guests about whether the latest AI developments are impacting their outlook for stocks and the broader sector amid an increasingly complex AI trade. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
-          "created_at": "2026-09-25T06:27:28+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cba0b0f07",
-      "score": 10.37,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
         "Hugging Face"
       ],
       "independent_sources": [
@@ -192,10 +27,11 @@
       ],
       "source_count": 5,
       "first_seen": "2026-09-24T10:46:56+00:00",
-      "last_seen": "2026-09-25T02:07:36+00:00",
+      "last_seen": "2026-09-25T08:12:14+00:00",
       "links": [
         "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
         "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+        "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
         "https://www.bloomberg.com/news/articles/2026-09-25/australia-demands-more-ai-safeguards-after-revealing-openai-hack",
         "https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site",
         "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
@@ -249,58 +85,105 @@
           "url": "https://www.bloomberg.com/news/articles/2026-09-25/australia-demands-more-ai-safeguards-after-revealing-openai-hack",
           "created_at": "2026-09-25T02:07:36+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers. The White House wants OpenAI and Anthropic to hold back new AI models from the U.K.'s AI Safety Institute until U.S. agencies get to review them first. The article White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers appeared first on The Decoder .",
+          "url": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
+          "created_at": "2026-09-25T08:12:14+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c2ef5b48e",
-      "score": 8.52,
+      "cluster_id": "cf16d2dec",
+      "score": 8.46,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
+      "entities": [
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-24T17:00:00+00:00",
+      "last_seen": "2026-09-25T06:27:28+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
+        "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+        "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "It’s sinister that Meta’s Muse AI mascot is so cute. This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health [&#8230;]",
+          "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+          "created_at": "2026-09-24T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Muse will apparently let you download its entire filesystem. A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+          "created_at": "2026-09-24T17:14:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta's Muse Agent Makes Waves: Market Snapshot. Major banks, insurers and online travel agencies stocks took a tumble this week after Meta’s new artificial intelligence agent, Muse rose to the top of Apple's app store. Increasing usage of the app sparked fears that personal AI tools could disrupt businesses that benefit from so-called consumer inertia. The Opening Trade spoke to guests about whether the latest AI developments are impacting their outlook for stocks and the broader sector amid an increasingly complex AI trade. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
+          "created_at": "2026-09-25T06:27:28+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c06cd335f",
+      "score": 7.142,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
       "entities": [
         "Google"
       ],
       "independent_sources": [
         "9to5Google",
-        "Engadget",
-        "TechCrunch AI",
-        "The Verge AI",
-        "Wired AI"
+        "9to5Mac",
+        "The Verge AI"
       ],
-      "source_count": 5,
-      "first_seen": "2026-09-24T16:00:00+00:00",
-      "last_seen": "2026-09-24T16:04:31+00:00",
+      "source_count": 3,
+      "first_seen": "2026-09-24T13:00:00+00:00",
+      "last_seen": "2026-09-24T19:59:26+00:00",
       "links": [
+        "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/",
         "https://9to5google.com/2026/09/24/pixel-11-call-for-me/",
-        "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-        "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
+        "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/",
         "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
-        "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/"
+        "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Google tests letting Gemini call businesses for you. Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
-          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-          "created_at": "2026-09-24T16:00:00+00:00",
+          "text": "Adobe expands creative tool access to Google Gemini, brings Acrobat to Claude. Adobe today announced two major expansions to its AI chatbot integrations, bringing its creative tools to Google Gemini while adding Acrobat tools to Claude. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude/",
+          "created_at": "2026-09-24T13:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Wired AI",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Google’s Gemini Can Now Make Calls for You on Pixel Phones. Call for Me—a feature that’s exclusive to the Pixel 11 series—gives robocalls a new meaning.",
-          "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
-          "created_at": "2026-09-24T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Pixel 11's Call For Me feature begins preliminary rollout. Select Gemini subscribers with a Pixel 11 can soon try out phone calls via AI chatbot.",
-          "url": "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
-          "created_at": "2026-09-24T16:00:00+00:00",
+          "text": "Google says Gemini 4 release is coming ‘as soon as possible’. As its rivals continue to iterate quickly, Google has confirmed that its Gemini 4 flagship AI model is nearing release and that it is coming “as soon as possible.” more…",
+          "url": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/",
+          "created_at": "2026-09-24T14:45:00+00:00",
           "engagement": 0
         },
         {
@@ -318,12 +201,20 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
           "created_at": "2026-09-24T16:04:31+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face. Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 [&#8230;]",
+          "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "created_at": "2026-09-24T19:59:26+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c208878ca",
-      "score": 6.965,
+      "cluster_id": "c98d8ba40",
+      "score": 6.825,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -337,25 +228,16 @@
         "Tom's Hardware"
       ],
       "source_count": 3,
-      "first_seen": "2026-09-24T09:30:00+00:00",
+      "first_seen": "2026-09-24T11:00:00+00:00",
       "last_seen": "2026-09-24T18:04:44+00:00",
       "links": [
         "https://9to5google.com/2026/09/24/score-unlocked-pixel-11-at-under-750-via-best-buy-today/",
         "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
         "https://www.tomshardware.com/pc-components/gpus/chinas-ultimate-gaming-gpu-hits-a-performance-wall-lx-7g100-barely-crawls-past-amds-nine-year-old-rx-580",
-        "https://www.tomshardware.com/pc-components/gpus/cyberpowerpc-lands-rare-rtx-50-series-founders-edition-cards-in-discounted-walmart-rigs-complete-rtx-5090-pc-costs-usd2-400-less-than-a-standalone-gpu",
         "https://www.tomshardware.com/pc-components/gpus/lucky-3d-artist-scores-jensen-huang-signed-rtx-5090-from-used-marketplace-unused-asus-rog-astra-white-oc-expected-to-fetch-usd10-000-to-usd15-000-at-auction",
         "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation"
       ],
       "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "CyberPowerPC lands rare RTX 50-series Founders Edition cards in discounted Walmart rigs. CyberPowerPC is offering five different pre-built gaming PCs with either an RTX 5070, 5080, or 5090 Founders Edition GPUs paired with either an Intel or AMD X3D CPU. They also come with 32GB of DDR5 RAM and 1TB of NVMe SSD, all for reasonable prices.",
-          "url": "https://www.tomshardware.com/pc-components/gpus/cyberpowerpc-lands-rare-rtx-50-series-founders-edition-cards-in-discounted-walmart-rigs-complete-rtx-5090-pc-costs-usd2-400-less-than-a-standalone-gpu",
-          "created_at": "2026-09-24T09:30:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "Tom's Hardware",
           "tier": "press",
@@ -399,8 +281,8 @@
       ]
     },
     {
-      "cluster_id": "c39610c65",
-      "score": 6.735,
+      "cluster_id": "c664b40c5",
+      "score": 6.455,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -408,23 +290,23 @@
         "Google"
       ],
       "independent_sources": [
-        "Ars Technica AI",
-        "The Decoder"
+        "The Decoder",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-24T16:16:34+00:00",
+      "first_seen": "2026-09-24T14:15:17+00:00",
       "last_seen": "2026-09-24T17:45:44+00:00",
       "links": [
-        "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
-        "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/"
+        "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/",
+        "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher"
       ],
       "posts": [
         {
-          "author": "Ars Technica AI",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Google's first Suncatcher orbital data center test launches October 1. Google's experimental orbital data center will have four TPUs and only run for 15 minutes at a time.",
-          "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
-          "created_at": "2026-09-24T16:16:34+00:00",
+          "text": "Google is sending an AI satellite into space next week. Google is getting ready to launch a satellite with its AI processors to test how well they perform in space, as reported earlier by The New York Times. The move is part of Google's Project Suncatcher, the company's experimental initiative that could eventually put AI data centers into orbit. The satellite, equipped with Google's Tensor [&#8230;]",
+          "url": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+          "created_at": "2026-09-24T14:15:17+00:00",
           "engagement": 0
         },
         {
@@ -438,8 +320,57 @@
       ]
     },
     {
+      "cluster_id": "c46b167d5",
+      "score": 4.713,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "TechCrunch AI",
+        "Wired AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-24T16:00:00+00:00",
+      "last_seen": "2026-09-24T16:00:00+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+        "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
+        "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google tests letting Gemini call businesses for you. Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
+          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+          "created_at": "2026-09-24T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Google’s Gemini Can Now Make Calls for You on Pixel Phones. Call for Me—a feature that’s exclusive to the Pixel 11 series—gives robocalls a new meaning.",
+          "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
+          "created_at": "2026-09-24T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Pixel 11's Call For Me feature begins preliminary rollout. Select Gemini subscribers with a Pixel 11 can soon try out phone calls via AI chatbot.",
+          "url": "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
+          "created_at": "2026-09-24T16:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cc7b33631",
-      "score": 4.721,
+      "score": 4.385,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -487,7 +418,7 @@
     },
     {
       "cluster_id": "c55093ab1",
-      "score": 4.217,
+      "score": 4.12,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",

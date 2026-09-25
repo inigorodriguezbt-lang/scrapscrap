@@ -36,6 +36,68 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-us-un-ai-safety-isolated",
+   "section": "policy",
+   "headline": "US breaks with allies on AI safety rules at UN",
+   "standfirst": "Trump's science adviser called international AI safety efforts an \"intervention,\" leaving the US isolated as France and China pushed for a shared framework to manage frontier-model risk, Semafor reported.",
+   "body": [
+    "The Trump administration rejected calls for binding international AI safety rules at the United Nations General Assembly this week, Semafor reported Friday. White House science adviser Michael Kratsios called such efforts an \"intervention.\" President Trump said AI development should stay \"exactly where it is,\" prioritizing speed over new oversight.",
+    "China's Xi Jinping took the opposite position, backing a global AI governance framework, Semafor said. French official Jean-Noël Barrot chaired a UN meeting on AI and security this week. He said the international community needs \"a common framework to manage the risks associated with frontier AI models.\" The gap left the US without close allies on the question.",
+    "The talks took place as Australian Prime Minister Anthony Albanese used the same UN gathering to press for tougher AI safeguards. He cited OpenAI's breach of a government Medicare portal, disclosed earlier this week. Nations appeared headed toward nonbinding rules and best practices rather than enforceable standards, Semafor said.",
+    "The divide was not confined between nations, Semafor reported. Some AI company chief executives and congressional Republicans have pushed for stronger safety measures, putting them at odds with their own administration. No binding commitments came out of the meetings, according to the report."
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "Semafor",
+     "url": "https://www.semafor.com/article/09/25/2026/white-house-is-isolated-in-brushing-off-ai-safety"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-dhh-stops-coding-by-hand",
+   "section": "ai",
+   "headline": "Rails creator DHH says he no longer writes code by hand",
+   "standfirst": "David Heinemeier Hansson told Rails World he hasn't written a line of code manually since March, reversing his public skepticism of AI coding tools from just over a year ago.",
+   "body": [
+    "David Heinemeier Hansson, the creator of Ruby on Rails, said he has not written a line of code by hand since March, after 25 years as a professional programmer. He made the comment at the Rails World 2026 conference, The Decoder reported. \"English is a better programming language than Ruby,\" he said.",
+    "Hansson said manual coding no longer makes economic sense for most programmers. He predicted that by the end of the year, the shift could apply to practically every domain of software work, not just his own. He called it \"the biggest thing that has happened in the history of computing\" during an emotional keynote, The Decoder said.",
+    "Rather than mourning the change, Hansson framed it as a career shift. Programmers, he said, are becoming \"professional makers of things\" who direct AI systems instead of typing code themselves. He argued that software architecture needs rethinking, too, since traditional abstractions could lose their value once AI agents modify code on their own.",
+    "The comments mark a reversal. Just over a year ago, Hansson was a vocal public critic of AI-assisted coding, The Decoder reported. The outlet did not say which AI tools he now uses, or how quickly the shift took hold across his own projects."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-pentagon-ai-polygraph",
+   "section": "policy",
+   "headline": "Pentagon seeks $30 million for AI-powered lie detector",
+   "standfirst": "The Defense Counterintelligence and Security Agency wants $30.3 million over five years for \"Polygraph+,\" which pairs camera-based sensing with AI scoring, MIT Technology Review reported.",
+   "body": [
+    "The Defense Counterintelligence and Security Agency is requesting $30.3 million over five years to build \"Polygraph+,\" MIT Technology Review reported. The system pairs AI-driven scoring with camera-based sensors that track facial temperature, head movement, heart rate and breathing without touching the subject. The budget still needs Congressional approval.",
+    "Researchers were skeptical. One expert told the magazine the approach combines \"the worst of both worlds,\" layering algorithmic uncertainty on top of a technology that already lacks scientific validity. Another said \"there is still no Pinocchio's nose\" — no physiological signal reliably marks a lie, whatever sensors are used to measure it.",
+    "Academics cited by MIT Technology Review said traditional polygraphs are prone to subjective interpretation and racial bias, and that subjects can learn countermeasures to beat them. Some critics argued the program functions mainly as psychological intimidation rather than as a genuine information-gathering tool.",
+    "Previous attempts at automated deception detection, including projects called Silent Talker and iBorderCtrl, were shelved after failing to hold up, according to the report. It did not say when Congress might act on the Polygraph+ request or when DCSA hopes to begin testing it."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-terminal-bench-science",
    "section": "research",
    "headline": "Artificial Analysis says only 2 models clear 50% on science benchmark",
@@ -177,7 +239,7 @@
      "url": "https://x.com/ChrisGPT/status/2103281153017020640"
     }
    ],
-   "placement": "front",
+   "placement": "inside",
    "embeds": [
     {
      "url": "https://x.com/LexnLin/status/2103282610948464811",
@@ -206,7 +268,7 @@
      "url": "https://x.com/EricBuess/status/2103226548413182366"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-agent-trace-tampering",
@@ -237,7 +299,7 @@
      "url": "https://arxiv.org/abs/2609.30217v1"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-chatgpt-promax-backlash",
