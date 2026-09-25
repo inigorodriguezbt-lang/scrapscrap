@@ -1,15 +1,181 @@
 {
-  "generated_at": "2026-09-25T06:07:03.780367+00:00",
+  "generated_at": "2026-09-25T08:04:19.614119+00:00",
   "edition_date": "2026-09-25",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 152,
-  "clusters_found": 119,
-  "stories_declared": 7,
+  "posts_considered": 172,
+  "clusters_found": 120,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "cf3ff6630",
+      "score": 13.397,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "arXiv",
+        "theo"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-24T17:59:54+00:00",
+      "last_seen": "2026-09-25T07:32:20+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.30266v1",
+        "https://x.com/theo/status/2103379591830347925",
+        "https://x.com/theo/status/2103387109537275983"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "LLM Agents Can Easily Tamper With Their Own Traces. Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that external attackers can exploit this gap to induce trace deletion. Finally, we show that trace tampering ",
+          "url": "https://arxiv.org/abs/2609.30266v1",
+          "created_at": "2026-09-24T17:59:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "Most people think of T3 Code as a Codex alternative. I think of is as an Xcode alternative.",
+          "url": "https://x.com/theo/status/2103379591830347925",
+          "created_at": "2026-09-25T07:02:28+00:00",
+          "engagement": 201
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "For those moving back to Claude Code after being on the ChatGPT/Codex app for awhile, how are you feeling about the move? What do you miss?",
+          "url": "https://x.com/theo/status/2103387109537275983",
+          "created_at": "2026-09-25T07:32:20+00:00",
+          "engagement": 267
+        }
+      ]
+    },
+    {
+      "cluster_id": "ccdada44b",
+      "score": 12.374,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "kimmonismus",
+        "testingcatalog"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-24T13:35:44+00:00",
+      "last_seen": "2026-09-25T07:15:01+00:00",
+      "links": [
+        "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+        "https://x.com/kimmonismus/status/2103382749507948554",
+        "https://x.com/testingcatalog/status/2103371709281632423"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door. Google Deepmind chief Koray Kavukcuoglu wants to release Gemini 4 \"much earlier\" than the end of the year. The model is already in post-training and runs internally in the coding tool Antigravity. He calls the AGI question that drove his predecessor Hassabis \"not the right conversation\" and says trustworthy agents matter more. After Gemini 3.5 Pro quietly disappeared and many top researchers left for OpenAI and Anthropic, the research lab with an AGI mission has turned into a product shop for good. The article Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door ",
+          "url": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+          "created_at": "2026-09-24T13:35:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF - Sept 25. OPENAI: Upcoming ChatGPT Pro Max is $500/mo. GOOGLE: Gemini 3.8 Live with Live Avatar is GA in Gemini Enterprise. Project Suncatcher flies a TPU prototype on SpaceX Transporter-18 with Planet. ANTHROPIC: Resumed charging for safeguard blocks. PERPLEXITY: Fast Search is live in the Search API on Photon.",
+          "url": "https://x.com/testingcatalog/status/2103371709281632423",
+          "created_at": "2026-09-25T06:31:08+00:00",
+          "engagement": 93
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "I am sure that power supply, grid connections, and data center construction will be among AI's biggest bottlenecks in the coming years. Google's Project Suncatcher explores an interesting possibility: moving AI compute into orbit, with TPU-equipped satellites connected by lasers. Google says solar panels in the right orbit could be up to 8x more productive than on Earth. The first step is a prototype developed with Planet, scheduled to launch aboard SpaceX's Transporter-18 mission.",
+          "url": "https://x.com/kimmonismus/status/2103382749507948554",
+          "created_at": "2026-09-25T07:15:01+00:00",
+          "engagement": 74
+        }
+      ]
+    },
+    {
+      "cluster_id": "c35a2802f",
+      "score": 10.525,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Latent Space",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-24T08:12:59+00:00",
+      "last_seen": "2026-09-25T06:27:28+00:00",
+      "links": [
+        "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+        "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
+        "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+        "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+        "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm. Team Zuck is absolutely on fire.",
+          "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+          "created_at": "2026-09-24T08:12:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta gives its Muse AI agent video avatars, email addresses, and Mac control. At Meta Connect 2026, Meta expanded its AI agent, Muse, and unveiled several new devices. The article Meta gives its Muse AI agent video avatars, email addresses, and Mac control appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+          "created_at": "2026-09-24T13:10:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "It’s sinister that Meta’s Muse AI mascot is so cute. This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health [&#8230;]",
+          "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+          "created_at": "2026-09-24T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Muse will apparently let you download its entire filesystem. A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+          "created_at": "2026-09-24T17:14:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta's Muse Agent Makes Waves: Market Snapshot. Major banks, insurers and online travel agencies stocks took a tumble this week after Meta’s new artificial intelligence agent, Muse rose to the top of Apple's app store. Increasing usage of the app sparked fears that personal AI tools could disrupt businesses that benefit from so-called consumer inertia. The Opening Trade spoke to guests about whether the latest AI developments are impacting their outlook for stocks and the broader sector amid an increasingly complex AI trade. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
+          "created_at": "2026-09-25T06:27:28+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cba0b0f07",
-      "score": 10.696,
+      "score": 10.37,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -88,7 +254,7 @@
     },
     {
       "cluster_id": "c2ef5b48e",
-      "score": 8.68,
+      "score": 8.52,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -156,66 +322,8 @@
       ]
     },
     {
-      "cluster_id": "c48f9f9fa",
-      "score": 7.74,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-24T08:12:59+00:00",
-      "last_seen": "2026-09-24T17:14:12+00:00",
-      "links": [
-        "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
-        "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-        "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-        "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
-      ],
-      "posts": [
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm. Team Zuck is absolutely on fire.",
-          "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-          "created_at": "2026-09-24T08:12:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta gives its Muse AI agent video avatars, email addresses, and Mac control. At Meta Connect 2026, Meta expanded its AI agent, Muse, and unveiled several new devices. The article Meta gives its Muse AI agent video avatars, email addresses, and Mac control appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
-          "created_at": "2026-09-24T13:10:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "It’s sinister that Meta’s Muse AI mascot is so cute. This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health [&#8230;]",
-          "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
-          "created_at": "2026-09-24T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Muse will apparently let you download its entire filesystem. A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-          "created_at": "2026-09-24T17:14:12+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c208878ca",
-      "score": 7.291,
+      "score": 6.965,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -292,7 +400,7 @@
     },
     {
       "cluster_id": "c39610c65",
-      "score": 7.061,
+      "score": 6.735,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -331,7 +439,7 @@
     },
     {
       "cluster_id": "cc7b33631",
-      "score": 5.046,
+      "score": 4.721,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -379,7 +487,7 @@
     },
     {
       "cluster_id": "c55093ab1",
-      "score": 4.543,
+      "score": 4.217,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
