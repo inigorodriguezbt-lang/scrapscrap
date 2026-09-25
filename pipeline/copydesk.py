@@ -7,8 +7,9 @@ recorded in data/state/last_run.json): headline, standfirst, body, the live
 URL, and the post drafted for it. The cycle sends that file; the chat reply
 stays a short list of headlines.
 
-It also writes `<name>.html` and `<name>.txt`, the body of the email the cycle
-sends the editor: the same articles, without the X posts.
+It also writes `<name>.txt`, the body of the email the cycle sends the
+editor: the same articles in clean plain text, without the X posts. Plain
+text, not HTML: an earlier HTML body reached the inbox escaped, as raw code.
 
 Usage:
     python -m pipeline.copydesk                      # today's edition
@@ -72,6 +73,22 @@ def render(stories: list[dict], day: str, site: str, posts: bool = True) -> str:
     return "\n".join(out).rstrip() + "\n"
 
 
+def to_plain(markdown: str) -> str:
+    """The copy file as clean plain text: no Markdown markers, links bare.
+
+    This is the email body. Plain text is what the sending step can pass on
+    without mangling it, and it pastes into an article editor as-is, with
+    each embed link on its own line.
+    """
+    lines = []
+    for line in markdown.split("\n"):
+        line = re.sub(r"^#{1,2} ", "", line)
+        line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
+        line = re.sub(r"(?<!\w)_(.+?)_(?!\w)", r"\1", line)
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def to_email_html(markdown: str) -> str:
     """The copy file as an email body: readable on a phone, easy to copy from."""
     def inline(text: str) -> str:
@@ -126,9 +143,8 @@ def main() -> None:
     # The email version: the same articles without the X posts, as HTML for
     # the body and plain text for the fallback.
     email = render(stories, day, site, posts=False)
-    out.with_suffix(".html").write_text(to_email_html(email), encoding="utf-8")
-    out.with_suffix(".txt").write_text(email, encoding="utf-8")
-    print(f"{len(stories)} stories → {out} (+ .html and .txt for email, without X posts)")
+    out.with_suffix(".txt").write_text(to_plain(email), encoding="utf-8")
+    print(f"{len(stories)} stories → {out} (+ .txt email body, without X posts)")
     for s in stories:
         print(f"  · {s['headline']}")
 
