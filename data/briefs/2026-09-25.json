@@ -1,37 +1,62 @@
 {
-  "generated_at": "2026-09-25T20:06:27.057107+00:00",
+  "generated_at": "2026-09-25T22:05:41.053577+00:00",
   "edition_date": "2026-09-25",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 126,
-  "clusters_found": 91,
-  "stories_declared": 6,
+  "posts_considered": 134,
+  "clusters_found": 93,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c126b3953",
-      "score": 13.333,
+      "cluster_id": "c21c82ff9",
+      "score": 17.248,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Microsoft"
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Hugging Face",
+        "DeepSeek"
       ],
       "independent_sources": [
-        "AndrewCurran_",
+        "Ars Technica AI",
         "Bloomberg Tech",
-        "The Decoder"
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI",
+        "_NathanCalvin",
+        "_akhaliq",
+        "kimmonismus"
       ],
-      "source_count": 3,
+      "source_count": 8,
       "first_seen": "2026-09-25T08:12:14+00:00",
-      "last_seen": "2026-09-25T18:19:29+00:00",
+      "last_seen": "2026-09-25T21:47:45+00:00",
       "links": [
+        "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+        "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+        "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+        "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+        "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+        "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+        "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
         "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
         "https://www.bloomberg.com/news/videos/2026-09-25/accel-sees-ai-opportunity-shifting-to-applications-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/akamai-technologies-anthropic-deal-costco-earnings-beat-video",
         "https://www.bloomberg.com/news/videos/2026-09-25/bloomberg-tech-9-25-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/china-s-economy-unbalanced-ai-deal-hard-to-see-roach-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/harrell-us-china-lack-of-deliverables-was-as-expected-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
         "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
-        "https://x.com/AndrewCurran_/status/2103549969462657351"
+        "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+        "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+        "https://x.com/_NathanCalvin/status/2103596059431968772",
+        "https://x.com/_akhaliq/status/2103578627359268987",
+        "https://x.com/kimmonismus/status/2103594629207642523"
       ],
       "posts": [
         {
@@ -43,117 +68,27 @@
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Trump-Xi Optics Overshadow Substance, Gewirtz Says. Julian Gewirtz, Harvard Belfer Center fellow and former senior director for China and Taiwan Affairs at the White House National Security Council during the Biden administration, says President Donald Trump’s meeting with Xi Jinping delivered the positive optics Trump was seeking, but little visible progress on the major challenges dividing the US and China. He discusses unresolved tensions around trade, Iran, Russia, and Taiwan, as well as the intensifying AI race. He joins Tim Stenovec on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
-          "created_at": "2026-09-25T18:02:09+00:00",
+          "text": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year. Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai's shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrupt if its revenue forecasts are even slightly off. The article Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+          "created_at": "2026-09-25T10:43:15+00:00",
           "engagement": 0
         },
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Anthropic Goes Big on Compute, Microsoft Rethinks AI. Bloomberg’s Tim Stenovec breaks down Anthropic's $11.6 billion contract with Akamai for AI computing power, the largest deal in Akamai's history. Plus, President Donald Trump calls his meeting with his Chinese counterpart Xi Jinping \"very productive\" with little to show for it. And, Microsoft steps back from the race to build a personal chatbot by instead merging the consumer and workplace versions of its Copilot AI assistant into one. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/bloomberg-tech-9-25-2026-video",
-          "created_at": "2026-09-25T18:04:06+00:00",
+          "text": "Akamai Technologies Soars on Anthropic Deal; Costco Earnings Beat | Stock Movers. On this episode of Stock Movers: - Akamai Technologies (AKAM) shares soar after the cloud provider inked a seven-year $11.6 billion deal to provide computing power to Anthropic. Analysts say the deal should boost Akamai’s growth and its profitability profile looks attractive, given the contract is entirely focused on CPUs. - People (PPLI) shares jump on a report that MGM Resorts is discussing making a bid to purchase the Barry Diller-owned media giant. - Costco Wholesale (COST) quarterly profits surpassed Wall Street’s estimates after the company recorded a benefit related to tariff refunds. (",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/akamai-technologies-anthropic-deal-costco-earnings-beat-video",
+          "created_at": "2026-09-25T14:39:39+00:00",
           "engagement": 0
         },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Accel Sees AI Opportunity Shifting to Applications. The AI spending boom is showing no signs of slowing down, but as billions pour into models, chips and data centers, investors are asking where the biggest returns will actually be. Accel Partner Matt Weigand, who focuses on late-stage technology investments including AI infrastructure, says the AI boom is the biggest technology cycle Silicon Valley has seen. He also discusses why open-source AI can grow alongside frontier labs such as Anthropic and OpenAI and why trust and safety are becoming key considerations when Accel decides which AI founders to back. He joins Tim Stenovec on \"Bloomberg T",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/accel-sees-ai-opportunity-shifting-to-applications-video",
-          "created_at": "2026-09-25T18:05:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Many events are now scheduled for Tuesday, September 29th: \n\n- President Trump and Speaker Johnson will meet with all top tech CEOs to discuss the state of the industry (though the current rumors are that Dario Amodei has not be invited).\n\n- Following the meeting, an event celebrating 'the beginning of a new American Golden Age' will feature multiple AI/SI panels and high-profile guests, including",
-          "url": "https://x.com/AndrewCurran_/status/2103549969462657351",
-          "created_at": "2026-09-25T18:19:29+00:00",
-          "engagement": 374
-        }
-      ]
-    },
-    {
-      "cluster_id": "c8657a121",
-      "score": 12.615,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "OpenAI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-25T15:39:48+00:00",
-      "last_seen": "2026-09-25T19:26:06+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
-        "https://x.com/OpenAI/status/2103566736356458911"
-      ],
-      "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
           "text": "One company is at the center of a wave of rogue AI attacks. In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures implicating numerous AI models trickled out over the past few [&#8230;]",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
           "created_at": "2026-09-25T15:39:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "After the Hugging Face incident, we committed to conducting a much broader review of actions taken by our models during training and evaluation and to being transparent about our findings. This is an extensive review that is ongoing.\n\nThe vast majority of actions we’ve reviewed were completions of mundane research tasks, such as accessing publicly available web content to answer questions. Our inv",
-          "url": "https://x.com/OpenAI/status/2103566736356458911",
-          "created_at": "2026-09-25T19:26:06+00:00",
-          "engagement": 930
-        }
-      ]
-    },
-    {
-      "cluster_id": "c036aa516",
-      "score": 10.586,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "TechCrunch AI",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-25T12:22:27+00:00",
-      "last_seen": "2026-09-25T18:22:47+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Sep/25/john-gruber/",
-        "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-        "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-        "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
-        "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
-        "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux. Meta gives every Muse user a free cloud computer running Ubuntu Linux where they can install software, write code, and browse the web. A \"Sentinel\" process monitors sensitive actions outside the user's workspace, while users can inspect every file in the system. With over 500,000 users in its first week, Meta is betting on product reach over model power. The article Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux appeared first on The Decoder .",
-          "url": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
-          "created_at": "2026-09-25T12:22:27+00:00",
           "engagement": 0
         },
         {
@@ -181,11 +116,27 @@
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Quoting John Gruber. Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw ",
-          "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
-          "created_at": "2026-09-25T17:22:01+00:00",
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump-Xi Optics Overshadow Substance, Gewirtz Says. Julian Gewirtz, Harvard Belfer Center fellow and former senior director for China and Taiwan Affairs at the White House National Security Council during the Biden administration, says President Donald Trump’s meeting with Xi Jinping delivered the positive optics Trump was seeking, but little visible progress on the major challenges dividing the US and China. He discusses unresolved tensions around trade, Iran, Russia, and Taiwan, as well as the intensifying AI race. He joins Tim Stenovec on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
+          "created_at": "2026-09-25T18:02:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic Goes Big on Compute, Microsoft Rethinks AI. Bloomberg’s Tim Stenovec breaks down Anthropic's $11.6 billion contract with Akamai for AI computing power, the largest deal in Akamai's history. Plus, President Donald Trump calls his meeting with his Chinese counterpart Xi Jinping \"very productive\" with little to show for it. And, Microsoft steps back from the race to build a personal chatbot by instead merging the consumer and workplace versions of its Copilot AI assistant into one. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/bloomberg-tech-9-25-2026-video",
+          "created_at": "2026-09-25T18:04:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Accel Sees AI Opportunity Shifting to Applications. The AI spending boom is showing no signs of slowing down, but as billions pour into models, chips and data centers, investors are asking where the biggest returns will actually be. Accel Partner Matt Weigand, who focuses on late-stage technology investments including AI infrastructure, says the AI boom is the biggest technology cycle Silicon Valley has seen. He also discusses why open-source AI can grow alongside frontier labs such as Anthropic and OpenAI and why trust and safety are becoming key considerations when Accel decides which AI founders to back. He joins Tim Stenovec on \"Bloomberg T",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/accel-sees-ai-opportunity-shifting-to-applications-video",
+          "created_at": "2026-09-25T18:05:19+00:00",
           "engagement": 0
         },
         {
@@ -195,12 +146,183 @@
           "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
           "created_at": "2026-09-25T18:22:47+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says. A federal appeals court has upheld the Pentagon's decision to bar Anthropic from military contracts. Defense Secretary Hegseth argues the company's safety restrictions could jeopardize military operations. Anthropic says the designation has already cost it billions. The article Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says appeared first on The Decoder .",
+          "url": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
+          "created_at": "2026-09-25T18:40:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal. Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
+          "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+          "created_at": "2026-09-25T19:13:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "_akhaliq",
+          "tier": "commentary",
+          "text": "Qwen-Image-2.1-viggle-turbo v0.2 is out on Hugging Face\n\nText-to-image and image editing in 6 steps\n\nabout 5× faster than the 40-step Qwen-Image-2.1\n\nmodel: https://t.co/Vhjz6p8OPH",
+          "url": "https://x.com/_akhaliq/status/2103578627359268987",
+          "created_at": "2026-09-25T20:13:22+00:00",
+          "engagement": 32
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Microsoft Rises as It Unifies Copilot AI | Closing Bell. Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Isabelle Lee, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
+          "created_at": "2026-09-25T20:26:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "China's Economy Unbalanced, AI Deal Hard to Envision, Stephen Roach Says. Stephen Roach, Yale University Jackson Institute for Global Affairs senior fellow and former chairman of Morgan Stanley Asia, says President Donald Trump's meeting with Chinese President Xi Jinping left many unresolved questions about tariffs, technology restrictions, rare earth leverage and Taiwan, even as both sides appeared to project some stability. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/china-s-economy-unbalanced-ai-deal-hard-to-see-roach-video",
+          "created_at": "2026-09-25T21:00:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "wtf OpenAI’s rogue agents tried to get other AI models (!) to help them during the Hugging Face hack, according to a new report covered by the NYT.\n\nThey tried using an image model to solve CAPTCHAs. They also tried contacting Claude Haiku, DeepSeek, Kimi and Qwen.\n\nOne agent collected exposed access keys in a list called “LOOT.” It ranked the keys and picked the five best to share with other agents.\n\nThey used link shorteners and screenshot services to get around internet restrictions, run code and send data back as images.",
+          "url": "https://x.com/kimmonismus/status/2103594629207642523",
+          "created_at": "2026-09-25T21:16:57+00:00",
+          "engagement": 175
+        },
+        {
+          "author": "_NathanCalvin",
+          "tier": "commentary",
+          "text": "Incredible work by these independent researchers finding and analyzing this motherlode of new information about the HF incident. Unlike the METR report, OpenAI did not set the scope and the information is available for anyone to browse themselves.\n\nPlease- if you are someone who has been skeptical of this incident as overplayed or hyped up, I encourage you to look at the raw information the team has compiled.\n\nThere is still far more we would benefit from knowing about this incident (OpenAI's internal decision making and security practices, access to an abilterated version of the HPM, far more info about the compromised cluster at OpenAI etc), but thanks to OpenAI's sloppiness leaving this information available on the open web, we now collectively know meaningfully more than we did yesterday.\n\nIts remarkable the extent that no matter how bad I think the Hugging Face incident was, it was even worse than that. The attached screenshot has some of the highlights.",
+          "url": "https://x.com/_NathanCalvin/status/2103596059431968772",
+          "created_at": "2026-09-25T21:22:38+00:00",
+          "engagement": 34
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Patterson: AI Is Crowding Out Demand for US Treasuries. Rebecca Patterson, Former Chief Investment Strategist at Bridgewater and Senior Fellow at the Council on Foreign Relations, discusses her broad read on market action. The discussion is framed around whether recent moves in bonds, equities, commodities, and energy are telling the same economic story or whether one market is more predictive than the others. She speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
+          "created_at": "2026-09-25T21:24:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features. \"Overly constrained AI models\" could cause military operations to fail, judges say.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+          "created_at": "2026-09-25T21:36:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Harrell: US-China Lack of Deliverables Was as Expected. Peter Harrell says that the key dynamic is not which country has the upper hand, but that both China and the United States have meaningful leverage: the U.S. through tariffs, export controls, semiconductors, the dollar and AI technology, and China through rare earths, specialty chemicals, and manufacturing scale. Harrell says this mutual leverage helps explain the recent emphasis on “strategic stability” and why both countries may want to ease tensions for now while they work to reduce their dependence on each other. He speaks to Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/harrell-us-china-lack-of-deliverables-was-as-expected-video",
+          "created_at": "2026-09-25T21:47:45+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb09602c0",
+      "score": 11.61,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "Product Hunt AI",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-24T22:20:29+00:00",
+      "last_seen": "2026-09-25T20:19:13+00:00",
+      "links": [
+        "https://www.producthunt.com/products/10xjoy",
+        "https://www.producthunt.com/products/basedash",
+        "https://www.producthunt.com/products/jango",
+        "https://www.producthunt.com/products/once-ui-for-figma",
+        "https://www.producthunt.com/products/socialgpt",
+        "https://www.producthunt.com/products/token-forecaster",
+        "https://www.producthunt.com/products/wand-6",
+        "https://x.com/testingcatalog/status/2103580102432878875"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Basedash MCP write. Build charts and dashboards from Cursor and Claude Discussion | Link",
+          "url": "https://www.producthunt.com/products/basedash",
+          "created_at": "2026-09-24T22:20:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Once UI 2.0. Builds consistent React apps for developers and AI agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/once-ui-for-figma",
+          "created_at": "2026-09-24T23:05:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "SocialGPT. Edit videos by chatting with your timeline Discussion | Link",
+          "url": "https://www.producthunt.com/products/socialgpt",
+          "created_at": "2026-09-25T00:50:36+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Jango. Test multi-user apps with AI agents that act like real users Discussion | Link",
+          "url": "https://www.producthunt.com/products/jango",
+          "created_at": "2026-09-25T02:16:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Wand. Build software at the speed of thought Discussion | Link",
+          "url": "https://www.producthunt.com/products/wand-6",
+          "created_at": "2026-09-25T02:17:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Token Forecaster. Forecast how long an LLM reply will run, before Enter Discussion | Link",
+          "url": "https://www.producthunt.com/products/token-forecaster",
+          "created_at": "2026-09-25T04:40:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "10xJoy. Discover desired outcomes + connect w/ builders who can help Discussion | Link",
+          "url": "https://www.producthunt.com/products/10xjoy",
+          "created_at": "2026-09-25T06:47:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Builders can now submit their Plugins and MCP Connectors via a new submission flow on Claude Directory. Plugin usage stats are available too!\n\nPlugins are new \"apps\"",
+          "url": "https://x.com/testingcatalog/status/2103580102432878875",
+          "created_at": "2026-09-25T20:19:13+00:00",
+          "engagement": 87
         }
       ]
     },
     {
       "cluster_id": "c9a5791bf",
-      "score": 9.115,
+      "score": 8.784,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -248,98 +370,40 @@
       ]
     },
     {
-      "cluster_id": "ccf2da905",
-      "score": 8.013,
-      "interest": "neutral",
+      "cluster_id": "c6cf77e1f",
+      "score": 8.332,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "ai",
       "entities": [
-        "Nvidia"
+        "Meta"
       ],
       "independent_sources": [
-        "Tom's Hardware",
-        "mark_k"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-25T15:40:00+00:00",
-      "last_seen": "2026-09-25T18:13:17+00:00",
-      "links": [
-        "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online",
-        "https://x.com/mark_k/status/2103548407625208149"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation. Elon Musk says that the Colossus 2 will receive 220,000 GB300 GPUs by next week, with another two tranches of the same amount expected to arrive later this year. This will put the site at over a million AI GPUs, finally hitting the goal the billionaire set two years ago.",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online",
-          "created_at": "2026-09-25T15:40:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Elon Musk just revealed the scale of @SpaceXAI's compute buildout: Colossus 1 and 2 already have 780,000 NVIDIA GPUs between them. Another 220,000 GB300s are set to come online next week, bringing the total to one million.\n\nAnd they're still building. Another 220,000 are planned for November, with a possible 220,000 more by late December. That would put SpaceXAI at 1.44 million GPUs, including 1.1",
-          "url": "https://x.com/mark_k/status/2103548407625208149",
-          "created_at": "2026-09-25T18:13:17+00:00",
-          "engagement": 67
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf86d799b",
-      "score": 5.552,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "TechCrunch AI",
+        "Simon Willison",
         "The Decoder"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-25T10:43:15+00:00",
-      "last_seen": "2026-09-25T19:13:38+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-25T12:22:27+00:00",
+      "last_seen": "2026-09-25T17:22:01+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-        "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
-        "https://www.bloomberg.com/news/videos/2026-09-25/akamai-technologies-anthropic-deal-costco-earnings-beat-video",
-        "https://www.bloomberg.com/news/videos/2026-09-25/anthropic-akamai-strike-12-billion-ai-computing-deal-video"
+        "https://simonwillison.net/2026/Sep/25/john-gruber/",
+        "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/"
       ],
       "posts": [
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year. Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai's shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrupt if its revenue forecasts are even slightly off. The article Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
-          "created_at": "2026-09-25T10:43:15+00:00",
+          "text": "Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux. Meta gives every Muse user a free cloud computer running Ubuntu Linux where they can install software, write code, and browse the web. A \"Sentinel\" process monitors sensitive actions outside the user's workspace, while users can inspect every file in the system. With over 500,000 users in its first week, Meta is betting on product reach over model power. The article Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux appeared first on The Decoder .",
+          "url": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
+          "created_at": "2026-09-25T12:22:27+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Anthropic, Akamai Strike $12 Billion AI Computing Deal. Anthropic PBC has signed an $11.6 billion, seven-year contract with Akamai Technologies Inc. for computing power, building on a previous $1.8 billion computing deal that the two companies struck earlier this year. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/anthropic-akamai-strike-12-billion-ai-computing-deal-video",
-          "created_at": "2026-09-25T14:12:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Akamai Technologies Soars on Anthropic Deal; Costco Earnings Beat | Stock Movers. On this episode of Stock Movers: - Akamai Technologies (AKAM) shares soar after the cloud provider inked a seven-year $11.6 billion deal to provide computing power to Anthropic. Analysts say the deal should boost Akamai’s growth and its profitability profile looks attractive, given the contract is entirely focused on CPUs. - People (PPLI) shares jump on a report that MGM Resorts is discussing making a bid to purchase the Barry Diller-owned media giant. - Costco Wholesale (COST) quarterly profits surpassed Wall Street’s estimates after the company recorded a benefit related to tariff refunds. (",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/akamai-technologies-anthropic-deal-costco-earnings-beat-video",
-          "created_at": "2026-09-25T14:39:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal. Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
-          "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-          "created_at": "2026-09-25T19:13:38+00:00",
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Quoting John Gruber. Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw ",
+          "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+          "created_at": "2026-09-25T17:22:01+00:00",
           "engagement": 0
         }
       ]
