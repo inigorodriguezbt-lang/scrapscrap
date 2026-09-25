@@ -7,6 +7,9 @@ recorded in data/state/last_run.json): headline, standfirst, body, the live
 URL, and the post drafted for it. The cycle sends that file; the chat reply
 stays a short list of headlines.
 
+It also writes the same content as `<name>.html`, the body of the email the
+cycle sends the editor.
+
 Usage:
     python -m pipeline.copydesk                      # today's edition
     python -m pipeline.copydesk --edition data/editions/2026-09-24.json
@@ -15,7 +18,9 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import html
 import json
+import re
 from pathlib import Path
 
 from .common import DATA_DIR, EDITIONS_DIR, load_config, utcnow
@@ -62,6 +67,37 @@ def render(stories: list[dict], day: str, site: str) -> str:
     return "\n".join(out).rstrip() + "\n"
 
 
+def to_email_html(markdown: str) -> str:
+    """The copy file as an email body: readable on a phone, easy to copy from."""
+    def inline(text: str) -> str:
+        text = html.escape(text)
+        text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
+        text = re.sub(r"(?<!\w)_(.+?)_(?!\w)", r"<i>\1</i>", text)
+        return re.sub(r"(https?://[^\s<]+)", r'<a href="\1">\1</a>', text)
+
+    out, code, buf = [], False, []
+    for line in markdown.split("\n"):
+        if line.startswith("```"):
+            if code:
+                out.append('<pre style="background:#f4f4f4;padding:10px;white-space:pre-wrap;'
+                           'font-family:inherit">' + html.escape("\n".join(buf)) + "</pre>")
+                buf = []
+            code = not code
+            continue
+        if code:
+            buf.append(line)
+        elif line.startswith("# "):
+            out.append(f"<h1>{inline(line[2:])}</h1>")
+        elif line.startswith("## "):
+            out.append(f"<h2 style='margin-top:28px'>{inline(line[3:])}</h2>")
+        elif re.fullmatch(r"-{10,}", line):
+            out.append("<hr>")
+        elif line.strip():
+            out.append(f"<p>{inline(line)}</p>")
+    return ("<div style='font-family:Georgia,serif;font-size:16px;line-height:1.5;"
+            "max-width:680px'>" + "\n".join(out) + "</div>\n")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Write this run's stories to a copy file.")
     ap.add_argument("--edition", type=Path)
@@ -81,8 +117,11 @@ def main() -> None:
     site = load_config()["paper"].get("site_url", "").rstrip("/")
     COPY_DIR.mkdir(parents=True, exist_ok=True)
     out = COPY_DIR / f"{day}-{utcnow().strftime('%H%M')}.md"
-    out.write_text(render(stories, day, site), encoding="utf-8")
-    print(f"{len(stories)} stories → {out}")
+    text = render(stories, day, site)
+    out.write_text(text, encoding="utf-8")
+    # The same content as an email body, for the editor's inbox.
+    out.with_suffix(".html").write_text(to_email_html(text), encoding="utf-8")
+    print(f"{len(stories)} stories → {out} (+ .html for email)")
     for s in stories:
         print(f"  · {s['headline']}")
 
