@@ -1,0 +1,262 @@
+{
+ "edition_date": "2026-09-25",
+ "stories": [
+  {
+   "cluster_id": "find-terminal-bench-science",
+   "section": "research",
+   "headline": "Artificial Analysis says only 2 models clear 50% on science benchmark",
+   "standfirst": "The benchmark drops an agent into a terminal with 70 research tasks written by domain experts, and the best open-weights entries score below 11%.",
+   "body": [
+    "Artificial Analysis launched a leaderboard for Terminal-Bench-Science 0.1 on Thursday night, and said only two models pass more than half of its 70 tasks. It has run 26 of the 33 models on the page so far.",
+    "GPT-6 Astra at its maximum reasoning setting scores 63.3%, according to the leaderboard, with Claude Opus 5.5 on 61.9% at its xhigh setting and 59.0% at max. Artificial Analysis said it ran the evaluations itself, using the mini-swe-agent harness.",
+    "The open-weights entries sit far behind. Artificial Analysis put GLM-5.3 at 10% and DeepSeek V4.1 Flash at 9%, more than 50 points below the leaders. It said recent releases have moved the top scores a long way, and that GPT-6 Astra still has room above it.",
+    "Domain experts wrote and reviewed the tasks, which split 19 in life sciences, 17 in physical sciences, 17 in mathematical sciences, 9 in engineering and 8 in earth sciences. Each task runs in a terminal, and its own tests grade it pass@1 over three attempts.",
+    "Artificial Analysis said the domain scores may be noisy, because some rest on as few as 8 tasks. It put Claude Opus 5.5 at xhigh on 71% of the mathematical sciences tasks and 46% of the life sciences tasks. Steven Dillmann and researchers at Stanford built the benchmark with the Terminal-Bench team, and announced it in August."
+   ],
+   "entities": [
+    "Artificial Analysis",
+    "OpenAI",
+    "Anthropic",
+    "Terminal-Bench"
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://artificialanalysis.ai/evaluations/terminal-bench-science"
+    },
+    {
+     "author": "Artificial Analysis on X",
+     "url": "https://x.com/ArtificialAnlys/status/2103265956479070260"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-sakana-schmidhuber",
+   "section": "research",
+   "headline": "Sakana AI hires Schmidhuber to steer new self-improvement lab",
+   "standfirst": "The Tokyo company said Jurgen Schmidhuber joins as chief scientific advisor and will guide a lab working on systems that rewrite their own code.",
+   "body": [
+    "Sakana AI said on Thursday that Jurgen Schmidhuber has joined as chief scientific advisor. He will guide a new lab the Tokyo company calls the Recursive Self-Improvement Lab, and keeps his existing positions.",
+    "The lab's stated aim is AI that can rewrite its own code while acting in the physical world. Sakana AI put that description in its announcement. It has not said how large the lab is, or when it expects to publish anything.",
+    "Sakana AI credited Schmidhuber with work it says its projects rest on. It listed world models in 1990, deep learning techniques in 1991, and a 1987 thesis on meta-learning and recursive self-improvement. It named the Darwin Godel Machine and The AI Scientist as projects his ideas shaped.",
+    "\"Japan is a birthplace of foundational neural network architectures and advanced robotics,\" Schmidhuber said in the announcement. \"The future of intelligence is not just language; it is physical AI powered by World Models.\" The company said it wants to draw researchers to Tokyo.",
+    "Sakana AI said it plans to build what it calls Agent-Native World Models for physical AI, and pointed at Japan's manufacturing and robotics industries. It described simulations that could predict physical consequences before a machine acts."
+   ],
+   "entities": [
+    "Sakana AI",
+    "Jurgen Schmidhuber"
+   ],
+   "sources": [
+    {
+     "author": "Sakana AI",
+     "url": "https://sakana.ai/schmidhuber/"
+    },
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-open-jev-alternatives",
+   "section": "models",
+   "headline": "Developers post open, local alternatives to TypeSafe's Jev service",
+   "standfirst": "One is a standalone binary that speaks Jev's wire API and escalates to a local model, the other a 4B cross-encoder posted on Hugging Face.",
+   "body": [
+    "Dmitri Sotnikov posted Lev on Thursday night, a decision engine that exposes the same wire API as TypeSafe's Jev service. Lev runs offline as a standalone binary, and Sotnikov's post presents it as an open alternative to the paid service.",
+    "Lev sends a question to a small encoder first, which Sotnikov's post puts at roughly 100ms on a laptop CPU, and escalates low-confidence cases to a local chat model, Qwen3.5-4B by default. The repository carries an Apache-2.0 licence, 79 commits and 10 stars.",
+    "Sotnikov's own numbers on a 144-case adversarial set put the English encoder at 61% accuracy and around 125ms, and the Qwen3.5-4B thinker at 95% and around 174ms. Nobody else has tested the figures. Lev is written in Jolt, a Clojure dialect hosted on Chez Scheme.",
+    "A second open effort is further along by one measure. AlexWortega's openjev, a cross-encoder finetuned from Qwen3.5-4B, has 556 likes on Hugging Face, and its author updated it on Thursday evening. Its card claims 0.866 accuracy on public JevBench v1.2 items for the 4B v5 checkpoint.",
+    "The openjev card is direct about what the model cannot do. It says the model has no hardening against prompt injection and reaches only 60% accuracy on shell-command safety review, and that \"a guard built on this model belongs next to deterministic checks, not instead of them\". The licence is MIT."
+   ],
+   "entities": [
+    "TypeSafe",
+    "Hugging Face",
+    "Alibaba"
+   ],
+   "sources": [
+    {
+     "author": "Dmitri Sotnikov",
+     "url": "https://yogthos.net/posts/2026-09-24-introducing-lev.html"
+    },
+    {
+     "author": "jlt-commons/lev on GitHub",
+     "url": "https://github.com/jlt-commons/lev"
+    },
+    {
+     "author": "AlexWortega on Hugging Face",
+     "url": "https://huggingface.co/AlexWortega/openjev"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-breen-alchemy-models",
+   "section": "research",
+   "headline": "Historian puts Opus 5.5 and GPT-6 on 17th-century alchemical papers",
+   "standfirst": "Benjamin Breen said Opus 5.5 read 5,000 primary sources on Newton's alchemy, and that two of the ciphers he set it had already been cracked.",
+   "body": [
+    "Benjamin Breen, a historian, published an account on Thursday of putting Claude Opus 5.5 and GPT-6 on early modern manuscripts. He said one of four runs pointed at a source for Isaac Newton's alchemical reading.",
+    "Breen said Opus 5.5 downloaded more than 5,000 primary source files from the Samuel Hartlib papers and cross-referenced them across several languages. It found that Newton and Hartlib each used a different anagram for vitriolum, Hungarian vitriol, which Breen said suggests Newton drew on Hartlib's manuscript.",
+    "Two of the four experiments landed on work already done. Breen said Opus 5.5 partly deciphered encoded letters of Charles V, then found that cryptographers had cracked one of them in the 1530s and the other in 1916.",
+    "On John Dee's Liber Loagaeth, a manuscript long treated as coded, Breen said GPT-6 Astra concluded the text is almost entirely nonsense syllables. The model identified one passage encoding Bornogo, an angelic figure from Dee's own mythology.",
+    "A fourth run, on the Darwin Correspondence Project, has produced no decisive result yet, Breen said. His post drew 48 points and 9 comments on the Hacker News front page. No other historian has checked the findings."
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI",
+    "Hacker News"
+   ],
+   "sources": [
+    {
+     "author": "Benjamin Breen, Res Obscura",
+     "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-ando-agent-inboxes",
+   "section": "products",
+   "headline": "Ando gives AI agents their own inboxes in team messaging app",
+   "standfirst": "The company said it raised $20 million and is working with customers in software, real estate and finance across 15 countries.",
+   "body": [
+    "Ando, a team messaging startup, said on Thursday it has raised $20 million in pre-seed and seed funding. Its app gives AI agents their own identities and inboxes alongside the people on a team, and Ando pitches it as a replacement for Slack.",
+    "Agents can browse channels, join a conversation without being tagged and message a person first, founder Sara Du told TechCrunch. The app also covers direct messages, group threads and live calls, with transcription of the calls it records.",
+    "Du said the design is meant to remove what she calls \"meat proxies\", the case where a person relays an agent's work to the rest of a team. She said agents could manage people better than people can, because they can read far more messages in the same time.",
+    "Accel, Index Ventures and Emergence put money into the rounds, according to TechCrunch, which reported the funding on Thursday. Ando said it is working with customers in software, real estate and finance across 15 countries. It has not published pricing, and the report does not name the models the app uses."
+   ],
+   "entities": [
+    "Ando",
+    "Accel",
+    "Index Ventures",
+    "Slack"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-ifr-five-million-robots",
+   "section": "ai",
+   "headline": "IFR says 5 million industrial robots now work in factories worldwide",
+   "standfirst": "The federation put new installations above 600,000 for the year, with China taking 59% of them and Japan's own count down 19%.",
+   "body": [
+    "The International Federation of Robotics said 5 million industrial robots are now operating in factories worldwide. The federation describes the figure as more than double the number of seven years ago, and set it out in an annual count that The Robot Report carried on Thursday.",
+    "Annual installations passed 600,000 units, up 11% on the previous year, and the operational stock grew 9%, according to the federation's figures. The federation expects installations to reach 655,000 in 2026 and 806,000 by 2029, forecasts that rest on its own survey.",
+    "China installed 354,000 of the new robots, 59% of global deployments and 20% more than the year before. The United States installed 38,500, up 12%, which the federation puts in second place. Japan fell to third on 36,219, down 19% on the year.",
+    "Germany installed about 25,000, down 8% and still the largest market in the European Union. South Korea installed 30,000, down 1%. India installed 10,500, up 15%. Brazil installed 4,300, a rise of 38% that the federation attributes to automotive work.",
+    "\"Industrial automation is progressing at high speed,\" the federation said. It reports installations and operational stock separately, so the 5 million figure counts robots still in service rather than robots sold in the year. The underlying survey data is not public."
+   ],
+   "entities": [
+    "International Federation of Robotics",
+    "China",
+    "United States",
+    "Japan"
+   ],
+   "sources": [
+    {
+     "author": "The Robot Report",
+     "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-epoch-mit-cost-decline",
+   "section": "research",
+   "headline": "Epoch AI says cost of a fixed benchmark score falls 13x a year",
+   "standfirst": "Two teams measured how fast the price of reaching a given score drops, and they differ on how much of the fall comes from algorithms.",
+   "body": [
+    "Epoch AI said the cost of reaching a fixed score on AI benchmarks is falling about 47% a quarter, or roughly 13 times a year. It measured five benchmarks covering maths, science and logic puzzles.",
+    "Its example is GPQA Diamond. Reaching o3's 75% accuracy cost about 30 cents a question in early 2025, and about 0.04 cents 18 months later, Epoch AI said. That is a fall of about 1/725.",
+    "A separate MIT group reached a smaller figure for the part that comes from algorithms. Hans Gundlach and colleagues used Artificial Analysis data from April 2024 to November 2025 and measured costs falling 5 to 10 times a year, or about 3 times once they stripped out hardware gains and price competition.",
+    "Neither figure means today's best models are cheaper to run. Reasoning models spend far more compute per task, so a higher benchmark score may come from buying more processing rather than from efficiency. The Decoder is so far the only outlet to report the two sets of numbers together.",
+    "Epoch AI said that \"no other transformative technology declined that fast\". It describes its own figures as \"reasonable but rough measurements based on the best available data\", given the narrow set of benchmarks behind them."
+   ],
+   "entities": [
+    "Epoch AI",
+    "MIT",
+    "Artificial Analysis",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-anthropic-founder-votes",
+   "section": "business",
+   "headline": "Anthropic asks shareholders for founder voting control before IPO",
+   "standfirst": "The Information reported that seven co-founders would hold 50.1% of voting power through a separate company, with Dario Amodei owning about 2% of Anthropic.",
+   "body": [
+    "Anthropic is asking shareholders to approve a structure that would give its seven co-founders a combined 50.1% of voting power on most corporate matters. The Information reported the proposal on Thursday, under three bylines.",
+    "The founders would hold special voting shares through a separate limited liability company, letting them keep control despite small economic stakes, according to Wall St Engine, an account that summarised the report. It put Dario Amodei's stake at about 2%.",
+    "Julia Hornstein, one of three reporters on the story, wrote on X that the arrangement is \"kinda like\" Palantir's founder-control structure. Amir Efrati, The Information's executive editor, wrote that the co-founders would keep majority voting power even if they sell down their stakes.",
+    "Anthropic's Long-Term Benefit Trust would continue to appoint most board members under the proposal, and the founders' board seats would rise from two to three, according to the same summary. Employees would also receive a class of stock that could break ties on some questions.",
+    "Anthropic was valued at $965 billion in May, and is reportedly targeting at least $1.5 trillion in an IPO now expected around late October or November. No other outlet has matched the report, and the paper has not seen the proposal itself."
+   ],
+   "entities": [
+    "Anthropic",
+    "The Information",
+    "Dario Amodei",
+    "Palantir"
+   ],
+   "sources": [
+    {
+     "author": "The Information",
+     "url": "https://www.theinformation.com/articles/anthropic-seeks-palantir-style-voting-control-seven-co-founders-ahead-ipo"
+    },
+    {
+     "author": "Wall St Engine on X",
+     "url": "https://x.com/wallstengine/status/2103242264906768452"
+    },
+    {
+     "author": "Amir Efrati on X",
+     "url": "https://x.com/amir/status/2103242703970713644"
+    },
+    {
+     "author": "Julia Hornstein on X",
+     "url": "https://x.com/julia_hornstein/status/2103244627751149843"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-lovable-600m-runrate",
+   "section": "business",
+   "headline": "Lovable says annual run-rate revenue has passed $600 million",
+   "standfirst": "The company said the figure is up from $500 million in June, and that apps built on its platform draw close to a billion views a month.",
+   "body": [
+    "Lovable said its annual run-rate revenue has crossed $600 million, up from $500 million in June. It said apps built on its platform draw close to a billion views a month. The company sells tools that build working software from prompts.",
+    "Co-founder Fabian Hedin gave the figures to TechCrunch, which reported them on Thursday. Hedin said two-thirds of the Fortune 500 use the product, naming Microsoft, Nvidia and Deutsche Telekom among them. Lovable published no audited accounts alongside the figures, which are its own.",
+    "Lovable has raised $700 million across two rounds in eight months. It took $300 million at a $6.6 billion valuation in December 2025, and $400 million at $13.3 billion in August, according to TechCrunch.",
+    "Hedin drew the distinction with rivals at hosting rather than code generation. \"The output is a product, and increasingly so, a business,\" he said. \"We do a lot of things around hosting, deployment, and scaling apps.\"",
+    "Run-rate revenue annualises a recent period, so it may not match what Lovable books over a full year. TechCrunch is so far the only outlet to report the $600 million figure."
+   ],
+   "entities": [
+    "Lovable",
+    "Microsoft",
+    "Nvidia",
+    "Deutsche Telekom"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/"
+    }
+   ],
+   "placement": "inside"
+  }
+ ]
+}
