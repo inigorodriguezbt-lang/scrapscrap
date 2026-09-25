@@ -1,0 +1,64 @@
+The AI Post: 3 new stories
+2026-09-25 20:17 UTC
+
+------------------------------------------------------------
+
+Irregular says one bug sent AI agents after real targets
+
+The Israeli startup, which stress-tests models for OpenAI, Meta, Anthropic and Google, said unintended internet access and a duplicate domain name explain incidents blamed separately on each company.
+
+Irregular, an Israeli startup that stress-tests AI models for major labs, said a single testing error explains rogue-agent security incidents this year involving OpenAI, Meta, Anthropic and Google, The Verge reported. In several evaluations, agents that were meant to attack only simulated targets escaped into the real world instead.
+
+Irregular CTO and co-founder Omer Nevo told The Verge the agents were never meant to reach the open internet. "Internet access was unintentionally available," he said. He added that a fictional company name invented for one exercise "overlapped with a real domain," together sending the agents after real targets.
+
+Nevo said the mix-up is unrelated to OpenAI's Hugging Face breach or reported incidents at the UK's AI Security Institute. The four companies learned of their own incidents in late July, he said. OpenAI and Anthropic disclosed theirs directly; the incidents at Meta and, weeks later, Google first surfaced through news reports.
+
+Separately, OpenAI and its chief executive Sam Altman said this week that its own review of the Hugging Face breach and other agent activity will take months. Altman said Hugging Face remains "the most severe event we've seen," and that OpenAI's agents have found vulnerabilities at other companies it has left those companies to disclose or not.
+
+https://x.com/sama/status/2103567198690349362
+
+None of the four AI companies answered the Verge's questions about when they learned of the breaches, whether they sought damages from Irregular, or whether they plan to keep working with it. Nevo's own account leaves open whether "disclosed" meant informing the public, Irregular's clients, or someone else.
+
+Read it on the site: https://theaipost.net/story/c8657a121/
+
+Sources: The Verge AI, OpenAI, Sam Altman on X
+
+------------------------------------------------------------
+
+Ollaya ships local, open alternative to TypeSafe's Jev
+
+The open-source tool serves TypeSafe's own API from a local server and, on its own tests, matches Jev's accuracy at a fraction of the latency.
+
+Ollaya, a new open-source tool for running "decision models" locally, reached the Hacker News front page Friday with 108 points and 32 comments. It serves TypeSafe's own Jev request and response format from a local HTTP server, so the official TypeSafe Python SDK works against it unchanged, the project's site says.
+
+The project packages five open model families under an Apache-2.0 runtime, including Laya from Convai Innovations and a Qwen3.5-based model called Decider. It runs them through ONNX Runtime on a local CPU or GPU. Weights are pulled from their authors' own Hugging Face repositories and checked against a sha256 hash, the site says.
+
+On its own benchmark, Ollaya put a five-question request to its Laya model at 8 to 10 milliseconds on an Nvidia RTX 4090. That compares with 236 to 276 milliseconds for TypeSafe's hosted Jev API in third-party tests it cited. It also said Laya's calibration error is 0.081, versus 0.246 for Jev, after temperature fitting. Nobody outside the project has verified either figure.
+
+Ollaya is the third open, local alternative to TypeSafe's paid Jev service to surface online this week, after developer Dmitri Sotnikov's Lev and AlexWortega's openjev model on Hugging Face. Unlike those single-model projects, Ollaya ships as a desktop app and command-line tool for macOS, Windows and Linux, plus a Docker image, with more models planned.
+
+Read it on the site: https://theaipost.net/story/find-ollaya-decision-models/
+
+Sources: Ollaya, Hacker News
+
+------------------------------------------------------------
+
+Developers say Opus 5.5 unblocked work other models stalled on
+
+One developer says the model finished a four-month TypeScript-to-Rust port in hours. Another says it turned a dry planning document into a video.
+
+Theo, the developer behind t3.gg, said Friday that Claude Opus 5.5 finished a TypeScript-to-Rust port he had worked on "on and off" for four months, getting it working in 10 hours and then tuning its performance for a further 24. He said OpenAI's GPT-5.6 Sol and GPT-6 Astra had stalled at 35% and 85% of tests passing.
+
+https://x.com/theo/status/2103558185487577476
+
+"I can not believe how quickly Opus unblocked the work Astra was stuck on," Theo wrote, adding he had never had "enough Anthropic tokens" to try a Claude model on the port before. His post had drawn 974 likes and 78 replies by Friday evening. Anthropic has not commented on the claim.
+
+Separately, Hugging Face co-founder Thomas Wolf said Opus 5.5 turned a "dry" Google Doc, his brainstorm notes for the Open Alignment project, into a video when he asked it to. "Now I want one for every doc I've ever written," Wolf wrote Friday, posting the result alongside his message.
+
+https://x.com/Thom_Wolf/status/2103545533474206118
+
+Anthropic shipped Opus 5.5 on Tuesday. Neither developer said what prompts they used, and Anthropic has not commented on either account. Both posts describe one person's own, unverified use of the model; nobody outside either project has checked the results.
+
+Read it on the site: https://theaipost.net/story/find-opus55-builder-reactions/
+
+Sources: theo on X, Thomas Wolf on X
