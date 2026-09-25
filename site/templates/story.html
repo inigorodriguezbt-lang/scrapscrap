@@ -20,7 +20,8 @@
   <h1 class="hed">{{ story.headline|nbhy }}</h1>
   {% if story.standfirst %}<p class="standfirst">{{ story.standfirst }}</p>{% endif %}
   {{ s.figure(story.image) }}
-  <div class="body">{% for paragraph in story.body %}<p>{{ paragraph }}</p>{% endfor %}</div>
+  <div class="body">{% for paragraph in story.body %}<p>{{ paragraph }}</p>{% for e in embeds_after(story, loop.index) %}{{ s.embed(e) }}{% endfor %}{% endfor %}</div>
 </article>
+{% if has_embeds(story) %}<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>{% endif %}
 {{ s.source_list(story) }}
 {% endblock %}

@@ -87,6 +87,9 @@ def render_site() -> None:
     # break in a headline. U+2011 is the non-breaking hyphen.
     import re as _re
     env.filters["nbhy"] = lambda text: _re.sub(r"(?<=\w)-(?=\w)", "\u2011", text or "")
+    from .embeds import after as _embeds_after, clean as _embeds_clean
+    env.globals["embeds_after"] = _embeds_after
+    env.globals["has_embeds"] = lambda story: any(e["kind"] == "x" for e in _embeds_clean(story))
 
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)

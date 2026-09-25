@@ -67,3 +67,16 @@
   {{ sourcing(story) }}
 </article>
 {% endmacro %}
+
+{# X posts render as the platform's own embed (the blockquote degrades to a
+   plain link if its script is blocked); YouTube as a privacy-enhanced player;
+   anything else as a link. #}
+{% macro embed(e) %}
+{% if e.kind == 'x' %}
+<blockquote class="twitter-tweet" data-dnt="true" data-conversation="none"><a href="{{ e.url }}">{{ e.url }}</a></blockquote>
+{% elif e.kind == 'youtube' %}
+<div class="embed embed--video"><iframe src="https://www.youtube-nocookie.com/embed/{{ e.youtube_id }}" title="Video" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+{% else %}
+<p class="embed embed--link"><a href="{{ e.url }}" target="_blank" rel="external noopener noreferrer nofollow">{{ e.url }}</a></p>
+{% endif %}
+{% endmacro %}
