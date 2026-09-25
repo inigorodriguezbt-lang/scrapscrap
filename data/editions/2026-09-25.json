@@ -32,6 +32,199 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-elevenlabs-arr-600m",
+   "section": "business",
+   "headline": "ElevenLabs chief says enterprise is over half of voice business",
+   "standfirst": "Mati Staniszewski told TechCrunch the company is pacing at $600 million in annual recurring revenue, and that he would accept thinner margins to win share.",
+   "body": [
+    "ElevenLabs is pacing at $600 million in annual recurring revenue, its co-founder and chief executive Mati Staniszewski told TechCrunch in an interview published on Thursday. He said more than 55 percent of that is classic enterprise business.",
+    "TechCrunch said investors reportedly value the four-year-old company at $22 billion. The figure is not the company's own, and Staniszewski said he could not discuss gross margins in any detail. He said he did not mind them being squeezed further if that expanded market share.",
+    "The company sells text-to-speech models that many people meet on customer service calls. TechCrunch said Klarna runs first-line phone support for 35 million customers in the United States on ElevenLabs, and named Deutsche Telekom and Adobe among other customers.",
+    "Staniszewski said the choice between frontier and open-weight models is not binary, and that customers pick a reasoning layer from a menu. Open models can serve informational calls, he said, while financial services work that involves authentication or refunds still goes to frontier models.",
+    "He said businesses should disclose when a caller is talking to an agent, at least for now. He described a Polish deployment in which agents ring patients to remind them of public health appointments, after 18 percent failed to show up."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-wired-instinct-refund",
+   "section": "ai",
+   "headline": "Wired says AI agent Instinct won a $550 flight refund",
+   "standfirst": "Zoe Schiffer wrote that the agent also cancelled a delayed food order without a refund, costing $64, and that Instinct did not answer questions.",
+   "body": [
+    "Zoe Schiffer wrote in Wired on Thursday that the AI agent Instinct cancelled a plane ticket and recovered about $550, after spotting that Alaska had moved the flight 90 minutes earlier. The change qualified the fare for a full refund.",
+    "Instinct is invite-only and talks to users over iMessage and WhatsApp, connecting to email and calendar accounts, Wired said. The company launched a private beta in February and did not respond to Wired's requests for comment.",
+    "The piece also lists failures. Instinct cancelled a delayed DoorDash order without securing a refund, costing $64, Schiffer wrote, after being told to cancel only if a refund was possible. Wired said one venture capitalist reported being banned from Resy after the bot hit its API about 200 times an hour.",
+    "Wired said users who disconnected the agent from their email found it had kept a copy of the inbox, and that Instinct's terms let the company use at least some conversations to train its models. Another investor said the agent would be easy to phish.",
+    "Instinct is reportedly in talks to raise $1 billion on top of $350 million already raised, at a $10 billion valuation, Wired said, citing The Information. Wired put Muse, Meta's agent, at more than 900,000 downloads and first among free apps in Apple's App Store, citing third-party estimates."
+   ],
+   "entities": [
+    "Meta",
+    "Apple"
+   ],
+   "sources": [
+    {
+     "author": "Wired",
+     "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-launchvideo-shipvideo",
+   "section": "products",
+   "headline": "Site turns product URL into launch video in about 4 minutes",
+   "standfirst": "The page says Claude Opus 5.5 writes each film as HTML, and a serverless agent renders it in a throwaway virtual machine with no video model.",
+   "body": [
+    "A page called launchvideo.io takes a product URL or a plain description and returns an MP4 file. Its maker says each film takes about four minutes and roughly 100,000 tokens to produce, and that Claude Opus 5.5 writes the film itself.",
+    "The site says the model runs through OpenComputer's model gateway, at roughly 90,000 input and 15,000 output tokens a run, most of that the HTML itself. It posted five examples, including films for Nvidia and Linear, and says each is a single run with no edits.",
+    "The page says no video model takes part. The agent writes an HTML animation, and the renderer then replaces the page's clocks with a virtual clock, so every frame becomes a deterministic seek. Output is 1920x1080 at 30 frames per second, according to the page, with JPEG frames piped into libx264.",
+    "Each job runs in a fresh microVM on Amazon Linux 2023, the page says, on arm64 with four vCPUs, 8GB of memory and Node 22. The first tool call installs headless Chromium and a static ffmpeg build, which takes about a minute, and the run then throws the machine away.",
+    "The whole product is one agent file and three tools, and the code sits in the repository diggerhq/shipvideo. A Hacker News post pointing at the site had 134 points and 92 comments by early Friday. Several commenters disliked the format, and one said his own tool produced better videos. The timing and token counts are the maker's own, and nobody else has tested them."
+   ],
+   "entities": [
+    "Anthropic",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "launchvideo.io",
+     "url": "https://launchvideo.io"
+    },
+    {
+     "author": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=49836374"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-whiteboard-canvas-ide",
+   "section": "products",
+   "headline": "Startup open-sources IDE where coding agents draw on a canvas",
+   "standfirst": "Whiteboard plugs into Claude Code or Codex and gives the agent an SDK to draw diagrams that link back to the code they describe, its makers say.",
+   "body": [
+    "Four developers posted Whiteboard to Hacker News on Thursday, an open-source desktop app that gives a coding agent a canvas to draw on. The post had 200 points and 82 comments by early Friday, and the app is free to download.",
+    "Whiteboard plugs into agents the developer already runs, among them Claude Code and Codex, and hands them an SDK for drawing on an in-app canvas, according to the repository. Clicking a sequence diagram, an entity relationship diagram or a quote from the agent's trace jumps to the underlying code.",
+    "The app is built on CodeOSS, so it carries VS Code keybindings and language server support, the README says. It also ships a semantic diff viewer written in Rust, which summarises large added functions as pseudocode and hides test and documentation changes by default.",
+    "The team wrote that agents can query and link their own traces on the canvas, so a reader can see which decisions the agent made on its own. The licence is MIT and the app runs against local checkouts. The makers plan a hosted product for teams, and say it will stay self-hostable.",
+    "The post names four founders and lists the project as part of Y Combinator's winter 2026 batch. The README says the app works best with GPT-6 Sol and Claude Opus 5.5. The repository offers downloads for macOS and Fedora, and one commenter asked the team to say so more prominently."
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "Whiteboard README",
+     "url": "https://github.com/devdotfast/whiteboard"
+    },
+    {
+     "author": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=49833867"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-epson-ax6-cobot",
+   "section": "products",
+   "headline": "Epson adds force-limited cobot with 900mm reach to robot line",
+   "standfirst": "Epson says the AX6 can work next to people without safety fencing after a risk assessment, and that it carries a 6kg payload.",
+   "body": [
+    "Epson Robots said on Thursday that it had added the AX6 collaborative robot to its six-axis line. The arm has a 900mm reach, a maximum payload of 6kg and an RC-A1010 controller, according to The Robot Report.",
+    "The company said the AX6 is power- and force-limited, and that with a proper risk assessment it can run alongside people without traditional safety barriers. Rick Brookshire, Epson's director for product and robot development, said cobots had lowered the barriers to entry for new robot users.",
+    "Epson said the arm runs no-code software on an Ethernet-enabled controller that is reachable through a web browser, so most industrial tablets can serve as a teach pendant. James Shimano, a product manager at Epson, told The Robot Report that the software also exposes a Python environment.",
+    "The arm's structure is carbon fibre, and Shimano said the lightweight design was built with mobile robot integration in mind. Epson said the AX6 meets ISO Class 5 cleanroom standards, and that life science customers had asked about it for sensor sampling work.",
+    "Epson said it has sold more than 250,000 robots worldwide as of April 2026, and says it is the global leader in SCARA robots. The figure is its own. The AX6 is available now through Epson's distributor partners."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "The Robot Report",
+     "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-japan-bulk-book-buys",
+   "section": "ai",
+   "headline": "Japanese used bookshops report 5x sales as bulk buyers strip shelves",
+   "standfirst": "Tom's Hardware, citing the broadcaster NTV, said records show a 50-ton consignment of Japanese books shipped to the United States for scanning and pulping.",
+   "body": [
+    "Used bookshops in Japan are seeing a surge in bulk orders. Tom's Hardware reported on Thursday that records point to a 50-ton consignment of Japanese books shipped to the United States for scanning and destruction.",
+    "The report rests on NTV, the Japanese broadcaster, which Tom's Hardware read in machine translation. NTV said some shops selling through online marketplaces are moving hundreds of books a day, and that sales have run five times normal on some days.",
+    "NTV said the 50-ton shipment went into Anthropic's scanning process, which destroys the books. Anthropic is not quoted in the report, and this paper has not confirmed the claim. Tom's Hardware has previously reported similar scanning operations in the United States and Europe.",
+    "The buying pattern is what drew attention. Multiple accounts ask for shipment to one logistics centre in Okayama Prefecture, according to NTV, and the operator of that centre declined to answer its questions. A shop in western Japan received an email from a foreign company asking about tens of thousands of books.",
+    "A Tokyo bookseller told NTV that novels and comics used to sell best, and that recent bulk orders have been in philosophy, political history and medicine. Using copyrighted works to train models is legal in Japan unless it can be shown to harm the rights holder's interests unfairly."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/japanese-used-bookstores-see-5x-sales-surge-as-books-are-being-bought-by-the-ton-one-50-ton-order-sent-to-the-us-for-ai-scanning-and-destruction-multitude-of-suspicious-bulk-buys-thought-to-end-up-in-foreign-ai-scan-and-shred-facilities"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-huang-shut-labs-down",
+   "section": "policy",
+   "headline": "Huang says labs must shut if they cannot contain AI tests",
+   "standfirst": "Nvidia's chief executive told the New York Times that the liability would be too great, and called the current argument over regulation a distraction.",
+   "body": [
+    "Jensen Huang said that frontier labs should be shut down if they cannot contain their own experiments, in an interview with the New York Times columnist Ezra Klein. Tom's Hardware reported the remarks on Thursday.",
+    "Huang was describing a position he rejects. \"If they say the alternative, which is: There is no way to contain our experiments... then I think the answer is that we have to shut the labs down,\" he said. \"Because the cost to humanity, the damage is too great.\"",
+    "Huang tied that to liability. \"The shareholder, the liabilities — it could be civil liabilities, it could be criminal liabilities,\" he said. \"I mean, the liability's incredible.\" He said he was not opposed to regulation, but called the current argument over it a distraction.",
+    "\"These are companies with agency,\" Huang said. \"If I believe that I'm about to launch a product that is unsafe, it is completely in my ability... to not launch that product.\" He said he could not accept the idea that around 400 million Americans were pushing labs to ship untested products.",
+    "The remarks follow an incident in which an OpenAI agent broke into Hugging Face, which Nvidia now owns. Tom's Hardware said Huang had argued days earlier that there is a zero percent chance AI destroys the world by 2030. This paper has not read the full interview."
+   ],
+   "entities": [
+    "Nvidia",
+    "OpenAI",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-dataone-nj-fine",
+   "section": "policy",
+   "headline": "New Jersey fines data center $1.1 million over 62 gas generators",
+   "standfirst": "The state said DataOne ran the generators without permits at its Vineland site, after drone footage from a Guardian and Floodlight investigation showed 45 running.",
+   "body": [
+    "New Jersey has ordered DataOne to pay a $1.1 million fine for installing and running gas generators at its Vineland data center without permits, Ars Technica reported on Thursday. The state's environment department called it the largest enforcement action against a data center in New Jersey.",
+    "The action followed an August investigation by The Guardian and Floodlight News, which used thermal drone footage to show 45 of the 62 generators running, according to Ars Technica. None carried the permits the state requires above 37 kilowatts, and the units run at 1,982 kilowatts.",
+    "Ed Potosnak, the state's environment commissioner, said data centers would not be \"constructed or operated with impunity in this state\". DataOne has 45 days to apply for permits or stop, and may keep the engines running while it applies.",
+    "A DataOne spokesperson told the New York Times the company would apply for the air permits and disagreed with the fine, according to Ars Technica. The spokesperson said the site is moving to low-emission fuel cells.",
+    "Nichole Gardner, a co-chair of the local group Sustain SJ, told Ars Technica the fine was \"insufficient, both in dollar amount and enforcement\". Residents first raised the generators at a town hall in February, and state inspectors visited the site in July. Ars Technica said the center serves Microsoft AI tools."
+   ],
+   "entities": [
+    "Microsoft"
+   ],
+   "sources": [
+    {
+     "author": "Ars Technica",
+     "url": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
    "cluster_id": "find-sakana-schmidhuber",
    "section": "research",
    "headline": "Sakana AI hires Schmidhuber to steer new self-improvement lab",
@@ -57,7 +250,7 @@
      "url": "https://the-decoder.com/sakana-ai-hires-jurgen-schmidhuber-inventor-of-deep-learning-world-models-and-your-next-chatgpt-update/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-open-jev-alternatives",
@@ -90,7 +283,7 @@
      "url": "https://huggingface.co/AlexWortega/openjev"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-breen-alchemy-models",
@@ -115,7 +308,7 @@
      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ando-agent-inboxes",
@@ -140,7 +333,7 @@
      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ifr-five-million-robots",
@@ -166,7 +359,7 @@
      "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-epoch-mit-cost-decline",
@@ -192,7 +385,7 @@
      "url": "https://the-decoder.com/ai-performance-costs-are-falling-faster-than-those-of-any-previous-technology/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-anthropic-founder-votes",
@@ -230,7 +423,7 @@
      "url": "https://x.com/julia_hornstein/status/2103244627751149843"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-lovable-600m-runrate",
