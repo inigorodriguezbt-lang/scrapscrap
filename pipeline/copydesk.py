@@ -7,8 +7,8 @@ recorded in data/state/last_run.json): headline, standfirst, body, the live
 URL, and the post drafted for it. The cycle sends that file; the chat reply
 stays a short list of headlines.
 
-It also writes the same content as `<name>.html`, the body of the email the
-cycle sends the editor.
+It also writes `<name>.html` and `<name>.txt`, the body of the email the cycle
+sends the editor: the same articles, without the X posts.
 
 Usage:
     python -m pipeline.copydesk                      # today's edition
@@ -49,7 +49,7 @@ def queued_post(day: str, cluster_id: str) -> str:
     return ""
 
 
-def render(stories: list[dict], day: str, site: str) -> str:
+def render(stories: list[dict], day: str, site: str, posts: bool = True) -> str:
     stamp = utcnow().strftime("%Y-%m-%d %H:%M UTC")
     out = [f"# The AI Post: {len(stories)} new {'story' if len(stories) == 1 else 'stories'}",
            f"_{stamp}_", ""]
@@ -61,7 +61,7 @@ def render(stories: list[dict], day: str, site: str) -> str:
         sources = ", ".join(src.get("author", "") for src in s.get("sources", []) if src.get("author"))
         if sources:
             out += [f"_Sources: {sources}_", ""]
-        post = queued_post(day, s["cluster_id"])
+        post = queued_post(day, s["cluster_id"]) if posts else ""
         if post:
             out += ["Post for X:", "", "```", post, "```", ""]
     return "\n".join(out).rstrip() + "\n"
@@ -117,11 +117,13 @@ def main() -> None:
     site = load_config()["paper"].get("site_url", "").rstrip("/")
     COPY_DIR.mkdir(parents=True, exist_ok=True)
     out = COPY_DIR / f"{day}-{utcnow().strftime('%H%M')}.md"
-    text = render(stories, day, site)
-    out.write_text(text, encoding="utf-8")
-    # The same content as an email body, for the editor's inbox.
-    out.with_suffix(".html").write_text(to_email_html(text), encoding="utf-8")
-    print(f"{len(stories)} stories → {out} (+ .html for email)")
+    out.write_text(render(stories, day, site), encoding="utf-8")
+    # The email version: the same articles without the X posts, as HTML for
+    # the body and plain text for the fallback.
+    email = render(stories, day, site, posts=False)
+    out.with_suffix(".html").write_text(to_email_html(email), encoding="utf-8")
+    out.with_suffix(".txt").write_text(email, encoding="utf-8")
+    print(f"{len(stories)} stories → {out} (+ .html and .txt for email, without X posts)")
     for s in stories:
         print(f"  · {s['headline']}")
 
