@@ -32,6 +32,178 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-runway-worldprompt",
+   "section": "models",
+   "headline": "Runway staff describe how Worlds 2 streams generated video live",
+   "standfirst": "Three people from the company told Latent Space that a distillation step cut the model to four denoising passes, which is what makes it playable.",
+   "body": [
+    "Runway's GWM Worlds 2 research preview streams 720p video at 24 frames a second with audio at 48,000 Hz, and staff told Latent Space the model reaches that speed through distillation. Anastasis Germanidis, the company's co-founder and co-chief executive, said the work cut diffusion from around 50 denoising steps to four.",
+    "Germanidis said the reduction comes \"with some quality loss but potentially comparable results\", which is the company's own reading of the trade-off. Nobody outside Runway has measured it. Richard MacManus wrote the piece, which went up on Friday and also quotes Kamil Sindi, the chief technology officer, and Robin Kahlow, a principal research scientist.",
+    "Runway calls the input format WorldPrompt. Kahlow said it lets a user fix parts of a simulated environment, including the first frame, and then fire timestamped events into it while the video runs. He described the aim as \"very detailed control over everything in the scene\".",
+    "Kahlow put the engineering as two problems: \"making the model not generate a whole clip at once\", and \"making the generation fast, so you can play it in real time\". The sequence he described is fine-tuning to the WorldPrompt format, post-training the model to generate autoregressively, then distilling it down for speed.",
+    "The limits are in the interview too. Germanidis said error accumulation is the main constraint, because the model feeds generated frames back in and small errors compound, which holds continuous interaction to a few minutes. A character model can run about 30 minutes. Kahlow said movement \"works quite reliably\" but called this a research preview with flaws that depend on how hard the action is."
+   ],
+   "entities": [
+    "Runway"
+   ],
+   "sources": [
+    {
+     "author": "Latent Space",
+     "url": "https://www.latent.space/p/runway"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-google-photos-redact",
+   "section": "products",
+   "headline": "Google Photos adds Redact pen that pixelates sensitive details",
+   "standfirst": "The pen sits inside an upgraded Markup tool that Google is rolling out to Android users worldwide, alongside a set of vintage filters called Moods.",
+   "body": [
+    "Google Photos has started rolling out a Redact pen that blurs or pixelates sensitive information in screenshots and images, 9to5Google and Engadget reported on Thursday. The pen is part of an upgraded Markup tool, which Engadget said is going out to Google Photos users on Android worldwide.",
+    "The same Markup update adds thickness sliders for the pen and highlighter and new fonts in the text tool, according to 9to5Google, whose report went up at 10am Pacific. Engadget's example was a car number plate turned into a pixelated block. Google has not said how long the rollout will take.",
+    "A second feature going out globally on Android is Moods, a set of filters 9to5Google described as having a nostalgic, vintage-inspired look. The named styles are Crisp 35mm, 2000's night, Retro contrast, Night light, Blue Haze, Any Minimalist and Rich textures, each with a slider.",
+    "Two other changes are narrower. Fifteen new Remix templates, covering red carpet shots, birthday cards and photo booth strips, are reaching Android and iOS in selected countries. The Wardrobe feature, which builds a clothing catalogue from a user's photos, is now in Brazil, India and the United States on both systems, and 9to5Google said it needs an AI Pro or AI Ultra subscription."
+   ],
+   "entities": [
+    "Google"
+   ],
+   "sources": [
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/09/24/google-photos-redact-moods/"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2267415/google-photos-update-redact-tool/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-nyt-cooking-meta-glasses",
+   "section": "products",
+   "headline": "New York Times Cooking to read recipes through Meta glasses",
+   "standfirst": "A hands-free mode will narrate steps on Meta's AI glasses and put swipeable recipe cards on the Ray-Ban Display, Engadget reported, arriving later this autumn.",
+   "body": [
+    "The New York Times Cooking app is getting a hands-free mode that pairs with Meta's glasses and reads recipe steps aloud, Engadget reported on Thursday. The mode is due later this autumn and was shown during Meta's developer state of the union at Connect, according to the report.",
+    "AJ Chavar of the New York Times said the paper built \"a system to restructure lengthy steps into brief audio instructions, preserving the author's expertise while supplying ingredients and measurements in line\". The claim about how well that works is the publisher's own, and nobody has tested the feature.",
+    "On the Ray-Ban Display glasses, which carry a screen, Engadget said the steps appear as individual cards that a user swipes through. On Meta's wider line of AI glasses, which have no display, the mode is audio only.",
+    "Engadget's report gives no date beyond later this autumn, and does not say whether a Cooking subscription is needed or which glasses in the line qualify. Karissa Bell filed the piece at 3.24pm Eastern on Thursday. No other outlet appears to have the detail yet."
+   ],
+   "entities": [
+    "Meta",
+    "The New York Times"
+   ],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2268183/new-york-times-cooking-is-coming-to-metas-ai-and-display-glasses/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-rayban-gen3-compare",
+   "section": "products",
+   "headline": "Ray-Ban Meta Gen 3 adds an hour of battery, costs $70 more",
+   "standfirst": "Engadget's side-by-side puts the new glasses at nine hours a charge and $449, against eight hours and $379 for the pair they replace.",
+   "body": [
+    "Engadget published a specification comparison on Thursday evening putting the Ray-Ban Meta Gen 3 at up to nine hours a charge and a starting price of $449, against eight hours and $379 for the Gen 2. With the charging case the figures are 50 hours and 48 hours.",
+    "The microphone array goes from five to six. Ian Carlos Campbell, who wrote the comparison, said adding the microphone and redesigning the layout \"has allowed for better background noise reduction\". The noise claim originates with Meta rather than with a test Engadget ran.",
+    "On the Wayfarer frame the Gen 3 measures 129mm hinge to hinge with 149mm temples and weighs 51.5 grams. The Gen 2 is 131mm with 150mm temples at 51 grams. The new frame is therefore a little smaller and marginally heavier, and it comes in Aviator and Zena styles as well.",
+    "The Gen 3 also gains an action button that can summon Meta's assistant, take a capture or run a shortcut, where the Gen 2 button drives the camera only. Engadget said most of the Gen 3 software features are due on the Gen 2, among them hearing enhancement, agent access and dynamic photo capture."
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2268392/ray-ban-meta-gen-3-vs-gen-2-ai-glasses-comparison/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-colossus-gb300-count",
+   "section": "chips",
+   "headline": "Musk puts Colossus 2 at 110,000 GB200s and 440,000 GB300s",
+   "standfirst": "In a reply posted on X early on Friday, Musk gave chip counts for both xAI clusters and said another 220,000 GB300s go live next week.",
+   "body": [
+    "Elon Musk said xAI's Colossus 2 cluster runs 110,000 Nvidia GB200 chips and 440,000 GB300s, in a reply posted on X at 03:44 UTC on Friday. He put the first Colossus cluster at 150,000 H100s, 50,000 H200s and 30,000 GB200s.",
+    "Musk said a further 220,000 GB300s \"will be fully operational next week\" and another 220,000 in November. He added that \"if we get lucky\", yet another 220,000 GB300s could be running by late December. The dates are his, and xAI has not published a schedule.",
+    "The counts are Musk's own and nobody has verified them. xAI does not publish an inventory of its clusters, and Nvidia does not break out shipments by customer. Taken at face value, the figures would put more than half a million Blackwell-generation parts in Colossus 2 alone.",
+    "The post had drawn about 977 likes and 86 reposts when read at 04:05 UTC on Friday. It was a reply to another account rather than a company statement, which is worth noting: Musk has given cluster numbers on X before, and they have not always matched what xAI later described."
+   ],
+   "entities": [
+    "xAI",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "Elon Musk on X",
+     "url": "https://x.com/elonmusk/status/2103329761690865846"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-databricks-row-zero",
+   "section": "business",
+   "headline": "Databricks buys Row Zero, puts a spreadsheet inside Genie",
+   "standfirst": "Terms were not disclosed. Databricks said the acquisition gives its Genie agent a grid that business teams can pivot and model in.",
+   "body": [
+    "Databricks said on Thursday it has acquired Row Zero, a cloud spreadsheet that connects to live data sources, and will build it into Genie, the company's agent product. Terms were not disclosed. Databricks said Row Zero will stay available as a standalone product.",
+    "Patrick Wendell, a Databricks co-founder and its vice-president of engineering, said in the release that a spreadsheet inside Genie is now \"a must-have\". Breck Fresen, Row Zero's founder and chief executive, said he built it because spreadsheets \"needed to seamlessly connect to enterprise-scale data with governance\". Both claims are the companies' own.",
+    "Row Zero was founded by former Amazon Web Services and Tableau engineers. It raised $10 million in May 2025 at an estimated $40 million valuation, TechCrunch reported. Its engine holds more than a million live rows, and Databricks said the grid will run on web, desktop and mobile across the major clouds.",
+    "Ali Ghodsi, the Databricks chief executive, told TechCrunch: \"We intend to do many more acquisitions like this in the future.\" TechCrunch counted four earlier Databricks deals this year. It put the company at a $7 billion annualised revenue run rate, after a $5 billion raise last month."
+   ],
+   "entities": [
+    "Databricks",
+    "Row Zero"
+   ],
+   "sources": [
+    {
+     "author": "Databricks",
+     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-densityai-valuation",
+   "section": "chips",
+   "headline": "Ex-Dojo chip startup nears $10 billion valuation, Information says",
+   "standfirst": "DensityAI is in advanced talks to raise hundreds of millions of dollars and has told investors that AWS would buy its chips if they hit performance targets.",
+   "body": [
+    "DensityAI, the chip startup set up by former leaders of Tesla's Dojo programme, is in advanced talks to raise hundreds of millions of dollars at a $10 billion valuation, The Information reported late on Thursday. No other outlet has the story, and DensityAI has not commented publicly.",
+    "The company has told potential investors it has an agreement with Amazon Web Services under which AWS would buy its chips if they meet certain performance requirements, according to the report. Andreessen Horowitz has been in discussions to lead the round. Neither AWS nor Andreessen Horowitz has confirmed either detail.",
+    "Both claims rest on what DensityAI has told investors, which is a company account of its own prospects rather than a contract anyone outside has seen. The report does not describe the performance conditions attached to the AWS agreement, and it does not say how much of the round investors have committed.",
+    "Tesla shut Dojo, its in-house training supercomputer programme, in August 2025, and former leaders of that programme went on to found DensityAI. A $10 billion valuation would be a steep mark for a company a year old with no shipped part on the public record."
+   ],
+   "entities": [
+    "DensityAI",
+    "Amazon Web Services",
+    "Andreessen Horowitz"
+   ],
+   "sources": [
+    {
+     "author": "The Information",
+     "url": "https://www.theinformation.com/articles/startup-founded-ex-tesla-dojo-leaders-nears-10-billion-valuation"
+    },
+    {
+     "author": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/densityai-seeks-funding-at-10-bln-valuation-information-reports-93CH-4916559"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-elevenlabs-arr-600m",
    "section": "business",
    "headline": "ElevenLabs chief says enterprise is over half of voice business",
@@ -50,7 +222,7 @@
      "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-wired-instinct-refund",
@@ -74,7 +246,7 @@
      "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-launchvideo-shipvideo",
@@ -102,7 +274,7 @@
      "url": "https://news.ycombinator.com/item?id=49836374"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-whiteboard-canvas-ide",
@@ -130,7 +302,7 @@
      "url": "https://news.ycombinator.com/item?id=49833867"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-epson-ax6-cobot",
@@ -151,7 +323,7 @@
      "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-japan-bulk-book-buys",
@@ -174,7 +346,7 @@
      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/japanese-used-bookstores-see-5x-sales-surge-as-books-are-being-bought-by-the-ton-one-50-ton-order-sent-to-the-us-for-ai-scanning-and-destruction-multitude-of-suspicious-bulk-buys-thought-to-end-up-in-foreign-ai-scan-and-shred-facilities"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-huang-shut-labs-down",
@@ -199,7 +371,7 @@
      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-dataone-nj-fine",
