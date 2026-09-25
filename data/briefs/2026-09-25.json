@@ -1,15 +1,64 @@
 {
-  "generated_at": "2026-09-25T12:05:24.436923+00:00",
+  "generated_at": "2026-09-25T14:06:55.587187+00:00",
   "edition_date": "2026-09-25",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 150,
-  "clusters_found": 109,
-  "stories_declared": 10,
+  "posts_considered": 156,
+  "clusters_found": 116,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "cbcb6ccd3",
+      "score": 15.004,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Verge AI",
+        "satyanadella"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-25T12:00:00+00:00",
+      "last_seen": "2026-09-25T12:05:37+00:00",
+      "links": [
+        "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+        "https://x.com/satyanadella/status/2103455884366188544"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office. After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. [&#8230;]",
+          "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+          "created_at": "2026-09-25T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Microsoft's Copilot app adds Office, natural coding and automation. Microsoft is giving its Copilot app another facelift.",
+          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+          "created_at": "2026-09-25T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "satyanadella",
+          "tier": "commentary",
+          "text": "We’re building Copilot as a new OS for work that spans every model, every form factor, and every task. Today, we’re announcing our biggest update to Copilot to date, bringing four things together:\n\n· Autopilot: proactive and long-running agent built for the enterprise\n· Code: build apps with Copilot, hosted inside your company’s tenant\n· Home: Chat + Cowork together\n· Office: now fully embedded in Copilot (and Copilot embedded in Office, of course!)\n\nPlus, you can invoke Copilot in Teams, and we’re introducing Today, a proactive experience that surfaces the most important information from across M365 without needing to ask for it.\n\nThe way we work is changing and so are our workflows. This update brings AI into that flow, from answering a question, to building an app, to getting work done on your behalf.",
+          "url": "https://x.com/satyanadella/status/2103455884366188544",
+          "created_at": "2026-09-25T12:05:37+00:00",
+          "engagement": 3548
+        }
+      ]
+    },
+    {
       "cluster_id": "c12ac6c27",
-      "score": 11.573,
+      "score": 11.235,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -88,7 +137,7 @@
     },
     {
       "cluster_id": "c7ad180b6",
-      "score": 11.431,
+      "score": 11.093,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -137,7 +186,7 @@
     },
     {
       "cluster_id": "cbea7e2c3",
-      "score": 9.504,
+      "score": 9.166,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -185,91 +234,23 @@
       ]
     },
     {
-      "cluster_id": "c355e564e",
-      "score": 8.537,
-      "interest": "neutral",
+      "cluster_id": "c52218f1b",
+      "score": 8.665,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Anthropic"
+        "Meta"
       ],
       "independent_sources": [
-        "Reuters",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-24T16:04:26+00:00",
-      "last_seen": "2026-09-25T11:45:07+00:00",
-      "links": [
-        "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/",
-        "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
-        "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
-        "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
-        "https://x.com/Reuters/status/2103450725888012767"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining. Anthropic's AI model Claude found a previously unknown enzyme system in DNA databases, doing most of the analysis on its own. The article Anthropic says Claude discovered a new enzyme system, but CRISPR researchers call it routine genome mining appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/",
-          "created_at": "2026-09-24T16:04:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Top AI experts badly underestimated how fast the field is moving, study finds. Leading AI experts have consistently underestimated how fast AI is advancing, according to the Forecasting Research Institute. AI reached gold-medal level at the International Mathematical Olympiad five years ahead of the median expert forecast, and Anthropic's annualized revenue is about five times what experts predicted. But forecasts for real-world uses like self-driving cars paint a more mixed picture. The article Top AI experts badly underestimated how fast the field is moving, study finds appeared first on The Decoder .",
-          "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
-          "created_at": "2026-09-24T19:18:33+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers. The White House wants OpenAI and Anthropic to hold back new AI models from the U.K.'s AI Safety Institute until U.S. agencies get to review them first. The article White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers appeared first on The Decoder .",
-          "url": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
-          "created_at": "2026-09-25T08:12:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year. Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai's shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrupt if its revenue forecasts are even slightly off. The article Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
-          "created_at": "2026-09-25T10:43:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "Asked about CNN White House ban, Pope Leo says all journalists are 'welcome' to cover him https://t.co/yW97GzpbW2 https://t.co/yW97GzpbW2",
-          "url": "https://x.com/Reuters/status/2103450725888012767",
-          "created_at": "2026-09-25T11:45:07+00:00",
-          "engagement": 43
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf16d2dec",
-      "score": 8.126,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Meta",
-        "Apple"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
+        "The Decoder",
         "The Verge AI"
       ],
       "source_count": 2,
       "first_seen": "2026-09-24T17:00:00+00:00",
-      "last_seen": "2026-09-25T06:27:28+00:00",
+      "last_seen": "2026-09-25T12:22:27+00:00",
       "links": [
-        "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
+        "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
         "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
         "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
       ],
@@ -291,18 +272,18 @@
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Meta's Muse Agent Makes Waves: Market Snapshot. Major banks, insurers and online travel agencies stocks took a tumble this week after Meta’s new artificial intelligence agent, Muse rose to the top of Apple's app store. Increasing usage of the app sparked fears that personal AI tools could disrupt businesses that benefit from so-called consumer inertia. The Opening Trade spoke to guests about whether the latest AI developments are impacting their outlook for stocks and the broader sector amid an increasingly complex AI trade. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/meta-s-muse-agent-makes-waves-market-snapshot-video",
-          "created_at": "2026-09-25T06:27:28+00:00",
+          "text": "Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux. Meta gives every Muse user a free cloud computer running Ubuntu Linux where they can install software, write code, and browse the web. A \"Sentinel\" process monitors sensitive actions outside the user's workspace, while users can inspect every file in the system. With over 500,000 users in its first week, Meta is betting on product reach over model power. The article Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux appeared first on The Decoder .",
+          "url": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
+          "created_at": "2026-09-25T12:22:27+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c1b15b34c",
-      "score": 8.031,
+      "score": 7.693,
       "interest": "want",
       "single_source": false,
       "suggested_section": "research",
@@ -340,121 +321,59 @@
       ]
     },
     {
-      "cluster_id": "c4fd13a1a",
-      "score": 6.275,
+      "cluster_id": "cd65921a0",
+      "score": 6.365,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Google",
-        "Meta",
-        "Microsoft"
+        "Anthropic"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Engadget"
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-25T12:00:00+00:00",
-      "last_seen": "2026-09-25T12:00:01+00:00",
+      "first_seen": "2026-09-24T19:18:33+00:00",
+      "last_seen": "2026-09-25T13:04:43+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-        "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/"
+        "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+        "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
+        "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
+        "https://www.bloomberg.com/news/articles/2026-09-25/trump-tells-openai-anthropic-to-withhold-models-from-uk-agency"
       ],
       "posts": [
         {
-          "author": "Engadget",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Microsoft's Copilot app adds Office, natural coding and automation. Microsoft is giving its Copilot app another facelift.",
-          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-          "created_at": "2026-09-25T12:00:00+00:00",
+          "text": "Top AI experts badly underestimated how fast the field is moving, study finds. Leading AI experts have consistently underestimated how fast AI is advancing, according to the Forecasting Research Institute. AI reached gold-medal level at the International Mathematical Olympiad five years ahead of the median expert forecast, and Anthropic's annualized revenue is about five times what experts predicted. But forecasts for real-world uses like self-driving cars paint a more mixed picture. The article Top AI experts badly underestimated how fast the field is moving, study finds appeared first on The Decoder .",
+          "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/",
+          "created_at": "2026-09-24T19:18:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers. The White House wants OpenAI and Anthropic to hold back new AI models from the U.K.'s AI Safety Institute until U.S. agencies get to review them first. The article White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers appeared first on The Decoder .",
+          "url": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
+          "created_at": "2026-09-25T08:12:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year. Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai's shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrupt if its revenue forecasts are even slightly off. The article Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
+          "created_at": "2026-09-25T10:43:15+00:00",
           "engagement": 0
         },
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Microsoft Abandons Personal AI Chatbot Race With Copilot Reboot. Microsoft Corp. is merging the consumer and workplace versions of its Copilot AI assistant into one product aimed at corporate customers, ceding the crowded market for personal chatbots to OpenAI, Alphabet Inc.’s Google and, now, Meta Platforms Inc.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-          "created_at": "2026-09-25T12:00:01+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "caaf66516",
-      "score": 6.125,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-24T12:54:19+00:00",
-      "last_seen": "2026-09-24T20:34:31+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Australia to investigate if OpenAI hack of government health website broke the law. The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
-          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
-          "created_at": "2026-09-24T12:54:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay. Australia says an OpenAI agent got past blocks on a Medicare statistics portal in June. OpenAI's notification arrived in September.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site",
-          "created_at": "2026-09-24T20:34:31+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c55093ab1",
-      "score": 4.12,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-24T14:03:38+00:00",
-      "last_seen": "2026-09-24T17:39:24+00:00",
-      "links": [
-        "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
-        "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/"
-      ],
-      "posts": [
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Meta puts its AI assistant on a keychain. Meta says the keychain-sized Muse Charm will ship in December.",
-          "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
-          "created_at": "2026-09-24T14:03:38+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend. Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a much broader Gen Z trend around bag charms, retro tech, and turning gadgets into fashion accessories.",
-          "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
-          "created_at": "2026-09-24T17:39:24+00:00",
+          "text": "Trump Tells OpenAI, Anthropic to Withhold Models From UK Agency. President Donald Trump’s administration requested OpenAI and Anthropic PBC withhold new artificial intelligence models from the UK’s flagship testing agency without prior review by US authorities.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/trump-tells-openai-anthropic-to-withhold-models-from-uk-agency",
+          "created_at": "2026-09-25T13:04:43+00:00",
           "engagement": 0
         }
       ]
