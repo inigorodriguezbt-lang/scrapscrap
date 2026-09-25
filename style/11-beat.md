@@ -171,3 +171,13 @@ is talking about), mark it `"promote": true` in the side file. The merge step
 moves it to the lead and the old lead to the top of the front. That happens at
 most three times a day, so use it for the day's real headline, not for every
 good story.
+
+## Show it
+
+A story about something people can watch or see (a demo, a clip, a post
+with a video, a thread of examples) embeds it: `"embeds"` on the story,
+the link and the paragraph it follows. The site renders X posts and YouTube
+videos in place; the copy file and the email carry the bare link where it
+goes, so it embeds when pasted into an article. Embed the maker's own post
+or the demo itself, placed after the paragraph that describes it. Given two
+stories of equal weight, the one with something to show goes first.

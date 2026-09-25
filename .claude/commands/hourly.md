@@ -94,6 +94,22 @@ The rules that are easiest to lose on a fast cadence, and that matter most:
 - Four to six paragraphs, 40 to 70 words each. Length must come from reported
   detail. If you do not have the detail, file the shorter story.
 
+**Embeds: prioritise them.** The paper publishes these as articles, and an
+embedded post or video makes the piece. Whenever a story comes from an X post,
+a demo video, a YouTube clip or a thread, embed it:
+
+- Add `"embeds": [{"url": "<link>", "after": <paragraph number>}]` to the
+  story. The link alone is enough; the site turns an X post into the platform's
+  own embed and a YouTube link into a player, and the copy file and email put
+  the bare link on its own line so it embeds when pasted into an article.
+- Place each embed after the paragraph that describes it, usually the first
+  or second. One to three per story; the post with the video or the demo
+  first.
+- Only embed what you opened and what the story is about: the maker's own
+  post, the demo, the clip. Never a random reaction.
+- When choosing between two stories of equal weight, take the one with
+  something to show.
+
 **Images:** per `style/07-images.md`. Almost always none. We hold no agency
 licence, and a decorative picture is worse than no picture.
 
@@ -111,7 +127,8 @@ Write **new stories only** to `data/editions/<today>.new.json`:
 ```json
 { "stories": [ { "cluster_id": "...", "section": "...", "headline": "...",
                  "standfirst": "...", "body": ["..."], "entities": [],
-                 "sources": [{"author": "...", "url": "..."}] } ] }
+                 "sources": [{"author": "...", "url": "..."}],
+                 "embeds": [{"url": "https://x.com/<user>/status/<id>", "after": 1}] } ] }
 ```
 
 Omit `placement`. The merge step assigns it, keeps the existing lead where it

@@ -24,6 +24,7 @@ import re
 from pathlib import Path
 
 from .common import DATA_DIR, EDITIONS_DIR, load_config, utcnow
+from .embeds import after as embeds_after
 from .merge import LAST_RUN
 
 COPY_DIR = DATA_DIR / "copy"
@@ -56,7 +57,11 @@ def render(stories: list[dict], day: str, site: str, posts: bool = True) -> str:
     for s in stories:
         url = f"{site}/story/{s['cluster_id']}/"
         out += [RULE, "", f"## {s['headline']}", "", f"**{s.get('standfirst', '')}**", ""]
-        out += [p + "\n" for p in s.get("body", [])]
+        # Embeds go on their own line after their paragraph: pasted into an
+        # article editor, a bare X or YouTube link becomes the embed.
+        for i, para in enumerate(s.get("body", []), 1):
+            out += [para + "\n"]
+            out += [e["url"] + "\n" for e in embeds_after(s, i)]
         out += [f"Read it on the site: {url}", ""]
         sources = ", ".join(src.get("author", "") for src in s.get("sources", []) if src.get("author"))
         if sources:
