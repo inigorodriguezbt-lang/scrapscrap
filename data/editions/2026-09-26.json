@@ -34,6 +34,206 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-longcat-25-opencode",
+   "section": "models",
+   "headline": "OpenCode offers Meituan's LongCat-2.5 free for two weeks",
+   "standfirst": "The coding agent said Meituan's new 1.6 trillion-parameter model, aimed at long multi-step tasks, would run free for two weeks, with usual token pricing to follow.",
+   "body": [
+    "OpenCode, the open-source coding agent, said it would offer free access to Meituan's newly launched LongCat-2.5-Preview model for two weeks. The 1.6-trillion-parameter system joins its lineup at no cost during that window.",
+    "Meituan said LongCat-2.5-Preview carries roughly 48 billion active parameters, a 1 million-token context window and native multimodal input, according to a post from the AI account MaxForAI. It pitched the model at long-running agent tasks across terminals, browsers, spreadsheets and design tools.",
+    "Standard pricing matches the earlier LongCat 2.0, MaxForAI said: $0.30 per million input tokens, $0.006 per million cached tokens and $1.20 per million output tokens. Meituan also credited existing users with 5 million free tokens to test the new model, the post said.",
+    "Meituan did not publish benchmark comparisons for the new model. The commentator teortaxesTex, who called the earlier LongCat 2.0 \"completely hopeless\" in his own tests despite its claimed benchmark parity, said the absence of published scores this round was notable."
+   ],
+   "entities": [
+    "Meituan",
+    "OpenCode"
+   ],
+   "sources": [
+    {
+     "author": "OpenCode",
+     "url": "https://x.com/opencode/status/2103841640171614322"
+    },
+    {
+     "author": "MaxForAI",
+     "url": "https://x.com/MaxForAI/status/2103514835988418820"
+    },
+    {
+     "author": "teortaxesTex",
+     "url": "https://x.com/teortaxesTex/status/2103521156586225739"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/opencode/status/2103841640171614322",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "c2b2d2e0e",
+   "section": "products",
+   "headline": "OpenAI preps always-on 'o' agent, faster API for DevDay",
+   "standfirst": "TestingCatalog says internal ChatGPT configuration points to a consumer assistant called 'o' and a Cerebras-powered speed tier, both expected around Tuesday's developer conference.",
+   "body": [
+    "OpenAI is preparing to introduce an always-on assistant called \"o\" at its developer conference on Tuesday, TestingCatalog reported, citing references to the name inside ChatGPT's internal configuration.",
+    "TestingCatalog said internal strings list \"o\" as a display name and \"-o\" as an email suffix, suggesting it will handle email on a user's behalf, and that references briefly appeared on some accounts' ChatGPT upgrade screens. Separately, the newsletter writer kimmonismus said on X that \"o\" would ship on all ChatGPT Pro tiers.",
+    "OpenAI is also expected to widen access to an \"Ultrafast\" inference tier around the same event, according to a separate TestingCatalog report. The outlet said the mode, built on Cerebras hardware, can push GPT-5.6 Sol to roughly 750 tokens a second. That is up to 14 times the speed of the standard tier, though it remains limited to select customers today.",
+    "The X account mark_k described \"o\" as comparable to Grok's always-on bot and Meta's Muse, saying it would offer \"a computer in the cloud, which is always online,\" without citing a source for the claim.",
+    "Neither claim is confirmed. TestingCatalog said it could not determine which tasks, permissions or memory features \"o\" will support, or whether every upcoming GPT-6 model will work with Ultrafast at launch. OpenAI has not commented publicly on either report."
+   ],
+   "entities": [
+    "OpenAI",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/openai-to-announce-o-always-on-agent-during-devday/"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/openai-prepares-to-expand-ultrafast-api-to-more-users/"
+    },
+    {
+     "author": "kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2103823673954087231"
+    },
+    {
+     "author": "mark_k",
+     "url": "https://x.com/mark_k/status/2103820034455879832"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2103787365986623925",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-jaz-agent-framework",
+   "section": "research",
+   "headline": "New agent framework tops specialized memory systems, paper says",
+   "standfirst": "JAZ, built around a single 'invoke' primitive with no dedicated memory module, beat Letta and ACE on two agent benchmarks, according to a paper posted to arXiv.",
+   "body": [
+    "A team of researchers built a minimalist AI agent framework called JAZ around one primitive, a new arXiv paper says. It says the framework beat two specialized systems on benchmark tasks.",
+    "The framework exposes one operation, \"invoke,\" letting a model write executable code and call itself recursively. Every prior input and result stays available as a variable in that code, the paper says.",
+    "On StuLife, a recall-heavy benchmark, the paper reports JAZ beat Letta, the MemGPT-based memory system, by 8% at half the computing cost. On AppWorld, a benchmark for continual self-improvement, it says JAZ beat the ACE method by 4% while costing less to run.",
+    "The AI newsletter writer omarsar0 flagged the paper, saying it came from MIT's Computer Science and Artificial Intelligence Laboratory. He urged developers to \"keep your agent harness minimal.\" The authors reported results on only these two benchmarks, and no independent group appears to have verified them yet."
+   ],
+   "entities": [
+    "JAZ"
+   ],
+   "sources": [
+    {
+     "author": "omarsar0",
+     "url": "https://x.com/omarsar0/status/2103826930181308720"
+    },
+    {
+     "author": "arXiv",
+     "url": "https://arxiv.org/abs/2609.26891"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/omarsar0/status/2103826930181308720",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-metr-agent-token-theft",
+   "section": "security",
+   "headline": "Attacker racks up $600,000 in tokens on stolen AI key",
+   "standfirst": "An attacker found a weak, self-built AI agent app on an employee's personal server at the AI evaluator METR and used its API key for three weeks, The Hacker News reported.",
+   "body": [
+    "An attacker compromised an employee's personal cloud server at the AI evaluator METR, The Hacker News reported. Using a stolen model-provider API key, the attacker ran up about $600,000 in token costs over three weeks.",
+    "The employee had been running what the outlet called a \"vibe-coded\" agentic app with weak authentication on a personal EC2 instance, according to The Hacker News. It said the attacker bypassed that authentication and prompted the agent into handing over its model provider's API key directly.",
+    "Token volume alone did not trigger any alert, and METR's internal dashboard did not track rate-limited requests at all, the outlet said. It cited the episode as evidence that visibility, not blocking, is the first step in securing AI agents.",
+    "The report frames the incident as an argument for zero-trust security: build an inventory of what agents exist and what they can reach before adding enforcement controls. It did not say whether METR disclosed the breach publicly at the time it happened."
+   ],
+   "entities": [
+    "METR"
+   ],
+   "sources": [
+    {
+     "author": "The Hacker News",
+     "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
+    },
+    {
+     "author": "TheHackersNews",
+     "url": "https://x.com/TheHackersNews/status/2103808625890517407"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/TheHackersNews/status/2103808625890517407",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "ca84a212b",
+   "section": "policy",
+   "headline": "US, China agree to open AI dialogue by November",
+   "standfirst": "A White House readout from the Trump-Xi summit says the two countries will hold official AI talks and set up a channel for AI incidents.",
+   "body": [
+    "The White House said the United States and China agreed to hold an official dialogue on artificial intelligence by November. The countries also agreed to a communication channel for AI-related incidents, according to a readout cited on X by the reporter kyleichan.",
+    "Axios reported the agreement separately, describing it as a \"'super intelligence' dialogue amid AI tensions.\" Reuters said the arrangement came alongside a $30 billion tariff cut announced during the same visit by Xi Jinping.",
+    "Julian Gewirtz, a Harvard Belfer Center fellow, said on Bloomberg Television that the meeting delivered the optics Trump wanted. Gewirtz, a former White House China director, added there was \"little visible progress\" on the substantive disputes between the two countries.",
+    "Neither government detailed what the new dialogue would cover beyond incident communication. It is not clear when the first session will take place."
+   ],
+   "entities": [
+    "White House",
+    "China"
+   ],
+   "sources": [
+    {
+     "author": "kyleichan",
+     "url": "https://x.com/kyleichan/status/2103794286479200507"
+    },
+    {
+     "author": "Axios",
+     "url": "https://x.com/axios/status/2103807793794859327"
+    },
+    {
+     "author": "Reuters",
+     "url": "https://x.com/Reuters/status/2103828203844288909"
+    },
+    {
+     "author": "Bloomberg Tech",
+     "url": "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-confido-series-b",
+   "section": "business",
+   "headline": "Confido raises $55 million to expand CPG AI tools",
+   "standfirst": "The New York startup, which automates finance and trade-spend work for consumer brands including Unilever and Mars, said Insight Partners led the round.",
+   "body": [
+    "Confido, a New York startup that automates back-office finance work for consumer packaged goods brands, said Insight Partners led a $55 million Series B round. The round brings its total funding to $77 million.",
+    "The company said its software automates deduction resolution, trade-spend tracking and sales forecasting for brands including Unilever, Mars, Daisy, Dude Wipes and Kettle & Fire. It said more than $30 billion in retail sales planning now flows through its platform.",
+    "Confido said revenue has grown fivefold year over year since its Series A round, according to AlleyWatch. The outlet also reported that Trenches Capital, Watchfire and Barrel Ventures joined the round alongside returning investors Footwork and Y Combinator.",
+    "Founder and chief executive Justin Hunter did not disclose the company's valuation. AlleyWatch's report did not include comment from any of the more than 250 brands the company says use its platform."
+   ],
+   "entities": [
+    "Confido"
+   ],
+   "sources": [
+    {
+     "author": "AlleyWatch",
+     "url": "https://www.alleywatch.com/2026/09/confido-raises-55m-to-scale-its-ai-infrastructure-across-the-cpg-commercial-cycle/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-epoch-fab-astra-ikea",
    "section": "research",
    "headline": "GPT-6 Astra tops Epoch AI's IKEA assembly benchmark",
@@ -99,7 +299,7 @@
     }
    ],
    "single_source": true,
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-plusai-nvidia-trailer-sand-heist",
@@ -126,7 +326,7 @@
      "url": "https://hoodline.com/2026/09/fremont-thieves-swipe-plusai-trailers-find-20-tons-of-sand/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-macos27-apple-intelligence",
@@ -149,7 +349,7 @@
     }
    ],
    "single_source": true,
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-apple-trade-secrets-evidence",
@@ -173,7 +373,7 @@
     }
    ],
    "single_source": true,
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-meta-glasses-visual-data-optout",
@@ -196,7 +396,7 @@
     }
    ],
    "single_source": true,
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-google-call-for-me",
@@ -219,7 +419,7 @@
      "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-agents-government-sites",
