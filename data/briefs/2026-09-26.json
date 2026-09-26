@@ -1,79 +1,32 @@
 {
-  "generated_at": "2026-09-26T06:07:29.543542+00:00",
+  "generated_at": "2026-09-26T08:06:18.022119+00:00",
   "edition_date": "2026-09-26",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 99,
-  "clusters_found": 78,
+  "posts_considered": 100,
+  "clusters_found": 77,
   "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c9a5791bf",
-      "score": 7.445,
+      "cluster_id": "c5f2f5c5a",
+      "score": 13.235,
       "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-25T12:00:00+00:00",
-      "last_seen": "2026-09-25T16:30:57+00:00",
-      "links": [
-        "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-        "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office. After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. [&#8230;]",
-          "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-          "created_at": "2026-09-25T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Microsoft's Copilot app adds Office, natural coding and automation. Microsoft is giving its Copilot app another facelift.",
-          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-          "created_at": "2026-09-25T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing. Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI subsidy model. The article Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing appeared first on The Decoder .",
-          "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-          "created_at": "2026-09-25T16:30:57+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c0bd208d6",
-      "score": 3.374,
-      "interest": "dull",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Google",
         "Microsoft"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "The Decoder"
+        "The Decoder",
+        "testingcatalog"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-25T08:12:14+00:00",
-      "last_seen": "2026-09-25T21:52:44+00:00",
+      "last_seen": "2026-09-26T06:03:58+00:00",
       "links": [
         "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
         "https://www.bloomberg.com/news/videos/2026-09-25/accel-sees-ai-opportunity-shifting-to-applications-video",
@@ -83,7 +36,8 @@
         "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
         "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
         "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
-        "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video"
+        "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
+        "https://x.com/testingcatalog/status/2103727258158424331"
       ],
       "posts": [
         {
@@ -157,12 +111,69 @@
           "url": "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
           "created_at": "2026-09-25T21:52:44+00:00",
           "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF 🗰 — Sept 26\n\nMICROSOFT 🔥:\n- Biggest Copilot update yet: Home (Chat + Cowork), Code, Autopilot, and Office embedded in the app.\n- Autopilot is the proactive long-running enterprise agent, a rebranded Scout. Code builds tenant-hosted apps on GitHub Copilot tech, with a Managed Copilot Runtime.\n- Rolling out through Frontier. Cowork, Code, and Autopilot are usage-billed. Today surfaces priority M365 items without a prompt.\n\nOPENAI 🔥:\n- Codex outage is over. Paid usage limits reset across Codex and ChatGPT Work.\n- ChatGPT desktop got a new sidebar, split from chat history, plus a broader UI pass.\n- Research agents sent training and eval data to third parties. 53 user-uploaded images hit unlisted image hosts. Review will take months.\n\nANTHROPIC 🔥:\n- Plugin portal is live: submit a single MCP connector or a plugin bundle, track review, and see usage. MCP usage across Claude is up 110x this year.\n- Claude solved a nine-loop scattering-amplitude problem unsupervised over days, for a few thousand dollars. Dixon verified it.\n- Claude Code layout for Desktop is in development: new model selector and an expandable usage-limits section.\n\nGOOGLE 🔥:\n- Gemini Notebook Interactive Learning Overviews are open to all users.\n- Live Chat is on the Notebook mobile app: hands-free voice across about 100 languages.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n** This daily brief also arrives in the daily email format; subscribe on the blog.",
+          "url": "https://x.com/testingcatalog/status/2103727258158424331",
+          "created_at": "2026-09-26T06:03:58+00:00",
+          "engagement": 48
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9a5791bf",
+      "score": 7.213,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-25T12:00:00+00:00",
+      "last_seen": "2026-09-25T16:30:57+00:00",
+      "links": [
+        "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+        "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office. After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. [&#8230;]",
+          "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+          "created_at": "2026-09-25T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Microsoft's Copilot app adds Office, natural coding and automation. Microsoft is giving its Copilot app another facelift.",
+          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+          "created_at": "2026-09-25T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing. Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI subsidy model. The article Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing appeared first on The Decoder .",
+          "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+          "created_at": "2026-09-25T16:30:57+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c3860fcae",
-      "score": 2.639,
+      "score": 2.309,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "business",
