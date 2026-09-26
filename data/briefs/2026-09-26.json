@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-26T02:05:05.206329+00:00",
+  "generated_at": "2026-09-26T04:07:05.841087+00:00",
   "edition_date": "2026-09-26",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 111,
-  "clusters_found": 81,
-  "stories_declared": 5,
+  "posts_considered": 126,
+  "clusters_found": 96,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "cc50c3991",
-      "score": 11.027,
+      "score": 10.843,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -29,24 +29,24 @@
         {
           "author": "thsottiaux",
           "tier": "commentary",
-          "text": "o yes... we're back in action and we'll reset usage limits for all paid users across codex and ChatGPT work. sorry about the brief disruption! (and yes we have a special spare codex when things are down to help us out)",
+          "text": "o yes… we’re back in action and we’ll reset usage limits for all paid users across codex and ChatGPT work. sorry about the brief disruption! (and yes we have a special spare codex when things are down to help us out)",
           "url": "https://x.com/thsottiaux/status/2103637477760311522",
           "created_at": "2026-09-26T00:07:13+00:00",
-          "engagement": 9326
+          "engagement": 11950
         },
         {
           "author": "reach_vb",
           "tier": "commentary",
-          "text": "We'll reset usage limits for all paid users across codex and ChatGPT work!",
+          "text": "We’ll reset usage limits for all paid users across codex and ChatGPT work!",
           "url": "https://x.com/reach_vb/status/2103641030864339163",
           "created_at": "2026-09-26T00:21:20+00:00",
-          "engagement": 564
+          "engagement": 850
         }
       ]
     },
     {
       "cluster_id": "c036aa516",
-      "score": 9.59,
+      "score": 9.251,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -124,57 +124,47 @@
       ]
     },
     {
-      "cluster_id": "c9a5791bf",
-      "score": 8.119,
-      "interest": "want",
+      "cluster_id": "c38772726",
+      "score": 8.652,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "Microsoft"
+        "OpenAI"
       ],
       "independent_sources": [
-        "Engadget",
-        "The Decoder",
-        "The Verge AI"
+        "Bloomberg Tech",
+        "Reuters"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-25T12:00:00+00:00",
-      "last_seen": "2026-09-25T16:30:57+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-25T20:34:28+00:00",
+      "last_seen": "2026-09-26T01:20:07+00:00",
       "links": [
-        "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-        "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
+        "https://www.bloomberg.com/news/articles/2026-09-25/openai-says-its-models-may-have-interfered-with-government-sites",
+        "https://x.com/Reuters/status/2103655826225234100"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office. After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. [&#8230;]",
-          "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-          "created_at": "2026-09-25T12:00:00+00:00",
+          "text": "OpenAI’s Models Accessed Public US Census, SEC Data. OpenAI’s artificial intelligence models accessed publicly available information from US government websites, including those of the Census Bureau and the Securities and Exchange Commission.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/openai-says-its-models-may-have-interfered-with-government-sites",
+          "created_at": "2026-09-25T20:34:28+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Microsoft's Copilot app adds Office, natural coding and automation. Microsoft is giving its Copilot app another facelift.",
-          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-          "created_at": "2026-09-25T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing. Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI subsidy model. The article Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing appeared first on The Decoder .",
-          "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-          "created_at": "2026-09-25T16:30:57+00:00",
-          "engagement": 0
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
+          "url": "https://x.com/Reuters/status/2103655826225234100",
+          "created_at": "2026-09-26T01:20:07+00:00",
+          "engagement": 110
         }
       ]
     },
     {
-      "cluster_id": "c0bd208d6",
-      "score": 4.047,
+      "cluster_id": "ce7dfc6c5",
+      "score": 8.369,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "ai",
@@ -184,12 +174,13 @@
         "Microsoft"
       ],
       "independent_sources": [
+        "AndrewCurran_",
         "Bloomberg Tech",
         "The Decoder"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-25T08:12:14+00:00",
-      "last_seen": "2026-09-25T21:52:44+00:00",
+      "last_seen": "2026-09-26T02:03:03+00:00",
       "links": [
         "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
         "https://www.bloomberg.com/news/videos/2026-09-25/accel-sees-ai-opportunity-shifting-to-applications-video",
@@ -199,7 +190,8 @@
         "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
         "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
         "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
-        "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video"
+        "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
+        "https://x.com/AndrewCurran_/status/2103666629477572713"
       ],
       "posts": [
         {
@@ -273,12 +265,69 @@
           "url": "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
           "created_at": "2026-09-25T21:52:44+00:00",
           "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Some 'Developer, Pace Thyself' quotes from the last two weeks: Jensen Huang, David Sacks, Mark Zuckerberg, Scott Bessent and Michael Kratsios all argue AI labs should self-regulate pacing rather than face government pause mandates.",
+          "url": "https://x.com/AndrewCurran_/status/2103666629477572713",
+          "created_at": "2026-09-26T02:03:03+00:00",
+          "engagement": 141
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9a5791bf",
+      "score": 7.78,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-25T12:00:00+00:00",
+      "last_seen": "2026-09-25T16:30:57+00:00",
+      "links": [
+        "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+        "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office. After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. [&#8230;]",
+          "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+          "created_at": "2026-09-25T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Microsoft's Copilot app adds Office, natural coding and automation. Microsoft is giving its Copilot app another facelift.",
+          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+          "created_at": "2026-09-25T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing. Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI subsidy model. The article Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing appeared first on The Decoder .",
+          "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+          "created_at": "2026-09-25T16:30:57+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c3860fcae",
-      "score": 3.312,
+      "score": 2.973,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "business",
