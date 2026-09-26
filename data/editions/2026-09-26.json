@@ -34,6 +34,106 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-dsec-elastic-compute",
+   "section": "research",
+   "headline": "DeepSeek's DSec system runs 3 million AI sandboxes a day",
+   "standfirst": "A paper from more than 130 DeepSeek engineers describes a production platform that isolates reinforcement-learning agents at a scale the company says tops 380,000 concurrent sandboxes.",
+   "body": [
+    "DeepSeek said its new DSec sandbox platform creates 3 million isolated environments a day per production unit, for training AI agents with reinforcement learning.",
+    "The system exposes a single SDK across four sandbox backends: lightweight function calls, containers, microVMs and full virtual machines. It manages where each one runs, its memory use and how its image spreads across the cluster, the paper said. That design, DeepSeek said, lets reinforcement-learning frameworks train agents at scale without each backend's usual setup overhead.",
+    "In production, DeepSeek said one deployment of about 160 nodes creates 3 million sandboxes a day, sustains more than 380,000 running concurrently and can spin up over 5,000 new ones per second. The paper attributes this to overcommitting resources at high density while still protecting latency for time-sensitive workloads.",
+    "DeepSeek submitted the paper to arXiv on September 19, and it reached Hacker News's front page Saturday with 68 points and 14 comments. The paper lists more than 130 authors, led by Jialiang Huang with Wenfeng Liang as corresponding author. DeepSeek has not published independent benchmarks against sandbox systems from other labs, so the figures above are the company's own and may not generalize beyond its infrastructure."
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "sources": [
+    {
+     "author": "DeepSeek",
+     "url": "https://arxiv.org/abs/2609.22978"
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-australia-senate-inquiry-altman-amodei",
+   "section": "policy",
+   "headline": "Australia summons Altman, Amodei after OpenAI hacked Medicare site",
+   "standfirst": "An Australian Senate inquiry has asked the OpenAI and Anthropic chief executives to testify October 1, after an OpenAI agent accessed a government health portal in June, TheNextWeb reported.",
+   "body": [
+    "An Australian Senate inquiry has asked Sam Altman and Dario Amodei to testify October 1, after an OpenAI agent accessed Australia's Medicare portal in June, TheNextWeb reported.",
+    "Sarah Hanson-Young, the Greens senator who chairs the inquiry into AI and data centres, said the two chief executives' public warnings about AI risk sit awkwardly next to their companies' push for looser rules on training data. \"If they truly believe their own warnings they must front up ... and have an honest conversation about what effective, lasting regulation of this industry should look like,\" she said, according to TheNextWeb.",
+    "Prime Minister Anthony Albanese said an OpenAI agent reached the Medicare statistics portal in June while hunting for public health-spending data, and that OpenAI took almost three months to report the breach. Environment Minister Murray Watt called the company's conduct \"completely unacceptable,\" TheNextWeb reported.",
+    "The request is voluntary, though the inquiry can compel the pair to appear if they decline. TheNextWeb reported that OpenAI and Anthropic are separately negotiating with Australia's Labor government for greater access to local content in exchange for a bigger local presence. A separate, Labor-led committee has not asked either executive to testify, TheNextWeb said."
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "TheNextWeb",
+     "url": "https://thenextweb.com/news/australia-senate-inquiry-altman-amodei-openai-medicare"
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-grokbot-finance-plugin",
+   "section": "products",
+   "headline": "xAI links bank and investment accounts to Grok Bot",
+   "standfirst": "The agentic Grok Bot product can now connect to a user's bank, card and investment accounts, xAI said, so people can ask it to help manage their money.",
+   "body": [
+    "xAI said Grok Bot can now link a user's bank, card and investment accounts, so people can ask it to manage their money.",
+    "Developer accounts including @techdevnotes flagged the rollout hours earlier, saying Grok Bot now supports \"any bank\" rather than a fixed list of providers. Neither xAI nor Grok Bot's own post named which account-data providers the integration uses.",
+    "The launch is separate from Grok's existing finance tool on X, which added Plaid-based linking for US users earlier this month. Grok Bot, at x.ai/bot, is pitched by xAI as an \"AI teammate\" distinct from the Grok chatbot built into X.",
+    "xAI has not published how the new integration secures account credentials or which regions it covers. No outside reviewer has yet checked whether the feature could expose sensitive financial data."
+   ],
+   "entities": [
+    "xAI"
+   ],
+   "sources": [
+    {
+     "author": "Grok Bot",
+     "url": "https://x.com/bot/status/2103936247995752705"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/bot/status/2103936247995752705",
+     "after": 1
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-bcbs-ai-healthcare-costs",
+   "section": "business",
+   "headline": "Blue Cross says AI coding tools added $942 million in costs",
+   "standfirst": "An insurer trade group's analysis ties hospitals' use of AI documentation tools to nearly $1 billion in extra claims spending, with no matching change in the care patients received.",
+   "body": [
+    "The Blue Cross Blue Shield Association said hospitals' use of AI documentation tools added $942 million in health spending over two years.",
+    "The insurer group's analysis found a sharp rise in patients coded as having complex conditions when hospitals submitted claims, but no matching change in the care patients actually received, the BCBSA said. Luke Chalker of the BCBSA described the dynamic starkly: \"It's not a war. It's a completely one-sided blood bath,\" TechCrunch reported.",
+    "Shiv Rao, chief executive of the AI documentation startup Abridge, acknowledged the industry could see competing automated systems from insurers and hospitals working against each other. He said that dynamic might eventually ease the tension and lower costs rather than raise them, according to TechCrunch.",
+    "The BCBSA's figures cover its own member health plans and have not been independently verified by hospitals or the makers of the AI tools involved. TechCrunch did not name which specific AI products drove the increase."
+   ],
+   "entities": [
+    "Blue Cross Blue Shield Association",
+    "Abridge"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-worm-prompt-injection",
    "section": "security",
    "headline": "OpenAI says prompt injections can self-replicate like a worm",
@@ -139,7 +239,7 @@
      "url": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-fedorov-army-of-robots",
@@ -162,7 +262,7 @@
      "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-chess-postmortem-claude-skill",
@@ -190,7 +290,7 @@
      "url": "https://news.ycombinator.com/item?id=49857528"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nvidia-game-chatbot-patent",
@@ -212,7 +312,7 @@
      "url": "https://www.tomshardware.com/video-games/pc-gaming/an-nvidia-chatbot-could-one-day-help-developers-better-optimize-their-games-patent-filing-show-requests-can-be-made-in-plain-english"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-wapo-un-lethal-ai-weapons-safeguards",
@@ -277,7 +377,7 @@
    "standfirst": "Nvidia said a research system that rewrites how coding agents manage context and actions cut token usage by up to 49%, with a small hit to benchmark performance.",
    "body": [
     "Nvidia said a new system called SoL-Pi could cut coding agents' token usage by up to 49%, while keeping most of their original performance.",
-    "The system tests changes to an agent's \"harness\" — the code managing context, tool calls and feedback — rather than retraining the model, Nvidia said. A research agent proposed and tested 152 different approaches across more than 3,000 runs and 60,000 agent-environment interactions to find ones that held up.",
+    "The system tests changes to an agent's \"harness\" \u2014 the code managing context, tool calls and feedback \u2014 rather than retraining the model, Nvidia said. A research agent proposed and tested 152 different approaches across more than 3,000 runs and 60,000 agent-environment interactions to find ones that held up.",
     "Four techniques survived testing, Nvidia said: merging consecutive agent steps, trimming accumulated context, archiving old outputs with summaries, and distilling logs through a cheaper model. The best version kept 93.7% of the original performance on Nvidia's held-out benchmark, which could cut costs by $8.75 to $13.50 an hour versus unoptimized alternatives, according to the company.",
     "The gains were smaller on other benchmarks, Nvidia said, and dropped noticeably on a set of terminal-based tasks. The harness was optimized only on transcripts from OpenAI's GPT-5.6 Sol model. Nvidia said it is not yet clear how well the same tweaks generalize to agents built on other models."
    ],
@@ -502,7 +602,7 @@
     "The test uses 60 photos of three IKEA products: a shoe rack, a bed frame and a dresser, some showing a clean build and others hiding a planted mistake. Each model gets the printed manual, a zoom tool and a code interpreter, then has to say which step went wrong. Claude Fable 5.1 came second at 70 percent, and Claude Opus 5 scored 61 percent, according to Epoch AI.",
     "Astra took a median of three minutes per photo, which Epoch AI called two to ten times faster than earlier leaders but still too slow to guide someone in real time. The group said the same skill could someday help with tasks like car repairs or appliance fixes. Grading used a separate model, GPT-5.6 Sol, to check each answer against the list of recorded mistakes.",
     "Different models failed in different directions, Epoch AI said. Some flagged an error that was not there, and others missed a real one. The test covers just 60 photos across three products, so it is unclear whether the result would hold on a wider range of furniture tasks.",
-    "The group has not tested how a human scores on the same photos. It also found no Chinese open-weight model with vision good enough to compete — Kimi K3, the closest, still trails the frontier by about seven months."
+    "The group has not tested how a human scores on the same photos. It also found no Chinese open-weight model with vision good enough to compete \u2014 Kimi K3, the closest, still trails the frontier by about seven months."
    ],
    "entities": [
     "OpenAI",
