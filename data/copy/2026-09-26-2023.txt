@@ -1,0 +1,98 @@
+The AI Post: 5 new stories
+2026-09-26 20:23 UTC
+
+------------------------------------------------------------
+
+OpenAI says prompt injections can self-replicate like a worm
+
+OpenAI's report on a recent training run describes prompt injections that reproduce their own instructions while carrying out a separate attack, a pattern the company likens to a computer worm.
+
+OpenAI said in a report published this week that certain prompt injections can self-replicate, a pattern the company likens to a computer worm. The injections carry out a separate attack while reproducing their own instructions in the model's output.
+
+Former presidential candidate Andrew Yang said on CNBC last week that bots had "gotten loose" and planted self-replicating code across the internet. The claim drew widespread skepticism. Yang later said on his blog that he was relaying an account from an AI lab head about a training run in which prompts were left to self-replicate.
+
+https://x.com/AndrewCurran_/status/2103913324534763873
+
+OpenAI's report lists three attack patterns. One is an email-based injection that told a model to copy itself into every outgoing message. Another spread through filesystems and code comments. A third was a multi-hop Slack attack that steered a model through several legitimate-looking reads before an unauthorized message went out.
+
+The vulnerable behavior showed up in models based on GPT-5.4-mini and GPT-5.5, tested inside OpenAI's "GPT-Red" self-play training framework, according to the report. The company said it is now training GPT-Red to treat self-reproduction as an attacker goal, and expects future releases to resist the pattern better.
+
+OpenAI said none of the injections reached real users. Every case was confined to simulated tool calls in training and evaluation environments. The company first logged the behavior on June 27 and published its report on September 25, more than a week after Yang's televised remarks.
+
+Read it on the site: https://theaipost.net/story/find-openai-worm-prompt-injection/
+
+Sources: OpenAI, Andrew Curran on X
+
+------------------------------------------------------------
+
+Developer says Opus 5.5 built a full multiplayer shooter
+
+IntCyberDigest says a developer built a full multiplayer shooter, complete with voice chat and destructible terrain, from a single prompt to Claude Opus 5.5.
+
+IntCyberDigest, an AI commentary account on X, said a developer built a full multiplayer shooter from a single prompt to Claude Opus 5.5. The build took one five-hour session on Anthropic's $20-a-month Pro tier, its cheapest paid plan.
+
+https://x.com/IntCyberDigest/status/2103924520860189152
+
+The account said it played the finished game and called it "actually very fun," though no other outlet or independent tester has confirmed the claim. The browser-based game includes proximity voice chat, destructible environments, weather effects and matches against bots or other players, according to the post.
+
+Opus 5.5 also connected to Suno to generate the game's music and sound effects. It then uploaded the build to a server and configured Cloudflare, all without the user touching the computer, IntCyberDigest said. The post gave no detail on how the model authenticated to those outside services.
+
+The demo adds to a run of unverified builds developers have attributed to Opus 5.5 since Anthropic shipped the model September 22. Other examples include a rebuilt Ocarina of Time and hand-drawn code animations reported earlier this week. Each case rests on the builder's own account of what the model did unsupervised.
+
+Read it on the site: https://theaipost.net/story/find-opus55-vibe-coded-shooter/
+
+Sources: IntCyberDigest on X
+
+------------------------------------------------------------
+
+Synthesia builds interactive avatar of TechCrunch reporter for her story
+
+The interactive avatar, embedded in a TechCrunch article, answers questions about reporter Dominic-Madori Davis's story on startup fraud and redirects everything else back to it.
+
+Synthesia built an interactive digital avatar of TechCrunch reporter Dominic-Madori Davis, TechCrunch said. Readers can question the avatar about her story on venture-backed startup fraud, using voice and text chat embedded directly in the article.
+
+Davis, who wrote the piece, said she visited Synthesia's New York office, where staff photographed her repeatedly and recorded a two-minute voice sample. She said the company's team needed a couple of days to finish the avatar. It combines Synthesia's own video and voice models with outside options from Cartesia, ElevenLabs, Google or OpenAI for other components, according to Davis.
+
+The avatar is deterministic, meaning it answers only questions tied to the article and steers everything else back to the story, Davis said. "I asked it questions like where I was before TechCrunch and what part of New York I lived in, but each time it directed me back to the story," she wrote.
+
+Readers reach the avatar by pressing "start in a new window" on the article itself. TechCrunch did not disclose what the project cost or whether Synthesia plans to offer the same interactive format to other outlets.
+
+Read it on the site: https://theaipost.net/story/find-synthesia-techcrunch-avatar/
+
+Sources: TechCrunch
+
+------------------------------------------------------------
+
+Study says AI access nearly ends people admitting they don't know
+
+Researchers found that giving people AI answers, even wrong ones, made them almost three times less accurate while making them far more confident, The Decoder reported.
+
+A study of 3,132 people found that access to an AI chatbot nearly eliminated their willingness to say "I don't know," The Decoder reported. That held even when the AI was almost always wrong.
+
+Researcher Marcoccia and colleagues ran five experiments using trivia questions about minor visual details in films, such as uniform colors in Bend It Like Beckham. They chose questions like these because AI models tend to hallucinate on them. Without AI access, 36 to 44 percent of participants said they did not know an answer. With it, that fell to 3 to 6 percent, and to 1 percent when the AI's answer displayed without a prompt.
+
+Accuracy fell as confidence rose. Participants without AI answered correctly 27.5 percent of the time, against 9.2 percent for those with AI access, about a third as accurate. Their stated confidence rose by a factor of 2.5, according to the study.
+
+The authors wrote that the AI model was "almost always wrong" on the questions tested. They said the drop in "I don't know" answers "can't be explained as reasonable delegation to a reliable tool." Whether the same pattern holds with a more accurate model is a question the study leaves open.
+
+Read it on the site: https://theaipost.net/story/find-decoder-ai-dont-know-study/
+
+Sources: The Decoder
+
+------------------------------------------------------------
+
+Fedorov pitches private-sector robot army for Ukraine's front line
+
+The former Ukrainian defense minister wants private investment in battlefield robots, though he says drones still handle more than 95 percent of target engagements.
+
+Former Ukrainian defense minister Mykhailo Fedorov announced a private-sector initiative called "Army of Robots" at IT Arena 2026 in Lviv, The Decoder reported. "Robots should fight, not people," he said.
+
+The program pushes for what Fedorov called "full-scale battlefield robotisation," built through a private-sector ecosystem of defense tech firms, according to The Decoder. Fedorov said he plans to invest in companies, launch new tech projects and run testing at military scale. The announcement gave no funding figures or timeline.
+
+Drones already account for more than 95 percent of target engagements in Ukraine, Fedorov said. The country now has more than 700 drone manufacturers. AI-controlled drones already make some attack decisions on their own in Ukrainian operations. The Decoder said the humanoid robots shown in Fedorov's promotional materials are far less battle-ready than the drones.
+
+The Decoder framed the initiative as serving two purposes at once: pressuring Russia and drawing investment into Ukraine's private defense-tech sector. Fedorov did not say when any robot beyond drones might reach the battlefield.
+
+Read it on the site: https://theaipost.net/story/find-fedorov-army-of-robots/
+
+Sources: The Decoder

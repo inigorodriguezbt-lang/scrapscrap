@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-26T18:04:29.808829+00:00",
+  "generated_at": "2026-09-26T20:07:48.503185+00:00",
   "edition_date": "2026-09-26",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 72,
-  "clusters_found": 62,
-  "stories_declared": 3,
+  "posts_considered": 74,
+  "clusters_found": 67,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "cea2e8616",
-      "score": 8.033,
+      "score": 7.691,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -48,7 +48,7 @@
     },
     {
       "cluster_id": "c52cf279b",
-      "score": 7.867,
+      "score": 7.524,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -88,7 +88,7 @@
     },
     {
       "cluster_id": "c3bd50ba0",
-      "score": 7.773,
+      "score": 7.431,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -122,6 +122,75 @@
           "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites/",
           "created_at": "2026-09-26T11:58:20+00:00",
           "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc2decf6e",
+      "score": 7.194,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta",
+        "Nvidia",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "SemiAnalysis_"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-25T20:26:30+00:00",
+      "last_seen": "2026-09-26T19:01:08+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-09-25/harrell-us-china-lack-of-deliverables-was-as-expected-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
+        "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
+        "https://x.com/SemiAnalysis_/status/2103922839812272220"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Microsoft Rises as It Unifies Copilot AI | Closing Bell. Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Isabelle Lee, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
+          "created_at": "2026-09-25T20:26:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Patterson: AI Is Crowding Out Demand for US Treasuries. Rebecca Patterson, Former Chief Investment Strategist at Bridgewater and Senior Fellow at the Council on Foreign Relations, discusses her broad read on market action. The discussion is framed around whether recent moves in bonds, equities, commodities, and energy are telling the same economic story or whether one market is more predictive than the others. She speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/patterson-ai-is-crowding-out-demand-for-us-treasuries-video",
+          "created_at": "2026-09-25T21:24:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Harrell: US-China Lack of Deliverables Was as Expected. Peter Harrell says that the key dynamic is not which country has the upper hand, but that both China and the United States have meaningful leverage: the U.S. through tariffs, export controls, semiconductors, the dollar and AI technology, and China through rare earths, specialty chemicals, and manufacturing scale. Harrell says this mutual leverage helps explain the recent emphasis on “strategic stability” and why both countries may want to ease tensions for now while they work to reduce their dependence on each other. He speaks to Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/harrell-us-china-lack-of-deliverables-was-as-expected-video",
+          "created_at": "2026-09-25T21:47:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Markets Rise as AI, Oil & Treasury Yields Drive the Week. The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Morgan Stanley Private Wealth Management Executive Director Katerina Simonetti, BMO Chief FX Strategist Mark McCormick, Jefferies Managing Director & Equity Research Analyst David Katz, Yale University Jackson Institute for Global Affairs Senior Fellow Stephen Roach, Citi Wealth Head of Portfolio Construction & Analytics Olaolu Aganga, Council on Foreign Relations Senior Fellow Rebecca Patterson, Georgetown Institute of International",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/the-close-9-25-2026-video",
+          "created_at": "2026-09-25T21:52:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "SemiAnalysis_",
+          "tier": "commentary",
+          "text": "DRAMA ALERT🚨: In the YouTube comment section of the NVIDIA Chief Scientist Computer Museum panel, OpenAI Head of Jalapeno replies, saying that Jalapeno has already demonstrated on the SemiAnalysis InferenceX benchmark that Jalapeno is already running very fast (which, btw, beats NVIDIA chips like July Rubin) on non-OpenAI models, refuting the NVIDIA Chief Scientist’s misunderstanding about Jalapeno only being optimized/codesigned to run OpenAI-specific models.\n\nInferenceX is the established industry standard, endorsed globally, including by Meta, Oracle, Microsoft, Moonshot, NVIDIA, Weka, vLLM, SGLang, dg.",
+          "url": "https://x.com/SemiAnalysis_/status/2103922839812272220",
+          "created_at": "2026-09-26T19:01:08+00:00",
+          "engagement": 104
         }
       ]
     }
