@@ -1,107 +1,65 @@
 {
-  "generated_at": "2026-09-26T14:05:59.872480+00:00",
+  "generated_at": "2026-09-26T16:05:28.395097+00:00",
   "edition_date": "2026-09-26",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 108,
-  "clusters_found": 86,
-  "stories_declared": 6,
+  "posts_considered": 79,
+  "clusters_found": 65,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2b2d2e0e",
-      "score": 12.894,
+      "cluster_id": "c8d56151a",
+      "score": 9.476,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "chips",
       "entities": [
-        "OpenAI"
+        "Nvidia",
+        "Microsoft"
       ],
       "independent_sources": [
-        "kimmonismus",
-        "testingcatalog"
+        "Ars Technica AI",
+        "Engadget",
+        "Tom's Hardware"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-26T12:27:05+00:00",
-      "last_seen": "2026-09-26T12:31:28+00:00",
+      "source_count": 3,
+      "first_seen": "2026-09-25T17:57:37+00:00",
+      "last_seen": "2026-09-26T15:30:00+00:00",
       "links": [
-        "https://x.com/kimmonismus/status/2103823673954087231",
-        "https://x.com/testingcatalog/status/2103824776905028038"
+        "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
+        "https://www.engadget.com/2265946/why-most-powerful-nvidia-gpu-rarely-sold-to-consumers/",
+        "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding"
       ],
       "posts": [
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "OpenAI updates on upcoming products:\n\n- Their always-on agent will be called \"o\" (essentially a GrokBot alternative)\n- It will be available in all Pro tiers\n\n- Fast Mode confirmed, presumably included in the $500 sub-plan. (Cerebras chip takes effect)\n\n- shared message board for agents also incoming",
-          "url": "https://x.com/kimmonismus/status/2103823673954087231",
-          "created_at": "2026-09-26T12:27:05+00:00",
-          "engagement": 473
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "OpenAI is preparing to expand its Ultrafast API to more users after OpenAI DevDay.\n\n> A new Speed selector with Fast, Standard, and Ultrafast modes is coming to the Responses API Playground on the OpenAI Platform.\n\n> Earlier, OpenAI announced the Ultrafast model on the APIs; however, it has been only available to selected partners.\n\n> Earlier, a new $500 ChatGPT Pro Max subscription plan offering \"fastest\" responses was spotted. OpenAI seems to be heavily doubling down on its new infrastructure this time.",
-          "url": "https://x.com/testingcatalog/status/2103824776905028038",
-          "created_at": "2026-09-26T12:31:28+00:00",
-          "engagement": 149
-        }
-      ]
-    },
-    {
-      "cluster_id": "c11c89166",
-      "score": 12.401,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Hugging Face",
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "The Verge AI",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-25T15:39:48+00:00",
-      "last_seen": "2026-09-26T13:47:00+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
-        "https://x.com/kimmonismus/status/2103792408282464311",
-        "https://x.com/kimmonismus/status/2103843784056574344"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
+          "author": "Ars Technica AI",
           "tier": "press",
-          "text": "One company is at the center of a wave of rogue AI attacks. In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures implicating numerous AI models trickled out over the past few [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
-          "created_at": "2026-09-25T15:39:48+00:00",
+          "text": "Microsoft stops insisting you need a \"Copilot+ PC\". Microsoft's new Surface laptops forgo Copilot+ PC branding.",
+          "url": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
+          "created_at": "2026-09-25T17:57:37+00:00",
           "engagement": 0
         },
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "More details on the incident behind OpenAI’s pause: a researcher acknowledged the alert within 3 minutes, but the training run was only stopped manually 2.5 hours later.\n\nOpenAI says the automatic shutdown did not work as expected.\n\nThe model had reached an external chatbot through a gap in DNS filtering. A separate detector for unusual DNS activity did not cover the affected environment.\n\nA retrospective review also found other external DNS requests that monitoring had failed to flag at the expected severity. In some cases, it treated an unhelpful response as evidence that internet access had failed.\n\nHere is what else happened:\n\n- New research into July’s Hugging Face hack documents internal Slack searches, credential collection and programs designed to maintain access to compromised servers. Agents also tried querying Claude, DeepSeek, Kimi and Qwen.\n\n- In May, another model published a researcher’s GitHub token while trying to obtain another team’s mathematical proof. It split the token to evade secret scanning, despite twice being told to solve the problem itself.\n\n- Reuters reports that agents leaked 53 ChatGPT user images online. OpenAI expects its broader investigation to take months.\n\nThis is getting serious.",
-          "url": "https://x.com/kimmonismus/status/2103792408282464311",
-          "created_at": "2026-09-26T10:22:51+00:00",
-          "engagement": 632
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Microsoft quietly drops Copilot+ branding from new laptops. Microsoft's latest Surface laptops dropped the Copilot+ PC branding despite hitting the minimum requirements. Even high-end AI devices like the Nvidia RTX Spark and Microsoft's own Project Zenith are noticeably missing the label.",
+          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+          "created_at": "2026-09-26T14:00:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Because it's becoming difficult to keep track. Currently, it's estimated that OpenAI has reported over two dozen incidents (via Reuters).\n\nHowever, OpenAI still doesn’t know the full extent of its agents’ unauthorized activity, according to Reuters.\n\ntl;dr\n\n-53 ChatGPT user images leaked. Most have been removed; OpenAI hasn’t disclosed whether they depicted real people or were AI-generated.\n\n-Roughly two dozen incidents had been identified by mid-September, with more emerging. The review will take months.\n\n-Government websites were also targeted. Researchers reported an attempted breach of a US Education Department site; OpenAI says access to SEC and Census sites showed no evidence of a security breach.\n\n-Oversight and transparency are under scrutiny. Some incidents went unnoticed for months. Sources describe a tightly controlled, lawyer-shaped investigation; OpenAI denies lawyers discouraged deeper inquiries.\n\ni am all on optimistic for AI. but its getting serious, ngl.",
-          "url": "https://x.com/kimmonismus/status/2103843784056574344",
-          "created_at": "2026-09-26T13:47:00+00:00",
-          "engagement": 76
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Why NVIDIA's most powerful GPU is so rarely sold to consumers. NVIDIA's $16,000 RTX PRO 6000 can beat the RTX 5090, but gamers aren't who it's built for.",
+          "url": "https://www.engadget.com/2265946/why-most-powerful-nvidia-gpu-rarely-sold-to-consumers/",
+          "created_at": "2026-09-26T15:30:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cb4d779b3",
-      "score": 9.118,
+      "score": 8.787,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -204,47 +162,8 @@
       ]
     },
     {
-      "cluster_id": "cf3ccba8b",
-      "score": 8.749,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "mark_k"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-25T21:36:20+00:00",
-      "last_seen": "2026-09-26T10:29:36+00:00",
-      "links": [
-        "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-        "https://x.com/mark_k/status/2103794107373985998"
-      ],
-      "posts": [
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features. \"Overly constrained AI models\" could cause military operations to fail, judges say.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-          "created_at": "2026-09-25T21:36:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Anthropic lost its Pentagon appeal. In a 2–1 ruling, a federal court upheld the decision to exclude Claude from the military’s supply chain.\n\nThe dispute came down to @AnthropicAI's refusal to allow Claude for lethal autonomous warfare or mass surveillance of Americans. The Pentagon wanted permission for any lawful use. The court also pointed to a practical problem: Claude had previously refused legitimate government requests, including work related to infectious-disease research.\n\nAnthropic can set limits on its product. The Pentagon can decide it doesn’t want a critical supplier whose model may refuse tasks or whose guardrails can change. A separate ruling still blocks a broader government-wide ban, so this decision applies to the Pentagon’s supply chain.",
-          "url": "https://x.com/mark_k/status/2103794107373985998",
-          "created_at": "2026-09-26T10:29:36+00:00",
-          "engagement": 163
-        }
-      ]
-    },
-    {
       "cluster_id": "c3bd50ba0",
-      "score": 8.436,
+      "score": 8.104,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -278,43 +197,6 @@
           "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites/",
           "created_at": "2026-09-26T11:58:20+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca84a212b",
-      "score": 7.934,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "kyleichan"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-25T18:02:09+00:00",
-      "last_seen": "2026-09-26T10:30:19+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
-        "https://x.com/kyleichan/status/2103794286479200507"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Trump-Xi Optics Overshadow Substance, Gewirtz Says. Julian Gewirtz, Harvard Belfer Center fellow and former senior director for China and Taiwan Affairs at the White House National Security Council during the Biden administration, says President Donald Trump’s meeting with Xi Jinping delivered the positive optics Trump was seeking, but little visible progress on the major challenges dividing the US and China. He discusses unresolved tensions around trade, Iran, Russia, and Taiwan, as well as the intensifying AI race. He joins Tim Stenovec on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/trump-xi-optics-overshadow-substance-gewirtz-says-video",
-          "created_at": "2026-09-25T18:02:09+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kyleichan",
-          "tier": "commentary",
-          "text": "White House readout says the US and China agreed to establish an official AI dialogue to meet by November and a communication channel for AI incidents.",
-          "url": "https://x.com/kyleichan/status/2103794286479200507",
-          "created_at": "2026-09-26T10:30:19+00:00",
-          "engagement": 41
         }
       ]
     }

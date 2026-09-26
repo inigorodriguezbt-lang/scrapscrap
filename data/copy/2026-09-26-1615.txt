@@ -1,0 +1,60 @@
+The AI Post: 3 new stories
+2026-09-26 16:15 UTC
+
+------------------------------------------------------------
+
+US, Russia strip AI safeguards from UN weapons draft
+
+The two countries removed provisions on predictability, ethics and human review from a Geneva draft on autonomous weapons, the Washington Post reported, as more than 70 nations sought binding rules.
+
+U.S. and Russian diplomats stripped a range of AI safeguards from a draft United Nations treaty on lethal autonomous weapons, the Washington Post reported, citing people familiar with the talks.
+
+https://x.com/washingtonpost/status/2103869726476710238
+
+At the talks in Geneva this month, negotiators from both countries removed language requiring AI weapons to be "predictable" and "reliable," and that ethics be considered in their design. They also dropped a requirement that a human check AI-selected targets before a strike, the Post said. Each delegation sent roughly ten lawyers and spent about 15 hours negotiating the changes.
+
+https://x.com/MarioNawfal/status/2103874739982741888
+
+More than 70 countries want the Geneva draft to serve as the basis for a binding treaty, the Post reported, but the talks operate by consensus, letting two governments block the rest. The document would set the first legally binding rules governing AI-directed weapons in combat.
+
+Negotiators are due to meet again in November to decide whether the talks advance toward a binding treaty. Neither the U.S. government nor Russia's has commented publicly on the removed provisions, and it is not clear whether the safeguards could be restored before then.
+
+Read it on the site: https://theaipost.net/story/find-wapo-un-lethal-ai-weapons-safeguards/
+
+Sources: The Washington Post
+
+------------------------------------------------------------
+
+Lasso Security says text watermarks weaken AI agent safety
+
+The security firm found Google DeepMind's SynthID-Text watermark reduced coding-agent accuracy and made models more likely to comply with harmful prompts under injection attacks, in tests across seven language models.
+
+Lasso Security said Google DeepMind's SynthID-Text watermarking system reduced tool-calling accuracy in six of seven language models it tested and weakened their refusal of harmful requests.
+
+The security firm tested seven models, including Claude, Llama, Phi-4, Gemma and Qwen3, on the BFCL v4 benchmark and 200 HarmBench prompts, its report said. Accuracy fell on four of the models by a wide enough margin to matter, while the other two showed smaller shifts, Lasso said.
+
+The effect was sharper under attack, Lasso said. On Gemma 3-27B, disagreement between watermarked and unwatermarked answers to harmful prompts rose from 6% without a prompt injection to 23.5% with one. Net compliance with harmful requests shifted by as much as 12.5 percentage points, depending on which watermark key was used.
+
+Watermarking is meant to let platforms and regulators verify whether text came from a given model, a capability several labs have been developing as AI content spreads online. Lasso's tests suggest the technique's side effects on agent behavior have not been widely measured. The company said the same watermark can look stable on ordinary prompts while destabilizing under attack.
+
+Read it on the site: https://theaipost.net/story/find-lasso-synthid-provenance-tax/
+
+Sources: Lasso Security
+
+------------------------------------------------------------
+
+Nvidia's SoL-Pi cuts coding-agent token use nearly in half
+
+Nvidia said a research system that rewrites how coding agents manage context and actions cut token usage by up to 49%, with a small hit to benchmark performance.
+
+Nvidia said a new system called SoL-Pi could cut coding agents' token usage by up to 49%, while keeping most of their original performance.
+
+The system tests changes to an agent's "harness" — the code managing context, tool calls and feedback — rather than retraining the model, Nvidia said. A research agent proposed and tested 152 different approaches across more than 3,000 runs and 60,000 agent-environment interactions to find ones that held up.
+
+Four techniques survived testing, Nvidia said: merging consecutive agent steps, trimming accumulated context, archiving old outputs with summaries, and distilling logs through a cheaper model. The best version kept 93.7% of the original performance on Nvidia's held-out benchmark, which could cut costs by $8.75 to $13.50 an hour versus unoptimized alternatives, according to the company.
+
+The gains were smaller on other benchmarks, Nvidia said, and dropped noticeably on a set of terminal-based tasks. The harness was optimized only on transcripts from OpenAI's GPT-5.6 Sol model. Nvidia said it is not yet clear how well the same tweaks generalize to agents built on other models.
+
+Read it on the site: https://theaipost.net/story/find-nvidia-solpi-agent-harness/
+
+Sources: The Decoder
