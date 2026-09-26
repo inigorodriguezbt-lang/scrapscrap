@@ -1,0 +1,40 @@
+The AI Post: 2 new stories
+2026-09-26 18:12 UTC
+
+------------------------------------------------------------
+
+Claude Code skill turns chess games into narrated postmortems
+
+A GitHub developer built Claude Code skills that use Stockfish to explain chess mistakes in plain language, reaching the Hacker News front page Saturday with 41 points.
+
+A developer using the handle brumar released two Claude Code skills on GitHub that turn a recorded chess game into a narrated postmortem, checking every explanation against the Stockfish engine. The release reached the Hacker News front page Saturday as a Show HN post, drawing 41 points and 28 comments.
+
+The chess-analysis skill runs a full Stockfish sweep of every move. It then sets Claude subagents loose to question the engine the way a person would, asking things like why a move was not played, until each mistake is explained in plain terms rather than a raw evaluation number. It outputs an annotated PGN and a standalone HTML board.
+
+The tool also accepts a player's own think-aloud recording from during the game. Claude transcribes the audio locally with whisper.cpp, then matches each sentence to the move the player was deciding at that moment, using the clock times in the PGN. That lets the postmortem check the player's actual reasoning rather than a guessed one.
+
+A second skill, chess-video, turns the analysis into a narrated video with a board, move arrows, an evaluation gauge and burned-in subtitles, built with the Piper text-to-speech engine and rendered with ffmpeg. A third, chess-play, lets someone play a game against Claude directly, with the board rendered to an image and a separate subagent checking for blunders.
+
+Nobody outside the Hacker News thread has reviewed the tool yet. The developer's own README says a full run, from Stockfish sweep to finished video, takes about an hour of processing. It also warns that Claude can still get a detail wrong, even though a verifier pass re-checks each claim against the engine.
+
+Read it on the site: https://theaipost.net/story/find-chess-postmortem-claude-skill/
+
+Sources: brumar, Hacker News
+
+------------------------------------------------------------
+
+Nvidia patent describes AI chatbot for game diagnostics
+
+A newly published Nvidia patent describes a chatbot for diagnosing game performance problems from plain-English requests. The company has not confirmed it will ship.
+
+A patent Nvidia filed describes an AI chatbot for game developers. It would take a plain-English description of a performance problem and return an automated diagnostic. Patentlyze, a patent-tracking site, first spotted the filing. Tom's Hardware reported on it Saturday.
+
+The patent gives example questions a developer might ask, such as why a scene stutters during camera cuts or why frame times spike when ray-traced reflections enter view. The chatbot would then write a diagnostic and run it on the GPU automatically. It would hand the results back for the developer to interpret.
+
+Nvidia has not said whether the tool will ship. Patent filings often describe work a company never releases. Tom's Hardware said the concept resembles G-Assist, an existing chatbot tool Nvidia already offers gamers for GeForce RTX support. The outlet also pointed to Nvidia's broader push to put AI features into DLSS and other rendering tools.
+
+The patent does not say whether the diagnostic code the chatbot generates would be validated before a developer acts on it. Tom's Hardware flagged that gap as a reason for caution. No other outlet has reported on the filing so far.
+
+Read it on the site: https://theaipost.net/story/find-nvidia-game-chatbot-patent/
+
+Sources: Tom's Hardware
