@@ -1,0 +1,42 @@
+The AI Post: 2 new stories
+2026-09-26 10:21 UTC
+
+------------------------------------------------------------
+
+GPT-6 Astra tops Epoch AI's IKEA assembly benchmark
+
+OpenAI's latest model caught 80 percent of staged mistakes in Epoch AI's furniture-assembly test, up from 28 percent ten months ago, though it remains too slow for live guidance.
+
+OpenAI's GPT-6 Astra scored 80 percent on a new Epoch AI test that checks whether a model can spot mistakes in photos of half-finished IKEA furniture, the research group said. That beats the 28 percent Claude Opus 4.5 managed when Epoch set the mark in November 2025.
+
+The test uses 60 photos of three IKEA products: a shoe rack, a bed frame and a dresser, some showing a clean build and others hiding a planted mistake. Each model gets the printed manual, a zoom tool and a code interpreter, then has to say which step went wrong. Claude Fable 5.1 came second at 70 percent, and Claude Opus 5 scored 61 percent, according to Epoch AI.
+
+Astra took a median of three minutes per photo, which Epoch AI called two to ten times faster than earlier leaders but still too slow to guide someone in real time. The group said the same skill could someday help with tasks like car repairs or appliance fixes. Grading used a separate model, GPT-5.6 Sol, to check each answer against the list of recorded mistakes.
+
+Different models failed in different directions, Epoch AI said. Some flagged an error that was not there, and others missed a real one. The test covers just 60 photos across three products, so it is unclear whether the result would hold on a wider range of furniture tasks.
+
+The group has not tested how a human scores on the same photos. It also found no Chinese open-weight model with vision good enough to compete — Kimi K3, the closest, still trails the frontier by about seven months.
+
+Read it on the site: https://theaipost.net/story/find-epoch-fab-astra-ikea/
+
+Sources: Epoch AI, The Decoder
+
+------------------------------------------------------------
+
+Researchers pretrain a model using zero human data
+
+A generator and a learner train each other on self-generated programs alone, and the resulting models show predictable scaling and early signs of in-context learning, the authors said.
+
+Researchers from Stanford, Tel Aviv University and an independent lab pretrained a language model with no human-written text at all, according to a paper posted to arXiv on September 24. They trained it entirely through self-play between two networks.
+
+https://x.com/askalphaxiv/status/2103778101033590958
+
+In the setup, a generator network writes programs for a universal Turing machine, and a learner network predicts the resulting output bytes. The generator is trained with reinforcement learning to keep proposing sequences at the edge of what the learner can already handle. That produces what the authors call an adaptive curriculum.
+
+An independent reproduction posted this week, built from scratch on two low-end GPUs, said it matched the paper's own checkpoints "identical to three decimals" across the paper's evaluation corpora. A second independent analysis recomputed the same metric and went further. It found that a small model developed basic arithmetic within its first 500 to 1,000 training rounds, well before broader in-context learning emerged.
+
+The authors say the method could offer an "effectively unbounded" source of pretraining data, limited by compute rather than by how much human-written text exists. The models tested so far are tiny, from 99,000 to 24.4 million parameters, and the paper does not include the training code. It offers only evaluation scripts and checkpoints published on Hugging Face.
+
+Read it on the site: https://theaipost.net/story/find-selfplay-pretraining-zero-data/
+
+Sources: arXiv, independent reproduction on GitHub, independent analysis on GitHub
