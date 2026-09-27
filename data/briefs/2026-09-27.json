@@ -1,15 +1,54 @@
 {
-  "generated_at": "2026-09-27T18:07:16.352146+00:00",
+  "generated_at": "2026-09-27T20:06:21.927268+00:00",
   "edition_date": "2026-09-27",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 58,
-  "clusters_found": 51,
-  "stories_declared": 4,
+  "posts_considered": 46,
+  "clusters_found": 40,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ced2bd413",
-      "score": 13.291,
+      "cluster_id": "ccf3719cc",
+      "score": 10.408,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Tom's Hardware",
+        "rohanpaul_ai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T15:21:30+00:00",
+      "last_seen": "2026-09-27T19:04:37+00:00",
+      "links": [
+        "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
+        "https://x.com/rohanpaul_ai/status/2104271002280816664"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Grab this 14-inch compact gaming laptop powerhouse for $1000 off. The gaming laptop pairs Intel’s Core Ultra 9 285H with Nvidia’s RTX 5070 Laptop GPU and a 3K 120Hz OLED display, giving buyers a powerful compact machine at a reduced price.",
+          "url": "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
+          "created_at": "2026-09-27T15:21:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Why Nvidia doesn't just sell tokens itself\n\n\"Jensen is really good at making his friends billionaires.\"\n\n - Neil Movva, co-founder of Sail Research, ex-Nvidia GPU/kernel engineer",
+          "url": "https://x.com/rohanpaul_ai/status/2104271002280816664",
+          "created_at": "2026-09-27T19:04:37+00:00",
+          "engagement": 44
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb1f57b23",
+      "score": 9.67,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -20,18 +59,16 @@
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "RyanGreenblatt",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "first_seen": "2026-09-27T09:23:36+00:00",
-      "last_seen": "2026-09-27T17:55:03+00:00",
+      "last_seen": "2026-09-27T17:21:07+00:00",
       "links": [
         "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
         "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
-        "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-        "https://x.com/RyanGreenblatt/status/2104268596553957477"
+        "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
       ],
       "posts": [
         {
@@ -57,112 +94,30 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
           "created_at": "2026-09-27T17:21:07+00:00",
           "engagement": 0
-        },
-        {
-          "author": "RyanGreenblatt",
-          "tier": "commentary",
-          "text": "I'm joining METR to work on more investigations like our Hugging Face report. Currently, tons of even basic information about AI development that's highly relevant to catastrophic risk isn't public. I used to be more skeptical of this kind of work.",
-          "url": "https://x.com/RyanGreenblatt/status/2104268596553957477",
-          "created_at": "2026-09-27T17:55:03+00:00",
-          "engagement": 82
         }
       ]
     },
     {
-      "cluster_id": "ca9812401",
-      "score": 12.764,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "OpenAIDevs",
-        "reach_vb"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T16:50:19+00:00",
-      "last_seen": "2026-09-27T17:35:31+00:00",
-      "links": [
-        "https://x.com/OpenAIDevs/status/2104252306447544447",
-        "https://x.com/reach_vb/status/2104263679445434370"
-      ],
-      "posts": [
-        {
-          "author": "OpenAIDevs",
-          "tier": "commentary",
-          "text": "We've fixed a bug that was degrading image understanding in GPT-6 Sol and GPT-6 Luna. You should now see better results on visual tasks in the API and Codex, including computer use.",
-          "url": "https://x.com/OpenAIDevs/status/2104252306447544447",
-          "created_at": "2026-09-27T16:50:19+00:00",
-          "engagement": 1882
-        },
-        {
-          "author": "reach_vb",
-          "tier": "commentary",
-          "text": "We fixed an image encoding bug that led to degraded image understanding in GPT-6 Sol and GPT-6 Luna! Try it out today!!",
-          "url": "https://x.com/reach_vb/status/2104263679445434370",
-          "created_at": "2026-09-27T17:35:31+00:00",
-          "engagement": 104
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7c742deb",
-      "score": 9.935,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "AndrewCurran_",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T16:13:20+00:00",
-      "last_seen": "2026-09-27T16:32:24+00:00",
-      "links": [
-        "https://x.com/AndrewCurran_/status/2104247795817578574",
-        "https://x.com/kimmonismus/status/2104242998993146318"
-      ],
-      "posts": [
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Its getting interesting: Trump reportedly plans to host Anthropic CEO Dario Amodei for a private White House dinner on Sunday, after months of tensions with his administration. Axios says it would be their first one-on-one.",
-          "url": "https://x.com/kimmonismus/status/2104242998993146318",
-          "created_at": "2026-09-27T16:13:20+00:00",
-          "engagement": 517
-        },
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "President Trump has personally invited Dario to a private dinner tonight at the White House. This will be the first time they've actually met one-on-one. Big chance to patch things up. Or crash the plane into the mountainside.",
-          "url": "https://x.com/AndrewCurran_/status/2104247795817578574",
-          "created_at": "2026-09-27T16:32:24+00:00",
-          "engagement": 1020
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce1a30435",
-      "score": 5.979,
+      "cluster_id": "c9a91d06f",
+      "score": 4.305,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
+        "Anthropic",
         "Microsoft"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Reuters"
+        "Engadget"
       ],
       "source_count": 2,
       "first_seen": "2026-09-27T13:00:00+00:00",
-      "last_seen": "2026-09-27T16:00:35+00:00",
+      "last_seen": "2026-09-27T19:12:29+00:00",
       "links": [
+        "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
         "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
-        "https://x.com/Reuters/status/2104239791353049110"
+        "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/"
       ],
       "posts": [
         {
@@ -174,12 +129,20 @@
           "engagement": 0
         },
         {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "Bill Gates joins calls for AI safeguards, including legislation",
-          "url": "https://x.com/Reuters/status/2104239791353049110",
-          "created_at": "2026-09-27T16:00:35+00:00",
-          "engagement": 29
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic CEO Amodei to Meet Trump With AI Safety Concern Rising. Anthropic PBC Chief Executive Officer Dario Amodei is set to have dinner with President Donald Trump on Sunday night, according to people familiar with the matter, with the meeting bringing together two men at opposite ends of the artificial intelligence safety debate.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
+          "created_at": "2026-09-27T18:48:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Bill Gates says it's 'completely irresponsible' for AI to not have safeguards. The Microsoft co-founder said that the more present danger is bad actors with access to AI tools.",
+          "url": "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/",
+          "created_at": "2026-09-27T19:12:29+00:00",
+          "engagement": 0
         }
       ]
     }
