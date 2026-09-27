@@ -25,6 +25,163 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-google-gemini4-post-training",
+   "section": "models",
+   "headline": "Google nears release of flagship Gemini 4 model, Information says",
+   "standfirst": "DeepMind chief Koray Kavukcuoglu said Gemini 4 is in post-training and could arrive well before year-end, as Google works to close the gap with Anthropic and OpenAI, The Information reported.",
+   "body": [
+    "Google is nearing release of its next flagship model, Gemini 4, The Information reported Saturday. DeepMind chief Koray Kavukcuoglu said the system is in post-training and could arrive well before the end of the year.",
+    "The outlet's report, by reporter Laura Bratton, called the release a long-awaited move after Google fell behind rivals Anthropic and OpenAI. No other outlet had independently confirmed the timeline or Kavukcuoglu's comments as of Saturday.",
+    "The Information did not detail Gemini 4's expected capabilities, pricing or which products would carry it first. Google made no public statement on the model or its timeline. Kavukcuoglu's remarks were not made in a public forum, according to the report."
+   ],
+   "entities": [
+    "Google",
+    "DeepMind",
+    "Anthropic",
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "The Information",
+     "url": "https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-nano-banana-21-flow",
+   "section": "models",
+   "headline": "Google Flow build points to Nano Banana 2.1, TestingCatalog says",
+   "standfirst": "The site found the Flow web build's internal references changed from \"Nano Banana 2.5 Flash\" to \"Nano Banana 2.1,\" suggesting a naming shift ahead of an unannounced release.",
+   "body": [
+    "TestingCatalog said Saturday that Google's Flow web build had swapped its internal reference for an unreleased image model. The name changed from \"Nano Banana 2.5 Flash\" to \"Nano Banana 2.1,\" a shift the site read as pointing to the model's likely production name.",
+    "The move from \"2\" to \"2.1\" suggests a smaller update than the version jump implied by \"2.5 Flash,\" TestingCatalog said. Google has not announced Nano Banana 2.1 or said what it changes over Nano Banana 2, which the company folded into Gemini as Gemini 3.1 Flash Image.",
+    "Google typically rolls a new Nano Banana model out across Gemini, AI Studio and Flow once it ships, TestingCatalog said, citing that earlier pattern. The site said it could not confirm whether the update touches generation quality, editing or speed.",
+    "No release date has surfaced. Google had not commented on the build reference or confirmed Nano Banana 2.1 exists, as of Saturday, according to TestingCatalog."
+   ],
+   "entities": [
+    "Google"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/new-google-flow-build-now-points-to-nano-banana-2-1/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-mobile-mcp-server",
+   "section": "products",
+   "headline": "Mobile MCP server lets AI agents control phone apps",
+   "standfirst": "The open-source project, which has drawn 7,700 GitHub stars, lets Claude, Codex, Gemini and other coding agents automate real and simulated iOS and Android devices.",
+   "body": [
+    "An open-source project called Mobile MCP lets AI coding agents automate iOS and Android apps, according to its GitHub repository. It works with Claude Code, Codex and Gemini on real devices, emulators and simulators. The tool, maintained by Mobile Next, has drawn 7,700 stars and 662 forks on GitHub.",
+    "Mobile MCP runs as a Model Context Protocol server. It gives agents tools to read an app's accessibility tree, tap, swipe and take screenshots, the repository says. The project favors that approach over vision models, which it says removes the need for platform-specific testing skills like XCUITest or Espresso.",
+    "The tool also connects to cloud-hosted devices through a paid service called Mobile Next Cloud. It works with any MCP-compatible client beyond the named agents, including Cursor, Windsurf and GitHub Copilot, the repository says. It is released under the Apache 2.0 license.",
+    "A post from developer midudev highlighting the tool's free tier and open-source license drew more than 380 likes on X on Saturday."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "Mobile MCP repository",
+     "url": "https://github.com/mobile-next/mobile-mcp"
+    },
+    {
+     "author": "midudev on X",
+     "url": "https://x.com/midudev/status/2104210723408597366"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/midudev/status/2104210723408597366",
+     "after": 4
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-danny-limanseta-vibe-coded-game",
+   "section": "ai",
+   "headline": "Father, sons build Zelda-inspired game with Claude Opus 5.5",
+   "standfirst": "Developer Danny Limanseta said he and his sons spent a day building a paintbrush-combat adventure game by describing what they wanted to Anthropic's Opus 5.5.",
+   "body": [
+    "Developer Danny Limanseta said he and his two sons spent a day building a video game together, according to a post on X. The boys described what they wanted, and Limanseta prompted Anthropic's Claude Opus 5.5 to build it. They chose a \"Zelda: Breath of the Wild\"-inspired open world.",
+    "The result, called Wild Brush, gives its hero a paintbrush weapon with four colors tied to different effects, Limanseta said: red for fire, blue for ice, yellow for bounce and green for vines. The finished game includes two biomes, three dungeons with puzzles, an underground cave, more than 30 enemies and a final boss, according to the post.",
+    "Limanseta said the game is playable in a browser, though only on desktop. He said it was not the first game he had vibe-coded, but the most satisfying because his sons were actively co-creating and playing it.",
+    "Opus 5.5 launched five days ago. Limanseta's post is among a wave of demos built with the model that have circulated on X in the days since."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Danny Limanseta on X",
+     "url": "https://x.com/DannyLimanseta/status/2104215873120764032"
+    },
+    {
+     "author": "Wild Brush",
+     "url": "https://wildbrush.vercel.app/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/DannyLimanseta/status/2104215873120764032",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-china-bytedance-alibaba-nvidia-rtx",
+   "section": "chips",
+   "headline": "China weighs letting ByteDance, Alibaba buy Nvidia chips",
+   "standfirst": "China's technology ministry has signaled it will approve purchases of Nvidia's new RTX Pro 5500 chip, with ByteDance said to be seeking 1 million units, The Information reported.",
+   "body": [
+    "China's technology ministry has told Alibaba, ByteDance and other companies it intends to approve their purchases of Nvidia's new RTX Pro 5500 chip. The Information reported the plan Saturday, citing two people familiar with the matter.",
+    "Reuters said it could not independently verify the report. ByteDance is seeking to order 1 million of the chips to power its AI models, according to The Information. The outlet said the ministry had asked companies to disclose their planned purchase volumes and intended use.",
+    "Nvidia launched the RTX Pro 5500 on September 14, built on its Blackwell architecture with 84 gigabytes of memory. It is sold for high-end professional workstations rather than as a dedicated AI accelerator. Chinese buyers have faced restrictions on importing Nvidia's most advanced AI chips since Washington tightened export controls.",
+    "The potential approval would be a shift for Beijing, which has restricted Chinese companies from buying advanced foreign AI chips as it promotes domestic alternatives from Huawei. Neither China's ministry nor Nvidia had commented publicly on the report as of Saturday."
+   ],
+   "entities": [
+    "Nvidia",
+    "Alibaba",
+    "ByteDance"
+   ],
+   "sources": [
+    {
+     "author": "The Information",
+     "url": "https://www.theinformation.com/articles/china-weighs-allowing-purchases-new-nvidia-chips-bytedance-alibaba"
+    },
+    {
+     "author": "Reuters",
+     "url": "https://www.investing.com/news/stock-market-news/china-weighs-allowing-bytedance-alibaba-to-buy-new-nvidia-chips-the-information-reports-4919047"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-trump-anthropic-dinner",
+   "section": "policy",
+   "headline": "Trump to host Anthropic's Amodei for first private dinner",
+   "standfirst": "Axios reported that Trump personally invited Anthropic chief executive Dario Amodei to a Sunday White House dinner after Amodei missed last week's state dinner.",
+   "body": [
+    "Axios reported Saturday that President Trump plans to host Anthropic chief executive Dario Amodei for a private White House dinner on Sunday, the pair's first one-on-one meeting.",
+    "Trump invited Amodei after the Anthropic chief missed last week's state dinner because of a scheduling conflict, according to the report. No other outlet had confirmed the account as of Saturday.",
+    "Axios did not say what the two men plan to discuss. The White House and Anthropic had not issued statements on the dinner as of Saturday afternoon."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Axios",
+     "url": "https://x.com/axios/status/2104232184869527967"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-linux-kernel-ai-build-time",
    "section": "ai",
    "headline": "Linux kernel build time falls to 15 seconds with AI help",
@@ -70,7 +227,7 @@
      "url": "https://www.nbcnews.com/news/us-news/bill-gates-global-artificial-intelligence-regulations-nuclear-rcna599646"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-chat-template-disclaimer-voice",
@@ -94,7 +251,7 @@
      "url": "https://news.ycombinator.com/item?id=49865343"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nvidia-nemotron3-diarization",
@@ -120,7 +277,7 @@
      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-gpt6-astra-homebody-robot",
@@ -147,7 +304,7 @@
      "url": "https://tml.stanford.edu/homebody"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-boris-power-gpt7-research",
@@ -169,7 +326,7 @@
      "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-jev-pokemon-red",
@@ -202,7 +359,7 @@
      "url": "https://github.com/valentynkit/jev-plays-pokemon-red"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-australia-senate-openai-anthropic-summons",
