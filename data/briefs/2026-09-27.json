@@ -1,15 +1,93 @@
 {
-  "generated_at": "2026-09-27T04:05:08.110268+00:00",
+  "generated_at": "2026-09-27T06:05:43.383196+00:00",
   "edition_date": "2026-09-27",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 38,
-  "clusters_found": 36,
-  "stories_declared": 2,
+  "posts_considered": 45,
+  "clusters_found": 41,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "cdb8ac37c",
+      "score": 9.57,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "theo"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-26T23:39:06+00:00",
+      "last_seen": "2026-09-27T05:23:59+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+        "https://x.com/theo/status/2104079585956761814"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Kākāpō Party. Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel ",
+          "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+          "created_at": "2026-09-26T23:39:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "With much, much effort, I have been able to kill ~3.5 $200 Claude Code accounts in the past 5 days.\n\nOpus 5.5 is incredible, and the $200 Max sub is an absolute steal.",
+          "url": "https://x.com/theo/status/2104079585956761814",
+          "created_at": "2026-09-27T05:23:59+00:00",
+          "engagement": 286
+        }
+      ]
+    },
+    {
+      "cluster_id": "c26188922",
+      "score": 9.482,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "AndrewCurran_",
+        "Bloomberg Tech"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T04:12:01+00:00",
+      "last_seen": "2026-09-27T04:16:50+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
+        "https://x.com/AndrewCurran_/status/2104061471546081364"
+      ],
+      "posts": [
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Anti-AI protesters rushed the stage at the pro-AI, pro-data center Data After Dark party tonight in DC, but they were unable to make a clear statement as the crowd drowned them out by chanting, 'USA! USA!'",
+          "url": "https://x.com/AndrewCurran_/status/2104061471546081364",
+          "created_at": "2026-09-27T04:12:01+00:00",
+          "engagement": 337
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Australia’s Deputy PM Defends Data Security After OpenAI Hack. Australia’s sensitive government data is kept in a “fortress,” Deputy Prime Minister Richard Marles said Sunday, seeking to reassure the public after revelations last week that an OpenAI model hacked a government website.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
+          "created_at": "2026-09-27T04:16:50+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cedf5aac7",
-      "score": 7.038,
+      "score": 6.703,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -48,7 +126,7 @@
     },
     {
       "cluster_id": "c52cf279b",
-      "score": 6.198,
+      "score": 5.863,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
