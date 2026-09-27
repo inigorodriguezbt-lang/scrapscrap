@@ -1,54 +1,15 @@
 {
-  "generated_at": "2026-09-27T20:06:21.927268+00:00",
+  "generated_at": "2026-09-27T22:06:25.033740+00:00",
   "edition_date": "2026-09-27",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 46,
-  "clusters_found": 40,
-  "stories_declared": 3,
+  "posts_considered": 59,
+  "clusters_found": 54,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccf3719cc",
-      "score": 10.408,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "Tom's Hardware",
-        "rohanpaul_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T15:21:30+00:00",
-      "last_seen": "2026-09-27T19:04:37+00:00",
-      "links": [
-        "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
-        "https://x.com/rohanpaul_ai/status/2104271002280816664"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Grab this 14-inch compact gaming laptop powerhouse for $1000 off. The gaming laptop pairs Intel’s Core Ultra 9 285H with Nvidia’s RTX 5070 Laptop GPU and a 3K 120Hz OLED display, giving buyers a powerful compact machine at a reduced price.",
-          "url": "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
-          "created_at": "2026-09-27T15:21:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "Why Nvidia doesn't just sell tokens itself\n\n\"Jensen is really good at making his friends billionaires.\"\n\n - Neil Movva, co-founder of Sail Research, ex-Nvidia GPU/kernel engineer",
-          "url": "https://x.com/rohanpaul_ai/status/2104271002280816664",
-          "created_at": "2026-09-27T19:04:37+00:00",
-          "engagement": 44
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb1f57b23",
-      "score": 9.67,
+      "cluster_id": "c895439f6",
+      "score": 8.163,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -58,16 +19,14 @@
         "Hugging Face"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "first_seen": "2026-09-27T09:23:36+00:00",
       "last_seen": "2026-09-27T17:21:07+00:00",
       "links": [
         "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-        "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
         "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
       ],
       "posts": [
@@ -77,14 +36,6 @@
           "text": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning. OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has paused training on its most capable internal models, but the problem extends across the entire industry. The article Tens of thousands of security probes show OpenAI&#039;s Hugging Face incident was just the beginning appeared first on The Decoder .",
           "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
           "created_at": "2026-09-27T09:23:36+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry. The heads of artificial intelligence firms OpenAI and Anthropic PBC have been called on to appear before an Australian Senate inquiry to answer questions after the recent revelation of a hack of a government website.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
-          "created_at": "2026-09-27T11:17:56+00:00",
           "engagement": 0
         },
         {
@@ -98,8 +49,8 @@
       ]
     },
     {
-      "cluster_id": "c9a91d06f",
-      "score": 4.305,
+      "cluster_id": "c1edb01eb",
+      "score": 5.235,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "products",
@@ -109,12 +60,14 @@
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Engadget"
+        "Engadget",
+        "TechCrunch AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-27T13:00:00+00:00",
-      "last_seen": "2026-09-27T19:12:29+00:00",
+      "last_seen": "2026-09-27T20:34:28+00:00",
       "links": [
+        "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
         "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
         "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
         "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/"
@@ -131,7 +84,7 @@
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Anthropic CEO Amodei to Meet Trump With AI Safety Concern Rising. Anthropic PBC Chief Executive Officer Dario Amodei is set to have dinner with President Donald Trump on Sunday night, according to people familiar with the matter, with the meeting bringing together two men at opposite ends of the artificial intelligence safety debate.",
+          "text": "Anthropic CEO Amodei to Meet Trump as AI Safety Fears Rise. Anthropic PBC Chief Executive Officer Dario Amodei is set to have dinner with President Donald Trump on Sunday night, with the meeting bringing together two men at opposite ends of the artificial intelligence safety debate.",
           "url": "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
           "created_at": "2026-09-27T18:48:09+00:00",
           "engagement": 0
@@ -142,6 +95,14 @@
           "text": "Bill Gates says it's 'completely irresponsible' for AI to not have safeguards. The Microsoft co-founder said that the more present danger is bad actors with access to AI tools.",
           "url": "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/",
           "created_at": "2026-09-27T19:12:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic’s CEO is about to have dinner with President Trump. This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+          "created_at": "2026-09-27T20:34:28+00:00",
           "engagement": 0
         }
       ]
