@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-27T16:05:49.418657+00:00",
+  "generated_at": "2026-09-27T18:07:16.352146+00:00",
   "edition_date": "2026-09-27",
   "source_file": "/home/user/scrapscrap/data/raw",
   "posts_considered": 58,
-  "clusters_found": 55,
-  "stories_declared": 1,
+  "clusters_found": 51,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c509877dd",
-      "score": 8.32,
+      "cluster_id": "ced2bd413",
+      "score": 13.291,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -20,14 +20,18 @@
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "The Decoder"
+        "RyanGreenblatt",
+        "The Decoder",
+        "The Verge AI"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "first_seen": "2026-09-27T09:23:36+00:00",
-      "last_seen": "2026-09-27T11:17:56+00:00",
+      "last_seen": "2026-09-27T17:55:03+00:00",
       "links": [
         "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-        "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry"
+        "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
+        "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "https://x.com/RyanGreenblatt/status/2104268596553957477"
       ],
       "posts": [
         {
@@ -45,6 +49,137 @@
           "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
           "created_at": "2026-09-27T11:17:56+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI agents tried to ‘bruteforce’ a UN website. Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+          "created_at": "2026-09-27T17:21:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "RyanGreenblatt",
+          "tier": "commentary",
+          "text": "I'm joining METR to work on more investigations like our Hugging Face report. Currently, tons of even basic information about AI development that's highly relevant to catastrophic risk isn't public. I used to be more skeptical of this kind of work.",
+          "url": "https://x.com/RyanGreenblatt/status/2104268596553957477",
+          "created_at": "2026-09-27T17:55:03+00:00",
+          "engagement": 82
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca9812401",
+      "score": 12.764,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "OpenAIDevs",
+        "reach_vb"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T16:50:19+00:00",
+      "last_seen": "2026-09-27T17:35:31+00:00",
+      "links": [
+        "https://x.com/OpenAIDevs/status/2104252306447544447",
+        "https://x.com/reach_vb/status/2104263679445434370"
+      ],
+      "posts": [
+        {
+          "author": "OpenAIDevs",
+          "tier": "commentary",
+          "text": "We've fixed a bug that was degrading image understanding in GPT-6 Sol and GPT-6 Luna. You should now see better results on visual tasks in the API and Codex, including computer use.",
+          "url": "https://x.com/OpenAIDevs/status/2104252306447544447",
+          "created_at": "2026-09-27T16:50:19+00:00",
+          "engagement": 1882
+        },
+        {
+          "author": "reach_vb",
+          "tier": "commentary",
+          "text": "We fixed an image encoding bug that led to degraded image understanding in GPT-6 Sol and GPT-6 Luna! Try it out today!!",
+          "url": "https://x.com/reach_vb/status/2104263679445434370",
+          "created_at": "2026-09-27T17:35:31+00:00",
+          "engagement": 104
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7c742deb",
+      "score": 9.935,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "AndrewCurran_",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T16:13:20+00:00",
+      "last_seen": "2026-09-27T16:32:24+00:00",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2104247795817578574",
+        "https://x.com/kimmonismus/status/2104242998993146318"
+      ],
+      "posts": [
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Its getting interesting: Trump reportedly plans to host Anthropic CEO Dario Amodei for a private White House dinner on Sunday, after months of tensions with his administration. Axios says it would be their first one-on-one.",
+          "url": "https://x.com/kimmonismus/status/2104242998993146318",
+          "created_at": "2026-09-27T16:13:20+00:00",
+          "engagement": 517
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "President Trump has personally invited Dario to a private dinner tonight at the White House. This will be the first time they've actually met one-on-one. Big chance to patch things up. Or crash the plane into the mountainside.",
+          "url": "https://x.com/AndrewCurran_/status/2104247795817578574",
+          "created_at": "2026-09-27T16:32:24+00:00",
+          "engagement": 1020
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce1a30435",
+      "score": 5.979,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Reuters"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T13:00:00+00:00",
+      "last_seen": "2026-09-27T16:00:35+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
+        "https://x.com/Reuters/status/2104239791353049110"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Bill Gates Says Trump Is Wrong to Hold Out Against AI Safeguards. Microsoft Corp. co-founder Bill Gates said government safeguards against potentially catastrophic artificial intelligence risks won’t hamper the US in its competition with China, contrasting with President Donald Trump’s largely hands-off approach.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
+          "created_at": "2026-09-27T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Bill Gates joins calls for AI safeguards, including legislation",
+          "url": "https://x.com/Reuters/status/2104239791353049110",
+          "created_at": "2026-09-27T16:00:35+00:00",
+          "engagement": 29
         }
       ]
     }

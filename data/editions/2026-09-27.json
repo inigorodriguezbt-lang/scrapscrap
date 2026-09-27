@@ -25,6 +25,187 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "ca9812401",
+   "section": "products",
+   "headline": "OpenAI fixes image bug in GPT-6 Sol and Luna",
+   "standfirst": "OpenAI said it fixed a bug that degraded image understanding in GPT-6 Sol and GPT-6 Luna, and recommended developers rerun evaluations that use image inputs.",
+   "body": [
+    "OpenAI said Sunday it fixed a bug that had been degrading image understanding in GPT-6 Sol and GPT-6 Luna, affecting visual tasks in the API and in Codex, including computer use. \"You should now see better results on visual tasks,\" the company said in a post on X.",
+    "OpenAI recommended developers whose workflows use image inputs rerun their evaluations, pointing to its changelog for detail. The account reach_vb, which posts about open-source AI tooling, separately confirmed the fix on X, calling it \"an image encoding bug\" and urging users to try it again.",
+    "OpenAI did not say how long the bug had been active or how many users it affected. The company pointed developers to its changelog, linked from its post, for further detail."
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "sources": [
+    {
+     "author": "OpenAIDevs on X",
+     "url": "https://x.com/OpenAIDevs/status/2104252306447544447"
+    },
+    {
+     "author": "reach_vb on X",
+     "url": "https://x.com/reach_vb/status/2104263679445434370"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/OpenAIDevs/status/2104252306447544447",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-gemini-gems-skills-november",
+   "section": "products",
+   "headline": "Google to replace Gemini Gems with Skills in November",
+   "standfirst": "Google says Gemini's Gems feature will become Skills on November 17, letting users invoke custom instructions with a slash command and run several at once.",
+   "body": [
+    "Google plans to retire Gems, the custom-instruction feature in Gemini. It will replace Gems with \"skills\" starting November 17, according to a notice 9to5Google found in the Gems manager.",
+    "Skills are invoked with a \"/\" in the prompt box. Unlike Gems, several can run at once, rather than through a separate side panel, according to 9to5Google. Google will migrate existing Gems automatically, and current users can keep using them until the transition finishes.",
+    "Google AI Pro and AI Ultra subscribers can already build skills through the Gemini app's Spark tab, 9to5Google said. But the outlet found the support documentation and the \"Create skills\" button were not yet working, a sign the announcement went out earlier than Google intended.",
+    "Google has not announced the change publicly beyond the in-app notice. No other outlet has confirmed the November 17 date. Gems previously let users set default tools, such as Create Image or Canvas, and attach files for context, with links to share a Gem."
+   ],
+   "entities": [
+    "Google"
+   ],
+   "sources": [
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/09/27/gemini-gems-skills/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-fudan-ai-agents-humans-decide",
+   "section": "research",
+   "headline": "Study finds humans still steer AI-assisted model development",
+   "standfirst": "Fudan University researchers analyzed 700 task logs from building a 744-billion-parameter model and found humans set the goals while AI carried out most of the execution.",
+   "body": [
+    "A team at Fudan University analyzed more than 700 task logs from 56 participants building Atria Dawn Preview, a 744-billion-parameter mixture-of-experts language model. Humans made 93.4% of the decisions about a task's goals and scope, the team found. AI agents were involved in 96.5% of the tasks.",
+    "Humans set methods and parameters 85.5% of the time versus 9.2% for AI, the researchers said. The median ratio of agent actions to human inputs climbed from 11 to 28.5 over four weeks. The team attributed that rise to growing task complexity, not to agents working with less oversight.",
+    "About a third of AI-assisted tasks, 151 of 455, were rated impossible without AI help, the study found. That suggests the tools expanded what the team could attempt, rather than simply speeding up existing work. When problems came up, humans intervened in 76% of cases, mostly by supplying context or diagnosing the issue.",
+    "The researchers summarized their finding as \"AI proposes, humans choose,\" according to The Decoder, which reported on the study. The paper is based on Fudan's own project rather than an outside audit, and its conclusions have not yet been tested against other teams' AI-assisted research."
+   ],
+   "entities": [
+    "Fudan University"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-anthropic-veterans-remote-land",
+   "section": "ai",
+   "headline": "Anthropic veterans buying remote land as AI hedge, WSJ says",
+   "standfirst": "The Wall Street Journal reports some of Anthropic's earliest employees have discussed relocating to remote land or government facilities in case AI development goes catastrophically wrong.",
+   "body": [
+    "Some of Anthropic's earliest and longest-serving employees have discussed buying remote land as a contingency in case \"AI goes awry,\" the Wall Street Journal reported, as relayed by The Decoder. The plans reportedly came up during company dinners, where employees discussed relocating to the desert to work from government facilities.",
+    "The Journal did not name specific employees, locations or completed purchases, according to The Decoder's account of the report. The details of any land bought so far are not confirmed.",
+    "The report ties the discussions to a network with intellectual roots in Eliezer Yudkowsky's mid-2000s warnings about uncontrolled AI. It says the same group previously worried about other existential risks, including asteroids and supervolcanoes, before AI became its focus.",
+    "Anthropic has not commented publicly on the report. The Decoder's write-up, the version of the story available without a subscription, does not say how many employees are involved or cite any on the record."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-yansyn-x2-crying-robot",
+   "section": "ai",
+   "headline": "Chinese humanoid robot cries real tears on command",
+   "standfirst": "Yanxi Technology's Yansyn-X2 humanoid produced a tear through a microfluidic system at a Shanghai conference, part of a push to make robot expressions feel more natural.",
+   "body": [
+    "A humanoid robot built by Chinese firm Yanxi Technology, the Yansyn-X2, produced a tear from the corner of its eye on command during a demonstration at the 2026 Inclusion Conference in Shanghai, according to footage reported by Engadget. A demonstrator asked the robot, \"Can you shed tears for me?\" A tear rolled down its face seconds later.",
+    "The effect comes from a three-part system, Engadget reported. An AI algorithm reads the conversation to decide when an emotional response fits. Bionic components then shift the robot's medical-grade silicone face into a sad expression, and a microfluidic system releases the tears at the eye's corners.",
+    "The Yansyn-X2 is otherwise a static model that can turn its head, track people and gesture with its arms, according to the report. Robots whose facial expressions matched a conversation's emotional tone were rated more likable and human-like than robots with no expression, Engadget said, citing research on the effect.",
+    "Yanxi Technology did not provide further technical detail on the system in the material Engadget reviewed. It is not clear when or whether the Yansyn-X2 will reach commercial use. The demonstration is the latest example of affective computing aimed at making human-robot interaction feel less mechanical."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2266933/humanoid-robot-cries-on-command/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://www.youtube.com/watch?v=kpGKallwkuk",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-claude-debloat-android-tv",
+   "section": "ai",
+   "headline": "Developer uses Claude to debloat his smart TV",
+   "standfirst": "Mert Cobanov gave Anthropic's Claude system access to strip bloatware from his Android TV and said the four-year-old set now runs better than when it was new.",
+   "body": [
+    "Developer Mert Cobanov gave Claude full system access to his Android TV with instructions to remove bloatware. He said on X that his four-year-old set now runs \"smoother than when it was new,\" and published the full workflow online, encouraging others to try it.",
+    "Claude disabled unused apps without uninstalling them, reduced animation speeds for faster responsiveness, and replaced Google TV's ad-heavy home screen with FLauncher, a free open-source launcher, according to Engadget's account of the project. The changes did not require rooting the device, Engadget reported.",
+    "Engadget cautioned that Cobanov's result does not mean the approach is safe to repeat. AI agents are prone to mistakes, the outlet said, and giving one debugging access to a TV's system could disable critical components, brick the device or block future software updates.",
+    "Most of what Claude did is also possible, and safer, to do by hand, Engadget noted. Alternatives include downloading FLauncher directly, using other Play Store apps that manage which packages run, and adjusting animation and autoplay settings in Android TV's developer options."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Mert Cobanov on X",
+     "url": "https://x.com/mertcobanov/status/2092980660386378154"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2267074/why-claude-cleaning-tv-bloatware-not-best-idea/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/mertcobanov/status/2092980660386378154",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-tinyaiarena-show-hn",
+   "section": "products",
+   "headline": "Solo developer's browser game pits AI models in battle",
+   "standfirst": "Developer hp6 built TinyAIArena, an 8x8 grid battler where AI agents fight until one survives, and posted it to Hacker News, where it hit the front page.",
+   "body": [
+    "A developer using the handle hp6 built TinyAIArena, a browser game where AI models compete as agents on an 8-by-8 grid, and posted it to Hacker News, where it reached the front page with 40 points and 22 comments. Four agents fight each round until one survives. They can move, attack an adjacent enemy for 15 to 24 damage, or wait.",
+    "The game includes random obstacles and power-ups that grant extra action points. Killing an opponent heals 50 HP and adds an action point per turn, according to the project's description. In the version posted, Anthropic's Claude Sonnet 5 ranked first among the competing models, ahead of a model called Fable and two others.",
+    "hp6 described the project as being for people who \"click on an 'AI Arena' expecting glorious battle\" and get \"a boring benchmark\" instead, according to the Hacker News submission. Commenters on the thread praised the visual style but flagged mobile scrolling problems and asked for shareable replay links.",
+    "The code is available on GitHub. With only a handful of models tested, the sample size is too small to draw conclusions about which model is actually strongest, one commenter on the thread noted, a caveat the project does not dispute."
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "hp6 on Hacker News",
+     "url": "https://news.ycombinator.com/item?id=49867775"
+    },
+    {
+     "author": "TinyAIArena",
+     "url": "https://tinyaiarena.com/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-google-gemini4-post-training",
    "section": "models",
    "headline": "Google nears release of flagship Gemini 4 model, Information says",
@@ -46,7 +227,7 @@
      "url": "https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nano-banana-21-flow",
@@ -68,7 +249,7 @@
      "url": "https://www.testingcatalog.com/new-google-flow-build-now-points-to-nano-banana-2-1/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-mobile-mcp-server",
@@ -98,7 +279,7 @@
      "after": 4
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-danny-limanseta-vibe-coded-game",
@@ -130,7 +311,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-china-bytedance-alibaba-nvidia-rtx",
@@ -158,7 +339,7 @@
      "url": "https://www.investing.com/news/stock-market-news/china-weighs-allowing-bytedance-alibaba-to-buy-new-nvidia-chips-the-information-reports-4919047"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-trump-anthropic-dinner",
@@ -179,7 +360,7 @@
      "url": "https://x.com/axios/status/2104232184869527967"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-linux-kernel-ai-build-time",
@@ -201,7 +382,7 @@
      "url": "https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-gates-ai-safeguards-trump-china",
@@ -235,7 +416,7 @@
    "headline": "Researcher finds chat templates trigger AI disclaimer voice",
    "standfirst": "A paper trending on Hacker News shows swapping a model's chat template flips its \"I'm just an AI\" disclaimers on and off, independent of its underlying weights.",
    "body": [
-    "A paper by researcher Jędrzej Maczan is gaining traction on Hacker News's front page. It argues that whether a large language model adds disclaimers such as \"I'm just an AI\" depends on its chat template, not only its training. The discussion had reached 69 points and 67 comments on Hacker News as of Sunday.",
+    "A paper by researcher J\u0119drzej Maczan is gaining traction on Hacker News's front page. It argues that whether a large language model adds disclaimers such as \"I'm just an AI\" depends on its chat template, not only its training. The discussion had reached 69 points and 67 comments on Hacker News as of Sunday.",
     "Maczan tested eight open-source instruct models of up to 9 billion parameters. He found the chat template works like a switch. When present, it turns up disclaimer language and turns down \"experiential\" phrases like \"I feel.\" When removed, the pattern reverses, the paper said.",
     "Maczan said he located a single direction inside the activations of three of the models that controls the effect. Removing that direction from a model's activation space reduced disclaimer language, and adding it increased it. A random direction of the same size had little effect, according to the paper.",
     "Instruct models with no chat template began disclaiming in the same way once that steering direction was added back in, the paper found. Maczan concluded that \"what models say about themselves is not a fact about them,\" since self-descriptions come partly from formatting rather than only from a model's weights."
@@ -331,10 +512,10 @@
   {
    "cluster_id": "find-jev-pokemon-red",
    "section": "ai",
-   "headline": "Non-LLM model Jev beats Pokémon Red in a week",
+   "headline": "Non-LLM model Jev beats Pok\u00e9mon Red in a week",
    "standfirst": "TypeSafe AI's Jev, a fast decision engine rather than a chatbot, beat the game in under a week, with Claude Opus 5 coaching it past dead ends, Tom's Hardware reported.",
    "body": [
-    "TypeSafe AI's Jev, a decision model built for speed rather than language reasoning, beat Pokémon Red in under a week. It reached the Hall of Fame on September 23, Tom's Hardware reported.",
+    "TypeSafe AI's Jev, a decision model built for speed rather than language reasoning, beat Pok\u00e9mon Red in under a week. It reached the Hall of Fame on September 23, Tom's Hardware reported.",
     "Jev outputs a structured, probabilistic choice from a short list of options in 50 to 150 milliseconds per decision, rather than reasoning in natural language like a chatbot, according to the project's public game log. That is far faster than the large language models that have taken weeks or months to finish the same game.",
     "Claude Opus 5 played a supporting role, watching Jev's game log and rewriting the wording and structure of its choices when it got stuck, Tom's Hardware reported. Jev made the moves. Claude wrote the rules Jev chose from.",
     "The run is documented on GitHub and was streamed live on YouTube as Jev fought through the Elite Four and the champion battle, according to the project's public pages. TypeSafe AI markets Jev as a fast, structured alternative to routing tasks through a full chatbot."
@@ -622,10 +803,10 @@
   {
    "cluster_id": "find-simonwillison-kakapo-opus55",
    "section": "products",
-   "headline": "Developer builds pixel-art kākāpō party with Claude Opus 5.5",
+   "headline": "Developer builds pixel-art k\u0101k\u0101p\u014d party with Claude Opus 5.5",
    "standfirst": "Simon Willison fed the model three parrot photos, then used Claude Code and Playwright to record video of the animation for a conference keynote.",
    "body": [
-    "Simon Willison used Claude Opus 5.5 to generate a pixel-art animation of dancing kākāpō parrots. He built it for the closing slide of his WeAreDevelopers World Congress keynote, according to his blog post.",
+    "Simon Willison used Claude Opus 5.5 to generate a pixel-art animation of dancing k\u0101k\u0101p\u014d parrots. He built it for the closing slide of his WeAreDevelopers World Congress keynote, according to his blog post.",
     "Willison gave the model three photos of the flightless parrots. He asked for \"at least 20\" of them \"jumping up and down having a party with confetti\" in animated pixel art on an HTML5 canvas, he said. Claude built the animation in one pass.",
     "To capture video for his slide, Willison told Claude Code to write a Playwright script. The script loaded the page in Chromium, clicked the canvas ten times to trigger confetti, and recorded 15 seconds of footage, he wrote. The tool is published at tools.simonwillison.net.",
     "Willison said he had seen \"buzz\" online about how good Claude Opus 5.5 was at pixel art before trying the prompt himself. He credited Claude for the artwork and code, and Playwright for the recording. Together they produced a keynote closing moment in a few minutes of work."
