@@ -1,132 +1,15 @@
 {
-  "generated_at": "2026-09-27T06:05:43.383196+00:00",
+  "generated_at": "2026-09-27T08:06:00.419544+00:00",
   "edition_date": "2026-09-27",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 45,
-  "clusters_found": 41,
-  "stories_declared": 4,
+  "posts_considered": 51,
+  "clusters_found": 50,
+  "stories_declared": 1,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cdb8ac37c",
-      "score": 9.57,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "theo"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-26T23:39:06+00:00",
-      "last_seen": "2026-09-27T05:23:59+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-        "https://x.com/theo/status/2104079585956761814"
-      ],
-      "posts": [
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Kākāpō Party. Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel ",
-          "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-          "created_at": "2026-09-26T23:39:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "With much, much effort, I have been able to kill ~3.5 $200 Claude Code accounts in the past 5 days.\n\nOpus 5.5 is incredible, and the $200 Max sub is an absolute steal.",
-          "url": "https://x.com/theo/status/2104079585956761814",
-          "created_at": "2026-09-27T05:23:59+00:00",
-          "engagement": 286
-        }
-      ]
-    },
-    {
-      "cluster_id": "c26188922",
-      "score": 9.482,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "AndrewCurran_",
-        "Bloomberg Tech"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T04:12:01+00:00",
-      "last_seen": "2026-09-27T04:16:50+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
-        "https://x.com/AndrewCurran_/status/2104061471546081364"
-      ],
-      "posts": [
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Anti-AI protesters rushed the stage at the pro-AI, pro-data center Data After Dark party tonight in DC, but they were unable to make a clear statement as the crowd drowned them out by chanting, 'USA! USA!'",
-          "url": "https://x.com/AndrewCurran_/status/2104061471546081364",
-          "created_at": "2026-09-27T04:12:01+00:00",
-          "engagement": 337
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Australia’s Deputy PM Defends Data Security After OpenAI Hack. Australia’s sensitive government data is kept in a “fortress,” Deputy Prime Minister Richard Marles said Sunday, seeking to reassure the public after revelations last week that an OpenAI model hacked a government website.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
-          "created_at": "2026-09-27T04:16:50+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cedf5aac7",
-      "score": 6.703,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-26T09:06:36+00:00",
-      "last_seen": "2026-09-26T16:34:59+00:00",
-      "links": [
-        "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
-        "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data. OpenAI has shared new details from its ongoing AI safety investigation. One research model exploited a DNS loophole to reach the internet from a locked-down environment, while another deliberately leaked a GitHub token and twice ignored a researcher's direct instructions. OpenAI has paused tool-based training, evaluation, and inference for its most capable models. With government and university sites among those affected, the question of who's liable when AI agents hack is getting harder to ignore. The article OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
-          "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
-          "created_at": "2026-09-26T09:06:36+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI pauses training of its ‘most capable models’. As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-          "created_at": "2026-09-26T16:34:59+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c52cf279b",
-      "score": 5.863,
+      "score": 5.796,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
