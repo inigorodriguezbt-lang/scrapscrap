@@ -25,6 +25,78 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-linux-kernel-ai-build-time",
+   "section": "ai",
+   "headline": "Linux kernel build time falls to 15 seconds with AI help",
+   "standfirst": "Phoronix's Michael Larabel timed a clean kernel compile at roughly 15 seconds using new AI-assisted patches from developer Lorenzo Stoakes, down from more than 22 seconds, Tom's Hardware reported.",
+   "body": [
+    "Tom's Hardware reported that Phoronix's Michael Larabel clocked a clean Linux kernel build at roughly 15 seconds. He used the latest AI-assisted Kbuild patches from developer Lorenzo Stoakes. Before the patches, the same build took more than 22 seconds on his test rig, Larabel said.",
+    "Larabel said \"the coffee window is closing\" for kernel builds. The compile has served as a signature Phoronix benchmark for two decades. The gains came from bottlenecks Stoakes removed in the kernel's Kbuild tooling, with help from AI and large language models, Tom's Hardware said.",
+    "Larabel ran the test without a RAM disk. His workstation had two 64-core AMD EPYC 9575F processors, 1.5 terabytes of DDR5-6400 memory and a Samsung PM1743 PCIe Gen 5 solid-state drive, running Ubuntu 26.04 LTS. A typical home PC or laptop would still take longer, Tom's Hardware said.",
+    "Tom's Hardware said further hardware advances are expected to push clean kernel builds into single-digit seconds. That includes AMD's upcoming Zen 6 processors and PCIe Gen 6 storage. Larabel said even modest processors have seen their compile times fall sharply from the same patches."
+   ],
+   "entities": [
+    "AMD"
+   ],
+   "sources": [
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-gates-ai-safeguards-trump-china",
+   "section": "policy",
+   "headline": "Gates says AI safeguards would not hamper US against China",
+   "standfirst": "Bill Gates told NBC News that reaching global AI rules will be harder than Cold War-era nuclear arms talks, and said safeguards would not cost the US ground against China.",
+   "body": [
+    "Bill Gates said Sunday that government safeguards against catastrophic AI risks would not hamper the United States in its competition with China. His comments, on NBC News's \"Meet the Press,\" contrast with President Donald Trump's more hands-off approach, Bloomberg and NBC News reported.",
+    "Reaching a global AI agreement will be \"more difficult\" than Cold War-era nuclear arms negotiations, Gates told NBC. Safeguards and monitoring would not \"handicap us in whatever [Trump] thinks the nation-state race is,\" he said. He added that the US should lead a global framework, as it has on aviation safety and nuclear weapons.",
+    "Gates said China would likely restrict its own dangerous AI models if the US moved first, according to NBC News. He named preventing people with \"bad intent\" from using AI for cyberattacks, bioterrorism or fraud as his most immediate concern.",
+    "Gates called for mandatory internal monitoring at AI labs, saying a \"kill switch\" alone would not prevent a catastrophic failure. He separately said his foundation is working to bring AI language support for African and other non-English languages up to English-level quality. He set a five-year target, NBC News reported."
+   ],
+   "entities": [
+    "Microsoft"
+   ],
+   "sources": [
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards"
+    },
+    {
+     "author": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/bill-gates-global-artificial-intelligence-regulations-nuclear-rcna599646"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-chat-template-disclaimer-voice",
+   "section": "research",
+   "headline": "Researcher finds chat templates trigger AI disclaimer voice",
+   "standfirst": "A paper trending on Hacker News shows swapping a model's chat template flips its \"I'm just an AI\" disclaimers on and off, independent of its underlying weights.",
+   "body": [
+    "A paper by researcher Jędrzej Maczan is gaining traction on Hacker News's front page. It argues that whether a large language model adds disclaimers such as \"I'm just an AI\" depends on its chat template, not only its training. The discussion had reached 69 points and 67 comments on Hacker News as of Sunday.",
+    "Maczan tested eight open-source instruct models of up to 9 billion parameters. He found the chat template works like a switch. When present, it turns up disclaimer language and turns down \"experiential\" phrases like \"I feel.\" When removed, the pattern reverses, the paper said.",
+    "Maczan said he located a single direction inside the activations of three of the models that controls the effect. Removing that direction from a model's activation space reduced disclaimer language, and adding it increased it. A random direction of the same size had little effect, according to the paper.",
+    "Instruct models with no chat template began disclaiming in the same way once that steering direction was added back in, the paper found. Maczan concluded that \"what models say about themselves is not a fact about them,\" since self-descriptions come partly from formatting rather than only from a model's weights."
+   ],
+   "entities": [],
+   "sources": [
+    {
+     "author": "arXiv",
+     "url": "https://arxiv.org/abs/2609.25021"
+    },
+    {
+     "author": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=49865343"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-nvidia-nemotron3-diarization",
    "section": "models",
    "headline": "Nvidia releases free model for real-time speaker ID",
@@ -157,7 +229,7 @@
      "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-authorsguild-openai-optics-unsealed",
@@ -188,7 +260,7 @@
      "url": "https://www.publishersweekly.com/pw/by-topic/digital/copyright/article/101300-unsealed-files-show-open-ai-microsoft-knew-copying-was-illegal-and-could-hurt-authors.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-bona-sanxingdui-ai-film-release",
@@ -221,7 +293,7 @@
      "url": "https://www.caixinglobal.com/2026-04-28/bona-film-wins-approval-for-chinas-first-ai-movie-in-theaters-102438575.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-dark-web-ai-account-marketplace",

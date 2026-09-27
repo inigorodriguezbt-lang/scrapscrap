@@ -1,54 +1,15 @@
 {
-  "generated_at": "2026-09-27T12:05:19.438491+00:00",
+  "generated_at": "2026-09-27T14:06:20.570613+00:00",
   "edition_date": "2026-09-27",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 43,
-  "clusters_found": 38,
-  "stories_declared": 3,
+  "posts_considered": 36,
+  "clusters_found": 33,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c49ef50f4",
-      "score": 11.244,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "askalphaxiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-26T23:39:06+00:00",
-      "last_seen": "2026-09-27T09:32:56+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-        "https://x.com/askalphaxiv/status/2104142235487101053"
-      ],
-      "posts": [
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Kākāpō Party. Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel ",
-          "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-          "created_at": "2026-09-26T23:39:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "askalphaxiv",
-          "tier": "commentary",
-          "text": "\"Contrastive World Models\" If world model has to reconstruct every pixel, it'll pretty much waste most of its capacity modeling irrelevant background noise. So this paper removes Google DeepMind's D...",
-          "url": "https://x.com/askalphaxiv/status/2104142235487101053",
-          "created_at": "2026-09-27T09:32:56+00:00",
-          "engagement": 120
-        }
-      ]
-    },
-    {
       "cluster_id": "c509877dd",
-      "score": 8.988,
+      "score": 8.652,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -88,42 +49,41 @@
       ]
     },
     {
-      "cluster_id": "c52cf279b",
-      "score": 5.796,
-      "interest": "want",
+      "cluster_id": "cb145a634",
+      "score": 8.068,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "products",
       "entities": [
-        "Nvidia",
-        "Microsoft"
+        "OpenAI"
       ],
       "independent_sources": [
-        "Engadget",
-        "Tom's Hardware"
+        "Hesamation",
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-26T14:00:00+00:00",
-      "last_seen": "2026-09-26T15:30:00+00:00",
+      "first_seen": "2026-09-27T10:36:29+00:00",
+      "last_seen": "2026-09-27T12:51:29+00:00",
       "links": [
-        "https://www.engadget.com/2265946/why-most-powerful-nvidia-gpu-rarely-sold-to-consumers/",
-        "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding"
+        "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
+        "https://x.com/Hesamation/status/2104192201618080101"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Microsoft quietly drops Copilot+ branding from new laptops. Microsoft's latest Surface laptops dropped the Copilot+ PC branding despite hitting the minimum requirements. Even high-end AI devices like the Nvidia RTX Spark and Microsoft's own Project Zenith are noticeably missing the label.",
-          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
-          "created_at": "2026-09-26T14:00:00+00:00",
+          "text": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond. Boris Power, OpenAI's Head of Applied Research, says 80 to 90 percent of the company's research goes toward GPT 7, GPT 8, and beyond. Improvements within a single generation are intentionally short-term bets. But Power doesn't see model performance as the biggest problem. Most users don't even know what they can do with AI. The article OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
+          "created_at": "2026-09-27T10:36:29+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Why NVIDIA's most powerful GPU is so rarely sold to consumers. NVIDIA's $16,000 RTX PRO 6000 can beat the RTX 5090, but gamers aren't who it's built for.",
-          "url": "https://www.engadget.com/2265946/why-most-powerful-nvidia-gpu-rarely-sold-to-consumers/",
-          "created_at": "2026-09-26T15:30:00+00:00",
-          "engagement": 0
+          "author": "Hesamation",
+          "tier": "commentary",
+          "text": "OpenAI’s head of research, Boris Power: “80-90% of research at OpenAI is focused at GPT 7, GPT 8, and beyond.”\n\ncoming right after so many cyber incidents and calling for a slowdown, I hope most of that 80–90% is on safety.\n\notherwise, this raises so many questions.",
+          "url": "https://x.com/Hesamation/status/2104192201618080101",
+          "created_at": "2026-09-27T12:51:29+00:00",
+          "engagement": 35
         }
       ]
     }
