@@ -1,0 +1,56 @@
+The AI Post: 3 new stories
+2026-09-27 00:16 UTC
+
+------------------------------------------------------------
+
+Nvidia's RTX PRO 6000 price nearly doubles to $16,000
+
+The workstation card, aimed at AI developers rather than gamers, now costs about eight times the RTX 5090's launch price, and Engadget says Nvidia has not said why.
+
+Nvidia's RTX PRO 6000 Blackwell Workstation Edition now costs $16,000 in the US, nearly double its $8,565 launch price, Engadget reported. The company has not said why, and the increase lands on its most expensive desktop GPU.
+
+The jump comes amid rising memory costs and broader GPU price increases across Nvidia's lineup, according to Engadget. The RTX 5090, Nvidia's top gaming card, launched at $1,999, making the workstation part about eight times the price.
+
+The card carries 96GB of GDDR7 ECC memory, compared with 32GB on the RTX 5090, plus 24,064 CUDA cores and a 600-watt power ceiling, Engadget said. Nvidia markets the extra memory at AI developers running large models and professionals doing 3D work, not gamers.
+
+Independent testing by YouTuber der8auer found the RTX PRO 6000 beat the RTX 5090 by single digits up to about 14% in select games on Nvidia's workstation driver, Engadget reported. Those gains, it said, are nowhere near enough to justify the price for gamers.
+
+Read it on the site: https://theaipost.net/story/find-nvidia-rtx-pro-6000-price/
+
+Sources: Engadget
+
+------------------------------------------------------------
+
+Developer builds pixel-art kākāpō party with Claude Opus 5.5
+
+Simon Willison fed the model three parrot photos, then used Claude Code and Playwright to record video of the animation for a conference keynote.
+
+Simon Willison used Claude Opus 5.5 to generate a pixel-art animation of dancing kākāpō parrots. He built it for the closing slide of his WeAreDevelopers World Congress keynote, according to his blog post.
+
+Willison gave the model three photos of the flightless parrots. He asked for "at least 20" of them "jumping up and down having a party with confetti" in animated pixel art on an HTML5 canvas, he said. Claude built the animation in one pass.
+
+To capture video for his slide, Willison told Claude Code to write a Playwright script. The script loaded the page in Chromium, clicked the canvas ten times to trigger confetti, and recorded 15 seconds of footage, he wrote. The tool is published at tools.simonwillison.net.
+
+Willison said he had seen "buzz" online about how good Claude Opus 5.5 was at pixel art before trying the prompt himself. He credited Claude for the artwork and code, and Playwright for the recording. Together they produced a keynote closing moment in a few minutes of work.
+
+Read it on the site: https://theaipost.net/story/find-simonwillison-kakapo-opus55/
+
+Sources: Simon Willison
+
+------------------------------------------------------------
+
+Drawgent connects coding agents to an Excalidraw canvas
+
+The open-source tool lets Claude Code, Codex or opencode read and draw on a live whiteboard, and it reached the Hacker News front page with real traction.
+
+Developer yann.degat released Drawgent, an open-source tool that connects a user's own Claude Code, Codex or opencode installation to a live Excalidraw whiteboard, according to its repository. The Hacker News post drew 101 points and 32 comments within about eight hours.
+
+The tool runs as a single Rust binary that serves an Excalidraw editor alongside a chat panel, the README says. Agents get tools to read the canvas, take a screenshot and add elements through the Model Context Protocol. A user can direct edits by writing "AGENT:" notes on the drawing itself.
+
+Commenters on Hacker News were skeptical that agent-drawn diagrams add much value. One noted that Excalidraw already ships its own open-source MCP server, though another replied it "hasn't been touched in six months." Others questioned whether the value of diagramming lies in the picture or in the thinking behind it.
+
+Drawgent supports excalidraw.com rooms with end-to-end encryption and can run headless through Docker, the repository says. Its commit history lists Claude Opus 5.5 as a co-author alongside yann.degat. The project runs entirely against a user's own local agent accounts rather than a hosted service.
+
+Read it on the site: https://theaipost.net/story/find-drawgent-canvas-agent/
+
+Sources: Drawgent repository, Hacker News
