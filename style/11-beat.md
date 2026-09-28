@@ -177,6 +177,9 @@ good story.
 Whenever the search turns up a clip or video relevant to a story or a
 snippet, it goes in. The worklist marks X posts that carry a clip
 (`"video": true`, and `videos` on the item) and ranks those stories higher.
+An embedded X post that carries a video is marked `"video": true` on the
+embed; only clips go in the editor's email, never a post with only text or
+a picture.
 A story about something people can watch or see (a demo, a clip, a post
 with a video, a thread of examples) embeds it: `"embeds"` on the story,
 the link and the paragraph it follows. The site renders X posts and YouTube

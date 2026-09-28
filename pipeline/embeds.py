@@ -41,7 +41,12 @@ def clean(story: dict) -> list[dict]:
             continue
         after = e.get("after") if isinstance(e, dict) else None
         after = after if isinstance(after, int) and 1 <= after <= n else n
-        out.append({"url": url, "after": after, "kind": kind(url), "youtube_id": youtube_id(url)})
+        k = kind(url)
+        # A clip: a YouTube link always, an X post only when marked as
+        # carrying a video. Only clips go in the editor's email.
+        video = k == "youtube" or (isinstance(e, dict) and e.get("video") is True)
+        out.append({"url": url, "after": after, "kind": k, "youtube_id": youtube_id(url),
+                    "video": video})
     return out
 
 

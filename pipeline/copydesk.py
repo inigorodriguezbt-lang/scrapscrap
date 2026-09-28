@@ -9,8 +9,8 @@ stays a short list of headlines.
 
 It also writes `<name>.txt`, the body of the email the cycle sends the
 editor: each new story's headline and standfirst, then each new snippet with
-its one-sentence standfirst, in plain text. No links except embeds: a story's
-embedded posts and videos, and a snippet's clip, each bare on its own line. Plain text, not
+its one-sentence standfirst, in plain text. No links except clips: a story's
+embedded videos and a snippet's clip, each bare on its own line. Plain text, not
 HTML: an earlier HTML body reached the inbox escaped, as raw code.
 
 Usage:
@@ -95,9 +95,11 @@ def render_email(stories: list[dict], snippets: list[dict]) -> str:
     on X a post without an outbound link travels further, and the editor adds
     the article or link by hand when they want one.
 
-    The one exception is embeds. A story's embedded posts and videos, and a
-    snippet's clip, go in bare, each on its own line, because pasted into an
-    X article a bare post or YouTube link becomes the embed itself.
+    The one exception is clips. A story's embedded videos (YouTube links, and
+    X posts marked `"video": true`) and a snippet's clip go in bare, each on
+    its own line, because pasted into an X article a bare post or YouTube
+    link becomes the embed itself. An X post with only text or a picture
+    stays on the site and out of the email.
     """
     stamp = utcnow().strftime("%Y-%m-%d %H:%M UTC")
     parts = []
@@ -109,9 +111,10 @@ def render_email(stories: list[dict], snippets: list[dict]) -> str:
     if stories:
         out += [RULE, "STORIES", RULE, ""]
         for s in stories:
+            clips = [e["url"] for e in clean_embeds(s) if e["video"]]
             out += [s["headline"], "", s.get("standfirst", ""), ""]
-            out += [e["url"] for e in clean_embeds(s)]
-            out += ["", ""] if clean_embeds(s) else [""]
+            out += clips
+            out += ["", ""] if clips else [""]
     if snippets:
         out += [RULE, "SNIPPETS", RULE, ""]
         for sn in snippets:

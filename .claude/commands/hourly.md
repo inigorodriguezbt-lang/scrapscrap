@@ -103,7 +103,11 @@ demo video, that counts too. Whenever a story comes from an X post, a demo
 video, a YouTube clip or a thread, embed it:
 
 - Add `"embeds": [{"url": "<link>", "after": <paragraph number>}]` to the
-  story. The link alone is enough; the site turns an X post into the platform's
+  story. **If an X post you embed carries a video, add `"video": true`**
+  (the worklist's `"video": true` tells you; otherwise open the post). Only
+  clips reach the editor's email: YouTube links and X posts marked
+  `"video": true`. A post with only text or a picture embeds on the site
+  and stays out of the email. The link alone is enough; the site turns an X post into the platform's
   own embed and a YouTube link into a player, and the copy file and email put
   the bare link on its own line so it embeds when pasted into an article.
 - Place each embed after the paragraph that describes it, usually the first
@@ -184,7 +188,8 @@ Hugging Face, with 1,940 likes."
 
 **A snippet with a clip.** If the thing a snippet is about has a video (the
 demo, the maker's clip, a post with the video in it), add
-`"embed": "<X post or YouTube link>"`. The site shows a Watch link beside the
+`"embed": "<X post or YouTube link>"`. It must actually carry a video: never
+a post with only text or a picture. The site shows a Watch link beside the
 snippet and the email carries the link so the editor can embed it. One clip,
 the maker's own or the demo itself, never a reaction.
 
@@ -223,8 +228,8 @@ python -m pipeline.copydesk
 
 It writes `data/copy/<today>-<HHMM>.md` with each new story's headline,
 standfirst, full body, live URL and drafted post, and the `.txt` email body:
-headlines and standfirsts, snippets and theirs, no links except the embeds
-(each story's embedded posts and videos, each snippet's clip), bare on their
-own lines. Commit it with the rest,
+headlines and standfirsts, snippets and theirs, no links except clips
+(each story's embedded videos, each snippet's clip), bare on their own
+lines. Commit it with the rest,
 and send it to the editor as a file. Keep the chat reply short: the
 headlines only, one per line. The full text lives in the file, not the chat.
