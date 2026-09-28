@@ -1,0 +1,24 @@
+The AI Post: 1 new story
+2026-09-28 00:15 UTC
+
+------------------------------------------------------------
+
+Sakana AI lifts robot task success from 25% to 73%
+
+Sakana AI and the University of Tokyo say a new test-time search method called SAIL let a vision-language model retry and revise its own robot movement plans before acting.
+
+Sakana AI and the University of Tokyo said a new method called SAIL raised robots' success rate at finding a working trajectory from 25 percent to 73 percent in simulation. The gain came without retraining the underlying model, the companies said.
+
+https://x.com/SakanaAILabs/status/2104348705956774255
+
+The method, called Scaling In-Context Imitation Learning, uses a vision-language model to draft a robot's movements. It then tests the plan in a simulator and asks a second model to judge where it stalled. A Monte Carlo tree search explores alternative moves while refining the most promising ones. Only the winning trajectory reaches the physical robot, the companies said.
+
+Sakana AI said the gain came from letting the system generate more candidate trajectories per task. Accuracy rose as the search budget expanded from a single attempt to 45, it said. The underlying model, Gemini Robotics-ER 1.5, was left unchanged throughout, according to the company's blog post.
+
+The team also tested SAIL on a physical LeRobot SO-101 arm, where it placed a block correctly in five of six trials using a budget of 15 candidates. Sakana AI said the robot executes each plan without visual feedback mid-motion. Its physical testing so far covers only that single task, the company said.
+
+The work, done with the University of Tokyo, is set to be presented at the IROS 2026 robotics conference. No outside lab has yet verified the results. Sakana AI has not said whether the technique holds up beyond the six simulated tasks and single physical test it reported.
+
+Read it on the site: https://theaipost.net/story/find-sakana-sail-robot-scaling/
+
+Sources: Sakana AI, Sakana AI blog
