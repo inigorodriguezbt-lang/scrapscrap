@@ -1,0 +1,42 @@
+The AI Post: 2 new stories
+2026-09-28 04:15 UTC
+
+------------------------------------------------------------
+
+New training trick cuts image-generation error nearly 30%
+
+A USC-led team says a technique called FuseReg, which randomly mixes encoder layers during training, cut a diffusion model's image-generation error score by nearly 30 percent.
+
+Researchers led by USC's Physical Superintelligence Lab said a training technique called FuseReg cut a diffusion model's image-generation error score nearly 30 percent. The gFID metric fell from 13.96 to 9.93 on a standard benchmark, the team reported.
+
+Representation autoencoders reuse a pretrained visual encoder's features as latents for reconstruction and generation. Shallow layers preserve pixel detail, while deeper layers suit diffusion better, creating a trade-off. FuseReg trains the decoder and diffusion model on a random mix of encoder layers at each step, instead of one fixed split, the paper said.
+
+The team reported a similar gain on a larger DiT-XL model, where gFID fell from 2.91 to 2.38. Swapping in a FuseReg-trained decoder alone cut a separate run's gFID from 3.01 to 2.21, without retraining the generator. The method adds no cost at inference time, since the mixing happens only during training.
+
+The paper appeared on Hugging Face's daily papers list with 31 upvotes. It lists lead author Hongyang Du of USC's PSI Lab, with co-authors from Brown, Rice, Notre Dame, Maryland and Pennsylvania. The team said the approach generalized to other encoders, including DINOv3-L and SigLIP2-L. Code is posted on GitHub, and trained checkpoints are hosted on Hugging Face under access-controlled terms.
+
+The technique could generalize further, according to the authors, though the results are the team's own and have not been independently reproduced.
+
+Read it on the site: https://theaipost.net/story/find-fusereg-layer-fusion/
+
+Sources: Hugging Face Papers, FuseReg GitHub, FuseReg project page
+
+------------------------------------------------------------
+
+Fal adds US-hosted 4K video generation for Seedance 2.0
+
+Video platform fal said its US-hosted deployment of ByteDance's Seedance 2.0 model now supports 1080p and 4K generation, matching resolutions already available on the model's standard API.
+
+Fal said its US-hosted deployment of ByteDance's Seedance 2.0 video model now supports 1080p and 4K output. That is up from a previous ceiling of 720p on that deployment.
+
+https://x.com/fal/status/2104405575274487918
+
+The US-hosted option runs entirely on domestic infrastructure for customers with data-residency requirements, fal said. It has carried separate pricing and an approval process since launch, and had previously trailed the resolution on Seedance 2.0's standard, non-US-hosted API.
+
+The change follows a similar 1080p upgrade for the US-hosted version of Seedance 2.5 the week before, according to the same post. Seedance 2.0 is built by ByteDance. It generates clips up to 15 seconds long with synchronized dialogue, music and sound effects, drawn from text or image prompts, per fal's product listings.
+
+Fal did not say whether pricing changes with the new resolutions. No other platform had reported matching the upgrade at the time of writing.
+
+Read it on the site: https://theaipost.net/story/find-fal-seedance-us-4k/
+
+Sources: fal
