@@ -1,42 +1,46 @@
 {
-  "generated_at": "2026-09-28T16:05:31.155874+00:00",
+  "generated_at": "2026-09-28T18:06:41.002167+00:00",
   "edition_date": "2026-09-28",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 92,
-  "clusters_found": 71,
+  "posts_considered": 126,
+  "clusters_found": 96,
   "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c8bbf703f",
-      "score": 15.409,
+      "cluster_id": "c3c2e276c",
+      "score": 15.365,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Google",
         "Meta",
+        "Nvidia",
         "Apple"
       ],
       "independent_sources": [
         "9to5Mac",
-        "AIatMeta",
+        "AndrewCurran_",
         "Bloomberg Tech",
         "TechCrunch AI",
-        "The Decoder",
-        "testingcatalog"
+        "The Decoder"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-09-27T19:57:30+00:00",
-      "last_seen": "2026-09-28T15:41:38+00:00",
+      "last_seen": "2026-09-28T17:50:48+00:00",
       "links": [
         "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
         "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+        "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+        "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
         "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
-        "https://www.bloomberg.com/news/newsletters/2026-09-28/meta-s-muse-shows-how-ai-is-taking-over-as-the-new-travel-agent",
-        "https://x.com/AIatMeta/status/2104579386024603826",
-        "https://x.com/testingcatalog/status/2104597410924077141"
+        "https://www.bloomberg.com/news/videos/2026-09-28/bloomberg-tech-9-28-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
+        "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
+        "https://x.com/AndrewCurran_/status/2104629913949254055"
       ],
       "posts": [
         {
@@ -48,29 +52,12 @@
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Meta’s Muse Shows How AI Is Taking Over as the New Travel Agent. As agents like Meta’s Muse mature, their appeal rings a familiar note",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-28/meta-s-muse-shows-how-ai-is-taking-over-as-the-new-travel-agent",
-          "created_at": "2026-09-28T11:02:01+00:00",
-          "engagement": 0
-        },
-        {
           "author": "9to5Mac",
           "tier": "press",
           "text": "Yeah, don’t give Meta’s Muse app access to your Mac. The ability of AI systems to act as agents, carrying out tasks on our behalf, is the single biggest development in the technology. This is the headline capability Siri AI introduces to Apple devices, and I’m inclined to trust the privacy and safety safeguards Apple has put into place. But Siri AI isn’t the only agent you can give full access to your Apple devices, with Meta’s Muse app the latest example – and one tech writer’s experience really underlines why you absolutely don’t want to do this … more…",
           "url": "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
           "created_at": "2026-09-28T12:44:53+00:00",
           "engagement": 0
-        },
-        {
-          "author": "AIatMeta",
-          "tier": "commentary",
-          "text": "In the past 6 months...\n\n- Muse Spark\n- Muse Image\n- Muse Video\n- Muse Spark 1.1\n- Meta Model API\n- Muse Glimmer\n- Muse Spark 1.2\n- Muse Code\n- Muse Spark 1.3\n- Muse\n\n...and we’re just getting started. 🚀 https://t.co/94e6uYPhZL",
-          "url": "https://x.com/AIatMeta/status/2104579386024603826",
-          "created_at": "2026-09-28T14:30:01+00:00",
-          "engagement": 678,
-          "video": true
         },
         {
           "author": "The Decoder",
@@ -81,97 +68,236 @@
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative. Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+          "created_at": "2026-09-28T16:52:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nvidia’s $235 Billion Buyback, SpaceX Milestone and Meta’s AI Push. Bloomberg’s Ed Ludlow breaks down Nvidia's decision to boost the size of its share buyback plan by a record $150 billion, taking the total amount to $235 billion. Plus, SpaceX's Starship rocket reaches orbit for the first time, marking a major milestone after an engine failed during ascent and briefly put the mission at risk. And, Meta taps MongoDB's president and CEO to lead a new AI platform for enterprise customers that Meta CEO Mark Zuckerberg called “the next major pillar of our business.” (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/bloomberg-tech-9-28-2026-video",
+          "created_at": "2026-09-28T17:22:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump, Anthropic CEO Take AI Safety Debate to Dinner. President Donald Trump and Anthropic CEO Dario Amodei met for dinner as their opposing views on AI safety increasingly shape the debate over how quickly the technology should advance. Amodei has called for “pacing” development of the most advanced models and stronger guardrails, while President Trump has pushed back against slowing AI development as the US races to stay ahead of China. Bloomberg’s Mike Shepard discusses what’s known about the meeting with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
+          "created_at": "2026-09-28T17:24:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Gecko CEO: Physical AI Needs Humans in Control. Gecko Robotics CEO Jake Loosararian says the next phase of AI safety is about keeping humans in control as autonomous systems move into the physical world. He discusses Gecko’s work with Nvidia on an open agent safety platform designed to set boundaries around AI agents operating robots, including in military and industrial settings. Loosararian argues that safety and rapid deployment don’t have to be at odds. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
+          "created_at": "2026-09-28T17:26:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google is killing off Gemini’s Gems in favor of ‘skills’. As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+          "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+          "created_at": "2026-09-28T17:29:50+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
           "tier": "commentary",
-          "text": "Meta has announced the Meta Enterprise Platform to expand its AI stack to organizations and businesses. \n\n> \"Meta Enterprise Platform will focus on turning its AI stack into products and services that companies can deploy for their own businesses. \n\n> \"As with Muse, security and ",
-          "url": "https://x.com/testingcatalog/status/2104597410924077141",
-          "created_at": "2026-09-28T15:41:38+00:00",
-          "engagement": 52
+          "text": "Looks like the dinner went well! Up until this morning Dario was not going to be invited to the big tech CEO meeting at the White House tomorrow. But he has now been invited. https://t.co/3SMBR3PZp1",
+          "url": "https://x.com/AndrewCurran_/status/2104629913949254055",
+          "created_at": "2026-09-28T17:50:48+00:00",
+          "engagement": 152
         }
       ]
     },
     {
-      "cluster_id": "c275c1c65",
-      "score": 11.526,
+      "cluster_id": "cc9936698",
+      "score": 15.156,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "Google"
+        "OpenAI",
+        "Anthropic"
       ],
       "independent_sources": [
-        "9to5Google",
-        "ArtificialAnlys"
+        "AnthropicAI",
+        "The Decoder",
+        "claudeai",
+        "testingcatalog"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T17:26:40+00:00",
-      "last_seen": "2026-09-28T14:27:26+00:00",
+      "source_count": 4,
+      "first_seen": "2026-09-28T18:00:46+00:00",
+      "last_seen": "2026-09-28T18:04:06+00:00",
       "links": [
-        "https://9to5google.com/2026/09/27/gemini-gems-skills/",
-        "https://x.com/ArtificialAnlys/status/2104578736687653293"
+        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
+        "https://x.com/AnthropicAI/status/2104633259925630995",
+        "https://x.com/claudeai/status/2104633115620823187",
+        "https://x.com/claudeai/status/2104633119412523294",
+        "https://x.com/claudeai/status/2104633125511078314",
+        "https://x.com/testingcatalog/status/2104632421450764779"
       ],
       "posts": [
         {
-          "author": "9to5Google",
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "BREAKING 🔥: Anthropic is rolling out Claude Sonnet 5.5 on Claude and APIs! \n\nTesting time! 👀 https://t.co/xBedPdtQg3",
+          "url": "https://x.com/testingcatalog/status/2104632421450764779",
+          "created_at": "2026-09-28T18:00:46+00:00",
+          "engagement": 54
+        },
+        {
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Gemini app replacing Gems with skills in November. In 2024, Google introduced Gems as “custom versions of Gemini.” The Gemini app will soon replace Gems with “skills.” more…",
-          "url": "https://9to5google.com/2026/09/27/gemini-gems-skills/",
-          "created_at": "2026-09-27T17:26:40+00:00",
+          "text": "Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task. Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It generates output more than 30 percent faster, costs up to 30 percent less per task, and nearly matches Opus 5.5 on knowledge-work benchmarks. On Terminal-Bench, a coding benchmark, the model jumps from 10.3 to 70.6 percent. With Haiku 5.5 announced for the coming weeks, Anthropic will soon have a direct counterpart to each of OpenAI's three GPT-6 models. The article Anthropic&#039;s Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task appeared first on The Dec",
+          "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
+          "created_at": "2026-09-28T18:02:10+00:00",
           "engagement": 0
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "claudeai",
           "tier": "commentary",
-          "text": "ElevenLabs’ Eleven v4 takes #1 on the Artificial Analysis Provider Voice TTS Arena Leaderboard and Pronunciation Robustness benchmark, and #2 on Controlled Voice, surpassing Cartesia’s Sonic 3.6 and Google’s Gemini 3.8 Flash TTS on Provider Voice\n\nEleven v4 is the latest Text to ",
-          "url": "https://x.com/ArtificialAnlys/status/2104578736687653293",
-          "created_at": "2026-09-28T14:27:26+00:00",
-          "engagement": 342,
+          "text": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.\n\nIt’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work.",
+          "url": "https://x.com/claudeai/status/2104633115620823187",
+          "created_at": "2026-09-28T18:03:31+00:00",
+          "engagement": 719,
+          "video": true
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "Sonnet 5.5 improves on Sonnet 5 across benchmarks, in some cases dramatically.\n\nIt’s a faster, lower-cost complement to Claude Opus 5.5, strongest at well-scoped everyday tasks, fixing bugs, and creating polished documents, slides, and spreadsheets.",
+          "url": "https://x.com/claudeai/status/2104633119412523294",
+          "created_at": "2026-09-28T18:03:32+00:00",
+          "engagement": 126
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "Sonnet 5.5 is priced the same as Sonnet 5, but it typically needs far fewer tokens to do the same work. In our testing, it costs up to 30% less per task than its predecessor.\n\nIt also generates output more than 30% faster, making it our fastest Sonnet model to date.",
+          "url": "https://x.com/claudeai/status/2104633125511078314",
+          "created_at": "2026-09-28T18:03:33+00:00",
+          "engagement": 47,
+          "video": true
+        },
+        {
+          "author": "AnthropicAI",
+          "tier": "commentary",
+          "text": "Claude Sonnet 5.5 is now available:",
+          "url": "https://x.com/AnthropicAI/status/2104633259925630995",
+          "created_at": "2026-09-28T18:04:06+00:00",
+          "engagement": 103
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf65819f0",
+      "score": 12.079,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "arena",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T17:00:36+00:00",
+      "last_seen": "2026-09-28T17:44:10+00:00",
+      "links": [
+        "https://x.com/arena/status/2104617283679379704",
+        "https://x.com/arena/status/2104618173966504429",
+        "https://x.com/kimmonismus/status/2104628247296409952"
+      ],
+      "posts": [
+        {
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Claude Opus 5.5 (High) from @AnthropicAI just entered Agent Arena at #2, with a net improvement score of +12.15%. Only Fable 5.1 (Max) ranks higher. However, at a $1.31 median price per task, Opus 5.5 (High) comes in at 64% less cost, pushing out the Pareto frontier.\n\nOpus 5.5 (High) posts a higher net improvement score than both prior Opus 5 variants, while costing 40% less than Opus 5 (High) and 56% less than Opus 5 (Max).\n\nBy signal, Opus 5.5 (High) ranks:\n- #1 Steerability (+14.50%)\n- #2 Confirmed Success (+15.50%)\n- #3 Praise vs Complaint (+19.80%)\n- #4 Bash Recovery (+10.64%)\n\nCongrats to the @AnthropicAI on another frontier model release!",
+          "url": "https://x.com/arena/status/2104617283679379704",
+          "created_at": "2026-09-28T17:00:36+00:00",
+          "engagement": 246
+        },
+        {
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Opus 5.5 (High) ranks #2 in Agent Arena and reshapes the Pareto frontier. Opus 5.5 (high) not only improved upon both Opus 5 variants with a higher net improvement score than either, but does so at at 40–56% lower cost:\n\n- Opus 5.5 (High): $1.31 median per task / +12.15% net improvement\n- Opus 5 (Max): $2.98 median per task / +9.58% net improvement\n- Opus 5 (High): $2.17 median per task / +9.47% net improvement\n\nCongrats again to @AnthropicAI!",
+          "url": "https://x.com/arena/status/2104618173966504429",
+          "created_at": "2026-09-28T17:04:09+00:00",
+          "engagement": 246
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Jev just made a big move on the frontier models.\n\nThe viral tiny decision model is now being used to decide which frontier model answers your prompt.\n\nThe way it does it is what's interesting. It's not a single pass like most routers.\n\nInstead, swarms of hundreds of Jevs scan the entire conversation, score every part of it against benchmark results for Opus 5.5, GPT-6 Astra, Fable, Kimi, DeepSeek and more, then vote on who takes each step.\n\nThe reported result: 99% of Opus 5.5 and GPT-6 Astra's performance on DeepSWE, Terminal-Bench 4.0 and SWE-Atlas. For 40% less.\n\nThat's a real problem for the labs. Their pricing depends on you running their most expensive model on everything. If a router can get you almost the same results while only calling Opus when it's actually needed, the premium tier starts to look optional.",
+          "url": "https://x.com/kimmonismus/status/2104628247296409952",
+          "created_at": "2026-09-28T17:44:10+00:00",
+          "engagement": 115
+        }
+      ]
+    },
+    {
+      "cluster_id": "c8c9e1e3c",
+      "score": 9.262,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "security",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI",
+        "rohanpaul_ai"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-27T20:34:28+00:00",
+      "last_seen": "2026-09-28T16:28:28+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+        "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
+        "https://x.com/rohanpaul_ai/status/2104609195685462386"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic’s CEO is about to have dinner with President Trump. This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+          "created_at": "2026-09-27T20:34:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Breaches Add to Safety Fears as Trump Meets Anthropic CEO. Global anxiety over artificial intelligence risks has intensified following fresh disclosures about a far wider range of breaches by advanced AI models, setting the stage for a high-stakes meeting between Anthropic PBC Chief Executive Officer Dario Amodei and President Donald Trump.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
+          "created_at": "2026-09-27T23:27:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Trump on AI going rogue: \"I don't worry about it.\"\nAI is a multi-trillion-dollar industry, the U.S. is ~1.5 years ahead of China, and companies should fix problems when they appear.\n\nThat same night, he had dinner with Anthropic CEO Dario Amodei.",
+          "url": "https://x.com/rohanpaul_ai/status/2104609195685462386",
+          "created_at": "2026-09-28T16:28:28+00:00",
+          "engagement": 37,
           "video": true
         }
       ]
     },
     {
-      "cluster_id": "c5b88815b",
-      "score": 11.296,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "AravSrinivas",
-        "perplexity_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-28T15:10:12+00:00",
-      "last_seen": "2026-09-28T15:41:27+00:00",
-      "links": [
-        "https://x.com/AravSrinivas/status/2104597362475708781",
-        "https://x.com/perplexity_ai/status/2104589500123111710"
-      ],
-      "posts": [
-        {
-          "author": "perplexity_ai",
-          "tier": "commentary",
-          "text": "We’re partnering with Nvidia and 100+ industry partners to build infrastructure that contains rogue AI agents.\n\nIn this research, we gave 9 AI models root access inside SPACE and told them to break out.\n\nAcross 108 runs, none breached the VM boundary.\nhttps://t.co/UD6qHuCuO4 http",
-          "url": "https://x.com/perplexity_ai/status/2104589500123111710",
-          "created_at": "2026-09-28T15:10:12+00:00",
-          "engagement": 117
-        },
-        {
-          "author": "AravSrinivas",
-          "tier": "commentary",
-          "text": "Our security team spent the last month trying to break SPACE, the sandbox platform that runs all of Perplexity Computer. We gave 9 models (Opus 5, GPT-5.6 Sol, Kimi K3, Gemini 3.1 Pro, etc.) root access inside the VM; in some runs, the full sandbox source code too. We asked them ",
-          "url": "https://x.com/AravSrinivas/status/2104597362475708781",
-          "created_at": "2026-09-28T15:41:27+00:00",
-          "engagement": 48
-        }
-      ]
-    },
-    {
       "cluster_id": "c426ca6eb",
-      "score": 8.922,
+      "score": 8.586,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -204,7 +330,7 @@
         {
           "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2. The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors and tech leaders at San Francisco's Moscone West on Oct 13-15.",
+          "text": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is October 2. The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors, and tech leaders at San Francisco's Moscone West on October 13-15.",
           "url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
           "created_at": "2026-09-28T14:00:00+00:00",
           "engagement": 0
@@ -212,7 +338,7 @@
         {
           "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026. Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Startup Battlefield 200 is almost here, and with today&#8217;s announcement, the judging panel is nearly complete. In just a couple of weeks, 200 carefully selected startups will gather at [&#8230;]",
+          "text": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026. Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
           "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
           "created_at": "2026-09-28T14:30:00+00:00",
           "engagement": 0
@@ -237,7 +363,7 @@
     },
     {
       "cluster_id": "c43d3f451",
-      "score": 8.851,
+      "score": 8.514,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -268,73 +394,6 @@
           "text": "AI Agent Startup Instinct Raises $1 Billion at $10 Billion Value. Instinct, the startup behind a viral artificial intelligence agent, has raised $1 billion in funding at a $10 billion valuation, a sign of investor demand for a new crop of AI products that carry out everyday tasks for users.",
           "url": "https://www.bloomberg.com/news/articles/2026-09-28/ai-agent-startup-instinct-raises-1-billion-at-10-billion-value",
           "created_at": "2026-09-28T14:28:38+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc6eaa532",
-      "score": 3.727,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "security",
-      "entities": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T16:30:00+00:00",
-      "last_seen": "2026-09-28T10:32:12+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-        "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-        "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
-        "https://www.bloomberg.com/news/articles/2026-09-28/openai-s-sam-altman-will-not-attend-australia-senate-ai-inquiry",
-        "https://www.bloomberg.com/news/newsletters/2026-09-28/ai-safety-fears-grow-as-trump-pushes-ahead-in-race-with-china"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic’s Dario Amodei gets the SNL treatment. \"AI is the devil and I its maker.\"",
-          "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-          "created_at": "2026-09-27T16:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic’s CEO is about to have dinner with President Trump. This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
-          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-          "created_at": "2026-09-27T20:34:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Breaches Add to Safety Fears as Trump Meets Anthropic CEO. Global anxiety over artificial intelligence risks has intensified following fresh disclosures about a far wider range of breaches by advanced AI models, setting the stage for a high-stakes meeting between Anthropic PBC Chief Executive Officer Dario Amodei and President Donald Trump.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
-          "created_at": "2026-09-27T23:27:32+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI, Anthropic CEOs Will Not Attend Australia AI Inquiry. Neither OpenAI Chief Executive Officer Sam Altman nor Anthropic CEO Dario Amodei will appear before an Australian Senate inquiry after the recent revelation of an AI hack of a government website, the company said.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-28/openai-s-sam-altman-will-not-attend-australia-senate-ai-inquiry",
-          "created_at": "2026-09-28T09:36:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Safety Fears Grow as Trump Pushes Ahead in Race With China. Why Trump’s “let’s go and let’s win” position may be difficult to hold",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-28/ai-safety-fears-grow-as-trump-pushes-ahead-in-race-with-china",
-          "created_at": "2026-09-28T10:32:12+00:00",
           "engagement": 0
         }
       ]
