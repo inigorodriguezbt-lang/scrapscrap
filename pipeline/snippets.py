@@ -37,6 +37,9 @@ from .common import DATA_DIR, normalize_url, utcnow
 
 SNIPPETS_DIR = DATA_DIR / "snippets"
 DEDUPE_DAYS = 7
+# The ids the last `add` filed, so the copy step can email this run's
+# snippets and not the whole day's.
+LAST_SNIPPETS = DATA_DIR / "state" / "last_snippets.json"
 
 
 def path_for(day: str) -> Path:
@@ -116,6 +119,9 @@ def add(items: list[dict], day: str) -> tuple[list[str], list[str]]:
             seen_urls.add(key)
         added.append(sid)
 
+    LAST_SNIPPETS.parent.mkdir(parents=True, exist_ok=True)
+    LAST_SNIPPETS.write_text(json.dumps({"date": day, "added": added}, indent=1) + "\n",
+                             encoding="utf-8")
     if added:
         SNIPPETS_DIR.mkdir(parents=True, exist_ok=True)
         path_for(day).write_text(

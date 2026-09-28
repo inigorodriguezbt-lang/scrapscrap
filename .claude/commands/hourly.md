@@ -160,8 +160,9 @@ for **five or more** a cycle when the finds have them; they are the fastest
 way the paper shows what is new. File them as snippets, per `style/10-snippets.md`, in
 `data/snippets/<today>.new.json`.
 
-A snippet is **one line**: the headline, 10 to 40 words, saying what happened
-and who says so, plus the source's name and link. Nothing more for now. For a
+A snippet is **one line plus a standfirst**: the line, 10 to 40 words, saying
+what happened and who says so; the `why`, one sentence of 8 to 30 words adding
+context or why it matters; and the source's name and link. For a
 find, link the artifact (the model page, the repo, the Space), not the
 aggregator, and name the traction: "…is the second-most trending model on
 Hugging Face, with 1,940 likes."
@@ -169,6 +170,7 @@ Hugging Face, with 1,940 likes."
 ```json
 {"snippets": [
   {"text": "vLLM shipped version 0.30.0, built from 762 commits by 315 contributors, 104 of them first-timers.",
+   "why": "It is the inference engine most open-model deployments run on, so the release reaches most self-hosted AI.",
    "source": {"name": "vLLM", "url": "https://x.com/vllm_project/status/2102593516740411733"},
    "published_at": "2026-09-23T10:18:53+00:00"}
 ]}

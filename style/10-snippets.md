@@ -33,10 +33,10 @@ today's edition, it is neither.
 - **`text`** — the fact, 10 to 40 words, one or two sentences. This is all the
   rail shows. Attribute a claim to whoever makes it, as in a story: "Cursor
   says", not the claim bare.
-- **`why`** — *not required yet.* For now a snippet is the one line only.
-  When the daily newsletter launches, each snippet will also carry one sentence,
-  8 to 30 words, on why a reader should care; the archive page already shows it
-  where it exists.
+- **`why`** — *required.* The snippet's standfirst: one sentence, 8 to 30
+  words, that adds the context or the reason it matters, without repeating
+  the line. The editor's email carries it under the line, ready to post, and
+  the archive page shows it.
 - **`source`** — the name and the link. A snippet has no page of its own, so
   the rail links straight to this. Link the primary post or announcement, not a
   repost of it.

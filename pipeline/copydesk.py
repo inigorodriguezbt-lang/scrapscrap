@@ -8,8 +8,9 @@ URL, and the post drafted for it. The cycle sends that file; the chat reply
 stays a short list of headlines.
 
 It also writes `<name>.txt`, the body of the email the cycle sends the
-editor: the same articles in clean plain text, without the X posts. Plain
-text, not HTML: an earlier HTML body reached the inbox escaped, as raw code.
+editor: each new story's headline and standfirst, then each new snippet with
+its one-sentence standfirst, in plain text and with no links. Plain text, not
+HTML: an earlier HTML body reached the inbox escaped, as raw code.
 
 Usage:
     python -m pipeline.copydesk                      # today's edition
@@ -73,6 +74,47 @@ def render(stories: list[dict], day: str, site: str, posts: bool = True) -> str:
     return "\n".join(out).rstrip() + "\n"
 
 
+def this_run_snippets() -> list[dict]:
+    """The snippets the last `snippets add` filed, in filing order."""
+    from .snippets import LAST_SNIPPETS, read_day
+    try:
+        last = json.loads(LAST_SNIPPETS.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    wanted = last.get("added") or []
+    by_id = {s["id"]: s for s in read_day(last.get("date", ""))}
+    return [by_id[i] for i in wanted if i in by_id]
+
+
+def render_email(stories: list[dict], snippets: list[dict]) -> str:
+    """The editor's email: what to post, ready to copy. No links, no body.
+
+    Each story is its headline and standfirst; each snippet its line and its
+    one-sentence standfirst (the `why` field). Links are left out on purpose:
+    on X a post without an outbound link travels further, and the editor adds
+    the article or link by hand when they want one.
+    """
+    stamp = utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    parts = []
+    if stories:
+        parts.append(f"{len(stories)} new {'story' if len(stories) == 1 else 'stories'}")
+    if snippets:
+        parts.append(f"{len(snippets)} {'snippet' if len(snippets) == 1 else 'snippets'}")
+    out = [f"The AI Post: {', '.join(parts)}", stamp, ""]
+    if stories:
+        out += [RULE, "STORIES", RULE, ""]
+        for s in stories:
+            out += [s["headline"], "", s.get("standfirst", ""), "", ""]
+    if snippets:
+        out += [RULE, "SNIPPETS", RULE, ""]
+        for sn in snippets:
+            out += [sn["text"]]
+            if sn.get("why"):
+                out += ["", sn["why"]]
+            out += ["", ""]
+    return "\n".join(out).rstrip() + "\n"
+
+
 def to_plain(markdown: str) -> str:
     """The copy file as clean plain text: no Markdown markers, links bare.
 
@@ -132,19 +174,21 @@ def main() -> None:
     wanted = args.ids if args.ids else this_run_ids()
     by_id = {s["cluster_id"]: s for s in edition.get("stories", [])}
     stories = [by_id[i] for i in wanted if i in by_id]
-    if not stories:
-        print("No new stories this run; no copy file written.")
+    snippets = [] if args.ids else this_run_snippets()
+    if not stories and not snippets:
+        print("No new stories or snippets this run; no copy file written.")
         return
 
     site = load_config()["paper"].get("site_url", "").rstrip("/")
     COPY_DIR.mkdir(parents=True, exist_ok=True)
     out = COPY_DIR / f"{day}-{utcnow().strftime('%H%M')}.md"
-    out.write_text(render(stories, day, site), encoding="utf-8")
-    # The email version: the same articles without the X posts, as HTML for
-    # the body and plain text for the fallback.
-    email = render(stories, day, site, posts=False)
-    out.with_suffix(".txt").write_text(to_plain(email), encoding="utf-8")
-    print(f"{len(stories)} stories → {out} (+ .txt email body, without X posts)")
+    if stories:
+        # The full articles, for the app: body, embeds, link and X post.
+        out.write_text(render(stories, day, site), encoding="utf-8")
+    # The email: headlines and standfirsts only, no links.
+    out.with_suffix(".txt").write_text(render_email(stories, snippets), encoding="utf-8")
+    print(f"{len(stories)} stories, {len(snippets)} snippets → {out.with_suffix('.txt')}"
+          + (f" (+ {out.name} with the full articles)" if stories else ""))
     for s in stories:
         print(f"  · {s['headline']}")
 
