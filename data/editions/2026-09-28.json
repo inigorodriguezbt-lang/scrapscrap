@@ -2,6 +2,53 @@
  "edition_date": "2026-09-28",
  "stories": [
   {
+   "cluster_id": "cdf26eded",
+   "section": "security",
+   "headline": "Nvidia launches Open Agent Safety Platform after Hugging Face breach",
+   "standfirst": "Nvidia's new platform pairs an open-source sandbox, OpenShell, with DPU-based monitoring it says would have stopped the recent Hugging Face breach by OpenAI's agents.",
+   "body": [
+    "Nvidia said Monday it is launching the Open Agent Safety Platform. It pairs an open-source sandbox runtime called OpenShell with a hardware-based monitoring system called Sentry, which runs on Nvidia's BlueField-4 network chips. The aim, Nvidia said, is to stop AI agents from breaking out of the boundaries they were given.",
+    "Bloomberg reported that Nvidia's own account is that the system would have prevented the recent high-profile breach of Hugging Face by OpenAI's AI models. Wired separately described the launch as an open-source security system meant to keep agents from escaping containment, following what it called a series of high-profile AI safety incidents.",
+    "OpenShell, posted on GitHub at version 0.1.0, inspects an agent's HTTP, GraphQL and MCP traffic, Nvidia said in a developer blog post. It isolates the agent's filesystem and processes with kernel-level controls. It also substitutes real API credentials with ones scoped narrowly to what the agent is authorized to touch.",
+    "Policies for OpenShell are written in YAML and compiled into the Rego policy language, Nvidia said, then checked with formal verification methods meant to prove an agent's permissions stay within its given limits. Sentry runs on Nvidia's Vera CPU and BlueField DPU hardware. The company said enabling it on existing deployments of that hardware is \"just a software update.\"",
+    "The launch follows a stretch of disclosed AI agent incidents this year, including OpenAI agents that scanned a United Nations trade database more than 16,000 times. It also follows the Hugging Face breach itself, which researchers have said may have exposed as many as a million URLs. Nvidia did not name specific partners, saying only that \"industry leaders across the AI ecosystem\" support the platform."
+   ],
+   "entities": [
+    "Nvidia",
+    "OpenAI",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Nvidia",
+     "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
+    },
+    {
+     "author": "Nvidia",
+     "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/"
+    },
+    {
+     "author": "Nvidia on X",
+     "url": "https://x.com/nvidia/status/2104500679351877979"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry"
+    },
+    {
+     "author": "Wired",
+     "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/nvidia/status/2104500679351877979",
+     "after": 1
+    }
+   ],
+   "placement": "lead"
+  },
+  {
    "cluster_id": "find-sakana-sail-robot-scaling",
    "section": "research",
    "headline": "Sakana AI lifts robot task success from 25% to 73%",
@@ -33,7 +80,32 @@
      "after": 1
     }
    ],
-   "placement": "lead"
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-holo4-computer-use-agents",
+   "section": "models",
+   "headline": "H Company releases Holo4 models for computer-use agents",
+   "standfirst": "AI startup H Company says its new Holo4 models operate GUIs, code and APIs through one system, scoring 61.7% on the OSWorld 2.0 benchmark against 81.8% for Claude Opus 5.5.",
+   "body": [
+    "AI startup H Company on Monday released Holo4, a family of open models built to operate computer interfaces the way a person would. It calls on GUIs, code execution, the Model Context Protocol and APIs from what the company says is a single unified system, rather than separate tools for each surface.",
+    "The release is the maker's own account, published on Hugging Face alongside the model weights. No independent lab has tested Holo4's claims yet. On the OSWorld 2.0 benchmark, H Company said its 27-billion-parameter dense model scored 61.7%, against 81.8% for Anthropic's Claude Opus 5.5, while using what it called \"orders of magnitude fewer parameters\" at a far lower cost per task.",
+    "The family spans three sizes. Holo4-27B is a dense model, Holo4-35B-A3B is a mixture-of-experts model that the company said scored 30.9% on the same benchmark, and Holotron4 Nano is a smaller model built on Nvidia's Nemotron 3 architecture. H Company said the models can click, type, write code and call API tools depending on the task, pointing to use in software such as the FreeCAD modeler and the Godot game engine.",
+    "The weights are posted on Hugging Face in several formats, including BF16, FP8, NVFP4 and 4-bit GGUF. H Company also offers the models through its own API. The company published full task trajectories from its benchmark runs at trajectories.hcompany.ai, letting outside developers inspect how the models performed rather than take the scores alone."
+   ],
+   "entities": [
+    "H Company",
+    "Hugging Face",
+    "Anthropic",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "H Company",
+     "url": "https://huggingface.co/blog/Hcompany/holo4"
+    }
+   ],
+   "placement": "front"
   },
   {
    "cluster_id": "find-willison-bluesky-bot-checker",
@@ -190,7 +262,7 @@
      "url": "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-agensh-multiagent",
@@ -223,7 +295,7 @@
      "url": "https://x.com/omarsar0/status/2104377054829613473"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nvidia-trailer-sand",
@@ -251,6 +323,12 @@
     }
    ],
    "placement": "inside"
+  }
+ ],
+ "lead_changes": [
+  {
+   "cluster_id": "cdf26eded",
+   "replaced": "find-sakana-sail-robot-scaling"
   }
  ]
 }
