@@ -51,6 +51,7 @@ MAX_ITEMS = 25
 KIND_WEIGHT = {"model": 3.0, "repo": 3.0, "launch": 2.5, "demo": 2.5, "update": 2.0,
                "tip": 2.0, "hn": 2.0, "paper": 1.5}
 INTEREST_WEIGHT = {"want": 3.0, "neutral": 1.0, "dull": -2.0}
+VIDEO_BONUS = 1.0
 
 
 def _latest(directory, pattern="*.json"):
@@ -117,8 +118,13 @@ def candidates() -> list[dict]:
             "title": first["text"][:160],
             "links": [p["url"] for p in c["posts"] if p.get("url")][:4],
             "posts": [{"author": p["author"], "tier": p.get("tier"), "text": p["text"][:400],
-                       "url": p["url"], "at": p["created_at"]} for p in c["posts"][:4]],
-            "score": INTEREST_WEIGHT.get(c.get("interest"), 1.0) + c.get("score", 0) / 5,
+                       "url": p["url"], "at": p["created_at"],
+                       **({"video": True} if p.get("video") else {})} for p in c["posts"][:4]],
+            # Posts carrying a clip, to embed. A story with something to show
+            # ranks above an equal one without.
+            "videos": [p["url"] for p in c["posts"] if p.get("video")][:3],
+            "score": INTEREST_WEIGHT.get(c.get("interest"), 1.0) + c.get("score", 0) / 5
+                     + (VIDEO_BONUS if any(p.get("video") for p in c["posts"]) else 0.0),
         })
 
     for f in _latest(FINDS_DIR).get("finds", []):

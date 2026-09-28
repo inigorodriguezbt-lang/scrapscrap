@@ -369,6 +369,11 @@ def check_snippet(item: dict, index: int) -> Report:
         report.error("source: no name")
     if not re.match(r"https?://\S+$", source.get("url") or ""):
         report.error("source: no link — the rail links out to it")
+    embed = item.get("embed")
+    if embed is not None:
+        from .embeds import kind
+        if kind(embed) == "link":
+            report.error("embed: must be an X post or a YouTube link")
     return report
 
 

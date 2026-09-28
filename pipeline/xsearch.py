@@ -132,7 +132,8 @@ class Provider:
         raise NotImplementedError
 
     # Shared: turn a vendor row into the paper's record shape.
-    def _record(self, *, tweet_id, author, text, created, url, likes, reposts, replies) -> dict:
+    def _record(self, *, tweet_id, author, text, created, url, likes, reposts, replies,
+                media=()) -> dict:
         return {
             "id": str(tweet_id),
             "handle": author,
@@ -148,6 +149,8 @@ class Provider:
             "likes": likes or 0,
             "reposts": reposts or 0,
             "replies": replies or 0,
+            # "video" when the post carries a clip: the desk embeds those.
+            "media": sorted({("video" if m in ("video", "animated_gif") else m) for m in media if m}),
             "is_repost": False,
             "is_reply": False,
             "provider": self.name,
@@ -193,6 +196,7 @@ class Xquik(Provider):
                 likes=row.get("like_count") or row.get("favorite_count"),
                 reposts=row.get("retweet_count"),
                 replies=row.get("reply_count"),
+                media=[m.get("type") for m in (row.get("media") or []) if isinstance(m, dict)],
             ))
         return out
 

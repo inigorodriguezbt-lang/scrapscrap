@@ -9,7 +9,8 @@ stays a short list of headlines.
 
 It also writes `<name>.txt`, the body of the email the cycle sends the
 editor: each new story's headline and standfirst, then each new snippet with
-its one-sentence standfirst, in plain text and with no links. Plain text, not
+its one-sentence standfirst, in plain text. No links except embeds: a story's
+embedded posts and videos, and a snippet's clip, each bare on its own line. Plain text, not
 HTML: an earlier HTML body reached the inbox escaped, as raw code.
 
 Usage:
@@ -26,7 +27,7 @@ import re
 from pathlib import Path
 
 from .common import DATA_DIR, EDITIONS_DIR, load_config, utcnow
-from .embeds import after as embeds_after
+from .embeds import after as embeds_after, clean as clean_embeds
 from .merge import LAST_RUN
 
 COPY_DIR = DATA_DIR / "copy"
@@ -93,6 +94,10 @@ def render_email(stories: list[dict], snippets: list[dict]) -> str:
     one-sentence standfirst (the `why` field). Links are left out on purpose:
     on X a post without an outbound link travels further, and the editor adds
     the article or link by hand when they want one.
+
+    The one exception is embeds. A story's embedded posts and videos, and a
+    snippet's clip, go in bare, each on its own line, because pasted into an
+    X article a bare post or YouTube link becomes the embed itself.
     """
     stamp = utcnow().strftime("%Y-%m-%d %H:%M UTC")
     parts = []
@@ -104,13 +109,17 @@ def render_email(stories: list[dict], snippets: list[dict]) -> str:
     if stories:
         out += [RULE, "STORIES", RULE, ""]
         for s in stories:
-            out += [s["headline"], "", s.get("standfirst", ""), "", ""]
+            out += [s["headline"], "", s.get("standfirst", ""), ""]
+            out += [e["url"] for e in clean_embeds(s)]
+            out += ["", ""] if clean_embeds(s) else [""]
     if snippets:
         out += [RULE, "SNIPPETS", RULE, ""]
         for sn in snippets:
             out += [sn["text"]]
             if sn.get("why"):
                 out += ["", sn["why"]]
+            if sn.get("embed"):
+                out += ["", sn["embed"]]
             out += ["", ""]
     return "\n".join(out).rstrip() + "\n"
 

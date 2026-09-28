@@ -174,10 +174,14 @@ good story.
 
 ## Show it
 
+Whenever the search turns up a clip or video relevant to a story or a
+snippet, it goes in. The worklist marks X posts that carry a clip
+(`"video": true`, and `videos` on the item) and ranks those stories higher.
 A story about something people can watch or see (a demo, a clip, a post
 with a video, a thread of examples) embeds it: `"embeds"` on the story,
 the link and the paragraph it follows. The site renders X posts and YouTube
 videos in place; the copy file and the email carry the bare link where it
 goes, so it embeds when pasted into an article. Embed the maker's own post
 or the demo itself, placed after the paragraph that describes it. Given two
-stories of equal weight, the one with something to show goes first.
+stories of equal weight, the one with something to show goes first. A
+snippet with a clip carries it as `"embed"` (`10-snippets.md`).

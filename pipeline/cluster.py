@@ -373,6 +373,7 @@ def build_briefs(raw_path: Path | None) -> dict:
                     "url": p["url"],
                     "created_at": p["created_at"],
                     "engagement": p["likes"] + 2 * p["reposts"],
+                    **({"video": True} if "video" in (p.get("media") or []) else {}),
                 }
                 for p in sorted(group, key=lambda p: p["created_at"])
             ],

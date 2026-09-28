@@ -95,8 +95,12 @@ The rules that are easiest to lose on a fast cadence, and that matter most:
   detail. If you do not have the detail, file the shorter story.
 
 **Embeds: prioritise them.** The paper publishes these as articles, and an
-embedded post or video makes the piece. Whenever a story comes from an X post,
-a demo video, a YouTube clip or a thread, embed it:
+embedded post or video makes the piece. **Whenever your search turns up a clip
+or video relevant to a story or snippet, embed it.** In the worklist and the
+brief, a post marked `"video": true` carries a clip, and a desk item's
+`videos` lists them; when you open a maker's page or an article and it has a
+demo video, that counts too. Whenever a story comes from an X post, a demo
+video, a YouTube clip or a thread, embed it:
 
 - Add `"embeds": [{"url": "<link>", "after": <paragraph number>}]` to the
   story. The link alone is enough; the site turns an X post into the platform's
@@ -178,6 +182,12 @@ Hugging Face, with 1,940 likes."
 
 `published_at` is the source's timestamp, not the time you file it.
 
+**A snippet with a clip.** If the thing a snippet is about has a video (the
+demo, the maker's clip, a post with the video in it), add
+`"embed": "<X post or YouTube link>"`. The site shows a Watch link beside the
+snippet and the email carries the link so the editor can embed it. One clip,
+the maker's own or the demo itself, never a reaction.
+
 Check them before you finish:
 
 ```bash
@@ -212,6 +222,9 @@ python -m pipeline.copydesk
 ```
 
 It writes `data/copy/<today>-<HHMM>.md` with each new story's headline,
-standfirst, full body, live URL and drafted post. Commit it with the rest,
+standfirst, full body, live URL and drafted post, and the `.txt` email body:
+headlines and standfirsts, snippets and theirs, no links except the embeds
+(each story's embedded posts and videos, each snippet's clip), bare on their
+own lines. Commit it with the rest,
 and send it to the editor as a file. Keep the chat reply short: the
 headlines only, one per line. The full text lives in the file, not the chat.

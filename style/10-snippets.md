@@ -60,3 +60,10 @@ python -m pipeline.snippets add data/snippets/<today>.new.json
 `add` never rewrites a snippet already filed, and skips any whose source link
 has been carried in the last seven days. On the hourly job, the workflow runs
 both commands itself; writing the side file is enough.
+
+## A clip
+
+When the item has a video (the demo, the maker's own clip, a post with the
+video in it), add `"embed"` with the X post or YouTube link. The site shows a
+Watch link beside the snippet; the editor's email carries the link on its own
+line, so it embeds when pasted into an article. One clip, never a reaction.

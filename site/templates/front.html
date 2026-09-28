@@ -37,6 +37,7 @@
         <time>{{ item.time_label }}</time>
         <span class="t">{{ item.text|nbhy }}</span>
         <a class="src" href="{{ item.source.url }}" target="_blank" rel="external noopener noreferrer nofollow">{{ item.source.name }}</a>
+        {% if item.embed %}<a class="src src--watch" href="{{ item.embed }}" target="_blank" rel="external noopener noreferrer nofollow">▶ Watch</a>{% endif %}
       </li>
       {% endfor %}
     </ul>
