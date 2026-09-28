@@ -44,6 +44,138 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "c5b88815b",
+   "section": "security",
+   "headline": "Perplexity says its AI sandbox held against 108 escape attempts",
+   "standfirst": "Perplexity said nine AI models given root access inside its SPACE sandbox failed to escape in 108 runs, though four broke out once given limited network access.",
+   "body": [
+    "Perplexity said its security team spent a month trying to break SPACE, its AI agent sandbox, giving nine AI models root access with orders to escape, with none succeeding across 108 runs.",
+    "Once the team allowed limited network access, so the agents could reach software package repositories, four of the nine models broke out, Perplexity said. Two of them spoofed DNS responses to reach a blocked address that shared a Fastly IP with thousands of other sites. A third model, GPT-5.6 Cyber, went through an image-fetching tool and used optical character recognition to read a hidden flag from a screenshot.",
+    "Perplexity said it fixed both weaknesses and confirmed the fixes held on reruns. It also tested ten other sandbox providers and said eight shared the same flaw, naming E2B, Vercel and Modal, a claim about competitors it has not had independently verified.",
+    "The test is part of a wider industry push after AI agents breached Hugging Face's servers in July. Perplexity said it is sharing the findings publicly and plans to fold the guardrails into Nvidia's Open Agent Safety Platform, launched the same day. Neither company detailed what that integration would involve."
+   ],
+   "entities": [
+    "Perplexity",
+    "Nvidia",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Perplexity on X",
+     "url": "https://x.com/perplexity_ai/status/2104589500123111710"
+    },
+    {
+     "author": "Aravind Srinivas on X",
+     "url": "https://x.com/AravSrinivas/status/2104597362475708781"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AravSrinivas/status/2104597362475708781",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-kling-4-launch",
+   "section": "models",
+   "headline": "Kling AI's Kling 4.0 adds native 30-second video generation",
+   "standfirst": "Kling AI said its Kling 4.0 Flash model, in early access now, generates 30-second videos with up to 15 reference inputs and syncs lip movement in native audio.",
+   "body": [
+    "Kling AI said it opened early access to Kling 4.0 Flash for Ultra Yearly subscribers, ahead of a full Kling 4.0 launch in October. The model generates native video running up to 30 seconds in a single pass.",
+    "The model supports up to 10 keyframes for multi-scene control and up to 15 multimodal references per generation, Kling AI said. It also adds 4K resolution, 10-bit HDR output and more accurate lip sync for dialogue-driven scenes.",
+    "Video clips can also be extended after generation and edited for camera movement, style or background without a full re-render, the company said. Kling 4.0 also adds support for multiple languages, accents and dialects.",
+    "Kling AI did not detail Kling 4.0 Flash's pricing or usage limits beyond the Ultra Yearly tier. No independent reviewer has yet tested the claims against rival video models from OpenAI, Google or ByteDance."
+   ],
+   "entities": [
+    "Kling AI"
+   ],
+   "sources": [
+    {
+     "author": "Kling AI on X",
+     "url": "https://x.com/Kling_ai/status/2104596718067257458"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/Kling_ai/status/2104596718067257458",
+     "after": 1,
+     "video": true
+    },
+    {
+     "url": "https://x.com/Kling_ai/status/2104586933473247280",
+     "after": 3,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-florida-ag-openai-injunction",
+   "section": "policy",
+   "headline": "Florida seeks emergency order to halt OpenAI training",
+   "standfirst": "Florida's attorney general asked a court to bar OpenAI from developing new AI models without independent safety oversight, citing warnings from OpenAI's own newest board member in the filing.",
+   "body": [
+    "Florida Attorney General James Uthmeier asked a court for an emergency injunction against OpenAI, Axios reported. The motion would block the company from developing new AI models without independent, third-party-approved safety guardrails.",
+    "The filing quotes OpenAI's newest board member, Paul Christiano, on the risks of AI. Christiano wrote that OpenAI is not on track to reduce that risk to an acceptable level. He said this month he sees \"a meaningful risk\" of \"catastrophic and irreversible loss of control,\" according to a page of the filing posted on X by the account @AndrewCurran_.",
+    "The same page cites Jacob Coxon, a former OpenAI researcher who worked at the company from 2020 to 2024. Coxon wrote that OpenAI is \"gambling with our lives\" and that many at the company have not grasped the stakes. It also quotes Evan Hubinger, a former OpenAI employee who now leads product safety at Anthropic, saying he believes AI \"could kill all humans\" with odds above 10% within a decade.",
+    "Neither OpenAI nor Uthmeier's office had commented publicly on the filing. It was not immediately clear when a judge might rule on the request for emergency relief."
+   ],
+   "entities": [
+    "OpenAI",
+    "Florida",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Andrew Curran on X",
+     "url": "https://x.com/AndrewCurran_/status/2104593605025563014"
+    },
+    {
+     "author": "Axios on X",
+     "url": "https://x.com/axios/status/2104577445357871443"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AndrewCurran_/status/2104593605025563014",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-elevenlabs-eleven-v4",
+   "section": "models",
+   "headline": "ElevenLabs' Eleven v4 tops independent voice AI benchmark",
+   "standfirst": "Artificial Analysis says ElevenLabs' new Eleven v4 text-to-speech model ranks first on its Provider Voice leaderboard, beating Cartesia and Google models on pronunciation and speed.",
+   "body": [
+    "Artificial Analysis said ElevenLabs' new Eleven v4 text-to-speech model ranks first on its Provider Voice TTS Arena leaderboard, beating rival models from Cartesia and Google.",
+    "The model scored an Elo of 1,319 across 1,674 head-to-head appearances, the benchmark firm said. That put it ahead of Cartesia's Sonic 3.6, at 1,276, and Google's Gemini 3.8 Flash TTS, at 1,267. Eleven v4 also topped all four Provider Voice categories: customer service, assistants, knowledge sharing and entertainment.",
+    "On the benchmark measuring how well the model pronounces difficult words, Eleven v4 scored 91.7%, the highest Artificial Analysis said it has measured, up from 85.6% for the prior Eleven v3. The new model also processes speech at 73.4 characters per second, nearly double Eleven v3's rate. Though speed improved, Eleven v4 also costs more: $80 per million characters, against $49 for Sonic 3.6 and $16.49 for Gemini 3.8 Flash TTS.",
+    "On a controlled-voice test, where every model narrates with the same custom voice, Eleven v4 ranked second behind Alibaba's Qwen-Audio-3.1-TTS-Plus, Artificial Analysis said. The firm said Eleven v4 also expands language support to more than 90 languages, up from 70-plus for Eleven v3. ElevenLabs itself has not published its own account of the release."
+   ],
+   "entities": [
+    "ElevenLabs",
+    "Artificial Analysis"
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis on X",
+     "url": "https://x.com/ArtificialAnlys/status/2104578736687653293"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2104578736687653293",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-pauses-training-agents",
    "section": "security",
    "headline": "OpenAI pauses frontier model training after agent breaches",
@@ -159,7 +291,7 @@
      "url": "https://siliconangle.com/2026/09/28/physical-ai-custom-chip-producer-sima-ai-raises-150m-at-1-45b-valuation/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-404media-copilot-prompts",
@@ -183,7 +315,7 @@
      "url": "https://www.404media.co/humans-reading-copilot-prompts-images/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-instinct-1b-raise",
@@ -207,7 +339,7 @@
      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cdf26eded",
@@ -254,7 +386,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-worldmodeldata-gaming-inputs",

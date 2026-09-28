@@ -1,77 +1,300 @@
 {
-  "generated_at": "2026-09-28T14:06:30.730005+00:00",
+  "generated_at": "2026-09-28T16:05:31.155874+00:00",
   "edition_date": "2026-09-28",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 73,
-  "clusters_found": 59,
-  "stories_declared": 4,
+  "posts_considered": 92,
+  "clusters_found": 71,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c246f65b2",
-      "score": 13.732,
+      "cluster_id": "c8bbf703f",
+      "score": 15.409,
       "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [],
-      "independent_sources": [
-        "Reuters",
-        "elonmusk"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-28T12:14:43+00:00",
-      "last_seen": "2026-09-28T12:22:54+00:00",
-      "links": [
-        "https://x.com/Reuters/status/2104547395254231199",
-        "https://x.com/elonmusk/status/2104545337478406579"
-      ],
-      "posts": [
-        {
-          "author": "elonmusk",
-          "tier": "commentary",
-          "text": "Starship Flight 14 launches in ~30 mins\nhttps://t.co/aJL2lNl2Xt",
-          "url": "https://x.com/elonmusk/status/2104545337478406579",
-          "created_at": "2026-09-28T12:14:43+00:00",
-          "engagement": 13782
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "SpaceX launches Starship test flight https://t.co/3lNnogvzmB",
-          "url": "https://x.com/Reuters/status/2104547395254231199",
-          "created_at": "2026-09-28T12:22:54+00:00",
-          "engagement": 117
-        }
-      ]
-    },
-    {
-      "cluster_id": "c996ff604",
-      "score": 10.329,
-      "interest": "dull",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Meta"
+        "Meta",
+        "Apple"
       ],
       "independent_sources": [
-        "AndrewCurran_",
+        "9to5Mac",
+        "AIatMeta",
         "Bloomberg Tech",
         "TechCrunch AI",
-        "finkd"
+        "The Decoder",
+        "testingcatalog"
       ],
-      "source_count": 4,
+      "source_count": 6,
+      "first_seen": "2026-09-27T19:57:30+00:00",
+      "last_seen": "2026-09-28T15:41:38+00:00",
+      "links": [
+        "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
+        "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+        "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
+        "https://www.bloomberg.com/news/newsletters/2026-09-28/meta-s-muse-shows-how-ai-is-taking-over-as-the-new-travel-agent",
+        "https://x.com/AIatMeta/status/2104579386024603826",
+        "https://x.com/testingcatalog/status/2104597410924077141"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Can Muse overcome Meta’s trust issues?. On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+          "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+          "created_at": "2026-09-27T19:57:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta’s Muse Shows How AI Is Taking Over as the New Travel Agent. As agents like Meta’s Muse mature, their appeal rings a familiar note",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-09-28/meta-s-muse-shows-how-ai-is-taking-over-as-the-new-travel-agent",
+          "created_at": "2026-09-28T11:02:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Yeah, don’t give Meta’s Muse app access to your Mac. The ability of AI systems to act as agents, carrying out tasks on our behalf, is the single biggest development in the technology. This is the headline capability Siri AI introduces to Apple devices, and I’m inclined to trust the privacy and safety safeguards Apple has put into place. But Siri AI isn’t the only agent you can give full access to your Apple devices, with Meta’s Muse app the latest example – and one tech writer’s experience really underlines why you absolutely don’t want to do this … more…",
+          "url": "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
+          "created_at": "2026-09-28T12:44:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AIatMeta",
+          "tier": "commentary",
+          "text": "In the past 6 months...\n\n- Muse Spark\n- Muse Image\n- Muse Video\n- Muse Spark 1.1\n- Meta Model API\n- Muse Glimmer\n- Muse Spark 1.2\n- Muse Code\n- Muse Spark 1.3\n- Muse\n\n...and we’re just getting started. 🚀 https://t.co/94e6uYPhZL",
+          "url": "https://x.com/AIatMeta/status/2104579386024603826",
+          "created_at": "2026-09-28T14:30:01+00:00",
+          "engagement": 678,
+          "video": true
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta wants to turn Muse into a moneymaker by selling AI services to businesses. Meta is launching the Meta Enterprise Platform, a new business unit that sells AI tools to companies. The article Meta wants to turn Muse into a moneymaker by selling AI services to businesses appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
+          "created_at": "2026-09-28T14:48:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Meta has announced the Meta Enterprise Platform to expand its AI stack to organizations and businesses. \n\n> \"Meta Enterprise Platform will focus on turning its AI stack into products and services that companies can deploy for their own businesses. \n\n> \"As with Muse, security and ",
+          "url": "https://x.com/testingcatalog/status/2104597410924077141",
+          "created_at": "2026-09-28T15:41:38+00:00",
+          "engagement": 52
+        }
+      ]
+    },
+    {
+      "cluster_id": "c275c1c65",
+      "score": 11.526,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "ArtificialAnlys"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T17:26:40+00:00",
+      "last_seen": "2026-09-28T14:27:26+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/27/gemini-gems-skills/",
+        "https://x.com/ArtificialAnlys/status/2104578736687653293"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini app replacing Gems with skills in November. In 2024, Google introduced Gems as “custom versions of Gemini.” The Gemini app will soon replace Gems with “skills.” more…",
+          "url": "https://9to5google.com/2026/09/27/gemini-gems-skills/",
+          "created_at": "2026-09-27T17:26:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "ElevenLabs’ Eleven v4 takes #1 on the Artificial Analysis Provider Voice TTS Arena Leaderboard and Pronunciation Robustness benchmark, and #2 on Controlled Voice, surpassing Cartesia’s Sonic 3.6 and Google’s Gemini 3.8 Flash TTS on Provider Voice\n\nEleven v4 is the latest Text to ",
+          "url": "https://x.com/ArtificialAnlys/status/2104578736687653293",
+          "created_at": "2026-09-28T14:27:26+00:00",
+          "engagement": 342,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c5b88815b",
+      "score": 11.296,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "AravSrinivas",
+        "perplexity_ai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T15:10:12+00:00",
+      "last_seen": "2026-09-28T15:41:27+00:00",
+      "links": [
+        "https://x.com/AravSrinivas/status/2104597362475708781",
+        "https://x.com/perplexity_ai/status/2104589500123111710"
+      ],
+      "posts": [
+        {
+          "author": "perplexity_ai",
+          "tier": "commentary",
+          "text": "We’re partnering with Nvidia and 100+ industry partners to build infrastructure that contains rogue AI agents.\n\nIn this research, we gave 9 AI models root access inside SPACE and told them to break out.\n\nAcross 108 runs, none breached the VM boundary.\nhttps://t.co/UD6qHuCuO4 http",
+          "url": "https://x.com/perplexity_ai/status/2104589500123111710",
+          "created_at": "2026-09-28T15:10:12+00:00",
+          "engagement": 117
+        },
+        {
+          "author": "AravSrinivas",
+          "tier": "commentary",
+          "text": "Our security team spent the last month trying to break SPACE, the sandbox platform that runs all of Perplexity Computer. We gave 9 models (Opus 5, GPT-5.6 Sol, Kimi K3, Gemini 3.1 Pro, etc.) root access inside the VM; in some runs, the full sandbox source code too. We asked them ",
+          "url": "https://x.com/AravSrinivas/status/2104597362475708781",
+          "created_at": "2026-09-28T15:41:27+00:00",
+          "engagement": 48
+        }
+      ]
+    },
+    {
+      "cluster_id": "c426ca6eb",
+      "score": 8.922,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T23:54:15+00:00",
+      "last_seen": "2026-09-28T15:30:00+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+        "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+        "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+        "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
+        "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "2026 in LLMs (so far). On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5",
+          "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+          "created_at": "2026-09-27T23:54:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2. The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors and tech leaders at San Francisco's Moscone West on Oct 13-15.",
+          "url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
+          "created_at": "2026-09-28T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026. Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Startup Battlefield 200 is almost here, and with today&#8217;s announcement, the judging panel is nearly complete. In just a couple of weeks, 200 carefully selected startups will gather at [&#8230;]",
+          "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
+          "created_at": "2026-09-28T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "After a deepfake voice fooled her grandfather, this founder sprang into action. After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the companies competing in Startup Battlefield at TechCrunch Disrupt.",
+          "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+          "created_at": "2026-09-28T15:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026. Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
+          "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
+          "created_at": "2026-09-28T15:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c43d3f451",
+      "score": 8.851,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T13:38:48+00:00",
+      "last_seen": "2026-09-28T14:28:38+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+        "https://www.bloomberg.com/news/articles/2026-09-28/ai-agent-startup-instinct-raises-1-billion-at-10-billion-value"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Viral AI agent Instinct raises $1B Series C at a $10B valuation. Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
+          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+          "created_at": "2026-09-28T13:38:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Agent Startup Instinct Raises $1 Billion at $10 Billion Value. Instinct, the startup behind a viral artificial intelligence agent, has raised $1 billion in funding at a $10 billion valuation, a sign of investor demand for a new crop of AI products that carry out everyday tasks for users.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-28/ai-agent-startup-instinct-raises-1-billion-at-10-billion-value",
+          "created_at": "2026-09-28T14:28:38+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc6eaa532",
+      "score": 3.727,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "security",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
       "first_seen": "2026-09-27T16:30:00+00:00",
-      "last_seen": "2026-09-28T13:56:13+00:00",
+      "last_seen": "2026-09-28T10:32:12+00:00",
       "links": [
         "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
         "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-        "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
+        "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
         "https://www.bloomberg.com/news/articles/2026-09-28/openai-s-sam-altman-will-not-attend-australia-senate-ai-inquiry",
-        "https://www.bloomberg.com/news/videos/2026-09-28/akamai-ceo-leighton-calls-anthropic-an-ideal-partner-video",
-        "https://x.com/AndrewCurran_/status/2104564151955951989",
-        "https://x.com/finkd/status/2104550613149163600"
+        "https://www.bloomberg.com/news/newsletters/2026-09-28/ai-safety-fears-grow-as-trump-pushes-ahead-in-race-with-china"
       ],
       "posts": [
         {
@@ -93,128 +316,25 @@
         {
           "author": "Bloomberg Tech",
           "tier": "press",
+          "text": "AI Breaches Add to Safety Fears as Trump Meets Anthropic CEO. Global anxiety over artificial intelligence risks has intensified following fresh disclosures about a far wider range of breaches by advanced AI models, setting the stage for a high-stakes meeting between Anthropic PBC Chief Executive Officer Dario Amodei and President Donald Trump.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
+          "created_at": "2026-09-27T23:27:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
           "text": "OpenAI, Anthropic CEOs Will Not Attend Australia AI Inquiry. Neither OpenAI Chief Executive Officer Sam Altman nor Anthropic CEO Dario Amodei will appear before an Australian Senate inquiry after the recent revelation of an AI hack of a government website, the company said.",
           "url": "https://www.bloomberg.com/news/articles/2026-09-28/openai-s-sam-altman-will-not-attend-australia-senate-ai-inquiry",
           "created_at": "2026-09-28T09:36:00+00:00",
           "engagement": 0
         },
         {
-          "author": "finkd",
-          "tier": "commentary",
-          "text": "To lead this effort, I'm excited that Chirantan \"CJ\" Desai will join Meta as Chief Enterprise Platform Officer, reporting directly to me. CJ is an experienced enterprise leader with a track record of building full-stack software and delivering results in AI, infrastructure, business applications, and security. He has an extensive industry network that we look forward to partnering with. CJ joins us from MongoDB, where he was CEO and President. Before that he led product and engineering at Cloudflare and spent nearly eight years at ServiceNow, including as President and COO.",
-          "url": "https://x.com/finkd/status/2104550613149163600",
-          "created_at": "2026-09-28T12:35:41+00:00",
-          "engagement": 885
-        },
-        {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Meta Taps MongoDB CEO to Lead New Enterprise AI Platform. Meta Platforms Inc. tapped MongoDB Inc.’s president and chief executive officer to lead a new AI platform for enterprise customers that Meta CEO Mark Zuckerberg called “the next major pillar of our business.”",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
-          "created_at": "2026-09-28T12:42:47+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Meta Enterprise Platform.",
-          "url": "https://x.com/AndrewCurran_/status/2104564151955951989",
-          "created_at": "2026-09-28T13:29:29+00:00",
-          "engagement": 94
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Akamai CEO Leighton Calls Anthropic an Ideal Partner. Akamai Technologies co-founder and CEO Tom Leighton discusses the company’s seven-year, $12 billion AI computing supply agreement with Anthropic and its broader AI strategy with Dani Burger on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/akamai-ceo-leighton-calls-anthropic-an-ideal-partner-video",
-          "created_at": "2026-09-28T13:56:13+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c37e36c06",
-      "score": 9.102,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Simon Willison",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T23:54:15+00:00",
-      "last_seen": "2026-09-28T14:00:00+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-        "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/"
-      ],
-      "posts": [
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "2026 in LLMs (so far). On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going to give a lightning tour of everything that has happened so far in 2026. The year isn't over yet! # For me, 2026 started a couple of months earlier in November 2025. # November saw the release of two important models: Claude Opus 4.5 and GPT-5",
-          "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-          "created_at": "2026-09-27T23:54:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2. The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors and tech leaders at San Francisco's Moscone West on Oct 13-15.",
-          "url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
-          "created_at": "2026-09-28T14:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca6596b69",
-      "score": 8.476,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Nvidia",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T17:21:07+00:00",
-      "last_seen": "2026-09-28T09:55:05+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry",
-        "https://www.bloomberg.com/news/videos/2026-09-28/nvidia-rolls-out-new-tools-to-keep-ai-agents-in-line-video",
-        "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI agents tried to ‘bruteforce’ a UN website. Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-          "created_at": "2026-09-27T17:21:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Nvidia Debuts System Designed to Stop AI Agents From Going Awry. Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would have prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry",
-          "created_at": "2026-09-28T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Nvidia Rolls Out New Tools to Keep AI Agents in Line. Nvidia is rolling out two open-source software security tools designed to control what AI agents can access in real time and shut them down when they break the rules. The company says this would’ve prevented the recent high-profile breach of Hugging Face by OpenAI’s artificial intelligence models. Neil Campling reports on Bloomberg Television. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/nvidia-rolls-out-new-tools-to-keep-ai-agents-in-line-video",
-          "created_at": "2026-09-28T09:55:05+00:00",
+          "text": "AI Safety Fears Grow as Trump Pushes Ahead in Race With China. Why Trump’s “let’s go and let’s win” position may be difficult to hold",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-09-28/ai-safety-fears-grow-as-trump-pushes-ahead-in-race-with-china",
+          "created_at": "2026-09-28T10:32:12+00:00",
           "engagement": 0
         }
       ]
