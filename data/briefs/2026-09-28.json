@@ -1,37 +1,72 @@
 {
-  "generated_at": "2026-09-28T00:07:02.092740+00:00",
+  "generated_at": "2026-09-28T02:05:18.556352+00:00",
   "edition_date": "2026-09-28",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 53,
-  "clusters_found": 43,
-  "stories_declared": 4,
+  "posts_considered": 55,
+  "clusters_found": 48,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cb75ae625",
-      "score": 11.786,
+      "cluster_id": "ceb76a6cc",
+      "score": 9.944,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA Developer",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-27T15:21:30+00:00",
+      "last_seen": "2026-09-28T01:00:00+00:00",
+      "links": [
+        "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/",
+        "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Grab this 14-inch compact gaming laptop powerhouse for $1000 off. The gaming laptop pairs Intel’s Core Ultra 9 285H with Nvidia’s RTX 5070 Laptop GPU and a 3K 120Hz OLED display, giving buyers a powerful compact machine at a reduced price.",
+          "url": "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
+          "created_at": "2026-09-27T15:21:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency. Every unused watt is capacity left on the table. AI factories are typically provisioned for the unlikely moment when every GPU reaches peak power, creating a...",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/",
+          "created_at": "2026-09-28T01:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c895439f6",
+      "score": 7.499,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Nvidia",
-        "Hugging Face",
-        "AMD"
+        "Hugging Face"
       ],
       "independent_sources": [
-        "SemiAnalysis_",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "first_seen": "2026-09-27T09:23:36+00:00",
-      "last_seen": "2026-09-27T23:00:39+00:00",
+      "last_seen": "2026-09-27T17:21:07+00:00",
       "links": [
         "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-        "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-        "https://x.com/SemiAnalysis_/status/2104345502045069556"
+        "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
       ],
       "posts": [
         {
@@ -49,20 +84,12 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
           "created_at": "2026-09-27T17:21:07+00:00",
           "engagement": 0
-        },
-        {
-          "author": "SemiAnalysis_",
-          "tier": "commentary",
-          "text": "Does anyone know if @huggingface (owned by @NVIDIA) still has access to the MI455X that AMD gave them under embargo? Does anyone know if AMD continues to give exclusive access to next-gen hardware to Hugging Face (owned by NVIDIA)? Will Hugging Face be working on making Nemotron3 Ultra work on MI455X?",
-          "url": "https://x.com/SemiAnalysis_/status/2104345502045069556",
-          "created_at": "2026-09-27T23:00:39+00:00",
-          "engagement": 42
         }
       ]
     },
     {
-      "cluster_id": "c181959b1",
-      "score": 9.711,
+      "cluster_id": "c96c758ed",
+      "score": 5.136,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "security",
@@ -71,12 +98,11 @@
         "Microsoft"
       ],
       "independent_sources": [
-        "AndrewCurran_",
         "Bloomberg Tech",
         "Engadget",
         "TechCrunch AI"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "first_seen": "2026-09-27T13:00:00+00:00",
       "last_seen": "2026-09-27T23:27:32+00:00",
       "links": [
@@ -84,8 +110,7 @@
         "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
         "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
         "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
-        "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/",
-        "https://x.com/AndrewCurran_/status/2104333435653464201"
+        "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/"
       ],
       "posts": [
         {
@@ -121,96 +146,12 @@
           "engagement": 0
         },
         {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Reporter: You might have dinner with Dario of Anthropic tonight, you know that he's called on slowing down AI?\n\nPresident Trump: He has.\n\nReporter: What are you going to tell him tonight?\n\nPresident Trump: Well, we're going to talk about it. I'm for 'let's go' and 'let's win.' You know, we're about a year, maybe a year and a half, up on China. There is nobody in third place. It's just us and China. And we're leading by quite a bit. I spoke a little bit about it with president Xi. Not too much. It wasn't a topic of conversation. Because, I think if you as they say 'open it up' to China you give up the lead. Once you do that, you sort of give up the lead.",
-          "url": "https://x.com/AndrewCurran_/status/2104333435653464201",
-          "created_at": "2026-09-27T22:12:42+00:00",
-          "engagement": 407
-        },
-        {
           "author": "Bloomberg Tech",
           "tier": "press",
           "text": "AI Breaches Add to Safety Fears as Trump Meets Anthropic Chief. Global anxiety over artificial intelligence risks has intensified following fresh disclosures about a far wider range of breaches by advanced AI models, setting the stage for a high-stakes meeting between Anthropic PBC Chief Executive Officer Dario Amodei and President Donald Trump.",
           "url": "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
           "created_at": "2026-09-27T23:27:32+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c11718b90",
-      "score": 9.554,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "chips",
-      "entities": [],
-      "independent_sources": [
-        "dair_ai",
-        "theo"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T22:35:02+00:00",
-      "last_seen": "2026-09-27T22:36:47+00:00",
-      "links": [
-        "https://x.com/dair_ai/status/2104339055194546595",
-        "https://x.com/theo/status/2104339496942948401"
-      ],
-      "posts": [
-        {
-          "author": "dair_ai",
-          "tier": "commentary",
-          "text": "An interesting idea is to continually train specialized models on skills.\n\nThis paper explores that idea.\n\nThey propose SkillGym which turns human-written skills into 2,756 training environments with code-based checkers, then fine-tunes on 8,364 successful trajectories.\n\nAfter fine-tuning, Qwen3.5-35B-A3B running in Claude Code gains 19.10 points on Terminal-Bench 2.1 and 28.13 points on skill-assisted SkillsBench v1.1, where it reaches 51.47%.\n\nThat is above the reported scores for Claude Sonnet 4.6 and GPT-5.4 Mini.\n\nWith no skills loaded, the trained model beats the base model that has the skills in context.\n\nPaper: https://t.co/ubb53Qd1Ms",
-          "url": "https://x.com/dair_ai/status/2104339055194546595",
-          "created_at": "2026-09-27T22:35:02+00:00",
-          "engagement": 40
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "Why does Opus 5.5 feel practically unlimited when Fable 5.1 was so heavily limited?\n\nIt's a combination of two things: Opus's efficiency, and the 50% limit on Fable.\n\nClaude Code subs are very generous with their usage, but only half is allowed to be used by Fable.\n\nSeparately, Opus is way more gentle with costs. Opus 5.5 on High is over 2x cheaper than Fable 5.1 High.\n\nThe result is that, roughly, going from Fable 5.1 high to Opus 5.5 high is a 4.3x increase in limits.\n\nFable 5.1 xhigh to Opus 5.5 high (move I made) is a 6.6x increase 🤯",
-          "url": "https://x.com/theo/status/2104339496942948401",
-          "created_at": "2026-09-27T22:36:47+00:00",
-          "engagement": 757
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4c228a67",
-      "score": 9.515,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-27T10:36:29+00:00",
-      "last_seen": "2026-09-27T22:17:00+00:00",
-      "links": [
-        "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
-        "https://x.com/kimmonismus/status/2104334517347516544"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond. Boris Power, OpenAI's Head of Applied Research, says 80 to 90 percent of the company's research goes toward GPT 7, GPT 8, and beyond. Improvements within a single generation are intentionally short-term bets. But Power doesn't see model performance as the biggest problem. Most users don't even know what they can do with AI. The article OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
-          "created_at": "2026-09-27T10:36:29+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Boris Power: \"80-90% of research at OpenAI is focused at GPT 7, GPT 8, and beyond.\"\n\nLet that sink in for a moment. No one is slowing down. They all Focus mainly on AGI and RSI.\n",
-          "url": "https://x.com/kimmonismus/status/2104334517347516544",
-          "created_at": "2026-09-27T22:17:00+00:00",
-          "engagement": 472
         }
       ]
     }
