@@ -1,49 +1,50 @@
 {
-  "generated_at": "2026-09-28T20:05:29.098541+00:00",
+  "generated_at": "2026-09-28T22:05:27.330286+00:00",
   "edition_date": "2026-09-28",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 132,
-  "clusters_found": 95,
-  "stories_declared": 6,
+  "posts_considered": 131,
+  "clusters_found": 88,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c9cde28c7",
-      "score": 18.995,
+      "cluster_id": "ca0a03014",
+      "score": 16.357,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Anthropic",
-        "Amazon"
+        "Anthropic"
       ],
       "independent_sources": [
         "9to5Mac",
-        "AWS ML",
-        "ArtificialAnlys",
-        "Hesamation",
+        "MIT Tech Review",
         "The Decoder",
-        "kimmonismus",
-        "mark_k",
-        "synthwavedd"
+        "ValsAI",
+        "claudeai",
+        "theo"
       ],
-      "source_count": 8,
-      "first_seen": "2026-09-28T18:02:10+00:00",
-      "last_seen": "2026-09-28T18:57:13+00:00",
+      "source_count": 6,
+      "first_seen": "2026-09-28T17:03:16+00:00",
+      "last_seen": "2026-09-28T21:22:29+00:00",
       "links": [
         "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
         "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
-        "https://x.com/ArtificialAnlys/status/2104640158364795297",
-        "https://x.com/ArtificialAnlys/status/2104640160709394904",
-        "https://x.com/ArtificialAnlys/status/2104640163297308735",
-        "https://x.com/Hesamation/status/2104642448588976492",
-        "https://x.com/kimmonismus/status/2104639347228061962",
-        "https://x.com/mark_k/status/2104642565240946781",
-        "https://x.com/synthwavedd/status/2104635213200376021"
+        "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+        "https://x.com/ValsAI/status/2104671432517316959",
+        "https://x.com/claudeai/status/2104675005090923000",
+        "https://x.com/theo/status/2104683186215363058"
       ],
       "posts": [
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "When can we say AI made a scientific discovery?. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+          "created_at": "2026-09-28T17:03:16+00:00",
+          "engagement": 0
+        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -61,246 +62,81 @@
           "engagement": 0
         },
         {
-          "author": "synthwavedd",
+          "author": "ValsAI",
           "tier": "commentary",
-          "text": "Claude Sonnet 5.5 scores 56 on Artificial Analysis' Intelligence Index.\n\nThat puts it behind only Claude Opus 5.5, above GPT-6 Astra and miles above GPT-6 Sol.\n\nPretty nuts.",
-          "url": "https://x.com/synthwavedd/status/2104635213200376021",
-          "created_at": "2026-09-28T18:11:51+00:00",
-          "engagement": 1880
+          "text": "When does more reasoning stop being useful and start becoming overhead?\n\nWe ran GPT-6 Astra and Claude Opus 5.5 at every reasoning level on our new benchmark, MysteryMechanism.\n\nThinking longer delivers accuracy gains with the same model at as much as 20x the cost.",
+          "url": "https://x.com/ValsAI/status/2104671432517316959",
+          "created_at": "2026-09-28T20:35:47+00:00",
+          "engagement": 54
         },
         {
-          "author": "kimmonismus",
+          "author": "claudeai",
           "tier": "commentary",
-          "text": "Seriously, this is insane. Claude Sonnet 5.5 Max ranks second on the Artificial Analysis Intelligence Index, even ahead of GPT-6 Astra Max and just a bit below of Opus-5.5. \n\nOpenAI needs to deliver tomorrow.",
-          "url": "https://x.com/kimmonismus/status/2104639347228061962",
-          "created_at": "2026-09-28T18:28:17+00:00",
-          "engagement": 682
+          "text": "What are you exploring with Sonnet 5.5?",
+          "url": "https://x.com/claudeai/status/2104675005090923000",
+          "created_at": "2026-09-28T20:49:58+00:00",
+          "engagement": 74
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "theo",
           "tier": "commentary",
-          "text": "Claude Sonnet 5.5 (max) makes large strides on Terminal-Bench, sitting among the top models for both Terminal-Bench 4.0 and Terminal-Bench-Science. In Terminal-Bench 4.0 it scores 64%, a 50 point increase over Claude Sonnet 5 (max), and slightly above 60% for Opus 5.5 and GPT-6 Astra (xhigh).\n\nOn our leaderboard for Terminal-Bench-Science - a benchmark of agentic terminal use to complete realistic scientific research workflows across domains - it scores 53% and sits behind only GPT-6 Astra and Opus 5.5. Terminal-Bench-Science is not currently included in the Artificial Analysis Intelligence Index.",
-          "url": "https://x.com/ArtificialAnlys/status/2104640158364795297",
-          "created_at": "2026-09-28T18:31:30+00:00",
-          "engagement": 80
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Full breakdown of the individual evaluations in the Artificial Analysis Intelligence Index for Claude Sonnet 5.5 across all reasoning efforts",
-          "url": "https://x.com/ArtificialAnlys/status/2104640163297308735",
-          "created_at": "2026-09-28T18:31:31+00:00",
-          "engagement": 29
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "To achieve its outsized performance, Claude Sonnet 5.5 (max) uses ~193k output tokens per Intelligence Index task, the most we have measured and ~7x that of GPT-6 Astra (max).\n\nHowever, its lower effort settings span a broader area of Intelligence versus Output Tokens per Task tradeoffs, with low, medium, and high effort settings sitting behind GPT-6 Sol high, xhigh, and max efforts - in this area Sol provides higher performance with fewer output tokens.",
-          "url": "https://x.com/ArtificialAnlys/status/2104640160709394904",
-          "created_at": "2026-09-28T18:31:31+00:00",
-          "engagement": 64
-        },
-        {
-          "author": "Hesamation",
-          "tier": "commentary",
-          "text": "BRO… 4 out of 5 smartest models on the AA Intelligence Index are now Claude.\n\nand Sonnet 5.5 is scored HIGHER than Fable 5.1. whatever Fable version they’re distilling into Opus and Sonnet, is absurd.",
-          "url": "https://x.com/Hesamation/status/2104642448588976492",
-          "created_at": "2026-09-28T18:40:36+00:00",
-          "engagement": 616
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Claude Sonnet 5.5 has just been released by @AnthropicAI",
-          "url": "https://x.com/mark_k/status/2104642565240946781",
-          "created_at": "2026-09-28T18:41:04+00:00",
-          "engagement": 139
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Claude Sonnet 5.5 on AWS. Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get started.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
-          "created_at": "2026-09-28T18:57:13+00:00",
-          "engagement": 0
+          "text": "A $200 Claude Code sub gets you ~$9,000 of Opus usage per month.\n\nI have managed to run 3 Claude accounts down to 0% since Opus 5.5 dropped.\n\nWhen analyzing their usage, costs were $2,086, $2,442, and $2,182.\n\nAverage is $2,200/week, so ~$9,000/month",
+          "url": "https://x.com/theo/status/2104683186215363058",
+          "created_at": "2026-09-28T21:22:29+00:00",
+          "engagement": 883
         }
       ]
     },
     {
-      "cluster_id": "c9d0296c9",
-      "score": 12.289,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "sama",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-28T19:24:01+00:00",
-      "last_seen": "2026-09-28T19:58:07+00:00",
-      "links": [
-        "https://x.com/sama/status/2104661956879913457",
-        "https://x.com/testingcatalog/status/2104653374885068959",
-        "https://x.com/testingcatalog/status/2104653693396111597"
-      ],
-      "posts": [
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "@OpenAI 20+ 🤯🤯🤯",
-          "url": "https://x.com/testingcatalog/status/2104653374885068959",
-          "created_at": "2026-09-28T19:24:01+00:00",
-          "engagement": 79
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "OPENAI 🔥: A new OpenAI DevDay teaser is promising 20+ new launches for tomorrow. \n\nWaiting for O the most 👀👀👀",
-          "url": "https://x.com/testingcatalog/status/2104653693396111597",
-          "created_at": "2026-09-28T19:25:17+00:00",
-          "engagement": 228,
-          "video": true
-        },
-        {
-          "author": "sama",
-          "tier": "commentary",
-          "text": "Pretty excited for DevDay tomorrow.\n\nWe have found a new thing.",
-          "url": "https://x.com/sama/status/2104661956879913457",
-          "created_at": "2026-09-28T19:58:07+00:00",
-          "engagement": 496
-        }
-      ]
-    },
-    {
-      "cluster_id": "cabc89c4e",
-      "score": 10.908,
+      "cluster_id": "c88e595f6",
+      "score": 16.17,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "Anthropic",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "TechCrunch AI",
-        "The Robot Report"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-27T20:34:28+00:00",
-      "last_seen": "2026-09-28T18:31:23+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-        "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
-        "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
-        "https://www.bloomberg.com/news/videos/2026-09-28/open-interest-9-28-2026-video",
-        "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
-        "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic’s CEO is about to have dinner with President Trump. This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
-          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-          "created_at": "2026-09-27T20:34:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Breaches Add to Safety Fears as Trump Meets Anthropic CEO. Global anxiety over artificial intelligence risks has intensified following fresh disclosures about a far wider range of breaches by advanced AI models, setting the stage for a high-stakes meeting between Anthropic PBC Chief Executive Officer Dario Amodei and President Donald Trump.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/ai-breaches-add-to-safety-fears-as-trump-meets-anthropic-chief",
-          "created_at": "2026-09-27T23:27:32+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Trump, Anthropic CEO Take AI Safety Debate to Dinner. President Donald Trump and Anthropic CEO Dario Amodei met for dinner as their opposing views on AI safety increasingly shape the debate over how quickly the technology should advance. Amodei has called for “pacing” development of the most advanced models and stronger guardrails, while President Trump has pushed back against slowing AI development as the US races to stay ahead of China. Bloomberg’s Mike Shepard discusses what’s known about the meeting with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
-          "created_at": "2026-09-28T17:24:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Gecko CEO: Physical AI Needs Humans in Control. Gecko Robotics CEO Jake Loosararian says the next phase of AI safety is about keeping humans in control as autonomous systems move into the physical world. He discusses Gecko’s work with Nvidia on an open agent safety platform designed to set boundaries around AI agents operating robots, including in military and industrial settings. Loosararian argues that safety and rapid deployment don’t have to be at odds. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
-          "created_at": "2026-09-28T17:26:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Oil Surges, Nvidia Unleashes a Record $150B Buyback. Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Oil surges as President Trump rejects Iran’s Hormuz proposa. Meanwhile, Nvidia makes a record $150 billion bet on its own stock. Plus, Akamai CEO Tom Leighton on a $12 billion Anthropic deal, LPL Financial CEO Rich Steinmeier on why AI won’t replace your advisor, and SpaceX sends Starship back to the skies. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/open-interest-9-28-2026-video",
-          "created_at": "2026-09-28T17:39:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Robot Report",
-          "tier": "press",
-          "text": "Gecko Robotics works with NVIDIA to add AI agent security and control. Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems. The post Gecko Robotics works with NVIDIA to add AI agent security and control appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
-          "created_at": "2026-09-28T17:41:32+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Nvidia launches new platform for reining in rogue AI agents. As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to [&#8230;]",
-          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-          "created_at": "2026-09-28T18:31:23+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca9dfd13c",
-      "score": 10.672,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
         "Google",
         "Meta",
         "Nvidia",
-        "Microsoft"
+        "Apple",
+        "AMD"
       ],
       "independent_sources": [
+        "9to5Mac",
         "Bloomberg Tech",
         "Engadget",
         "TechCrunch AI",
-        "The Decoder"
+        "The Decoder",
+        "The Verge AI",
+        "TheRundownAI",
+        "rohanpaul_ai"
       ],
-      "source_count": 4,
-      "first_seen": "2026-09-28T12:42:47+00:00",
-      "last_seen": "2026-09-28T18:37:57+00:00",
+      "source_count": 8,
+      "first_seen": "2026-09-28T12:44:53+00:00",
+      "last_seen": "2026-09-28T21:31:35+00:00",
       "links": [
+        "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
+        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
         "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
         "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
         "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
-        "https://www.bloomberg.com/news/articles/2026-09-28/anthropic-openai-executives-urge-oversight-of-self-improving-ai",
-        "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
+        "https://www.bloomberg.com/news/videos/2026-09-28/amd-acquires-fei-fei-li-s-world-labs-for-8-2-billion-video",
         "https://www.bloomberg.com/news/videos/2026-09-28/bloomberg-tech-9-28-2026-video",
-        "https://www.bloomberg.com/news/videos/2026-09-28/meta-hires-mongodb-ceo-to-run-new-ai-platform-video",
-        "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/"
+        "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
+        "https://www.bloomberg.com/news/videos/2026-09-28/open-interest-9-28-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
+        "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/",
+        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+        "https://x.com/TheRundownAI/status/2104672175118803416",
+        "https://x.com/rohanpaul_ai/status/2104671839876472854"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Meta Taps MongoDB CEO to Lead New Enterprise AI Platform. Meta Platforms Inc. tapped MongoDB Inc.’s president and chief executive officer to lead a new AI platform for enterprise customers that Meta CEO Mark Zuckerberg called “the next major pillar of our business.”",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge",
-          "created_at": "2026-09-28T12:42:47+00:00",
+          "text": "Yeah, don’t give Meta’s Muse app access to your Mac. The ability of AI systems to act as agents, carrying out tasks on our behalf, is the single biggest development in the technology. This is the headline capability Siri AI introduces to Apple devices, and I’m inclined to trust the privacy and safety safeguards Apple has put into place. But Siri AI isn’t the only agent you can give full access to your Apple devices, with Meta’s Muse app the latest example – and one tech writer’s experience really underlines why you absolutely don’t want to do this … more…",
+          "url": "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
+          "created_at": "2026-09-28T12:44:53+00:00",
           "engagement": 0
         },
         {
@@ -309,22 +145,6 @@
           "text": "Meta wants to turn Muse into a moneymaker by selling AI services to businesses. Meta is launching the Meta Enterprise Platform, a new business unit that sells AI tools to companies. The article Meta wants to turn Muse into a moneymaker by selling AI services to businesses appeared first on The Decoder .",
           "url": "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
           "created_at": "2026-09-28T14:48:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Anthropic, OpenAI Executives Urge Oversight of Self-Improving AI. Top executives from Anthropic PBC, OpenAI, Meta Platforms Inc. and Microsoft Corp. are urging policymakers to scrutinize the extent that artificial intelligence systems are improving themselves and take steps to safeguard the technology, adding to calls within the industry for greater oversight of AI.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-28/anthropic-openai-executives-urge-oversight-of-self-improving-ai",
-          "created_at": "2026-09-28T15:38:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Meta Hires MongoDB CEO to Run New AI Platform. Meta Platforms Inc. has tapped MongoDB Inc.'s president and chief executive officer, Chirantan \"CJ\" Desai, to lead a new AI platform for enterprise customers. Bloomberg's Seth Fiegerman reports. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/meta-hires-mongodb-ceo-to-run-new-ai-platform-video",
-          "created_at": "2026-09-28T16:04:03+00:00",
           "engagement": 0
         },
         {
@@ -344,11 +164,35 @@
           "engagement": 0
         },
         {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump, Anthropic CEO Take AI Safety Debate to Dinner. President Donald Trump and Anthropic CEO Dario Amodei met for dinner as their opposing views on AI safety increasingly shape the debate over how quickly the technology should advance. Amodei has called for “pacing” development of the most advanced models and stronger guardrails, while President Trump has pushed back against slowing AI development as the US races to stay ahead of China. Bloomberg’s Mike Shepard discusses what’s known about the meeting with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/trump-anthropic-ceo-take-ai-safety-debate-to-dinner-video",
+          "created_at": "2026-09-28T17:24:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Gecko CEO: Physical AI Needs Humans in Control. Gecko Robotics CEO Jake Loosararian says the next phase of AI safety is about keeping humans in control as autonomous systems move into the physical world. He discusses Gecko’s work with Nvidia on an open agent safety platform designed to set boundaries around AI agents operating robots, including in military and industrial settings. Loosararian argues that safety and rapid deployment don’t have to be at odds. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
+          "created_at": "2026-09-28T17:26:23+00:00",
+          "engagement": 0
+        },
+        {
           "author": "TechCrunch AI",
           "tier": "press",
           "text": "Google is killing off Gemini’s Gems in favor of ‘skills’. As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
           "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
           "created_at": "2026-09-28T17:29:50+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Oil Surges, Nvidia Unleashes a Record $150B Buyback. Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Oil surges as President Trump rejects Iran’s Hormuz proposa. Meanwhile, Nvidia makes a record $150 billion bet on its own stock. Plus, Akamai CEO Tom Leighton on a $12 billion Anthropic deal, LPL Financial CEO Rich Steinmeier on why AI won’t replace your advisor, and SpaceX sends Starship back to the skies. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/open-interest-9-28-2026-video",
+          "created_at": "2026-09-28T17:39:08+00:00",
           "engagement": 0
         },
         {
@@ -358,12 +202,261 @@
           "url": "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/",
           "created_at": "2026-09-28T18:37:57+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AMD Acquires Fei-Fei Li’s World Labs for $8.2 Billion. AMD is acquiring World Labs, an AI startup founded by industry pioneer and researcher Fei-Fei Li, in an all-stock transaction valuing World Labs at about $8.2 billion. AMD CEO Lisa Su and World Labs co-founder and CEO Fei-Fei Li sit down with Bloomberg Tech's Ed Ludlow to discuss why AMD is purchasing World Labs, the two companies' shared vision for AI's future encompassing all layers of the stack, and how the industry needs to come together for shared responsibility in developing a safe technology that benefits all of society. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/amd-acquires-fei-fei-li-s-world-labs-for-8-2-billion-video",
+          "created_at": "2026-09-28T20:12:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "Great news for world models and spatial-intelligence.\n\nAMD agreed to buy Dr. Fei-Fei Li's World Labs for ~$8.2B in stock, installing Li as chief scientist.\n\nThats ~64% above the $5B valuation talk of World Lab for a $1B February round, which AMD and Nvidia both joined.",
+          "url": "https://x.com/rohanpaul_ai/status/2104671839876472854",
+          "created_at": "2026-09-28T20:37:24+00:00",
+          "engagement": 36
+        },
+        {
+          "author": "TheRundownAI",
+          "tier": "commentary",
+          "text": "ACQUIRED: AMD has agreed to buy World Labs, the 3D-world AI startup led by \"godmother of AI\" Fei-Fei Li, for $8.2B in stock.\n\nLi will become AMD's chief scientist, reporting to CEO Lisa Su.",
+          "url": "https://x.com/TheRundownAI/status/2104672175118803416",
+          "created_at": "2026-09-28T20:38:44+00:00",
+          "engagement": 27,
+          "video": true
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion. The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "created_at": "2026-09-28T20:39:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
+          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+          "created_at": "2026-09-28T21:31:35+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c24fa72f6",
+      "score": 15.328,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "Hugging Face"
+      ],
+      "independent_sources": [
+        "NVIDIA Developer",
+        "The Robot Report",
+        "The Verge AI",
+        "kimmonismus"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-28T08:56:55+00:00",
+      "last_seen": "2026-09-28T20:47:11+00:00",
+      "links": [
+        "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+        "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+        "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+        "https://x.com/kimmonismus/status/2104674303333863476"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring. To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of...",
+          "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+          "created_at": "2026-09-28T08:56:55+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’. Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to escape their boundaries within [&#8230;]",
+          "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+          "created_at": "2026-09-28T13:36:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Robot Report",
+          "tier": "press",
+          "text": "Gecko Robotics works with NVIDIA to add AI agent security and control. Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems. The post Gecko Robotics works with NVIDIA to add AI agent security and control appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+          "created_at": "2026-09-28T17:41:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "I see AI safety as an engineering challenge... Look at the Hugging Face incident... NVIDIA's new Open Agent Safety Platform (OpenShell)... Hugging Face's contribution monitors allowed traffic for abuse patterns.",
+          "url": "https://x.com/kimmonismus/status/2104674303333863476",
+          "created_at": "2026-09-28T20:47:11+00:00",
+          "engagement": 77
+        }
+      ]
+    },
+    {
+      "cluster_id": "c23f0d948",
+      "score": 14.495,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "claudeai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T15:56:32+00:00",
+      "last_seen": "2026-09-28T20:49:58+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+        "https://x.com/claudeai/status/2104674987164782598",
+        "https://x.com/claudeai/status/2104674993212702803",
+        "https://x.com/claudeai/status/2104675003673325732"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Implementing synthetic monitoring using Amazon Nova Act. Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user-journey validation that moves beyond brittle UI scripts, with a complete sample implementation.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+          "created_at": "2026-09-28T15:56:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Claude Sonnet 5.5 on AWS. Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get started.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+          "created_at": "2026-09-28T18:57:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "A thread of early experiments with Claude Sonnet 5.5.\n\nA fall foliage simulator by @_re_pete, made with Sonnet 5 vs Sonnet 5.5.",
+          "url": "https://x.com/claudeai/status/2104674987164782598",
+          "created_at": "2026-09-28T20:49:54+00:00",
+          "engagement": 2544,
+          "video": true
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "The history of the dinosaurs in under a minute by @kevin_t_ngo, animated in JavaScript from the same prompt, Sonnet 5 vs Sonnet 5.5.",
+          "url": "https://x.com/claudeai/status/2104674993212702803",
+          "created_at": "2026-09-28T20:49:56+00:00",
+          "engagement": 226,
+          "video": true
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "Bouncing-ball physics tests by @forwardeditor from the same prompt, Sonnet 5 vs Sonnet 5.5.",
+          "url": "https://x.com/claudeai/status/2104675003673325732",
+          "created_at": "2026-09-28T20:49:58+00:00",
+          "engagement": 96,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c4e0b3c77",
+      "score": 13.363,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI",
+        "arena"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T20:44:16+00:00",
+      "links": [
+        "https://openai.com/index/basis-tax-workbook-with-astra",
+        "https://x.com/arena/status/2104673568776990762"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Basis completes a tax workbook 2x faster with GPT-6 Astra. GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+          "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+          "created_at": "2026-09-28T00:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
+          "tier": "commentary",
+          "text": "GPT-6 Luna (Max) by @OpenAI is #23 in Agent Arena with +1.6% net improvement across 8K real-world agentic sessions from our global community of users.\n\nIts $0.05 median cost per task is 94% lower than GPT-6 Sol (Max) at $0.82 and 98% lower than GPT-6 Astra (Max) at $2.59.",
+          "url": "https://x.com/arena/status/2104673568776990762",
+          "created_at": "2026-09-28T20:44:16+00:00",
+          "engagement": 106
+        }
+      ]
+    },
+    {
+      "cluster_id": "cbac0f57e",
+      "score": 9.075,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "Alibaba"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T18:31:23+00:00",
+      "last_seen": "2026-09-28T21:49:10+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Nvidia launches new platform for reining in rogue AI agents. As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to [&#8230;]",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+          "created_at": "2026-09-28T18:31:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Nvidia may sell more chips in China as Jensen Huang’s influence over Trump grows. China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+          "created_at": "2026-09-28T21:49:10+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c426ca6eb",
-      "score": 8.256,
+      "score": 7.922,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -423,46 +516,6 @@
           "text": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026. Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
           "url": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
           "created_at": "2026-09-28T15:30:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cec45351d",
-      "score": 8.029,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-28T13:36:06+00:00",
-      "last_seen": "2026-09-28T14:32:00+00:00",
-      "links": [
-        "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/",
-        "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’. Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to escape their boundaries within [&#8230;]",
-          "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-          "created_at": "2026-09-28T13:36:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips. Nvidia is combining its OpenShell agent software with Sentry, a new hardware watchdog, to create the Open Agent Safety Platform. Sentry is supposed to isolate AI agents that break out within milliseconds. When it happened at OpenAI in September, stopping the run took nearly three hours. Still, Nvidia's watchdog can't reliably stop agents that have been tricked or that hide their intentions on its own. The article Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/",
-          "created_at": "2026-09-28T14:32:00+00:00",
           "engagement": 0
         }
       ]

@@ -44,6 +44,261 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-amd-world-labs",
+   "section": "business",
+   "headline": "AMD buys Fei-Fei Li's World Labs for $8.2 billion",
+   "standfirst": "AMD is paying $8.2 billion in stock for the 3D-world AI startup, installing co-founder Fei-Fei Li as chief scientist months after a $1 billion round valued it at $5 billion.",
+   "body": [
+    "AMD agreed to buy World Labs for about $8.2 billion in stock, TechCrunch, Bloomberg and The Verge reported Monday. The startup is led by Fei-Fei Li, whom TheRundownAI called a \"godmother of AI.\" Li will become AMD's chief scientist and report to chief executive Lisa Su, the newsletter said.",
+    "The AI commentator rohanpaul_ai put the price at roughly 64% above the $5 billion valuation talked about earlier. That figure traced to a $1 billion round in February. Separately, the account AndrewCurran_ said Bloomberg was \"breaking out the red banner\" on the deal. AndrewCurran_ called it \"confirmed by both parties,\" not a rumor.",
+    "Both AMD and Nvidia had joined that February round, rohanpaul_ai said. It is an unusual overlap for two companies that otherwise compete to sell chips to AI labs. AMD is now the one buying outright. The deal gives it about 70 researchers who build AI models for robotics and 3D simulation, the same account said.",
+    "rohanpaul_ai said the deal costs AMD less than 1% of its market value. AMD's stock has nearly tripled this year, the commentator noted. rohanpaul_ai compared the move to Nvidia's own practice of bundling AI models with the chips it sells."
+   ],
+   "entities": [
+    "AMD",
+    "World Labs",
+    "Fei-Fei Li",
+    "Nvidia",
+    "Lisa Su"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+    },
+    {
+     "author": "The Verge AI",
+     "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+    },
+    {
+     "author": "Bloomberg Tech",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion"
+    },
+    {
+     "author": "rohanpaul_ai",
+     "url": "https://x.com/rohanpaul_ai/status/2104671839876472854"
+    },
+    {
+     "author": "AndrewCurran_",
+     "url": "https://x.com/AndrewCurran_/status/2104668302182396326"
+    },
+    {
+     "author": "TheRundownAI",
+     "url": "https://x.com/TheRundownAI/status/2104672175118803416"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/TheRundownAI/status/2104672175118803416",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "c23f0d948",
+   "section": "models",
+   "headline": "Claude Sonnet 5.5 lands on AWS as demos flood X",
+   "standfirst": "Anthropic's official account posted a thread of demos built with the new model within hours of release, as AWS made Sonnet 5.5 available on Bedrock the same day.",
+   "body": [
+    "Anthropic's @claudeai account posted a thread of demos built with Claude Sonnet 5.5 within hours of Monday's release. They included a JavaScript animation of dinosaur history and a fall-foliage simulator, each run from the same prompt against the older Sonnet 5 for comparison.",
+    "Amazon Web Services said separately that Sonnet 5.5 is now available on Amazon Bedrock's Global CRIS inference profile and on the Claude Platform on AWS, positioning it as a cheaper, faster model for well-scoped coding and document work. AWS recommends pairing it with Claude Opus 5.5, which it says should handle judgment-heavy tasks instead.",
+    "Individual builders posted their own results in reply to the thread. One used a 60-by-46-pixel emoji to generate a 3D-printable model. Another built a working flowchart tool styled like doodles on graph paper, with shapes that could be dragged and connected on the canvas.",
+    "Anthropic's own release said Sonnet 5.5 generates outputs more than 30% faster than Sonnet 5 and costs up to 30% less per task, a claim reported earlier Monday. The demos posted since then are the first outside evidence of what the model does in practice, credited to individual builders rather than to Anthropic."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Sonnet 5.5",
+    "Amazon Web Services",
+    "Claude Opus 5.5"
+   ],
+   "sources": [
+    {
+     "author": "claudeai",
+     "url": "https://x.com/claudeai/status/2104674987164782598"
+    },
+    {
+     "author": "claudeai",
+     "url": "https://x.com/claudeai/status/2104674993212702803"
+    },
+    {
+     "author": "claudeai",
+     "url": "https://x.com/claudeai/status/2104674989442052393"
+    },
+    {
+     "author": "claudeai",
+     "url": "https://x.com/claudeai/status/2104674998015218069"
+    },
+    {
+     "author": "AWS ML",
+     "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/claudeai/status/2104674987164782598",
+     "after": 1,
+     "video": true
+    },
+    {
+     "url": "https://x.com/claudeai/status/2104674989442052393",
+     "after": 3,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-gemini-replaces-assistant",
+   "section": "products",
+   "headline": "Gemini fully replaces Google Assistant on Android",
+   "standfirst": "9to5Google reported the assistant has been removed from phones, tablets and paired devices across the US and Europe, with no way to switch back.",
+   "body": [
+    "Google Assistant has been removed from Android phones, tablets and paired devices including Wear OS watches, headphones and Android Auto systems across the US and Europe, 9to5Google reported Monday. Gemini now activates instead when users long-press the power button or swipe in from a screen corner, according to the outlet.",
+    "The \"Switch to Google Assistant\" option has disappeared from the Gemini app's settings, 9to5Google said. Google's own support documentation now tells users they can no longer use or switch back to the older assistant on a phone, tablet or paired device. No other outlet had independently reported the rollout as of Monday evening.",
+    "Google Nest and Home smart speakers are not affected yet, 9to5Google said, keeping the older assistant for now on those devices while the phone and tablet rollout continues.",
+    "Google originally planned the Assistant-to-Gemini switch for 2025 before pushing the deprecation into 2026 and setting a final timeline in August, according to 9to5Google's account of Google's own announcements. The move leaves Gemini as Google's only voice assistant on mobile hardware."
+   ],
+   "entities": [
+    "Google",
+    "Gemini",
+    "Google Assistant",
+    "Android"
+   ],
+   "sources": [
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/09/28/google-assistant-gemini-android/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-github-android-security-agent",
+   "section": "security",
+   "headline": "GitHub's AI agent finds 24 Android app flaws",
+   "standfirst": "GitHub Security Lab says its open-source taskflow agent uncovered 24 vulnerabilities in Android apps, including a location-tracking bug in OsmAnd and an account-takeover flaw in Wikipedia's app.",
+   "body": [
+    "GitHub's Security Lab said its open-source \"taskflow\" agent found 24 vulnerabilities across Android apps. One critical bug was in OsmAnd, an app with more than 10 million downloads. The flaw let a malicious app track a device's location and pull its route data. The lab also credited the agent with an account-takeover flaw in the Wikipedia Android app, tied to a hostname-parsing error in how it handles deep links.",
+    "The agent works by splitting a security review into a sequence of custom-prompted steps, GitHub said. That differs from asking a model to scan a whole codebase in one pass. The prompts are tuned for mobile entry points and vulnerability classes specific to Android. A GitHub researcher wrote in the post that \"LLMs can find logic vulnerabilities with critical impact, not just generic bug classes.\"",
+    "GitHub published the agent as the seclab-taskflows repository. Anyone with a Copilot licence can run it against their own codebase from a GitHub Codespace, using a single script, GitHub said. A medium-sized repository takes one to two hours to audit and consumes a significant number of premium model requests, GitHub said.",
+    "The Wikipedia and OsmAnd bugs are logic flaws, the kind automated scanners typically miss. They depend on how an app's own code handles unexpected input, not on a known unsafe function. GitHub did not say whether either app's maintainers have already shipped fixes."
+   ],
+   "entities": [
+    "GitHub",
+    "GitHub Security Lab",
+    "OsmAnd",
+    "Wikipedia"
+   ],
+   "sources": [
+    {
+     "author": "GitHub Blog",
+     "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-jeff-decision-models",
+   "section": "models",
+   "headline": "Solo developer ships Jeff, an open decision-model family",
+   "standfirst": "Jeff mimics the request format of the proprietary Jev API but runs locally in about 22 to 28 milliseconds, trained on synthetic data with no closed-model outputs, its GitHub README says.",
+   "body": [
+    "A developer released Jeff, a family of three open fine-tuned models, according to its GitHub README. Jeff returns calibrated probabilities for multiple-choice decisions from a single forward pass. The models are based on Qwen3.5 and Gemma 4 and range from 1.7 to 9.3 gigabytes. They are released under the Apache 2.0 licence, with MIT-licensed code.",
+    "Jeff uses the same request format as Jev, a proprietary decision-routing API, the README says. It is not affiliated with Jev's maker, TypeSafe, and was built instead on the open AutoJev recipe. The project reports inference times of about 22 milliseconds on an Nvidia RTX Pro 6000 and 28 milliseconds on an Apple M4 Max. It puts Jev's own published times at roughly 114 to 212 milliseconds.",
+    "The models were fine-tuned on synthetic data from Qwen3.8-Flash-Next and trained on local hardware, the README says. No outputs from closed commercial models were used in training, it adds. The repository had drawn 81 stars and four forks by the time it reached the Hacker News front page with 98 points and 11 comments.",
+    "The claims about speed and training data are the developer's own, published in the repository rather than verified by a third party. The README does not disclose accuracy figures alongside its speed numbers."
+   ],
+   "entities": [
+    "Jeff",
+    "Jev",
+    "Qwen",
+    "Gemma",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "GitHub",
+     "url": "https://github.com/firelex/jeff"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-microllm-lab",
+   "section": "products",
+   "headline": "Browser tool lets users run seven tiny LLMs",
+   "standfirst": "MicroLLM Lab runs 25-million to 360-million-parameter models entirely on-device via WebGPU, compressing them to 4 bits per parameter so they fit in under 85 megabytes of memory.",
+   "body": [
+    "A browser-based tool called MicroLLM Lab lets users load and compare small language models, according to the project's own page. The models range from 25 million to 360 million parameters. Nothing needs installing, and no account is required. The project reached the Hacker News front page Monday with 88 points and 32 comments.",
+    "The site runs models locally using WebGPU, with WebAssembly and plain JavaScript as fallbacks, the page says. It compresses each model from 16-bit floating point down to 4 bits per parameter, cutting memory use by about 75%. That leaves the largest models needing roughly 50 to 84 megabytes of browser memory. The page reports sub-10-millisecond time to a model's first output token.",
+    "Models are cached in the browser's own IndexedDB storage once downloaded, the page says. No prompt or model data is sent to a server after the first load, it adds. The project credits an existing open project, petitgpt, as its inspiration. Its own page does not name who built it beyond that credit.",
+    "The models on offer are far smaller than mainstream chatbots. They are better suited to showing how local inference works than to serious daily use."
+   ],
+   "entities": [
+    "MicroLLM Lab",
+    "WebGPU"
+   ],
+   "sources": [
+    {
+     "author": "stateofutopia.com",
+     "url": "https://stateofutopia.com/experiments/microllmlab/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-shopify-webmcp-checkout",
+   "section": "products",
+   "headline": "Shopify lets AI agents complete purchases at checkout",
+   "standfirst": "The company added three new WebMCP tools that let browser-based agents read, update and complete a Shopify checkout without scraping the page, TechCrunch reported.",
+   "body": [
+    "Shopify said it is expanding its WebMCP support to checkout, including Shop Pay, TechCrunch reported Monday. The move lets browser-based AI agents complete a purchase with a buyer's authorization. That replaces the earlier approach of relying on screenshots or scraping a webpage. The rollout adds three tools, named get_checkout, update_checkout and complete_checkout, letting an agent read a checkout screen and change details such as address or delivery options.",
+    "Gil Greenberg, Shopify's staff product manager for agentic commerce, told TechCrunch that \"shopping with an agent shouldn't feel like watching paint dry.\" The feature builds on Shopify's existing hosted MCP server. It also uses the Universal Commerce Protocol, a structured API Shopify says is meant to keep transactions and required disclosures accurate.",
+    "TechCrunch named Meta's Muse and the startup Instinct as agents with direct partnerships tied to the launch. Shopify said the checkout tools are rolling out to all eligible merchants, without giving a specific completion date for the rollout.",
+    "The launch follows AI agents from companies such as Meta and OpenAI gaining the ability to act on a user's behalf inside ordinary websites. That moves checkout from a manual click-through process to something an agent can complete unattended. Shopify did not say what share of transactions it expects such agents to handle."
+   ],
+   "entities": [
+    "Shopify",
+    "Shop Pay",
+    "Muse",
+    "Instinct"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-body-proxy-tender-claws",
+   "section": "ai",
+   "headline": "Tender Claws builds AI game for Meta glasses",
+   "standfirst": "Body Proxy has players complete about 100 odd tasks while an AI watches through Ray-Ban Meta glasses and judges their performance in real time, UploadVR reported.",
+   "body": [
+    "The studio Tender Claws released Body Proxy, a location-based game, UploadVR reported. Players wear Ray-Ban Meta smart glasses while an AI agent watches and judges their attempts at roughly 100 randomized real-world tasks. The AI also narrates the experience as it unfolds. Onlookers can watch a live feed of avatars and performance scores on a nearby screen.",
+    "He described how the AI evaluates whether a task was completed using physical objects around the player. Each session ends with a generated video report analyzing the player's performance. Co-director Danny Cannizzaro told UploadVR that everything the user does happens \"within the context of this narrative experience, in which they take on a role.\"",
+    "Cannizzaro and Samantha Gorman co-direct Tender Claws, the studio behind the VR title Stranger Things VR. Body Proxy won the SXSW 2026 XR Experience Jury Award, and organizers selected it for the TIFF market this year, according to UploadVR.",
+    "Touring plans extend into next year, he said, though the studio has not announced a public release date or price for a wider audience. Cannizzaro said the studio is building a version \"for free-roaming across a variety of spaces.\""
+   ],
+   "entities": [
+    "Tender Claws",
+    "Body Proxy",
+    "Meta",
+    "Ray-Ban Meta glasses"
+   ],
+   "sources": [
+    {
+     "author": "UploadVR",
+     "url": "https://www.uploadvr.com/body-proxy-is-a-unique-ray-ban-meta-game-from-tender-claws/"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
    "cluster_id": "c9d0296c9",
    "section": "products",
    "headline": "OpenAI teases 20-plus launches at Tuesday DevDay",
@@ -88,7 +343,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-hf-bid-fails",
@@ -114,7 +369,7 @@
      "url": "https://www.cnbc.com/2026/09/28/openai-spark-hugging-face-bid-war-early-investment-bid-ahead-of-nvidia.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-manus-2-cue",
@@ -140,7 +395,7 @@
      "url": "https://www.bloomberg.com/news/articles/2026-09-28/manus-expands-ai-tools-in-renewed-push-into-agent-market"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ai-intelligence-explosion",
@@ -173,7 +428,7 @@
      "url": "https://qz.com/ai-researchers-intelligence-explosion-oversight-092826"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-cf-cli-cloudflare",
@@ -199,7 +454,7 @@
      "url": "https://news.ycombinator.com/item?id=49879577"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cabc89c4e",
@@ -237,7 +492,7 @@
      "url": "https://www.cnbc.com/2026/09/28/trump-ai-tech-lunch.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-un-scraping-xss-relay",
@@ -260,7 +515,7 @@
      "url": "https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cc9936698",
