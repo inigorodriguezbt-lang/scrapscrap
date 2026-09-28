@@ -2,6 +2,48 @@
  "edition_date": "2026-09-28",
  "stories": [
   {
+   "cluster_id": "c996ff604",
+   "section": "products",
+   "entities": [
+    "Meta",
+    "Mark Zuckerberg",
+    "MongoDB"
+   ],
+   "headline": "Meta launches Enterprise Platform, hires MongoDB's CEO to run it",
+   "standfirst": "Mark Zuckerberg says the new business line will sell Meta's Muse agent and AI tools to companies, led by Chirantan Desai, who was chief executive of MongoDB until today.",
+   "body": [
+    "Meta is launching a new Meta Enterprise Platform to sell its AI tools to businesses. Chief executive Mark Zuckerberg called it \"the next major pillar\" of the company's business.",
+    "Zuckerberg named Chirantan \"CJ\" Desai to run the effort. Desai, MongoDB's chief executive and president, becomes Meta's new Chief Enterprise Platform Officer and will report to Zuckerberg. Bloomberg reported that Meta tapped Desai to lead the new AI platform for enterprise customers, and that MongoDB's shares fell after the announcement.",
+    "The platform will offer Meta's technology stack to businesses and developers at first, Zuckerberg said. That includes the Muse AI agent, Meta Business Agent, Muse API and Muse Code. He said Desai had led product and engineering at Cloudflare and spent nearly eight years at ServiceNow, including as president and chief operating officer, before joining Meta.",
+    "Zuckerberg framed the move as a bet on selling AI to businesses, not just consumers. He said Meta already serves billions of people and hundreds of millions of businesses at scale. The enterprise push will draw on Meta's \"advanced models, leading agents, large-scale infrastructure,\" he said, built up through years of working with businesses."
+   ],
+   "sources": [
+    {
+     "author": "Mark Zuckerberg",
+     "url": "https://x.com/finkd/status/2104550609403695581"
+    },
+    {
+     "author": "Mark Zuckerberg",
+     "url": "https://x.com/finkd/status/2104550613149163600"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-28/mongodb-s-ceo-steps-down-for-senior-role-at-meta-shares-plunge"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/finkd/status/2104550609403695581",
+     "after": 1
+    },
+    {
+     "url": "https://x.com/finkd/status/2104550613149163600",
+     "after": 2
+    }
+   ],
+   "placement": "lead"
+  },
+  {
    "cluster_id": "find-openai-pauses-training-agents",
    "section": "security",
    "headline": "OpenAI pauses frontier model training after agent breaches",
@@ -29,7 +71,143 @@
      "after": 2
     }
    ],
-   "placement": "lead"
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-artificial-analysis-cyber-index",
+   "section": "research",
+   "single_source": true,
+   "entities": [
+    "Artificial Analysis",
+    "Nvidia",
+    "IBM",
+    "Vercel"
+   ],
+   "headline": "Artificial Analysis says top AI models refuse third of cyber tasks",
+   "standfirst": "Artificial Analysis's new Cyber Index, built with Collinear, IBM, Nvidia and Vercel, found Grok 4.7 and MiMo-V2.6-Pro on top while Claude and GPT-6 models refused a third of tasks.",
+   "body": [
+    "Artificial Analysis launched a Cyber Index and Cyber Index Alliance with Collinear AI, IBM, Nvidia and Vercel, a new benchmark measuring how well AI agents find and patch vulnerabilities in code.",
+    "The index combines three benchmarks. CWE-Bench-AA, from Collinear, tests patching across 120 tasks spanning the OWASP Top 10. DeepsecBench-AA, from Vercel, scores vulnerability discovery against a set of expert-verified findings. CyberGym-E2E-AA, from Berkeley RDI, asks agents to find a memory-safety bug, write a proof-of-concept exploit, then patch it.",
+    "Grok 4.7 and MiMo-V2.6-Pro topped the leaderboard with a score of 56, Artificial Analysis said. GPT-6 Luna followed at 53, then GLM-5.3-Flash at 50 and Muse Spark 1.3 at 44.",
+    "Several frontier models scored lower because they refused tasks on safety grounds, Artificial Analysis said. Claude Opus 5.5, Claude Fable 5.1, Gemini 3.8 Flash and two GPT-6 variants declined 32% to 38% of the index's tasks. That left them trailing the leaders by 19 to 31 points.",
+    "Most of that gap came from CyberGym-E2E-AA, the end-to-end benchmark, Artificial Analysis said. GPT-6 Sol and GPT-6 Astra refused every task there. Claude Opus 5.5 refused 98% of tasks and Claude Fable 5.1 refused 99%. The company did not say why refusal rates varied so widely by benchmark."
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://artificialanalysis.ai/articles/artificial-analysis-cyber-index"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2104548886442647864"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2104548886442647864",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-openappa-agent-guardrails",
+   "section": "security",
+   "single_source": true,
+   "entities": [
+    "OpenAPPA"
+   ],
+   "headline": "Developer releases OpenAPPA to stop AI agents leaking data",
+   "standfirst": "OpenAPPA labels data by trust level as AI agents work, blocking exfiltration attempts without the blanket blacklists that its maker says break other agent frameworks.",
+   "body": [
+    "A developer released OpenAPPA, an open-source tool that tracks how data moves through an AI agent's tool calls. It blocks data from leaving through unauthorized channels, according to the project's site. The tool reached 18 points and seven comments on Show HN within an hour of posting.",
+    "The tool runs outside the agent's own execution loop. It reads a declarative configuration file that assigns a security label to data based on its source and trust level, the project says. Labels can only grow more restrictive as data moves through a session, never less. The developer says that makes the system resistant to prompt injection.",
+    "When OpenAPPA blocks an action, it returns what its documentation calls a \"remedy plan\" rather than simply failing. Options include sanitizers that mask sensitive fields, a request for human approval, or routing the read through an isolated subagent. The project is open-source and MIT-licensed. Its developer says it integrates with Archestra and Claude Code.",
+    "The project's own benchmark reports 89% task completion with zero successful data-exfiltration attacks. It says that outperforms Microsoft's FIDES on the same test. The comparison is the developer's own measurement, and no independent benchmark of OpenAPPA has been published yet."
+   ],
+   "sources": [
+    {
+     "author": "OpenAPPA",
+     "url": "https://www.openappa.com/"
+    },
+    {
+     "author": "Show HN",
+     "url": "https://news.ycombinator.com/item?id=49877515"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-sima-ai-physical-ai-chips",
+   "section": "chips",
+   "single_source": true,
+   "entities": [
+    "SiMa.ai",
+    "Nvidia"
+   ],
+   "headline": "SiMa.ai raises $150 million to challenge Nvidia on AI chips",
+   "standfirst": "The Series C values the physical-AI chip startup at $1.45 billion, SiliconAngle reports, as SiMa.ai pitches lower-power silicon for robots and drones against Nvidia's CUDA platform.",
+   "body": [
+    "SiMa.ai raised $150 million in a Series C round led by Fidelity Management & Research and Amplify. The round values the physical-AI chip startup at $1.45 billion, SiliconAngle reported.",
+    "Alter Venture Partners, Dell Technologies Capital, StepStone Group, AllianceBernstein, Baron Capital and J.P. Morgan also joined the round, according to the outlet. SiMa.ai builds custom silicon and software for physical AI. That covers the hardware inside robots, drones and autonomous vehicles, pairing AI models with sensors and actuators.",
+    "The company positions its chips as a lower-power, faster-to-deploy alternative to Nvidia's CUDA architecture. It says customers can get running in days rather than the months a Nvidia-based system can take, SiliconAngle reported. SiMa.ai contrasted its approach with Nvidia's Jetson AGX Thor. That chip delivers 2,000 FP4 TOPS, SiMa.ai said, but at the cost of high complexity and power draw.",
+    "SiMa.ai said it aims to deliver 1,000 TOPS with hardware due by mid-2028, targeting cost-sensitive mid- to high-end applications rather than competing with Nvidia at the top of the market. The comparisons are the company's own. SiliconAngle did not report independent benchmarks of SiMa.ai's current chips."
+   ],
+   "sources": [
+    {
+     "author": "SiliconAngle",
+     "url": "https://siliconangle.com/2026/09/28/physical-ai-custom-chip-producer-sima-ai-raises-150m-at-1-45b-valuation/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-404media-copilot-prompts",
+   "section": "security",
+   "entities": [
+    "Microsoft",
+    "Copilot",
+    "404 Media"
+   ],
+   "headline": "Contractors read Microsoft Copilot users' private prompts, 404 Media reports",
+   "standfirst": "Human reviewers hired through Prolific evaluate Copilot's image edits and are exposed to requests for sexual imagery, upskirt photos and pro-anorexia content, contractor documents show.",
+   "body": [
+    "Human contractors review Microsoft Copilot users' private prompts and uploaded images, according to internal documents 404 Media obtained. Some of the material includes requests for sexual imagery. Companies including Prolific hire the reviewers, the outlet said.",
+    "The contractors do not filter content for safety, 404 Media reported. Instead they grade whether Copilot's image edits followed instructions correctly and contain no visual artifacts, which is Microsoft's stated reason for the review. In the process, the outlet said, they see material including upskirt photos, altered images of real women in suggestive poses, and sexualized images of cartoon characters.",
+    "One contractor told 404 Media: \"I just came across an image set that consisted of eight upskirt photos.\" Others described seeing pro-anorexia material and what they believed was potentially illegal content, the outlet reported.",
+    "A Microsoft spokesperson said contractors assess whether Copilot's image edits followed user instructions and contain no visual artifacts. Microsoft did not directly address contractors' accounts of the material they see. The spokesperson said the company \"uses customer data as described in our terms of use, including to improve our products and enforce our code of conduct.\""
+   ],
+   "sources": [
+    {
+     "author": "404 Media",
+     "url": "https://www.404media.co/humans-reading-copilot-prompts-images/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-instinct-1b-raise",
+   "section": "business",
+   "entities": [
+    "Instinct",
+    "Meta",
+    "Noah Shinn"
+   ],
+   "headline": "Instinct raises $1 billion Series C at $10 billion valuation",
+   "standfirst": "TechCrunch reports the personal AI agent startup's valuation quadrupled in a month, as investors Sequoia, Benchmark and Coatue backed founder Noah Shinn's bet against Meta's rival Muse assistant.",
+   "body": [
+    "Instinct raised $1 billion in a Series C round that values the AI agent startup at $10 billion, TechCrunch reported. The round came from Sequoia Capital, Benchmark Capital and Coatue. It arrived about a month after a $350 million round valued the company at $2.5 billion, according to the outlet.",
+    "Instinct's AI agent books travel, makes restaurant reservations, buys items, pays bills, cancels subscriptions and orders groceries on a user's behalf. It uses its own phone number and computer to complete tasks, TechCrunch reported. Users interact with it over SMS. The company has not built a mobile app.",
+    "The company added a \"concierge\" service that places phone calls to book appointments at places without online booking. It also introduced a \"trusted person network\" that lets a user's agent coordinate plans with a friend's agent, according to TechCrunch.",
+    "Founder Noah Shinn told TechCrunch: \"We're building Instinct to be the best personal agent that can handle the deeply personal nuances of everyday life... we're just getting started.\" TechCrunch noted Instinct now competes with Meta's Muse assistant, which offers similar tasks with deeper integration into Meta's social platforms. Instinct has not disclosed user numbers, the outlet said."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+    }
+   ],
+   "placement": "front"
   },
   {
    "cluster_id": "cdf26eded",
@@ -98,7 +276,7 @@
      "url": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-navier-stokes-reaction",
@@ -120,7 +298,7 @@
      "url": "https://www.wired.com/story/solving-maths-greatest-problems-was-an-art-form-until-ai/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-dhs-ai-foia-redaction",
@@ -143,7 +321,7 @@
      "url": "https://www.engadget.com/2270348/the-us-government-plans-to-use-ai-to-help-redact-documents/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ai-coworkers-skydive-anything",
@@ -165,7 +343,7 @@
      "url": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-sakana-sail-robot-scaling",
@@ -199,7 +377,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-holo4-computer-use-agents",
@@ -228,7 +406,7 @@
      "url": "https://x.com/hcompany_ai/status/2104508207582367807"
     }
    ],
-   "placement": "front",
+   "placement": "inside",
    "embeds": [
     {
      "url": "https://x.com/hcompany_ai/status/2104508207582367807",
@@ -462,6 +640,10 @@
   {
    "cluster_id": "find-openai-pauses-training-agents",
    "replaced": "cdf26eded"
+  },
+  {
+   "cluster_id": "c996ff604",
+   "replaced": "find-openai-pauses-training-agents"
   }
  ]
 }
