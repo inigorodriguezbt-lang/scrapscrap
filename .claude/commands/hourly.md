@@ -14,10 +14,10 @@ not there.
 builds it). It is the brief and the finds merged into one ranked list, with
 everything already published removed and near-matches flagged `similar_to`,
 and it carries `published_48h` (every headline that ran in the last two days)
-and `snippets_48h` (every snippet line). **Do not open the edition files, the
-brief or the finds file to check what has run:** they are 100 KB and more, and
-everything you need from them is in the desk file. Open the brief only for a
-cluster's full post text if the desk's excerpt is not enough.
+and `snippets_48h` (every snippet line). Use those lists to check what has run
+instead of opening the edition files, which are 100 KB and more. Open the
+brief and the finds whenever you want the full posts or details: saving time
+on bookkeeping is the point, never cutting the reporting.
 
 Every story already published is live, and some already have posts pointing
 at them. You never rewrite or reorder them. The one way the lead changes is
