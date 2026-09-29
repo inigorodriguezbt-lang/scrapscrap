@@ -483,6 +483,95 @@
    "tag": "research",
    "published_at": "2026-09-29T00:00:00+00:00",
    "id": "peking-university-researchers-say-language-models"
+  },
+  {
+   "text": "Claude.ai, the API, Claude Code, Cowork and the Console suffered elevated errors from 14:21 UTC, and a second fault blocked sign-ins, Anthropic's status page says; service recovered at 14:59 UTC.",
+   "why": "Anthropic warns that some messages sent between 14:00 and 14:59 UTC may not have been saved, and the incident reached the Hacker News front page with 154 points.",
+   "source": {
+    "name": "Claude Status",
+    "url": "https://status.claude.com/incidents/4xvtc2gnq73l"
+   },
+   "tag": "products",
+   "published_at": "2026-09-29T14:59:00+00:00",
+   "id": "claude-ai-the-api-claude-code"
+  },
+  {
+   "text": "Perplexity CEO Aravind Srinivas says Perplexity Computer, running Claude Opus 5.5, built a browser-based open-world game by renting its own GPUs, running headless Blender and designing audio, for about $2,000 in credits.",
+   "why": "It is a maker's demo with a playable link, so the cost and the degree of autonomy are Perplexity's claims and have not been independently checked.",
+   "source": {
+    "name": "Aravind Srinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2104941391272956125"
+   },
+   "embed": "https://x.com/AravSrinivas/status/2104941391272956125",
+   "tag": "agents-coding",
+   "published_at": "2026-09-29T14:28:30+00:00",
+   "id": "perplexity-ceo-aravind-srinivas-says-perplexity"
+  },
+  {
+   "text": "Victor Taelin says he is preparing a trip to San Francisco for a $20 million raise for Bend, and plans two internal teams, BendCore for the language and SupGen for symbolic AI research.",
+   "why": "Taelin's post, which drew 290 likes, also lists plans to rewrite Bend's proof kernel in Bend itself, so the roadmap is his own and the raise has not been confirmed.",
+   "source": {
+    "name": "Victor Taelin on X",
+    "url": "https://x.com/VictorTaelin/status/2104949395770712276"
+   },
+   "tag": "fundraising",
+   "published_at": "2026-09-29T14:40:18+00:00",
+   "id": "victor-taelin-says-he-is-preparing"
+  },
+  {
+   "text": "OpenResearch, a tool that turns coding agents into research agents, now ships as a desktop app for macOS on Apple Silicon and Intel, Windows x64, and Linux on x64 and ARM, alphaXiv says.",
+   "why": "The desktop builds let people run the research agent on their own machines, which alphaXiv frames as owning the whole stack end to end.",
+   "source": {
+    "name": "alphaXiv on X",
+    "url": "https://x.com/askalphaxiv/status/2104947053642047521"
+   },
+   "tag": "agents-coding",
+   "published_at": "2026-09-29T14:51:00+00:00",
+   "id": "openresearch-a-tool-that-turns-coding"
+  },
+  {
+   "text": "Show HN: Jevstiller trains a small local model on a text-classification API's answers, and its author says it returns the API's label on at least a chosen share of requests.",
+   "why": "The author reports about 15 ms on a CPU against roughly 300 ms for the API, at a cost of 4 to 8 points of coverage; the post had 18 points on Hacker News.",
+   "source": {
+    "name": "Jevstiller",
+    "url": "https://jevstiller.pages.dev/posts/the-guarantee/"
+   },
+   "tag": "research",
+   "published_at": "2026-09-29T12:05:07+00:00",
+   "id": "show-hn-jevstiller-trains-a-small"
+  },
+  {
+   "text": "Xiaomi's MiMo team proposes grading groups of code-agent attempts together, so passing solutions of different quality get different rewards, in a paper that had 65 upvotes on Hugging Face's daily papers.",
+   "why": "Binary test rewards give every passing attempt the same score under GRPO, and the authors argue that hides which implementations are actually better.",
+   "source": {
+    "name": "Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2609.32577"
+   },
+   "tag": "research",
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "xiaomi-s-mimo-team-proposes-grading"
+  },
+  {
+   "text": "Tencent Hunyuan researchers study scaling laws for multimodal models that skip the pretrained visual encoder and learn from raw pixels, in a paper with 53 upvotes on Hugging Face's daily papers.",
+   "why": "Encoder-free designs are simpler, but the authors say their scaling behaviour had not been studied systematically until now.",
+   "source": {
+    "name": "Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2609.35457"
+   },
+   "tag": "research",
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "tencent-hunyuan-researchers-study-scaling-laws"
+  },
+  {
+   "text": "Qwen's QwenGyre is an elastic reinforcement-learning framework for training agents on long-horizon tasks that run for hours and nearly 1 million tokens per rollout, its paper says.",
+   "why": "The paper, which had 22 upvotes on Hugging Face's daily papers, targets the cost of applying online reinforcement learning to such long executions.",
+   "source": {
+    "name": "Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2609.33848"
+   },
+   "tag": "research",
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "qwen-s-qwengyre-is-an-elastic"
   }
  ]
 }
