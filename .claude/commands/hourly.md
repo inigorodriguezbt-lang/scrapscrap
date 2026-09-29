@@ -10,23 +10,25 @@ not there.
 
 ## What is already published
 
-Read `data/editions/<today>.json` if it exists. **Every story in that file is
-already live on the site, and some already have posts pointing at them.** You
-are not rewriting any of it and not reordering it. The one way the lead
-changes is `"promote": true` on a new story, below.
+**Read `data/desk/<today>.json` and work from it** (`python -m pipeline.desk`
+builds it). It is the brief and the finds merged into one ranked list, with
+everything already published removed and near-matches flagged `similar_to`,
+and it carries `published_48h` (every headline that ran in the last two days)
+and `snippets_48h` (every snippet line). **Do not open the edition files, the
+brief or the finds file to check what has run:** they are 100 KB and more, and
+everything you need from them is in the desk file. Open the brief only for a
+cluster's full post text if the desk's excerpt is not enough.
 
-Read the newest brief in `data/briefs/`. Each entry under `stories` is a
-cluster that cleared the independent-source threshold, or a lab's own release
-marked `"single_source": true`. Each carries `interest`: `want`, `neutral` or
-`dull`.
+Every story already published is live, and some already have posts pointing
+at them. You never rewrite or reorder them. The one way the lead changes is
+`"promote": true` on a new story, below.
 
-Read `data/desk/<today>.json` first (`python -m pipeline.desk` builds it): the
-brief and the finds merged into one list, with everything already published
-removed and near-matches flagged `similar_to`. It saves you checking what has
-run. Then read `data/finds/<today>.json` if it exists (`python -m pipeline.discover`
-writes it): trending models, Spaces and papers on Hugging Face, and AI stories
-and Show HN launches on Hacker News, each with its traction and a link to the
-artifact. This is where most of the interesting material is. It also carries
+Brief clusters cleared the independent-source threshold, or are a lab's own
+release marked `"single_source": true`; each carries `interest` (`want`,
+`neutral` or `dull`). Finds are trending models, Spaces and papers on Hugging
+Face, and AI stories and Show HN launches on Hacker News, each with its
+traction and a link to the artifact. This is where most of the interesting
+material is. Finds also carry
 **tips** from HuggingNews and Techmeme (leads, never sources: report from the
 posts and pages they credit and never cite them) and TestingCatalog (its own
 reporting, citable as unconfirmed). An `update` find is an old event with a
@@ -50,7 +52,7 @@ shipped in the last seven days, the demos, head-to-heads and stunts people
 post about it are stories, and the clock runs on the reaction rather than the
 release (`11-beat.md`, "The week after a launch"). Two things that follow:
 the 48-hour window on those posts is the real limit, and this material repeats
-across cycles, so read the last two editions before writing one. If the merge
+across cycles, so check `published_48h` in the desk file before writing one. If the merge
 step calls your story an already-published repeat, it is usually right.
 
 Write **every cluster whose `cluster_id` does not already appear in today's
@@ -147,9 +149,12 @@ If there is nothing new, do not create the file.
 
 ## Then
 
+Check the new file **before** merging, and fix it there: it is small, while
+today's edition is large and every fix inside it costs a full read.
+
 ```bash
+python -m pipeline.stylecheck data/editions/<today>.new.json
 python -m pipeline.merge --edition data/editions/<today>.json --new data/editions/<today>.new.json
-python -m pipeline.stylecheck data/editions/<today>.json
 ```
 
 **Rewrite until the checker passes.** Do not relax a threshold to fit a

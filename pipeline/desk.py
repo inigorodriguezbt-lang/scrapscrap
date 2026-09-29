@@ -165,8 +165,14 @@ def main() -> None:
     DESK_DIR.mkdir(parents=True, exist_ok=True)
     day = utcnow().date().isoformat()
     path = DESK_DIR / f"{day}.json"
+    # What has already run, in one line each, so the writer never has to open
+    # the edition files (100 KB a day and growing) just to avoid a repeat.
+    published = [h for h, _ in _recent_stories()]
+    snippets = [s["text"][:110] for s in load_snippets(2)]
     path.write_text(json.dumps({"generated_at": utcnow().isoformat(timespec="seconds"),
-                                "items": items}, indent=1, ensure_ascii=False) + "\n",
+                                "items": items,
+                                "published_48h": published,
+                                "snippets_48h": snippets}, indent=1, ensure_ascii=False) + "\n",
                     encoding="utf-8")
     print(f"{len(items)} fresh, unpublished candidates → {path}")
 

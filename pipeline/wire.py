@@ -43,7 +43,14 @@ def load_feeds() -> dict:
 
 def get(url: str, timeout: int = 20) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    return urllib.request.urlopen(req, timeout=timeout).read()
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        body = response.read()
+        # Some servers (DeepMind's blog) gzip the feed without being asked,
+        # and urllib does not undo it, so the parser saw binary and failed.
+        if response.headers.get("Content-Encoding", "").lower() == "gzip" and body[:2] == b"\x1f\x8b":
+            import gzip
+            body = gzip.decompress(body)
+        return body
 
 
 def parse_date(raw: str | None) -> dt.datetime | None:

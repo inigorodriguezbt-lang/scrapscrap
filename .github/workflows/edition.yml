@@ -5,8 +5,9 @@ name: Publish edition
 # environment-variables field is explicitly not (it warns against
 # credentials), which is why the schedule lives here.
 on:
-  schedule:
-    - cron: "5 * * * *"       # hourly
+  # The hourly schedule is off: the paper is now written by the Claude Code
+  # routine every two hours, and this job failed on every scheduled run.
+  # It can still be started by hand.
   workflow_dispatch:
 
 permissions:

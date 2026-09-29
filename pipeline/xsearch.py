@@ -239,6 +239,49 @@ def get_provider() -> Provider:
     return PROVIDERS[name]()
 
 
+# The sweep for a cycle that has only the Xquik MCP connector, not an API key.
+# The agent pastes this into the connector's `execute` tool: every query runs
+# inside Xquik's sandbox and only compact rows come back, instead of seven
+# pages of raw tweet JSON landing in the agent's context. The rows are then
+# written to a file and handed to `--ingest`, which does the rest.
+CONNECTOR_JS = """async () => {
+  const plan = %(plan)s;
+  const since = %(since)s;
+  const rows = [], seen = new Set();
+  for (const [q, n] of plan) {
+    const r = (await xquik.request({path: '/api/v1/x/tweets/search',
+      query: {q, limit: n, queryType: 'Latest', ...(since ? {sinceTime: since} : {})}})).result;
+    for (const t of (r.tweets || []).slice(0, n)) {
+      if (seen.has(t.id)) continue; seen.add(t.id);
+      rows.push([t.id, t.author?.username || '', t.created, t.like_count || 0,
+        t.retweet_count || 0, t.reply_count || 0,
+        (t.media || []).map(m => m.type).join(','), (t.text || '').slice(0, 600)]);
+    }
+  }
+  return JSON.stringify(rows);
+}"""
+
+
+def connector_script(budget: int, state: Path | None) -> str:
+    plan = budgeted_plan(budget, budget)
+    since = load_watermark(state) if state else None
+    return CONNECTOR_JS % {"plan": json.dumps([[q, n] for q, n in plan]),
+                           "since": json.dumps(since)}
+
+
+def ingest(rows: list, provider: Provider) -> list[dict]:
+    """Compact connector rows → the paper's raw record shape."""
+    out = []
+    for row in rows:
+        tid, handle, created, likes, reposts, replies, media, text = row
+        out.append(provider._record(
+            tweet_id=tid, author=handle or "unknown", text=text,
+            created=_iso(created), url=f"https://x.com/{handle}/status/{tid}",
+            likes=likes, reposts=reposts, replies=replies,
+            media=[m for m in (media or "").split(",") if m]))
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="Search X through a paid provider.")
     ap.add_argument("--query", help="X search string; advanced operators allowed")
@@ -253,9 +296,36 @@ def main() -> None:
                          "run are fetched, so none is paid for twice")
     ap.add_argument("--check", action="store_true", help="report configuration only")
     ap.add_argument("--out", type=Path, help="write JSONL here instead of stdout")
+    ap.add_argument("--connector-script", action="store_true",
+                    help="print the Xquik `execute` script for this cycle's sweep "
+                         "(use with --budget and --state); no API key needed")
+    ap.add_argument("--ingest", type=Path, metavar="ROWS_JSON",
+                    help="turn the connector script's rows into --out and advance --state")
     args = ap.parse_args()
 
     provider = get_provider()
+
+    if args.connector_script:
+        print(connector_script(args.budget or 100, args.state))
+        return
+
+    if args.ingest:
+        raw = args.ingest.read_text(encoding="utf-8").strip()
+        rows = json.loads(raw)
+        if isinstance(rows, str):            # the tool's result, still JSON-encoded
+            rows = json.loads(rows)
+        records = ingest(rows, provider)
+        since = load_watermark(args.state) if args.state else None
+        if args.state:
+            save_watermark(args.state, records, since or int(utcnow().timestamp()))
+        out = args.out or RAW_DIR / f"x-{utcnow().strftime('%Y%m%dT%H%M%SZ')}.jsonl"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with out.open("w", encoding="utf-8") as fh:
+            for record in records:
+                fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+        videos = sum(1 for r in records if "video" in r["media"])
+        print(f"{len(records)} posts ({videos} with video) → {out}")
+        return
 
     if args.check:
         print(f"provider : {provider.name}")

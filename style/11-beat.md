@@ -40,8 +40,8 @@ read it. Four conditions, all of them:
 - no story already published covers the same posts.
 
 That last one is not a formality. This material clusters, so the same demo
-reaches the desk three cycles running under three different accounts. Read
-the last two editions before writing, and let the merge step's repeat
+reaches the desk three cycles running under three different accounts. Check
+`published_48h` in the desk file before writing, and let the merge step's repeat
 detection stand when it fires. A second story about the same overnight build
 is worse than no story.
 
