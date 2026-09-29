@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T04:07:28.634269+00:00",
+  "generated_at": "2026-09-29T06:05:33.379322+00:00",
   "edition_date": "2026-09-29",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 135,
-  "clusters_found": 92,
-  "stories_declared": 8,
+  "posts_considered": 155,
+  "clusters_found": 112,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ced927f62",
-      "score": 18.301,
+      "cluster_id": "c6a5798f9",
+      "score": 17.135,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -25,12 +25,11 @@
         "TechCrunch AI",
         "The Decoder",
         "The Robot Report",
-        "The Verge AI",
-        "jukan05"
+        "The Verge AI"
       ],
-      "source_count": 8,
+      "source_count": 7,
       "first_seen": "2026-09-28T08:56:55+00:00",
-      "last_seen": "2026-09-29T03:35:33+00:00",
+      "last_seen": "2026-09-29T04:06:23+00:00",
       "links": [
         "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
         "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
@@ -39,8 +38,7 @@
         "https://www.bloomberg.com/news/articles/2026-09-29/us-china-ai-race-five-key-flashpoints-explained",
         "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
         "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-        "https://x.com/Reuters/status/2104759316666343820",
-        "https://x.com/jukan05/status/2104777073818800175"
+        "https://x.com/Reuters/status/2104784831167001042"
       ],
       "posts": [
         {
@@ -92,14 +90,6 @@
           "engagement": 0
         },
         {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "Taxpayer-funded television ads featuring President Trump, including spots celebrating a 'golden age of America' and one accompanied by a chorus singing 'love me' on repeat, are drawing bipartisan criticism and legal questions five weeks before midterm elections",
-          "url": "https://x.com/Reuters/status/2104759316666343820",
-          "created_at": "2026-09-29T02:25:00+00:00",
-          "engagement": 59
-        },
-        {
           "author": "Bloomberg Tech",
           "tier": "press",
           "text": "US-China AI Race: Five Key Flashpoints Explained. Both the US and China see artificial intelligence as the new focal point of their economic rivalry. US President Donald Trump declared on Sept. 13 that “whoever wins AI, wins.” The question is whether the two nations can put aside their disagreements and cooperate in building a safe and sustainable AI environment. For now, neither trusts the other’s motives, and neither wants to slow down.",
@@ -108,76 +98,147 @@
           "engagement": 0
         },
         {
-          "author": "jukan05",
+          "author": "Reuters",
           "tier": "commentary",
-          "text": "NVIDIA CEO Jensen Huang: \"If I were to advise you as a shareholder, I would say this:\" \"NVIDIA is quite inexpensive right now.\" \"Quite affordable.\" \"NVIDIA is a somewhat unusual company.\" \"NVIDIA is already the largest company in the world, yet it is still one of the fastest-growing companies i",
-          "url": "https://x.com/jukan05/status/2104777073818800175",
-          "created_at": "2026-09-29T03:35:33+00:00",
-          "engagement": 147
+          "text": "CNN, MS NOW and Politico asked a federal judge to issue a court order preserving their White House access while they fight President Trump's move to ban them over coverage he dislikes",
+          "url": "https://x.com/Reuters/status/2104784831167001042",
+          "created_at": "2026-09-29T04:06:23+00:00",
+          "engagement": 70
         }
       ]
     },
     {
-      "cluster_id": "c74314c90",
-      "score": 13.76,
+      "cluster_id": "c156cbca7",
+      "score": 11.628,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Amazon",
-        "xAI"
+        "OpenAI",
+        "Anthropic"
       ],
       "independent_sources": [
-        "AWS ML",
-        "ValsAI"
+        "9to5Mac",
+        "Latent Space",
+        "MIT Tech Review",
+        "Simon Willison",
+        "The Decoder"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-28T15:56:32+00:00",
-      "last_seen": "2026-09-29T02:16:08+00:00",
+      "source_count": 5,
+      "first_seen": "2026-09-28T17:03:16+00:00",
+      "last_seen": "2026-09-29T01:48:18+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
-        "https://x.com/ValsAI/status/2104757086462914888"
+        "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/",
+        "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
+        "https://www.latent.space/p/thariq",
+        "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
       ],
       "posts": [
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Implementing synthetic monitoring using Amazon Nova Act. Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user-journey validation that moves beyond brittle UI scripts, with a complete sample implementation.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
-          "created_at": "2026-09-28T15:56:32+00:00",
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "When can we say AI made a scientific discovery?. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+          "created_at": "2026-09-28T17:03:16+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Claude Sonnet 5.5 on AWS. Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get started.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
-          "created_at": "2026-09-28T18:57:13+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task. Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It generates output more than 30 percent faster, costs up to 30 percent less per task, and nearly matches Opus 5.5 on knowledge-work benchmarks. On Terminal-Bench, a coding benchmark, the model jumps from 10.3 to 70.6 percent. With Haiku 5.5 announced for the coming weeks, Anthropic will soon have a direct counterpart to each of OpenAI's three GPT-6 models. The article Anthropic&#039;s Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task appeared first on The Dec",
+          "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
+          "created_at": "2026-09-28T18:02:10+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Grok 4.7 is now available on Amazon Bedrock. xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
-          "created_at": "2026-09-28T22:13:16+00:00",
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Sonnet 5.5 model, details here. Anthropic is upgrading Claude Sonnet, replacing Sonnet 5 from June with Sonnet 5.5 as the best medium-sized model. more…",
+          "url": "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/",
+          "created_at": "2026-09-28T18:07:55+00:00",
           "engagement": 0
         },
         {
-          "author": "ValsAI",
+          "author": "Simon Willison",
           "tier": "commentary",
-          "text": "We asked ten Claude Sonnet 5.5 agents to use Lean to prove the lowest-energy arrangement of seven electrons on a sphere (the Thomson problem, with N=7). Within 15 hours, they produced a 17,895-line proof, accepted by the Lean kernel, showing that the answer is a pentagonal bipyramid.",
-          "url": "https://x.com/ValsAI/status/2104757086462914888",
-          "created_at": "2026-09-29T02:16:08+00:00",
-          "engagement": 154
+          "text": "Claude Sonnet 5.5. Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suffered from the same bug as Opus 5.5 : the \"max\" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG. Here's the pelican it gave me for thinking effort \"xhigh\", at a cost of 5.74 cents and taking 41 seconds: Sonnet 5.5 appe",
+          "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+          "created_at": "2026-09-28T22:07:38+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Claude Code’s Next Era — Thariq Shihipar, Anthropic. Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+          "url": "https://www.latent.space/p/thariq",
+          "created_at": "2026-09-29T01:48:18+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c7f2718b5",
-      "score": 10.891,
+      "cluster_id": "c9c735b25",
+      "score": 10.266,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "AMD"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Latent Space",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-28T20:27:08+00:00",
+      "last_seen": "2026-09-29T02:55:27+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+        "https://www.bloomberg.com/news/videos/2026-09-28/amd-to-buy-world-labs-ai-startup-for-8-2-billion-video",
+        "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion. Chipmaker AMD agreed to acquire World Labs for $8.2 billion, gaining an AI startup founded by industry pioneer and researcher Fei-Fei Li. Ed Ludlow explains why this is such a big deal for both companies (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/amd-to-buy-world-labs-ai-startup-for-8-2-billion-video",
+          "created_at": "2026-09-28T20:27:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion. The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "created_at": "2026-09-28T20:39:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
+          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+          "created_at": "2026-09-28T21:31:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more. Congrats team!",
+          "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+          "created_at": "2026-09-29T02:55:27+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c550f2da7",
+      "score": 9.695,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -191,20 +252,18 @@
         "9to5Mac",
         "Engadget",
         "TechCrunch AI",
-        "The Decoder",
-        "UploadVR"
+        "The Decoder"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-09-28T12:44:53+00:00",
-      "last_seen": "2026-09-29T01:26:21+00:00",
+      "last_seen": "2026-09-28T22:47:10+00:00",
       "links": [
         "https://9to5google.com/2026/09/28/google-wallet-gemini-app/",
         "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
         "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
         "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
         "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
-        "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/",
-        "https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/"
+        "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/"
       ],
       "posts": [
         {
@@ -254,196 +313,12 @@
           "url": "https://9to5google.com/2026/09/28/google-wallet-gemini-app/",
           "created_at": "2026-09-28T22:47:10+00:00",
           "engagement": 0
-        },
-        {
-          "author": "UploadVR",
-          "tier": "press",
-          "text": "Meta&#x27;s Smart Glasses Are Getting Its &#x27;Muse&#x27; AI Agent. Meta's Muse AI agent is coming to its smart glasses \"soon\", letting it take actions at your request while your phone stays in your pocket.",
-          "url": "https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/",
-          "created_at": "2026-09-29T01:26:21+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c0a0d48e0",
-      "score": 10.755,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "AMD"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Latent Space",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-28T20:05:00+00:00",
-      "last_seen": "2026-09-29T02:55:27+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-        "https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion",
-        "https://www.bloomberg.com/news/videos/2026-09-28/amd-acquires-fei-fei-li-s-world-labs-for-8-2-billion-video",
-        "https://www.bloomberg.com/news/videos/2026-09-28/amd-to-buy-world-labs-ai-startup-for-8-2-billion-video",
-        "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion. Chipmaker Advanced Micro Devices Inc. agreed to acquire World Labs for $8.2 billion, gaining an artificial intelligence startup founded by industry pioneer and researcher Fei-Fei Li.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-28/amd-to-buy-fei-fei-li-s-world-labs-ai-startup-for-8-2-billion",
-          "created_at": "2026-09-28T20:05:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AMD Acquires Fei-Fei Li’s World Labs for $8.2 Billion. AMD is acquiring World Labs, an AI startup founded by industry pioneer and researcher Fei-Fei Li, in an all-stock transaction valuing World Labs at about $8.2 billion. AMD CEO Lisa Su and World Labs co-founder and CEO Fei-Fei Li sit down with Bloomberg Tech's Ed Ludlow to discuss why AMD is purchasing World Labs, the two companies' shared vision for AI's future encompassing all layers of the stack, and how the industry needs to come together for shared responsibility in developing a safe technology that benefits all of society. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/amd-acquires-fei-fei-li-s-world-labs-for-8-2-billion-video",
-          "created_at": "2026-09-28T20:12:13+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion. Chipmaker AMD agreed to acquire World Labs for $8.2 billion, gaining an AI startup founded by industry pioneer and researcher Fei-Fei Li. Ed Ludlow explains why this is such a big deal for both companies (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/amd-to-buy-world-labs-ai-startup-for-8-2-billion-video",
-          "created_at": "2026-09-28T20:27:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion. The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
-          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-          "created_at": "2026-09-28T20:39:33+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
-          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-          "created_at": "2026-09-28T21:31:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more. Congrats team!",
-          "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-          "created_at": "2026-09-29T02:55:27+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca7f10aa8",
-      "score": 10.166,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Latent Space",
-        "Simon Willison",
-        "The Decoder"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-28T18:02:10+00:00",
-      "last_seen": "2026-09-29T01:48:18+00:00",
-      "links": [
-        "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/",
-        "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
-        "https://www.latent.space/p/thariq"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task. Anthropic has released Claude Sonnet 5.5, the second model in its Claude 5.5 family. It generates output more than 30 percent faster, costs up to 30 percent less per task, and nearly matches Opus 5.5 on knowledge-work benchmarks. On Terminal-Bench, a coding benchmark, the model jumps from 10.3 to 70.6 percent. With Haiku 5.5 announced for the coming weeks, Anthropic will soon have a direct counterpart to each of OpenAI's three GPT-6 models. The article Anthropic&#039;s Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task appeared first on The Dec",
-          "url": "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
-          "created_at": "2026-09-28T18:02:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Anthropic upgrades Claude with new Sonnet 5.5 model, details here. Anthropic is upgrading Claude Sonnet, replacing Sonnet 5 from June with Sonnet 5.5 as the best medium-sized model. more…",
-          "url": "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/",
-          "created_at": "2026-09-28T18:07:55+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Claude Sonnet 5.5. Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suffered from the same bug as Opus 5.5 : the \"max\" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG. Here's the pelican it gave me for thinking effort \"xhigh\", at a cost of 5.74 cents and taking 41 seconds: Sonnet 5.5 appe",
-          "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-          "created_at": "2026-09-28T22:07:38+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Claude Code’s Next Era — Thariq Shihipar, Anthropic. Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
-          "url": "https://www.latent.space/p/thariq",
-          "created_at": "2026-09-29T01:48:18+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c1d7e605b",
-      "score": 8.862,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Hesamation",
-        "Reuters"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T02:05:09+00:00",
-      "last_seen": "2026-09-29T02:35:05+00:00",
-      "links": [
-        "https://x.com/Hesamation/status/2104754320423993675",
-        "https://x.com/Reuters/status/2104761857097470422"
-      ],
-      "posts": [
-        {
-          "author": "Hesamation",
-          "tier": "commentary",
-          "text": "Anthropic's IPO filing is 261 pages, with 80 PAGES warning investors about how dangerous their models can be, including \"existential risks to humanity\": > be Anthropic > warn models may resist shutdown > or manipulate information > or exhibit behaviors like blackmail > admit models know when being ",
-          "url": "https://x.com/Hesamation/status/2104754320423993675",
-          "created_at": "2026-09-29T02:05:09+00:00",
-          "engagement": 52
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "Exclusive: Anthropic plans to caution potential investors in its IPO that advanced AI could pose 'catastrophic or existential risks to humanity,' an extraordinary warning by a company seeking to profit from the same technology",
-          "url": "https://x.com/Reuters/status/2104761857097470422",
-          "created_at": "2026-09-29T02:35:05+00:00",
-          "engagement": 201
         }
       ]
     },
     {
       "cluster_id": "c42ada9db",
-      "score": 8.31,
+      "score": 7.982,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -482,7 +357,7 @@
     },
     {
       "cluster_id": "c9d4de9af",
-      "score": 5.71,
+      "score": 5.382,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",

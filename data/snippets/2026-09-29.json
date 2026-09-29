@@ -146,6 +146,86 @@
    "published_at": "2026-09-29T00:01:00+00:00",
    "tag": "research",
    "id": "researchers-released-yue2-a-music-generation"
+  },
+  {
+   "text": "ByteDance published TraceDance, an open-source system that turns real agent deployment traces into targeted benchmarks for one undesirable behavior, instead of a fixed test suite.",
+   "why": "It gives developers a way to test for the exact failure they saw in production rather than hoping a generic benchmark catches it.",
+   "source": {
+    "name": "TraceDance (ByteDance)",
+    "url": "https://github.com/ZhishanQ/TraceDance"
+   },
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "bytedance-published-tracedance-an-open-source"
+  },
+  {
+   "text": "A paper posted as HexaFuture's 'Physical Coding' has robots write and revise code as their own control policy, arguing that vision-action models fail on small layout changes because their logic stays implicit in raw actions.",
+   "why": "The approach reframes robot control as a programming problem, and the authors posted code on GitHub for anyone to test the claim.",
+   "source": {
+    "name": "HexaFuture (GitHub)",
+    "url": "https://github.com/HexaFuture/PhysicalCoding"
+   },
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "a-paper-posted-as-hexafuture-s"
+  },
+  {
+   "text": "A paper posted to GitHub as thu-nics/TaH studies adaptive looped transformers, which reuse the same layers instead of adding new ones, to see whether looping helps accuracy as a model thinks longer at test time.",
+   "why": "Reusing layers is a cheaper way to add computation than growing a model, so whether it scales the same way matters to anyone training on a budget.",
+   "source": {
+    "name": "TaH (GitHub)",
+    "url": "https://github.com/thu-nics/TaH"
+   },
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "a-paper-posted-to-github-as"
+  },
+  {
+   "text": "Developer Jon Clegg built Pac-Bench, a leaderboard that scores AI models on writing a playable Pac-Man game from one prompt, tracking cost, time and token count per entry.",
+   "why": "It turns one-shot coding claims into a public, repeatable scoreboard, though no model has posted a result on it yet.",
+   "source": {
+    "name": "Jon Clegg",
+    "url": "https://jonclegg.github.io/pacman-bakeoff/"
+   },
+   "published_at": "2026-09-28T22:43:12+00:00",
+   "id": "developer-jon-clegg-built-pac-bench"
+  },
+  {
+   "text": "Australian developer Goodman Group withdrew its application for a 24-hour data center on Sydney's north shore after community pushback, Bloomberg said.",
+   "why": "The reversal shows AI-driven data center construction is running into the same local opposition that has stalled projects in the US and Europe.",
+   "source": {
+    "name": "Bloomberg",
+    "url": "https://x.com/business/status/2104741739923669431"
+   },
+   "published_at": "2026-09-29T01:15:09+00:00",
+   "id": "australian-developer-goodman-group-withdrew-its"
+  },
+  {
+   "text": "Nvidia is turning to insurers to help spread the financial risk of its AI data center build-out, the Financial Times said, calling it a new route for Wall Street money into the AI boom.",
+   "why": "Insurance-backed financing could let Nvidia's partners raise debt against AI infrastructure without Nvidia holding all the downside itself.",
+   "source": {
+    "name": "Financial Times",
+    "url": "https://x.com/FT/status/2104789016440668254"
+   },
+   "published_at": "2026-09-29T04:23:01+00:00",
+   "id": "nvidia-is-turning-to-insurers-to"
+  },
+  {
+   "text": "OpenAI is testing agents internally named 'Dots', an evolved, customer-facing version of its 'aeons' custom agents, according to new app strings spotted by TestingCatalog.",
+   "why": "The strings describe an agent you can text, call or message on Slack, suggesting OpenAI is building a broader agent product it has not announced.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2104800309612552589"
+   },
+   "published_at": "2026-09-29T05:07:53+00:00",
+   "id": "openai-is-testing-agents-internally-named"
+  },
+  {
+   "text": "Instinct, a personal AI agent startup founded by Noah Shinn, is growing about 10% a day through invite-only access, Shinn said, competing against Big Tech rivals with no distribution advantage.",
+   "why": "Shinn pointed to the compute crunch behind that growth rate and how fast users trust an agent with financial tasks as the open questions.",
+   "source": {
+    "name": "Colossus",
+    "url": "https://colossus.com/episode/instinct-the-personal-agent/"
+   },
+   "published_at": "2026-09-29T03:15:00+00:00",
+   "id": "instinct-a-personal-ai-agent-startup"
   }
  ]
 }
