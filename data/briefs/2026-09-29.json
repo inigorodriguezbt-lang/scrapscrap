@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T20:03:59.064416+00:00",
+  "generated_at": "2026-09-29T22:04:03.739012+00:00",
   "edition_date": "2026-09-29",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 176,
-  "clusters_found": 121,
-  "stories_declared": 12,
+  "posts_considered": 137,
+  "clusters_found": 87,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c5502350b",
-      "score": 20.648,
+      "cluster_id": "c4ddfc4b7",
+      "score": 18.89,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -22,34 +22,28 @@
       "independent_sources": [
         "9to5Google",
         "9to5Mac",
+        "ChatGPT",
         "OpenAI",
         "OpenAIDevs",
         "The Decoder",
         "The Verge AI",
-        "Wired AI",
-        "cursor_ai",
-        "kimmonismus"
+        "Wired AI"
       ],
-      "source_count": 9,
+      "source_count": 8,
       "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-29T19:24:12+00:00",
+      "last_seen": "2026-09-29T21:37:23+00:00",
       "links": [
         "https://9to5google.com/2026/09/29/openai-dots-agent/",
+        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
         "https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/",
         "https://openai.com/index/devday-2026-recap",
         "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
         "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
         "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-        "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
         "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
         "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-        "https://x.com/OpenAI/status/2104987422308335828",
-        "https://x.com/OpenAI/status/2104993966043320759",
-        "https://x.com/OpenAI/status/2104993967985381673",
-        "https://x.com/OpenAIDevs/status/2105003318917697873",
-        "https://x.com/cursor_ai/status/2105012114200887434",
-        "https://x.com/kimmonismus/status/2104987494727266355",
-        "https://x.com/kimmonismus/status/2104998304018804874"
+        "https://x.com/ChatGPT/status/2105028333566386492",
+        "https://x.com/OpenAIDevs/status/2105049323239285110"
       ],
       "posts": [
         {
@@ -101,46 +95,12 @@
           "engagement": 0
         },
         {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "Codex Security Cloud is getting a major upgrade, with access to cyber-capable models through Daybreak Blue included by default.\n\nIt scans entire GitHub repos, continuously reviews new commits, investigates and deduplicates findings, and prepares fixes for review – even when your laptop is closed.\n\nAvailable as a plugin in Codex desktop and web.",
-          "url": "https://x.com/OpenAI/status/2104987422308335828",
-          "created_at": "2026-09-29T17:31:24+00:00",
-          "engagement": 2950,
-          "video": true
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "15/ Codex now fully in the cloud. Nice. cool!\n\nAgents API + computer use in API. Starting in beta now. https://t.co/IhBIJYzl6x",
-          "url": "https://x.com/kimmonismus/status/2104987494727266355",
-          "created_at": "2026-09-29T17:31:42+00:00",
-          "engagement": 30
-        },
-        {
           "author": "9to5Google",
           "tier": "press",
           "text": "OpenAI launches Dots, new ‘always-on agents’ you can assign tasks to. Right as Meta’s Muse avatar agent has taken the AI world by storm, OpenAI is today announcing Dots as “always-on agents” you can customize to your needs. more…",
           "url": "https://9to5google.com/2026/09/29/openai-dots-agent/",
           "created_at": "2026-09-29T17:55:00+00:00",
           "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "Ultrafast is available today for GPT-6 Astra in Codex, ChatGPT Work, and the API, with GPT-6.1 Sol coming soon.\n\nTo access it in Codex and ChatGPT Work, we’re introducing Pro 500—a new plan with our highest usage limits (25x Plus) and access to Ultrafast.\n\nhttps://t.co/AjmAVwyUQI",
-          "url": "https://x.com/OpenAI/status/2104993967985381673",
-          "created_at": "2026-09-29T17:57:25+00:00",
-          "engagement": 672
-        },
-        {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "This is Ultrafast.\n\nOur premium speed tier, Ultrafast offers up to 8x faster token generation (300 tokens per second) in Codex and up to 6x in the API. https://t.co/ekyzT1vFan",
-          "url": "https://x.com/OpenAI/status/2104993966043320759",
-          "created_at": "2026-09-29T17:57:25+00:00",
-          "engagement": 3942,
-          "video": true
         },
         {
           "author": "The Decoder",
@@ -151,113 +111,35 @@
           "engagement": 0
         },
         {
-          "author": "kimmonismus",
+          "author": "ChatGPT",
           "tier": "commentary",
-          "text": "GPT-6 Astra Ultrafast at 6x pricing =\n$60/m in $300/m out\n\nSo yeah, its good but pricy.",
-          "url": "https://x.com/kimmonismus/status/2104998304018804874",
-          "created_at": "2026-09-29T18:14:39+00:00",
-          "engagement": 273
+          "text": "Yessss, you can now @ ChatGPT in Slack and Microsoft Teams.\n\nMention @ChatGPT in a channel, thread or DM to to turn a messy thread into a plan, slides, or a spreadsheet.\n\nIt can bring in context from beyond the thread using approved connected sources, and teammates can add context and refine the results in the same conversation—without needing an individual ChatGPT license.\n\nAvailable to Business and Enterprise plans.\nhttps://t.co/HTb84Ysr9f",
+          "url": "https://x.com/ChatGPT/status/2105028333566386492",
+          "created_at": "2026-09-29T20:13:58+00:00",
+          "engagement": 485
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
+          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+          "created_at": "2026-09-29T20:31:19+00:00",
+          "engagement": 0
         },
         {
           "author": "OpenAIDevs",
           "tier": "commentary",
-          "text": "Give your app real-time decision-making with Decisions API, powered by GPT-6 Luna.\n\nDefine questions and possible answers to classify content, route requests, or choose an agent’s next action.\n\nAvailable in limited preview. https://t.co/LbaD18M6Do",
-          "url": "https://x.com/OpenAIDevs/status/2105003318917697873",
-          "created_at": "2026-09-29T18:34:34+00:00",
-          "engagement": 1788,
+          "text": "Ready for a DevDay side quest?\n\n10 builder challenges.\n5 Codex Micros up for grabs.\n\nComplete any 5 side quests to earn 1 raffle ticket for each.\n\n48 hours. Join from anywhere 🌎 https://t.co/8dxs8NlhUM",
+          "url": "https://x.com/OpenAIDevs/status/2105049323239285110",
+          "created_at": "2026-09-29T21:37:23+00:00",
+          "engagement": 195,
           "video": true
-        },
-        {
-          "author": "cursor_ai",
-          "tier": "commentary",
-          "text": "Cursor can now build charts and diagrams right in the chat.\n\nUse /visualize to analyze data and see the answer inline. Available now in the Agents Window. https://t.co/oDR6jJvAGK",
-          "url": "https://x.com/cursor_ai/status/2105012114200887434",
-          "created_at": "2026-09-29T19:09:31+00:00",
-          "engagement": 1161,
-          "video": true
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor. GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The article UK AI Security Institute finds GPT-6 Astra&#039;s rogue attack rate jumped fivefold over its predecessor appeared first on The Decoder .",
-          "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-          "created_at": "2026-09-29T19:24:12+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c02a99da6",
-      "score": 13.437,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "ChatGPT",
-        "testingcatalog"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-28T21:10:42+00:00",
-      "last_seen": "2026-09-29T20:00:28+00:00",
-      "links": [
-        "https://9to5mac.com/2026/09/28/watchos-27-0-1-is-now-available-for-all-compatible-apple-watch-models/",
-        "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-        "https://x.com/ChatGPT/status/2105024936083611808",
-        "https://x.com/testingcatalog/status/2104987633894010982"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "watchOS 27.0.1 is now available for all compatible Apple Watch models. Apple today expanded the availability of watchOS 27.0.1 to more Apple Watch models, following last week’s initial release for Apple Watch Series 12 and Apple Watch Ultra 4. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/28/watchos-27-0-1-is-now-available-for-all-compatible-apple-watch-models/",
-          "created_at": "2026-09-28T21:10:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Deals: M5 MacBook Air, MacBook Pro $500 off, Mac Studio, accessories from $20 or less, more. The early fall Amazon Prime Day sale rolls in with a collection of new discounts, alongside the solid $50 price drop on the brand new Mac Studio and up to $150 off M5 MacBook Air models. We are also now tracking deep $500 price drop on both the Silver and Space Black 2TB M5 Pro MacBook Pro, ongoing Apple Watch Ultra 3 clearance discounts, loads of TV deals, and a host of new accessory offers from Twelve South, Anker, and more. Scope it all out down below. more…",
-          "url": "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-          "created_at": "2026-09-29T15:35:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "OpenAI introduced ChatGPT Space, a new collaborative workspace for humans and AI Agents. \n\n> \"In Space, you can work with pages—a new kind of interactive document with charts, images, checklists, and dashboards. \n\n> \"Rolling out today to Pro, Business, and Enterprise plans.\"\n\nPro testing time 👀",
-          "url": "https://x.com/testingcatalog/status/2104987633894010982",
-          "created_at": "2026-09-29T17:32:15+00:00",
-          "engagement": 163
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
-          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-          "created_at": "2026-09-29T19:05:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "ChatGPT",
-          "tier": "commentary",
-          "text": "Your next meeting comes with a note-taker who can help with the follow-up.\n\nThe Meetings plugin takes notes for you and saves a personalized summary and next steps in ChatGPT Space, based on what ChatGPT knows about you and the work you’ve done together.\n\nKeep notes private or share them with your team, then ask ChatGPT to update a project plan or draft a follow-up.\n\nAudio is deleted once your notes are ready and can’t be replayed.\n\nAvailable in beta for Pro and Business users in the ChatGPT desktop app on macOS. Enterprise access is coming soon.\n\nDownload the desktop app, then search for “Mee",
-          "url": "https://x.com/ChatGPT/status/2105024936083611808",
-          "created_at": "2026-09-29T20:00:28+00:00",
-          "engagement": 76
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9a9a9ca8",
-      "score": 12.689,
+      "cluster_id": "cfff9ec97",
+      "score": 16.533,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -268,45 +150,36 @@
         "AMD"
       ],
       "independent_sources": [
+        "AndrewCurran_",
+        "Ars Technica AI",
         "Bloomberg Tech",
         "Latent Space",
-        "TechCrunch AI",
         "The Decoder",
-        "The Verge AI"
+        "rohanpaul_ai"
       ],
-      "source_count": 5,
-      "first_seen": "2026-09-28T20:39:33+00:00",
-      "last_seen": "2026-09-29T19:44:28+00:00",
+      "source_count": 6,
+      "first_seen": "2026-09-29T02:55:27+00:00",
+      "last_seen": "2026-09-29T21:47:44+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+        "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
         "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
         "https://www.bloomberg.com/news/articles/2026-09-29/altman-openai-investors-are-patient-on-ipo-amid-safety-focus",
-        "https://www.bloomberg.com/news/videos/2026-09-29/bloomberg-tech-9-29-2026-video",
+        "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
+        "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
+        "https://www.bloomberg.com/news/videos/2026-09-29/openai-cfo-friar-on-new-ai-assistant-capital-raise-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/openai-holds-back-astra-model-over-safety-concerns-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/openai-will-keep-driving-down-prices-sam-altman-says-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/sam-altman-says-openai-investors-patient-with-ipo-plan-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/trump-hosts-ai-leaders-at-white-house-video",
+        "https://www.bloomberg.com/news/videos/2026-09-29/trump-rejects-ai-safety-laws-after-meeting-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/trump-s-ai-push-meets-a-more-cautious-silicon-valley-video",
         "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+        "https://x.com/AndrewCurran_/status/2105037016794902727",
+        "https://x.com/AndrewCurran_/status/2105038852914376919",
+        "https://x.com/AndrewCurran_/status/2105051744891998264",
+        "https://x.com/rohanpaul_ai/status/2105035486234546310"
       ],
       "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion. The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
-          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-          "created_at": "2026-09-28T20:39:33+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
-          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-          "created_at": "2026-09-28T21:31:35+00:00",
-          "engagement": 0
-        },
         {
           "author": "Latent Space",
           "tier": "commentary",
@@ -321,14 +194,6 @@
           "text": "AMD buys AI world model startup World Labs for $8.2 billion. Fei-Fei Li's AI startup World Labs is being acquired by AMD for $8.2 billion. Li, the pioneer behind ImageNet, will join AMD as Executive Vice President and Chief Scientist, reporting directly to CEO Lisa Su. World Labs brings its spatial intelligence models, including Atlas, which generates and simulates 3D environments from minimal input. AMD gains its own AI research unit focused on physical-world models, sharpening its competition with Nvidia. The article AMD buys AI world model startup World Labs for $8.2 billion appeared first on The Decoder .",
           "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
           "created_at": "2026-09-29T17:13:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AMD Goes Big on World Models as Anthropic Heads to IPO. Bloomberg’s Ed Ludlow breaks down President Trump's new AI-powered website America.gov, putting AI at the center of his agenda. Plus, Anthropic warns of \"existential risks to humanity\" in its prospectus ahead of its IPO according to reports, and AMD makes a big AI bet on the frontier by acquiring Fei-Fei Li's World Labs in an all-stock deal valued at $8.2 billion. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/bloomberg-tech-9-29-2026-video",
-          "created_at": "2026-09-29T18:08:53+00:00",
           "engagement": 0
         },
         {
@@ -358,7 +223,7 @@
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "OpenAI Will Keep Driving Down Prices, Sam Altman Says. OpenAI CEO Sam Altman says the company wants to keep driving down the price of artificial intelligence. He talks about the launch of their new AI agent called Dots with Bloomberg's Ed Ludlow at the company's annual developer conference in San Francisco. (Source: Bloomberg)",
+          "text": "OpenAI Will Keep Driving Down AI Prices, Sam Altman Says. OpenAI CEO Sam Altman says the company wants to drive up the quality of AI while keeping the price down. He talks about the launch of their new AI agent called Dots with Bloomberg's Ed Ludlow at the company's annual developer conference in San Francisco. (Source: Bloomberg)",
           "url": "https://www.bloomberg.com/news/videos/2026-09-29/openai-will-keep-driving-down-prices-sam-altman-says-video",
           "created_at": "2026-09-29T19:19:45+00:00",
           "engagement": 0
@@ -378,50 +243,86 @@
           "url": "https://www.bloomberg.com/news/videos/2026-09-29/sam-altman-says-openai-investors-patient-with-ipo-plan-video",
           "created_at": "2026-09-29T19:44:28+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc5080ee9",
-      "score": 12.542,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "ValsAI",
-        "theo"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T18:24:55+00:00",
-      "last_seen": "2026-09-29T19:03:36+00:00",
-      "links": [
-        "https://x.com/ValsAI/status/2105010625307128215",
-        "https://x.com/theo/status/2105000888192663582"
-      ],
-      "posts": [
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "When I made this video, there were no benchmarks yet, so I had to run them myself. Jaw dropped when I saw the Terminal Bench 4 scores. \n\nPerformance better than Opus 5.5 for ~1/30th of the price 🤯 https://t.co/9LP8ku1nHo",
-          "url": "https://x.com/theo/status/2105000888192663582",
-          "created_at": "2026-09-29T18:24:55+00:00",
-          "engagement": 1515
         },
         {
-          "author": "ValsAI",
+          "author": "rohanpaul_ai",
           "tier": "commentary",
-          "text": "We’ve released v2.1 of the Vals Index!\n\nThe new iteration replaces Terminal Bench 2.1 with Terminal Bench 4, and adds our proprietary Tax Agent Benchmark in its own category (weighted by GDP).",
-          "url": "https://x.com/ValsAI/status/2105010625307128215",
-          "created_at": "2026-09-29T19:03:36+00:00",
-          "engagement": 51
+          "text": "\"Elon and I sat with President Xi the other day. And he will take EVERY data center that we don't want!\"\n\n- President Trump just now, at White House\n https://t.co/eqpEAVKyDu",
+          "url": "https://x.com/rohanpaul_ai/status/2105035486234546310",
+          "created_at": "2026-09-29T20:42:24+00:00",
+          "engagement": 34,
+          "video": true
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI CFO Friar on New AI Assistant, Capital Raise. OpenAI CFO Sarah Friar discusses the company's new proactive assistant Dots. Speaking with Ed Ludlow on \"Bloomberg The Close,\" Friar also says OpenAI is \"really well capitalized.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-29/openai-cfo-friar-on-new-ai-assistant-capital-raise-video",
+          "created_at": "2026-09-29T20:43:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Speaker Johnson said after the meeting that everyone signed The White House Accord on Super Intelligence, A Joint Commitment on SI Responsibilities. \n\n- voluntary commitments\n- robust internal control\n- layers of internal and external review\n\n'The White House and Congress will continue to guide the industry's development in a safe manner'\n\nThe document will be made available later today.",
+          "url": "https://x.com/AndrewCurran_/status/2105037016794902727",
+          "created_at": "2026-09-29T20:48:29+00:00",
+          "engagement": 135
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Reporter: 'Mr President, this accord that everyone signed, is it binding in any way?'\n\nPresident Trump: 'I think it's morally binding, yeah.'",
+          "url": "https://x.com/AndrewCurran_/status/2105038852914376919",
+          "created_at": "2026-09-29T20:55:46+00:00",
+          "engagement": 41
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump Rejects AI Safety Laws After Meeting Industry Titans. President Donald Trump shot down the idea of new federal regulations on AI after meeting at the White House with top industry executives amid growing global concerns over threats posed by the technology. Tyler Kendall has more (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-29/trump-rejects-ai-safety-laws-after-meeting-video",
+          "created_at": "2026-09-29T20:59:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "AMD acquires World Labs AI startup, upping the ante against Nvidia. The deal, which is expected to close by year's end, is worth $8.2 billion.",
+          "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+          "created_at": "2026-09-29T21:14:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Altman on OpenAI's IPO Plans, AI Agent Dots, AI Security. OpenAI CEO Sam Altman talks about launching its new AI personal agent called Dots, which he says is a premium product. Altman also says the company will go public at some point, but it's being patient. He speaks to Bloomberg's Ed Ludlow in San Francisco. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
+          "created_at": "2026-09-29T21:34:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "The White House Accord on Super Intelligence https://t.co/FaWq1UpsF0",
+          "url": "https://x.com/AndrewCurran_/status/2105051744891998264",
+          "created_at": "2026-09-29T21:47:00+00:00",
+          "engagement": 133
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump Responds to AI Backlash With ‘Super Intelligence’ Rebrand. President Donald Trump sees artificial intelligence as suffering from a branding problem, and he intends to fix it with an attempt to officially rename the technology “super intelligence.”",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
+          "created_at": "2026-09-29T21:47:44+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c80b37ca2",
-      "score": 12.46,
-      "interest": "neutral",
+      "cluster_id": "c38ffaf70",
+      "score": 16.272,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
@@ -429,19 +330,29 @@
       ],
       "independent_sources": [
         "OpenAI",
+        "TechCrunch AI",
         "The Decoder",
         "theo"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T17:14:27+00:00",
-      "last_seen": "2026-09-29T18:43:44+00:00",
+      "source_count": 4,
+      "first_seen": "2026-09-29T10:00:00+00:00",
+      "last_seen": "2026-09-29T20:32:19+00:00",
       "links": [
+        "https://openai.com/index/introducing-gpt-6-1-sol",
+        "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
         "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
-        "https://x.com/OpenAI/status/2104986129686741046",
-        "https://x.com/OpenAI/status/2104986133004505373",
-        "https://x.com/theo/status/2105005625726099473"
+        "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+        "https://x.com/theo/status/2105032948844315129"
       ],
       "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Introducing GPT-6.1 Sol. Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+          "created_at": "2026-09-29T10:00:00+00:00",
+          "engagement": 0
+        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -451,73 +362,160 @@
           "engagement": 0
         },
         {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "GPT-6.1 Sol: near-Astra intelligence for a fifth of the price.\n\nIt’s the most cost-efficient model for its performance available today. https://t.co/hH8PnE2Oxk",
-          "url": "https://x.com/OpenAI/status/2104986129686741046",
-          "created_at": "2026-09-29T17:26:16+00:00",
-          "engagement": 14330,
-          "video": true
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less. OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multi-step business workflows.",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+          "created_at": "2026-09-29T17:15:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "GPT-6.1 Sol is a significant upgrade over GPT-6 Sol across coding, computer use, and complex professional work—approaching GPT-6 Astra on several benchmarks at substantially lower cost. https://t.co/vCOE2HGLYv",
-          "url": "https://x.com/OpenAI/status/2104986133004505373",
-          "created_at": "2026-09-29T17:26:17+00:00",
-          "engagement": 1066
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor. GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The article UK AI Security Institute finds GPT-6 Astra&#039;s rogue attack rate jumped fivefold over its predecessor appeared first on The Decoder .",
+          "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+          "created_at": "2026-09-29T19:24:12+00:00",
+          "engagement": 0
         },
         {
           "author": "theo",
           "tier": "commentary",
-          "text": "Artificial Analysis numbers are in! GPT-6.1 Sol is performing at around Opus 5.5 Medium levels for under a third the price.\n\nNot bad at all, but still more hyped for 6.1 Astra to catch them up 👀 https://t.co/EBVEJyLNHo",
-          "url": "https://x.com/theo/status/2105005625726099473",
-          "created_at": "2026-09-29T18:43:44+00:00",
-          "engagement": 824
+          "text": "Feels like a good time to remind y'all of this.\n\n6.1 Sol isn't smarter than Astra, but it's definitely less dumb",
+          "url": "https://x.com/theo/status/2105032948844315129",
+          "created_at": "2026-09-29T20:32:19+00:00",
+          "engagement": 838
         }
       ]
     },
     {
-      "cluster_id": "c55356036",
-      "score": 11.826,
+      "cluster_id": "c488a0ce5",
+      "score": 13.129,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
+      "suggested_section": "ai",
+      "entities": [
+        "Amazon",
+        "xAI"
+      ],
       "independent_sources": [
-        "AravSrinivas",
-        "perplexity_ai"
+        "AWS ML",
+        "HarshithLucky3"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T16:46:10+00:00",
-      "last_seen": "2026-09-29T18:36:07+00:00",
+      "first_seen": "2026-09-28T22:13:16+00:00",
+      "last_seen": "2026-09-29T20:04:24+00:00",
       "links": [
-        "https://x.com/AravSrinivas/status/2105003705724797358",
-        "https://x.com/perplexity_ai/status/2104976036274552963"
+        "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
+        "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
+        "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
+        "https://x.com/HarshithLucky3/status/2105025923095675353"
       ],
       "posts": [
         {
-          "author": "perplexity_ai",
-          "tier": "commentary",
-          "text": "Introducing Automations in Perplexity Computer.\n\nAutomations are for ongoing work. They can take action in response to event-based triggers or on a schedule.\n\nAutomations work with your memory, skills, and connected apps like Slack, Gmail, Outlook, and Linear. https://t.co/0TIk0VaznI",
-          "url": "https://x.com/perplexity_ai/status/2104976036274552963",
-          "created_at": "2026-09-29T16:46:10+00:00",
-          "engagement": 399,
-          "video": true
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Grok 4.7 is now available on Amazon Bedrock. xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+          "created_at": "2026-09-28T22:13:16+00:00",
+          "engagement": 0
         },
         {
-          "author": "AravSrinivas",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Condé Nast built multimodal video discovery with Amazon Bedrock. Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Service that cut discovery time to under 2 minutes.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+          "created_at": "2026-09-29T15:55:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore. Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract questions through Amazon Quick analytics.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
+          "created_at": "2026-09-29T16:14:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Prompt engineering by Quick component: Patterns and pitfalls. Part 2 of our Amazon Quick prompt engineering series goes component by component. Learn the prompt patterns that get the best results from Amazon Quick Research, Quick Flows, Quick Sight, chat agents, and action integrations, plus the common pitfalls to avoid.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
+          "created_at": "2026-09-29T16:27:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Prompt engineering fundamentals for Amazon Quick. Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality results across Amazon Quick.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
+          "created_at": "2026-09-29T16:27:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock. GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+          "created_at": "2026-09-29T19:34:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "HarshithLucky3",
           "tier": "commentary",
-          "text": "A company is like a car and it will soon feel like a self driving car with the right automations set up. You can do that now with Perplexity Computer. Figuring out the right automations requires a good level of human skill and agency.",
-          "url": "https://x.com/AravSrinivas/status/2105003705724797358",
-          "created_at": "2026-09-29T18:36:07+00:00",
-          "engagement": 139
+          "text": "GPT-6.1 Sol xhigh vs GPT-6 Sol xhigh in Codex\n\nsame prompt\n> animate a cyclist riding a bicycle\n\n6.1 actually feels like Sol now \n\nhuge gap https://t.co/LUdInN7e61",
+          "url": "https://x.com/HarshithLucky3/status/2105025923095675353",
+          "created_at": "2026-09-29T20:04:24+00:00",
+          "engagement": 280,
+          "video": true
         }
       ]
     },
     {
-      "cluster_id": "c71dbd880",
-      "score": 11.244,
+      "cluster_id": "c45d667b0",
+      "score": 10.836,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "security",
+      "entities": [
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "kimmonismus",
+        "teortaxesTex"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-29T21:18:50+00:00",
+      "last_seen": "2026-09-29T21:48:45+00:00",
+      "links": [
+        "https://x.com/kimmonismus/status/2105052186401267864",
+        "https://x.com/teortaxesTex/status/2105044654521782296"
+      ],
+      "posts": [
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "Fascinating.\n«GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.»\nKimi K3 and DeepSeek V4.1 Flash are still hopeless in Anthropic's evals! perplexing.",
+          "url": "https://x.com/teortaxesTex/status/2105044654521782296",
+          "created_at": "2026-09-29T21:18:50+00:00",
+          "engagement": 25
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Anthropic doing advertisment for GLM-5.3 was not on my bingo card: Anthropic says Zai's openly downloadable GLM-5.3 approaches Claude Mythos Preview’s exploit capabilities, with safeguards that are easy to bypass.\n\nOn ExploitBench, GLM-5.3 built working browser exploits in 50 of 410 attempts. Mythos Preview managed 56.\n\nIn a separate controlled experiment, researchers used GLM-5.3 to discover previously unknown browser vulnerabilities and combine them into a webpage that could read files from the test machine.\n\nAnthropic also reports 64–100% engagement with malicious requests under different s",
+          "url": "https://x.com/kimmonismus/status/2105052186401267864",
+          "created_at": "2026-09-29T21:48:45+00:00",
+          "engagement": 48
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd644127c",
+      "score": 10.021,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -527,17 +525,15 @@
         "Microsoft"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
         "Engadget",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "first_seen": "2026-09-29T14:08:21+00:00",
       "last_seen": "2026-09-29T17:15:00+00:00",
       "links": [
         "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
-        "https://www.bloomberg.com/news/articles/2026-09-29/openai-unveils-always-on-ai-agent-dots-new-500-paid-tier",
         "https://www.engadget.com/2272248/chatgpt-space-for-work/",
         "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
         "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
@@ -558,14 +554,6 @@
           "text": "OpenAI DevDay 2026: The biggest news and announcements. It&#8217;s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product that rivals Meta’s recently-launched Muse. However, unlike Muse, which is available for free, [&#8230;]",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
           "created_at": "2026-09-29T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI Unveils Always-On AI Agent Dots, New $500 Paid Tier. OpenAI has unveiled an always-on artificial intelligence agent that’s designed to proactively tackle work on a user’s behalf, competing with firms like Meta Platforms Inc. in a growing field for AI-powered digital assistants.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/openai-unveils-always-on-ai-agent-dots-new-500-paid-tier",
-          "created_at": "2026-09-29T17:08:03+00:00",
           "engagement": 0
         },
         {
@@ -595,45 +583,46 @@
       ]
     },
     {
-      "cluster_id": "cf9635ee7",
-      "score": 10.818,
+      "cluster_id": "c8b0d4227",
+      "score": 8.886,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [],
       "independent_sources": [
-        "AndrewCurran_",
-        "elonmusk"
+        "TechCrunch AI",
+        "rohanpaul_ai"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T19:02:58+00:00",
-      "last_seen": "2026-09-29T19:55:20+00:00",
+      "first_seen": "2026-09-29T16:55:56+00:00",
+      "last_seen": "2026-09-29T20:31:24+00:00",
       "links": [
-        "https://x.com/AndrewCurran_/status/2105010462882660450",
-        "https://x.com/elonmusk/status/2105023642312601851"
+        "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+        "https://x.com/rohanpaul_ai/status/2105032720007184806"
       ],
       "posts": [
         {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "President Trump 'We're going to be signing a document today at about five o'clock, renaming Artificial Intelligence, because it's not artificial, we all agree on that, and we're going to be renaming it Super Intelligence. Officially renaming it.' https://t.co/oKx2EzQbos",
-          "url": "https://x.com/AndrewCurran_/status/2105010462882660450",
-          "created_at": "2026-09-29T19:02:58+00:00",
-          "engagement": 535
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Can a chatbot fix the government maze? The White House is about to find out. America.gov is intended to simplify the process of navigating government bureaucracy, but language models are imperfect and remain prone to hallucinations, which could cause new issues.",
+          "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+          "created_at": "2026-09-29T16:55:56+00:00",
+          "engagement": 0
         },
         {
-          "author": "elonmusk",
+          "author": "rohanpaul_ai",
           "tier": "commentary",
-          "text": "Super Intelligence",
-          "url": "https://x.com/elonmusk/status/2105023642312601851",
-          "created_at": "2026-09-29T19:55:20+00:00",
-          "engagement": 3957
+          "text": "Mark Zuckerberg revealed leading AI companies have agreed to a White House accord and signed a set of voluntary safety standards, during the meeting today at the White House.\nSo now they commit to internal controls, external audits, and board review of those audits as they develop advanced AI.\nhttps://t.co/ttqRTfVZ8M",
+          "url": "https://x.com/rohanpaul_ai/status/2105032720007184806",
+          "created_at": "2026-09-29T20:31:24+00:00",
+          "engagement": 152,
+          "video": true
         }
       ]
     },
     {
       "cluster_id": "c28b1c16b",
-      "score": 9.146,
+      "score": 8.812,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -676,71 +665,6 @@
           "text": "Anthropic’s IPO pitch includes a warning about human extinction. The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.",
           "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
           "created_at": "2026-09-29T14:10:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cea95384b",
-      "score": 8.988,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Reuters",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T12:00:00+00:00",
-      "last_seen": "2026-09-29T17:40:00+00:00",
-      "links": [
-        "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-        "https://x.com/Reuters/status/2104989583666790504"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Will Chinese AI companies slow down? A top House Democrat wants answers. As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna (D-CA) is calling for a treaty between the US and China to keep AI from wreaking havoc on the world. But wrangling leaders in both countries to take action could be a long shot. In letters shared exclusively with [&#8230;]",
-          "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-          "created_at": "2026-09-29T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "President Donald Trump said that he doesn't want to work with Chinese President Xi Jinping on governing AI technology, adding that doing so would make it harder for US companies to build better AI products than their Chinese counterparts https://t.co/2TWRTzUwu5 https://t.co/9C4WcOZNdF",
-          "url": "https://x.com/Reuters/status/2104989583666790504",
-          "created_at": "2026-09-29T17:40:00+00:00",
-          "engagement": 229,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "cdd66acae",
-      "score": 8.149,
-      "interest": "want",
-      "single_source": true,
-      "suggested_section": "chips",
-      "entities": [],
-      "independent_sources": [
-        "OpenAI"
-      ],
-      "source_count": 1,
-      "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-29T10:00:00+00:00",
-      "links": [
-        "https://openai.com/index/introducing-gpt-6-1-sol"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Introducing GPT-6.1 Sol. Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "created_at": "2026-09-29T10:00:00+00:00",
           "engagement": 0
         }
       ]

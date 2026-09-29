@@ -51,6 +51,205 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-anthropic-glm-5-3-cyber",
+   "section": "security",
+   "headline": "Anthropic says open-weight GLM-5.3 nears Mythos Preview at building exploits",
+   "standfirst": "Anthropic says Z.ai's downloadable GLM-5.3 built working exploits in 50 of 410 attempts against Mythos Preview's 56, and that its safeguards fall to a cover story.",
+   "entities": [
+    "Anthropic",
+    "Z.ai",
+    "GLM-5.3",
+    "Claude Mythos Preview",
+    "ExploitBench"
+   ],
+   "body": [
+    "Anthropic published research on Tuesday saying GLM-5.3, an open-weight model from Zhipu AI, known abroad as Z.ai, is close to Claude Mythos Preview at building cyber exploits. On ExploitBench, Anthropic says GLM-5.3 developed end-to-end exploits in 50 of 410 attempts, or 12 percent. Mythos Preview managed 56, about 14 percent.",
+    "On a separate binary-exploitation benchmark, Anthropic says GLM-5.3 achieved full control-flow hijacks in 4 percent of 100 randomly chosen trials against 6 percent for Mythos Preview. The company says earlier models, including Claude Opus 4.6 and GLM-5.2, scored near zero on both tests. It also tested Kimi K3 and DeepSeek V4.1-Flash, which it says fell well behind.",
+    "In one human-led session, Anthropic says researchers used GLM-5.3 to find previously unknown flaws in a browser's JavaScript engine and chain them into a webpage that reads arbitrary files from a test machine. The company says the model also turned up exploitable bugs in wireless drivers, graphics drivers and network-facing device software. All work ran on isolated, offline targets.",
+    "Safeguards are weak, according to Anthropic. A bare malicious request got 0 percent compliance, but a false cover story reached 64 percent and prefilled reasoning reached 92 percent. Anthropic says an abliterated copy, made for about $4,400 and 2,200 GPU hours, complied 100 percent of the time with little loss in general ability. Claude models stayed at 0 percent.",
+    "Anthropic concluded that GLM-5.3 will likely give malicious actors capabilities to find and exploit vulnerabilities without meaningful restrictions. It called for independent government safety testing of capable models and for developers to safeguard open weights. The figures are Anthropic's own. Z.ai has not commented in the material reviewed, and no outside lab has reproduced the results."
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+     "author": "teortaxesTex",
+     "url": "https://x.com/teortaxesTex/status/2105044654521782296"
+    },
+    {
+     "author": "kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2105052186401267864"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/teortaxesTex/status/2105044654521782296",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-white-house-accord-super-intelligence",
+   "section": "policy",
+   "headline": "Tech chiefs sign voluntary White House Accord on Super Intelligence",
+   "standfirst": "Trump called the voluntary pact \"morally binding\" after Nvidia, OpenAI, Anthropic, Meta and others signed. It has no enforcement mechanism, and he signed an order renaming AI \"super intelligence\".",
+   "entities": [
+    "Donald Trump",
+    "Mike Johnson",
+    "Mark Zuckerberg",
+    "OpenAI",
+    "Anthropic",
+    "Meta"
+   ],
+   "body": [
+    "Nearly 20 technology leaders signed the White House Accord on Super Intelligence on Tuesday, according to NBC News. Speaker Mike Johnson said everyone at the meeting signed. He described voluntary commitments, strong internal control, and layers of internal and external review.",
+    "Asked whether the accord binds anyone, President Trump said: \"I think it's morally binding, yeah.\" NBC News reports he posted the document on Truth Social but offered no enforcement mechanism. He said companies face \"tremendous self-regulation\" and that \"we automatically have regulation with the Department of Justice.\"",
+    "Meta's Mark Zuckerberg described the text as principles for building internal controls and detecting problems, backed by multiple layers of auditing. Those start with internal risk review, then external auditors and evaluators. NBC News carried his account. The paper has not seen the signed document.",
+    "The White House also published an executive order requiring federal agencies to say \"Super Intelligence\" and \"SI\" in place of \"AI\", according to its fact sheet. Trump answered a reporter's question about accountability with \"It's not AI. It's SI.\" Vice President Vance attended, as did leaders of OpenAI, Anthropic, Nvidia, Amazon, Google, Microsoft, AMD and Palantir.",
+    "Trump had rejected new federal AI rules after an earlier lunch with the same group. NBC News describes the accord as industry self-oversight. Who will conduct the external audits, and to whom results are reported, were not stated in the accounts reviewed."
+   ],
+   "sources": [
+    {
+     "author": "NBC News",
+     "url": "https://www.nbcnews.com/politics/donald-trump/trump-host-summit-top-ai-leaders-washington-rcna599853"
+    },
+    {
+     "author": "The White House",
+     "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/"
+    },
+    {
+     "author": "Andrew Curran",
+     "url": "https://x.com/AndrewCurran_/status/2105037016794902727"
+    },
+    {
+     "author": "Rohan Paul",
+     "url": "https://x.com/rohanpaul_ai/status/2105032720007184806"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/rohanpaul_ai/status/2105032720007184806",
+     "after": 3,
+     "video": true
+    },
+    {
+     "url": "https://x.com/rohanpaul_ai/status/2105034004789670169",
+     "after": 4,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-openai-decisions-api-luna",
+   "section": "products",
+   "headline": "OpenAI's Decisions API lets GPT-6 Luna pick from answers you define",
+   "standfirst": "OpenAI's new Decisions API returns one predefined answer with a confidence score, powered by GPT-6 Luna, and is in limited preview with no published pricing.",
+   "entities": [
+    "OpenAI",
+    "Decisions API",
+    "GPT-6 Luna"
+   ],
+   "body": [
+    "OpenAI launched a Decisions API at DevDay on Tuesday, powered by GPT-6 Luna. In a post, OpenAI's developer account says developers define questions and possible answers, then use the model to classify content, route requests or choose an agent's next action. It is available in limited preview.",
+    "Each request passes context, which can be text or an image, plus a closed list of options. The model returns the option it judges most likely, along with a confidence score, according to reports on the announcement. Developers do not need to parse free text or validate that the output matches an allowed value.",
+    "Reports put latency at about 150 milliseconds. That figure traces to secondary write-ups, and the paper has not found it in an OpenAI document. AlphaSignal says OpenAI describes access as limited to selected API customers, with a broader release to follow in the coming days.",
+    "OpenAI has not published pricing, rate limits, regional availability or the maximum number of choices per request, per AlphaSignal's review of the announcement. Luna is one variant in the GPT-6 family alongside Astra and Sol. The New Stack frames the API as OpenAI's answer to TypeSafe's Jev. No independent tests have been published."
+   ],
+   "sources": [
+    {
+     "author": "OpenAI Developers",
+     "url": "https://x.com/OpenAIDevs/status/2105003318917697873"
+    },
+    {
+     "author": "AlphaSignal",
+     "url": "https://alphasignal.ai/news/openai-s-decisions-api-gives-developers-a-constrained-gpt-6-luna-router"
+    },
+    {
+     "author": "The New Stack",
+     "url": "https://thenewstack.io/openai-decision-api-luna/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/OpenAIDevs/status/2105003318917697873",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-openai-sign-in-with-chatgpt",
+   "section": "products",
+   "headline": "OpenAI lets ChatGPT Plus and Pro plans power 16 outside developer tools",
+   "standfirst": "Sign in with ChatGPT lets Plus and Pro subscribers spend their existing allowance in Devin, Notion, Vercel and 13 other partner tools, with per-partner limits.",
+   "entities": [
+    "OpenAI",
+    "Sign in with ChatGPT",
+    "Cognition",
+    "Devin",
+    "Notion",
+    "Vercel"
+   ],
+   "body": [
+    "OpenAI announced Sign in with ChatGPT at DevDay on Tuesday, letting Plus and Pro subscribers use their plan allowance inside third-party tools instead of buying a separate subscription. TechCrunch reports it launched with 16 partners, including Cognition's Devin, Notion, Vercel, T3, OpenClaw and Dactyl.",
+    "Other launch partners include OpenCode, Pi, Hyperagent, Hermes Agent, Vorflux, Amp, Kilo Code, Warp and Conductor, according to reports on the launch, with Lovable listed as coming soon. Eligible OpenAI usage in those tools counts against the user's existing ChatGPT limits, and users get controls over how much each partner can consume.",
+    "The New Stack describes the feature as a way to use a subscription in third-party developer tools. TechCrunch adds that OpenAI has not announced billing or revenue-sharing systems comparable to a traditional app store, so the economics for partners remain unclear.",
+    "OpenAI also launched an enterprise app marketplace with more than 30 initial partners, including Adobe, Figma, HubSpot, Salesforce and ServiceNow, per TechCrunch. Eligible customers can apply part of their OpenAI commitments to approved partner software. Independent reports of how the limits behave in practice have not appeared yet."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/"
+    },
+    {
+     "author": "The New Stack",
+     "url": "https://thenewstack.io/sign-in-with-chatgpt/"
+    },
+    {
+     "author": "FourWeekMBA",
+     "url": "https://fourweekmba.com/ai-openai-devday-2026-plan-allowance-marketplace/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-chatgpt-plugin-extensions",
+   "section": "products",
+   "headline": "ChatGPT plugins get sidebar panels, file viewers and a Plugin Creator",
+   "standfirst": "OpenAI says plugin extensions give apps a home in ChatGPT's sidebar, with interactive panels and file viewers, and a Plugin Creator builds plugins through conversation.",
+   "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "Plugin Creator",
+    "MCP Events"
+   ],
+   "body": [
+    "OpenAI expanded ChatGPT plugins at DevDay on Tuesday, according to TechCrunch. Plugin extensions, OpenAI says, give an app a dedicated home in the ChatGPT sidebar and let developers build interactive panels where people work with their tools while chatting. Developers can also build viewers for the file types their products use.",
+    "Plugin Creator is a new tool that, per OpenAI, lets a user describe a workflow, add instructions and reference files, then build and refine a reusable plugin through conversation. OpenAI also redesigned plugin submission so developers can track reviews, see what needs fixing, request human review and update tools without restarting.",
+    "OpenAI says it is adding support for the proposed MCP Events specification, which would let plugins start automations when something happens in a connected app. ChatGPT Sites, the lightweight websites people build with ChatGPT, can now host plugins, letting colleagues use a shared app with their own data and permissions.",
+    "TechCrunch reports OpenAI improved how plugins are ranked and recommended, including surfacing them mid-conversation, and users can approve each plugin's access needs individually. The X account @thsottiaux, which posted about plugin discovery on ChatGPT, wrote that open ecosystems will win. OpenAI has not published usage figures for the directory."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/"
+    },
+    {
+     "author": "OpenAI",
+     "url": "https://openai.com/index/devday-2026-recap/"
+    },
+    {
+     "author": "@thsottiaux",
+     "url": "https://x.com/thsottiaux/status/2105039482013757749"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "c27ee846a",
    "section": "models",
    "headline": "OpenAI scraps GPT-6.1 Astra release over alignment concerns",
@@ -185,7 +384,7 @@
      "after": 4
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-chatgpt-space-plugins",
@@ -232,7 +431,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-arr-70b",
@@ -265,7 +464,7 @@
      "url": "https://x.com/kimmonismus/status/2104960892114710626"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-america-gov-launch",
@@ -294,7 +493,7 @@
      "url": "https://thehill.com/homenews/administration/6117728-trump-launches-ai-government-website/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-anthropic-spacex-compute",
@@ -323,7 +522,7 @@
      "url": "https://www.investmentnews.com/equities/anthropics-landmark-ipo-filing-shows-12-fold-revenue-jump-518b-compute-bill/268391"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-wajo-fo-agent",
