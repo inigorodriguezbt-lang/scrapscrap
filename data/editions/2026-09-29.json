@@ -49,6 +49,55 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-modal-labs-funding",
+   "section": "business",
+   "headline": "Modal Labs nears $750 million round at $15.75 billion valuation",
+   "standfirst": "TechCrunch reported the inference infrastructure startup's valuation has more than tripled in four months, as rival providers Baseten, Fireworks and Fal raise at similarly steep multiples.",
+   "body": [
+    "Modal Labs is closing in on a $750 million funding round led by Accel at a $15.75 billion valuation, TechCrunch reported Monday, citing a person familiar with the deal.",
+    "The figure would more than triple Modal's $4.65 billion valuation from four months earlier. The serverless AI infrastructure company lets developers train models and run inference without managing their own servers, and its customers include Cognition, Suno, Ramp and Substack, according to TechCrunch.",
+    "Modal had surpassed $300 million in annualized revenue as of May, TechCrunch reported, and runs with roughly 150 employees out of New York. Neither Modal nor Accel has confirmed the round, and terms could still change before signing.",
+    "The jump reflects a broader rush into AI inference infrastructure. TechCrunch reported that rival providers Baseten, Fireworks and Fal are also raising at sharply higher valuations, with several inference startups on track to reach $1 billion in annual revenue by the end of the year."
+   ],
+   "entities": [
+    "Modal Labs",
+    "Accel",
+    "Baseten",
+    "Fireworks",
+    "Fal"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-esp32-bitnet-cluster",
+   "section": "chips",
+   "headline": "Developer splits a language model across seven microcontrollers",
+   "standfirst": "An open-source project runs a compressed 0.5-billion-parameter model across a cluster of ESP32-S3 chips wired together, with one board handling tokenization and six others splitting the transformer layers.",
+   "single_source": true,
+   "body": [
+    "A developer split a small language model across seven ESP32-S3 microcontrollers wired together, distributing the neural network's layers the way a cluster of much larger machines would.",
+    "The project is posted to GitHub under the handle Low-Zi-Hong, and reached the Hacker News front page with 50 points and five comments. One microcontroller acts as a master, handling tokenization and embeddings. The other six process transformer layers in parallel, linked over an SPI daisy-chain, according to the repository.",
+    "The model is compressed to fit: a 0.4- to 0.5-billion-parameter language model using 1.58-bit BitNet ternary quantization, plus 4-bit compression for the embedding layer, with the resulting weights stored across the cluster's flash memory, the repository says.",
+    "The repository does not publish tokens-per-second figures or a hardware cost breakdown. It has drawn 88 stars and five forks on GitHub, and no independent benchmark of the setup has been published."
+   ],
+   "entities": [
+    "ESP32-S3"
+   ],
+   "sources": [
+    {
+     "author": "Low-Zi-Hong",
+     "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-perplexity-agent-profiles",
    "section": "products",
    "headline": "Perplexity adds Profiles and Skills to its Agent API",
@@ -202,7 +251,7 @@
      "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-pwnai-kvm-exploit",
@@ -230,7 +279,7 @@
      "url": "https://x.com/IntCyberDigest/status/2104691480178680160"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }
