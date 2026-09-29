@@ -1,115 +1,15 @@
 {
-  "generated_at": "2026-09-29T06:05:33.379322+00:00",
+  "generated_at": "2026-09-29T08:04:31.982371+00:00",
   "edition_date": "2026-09-29",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 155,
-  "clusters_found": 112,
-  "stories_declared": 6,
+  "posts_considered": 161,
+  "clusters_found": 117,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c6a5798f9",
-      "score": 17.135,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "NVIDIA Developer",
-        "Reuters",
-        "TechCrunch AI",
-        "The Decoder",
-        "The Robot Report",
-        "The Verge AI"
-      ],
-      "source_count": 7,
-      "first_seen": "2026-09-28T08:56:55+00:00",
-      "last_seen": "2026-09-29T04:06:23+00:00",
-      "links": [
-        "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
-        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-        "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/",
-        "https://www.bloomberg.com/news/articles/2026-09-29/nvidia-anthropic-ceos-to-attend-trump-johnson-lunch-on-ai-risks",
-        "https://www.bloomberg.com/news/articles/2026-09-29/us-china-ai-race-five-key-flashpoints-explained",
-        "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
-        "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-        "https://x.com/Reuters/status/2104784831167001042"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring. To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of...",
-          "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
-          "created_at": "2026-09-28T08:56:55+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’. Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to escape their boundaries within [&#8230;]",
-          "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-          "created_at": "2026-09-28T13:36:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips. Nvidia is combining its OpenShell agent software with Sentry, a new hardware watchdog, to create the Open Agent Safety Platform. Sentry is supposed to isolate AI agents that break out within milliseconds. When it happened at OpenAI in September, stopping the run took nearly three hours. Still, Nvidia's watchdog can't reliably stop agents that have been tricked or that hide their intentions on its own. The article Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/",
-          "created_at": "2026-09-28T14:32:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Robot Report",
-          "tier": "press",
-          "text": "Gecko Robotics works with NVIDIA to add AI agent security and control. Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems. The post Gecko Robotics works with NVIDIA to add AI agent security and control appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
-          "created_at": "2026-09-28T17:41:32+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Nvidia launches new platform for reining in rogue AI agents. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
-          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-          "created_at": "2026-09-28T18:31:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Nvidia, Anthropic CEOs to Attend Trump-Johnson Lunch on AI Risks. Nvidia Corp. Chief Executive Officer Jensen Huang, Anthropic PBC head Dario Amodei and Palantir Technologies Inc. CEO Alex Karp are slated to attend a lunch with US President Donald Trump to discuss artificial intelligence risks.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/nvidia-anthropic-ceos-to-attend-trump-johnson-lunch-on-ai-risks",
-          "created_at": "2026-09-29T00:36:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "US-China AI Race: Five Key Flashpoints Explained. Both the US and China see artificial intelligence as the new focal point of their economic rivalry. US President Donald Trump declared on Sept. 13 that “whoever wins AI, wins.” The question is whether the two nations can put aside their disagreements and cooperate in building a safe and sustainable AI environment. For now, neither trusts the other’s motives, and neither wants to slow down.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/us-china-ai-race-five-key-flashpoints-explained",
-          "created_at": "2026-09-29T03:32:58+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "CNN, MS NOW and Politico asked a federal judge to issue a court order preserving their White House access while they fight President Trump's move to ban them over coverage he dislikes",
-          "url": "https://x.com/Reuters/status/2104784831167001042",
-          "created_at": "2026-09-29T04:06:23+00:00",
-          "engagement": 70
-        }
-      ]
-    },
-    {
-      "cluster_id": "c156cbca7",
-      "score": 11.628,
+      "cluster_id": "c2d3c87ad",
+      "score": 15.533,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -122,17 +22,19 @@
         "Latent Space",
         "MIT Tech Review",
         "Simon Willison",
-        "The Decoder"
+        "The Decoder",
+        "kimmonismus"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-09-28T17:03:16+00:00",
-      "last_seen": "2026-09-29T01:48:18+00:00",
+      "last_seen": "2026-09-29T07:16:54+00:00",
       "links": [
         "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/",
         "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
         "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/",
         "https://www.latent.space/p/thariq",
-        "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
+        "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+        "https://x.com/kimmonismus/status/2104832777099313335"
       ],
       "posts": [
         {
@@ -174,71 +76,20 @@
           "url": "https://www.latent.space/p/thariq",
           "created_at": "2026-09-29T01:48:18+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9c735b25",
-      "score": 10.266,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "AMD"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Latent Space",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-28T20:27:08+00:00",
-      "last_seen": "2026-09-29T02:55:27+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-        "https://www.bloomberg.com/news/videos/2026-09-28/amd-to-buy-world-labs-ai-startup-for-8-2-billion-video",
-        "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AMD to Buy Fei-Fei Li’s World Labs AI Startup for $8.2 Billion. Chipmaker AMD agreed to acquire World Labs for $8.2 billion, gaining an AI startup founded by industry pioneer and researcher Fei-Fei Li. Ed Ludlow explains why this is such a big deal for both companies (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/amd-to-buy-world-labs-ai-startup-for-8-2-billion-video",
-          "created_at": "2026-09-28T20:27:08+00:00",
-          "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion. The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
-          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-          "created_at": "2026-09-28T20:39:33+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
-          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-          "created_at": "2026-09-28T21:31:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more. Congrats team!",
-          "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-          "created_at": "2026-09-29T02:55:27+00:00",
-          "engagement": 0
+          "text": "It’s crazy how OpenAI and Anthropic have swapped places. Anthropic used to make their subscriptions worse, but now it’s OpenAI. Meanwhile, Anthropic has incredibly efficient models with Opus and Sonnet.",
+          "url": "https://x.com/kimmonismus/status/2104832777099313335",
+          "created_at": "2026-09-29T07:16:54+00:00",
+          "engagement": 136
         }
       ]
     },
     {
-      "cluster_id": "c550f2da7",
-      "score": 9.695,
+      "cluster_id": "c51ad344f",
+      "score": 13.695,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -252,18 +103,20 @@
         "9to5Mac",
         "Engadget",
         "TechCrunch AI",
-        "The Decoder"
+        "The Decoder",
+        "mark_k"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-09-28T12:44:53+00:00",
-      "last_seen": "2026-09-28T22:47:10+00:00",
+      "last_seen": "2026-09-29T05:47:13+00:00",
       "links": [
         "https://9to5google.com/2026/09/28/google-wallet-gemini-app/",
         "https://9to5mac.com/2026/09/28/yeah-dont-give-metas-muse-app-access-to-your-mac/",
         "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
         "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
         "https://the-decoder.com/meta-wants-to-turn-muse-into-a-moneymaker-by-selling-ai-services-to-businesses/",
-        "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/"
+        "https://www.engadget.com/2271136/meta-is-starting-an-enterprise-business-to-justify-its-massive-ai-spending/",
+        "https://x.com/mark_k/status/2104810208329412965"
       ],
       "posts": [
         {
@@ -313,12 +166,235 @@
           "url": "https://9to5google.com/2026/09/28/google-wallet-gemini-app/",
           "created_at": "2026-09-28T22:47:10+00:00",
           "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Google is replacing Gemini Gems with skills starting November 17. Existing Gems will be migrated automatically.\n\nThis is more than a rename. Gems were separate custom chatbots. Skills are reusable instructions Gemini can apply in any chat, invoke when relevant, or combine for more complex tasks.",
+          "url": "https://x.com/mark_k/status/2104810208329412965",
+          "created_at": "2026-09-29T05:47:13+00:00",
+          "engagement": 95
+        }
+      ]
+    },
+    {
+      "cluster_id": "c4838aada",
+      "score": 11.481,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T23:00:00+00:00",
+      "last_seen": "2026-09-29T06:12:03+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns/",
+        "https://x.com/kimmonismus/status/2104816458073055497"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "OpenAI cancels GPT-6.1 Astra release over misbehavior & safety concerns. OpenAI has scrapped plans to release GPT-6.1 Astra in the next few weeks over concerns that the model is misbehaving. more…",
+          "url": "https://9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns/",
+          "created_at": "2026-09-28T23:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Not good: OpenAI has scrapped GPT-6.1 Astra after internal tests found more deception and actions beyond users’ permission, according to the WSJ.\n\nThe model was targeting an October debut in ChatGPT and Codex. It was better at writing and completing difficult tasks without human help, but regressed against GPT-6 Astra on safety and alignment.\n\nOpenAI’s safety chief Saachi Jain said it wasn’t always honest about actions it had or hadn’t taken. It also pushed ahead without authorization, sometimes reaching for external tools and services even where that could be unsafe.\n\nOpenAI now plans to inve",
+          "url": "https://x.com/kimmonismus/status/2104816458073055497",
+          "created_at": "2026-09-29T06:12:03+00:00",
+          "engagement": 339
+        }
+      ]
+    },
+    {
+      "cluster_id": "c060a0c7a",
+      "score": 9.444,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-28T13:36:06+00:00",
+      "last_seen": "2026-09-29T03:32:58+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+        "https://www.bloomberg.com/news/articles/2026-09-29/nvidia-anthropic-ceos-to-attend-trump-johnson-lunch-on-ai-risks",
+        "https://www.bloomberg.com/news/articles/2026-09-29/us-china-ai-race-five-key-flashpoints-explained",
+        "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’. Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announcement on Monday, Nvidia says its new Open Agent Safety Platform can quarantine agents that attempt to escape their boundaries within [&#8230;]",
+          "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+          "created_at": "2026-09-28T13:36:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Nvidia launches new platform for reining in rogue AI agents. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+          "created_at": "2026-09-28T18:31:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nvidia, Anthropic CEOs to Attend Trump-Johnson Lunch on AI Risks. Nvidia Corp. Chief Executive Officer Jensen Huang, Anthropic PBC head Dario Amodei and Palantir Technologies Inc. CEO Alex Karp are slated to attend a lunch with US President Donald Trump to discuss artificial intelligence risks.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-29/nvidia-anthropic-ceos-to-attend-trump-johnson-lunch-on-ai-risks",
+          "created_at": "2026-09-29T00:36:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "US-China AI Race: Five Key Flashpoints Explained. Both the US and China see artificial intelligence as the new focal point of their economic rivalry. US President Donald Trump declared on Sept. 13 that “whoever wins AI, wins.” The question is whether the two nations can put aside their disagreements and cooperate in building a safe and sustainable AI environment. For now, neither trusts the other’s motives, and neither wants to slow down.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-29/us-china-ai-race-five-key-flashpoints-explained",
+          "created_at": "2026-09-29T03:32:58+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2f3bd48d",
+      "score": 8.993,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "AMD"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-28T20:39:33+00:00",
+      "last_seen": "2026-09-29T02:55:27+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+        "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion. The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "created_at": "2026-09-28T20:39:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
+          "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+          "created_at": "2026-09-28T21:31:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more. Congrats team!",
+          "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+          "created_at": "2026-09-29T02:55:27+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c026f45ed",
+      "score": 8.534,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Amazon",
+        "xAI"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Product Hunt AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-28T10:37:27+00:00",
+      "last_seen": "2026-09-29T02:05:11+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+        "https://www.producthunt.com/products/claude",
+        "https://www.producthunt.com/products/supertake",
+        "https://www.producthunt.com/products/timeos"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Timeless Code. Meeting notetaker that installs and runs inside Claude Code Discussion | Link",
+          "url": "https://www.producthunt.com/products/timeos",
+          "created_at": "2026-09-28T10:37:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Claude Sonnet 5.5. Anthropic's second model in the Claude 5.5 family Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude",
+          "created_at": "2026-09-28T18:27:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Claude Sonnet 5.5 on AWS. Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cost per task at faster speed. This post covers what's new, when to choose Sonnet, and how to get started.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+          "created_at": "2026-09-28T18:57:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Grok 4.7 is now available on Amazon Bedrock. xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+          "created_at": "2026-09-28T22:13:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Supertake. AI that turn your ideas into real investments Discussion | Link",
+          "url": "https://www.producthunt.com/products/supertake",
+          "created_at": "2026-09-29T02:05:11+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c42ada9db",
-      "score": 7.982,
+      "score": 7.652,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -357,7 +433,7 @@
     },
     {
       "cluster_id": "c9d4de9af",
-      "score": 5.382,
+      "score": 5.052,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",

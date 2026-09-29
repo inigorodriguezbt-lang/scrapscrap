@@ -226,6 +226,87 @@
    },
    "published_at": "2026-09-29T03:15:00+00:00",
    "id": "instinct-a-personal-ai-agent-startup"
+  },
+  {
+   "text": "OpenAI published a post on securing frontier RL training runs. A summary by developer mark_k says it proposes a documented \"safety case\" before runs continue, with live monitoring and senior leaders able to veto.",
+   "why": "It would put a safety gate during training, not just before release, if the proposal is adopted beyond OpenAI.",
+   "source": {
+    "name": "OpenAI",
+    "url": "https://x.com/OpenAI/status/2104815409522483470"
+   },
+   "published_at": "2026-09-29T06:07:53+00:00",
+   "id": "openai-published-a-post-on-securing"
+  },
+  {
+   "text": "The Hacker News reported that malicious MCP servers can steal OAuth credentials from clients built on the MCP Python SDK, exposing the client secret, auth code and PKCE verifier.",
+   "why": "With those three values an attacker could request a valid access token from the real service, so anyone running MCP clients should check the advisory.",
+   "source": {
+    "name": "The Hacker News",
+    "url": "https://x.com/TheHackersNews/status/2104816310127665495"
+   },
+   "published_at": "2026-09-29T06:11:28+00:00",
+   "id": "the-hacker-news-reported-that-malicious"
+  },
+  {
+   "text": "Taiwanese media report TSMC is looking to build six advanced fabs in Texas alongside its Arizona operations, with total investment possibly exceeding Arizona's, chip analyst jukan05 said.",
+   "why": "The report is unconfirmed by TSMC, but it would spread leading-edge AI chip production across a second US state.",
+   "source": {
+    "name": "jukan05 on X",
+    "url": "https://x.com/jukan05/status/2104821869690163581"
+   },
+   "published_at": "2026-09-29T06:33:34+00:00",
+   "id": "taiwanese-media-report-tsmc-is-looking"
+  },
+  {
+   "text": "A paper on recursive on-policy distillation says Qwen3-8B's Average@12 rose from 30.35% with a frozen teacher to 65.97%, with each improved model becoming the next teacher.",
+   "why": "The figures are the authors' own on one model, but the loop is a cheap way to bootstrap reasoning without a bigger teacher.",
+   "source": {
+    "name": "alphaXiv on X",
+    "url": "https://x.com/askalphaxiv/status/2104813464212627771"
+   },
+   "published_at": "2026-09-29T06:00:10+00:00",
+   "id": "a-paper-on-recursive-on-policy"
+  },
+  {
+   "text": "Developer Theo posted a video saying Sonnet 5.5 is \"an incredible model\" that \"you probably shouldn't use,\" and explaining his reasons on camera.",
+   "why": "Sonnet 5.5 shipped this week, and reviewers are already splitting over how it compares with Opus on cost and token use.",
+   "source": {
+    "name": "Theo on X",
+    "url": "https://x.com/theo/status/2104837275914002820"
+   },
+   "published_at": "2026-09-29T07:34:47+00:00",
+   "embed": "https://x.com/theo/status/2104837275914002820",
+   "id": "developer-theo-posted-a-video-saying"
+  },
+  {
+   "text": "Google plans to phase out ChromeOS by mid-2034, Tom's Hardware reported, cutting short the 10-year support for some Chromebooks, with many models eligible for a Googlebook OS upgrade.",
+   "why": "Googlebook, Google's Android-based laptop platform, is the successor, so schools and firms with Chromebooks face a migration plan.",
+   "source": {
+    "name": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/laptops/google-confirms-chromeos-phase-out-in-2034-10-year-support-lifetime-cut-short-for-some-devices-company-says-it-will-support-transition-to-googlebook-os"
+   },
+   "published_at": "2026-09-29T01:58:00+00:00",
+   "id": "google-plans-to-phase-out-chromeos"
+  },
+  {
+   "text": "Samsung is committing $1 billion to AI infrastructure company Helix, the Wall Street Journal reported, adding to the $10 billion already secured when a KKR-led group including Nvidia set it up in June.",
+   "why": "It shows chipmakers putting money into the data center builders that buy their hardware.",
+   "source": {
+    "name": "The Wall Street Journal",
+    "url": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57"
+   },
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "samsung-is-committing-1-billion-to"
+  },
+  {
+   "text": "Rep. Ro Khanna will introduce the Human Control Over AI Act, CNBC reported, with strict liability for AI harms and a ban on recursive self-improving AI until government safeguards exist.",
+   "why": "It is a proposal from one House member, and nothing in the report suggests it has a path to passage.",
+   "source": {
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/2026/09/28/khanna-ai-safety-bill.html"
+   },
+   "published_at": "2026-09-29T00:00:00+00:00",
+   "id": "rep-ro-khanna-will-introduce-the"
   }
  ]
 }
