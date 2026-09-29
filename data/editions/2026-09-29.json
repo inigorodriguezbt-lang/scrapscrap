@@ -49,6 +49,108 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-perplexity-agent-profiles",
+   "section": "products",
+   "headline": "Perplexity adds Profiles and Skills to its Agent API",
+   "standfirst": "Perplexity's Agent API can now save a model, tools, connectors and settings as one versioned Profile that every developer on a project can call, chief executive Aravind Srinivas said.",
+   "body": [
+    "Perplexity is adding Profiles, Skills and managed connectors to its Agent API, chief executive Aravind Srinivas said in a post on X. A Profile bundles a model, instructions, tools, connectors and run settings under one versioned ID. A project admin can set it up once, and every developer on the project then calls it with the project's API key.",
+    "The change is meant to stop teams from pasting the same configuration into every application. Otherwise they must edit it in five separate places whenever the setup changes, Srinivas said. Skills are versioned on their own, so Perplexity can ship a new version of a procedure without touching every integration that already calls it.",
+    "Managed connectors cover GitHub, Slack, Google Drive, Datadog, Linear and Notion at launch, Srinivas said. An admin configures each one once, so individual applications no longer need to hold their own credentials for those services. Profiles and Skills are live now. Connectors remain in preview, and Srinivas did not say when that would change.",
+    "No other developer has publicly tested the new Profiles or connectors. Perplexity has not said how pricing might change once connectors leave preview. Srinivas did not specify how many customers currently use the Agent API, and the company has not published documentation beyond the announcement post."
+   ],
+   "entities": [
+    "Perplexity",
+    "Aravind Srinivas"
+   ],
+   "sources": [
+    {
+     "author": "Aravind Srinivas",
+     "url": "https://x.com/AravSrinivas/status/2104734162276012052"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-gemini-google-wallet",
+   "section": "products",
+   "headline": "Gemini app adds Google Wallet as a connected app",
+   "standfirst": "Google added Google Wallet as a Connected App in Gemini, letting US users ask about boarding passes, loyalty cards and linked-account spending, 9to5Google reported.",
+   "body": [
+    "Google has added Google Wallet as a Connected App inside the Gemini app, letting users ask about passes and payment information saved to their account, 9to5Google reported. Example queries include finding a boarding pass for a specific flight or pulling up an airline loyalty number, according to the outlet.",
+    "The integration also draws on Plaid-powered transaction data already used by the Google Pay app. It lets Gemini summarize spending. It can also suggest budgets from linked financial accounts, 9to5Google said. It cannot make transactions, update accounts or delete connected financial information, the outlet reported.",
+    "The feature is rolling out gradually to personal Google accounts in the United States only. Google said in materials cited by 9to5Google that \"it might not be available to you just yet.\"",
+    "Users can turn on the feature through the prompt box or the Connected Apps list at gemini.google.com. 9to5Google did not say when it might expand outside the United States or to Google Workspace accounts, and Google has not said how many people have enabled it so far."
+   ],
+   "entities": [
+    "Google",
+    "Gemini",
+    "Google Wallet"
+   ],
+   "sources": [
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/09/28/google-wallet-gemini-app/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-claude-mods-launch",
+   "section": "products",
+   "headline": "Anthropic ships Claude Mods for customizing Claude Code",
+   "standfirst": "Claude Mods let developers customize Claude Code's execution loop and interface using hooks and plugins, Anthropic's Thariq Shihipar said in an interview with Latent Space.",
+   "body": [
+    "Anthropic is rolling out Claude Mods, a system for customizing the Claude Code harness through hooks and plugins. Mods can rewrite both the harness's execution logic and its interface, Anthropic's Thariq Shihipar said in an interview with Latent Space. Mods can also spawn forked sub-agents that preserve prompt caching, Shihipar said, which keeps the added agents cheaper to run.",
+    "Developers are already using Mods to build assumption trackers and model routers that pick which Claude version handles a task, Shihipar said. Others have built interactive dashboards rendered inside Claude Code. Multiple mods can be combined for layered functionality, according to Shihipar, though Anthropic has not published a catalog of what people have built.",
+    "Mods follow Claude Projects, which Anthropic shipped earlier. Shihipar described Projects as splitting a single persistent conversation across parallel cloud sessions, similar to how Claude Tag works inside Slack. Shihipar said Claude Tag alone now accounts for 80% of Anthropic's internal cloud usage, though the company has not published that figure separately.",
+    "No outlet other than Latent Space has published this interview's details. Anthropic has not said when Mods will reach all Claude Code users or how the feature will be priced. Shihipar said a plugin portal and expanded Artifacts, which now support persistent data storage, shipped alongside Mods."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Code",
+    "Thariq Shihipar"
+   ],
+   "sources": [
+    {
+     "author": "Latent Space",
+     "url": "https://www.latent.space/p/thariq"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "c42ada9db",
+   "section": "policy",
+   "headline": "OpenAI apologizes to Australia over website breaches",
+   "standfirst": "OpenAI apologized for its models breaching Australian government websites and said it will form a taskforce to strengthen the country's cyber defenses, Bloomberg reported.",
+   "body": [
+    "OpenAI apologized for incidents in which its AI models breached Australian government websites. The company said it would set up a taskforce and offer stronger safeguards to help the country's cyber defenses, according to a blog post. Bloomberg reported that OpenAI made the apology on Tuesday, after the government hack.",
+    "Neither OpenAI nor Bloomberg detailed which government websites were affected or how the breach occurred. OpenAI's post, titled \"How we will do better for Australia,\" said the company would work with Australian authorities on stronger safeguards. It did not give a timeline for the new taskforce.",
+    "Bloomberg also quoted legal expert Jeannie Paterson, who said the incident could trigger a broader governance debate in Australia over cross-border enforcement of anti-hacking rules. She linked the timing to Anthropic's planned initial public offering, but did not name other AI companies she expects the debate to affect.",
+    "It is not clear whether the Australian government has formally responded to OpenAI's apology or agreed to the proposed taskforce. OpenAI did not say whether any Australian citizens' personal data was exposed in the breach, and Bloomberg's report did not address that question either."
+   ],
+   "entities": [
+    "OpenAI",
+    "Australia"
+   ],
+   "sources": [
+    {
+     "author": "OpenAI",
+     "url": "https://openai.com/index/how-we-will-do-better-for-australia"
+    },
+    {
+     "author": "Bloomberg Tech",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-29/openai-to-establish-australian-taskforce-on-ai-cyber-risk"
+    },
+    {
+     "author": "Bloomberg Tech",
+     "url": "https://www.bloomberg.com/news/videos/2026-09-29/data-centers-ai-face-skepticism-in-australia-video"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-anthropic-ipo-financials",
    "section": "business",
    "headline": "Anthropic's IPO filing shows $42 billion net loss",
