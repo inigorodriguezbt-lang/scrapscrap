@@ -30,6 +30,65 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-agmai-math-release",
+   "section": "research",
+   "headline": "Mathematicians advise OpenAI to release AI proofs with prompts and costs",
+   "standfirst": "An independent group including Timothy Gowers, Martin Hairer and Edward Witten wants AI labs to publish prompts, formal proofs and failed attempts, and to fund human understanding of any result.",
+   "entities": [
+    "OpenAI",
+    "Institute for Advanced Study",
+    "Timothy Gowers",
+    "Martin Hairer",
+    "Edward Witten"
+   ],
+   "body": [
+    "The Advisory Group on Mathematics and Artificial Intelligence published recommendations on September 29 for how AI labs should release mathematical results. Its website lists nine members, among them Timothy Gowers, Martin Hairer, Edward Witten, Ravi Vakil and Melanie Matchett Wood. The group says it works independently of any AI company and that its members take no payment.",
+    "According to the group, it formed after OpenAI approached some members about an external advisory board. In agreement with OpenAI, they instead created an independent group and invited others. It says its current task is advising OpenAI on releasing a large number of significant results that OpenAI reports were produced by an internal model. The paper has not seen those results.",
+    "For each result, the recommendations say a lab should publish the model's name, the prompts used, a summarised chain of thought, the time taken and the estimated compute cost. Proofs should be formalised where possible, and deposited in a repository that no lab controls. The group also says labs should not treat mathematical results as marketing vehicles.",
+    "When many results arrive together, it asks for a further document saying how many problems of comparable difficulty the models tried and failed, and how the problems were chosen. Where no human understands a result yet, the group says labs must help pay for that understanding, through workshops, working groups or expository writing, with funding decided by existing nonprofits rather than the labs.",
+    "The group says the guidance draws on more than 600 survey replies from mathematicians. It also asks labs to stop testing advanced problems on proprietary models the wider community cannot use, and to give mathematicians broad access to public models. The recommendations are advice only: the group says it has no decision-making power at any AI company, and no lab has yet responded in the sources the paper read."
+   ],
+   "sources": [
+    {
+     "author": "Advisory Group on Mathematics and Artificial Intelligence",
+     "url": "https://agmai.org/general-sep29/"
+    },
+    {
+     "author": "Advisory Group on Mathematics and Artificial Intelligence (home page)",
+     "url": "https://agmai.org/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-modelscope-moark-rest-of-world",
+   "section": "ai",
+   "headline": "China's ModelScope and MoArk race to replace Hugging Face at home",
+   "standfirst": "Rest of World says Alibaba's ModelScope hosts 170,000 models and OSChina's MoArk about 20,000, against more than 3 million on Hugging Face, which Nvidia is reportedly buying for $12.9 billion.",
+   "entities": [
+    "Alibaba",
+    "OSChina",
+    "Hugging Face",
+    "Nvidia",
+    "ModelScope",
+    "MoArk"
+   ],
+   "body": [
+    "Rest of World reported on September 29 that two Chinese sites are competing to become the country's Hugging Face. Alibaba's ModelScope, launched in 2022, said in March that it had 170,000 models and 250 million users. OSChina's MoArk, launched in 2023, hosts more than 20,000 commonly used models, according to OSChina chief executive Xu Yong. No other outlet has confirmed those figures.",
+    "Chinese regulators blocked Hugging Face in 2023, the report says, but the government quietly tolerates labs and developers who use VPNs to reach it. Researcher Rebecca Arcesati of the Mercator Institute for China Studies told the outlet that Beijing sees access to international platforms as useful to its tech industry, while wanting the whole AI stack to be home-grown.",
+    "The article also says Nvidia announced in September that it was acquiring Hugging Face for $12.9 billion, and that a regulatory filing about the deal flagged the risk that regulators could ban Chinese models from the site. The Trump administration has reportedly discussed such bans. The paper has not seen the filing itself, and Rest of World does not quote it at length.",
+    "Xu said MoArk has engineers adapting open models to run on different Chinese chips, calling it the company's mission to make mainstream open models run on them. ModelScope has run university hackathons and opened an event space in Hangzhou. Rest of World says both sites offer model testing and customisation, with free usage and paid compute.",
+    "Developers are not yet convinced. Chen Yunfei, an independent developer in Kunming, told Rest of World the main attraction is faster downloads, but that Hugging Face and GitHub remain the default because they offer greater variety. He said the domestic platforms still have to persuade developers why they should switch."
+   ],
+   "sources": [
+    {
+     "author": "Rest of World",
+     "url": "https://restofworld.org/2026/china-open-source-ai-hugging-face-modelscope-moark/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-ollama-nimble-decision-models",
    "section": "models",
    "headline": "Ollama adds local decision models, starting with a 9B Nimble",

@@ -266,6 +266,72 @@
    },
    "published_at": "2026-09-30T02:00:00+00:00",
    "id": "bespoke-labs-nimble-9b-is-a"
+  },
+  {
+   "text": "Context Language Models, a paper Aran Komatsuzaki credits to Meta, treat context as an editable file; the authors report 11.4% higher accuracy with 21.5% fewer FLOPs on BrowseComp-Plus.",
+   "why": "The paper argues that context management should be learned by the model rather than handled by an external harness, and reports gains on 12- and 24-hour agent tasks.",
+   "source": {
+    "name": "arXiv: Context Language Models",
+    "url": "https://arxiv.org/abs/2609.37725"
+   },
+   "published_at": "2026-09-29T14:50:08+00:00",
+   "tag": "research",
+   "id": "context-language-models-a-paper-aran"
+  },
+  {
+   "text": "The Financial Times reports Singapore is doubling down on chipmaking as the AI boom lifts its economy, while high costs, scarce land and labour and US trade scrutiny threaten those ambitions.",
+   "why": "A small trading hub is betting on semiconductors just as US export policy and land constraints tighten around the industry it wants to grow.",
+   "source": {
+    "name": "Financial Times",
+    "url": "https://www.ft.com/content/f1c7da54-a762-4c62-bb4c-0ce4fe536900"
+   },
+   "published_at": "2026-09-30T06:30:00+00:00",
+   "tag": "chips",
+   "id": "the-financial-times-reports-singapore-is"
+  },
+  {
+   "text": "Citrix NetScaler flaw CVE-2026-88772 is already exploited in the wild, and watchTowr says 120 crafted DTLS records overrun a 35,840-byte buffer to reach root-level code execution, The Hacker News reports.",
+   "why": "The analysis gives defenders the exploit chain in detail; NetScaler gateways sit at the edge of many corporate networks, including ones that host AI services.",
+   "source": {
+    "name": "The Hacker News",
+    "url": "https://x.com/TheHackersNews/status/2105168984782127577"
+   },
+   "published_at": "2026-09-30T05:52:52+00:00",
+   "tag": "security",
+   "id": "citrix-netscaler-flaw-cve-2026-88772"
+  },
+  {
+   "text": "Writer erinbeess posted that she asked Claude to break every standard of English it could find, calling the result really good; the post had 315 likes when the paper read it.",
+   "why": "A prompt-play example of the kind of overnight experiment people run when a model ships; the post shows one output, not a systematic test.",
+   "source": {
+    "name": "erinbeess on X",
+    "url": "https://x.com/erinbeess/status/2105159469088825771"
+   },
+   "published_at": "2026-09-30T05:15:04+00:00",
+   "tag": "ai",
+   "id": "writer-erinbeess-posted-that-she-asked"
+  },
+  {
+   "text": "Commentator teortaxesTex says DeepSeek's Huawei work suggests it is designing its own 128-card supernodes, roughly two cabinets of Ascend 950, rather than buying Huawei's prefab pods.",
+   "why": "It is one commentator's reading of DeepSeek's release, not a DeepSeek statement, but it hints at how tightly the lab and Huawei are co-designing hardware.",
+   "source": {
+    "name": "teortaxesTex on X",
+    "url": "https://x.com/teortaxesTex/status/2105182685761290717"
+   },
+   "published_at": "2026-09-30T06:47:19+00:00",
+   "tag": "chips",
+   "id": "commentator-teortaxestex-says-deepseek-s-huawei"
+  },
+  {
+   "text": "Platformer published a hands-on with OpenAI's Dots, calling the work-focused agents capable and intuitive, with natural-feeling conversations shown as a chat inside ChatGPT, according to Techmeme's summary.",
+   "why": "It is the first outside hands-on with Dots since OpenAI launched them at Dev Day, so it is worth reading against OpenAI's own claims.",
+   "source": {
+    "name": "Platformer",
+    "url": "https://www.platformer.news/openai-dots-agents-devday-2026/"
+   },
+   "published_at": "2026-09-30T06:00:00+00:00",
+   "tag": "products",
+   "id": "platformer-published-a-hands-on-with"
   }
  ]
 }

@@ -1,174 +1,15 @@
 {
-  "generated_at": "2026-09-30T06:03:33.328151+00:00",
+  "generated_at": "2026-09-30T08:04:13.709680+00:00",
   "edition_date": "2026-09-30",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 137,
-  "clusters_found": 90,
-  "stories_declared": 7,
+  "posts_considered": 152,
+  "clusters_found": 99,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c08f462bd",
-      "score": 18.705,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta",
-        "Microsoft",
-        "Apple",
-        "xAI"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "9to5Mac",
-        "OpenAI",
-        "TechCrunch AI",
-        "The Decoder",
-        "The Verge AI",
-        "Wired AI",
-        "ollama"
-      ],
-      "source_count": 8,
-      "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-30T04:25:36+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/29/openai-dots-agent/",
-        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
-        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-        "https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/",
-        "https://openai.com/index/devday-2026-recap",
-        "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-        "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-        "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-        "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-        "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-        "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-        "https://x.com/ollama/status/2105152056382345544"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "DevDay 2026 Recap. Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-          "url": "https://openai.com/index/devday-2026-recap",
-          "created_at": "2026-09-29T10:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI makes 20+ announcements at DevDay event including always-on agents called dots, watch live. OpenAI has teased 20+ announcements as part of its DevDay 2026 event. The event will be streamed live. You can see everything announced today below. more…",
-          "url": "https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/",
-          "created_at": "2026-09-29T16:03:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast. At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eight times the speed at six times the price. The article OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-          "created_at": "2026-09-29T17:14:41+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI gives Codex reusable cloud environments that work across devices. OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
-          "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI launches Dots, its Muse competitor. OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse. These cute agents are designed to connect to your apps and tackle multistep tasks.",
-          "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI's reveals a new ChatGPT that looks less like a chatbot and more like an operating system. At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partners, and a new Pro 500 pricing tier. The article OpenAI&#039;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-          "created_at": "2026-09-29T17:23:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite. OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-          "created_at": "2026-09-29T17:45:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "OpenAI launches Dots, new ‘always-on agents’ you can assign tasks to. Right as Meta’s Muse avatar agent has taken the AI world by storm, OpenAI is today announcing Dots as “always-on agents” you can customize to your needs. more…",
-          "url": "https://9to5google.com/2026/09/29/openai-dots-agent/",
-          "created_at": "2026-09-29T17:55:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT now reaches 1.2 billion people every week, OpenAI says. OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-          "created_at": "2026-09-29T18:10:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
-          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
-          "created_at": "2026-09-29T20:31:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch. Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
-          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-          "created_at": "2026-09-29T22:20:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-          "created_at": "2026-09-30T00:41:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "ollama",
-          "tier": "commentary",
-          "text": "Ollama now supports Jev-like decision models all locally.\n\nUse decision models like Nimble for tasks like ticket triaging, model routing, and content moderation.\n\nollama pull nimble\n\nHere’s Nimble playing Ollama racer through the new local /v1/systemone API by making decisions in real-time. 🏎️",
-          "url": "https://x.com/ollama/status/2105152056382345544",
-          "created_at": "2026-09-30T04:25:36+00:00",
-          "engagement": 611,
-          "video": true
-        }
-      ]
-    },
-    {
       "cluster_id": "c8301736c",
-      "score": 14.541,
+      "score": 14.206,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -275,8 +116,196 @@
       ]
     },
     {
-      "cluster_id": "c574809f6",
-      "score": 10.837,
+      "cluster_id": "cd3f0e3ef",
+      "score": 13.565,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Meta",
+        "Microsoft",
+        "Apple",
+        "xAI"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "9to5Mac",
+        "OpenAI",
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 7,
+      "first_seen": "2026-09-29T10:00:00+00:00",
+      "last_seen": "2026-09-30T00:41:46+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/29/openai-dots-agent/",
+        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+        "https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/",
+        "https://openai.com/index/devday-2026-recap",
+        "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+        "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+        "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+        "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+        "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
+        "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "DevDay 2026 Recap. Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+          "url": "https://openai.com/index/devday-2026-recap",
+          "created_at": "2026-09-29T10:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI makes 20+ announcements at DevDay event including always-on agents called dots, watch live. OpenAI has teased 20+ announcements as part of its DevDay 2026 event. The event will be streamed live. You can see everything announced today below. more…",
+          "url": "https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/",
+          "created_at": "2026-09-29T16:03:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast. At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eight times the speed at six times the price. The article OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
+          "created_at": "2026-09-29T17:14:41+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI gives Codex reusable cloud environments that work across devices. OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
+          "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+          "created_at": "2026-09-29T17:15:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI launches Dots, its Muse competitor. OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+          "created_at": "2026-09-29T17:15:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse. These cute agents are designed to connect to your apps and tackle multistep tasks.",
+          "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+          "created_at": "2026-09-29T17:15:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI's reveals a new ChatGPT that looks less like a chatbot and more like an operating system. At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partners, and a new Pro 500 pricing tier. The article OpenAI&#039;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+          "created_at": "2026-09-29T17:23:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite. OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
+          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+          "created_at": "2026-09-29T17:45:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "OpenAI launches Dots, new ‘always-on agents’ you can assign tasks to. Right as Meta’s Muse avatar agent has taken the AI world by storm, OpenAI is today announcing Dots as “always-on agents” you can customize to your needs. more…",
+          "url": "https://9to5google.com/2026/09/29/openai-dots-agent/",
+          "created_at": "2026-09-29T17:55:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT now reaches 1.2 billion people every week, OpenAI says. OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+          "created_at": "2026-09-29T18:10:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
+          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+          "created_at": "2026-09-29T20:31:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch. Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+          "created_at": "2026-09-29T22:20:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+          "created_at": "2026-09-30T00:41:46+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd5bb534c",
+      "score": 11.755,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T05:07:26+00:00",
+      "last_seen": "2026-09-30T07:27:32+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
+        "https://x.com/kimmonismus/status/2105197839844303175"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "DeepSeek Unveils Huawei AI Chip Tools That May Replace Nvidia’s. DeepSeek has publicly released software it created with Huawei Technologies Co. to program AI chips, showcasing its close partnership with the Chinese company working to develop technologies to replace Nvidia Corp.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
+          "created_at": "2026-09-30T05:07:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "DeepSeek and Huawei are building an alternative to Nvidia’s CUDA as China ramps up its domestic AI chip industry. Via Bloomberg:\n\nDeepSeek has released an open-source toolkit for Huawei’s Ascend accelerators, including TileLang support optimized for Ascend 950.\n\nThe tools simplify writing the compute kernels behind AI models, with the compiler handling tasks such as scheduling and synchronization. That could make Huawei hardware more practical for developers building outside Nvidia’s ecosystem.\n\nI've said it many times before, but I'll repeat it again: many people only look at the models, when",
+          "url": "https://x.com/kimmonismus/status/2105197839844303175",
+          "created_at": "2026-09-30T07:27:32+00:00",
+          "engagement": 165
+        }
+      ]
+    },
+    {
+      "cluster_id": "c97d67b6d",
+      "score": 10.686,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -286,47 +315,56 @@
         "Microsoft"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
         "Engadget",
-        "The Decoder",
-        "The Verge AI"
+        "Product Hunt AI",
+        "The Decoder"
       ],
-      "source_count": 4,
-      "first_seen": "2026-09-29T14:08:21+00:00",
-      "last_seen": "2026-09-30T00:19:13+00:00",
+      "source_count": 3,
+      "first_seen": "2026-09-29T13:16:30+00:00",
+      "last_seen": "2026-09-30T05:43:28+00:00",
       "links": [
         "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
-        "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
-        "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
         "https://www.engadget.com/2272248/chatgpt-space-for-work/",
-        "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-        "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-        "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-        "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
+        "https://www.producthunt.com/products/campfire-12",
+        "https://www.producthunt.com/products/datastory-data-visualization-platform",
+        "https://www.producthunt.com/products/evlat",
+        "https://www.producthunt.com/products/ferndesk",
+        "https://www.producthunt.com/products/freddy",
+        "https://www.producthunt.com/products/getcta-store",
+        "https://www.producthunt.com/products/jambuild",
+        "https://www.producthunt.com/products/upsolve-ai"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger. Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this weekend, after authorizing the bot to handle his Facebook Marketplace account. That's despite Meta placing great emphasis on the security features of Muse when it launched the personal AI agent earlier this month as it tries to catch [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-          "created_at": "2026-09-29T14:08:21+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Datastory. Turn the world's data into stories worth sharing Discussion | Link",
+          "url": "https://www.producthunt.com/products/datastory-data-visualization-platform",
+          "created_at": "2026-09-29T13:16:30+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI DevDay 2026: The biggest news and announcements. It&#8217;s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product that rivals Meta’s recently-launched Muse. However, unlike Muse, which is available for free, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-          "created_at": "2026-09-29T16:00:00+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Evlat. Know which AI coding agent is waiting on you Discussion | Link",
+          "url": "https://www.producthunt.com/products/evlat",
+          "created_at": "2026-09-29T13:51:59+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Protesters gather at OpenAI’s DevDay. On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Altman, get off it, put people over profit,\" said a group of protesters marching in a circle in front of a series of signs that spelled out \"PEOPLE OVER PROFIT.\" More than a dozen organizations came together to sponsor a rally outside [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-          "created_at": "2026-09-29T17:12:27+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "freddy.health. talk to your body in Claude, ChatGPT, Muse, or any other AI Discussion | Link",
+          "url": "https://www.producthunt.com/products/freddy",
+          "created_at": "2026-09-29T14:17:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Ferndesk. The help center that never goes out of date Discussion | Link",
+          "url": "https://www.producthunt.com/products/ferndesk",
+          "created_at": "2026-09-29T16:16:02+00:00",
           "engagement": 0
         },
         {
@@ -346,27 +384,35 @@
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "MongoDB Not in a Rush to Find CEO Successor, Ittycheria Says. MongoDB Interim President and CEO Dev Ittycheria discusses the outlook for the company after Meta Platforms tapped former CEO Chirantan “CJ” Desai to lead a new AI platform for enterprise customers. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
-          "created_at": "2026-09-29T21:18:12+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "getcta.store. an ai teleprompter that lives under your MacBook notch Discussion | Link",
+          "url": "https://www.producthunt.com/products/getcta-store",
+          "created_at": "2026-09-29T20:05:12+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Altman on OpenAI's IPO Plans, AI Agent Dots, AI Security. OpenAI CEO Sam Altman talks about launching its new AI personal agent called Dots, which he says is a premium product. Altman also says the company will go public at some point, but it's being patient. He speaks to Bloomberg's Ed Ludlow in San Francisco. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
-          "created_at": "2026-09-29T21:34:13+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Upsolve Data Models. Teach AI your metric definitions and business vocabulary Discussion | Link",
+          "url": "https://www.producthunt.com/products/upsolve-ai",
+          "created_at": "2026-09-29T21:40:33+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Sam Altman says OpenAI won’t go public until its models are safe. For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
-          "created_at": "2026-09-30T00:19:13+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Campfire. The shared workspace for humans and coding agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/campfire-12",
+          "created_at": "2026-09-30T03:18:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "jambuild. Near instant multiplayer vibecoding, just point and talk Discussion | Link",
+          "url": "https://www.producthunt.com/products/jambuild",
+          "created_at": "2026-09-30T05:43:28+00:00",
           "engagement": 0
         }
       ]
@@ -442,7 +488,7 @@
     },
     {
       "cluster_id": "c2361721c",
-      "score": 8.851,
+      "score": 8.516,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -491,47 +537,84 @@
       ]
     },
     {
-      "cluster_id": "c2e521bd7",
-      "score": 8.394,
-      "interest": "neutral",
+      "cluster_id": "ce1415434",
+      "score": 7.773,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI"
+        "OpenAI",
+        "Meta"
       ],
       "independent_sources": [
-        "Simon Willison",
-        "ValsAI"
+        "Bloomberg Tech",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T18:27:48+00:00",
-      "last_seen": "2026-09-30T04:27:23+00:00",
+      "first_seen": "2026-09-29T14:08:21+00:00",
+      "last_seen": "2026-09-30T00:19:13+00:00",
       "links": [
-        "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-        "https://x.com/ValsAI/status/2105152503700672835"
+        "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
+        "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
+        "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+        "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+        "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
+        "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price. My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... They're not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr... Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt",
-          "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-          "created_at": "2026-09-29T18:27:48+00:00",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger. Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this weekend, after authorizing the bot to handle his Facebook Marketplace account. That's despite Meta placing great emphasis on the security features of Muse when it launched the personal AI agent earlier this month as it tries to catch [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+          "created_at": "2026-09-29T14:08:21+00:00",
           "engagement": 0
         },
         {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "GPT 6.1 Sol is here, and it’s an overall improvement over GPT-6 Sol. It now ranks #7, three spots above GPT-6 Sol.",
-          "url": "https://x.com/ValsAI/status/2105152503700672835",
-          "created_at": "2026-09-30T04:27:23+00:00",
-          "engagement": 51
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI DevDay 2026: The biggest news and announcements. It&#8217;s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product that rivals Meta’s recently-launched Muse. However, unlike Muse, which is available for free, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+          "created_at": "2026-09-29T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Protesters gather at OpenAI’s DevDay. On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Altman, get off it, put people over profit,\" said a group of protesters marching in a circle in front of a series of signs that spelled out \"PEOPLE OVER PROFIT.\" More than a dozen organizations came together to sponsor a rally outside [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
+          "created_at": "2026-09-29T17:12:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "MongoDB Not in a Rush to Find CEO Successor, Ittycheria Says. MongoDB Interim President and CEO Dev Ittycheria discusses the outlook for the company after Meta Platforms tapped former CEO Chirantan “CJ” Desai to lead a new AI platform for enterprise customers. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
+          "created_at": "2026-09-29T21:18:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Altman on OpenAI's IPO Plans, AI Agent Dots, AI Security. OpenAI CEO Sam Altman talks about launching its new AI personal agent called Dots, which he says is a premium product. Altman also says the company will go public at some point, but it's being patient. He speaks to Bloomberg's Ed Ludlow in San Francisco. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
+          "created_at": "2026-09-29T21:34:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Sam Altman says OpenAI won’t go public until its models are safe. For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+          "created_at": "2026-09-30T00:19:13+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cc905a4c7",
-      "score": 7.793,
+      "score": 7.458,
       "interest": "want",
       "single_source": false,
       "suggested_section": "policy",
