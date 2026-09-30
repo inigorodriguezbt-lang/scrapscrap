@@ -30,6 +30,243 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-runway-praxis-1",
+   "section": "research",
+   "headline": "Runway's Praxis-1 teaches robots from web video, weights promised",
+   "standfirst": "Runway says its first world action model, Praxis-1, matched robot-video pretraining on placement error, 16.1 cm against 16.0 cm, using only web video.",
+   "entities": [
+    "Runway",
+    "Praxis-1",
+    "Noble Machines",
+    "Standard Bots"
+   ],
+   "body": [
+    "Runway announced Praxis-1 on Wednesday, calling it an open-weight World Action Model that turns its video pretraining into robot control. In a post on X, the company said robot demonstration data is limited while video data is effectively unlimited, and that its bet is that the best policy models will learn from video.",
+    "The company says Praxis-1 is a policy model for robotics developers and researchers that works across embodiments. Runway says the same policy ran on two-arm rigs, six-degree-of-freedom arms and mobile bases without retraining, and moved from a studio to a kitchen. Runway supplied those demonstrations and no outside team has reported results.",
+    "Runway's headline number is a comparison. After fine-tuning, placement error was 16.1 cm for a model pretrained on web video and 16.0 cm for one pretrained on teleoperated robot video, according to a summary of Runway's research. The same summary says simulated and real-world policy results correlated at 0.95 across 93 evaluation pairs.",
+    "Three hardware partners are testing the model, according to that summary: Noble Machines on a two-arm setup, Standard Bots on its RO1 arm, and Ultra on a mobile base. Runway says it is actively testing with them. Transparent materials and deformable cloth remain harder cases, and the summary gives no figures for them.",
+    "The word open-weight comes with a caveat. The public release is planned for the coming months with no firm date, and early access currently runs through Runway's robotics team. Until weights appear, nobody outside Runway and its partners can check the claims, so the results stay the company's account."
+   ],
+   "sources": [
+    {
+     "author": "Runway (X)",
+     "url": "https://x.com/runwayml/status/2105358708599619790"
+    },
+    {
+     "author": "Superpower Daily",
+     "url": "https://superpowerdaily.com/posts/runway-brings-video-pretraining-to-robot-control-with-praxis-1"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/runwayml/status/2105358708599619790",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "openai-moonshot-reasoning-extraction",
+   "section": "legal-safety",
+   "headline": "OpenAI says Moonshot-linked users tried to extract its models' reasoning",
+   "standfirst": "OpenAI says 16,000 requests from more than 4,000 users tried to pull hidden reasoning from its models in two days, with a core cluster tied to Moonshot AI.",
+   "entities": [
+    "OpenAI",
+    "Moonshot AI",
+    "Kimi"
+   ],
+   "body": [
+    "OpenAI said on Wednesday that individuals associated with Moonshot AI, the developer of Kimi, played a significant role in a coordinated campaign to extract the hidden reasoning of its models, according to Bloomberg and The Next Web. OpenAI also said it is unclear whether every operator came from a single actor.",
+    "OpenAI says the activity began on 1 July at low volume and spiked on 24 and 25 July, when it recorded about 16,000 extraction attempts from more than 4,000 users. A wider investigation found related activity across more than 15,000 users, the company said, and it says it had shut the campaign down by 28 July.",
+    "According to OpenAI, operators copied encrypted reasoning out of one conversation and then asked a model in another conversation to decrypt and transcribe it. The company calls this adversarial distillation, meaning the unauthorised use of one model's outputs to help train or improve another. Hidden reasoning could be valuable training material for rivals.",
+    "Moonshot has denied the allegations, according to one report, and says its results come from legitimate innovation. Its response could not be checked against a statement from the company for this story. The claims about who did what rest on OpenAI's own investigation, and no independent party has reviewed the evidence.",
+    "The accusation lands amid a wider dispute. A US government advisory published on 8 September addressed distillation by China-based AI companies, and Anthropic has published its own account of distillation attacks. OpenAI has not said what action, if any, it will take against the accounts beyond shutting them down."
+   ],
+   "sources": [
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-30/openai-blames-moonshot-for-mass-data-extraction-on-its-ai-models"
+    },
+    {
+     "author": "The Next Web",
+     "url": "https://thenextweb.com/news/openai-moonshot-distillation-campaign-hidden-reasoning"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/kimmonismus/status/2105375343544619127",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "openai-synopsys-gpt-synopsys",
+   "section": "chips",
+   "headline": "OpenAI and Synopsys announce GPT-Synopsys, a model that runs chip-design tools",
+   "standfirst": "The two companies say GPT-Synopsys will operate Synopsys' chip-design software on its own, with engineers delegating goals and revenue shared with OpenAI.",
+   "entities": [
+    "OpenAI",
+    "Synopsys",
+    "GPT-Synopsys"
+   ],
+   "body": [
+    "OpenAI and Synopsys announced a multi-year agreement to build GPT-Synopsys, a model specialised to use Synopsys' electronic design automation tools for semiconductor design, according to their joint press release. Commentator Andrew Curran posted the news on X ahead of the announcement, saying OpenAI had trained a specialised chip-design model.",
+    "The companies say engineers will be able to delegate design objectives. The system would run the tools, interpret results, make changes and iterate toward verified outcomes, according to the release. That describes the intended behaviour, and the companies have not published benchmarks or a public demo of it working on a real design.",
+    "The terms, as summarised by outlets that read the release, have OpenAI licensing Synopsys' tools to train the model and paying a training subscription fee. The companies will share revenue when Synopsys customers use the product, with the split tied to how much it improves chip design. No price or revenue figure was disclosed.",
+    "GPT-Synopsys will run on OpenAI-hosted infrastructure and connect to Synopsys.ai and its Autopilot platform, the companies say. They also say customer design data will not be used for model training. Early engagements with semiconductor customers are under way, according to the release, but no customer has been named.",
+    "Chip design has long leaned on automation, and OpenAI's hardware chief has said AI helped design its own Jalapeño chip. What is new here is a frontier lab and the leading design-software vendor jointly shipping an agent for the tools. Whether it beats existing approaches is not yet established."
+   ],
+   "sources": [
+    {
+     "author": "OpenAI and Synopsys (PR Newswire)",
+     "url": "https://www.morningstar.com/news/pr-newswire/20260930sf60716/openai-and-synopsys-announce-gpt-synopsys-frontier-intelligence-to-revolutionize-chip-design"
+    },
+    {
+     "author": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/synopsys-openai-partner-on-ai-model-for-chip-design-93CH-4925728"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AndrewCurran_/status/2105368300889034905",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-ling-3-1-flash",
+   "section": "open-models",
+   "headline": "Ant Group launches Ling-3.1-flash, a 560 billion parameter model, in free trial",
+   "standfirst": "Ant's InclusionAI says Ling-3.1-flash activates 25 billion of 560 billion parameters and will be open-sourced after a two-week trial, TechNode reported.",
+   "entities": [
+    "Ant Group",
+    "InclusionAI",
+    "Ling-3.1-flash"
+   ],
+   "body": [
+    "Ant Group's InclusionAI unit launched Ling-3.1-flash on Wednesday, TechNode reported. The model has 560 billion total parameters, with about 25 billion activated per token, according to the developer. InclusionAI pitches it for agent tasks, search, office software and specialist applications.",
+    "InclusionAI designed the model for a context window of up to one million tokens, but the trial caps it at 256,000 tokens, TechNode said. The trial lasts two weeks and costs nothing. The report gives no pricing for afterwards.",
+    "InclusionAI says it plans to widen the context window and open-source the model once the trial ends, according to TechNode. Nobody has confirmed a checkpoint or licence, so the open-weights claim is a plan rather than a release.",
+    "Commentator kimmonismus called it a solid open-source release from China on X, saying it comes close to GPT-5.6 Sol and Opus 5 on key benchmarks. That post says 500 billion parameters, which differs from the 560 billion in TechNode. The benchmark figures are unverified.",
+    "The same commentator noted the comparison leaves out newer models, including Opus 5.5 and GPT-6.1 Sol. No independent test results exist yet, and the benchmark claims may shift once evaluators report."
+   ],
+   "sources": [
+    {
+     "author": "TechNode",
+     "url": "https://technode.com/2026/09/30/ant-group-launches-ling-3-1-flash-with-560-billion-parameters/"
+    },
+    {
+     "author": "kimmonismus (X)",
+     "url": "https://x.com/kimmonismus/status/2105360290451767792"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "reddit-ends-rss-public-api",
+   "section": "business",
+   "headline": "Reddit ends RSS feeds in November, citing scraping by AI bots",
+   "standfirst": "Reddit says RSS has become a common surface for large-scale scraping, and will end feeds on 13 November and its public API in March.",
+   "entities": [
+    "Reddit"
+   ],
+   "body": [
+    "Reddit said it will end support for RSS feeds on 13 November, according to TechCrunch, because the feeds are a common surface for large-scale scraping and automated abuse. The company says it will also close its public API access in March 2027, which affects social listening tools, research applications and AI assistants that read Reddit.",
+    "Third-party developers have until 12 January 2027 to register, TechCrunch reported, and those who do not will lose API access. Reddit also plans to restrict old Reddit to logged-in moderators and users active in the past 90 days, which it says targets abusive scraping and automated traffic.",
+    "Moderators are pointed to the Discord Relay Devvit app for alerts, but TechCrunch said Reddit offers no replacement for people who read subreddits in external feed apps. Reddit said it knows RSS has been a beloved part of the open web for a long time and thanked those who used it.",
+    "The move sits alongside Reddit's licensing business. TechCrunch reported that its other revenue, outside advertising, grew 24% year over year to $43 million in the second quarter of 2026, driven by AI licensing deals that use forum content. Reddit did not say in the coverage how the closures relate to those deals.",
+    "The claim that AI bots drove the decision is Reddit's own. TechCrunch did not report independent figures on how much scraping came through RSS, and it is not clear which bots Reddit means. Nobody else has confirmed the reasoning."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "xai-dot-com-dots-troll",
+   "section": "ai",
+   "headline": "dot.com now points to Grok, and X thinks xAI is trolling OpenAI's Dots",
+   "standfirst": "The domain dot.com redirects to Grok's download page, and the internet is convinced xAI bought it to needle OpenAI's new Dots agent.",
+   "entities": [
+    "xAI",
+    "OpenAI",
+    "Grok",
+    "Dots"
+   ],
+   "body": [
+    "After OpenAI launched its Dots agent on Tuesday, X users noticed dot.com redirects to Grok's download page, TechCrunch reported. Whois records show the domain changed hands in July 2026, and many read the redirect as a prank aimed at OpenAI.",
+    "An X user, @birdabo, appears to have been first to spot it. Their viral post said OpenAI had just announced Dots and that SpaceXAI had bought dot.com, which redirects straight to the Grok bot download page, according to TechCrunch. The reaction it describes was mostly amusement.",
+    "TechCrunch noted a duller explanation is possible. xAI could have bought the domain to catch misspelled searches, treating dot as a typo for bot. But the outlet said xAI does not appear to own similar domains such as bot.com or vot.com, which weakens that reading.",
+    "xAI had not commented when TechCrunch published, and the outlet said it had asked. The July transfer date means the purchase predates Dots' launch, so it could be a coincidence. Nobody has shown that xAI knew the launch date or chose the redirect with OpenAI in mind.",
+    "The episode adds to a steady exchange between the two companies and their owners. The trolling claim is unconfirmed. It rests on timing and social media speculation, not on anything xAI has said."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-magnitude-inference-engine",
+   "section": "inference",
+   "headline": "Magnitude, an open-source engine that tunes itself to your hardware",
+   "standfirst": "Magnitude says it compiles kernels on your own machine and runs up to 2x faster than llama.cpp. Its Apache 2.0 repo has 5,600 stars.",
+   "entities": [
+    "Magnitude",
+    "llama.cpp"
+   ],
+   "body": [
+    "Magnitude, a Y Combinator S25 startup, launched an open-source inference engine for running open-weight models locally, and its Launch HN post reached 80 points and 40 comments on the Hacker News front page on Wednesday. Its GitHub repo showed about 5,600 stars and 396 forks when checked.",
+    "According to the README, the engine compiles and tunes kernels on the user's own device before running a model, rather than shipping pre-compiled ones. The developers say this lets it adapt to exact hardware, and that it is licensed under Apache 2.0. It targets Apple Silicon, NVIDIA GPUs, AMD GPUs and CPU-only machines.",
+    "The project's own benchmarks claim up to 2x the speed of llama.cpp. It lists 92% faster decode on Metal and 19% faster on CUDA, with prefill gains of 9% on Metal and 23% on CUDA. These numbers are the developers' and no outside group has reproduced them.",
+    "Magnitude also says it uses 27% less memory per agent by sharing prefix caches across concurrent sessions. The pitch is aimed at coding agents that run several sessions at once against one local model, which could matter on laptops.",
+    "Setup, according to the README, means downloading a desktop app from magnitude.dev, choosing a model and connecting an agent such as Pi, OpenCode or Hermes in one click. A command line tool comes bundled. The comparison settings and the models tested are the developers' choice."
+   ],
+   "sources": [
+    {
+     "author": "Magnitude (GitHub)",
+     "url": "https://github.com/magnitudedev/magnitude"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "divd-zammad-ai-agent-breach",
+   "section": "security",
+   "headline": "Dutch security group DIVD says an AI agent breached it via two Zammad zero-days",
+   "standfirst": "DIVD says an attacker chained two zero-days in open-source helpdesk Zammad to reach root, and that an AI agent decided each step itself.",
+   "entities": [
+    "DIVD",
+    "Zammad"
+   ],
+   "body": [
+    "The Dutch Institute for Vulnerability Disclosure said attackers breached its systems on 21 September using two zero-days in Zammad, the open-source helpdesk platform, according to BleepingComputer and posts on X. One flaw lets a Zammad user run code on the server, and the other escalates to root.",
+    "The two flaws have been given the identifiers CVE-2026-102489 and CVE-2026-102490, according to BleepingComputer. DIVD says they allowed session hijacking, remote code execution and privilege escalation. After that, the attacker read and exfiltrated data from other services, DIVD said, in a matter of seconds.",
+    "DIVD believes an AI agent carried out the attack. The volunteers called it loud and messy, and said the agent decided its next step after every action and did some pretty dumb things, including disrupting its own password-spraying attempt. That attribution is DIVD's assessment, and nobody has confirmed which model or operator was involved.",
+    "The agent left clear explanations of its decisions behind, which let DIVD reconstruct the incident, according to reports. Network segmentation and incident response stopped the attacker moving deeper into the network. DIVD said one flaw affects all Zammad versions, and a full fix was not yet available on Wednesday.",
+    "The case matters because the victim is a group that finds and reports vulnerabilities for others. The Zammad project's own response was not included in the reports read for this story, so its patch timeline is unknown."
+   ],
+   "sources": [
+    {
+     "author": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
+    },
+    {
+     "author": "International Cyber Digest (X)",
+     "url": "https://x.com/IntCyberDigest/status/2105367766937334037"
+    }
+   ],
+   "placement": "inside"
+  },
+  {
    "cluster_id": "find-synthid-bio",
    "section": "research",
    "headline": "Google DeepMind open-sources SynthID Bio to watermark AI-designed proteins",
@@ -67,7 +304,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ideogram-4-5",
@@ -121,7 +358,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ftc-ai-labs-probe",
@@ -147,7 +384,7 @@
      "url": "https://www.cbsnews.com/news/ftc-investigation-openai-anthropic-ai-safety/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-nvidia-oasp",
@@ -176,7 +413,7 @@
      "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-instagram-edits-ai-assistant",
@@ -200,7 +437,7 @@
      "url": "https://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-editor-for-creators/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cf013329c",
@@ -232,7 +469,7 @@
      "url": "https://about.doordash.com/en-us/news/text-doordash"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-chen-hack-fallout",
@@ -261,7 +498,7 @@
      "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-pi-dev-mcp-core",

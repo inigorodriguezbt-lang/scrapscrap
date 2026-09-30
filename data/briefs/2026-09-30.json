@@ -1,52 +1,72 @@
 {
-  "generated_at": "2026-09-30T18:04:35.047168+00:00",
+  "generated_at": "2026-09-30T20:03:36.291618+00:00",
   "edition_date": "2026-09-30",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 127,
-  "clusters_found": 85,
-  "stories_declared": 12,
+  "posts_considered": 130,
+  "clusters_found": 79,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0ffbc86d",
-      "score": 16.419,
+      "cluster_id": "c2bc4170a",
+      "score": 19.22,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Google",
+        "Meta",
+        "Nvidia",
+        "Hugging Face",
         "Apple",
         "Amazon"
       ],
       "independent_sources": [
+        "9to5Google",
         "AWS ML",
+        "Ars Technica AI",
         "Bloomberg Tech",
+        "DeepMind",
+        "Simon Willison",
         "The Decoder",
-        "mark_k"
+        "Tom's Hardware",
+        "arena"
       ],
-      "source_count": 4,
-      "first_seen": "2026-09-29T19:34:14+00:00",
-      "last_seen": "2026-09-30T17:48:25+00:00",
+      "source_count": 9,
+      "first_seen": "2026-09-29T22:20:28+00:00",
+      "last_seen": "2026-09-30T20:01:45+00:00",
       "links": [
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
         "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
-        "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
         "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
         "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+        "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model",
         "https://www.bloomberg.com/news/videos/2026-09-30/ackman-says-markets-are-narrowly-focused-on-big-ipos-video",
+        "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-tech-9-30-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-09-30/embedding-ai-risks-into-investments-rowland-video",
         "https://www.bloomberg.com/news/videos/2026-09-30/flow-engineering-raises-50m-to-bring-ai-to-hardware-video",
         "https://www.bloomberg.com/news/videos/2026-09-30/open-interest-9-30-2026-video",
-        "https://x.com/mark_k/status/2105333480477655383"
+        "https://www.bloomberg.com/news/videos/2026-09-30/robinhood-ceo-says-new-ai-driven-agent-apps-are-safe-video",
+        "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
+        "https://x.com/arena/status/2105367591174995999",
+        "https://x.com/arena/status/2105382412230562132"
       ],
       "posts": [
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock. GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
-          "created_at": "2026-09-29T19:34:14+00:00",
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Quoting Anthropic Frontier Red Team. We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. &mdash; Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
+          "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+          "created_at": "2026-09-29T22:20:28+00:00",
           "engagement": 0
         },
         {
@@ -90,12 +110,12 @@
           "engagement": 0
         },
         {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "GPT-6.1 Sol is coming soon to ChatGPT's regular chat mode. Michelle Pokrass says 'coming soon to chat'.",
-          "url": "https://x.com/mark_k/status/2105333480477655383",
-          "created_at": "2026-09-30T16:26:31+00:00",
-          "engagement": 271
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+          "created_at": "2026-09-30T16:20:04+00:00",
+          "engagement": 0
         },
         {
           "author": "Bloomberg Tech",
@@ -114,138 +134,106 @@
           "engagement": 0
         },
         {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Top AI tech executives promise to ‘self-police’ AI development. The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
+          "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
+          "created_at": "2026-09-30T17:27:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI’s $30B Bet, Trump’s AI Safety Shift and Apple’s Next Act. Bloomberg’s Ed Ludlow breaks down OpenAI's plan to raise at least $30 billion from investors in a new round of funding after pushing back its plans for an IPO. Plus, President Trump supports using outside auditors to assess the safety of AI systems after meeting with Silicon Valley leaders; and Apple keeps pushing the envelope under new CEO John Ternus with plans to make its foray into the smart-home market. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-tech-9-30-2026-video",
+          "created_at": "2026-09-30T17:47:01+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Bloomberg Tech",
           "tier": "press",
           "text": "Flow Engineering Raises $50M to Bring AI to Hardware. As AI is moving beyond software and deeper into the physical world, Flow Engineering just raised $50 million at a $750 million valuation to help companies use AI agents to design and build hardware. Flow Engineering founder and CEO Pari Singh and Roelof Botha, Flow investor and board member - formerly at Sequoia Capital - join Ed Ludlow to discuss how faster hardware development could support a broader revival of US manufacturing. They speak on \"Bloomberg Tech.\" (Source: Bloomberg)",
           "url": "https://www.bloomberg.com/news/videos/2026-09-30/flow-engineering-raises-50m-to-bring-ai-to-hardware-video",
           "created_at": "2026-09-30T17:48:25+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c1f5f79b4",
-      "score": 12.513,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "Meta",
-        "Nvidia",
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "IntCyberDigest",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T14:37:24+00:00",
-      "last_seen": "2026-09-30T17:22:34+00:00",
-      "links": [
-        "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
-        "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-        "https://x.com/IntCyberDigest/status/2105310980179685439"
-      ],
-      "posts": [
+        },
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips. Deepseek and Huawei have built open-source programming tools for Huawei's Ascend AI chips. At the center is TileLang, a language designed to offer a simpler programming model than Nvidia's CUDA. The partnership targets the biggest obstacle for China's AI industry, which is software that gets the most out of domestic chips. The article China&#039;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#039;s Ascend chips appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
-          "created_at": "2026-09-30T14:37:24+00:00",
+          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+          "created_at": "2026-09-30T18:16:04+00:00",
           "engagement": 0
         },
         {
-          "author": "IntCyberDigest",
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+          "created_at": "2026-09-30T18:25:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Embedding AI Risks Into Investments: Rowland. Kristin Kallergis Rowland, global head of alternative investments at JPMorgan Private Bank, joins Dani Burger on \"Bloomberg Deals.\" Kristin Kallergis Rowland explains how an investor ends up being on both the bull and bear side of AI. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-30/embedding-ai-risks-into-investments-rowland-video",
+          "created_at": "2026-09-30T18:35:56+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
           "tier": "commentary",
-          "text": "BREAKING: DeepSeek is building software for Huawei's AI chips, open-sourcing six core tools that take aim at CUDA. Huawei backed the project, adapts TileLang for Ascend 950.",
-          "url": "https://x.com/IntCyberDigest/status/2105310980179685439",
-          "created_at": "2026-09-30T14:57:07+00:00",
-          "engagement": 658
+          "text": "Exciting news: GPT-6.1 Sol (Max) by @OpenAI just landed the Code Arena: WebDev at #3 with 1759 pts, and at a blended $8/MToken it reshapes the Pareto frontier!\n\nGPT-6.1 Sol (Max) marks a clear improvement in cost efficiency: it gained 70 points over GPT-6 Sol (Max) for the same price.\n\nIt landed within 30 points of GPT-6 Astra (Max) at 80% lower blended token cost, and 59 points from Claude Opus 5.5 (Max) at 50% of the price. See position on the Pareto frontier for the Code Arena: WebDev in the post below.\n\nOverall, GPT-6.1 Sol improved from GPT-6 Sol by 4 rankings! It also improved in every c",
+          "url": "https://x.com/arena/status/2105367591174995999",
+          "created_at": "2026-09-30T18:42:04+00:00",
+          "engagement": 272
         },
         {
-          "author": "The Decoder",
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Can Claude Sonnet 5.5 and GPT-6.1 Sol deliver strong results at a fraction of what Fable, Opus or Astra would cost?\n\nWe just tested them side-by-side on multiple prompts, tracking what each generation actually costs, and comparing results to larger models from their labs.\n\nSee the results from @petergostev on our YouTube.\n\nhttps://t.co/O6P1dF5Fgb",
+          "url": "https://x.com/arena/status/2105382412230562132",
+          "created_at": "2026-09-30T19:40:57+00:00",
+          "engagement": 34
+        },
+        {
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Meta dodges billions in US taxes by calling its AI data centers experiments. Meta classifies its AI data centers as \"pilot models\" and Nvidia chips as experimental materials to save billions in federal taxes. In 2025 alone, that added up to $3.9 billion. The tax credit dates back to 1981, and even Meta's own accountants see the strategy as legally risky, the New York Times reports. Zuckerberg himself said in January 2025 that these data centers, now framed as experimental, would \"drive our core products and business.\" The article Meta dodges billions in US taxes by calling its AI data centers experiments appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-          "created_at": "2026-09-30T17:22:34+00:00",
+          "text": "Robinhood CEO Says New AI-Driven Agent Apps Are Safe. Robinhood Markets Chairman and CEO Vlad Tenev discusses the firm’s new AI-driven agent apps unveiled during a Houston summit. Speaking on \"Bloomberg The Close,\" Tenev outlines a vision of giving individual traders hedge fund-like tools, including 24/7 trading across asset classes, autonomous “agent loops” that can operate while users sleep, and access to specialized data sources such as satellite imagery and blockchain analytics. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-30/robinhood-ceo-says-new-ai-driven-agent-apps-are-safe-video",
+          "created_at": "2026-09-30T19:52:35+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c696dea54",
-      "score": 11.527,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "9to5Mac",
-        "TechCrunch AI",
-        "The Verge AI",
-        "Tom's Hardware"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-09-29T20:31:19+00:00",
-      "last_seen": "2026-09-30T16:24:23+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
-        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-        "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
-        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to"
-      ],
-      "posts": [
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Google Grapples With Employee Skepticism About New Gemini Model. As Alphabet Inc.’s Google prepares for the coming launch of Gemini 4, it’s grappling with internal skepticism over how well the flagship artificial intelligence model performs in key areas, such as coding.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model",
+          "created_at": "2026-09-30T19:52:42+00:00",
+          "engagement": 0
+        },
         {
           "author": "9to5Google",
           "tier": "press",
-          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
-          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
-          "created_at": "2026-09-29T20:31:19+00:00",
+          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "created_at": "2026-09-30T20:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-          "created_at": "2026-09-30T00:41:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data. Meta's Muse AI agent has been accused of ignoring user permissions and accessing forbidden personal user data on an iPhone and Mac, including iMessages.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
-          "created_at": "2026-09-30T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-          "created_at": "2026-09-30T15:18:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta disputes claim that Muse read a user’s private messages without permission. Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
-          "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
-          "created_at": "2026-09-30T16:24:23+00:00",
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "created_at": "2026-09-30T20:01:45+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ce4aa8add",
-      "score": 10.417,
+      "cluster_id": "c0ceecf8f",
+      "score": 13.978,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -254,19 +242,23 @@
         "xAI"
       ],
       "independent_sources": [
+        "AndrewCurran_",
+        "Ars Technica AI",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
         "Tom's Hardware"
       ],
-      "source_count": 4,
+      "source_count": 6,
       "first_seen": "2026-09-29T22:20:59+00:00",
-      "last_seen": "2026-09-30T17:15:49+00:00",
+      "last_seen": "2026-09-30T19:47:16+00:00",
       "links": [
+        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
         "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
         "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
         "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem"
+        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+        "https://x.com/AndrewCurran_/status/2105384000915493179"
       ],
       "posts": [
         {
@@ -300,112 +292,118 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
           "created_at": "2026-09-30T17:15:49+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+          "created_at": "2026-09-30T18:47:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Rumors persist that Director of National Intelligence Jay Clayton will be named as the White House SI Czar by the end of the week. He told CNBC this morning that 'Super Intelligence is a national security issue.' He does not appear to be a fan of Pacing the Frontier. https://t.co/6VRGLFfKsS",
+          "url": "https://x.com/AndrewCurran_/status/2105384000915493179",
+          "created_at": "2026-09-30T19:47:16+00:00",
+          "engagement": 46
         }
       ]
     },
     {
-      "cluster_id": "c921e542a",
-      "score": 10.109,
+      "cluster_id": "cb9b6a8f8",
+      "score": 12.245,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Nvidia"
+        "Meta",
+        "Apple"
       ],
       "independent_sources": [
-        "NVIDIA Developer",
-        "TechCrunch AI"
+        "9to5Google",
+        "9to5Mac",
+        "TechCrunch AI",
+        "The Verge AI",
+        "Tom's Hardware",
+        "Wired AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T18:35:00+00:00",
-      "last_seen": "2026-09-30T16:00:00+00:00",
+      "source_count": 6,
+      "first_seen": "2026-09-29T20:31:19+00:00",
+      "last_seen": "2026-09-30T19:30:00+00:00",
       "links": [
-        "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
-        "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/"
+        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+        "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/",
+        "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
+        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
       ],
       "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
+          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+          "created_at": "2026-09-29T20:31:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+          "created_at": "2026-09-30T00:41:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "The clever way Apple embedded Face ID beneath the iPhone 18 Pro screen. In the iPhone 18 Pro , Apple has taken one of the next steps toward its long-term vision of the iPhone as a single slab of glass: embedding the Face ID module beneath the display. Achieving this without having the Face ID array be visible through the display and without compromising the quality of this section of the screen required some clever engineering … more…",
+          "url": "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/",
+          "created_at": "2026-09-30T12:35:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data. Meta's Muse AI agent has been accused of ignoring user permissions and accessing forbidden personal user data on an iPhone and Mac, including iMessages.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
+          "created_at": "2026-09-30T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "created_at": "2026-09-30T15:18:49+00:00",
+          "engagement": 0
+        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents. OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
-          "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
-          "created_at": "2026-09-29T18:35:00+00:00",
+          "text": "Meta disputes claim that Muse read a user’s private messages without permission. Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
+          "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+          "created_at": "2026-09-30T16:24:23+00:00",
           "engagement": 0
         },
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay. An agent can finish a task and still take an inefficient path. A failed search can trigger another search. A truncated file read can lead to a command fetching...",
-          "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
-          "created_at": "2026-09-30T16:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c23ec347a",
-      "score": 9.908,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "MIT Tech Review",
-        "The Decoder",
-        "Wired AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T19:05:00+00:00",
-      "last_seen": "2026-09-30T16:20:04+00:00",
-      "links": [
-        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-        "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-        "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/"
-      ],
-      "posts": [
         {
           "author": "Wired AI",
           "tier": "press",
-          "text": "OpenAI Gets Sued Over the Hugging Face Hack. A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.",
-          "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
-          "created_at": "2026-09-29T19:05:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-          "created_at": "2026-09-30T10:40:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "The Download: OpenAI’s chief research officer explains its hacking response. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-          "created_at": "2026-09-30T12:10:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-          "created_at": "2026-09-30T16:20:04+00:00",
+          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
+          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+          "created_at": "2026-09-30T19:30:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c0d9957a7",
-      "score": 9.367,
+      "score": 9.037,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -453,92 +451,78 @@
       ]
     },
     {
-      "cluster_id": "c79f11f7f",
-      "score": 8.688,
+      "cluster_id": "c05f3e99b",
+      "score": 8.616,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Nvidia"
+        "OpenAI"
       ],
       "independent_sources": [
-        "Simon Willison",
-        "Tom's Hardware"
+        "Latent Space",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T22:20:28+00:00",
-      "last_seen": "2026-09-30T17:27:37+00:00",
+      "first_seen": "2026-09-30T05:53:10+00:00",
+      "last_seen": "2026-09-30T19:00:57+00:00",
       "links": [
-        "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-        "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future"
+        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
+          "author": "Latent Space",
           "tier": "commentary",
-          "text": "Quoting Anthropic Frontier Red Team. We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. &mdash; Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
-          "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-          "created_at": "2026-09-29T22:20:28+00:00",
+          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
+          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+          "created_at": "2026-09-30T05:53:10+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Top AI tech executives promise to ‘self-police’ AI development. The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
-          "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
-          "created_at": "2026-09-30T17:27:37+00:00",
+          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+          "created_at": "2026-09-30T19:00:57+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c8936a302",
-      "score": 7.893,
+      "cluster_id": "cdbc4842e",
+      "score": 8.057,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "models",
       "entities": [
         "Google",
-        "Apple",
         "Amazon"
       ],
       "independent_sources": [
         "9to5Google",
-        "9to5Mac"
+        "Bloomberg Tech"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T19:05:02+00:00",
+      "first_seen": "2026-09-30T12:00:19+00:00",
       "last_seen": "2026-09-30T15:39:40+00:00",
       "links": [
         "https://9to5google.com/2026/09/30/deals-new-fire-tv-stick-4k-50-off-galaxy-s26-ultra/",
-        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-        "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/"
+        "https://www.bloomberg.com/news/articles/2026-09-30/galaxy-tab-s12-ultra-galaxy-tab-s12-samsung-launches-new-tablets-smarttag-3"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
-          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-          "created_at": "2026-09-29T19:05:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "The clever way Apple embedded Face ID beneath the iPhone 18 Pro screen. In the iPhone 18 Pro , Apple has taken one of the next steps toward its long-term vision of the iPhone as a single slab of glass: embedding the Face ID module beneath the display. Achieving this without having the Face ID array be visible through the display and without compromising the quality of this section of the screen required some clever engineering … more…",
-          "url": "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/",
-          "created_at": "2026-09-30T12:35:23+00:00",
+          "text": "Galaxy Tab S12 Ultra, Galaxy Tab S12+: Samsung Launches New Tablets, SmartTag 3. Samsung Electronics Co. introduced a pair of new Android-based tablets promising improved performance along with an upgraded SmartTag item tracker that offers better precision and longer-distance tracking capabilities than previous models.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/galaxy-tab-s12-ultra-galaxy-tab-s12-samsung-launches-new-tablets-smarttag-3",
+          "created_at": "2026-09-30T12:00:19+00:00",
           "engagement": 0
         },
         {
           "author": "9to5Google",
           "tier": "press",
-          "text": "Deals: All-new Fire TV Stick 4K 50% off, Galaxy S26 Ultra $335 off, NXTPAPER Android tabs, MotoTag 2, more. Alongside the early fall Amazon Prime Day sale and the ongoing Moto Tag 2 Android Find Hub trackers from $17.50 each – single for $20, your 9to5Toys Lunch Break is headlined by Amazon’s brand new Fire TV Stick 4K launching today at 50% off (TCL NXTPAPER Android tablets up to $130 off , HP’s 2K OLED Snapdragon X Copilot+ PC at $150 off , this Made for Google Pixel Watch portable magnetic charging dock down at $25 , and loads more down below. more…",
+          "text": "Deals: All-new Fire TV Stick 4K 50% off, Galaxy S26 Ultra $335 off, NXTPAPER Android tabs, MotoTag 2, more. Update: Amazon is offering a giant $650 price drop hits Galaxy Z Fold 7 at Amazon ($750 less than Fold 8) for today only. Alongside the early fall Amazon Prime Day sale and the ongoing Moto Tag 2 Android Find Hub trackers from $17.50 each – single for $20, your 9to5Toys Lunch Break is headlined by Amazon’s brand new Fire TV Stick 4K launching today at 50% off (TCL NXTPAPER Android tablets up to $130 off , HP’s 2K OLED Snapdragon X Copilot+ PC at $150 off , this Made for Google Pixel Watch portable magnetic charging dock down at $25 , and loads more down below. more…",
           "url": "https://9to5google.com/2026/09/30/deals-new-fire-tv-stick-4k-50-off-galaxy-s26-ultra/",
           "created_at": "2026-09-30T15:39:40+00:00",
           "engagement": 0
@@ -547,7 +531,7 @@
     },
     {
       "cluster_id": "c7c36b24f",
-      "score": 6.426,
+      "score": 6.095,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -584,7 +568,7 @@
     },
     {
       "cluster_id": "cd4425620",
-      "score": 5.529,
+      "score": 5.199,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -623,7 +607,7 @@
     },
     {
       "cluster_id": "ca9dc581c",
-      "score": 2.861,
+      "score": 2.53,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "ai",
