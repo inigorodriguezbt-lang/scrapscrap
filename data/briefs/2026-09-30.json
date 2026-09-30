@@ -1,102 +1,110 @@
 {
-  "generated_at": "2026-09-30T00:03:18.392640+00:00",
+  "generated_at": "2026-09-30T02:03:30.317792+00:00",
   "edition_date": "2026-09-30",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 121,
-  "clusters_found": 77,
+  "posts_considered": 146,
+  "clusters_found": 98,
   "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c8631869c",
-      "score": 16.768,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "OpenAI",
-        "TechCrunch AI",
-        "The Decoder",
-        "theo"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-29T22:31:47+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
-        "https://openai.com/index/introducing-gpt-6-1-sol",
-        "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-        "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
-        "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-        "https://x.com/theo/status/2105063015712465094"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Introducing GPT-6.1 Sol. Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "created_at": "2026-09-29T10:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "GPT-6.1 Sol comes close to Astra at a fifth of the price. OpenAI's new GPT-6.1 Sol comes close to GPT-6 Astra at a fifth of the cost, according to the company's own benchmarks. The planned flagship, GPT-6.1 Astra, is staying under wraps for now. Safety lead Saachi Jain says the model deceived more often in internal testing and kept going without permission. The article GPT-6.1 Sol comes close to Astra at a fifth of the price appeared first on The Decoder .",
-          "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
-          "created_at": "2026-09-29T17:14:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less. OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
-          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor. GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The article UK AI Security Institute finds GPT-6 Astra&#039;s rogue attack rate jumped fivefold over its predecessor appeared first on The Decoder .",
-          "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-          "created_at": "2026-09-29T19:24:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock. GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
-          "created_at": "2026-09-29T19:34:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "Updated run just finished. GPT-6.1 Sol still crushes. Performs WAY better in Codex than in mini-swe (what Artificial Analysis uses)",
-          "url": "https://x.com/theo/status/2105063015712465094",
-          "created_at": "2026-09-29T22:31:47+00:00",
-          "engagement": 762
-        }
-      ]
-    },
-    {
-      "cluster_id": "c66d24050",
-      "score": 14.588,
+      "cluster_id": "c042583af",
+      "score": 16.456,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "ChatGPT",
+        "TechCrunch AI",
+        "The Decoder",
+        "arXiv"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-29T07:44:22+00:00",
+      "last_seen": "2026-09-30T00:22:12+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.36927v1",
+        "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+        "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+        "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+        "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
+        "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+        "https://x.com/ChatGPT/status/2105090801021997199"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution. Many computer tasks recur: the same workflow runs many times, with new inputs and from different starting states. Current computer-use agents re-plan every step of every run, which makes them costly and unreliable on such tasks. We introduce neuro-symbolic computer use, in which a recurring workflow is executed by a learned policy rather than re-derived by an agent on each run. The policy fixes the decisions that are stable across runs (ordering, variables, loops, and branches) in executable code, and delegates observation-dependent decisions, such as grounding and state checks, to neural mode",
+          "url": "https://arxiv.org/abs/2609.36927v1",
+          "created_at": "2026-09-29T07:44:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast. At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eight times the speed at six times the price. The article OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
+          "created_at": "2026-09-29T17:14:41+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI gives Codex reusable cloud environments that work across devices. OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
+          "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+          "created_at": "2026-09-29T17:15:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI's reveals a new ChatGPT that looks less like a chatbot and more like an operating system. At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partners, and a new Pro 500 pricing tier. The article OpenAI&#039;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
+          "created_at": "2026-09-29T17:23:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite. OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
+          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+          "created_at": "2026-09-29T17:45:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT now reaches 1.2 billion people every week, OpenAI says. OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
+          "created_at": "2026-09-29T18:10:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ChatGPT",
+          "tier": "commentary",
+          "text": "You built it, now show it off and share it. With shareable profiles, you can bring your Sites and plugins together in one place so others can find them, and reuse them. Teammates can discover your shared skills, too. Available to Free, Go, Plus, Pro, and Business users. Rolling out to ChatGPT Enterprise, Edu, and Healthcare plans soon.",
+          "url": "https://x.com/ChatGPT/status/2105090801021997199",
+          "created_at": "2026-09-30T00:22:12+00:00",
+          "engagement": 491
+        }
+      ]
+    },
+    {
+      "cluster_id": "cdacc9d54",
+      "score": 13.986,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
         "Meta",
-        "Microsoft",
+        "Apple",
         "xAI"
       ],
       "independent_sources": [
@@ -104,23 +112,19 @@
         "9to5Mac",
         "OpenAI",
         "TechCrunch AI",
-        "The Decoder",
         "The Verge AI",
         "Wired AI"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-29T22:20:59+00:00",
+      "last_seen": "2026-09-30T00:41:46+00:00",
       "links": [
         "https://9to5google.com/2026/09/29/openai-dots-agent/",
         "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
         "https://9to5mac.com/2026/09/29/openai-teases-20-announcements-at-devday-watch-live/",
         "https://openai.com/index/devday-2026-recap",
-        "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
         "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-        "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-        "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-        "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
         "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
         "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/"
       ],
@@ -142,14 +146,6 @@
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast. At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eight times the speed at six times the price. The article OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-          "created_at": "2026-09-29T17:14:41+00:00",
-          "engagement": 0
-        },
-        {
           "author": "The Verge AI",
           "tier": "press",
           "text": "OpenAI launches Dots, its Muse competitor. OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers [&#8230;]",
@@ -166,35 +162,11 @@
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI's reveals a new ChatGPT that looks less like a chatbot and more like an operating system. At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partners, and a new Pro 500 pricing tier. The article OpenAI&#039;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-          "created_at": "2026-09-29T17:23:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite. OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-          "created_at": "2026-09-29T17:45:51+00:00",
-          "engagement": 0
-        },
-        {
           "author": "9to5Google",
           "tier": "press",
           "text": "OpenAI launches Dots, new ‘always-on agents’ you can assign tasks to. Right as Meta’s Muse avatar agent has taken the AI world by storm, OpenAI is today announcing Dots as “always-on agents” you can customize to your needs. more…",
           "url": "https://9to5google.com/2026/09/29/openai-dots-agent/",
           "created_at": "2026-09-29T17:55:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT now reaches 1.2 billion people every week, OpenAI says. OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-          "created_at": "2026-09-29T18:10:34+00:00",
           "engagement": 0
         },
         {
@@ -212,12 +184,20 @@
           "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
           "created_at": "2026-09-29T22:20:59+00:00",
           "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+          "created_at": "2026-09-30T00:41:46+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c67bcb7d2",
-      "score": 12.563,
+      "cluster_id": "cf90ce80e",
+      "score": 12.519,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -236,7 +216,7 @@
       ],
       "source_count": 5,
       "first_seen": "2026-09-29T02:55:27+00:00",
-      "last_seen": "2026-09-29T22:25:45+00:00",
+      "last_seen": "2026-09-30T00:19:13+00:00",
       "links": [
         "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
         "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
@@ -251,6 +231,7 @@
         "https://www.bloomberg.com/news/videos/2026-09-29/trump-hosts-ai-leaders-at-white-house-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/trump-rejects-ai-safety-laws-after-meeting-video",
         "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+        "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
         "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
       ],
       "posts": [
@@ -365,61 +346,108 @@
           "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
           "created_at": "2026-09-29T22:25:45+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Sam Altman says OpenAI won’t go public until its models are safe. For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+          "created_at": "2026-09-30T00:19:13+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ca00c6d88",
-      "score": 11.772,
+      "cluster_id": "c4d4d06bc",
+      "score": 12.223,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic"
+        "OpenAI",
+        "Anthropic",
+        "Amazon"
       ],
       "independent_sources": [
-        "Hesamation",
-        "Latent Space",
-        "Simon Willison"
+        "AWS ML",
+        "OpenAI",
+        "TechCrunch AI",
+        "The Decoder"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T01:48:18+00:00",
-      "last_seen": "2026-09-29T22:23:51+00:00",
+      "source_count": 4,
+      "first_seen": "2026-09-29T10:00:00+00:00",
+      "last_seen": "2026-09-30T01:13:14+00:00",
       "links": [
-        "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-        "https://www.latent.space/p/thariq",
-        "https://x.com/Hesamation/status/2105061017059217510"
+        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+        "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+        "https://openai.com/index/introducing-gpt-6-1-sol",
+        "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+        "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
+        "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/"
       ],
       "posts": [
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Claude Code’s Next Era — Thariq Shihipar, Anthropic. Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
-          "url": "https://www.latent.space/p/thariq",
-          "created_at": "2026-09-29T01:48:18+00:00",
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Introducing GPT-6.1 Sol. Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+          "created_at": "2026-09-29T10:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Quoting Anthropic Frontier Red Team. We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. &mdash; Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
-          "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-          "created_at": "2026-09-29T22:20:28+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "GPT-6.1 Sol comes close to Astra at a fifth of the price. OpenAI's new GPT-6.1 Sol comes close to GPT-6 Astra at a fifth of the cost, according to the company's own benchmarks. The planned flagship, GPT-6.1 Astra, is staying under wraps for now. Safety lead Saachi Jain says the model deceived more often in internal testing and kept going without permission. The article GPT-6.1 Sol comes close to Astra at a fifth of the price appeared first on The Decoder .",
+          "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
+          "created_at": "2026-09-29T17:14:27+00:00",
           "engagement": 0
         },
         {
-          "author": "Hesamation",
-          "tier": "commentary",
-          "text": "so Anthropic is basically saying: GLM-5.3 almost matches Mythos Preview on exploit development; both state and non-state actors will use models like GLM-5.3 to cause real-world harm",
-          "url": "https://x.com/Hesamation/status/2105061017059217510",
-          "created_at": "2026-09-29T22:23:51+00:00",
-          "engagement": 48
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less. OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+          "created_at": "2026-09-29T17:15:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor. GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The article UK AI Security Institute finds GPT-6 Astra&#039;s rogue attack rate jumped fivefold over its predecessor appeared first on The Decoder .",
+          "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+          "created_at": "2026-09-29T19:24:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock. GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+          "created_at": "2026-09-29T19:34:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore. Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+          "created_at": "2026-09-30T01:13:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Amazon Bedrock expands Claude model availability to in-country inferencing in India. Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+          "created_at": "2026-09-30T01:13:14+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cd644127c",
-      "score": 9.69,
+      "score": 9.356,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -488,7 +516,7 @@
     },
     {
       "cluster_id": "c28b1c16b",
-      "score": 8.481,
+      "score": 8.147,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
