@@ -28,6 +28,90 @@
     }
    ],
    "placement": "lead"
+  },
+  {
+   "cluster_id": "find-deepseek-ascend-kernels",
+   "section": "chips",
+   "headline": "DeepSeek open-sources its kernel libraries for Huawei's Ascend chips",
+   "standfirst": "DeepSeek says every TileLang operator used in training its V4 models now has an Ascend version. FlashMLA's README claims 95% of the Ascend 950's peak on prefill.",
+   "entities": [
+    "DeepSeek",
+    "Huawei",
+    "Ascend",
+    "TileLang",
+    "DeepGEMM",
+    "FlashMLA"
+   ],
+   "body": [
+    "DeepSeek has open-sourced infrastructure components for Huawei's Ascend chips, according to the account MaxForAI, which listed TileLang, DeepGEMM, DeepEP, TileKernels, FlashMLA and DeepSelect. The researcher eliebakouch said DeepSeek updated most of its open-source libraries with Ascend support. Both posts went up around 02:45 UTC on 30 September. The libraries were first built to run on NVIDIA hardware.",
+    "According to the FlashMLA README, the attention kernels now power DeepSeek-V4.1 inference on both NVIDIA GPUs and the Ascend 950 NPU. DeepSeek reports 410 TFlops on Ascend 950 prefill, which it puts at 95% of hardware peak, and 360 TFlops on decoding, or 83%. On NVIDIA's B200 it lists up to 1,460 TFlops in prefill. The Ascend build needs CANN 9.2.0 or newer.",
+    "MaxForAI said DeepSeek trained its V4 series with many operators written in TileLang, a Python-like language for high-performance kernels, and that every such operator now has an Ascend implementation. The TileLang repository lists Ascend 950 alongside CUDA, AMD ROCm and Apple Metal backends. A post by the account zheanxu, whose affiliation the post does not state, claimed DeepGEMM on Ascend reaches 99.8% of the hardware limit on GEMM and 98% on MegaMoE.",
+    "Chinese outlet QbitAI reported further figures from the Ascend side, including DeepEP dispatch at 375 GB/s and combine at 347 GB/s. It said DeepSeek-V4.1-Flash on 32-way expert parallelism reached 5,102 tokens a second per card at a 10-millisecond token interval with a 128K context, in offline mode. These numbers come from DeepSeek and Huawei. No independent benchmark of the Ascend kernels has appeared yet."
+   ],
+   "sources": [
+    {
+     "author": "MaxForAI (X)",
+     "url": "https://x.com/MaxForAI/status/2105128392379322752"
+    },
+    {
+     "author": "eliebakouch (X)",
+     "url": "https://x.com/eliebakouch/status/2105126765991747999"
+    },
+    {
+     "author": "DeepSeek, FlashMLA README (GitHub)",
+     "url": "https://github.com/deepseek-ai/FlashMLA"
+    },
+    {
+     "author": "TileLang README (GitHub)",
+     "url": "https://github.com/tile-ai/tilelang"
+    },
+    {
+     "author": "QbitAI",
+     "url": "https://www.qbitai.com/2026/09/499263.html"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/eliebakouch/status/2105126765991747999",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-aa-agentperf-local",
+   "section": "chips",
+   "headline": "Artificial Analysis open-sources a tool to time AI agents on your own laptop",
+   "standfirst": "AA-AgentPerf-Local replays real agent sessions against llama.cpp, vLLM, LM Studio or Ollama and reports tokens a second. First results cover DGX Spark, RTX 5090, Ryzen AI Halo and MacBook Pro M5 Pro.",
+   "entities": [
+    "Artificial Analysis",
+    "NVIDIA",
+    "AMD",
+    "Apple"
+   ],
+   "body": [
+    "Artificial Analysis announced AA-AgentPerf-Local on X, calling it an open-source inference testing tool for local AI models. The benchmarking firm says it replays real agent trajectories on laptop and workstation hardware, and it published a list of serving configurations to help people plan a local agent setup. It said initial results cover NVIDIA's DGX Spark and GeForce RTX 5090, AMD's Ryzen AI Halo and a MacBook Pro M5 Pro.",
+    "The GitHub README says the tool replays recorded agent conversations against any OpenAI-compatible server. It names llama.cpp, vLLM, SGLang, LM Studio and Ollama. It reports output tokens a second, median time to first token, and 95th-percentile first-token and turn times, saved as JSON. Users can point it at a running server or let it download a pinned model and start one.",
+    "Setup is a single command, `uv tool install agentperf-local`, followed by `agentperf-local`, which opens a text interface. The README says it runs on macOS, Linux and Windows under an Apache-2.0 licence, and that full runs need a 65,536-token context at batch size 1. It measures speed only and does not judge the quality of the model's output.",
+    "Artificial Analysis said the tool and leaderboard will soon cover more hardware and frameworks. The announcement post as retrieved did not include per-machine numbers, so the paper has not seen the leaderboard figures. The repository had 26 stars when the paper read it, and no outside reviewer has yet tested how well its replayed trajectories predict real agent workloads."
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis (X)",
+     "url": "https://x.com/ArtificialAnlys/status/2105133181536243942"
+    },
+    {
+     "author": "Artificial Analysis, aa-agentperf-local README (GitHub)",
+     "url": "https://github.com/ArtificialAnalysis/aa-agentperf-local"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2105133181536243942",
+     "after": 1
+    }
+   ],
+   "placement": "front"
   }
  ]
 }
