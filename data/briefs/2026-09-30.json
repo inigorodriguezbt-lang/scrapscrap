@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-30T04:05:16.217776+00:00",
+  "generated_at": "2026-09-30T06:03:33.328151+00:00",
   "edition_date": "2026-09-30",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 119,
-  "clusters_found": 73,
-  "stories_declared": 8,
+  "posts_considered": 137,
+  "clusters_found": 90,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cd3f0e3ef",
-      "score": 14.229,
+      "cluster_id": "c08f462bd",
+      "score": 18.705,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -28,11 +28,12 @@
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
-        "Wired AI"
+        "Wired AI",
+        "ollama"
       ],
-      "source_count": 7,
+      "source_count": 8,
       "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-30T00:41:46+00:00",
+      "last_seen": "2026-09-30T04:25:36+00:00",
       "links": [
         "https://9to5google.com/2026/09/29/openai-dots-agent/",
         "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
@@ -46,7 +47,8 @@
         "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
         "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
         "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/"
+        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+        "https://x.com/ollama/status/2105152056382345544"
       ],
       "posts": [
         {
@@ -152,12 +154,21 @@
           "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
           "created_at": "2026-09-30T00:41:46+00:00",
           "engagement": 0
+        },
+        {
+          "author": "ollama",
+          "tier": "commentary",
+          "text": "Ollama now supports Jev-like decision models all locally.\n\nUse decision models like Nimble for tasks like ticket triaging, model routing, and content moderation.\n\nollama pull nimble\n\nHere’s Nimble playing Ollama racer through the new local /v1/systemone API by making decisions in real-time. 🏎️",
+          "url": "https://x.com/ollama/status/2105152056382345544",
+          "created_at": "2026-09-30T04:25:36+00:00",
+          "engagement": 611,
+          "video": true
         }
       ]
     },
     {
-      "cluster_id": "c2131780f",
-      "score": 13.048,
+      "cluster_id": "c8301736c",
+      "score": 14.541,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -169,13 +180,14 @@
       "independent_sources": [
         "AWS ML",
         "Bloomberg Tech",
+        "Latent Space",
         "OpenAI",
         "TechCrunch AI",
         "The Decoder"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-09-29T10:00:00+00:00",
-      "last_seen": "2026-09-30T03:52:05+00:00",
+      "last_seen": "2026-09-30T05:53:10+00:00",
       "links": [
         "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
         "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
@@ -184,7 +196,8 @@
         "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
         "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
         "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-        "https://www.bloomberg.com/news/articles/2026-09-30/palebluedot-ai-seeks-600-million-private-credit-to-buy-chips"
+        "https://www.bloomberg.com/news/articles/2026-09-30/palebluedot-ai-seeks-600-million-private-credit-to-buy-chips",
+        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
       ],
       "posts": [
         {
@@ -250,77 +263,20 @@
           "url": "https://www.bloomberg.com/news/articles/2026-09-30/palebluedot-ai-seeks-600-million-private-credit-to-buy-chips",
           "created_at": "2026-09-30T03:52:05+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9427a960",
-      "score": 12.247,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Reuters",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T12:00:00+00:00",
-      "last_seen": "2026-09-30T02:10:50+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
-        "https://www.bloomberg.com/news/videos/2026-09-29/trump-rejects-ai-safety-laws-after-meeting-video",
-        "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-        "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-        "https://x.com/Reuters/status/2105118141915291951"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Will Chinese AI companies slow down? A top House Democrat wants answers. As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna (D-CA) is calling for a treaty between the US and China to keep AI from wreaking havoc on the world. But wrangling leaders in both countries to take action could be a long shot. In letters shared exclusively with [&#8230;]",
-          "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-          "created_at": "2026-09-29T12:00:00+00:00",
-          "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Trump Rejects AI Safety Laws After Meeting Industry Titans. President Donald Trump shot down the idea of new federal regulations on AI after meeting at the White House with top industry executives amid growing global concerns over threats posed by the technology. Tyler Kendall has more (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/trump-rejects-ai-safety-laws-after-meeting-video",
-          "created_at": "2026-09-29T20:59:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Trump Responds to AI Backlash With ‘Super Intelligence’ Rebrand. President Donald Trump sees artificial intelligence as suffering from a branding problem, and he intends to fix it with an attempt to officially rename the technology “super intelligence.”",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
-          "created_at": "2026-09-29T21:47:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Trump orders US government to call AI ‘Super Intelligence’. The US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. \"The word super is the best word of all, and it's the simplest,\" Trump said [&#8230;]",
-          "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-          "created_at": "2026-09-29T22:25:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Reuters",
+          "author": "Latent Space",
           "tier": "commentary",
-          "text": "President Trump said tech executives agreed to establish voluntary standards for AI and reiterated his support for rapid expansion of data centers, as concerns mount over AI safety and the industry's growing footprint in communities https://t.co/zzlRnzg2ua",
-          "url": "https://x.com/Reuters/status/2105118141915291951",
-          "created_at": "2026-09-30T02:10:50+00:00",
-          "engagement": 72
+          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
+          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+          "created_at": "2026-09-30T05:53:10+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c12824c8a",
-      "score": 11.263,
+      "cluster_id": "c574809f6",
+      "score": 10.837,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -342,8 +298,6 @@
         "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
         "https://www.bloomberg.com/news/videos/2026-09-29/altman-on-openai-s-ipo-plans-ai-agent-dots-ai-security-video",
         "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
-        "https://www.bloomberg.com/news/videos/2026-09-29/openai-cfo-friar-on-new-ai-assistant-capital-raise-video",
-        "https://www.bloomberg.com/news/videos/2026-09-29/sam-altman-says-openai-investors-patient-with-ipo-plan-video",
         "https://www.engadget.com/2272248/chatgpt-space-for-work/",
         "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
         "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
@@ -394,22 +348,6 @@
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Sam Altman Says OpenAI Investors Patient With IPO Plan. CEO Sam Altman says OpenAI ultimately wants to become a public company, but not yet. Speaking with Ed Ludlow on \"Bloomberg The Close,\" Altman pushes back on the idea that the responsibilities of being public are incompatible with a focus on safety. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/sam-altman-says-openai-investors-patient-with-ipo-plan-video",
-          "created_at": "2026-09-29T19:44:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI CFO Friar on New AI Assistant, Capital Raise. OpenAI CFO Sarah Friar discusses the company's new proactive assistant Dots. Speaking with Ed Ludlow on \"Bloomberg The Close,\" Friar also says OpenAI is \"really well capitalized.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/openai-cfo-friar-on-new-ai-assistant-capital-raise-video",
-          "created_at": "2026-09-29T20:43:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
           "text": "MongoDB Not in a Rush to Find CEO Successor, Ittycheria Says. MongoDB Interim President and CEO Dev Ittycheria discusses the outlook for the company after Meta Platforms tapped former CEO Chirantan “CJ” Desai to lead a new AI platform for enterprise customers. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
           "url": "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
           "created_at": "2026-09-29T21:18:12+00:00",
@@ -434,59 +372,77 @@
       ]
     },
     {
-      "cluster_id": "c66fe127e",
-      "score": 10.919,
+      "cluster_id": "ca490ebd1",
+      "score": 8.95,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "business",
       "entities": [
-        "Nvidia",
-        "Apple",
-        "Amazon",
-        "AMD"
+        "Anthropic"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "ArtificialAnlys"
+        "Ars Technica AI",
+        "Bloomberg Tech",
+        "The Decoder",
+        "The Verge AI",
+        "Tom's Hardware"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T15:35:22+00:00",
-      "last_seen": "2026-09-30T03:10:36+00:00",
+      "source_count": 5,
+      "first_seen": "2026-09-29T08:11:29+00:00",
+      "last_seen": "2026-09-29T14:10:00+00:00",
       "links": [
-        "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-        "https://x.com/ArtificialAnlys/status/2105133181536243942"
+        "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+        "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
+        "https://www.bloomberg.com/news/articles/2026-09-29/anthropic-flags-catastrophic-ai-risks-in-ipo-filing-reuters",
+        "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-lists-existential-risks-to-humanity-as-one-of-its-risk-factors-in-ipo-prospectus-80-pages-of-risk-factors-dwarf-business-description-as-firm-eyes-usd2-trillion-debut"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Deals: M5 MacBook Air, MacBook Pro $500 off, Mac Studio, accessories from $20 or less, more. The early fall Amazon Prime Day sale rolls in with a collection of new discounts, alongside the solid $50 price drop on the brand new Mac Studio and up to $150 off M5 MacBook Air models. We are also now tracking deep $500 price drop on both the Silver and Space Black 2TB M5 Pro MacBook Pro, ongoing Apple Watch Ultra 3 clearance discounts, loads of TV deals, and a host of new accessory offers from Twelve South, Anker, and more. Scope it all out down below. more…",
-          "url": "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-          "created_at": "2026-09-29T15:35:22+00:00",
+          "text": "Anthropic Flags ‘Catastrophic’ Risks in IPO Filing: Reuters. Anthropic PBC warned that its technology poses “catastrophic or existential risks to humanity” and mapped out plans to spend hundreds of billions of dollars in its prospectus as the artificial intelligence company prepared for its initial public offering, Reuters reported.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-29/anthropic-flags-catastrophic-ai-risks-in-ipo-filing-reuters",
+          "created_at": "2026-09-29T08:11:29+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
-          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-          "created_at": "2026-09-29T19:05:02+00:00",
+          "text": "Anthropic's IPO filing shows soaring revenue, mounting costs, and \"existential\" risks. Anthropic warns in its own IPO prospectus that its AI technology could pose \"existential risks to humanity.\" Revenue grew twelvefold in 2025 to $4.6 billion, but the operating loss widened to $8.06 billion. Backers are aiming for a valuation above $2 trillion, and the IPO is expected to set the bar for the entire AI industry. The article Anthropic&#039;s IPO filing shows soaring revenue, mounting costs, and \"existential\" risks appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
+          "created_at": "2026-09-29T10:21:36+00:00",
           "engagement": 0
         },
         {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Announcing AA-AgentPerf-Local, our open-source inference testing tool for local AI models - test how fast agentic AI can run on your own laptop or workstation, and browse our list of serving configurations to plan your next agent setup\n\nKey points:\n\n➤ We’re open sourcing AA-AgentPerf-Local, which replays real agent trajectories on laptop & workstation hardware to test inference performance\n\n➤ We’re releasing initial results for NVIDIA DGX Spark, NVIDIA GeForce RTX 5090, AMD Ryzen AI Halo, and MacBook Pro M5 Pro",
-          "url": "https://x.com/ArtificialAnlys/status/2105133181536243942",
-          "created_at": "2026-09-30T03:10:36+00:00",
-          "engagement": 101
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing. As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as Anthropic eyes a $2 trillion valuation, more than [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+          "created_at": "2026-09-29T11:48:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Anthropic lists ‘existential risks to humanity’ as one of its risk factors in IPO prospectus. Anthropic serves a dire warning in its IPO prospectus, saying how a rogue model could lead to the end of humanity and, consequentially, its business. Nevertheless, investors are still hoping for a $2-trillion valuation once the company goes public.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-lists-existential-risks-to-humanity-as-one-of-its-risk-factors-in-ipo-prospectus-80-pages-of-risk-factors-dwarf-business-description-as-firm-eyes-usd2-trillion-debut",
+          "created_at": "2026-09-29T13:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Anthropic’s IPO pitch includes a warning about human extinction. The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.",
+          "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+          "created_at": "2026-09-29T14:10:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c2361721c",
-      "score": 9.18,
+      "score": 8.851,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -535,89 +491,86 @@
       ]
     },
     {
-      "cluster_id": "c52466427",
-      "score": 8.625,
+      "cluster_id": "c2e521bd7",
+      "score": 8.394,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "DeepSeek"
+        "OpenAI"
       ],
       "independent_sources": [
-        "MaxForAI",
-        "eliebakouch"
+        "Simon Willison",
+        "ValsAI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-30T02:45:07+00:00",
-      "last_seen": "2026-09-30T02:51:34+00:00",
+      "first_seen": "2026-09-29T18:27:48+00:00",
+      "last_seen": "2026-09-30T04:27:23+00:00",
       "links": [
-        "https://x.com/MaxForAI/status/2105128392379322752",
-        "https://x.com/eliebakouch/status/2105126765991747999"
+        "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+        "https://x.com/ValsAI/status/2105152503700672835"
       ],
       "posts": [
         {
-          "author": "eliebakouch",
+          "author": "Simon Willison",
           "tier": "commentary",
-          "text": "deepseek updated most of their oss libraries with new Huawei Ascend support https://t.co/Aba2RVzhdD",
-          "url": "https://x.com/eliebakouch/status/2105126765991747999",
-          "created_at": "2026-09-30T02:45:07+00:00",
-          "engagement": 80
+          "text": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price. My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... They're not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr... Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt",
+          "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+          "created_at": "2026-09-29T18:27:48+00:00",
+          "engagement": 0
         },
         {
-          "author": "MaxForAI",
+          "author": "ValsAI",
           "tier": "commentary",
-          "text": "DeepSeek open-sourced infrastructure components for Huawei Ascend: TileLang, DeepGEMM, DeepEP, TileKernels, FlashMLA, DeepSelect. Every TileLang operator used in DeepSeek training now has an Ascend implementation.",
-          "url": "https://x.com/MaxForAI/status/2105128392379322752",
-          "created_at": "2026-09-30T02:51:34+00:00",
-          "engagement": 76
+          "text": "GPT 6.1 Sol is here, and it’s an overall improvement over GPT-6 Sol. It now ranks #7, three spots above GPT-6 Sol.",
+          "url": "https://x.com/ValsAI/status/2105152503700672835",
+          "created_at": "2026-09-30T04:27:23+00:00",
+          "engagement": 51
         }
       ]
     },
     {
-      "cluster_id": "c28b1c16b",
-      "score": 7.809,
+      "cluster_id": "cc905a4c7",
+      "score": 7.793,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Anthropic"
-      ],
+      "suggested_section": "policy",
+      "entities": [],
       "independent_sources": [
-        "Ars Technica AI",
-        "The Decoder",
+        "Bloomberg Tech",
         "The Verge AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T10:21:36+00:00",
-      "last_seen": "2026-09-29T14:10:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-29T12:00:00+00:00",
+      "last_seen": "2026-09-29T22:25:45+00:00",
       "links": [
-        "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
-        "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
-        "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat"
+        "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
+        "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+        "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Anthropic's IPO filing shows soaring revenue, mounting costs, and \"existential\" risks. Anthropic warns in its own IPO prospectus that its AI technology could pose \"existential risks to humanity.\" Revenue grew twelvefold in 2025 to $4.6 billion, but the operating loss widened to $8.06 billion. Backers are aiming for a valuation above $2 trillion, and the IPO is expected to set the bar for the entire AI industry. The article Anthropic&#039;s IPO filing shows soaring revenue, mounting costs, and \"existential\" risks appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/",
-          "created_at": "2026-09-29T10:21:36+00:00",
+          "text": "Will Chinese AI companies slow down? A top House Democrat wants answers. As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna (D-CA) is calling for a treaty between the US and China to keep AI from wreaking havoc on the world. But wrangling leaders in both countries to take action could be a long shot. In letters shared exclusively with [&#8230;]",
+          "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+          "created_at": "2026-09-29T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump Responds to AI Backlash With ‘Super Intelligence’ Rebrand. President Donald Trump sees artificial intelligence as suffering from a branding problem, and he intends to fix it with an attempt to officially rename the technology “super intelligence.”",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
+          "created_at": "2026-09-29T21:47:44+00:00",
           "engagement": 0
         },
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing. As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as Anthropic eyes a $2 trillion valuation, more than [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-          "created_at": "2026-09-29T11:48:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Anthropic’s IPO pitch includes a warning about human extinction. The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.",
-          "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
-          "created_at": "2026-09-29T14:10:00+00:00",
+          "text": "Trump orders US government to call AI ‘Super Intelligence’. The US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. \"The word super is the best word of all, and it's the simplest,\" Trump said [&#8230;]",
+          "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+          "created_at": "2026-09-29T22:25:45+00:00",
           "engagement": 0
         }
       ]

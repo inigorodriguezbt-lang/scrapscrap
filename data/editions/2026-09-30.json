@@ -30,6 +30,44 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-ollama-nimble-decision-models",
+   "section": "models",
+   "headline": "Ollama adds local decision models, starting with a 9B Nimble",
+   "standfirst": "`ollama pull nimble` gets a 9-billion-parameter Apache-2.0 model that answers up to 64 questions about a text, with odds for each answer. Its maker claims under 100ms on a MacBook Pro.",
+   "entities": [
+    "Ollama",
+    "Bespoke Labs"
+   ],
+   "body": [
+    "Ollama announced on X that it now supports decision models running entirely on a user's machine. It suggested ticket triaging, model routing and content moderation as uses, and gave the command `ollama pull nimble`. Its demo video shows Nimble playing Ollama racer, steering by making decisions in real time through a new local `/v1/systemone` API.",
+    "According to the model's Ollama library page, Nimble is a 9-billion-parameter, text-only model, 9.5GB in size, with a 256,000-token context window and an Apache-2.0 licence. It was made by Bespoke Labs. The page says a caller supplies a piece of text and up to 64 questions, and the model picks an answer to each and returns the probability of every allowed answer.",
+    "The page describes three question types: pick from several options, answer yes or no, or score on an ordered scale. Request bodies can be up to 64 KiB. Bespoke Labs says there is no reasoning step, which is why it claims a response in under 100ms on a MacBook Pro with an M5 Max. The paper has not timed it, and no outside benchmark has been published.",
+    "Bespoke Labs' Hugging Face card says the earlier release is a LoRA adapter of about 165MiB on Qwen3.5-9B, needing a CUDA GPU with BF16 support. The lab says it trained on examples that differ by one fact, where that fact flips the answer. The card carries no benchmark figures, and its organisation page shows a newer Nimble-V3 posted about three hours before the paper checked."
+   ],
+   "sources": [
+    {
+     "author": "Ollama (X)",
+     "url": "https://x.com/ollama/status/2105152056382345544"
+    },
+    {
+     "author": "Ollama, Nimble model page",
+     "url": "https://ollama.com/library/nimble"
+    },
+    {
+     "author": "Bespoke Labs, Bespoke-Nimble-9B model card (Hugging Face)",
+     "url": "https://huggingface.co/bespokelabs/Bespoke-Nimble-9B"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ollama/status/2105152056382345544",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-deepseek-ascend-kernels",
    "section": "chips",
    "headline": "DeepSeek open-sources its kernel libraries for Huawei's Ascend chips",
