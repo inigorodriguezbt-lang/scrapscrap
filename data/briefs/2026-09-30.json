@@ -1,15 +1,105 @@
 {
-  "generated_at": "2026-09-30T10:05:11.623313+00:00",
+  "generated_at": "2026-09-30T12:04:27.721242+00:00",
   "edition_date": "2026-09-30",
-  "source_file": "/tmp/claude-0/-home-user-scrapscrap/96ad3b86-c594-5227-b2de-6cbdfa8eac8f/scratchpad/work/data/raw",
-  "posts_considered": 148,
-  "clusters_found": 99,
-  "stories_declared": 10,
+  "source_file": "/home/user/scrapscrap/data/raw",
+  "posts_considered": 144,
+  "clusters_found": 101,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cb7032983",
-      "score": 17.566,
+      "cluster_id": "ce8d19a83",
+      "score": 16.884,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "AWS ML",
+        "The Decoder",
+        "mark_k",
+        "synthwavedd"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-09-29T15:35:22+00:00",
+      "last_seen": "2026-09-30T11:05:05+00:00",
+      "links": [
+        "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
+        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
+        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+        "https://x.com/mark_k/status/2105236269265572213",
+        "https://x.com/synthwavedd/status/2105246480529236203"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Deals: M5 MacBook Air, MacBook Pro $500 off, Mac Studio, accessories from $20 or less, more. The early fall Amazon Prime Day sale rolls in with a collection of new discounts, alongside the solid $50 price drop on the brand new Mac Studio and up to $150 off M5 MacBook Air models. We are also now tracking deep $500 price drop on both the Silver and Space Black 2TB M5 Pro MacBook Pro, ongoing Apple Watch Ultra 3 clearance discounts, loads of TV deals, and a host of new accessory offers from Twelve South, Anker, and more. Scope it all out down below. more…",
+          "url": "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
+          "created_at": "2026-09-29T15:35:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
+          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
+          "created_at": "2026-09-29T19:05:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore. Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+          "created_at": "2026-09-30T01:13:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Amazon Bedrock expands Claude model availability to in-country inferencing in India. Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+          "created_at": "2026-09-30T01:13:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Seems like GPT-6.1 Sol was originally planned to be released as Astra Minor, a considerably more powerful model than Sol. But then Opus 5.5 (and Sonnet 5.5) happened, and OpenAI decided they needed something stronger for the Sol model, so they repurposed it.",
+          "url": "https://x.com/mark_k/status/2105236269265572213",
+          "created_at": "2026-09-30T10:00:14+00:00",
+          "engagement": 176
+        },
+        {
+          "author": "synthwavedd",
+          "tier": "commentary",
+          "text": "No, Patrick, GPT-6.1 Sol isn't repackaged 6.1 Astra",
+          "url": "https://x.com/synthwavedd/status/2105246480529236203",
+          "created_at": "2026-09-30T10:40:49+00:00",
+          "engagement": 452
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic says Zhipu's open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits. Zhipu's open-weight model GLM-5.3 writes cyber exploits nearly as well as Claude Mythos Preview, according to Anthropic. Its smaller Flash variant put together a reliable Chrome attack for just $20.40 at Zhipu's API prices. The model's safeguards are easy to strip out, and unlocked versions are already circulating. Anthropic has its own reasons to sound the alarm, but the US agency CAISI backs up the findings. The article Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+          "created_at": "2026-09-30T11:05:05+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c8cf182d5",
+      "score": 13.74,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -24,19 +114,16 @@
       "independent_sources": [
         "9to5Google",
         "9to5Mac",
-        "Engadget",
         "Latent Space",
         "Product Hunt AI",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
-        "Wired AI",
-        "reach_vb",
-        "testingcatalog"
+        "Wired AI"
       ],
-      "source_count": 11,
+      "source_count": 8,
       "first_seen": "2026-09-29T13:16:30+00:00",
-      "last_seen": "2026-09-30T09:29:24+00:00",
+      "last_seen": "2026-09-30T09:46:10+00:00",
       "links": [
         "https://9to5google.com/2026/09/29/openai-dots-agent/",
         "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
@@ -46,7 +133,7 @@
         "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
         "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
         "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-        "https://www.engadget.com/2272248/chatgpt-space-for-work/",
+        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
         "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
         "https://www.producthunt.com/products/campfire-12",
         "https://www.producthunt.com/products/datastory-data-visualization-platform",
@@ -57,9 +144,7 @@
         "https://www.producthunt.com/products/jambuild",
         "https://www.producthunt.com/products/upsolve-ai",
         "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-        "https://x.com/reach_vb/status/2105206633223647461",
-        "https://x.com/testingcatalog/status/2105228510335778918"
+        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/"
       ],
       "posts": [
         {
@@ -115,14 +200,6 @@
           "tier": "press",
           "text": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse. These cute agents are designed to connect to your apps and tackle multistep tasks.",
           "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "ChatGPT Space is a shared hub for work projects and personal AI agents. ChatGPT is coming to Slack and Microsoft Teams too.",
-          "url": "https://www.engadget.com/2272248/chatgpt-space-for-work/",
           "created_at": "2026-09-29T17:15:00+00:00",
           "engagement": 0
         },
@@ -223,65 +300,18 @@
           "engagement": 0
         },
         {
-          "author": "reach_vb",
-          "tier": "commentary",
-          "text": "my personal favourites are: Dots, Space, GPT-6.1 Sol, GPT 6 Astra Ultrafast, ChatGPT in Slack",
-          "url": "https://x.com/reach_vb/status/2105206633223647461",
-          "created_at": "2026-09-30T08:02:28+00:00",
-          "engagement": 59
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF Sept 30 OPENAI: dots shipped: always-on GPT-6 Astra agents with a cloud computer and 4,000+ plugins. On Pro (incl. $100), Business Premium, and Enterprise; EEA/UK/Switzerland skipped at launch. GPT-6.1 Sol is live in Work, Codex, and the API. Near-Astra at $2/$10; cached input $0.10, 95% off standard. Ultrafast hits ~300 tok/s in Codex (8x) and 6x in the API. Astra Ultrafast today on Pro 500 and Enterprise; Sol Ultrafast soon. Pro 500 is the new top plan: 25x Plus usage plus Ultrafast. Codex CLI refresh: voice start/steer, /agents view, worktrees",
-          "url": "https://x.com/testingcatalog/status/2105228510335778918",
-          "created_at": "2026-09-30T09:29:24+00:00",
-          "engagement": 37
-        }
-      ]
-    },
-    {
-      "cluster_id": "c29df8dca",
-      "score": 11.813,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "_akhaliq",
-        "arXiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T17:57:25+00:00",
-      "last_seen": "2026-09-30T07:49:46+00:00",
-      "links": [
-        "https://arxiv.org/abs/2609.38147v1",
-        "https://x.com/_akhaliq/status/2105203437680168986"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning. As agents take on longer and more complex problems, controlling the execution becomes a task in its own right. Each step in the run brings new control choices, like which partial work to build on, whether to start fresh, or when to stop. We introduce agentic meta-reasoning, an inference-time harness that makes these choices an explicit and structured reasoning process. Workers carry out the task-level computation, while a controller consolidates what the run has established, explores next options, assesses what each option is worth under the remaining budget, and dispatches the chosen work wit",
-          "url": "https://arxiv.org/abs/2609.38147v1",
-          "created_at": "2026-09-29T17:57:25+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
+          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+          "created_at": "2026-09-30T09:46:10+00:00",
           "engagement": 0
-        },
-        {
-          "author": "_akhaliq",
-          "tier": "commentary",
-          "text": "SpatialClaw Rethinking Action Interface for Agentic Spatial Reasoning paper",
-          "url": "https://x.com/_akhaliq/status/2105203437680168986",
-          "created_at": "2026-09-30T07:49:46+00:00",
-          "engagement": 53
         }
       ]
     },
     {
-      "cluster_id": "c1ce6c272",
-      "score": 10.81,
+      "cluster_id": "c79ec1bd1",
+      "score": 10.625,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -291,14 +321,14 @@
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Reuters"
+        "mark_k"
       ],
       "source_count": 2,
       "first_seen": "2026-09-30T05:07:26+00:00",
-      "last_seen": "2026-09-30T08:40:02+00:00",
+      "last_seen": "2026-09-30T10:23:10+00:00",
       "links": [
         "https://www.bloomberg.com/news/articles/2026-09-30/deepseek-unveils-huawei-ai-chip-tools-that-may-replace-nvidia-s",
-        "https://x.com/Reuters/status/2105216087084216641"
+        "https://x.com/mark_k/status/2105242040078336257"
       ],
       "posts": [
         {
@@ -310,143 +340,18 @@
           "engagement": 0
         },
         {
-          "author": "Reuters",
+          "author": "mark_k",
           "tier": "commentary",
-          "text": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia",
-          "url": "https://x.com/Reuters/status/2105216087084216641",
-          "created_at": "2026-09-30T08:40:02+00:00",
-          "engagement": 42
-        }
-      ]
-    },
-    {
-      "cluster_id": "c40a91063",
-      "score": 10.042,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T12:00:00+00:00",
-      "last_seen": "2026-09-30T09:46:10+00:00",
-      "links": [
-        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-        "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
-        "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-        "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Will Chinese AI companies slow down? A top House Democrat wants answers. As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna (D-CA) is calling for a treaty between the US and China to keep AI from wreaking havoc on the world. But wrangling leaders in both countries to take action could be a long shot. In letters shared exclusively with [&#8230;]",
-          "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
-          "created_at": "2026-09-29T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Trump Responds to AI Backlash With ‘Super Intelligence’ Rebrand. President Donald Trump sees artificial intelligence as suffering from a branding problem, and he intends to fix it with an attempt to officially rename the technology “super intelligence.”",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
-          "created_at": "2026-09-29T21:47:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Trump orders US government to call AI ‘Super Intelligence’. The US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. \"The word super is the best word of all, and it's the simplest,\" Trump said [&#8230;]",
-          "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-          "created_at": "2026-09-29T22:25:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
-          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-          "created_at": "2026-09-30T09:46:10+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9c05f71a",
-      "score": 10.038,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic",
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "AWS ML",
-        "Bloomberg Tech"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T15:35:22+00:00",
-      "last_seen": "2026-09-30T03:52:05+00:00",
-      "links": [
-        "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
-        "https://www.bloomberg.com/news/articles/2026-09-30/palebluedot-ai-seeks-600-million-private-credit-to-buy-chips"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Deals: M5 MacBook Air, MacBook Pro $500 off, Mac Studio, accessories from $20 or less, more. The early fall Amazon Prime Day sale rolls in with a collection of new discounts, alongside the solid $50 price drop on the brand new Mac Studio and up to $150 off M5 MacBook Air models. We are also now tracking deep $500 price drop on both the Silver and Space Black 2TB M5 Pro MacBook Pro, ongoing Apple Watch Ultra 3 clearance discounts, loads of TV deals, and a host of new accessory offers from Twelve South, Anker, and more. Scope it all out down below. more…",
-          "url": "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-          "created_at": "2026-09-29T15:35:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
-          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-          "created_at": "2026-09-29T19:05:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore. Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
-          "created_at": "2026-09-30T01:13:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Amazon Bedrock expands Claude model availability to in-country inferencing in India. Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
-          "created_at": "2026-09-30T01:13:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "PaleBlueDot AI Seeks $600 Million Private Credit to Buy Chips. US-based PaleBlueDot AI is in talks with potential lenders including Brookfield Asset Management for $600 million of private credit to buy chips for its site in South Korea, according to people familiar with the matter.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/palebluedot-ai-seeks-600-million-private-credit-to-buy-chips",
-          "created_at": "2026-09-30T03:52:05+00:00",
-          "engagement": 0
+          "text": "DeepSeek and Huawei are taking aim at Nvidia's CUDA moat. Reuters reports that the two companies are partnering on programming tools for Huawei's Ascend chips. @deepseek_ai says it is open-sourcing infrastructure built around TileLang, along with compute and communication libraries, to make the chips easier to program and optimize.",
+          "url": "https://x.com/mark_k/status/2105242040078336257",
+          "created_at": "2026-09-30T10:23:10+00:00",
+          "engagement": 33
         }
       ]
     },
     {
       "cluster_id": "c34bff3d6",
-      "score": 9.754,
+      "score": 9.423,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -495,114 +400,48 @@
       ]
     },
     {
-      "cluster_id": "c4dd8f94c",
-      "score": 7.393,
+      "cluster_id": "c383406ff",
+      "score": 8.887,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Meta"
+        "Hugging Face"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "The Verge AI"
+        "MIT Tech Review",
+        "Wired AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T14:08:21+00:00",
-      "last_seen": "2026-09-30T00:19:13+00:00",
+      "first_seen": "2026-09-29T19:05:00+00:00",
+      "last_seen": "2026-09-30T10:40:30+00:00",
       "links": [
-        "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
-        "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-        "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-        "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-        "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
+        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger. Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this weekend, after authorizing the bot to handle his Facebook Marketplace account. That's despite Meta placing great emphasis on the security features of Muse when it launched the personal AI agent earlier this month as it tries to catch [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-          "created_at": "2026-09-29T14:08:21+00:00",
+          "text": "OpenAI Gets Sued Over the Hugging Face Hack. A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.",
+          "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+          "created_at": "2026-09-29T19:05:00+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "MIT Tech Review",
           "tier": "press",
-          "text": "OpenAI DevDay 2026: The biggest news and announcements. It&#8217;s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product that rivals Meta’s recently-launched Muse. However, unlike Muse, which is available for free, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-          "created_at": "2026-09-29T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Protesters gather at OpenAI’s DevDay. On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Altman, get off it, put people over profit,\" said a group of protesters marching in a circle in front of a series of signs that spelled out \"PEOPLE OVER PROFIT.\" More than a dozen organizations came together to sponsor a rally outside [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-          "created_at": "2026-09-29T17:12:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "MongoDB Not in a Rush to Find CEO Successor, Ittycheria Says. MongoDB Interim President and CEO Dev Ittycheria discusses the outlook for the company after Meta Platforms tapped former CEO Chirantan “CJ” Desai to lead a new AI platform for enterprise customers. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-29/mongodb-not-in-a-rush-to-find-ceo-successor-ittycheria-video",
-          "created_at": "2026-09-29T21:18:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Sam Altman says OpenAI won’t go public until its models are safe. For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
-          "created_at": "2026-09-30T00:19:13+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4cda9c13",
-      "score": 6.62,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-29T11:48:27+00:00",
-      "last_seen": "2026-09-29T14:10:00+00:00",
-      "links": [
-        "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
-        "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing. As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as Anthropic eyes a $2 trillion valuation, more than [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-          "created_at": "2026-09-29T11:48:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Anthropic’s IPO pitch includes a warning about human extinction. The Claude maker warns its own models could resist shutdowns and cause catastrophic harm.",
-          "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
-          "created_at": "2026-09-29T14:10:00+00:00",
+          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+          "created_at": "2026-09-30T10:40:30+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c2a1511a2",
-      "score": 6.508,
+      "score": 6.455,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
