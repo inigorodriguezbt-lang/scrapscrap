@@ -1,266 +1,52 @@
 {
-  "generated_at": "2026-09-30T14:03:40.539376+00:00",
+  "generated_at": "2026-09-30T18:04:35.047168+00:00",
   "edition_date": "2026-09-30",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 138,
-  "clusters_found": 92,
-  "stories_declared": 8,
+  "posts_considered": 127,
+  "clusters_found": 85,
+  "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0dc74ae4",
-      "score": 16.165,
+      "cluster_id": "c0ffbc86d",
+      "score": 16.419,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Meta",
-        "Microsoft",
-        "Apple",
-        "xAI"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "9to5Mac",
-        "Latent Space",
-        "TechCrunch AI",
-        "The Decoder",
-        "The Verge AI",
-        "Tom's Hardware",
-        "Wired AI",
-        "mark_k"
-      ],
-      "source_count": 9,
-      "first_seen": "2026-09-29T14:08:21+00:00",
-      "last_seen": "2026-09-30T14:00:00+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/29/openai-dots-agent/",
-        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
-        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-        "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/",
-        "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-        "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-        "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
-        "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-        "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-        "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-        "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-        "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-        "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
-        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
-        "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-        "https://x.com/mark_k/status/2105276904810971421"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger. Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this weekend, after authorizing the bot to handle his Facebook Marketplace account. That's despite Meta placing great emphasis on the security features of Muse when it launched the personal AI agent earlier this month as it tries to catch [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-          "created_at": "2026-09-29T14:08:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI DevDay 2026: The biggest news and announcements. It&#8217;s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual DevDay on September 29th in San Francisco, and during a live keynote featuring CEO Sam Altman, it revealed several notable updates, including Dots, its AI agent product that rivals Meta’s recently-launched Muse. However, unlike Muse, which is available for free, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-          "created_at": "2026-09-29T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Protesters gather at OpenAI’s DevDay. On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Altman, get off it, put people over profit,\" said a group of protesters marching in a circle in front of a series of signs that spelled out \"PEOPLE OVER PROFIT.\" More than a dozen organizations came together to sponsor a rally outside [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
-          "created_at": "2026-09-29T17:12:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI launches always-on Dots agents to rival Meta's Muse. OpenAI's new Dots are always-on agents that run on their own cloud computers, where they fix bugs or send out forgotten invoices, sometimes before anyone asks. Users can reach them through ChatGPT, Slack, and Microsoft Teams. When no one is working with them, Dots look for ways to help in the background using read-only access. The article OpenAI launches always-on Dots agents to rival Meta&#039;s Muse appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
-          "created_at": "2026-09-29T17:14:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI launches Dots, its Muse competitor. OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During its DevDay keynote on Tuesday, OpenAI announced that Dots will serve as always-on AI assistants that can \"do nearly anything\" across connected apps in the background while learning your preferences over time. The company's capable GPT-6 Astra model powers [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse. These cute agents are designed to connect to your apps and tackle multistep tasks.",
-          "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI's reveals a new ChatGPT that looks less like a chatbot and more like an operating system. At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partners, and a new Pro 500 pricing tier. The article OpenAI&#039;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-          "created_at": "2026-09-29T17:23:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite. OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-          "created_at": "2026-09-29T17:45:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "OpenAI launches Dots, new ‘always-on agents’ you can assign tasks to. Right as Meta’s Muse avatar agent has taken the AI world by storm, OpenAI is today announcing Dots as “always-on agents” you can customize to your needs. more…",
-          "url": "https://9to5google.com/2026/09/29/openai-dots-agent/",
-          "created_at": "2026-09-29T17:55:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT now reaches 1.2 billion people every week, OpenAI says. OpenAI's annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion people every week, OpenAI says appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-          "created_at": "2026-09-29T18:10:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
-          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
-          "created_at": "2026-09-29T20:31:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch. Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
-          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-          "created_at": "2026-09-29T22:20:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Sam Altman says OpenAI won’t go public until its models are safe. For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
-          "created_at": "2026-09-30T00:19:13+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-          "created_at": "2026-09-30T00:41:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
-          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-          "created_at": "2026-09-30T05:53:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
-          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-          "created_at": "2026-09-30T09:46:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "The clever way Apple embedded Face ID beneath the iPhone 18 Pro screen. In the iPhone 18 Pro , Apple has taken one of the next steps toward its long-term vision of the iPhone as a single slab of glass: embedding the Face ID module beneath the display. Achieving this without having the Face ID array be visible through the display and without compromising the quality of this section of the screen required some clever engineering … more…",
-          "url": "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/",
-          "created_at": "2026-09-30T12:35:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Is OpenAI DOTS available on Android? I just tried it, with a VPN, but I don't see it in the ChatGPT app.",
-          "url": "https://x.com/mark_k/status/2105276904810971421",
-          "created_at": "2026-09-30T12:41:42+00:00",
-          "engagement": 54
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence. President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
-          "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
-          "created_at": "2026-09-30T12:51:29+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data. Meta's Muse AI agent has been accused of ignoring user permissions and accessing forbidden personal user data on an iPhone and Mac, including iMessages.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
-          "created_at": "2026-09-30T14:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c1e23902c",
-      "score": 11.496,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic",
         "Apple",
         "Amazon"
       ],
       "independent_sources": [
-        "9to5Mac",
         "AWS ML",
-        "The Decoder"
+        "Bloomberg Tech",
+        "The Decoder",
+        "mark_k"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T15:35:22+00:00",
-      "last_seen": "2026-09-30T11:05:05+00:00",
+      "source_count": 4,
+      "first_seen": "2026-09-29T19:34:14+00:00",
+      "last_seen": "2026-09-30T17:48:25+00:00",
       "links": [
-        "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
         "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+        "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
-        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/"
+        "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+        "https://www.bloomberg.com/news/videos/2026-09-30/ackman-says-markets-are-narrowly-focused-on-big-ipos-video",
+        "https://www.bloomberg.com/news/videos/2026-09-30/flow-engineering-raises-50m-to-bring-ai-to-hardware-video",
+        "https://www.bloomberg.com/news/videos/2026-09-30/open-interest-9-30-2026-video",
+        "https://x.com/mark_k/status/2105333480477655383"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Deals: M5 MacBook Air, MacBook Pro $500 off, Mac Studio, accessories from $20 or less, more. The early fall Amazon Prime Day sale rolls in with a collection of new discounts, alongside the solid $50 price drop on the brand new Mac Studio and up to $150 off M5 MacBook Air models. We are also now tracking deep $500 price drop on both the Silver and Space Black 2TB M5 Pro MacBook Pro, ongoing Apple Watch Ultra 3 clearance discounts, loads of TV deals, and a host of new accessory offers from Twelve South, Anker, and more. Scope it all out down below. more…",
-          "url": "https://9to5mac.com/2026/09/29/deals-macbook-air-macbook-pro-mac-studio-accessories/",
-          "created_at": "2026-09-29T15:35:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
-          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
-          "created_at": "2026-09-29T19:05:02+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock. GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+          "created_at": "2026-09-29T19:34:14+00:00",
           "engagement": 0
         },
         {
@@ -286,117 +72,298 @@
           "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
           "created_at": "2026-09-30T11:05:05+00:00",
           "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances. Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+          "created_at": "2026-09-30T15:21:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Query claims in natural language with Amazon Bedrock Knowledge Bases. This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+          "created_at": "2026-09-30T15:37:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "GPT-6.1 Sol is coming soon to ChatGPT's regular chat mode. Michelle Pokrass says 'coming soon to chat'.",
+          "url": "https://x.com/mark_k/status/2105333480477655383",
+          "created_at": "2026-09-30T16:26:31+00:00",
+          "engagement": 271
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Ackman Says Markets Are Narrowly Focused on Big IPOs. Pershing Square CEO and founder Bill Ackman says markets are narrowly focused on big initial public offerings. Ackman says Anthropic is one of the greatest business stories he's ever seen, but would not say if it's a company he would invest in. The Claude developer is expected to go public this year. Ackman speaks on \"Bloomberg Deals.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-30/ackman-says-markets-are-narrowly-focused-on-big-ipos-video",
+          "created_at": "2026-09-30T16:37:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Stocks Jump on inflation Surprise, Apple's Smart-Home Push. Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Yields fall and stocks jump on an inflation surprise, with Micron facing a key earnings test. President Trump strikes an AI accord as OpenAI chases a $1.4 trillion valuation. Plus, Apple makes its long-awaited smart-home push. And Citadel CEO Ken Griffin on his $3 billion gift to Carnegie Mellon, while KKR’s Christopher Sheldon breaks down the $8 trillion AI funding gap. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-30/open-interest-9-30-2026-video",
+          "created_at": "2026-09-30T16:37:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Flow Engineering Raises $50M to Bring AI to Hardware. As AI is moving beyond software and deeper into the physical world, Flow Engineering just raised $50 million at a $750 million valuation to help companies use AI agents to design and build hardware. Flow Engineering founder and CEO Pari Singh and Roelof Botha, Flow investor and board member - formerly at Sequoia Capital - join Ed Ludlow to discuss how faster hardware development could support a broader revival of US manufacturing. They speak on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-30/flow-engineering-raises-50m-to-bring-ai-to-hardware-video",
+          "created_at": "2026-09-30T17:48:25+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c34bff3d6",
-      "score": 9.092,
+      "cluster_id": "c1f5f79b4",
+      "score": 12.513,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "chips",
       "entities": [
+        "Meta",
         "Nvidia",
-        "AMD"
+        "DeepSeek"
       ],
       "independent_sources": [
-        "Ars Technica AI",
-        "The Decoder",
-        "Tom's Hardware"
+        "IntCyberDigest",
+        "The Decoder"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-29T17:13:51+00:00",
-      "last_seen": "2026-09-30T09:30:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-09-30T14:37:24+00:00",
+      "last_seen": "2026-09-30T17:22:34+00:00",
       "links": [
-        "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
-        "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house"
+        "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+        "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+        "https://x.com/IntCyberDigest/status/2105310980179685439"
       ],
       "posts": [
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "AMD buys AI world model startup World Labs for $8.2 billion. Fei-Fei Li's AI startup World Labs is being acquired by AMD for $8.2 billion. Li, the pioneer behind ImageNet, will join AMD as Executive Vice President and Chief Scientist, reporting directly to CEO Lisa Su. World Labs brings its spatial intelligence models, including Atlas, which generates and simulates 3D environments from minimal input. AMD gains its own AI research unit focused on physical-world models, sharpening its competition with Nvidia. The article AMD buys AI world model startup World Labs for $8.2 billion appeared first on The Decoder .",
-          "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
-          "created_at": "2026-09-29T17:13:51+00:00",
+          "text": "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips. Deepseek and Huawei have built open-source programming tools for Huawei's Ascend AI chips. At the center is TileLang, a language designed to offer a simpler programming model than Nvidia's CUDA. The partnership targets the biggest obstacle for China's AI industry, which is software that gets the most out of domestic chips. The article China&#039;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#039;s Ascend chips appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+          "created_at": "2026-09-30T14:37:24+00:00",
           "engagement": 0
         },
         {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "AMD acquires World Labs AI startup, upping the ante against Nvidia. The deal, which is expected to close by year's end, is worth $8.2 billion.",
-          "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
-          "created_at": "2026-09-29T21:14:49+00:00",
-          "engagement": 0
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "BREAKING: DeepSeek is building software for Huawei's AI chips, open-sourcing six core tools that take aim at CUDA. Huawei backed the project, adapts TileLang for Ascend 950.",
+          "url": "https://x.com/IntCyberDigest/status/2105310980179685439",
+          "created_at": "2026-09-30T14:57:07+00:00",
+          "engagement": 658
         },
         {
-          "author": "Tom's Hardware",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion. AMD has agreed agreed to buy generative AI world model developer World Labs for $8.2 billion in stock. Legendary CEO and co-founder Fei-Fei Li will join the company as an executive vice president and chief scientist.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house",
-          "created_at": "2026-09-30T09:30:00+00:00",
+          "text": "Meta dodges billions in US taxes by calling its AI data centers experiments. Meta classifies its AI data centers as \"pilot models\" and Nvidia chips as experimental materials to save billions in federal taxes. In 2025 alone, that added up to $3.9 billion. The tax credit dates back to 1981, and even Meta's own accountants see the strategy as legally risky, the New York Times reports. Zuckerberg himself said in January 2025 that these data centers, now framed as experimental, would \"drive our core products and business.\" The article Meta dodges billions in US taxes by calling its AI data centers experiments appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+          "created_at": "2026-09-30T17:22:34+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cb0743eee",
-      "score": 8.937,
-      "interest": "neutral",
+      "cluster_id": "c696dea54",
+      "score": 11.527,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Nvidia"
+        "Meta",
+        "Apple"
       ],
       "independent_sources": [
-        "Tom's Hardware",
-        "kimmonismus"
+        "9to5Google",
+        "9to5Mac",
+        "TechCrunch AI",
+        "The Verge AI",
+        "Tom's Hardware"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T10:00:00+00:00",
-      "last_seen": "2026-09-30T12:35:46+00:00",
+      "source_count": 5,
+      "first_seen": "2026-09-29T20:31:19+00:00",
+      "last_seen": "2026-09-30T16:24:23+00:00",
       "links": [
-        "https://www.tomshardware.com/pc-components/gpus/former-evga-employee-recounts-companys-degrading-relationship-with-nvidia-before-2022-blow-up-founders-editions-pricing-mandates-and-forward-looking-tech-all-led-to-friction",
-        "https://x.com/kimmonismus/status/2105275411802267960"
+        "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+        "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Former EVGA employee recounts company’s degrading relationship with Nvidia before 2022 blow-up. In a personal blog, former EVGA product manager Brendon Ray Hedrick shared how the first Nvidia Founders Edition GPUs alarmed the company and how pricing pressure and risky forward-looking tech ultimately led to the end of the two companies' storied partnership.",
-          "url": "https://www.tomshardware.com/pc-components/gpus/former-evga-employee-recounts-companys-degrading-relationship-with-nvidia-before-2022-blow-up-founders-editions-pricing-mandates-and-forward-looking-tech-all-led-to-friction",
-          "created_at": "2026-09-30T10:00:00+00:00",
+          "text": "The Sideload 046: Frictionmaxxing. Welcome to episode 46 of The Sideload, a 9to5Google podcast. This week, Will is joined by Allison Johnson to discuss her experience with Meta’s new agentic AI chatbot Muse, and whether agents are really prepared to save their users time. Plus some thoughts on the iPhone 18 Pro’s variable aperture, Allison’s hands-on impressions of the iPhone Duo, and much more. Sponsored by NordVPN : Listeners to The Sideload can save up to 76% on a two-year subscription alongside four extra months for absolutely free by signing up for NordVPN using this link . Thanks to NordVPN for sponsoring this week’s epis",
+          "url": "https://9to5google.com/2026/09/29/the-sideload-046-frictionmaxxing/",
+          "created_at": "2026-09-29T20:31:19+00:00",
           "engagement": 0
         },
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "OpenAI announced up to 300 tokens per second with Ultrafast. According to SemiAnalysis, it's running on NVIDIA GPUs. That's particularly interesting given its partnership with Cerebras specifically for ultra-low-latency inference. According to SemiAnalysis, OpenAI is using NVIDIA GPUs at a low batch size, prioritizing speed for individual requests.",
-          "url": "https://x.com/kimmonismus/status/2105275411802267960",
-          "created_at": "2026-09-30T12:35:46+00:00",
-          "engagement": 281
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+          "created_at": "2026-09-30T00:41:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data. Meta's Muse AI agent has been accused of ignoring user permissions and accessing forbidden personal user data on an iPhone and Mac, including iMessages.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
+          "created_at": "2026-09-30T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "created_at": "2026-09-30T15:18:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta disputes claim that Muse read a user’s private messages without permission. Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
+          "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+          "created_at": "2026-09-30T16:24:23+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c53d322d2",
-      "score": 8.859,
+      "cluster_id": "ce4aa8add",
+      "score": 10.417,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "xAI"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-29T22:20:59+00:00",
+      "last_seen": "2026-09-30T17:15:49+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch. Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+          "created_at": "2026-09-29T22:20:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
+          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+          "created_at": "2026-09-30T09:46:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence. President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
+          "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+          "created_at": "2026-09-30T12:51:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+          "created_at": "2026-09-30T17:15:49+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c921e542a",
+      "score": 10.109,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA Developer",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-29T18:35:00+00:00",
+      "last_seen": "2026-09-30T16:00:00+00:00",
+      "links": [
+        "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
+        "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents. OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
+          "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+          "created_at": "2026-09-29T18:35:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay. An agent can finish a task and still take an inefficient path. A failed search can trigger another search. A truncated file read can lead to a command fetching...",
+          "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
+          "created_at": "2026-09-30T16:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c23ec347a",
+      "score": 9.908,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
         "Hugging Face"
       ],
       "independent_sources": [
         "MIT Tech Review",
+        "The Decoder",
         "Wired AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-29T19:05:00+00:00",
-      "last_seen": "2026-09-30T12:10:00+00:00",
+      "last_seen": "2026-09-30T16:20:04+00:00",
       "links": [
+        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
         "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
         "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
         "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/"
@@ -425,131 +392,271 @@
           "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
           "created_at": "2026-09-30T12:10:00+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+          "created_at": "2026-09-30T16:20:04+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cf013329c",
-      "score": 8.711,
+      "cluster_id": "c0d9957a7",
+      "score": 9.367,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Apple"
+        "Google"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "Bloomberg Tech"
+        "9to5Google",
+        "The Decoder",
+        "The Verge AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T12:57:00+00:00",
-      "last_seen": "2026-09-30T13:35:16+00:00",
+      "source_count": 3,
+      "first_seen": "2026-09-30T10:17:15+00:00",
+      "last_seen": "2026-09-30T16:00:00+00:00",
       "links": [
-        "https://9to5mac.com/2026/09/30/doordash-now-lets-you-order-by-text-in-apple-messages/",
-        "https://www.bloomberg.com/news/articles/2026-09-30/doordash-unveils-text-to-order-ai-agent-that-works-with-apple-s-imessage"
+        "https://9to5google.com/2026/09/30/gemini-skills-free/",
+        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+        "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "DoorDash Unveils Text-to-Order AI Agent That Works With Apple's iMessage. DoorDash Inc. unveiled an artificial intelligence agent for ordering food that works inside Apple Inc.'s Messages app, stepping up efforts to integrate personal AI assistants ahead of its e-commerce rivals.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/doordash-unveils-text-to-order-ai-agent-that-works-with-apple-s-imessage",
-          "created_at": "2026-09-30T12:57:00+00:00",
+          "text": "Google is paying almost no publishers almost nothing for content used in AI answers. Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don't know how Google calculates payments, while some larger publishers are holding out for higher rates. The article Google is paying almost no publishers almost nothing for content used in AI answers appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+          "created_at": "2026-09-30T10:17:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google reportedly tests paying publishers for AI search results. Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes around 100 publishers and comes as Google faces scrutiny over the impact of its AI features on web traffic. Digiday first reported on the pilot program, [&#8230;]",
+          "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+          "created_at": "2026-09-30T14:51:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google details Gems to skills migration, including free access. As we spotted over the weekend , Gemini is replacing Gems with skills, and Google today fully detailed the migration. more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-skills-free/",
+          "created_at": "2026-09-30T16:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c79f11f7f",
+      "score": 8.688,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-29T22:20:28+00:00",
+      "last_seen": "2026-09-30T17:27:37+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+        "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Quoting Anthropic Frontier Red Team. We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. &mdash; Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
+          "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+          "created_at": "2026-09-29T22:20:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Top AI tech executives promise to ‘self-police’ AI development. The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
+          "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
+          "created_at": "2026-09-30T17:27:37+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c8936a302",
+      "score": 7.893,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google",
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "9to5Mac"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-29T19:05:02+00:00",
+      "last_seen": "2026-09-30T15:39:40+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/30/deals-new-fire-tv-stick-4k-50-off-galaxy-s26-ultra/",
+        "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
+        "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Early fall Prime Day deals now live: MacBook, AirTag 2, MagSafe gear, TVs, smart speakers, more. Amazon’s early fall Prime Day sale is in full swing with thousands of price drops already up for grabs. While there will be plenty more Apple gear dropping in price come next week, we are already seeing AirTag 2 at the lowest price yet, $500 off this M5 Pro MacBook Pro, up to $150 off MacBook Air models, and discounts on some of Apple’s latest releases. All of those, of course, join up to $1,200 off smart TVs, loads of MagSafe chargers, and power banks, as much as 50% off Amazon’s smart speakers and displays, smart home upgrades, and more. Head below for a closer look and be sure to check back",
+          "url": "https://9to5mac.com/2026/09/29/early-fall-prime-day-deals-now-live/",
+          "created_at": "2026-09-29T19:05:02+00:00",
           "engagement": 0
         },
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "DoorDash now lets you order by text in Apple Messages. DoorDash today launched a new way to order your next meal: via text in Apple’s Messages app, powered by AI. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/30/doordash-now-lets-you-order-by-text-in-apple-messages/",
-          "created_at": "2026-09-30T13:35:16+00:00",
+          "text": "The clever way Apple embedded Face ID beneath the iPhone 18 Pro screen. In the iPhone 18 Pro , Apple has taken one of the next steps toward its long-term vision of the iPhone as a single slab of glass: embedding the Face ID module beneath the display. Achieving this without having the Face ID array be visible through the display and without compromising the quality of this section of the screen required some clever engineering … more…",
+          "url": "https://9to5mac.com/2026/09/30/the-clever-way-apple-embedded-face-id-beneath-the-iphone-18-pro-screen/",
+          "created_at": "2026-09-30T12:35:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: All-new Fire TV Stick 4K 50% off, Galaxy S26 Ultra $335 off, NXTPAPER Android tabs, MotoTag 2, more. Alongside the early fall Amazon Prime Day sale and the ongoing Moto Tag 2 Android Find Hub trackers from $17.50 each – single for $20, your 9to5Toys Lunch Break is headlined by Amazon’s brand new Fire TV Stick 4K launching today at 50% off (TCL NXTPAPER Android tablets up to $130 off , HP’s 2K OLED Snapdragon X Copilot+ PC at $150 off , this Made for Google Pixel Watch portable magnetic charging dock down at $25 , and loads more down below. more…",
+          "url": "https://9to5google.com/2026/09/30/deals-new-fire-tv-stick-4k-50-off-galaxy-s26-ultra/",
+          "created_at": "2026-09-30T15:39:40+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c2a1511a2",
-      "score": 6.455,
-      "interest": "want",
+      "cluster_id": "c7c36b24f",
+      "score": 6.426,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
+      "suggested_section": "products",
+      "entities": [],
       "independent_sources": [
-        "TechCrunch AI",
-        "The Decoder"
+        "Bloomberg Tech",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T17:14:27+00:00",
-      "last_seen": "2026-09-29T19:24:12+00:00",
+      "first_seen": "2026-09-29T21:49:09+00:00",
+      "last_seen": "2026-09-30T16:54:44+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-        "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
-        "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/"
+        "https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users",
+        "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "GPT-6.1 Sol comes close to Astra at a fifth of the price. OpenAI's new GPT-6.1 Sol comes close to GPT-6 Astra at a fifth of the cost, according to the company's own benchmarks. The planned flagship, GPT-6.1 Astra, is staying under wraps for now. Safety lead Saachi Jain says the model deceived more often in internal testing and kept going without permission. The article GPT-6.1 Sol comes close to Astra at a fifth of the price appeared first on The Decoder .",
-          "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
-          "created_at": "2026-09-29T17:14:27+00:00",
+          "text": "Elon Musk&#8217;s AI-powered Grokipedia is updating again. Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause. In August, Lawfare reported that articles on Grokipedia hadn't reviewed edits since April, but the platform's live updates site is now showing various recent changes to pages - though as I write this, many are just a [&#8230;]",
+          "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+          "created_at": "2026-09-29T21:49:09+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less. OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
-          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-          "created_at": "2026-09-29T17:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor. GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The article UK AI Security Institute finds GPT-6 Astra&#039;s rogue attack rate jumped fivefold over its predecessor appeared first on The Decoder .",
-          "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-          "created_at": "2026-09-29T19:24:12+00:00",
+          "text": "Musk’s SpaceXAI Considers Overhaul of Pricing for Grok, X Users. SpaceXAI, the artificial intelligence unit of Elon Musk’s SpaceX, is considering an overhaul of its subscription pricing options for users of its Grok chatbot and X social network.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users",
+          "created_at": "2026-09-30T16:54:44+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c987828bd",
-      "score": 6.455,
-      "interest": "want",
+      "cluster_id": "cd4425620",
+      "score": 5.529,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "OpenAI"
+        "Meta"
       ],
       "independent_sources": [
-        "TechCrunch AI",
-        "The Decoder"
+        "Engadget",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-29T17:14:41+00:00",
-      "last_seen": "2026-09-29T17:15:00+00:00",
+      "first_seen": "2026-09-30T14:30:00+00:00",
+      "last_seen": "2026-09-30T14:30:00+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-        "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/"
+        "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
+        "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast. At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eight times the speed at six times the price. The article OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-          "created_at": "2026-09-29T17:14:41+00:00",
+          "text": "Instagram is adding an AI ‘assistant’ to tell you how to post. Instagram is the latest social media platform to add built-in AI-powered features that will give users feedback on their posts. The company announced Wednesday that its standalone Edits app will now include an AI \"creative assistant\" that pulls in data from a user's Instagram account and offers suggestions on what to change. Using the new [&#8230;]",
+          "url": "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+          "created_at": "2026-09-30T14:30:00+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "Engadget",
           "tier": "press",
-          "text": "OpenAI gives Codex reusable cloud environments that work across devices. OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
-          "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-          "created_at": "2026-09-29T17:15:00+00:00",
+          "text": "Meta introduces a new AI assistant for its Instagram creators. The Edits assistant offers personalized guidance based on your audience and best-performing content.",
+          "url": "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
+          "created_at": "2026-09-30T14:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca9dc581c",
+      "score": 2.861,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "AMD"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-29T21:14:49+00:00",
+      "last_seen": "2026-09-30T09:30:00+00:00",
+      "links": [
+        "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house"
+      ],
+      "posts": [
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "AMD acquires World Labs AI startup, upping the ante against Nvidia. The deal, which is expected to close by year's end, is worth $8.2 billion.",
+          "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+          "created_at": "2026-09-29T21:14:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion. AMD has agreed agreed to buy generative AI world model developer World Labs for $8.2 billion in stock. Legendary CEO and co-founder Fei-Fei Li will join the company as an executive vice president and chief scientist.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house",
+          "created_at": "2026-09-30T09:30:00+00:00",
           "engagement": 0
         }
       ]
