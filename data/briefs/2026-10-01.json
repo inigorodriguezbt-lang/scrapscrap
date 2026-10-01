@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-10-01T00:04:04.065422+00:00",
+  "edition_date": "2026-10-01",
+  "source_file": "/home/user/scrapscrap/data/raw",
+  "posts_considered": 110,
+  "clusters_found": 73,
+  "stories_declared": 9,
+  "front_page_slots": 7,
+  "stories": [
+    {
+      "cluster_id": "ccfd45df6",
+      "score": 13.091,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Hugging Face",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Ars Technica AI",
+        "TechCrunch AI",
+        "The Decoder"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-30T01:13:12+00:00",
+      "last_seen": "2026-09-30T23:43:07+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+        "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+        "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore. Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+          "created_at": "2026-09-30T01:13:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Amazon Bedrock expands Claude model availability to in-country inferencing in India. Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+          "created_at": "2026-09-30T01:13:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic says Zhipu's open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits. Zhipu's open-weight model GLM-5.3 writes cyber exploits nearly as well as Claude Mythos Preview, according to Anthropic. Its smaller Flash variant put together a reliable Chrome attack for just $20.40 at Zhipu's API prices. The model's safeguards are easy to strip out, and unlocked versions are already circulating. Anthropic has its own reasons to sound the alarm, but the US agency CAISI backs up the findings. The article Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+          "created_at": "2026-09-30T11:05:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances. Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+          "created_at": "2026-09-30T15:21:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Query claims in natural language with Amazon Bedrock Knowledge Bases. This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
+          "created_at": "2026-09-30T15:37:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+          "created_at": "2026-09-30T16:20:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+          "created_at": "2026-09-30T18:16:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+          "created_at": "2026-09-30T18:25:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead. Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later. The article Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+          "created_at": "2026-09-30T22:06:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "created_at": "2026-09-30T23:43:07+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ccf41f249",
+      "score": 9.952,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-30T00:41:46+00:00",
+      "last_seen": "2026-09-30T19:30:00+00:00",
+      "links": [
+        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
+          "created_at": "2026-09-30T00:41:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "created_at": "2026-09-30T15:18:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
+          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+          "created_at": "2026-09-30T19:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce7185406",
+      "score": 9.509,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
+        "Bloomberg Tech",
+        "DeepMind"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-30T19:52:42+00:00",
+      "last_seen": "2026-09-30T20:11:08+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Google Grapples With Employee Skepticism About New Gemini 4. Alphabet Inc.’s Google has begun rolling out Gemini 4 Argon, its long-awaited flagship artificial intelligence model, but the company is grappling with internal skepticism over how well it performs in key areas, such as coding.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model",
+          "created_at": "2026-09-30T19:52:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "created_at": "2026-09-30T20:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "created_at": "2026-09-30T20:01:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "created_at": "2026-09-30T20:11:08+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2299fcb5",
+      "score": 8.456,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T05:53:10+00:00",
+      "last_seen": "2026-09-30T22:23:40+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+        "https://www.latent.space/p/devday-2026"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
+          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+          "created_at": "2026-09-30T05:53:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+          "created_at": "2026-09-30T19:00:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week. Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
+          "url": "https://www.latent.space/p/devday-2026",
+          "created_at": "2026-09-30T22:23:40+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd1b0253d",
+      "score": 8.249,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "Ars Technica AI",
+        "The Decoder",
+        "The Verge AI",
+        "Tom's Hardware",
+        "Wired AI"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-09-30T09:46:10+00:00",
+      "last_seen": "2026-09-30T20:30:09+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+        "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
+          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+          "created_at": "2026-09-30T09:46:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence. President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
+          "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+          "created_at": "2026-09-30T12:51:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+          "created_at": "2026-09-30T17:15:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+          "created_at": "2026-09-30T18:47:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear. Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
+          "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+          "created_at": "2026-09-30T20:30:09+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c84e8f7f5",
+      "score": 7.349,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T14:00:00+00:00",
+      "last_seen": "2026-09-30T16:24:23+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data. Meta's Muse AI agent has been accused of ignoring user permissions and accessing forbidden personal user data on an iPhone and Mac, including iMessages.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
+          "created_at": "2026-09-30T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta disputes claim that Muse read a user’s private messages without permission. Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
+          "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+          "created_at": "2026-09-30T16:24:23+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c43ae3ed8",
+      "score": 5.531,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T10:17:15+00:00",
+      "last_seen": "2026-09-30T20:30:00+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
+        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google is paying almost no publishers almost nothing for content used in AI answers. Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don't know how Google calculates payments, while some larger publishers are holding out for higher rates. The article Google is paying almost no publishers almost nothing for content used in AI answers appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+          "created_at": "2026-09-30T10:17:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Here’s how much Google is testing paying web publishers for AI Overview usage. A new report details how Google is testing paying web publishers for content used in its AI Overviews, including how much they’re making and how much that varies. more…",
+          "url": "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
+          "created_at": "2026-09-30T20:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc2d322d5",
+      "score": 5.024,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "The Verge AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T12:24:32+00:00",
+      "last_seen": "2026-09-30T17:27:37+00:00",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+        "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Here’s how tech leaders will self-police AI safety under Trump’s deal. We now have the full details of the \"morally binding\" AI safety deal announced by President Trump yesterday, in which top executives agreed to self-regulate their artificial intelligence technology. The accord, officially titled the Joint Commitment on Frontier Responsibilities, was shared online by tech founder and presidential adviser David Sacks, and has been signed by [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+          "created_at": "2026-09-30T12:24:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Top AI tech executives promise to ‘self-police’ AI development. The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
+          "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
+          "created_at": "2026-09-30T17:27:37+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd4425620",
+      "score": 4.531,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T14:30:00+00:00",
+      "last_seen": "2026-09-30T14:30:00+00:00",
+      "links": [
+        "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
+        "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Instagram is adding an AI ‘assistant’ to tell you how to post. Instagram is the latest social media platform to add built-in AI-powered features that will give users feedback on their posts. The company announced Wednesday that its standalone Edits app will now include an AI \"creative assistant\" that pulls in data from a user's Instagram account and offers suggestions on what to change. Using the new [&#8230;]",
+          "url": "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+          "created_at": "2026-09-30T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Meta introduces a new AI assistant for its Instagram creators. The Edits assistant offers personalized guidance based on your audience and best-performing content.",
+          "url": "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
+          "created_at": "2026-09-30T14:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    }
+  ]
+}
