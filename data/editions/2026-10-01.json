@@ -30,6 +30,160 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-tavus-griffin",
+   "section": "generative-media",
+   "headline": "Tavus says its Griffin video model passed for human 48% of the time",
+   "standfirst": "Tavus says 48% of study participants took its Griffin model for a real person after a one-minute video call, against 2% for earlier AI systems.",
+   "entities": [
+    "Tavus",
+    "Griffin",
+    "Nvidia"
+   ],
+   "body": [
+    "Tavus, a San Francisco company founded in 2020, has introduced Griffin, which it calls its first \"Human Interaction Model\". The system holds real-time video calls and processes speech, facial expressions, tone of voice, gestures and pauses. The Decoder reported the launch on Thursday, citing Tavus's own research report.",
+    "In a Tavus study, 48 percent of participants believed Griffin was a real person after a one-minute call, according to The Decoder. The company says earlier AI systems reached 2 percent on the same measure. TestingCatalog, citing Tavus, put the figure at 45 percent of 120 participants, so the exact number differs between the two accounts.",
+    "Tavus also cites an Nvidia benchmark. On Nvidia's Video Full-Duplex Benchmark, TestingCatalog reports, Griffin Lite scored 3.83 out of 5 against 3.92 for real humans. The Decoder says the best earlier AI scored 2.80. Tavus describes the Nvidia test as independent. We have not seen Nvidia's own results.",
+    "Griffin is not generally available. Tavus is offering Griffin Lite to select testers as a research preview, The Decoder reports. A more capable version will wait until what the company calls safety concerns are addressed. Tavus suggests uses such as tutoring, practising difficult conversations and camera-based tech support.",
+    "TestingCatalog says Griffin learns conversational behaviour from people and can interrupt mid-sentence or respond when someone enters the frame. These are Tavus's claims, drawn from its own study. Nobody outside the company has said they tested the model, and the Turing-test framing rests on a one-minute call."
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2105726673857454448"
+    },
+    {
+     "author": "mark_k",
+     "url": "https://x.com/mark_k/status/2105718951778955317"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/mark_k/status/2105718951778955317",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-decision-models-perplexity-aws",
+   "section": "open-models",
+   "headline": "Perplexity and AWS both open-source small decision models in one day",
+   "standfirst": "Perplexity released its OneJev decision models under Apache 2.0, and Amazon's Strands Labs shipped a 2-billion-parameter rival, both claiming speed and low price.",
+   "entities": [
+    "Perplexity",
+    "Amazon Web Services",
+    "Strands Labs",
+    "Alibaba"
+   ],
+   "body": [
+    "Perplexity chief executive Aravind Srinivas said on X the company is open-sourcing its multimodal Decision model and offering it through a Decisions API. He claimed it scores higher than Jev at a fraction of the price, at 4 cents per million input tokens. The post does not say which benchmark he means.",
+    "The OpenDecisions repository on GitHub describes open models and one server for the Decisions API. Its default model, OneJev, answers every question in a request in one forward pass and generates no text. The README lists sizes from 0.8 billion to 27 billion parameters. Code and weights are under Apache 2.0.",
+    "The README says OneJev-4B answers ten questions about one screenshot in 104 milliseconds on a single H200 GPU. That is the maintainers' figure. When we opened the repository it showed no stars, no forks and one commit, so there is no outside testing or community traction to report yet.",
+    "Separately, VentureBeat reported that Strands Labs, an experimental AWS agent project, released Strands Decider 2B on Thursday. It is fine-tuned from Alibaba's Qwen3.5-2B and is free on Hugging Face under Apache 2.0. VentureBeat says it ran at a median 106 milliseconds on an Nvidia RTX 3090.",
+    "VentureBeat reports accuracy of about 72 percent on the public JevBench and says the model ranks second among public models its size. Those are Strands Labs claims. They arrive after Cloudflare and Ollama released similar models this week, which suggests small decision models are becoming a crowded category."
+   ],
+   "sources": [
+    {
+     "author": "Aravind Srinivas",
+     "url": "https://x.com/AravSrinivas/status/2105726953554927677"
+    },
+    {
+     "author": "OpenDecisions on GitHub",
+     "url": "https://github.com/OpenDecisions/OpenDecisions"
+    },
+    {
+     "author": "VentureBeat",
+     "url": "https://venturebeat.com/technology/amazon-unveils-a-free-fast-open-source-jev-killer-strands-decider-2b-makes-decisions-in-fractions-of-a-second"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AravSrinivas/status/2105726953554927677",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-bootloops-schwartz",
+   "section": "research",
+   "headline": "Physicist releases BootLoops, an open toolkit for exact LLM calculations",
+   "standfirst": "Harvard's Matthew Schwartz says BootLoops, a free harness for any language model, helped finish 30 Feynman integrals, 15 of them calculations not previously completed.",
+   "entities": [
+    "Matthew Schwartz",
+    "BootLoops",
+    "Anthropic",
+    "Harvard"
+   ],
+   "body": [
+    "Matthew Schwartz, a Harvard physicist, published BootLoops on Thursday, a toolkit for exact calculations in quantitative science. Anthropic ran his account on its Science Blog. Schwartz owns and maintains the project, not Anthropic, though he was a visiting researcher there while building it. The code is open source on GitHub and works with any language model.",
+    "Schwartz argues there is an \"impedance mismatch\" between LLMs and science. In his words, \"Claude and GPT are good at science, but they are not scientists.\" Treating a model as a human collaborator is not the best way to draw out its strengths. BootLoops instead works as a harness around the model.",
+    "His post reports 30 elliptic Feynman integrals completed with the workflow. Fifteen reproduced known results, and he says the other 15 had not previously been calculated. Schwartz says the project covered 36 manuscripts in 18 fields with 19 coauthors over three months. These figures come from Schwartz. We have not checked the physics.",
+    "The post says similar calculations recur in distant fields, and that Claude found links to ecology and population genetics. It cites an analysis of 5.7 billion pairs of mutations from the 1000 Genomes Project, and 4,452 economics papers ported to open code. About 400 candidate problems were explored in total.",
+    "No independent review of the results has been published that we found. Schwartz's own account describes the claims as his and his collaborators', and the post makes no suggestion that models can do original science unaided. The repository and a project site at bootloops.ai are open for anyone to try."
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/research/claude-shaped-science"
+    },
+    {
+     "author": "BootLoops on GitHub",
+     "url": "https://github.com/BootLoops-ai/bootloops"
+    },
+    {
+     "author": "Anthropic on X",
+     "url": "https://x.com/AnthropicAI/status/2105733864152858919"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AnthropicAI/status/2105733864152858919",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-microsoft-mai-voice-2",
+   "section": "models",
+   "headline": "Microsoft adds streaming transcription and two voice models to its MAI line",
+   "standfirst": "Microsoft AI says MAI-Transcribe-2-Streaming handles 60 languages with words appearing in as little as 320 milliseconds, at $0.54 per audio hour.",
+   "entities": [
+    "Microsoft AI",
+    "MAI-Transcribe-2-Streaming",
+    "MAI-Voice-2.1",
+    "Artificial Analysis"
+   ],
+   "body": [
+    "Microsoft AI announced three models on Thursday: MAI-Transcribe-2-Streaming, MAI-Voice-2.1 and MAI-Voice-2.1-Flash. According to the announcement as relayed by Runtime Wire, the streaming transcriber takes continuous audio over a WebSocket and sends incremental updates before it confirms a final segment.",
+    "Microsoft says first transcript hypotheses arrive within the low hundreds of milliseconds, with words appearing as early as 320 milliseconds in most cases. The model supports 60 languages and detects the language automatically, so a session that switches mid-stream need not declare it up front. Streaming transcription costs $0.54 per audio hour.",
+    "Runtime Wire's report lists the voice models at $22 per million characters for MAI-Voice-2.1 and $15 per million for the Flash version. Microsoft positions the standard model as higher-fidelity and more expressive. It says Flash favours responsiveness and cost for interactive uses. Both cover 23 languages, across 26 locales for the standard model.",
+    "Secondary coverage says Microsoft's transcriber ranks first of 38 models on Artificial Analysis's streaming word-error-rate benchmark, at 2.5 percent. We have not opened that leaderboard, so the ranking is unconfirmed here, and the framing is Microsoft's.",
+    "The models follow Microsoft's April launch of MAI-Transcribe-1 and MAI-Voice-1, when its AI chief Mustafa Suleyman said Microsoft was pricing them to be the cheapest of any hyperscaler. No independent tests of the new models have been published that we found."
+   ],
+   "sources": [
+    {
+     "author": "Runtime Wire",
+     "url": "https://runtimewire.com/article/microsoft-mai-streaming-transcription-voice-models"
+    },
+    {
+     "author": "Microsoft AI on X",
+     "url": "https://x.com/MicrosoftAI/status/2105693024013467905"
+    },
+    {
+     "author": "VentureBeat",
+     "url": "https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-trump-time-ai-stakes",
    "section": "policy",
    "headline": "Trump tells TIME the US might take stakes in OpenAI, Anthropic",
@@ -155,7 +309,7 @@
      "url": "https://x.com/AndrewCurran_/status/2105712858101436692"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-sony-qssr-ps5",
@@ -181,7 +335,7 @@
      "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-comfy-agent-cloud",
@@ -216,7 +370,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-muse-5m-downloads-dots",
@@ -265,7 +419,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-cloudflare-clef",

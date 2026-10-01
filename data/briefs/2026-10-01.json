@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-01T18:03:06.411762+00:00",
+  "generated_at": "2026-10-01T20:03:43.737751+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 122,
-  "clusters_found": 92,
-  "stories_declared": 6,
+  "posts_considered": 118,
+  "clusters_found": 90,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ce1193c55",
-      "score": 15.468,
+      "cluster_id": "ce62c090c",
+      "score": 14.084,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
@@ -22,30 +22,40 @@
       ],
       "independent_sources": [
         "AWS ML",
+        "Ars Technica AI",
+        "Bloomberg Tech",
+        "Engadget",
         "Latent Space",
+        "TechCrunch AI",
         "The Decoder",
-        "Tom's Hardware",
-        "arena"
+        "Tom's Hardware"
       ],
-      "source_count": 5,
-      "first_seen": "2026-09-30T18:16:04+00:00",
-      "last_seen": "2026-10-01T16:51:02+00:00",
+      "source_count": 8,
+      "first_seen": "2026-09-30T20:11:08+00:00",
+      "last_seen": "2026-10-01T17:49:16+00:00",
       "links": [
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
         "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
         "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
-        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
         "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+        "https://www.bloomberg.com/news/videos/2026-10-01/bloomberg-tech-10-01-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-10-01/how-vermillio-tackles-ai-s-creator-rights-challenge-video",
+        "https://www.bloomberg.com/news/videos/2026-10-01/luma-ai-bets-on-hybrid-future-for-hollywood-video",
+        "https://www.bloomberg.com/news/videos/2026-10-01/open-interest-10-1-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-10-01/promise-ceo-ai-lets-smaller-teams-make-bigger-films-video",
+        "https://www.bloomberg.com/news/videos/2026-10-01/suno-ceo-ai-could-reinvent-how-we-experience-music-video",
+        "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
         "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline",
-        "https://x.com/arena/status/2105702037849841954"
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-          "created_at": "2026-09-30T18:16:04+00:00",
+          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "created_at": "2026-09-30T20:11:08+00:00",
           "engagement": 0
         },
         {
@@ -57,11 +67,27 @@
           "engagement": 0
         },
         {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "created_at": "2026-09-30T23:43:07+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Latent Space",
           "tier": "commentary",
           "text": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output. ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
           "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
           "created_at": "2026-10-01T06:45:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's first Gemini 4 model is 'Argon'. Google trained Gemini 4 Argon to be highly capable in knowledge work, cybersecurity defense and creative writing.",
+          "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
+          "created_at": "2026-10-01T09:26:30+00:00",
           "engagement": 0
         },
         {
@@ -89,87 +115,251 @@
           "engagement": 0
         },
         {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "Exciting update: Claude Sonnet 5.5 with xHigh reasoning has landed in the Code Arena: WebDev. With 1786 pts, its ranked #3!\n\nAt a blended $8/M tokens, Claude Sonnet 5.5 remains on the Pareto frontier with xHigh reasoning. This release is just 2 pts from GPT-6 Astra in the #2 spot with 1788 pts, for 80% of the price.\n\nCongrats again to @AnthropicAI on this release!",
-          "url": "https://x.com/arena/status/2105702037849841954",
-          "created_at": "2026-10-01T16:51:02+00:00",
-          "engagement": 199
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Markets Face Rising Yields, AI Risks. Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" A new quarter begins with stocks battling a relentless rise in yields. Micron fuels the AI trade, Google rolls out Gemini 4 Argon, and Netflix plots its next act. Plus, Citi’s Kate Moore on why she's betting on stocks, Carlyle’s Mark Jenkins joins us to talk about hidden AI credit risks, and Aston Martin CEO Adrian Hallmark unveils the company's newest luxury SUV as it embarks on the road to a turnaround. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/open-interest-10-1-2026-video",
+          "created_at": "2026-10-01T16:49:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Suno CEO: AI Could Reinvent How We Experience Music. Suno CEO and Co-Founder Mikey Shulman says AI could transform music from a largely passive experience into one where listeners actively create, remix and collaborate with their favorite artists. With more than 100 million users and partnerships across the music industry, Shulman discusses Suno’s in-house AI models, opportunities around licensing artists’ voices and music, and why he believes AI can expand the music business. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/suno-ceo-ai-could-reinvent-how-we-experience-music-video",
+          "created_at": "2026-10-01T17:20:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Bloomberg Tech Screentime Special. Bloomberg’s Ed Ludlow is live in LA for Bloomberg Screentime 2026, speaking with tech leaders and media entrepreneurs. Suno CEO Mikey Shulman discusses how AI is expanding — rather than simply disrupting — the music industry, Promise CEO George Strompolos and Luma AI COO Caroline Ingeborn talk about AI's growing role in filmmaking, and Vermillio CEO Dan Neely dives into the debate around AI and creators' rights. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/bloomberg-tech-10-01-2026-video",
+          "created_at": "2026-10-01T17:27:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Promise CEO: AI Lets Smaller Teams Make Bigger Films. Promise CEO and Co-Founder George Strompolos is building what he calls an AI-native entertainment studio, using generative AI across development, production and visual effects. He says the technology can cut costs by more than 50% on some animated projects and allow smaller teams to create productions with far greater scale. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/promise-ceo-ai-lets-smaller-teams-make-bigger-films-video",
+          "created_at": "2026-10-01T17:36:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Luma AI Bets on ‘Hybrid’ Future for Hollywood. Luma AI COO Caroline Ingeborn says generative AI could help bring more film and television production back to Los Angeles by lowering costs and giving creators new ways to execute ambitious projects. She discusses why she sees AI as a tool for creative professionals rather than a replacement for them and how “hybrid filmmaking” can combine real actors and crews with AI-generated environments. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/luma-ai-bets-on-hybrid-future-for-hollywood-video",
+          "created_at": "2026-10-01T17:46:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "How Vermillio Tackles AI's Creator Rights Challenge. As AI reshapes the entertainment industry, who controls and gets paid for the use of a creator's work and likeness? Vermillio is tackling that question with technology designed to track and license AI-generated content. Vermillio Co-Founder and CEO Dan Neely joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/how-vermillio-tackles-ai-s-creator-rights-challenge-video",
+          "created_at": "2026-10-01T17:49:16+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cb1aef2fb",
-      "score": 11.515,
+      "cluster_id": "ceb84d2cf",
+      "score": 10.478,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Google"
+        "Nvidia"
       ],
       "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "DeepMind",
-        "Engadget",
-        "TechCrunch AI"
+        "The Decoder",
+        "testingcatalog"
       ],
-      "source_count": 5,
-      "first_seen": "2026-09-30T20:00:00+00:00",
-      "last_seen": "2026-10-01T09:26:30+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-01T18:03:40+00:00",
+      "last_seen": "2026-10-01T18:28:56+00:00",
       "links": [
-        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-        "https://www.engadget.com/2274263/google-gemini-4-model-argon/"
+        "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+        "https://x.com/testingcatalog/status/2105726673857454448"
       ],
       "posts": [
         {
-          "author": "9to5Google",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
-          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-          "created_at": "2026-09-30T20:00:00+00:00",
+          "text": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call. Tavus has introduced Griffin, what the company calls the first \"Human Interaction Model.\" The AI holds video calls in real time, processing facial expressions, tone of voice, and gestures. In a Tavus study, 48 percent of participants believed Griffin was a real person after a one-minute call. Previous systems maxed out at two percent. The article Nearly half of test subjects mistook Tavus&#039; AI video avatar for a real person on a one-minute call appeared first on The Decoder .",
+          "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+          "created_at": "2026-10-01T18:03:40+00:00",
           "engagement": 0
         },
         {
-          "author": "DeepMind",
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Tavus has introduced Griffin, a research preview of its newest video-to-video model for real-time face-to-face conversations. Griffin is designed to learn conversational behavior from people. Tavus says Griffin is the first model to pass the Turing test, with 45% of 120 study participants taking its conversation as real. On NVIDIA's Video Full-Duplex Benchmark, Griffin Lite ranks first among every model evaluated, at 3.83 out of 5 against 3.92 for real humans.",
+          "url": "https://x.com/testingcatalog/status/2105726673857454448",
+          "created_at": "2026-10-01T18:28:56+00:00",
+          "engagement": 33
+        }
+      ]
+    },
+    {
+      "cluster_id": "c42171c08",
+      "score": 9.984,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "NVIDIA Developer"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T17:34:56+00:00",
+      "last_seen": "2026-10-01T18:13:29+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+        "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
           "tier": "primary",
-          "text": "Gemini 4 Argon: our next era of frontier intelligence",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "created_at": "2026-09-30T20:01:45+00:00",
+          "text": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors. Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+          "created_at": "2026-10-01T17:34:56+00:00",
           "engagement": 0
         },
         {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
-          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-          "created_at": "2026-09-30T20:11:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "created_at": "2026-09-30T23:43:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's first Gemini 4 model is 'Argon'. Google trained Gemini 4 Argon to be highly capable in knowledge work, cybersecurity defense and creative writing.",
-          "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
-          "created_at": "2026-10-01T09:26:30+00:00",
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills. AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as...",
+          "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
+          "created_at": "2026-10-01T18:13:29+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c8ace0faf",
-      "score": 9.418,
+      "cluster_id": "c21c62293",
+      "score": 9.188,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [],
+      "independent_sources": [
+        "mark_k",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T18:24:57+00:00",
+      "last_seen": "2026-10-01T18:36:48+00:00",
+      "links": [
+        "https://x.com/mark_k/status/2105725672089854306",
+        "https://x.com/testingcatalog/status/2105728653091029101"
+      ],
+      "posts": [
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Grok 4.7 is finally available in the Grok app! Previously, Grok 4.7 was only available in Grok Build and Grok Bot. Now, it can be used for chatting and research too.",
+          "url": "https://x.com/mark_k/status/2105725672089854306",
+          "created_at": "2026-10-01T18:24:57+00:00",
+          "engagement": 299
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "SPACEXAI: Grok 4.7 is rolling out on Grok web and mobile apps! It is now a base model across all modes, including Fast, Expert, Build, and Heavy.",
+          "url": "https://x.com/testingcatalog/status/2105728653091029101",
+          "created_at": "2026-10-01T18:36:48+00:00",
+          "engagement": 127
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6a90909e",
+      "score": 8.45,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "mark_k"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T18:14:42+00:00",
+      "last_seen": "2026-10-01T19:19:47+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+        "https://x.com/mark_k/status/2105739469899088139"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI cuts ties with 3 safety researchers, WSJ reports. OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+          "created_at": "2026-10-01T18:14:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "OpenAI fired a bunch of AI safety people today. According to the WSJ, three researchers on its safety team allegedly shared confidential company information with an outside AI safety organization. OpenAI says an internal investigation confirmed they mishandled sensitive information and violated company policies.",
+          "url": "https://x.com/mark_k/status/2105739469899088139",
+          "created_at": "2026-10-01T19:19:47+00:00",
+          "engagement": 58
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9fc56c0d",
+      "score": 8.254,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "fal",
+        "replicate"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T19:20:11+00:00",
+      "last_seen": "2026-10-01T19:43:42+00:00",
+      "links": [
+        "https://x.com/fal/status/2105745492474802514",
+        "https://x.com/replicate/status/2105739570520223949"
+      ],
+      "posts": [
+        {
+          "author": "replicate",
+          "tier": "commentary",
+          "text": "FLUX 3 Image is here. The latest from @bfl_ai, generate stunning native 4K imagery, and get maximum control over every pixel. Construct images with hyper-specific layouts using bounding boxes, make multiple targeted edits at once, and stay consistent across edits. For its first week, it's 50% off.",
+          "url": "https://x.com/replicate/status/2105739570520223949",
+          "created_at": "2026-10-01T19:20:11+00:00",
+          "engagement": 27
+        },
+        {
+          "author": "fal",
+          "tier": "commentary",
+          "text": "FLUX 3 Image from @bfl_ai is now live on fal. Precise image editing that preserves what you don’t change. Generates images in native 2K and 4K; combines up to 10 reference images; makes multiple targeted edits in one pass; supports detailed control over layout and composition",
+          "url": "https://x.com/fal/status/2105745492474802514",
+          "created_at": "2026-10-01T19:43:42+00:00",
+          "engagement": 38,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0a1ece27",
+      "score": 8.047,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -180,26 +370,16 @@
       ],
       "independent_sources": [
         "Stratechery",
-        "The Verge AI",
-        "Wired AI"
+        "The Verge AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-09-30T19:30:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-01T10:00:00+00:00",
       "last_seen": "2026-10-01T14:36:50+00:00",
       "links": [
         "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
-        "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
+        "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
       ],
       "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
-          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-          "created_at": "2026-09-30T19:30:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "Stratechery",
           "tier": "commentary",
@@ -220,7 +400,7 @@
     },
     {
       "cluster_id": "c32f17587",
-      "score": 7.838,
+      "score": 7.503,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -256,47 +436,8 @@
       ]
     },
     {
-      "cluster_id": "cef171759",
-      "score": 6.29,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T19:00:57+00:00",
-      "last_seen": "2026-09-30T22:23:40+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-        "https://www.latent.space/p/devday-2026"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
-          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-          "created_at": "2026-09-30T19:00:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week. Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
-          "url": "https://www.latent.space/p/devday-2026",
-          "created_at": "2026-09-30T22:23:40+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cd3149cbb",
-      "score": 5.443,
+      "score": 5.108,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
