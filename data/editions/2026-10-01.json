@@ -30,6 +30,73 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-claude-code-mods",
+   "section": "products",
+   "headline": "Anthropic lets developers rewrite Claude Code with TypeScript mods",
+   "standfirst": "Anthropic says a mod, a short TypeScript function shipped inside a plugin, can rewrite prompts, block tool calls or draw new interface in Claude Code.",
+   "entities": [
+    "Anthropic",
+    "Claude Code"
+   ],
+   "body": [
+    "Anthropic released mods for Claude Code on 1 October. It calls them small TypeScript functions that can \"rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality.\" Mods are available now, the company said. They work in the command-line tool and the desktop app. TestingCatalog posted a demo clip and said the approach could reach most client-side software.",
+    "Anthropic's blog post says each action in Claude Code emits an event and a mod hooks into it. A mod can run before an event, after it or in place of it, and several mods stack in load order. Anthropic lists rewriting prompts, blocking or changing tool calls, redacting sensitive output and adding buttons among the things a mod could do.",
+    "Mods ship inside plugins and install through the Claude directory or the /plugin command, Anthropic said. It also said the built-in /diff feature now runs as a mod, so users can turn it off or replace it, and that more built-in features are planned to follow. A community repository by konsta95 already lists three mods, including a status line, though it showed no stars when we read it.",
+    "Anthropic's getting-started guide walks through Token Weather, an 80-line mod that shows context-window use above the prompt with weather icons. It also describes Blast Radius, which holds risky Bash calls and shows what they would change, and Replay Theater, which lets users step through a turn's file edits.",
+    "Anthropic warned that mods run with full machine access and are not sandboxed, so users should install them only from trusted sources. On Team and Enterprise plans a security mod called sec-default loads first to stop risky operations, the company said, and administrators can deploy their own mods and audit logging. No independent testing of the feature had been published when we checked."
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://claude.com/blog/claude-code-mods"
+    },
+    {
+     "author": "claude.dev",
+     "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2105752819441525182"
+    },
+    {
+     "author": "konsta95",
+     "url": "https://github.com/konsta95/ClaudeCodeMods"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2105752819441525182",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-chatgpt-virtual-try-on",
+   "section": "products",
+   "headline": "ChatGPT adds virtual try-on, built on its Images 2.5 model",
+   "standfirst": "OpenAI is rolling out a Try On button in ChatGPT shopping results that puts clothes on a user's own selfie or full-body photo, TechCrunch reported.",
+   "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "TechCrunch"
+   ],
+   "body": [
+    "OpenAI launched two shopping features in ChatGPT on 1 October: virtual try-on for clothing and accessories, and a Favorites list that saves products to a user's Library, TechCrunch reported. The outlet said the features arrive globally. OpenAI had not published its own announcement that we could find, so details here rest on TechCrunch's account.",
+    "Users upload a selfie or a full-body photo, then press a Try On button that appears in shopping results, according to TechCrunch. They can also upload a picture of an item and ask ChatGPT to show it on them. The report said the feature runs on a new model called ChatGPT Images 2.5, which OpenAI credits with better image quality.",
+    "Favorites keeps the saved products in the app next to the try-on images, TechCrunch said. Users can also describe a style and ask ChatGPT to shop for it, or upload a photo of a celebrity outfit and ask for items that can be bought. TechCrunch did not say which retailers feed the results.",
+    "TechCrunch framed the launch as a follow-up to OpenAI's instant checkout feature, which it described as unsuccessful, and noted that Google launched its own virtual try-on in 2025. We have not tested the feature and OpenAI's claims about image quality have not been checked independently."
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-tavus-griffin",
    "section": "generative-media",
    "headline": "Tavus says its Griffin video model passed for human 48% of the time",
@@ -245,7 +312,7 @@
      "url": "https://finance.yahoo.com/technology/article/broadcom-to-lend-anthropic-up-to-42-billion-in-deal-to-lease-chips-121617505.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-fires-safety-researchers",
@@ -280,7 +347,7 @@
      "url": "https://x.com/_NathanCalvin/status/2105703973453791519"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-california-ag-openai-subpoena",
