@@ -1,49 +1,67 @@
 {
-  "generated_at": "2026-10-01T08:03:12.861833+00:00",
+  "generated_at": "2026-10-01T10:03:11.476231+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
   "posts_considered": 140,
-  "clusters_found": 105,
-  "stories_declared": 10,
+  "clusters_found": 106,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cef110de2",
-      "score": 14.137,
+      "cluster_id": "c554401f0",
+      "score": 14.777,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Google"
+        "Google",
+        "Hugging Face"
       ],
       "independent_sources": [
-        "9to5Google",
+        "Ars Technica AI",
         "Latent Space",
-        "TechCrunch AI",
+        "MIT Tech Review",
         "The Decoder",
-        "teortaxesTex"
+        "testingcatalog"
       ],
       "source_count": 5,
-      "first_seen": "2026-09-30T10:17:15+00:00",
-      "last_seen": "2026-10-01T07:28:45+00:00",
+      "first_seen": "2026-09-30T10:40:30+00:00",
+      "last_seen": "2026-10-01T07:51:13+00:00",
       "links": [
-        "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
-        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
         "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
         "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
         "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-        "https://x.com/teortaxesTex/status/2105560533860774243"
+        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+        "https://x.com/testingcatalog/status/2105566186771546490"
       ],
       "posts": [
         {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+          "created_at": "2026-09-30T10:40:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "The Download: OpenAI’s chief research officer explains its hacking response. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+          "created_at": "2026-09-30T12:10:00+00:00",
+          "engagement": 0
+        },
+        {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Google is paying almost no publishers almost nothing for content used in AI answers. Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don't know how Google calculates payments, while some larger publishers are holding out for higher rates. The article Google is paying almost no publishers almost nothing for content used in AI answers appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-          "created_at": "2026-09-30T10:17:15+00:00",
+          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+          "created_at": "2026-09-30T16:20:04+00:00",
           "engagement": 0
         },
         {
@@ -55,11 +73,11 @@
           "engagement": 0
         },
         {
-          "author": "9to5Google",
+          "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Here’s how much Google is testing paying web publishers for AI Overview usage. A new report details how Google is testing paying web publishers for content used in its AI Overviews, including how much they’re making and how much that varies. more…",
-          "url": "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
-          "created_at": "2026-09-30T20:30:00+00:00",
+          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+          "created_at": "2026-09-30T18:25:04+00:00",
           "engagement": 0
         },
         {
@@ -71,14 +89,6 @@
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "created_at": "2026-09-30T23:43:07+00:00",
-          "engagement": 0
-        },
-        {
           "author": "Latent Space",
           "tier": "commentary",
           "text": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output. ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
@@ -87,96 +97,138 @@
           "engagement": 0
         },
         {
-          "author": "teortaxesTex",
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "Sol 6.1 is actually a very strong answer to Opus 5.5\nit's in some ways even superior to Astra, in what I've seen",
-          "url": "https://x.com/teortaxesTex/status/2105560533860774243",
-          "created_at": "2026-10-01T07:28:45+00:00",
-          "engagement": 36
+          "text": "DAILY AI BRIEF Oct 1 GOOGLE: Gemini 4 Argon is with Fairwind trusted testers and the US government. 1M output tokens. Built for coding, enterprise knowledge work, and cyber defense. Google's chart: 77.9% on DeepSWE v1.1, a new SOTA. Artificial Analysis: 53 on the Intelligence Index, tying GPT-6 Astra. List $4/$20 per 1M, 50% promo to $2/$10, cache reads $0.10. Skills rolling out globally in Gemini. Gems migrate into Skills in November. Opal shuts down Nov 17. Security review mode spotted in Google AI Studio.",
+          "url": "https://x.com/testingcatalog/status/2105566186771546490",
+          "created_at": "2026-10-01T07:51:13+00:00",
+          "engagement": 88
         }
       ]
     },
     {
-      "cluster_id": "cb7c047b4",
-      "score": 11.654,
-      "interest": "neutral",
+      "cluster_id": "cb1aef2fb",
+      "score": 12.848,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "Ars Technica AI",
-        "Reuters",
-        "The Decoder",
-        "The Verge AI",
-        "Tom's Hardware",
-        "Wired AI"
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
       ],
-      "source_count": 6,
-      "first_seen": "2026-09-30T09:46:10+00:00",
-      "last_seen": "2026-10-01T06:16:00+00:00",
+      "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
+        "DeepMind",
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-09-30T20:00:00+00:00",
+      "last_seen": "2026-10-01T09:26:30+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
-        "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-        "https://x.com/Reuters/status/2105542225278947563"
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "https://www.engadget.com/2274263/google-gemini-4-model-argon/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
-          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-          "created_at": "2026-09-30T09:46:10+00:00",
+          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "created_at": "2026-09-30T20:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence. President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
-          "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
-          "created_at": "2026-09-30T12:51:29+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-          "created_at": "2026-09-30T17:15:49+00:00",
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "created_at": "2026-09-30T20:01:45+00:00",
           "engagement": 0
         },
         {
           "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-          "created_at": "2026-09-30T18:47:01+00:00",
+          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "created_at": "2026-09-30T20:11:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "created_at": "2026-09-30T23:43:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's first Gemini 4 model is 'Argon'. Google trained Gemini 4 Argon to be highly capable in knowledge work, cybersecurity defense and creative writing.",
+          "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
+          "created_at": "2026-10-01T09:26:30+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cefc3422c",
+      "score": 9.982,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "Stratechery",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-30T15:18:49+00:00",
+      "last_seen": "2026-10-01T10:00:00+00:00",
+      "links": [
+        "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "created_at": "2026-09-30T15:18:49+00:00",
           "engagement": 0
         },
         {
           "author": "Wired AI",
           "tier": "press",
-          "text": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear. Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
-          "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-          "created_at": "2026-09-30T20:30:09+00:00",
+          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
+          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+          "created_at": "2026-09-30T19:30:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Reuters",
+          "author": "Stratechery",
           "tier": "commentary",
-          "text": "US Defense Secretary Pete Hegseth announced Project Meridian and named Elon Musk, Palmer Luckey and Newt Gingrich to co-lead Pentagon's push to study the future of warfare",
-          "url": "https://x.com/Reuters/status/2105542225278947563",
-          "created_at": "2026-10-01T06:16:00+00:00",
-          "engagement": 95,
-          "video": true
+          "text": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart. An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart.",
+          "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+          "created_at": "2026-10-01T10:00:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c7afa8ac6",
-      "score": 8.351,
+      "score": 8.018,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -214,68 +266,8 @@
       ]
     },
     {
-      "cluster_id": "c1be5f372",
-      "score": 8.03,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "MIT Tech Review",
-        "The Decoder"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-30T10:40:30+00:00",
-      "last_seen": "2026-09-30T18:25:04+00:00",
-      "links": [
-        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-        "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/"
-      ],
-      "posts": [
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-          "created_at": "2026-09-30T10:40:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "The Download: OpenAI’s chief research officer explains its hacking response. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-          "created_at": "2026-09-30T12:10:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-          "created_at": "2026-09-30T16:20:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-          "created_at": "2026-09-30T18:25:04+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c5de3bc3d",
-      "score": 7.76,
+      "score": 7.625,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -308,95 +300,6 @@
           "text": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?. Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents - where LLMs have direct access to the execution environment through read, write, and bash primitives - has received little attention in the fiel",
           "url": "https://arxiv.org/abs/2609.40303v1",
           "created_at": "2026-09-30T17:51:30+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce762f4f7",
-      "score": 7.29,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "DeepMind"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-30T20:00:00+00:00",
-      "last_seen": "2026-09-30T20:11:08+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
-          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-          "created_at": "2026-09-30T20:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: our next era of frontier intelligence",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "created_at": "2026-09-30T20:01:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
-          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-          "created_at": "2026-09-30T20:11:08+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3825744b",
-      "score": 6.863,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Verge AI",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T15:18:49+00:00",
-      "last_seen": "2026-09-30T19:30:00+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-          "created_at": "2026-09-30T15:18:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
-          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-          "created_at": "2026-09-30T19:30:00+00:00",
           "engagement": 0
         }
       ]
@@ -441,8 +344,8 @@
       ]
     },
     {
-      "cluster_id": "cc2d322d5",
-      "score": 3.693,
+      "cluster_id": "c0bb34f49",
+      "score": 4.887,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -454,14 +357,17 @@
         "Nvidia"
       ],
       "independent_sources": [
+        "Ars Technica AI",
         "The Verge AI",
         "Tom's Hardware"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-30T12:24:32+00:00",
-      "last_seen": "2026-09-30T17:27:37+00:00",
+      "last_seen": "2026-09-30T18:47:01+00:00",
       "links": [
+        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
         "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
         "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future"
       ],
       "posts": [
@@ -474,11 +380,66 @@
           "engagement": 0
         },
         {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+          "created_at": "2026-09-30T17:15:49+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Tom's Hardware",
           "tier": "press",
           "text": "Top AI tech executives promise to ‘self-police’ AI development. The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
           "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
           "created_at": "2026-09-30T17:27:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+          "created_at": "2026-09-30T18:47:01+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c43ae3ed8",
+      "score": 3.867,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T10:17:15+00:00",
+      "last_seen": "2026-09-30T20:30:00+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
+        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google is paying almost no publishers almost nothing for content used in AI answers. Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don't know how Google calculates payments, while some larger publishers are holding out for higher rates. The article Google is paying almost no publishers almost nothing for content used in AI answers appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+          "created_at": "2026-09-30T10:17:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Here’s how much Google is testing paying web publishers for AI Overview usage. A new report details how Google is testing paying web publishers for content used in its AI Overviews, including how much they’re making and how much that varies. more…",
+          "url": "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
+          "created_at": "2026-09-30T20:30:00+00:00",
           "engagement": 0
         }
       ]
