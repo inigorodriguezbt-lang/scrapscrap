@@ -1,172 +1,15 @@
 {
-  "generated_at": "2026-10-01T02:02:47.490134+00:00",
+  "generated_at": "2026-10-01T04:03:24.494380+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 116,
-  "clusters_found": 80,
-  "stories_declared": 10,
+  "posts_considered": 109,
+  "clusters_found": 78,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c6d2abf4e",
-      "score": 15.623,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "ArtificialAnlys",
-        "MIT Tech Review",
-        "The Decoder",
-        "arena"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-09-30T10:40:30+00:00",
-      "last_seen": "2026-10-01T00:09:22+00:00",
-      "links": [
-        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-        "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-        "https://x.com/ArtificialAnlys/status/2105449959554441580",
-        "https://x.com/arena/status/2105449871671173257"
-      ],
-      "posts": [
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-          "created_at": "2026-09-30T10:40:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "The Download: OpenAI’s chief research officer explains its hacking response. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
-          "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-          "created_at": "2026-09-30T12:10:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-          "created_at": "2026-09-30T16:20:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-          "created_at": "2026-09-30T18:16:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-          "created_at": "2026-09-30T18:25:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead. Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later. The article Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-          "created_at": "2026-09-30T22:06:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "Gemini 4 Argon by @GoogleDeepMind went head-to-head with top frontier models. At 33% lower cost per task than GPT-6.1 Sol, and 70% lower than Claude Opus 5.5",
-          "url": "https://x.com/arena/status/2105449871671173257",
-          "created_at": "2026-10-01T00:09:01+00:00",
-          "engagement": 121
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "GPT-6.1 Sol has a ~30% lower Cost per Task than GPT-6 Sol, which was already ~half the cost of GPT-5.6 Sol",
-          "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
-          "created_at": "2026-10-01T00:09:22+00:00",
-          "engagement": 252
-        }
-      ]
-    },
-    {
-      "cluster_id": "c28cc3a9f",
-      "score": 14.404,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "TechCrunch AI",
-        "thsottiaux"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-30T05:53:10+00:00",
-      "last_seen": "2026-10-01T01:06:15+00:00",
-      "links": [
-        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-        "https://www.latent.space/p/devday-2026",
-        "https://x.com/thsottiaux/status/2105464274747527543"
-      ],
-      "posts": [
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
-          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-          "created_at": "2026-09-30T05:53:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
-          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-          "created_at": "2026-09-30T19:00:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week. Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
-          "url": "https://www.latent.space/p/devday-2026",
-          "created_at": "2026-09-30T22:23:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "thsottiaux",
-          "tier": "commentary",
-          "text": "GPT-6.1 Sol is our most demanded model pretty much ever both across the API and subscriptions. Within ChatGPT & Codex, we were under heavy load, but have brought more capacity online and the speed should get much better in the coming hours, reaching almost twice the speed compared to what we served yesterday.",
-          "url": "https://x.com/thsottiaux/status/2105464274747527543",
-          "created_at": "2026-10-01T01:06:15+00:00",
-          "engagement": 4067
-        }
-      ]
-    },
-    {
       "cluster_id": "c0425ae16",
-      "score": 12.147,
+      "score": 11.812,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -224,58 +67,135 @@
       ]
     },
     {
-      "cluster_id": "c0c627ebc",
-      "score": 11.259,
+      "cluster_id": "cb5809727",
+      "score": 10.207,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "ai",
       "entities": [
-        "Meta",
-        "Nvidia",
-        "DeepSeek"
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Hugging Face"
       ],
       "independent_sources": [
-        "The Decoder",
-        "kyleichan"
+        "Ars Technica AI",
+        "MIT Tech Review",
+        "The Decoder"
       ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T14:37:24+00:00",
-      "last_seen": "2026-09-30T22:59:14+00:00",
+      "source_count": 3,
+      "first_seen": "2026-09-30T10:40:30+00:00",
+      "last_seen": "2026-09-30T22:06:30+00:00",
       "links": [
-        "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
-        "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-        "https://x.com/kyleichan/status/2105432311059620261"
+        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "MIT Tech Review",
           "tier": "press",
-          "text": "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips. Deepseek and Huawei have built open-source programming tools for Huawei's Ascend AI chips. At the center is TileLang, a language designed to offer a simpler programming model than Nvidia's CUDA. The partnership targets the biggest obstacle for China's AI industry, which is software that gets the most out of domestic chips. The article China&#039;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#039;s Ascend chips appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
-          "created_at": "2026-09-30T14:37:24+00:00",
+          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+          "created_at": "2026-09-30T10:40:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "The Download: OpenAI’s chief research officer explains its hacking response. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+          "created_at": "2026-09-30T12:10:00+00:00",
           "engagement": 0
         },
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Meta dodges billions in US taxes by calling its AI data centers experiments. Meta classifies its AI data centers as \"pilot models\" and Nvidia chips as experimental materials to save billions in federal taxes. In 2025 alone, that added up to $3.9 billion. The tax credit dates back to 1981, and even Meta's own accountants see the strategy as legally risky, the New York Times reports. Zuckerberg himself said in January 2025 that these data centers, now framed as experimental, would \"drive our core products and business.\" The article Meta dodges billions in US taxes by calling its AI data centers experiments appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-          "created_at": "2026-09-30T17:22:34+00:00",
+          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+          "created_at": "2026-09-30T16:20:04+00:00",
           "engagement": 0
         },
         {
-          "author": "kyleichan",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+          "created_at": "2026-09-30T18:16:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+          "created_at": "2026-09-30T18:25:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead. Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later. The article Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+          "created_at": "2026-09-30T22:06:30+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2299fcb5",
+      "score": 7.792,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T05:53:10+00:00",
+      "last_seen": "2026-09-30T22:23:40+00:00",
+      "links": [
+        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+        "https://www.latent.space/p/devday-2026"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
           "tier": "commentary",
-          "text": "DeepSeek is gearing up to switch model training from Nvidia to Huawei chips, via TileLang.",
-          "url": "https://x.com/kyleichan/status/2105432311059620261",
-          "created_at": "2026-09-30T22:59:14+00:00",
-          "engagement": 156
+          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
+          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+          "created_at": "2026-09-30T05:53:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+          "created_at": "2026-09-30T19:00:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week. Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
+          "url": "https://www.latent.space/p/devday-2026",
+          "created_at": "2026-09-30T22:23:40+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cd1b0253d",
-      "score": 7.919,
+      "score": 7.584,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -342,7 +262,7 @@
     },
     {
       "cluster_id": "c3825744b",
-      "score": 7.864,
+      "score": 7.529,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -382,7 +302,7 @@
     },
     {
       "cluster_id": "c84e8f7f5",
-      "score": 7.019,
+      "score": 6.684,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -421,7 +341,7 @@
     },
     {
       "cluster_id": "c43ae3ed8",
-      "score": 5.201,
+      "score": 4.866,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -460,7 +380,7 @@
     },
     {
       "cluster_id": "cc2d322d5",
-      "score": 4.694,
+      "score": 4.359,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -503,7 +423,7 @@
     },
     {
       "cluster_id": "cd4425620",
-      "score": 4.201,
+      "score": 3.866,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
