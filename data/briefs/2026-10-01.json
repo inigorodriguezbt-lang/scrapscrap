@@ -1,52 +1,15 @@
 {
-  "generated_at": "2026-10-01T06:03:33.484671+00:00",
+  "generated_at": "2026-10-01T08:03:12.861833+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 135,
-  "clusters_found": 103,
-  "stories_declared": 11,
+  "posts_considered": 140,
+  "clusters_found": 105,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cf964e66f",
-      "score": 12.445,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "arXiv",
-        "arankomatsuzaki"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T17:52:08+00:00",
-      "last_seen": "2026-10-01T04:54:23+00:00",
-      "links": [
-        "https://arxiv.org/abs/2609.40305v1",
-        "https://x.com/arankomatsuzaki/status/2105521688083620347"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Looped Diffusion Transformer. Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scale computation by repeatedly running shared Transformer blocks within each denoising step, effectively increasing computational depth while keeping the parameter count fixed. This looped computation enables iterative refinement of internal representations without explicit reasoning tokens. However, naive looping fails to consistently improve image quality. We trace this problem to weak supervision across intermediate loops and unre",
-          "url": "https://arxiv.org/abs/2609.40305v1",
-          "created_at": "2026-09-30T17:52:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arankomatsuzaki",
-          "tier": "commentary",
-          "text": "Looped Diffusion Transformer\n\n- Scales computation by repeatedly running shared Transformer blocks within each denoising step\n- Surpasses a model 6.5× larger across T2I benchmarks while requiring 4.9× lower inference compute\n\nhttps://t.co/hw1EA2K6Rk",
-          "url": "https://x.com/arankomatsuzaki/status/2105521688083620347",
-          "created_at": "2026-10-01T04:54:23+00:00",
-          "engagement": 113
-        }
-      ]
-    },
-    {
-      "cluster_id": "c92429b85",
-      "score": 8.768,
+      "cluster_id": "cef110de2",
+      "score": 14.137,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -57,18 +20,22 @@
       ],
       "independent_sources": [
         "9to5Google",
+        "Latent Space",
         "TechCrunch AI",
-        "The Decoder"
+        "The Decoder",
+        "teortaxesTex"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "first_seen": "2026-09-30T10:17:15+00:00",
-      "last_seen": "2026-09-30T23:43:07+00:00",
+      "last_seen": "2026-10-01T07:28:45+00:00",
       "links": [
         "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
         "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
         "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
         "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
+        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+        "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+        "https://x.com/teortaxesTex/status/2105560533860774243"
       ],
       "posts": [
         {
@@ -110,12 +77,106 @@
           "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
           "created_at": "2026-09-30T23:43:07+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output. ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
+          "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+          "created_at": "2026-10-01T06:45:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "teortaxesTex",
+          "tier": "commentary",
+          "text": "Sol 6.1 is actually a very strong answer to Opus 5.5\nit's in some ways even superior to Astra, in what I've seen",
+          "url": "https://x.com/teortaxesTex/status/2105560533860774243",
+          "created_at": "2026-10-01T07:28:45+00:00",
+          "engagement": 36
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb7c047b4",
+      "score": 11.654,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Reuters",
+        "The Decoder",
+        "The Verge AI",
+        "Tom's Hardware",
+        "Wired AI"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-09-30T09:46:10+00:00",
+      "last_seen": "2026-10-01T06:16:00+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+        "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+        "https://x.com/Reuters/status/2105542225278947563"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
+          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
+          "created_at": "2026-09-30T09:46:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence. President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
+          "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+          "created_at": "2026-09-30T12:51:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+          "created_at": "2026-09-30T17:15:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+          "created_at": "2026-09-30T18:47:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear. Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
+          "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+          "created_at": "2026-09-30T20:30:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "US Defense Secretary Pete Hegseth announced Project Meridian and named Elon Musk, Palmer Luckey and Newt Gingrich to co-lead Pentagon's push to study the future of warfare",
+          "url": "https://x.com/Reuters/status/2105542225278947563",
+          "created_at": "2026-10-01T06:16:00+00:00",
+          "engagement": 95,
+          "video": true
         }
       ]
     },
     {
       "cluster_id": "c7afa8ac6",
-      "score": 8.683,
+      "score": 8.351,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -153,67 +214,8 @@
       ]
     },
     {
-      "cluster_id": "ce7185406",
-      "score": 8.51,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "Bloomberg Tech",
-        "DeepMind"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-30T19:52:42+00:00",
-      "last_seen": "2026-09-30T20:11:08+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-        "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Google Grapples With Employee Skepticism About New Gemini 4. Alphabet Inc.’s Google has begun rolling out Gemini 4 Argon, its long-awaited flagship artificial intelligence model, but the company is grappling with internal skepticism over how well it performs in key areas, such as coding.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model",
-          "created_at": "2026-09-30T19:52:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
-          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-          "created_at": "2026-09-30T20:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: our next era of frontier intelligence",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "created_at": "2026-09-30T20:01:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
-          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-          "created_at": "2026-09-30T20:11:08+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c1be5f372",
-      "score": 8.362,
+      "score": 8.03,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -273,7 +275,7 @@
     },
     {
       "cluster_id": "c5de3bc3d",
-      "score": 8.092,
+      "score": 7.76,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -311,75 +313,57 @@
       ]
     },
     {
-      "cluster_id": "cd1b0253d",
-      "score": 7.25,
+      "cluster_id": "ce762f4f7",
+      "score": 7.29,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "Ars Technica AI",
-        "The Decoder",
-        "The Verge AI",
-        "Tom's Hardware",
-        "Wired AI"
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
       ],
-      "source_count": 5,
-      "first_seen": "2026-09-30T09:46:10+00:00",
-      "last_seen": "2026-09-30T20:30:09+00:00",
+      "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
+        "DeepMind"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-30T20:00:00+00:00",
+      "last_seen": "2026-09-30T20:11:08+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-        "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
-        "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/"
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Trump and tech CEOs sign an AI code of conduct that's only \"morally binding\". President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only \"morally binding.\" Outside auditors are supposed to check whether models work as intended. It's unclear what would happen if a company broke the rules. Trump also signed an executive order renaming AI \"Super Intelligence.\" The article Trump and tech CEOs sign an AI code of conduct that&#039;s only \"morally binding\" appeared first on The Decoder .",
-          "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-          "created_at": "2026-09-30T09:46:10+00:00",
+          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "created_at": "2026-09-30T20:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence. President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
-          "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
-          "created_at": "2026-09-30T12:51:29+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-          "created_at": "2026-09-30T17:15:49+00:00",
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "created_at": "2026-09-30T20:01:45+00:00",
           "engagement": 0
         },
         {
           "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-          "created_at": "2026-09-30T18:47:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear. Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
-          "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-          "created_at": "2026-09-30T20:30:09+00:00",
+          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "created_at": "2026-09-30T20:11:08+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c3825744b",
-      "score": 7.195,
+      "score": 6.863,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -419,7 +403,7 @@
     },
     {
       "cluster_id": "c84e8f7f5",
-      "score": 6.35,
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -458,7 +442,7 @@
     },
     {
       "cluster_id": "cc2d322d5",
-      "score": 4.026,
+      "score": 3.693,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
