@@ -1,16 +1,161 @@
 {
-  "generated_at": "2026-10-01T04:03:24.494380+00:00",
+  "generated_at": "2026-10-01T06:03:33.484671+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 109,
-  "clusters_found": 78,
-  "stories_declared": 9,
+  "posts_considered": 135,
+  "clusters_found": 103,
+  "stories_declared": 11,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0425ae16",
-      "score": 11.812,
+      "cluster_id": "cf964e66f",
+      "score": 12.445,
       "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "arXiv",
+        "arankomatsuzaki"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T17:52:08+00:00",
+      "last_seen": "2026-10-01T04:54:23+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.40305v1",
+        "https://x.com/arankomatsuzaki/status/2105521688083620347"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Looped Diffusion Transformer. Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scale computation by repeatedly running shared Transformer blocks within each denoising step, effectively increasing computational depth while keeping the parameter count fixed. This looped computation enables iterative refinement of internal representations without explicit reasoning tokens. However, naive looping fails to consistently improve image quality. We trace this problem to weak supervision across intermediate loops and unre",
+          "url": "https://arxiv.org/abs/2609.40305v1",
+          "created_at": "2026-09-30T17:52:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arankomatsuzaki",
+          "tier": "commentary",
+          "text": "Looped Diffusion Transformer\n\n- Scales computation by repeatedly running shared Transformer blocks within each denoising step\n- Surpasses a model 6.5× larger across T2I benchmarks while requiring 4.9× lower inference compute\n\nhttps://t.co/hw1EA2K6Rk",
+          "url": "https://x.com/arankomatsuzaki/status/2105521688083620347",
+          "created_at": "2026-10-01T04:54:23+00:00",
+          "engagement": 113
+        }
+      ]
+    },
+    {
+      "cluster_id": "c92429b85",
+      "score": 8.768,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "TechCrunch AI",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-09-30T10:17:15+00:00",
+      "last_seen": "2026-09-30T23:43:07+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google is paying almost no publishers almost nothing for content used in AI answers. Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don't know how Google calculates payments, while some larger publishers are holding out for higher rates. The article Google is paying almost no publishers almost nothing for content used in AI answers appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
+          "created_at": "2026-09-30T10:17:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+          "created_at": "2026-09-30T18:16:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Here’s how much Google is testing paying web publishers for AI Overview usage. A new report details how Google is testing paying web publishers for content used in its AI Overviews, including how much they’re making and how much that varies. more…",
+          "url": "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
+          "created_at": "2026-09-30T20:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead. Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later. The article Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+          "created_at": "2026-09-30T22:06:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "created_at": "2026-09-30T23:43:07+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7afa8ac6",
+      "score": 8.683,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "arXiv"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T17:48:06+00:00",
+      "last_seen": "2026-09-30T22:23:40+00:00",
+      "links": [
+        "https://arxiv.org/abs/2609.40284v1",
+        "https://www.latent.space/p/devday-2026"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents. Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespread adoption and deployment of CUAs remains their speed and cost. Progress towards faster yet capable CUAs requires reliable evaluation of their speed, but many CUA benchmarks currently face a reproducibility crisis. Benchmarks are based on complex infrastructure with varying machine and container co",
+          "url": "https://arxiv.org/abs/2609.40284v1",
+          "created_at": "2026-09-30T17:48:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week. Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
+          "url": "https://www.latent.space/p/devday-2026",
+          "created_at": "2026-09-30T22:23:40+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce7185406",
+      "score": 8.51,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
@@ -19,19 +164,27 @@
       "independent_sources": [
         "9to5Google",
         "Ars Technica AI",
-        "DeepMind",
-        "TechCrunch AI"
+        "Bloomberg Tech",
+        "DeepMind"
       ],
       "source_count": 4,
-      "first_seen": "2026-09-30T20:00:00+00:00",
-      "last_seen": "2026-09-30T23:43:07+00:00",
+      "first_seen": "2026-09-30T19:52:42+00:00",
+      "last_seen": "2026-09-30T20:11:08+00:00",
       "links": [
         "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
         "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
         "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model"
       ],
       "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Google Grapples With Employee Skepticism About New Gemini 4. Alphabet Inc.’s Google has begun rolling out Gemini 4 Argon, its long-awaited flagship artificial intelligence model, but the company is grappling with internal skepticism over how well it performs in key areas, such as coding.",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model",
+          "created_at": "2026-09-30T19:52:42+00:00",
+          "engagement": 0
+        },
         {
           "author": "9to5Google",
           "tier": "press",
@@ -55,27 +208,18 @@
           "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
           "created_at": "2026-09-30T20:11:08+00:00",
           "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "created_at": "2026-09-30T23:43:07+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cb5809727",
-      "score": 10.207,
+      "cluster_id": "c1be5f372",
+      "score": 8.362,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Google",
         "Hugging Face"
       ],
       "independent_sources": [
@@ -85,12 +229,10 @@
       ],
       "source_count": 3,
       "first_seen": "2026-09-30T10:40:30+00:00",
-      "last_seen": "2026-09-30T22:06:30+00:00",
+      "last_seen": "2026-09-30T18:25:04+00:00",
       "links": [
         "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
         "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
         "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
         "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/"
       ],
@@ -120,82 +262,57 @@
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-          "created_at": "2026-09-30T18:16:04+00:00",
-          "engagement": 0
-        },
-        {
           "author": "Ars Technica AI",
           "tier": "press",
           "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
           "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
           "created_at": "2026-09-30T18:25:04+00:00",
           "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead. Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later. The article Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#039;t take a clear lead appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-          "created_at": "2026-09-30T22:06:30+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c2299fcb5",
-      "score": 7.792,
+      "cluster_id": "c5de3bc3d",
+      "score": 8.092,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI"
+        "Nvidia"
       ],
       "independent_sources": [
-        "Latent Space",
-        "TechCrunch AI"
+        "NVIDIA Developer",
+        "arXiv"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-30T05:53:10+00:00",
-      "last_seen": "2026-09-30T22:23:40+00:00",
+      "first_seen": "2026-09-30T16:00:00+00:00",
+      "last_seen": "2026-09-30T17:51:30+00:00",
       "links": [
-        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-        "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-        "https://www.latent.space/p/devday-2026"
+        "https://arxiv.org/abs/2609.40303v1",
+        "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/"
       ],
       "posts": [
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU. the most confident DevDay yet.",
-          "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-          "created_at": "2026-09-30T05:53:10+00:00",
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay. An agent can finish a task and still take an inefficient path. A failed search can trigger another search. A truncated file read can lead to a command fetching...",
+          "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
+          "created_at": "2026-09-30T16:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
-          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-          "created_at": "2026-09-30T19:00:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week. Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
-          "url": "https://www.latent.space/p/devday-2026",
-          "created_at": "2026-09-30T22:23:40+00:00",
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?. Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents - where LLMs have direct access to the execution environment through read, write, and bash primitives - has received little attention in the fiel",
+          "url": "https://arxiv.org/abs/2609.40303v1",
+          "created_at": "2026-09-30T17:51:30+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cd1b0253d",
-      "score": 7.584,
+      "score": 7.25,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -262,7 +379,7 @@
     },
     {
       "cluster_id": "c3825744b",
-      "score": 7.529,
+      "score": 7.195,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -302,7 +419,7 @@
     },
     {
       "cluster_id": "c84e8f7f5",
-      "score": 6.684,
+      "score": 6.35,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -340,47 +457,8 @@
       ]
     },
     {
-      "cluster_id": "c43ae3ed8",
-      "score": 4.866,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T10:17:15+00:00",
-      "last_seen": "2026-09-30T20:30:00+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
-        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google is paying almost no publishers almost nothing for content used in AI answers. Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don't know how Google calculates payments, while some larger publishers are holding out for higher rates. The article Google is paying almost no publishers almost nothing for content used in AI answers appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-          "created_at": "2026-09-30T10:17:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Here’s how much Google is testing paying web publishers for AI Overview usage. A new report details how Google is testing paying web publishers for content used in its AI Overviews, including how much they’re making and how much that varies. more…",
-          "url": "https://9to5google.com/2026/09/30/google-ai-overview-payout-test-details/",
-          "created_at": "2026-09-30T20:30:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cc2d322d5",
-      "score": 4.359,
+      "score": 4.026,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -423,7 +501,7 @@
     },
     {
       "cluster_id": "cd4425620",
-      "score": 3.866,
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
