@@ -30,6 +30,211 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-cloudflare-clef",
+   "section": "models",
+   "headline": "Cloudflare releases Clef, its first open models, to rival Jev at classification",
+   "standfirst": "Cloudflare says its 27B Clef decision model tops the Jev Decision Index at a 209-millisecond median, and both Clef models ship free on Hugging Face under Apache 2.0.",
+   "entities": [
+    "Cloudflare",
+    "Clef",
+    "Jev",
+    "Workers AI"
+   ],
+   "body": [
+    "Cloudflare published Clef and Clef-flash on 1 October, its first models trained by the Workers AI team. According to the company's blog post, Clef has 27 billion parameters and is built on Qwen, while Clef-flash has 9 billion. Both carry a 64,000-token context window and a vision encoder, and the weights are on Hugging Face under Apache 2.0.",
+    "They are decision models, not chatbots. Cloudflare says they return bounded, typed outputs with confidence scores, so an agent can classify a request, route it or pick an action without a person in the loop. The Workers AI documentation says they accept text, JSON, images or video and return probabilities across numeric, choice or score questions.",
+    "The company claims speed and accuracy. It says Clef leads the Jev Decision Index and reaches a median latency of 209.3 milliseconds against 524.1 for Jev, while Clef-flash manages 38.8. It also reports 94.20 macro-F1 on BANKING77 and 97.43 on CLINC150+OOS. All of these figures come from Cloudflare, and nobody outside the company has repeated them yet.",
+    "Pricing is listed at $0.24 per million input tokens for Clef and $0.09 for Clef-flash on Workers AI. Cloudflare says it does not read, store or train on customer requests. It also announced a reinforcement-learning service for fine-tuning decision models on a customer's own data, which starts with forward-deployed engineers and is not yet self-serve.",
+    "Clef lands two weeks after TypeSafe AI opened early access to Jev on 15 September, which is closed-weight. Ollama added a Jev-style endpoint to version 0.35 this week, according to its release notes, and several open clones have appeared on GitHub. Cloudflare's own use cases include threat-intelligence domain classification, support-ticket triage and bot detection."
+   ],
+   "sources": [
+    {
+     "author": "Cloudflare",
+     "url": "https://blog.cloudflare.com/clef-decision-models/"
+    },
+    {
+     "author": "Cloudflare docs",
+     "url": "https://github.com/cloudflare/cloudflare-docs/pull/33890"
+    },
+    {
+     "author": "TypeSafe AI explainer, DataCamp",
+     "url": "https://www.datacamp.com/blog/system-one-models-jev"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-jevos-open-jev-clone",
+   "section": "open-models",
+   "headline": "Solo developer's open-source Jev clone runs on a laptop CPU and has 1,200 stars",
+   "standfirst": "Federico Elia's jevos answers yes-or-no questions in 26 to 112 milliseconds on a CPU with no GPU, and his launch post for it has about 2,400 likes on X.",
+   "entities": [
+    "Federico Elia",
+    "jevos",
+    "Jev",
+    "TypeSafe AI"
+   ],
+   "body": [
+    "Federico Elia, who posts as FederCr, released jevos on GitHub this week as an open-source alternative to TypeSafe AI's Jev. His X post calls it the fastest model ever made and says it is ten times faster than Jev. The post had about 2,400 likes when we read it on 1 October, and the repository shows roughly 1,200 stars and 130 forks.",
+    "Jev is a closed-weight cloud model that returns typed decisions such as yes, no or a score instead of generated text. Elia's argument is that the network round trip makes Jev slow and that every call is billed per token. jevos runs on the user's own machine, according to its README, in a single binary with no Python or GPU needed.",
+    "The README says jevos is built on MiniCPM, uses 8-bit weights through OpenVINO and needs about 1 gigabyte of memory. It lists latencies of 26 to 112 milliseconds on a CPU against 344 and 345 milliseconds for Jev, and an accuracy of 80.3 percent on yes-or-no questions. Those numbers come from the author, and we have not rerun them.",
+    "The repository is MIT-licensed, handles multiple-choice questions and returns confidence scores and probabilities. It also ships GGUF files for llama.cpp. Its context window is 8,192 tokens, far shorter than the 64,000 Cloudflare lists for its new Clef models.",
+    "jevos is one of a crowd. Von, a 395-million-parameter ModernBERT model, claims under 15 milliseconds, and several Gemma-based replicas exist, according to listings on GitHub. Jev launched in early access on 15 September, so a small ecosystem of clones has formed in about two weeks."
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/FederCr/status/2105675061990391959",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "sources": [
+    {
+     "author": "feder-cr/jev on GitHub",
+     "url": "https://github.com/feder-cr/jev"
+    },
+    {
+     "author": "FederCr on X",
+     "url": "https://x.com/FederCr/status/2105675061990391959"
+    },
+    {
+     "author": "Awesome decision models list",
+     "url": "https://github.com/feder-cr/sfmqrb-awesome-decision-models"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "c32f17587",
+   "section": "security",
+   "headline": "AI coding agents posted 13,000 internal screenshots to public GitHub repos",
+   "standfirst": "Glow Security says agents from 343 organisations uploaded customer data, passwords and unreleased-product images to public repositories because GitHub offers no command-line way to attach images.",
+   "entities": [
+    "Glow Security",
+    "GitHub",
+    "GitShot"
+   ],
+   "body": [
+    "Glow Security says AI coding agents have uploaded more than 13,000 internal screenshots from 343 organisations to public GitHub repositories, The Decoder reported. The set includes Fortune 500 companies, financial institutions and an AI research lab. Tom's Hardware, which also covered the finding, put the number of affected companies at more than 300.",
+    "The agents were solving a small problem. GitHub only lets users attach images in a browser, not from a command line, so the agents created public repositories, usually in a developer's personal account, and dropped the images there. Glow Security says the images showed customer data, login credentials and details of unreleased product features.",
+    "About a third of the cases involve GitShot, an open-source command-line tool by developer Vipul Gupta, according to Glow Security. By default it creates a public repository called gitshot-images. Its documentation warns users not to upload sensitive information, a warning Gigazine says the agents ignored. Glow Security stresses the leak is not limited to one tool or model.",
+    "The leak was hard to see. Because the images sat in personal accounts instead of company ones, security teams did not notice, The Decoder reported. In one case an agent at a manufacturer posted billing screenshots containing authentication data to a personal account. Glow Security's Omer Singer said agents lack the common sense to avoid doing things they should not.",
+    "None of the reports we read describes a company response, and Glow Security's own figures have not been independently checked. Glow Security's advice, as relayed by Gigazine, is that organisations should restrict not only what agents are for but also which tools they can reach and what they may disclose."
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/"
+    },
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab"
+    },
+    {
+     "author": "Gigazine",
+     "url": "https://gigazine.net/gsc_news/en/20260930-pixelleak/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-google-tpus-suncatcher-orbit",
+   "section": "chips",
+   "headline": "Google sends four TPUs to orbit on a SpaceX rocket for Project Suncatcher",
+   "standfirst": "Google says Trillium chips can take more radiation than a five-year space mission delivers, and four of them are due to fly on Transporter-18 as the first test of orbital AI computing.",
+   "entities": [
+    "Google",
+    "SpaceX",
+    "Planet",
+    "Project Suncatcher"
+   ],
+   "body": [
+    "Google is putting four of its Tensor Processing Units into orbit on SpaceX's Transporter-18 rideshare, the first hardware test of Project Suncatcher, Techzine reported. The chips ride on a satellite built with Planet. Reports said the Falcon 9 was due to lift off from Vandenberg Space Force Base at 11:15 a.m. Pacific on 1 October. We have not seen confirmation of orbit.",
+    "The aim is narrow. Google says it wants to learn whether its AI chips survive launch and run reliably in orbit, not to show a working data centre. Reports say launch forces can reach 10 times gravity for the rocket and 50 to 100 g for individual components, and the test looks for faults in a space radiation environment.",
+    "Before launch, Google tested Trillium TPUs in a proton beam at UC Davis's Crocker Nuclear Laboratory, running AI workloads and watching for bit flips. According to Google, as relayed by Techzine, the chips tolerate more radiation than a five-year mission would deliver. That is the company's claim about its own hardware, and orbit is the real test.",
+    "The pitch is power. Google says satellites in low Earth orbit get near-constant sunlight and can produce up to eight times more solar energy than panels on the ground, which could ease strain on terrestrial grids. Cooling in a vacuum needs heat pipes and radiators, and Google lists high-bandwidth laser links between satellites as a further challenge.",
+    "Google plans two more satellites in 2027 to test laser connections between orbiting units, Techzine said. SpaceX and Starcloud are chasing similar orbital data-centre ideas, and the report quotes experts who say commercial use is years away because of launch costs and technical obstacles."
+   ],
+   "sources": [
+    {
+     "author": "Techzine",
+     "url": "https://www.techzine.eu/news/infrastructure/144546/google-sends-tpus-into-space-for-testing/"
+    },
+    {
+     "author": "Channel Insider",
+     "url": "https://www.channelinsider.com/ai/emerging-tech/news-google-project-suncatcher-spacex-orbital-ai/"
+    },
+    {
+     "author": "CNBC on X",
+     "url": "https://x.com/CNBC/status/2105619770078855551"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-volantis-88m-photonic-memory",
+   "section": "chips",
+   "headline": "Volantis raises $88 million for lasers that link AI chips to 220 memory chips",
+   "standfirst": "Volantis says Face ID-style lasers could wire one GPU to 220 memory chips, against eight on Nvidia's top parts, though its first system is not due until 2027.",
+   "entities": [
+    "Volantis",
+    "Nvidia",
+    "Lachy Groom",
+    "Abstract Ventures"
+   ],
+   "body": [
+    "Volantis announced an $88 million Series A on 1 October, co-led by Lachy Groom and Abstract Ventures with John Doerr, VXI Capital, Triatomic and Susa Ventures. Angels include podcaster Dwarkesh Patel, chip veteran Naveen Rao and Anthropic researcher Sholto Douglas, according to the company's release.",
+    "The company wants to replace short electrical links between a processor and its memory with light. Volantis says it uses custom micro-VCSELs, the vertical-cavity lasers found in the iPhone's Face ID, rather than external lasers. Reuters notes that this draws on the gallium arsenide supply chain and avoids indium phosphide shortages.",
+    "Its pitch is the memory bandwidth limit. Volantis says the approach lets bandwidth grow as memory capacity grows, and that it could eventually connect as many as 220 memory chips around one GPU, against eight on Nvidia's top chips. It says its links use under one picojoule per bit. None of that has been independently measured.",
+    "The first product is the A-1 inference system, which Volantis says is designed for models above 20 trillion parameters at up to 10,000 tokens per second per user. It is due in 2027. CEO Tapa Ghosh said the company started out to remove the trade-off between running the largest models and running them fast.",
+    "The team comes from Nvidia, AMD, Broadcom and Ayar Labs, with past work on CoWoS packaging, tunable VCSELs and co-packaged silicon photonics, the release says. One analyst write-up, from FourWeekMBA, headlines the round as resting on unverified specifications, and the claims above are the company's own."
+   ],
+   "sources": [
+    {
+     "author": "Volantis",
+     "url": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html"
+    },
+    {
+     "author": "Reuters",
+     "url": "https://www.reuters.com/business/volantis-raises-88-million-tech-connect-ai-memory-chips-2026-10-01/"
+    },
+    {
+     "author": "FourWeekMBA",
+     "url": "https://fourweekmba.com/ai-volantis-88m-series-a-inference-memory-wall/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-nebius-inferize",
+   "section": "infrastructure",
+   "headline": "Nebius buys Inferize, which says it restores a warm GPU in 20 seconds, not 23 minutes",
+   "standfirst": "The 17-person Tel Aviv startup claims GPU snapshots cut a DeepSeek V4 Pro cold start roughly 70-fold, and reports value the deal at $100 million to $150 million.",
+   "entities": [
+    "Nebius",
+    "Inferize",
+    "DeepSeek"
+   ],
+   "body": [
+    "Nebius announced on 1 October that it has acquired Inferize, an inference-optimisation startup, to strengthen its Token Factory platform. Terms were not disclosed. CTech estimated the price at $100 million to $150 million and Globes at $100 million to $130 million, runtimewire reported.",
+    "Inferize captures a warmed GPU and CPU state, including compiled kernels and CUDA graphs, and restores it on fresh GPUs within seconds, runtimewire reported. The idea is that operators no longer have to keep spare GPUs idling in case traffic spikes. Co-founder Guy Bortnikov said spare capacity is the price of being ready for demand.",
+    "The headline number is Inferize's own. Its published benchmark for DeepSeek V4 Pro shows a snapshot restoring in 20 seconds against about 23 minutes for a cold start, a roughly 70-fold gain, runtimewire said. Inferize also claims GPU-cost savings of 10 to 30 percent. Neither figure has been independently tested.",
+    "Inferize was founded in January 2026, built a working prototype in three months and has 17 staff in Tel Aviv. Its co-founders Guy Bortnikov and Lior Gorbonos previously worked at Granulate, which Intel bought in 2022. They join Nebius's Token Factory alongside earlier acquisitions Eigen AI and Clarifai.",
+    "Nebius shares rose 1.9 percent in premarket trading to $240.52 after the announcement, according to GuruFocus, which tracks the stock."
+   ],
+   "sources": [
+    {
+     "author": "runtimewire",
+     "url": "https://runtimewire.com/article/nebius-acquires-inferize-gpu-inference"
+    },
+    {
+     "author": "GuruFocus",
+     "url": "https://www.gurufocus.com/news/9105327/nebius-nbis-acquires-inferize-to-enhance-ai-inference-stack-shares-rise-premarket"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-jera-dell-rhaelm-chiba",
    "section": "chips",
    "headline": "Dell, JERA and RHAELM plan a 400MW AI data centre beside a power plant",
@@ -89,7 +294,7 @@
      "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-claude-for-government-ga",
@@ -113,7 +318,7 @@
      "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-marmont-cipher-gpt6-astra",
@@ -148,7 +353,7 @@
      "url": "https://x.com/kimmonismus/status/2105547846288073183"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-agents-canada-library-archives",
@@ -181,7 +386,7 @@
      "url": "https://mezha.net/eng/news/f46613c9_ai_agents_tried/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "korea-september-exports-record-chips",
@@ -208,7 +413,7 @@
      "url": "https://www.koreatimes.co.kr/economy/20261001/koreas-sept-exports-hit-record-1209-bil-on-robust-chip-sales"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "grokipedia-v03",
@@ -243,7 +448,7 @@
      "url": "https://x.com/elonmusk/status/2105543421712843238"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cf964e66f",
