@@ -30,6 +30,116 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-gpt-61-sol-devday",
+   "section": "models",
+   "headline": "OpenAI says GPT-6.1 Sol is its most demanded model ever",
+   "standfirst": "OpenAI's Tibo Sottiaux says GPT-6.1 Sol drew record demand after DevDay, priced at $2 and $10 per million tokens against a $3.26 task cost for GPT-6 Astra.",
+   "entities": [
+    "OpenAI",
+    "GPT-6.1 Sol",
+    "Artificial Analysis",
+    "Codex"
+   ],
+   "body": [
+    "OpenAI engineer Tibo Sottiaux said on X that GPT-6.1 Sol is \"our most demanded model pretty much ever\" across the API and subscriptions. ChatGPT and Codex ran under heavy load, he said, and OpenAI has brought more capacity online. He said speed should improve over the coming hours, reaching almost twice what it served the day before.",
+    "Latent Space, which covered DevDay, reports the model is priced at $2 per million input tokens and $10 per million output, with cached input at $0.10. It describes OpenAI's pitch as near-Astra intelligence for a fifth of the price, and says OpenAI claims a tie with GPT-6 Astra on DeepSWE. OpenAI also says it beats Claude Opus 5.5 on AutomationBench at a third of the cost.",
+    "Independent numbers point the same way, though not as far. Latent Space cites Artificial Analysis as placing Sol about one point below Astra on its Intelligence Index, at $0.72 per task against $3.26. Artificial Analysis separately said Sol's cost per task is roughly 30% below GPT-6 Sol's, helped by fewer turns and a lower cache-read price.",
+    "DevDay carried more than the model. Latent Space lists Dots, always-on voice agents it says run on GPT-6 Astra and connect to more than 4,000 apps, for Pro, Business Premium and Enterprise plans. It also lists an Ultrafast mode that OpenAI says reaches 300 tokens per second in Codex, at six times standard prices, and a ChatGPT figure of 1.2 billion weekly users.",
+    "TechCrunch reported that a Decisions API, in limited preview, lets the small GPT-6 Luna model pick from a fixed set of options, which Sam Altman said makes it \"extremely fast\". Nobody outside OpenAI has published a test of the Dots agents or the Ultrafast speeds, and the demand figure rests on Sottiaux's post alone."
+   ],
+   "sources": [
+    {
+     "author": "Tibo Sottiaux",
+     "url": "https://x.com/thsottiaux/status/2105464274747527543"
+    },
+    {
+     "author": "Latent Space",
+     "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2105449959554441580"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-gemini-4-argon-aa-index",
+   "section": "models",
+   "headline": "Artificial Analysis puts Gemini 4 Argon level with GPT-6 Astra",
+   "standfirst": "The benchmark firm scores Google's unreleased Gemini 4 Argon 53 on its Intelligence Index, with a 15% hallucination rate against 51% for GPT-6 Astra.",
+   "entities": [
+    "Google",
+    "Gemini 4 Argon",
+    "Artificial Analysis",
+    "GPT-6 Astra"
+   ],
+   "body": [
+    "Artificial Analysis says Google's Gemini 4 Argon scores 53 on its Intelligence Index, matching GPT-6 Astra at max effort and one point ahead of GPT-6.1 Sol at 52. The firm calls it a 23-point jump from Google's previous flagship. The model is not publicly available yet, and Artificial Analysis says it is rolling out to selected users.",
+    "The firm highlights a 15% hallucination rate, which it calls the lowest of any model scoring 45 or more on its index. It puts GPT-6 Astra at 51%. Artificial Analysis reads this as the model more readily admitting what it does not know. That is its interpretation of its own test, not a figure Google has published.",
+    "On cost, Artificial Analysis says Argon runs $1.99 per index task at a 50% promotional discount, about 60% of Astra's cost. After the discount ends, it says the figure rises to $3.98, around 1.2 times Astra. Arena, which ran its own head-to-head, said Argon came in 33% cheaper per task than GPT-6.1 Sol and 70% cheaper than Claude Opus 5.5.",
+    "Artificial Analysis also ranks Argon first on its AutomationBench at 78%, and lists a 1M-token context window with text, image, video and speech input. Google announced the model on 30 September. Because few people can use it, these results come from the benchmark firms alone, and the promotional price may change what a task costs in practice."
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs"
+    },
+    {
+     "author": "Arena",
+     "url": "https://x.com/arena/status/2105449871671173257"
+    },
+    {
+     "author": "DeepMind",
+     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "trump-frontier-responsibilities-accord",
+   "section": "policy",
+   "headline": "AI chiefs sign a White House pledge that is only morally binding",
+   "standfirst": "Executives from Google, Anthropic, Meta, OpenAI, SpaceXAI and Nvidia signed a Joint Commitment on Frontier Responsibilities that carries no legal force.",
+   "entities": [
+    "Trump",
+    "Joint Commitment on Frontier Responsibilities",
+    "Meta",
+    "OpenAI",
+    "Nvidia"
+   ],
+   "body": [
+    "President Trump and AI leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang and Elon Musk signed an AI code of conduct at the White House on Tuesday, The Decoder reported. Tom's Hardware names the document the Joint Commitment on Frontier Responsibilities and lists Google, Anthropic, Meta, OpenAI, SpaceXAI and Nvidia among the signatories.",
+    "The Decoder says the pledge is only \"morally binding\". It calls for outside auditors to check that models work as intended, and for a separate independent board to oversee internal safety checks meant to stop AI hacking into systems. The Decoder says what happens if a company breaks the rules is an open question. Ars Technica described it as voluntary safety tests.",
+    "Trump said his earlier claims that AI safety fears were a hoax no longer apply now that the technology has been renamed, The Verge reported. Tom's Hardware separately reported an executive order telling federal agencies to say \"Super Intelligence\" rather than artificial intelligence. Zuckerberg called the accord \"a starting point, not a final solution\", according to The Decoder.",
+    "Semafor reported, citing sources, that the accord grew out of a conversation between Zuckerberg and House Speaker Mike Johnson, and that Huang helped build support. The paper has not seen the Semafor piece and cannot confirm that account. The Wall Street Journal reported, also citing sources, that executives questioned Dario Amodei privately about his public warnings on AI risk.",
+    "Critics quoted by The Decoder argue that voluntary commitments without legislation cannot be enforced, and that similar approaches have been tried before. No auditor has been named in the coverage the paper has read, and it is unclear how the ten-member oversight committee Trump proposed would work."
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/"
+    },
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
+    },
+    {
+     "author": "Ars Technica",
+     "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "senate-blocks-ratepayer-protection-act",
    "section": "policy",
    "headline": "Senate blocks House-passed data-centre power bill 57-43 on party lines",

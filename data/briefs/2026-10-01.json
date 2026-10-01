@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-01T00:04:04.065422+00:00",
+  "generated_at": "2026-10-01T02:02:47.490134+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 110,
-  "clusters_found": 73,
-  "stories_declared": 9,
+  "posts_considered": 116,
+  "clusters_found": 80,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccfd45df6",
-      "score": 13.091,
+      "cluster_id": "c6d2abf4e",
+      "score": 15.623,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -17,69 +17,43 @@
         "OpenAI",
         "Anthropic",
         "Google",
-        "Hugging Face",
-        "Amazon"
+        "Hugging Face"
       ],
       "independent_sources": [
-        "AWS ML",
         "Ars Technica AI",
-        "TechCrunch AI",
-        "The Decoder"
+        "ArtificialAnlys",
+        "MIT Tech Review",
+        "The Decoder",
+        "arena"
       ],
-      "source_count": 4,
-      "first_seen": "2026-09-30T01:13:12+00:00",
-      "last_seen": "2026-09-30T23:43:07+00:00",
+      "source_count": 5,
+      "first_seen": "2026-09-30T10:40:30+00:00",
+      "last_seen": "2026-10-01T00:09:22+00:00",
       "links": [
         "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
-        "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
-        "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
-        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
         "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
         "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
-        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/"
+        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+        "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+        "https://x.com/ArtificialAnlys/status/2105449959554441580",
+        "https://x.com/arena/status/2105449871671173257"
       ],
       "posts": [
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore. Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
-          "created_at": "2026-09-30T01:13:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Amazon Bedrock expands Claude model availability to in-country inferencing in India. Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
-          "created_at": "2026-09-30T01:13:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
+          "author": "MIT Tech Review",
           "tier": "press",
-          "text": "Anthropic says Zhipu's open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits. Zhipu's open-weight model GLM-5.3 writes cyber exploits nearly as well as Claude Mythos Preview, according to Anthropic. Its smaller Flash variant put together a reliable Chrome attack for just $20.40 at Zhipu's API prices. The model's safeguards are easy to strip out, and unlocked versions are already circulating. Anthropic has its own reasons to sound the alarm, but the US agency CAISI backs up the findings. The article Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
-          "created_at": "2026-09-30T11:05:05+00:00",
+          "text": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer. Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+          "created_at": "2026-09-30T10:40:30+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances. Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
-          "created_at": "2026-09-30T15:21:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Query claims in natural language with Amazon Bedrock Knowledge Bases. This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
-          "created_at": "2026-09-30T15:37:15+00:00",
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "The Download: OpenAI’s chief research officer explains its hacking response. This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
+          "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+          "created_at": "2026-09-30T12:10:00+00:00",
           "engagement": 0
         },
         {
@@ -115,128 +89,26 @@
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "created_at": "2026-09-30T23:43:07+00:00",
-          "engagement": 0
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Gemini 4 Argon by @GoogleDeepMind went head-to-head with top frontier models. At 33% lower cost per task than GPT-6.1 Sol, and 70% lower than Claude Opus 5.5",
+          "url": "https://x.com/arena/status/2105449871671173257",
+          "created_at": "2026-10-01T00:09:01+00:00",
+          "engagement": 121
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "GPT-6.1 Sol has a ~30% lower Cost per Task than GPT-6 Sol, which was already ~half the cost of GPT-5.6 Sol",
+          "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
+          "created_at": "2026-10-01T00:09:22+00:00",
+          "engagement": 252
         }
       ]
     },
     {
-      "cluster_id": "ccf41f249",
-      "score": 9.952,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Meta",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "The Verge AI",
-        "Wired AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-30T00:41:46+00:00",
-      "last_seen": "2026-09-30T19:30:00+00:00",
-      "links": [
-        "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Bank of America says Meta’s Muse highlights a new risk for Apple’s services revenue. In a new investor note issued today, Bank of America says Meta’s new Muse AI agent highlights how third-party AI agents could increasingly bypass Apple’s ecosystem and threaten its services revenue. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/09/29/bank-of-america-says-metas-muse-highlights-a-new-risk-for-apples-services-revenue/",
-          "created_at": "2026-09-30T00:41:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-          "created_at": "2026-09-30T15:18:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
-          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-          "created_at": "2026-09-30T19:30:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce7185406",
-      "score": 9.509,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "Bloomberg Tech",
-        "DeepMind"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-09-30T19:52:42+00:00",
-      "last_seen": "2026-09-30T20:11:08+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-        "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Google Grapples With Employee Skepticism About New Gemini 4. Alphabet Inc.’s Google has begun rolling out Gemini 4 Argon, its long-awaited flagship artificial intelligence model, but the company is grappling with internal skepticism over how well it performs in key areas, such as coding.",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-30/google-grapples-with-employee-skepticism-about-new-gemini-model",
-          "created_at": "2026-09-30T19:52:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
-          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-          "created_at": "2026-09-30T20:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: our next era of frontier intelligence",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "created_at": "2026-09-30T20:01:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
-          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-          "created_at": "2026-09-30T20:11:08+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2299fcb5",
-      "score": 8.456,
+      "cluster_id": "c28cc3a9f",
+      "score": 14.404,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -245,15 +117,17 @@
       ],
       "independent_sources": [
         "Latent Space",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "thsottiaux"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-09-30T05:53:10+00:00",
-      "last_seen": "2026-09-30T22:23:40+00:00",
+      "last_seen": "2026-10-01T01:06:15+00:00",
       "links": [
         "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
         "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-        "https://www.latent.space/p/devday-2026"
+        "https://www.latent.space/p/devday-2026",
+        "https://x.com/thsottiaux/status/2105464274747527543"
       ],
       "posts": [
         {
@@ -279,12 +153,129 @@
           "url": "https://www.latent.space/p/devday-2026",
           "created_at": "2026-09-30T22:23:40+00:00",
           "engagement": 0
+        },
+        {
+          "author": "thsottiaux",
+          "tier": "commentary",
+          "text": "GPT-6.1 Sol is our most demanded model pretty much ever both across the API and subscriptions. Within ChatGPT & Codex, we were under heavy load, but have brought more capacity online and the speed should get much better in the coming hours, reaching almost twice the speed compared to what we served yesterday.",
+          "url": "https://x.com/thsottiaux/status/2105464274747527543",
+          "created_at": "2026-10-01T01:06:15+00:00",
+          "engagement": 4067
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0425ae16",
+      "score": 12.147,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
+        "DeepMind",
+        "TechCrunch AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-09-30T20:00:00+00:00",
+      "last_seen": "2026-09-30T23:43:07+00:00",
+      "links": [
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "created_at": "2026-09-30T20:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "created_at": "2026-09-30T20:01:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "created_at": "2026-09-30T20:11:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "created_at": "2026-09-30T23:43:07+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0c627ebc",
+      "score": 11.259,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Meta",
+        "Nvidia",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "kyleichan"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T14:37:24+00:00",
+      "last_seen": "2026-09-30T22:59:14+00:00",
+      "links": [
+        "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+        "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+        "https://x.com/kyleichan/status/2105432311059620261"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips. Deepseek and Huawei have built open-source programming tools for Huawei's Ascend AI chips. At the center is TileLang, a language designed to offer a simpler programming model than Nvidia's CUDA. The partnership targets the biggest obstacle for China's AI industry, which is software that gets the most out of domestic chips. The article China&#039;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#039;s Ascend chips appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+          "created_at": "2026-09-30T14:37:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta dodges billions in US taxes by calling its AI data centers experiments. Meta classifies its AI data centers as \"pilot models\" and Nvidia chips as experimental materials to save billions in federal taxes. In 2025 alone, that added up to $3.9 billion. The tax credit dates back to 1981, and even Meta's own accountants see the strategy as legally risky, the New York Times reports. Zuckerberg himself said in January 2025 that these data centers, now framed as experimental, would \"drive our core products and business.\" The article Meta dodges billions in US taxes by calling its AI data centers experiments appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+          "created_at": "2026-09-30T17:22:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kyleichan",
+          "tier": "commentary",
+          "text": "DeepSeek is gearing up to switch model training from Nvidia to Huawei chips, via TileLang.",
+          "url": "https://x.com/kyleichan/status/2105432311059620261",
+          "created_at": "2026-09-30T22:59:14+00:00",
+          "engagement": 156
         }
       ]
     },
     {
       "cluster_id": "cd1b0253d",
-      "score": 8.249,
+      "score": 7.919,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -350,8 +341,48 @@
       ]
     },
     {
+      "cluster_id": "c3825744b",
+      "score": 7.864,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "independent_sources": [
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-09-30T15:18:49+00:00",
+      "last_seen": "2026-09-30T19:30:00+00:00",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+        "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "All the latest news on Meta’s cute, creepy Muse AI agent. Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "created_at": "2026-09-30T15:18:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "The Battle to Be Your Personal AI Agent Is Here. OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
+          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+          "created_at": "2026-09-30T19:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c84e8f7f5",
-      "score": 7.349,
+      "score": 7.019,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -390,7 +421,7 @@
     },
     {
       "cluster_id": "c43ae3ed8",
-      "score": 5.531,
+      "score": 5.201,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -429,7 +460,7 @@
     },
     {
       "cluster_id": "cc2d322d5",
-      "score": 5.024,
+      "score": 4.694,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -472,7 +503,7 @@
     },
     {
       "cluster_id": "cd4425620",
-      "score": 4.531,
+      "score": 4.201,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
