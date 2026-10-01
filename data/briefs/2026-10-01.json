@@ -1,77 +1,51 @@
 {
-  "generated_at": "2026-10-01T16:03:36.496873+00:00",
+  "generated_at": "2026-10-01T18:03:06.411762+00:00",
   "edition_date": "2026-10-01",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 145,
-  "clusters_found": 111,
-  "stories_declared": 12,
+  "posts_considered": 122,
+  "clusters_found": 92,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2bffeac4",
-      "score": 18.129,
+      "cluster_id": "ce1193c55",
+      "score": 15.468,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
         "OpenAI",
         "Anthropic",
         "Google",
         "Nvidia",
-        "Hugging Face",
         "DeepSeek"
       ],
       "independent_sources": [
-        "Ars Technica AI",
-        "Bloomberg Tech",
-        "Engadget",
+        "AWS ML",
         "Latent Space",
-        "TechCrunch AI",
         "The Decoder",
         "Tom's Hardware",
-        "kimmonismus",
-        "synthwavedd"
+        "arena"
       ],
-      "source_count": 9,
-      "first_seen": "2026-09-30T16:20:04+00:00",
-      "last_seen": "2026-10-01T14:26:54+00:00",
+      "source_count": 5,
+      "first_seen": "2026-09-30T18:16:04+00:00",
+      "last_seen": "2026-10-01T16:51:02+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
         "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
-        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
         "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
         "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-        "https://www.bloomberg.com/news/videos/2026-10-01/google-rolls-out-ai-model-gemini-4-argon-video",
-        "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
         "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
         "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline",
-        "https://x.com/kimmonismus/status/2105648440323534947",
-        "https://x.com/synthwavedd/status/2105656478002798780"
+        "https://x.com/arena/status/2105702037849841954"
       ],
       "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns. The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes well beyond the FTC's earlier push to hold companies liable for their agents' behavior. The article FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-          "created_at": "2026-09-30T16:20:04+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Decoder",
           "tier": "press",
           "text": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats. Google is replacing Gems with \"Skills\" in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing \"/\" or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatically. The article Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats appeared first on The Decoder .",
           "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
           "created_at": "2026-09-30T18:16:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack. OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-          "created_at": "2026-09-30T18:25:04+00:00",
           "engagement": 0
         },
         {
@@ -83,27 +57,11 @@
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "created_at": "2026-09-30T23:43:07+00:00",
-          "engagement": 0
-        },
-        {
           "author": "Latent Space",
           "tier": "commentary",
           "text": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output. ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
           "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
           "created_at": "2026-10-01T06:45:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's first Gemini 4 model is 'Argon'. Google trained Gemini 4 Argon to be highly capable in knowledge work, cybersecurity defense and creative writing.",
-          "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
-          "created_at": "2026-10-01T09:26:30+00:00",
           "engagement": 0
         },
         {
@@ -115,102 +73,103 @@
           "engagement": 0
         },
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Seriously OpenAI? After positioning yourselves against Anthropic - with all those resets and posts - as the alternative with better rates?\n\nIt’s a shame things have come to this. First, they essentially \"halve\" the sub plans (and yes, I know Sol 6.1 is an extremely efficient model, but I’d like to use Astra 6.1 and all future ones at my regular weekly rates), and now the Pro usage limits, too.",
-          "url": "https://x.com/kimmonismus/status/2105648440323534947",
-          "created_at": "2026-10-01T13:18:03+00:00",
-          "engagement": 820
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Google Rolls Out AI Model Gemini 4 Argon. Alphabet's Google has begun rolling out Gemini 4 Argon, its long-awaited flagship artificial intelligence model, but even some insiders say it has underperformed in some areas. Bloomberg's Carmen Reinicke reports. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-01/google-rolls-out-ai-model-gemini-4-argon-video",
-          "created_at": "2026-10-01T13:40:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "synthwavedd",
-          "tier": "commentary",
-          "text": "It's gonna be pretty funny when Gemini 4 Argon launches for the public, underperforms relative to its benchmarks like almost all Gemini models, and is then beaten by new Anthropic and OpenAI models this month.",
-          "url": "https://x.com/synthwavedd/status/2105656478002798780",
-          "created_at": "2026-10-01T13:50:00+00:00",
-          "engagement": 1022
-        },
-        {
           "author": "The Decoder",
           "tier": "press",
           "text": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on. Anthropic is now offering Claude for Government to US federal and state agencies. The platform runs in a FedRAMP High environment, the strictest US security level for cloud services. Agencies get the same features as enterprise customers, pay for what they use with fixed spending caps, and can set budgets for each department. The Pentagon won't be using it because it still classifies Anthropic as a supply chain risk. The article Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on appeared first on The Decoder .",
           "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
           "created_at": "2026-10-01T14:26:54+00:00",
           "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Implementing Multi-Environment Access for Claude Platform on AWS. Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+          "created_at": "2026-10-01T16:32:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Exciting update: Claude Sonnet 5.5 with xHigh reasoning has landed in the Code Arena: WebDev. With 1786 pts, its ranked #3!\n\nAt a blended $8/M tokens, Claude Sonnet 5.5 remains on the Pareto frontier with xHigh reasoning. This release is just 2 pts from GPT-6 Astra in the #2 spot with 1788 pts, for 80% of the price.\n\nCongrats again to @AnthropicAI on this release!",
+          "url": "https://x.com/arena/status/2105702037849841954",
+          "created_at": "2026-10-01T16:51:02+00:00",
+          "engagement": 199
         }
       ]
     },
     {
-      "cluster_id": "c1be74c9e",
-      "score": 10.476,
-      "interest": "neutral",
+      "cluster_id": "cb1aef2fb",
+      "score": 11.515,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "ai",
       "entities": [
-        "Anthropic",
-        "Nvidia"
+        "Google"
       ],
       "independent_sources": [
+        "9to5Google",
         "Ars Technica AI",
-        "Bloomberg Tech",
-        "The Verge AI",
-        "axios"
+        "DeepMind",
+        "Engadget",
+        "TechCrunch AI"
       ],
-      "source_count": 4,
-      "first_seen": "2026-09-30T17:15:49+00:00",
-      "last_seen": "2026-10-01T13:42:30+00:00",
+      "source_count": 5,
+      "first_seen": "2026-09-30T20:00:00+00:00",
+      "last_seen": "2026-10-01T09:26:30+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-        "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-he-liked-anthropic-s-amodei-in-sign-of-detente",
-        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-        "https://x.com/axios/status/2105654591140585582"
+        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "https://www.engadget.com/2274263/google-gemini-4-model-argon/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan. After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-          "created_at": "2026-09-30T17:15:49+00:00",
+          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
+          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+          "created_at": "2026-09-30T20:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "created_at": "2026-09-30T20:01:45+00:00",
           "engagement": 0
         },
         {
           "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves. Trump gets dozens of AI firms to agree to voluntary safety tests.",
-          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-          "created_at": "2026-09-30T18:47:01+00:00",
+          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "created_at": "2026-09-30T20:11:08+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Trump Says He Liked Anthropic’s Amodei in Sign of Detente. President Donald Trump said he liked Anthropic PBC Chief Executive Officer Dario Amodei after a recent dinner, signaling a possible detente with the AI firm the Defense Department labeled a supply chain risk.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-he-liked-anthropic-s-amodei-in-sign-of-detente",
-          "created_at": "2026-10-01T12:18:57+00:00",
+          "text": "Google releases Gemini 4 Argon, called its most powerful model yet. Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "created_at": "2026-09-30T23:43:07+00:00",
           "engagement": 0
         },
         {
-          "author": "axios",
-          "tier": "commentary",
-          "text": "The great AI rebranding is on, led by President Trump and tech titans like Nvidia CEO Jensen Huang, who are embracing an alternative term: \"super intelligence,\" or SI and referring to data centers as \"super intelligence factories.\"",
-          "url": "https://x.com/axios/status/2105654591140585582",
-          "created_at": "2026-10-01T13:42:30+00:00",
-          "engagement": 72
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's first Gemini 4 model is 'Argon'. Google trained Gemini 4 Argon to be highly capable in knowledge work, cybersecurity defense and creative writing.",
+          "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
+          "created_at": "2026-10-01T09:26:30+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c8ace0faf",
-      "score": 9.75,
+      "score": 9.418,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -260,112 +219,8 @@
       ]
     },
     {
-      "cluster_id": "c0cc3df3c",
-      "score": 9.675,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "AravSrinivas",
-        "Product Hunt AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T16:47:18+00:00",
-      "last_seen": "2026-10-01T14:06:56+00:00",
-      "links": [
-        "https://www.producthunt.com/products/stardrift-for-ios",
-        "https://www.producthunt.com/products/utter-in",
-        "https://www.producthunt.com/products/vitra-ai-agentic-content-platform",
-        "https://www.producthunt.com/products/vorker-ai",
-        "https://x.com/AravSrinivas/status/2105660740799717599"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Vorker. AI Coworker Running Your Small Business Discussion | Link",
-          "url": "https://www.producthunt.com/products/vorker-ai",
-          "created_at": "2026-09-30T16:47:18+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Vitra.ai. Agentic content platform to create and localize content Discussion | Link",
-          "url": "https://www.producthunt.com/products/vitra-ai-agentic-content-platform",
-          "created_at": "2026-09-30T19:36:03+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Stardrift for iOS. The AI travel assistant in your pocket Discussion | Link",
-          "url": "https://www.producthunt.com/products/stardrift-for-ios",
-          "created_at": "2026-09-30T19:57:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "UTTER IN. Say it once and your AI assistant plans the rest Discussion | Link",
-          "url": "https://www.producthunt.com/products/utter-in",
-          "created_at": "2026-09-30T20:31:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AravSrinivas",
-          "tier": "commentary",
-          "text": "Today we’re launching a library of Amex-curated, ready-to-use skills in Perplexity Computer to eligible U.S. @AmexBusiness Small Business Card Members.",
-          "url": "https://x.com/AravSrinivas/status/2105660740799717599",
-          "created_at": "2026-10-01T14:06:56+00:00",
-          "engagement": 217,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "cac75d287",
-      "score": 9.119,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "IntCyberDigest",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T20:30:09+00:00",
-      "last_seen": "2026-10-01T13:25:51+00:00",
-      "links": [
-        "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-        "https://x.com/IntCyberDigest/status/2105650400594469213"
-      ],
-      "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear. Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters.",
-          "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-          "created_at": "2026-09-30T20:30:09+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "BREAKING: A China-aligned espionage group sent phishing lures to US AI policy experts while posing as a senior Anthropic employee and as Lynne Parker, the former top deputy at the White House science office, Proofpoint says.",
-          "url": "https://x.com/IntCyberDigest/status/2105650400594469213",
-          "created_at": "2026-10-01T13:25:51+00:00",
-          "engagement": 304
-        }
-      ]
-    },
-    {
       "cluster_id": "c32f17587",
-      "score": 8.17,
+      "score": 7.838,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -401,108 +256,32 @@
       ]
     },
     {
-      "cluster_id": "cfdc2a92b",
-      "score": 7.668,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Tom's Hardware",
-        "mark_k"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T12:00:00+00:00",
-      "last_seen": "2026-10-01T15:17:58+00:00",
-      "links": [
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-says-actors-linked-to-moonshot-ai-spearheaded-a-campaign-to-extract-its-models-hidden-reasoning-logged-attempts-peaked-at-16-000-users-over-two-days",
-        "https://x.com/mark_k/status/2105678615970988339"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "OpenAI says actors linked to China-based Moonshot AI spearheaded a campaign to extract its models’ hidden reasoning. OpenAI says operators copied its models’ encrypted reasoning and asked a model in a separate conversation to decrypt it.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-says-actors-linked-to-moonshot-ai-spearheaded-a-campaign-to-extract-its-models-hidden-reasoning-logged-attempts-peaked-at-16-000-users-over-two-days",
-          "created_at": "2026-10-01T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "A coordinated campaign tried to extract hidden reasoning from @OpenAI's models, according to a new report. The company attributes a core cluster to individuals associated with Moonshot AI, the company behind Kimi.\n\nThe technique is pretty wild: operators copied encrypted reasoning from one conversation into another, then asked the model to decrypt and transcribe it. The goal was to collect internal reasoning that could help train competing models. OpenAI recorded 16,000 extraction attempts during a two-day spike in July and identified related activity across more than 15,000 users.",
-          "url": "https://x.com/mark_k/status/2105678615970988339",
-          "created_at": "2026-10-01T15:17:58+00:00",
-          "engagement": 27
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7be7c2bc",
-      "score": 7.625,
+      "cluster_id": "cef171759",
+      "score": 6.29,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Apple ML",
-        "arXiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T17:51:30+00:00",
-      "last_seen": "2026-10-01T00:00:00+00:00",
-      "links": [
-        "https://arxiv.org/abs/2609.40303v1",
-        "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?. Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents - where LLMs have direct access to the execution environment through read, write, and bash primitives - has received little attention in the fiel",
-          "url": "https://arxiv.org/abs/2609.40303v1",
-          "created_at": "2026-09-30T17:51:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Apple ML",
-          "tier": "primary",
-          "text": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?. Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents—where LLMs have direct access to the execution environment through read, write, and bash primitives—has received little attention in the field…",
-          "url": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
-          "created_at": "2026-10-01T00:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7afa8ac6",
-      "score": 7.461,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
         "OpenAI"
       ],
       "independent_sources": [
         "Latent Space",
-        "arXiv"
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-09-30T17:48:06+00:00",
+      "first_seen": "2026-09-30T19:00:57+00:00",
       "last_seen": "2026-09-30T22:23:40+00:00",
       "links": [
-        "https://arxiv.org/abs/2609.40284v1",
+        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
         "https://www.latent.space/p/devday-2026"
       ],
       "posts": [
         {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents. Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespread adoption and deployment of CUAs remains their speed and cost. Progress towards faster yet capable CUAs requires reliable evaluation of their speed, but many CUA benchmarks currently face a reproducibility crisis. Benchmarks are based on complex infrastructure with varying machine and container co",
-          "url": "https://arxiv.org/abs/2609.40284v1",
-          "created_at": "2026-09-30T17:48:06+00:00",
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents. OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+          "created_at": "2026-09-30T19:00:57+00:00",
           "engagement": 0
         },
         {
@@ -516,57 +295,8 @@
       ]
     },
     {
-      "cluster_id": "ce762f4f7",
-      "score": 6.768,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "DeepMind"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-09-30T20:00:00+00:00",
-      "last_seen": "2026-09-30T20:11:08+00:00",
-      "links": [
-        "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon as its new frontier model. Gemini 4 Argon is Google’s “next era of frontier intelligence” and built for “deep reasoning across complex, long-horizon workflows.” It follows the cancellation of Gemini 3.5 Pro and focus on 3.8 Flash . more…",
-          "url": "https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
-          "created_at": "2026-09-30T20:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: our next era of frontier intelligence",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "created_at": "2026-09-30T20:01:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google announces Gemini 4 Argon AI model, but you can't use it yet. So much for Gemini 3.5 Pro.",
-          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-          "created_at": "2026-09-30T20:11:08+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cd3149cbb",
-      "score": 5.775,
+      "score": 5.443,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -597,49 +327,6 @@
           "text": "How smaller, distributed batteries could help the grid. If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;",
           "url": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
           "created_at": "2026-10-01T10:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce2a68ffa",
-      "score": 3.625,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-09-30T17:22:34+00:00",
-      "last_seen": "2026-09-30T17:27:37+00:00",
-      "links": [
-        "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-        "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta dodges billions in US taxes by calling its AI data centers experiments. Meta classifies its AI data centers as \"pilot models\" and Nvidia chips as experimental materials to save billions in federal taxes. In 2025 alone, that added up to $3.9 billion. The tax credit dates back to 1981, and even Meta's own accountants see the strategy as legally risky, the New York Times reports. Zuckerberg himself said in January 2025 that these data centers, now framed as experimental, would \"drive our core products and business.\" The article Meta dodges billions in US taxes by calling its AI data centers experiments appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
-          "created_at": "2026-09-30T17:22:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Top AI tech executives promise to ‘self-police’ AI development. The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
-          "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
-          "created_at": "2026-09-30T17:27:37+00:00",
           "engagement": 0
         }
       ]
