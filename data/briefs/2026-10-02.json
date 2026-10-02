@@ -1,81 +1,89 @@
 {
-  "generated_at": "2026-10-02T02:03:27.737326+00:00",
+  "generated_at": "2026-10-02T04:04:47.840549+00:00",
   "edition_date": "2026-10-02",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 122,
-  "clusters_found": 101,
+  "posts_considered": 126,
+  "clusters_found": 106,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cd81995f1",
-      "score": 12.661,
-      "interest": "want",
+      "cluster_id": "c6d8316f2",
+      "score": 11.254,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "Google"
-      ],
+      "suggested_section": "ai",
+      "entities": [],
       "independent_sources": [
-        "ArtificialAnlys",
-        "Latent Space"
+        "reach_vb",
+        "thsottiaux"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-01T06:45:05+00:00",
-      "last_seen": "2026-10-02T00:17:12+00:00",
+      "first_seen": "2026-10-02T02:14:51+00:00",
+      "last_seen": "2026-10-02T03:51:49+00:00",
       "links": [
-        "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-        "https://x.com/ArtificialAnlys/status/2105814318294114720"
+        "https://x.com/reach_vb/status/2105868331039510878",
+        "https://x.com/thsottiaux/status/2105843926221660585"
       ],
       "posts": [
         {
-          "author": "Latent Space",
+          "author": "thsottiaux",
           "tier": "commentary",
-          "text": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output. ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
-          "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-          "created_at": "2026-10-01T06:45:05+00:00",
-          "engagement": 0
+          "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+          "url": "https://x.com/thsottiaux/status/2105843926221660585",
+          "created_at": "2026-10-02T02:14:51+00:00",
+          "engagement": 9447
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "reach_vb",
           "tier": "commentary",
-          "text": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has a different balance of performance and cost\n\nClaude Sonnet 5.5 (max) in Claude Code takes the top spot at 68, but also has the highest measured cost per task: $14.19\n\nGemini 4 Argon (high) in Antigravity CLI scores 64 at $5.84 per task - less than half of Sonnet 5.5's cost. Note, this uses Google's promotional pricing",
-          "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
-          "created_at": "2026-10-02T00:17:12+00:00",
-          "engagement": 338
+          "text": "GPT 6.1 Sol is now a good, cheap AND fast model, sir!\n\nAlso, global reset on Friday, 2nd October - 10AM PT\n\nEnjoy!!",
+          "url": "https://x.com/reach_vb/status/2105868331039510878",
+          "created_at": "2026-10-02T03:51:49+00:00",
+          "engagement": 34
         }
       ]
     },
     {
-      "cluster_id": "c0ca27887",
-      "score": 12.586,
-      "interest": "neutral",
+      "cluster_id": "c8deade36",
+      "score": 10.905,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Nvidia"
+        "Meta",
+        "Nvidia",
+        "Amazon"
       ],
       "independent_sources": [
         "NVIDIA",
-        "OpenAI",
-        "nvidia"
+        "Stratechery",
+        "The Verge AI"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-01T16:00:00+00:00",
-      "last_seen": "2026-10-01T23:57:49+00:00",
+      "first_seen": "2026-10-01T10:00:00+00:00",
+      "last_seen": "2026-10-01T23:44:13+00:00",
       "links": [
         "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-        "https://openai.com/index/albertsons-reimagining-retail",
-        "https://x.com/nvidia/status/2105809442365423918"
+        "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+        "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
       ],
       "posts": [
         {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "How Albertsons Companies is reimagining retail from the inside out. Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-          "url": "https://openai.com/index/albertsons-reimagining-retail",
-          "created_at": "2026-10-01T16:00:00+00:00",
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart. An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart.",
+          "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+          "created_at": "2026-10-01T10:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI’s new agent is a shot at Meta — but can it compete with free?. At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+          "created_at": "2026-10-01T14:36:50+00:00",
           "engagement": 0
         },
         {
@@ -85,70 +93,12 @@
           "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
           "created_at": "2026-10-01T23:44:13+00:00",
           "engagement": 0
-        },
-        {
-          "author": "nvidia",
-          "tier": "commentary",
-          "text": "Up to 8x faster, and now you know why ⚡️@openai GPT-6 Astra Ultrafast runs on NVIDIA\n\nRead the story",
-          "url": "https://x.com/nvidia/status/2105809442365423918",
-          "created_at": "2026-10-01T23:57:49+00:00",
-          "engagement": 357,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccc739cf7",
-      "score": 11.788,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "IntCyberDigest",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-01T12:00:00+00:00",
-      "last_seen": "2026-10-01T23:49:28+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-        "https://x.com/IntCyberDigest/status/2105807341593501741"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-          "created_at": "2026-10-01T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-          "created_at": "2026-10-01T19:47:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "Google launched one of its AI chips into orbit for the first time today, and says data centers in space will only work if Starship flies about 1,800 times in 10 years. A Planet Labs-built satellite carried the Google TPU up on a SpaceX rocket, the first hardware test for Project Suncatcher.",
-          "url": "https://x.com/IntCyberDigest/status/2105807341593501741",
-          "created_at": "2026-10-01T23:49:28+00:00",
-          "engagement": 58
         }
       ]
     },
     {
       "cluster_id": "cc1ef1f89",
-      "score": 9.357,
+      "score": 9.02,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -197,49 +147,48 @@
       ]
     },
     {
-      "cluster_id": "c0a1ece27",
-      "score": 7.048,
+      "cluster_id": "c42171c08",
+      "score": 8.648,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Meta",
+        "Nvidia",
         "Amazon"
       ],
       "independent_sources": [
-        "Stratechery",
-        "The Verge AI"
+        "AWS ML",
+        "NVIDIA Developer"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-01T10:00:00+00:00",
-      "last_seen": "2026-10-01T14:36:50+00:00",
+      "first_seen": "2026-10-01T17:34:56+00:00",
+      "last_seen": "2026-10-01T18:13:29+00:00",
       "links": [
-        "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
-        "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+        "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+        "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/"
       ],
       "posts": [
         {
-          "author": "Stratechery",
-          "tier": "commentary",
-          "text": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart. An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart.",
-          "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
-          "created_at": "2026-10-01T10:00:00+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors. Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+          "created_at": "2026-10-01T17:34:56+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI’s new agent is a shot at Meta — but can it compete with free?. At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-          "created_at": "2026-10-01T14:36:50+00:00",
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills. AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as...",
+          "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
+          "created_at": "2026-10-01T18:13:29+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c32f17587",
-      "score": 6.503,
+      "score": 6.166,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -276,7 +225,7 @@
     },
     {
       "cluster_id": "c6968bfe4",
-      "score": 5.526,
+      "score": 5.189,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -314,8 +263,47 @@
       ]
     },
     {
+      "cluster_id": "c172146ec",
+      "score": 5.075,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T12:00:00+00:00",
+      "last_seen": "2026-10-01T19:47:51+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "created_at": "2026-10-01T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+          "created_at": "2026-10-01T19:47:51+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ca3a1b006",
-      "score": 4.376,
+      "score": 4.038,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "policy",
@@ -364,7 +352,7 @@
     },
     {
       "cluster_id": "c4536056b",
-      "score": 3.799,
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
