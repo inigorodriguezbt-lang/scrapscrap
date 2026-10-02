@@ -354,6 +354,87 @@
    "published_at": "2026-10-02T05:12:01+00:00",
    "tag": "research",
    "id": "apple-s-loopcd-paper-says-it"
+  },
+  {
+   "text": "Andrej Karpathy shared an eval that asks an LLM \"Land or Water?\" for a latitude and longitude given as text, repeated 16,200 times and plotted as an image. He says the models know.",
+   "why": "The map comes out recognisable from text alone, which Karpathy takes as evidence of how much world structure models absorb from compressing the internet.",
+   "source": {
+    "name": "Andrej Karpathy",
+    "url": "https://x.com/karpathy/status/2105909609487872075"
+   },
+   "published_at": "2026-10-02T06:35:51+00:00",
+   "id": "andrej-karpathy-shared-an-eval-that"
+  },
+  {
+   "text": "Korean local media say Samsung is quoting mid-to-high $4 per gigabit for HBM4 in talks with major customers, per analyst Jukan, over three times the $1.50 per gigabit of HBM3E.",
+   "why": "HBM is the scarce part of AI accelerators, so a tripled price per bit would feed straight into the cost of future GPUs.",
+   "source": {
+    "name": "Jukan on X",
+    "url": "https://x.com/jukan05/status/2105907093291299105"
+   },
+   "published_at": "2026-10-02T06:25:51+00:00",
+   "id": "korean-local-media-say-samsung-is"
+  },
+  {
+   "text": "Theo says T3 Code, his open-source coding-agent app, now has over 400,000 users, a figure he posted without a breakdown of how active they are.",
+   "why": "It puts a solo-led agent front end among the larger independent tools next to the coding tools the labs ship themselves.",
+   "source": {
+    "name": "Theo on X",
+    "url": "https://x.com/theo/status/2105921113603952853"
+   },
+   "published_at": "2026-10-02T07:21:34+00:00",
+   "id": "theo-says-t3-code-his-open"
+  },
+  {
+   "text": "Codync, an MIT-licensed Rust tool, runs Claude Code, Codex, Cursor and 40-plus other agents as named bots on your own machine, with approvals from iPhone, Mac, Linux or terminal; its repo has 54 stars.",
+   "why": "It pitches itself as an open alternative to Meta's Muse and OpenAI's Dots, keeping transcripts and code local, though the project is early.",
+   "source": {
+    "name": "Codync on GitHub",
+    "url": "https://github.com/leepokai/Codync"
+   },
+   "published_at": "2026-10-02T04:45:31+00:00",
+   "id": "codync-an-mit-licensed-rust-tool"
+  },
+  {
+   "text": "Elon Musk says Tesla decided to nudge its AI5 chip up to 96GB of memory, so it would not be the only company using the minimum-RAM version of LP5.",
+   "why": "It revises his earlier statement that AI5 would carry 72GB, a change of a third in memory for Tesla's in-car and robot silicon.",
+   "source": {
+    "name": "Elon Musk on X",
+    "url": "https://x.com/elonmusk/status/2105930010205024419"
+   },
+   "published_at": "2026-10-02T07:56:55+00:00",
+   "id": "elon-musk-says-tesla-decided-to"
+  },
+  {
+   "text": "Commentator Rohan Paul posted a clip in which Mark Zuckerberg says a multi-gigawatt training cluster would approximate AGI, with superintelligence beyond it, from The Next Big Thing YouTube channel.",
+   "why": "Zuckerberg is arguing Meta needs scale, not a new modelling idea, to get there, which frames the company's heavy data-centre spending.",
+   "source": {
+    "name": "Rohan Paul on X",
+    "url": "https://x.com/rohanpaul_ai/status/2105901942090469690"
+   },
+   "published_at": "2026-10-02T06:05:23+00:00",
+   "embed": "https://x.com/rohanpaul_ai/status/2105901942090469690",
+   "id": "commentator-rohan-paul-posted-a-clip"
+  },
+  {
+   "text": "Commentator Kol Tregaskes says GPT-6.1 Sol is coming to ChatGPT chat mode soon, because it is reaching Copilot chat \"in phases over the coming week\".",
+   "why": "It is an inference from the Copilot rollout notice, not an OpenAI announcement, so the ChatGPT timing is unconfirmed.",
+   "source": {
+    "name": "Kolt Regaskes on X",
+    "url": "https://x.com/koltregaskes/status/2105908646609895538"
+   },
+   "published_at": "2026-10-02T06:32:01+00:00",
+   "id": "commentator-kol-tregaskes-says-gpt-6"
+  },
+  {
+   "text": "AWS published a walkthrough of using Amazon S3 Vectors as the persistent memory layer in NVIDIA's NeMo Agent Toolkit, deployed on Amazon EKS, explaining how the toolkit's memory subsystem works.",
+   "why": "It is a reference setup for giving agents long-term memory on cheap object storage rather than a dedicated vector database.",
+   "source": {
+    "name": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/"
+   },
+   "published_at": "2026-10-01T17:34:56+00:00",
+   "id": "aws-published-a-walkthrough-of-using"
   }
  ]
 }

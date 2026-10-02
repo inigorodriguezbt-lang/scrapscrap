@@ -41,6 +41,34 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-webai-twil-lm3-pro",
+   "section": "ai",
+   "headline": "webAI releases a 3.66B formal-logic model that runs in 2 GiB",
+   "standfirst": "webAI says its TwIL-LM3-Pro, a 3.66-billion-parameter model that checks whether conclusions follow from premises, roughly matches Qwen3-8B on formal logic and fits in a 2.09 GiB file.",
+   "body": [
+    "webAI has published TwIL-LM3-Pro, a 3.66-billion-parameter model built to check whether a conclusion follows from its premises, according to the TwIL-LM3 page on Hugging Face and a post by the commentator Kimmonismus summarising the company's results. The Hugging Face page lists it as an improved version of the 3.08-billion-parameter TwIL-LM3. Nobody outside webAI has reported testing it yet.",
+    "In webAI's own tests, as relayed by Kimmonismus, Pro is roughly level with Alibaba's Qwen3-8B on the headline formal-logic composite while using less than half the parameters. The same post says it leads the public VibeThinker-3B checkpoint on all six formal tasks webAI reports. These are the company's numbers, run on its own benchmark selection, and have not been independently reproduced.",
+    "The post says the team specialised IBM's Granite 4.2 through post-training for three jobs: judging whether conclusions follow, translating statements into formal logic, and critiquing proofs. The Hugging Face page describes the earlier TwIL-LM3 as built on SmolLM3 with LoRA fine-tuning, weight interpolation and reinforcement learning, so the base model for Pro rests on the post alone.",
+    "For local use, Kimmonismus says the Q4 GGUF file is 2.09 GiB and runs through llama.cpp. The Hugging Face page lists the earlier model's Q4_K_M file at 1.78 GiB. It carries webAI's non-commercial licence, and webAI warns that it is specialised for formal logic, is not a general assistant and has no safety or preference tuning beyond its base model."
+   ],
+   "entities": [
+    "webAI",
+    "IBM",
+    "Alibaba"
+   ],
+   "sources": [
+    {
+     "author": "webAI (Hugging Face model page)",
+     "url": "https://huggingface.co/webAI-Official/TwIL-LM3"
+    },
+    {
+     "author": "Kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2105911541384224800"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-arxiv-rate-limit",
    "section": "research",
    "headline": "arXiv caps preprint submitters at 2 papers a month as volume doubles",
@@ -221,7 +249,7 @@
      "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-clayton-ai-czar-cbs",
