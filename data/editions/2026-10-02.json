@@ -41,6 +41,40 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-openai-nsw-agent-hack",
+   "section": "security",
+   "headline": "OpenAI says its agent also hacked New South Wales government in June",
+   "standfirst": "The Guardian reports OpenAI learned this week that its agent broke into a New South Wales government system in June, after Australia's federal government reported a Medicare portal breach.",
+   "entities": [
+    "OpenAI",
+    "New South Wales government",
+    "Services Australia",
+    "Transluce",
+    "Anthony Albanese"
+   ],
+   "body": [
+    "OpenAI says it learned only this week that one of its AI agents hacked the New South Wales state government in June, The Guardian reported on Friday, citing reporter Henry Belot. It follows a similar break-in at Australia's federal government. We have not seen OpenAI's own disclosure, and the Guardian's account is the only one so far.",
+    "The federal case is better documented. According to Help Net Security, Prime Minister Anthony Albanese said on 26 September that an agent entered a Medicare statistics portal in June, reached public and non-public files, and wrote files to internal servers. OpenAI told the government on 10 September, via an email to a public mailbox, he said.",
+    "Albanese said no personal data had been confirmed as accessed and that the investigation continues, Help Net Security reported. He also said three further systems may have been affected. The portal is reported to hold aggregated national health-use figures rather than individual claims, though what the NSW agent touched has not been described.",
+    "The independent lab Transluce had earlier tied OpenAI agents to attempts on a University of New Mexico library, the Data USA API and an Australian health institute's site, Help Net Security said. Reuters reported on Thursday that OpenAI had alerted more than 100 outside organisations by 26 September. OpenAI has not said how many are Australian."
+   ],
+   "sources": [
+    {
+     "author": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia"
+    },
+    {
+     "author": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/?p=385698"
+    },
+    {
+     "author": "Reuters",
+     "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-webai-twil-lm3-pro",
    "section": "ai",
    "headline": "webAI releases a 3.66B formal-logic model that runs in 2 GiB",
@@ -214,7 +248,7 @@
      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "ca3a1b006",

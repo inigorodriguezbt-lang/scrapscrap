@@ -1,59 +1,118 @@
 {
-  "generated_at": "2026-10-02T10:03:34.469555+00:00",
+  "generated_at": "2026-10-02T12:04:06.437403+00:00",
   "edition_date": "2026-10-02",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 127,
-  "clusters_found": 104,
-  "stories_declared": 9,
+  "posts_considered": 125,
+  "clusters_found": 108,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c7546b1d8",
-      "score": 11.494,
+      "cluster_id": "cd824e2d1",
+      "score": 10.826,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "The Verge AI",
+        "rohanpaul_ai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T19:47:51+00:00",
+      "last_seen": "2026-10-02T10:32:00+00:00",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+        "https://x.com/rohanpaul_ai/status/2105969038018892134"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+          "created_at": "2026-10-01T19:47:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "New Google paper reveals how Gemini found new proofs for 5 unsolved math problems.\n\nOrganize AI like a research team with strict checkers and shared notes:\n\nGoogle's system, Cogentic, gives Gemini that structure. Several agents try different ideas at once, checkers assume every step is wrong until proven, and proven pieces are saved for the next round.\n\nMost problems took only about 100 model calls, and human experts confirmed every proof.",
+          "url": "https://x.com/rohanpaul_ai/status/2105969038018892134",
+          "created_at": "2026-10-02T10:32:00+00:00",
+          "engagement": 59
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf8fffa2b",
+      "score": 10.808,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic",
-        "Google"
+        "DeepSeek"
       ],
       "independent_sources": [
-        "Product Hunt AI",
+        "Hesamation",
         "testingcatalog"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-01T10:21:53+00:00",
-      "last_seen": "2026-10-02T09:03:11+00:00",
+      "first_seen": "2026-10-02T11:19:25+00:00",
+      "last_seen": "2026-10-02T11:32:54+00:00",
       "links": [
-        "https://www.producthunt.com/products/cloudflare-clef",
-        "https://www.producthunt.com/products/codync",
-        "https://www.producthunt.com/products/earlyn",
-        "https://www.producthunt.com/products/never-boring-ai",
-        "https://x.com/testingcatalog/status/2105946688430973153"
+        "https://x.com/Hesamation/status/2105980972558627237",
+        "https://x.com/testingcatalog/status/2105984366359036069"
       ],
       "posts": [
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Never Boring AI. The AI agent that writes your LinkedIn posts in your voice Discussion | Link",
-          "url": "https://www.producthunt.com/products/never-boring-ai",
-          "created_at": "2026-10-01T10:21:53+00:00",
-          "engagement": 0
+          "author": "Hesamation",
+          "tier": "commentary",
+          "text": "found this free Harness Engineering course on GitHub with 14 lectures + 8 hands-on projects. it covers:\n\n> how Claude Code, Codex, DeepSeek build their harness\n> loop & graph engineering\n> automated agent loops\n> observability, testing and verification\nreally good source for learning harness essentials by doing.",
+          "url": "https://x.com/Hesamation/status/2105980972558627237",
+          "created_at": "2026-10-02T11:19:25+00:00",
+          "engagement": 33
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Clef. Open-source decision models from Cloudflare Discussion | Link",
-          "url": "https://www.producthunt.com/products/cloudflare-clef",
-          "created_at": "2026-10-01T20:58:54+00:00",
-          "engagement": 0
-        },
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DEEPSEEK 🔥: A new DeepSeek Harness app is now available for macOS, Windows, and Linux. \n\nDeepSeek Harness v0.2 is a desktop app powered by DeepSeek models that can execute work and coding tasks. \n\nPlugins and Workspaces are supported out of the box. \n\nInto the Unknown 👀",
+          "url": "https://x.com/testingcatalog/status/2105984366359036069",
+          "created_at": "2026-10-02T11:32:54+00:00",
+          "engagement": 42
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca0ec8553",
+      "score": 8.578,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Product Hunt AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T14:36:50+00:00",
+      "last_seen": "2026-10-02T04:45:31+00:00",
+      "links": [
+        "https://www.producthunt.com/products/codync",
+        "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+      ],
+      "posts": [
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Earlyn. Searchable memory of your screen and meetings, on your Mac Discussion | Link",
-          "url": "https://www.producthunt.com/products/earlyn",
-          "created_at": "2026-10-02T02:00:35+00:00",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI’s new agent is a shot at Meta — but can it compete with free?. At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+          "created_at": "2026-10-01T14:36:50+00:00",
           "engagement": 0
         },
         {
@@ -63,152 +122,38 @@
           "url": "https://www.producthunt.com/products/codync",
           "created_at": "2026-10-02T04:45:31+00:00",
           "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF — Oct 2. SPACEXAI: Grok 4.7 is rolling out in the Grok web and mobile apps. It is now the base model across all modes: Fast, Expert, Build, and Heavy. Primary Bot is rolling out gradually. Grok Build got an Agent Dashboard via /dashboard. Grok 4.7 is now available on Google's Gemini Enterprise Agent Platform. ANTHROPIC: Mods landed in Claude Code: small TypeScript/JavaScript functions that can rewrite prompts, replac",
-          "url": "https://x.com/testingcatalog/status/2105946688430973153",
-          "created_at": "2026-10-02T09:03:11+00:00",
-          "engagement": 53
         }
       ]
     },
     {
-      "cluster_id": "c83e00b46",
-      "score": 9.683,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "arXiv",
-        "askalphaxiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T17:58:38+00:00",
-      "last_seen": "2026-10-02T08:44:40+00:00",
-      "links": [
-        "https://arxiv.org/abs/2610.02185v1",
-        "https://x.com/askalphaxiv/status/2105942026432684469"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Decoding Looped Transformers Better for (Almost) Free. Looped Transformers achieve parameter efficiency by repeatedly executing a shared block across recurrent loops. Each loop yields an intermediate representation decodable for the same next token, yet standard decoding discards earlier states. Because earlier loops embody less computation, recurrence inherently supplies aligned weak-and-strong prediction pairs without auxiliary models or external training. We introduce LoopCD, a training-free contrastive decoding framework that guides token selection by contrasting the final prediction with an earlier recurrent pass, operating either in logit sp",
-          "url": "https://arxiv.org/abs/2610.02185v1",
-          "created_at": "2026-10-01T17:58:38+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "askalphaxiv",
-          "tier": "commentary",
-          "text": "Decoding Looped Transformers Better for (Almost) Free. On Ouro-2.6B-Thinking, AIME 2024 accuracy jumps from 61.9% to 73.3%; using half the recurrent loops can match full-depth decoding while cutting forward FLOPs by up to 48.2%",
-          "url": "https://x.com/askalphaxiv/status/2105942026432684469",
-          "created_at": "2026-10-02T08:44:40+00:00",
-          "engagement": 76
-        }
-      ]
-    },
-    {
-      "cluster_id": "c49bd3a7b",
-      "score": 9.616,
+      "cluster_id": "c29754098",
+      "score": 8.235,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T12:00:00+00:00",
-      "last_seen": "2026-10-02T09:20:39+00:00",
-      "links": [
-        "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/",
-        "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-says-actors-linked-to-moonshot-ai-spearheaded-a-campaign-to-extract-its-models-hidden-reasoning-logged-attempts-peaked-at-16-000-users-over-two-days"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "OpenAI says actors linked to China-based Moonshot AI spearheaded a campaign to extract its models’ hidden reasoning. OpenAI says operators copied its models’ encrypted reasoning and asked a model in a separate conversation to decrypt it.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-says-actors-linked-to-moonshot-ai-spearheaded-a-campaign-to-extract-its-models-hidden-reasoning-logged-attempts-peaked-at-16-000-users-over-two-days",
-          "created_at": "2026-10-01T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI says it stopped a campaign to steal its models' reasoning, but the trick still worked on Azure. OpenAI says it stopped a coordinated campaign in which more than 15,000 accounts tried to copy the hidden reasoning of its models. The company ties part of the activity to people connected to Moonshot AI. But researchers found that the same attack kept working on Microsoft Azure for weeks, even against the new GPT-6 Astra. So far, OpenAI's protections don't seem to extend to the cloud platforms that also sell its models. The article OpenAI says it stopped a campaign to steal its models&#039; reasoning, but the trick still worked on Azure appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
-          "created_at": "2026-10-01T12:05:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Microsoft AI releases new transcription and text-to-speech models for voice agents. Microsoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription. The article Microsoft AI releases new transcription and text-to-speech models for voice agents appeared first on The Decoder .",
-          "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/",
-          "created_at": "2026-10-02T09:20:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c5a37fe28",
-      "score": 9.458,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "chips",
       "entities": [
         "OpenAI",
         "Nvidia",
-        "DeepSeek",
-        "Amazon"
+        "AMD"
       ],
       "independent_sources": [
-        "AWS ML",
         "NVIDIA",
         "Tom's Hardware"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-01T10:30:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-01T13:00:00+00:00",
       "last_seen": "2026-10-01T23:44:13+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
         "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline"
+        "https://www.tomshardware.com/video-games/pc-gaming/gears-of-war-e-day-pc-graphics-performance-tested-43-gpus-take-us-back-to-the-start-of-an-iconic-saga"
       ],
       "posts": [
         {
           "author": "Tom's Hardware",
           "tier": "press",
-          "text": "Firm rents four Nvidia H200s to test '80x cheaper' DeepSeek claim. A call center consultancy rented four Nvidia H200s to run DeepSeek V4.1 Flash for Claude Code and found DeepSeek's API cheaper.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline",
-          "created_at": "2026-10-01T10:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Implementing Multi-Environment Access for Claude Platform on AWS. Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
-          "created_at": "2026-10-01T16:32:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore. Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
-          "created_at": "2026-10-01T22:06:14+00:00",
+          "text": "Gears of War: E-Day PC graphics performance tested. Gears of War: E-Day is the first game to implement Unreal Engine's MegaLights technology, allowing for hundreds of dynamic ray-traced light sources in a scene. We put it to the test on 43 graphics cards to see what this next-gen feature demands across three generations of GPUs from Nvidia, AMD, and Intel.",
+          "url": "https://www.tomshardware.com/video-games/pc-gaming/gears-of-war-e-day-pc-graphics-performance-tested-43-gpus-take-us-back-to-the-start-of-an-iconic-saga",
+          "created_at": "2026-10-01T13:00:00+00:00",
           "engagement": 0
         },
         {
@@ -262,45 +207,8 @@
       ]
     },
     {
-      "cluster_id": "c32f17587",
-      "score": 6.125,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "The Decoder",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T11:30:00+00:00",
-      "last_seen": "2026-10-01T13:19:33+00:00",
-      "links": [
-        "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/",
-        "https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "AI agents inadvertently leak 13,000+ internal screenshots from organizations. AI agents have been quietly uploading internal screenshots from over 300 companies to public GitHub repos, some of which contain sensitive information.",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab",
-          "created_at": "2026-10-01T11:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly. AI agents quietly posted more than 13,000 internal screenshots from 343 organizations, including Fortune 500 companies, to public GitHub repos. Because the platform didn't offer a protected way to upload them, the agents came up with a workaround on their own. The exposed images showed customer data, login credentials, and details about unreleased products. The article Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly appeared first on The Decoder .",
-          "url": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/",
-          "created_at": "2026-10-01T13:19:33+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c6968bfe4",
-      "score": 4.192,
+      "score": 3.857,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -338,47 +246,8 @@
       ]
     },
     {
-      "cluster_id": "c172146ec",
-      "score": 4.078,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T12:00:00+00:00",
-      "last_seen": "2026-10-01T19:47:51+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-          "created_at": "2026-10-01T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-          "created_at": "2026-10-01T19:47:51+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "ca3a1b006",
-      "score": 3.042,
+      "score": 2.852,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "policy",
