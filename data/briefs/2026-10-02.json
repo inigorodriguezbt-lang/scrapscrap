@@ -1,93 +1,153 @@
 {
-  "generated_at": "2026-10-02T12:04:06.437403+00:00",
+  "generated_at": "2026-10-02T14:04:17.516735+00:00",
   "edition_date": "2026-10-02",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 125,
-  "clusters_found": 108,
-  "stories_declared": 7,
+  "posts_considered": 116,
+  "clusters_found": 99,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cd824e2d1",
-      "score": 10.826,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "The Verge AI",
-        "rohanpaul_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T19:47:51+00:00",
-      "last_seen": "2026-10-02T10:32:00+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-        "https://x.com/rohanpaul_ai/status/2105969038018892134"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-          "created_at": "2026-10-01T19:47:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "New Google paper reveals how Gemini found new proofs for 5 unsolved math problems.\n\nOrganize AI like a research team with strict checkers and shared notes:\n\nGoogle's system, Cogentic, gives Gemini that structure. Several agents try different ideas at once, checkers assume every step is wrong until proven, and proven pieces are saved for the next round.\n\nMost problems took only about 100 model calls, and human experts confirmed every proof.",
-          "url": "https://x.com/rohanpaul_ai/status/2105969038018892134",
-          "created_at": "2026-10-02T10:32:00+00:00",
-          "engagement": 59
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf8fffa2b",
-      "score": 10.808,
+      "cluster_id": "cdcc733c4",
+      "score": 11.257,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "DeepSeek"
+        "Nvidia",
+        "Microsoft"
       ],
       "independent_sources": [
-        "Hesamation",
-        "testingcatalog"
+        "Engadget",
+        "NVIDIA",
+        "NVIDIA Developer"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T11:19:25+00:00",
-      "last_seen": "2026-10-02T11:32:54+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-01T17:59:27+00:00",
+      "last_seen": "2026-10-02T13:30:00+00:00",
       "links": [
-        "https://x.com/Hesamation/status/2105980972558627237",
-        "https://x.com/testingcatalog/status/2105984366359036069"
+        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
+        "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/"
       ],
       "posts": [
         {
-          "author": "Hesamation",
-          "tier": "commentary",
-          "text": "found this free Harness Engineering course on GitHub with 14 lectures + 8 hands-on projects. it covers:\n\n> how Claude Code, Codex, DeepSeek build their harness\n> loop & graph engineering\n> automated agent loops\n> observability, testing and verification\nreally good source for learning harness essentials by doing.",
-          "url": "https://x.com/Hesamation/status/2105980972558627237",
-          "created_at": "2026-10-02T11:19:25+00:00",
-          "engagement": 33
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples. Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now...",
+          "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
+          "created_at": "2026-10-01T17:59:27+00:00",
+          "engagement": 0
         },
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DEEPSEEK 🔥: A new DeepSeek Harness app is now available for macOS, Windows, and Linux. \n\nDeepSeek Harness v0.2 is a desktop app powered by DeepSeek models that can execute work and coding tasks. \n\nPlugins and Workspaces are supported out of the box. \n\nInto the Unknown 👀",
-          "url": "https://x.com/testingcatalog/status/2105984366359036069",
-          "created_at": "2026-10-02T11:32:54+00:00",
-          "engagement": 42
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "created_at": "2026-10-02T13:00:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "What to expect at Microsoft's Windows, Surface and AI event on October 7. We'll definitely hear about the NVIDIA RTX Spark-powered Surface Laptop Ultra, but what else?",
+          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
+          "created_at": "2026-10-02T13:30:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c04061d21",
+      "score": 9.976,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T16:32:23+00:00",
+      "last_seen": "2026-10-02T13:50:00+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+        "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Implementing Multi-Environment Access for Claude Platform on AWS. Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+          "created_at": "2026-10-01T16:32:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore. Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+          "created_at": "2026-10-01T22:06:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts. Amazon and chip design tool maker Synopsys have inked a multi-year partnership worth over a billion dollars. As part of the arrangement, Amazon will license Synopsys' chip designs and its design tools to create and optimize new AI chips. Synopsys will adopt Amazon Bedrock to build and deploy AI agents, and adopt AWS computing and storage services, while optimizing its own tools for Amazon hardware.",
+          "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+          "created_at": "2026-10-02T13:50:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c37c768d1",
+      "score": 9.065,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T12:51:08+00:00",
+      "last_seen": "2026-10-02T13:44:35+00:00",
+      "links": [
+        "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+        "https://www.bloomberg.com/news/videos/2026-10-02/blackstone-banks-gather-60b-for-broadcom-ai-chip-deal-video"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Three firings and a fourth departure shake up OpenAI's safety team. OpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal. The article Three firings and a fourth departure shake up OpenAI&#039;s safety team appeared first on The Decoder .",
+          "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+          "created_at": "2026-10-02T12:51:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Blackstone, Banks Gather $60 Billon for Broadcom AI Chip Deal. Broadcom’s Wall Street syndicate is starting to gather $60 billion of fresh AI chip financing to benefit Anthropic PBC and other companies, according to people with knowledge of the matter. Carmen Reinicke has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-02/blackstone-banks-gather-60b-for-broadcom-ai-chip-deal-video",
+          "created_at": "2026-10-02T13:44:35+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ca0ec8553",
-      "score": 8.578,
+      "score": 8.244,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -121,47 +181,6 @@
           "text": "Codync. The open-source alternative to Grok Bot, Muse and Dots Discussion | Link",
           "url": "https://www.producthunt.com/products/codync",
           "created_at": "2026-10-02T04:45:31+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c29754098",
-      "score": 8.235,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "OpenAI",
-        "Nvidia",
-        "AMD"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T13:00:00+00:00",
-      "last_seen": "2026-10-01T23:44:13+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-        "https://www.tomshardware.com/video-games/pc-gaming/gears-of-war-e-day-pc-graphics-performance-tested-43-gpus-take-us-back-to-the-start-of-an-iconic-saga"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Gears of War: E-Day PC graphics performance tested. Gears of War: E-Day is the first game to implement Unreal Engine's MegaLights technology, allowing for hundreds of dynamic ray-traced light sources in a scene. We put it to the test on 43 graphics cards to see what this next-gen feature demands across three generations of GPUs from Nvidia, AMD, and Intel.",
-          "url": "https://www.tomshardware.com/video-games/pc-gaming/gears-of-war-e-day-pc-graphics-performance-tested-43-gpus-take-us-back-to-the-start-of-an-iconic-saga",
-          "created_at": "2026-10-01T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast. GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-          "created_at": "2026-10-01T23:44:13+00:00",
           "engagement": 0
         }
       ]
@@ -207,8 +226,48 @@
       ]
     },
     {
+      "cluster_id": "ce2929eba",
+      "score": 6.39,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "OpenAI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T16:00:00+00:00",
+      "last_seen": "2026-10-01T23:44:13+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+        "https://openai.com/index/albertsons-reimagining-retail"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "How Albertsons Companies is reimagining retail from the inside out. Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "created_at": "2026-10-01T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast. GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+          "created_at": "2026-10-01T23:44:13+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c6968bfe4",
-      "score": 3.857,
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",

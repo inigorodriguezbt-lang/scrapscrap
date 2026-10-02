@@ -536,6 +536,46 @@
    },
    "published_at": "2026-10-02T11:15:00+00:00",
    "id": "tom-s-hardware-reports-micro-center"
+  },
+  {
+   "text": "Nvidia released DIN Deploy, an open-source set of C++ samples that run Whisper, Parakeet, SAM 2.1 and FLUX.2-klein-4B through ONNX Runtime and TensorRT RTX. Nvidia says Whisper-large-v3-turbo hits 58.5x real time on DGX Spark.",
+   "why": "It gives developers a ready-made route to local speech and vision apps on Windows and Linux, though the speed figures are Nvidia's own measurements.",
+   "source": {
+    "name": "NVIDIA Developer Blog",
+    "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/"
+   },
+   "published_at": "2026-10-01T17:59:27+00:00",
+   "id": "nvidia-released-din-deploy-an-open"
+  },
+  {
+   "text": "Engadget expects Microsoft to price its Surface Laptop Ultra at the 7 October event in San Francisco. It says the laptop uses Nvidia's RTX Spark chip, with 6,144 Blackwell cores, 20 Arm CPU cores and up to 128GB of memory.",
+   "why": "Engadget's preview points to a laptop built for running models locally, priced, it suggests, for true AI diehards rather than ordinary buyers.",
+   "source": {
+    "name": "Engadget",
+    "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/"
+   },
+   "published_at": "2026-10-02T13:30:00+00:00",
+   "id": "engadget-expects-microsoft-to-price-its"
+  },
+  {
+   "text": "Bloomberg reports US authorities arrested a California man suspected of smuggling more than $300 million of restricted Nvidia AI chips to China through Malaysia and Singapore between 2023 and 2024.",
+   "why": "It is the latest in a run of cases that experts quoted by Bloomberg say point to gaps in Nvidia's due diligence over where its chips end up.",
+   "source": {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-02/man-charged-by-us-with-illegally-shipping-nvidia-chips-to-china"
+   },
+   "published_at": "2026-10-02T09:44:00+00:00",
+   "id": "bloomberg-reports-us-authorities-arrested-a"
+  },
+  {
+   "text": "AlphaXiv highlighted SkillRefiner, a paper on agents that improve their own skills from past traces, without new rollouts. The authors report using 1.4 to 13 times fewer refinement tokens than the baseline across eight settings.",
+   "why": "The method treats an agent's deployment history like a bug database, turning repeated failures into guardrails, which could cut the cost of keeping agents tuned.",
+   "source": {
+    "name": "alphaXiv on X",
+    "url": "https://x.com/askalphaxiv/status/2106005528438771775"
+   },
+   "published_at": "2026-10-02T12:57:00+00:00",
+   "id": "alphaxiv-highlighted-skillrefiner-a-paper-on"
   }
  ]
 }

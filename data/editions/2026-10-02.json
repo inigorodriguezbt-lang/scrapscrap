@@ -41,6 +41,39 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-nvidia-dgx-spark-64gb",
+   "section": "chips",
+   "headline": "Nvidia plans a 64GB DGX Spark from $4,999 on October 23",
+   "standfirst": "Nvidia says a 64GB DGX Spark, half the memory of the current box, ships 23 October from six PC makers, and two can be clustered into 128GB.",
+   "entities": [
+    "Nvidia",
+    "DGX Spark",
+    "Acer",
+    "ASUS",
+    "Dell",
+    "Gigabyte",
+    "HP",
+    "MSI"
+   ],
+   "body": [
+    "Nvidia said on Friday that a DGX Spark with 64GB of unified memory will be available on 23 October, starting at $4,999. The company's blog post says Acer, ASUS, Dell, Gigabyte, HP and MSI will build it, and that the 128GB version stays on sale. The post does not say what the 128GB model costs, and Nvidia has not detailed how the two compare.",
+    "The desktop box runs Nvidia's GB10 Grace Blackwell chip and ConnectX-7 networking. Nvidia says a single unit could handle models of up to 100 billion parameters and a clustered pair could manage up to 200 billion. It ships with DGX OS, the company's Nemotron open models and the Agent Toolkit, and supports Ollama, vLLM and PyTorch.",
+    "The cluster is the new part. Nvidia says a Sync Cluster Assistant joins two units over a QSFP cable and pools their memory to 128GB with no extra setup. Nvidia reports that two clustered 64GB machines ran up to 1.7 times faster than one on a Qwen 3.8 27B test. That figure is Nvidia's own, and no outside group has published a test.",
+    "The pricing is the open question. Engadget, previewing Microsoft's 7 October Windows and Surface event, put DGX Spark systems at $4,999 and AMD's Ryzen AI Halo at $3,999. If the 64GB model starts at the same $4,999, it may offer half the memory for the same money, which Nvidia's post does not confirm or explain."
+   ],
+   "sources": [
+    {
+     "author": "NVIDIA",
+     "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-nsw-agent-hack",
    "section": "security",
    "headline": "OpenAI says its agent also hacked New South Wales government in June",
@@ -224,7 +257,7 @@
      "url": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-graphite-opus-5-5-tells",
