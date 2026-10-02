@@ -1,15 +1,154 @@
 {
-  "generated_at": "2026-10-02T00:03:10.048666+00:00",
+  "generated_at": "2026-10-02T02:03:27.737326+00:00",
   "edition_date": "2026-10-02",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 97,
-  "clusters_found": 82,
-  "stories_declared": 7,
+  "posts_considered": 122,
+  "clusters_found": 101,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "cd81995f1",
+      "score": 12.661,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "ArtificialAnlys",
+        "Latent Space"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T06:45:05+00:00",
+      "last_seen": "2026-10-02T00:17:12+00:00",
+      "links": [
+        "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+        "https://x.com/ArtificialAnlys/status/2105814318294114720"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output. ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
+          "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+          "created_at": "2026-10-01T06:45:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has a different balance of performance and cost\n\nClaude Sonnet 5.5 (max) in Claude Code takes the top spot at 68, but also has the highest measured cost per task: $14.19\n\nGemini 4 Argon (high) in Antigravity CLI scores 64 at $5.84 per task - less than half of Sonnet 5.5's cost. Note, this uses Google's promotional pricing",
+          "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+          "created_at": "2026-10-02T00:17:12+00:00",
+          "engagement": 338
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0ca27887",
+      "score": 12.586,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "OpenAI",
+        "nvidia"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-01T16:00:00+00:00",
+      "last_seen": "2026-10-01T23:57:49+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+        "https://openai.com/index/albertsons-reimagining-retail",
+        "https://x.com/nvidia/status/2105809442365423918"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "How Albertsons Companies is reimagining retail from the inside out. Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "created_at": "2026-10-01T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast. GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+          "created_at": "2026-10-01T23:44:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "nvidia",
+          "tier": "commentary",
+          "text": "Up to 8x faster, and now you know why ⚡️@openai GPT-6 Astra Ultrafast runs on NVIDIA\n\nRead the story",
+          "url": "https://x.com/nvidia/status/2105809442365423918",
+          "created_at": "2026-10-01T23:57:49+00:00",
+          "engagement": 357,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "ccc739cf7",
+      "score": 11.788,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "IntCyberDigest",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-01T12:00:00+00:00",
+      "last_seen": "2026-10-01T23:49:28+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+        "https://x.com/IntCyberDigest/status/2105807341593501741"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "created_at": "2026-10-01T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+          "created_at": "2026-10-01T19:47:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "Google launched one of its AI chips into orbit for the first time today, and says data centers in space will only work if Starship flies about 1,800 times in 10 years. A Planet Labs-built satellite carried the Google TPU up on a SpaceX rocket, the first hardware test for Project Suncatcher.",
+          "url": "https://x.com/IntCyberDigest/status/2105807341593501741",
+          "created_at": "2026-10-01T23:49:28+00:00",
+          "engagement": 58
+        }
+      ]
+    },
+    {
       "cluster_id": "cc1ef1f89",
-      "score": 9.691,
+      "score": 9.357,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -58,48 +197,8 @@
       ]
     },
     {
-      "cluster_id": "ce2929eba",
-      "score": 8.726,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "OpenAI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T16:00:00+00:00",
-      "last_seen": "2026-10-01T23:44:13+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-        "https://openai.com/index/albertsons-reimagining-retail"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "How Albertsons Companies is reimagining retail from the inside out. Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-          "url": "https://openai.com/index/albertsons-reimagining-retail",
-          "created_at": "2026-10-01T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast. GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-          "created_at": "2026-10-01T23:44:13+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c0a1ece27",
-      "score": 7.382,
+      "score": 7.048,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -140,7 +239,7 @@
     },
     {
       "cluster_id": "c32f17587",
-      "score": 6.838,
+      "score": 6.503,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -177,7 +276,7 @@
     },
     {
       "cluster_id": "c6968bfe4",
-      "score": 5.86,
+      "score": 5.526,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -215,8 +314,57 @@
       ]
     },
     {
+      "cluster_id": "ca3a1b006",
+      "score": 4.376,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-01T17:12:21+00:00",
+      "last_seen": "2026-10-01T20:11:55+00:00",
+      "links": [
+        "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+        "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
+        "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Judge dismisses antitrust lawsuits over Google’s AI Overviews. A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side in a ruling on Wednesday, writing that PMC [&#8230;]",
+          "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+          "created_at": "2026-10-01T17:12:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Judge dismisses lawsuits claiming Google's AI Overviews siphon web traffic. Google may have a monopoly in search, but neither lawsuit made a compelling case the company was leveraging it.",
+          "url": "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
+          "created_at": "2026-10-01T19:20:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search. The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
+          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+          "created_at": "2026-10-01T20:11:55+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c4536056b",
-      "score": 4.133,
+      "score": 3.799,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -250,45 +398,6 @@
           "text": "OpenAI says it stopped a campaign to steal its models' reasoning, but the trick still worked on Azure. OpenAI says it stopped a coordinated campaign in which more than 15,000 accounts tried to copy the hidden reasoning of its models. The company ties part of the activity to people connected to Moonshot AI. But researchers found that the same attack kept working on Microsoft Azure for weeks, even against the new GPT-6 Astra. So far, OpenAI's protections don't seem to extend to the cloud platforms that also sell its models. The article OpenAI says it stopped a campaign to steal its models&#039; reasoning, but the trick still worked on Azure appeared first on The Decoder .",
           "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
           "created_at": "2026-10-01T12:05:49+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c109fe705",
-      "score": 3.977,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T17:12:21+00:00",
-      "last_seen": "2026-10-01T20:11:55+00:00",
-      "links": [
-        "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-        "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Judge dismisses antitrust lawsuits over Google’s AI Overviews. A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side in a ruling on Wednesday, writing that PMC [&#8230;]",
-          "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-          "created_at": "2026-10-01T17:12:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search. The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
-          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-          "created_at": "2026-10-01T20:11:55+00:00",
           "engagement": 0
         }
       ]
