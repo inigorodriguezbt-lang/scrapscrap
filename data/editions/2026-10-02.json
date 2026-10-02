@@ -1,0 +1,104 @@
+{
+ "edition_date": "2026-10-02",
+ "stories": [
+  {
+   "cluster_id": "find-cursor-glm-5-3",
+   "section": "agents-coding",
+   "headline": "Cursor adds Z.ai's GLM 5.3 and says it tops open models",
+   "standfirst": "Cursor says GLM 5.3 Max is the best-scoring open-weight model on its own CursorBench 4.0, and has added both GLM 5.3 and a Flash variant to its editor.",
+   "entities": [
+    "Cursor",
+    "Z.ai",
+    "GLM 5.3"
+   ],
+   "body": [
+    "Cursor said on X on Thursday evening that GLM 5.3 and GLM 5.3 Flash are now available in its coding editor. In the same post the company said GLM 5.3 Max is the best-scoring open-weight model on CursorBench 4.0, a benchmark Cursor runs itself. The post had about 900 likes when we read it.",
+    "The scoring claim is Cursor's alone. We have not seen the CursorBench 4.0 methodology or the scores, and no outside group has published a comparison. Cursor's post does not say what a Max tier is or how it differs from the base model. Z.ai, the Chinese lab behind GLM, had not commented in the material we reviewed.",
+    "GLM-5.3 itself dates from August. According to an NYU Shanghai research note, Z.ai announced it on 14 August as a 743-billion-parameter mixture-of-experts model on the same base as June's GLM-5.2, with every gain coming from longer post-training. Z.ai held the weights back for roughly two weeks for a safety review.",
+    "The NYU note reports Z.ai's own coding numbers: Terminal-Bench rose from 4.6 to 28.3 and DeepSWE from 46.2 to 66.9 against GLM-5.2. It also says the model found 2,436 vulnerabilities across 269 open-source projects, 1,097 of them rated critical or high. Those figures come from Z.ai and have not been independently checked.",
+    "Gigazine reported that the weights went public on 29 August under a bespoke GLM-5.3 licence that requires a Z.ai security review for companies with more than $10 billion in annual revenue. The licence terms matter for anyone planning to ship the model inside a product, and they should be read directly."
+   ],
+   "sources": [
+    {
+     "author": "Cursor",
+     "url": "https://x.com/cursor_ai/status/2105787358557999585"
+    },
+    {
+     "author": "NYU Shanghai RITS",
+     "url": "https://rits.shanghai.nyu.edu/ai/glm-5-3-post-training-scales-cyber/"
+    },
+    {
+     "author": "Gigazine",
+     "url": "https://gigazine.net/gsc_news/en/20260829-glm-5-3-open/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/cursor_ai/status/2105787358557999585",
+     "after": 1
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-gpt-6-astra-ultrafast",
+   "section": "inference",
+   "headline": "OpenAI's GPT-6 Astra Ultrafast generates tokens up to 8x faster, Nvidia says",
+   "standfirst": "Nvidia says a new Ultrafast mode of GPT-6 Astra, running on Blackwell GPUs, produces tokens up to eight times faster than Astra Standard and is live in the API.",
+   "entities": [
+    "OpenAI",
+    "Nvidia",
+    "GPT-6 Astra",
+    "Blackwell"
+   ],
+   "body": [
+    "Nvidia said on Thursday that GPT-6 Astra Ultrafast, a faster serving mode of OpenAI's GPT-6 Astra, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. The company says it offers up to eight times faster token generation than Astra Standard, and runs on Nvidia Blackwell GPUs.",
+    "The speed figure comes from Nvidia's own blog post, which describes the mode as aimed at coding, tool use and interactive applications. It gives no benchmark method, no baseline hardware and no latency numbers, and the phrase up to means typical gains may be lower. OpenAI's own announcement was not part of the material we reviewed.",
+    "The post does not state a price, and sends readers to an Ultrafast guide for it. Faster serving modes usually cost more per token, but the size of any premium here is not confirmed. Developers should check the guide before moving production traffic onto the new mode.",
+    "Nvidia quotes two OpenAI executives. Philippe Tillet, its inference lead, said Nvidia's tooling and documentation helped OpenAI make its models exceptionally good at programming Blackwell. Uday Ruddarraju, its chief technology officer of compute, said OpenAI used internal models to optimise inference on Nvidia GPUs, and that this allows continuing gains after launch."
+   ],
+   "sources": [
+    {
+     "author": "NVIDIA",
+     "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-flux-3-image-testingcatalog",
+   "section": "generative-media",
+   "headline": "TestingCatalog reports Black Forest Labs' FLUX 3 Image is live in a playground",
+   "standfirst": "TestingCatalog says Black Forest Labs has announced FLUX 3 Image with 4K output and precise editing, with open weights planned for the coming weeks.",
+   "entities": [
+    "Black Forest Labs",
+    "FLUX 3",
+    "TestingCatalog"
+   ],
+   "body": [
+    "TestingCatalog, a site that reports on features found in apps and live tests, said late on Thursday that Black Forest Labs has announced FLUX 3 Image, a new image model for precise editing with support for 4K output. Users can already try the new features in the company's Tools Playground, it said, and open weights are planned within weeks.",
+    "This is a single-outlet report and the company's own page for the release was not available to us. TestingCatalog's post carries a video of the features. We could not confirm the 4K claim, the availability or the timing of open weights from Black Forest Labs, and the findings stay unconfirmed until the company confirms them.",
+    "The model was flagged earlier. Black Forest Labs' FLUX 3 announcement, dated 23 July, said FLUX 3 can synthesise and edit images in a wide range of styles, aspect ratios and resolutions. It said an early-access phase for FLUX 3 Image would open in the following weeks, and that open weights would come as FLUX 3 Dev over weeks and months.",
+    "That earlier post named no price or date for the image tier. If TestingCatalog is right, the playground release would be the first time the image model has been in public hands. The open-weights release matters most to the local-image community, which has built on earlier FLUX checkpoints, though no licence terms have been published."
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2105797384785502626"
+    },
+    {
+     "author": "Black Forest Labs",
+     "url": "https://bfl.ai/blog/flux-3"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2105797384785502626",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
