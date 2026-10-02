@@ -1,65 +1,103 @@
 {
-  "generated_at": "2026-10-02T16:03:34.194922+00:00",
+  "generated_at": "2026-10-02T18:03:02.053838+00:00",
   "edition_date": "2026-10-02",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 124,
-  "clusters_found": 104,
-  "stories_declared": 7,
+  "posts_considered": 96,
+  "clusters_found": 77,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cdcc733c4",
-      "score": 10.925,
+      "cluster_id": "c62fc6d24",
+      "score": 11.737,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "Nvidia",
-        "Microsoft"
+        "Google"
       ],
       "independent_sources": [
-        "Engadget",
-        "NVIDIA",
-        "NVIDIA Developer"
+        "9to5Google",
+        "The Verge AI",
+        "omarsar0"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-01T17:59:27+00:00",
-      "last_seen": "2026-10-02T13:30:00+00:00",
+      "first_seen": "2026-10-01T19:47:51+00:00",
+      "last_seen": "2026-10-02T17:55:05+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-        "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
-        "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/"
+        "https://9to5google.com/2026/10/02/gemini-app-map-tool/",
+        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+        "https://x.com/omarsar0/status/2106056369816420624"
       ],
       "posts": [
         {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples. Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now...",
-          "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
-          "created_at": "2026-10-01T17:59:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-          "created_at": "2026-10-02T13:00:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "What to expect at Microsoft's Windows, Surface and AI event on October 7. We'll definitely hear about the NVIDIA RTX Spark-powered Surface Laptop Ultra, but what else?",
-          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
-          "created_at": "2026-10-02T13:30:00+00:00",
+          "text": "Google’s new Guided Vision feature can help you read the fine print. Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+          "created_at": "2026-10-01T19:47:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "omarsar0",
+          "tier": "commentary",
+          "text": "Banger paper from Google Research on multi-agent proof discovery. Cogentic runs on Gemini and works on open problems in theoretical computer science.",
+          "url": "https://x.com/omarsar0/status/2106056369816420624",
+          "created_at": "2026-10-02T16:19:01+00:00",
+          "engagement": 47
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini app gains new ‘Map’ tool, replacing ‘/’ with ‘@’. Google has introduced a “Map” tool to aid your location-based Gemini app prompts on Android and iOS. Meanwhile, the Gemini app is already getting ready to replace the forward slash for skills. more…",
+          "url": "https://9to5google.com/2026/10/02/gemini-app-map-tool/",
+          "created_at": "2026-10-02T17:55:05+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cbc6560f0",
-      "score": 10.278,
+      "cluster_id": "c27c305d0",
+      "score": 11.552,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T15:39:41+00:00",
+      "last_seen": "2026-10-02T16:14:37+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+        "https://x.com/kimmonismus/status/2106055260787625992"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Pope Leo XIV is not a fan of AI-generated art. \"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
+          "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+          "created_at": "2026-10-02T15:39:41+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Anthropic co-founder Chris Olah reportedly proposed pulling the company out of Pope Leo XIV’s AI encyclical launch because its text rejected machine consciousness. A Vatican organizer told the NYT that Olah raised the idea after reading an advance copy of Magnifica Humanitas, days before the May 25 event.",
+          "url": "https://x.com/kimmonismus/status/2106055260787625992",
+          "created_at": "2026-10-02T16:14:37+00:00",
+          "engagement": 216
+        }
+      ]
+    },
+    {
+      "cluster_id": "c11b9ffca",
+      "score": 10.056,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -71,23 +109,14 @@
         "The Robot Report"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-01T17:52:51+00:00",
+      "first_seen": "2026-10-01T20:42:08+00:00",
       "last_seen": "2026-10-02T15:00:00+00:00",
       "links": [
         "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-        "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
         "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
         "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/"
       ],
       "posts": [
-        {
-          "author": "The Robot Report",
-          "tier": "press",
-          "text": "Boston Dynamics drops pinkie on new humanoid hand. Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do. The post Boston Dynamics drops pinkie on new humanoid hand appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
-          "created_at": "2026-10-01T17:52:51+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Robot Report",
           "tier": "press",
@@ -115,8 +144,8 @@
       ]
     },
     {
-      "cluster_id": "cf1620085",
-      "score": 9.994,
+      "cluster_id": "c4a532caf",
+      "score": 9.635,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -128,23 +157,14 @@
         "Tom's Hardware"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-01T16:32:23+00:00",
+      "first_seen": "2026-10-01T22:06:14+00:00",
       "last_seen": "2026-10-02T15:46:05+00:00",
       "links": [
         "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
         "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
         "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities"
       ],
       "posts": [
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Implementing Multi-Environment Access for Claude Platform on AWS. Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
-          "created_at": "2026-10-01T16:32:23+00:00",
-          "engagement": 0
-        },
         {
           "author": "AWS ML",
           "tier": "primary",
@@ -172,9 +192,106 @@
       ]
     },
     {
-      "cluster_id": "c37c768d1",
-      "score": 8.734,
+      "cluster_id": "c0cbe8a0d",
+      "score": 9.458,
       "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Product Hunt AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-01T20:58:54+00:00",
+      "last_seen": "2026-10-02T18:00:00+00:00",
+      "links": [
+        "https://www.producthunt.com/products/cloudflare-clef",
+        "https://www.producthunt.com/products/codync",
+        "https://www.producthunt.com/products/earlyn",
+        "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Clef. Open-source decision models from Cloudflare Discussion | Link",
+          "url": "https://www.producthunt.com/products/cloudflare-clef",
+          "created_at": "2026-10-01T20:58:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Earlyn. Searchable memory of your screen and meetings, on your Mac Discussion | Link",
+          "url": "https://www.producthunt.com/products/earlyn",
+          "created_at": "2026-10-02T02:00:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Codync. The open-source alternative to Grok Bot, Muse and Dots Discussion | Link",
+          "url": "https://www.producthunt.com/products/codync",
+          "created_at": "2026-10-02T04:45:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI’s Dot agent is enterprise software that can also order your dinner. It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "created_at": "2026-10-02T18:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c25957b90",
+      "score": 9.45,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T13:00:00+00:00",
+      "last_seen": "2026-10-02T13:00:39+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse. Nvidia is introducing a 64GB version of its DGX Spark local AI workstation that's tailored for a new generation of highly intelligent yet compact local models. Starting at $4999, the more affordable configuration is otherwise identical to the original 128GB Spark and its GB10 siblings.",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
+          "created_at": "2026-10-02T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "created_at": "2026-10-02T13:00:39+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6737d2ec",
+      "score": 4.271,
+      "interest": "dull",
       "single_source": false,
       "suggested_section": "chips",
       "entities": [
@@ -187,10 +304,11 @@
       ],
       "source_count": 2,
       "first_seen": "2026-10-02T12:51:08+00:00",
-      "last_seen": "2026-10-02T13:44:35+00:00",
+      "last_seen": "2026-10-02T15:37:50+00:00",
       "links": [
         "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
-        "https://www.bloomberg.com/news/videos/2026-10-02/blackstone-banks-gather-60b-for-broadcom-ai-chip-deal-video"
+        "https://www.bloomberg.com/news/videos/2026-10-02/blackstone-banks-gather-60b-for-broadcom-ai-chip-deal-video",
+        "https://www.bloomberg.com/news/videos/2026-10-02/nike-down-on-job-cuts-broadcom-gathers-ai-chip-funding-video"
       ],
       "posts": [
         {
@@ -208,45 +326,13 @@
           "url": "https://www.bloomberg.com/news/videos/2026-10-02/blackstone-banks-gather-60b-for-broadcom-ai-chip-deal-video",
           "created_at": "2026-10-02T13:44:35+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c42171c08",
-      "score": 7.79,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "NVIDIA Developer"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-01T17:34:56+00:00",
-      "last_seen": "2026-10-01T18:13:29+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
-        "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/"
-      ],
-      "posts": [
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors. Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
-          "created_at": "2026-10-01T17:34:56+00:00",
-          "engagement": 0
         },
         {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills. AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as...",
-          "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
-          "created_at": "2026-10-01T18:13:29+00:00",
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nike Slides on Job Cuts; Broadcom Gathers AI Chip Funding | Stock Movers. On this episode of Stock Movers: - Nike (NKE) shares continue their slide as it is cutting jobs and overhauling its business as results deteriorate, with a restructuring plan to save $2.5 billion over the next five years. The company expects a high-single-digit revenue decline this year, which is worse than the 2.4% drop projected by analysts, and shares of Nike fell as much as 9.7% in New York on Friday. - Broadcom (AVGO) shares are moving on news the company's Wall Street syndicate are starting to gather $60 billion of fresh AI chip financing to benefit Anthropic and other companies. - Fair ",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-02/nike-down-on-job-cuts-broadcom-gathers-ai-chip-funding-video",
+          "created_at": "2026-10-02T15:37:50+00:00",
           "engagement": 0
         }
       ]
@@ -286,55 +372,6 @@
           "text": "ChatGPT can now help you virtually try on clothes. Images are generated with OpenAI's latest model and you can save clothes you like for later.",
           "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/",
           "created_at": "2026-10-01T22:27:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca3a1b006",
-      "score": 2.852,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "Engadget",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-01T17:12:21+00:00",
-      "last_seen": "2026-10-01T20:11:55+00:00",
-      "links": [
-        "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-        "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
-        "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Judge dismisses antitrust lawsuits over Google’s AI Overviews. A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side in a ruling on Wednesday, writing that PMC [&#8230;]",
-          "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-          "created_at": "2026-10-01T17:12:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Judge dismisses lawsuits claiming Google's AI Overviews siphon web traffic. Google may have a monopoly in search, but neither lawsuit made a compelling case the company was leveraging it.",
-          "url": "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
-          "created_at": "2026-10-01T19:20:32+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search. The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
-          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-          "created_at": "2026-10-01T20:11:55+00:00",
           "engagement": 0
         }
       ]
