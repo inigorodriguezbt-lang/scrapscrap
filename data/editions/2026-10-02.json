@@ -41,6 +41,79 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-gemini-desktop-full-access",
+   "section": "agents-coding",
+   "headline": "Google's Gemini desktop app is testing a \"Full Access\" mode for computer use",
+   "standfirst": "A hidden setting in Google's Gemini desktop app would let it read, change or delete files anywhere on a Mac and act without asking first, TestingCatalog reports.",
+   "body": [
+    "TestingCatalog reported on Friday that the recent Gemini desktop app for Mac contains a hidden setting called \"Additional sandbox options\", which it describes as part of the app's computer use controls. The outlet says the setting is still hidden and tied to trusted testing. Google has not announced it, and nobody else has reported it yet.",
+    "According to the setting's text, as quoted by TestingCatalog, enabling it would let Gemini \"expand what Gemini can do and access on your Mac\". The warning says that, depending on the options chosen, Gemini may take actions without asking for permission first, including reading, creating, modifying or deleting files anywhere on the Mac, even outside chosen folders.",
+    "TestingCatalog also says the options could let Gemini reach the internet and work across other apps without approval at each step. High-stakes actions, such as purchases or approving legal documents, would still need human confirmation, the outlet says. That reading comes from the strings it found, not from a demo, and may not match what ships.",
+    "A feature in trusted testing gives no reliable launch date, the outlet notes, because some Gemini features move to release quickly while others stay gated for months. The find lands two days after Google announced Gemini 4 Argon, which is being evaluated for computer use. TestingCatalog says no direct link between the two has been confirmed."
+   ],
+   "entities": [
+    "Google",
+    "Gemini",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/gemini-desktop-to-get-broader-computer-use-permissions/"
+    },
+    {
+     "author": "TestingCatalog on X",
+     "url": "https://x.com/testingcatalog/status/2106041553806336167"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2106041553806336167",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-llamacpp-decision-models",
+   "section": "open-models",
+   "headline": "llama.cpp adds an endpoint for decision models",
+   "standfirst": "Georgi Gerganov says the latest llama.cpp builds serve decision models through a new /v1/systemone endpoint, and ggml-org has posted Kev-4B, a 4-billion-parameter model under Apache 2.0.",
+   "body": [
+    "Georgi Gerganov, who created llama.cpp, said on X on Friday that decision models are now available in the project's latest builds. In his post he describes a `/v1/systemone` endpoint for running this kind of inference \"locally\" and \"privately\", and says several open models are supported, with more to come. The post had about 450 likes when we read it.",
+    "Hugging Face chief executive Clément Delangue posted the same day that decision models now run on device in llama.cpp, with the command `llama serve -hf ggml-org/Kev-4B-GGUF`. The model card on Hugging Face lists Kev-4B as a 4-billion-parameter decision model built on Qwen3.5-4B-Base, with an adapter from developer Jared Palmer, under an Apache 2.0 licence.",
+    "The card lists three quantisations: a 4-bit file of 3.03 GB, an 8-bit file of 4.48 GB and a 16-bit file of 8.43 GB. It shows 245 downloads over the last month, and says no inference provider hosts it. We could not find release notes for the endpoint in the pages we opened, so how it behaves is unconfirmed.",
+    "The addition follows a week in which Perplexity and Cloudflare released their own small decision models. Whether the new endpoint works with those releases is not stated in the posts we read. No independent tests of Kev-4B or the endpoint have appeared yet, and its quality claims rest on its makers."
+   ],
+   "entities": [
+    "llama.cpp",
+    "Georgi Gerganov",
+    "Hugging Face",
+    "Kev-4B"
+   ],
+   "sources": [
+    {
+     "author": "Georgi Gerganov",
+     "url": "https://x.com/ggerganov/status/2106029758350032937"
+    },
+    {
+     "author": "Clément Delangue",
+     "url": "https://x.com/ClementDelangue/status/2106037207631008033"
+    },
+    {
+     "author": "Hugging Face",
+     "url": "https://huggingface.co/ggml-org/Kev-4B-GGUF"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ggerganov/status/2106029758350032937",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-nvidia-dgx-spark-64gb",
    "section": "chips",
    "headline": "Nvidia plans a 64GB DGX Spark from $4,999 on October 23",
@@ -208,7 +281,7 @@
      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-atlas-four-finger-hand",
@@ -231,7 +304,7 @@
      "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ideogram-4-5-editing",
