@@ -1,104 +1,55 @@
 {
-  "generated_at": "2026-10-03T20:03:02.422680+00:00",
+  "generated_at": "2026-10-03T22:10:42.875637+00:00",
   "edition_date": "2026-10-03",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 53,
-  "clusters_found": 44,
-  "stories_declared": 5,
+  "posts_considered": 47,
+  "clusters_found": 42,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cecde027d",
-      "score": 8.802,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Bloomberg Tech",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-02T20:08:40+00:00",
-      "last_seen": "2026-10-03T13:45:00+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/03/macpaw-leebry/",
-        "https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents",
-        "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk. Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]",
-          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-          "created_at": "2026-10-02T20:08:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Apple to Tighten Mac Data Controls in Guard Against AI Agents. Apple Inc. said it plans to introduce new privacy controls for Mac users, warning of the growing risks around granting broad data access to third-party software, including artificial intelligence agents.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents",
-          "created_at": "2026-10-02T20:50:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple @ Work: The numbers on AI trust for IT are not great, and one company is trying to fix it. Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage, and protect Apple devices at work. Over 45,000 organizations trust Mosyle to make millions of Apple devices work ready with no effort and at an affordable cost. Request your EXTENDED TRIAL today and understand why Mosyle is everything you need to work with Apple . MacPaw spent nearly two decades building consumer software for Mac users. CleanMyMac is",
-          "url": "https://9to5mac.com/2026/10/03/macpaw-leebry/",
-          "created_at": "2026-10-03T13:45:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2a348469",
-      "score": 8.694,
+      "cluster_id": "c782c0f84",
+      "score": 9.167,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
+        "OpenAI",
         "Anthropic"
       ],
       "independent_sources": [
         "The Decoder",
-        "theo"
+        "kimmonismus"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-03T07:12:09+00:00",
-      "last_seen": "2026-10-03T19:57:57+00:00",
+      "first_seen": "2026-10-03T18:56:30+00:00",
+      "last_seen": "2026-10-03T20:44:27+00:00",
       "links": [
-        "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-        "https://x.com/theo/status/2106473854113894520"
+        "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+        "https://x.com/kimmonismus/status/2106485554137448528"
       ],
       "posts": [
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside. Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code&#039;s new Mods system lets developers rewrite the AI coding tool from the inside appeared first on The Decoder .",
-          "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-          "created_at": "2026-10-03T07:12:09+00:00",
+          "text": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore. OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a \"real safety issue.\" His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building \"magic intelligence in the sky\" and feeling \"on the side of the angels\" working on AI. The article Apparently, OpenAI isn&#039;t trying to build \"magic intelligence in the sky\" anymore appeared first on The Decoder .",
+          "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+          "created_at": "2026-10-03T18:56:30+00:00",
           "engagement": 0
         },
         {
-          "author": "theo",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "Made more improvements to the usage view in T3 Code. measures all usage of Claude Code and Codex on your machines",
-          "url": "https://x.com/theo/status/2106473854113894520",
-          "created_at": "2026-10-03T19:57:57+00:00",
-          "engagement": 73,
-          "video": true
+          "text": "This appears to be a jab at Anthropic following a New York Times report about its private meetings with religious thinkers to discuss Claude’s possible consciousness and moral development.\n\nBased Sam take and I couldn’t agree more.",
+          "url": "https://x.com/kimmonismus/status/2106485554137448528",
+          "created_at": "2026-10-03T20:44:27+00:00",
+          "engagement": 236
         }
       ]
     },
     {
       "cluster_id": "c9066725a",
-      "score": 8.648,
+      "score": 8.293,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -146,7 +97,7 @@
     },
     {
       "cluster_id": "c7071f755",
-      "score": 8.284,
+      "score": 7.929,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -179,45 +130,6 @@
           "text": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike. The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
           "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
           "created_at": "2026-10-03T18:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc4e34fc0",
-      "score": 6.4,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T20:30:27+00:00",
-      "last_seen": "2026-10-03T18:43:57+00:00",
-      "links": [
-        "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-        "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
-      ],
-      "posts": [
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Amazon’s $1B plan to combat data center backlash draws more backlash. Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
-          "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-          "created_at": "2026-10-02T20:30:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Amazon responds to data center backlash, says it no longer uses NDAs. The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-          "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-          "created_at": "2026-10-03T18:43:57+00:00",
           "engagement": 0
         }
       ]
