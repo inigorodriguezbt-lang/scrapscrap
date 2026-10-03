@@ -1,0 +1,410 @@
+{
+  "generated_at": "2026-10-03T00:02:53.024734+00:00",
+  "edition_date": "2026-10-03",
+  "source_file": "/home/user/scrapscrap/data/raw",
+  "posts_considered": 97,
+  "clusters_found": 71,
+  "stories_declared": 8,
+  "front_page_slots": 7,
+  "stories": [
+    {
+      "cluster_id": "c0779161e",
+      "score": 12.945,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Tom's Hardware",
+        "ValsAI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-02T13:50:00+00:00",
+      "last_seen": "2026-10-02T22:01:24+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+        "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+        "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+        "https://x.com/ValsAI/status/2106142531142783187"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts. Amazon and chip design tool maker Synopsys have inked a multi-year partnership worth over a billion dollars. As part of the arrangement, Amazon will license Synopsys' chip designs and its design tools to create and optimize new AI chips. Synopsys will adopt Amazon Bedrock to build and deploy AI agents, and adopt AWS computing and storage services, while optimizing its own tools for Amazon hardware.",
+          "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+          "created_at": "2026-10-02T13:50:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore. Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+          "created_at": "2026-10-02T15:46:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern. The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+          "created_at": "2026-10-02T15:48:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ValsAI",
+          "tier": "commentary",
+          "text": "We realized that web search wasn’t being measured correctly and we weren’t alone. @ExaAILabs, @KeenableAI, @p0, and @tavilyai are joining us as partners on the Vals Web Search Index",
+          "url": "https://x.com/ValsAI/status/2106142531142783187",
+          "created_at": "2026-10-02T22:01:24+00:00",
+          "engagement": 55
+        }
+      ]
+    },
+    {
+      "cluster_id": "c65454ef5",
+      "score": 10.905,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "ArtificialAnlys",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T22:18:01+00:00",
+      "last_seen": "2026-10-02T23:32:35+00:00",
+      "links": [
+        "https://x.com/ArtificialAnlys/status/2106165480876863549",
+        "https://x.com/kimmonismus/status/2106146714566762987"
+      ],
+      "posts": [
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Utopai X just debuted at #2 on Artificial Analysis’ text-to-video leaderboard with audio. A strong result for a video model developed inside a film and TV studio.\n\nBuilt on MiniMax H3, it runs inside PAI, where filmmakers can keep scripts, visual references and earlier takes together while developing shots.\n\nUtopai says its directors and artists help train and evaluate the model through the takes they approve, reject and revise.",
+          "url": "https://x.com/kimmonismus/status/2106146714566762987",
+          "created_at": "2026-10-02T22:18:01+00:00",
+          "engagement": 28
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Compare AI models side by side with the Artificial Analysis model comparison tool\n\nSelect any model and compare them across: Intelligence Index scores, individual benchmarks, Capability Index scores, cost, output speed and latency\n\nExplore the tool: https://t.co/MqiOE6sB72",
+          "url": "https://x.com/ArtificialAnlys/status/2106165480876863549",
+          "created_at": "2026-10-02T23:32:35+00:00",
+          "engagement": 60,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1b274d18",
+      "score": 10.592,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Bloomberg Tech",
+        "Engadget",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-02T18:11:27+00:00",
+      "last_seen": "2026-10-02T20:50:08+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
+        "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+        "https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents",
+        "https://www.engadget.com/2276186/apple-sounds-the-alarm-on-ai-agents-and-full-disk-access/",
+        "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents. Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "created_at": "2026-10-02T18:11:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple says it’s tightening macOS privacy controls amid the rise of AI agents. Amid the rapid rise in AI agents requesting “Full Disk Access” to your Mac, Apple says it is making changes to macOS to protect user privacy. While the company hasn’t shared specifics, Apple says users should understand what it means to give an app such “extraordinary” access to their Mac. more…",
+          "url": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
+          "created_at": "2026-10-02T18:34:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple sounds the alarm on AI agents and 'Full Disk Access'. There's an increasingly high cost to convenience.",
+          "url": "https://www.engadget.com/2276186/apple-sounds-the-alarm-on-ai-agents-and-full-disk-access/",
+          "created_at": "2026-10-02T19:22:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk. Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]",
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "created_at": "2026-10-02T20:08:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Apple to Tighten Mac Data Controls in Guard Against AI Agents. Apple Inc. said it plans to introduce new privacy controls for Mac users, warning of the growing risks around granting broad data access to third-party software, including artificial intelligence agents.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-02/apple-to-tighten-mac-data-controls-in-guard-against-ai-agents",
+          "created_at": "2026-10-02T20:50:08+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd2b6ac31",
+      "score": 8.568,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Product Hunt AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T02:00:35+00:00",
+      "last_seen": "2026-10-02T18:00:00+00:00",
+      "links": [
+        "https://www.producthunt.com/products/codync",
+        "https://www.producthunt.com/products/earlyn",
+        "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Earlyn. Searchable memory of your screen and meetings, on your Mac Discussion | Link",
+          "url": "https://www.producthunt.com/products/earlyn",
+          "created_at": "2026-10-02T02:00:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Codync. The open-source alternative to Grok Bot, Muse and Dots Discussion | Link",
+          "url": "https://www.producthunt.com/products/codync",
+          "created_at": "2026-10-02T04:45:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI’s Dot agent is enterprise software that can also order your dinner. It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "created_at": "2026-10-02T18:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c25957b90",
+      "score": 8.451,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T13:00:00+00:00",
+      "last_seen": "2026-10-02T13:00:39+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse. Nvidia is introducing a 64GB version of its DGX Spark local AI workstation that's tailored for a new generation of highly intelligent yet compact local models. Starting at $4999, the more affordable configuration is otherwise identical to the original 128GB Spark and its GB10 siblings.",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
+          "created_at": "2026-10-02T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "created_at": "2026-10-02T13:00:39+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c43b49c49",
+      "score": 8.301,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [],
+      "independent_sources": [
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T09:42:19+00:00",
+      "last_seen": "2026-10-02T20:07:36+00:00",
+      "links": [
+        "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+        "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "AI music maker Suno now generates spoken words. Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music to accompany them. \"Music will always be at [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+          "created_at": "2026-10-02T09:42:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "AI music generator Suno can now create spoken audio with matching background music. Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno hasn't said how the model was trained. The article AI music generator Suno can now create spoken audio with matching background music appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+          "created_at": "2026-10-02T20:07:36+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7bc019c4",
+      "score": 7.892,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T14:53:41+00:00",
+      "last_seen": "2026-10-02T18:39:36+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China. U.S. authorities have arrested a California man accused of smuggling more than $300 million worth of export-controlled Nvidia-powered servers to China through Malaysia and Singapore, allegedly using false paperwork to conceal their final destination",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork",
+          "created_at": "2026-10-02T14:53:41+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China. Nvidia’s chip-smuggling problem won’t go away as arrests continue.",
+          "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+          "created_at": "2026-10-02T18:39:36+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd30fdfc1",
+      "score": 7.802,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Lobsters AI",
+        "Stratechery",
+        "TechCrunch AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-02T17:00:00+00:00",
+      "last_seen": "2026-10-02T22:15:22+00:00",
+      "links": [
+        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+        "https://stratechery.com/2026/dots-and-question-marks/",
+        "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+        "https://www.bloomberg.com/news/videos/2026-10-02/nyu-s-gary-marcus-on-ai-development-concerns-video"
+      ],
+      "posts": [
+        {
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "2026.40: Dots and Question Marks. The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day.",
+          "url": "https://stratechery.com/2026/dots-and-question-marks/",
+          "created_at": "2026-10-02T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House). This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "created_at": "2026-10-02T17:48:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it. This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+          "created_at": "2026-10-02T17:56:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Lobsters AI",
+          "tier": "commentary",
+          "text": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’. Comments",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+          "created_at": "2026-10-02T18:48:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "NYU's Gary Marcus on AI development concerns. Gary Marcus, Robust AI Inc. co-founder and former CEO, argues that developers, including OpenAI, lack sufficient safeguards for systems they can't reliably control. He speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-02/nyu-s-gary-marcus-on-ai-development-concerns-video",
+          "created_at": "2026-10-02T22:15:22+00:00",
+          "engagement": 0
+        }
+      ]
+    }
+  ]
+}
