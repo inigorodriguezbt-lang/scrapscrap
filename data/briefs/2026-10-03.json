@@ -1,111 +1,15 @@
 {
-  "generated_at": "2026-10-03T00:02:53.024734+00:00",
+  "generated_at": "2026-10-03T02:03:04.877098+00:00",
   "edition_date": "2026-10-03",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 97,
-  "clusters_found": 71,
-  "stories_declared": 8,
+  "posts_considered": 89,
+  "clusters_found": 68,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0779161e",
-      "score": 12.945,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "Tom's Hardware",
-        "ValsAI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-02T13:50:00+00:00",
-      "last_seen": "2026-10-02T22:01:24+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
-        "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
-        "https://x.com/ValsAI/status/2106142531142783187"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts. Amazon and chip design tool maker Synopsys have inked a multi-year partnership worth over a billion dollars. As part of the arrangement, Amazon will license Synopsys' chip designs and its design tools to create and optimize new AI chips. Synopsys will adopt Amazon Bedrock to build and deploy AI agents, and adopt AWS computing and storage services, while optimizing its own tools for Amazon hardware.",
-          "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
-          "created_at": "2026-10-02T13:50:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore. Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-          "created_at": "2026-10-02T15:46:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern. The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
-          "created_at": "2026-10-02T15:48:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "We realized that web search wasn’t being measured correctly and we weren’t alone. @ExaAILabs, @KeenableAI, @p0, and @tavilyai are joining us as partners on the Vals Web Search Index",
-          "url": "https://x.com/ValsAI/status/2106142531142783187",
-          "created_at": "2026-10-02T22:01:24+00:00",
-          "engagement": 55
-        }
-      ]
-    },
-    {
-      "cluster_id": "c65454ef5",
-      "score": 10.905,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "ArtificialAnlys",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T22:18:01+00:00",
-      "last_seen": "2026-10-02T23:32:35+00:00",
-      "links": [
-        "https://x.com/ArtificialAnlys/status/2106165480876863549",
-        "https://x.com/kimmonismus/status/2106146714566762987"
-      ],
-      "posts": [
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Utopai X just debuted at #2 on Artificial Analysis’ text-to-video leaderboard with audio. A strong result for a video model developed inside a film and TV studio.\n\nBuilt on MiniMax H3, it runs inside PAI, where filmmakers can keep scripts, visual references and earlier takes together while developing shots.\n\nUtopai says its directors and artists help train and evaluate the model through the takes they approve, reject and revise.",
-          "url": "https://x.com/kimmonismus/status/2106146714566762987",
-          "created_at": "2026-10-02T22:18:01+00:00",
-          "engagement": 28
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Compare AI models side by side with the Artificial Analysis model comparison tool\n\nSelect any model and compare them across: Intelligence Index scores, individual benchmarks, Capability Index scores, cost, output speed and latency\n\nExplore the tool: https://t.co/MqiOE6sB72",
-          "url": "https://x.com/ArtificialAnlys/status/2106165480876863549",
-          "created_at": "2026-10-02T23:32:35+00:00",
-          "engagement": 60,
-          "video": true
-        }
-      ]
-    },
-    {
       "cluster_id": "c1b274d18",
-      "score": 10.592,
+      "score": 10.259,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -173,8 +77,8 @@
       ]
     },
     {
-      "cluster_id": "cd2b6ac31",
-      "score": 8.568,
+      "cluster_id": "c1d5ffebb",
+      "score": 8.454,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -187,22 +91,13 @@
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-02T02:00:35+00:00",
+      "first_seen": "2026-10-02T04:45:31+00:00",
       "last_seen": "2026-10-02T18:00:00+00:00",
       "links": [
         "https://www.producthunt.com/products/codync",
-        "https://www.producthunt.com/products/earlyn",
         "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
       ],
       "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Earlyn. Searchable memory of your screen and meetings, on your Mac Discussion | Link",
-          "url": "https://www.producthunt.com/products/earlyn",
-          "created_at": "2026-10-02T02:00:35+00:00",
-          "engagement": 0
-        },
         {
           "author": "Product Hunt AI",
           "tier": "primary",
@@ -222,8 +117,56 @@
       ]
     },
     {
+      "cluster_id": "c54df6160",
+      "score": 8.308,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-02T13:50:00+00:00",
+      "last_seen": "2026-10-02T15:48:26+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+        "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+        "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts. Amazon and chip design tool maker Synopsys have inked a multi-year partnership worth over a billion dollars. As part of the arrangement, Amazon will license Synopsys' chip designs and its design tools to create and optimize new AI chips. Synopsys will adopt Amazon Bedrock to build and deploy AI agents, and adopt AWS computing and storage services, while optimizing its own tools for Amazon hardware.",
+          "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+          "created_at": "2026-10-02T13:50:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore. Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+          "created_at": "2026-10-02T15:46:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern. The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+          "created_at": "2026-10-02T15:48:26+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c25957b90",
-      "score": 8.451,
+      "score": 8.117,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -262,7 +205,7 @@
     },
     {
       "cluster_id": "c43b49c49",
-      "score": 8.301,
+      "score": 7.968,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -299,7 +242,7 @@
     },
     {
       "cluster_id": "c7bc019c4",
-      "score": 7.892,
+      "score": 7.558,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -337,8 +280,8 @@
       ]
     },
     {
-      "cluster_id": "cd30fdfc1",
-      "score": 7.802,
+      "cluster_id": "c59594dbf",
+      "score": 4.918,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
@@ -348,30 +291,18 @@
         "Meta"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
         "Lobsters AI",
-        "Stratechery",
         "TechCrunch AI"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-02T17:00:00+00:00",
-      "last_seen": "2026-10-02T22:15:22+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-02T17:48:16+00:00",
+      "last_seen": "2026-10-02T18:48:24+00:00",
       "links": [
         "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-        "https://stratechery.com/2026/dots-and-question-marks/",
         "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-        "https://www.bloomberg.com/news/videos/2026-10-02/nyu-s-gary-marcus-on-ai-development-concerns-video"
+        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/"
       ],
       "posts": [
-        {
-          "author": "Stratechery",
-          "tier": "commentary",
-          "text": "2026.40: Dots and Question Marks. The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day.",
-          "url": "https://stratechery.com/2026/dots-and-question-marks/",
-          "created_at": "2026-10-02T17:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
@@ -394,14 +325,6 @@
           "text": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’. Comments",
           "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
           "created_at": "2026-10-02T18:48:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "NYU's Gary Marcus on AI development concerns. Gary Marcus, Robust AI Inc. co-founder and former CEO, argues that developers, including OpenAI, lack sufficient safeguards for systems they can't reliably control. He speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-02/nyu-s-gary-marcus-on-ai-development-concerns-video",
-          "created_at": "2026-10-02T22:15:22+00:00",
           "engagement": 0
         }
       ]

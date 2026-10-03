@@ -26,6 +26,91 @@
     }
    ],
    "placement": "lead"
+  },
+  {
+   "cluster_id": "find-decision-models-clef-decider",
+   "section": "open-models",
+   "headline": "Cloudflare and Perplexity release open 27B decision models built on Qwen",
+   "standfirst": "Cloudflare's Clef and Perplexity's pplx-decider both turn a 27-billion-parameter Qwen model into a classifier for routing tickets and labelling bug reports, and Ollama now lists Clef to pull in one command.",
+   "body": [
+    "Two companies have put out open models built for decisions rather than conversation. Cloudflare's Clef is listed on Ollama, which says it can classify an image, label a bug report or route a support ticket to the right team. Ollama's post names two sizes: Clef at 27 billion parameters and Clef Flash at 9 billion. Both pull with a single command.",
+    "According to the Ollama listing, Clef takes a state and a schema of typed questions and returns decisions. It accepts text, JSON or images, including screenshots, receipts and forms, in a single pass. The listing gives a 256,000-token context window and an 18GB download for the 27B version. It requires Ollama 0.35.1 or later and is released under Apache 2.0.",
+    "Cloudflare, per the Ollama page, fine-tuned Clef from Qwen 3.8-27B and says it tops what it calls the Decision Index, beating rival models including one named Jev. That is the maker's own claim. This report has not found an independent run of the index, and Ollama's page does not say who maintains it.",
+    "Perplexity has a sibling. Its model card for pplx-decider-v1-27b describes a classifier also fine-tuned from Qwen3.8-27B, under Apache 2.0, taking text and images. Perplexity says it reaches 85.71 per cent accuracy across 11 benchmarks, against 74.76 per cent for the base model, with 90.60 per cent on TabFact. Hugging Face lists it as the 73rd most trending model, with 64 likes.",
+    "Neither company has published head-to-head numbers against the other, and no outside tester has reported on either model yet. The card says the Perplexity model needs about 49 GiB of GPU memory in Python, a heavier lift than Clef's quantised download. A llama.cpp endpoint for decision models was reported earlier this week, which suggests tooling is moving ahead of the benchmarks."
+   ],
+   "entities": [
+    "Cloudflare",
+    "Perplexity",
+    "Ollama",
+    "Qwen"
+   ],
+   "sources": [
+    {
+     "author": "Ollama",
+     "url": "https://ollama.com/library/clef"
+    },
+    {
+     "author": "Perplexity on Hugging Face",
+     "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b"
+    },
+    {
+     "author": "Ollama on X",
+     "url": "https://x.com/ollama/status/2106186667543666841"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-microsoft-mai-transcribe-2-streaming",
+   "section": "models",
+   "headline": "Microsoft launches MAI-Transcribe-2-Streaming at $0.54 an audio hour",
+   "standfirst": "Microsoft says its new real-time speech-to-text model returns partial transcripts about 100 milliseconds after audio arrives, covers 60 languages and ranks first for accuracy on Artificial Analysis.",
+   "body": [
+    "Microsoft released MAI-Transcribe-2-Streaming on 1 October, a real-time speech-to-text model, TestingCatalog reported. Microsoft says it detects the language automatically and keeps updating partial hypotheses as it hears more audio. TestingCatalog is the only outlet reporting the launch so far, and the details below are the company's own claims as that outlet relays them.",
+    "Microsoft says partial transcripts appear just over 100 milliseconds after audio is received, and that words show up about twice as fast as with competing real-time dictation and subtitling systems. The model supports 60 languages, with language detection that runs continuously rather than once at the start of a call.",
+    "On accuracy, the report says the model ranks first on Artificial Analysis for both final and partial transcripts. That is a ranking Microsoft cites, and this report has not checked the leaderboard itself. Artificial Analysis publishes its own results, which readers can compare against the claim.",
+    "It is priced at $0.54 per audio hour through the end of 2026, an introductory rate, according to the report. Access runs through Microsoft Foundry, the MAI Playground, Vercel, Azure Voice Live and OpenRouter, with LiveKit support listed as coming soon. Developer documentation is on Azure AI Services.",
+    "Two voice models launched alongside it, TestingCatalog says. MAI-Voice-2.1 is text-to-speech at $22 per million characters across 23 languages. The Flash version costs $15 per million characters across 55 languages, with inference 55 per cent faster. Nobody outside Microsoft has published independent tests of any of the three yet."
+   ],
+   "entities": [
+    "Microsoft",
+    "Artificial Analysis",
+    "OpenRouter",
+    "Vercel"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/microsoft-launches-mai-transcribe-2-streaming/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-supabase-turso-150m",
+   "section": "fundraising",
+   "headline": "Supabase raises $150 million and buys Turso for lightweight agent databases",
+   "standfirst": "Supabase co-founder Paul Copplestone says agents are spinning up millions of databases, and the Postgres company is buying SQLite-based Turso after a $150 million round led by Singapore's GIC.",
+   "body": [
+    "Supabase, which sells a hosted version of open-source PostgreSQL, announced a $150 million funding round and an agreement to acquire Turso on 2 October, SiliconANGLE reported. Singapore's sovereign wealth fund GIC led the round. Alphabet's CapitalG, IronArc and SquarePeg also invested. The purchase price was not disclosed, and SiliconANGLE is the only outlet this report found carrying the details.",
+    "Turso builds on SQLite, the small embedded database, and the report says it supports embeddings and page-level encryption. Supabase's argument, as SiliconANGLE relays it, is that agents often need a cheap database for a simple job and not a full relational setup. A lightweight engine lets them create one quickly.",
+    "Copplestone put the demand plainly. \"Agents are spinning up millions of databases to power the prototypes, explorations, dashboards, and apps they're building,\" he said, according to the report. That is a founder describing his own market, and the report gives no figure showing how many databases agents create on Supabase today.",
+    "The money is earmarked for employee liquidity and for new agent features, the report says, especially Supabase Compute. That newly launched service offers hosted sandboxes where long-running AI agents can work. Supabase has not said, in the material SiliconANGLE cites, when Turso's technology will appear in its products or what happens to Turso's existing customers."
+   ],
+   "entities": [
+    "Supabase",
+    "Turso",
+    "GIC",
+    "CapitalG"
+   ],
+   "sources": [
+    {
+     "author": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/"
+    }
+   ],
+   "placement": "front"
   }
  ]
 }
