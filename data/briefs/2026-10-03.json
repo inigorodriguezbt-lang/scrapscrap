@@ -1,69 +1,66 @@
 {
-  "generated_at": "2026-10-03T14:03:17.485269+00:00",
+  "generated_at": "2026-10-03T16:03:15.697454+00:00",
   "edition_date": "2026-10-03",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 77,
-  "clusters_found": 59,
+  "posts_considered": 63,
+  "clusters_found": 49,
   "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c9e7d1e90",
-      "score": 9.551,
-      "interest": "neutral",
+      "cluster_id": "cf9e70430",
+      "score": 9.204,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "policy",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI",
-        "Anthropic",
         "Meta"
       ],
       "independent_sources": [
-        "Lobsters AI",
-        "TechCrunch AI",
-        "kimmonismus"
+        "Product Hunt AI",
+        "The Decoder"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-02T17:48:16+00:00",
-      "last_seen": "2026-10-03T12:37:01+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-02T16:37:26+00:00",
+      "last_seen": "2026-10-03T14:28:51+00:00",
       "links": [
-        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-        "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-        "https://x.com/kimmonismus/status/2106362889489797265"
+        "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+        "https://www.producthunt.com/products/muse-22",
+        "https://www.producthunt.com/products/sapien-4",
+        "https://www.producthunt.com/products/yubi-2"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Yubi. Talk to your Mac and let Yubi do the typing Discussion | Link",
+          "url": "https://www.producthunt.com/products/yubi-2",
+          "created_at": "2026-10-02T16:37:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Muse Gadgets. Meta's open-source kit for building your own AI gadgets Discussion | Link",
+          "url": "https://www.producthunt.com/products/muse-22",
+          "created_at": "2026-10-03T02:07:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Sapien. AI market research with synthetic populations Discussion | Link",
+          "url": "https://www.producthunt.com/products/sapien-4",
+          "created_at": "2026-10-03T02:30:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
           "tier": "press",
-          "text": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House). This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-          "created_at": "2026-10-02T17:48:16+00:00",
+          "text": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project. Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI hardware form factors people actually want. The article \"Muse Gadgets\" turns AI hardware into an open-source DIY project appeared first on The Decoder .",
+          "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+          "created_at": "2026-10-03T14:28:51+00:00",
           "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it. This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-          "created_at": "2026-10-02T17:56:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Lobsters AI",
-          "tier": "commentary",
-          "text": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’. Comments",
-          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-          "created_at": "2026-10-02T18:48:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "OpenAI has hired Thomas Lind, a former White House AI policy chief, to lead cyber and strategic risk on its national security team. The Information reports.",
-          "url": "https://x.com/kimmonismus/status/2106362889489797265",
-          "created_at": "2026-10-03T12:37:01+00:00",
-          "engagement": 109
         }
       ]
     },
@@ -137,40 +134,51 @@
       ]
     },
     {
-      "cluster_id": "c7bc019c4",
-      "score": 6.29,
-      "interest": "want",
+      "cluster_id": "c59594dbf",
+      "score": 3.625,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "policy",
       "entities": [
-        "Nvidia"
+        "OpenAI",
+        "Anthropic",
+        "Meta"
       ],
       "independent_sources": [
-        "Ars Technica AI",
-        "Tom's Hardware"
+        "Lobsters AI",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-02T14:53:41+00:00",
-      "last_seen": "2026-10-02T18:39:36+00:00",
+      "first_seen": "2026-10-02T17:48:16+00:00",
+      "last_seen": "2026-10-02T18:48:24+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork"
+        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+        "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China. U.S. authorities have arrested a California man accused of smuggling more than $300 million worth of export-controlled Nvidia-powered servers to China through Malaysia and Singapore, allegedly using false paperwork to conceal their final destination",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork",
-          "created_at": "2026-10-02T14:53:41+00:00",
+          "text": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House). This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "created_at": "2026-10-02T17:48:16+00:00",
           "engagement": 0
         },
         {
-          "author": "Ars Technica AI",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China. Nvidia’s chip-smuggling problem won’t go away as arrests continue.",
-          "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
-          "created_at": "2026-10-02T18:39:36+00:00",
+          "text": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it. This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+          "created_at": "2026-10-02T17:56:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Lobsters AI",
+          "tier": "commentary",
+          "text": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’. Comments",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+          "created_at": "2026-10-02T18:48:24+00:00",
           "engagement": 0
         }
       ]
