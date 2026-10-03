@@ -1,12 +1,72 @@
 {
-  "generated_at": "2026-10-03T12:03:31.809130+00:00",
+  "generated_at": "2026-10-03T14:03:17.485269+00:00",
   "edition_date": "2026-10-03",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 82,
-  "clusters_found": 60,
-  "stories_declared": 5,
+  "posts_considered": 77,
+  "clusters_found": 59,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
+    {
+      "cluster_id": "c9e7d1e90",
+      "score": 9.551,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Lobsters AI",
+        "TechCrunch AI",
+        "kimmonismus"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-02T17:48:16+00:00",
+      "last_seen": "2026-10-03T12:37:01+00:00",
+      "links": [
+        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+        "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+        "https://x.com/kimmonismus/status/2106362889489797265"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House). This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "created_at": "2026-10-02T17:48:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it. This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+          "created_at": "2026-10-02T17:56:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Lobsters AI",
+          "tier": "commentary",
+          "text": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’. Comments",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+          "created_at": "2026-10-02T18:48:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "OpenAI has hired Thomas Lind, a former White House AI policy chief, to lead cyber and strategic risk on its national security team. The Information reports.",
+          "url": "https://x.com/kimmonismus/status/2106362889489797265",
+          "created_at": "2026-10-03T12:37:01+00:00",
+          "engagement": 109
+        }
+      ]
+    },
     {
       "cluster_id": "c1b274d18",
       "score": 8.628,
@@ -77,93 +137,6 @@
       ]
     },
     {
-      "cluster_id": "c25957b90",
-      "score": 7.79,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T13:00:00+00:00",
-      "last_seen": "2026-10-02T13:00:39+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-        "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse. Nvidia is introducing a 64GB version of its DGX Spark local AI workstation that's tailored for a new generation of highly intelligent yet compact local models. Starting at $4999, the more affordable configuration is otherwise identical to the original 128GB Spark and its GB10 siblings.",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
-          "created_at": "2026-10-02T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-          "created_at": "2026-10-02T13:00:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c54df6160",
-      "score": 7.516,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T13:50:00+00:00",
-      "last_seen": "2026-10-02T15:48:26+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
-        "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts. Amazon and chip design tool maker Synopsys have inked a multi-year partnership worth over a billion dollars. As part of the arrangement, Amazon will license Synopsys' chip designs and its design tools to create and optimize new AI chips. Synopsys will adopt Amazon Bedrock to build and deploy AI agents, and adopt AWS computing and storage services, while optimizing its own tools for Amazon hardware.",
-          "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
-          "created_at": "2026-10-02T13:50:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore. Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-          "created_at": "2026-10-02T15:46:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern. The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
-          "created_at": "2026-10-02T15:48:26+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c7bc019c4",
       "score": 6.29,
       "interest": "want",
@@ -198,56 +171,6 @@
           "text": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China. Nvidia’s chip-smuggling problem won’t go away as arrests continue.",
           "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
           "created_at": "2026-10-02T18:39:36+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c59594dbf",
-      "score": 3.625,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta"
-      ],
-      "independent_sources": [
-        "Lobsters AI",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T17:48:16+00:00",
-      "last_seen": "2026-10-02T18:48:24+00:00",
-      "links": [
-        "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-        "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House). This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-          "created_at": "2026-10-02T17:48:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it. This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-          "created_at": "2026-10-02T17:56:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Lobsters AI",
-          "tier": "commentary",
-          "text": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’. Comments",
-          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-          "created_at": "2026-10-02T18:48:24+00:00",
           "engagement": 0
         }
       ]
