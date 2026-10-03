@@ -28,6 +28,72 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-agent-wow-gpt6-astra",
+   "section": "agents-coding",
+   "headline": "GPT-6 Astra clears World of Warcraft's orc zone in 40 minutes without a death",
+   "standfirst": "An open-source tool let OpenAI's GPT-6 Astra play World of Warcraft from raw network packets with no screen, finishing every orc starting-zone quest in 40 minutes, its author says.",
+   "body": [
+    "A developer's open-source project, agent-wow, showed OpenAI's GPT-6 Astra playing a World of Warcraft character without rendering a single frame, according to the project's write-up dated 2 October and a Tom's Hardware report on 3 October. The agent started as a level-1 orc and finished every quest in the starting zone in 40 minutes, with no deaths, the author says. The author is not named in the write-up.",
+    "The setup is a local private server running AzerothCore, an open-source emulator for the game's 3.3.5a version. The prompt was a single line: create an orc character and complete all quests in the starting zone. The agent was not shown the game screen. It worked from the same network protocol the real client uses, the write-up says, and the run was made through OpenAI's Codex tool.",
+    "Astra wrote its own tools along the way, according to the author. One module subscribed to chosen server packets so it could track health, nearby creatures, quest progress and loot. It pulled quest data from AzerothCore's SQL files to plan routes, then generated a C++ helper on the Detour pathfinding library and the server's navigation mesh files. It sent its own messages back to trigger actions.",
+    "The write-up says the agent also optimised quest order, managed its inventory and exploited navigation-mesh quirks to pass through certain walls. Tom's Hardware's headline describes the agent as navigating by parsing server network traffic and quest data. That is the developer's account of a single run on a private server. Nobody else has reported repeating it, and the run has not been independently verified.",
+    "The demo is a stunt, but it shows a model building its own game interface from protocol and data files. A full gameplay recording is on YouTube. OpenAI has not commented on the project in the sources this report found. The work targets a private emulated server and not Blizzard's live game, and the sources do not say how many attempts it took."
+   ],
+   "entities": [
+    "OpenAI",
+    "GPT-6 Astra",
+    "agent-wow",
+    "AzerothCore",
+    "Codex"
+   ],
+   "sources": [
+    {
+     "author": "agent-wow",
+     "url": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/"
+    },
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/gpt-6-astra-plays-world-of-warcraft-blind-and-clears-the-orc-starting-zone-in-40-minutes-with-no-deaths-ai-agent-navigates-by-server-network-traffic-with-pulled-quest-data"
+    },
+    {
+     "author": "agent-wow on GitHub",
+     "url": "https://github.com/agent-wow/agent-wow"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://youtu.be/8NmmFdREk5s",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-capcom-rex-engine-ai",
+   "section": "sector-impact",
+   "headline": "Capcom is rebuilding its RE Engine around AI but keeps AI out of games",
+   "standfirst": "A Capcom programmer told a company conference that the REX project will turn the RE Engine into an AI generation engine, while the studio repeats it will not ship AI-generated content.",
+   "body": [
+    "Capcom plans to use AI to speed up game development through its in-house RE Engine, Engadget reported on 3 October. The report says Capcom programmer Satoshi Ishida described the plan at a company conference. A major improvement project called REX is meant to turn the engine into what the company calls an 'AI generation game engine'. Engadget is the source this report opened, and the details rest on its account.",
+    "Ishida's argument, as Engadget relays it, is about scale. Games and their assets have grown larger, which stretches development timelines, and AI would help streamline the workflow. The report says the technology would assist with work in art and code. It does not say which models Capcom will use, or whether they are built in-house or bought from a vendor.",
+    "The company drew a line in the same breath. Capcom has said it would explore AI to assist with graphics and code but would not use AI-generated content in its games, Engadget reports. That makes the tool a production aid, not a source of in-game assets. The report does not say how Capcom will tell the two apart in practice, or how it would audit that boundary.",
+    "The timing follows Capcom's sales success. Engadget notes the company's recent launch of Onimusha: Way of the Sword, which sold a million copies at launch. A separate headline from The Verge, which this report did not open, says Capcom is preparing for a future in which it creates games together with AI, so wording on the company's position may differ between outlets.",
+    "The plan is a stated intention, not a shipped product, and no release date for REX appears in the report. Capcom's own statement was not available to this report beyond what Engadget quoted. Game developers have argued over where AI assistance ends and AI content begins, and this is a large publisher placing its line in public."
+   ],
+   "entities": [
+    "Capcom",
+    "RE Engine",
+    "Satoshi Ishida"
+   ],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "c1f864a85",
    "section": "policy",
    "headline": "Bessent says Chinese AI labs steal from US models, names Kimi",
@@ -221,7 +287,7 @@
      "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-stability-parker-music",
@@ -248,7 +314,7 @@
      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-decision-models-clef-decider",
