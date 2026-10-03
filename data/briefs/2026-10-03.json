@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-03T04:03:13.777339+00:00",
+  "generated_at": "2026-10-03T06:03:10.058421+00:00",
   "edition_date": "2026-10-03",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 87,
-  "clusters_found": 66,
-  "stories_declared": 7,
+  "posts_considered": 85,
+  "clusters_found": 65,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "c1b274d18",
-      "score": 9.925,
+      "score": 9.592,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -77,48 +77,47 @@
       ]
     },
     {
-      "cluster_id": "c1d5ffebb",
-      "score": 8.12,
+      "cluster_id": "c25957b90",
+      "score": 7.79,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Meta"
+        "Nvidia"
       ],
       "independent_sources": [
-        "Product Hunt AI",
-        "The Verge AI"
+        "NVIDIA",
+        "Tom's Hardware"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-02T04:45:31+00:00",
-      "last_seen": "2026-10-02T18:00:00+00:00",
+      "first_seen": "2026-10-02T13:00:00+00:00",
+      "last_seen": "2026-10-02T13:00:39+00:00",
       "links": [
-        "https://www.producthunt.com/products/codync",
-        "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
       ],
       "posts": [
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Codync. The open-source alternative to Grok Bot, Muse and Dots Discussion | Link",
-          "url": "https://www.producthunt.com/products/codync",
-          "created_at": "2026-10-02T04:45:31+00:00",
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse. Nvidia is introducing a 64GB version of its DGX Spark local AI workstation that's tailored for a new generation of highly intelligent yet compact local models. Starting at $4999, the more affordable configuration is otherwise identical to the original 128GB Spark and its GB10 siblings.",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
+          "created_at": "2026-10-02T13:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI’s Dot agent is enterprise software that can also order your dinner. It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-          "created_at": "2026-10-02T18:00:00+00:00",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "created_at": "2026-10-02T13:00:39+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c54df6160",
-      "score": 7.974,
+      "score": 7.641,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -165,47 +164,8 @@
       ]
     },
     {
-      "cluster_id": "c25957b90",
-      "score": 7.79,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-02T13:00:00+00:00",
-      "last_seen": "2026-10-02T13:00:39+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-        "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse. Nvidia is introducing a 64GB version of its DGX Spark local AI workstation that's tailored for a new generation of highly intelligent yet compact local models. Starting at $4999, the more affordable configuration is otherwise identical to the original 128GB Spark and its GB10 siblings.",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
-          "created_at": "2026-10-02T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI. Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
-          "created_at": "2026-10-02T13:00:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c43b49c49",
-      "score": 7.634,
+      "score": 7.301,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -242,7 +202,7 @@
     },
     {
       "cluster_id": "c7bc019c4",
-      "score": 7.225,
+      "score": 6.891,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -281,7 +241,7 @@
     },
     {
       "cluster_id": "c59594dbf",
-      "score": 4.584,
+      "score": 4.251,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
