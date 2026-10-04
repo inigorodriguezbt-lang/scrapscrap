@@ -1,15 +1,54 @@
 {
-  "generated_at": "2026-10-04T06:03:05.922793+00:00",
+  "generated_at": "2026-10-04T08:03:11.516226+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 45,
-  "clusters_found": 42,
-  "stories_declared": 3,
+  "posts_considered": 48,
+  "clusters_found": 41,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "ccd005fab",
+      "score": 10.71,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "dair_ai",
+        "omarsar0"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-04T05:37:02+00:00",
+      "last_seen": "2026-10-04T05:39:01+00:00",
+      "links": [
+        "https://x.com/dair_ai/status/2106620084542419257",
+        "https://x.com/omarsar0/status/2106619582463312315"
+      ],
+      "posts": [
+        {
+          "author": "omarsar0",
+          "tier": "commentary",
+          "text": "New paper from Microsoft and colleagues on evolving agent harnesses. ScholarEvolve proposes harness changes based on published agent research.",
+          "url": "https://x.com/omarsar0/status/2106619582463312315",
+          "created_at": "2026-10-04T05:37:02+00:00",
+          "engagement": 73
+        },
+        {
+          "author": "dair_ai",
+          "tier": "commentary",
+          "text": "Great paper from Microsoft and colleagues on optimizing agent harnesses. ActiveSaddler groups recurring failures into failure patterns...",
+          "url": "https://x.com/dair_ai/status/2106620084542419257",
+          "created_at": "2026-10-04T05:39:01+00:00",
+          "engagement": 35
+        }
+      ]
+    },
+    {
       "cluster_id": "c89764eae",
-      "score": 8.019,
+      "score": 7.686,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -30,45 +69,6 @@
           "text": "The Agent Said It Was Done. The Database Disagreed.",
           "url": "https://huggingface.co/blog/microsoft/thinkingbox",
           "created_at": "2026-10-03T22:56:48+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7071f755",
-      "score": 6.617,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "Tom's Hardware",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T16:59:51+00:00",
-      "last_seen": "2026-10-03T18:00:00+00:00",
-      "links": [
-        "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
-        "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage. The Shield TV Pro remains one of Nvidia’s longest-running consumer devices, but its $299.99 price tag now makes the streaming box considerably more expensive than when it launched.",
-          "url": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
-          "created_at": "2026-10-03T16:59:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike. The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
-          "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
-          "created_at": "2026-10-03T18:00:00+00:00",
           "engagement": 0
         }
       ]
@@ -108,6 +108,84 @@
           "text": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project. Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI hardware form factors people actually want. The article \"Muse Gadgets\" turns AI hardware into an open-source DIY project appeared first on The Decoder .",
           "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
           "created_at": "2026-10-03T14:28:51+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7071f755",
+      "score": 6.283,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Tom's Hardware",
+        "Wired AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-03T16:59:51+00:00",
+      "last_seen": "2026-10-03T18:00:00+00:00",
+      "links": [
+        "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
+        "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage. The Shield TV Pro remains one of Nvidia’s longest-running consumer devices, but its $299.99 price tag now makes the streaming box considerably more expensive than when it launched.",
+          "url": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
+          "created_at": "2026-10-03T16:59:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike. The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+          "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+          "created_at": "2026-10-03T18:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ccb7e3cdb",
+      "score": 6.03,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-03T20:57:47+00:00",
+      "last_seen": "2026-10-04T07:28:54+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+        "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think. Following the compute-based usage change in May, Google will soon introduce limits on which Gemini models free users and AI Plus subscribers can access. more…",
+          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+          "created_at": "2026-10-03T20:57:47+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro. Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article Google&#039;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+          "created_at": "2026-10-04T07:28:54+00:00",
           "engagement": 0
         }
       ]
