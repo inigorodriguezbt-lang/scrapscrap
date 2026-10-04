@@ -1,91 +1,15 @@
 {
-  "generated_at": "2026-10-04T10:03:06.122499+00:00",
+  "generated_at": "2026-10-04T12:03:34.528235+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 46,
-  "clusters_found": 39,
-  "stories_declared": 6,
+  "posts_considered": 49,
+  "clusters_found": 44,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c5bdb0842",
-      "score": 11.578,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "The Decoder",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-04T08:47:52+00:00",
-      "last_seen": "2026-10-04T08:55:06+00:00",
-      "links": [
-        "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
-        "https://x.com/kimmonismus/status/2106669429320761788"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics. Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells \"sovereign AI\" to governments, giving it a commercial interest in distinguishing its models from Chinese competitors. The article Chinese AI models parrot state doctrine or refuse to answer on sensitive topics appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
-          "created_at": "2026-10-04T08:47:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Aleph Alpha’s Kolibri looks like a surprisingly strong AI release from Germany! I did not expect that but respect where respect is due!\n\n78B total parameters, just 3.46B active per token, and open weights under Apache 2.0. Built from scratch for German and English.\n\nIn Aleph Alpha’s own evaluations, it scores 96.9% on AIME 2025 and 84.3% on GPQA Diamond. Its German overall score narrowly beats Qwen3.5 35B-A3B and GPT-OSS 120B.\n\nCoding is more mixed: 66.4% on SWE-Bench Verified, behind Qwen3.6’s 73.8%.\n\nIt increasingly looks as though any \"moat\" - especially with small models - is evaporating, ",
-          "url": "https://x.com/kimmonismus/status/2106669429320761788",
-          "created_at": "2026-10-04T08:55:06+00:00",
-          "engagement": 187
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6fcd5548",
-      "score": 11.337,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "kimmonismus",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-04T07:56:18+00:00",
-      "last_seen": "2026-10-04T08:01:45+00:00",
-      "links": [
-        "https://x.com/kimmonismus/status/2106656003370660205",
-        "https://x.com/testingcatalog/status/2106654630503731350"
-      ],
-      "posts": [
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "OpenAI is about to release GPT 6.1 Sol Ultrafast soon. \n\nI hope we will hear more news about Astra at some point as well. I don’t think that anything Ultrafast is making enough people excited to shift their attention from Opus 5.5 at this moment.\n\nSoon soon 🔜 https://t.co/acV2T4KiMb",
-          "url": "https://x.com/testingcatalog/status/2106654630503731350",
-          "created_at": "2026-10-04T07:56:18+00:00",
-          "engagement": 161
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "6.1 Sol Ultra fast probably next week (sadly he’s not referring to 6.1 Astra). Curious to try it out but it looks like it’s burning rates at insane pace https://t.co/11xcqYvwkh",
-          "url": "https://x.com/kimmonismus/status/2106656003370660205",
-          "created_at": "2026-10-04T08:01:45+00:00",
-          "engagement": 117
-        }
-      ]
-    },
-    {
       "cluster_id": "c89764eae",
-      "score": 7.352,
+      "score": 7.018,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -106,45 +30,6 @@
           "text": "The Agent Said It Was Done. The Database Disagreed.",
           "url": "https://huggingface.co/blog/microsoft/thinkingbox",
           "created_at": "2026-10-03T22:56:48+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c13774d2a",
-      "score": 6.455,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T12:00:00+00:00",
-      "last_seen": "2026-10-03T14:28:51+00:00",
-      "links": [
-        "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
-        "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
-      ],
-      "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Muse Creates Detailed Profiles of All Your Friends and Family. Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
-          "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
-          "created_at": "2026-10-03T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project. Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI hardware form factors people actually want. The article \"Muse Gadgets\" turns AI hardware into an open-source DIY project appeared first on The Decoder .",
-          "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
-          "created_at": "2026-10-03T14:28:51+00:00",
           "engagement": 0
         }
       ]
@@ -190,7 +75,7 @@
     },
     {
       "cluster_id": "ccb7e3cdb",
-      "score": 5.697,
+      "score": 5.362,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
