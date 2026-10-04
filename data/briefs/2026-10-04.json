@@ -1,32 +1,84 @@
 {
-  "generated_at": "2026-10-04T18:03:20.424449+00:00",
+  "generated_at": "2026-10-04T20:03:00.173425+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 43,
-  "clusters_found": 36,
+  "posts_considered": 44,
+  "clusters_found": 35,
   "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c3f10e94b",
-      "score": 10.139,
+      "cluster_id": "c9479e9f5",
+      "score": 12.549,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "The Verge AI",
+        "Tom's Hardware",
+        "bridgemindai"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-04T10:50:00+00:00",
+      "last_seen": "2026-10-04T18:12:15+00:00",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet",
+        "https://x.com/bridgemindai/status/2106809639421583816"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Open-source tool designs LEGO builds with more than 2,000 real pieces. Carlos Antelo's open-source ldraw-nova lets GPT-6 Astra and Claude Opus 5.5 design LEGO models as LDraw CAD files.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet",
+          "created_at": "2026-10-04T10:50:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "An AI couldn’t beat humans at StarCraft, so it decided to cheat. StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+          "created_at": "2026-10-04T15:21:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "bridgemindai",
+          "tier": "commentary",
+          "text": "Is Claude Opus 5.5 Nerfed? \n\nI Built NerfBench to Find Out. https://t.co/3Z8spoDGXp",
+          "url": "https://x.com/bridgemindai/status/2106809639421583816",
+          "created_at": "2026-10-04T18:12:15+00:00",
+          "engagement": 298,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9f6e7693",
+      "score": 10.402,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
       "entities": [],
       "independent_sources": [
         "Bloomberg Tech",
+        "Engadget",
         "TechCrunch AI",
         "The Decoder"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "first_seen": "2026-10-03T23:38:35+00:00",
       "last_seen": "2026-10-04T17:41:58+00:00",
       "links": [
         "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
         "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
         "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-        "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force"
+        "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
+        "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/"
       ],
       "posts": [
         {
@@ -54,6 +106,14 @@
           "engagement": 0
         },
         {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Trump announces an AI czar for his newly created 'Super Intelligence Force'. That's really what it's called and there's actually someone in charge of it.",
+          "url": "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/",
+          "created_at": "2026-10-04T16:29:26+00:00",
+          "engagement": 0
+        },
+        {
           "author": "The Decoder",
           "tier": "press",
           "text": "Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence. Donald Trump has established a \"Super Intelligence Force.\" \"Superintelligence\" is his term for artificial intelligence. The unit is led by Director of National Intelligence Jay Clayton and other government officials, coordinates with AI companies, critical infrastructure operators, and interest groups. The group reports directly to the president. The article Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence appeared first on The Decoder .",
@@ -64,47 +124,8 @@
       ]
     },
     {
-      "cluster_id": "ca7ef657e",
-      "score": 8.177,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "The Verge AI",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-04T10:50:00+00:00",
-      "last_seen": "2026-10-04T15:21:59+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Open-source tool designs LEGO builds with more than 2,000 real pieces. Carlos Antelo's open-source ldraw-nova lets GPT-6 Astra and Claude Opus 5.5 design LEGO models as LDraw CAD files.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet",
-          "created_at": "2026-10-04T10:50:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "An AI couldn’t beat humans at StarCraft, so it decided to cheat. StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
-          "created_at": "2026-10-04T15:21:59+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cd025cff5",
-      "score": 7.995,
+      "score": 7.662,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -143,6 +164,54 @@
       ]
     },
     {
+      "cluster_id": "ce885ff7d",
+      "score": 7.506,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-03T20:57:47+00:00",
+      "last_seen": "2026-10-04T12:40:37+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+        "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+        "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think. Following the compute-based usage change in May, Google will soon introduce limits on which Gemini models free users and AI Plus subscribers can access. more…",
+          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+          "created_at": "2026-10-03T20:57:47+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro. Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article Google&#039;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+          "created_at": "2026-10-04T07:28:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google researchers find a way to keep self-improving AI agents from memorizing their tests. Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to 4.7 points while using about 30 percent fewer tokens than an unregularized version. The article Google researchers find a way to keep self-improving AI agents from memorizing their tests appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+          "created_at": "2026-10-04T12:40:37+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c89764eae",
       "score": 6.703,
       "interest": "want",
@@ -165,45 +234,6 @@
           "text": "The Agent Said It Was Done. The Database Disagreed.",
           "url": "https://huggingface.co/blog/microsoft/thinkingbox",
           "created_at": "2026-10-03T22:56:48+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccb7e3cdb",
-      "score": 4.363,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T20:57:47+00:00",
-      "last_seen": "2026-10-04T07:28:54+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-        "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think. Following the compute-based usage change in May, Google will soon introduce limits on which Gemini models free users and AI Plus subscribers can access. more…",
-          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-          "created_at": "2026-10-03T20:57:47+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro. Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article Google&#039;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
-          "created_at": "2026-10-04T07:28:54+00:00",
           "engagement": 0
         }
       ]
