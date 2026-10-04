@@ -1,54 +1,91 @@
 {
-  "generated_at": "2026-10-04T08:03:11.516226+00:00",
+  "generated_at": "2026-10-04T10:03:06.122499+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 48,
-  "clusters_found": 41,
-  "stories_declared": 5,
+  "posts_considered": 46,
+  "clusters_found": 39,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccd005fab",
-      "score": 10.71,
+      "cluster_id": "c5bdb0842",
+      "score": 11.578,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "Microsoft"
-      ],
+      "entities": [],
       "independent_sources": [
-        "dair_ai",
-        "omarsar0"
+        "The Decoder",
+        "kimmonismus"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-04T05:37:02+00:00",
-      "last_seen": "2026-10-04T05:39:01+00:00",
+      "first_seen": "2026-10-04T08:47:52+00:00",
+      "last_seen": "2026-10-04T08:55:06+00:00",
       "links": [
-        "https://x.com/dair_ai/status/2106620084542419257",
-        "https://x.com/omarsar0/status/2106619582463312315"
+        "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+        "https://x.com/kimmonismus/status/2106669429320761788"
       ],
       "posts": [
         {
-          "author": "omarsar0",
-          "tier": "commentary",
-          "text": "New paper from Microsoft and colleagues on evolving agent harnesses. ScholarEvolve proposes harness changes based on published agent research.",
-          "url": "https://x.com/omarsar0/status/2106619582463312315",
-          "created_at": "2026-10-04T05:37:02+00:00",
-          "engagement": 73
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics. Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells \"sovereign AI\" to governments, giving it a commercial interest in distinguishing its models from Chinese competitors. The article Chinese AI models parrot state doctrine or refuse to answer on sensitive topics appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+          "created_at": "2026-10-04T08:47:52+00:00",
+          "engagement": 0
         },
         {
-          "author": "dair_ai",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "Great paper from Microsoft and colleagues on optimizing agent harnesses. ActiveSaddler groups recurring failures into failure patterns...",
-          "url": "https://x.com/dair_ai/status/2106620084542419257",
-          "created_at": "2026-10-04T05:39:01+00:00",
-          "engagement": 35
+          "text": "Aleph Alpha’s Kolibri looks like a surprisingly strong AI release from Germany! I did not expect that but respect where respect is due!\n\n78B total parameters, just 3.46B active per token, and open weights under Apache 2.0. Built from scratch for German and English.\n\nIn Aleph Alpha’s own evaluations, it scores 96.9% on AIME 2025 and 84.3% on GPQA Diamond. Its German overall score narrowly beats Qwen3.5 35B-A3B and GPT-OSS 120B.\n\nCoding is more mixed: 66.4% on SWE-Bench Verified, behind Qwen3.6’s 73.8%.\n\nIt increasingly looks as though any \"moat\" - especially with small models - is evaporating, ",
+          "url": "https://x.com/kimmonismus/status/2106669429320761788",
+          "created_at": "2026-10-04T08:55:06+00:00",
+          "engagement": 187
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6fcd5548",
+      "score": 11.337,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "kimmonismus",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-04T07:56:18+00:00",
+      "last_seen": "2026-10-04T08:01:45+00:00",
+      "links": [
+        "https://x.com/kimmonismus/status/2106656003370660205",
+        "https://x.com/testingcatalog/status/2106654630503731350"
+      ],
+      "posts": [
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "OpenAI is about to release GPT 6.1 Sol Ultrafast soon. \n\nI hope we will hear more news about Astra at some point as well. I don’t think that anything Ultrafast is making enough people excited to shift their attention from Opus 5.5 at this moment.\n\nSoon soon 🔜 https://t.co/acV2T4KiMb",
+          "url": "https://x.com/testingcatalog/status/2106654630503731350",
+          "created_at": "2026-10-04T07:56:18+00:00",
+          "engagement": 161
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "6.1 Sol Ultra fast probably next week (sadly he’s not referring to 6.1 Astra). Curious to try it out but it looks like it’s burning rates at insane pace https://t.co/11xcqYvwkh",
+          "url": "https://x.com/kimmonismus/status/2106656003370660205",
+          "created_at": "2026-10-04T08:01:45+00:00",
+          "engagement": 117
         }
       ]
     },
     {
       "cluster_id": "c89764eae",
-      "score": 7.686,
+      "score": 7.352,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -114,7 +151,7 @@
     },
     {
       "cluster_id": "c7071f755",
-      "score": 6.283,
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -153,7 +190,7 @@
     },
     {
       "cluster_id": "ccb7e3cdb",
-      "score": 6.03,
+      "score": 5.697,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
