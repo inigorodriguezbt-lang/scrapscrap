@@ -31,6 +31,34 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-nasa-ibm-lunar-foundation-model",
+   "section": "research",
+   "headline": "NASA and IBM release an open lunar model trained on 2 million Moon tiles",
+   "standfirst": "The Lunar Foundation Model, trained on nearly 2 million Moon map tiles, cuts polar-ice prediction error by up to 22 percent, NASA and IBM say. The weights are free on Hugging Face.",
+   "body": [
+    "NASA and IBM have released the Lunar Foundation Model, which The Decoder describes as one of the first open-source AI models for lunar science. The weights are on Hugging Face under the nasa-ibm-ai4science organisation, and the code is on GitHub, according to the model card and the report. The model has also been added to the TerraTorch toolkit.",
+    "The model card says it is a Vision Transformer-B encoder-decoder trained from scratch on a dataset called SomBench. That is nearly 2 million co-registered lunar tiles across 11 data types, such as ultraviolet reflectance, topography and radar. It trains on two scales at once, 1 metre and 100 metres per pixel. Users can fine-tune it without retraining.",
+    "One design choice stands out. The model card says illumination angles and solar position go in as explicit inputs, not left for the model to infer. Each data type gets its own processing path. The Decoder reports the team's own figures: ice-deposit prediction error cut by up to 22 percent against baselines, and nearly 19 percent better coarse-scale crater detection.",
+    "Those numbers come from the developers, and nobody outside the project has reported results yet. The card is blunt about limits. Generated fields \"are not calibrated predictions and are no substitute for instruments\", it says, and the model is not validated for decisions such as certifying a landing site. It targets crater detection, ice mapping and volcanic features called Irregular Mare Patches."
+   ],
+   "entities": [
+    "NASA",
+    "IBM",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Hugging Face model card",
+     "url": "https://huggingface.co/nasa-ibm-ai4science/NASA-IBM-Lunar-Foundation-Model"
+    },
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-jalapeno-hotchips-specs",
    "section": "chips",
    "headline": "OpenAI's Jalapeño chip has 216 GiB of HBM4 and was tuned by its models",
@@ -247,7 +275,7 @@
      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "gemini-tier-model-limits",
