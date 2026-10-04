@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-04T04:03:08.213703+00:00",
+  "generated_at": "2026-10-04T06:03:05.922793+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
   "posts_considered": 45,
-  "clusters_found": 44,
-  "stories_declared": 2,
+  "clusters_found": 42,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "c89764eae",
-      "score": 8.352,
+      "score": 8.019,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -36,7 +36,7 @@
     },
     {
       "cluster_id": "c7071f755",
-      "score": 6.95,
+      "score": 6.617,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -69,6 +69,45 @@
           "text": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike. The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
           "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
           "created_at": "2026-10-03T18:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c13774d2a",
+      "score": 6.455,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "Wired AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-03T12:00:00+00:00",
+      "last_seen": "2026-10-03T14:28:51+00:00",
+      "links": [
+        "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+        "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/"
+      ],
+      "posts": [
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Muse Creates Detailed Profiles of All Your Friends and Family. Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+          "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+          "created_at": "2026-10-03T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project. Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI hardware form factors people actually want. The article \"Muse Gadgets\" turns AI hardware into an open-source DIY project appeared first on The Decoder .",
+          "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+          "created_at": "2026-10-03T14:28:51+00:00",
           "engagement": 0
         }
       ]
