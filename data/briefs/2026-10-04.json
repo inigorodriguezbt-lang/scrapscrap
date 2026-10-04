@@ -1,48 +1,96 @@
 {
-  "generated_at": "2026-10-04T14:03:21.146221+00:00",
+  "generated_at": "2026-10-04T16:03:04.903172+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 37,
-  "clusters_found": 31,
-  "stories_declared": 4,
+  "posts_considered": 41,
+  "clusters_found": 34,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cacdb3a7d",
-      "score": 11.883,
+      "cluster_id": "ca7ef657e",
+      "score": 8.511,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic"
+        "OpenAI"
       ],
       "independent_sources": [
-        "Simon Willison",
-        "mark_k"
+        "The Verge AI",
+        "Tom's Hardware"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-03T22:00:31+00:00",
-      "last_seen": "2026-10-04T12:15:06+00:00",
+      "first_seen": "2026-10-04T10:50:00+00:00",
+      "last_seen": "2026-10-04T15:21:59+00:00",
       "links": [
-        "https://simonwillison.net/2026/Oct/3/newsletter/",
-        "https://x.com/mark_k/status/2106719758544457927"
+        "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "September sponsors-only newsletter. I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
-          "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
-          "created_at": "2026-10-03T22:00:31+00:00",
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Open-source tool designs LEGO builds with more than 2,000 real pieces. Carlos Antelo's open-source ldraw-nova lets GPT-6 Astra and Claude Opus 5.5 design LEGO models as LDraw CAD files.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-tool-designs-lego-builds-with-more-than-2-000-real-pieces-their-programs-output-detailed-cad-files-but-no-models-have-been-built-yet",
+          "created_at": "2026-10-04T10:50:00+00:00",
           "engagement": 0
         },
         {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Is Anthropic quietly testing Fable 5.5 while Claude's model picker still says Fable 5.1? Several users claim they're being routed to a newer model, posting elaborate animations and short films built with code, Blender and audio APIs. A Tuesday, October 6 release is circulating as a rumor. Anthropic hasn't confirmed the model or the date.",
-          "url": "https://x.com/mark_k/status/2106719758544457927",
-          "created_at": "2026-10-04T12:15:06+00:00",
-          "engagement": 53
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "An AI couldn’t beat humans at StarCraft, so it decided to cheat. StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+          "created_at": "2026-10-04T15:21:59+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce885ff7d",
+      "score": 8.173,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-03T20:57:47+00:00",
+      "last_seen": "2026-10-04T12:40:37+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+        "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+        "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think. Following the compute-based usage change in May, Google will soon introduce limits on which Gemini models free users and AI Plus subscribers can access. more…",
+          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
+          "created_at": "2026-10-03T20:57:47+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro. Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article Google&#039;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+          "created_at": "2026-10-04T07:28:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google researchers find a way to keep self-improving AI agents from memorizing their tests. Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to 4.7 points while using about 30 percent fewer tokens than an unregularized version. The article Google researchers find a way to keep self-improving AI agents from memorizing their tests appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+          "created_at": "2026-10-04T12:40:37+00:00",
+          "engagement": 0
         }
       ]
     },
@@ -69,6 +117,52 @@
           "text": "The Agent Said It Was Done. The Database Disagreed.",
           "url": "https://huggingface.co/blog/microsoft/thinkingbox",
           "created_at": "2026-10-03T22:56:48+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9df953e5",
+      "score": 6.542,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-03T23:38:35+00:00",
+      "last_seen": "2026-10-04T15:15:10+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+        "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
+        "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump Taps Clayton for AI Task Force in Response to Safety Fears. President Donald Trump said he appointed Jay Clayton, his director of national intelligence, to help lead a White House task force on artificial intelligence as the fast-moving technology raises concerns about its safety risks.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
+          "created_at": "2026-10-03T23:38:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Trump Names Clayton, Ferguson to Lead AI Task Force. The “Super Intelligence Force” will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
+          "created_at": "2026-10-04T12:38:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Trump unveils his new Super Intelligence Force. This new task force is Trump's latest response to the debate over AI safety.",
+          "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+          "created_at": "2026-10-04T15:15:10+00:00",
           "engagement": 0
         }
       ]
@@ -108,45 +202,6 @@
           "text": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike. The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
           "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
           "created_at": "2026-10-03T18:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccb7e3cdb",
-      "score": 5.03,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T20:57:47+00:00",
-      "last_seen": "2026-10-04T07:28:54+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-        "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini app limiting what models free & AI Plus users can access, AI Pro adding Deep Think. Following the compute-based usage change in May, Google will soon introduce limits on which Gemini models free users and AI Plus subscribers can access. more…",
-          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/",
-          "created_at": "2026-10-03T20:57:47+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro. Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article Google&#039;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
-          "created_at": "2026-10-04T07:28:54+00:00",
           "engagement": 0
         }
       ]
