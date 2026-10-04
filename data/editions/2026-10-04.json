@@ -31,6 +31,97 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-reflection-open-weights-axios",
+   "section": "open-models",
+   "headline": "Axios reports Reflection AI is about to release an open-weight model",
+   "standfirst": "Axios says Reflection AI's first open-weight model is close and should compete with top Chinese open models. Reflection, which pays SpaceX $150 million a month for compute, declined to comment.",
+   "body": [
+    "Reflection AI is about to release an open-weight model that should compete with the leading Chinese open-weight models, Axios reported on Sunday, citing unnamed sources. The startup, which is backed by Nvidia, has not announced a release. Reflection declined to comment to Axios, according to a summary of the report.",
+    "The model is expected to lag the most capable U.S. models at first, Axios said, but to be strong enough for companies to build their own low-cost proprietary systems on it. Axios also reported that other Western labs plan open-weight releases this month. It did not name them in the account the Post could read.",
+    "The report gives no model name, parameter count, licence, benchmark or date. Nobody outside Reflection has tested the model, and the Post has not seen weights, a model card or a Hugging Face page. Axios's full text was not available to this paper, so the details above come from its headline and published summaries.",
+    "The compute behind it is better documented. TechCrunch reported in June that Reflection pays SpaceX about $150 million a month for Nvidia GB300 chips at the Colossus 2 site near Memphis. Andrew Curran put a separate Nebius deal at $1 billion. He said that makes a strong model plausible.",
+    "Reflection has slipped its own timeline before. It first targeted early 2026 and later said late this year, and forecasters had pointed to January 2027. Some open-model watchers are sceptical: the poster teortaxesTex wrote that training a model as good as Z.ai's GLM 5.3 normally takes years, though he allowed that a lull in Chinese releases could let Reflection pull it off."
+   ],
+   "entities": [
+    "Reflection AI",
+    "Axios",
+    "SpaceX",
+    "Nvidia",
+    "Nebius"
+   ],
+   "sources": [
+    {
+     "author": "Axios",
+     "url": "https://www.axios.com/2026/10/04/reflection-open-weight-ai"
+    },
+    {
+     "author": "Andrew Curran (X)",
+     "url": "https://x.com/AndrewCurran_/status/2106846163534241912"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab"
+    },
+    {
+     "author": "teortaxesTex (X)",
+     "url": "https://x.com/teortaxesTex/status/2106851212176048565"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AndrewCurran_/status/2106846163534241912",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-codex-28-resets",
+   "section": "agents-coding",
+   "headline": "OpenAI's Codex lead promises a fix or usage reset daily for 28 days",
+   "standfirst": "Tibo Sottiaux, who leads Codex at OpenAI, said each day for 28 days will bring either a clear improvement or a full usage reset. The post drew more than 9,000 likes within two hours.",
+   "body": [
+    "Tibo Sottiaux, who leads Codex at OpenAI, said on X that over the next 28 days the team will each day either ship one clear improvement relevant to most Codex and work users, or ship a full reset. The post had about 9,280 likes and 1,437 replies when read on Sunday evening UTC.",
+    "A reset appears to restore a user's weekly usage allowance, and the practice is familiar to Codex users. Sottiaux has pressed it often: the developer Theo wrote on Sunday that, as he remembers July, OpenAI subscribers got resets from Sottiaux about every three days on average over the summer.",
+    "OpenAI has not published a changelog for the programme or said what the daily improvements will be. TestingCatalog replied that he did not know whether testing 28 new things or 28 resets was better, adding that it looked busy. Sottiaux has not said how a reset might be chosen over a feature on a given day, and the programme could change.",
+    "Reaction was mixed. The commentator Kimmonismus said the plan felt like an attempt to stop users defecting to Claude after DevDay shipped few releases he thought justified the hype, and said subscription plans had effectively been cut in half. Those are his views and figures, and OpenAI has not confirmed a change in plan limits.",
+    "The comparison with Anthropic is already live. Theo posted that Claude Opus 5.5 is now the stronger coding model and that Anthropic's $200 plan lasts longer than it did in July. He rated Opus 5.5 9 out of 10 for code against 7.5 for GPT-6 Astra. Those ratings are his own impressions, not a benchmark."
+   ],
+   "entities": [
+    "OpenAI",
+    "Codex",
+    "Tibo Sottiaux",
+    "Anthropic",
+    "Claude Opus 5.5",
+    "GPT-6 Astra"
+   ],
+   "sources": [
+    {
+     "author": "Tibo Sottiaux (X)",
+     "url": "https://x.com/thsottiaux/status/2106845241357824205"
+    },
+    {
+     "author": "Kimmonismus (X)",
+     "url": "https://x.com/kimmonismus/status/2106847567854350438"
+    },
+    {
+     "author": "Theo (X)",
+     "url": "https://x.com/theo/status/2106847019319062819"
+    },
+    {
+     "author": "TestingCatalog (X)",
+     "url": "https://x.com/testingcatalog/status/2106848098576158871"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/thsottiaux/status/2106845241357824205",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-nasa-ibm-lunar-foundation-model",
    "section": "research",
    "headline": "NASA and IBM release an open lunar model trained on 2 million Moon tiles",
@@ -213,7 +304,7 @@
      "url": "https://github.com/rehan-remade/universal-modder"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-perplexity-pokemon-firered",
@@ -248,7 +339,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-aleph-alpha-chinese-model-bias",
