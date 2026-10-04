@@ -50,6 +50,76 @@
    },
    "published_at": "2026-10-03T23:15:03+00:00",
    "id": "andrew-curran-says-the-white-house"
+  },
+  {
+   "text": "Tom's Hardware reports, citing The Register, that California's Department of Justice has subpoenaed OpenAI as it investigates cybersecurity incidents involving the company's AI models and agents.",
+   "why": "Attorney General Rob Bonta's office says it wants to establish what responsibility a developer bears when a model or agent does something unintended.",
+   "source": {
+    "name": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-subpoenas-openai-as-it-investigates-huggingface-breach-doj-wants-more-information-on-cybersecurity-incidents-to-determine-developer-responsibility"
+   },
+   "published_at": "2026-10-03T11:15:00+00:00",
+   "id": "tom-s-hardware-reports-citing-the"
+  },
+  {
+   "text": "Harvard physicist Matthew Schwartz says his open-source BootLoops harness helped Claude produce 36 manuscripts across 18 fields in three months with 19 co-authors, and warns the model often declares victory too early.",
+   "why": "Schwartz, a visiting researcher at Anthropic, describes the code and results in a guest post on Anthropic's site; the source code is on GitHub.",
+   "source": {
+    "name": "The Decoder",
+    "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/"
+   },
+   "published_at": "2026-10-03T09:19:23+00:00",
+   "id": "harvard-physicist-matthew-schwartz-says-his"
+  },
+  {
+   "text": "Kevin Liao argues in a blog post that agent memory plugins are all retrieval over stored snippets, and that agents need written project documentation instead; the post has 61 points on Hacker News.",
+   "why": "It is one developer's opinion, not a benchmark, but it speaks to a live argument about how coding agents should keep context between sessions.",
+   "source": {
+    "name": "Kevin Liao",
+    "url": "https://liao.gg/blog/agents-dont-need-memory"
+   },
+   "published_at": "2026-10-03T17:00:00+00:00",
+   "id": "kevin-liao-argues-in-a-blog"
+  },
+  {
+   "text": "The X account thsottiaux, which posts about OpenAI's Codex, replied \"6.1 coming soon\" to a user on Sunday; the post has more than 1,800 likes. It did not say what 6.1 refers to.",
+   "why": "Another commentator, kimmonismus, has said a major OpenAI release is expected next week, but neither post names a product or a date.",
+   "source": {
+    "name": "thsottiaux on X",
+    "url": "https://x.com/thsottiaux/status/2106543375088488596"
+   },
+   "published_at": "2026-10-04T00:34:12+00:00",
+   "id": "the-x-account-thsottiaux-which-posts"
+  },
+  {
+   "text": "Commentator kimmonismus wrote on X that Gemini 4 is \"very close to official release\" and that GLM-5.3 is still cited in Anthropic blog posts as among the best models for cyber capabilities.",
+   "why": "The post gives no source or date for the Gemini claim, so it is speculation until Google says otherwise.",
+   "source": {
+    "name": "kimmonismus on X",
+    "url": "https://x.com/kimmonismus/status/2106535162347438199"
+   },
+   "published_at": "2026-10-04T00:01:34+00:00",
+   "id": "commentator-kimmonismus-wrote-on-x-that"
+  },
+  {
+   "text": "A Meta paper called RankEvolve runs Claude Code and Codex as separate nodes that review each other's changes; Meta authors say the pair reach 62.5% execution accuracy against 45.8% for the best single product.",
+   "why": "The paper targets silent bugs, such as leaked eval data, that can invalidate hours of agent-run ML experiments; dair_ai's summary is the only account we read.",
+   "source": {
+    "name": "dair_ai on X",
+    "url": "https://x.com/dair_ai/status/2106529236676976773"
+   },
+   "published_at": "2026-10-03T23:38:02+00:00",
+   "id": "a-meta-paper-called-rankevolve-runs"
+  },
+  {
+   "text": "A CMU paper on harness learning trains a 4-billion-parameter proposer with reinforcement learning to edit an agent's harness code, and omarsar0 says it beats its 35B teacher at single-step revision on Reasoning Gym.",
+   "why": "The solver model never changes, so the gains come from improving the surrounding code rather than the weights; the figure comes from the paper as summarised by omarsar0.",
+   "source": {
+    "name": "omarsar0 on X",
+    "url": "https://x.com/omarsar0/status/2106529236068819394"
+   },
+   "published_at": "2026-10-03T23:38:01+00:00",
+   "id": "a-cmu-paper-on-harness-learning"
   }
  ]
 }

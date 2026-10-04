@@ -1,52 +1,55 @@
 {
-  "generated_at": "2026-10-04T00:03:24.499732+00:00",
+  "generated_at": "2026-10-04T02:03:23.039793+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 44,
-  "clusters_found": 39,
-  "stories_declared": 5,
+  "posts_considered": 47,
+  "clusters_found": 43,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2d471101",
-      "score": 10.896,
+      "cluster_id": "cd957e92e",
+      "score": 10.492,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Meta"
+      ],
       "independent_sources": [
-        "Simon Willison",
-        "simonw"
+        "The Decoder",
+        "dair_ai"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-03T23:34:02+00:00",
-      "last_seen": "2026-10-03T23:35:55+00:00",
+      "first_seen": "2026-10-03T07:12:09+00:00",
+      "last_seen": "2026-10-03T23:38:02+00:00",
       "links": [
-        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-        "https://x.com/simonw/status/2106528704902164855"
+        "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
+        "https://x.com/dair_ai/status/2106529236676976773"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "We're going to need default hard budget caps on pretty much everything. Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hos",
-          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-          "created_at": "2026-10-03T23:34:02+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside. Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code&#039;s new Mods system lets developers rewrite the AI coding tool from the inside appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
+          "created_at": "2026-10-03T07:12:09+00:00",
           "engagement": 0
         },
         {
-          "author": "simonw",
+          "author": "dair_ai",
           "tier": "commentary",
-          "text": "Just published this post about how we’re going to need default hard budget caps on pretty much everything https://t.co/L6XEYpF4uZ",
-          "url": "https://x.com/simonw/status/2106528704902164855",
-          "created_at": "2026-10-03T23:35:55+00:00",
-          "engagement": 37
+          "text": "Must-read paper from Meta on reliable auto-research agents. RankEvolve enforces each research phase and gate through a compiled protocol. It runs Claude Code and Codex as separate nodes that review and repair each other's changes. At a matched budget, combining the two products raises execution accuracy from 45.8% for the best single product to 62.5%.",
+          "url": "https://x.com/dair_ai/status/2106529236676976773",
+          "created_at": "2026-10-03T23:38:02+00:00",
+          "engagement": 43
         }
       ]
     },
     {
       "cluster_id": "c89764eae",
-      "score": 9.018,
+      "score": 8.685,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -72,45 +75,8 @@
       ]
     },
     {
-      "cluster_id": "ce0273ca9",
-      "score": 8.966,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "AndrewCurran_",
-        "Bloomberg Tech"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T23:15:03+00:00",
-      "last_seen": "2026-10-03T23:38:35+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-        "https://x.com/AndrewCurran_/status/2106523454514278768"
-      ],
-      "posts": [
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "The AI Force has been renamed to the SI Force and will be headed by Director of National Intelligence Jay Clayton. The WSJ says he will be the new Czar, still no official announcement yet from the White House.",
-          "url": "https://x.com/AndrewCurran_/status/2106523454514278768",
-          "created_at": "2026-10-03T23:15:03+00:00",
-          "engagement": 96
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "US AI Task Force to Report on Technology’s Risks, WSJ Reports. A new White House task force will produce a report assessing risks posed by artificial intelligence and what responsibility the US federal government should have over the technology, the Wall Street Journal reported.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
-          "created_at": "2026-10-03T23:38:35+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c9066725a",
-      "score": 7.98,
+      "score": 7.647,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -158,7 +124,7 @@
     },
     {
       "cluster_id": "c7071f755",
-      "score": 7.616,
+      "score": 7.283,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
