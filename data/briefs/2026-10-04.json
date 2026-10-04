@@ -1,55 +1,15 @@
 {
-  "generated_at": "2026-10-04T02:03:23.039793+00:00",
+  "generated_at": "2026-10-04T04:03:08.213703+00:00",
   "edition_date": "2026-10-04",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 47,
-  "clusters_found": 43,
-  "stories_declared": 4,
+  "posts_considered": 45,
+  "clusters_found": 44,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cd957e92e",
-      "score": 10.492,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic",
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "dair_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T07:12:09+00:00",
-      "last_seen": "2026-10-03T23:38:02+00:00",
-      "links": [
-        "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-        "https://x.com/dair_ai/status/2106529236676976773"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside. Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code&#039;s new Mods system lets developers rewrite the AI coding tool from the inside appeared first on The Decoder .",
-          "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-          "created_at": "2026-10-03T07:12:09+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "dair_ai",
-          "tier": "commentary",
-          "text": "Must-read paper from Meta on reliable auto-research agents. RankEvolve enforces each research phase and gate through a compiled protocol. It runs Claude Code and Codex as separate nodes that review and repair each other's changes. At a matched budget, combining the two products raises execution accuracy from 45.8% for the best single product to 62.5%.",
-          "url": "https://x.com/dair_ai/status/2106529236676976773",
-          "created_at": "2026-10-03T23:38:02+00:00",
-          "engagement": 43
-        }
-      ]
-    },
-    {
       "cluster_id": "c89764eae",
-      "score": 8.685,
+      "score": 8.352,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -75,56 +35,8 @@
       ]
     },
     {
-      "cluster_id": "c9066725a",
-      "score": 7.647,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "Product Hunt AI",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-03T02:07:11+00:00",
-      "last_seen": "2026-10-03T14:28:51+00:00",
-      "links": [
-        "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
-        "https://www.producthunt.com/products/muse-22",
-        "https://www.producthunt.com/products/sapien-4"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Muse Gadgets. Meta's open-source kit for building your own AI gadgets Discussion | Link",
-          "url": "https://www.producthunt.com/products/muse-22",
-          "created_at": "2026-10-03T02:07:11+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Sapien. AI market research with synthetic populations Discussion | Link",
-          "url": "https://www.producthunt.com/products/sapien-4",
-          "created_at": "2026-10-03T02:30:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project. Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI hardware form factors people actually want. The article \"Muse Gadgets\" turns AI hardware into an open-source DIY project appeared first on The Decoder .",
-          "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
-          "created_at": "2026-10-03T14:28:51+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c7071f755",
-      "score": 7.283,
+      "score": 6.95,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
