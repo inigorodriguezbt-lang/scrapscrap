@@ -30,6 +30,35 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-cohere-north-2",
+   "section": "business",
+   "headline": "Cohere launches North 2 agent platform with memory and token spending caps",
+   "standfirst": "Cohere says North 2 lets enterprise agents remember context between sessions and caps token spend per user and per agent. It runs in the cloud, on premises or fully air-gapped.",
+   "body": [
+    "Cohere has launched North 2, a rebuilt version of its platform for running AI agents inside large organisations, according to VentureBeat and SiliconANGLE on 5 October. The company says agents can now keep memory between sessions instead of starting cold each time, and that the agent harness, the layer that orchestrates multistep work, has been redesigned. Neither outlet reports independent testing of the changes.",
+    "The headline addition is spending control. According to VentureBeat, North 2 adds user quotas, rate limits and organisation-wide caps, with consumption tracked by model, user and department. SiliconANGLE describes per-user and per-agent token tracking, usage tiers and advance warnings. The platform is said to support models from several providers, not only Cohere's own, which the company presents as a way to keep costs predictable.",
+    "Cohere also pitches reuse. Skills are packaged logic that agents can call, and agents built from a simple prompt can be shared across a company so other teams do not rebuild the same workflow. SiliconANGLE says North 2 can turn natural-language requests into slides, dashboards and lightweight apps, and connects to Slack, GitHub, SharePoint and OneDrive. Connectors for PitchBook, S&P Global and FactSet are described as planned.",
+    "On security, VentureBeat lists scanning for personal data, prompt-injection detection and limits on what an agent may do, plus SOC 2 Type 2, ISO 27001 and ISO 42001 certifications. Cohere has not published pricing, saying cost depends on deployment size. Bell Canada's cybersecurity unit and LG CNS use North, and SiliconANGLE notes the launch follows Cohere's announced merger with Aleph Alpha by three weeks."
+   ],
+   "entities": [
+    "Cohere",
+    "North 2",
+    "VentureBeat",
+    "SiliconANGLE"
+   ],
+   "sources": [
+    {
+     "author": "VentureBeat",
+     "url": "https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory"
+    },
+    {
+     "author": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-robco-1b-valuation",
    "section": "business",
    "headline": "Munich robotics start-up RobCo reaches $1bn valuation and plans a March launch for Alfie",
