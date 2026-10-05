@@ -1,51 +1,55 @@
 {
-  "generated_at": "2026-10-05T18:06:05.981168+00:00",
+  "generated_at": "2026-10-05T20:04:18.932888+00:00",
   "edition_date": "2026-10-05",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 100,
-  "clusters_found": 76,
-  "stories_declared": 5,
+  "posts_considered": 99,
+  "clusters_found": 72,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2ef146cb",
-      "score": 16.066,
+      "cluster_id": "c74685272",
+      "score": 13.635,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "OpenAI",
         "Anthropic",
+        "Meta",
+        "Microsoft",
         "Amazon"
       ],
       "independent_sources": [
         "AWS ML",
-        "ClementDelangue",
-        "IntCyberDigest"
+        "The Decoder",
+        "arena"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-05T14:48:22+00:00",
-      "last_seen": "2026-10-05T17:35:56+00:00",
+      "first_seen": "2026-10-05T15:51:38+00:00",
+      "last_seen": "2026-10-05T19:02:23+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+        "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+        "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
         "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-        "https://x.com/ClementDelangue/status/2107120717980471638",
-        "https://x.com/IntCyberDigest/status/2107162889907789889"
+        "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+        "https://x.com/arena/status/2107184642944389402"
       ],
       "posts": [
         {
-          "author": "ClementDelangue",
-          "tier": "commentary",
-          "text": "We turned Claude Code, Codex, Hermes, Pi, opencode and other coding harnesses into RL environments. No changes to the harnesses, no changes to the training code. Any open model, any task set, fully open source. Same model, same weights: 62% under Mini-SWE-Agent, 33%",
-          "url": "https://x.com/ClementDelangue/status/2107120717980471638",
-          "created_at": "2026-10-05T14:48:22+00:00",
-          "engagement": 1217
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Downgrading user roles in Amazon Quick. Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate approach and an AWS CLI step-down sequence that downgrades roles safely while preserving asset ownership.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+          "created_at": "2026-10-05T15:51:38+00:00",
+          "engagement": 0
         },
         {
           "author": "AWS ML",
           "tier": "primary",
-          "text": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent. Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker Python SDK v3 code to benchmark, recommend, and compare deployments.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-          "created_at": "2026-10-05T17:23:19+00:00",
+          "text": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion. Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+          "created_at": "2026-10-05T15:56:28+00:00",
           "engagement": 0
         },
         {
@@ -57,88 +61,65 @@
           "engagement": 0
         },
         {
-          "author": "IntCyberDigest",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor. Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. The article Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+          "created_at": "2026-10-05T18:59:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
           "tier": "commentary",
-          "text": "BREAKING: The Pentagon told the BBC it has ceased the use of Anthropic products months after designating the company a supply chain risk, yet sources say Claude was still in use there last week, including in military operations against Iran.",
-          "url": "https://x.com/IntCyberDigest/status/2107162889907789889",
-          "created_at": "2026-10-05T17:35:56+00:00",
-          "engagement": 42
+          "text": "The Agent Arena ranks agentic ability to solve problems across domains. \n\nU.S. labs lead across every domain:\n- @AnthropicAI models hold the #1 position in Code, Work, and Chat\n- @OpenAI's GPT 6 Astra (Max) remains in the top four across all three categories: #2 in Code and #4 in both Work and Chat\n\nThe leading models stay strong across categories, but their order shifts:\n- Claude Fable 5.1 (Max) leads both Code and Work and ranks #2 in Chat\n- Claude Sonnet 5.5 (Max) leads Chat and ranks #4 in Code and #5 in Work\n\nCode and Work rankings move together more closely than Chat:\n- Gemini 4 Argon (H",
+          "url": "https://x.com/arena/status/2107184642944389402",
+          "created_at": "2026-10-05T19:02:23+00:00",
+          "engagement": 94
         }
       ]
     },
     {
-      "cluster_id": "c9654a516",
-      "score": 11.095,
-      "interest": "neutral",
+      "cluster_id": "cbc1169e4",
+      "score": 11.66,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta"
+        "Nvidia"
       ],
       "independent_sources": [
-        "AndrewCurran_",
-        "Bloomberg Tech",
-        "The Decoder"
+        "TechCrunch AI",
+        "kimmonismus"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-04T20:00:00+00:00",
-      "last_seen": "2026-10-05T17:32:42+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-05T19:29:38+00:00",
+      "last_seen": "2026-10-05T19:33:53+00:00",
       "links": [
-        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
-        "https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
-        "https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing",
-        "https://x.com/AndrewCurran_/status/2107131382904623351",
-        "https://x.com/AndrewCurran_/status/2107144242481271279"
+        "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "https://x.com/kimmonismus/status/2107191500136157404"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Whistleblowers, Google, OpenAI, Meta to Face New York City Council. Former Anthropic researcher Jacob Coxon, who warned that artificial intelligence could become too powerful for humans to control, will testify Monday at a New York City Council hearing alongside representatives of some of the world’s biggest AI companies.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
-          "created_at": "2026-10-04T20:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AndrewCurran_",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "Intelligencer has published an interview with Miles Brundage, Rosie Campbell, Jacob Coxon... The New York City Council hearing on AI safeguards has just started, streamed live.",
-          "url": "https://x.com/AndrewCurran_/status/2107131382904623351",
-          "created_at": "2026-10-05T15:30:44+00:00",
-          "engagement": 241
+          "text": "Reflection has announced Beam: a 501B-parameter model with 23B active, with full weights scheduled for release this month. Frontier capabilities, and holy is this model efficient!\n\nTrained from scratch, Beam targets coding, reasoning and agentic tasks.\n\nReflection claims 3–4x higher inference efficiency than GLM 5.2 and over 4x higher efficiency than leading Western open models in its class.\n\n24T pretraining tokens in four weeks, followed by four weeks of reinforcement learning on 10,500 GB300s.\n\nTerminal Bench v2.1 and 80.9 on SWE-bench Verified.\n\nBut again: look at the efficency, eypecially ",
+          "url": "https://x.com/kimmonismus/status/2107191500136157404",
+          "created_at": "2026-10-05T19:29:38+00:00",
+          "engagement": 180
         },
         {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Text watermarking in ChatGPT and Codex is rolling out. Unlike Anthropic and Google, OpenAI is launching watermarking (textGrain) only in the EU.",
-          "url": "https://x.com/AndrewCurran_/status/2107144242481271279",
-          "created_at": "2026-10-05T16:21:50+00:00",
-          "engagement": 384
-        },
-        {
-          "author": "Bloomberg Tech",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Ex-Anthropic Researcher Jacob Coxon Testifies at NYC Council AI Hearing. Former Anthropic researcher Jacob Coxon warned that the race to develop artificial intelligence poses risks that the industry itself doesn’t fully understand, at a New York City Council hearing where lawmakers weighed whether to impose their own safeguards on a burgeoning global business.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing",
-          "created_at": "2026-10-05T16:46:47+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide. OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a quarter of the words are replaced. The article OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
-          "created_at": "2026-10-05T17:32:42+00:00",
+          "text": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost. Nvidia-backed Reflection AI unveils Beam, its first open-weight model, which it says rivals GLM-5.2 on reasoning with far less inference compute. Weights are due this month.",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "created_at": "2026-10-05T19:33:53+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cf562d786",
-      "score": 8.914,
+      "cluster_id": "cc834c635",
+      "score": 10.163,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -150,15 +131,18 @@
       "independent_sources": [
         "9to5Google",
         "9to5Mac",
+        "Ars Technica AI",
         "The Verge AI"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "first_seen": "2026-10-05T12:23:32+00:00",
-      "last_seen": "2026-10-05T15:23:06+00:00",
+      "last_seen": "2026-10-05T19:39:59+00:00",
       "links": [
         "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
         "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
         "https://9to5mac.com/2026/10/05/prime-day-mac-deals-start-early-new-mac-mini-150-off-macbook-air-200-off-much-more/",
+        "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
+        "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
         "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool"
       ],
       "posts": [
@@ -193,12 +177,28 @@
           "url": "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
           "created_at": "2026-10-05T15:23:06+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Command-line tool quickly removes Apple Intelligence from macOS 27. The tool can free up over 12GB of storage.",
+          "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+          "created_at": "2026-10-05T19:14:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Monday’s Android app deals and freebies: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, House of Da Vinci, more. Amazon ramp-ed up its early fall Prime Day deals ahead of tomorrow’s official start time with loads of new deals, but we also have your Google Play app and game deals of the day at the ready too. Highlights include Cultures: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, The House of Da Vinci, Box Head: Roguelike Premium, WINCH IT OUT, LIMBO, Paign 2 – RPG, and more. Just be sure to dive into the Pixel Watch 5 deals that went live today, the first discount on the Steph Curry Special Edition model, and Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets at up to $227 off with FREE ANC earbuds throw",
+          "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
+          "created_at": "2026-10-05T19:39:59+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ce67c78e7",
-      "score": 5.549,
+      "cluster_id": "c60c430bf",
+      "score": 6.466,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -206,13 +206,15 @@
         "OpenAI"
       ],
       "independent_sources": [
+        "9to5Google",
         "Engadget",
         "The Verge AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-05T13:09:48+00:00",
-      "last_seen": "2026-10-05T14:38:31+00:00",
+      "last_seen": "2026-10-05T17:15:00+00:00",
       "links": [
+        "https://9to5google.com/2026/10/05/chatgpt-is-adding-new-ads/",
         "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
         "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
       ],
@@ -232,13 +234,71 @@
           "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
           "created_at": "2026-10-05T14:38:31+00:00",
           "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "ChatGPT is adding new ads. OpenAI confirmed today that its ChatGPT app will be adding more space for ads starting with a test later this month. more…",
+          "url": "https://9to5google.com/2026/10/05/chatgpt-is-adding-new-ads/",
+          "created_at": "2026-10-05T17:15:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ca1c1cd60",
-      "score": 4.616,
-      "interest": "dull",
+      "cluster_id": "c8344af5e",
+      "score": 6.134,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T12:37:32+00:00",
+      "last_seen": "2026-10-05T18:08:39+00:00",
+      "links": [
+        "https://the-decoder.com/chatgpts-new-ad-format-fills-the-image-generation-loading-screen-with-product-carousels/",
+        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT's new ad format fills the image generation loading screen with product carousels. ChatGPT users in the US will soon see display ads while the chatbot generates an image for them. The article ChatGPT&#039;s new ad format fills the image generation loading screen with product carousels appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpts-new-ad-format-fills-the-image-generation-loading-screen-with-product-carousels/",
+          "created_at": "2026-10-05T12:37:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide. OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a quarter of the words are replaced. The article OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+          "created_at": "2026-10-05T17:32:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "created_at": "2026-10-05T18:08:39+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb1d50b04",
+      "score": 6.027,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
       "entities": [
@@ -246,40 +306,31 @@
         "Anthropic"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "The Decoder"
+        "The Verge AI",
+        "Tom's Hardware"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-05T16:00:12+00:00",
-      "last_seen": "2026-10-05T17:44:57+00:00",
+      "first_seen": "2026-10-05T11:50:00+00:00",
+      "last_seen": "2026-10-05T19:28:59+00:00",
       "links": [
-        "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
-        "https://www.bloomberg.com/news/videos/2026-10-05/ai-pacing-doesn-t-mean-slower-adoption-video",
-        "https://www.bloomberg.com/news/videos/2026-10-05/anthropic-can-keep-creating-value-after-ipo-fanari-video"
+        "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "Tom's Hardware",
           "tier": "press",
-          "text": "Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO. Anthropic employees donated $540 million in 2025 alone, nearly five times as much as the next-largest Fortune 500 donors, thanks to a company program that tops up every stock donation with extra shares and triples contributions from early employees. The article Anthropic is quietly becoming America&#039;s biggest corporate donor ahead of its mega IPO appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
-          "created_at": "2026-10-05T16:00:12+00:00",
+          "text": "Former OpenAI safety employee says company’s safety culture is broken. David Robinson argues that Silicon Valley lacks the wisdom on how to handle AI safely and urges the industry to seek outside experts to help build a culture that prioritizes it.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
+          "created_at": "2026-10-05T11:50:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Anthropic Can Keep Creating Value After IPO: Fanari. Maggie Fanari, chief executive officer of J. Rothschild Capital Management and an Anthropic investor, says the AI company can continue creating value after going public as it compounds growth over the long term. She also views Anthropic’s focus on AI safety as a strength, arguing that technological development and safeguards need to advance together. She speaks on \"Bloomberg Surveillance.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-05/anthropic-can-keep-creating-value-after-ipo-fanari-video",
-          "created_at": "2026-10-05T16:52:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI ‘Pacing’ Doesn’t Mean Slower Adoption. NEA partner Tiffany Luck says any slowdown in development at the AI frontier doesn’t have to slow adoption across the economy. She argues increasingly powerful models from OpenAI, Anthropic and others are already well ahead of enterprise deployment, leaving a major opportunity for companies that can turn raw intelligence into real-world workflows and measurable returns. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-05/ai-pacing-doesn-t-mean-slower-adoption-video",
-          "created_at": "2026-10-05T17:44:57+00:00",
+          "text": "All the drama around AI&#8217;s takeover of mathematics. This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+          "created_at": "2026-10-05T19:28:59+00:00",
           "engagement": 0
         }
       ]
