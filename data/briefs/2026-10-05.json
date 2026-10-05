@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T04:03:38.668872+00:00",
+  "generated_at": "2026-10-05T06:03:30.392057+00:00",
   "edition_date": "2026-10-05",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 49,
-  "clusters_found": 42,
-  "stories_declared": 3,
+  "posts_considered": 40,
+  "clusters_found": 33,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "ce5cc80dd",
-      "score": 8.946,
+      "score": 8.613,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -65,8 +65,47 @@
       ]
     },
     {
+      "cluster_id": "c0231dc43",
+      "score": 6.442,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "MIT Tech Review"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-04T16:05:33+00:00",
+      "last_seen": "2026-10-05T04:00:00+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-10-04/ai-stocks-drive-an-increasingly-divided-market-video",
+        "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Stocks Drive an Increasingly Divided Market. Schwab Head of Macro Research and Strategy Kevin Gordon tells Bloomberg This Weekend that AI-related technology stocks are supporting the broader market even as many individual companies have suffered significantly larger declines, highlighting increasingly narrow market leadership. Speaking with hosts David Gura and Christina Ruffini, Gordon says a gradual Federal Reserve tightening cycle and a labor market that avoids widespread layoffs could support stocks, while investors are increasingly focused on whether companies sustain their enormous AI capital spending. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-04/ai-stocks-drive-an-increasingly-divided-market-video",
+          "created_at": "2026-10-04T16:05:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "EmTech Future 2026: When AI Meets Everything. Yossi Matias, Vice President &#38; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&#160; Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches&#8230;",
+          "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+          "created_at": "2026-10-05T04:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ca7ef657e",
-      "score": 6.51,
+      "score": 6.177,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -105,7 +144,7 @@
     },
     {
       "cluster_id": "cd025cff5",
-      "score": 6.327,
+      "score": 5.994,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
