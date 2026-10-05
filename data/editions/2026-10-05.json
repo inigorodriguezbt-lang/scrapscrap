@@ -47,6 +47,42 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-vals-opus-magnetic-semiconductors",
+   "section": "research",
+   "headline": "Vals AI says Opus 5.5 agents found two magnetic semiconductor candidates",
+   "standfirst": "Vals AI says more than 90 Claude Opus 5.5 agents proposed two materials that could sort electrons by spin at room temperature, one first made in 1999. Nobody has measured either yet.",
+   "body": [
+    "Vals AI, an AI evaluation company, published a write-up on 5 October saying agents running Claude Opus 5.5 identified two candidate materials for room-temperature magnetic semiconductors. In a post on X the company said \"90+ Opus 5.5 agents\" did the work in three days. The candidates come from simulations only, and the company has not had either one tested in a lab.",
+    "The first, YBaMnFeO₅, is a compound the company says it believes is a new design. Vals AI reports simulations that predict a 2.35 eV band gap and magnetism above room temperature, with the magnetic order surviving to about 490 K after calibration. Its blog post flags the catch: the Mn-Fe checkerboard arrangement the material needs may scramble during synthesis, and the post says it destabilises above 950 K.",
+    "The second, KV[Cr(CN)₆], is a Prussian blue compound that was synthesized in 1999 and, per the post, stays magnetic up to 376 K, a figure measured then. Vals AI says its simulations predict a 2.1 eV gap with both band edges in one spin channel. In its words, the ability to sort electrons by spin \"appears to have been hiding in plain sight for 27 years\".",
+    "To check the proposals, the agents ran hundreds of density functional theory simulations on cloud computers, at two levels of approximation known as PBE+U and HSE06, according to Vals AI. The post says the predictions are for a perfect, dry crystal. The 1999 sample held water in its pores, and the two methods disagreed on how that water affects performance.",
+    "Vals AI says the inputs, raw outputs and scripts behind its numbers sit in a public ledger with a one-command checker, which lets others rerun the calculations. The company says the next step is to make KV[Cr(CN)₆] again and measure it. Until someone does, these are model-assisted predictions from the company that ran the agents, not confirmed materials. The post drew 96 points on Hacker News."
+   ],
+   "entities": [
+    "Vals AI",
+    "Claude Opus 5.5",
+    "YBaMnFeO₅",
+    "KV[Cr(CN)₆]"
+   ],
+   "sources": [
+    {
+     "author": "Vals AI",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+    },
+    {
+     "author": "Vals AI on X",
+     "url": "https://x.com/ValsAI/status/2107204457738256749"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ValsAI/status/2107204457738256749",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-visual-ads-image-generation",
    "section": "business",
    "headline": "OpenAI to test labeled visual ads while ChatGPT users generate images",
@@ -247,7 +283,7 @@
      "url": "https://www.prnewswire.com/news-releases/preparing-the-worlds-cryptography-for-the-ai-era-eigen-labs-and-zcash-organization-shielded-labs-launch-hashsmash-an-open-multiplayer-competition-to-test-how-far-ai-can-advance-attacks-on-widely-used-hash-functions-302897508.html"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-figure-hark-assistant",
