@@ -1,43 +1,33 @@
 {
-  "generated_at": "2026-10-05T06:03:30.392057+00:00",
+  "generated_at": "2026-10-05T08:04:11.695482+00:00",
   "edition_date": "2026-10-05",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 40,
-  "clusters_found": 33,
+  "posts_considered": 49,
+  "clusters_found": 42,
   "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ce5cc80dd",
-      "score": 8.613,
+      "cluster_id": "c57db5fb0",
+      "score": 7.318,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
       "entities": [],
       "independent_sources": [
-        "Bloomberg Tech",
         "Engadget",
         "TechCrunch AI",
         "The Decoder"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-04T12:38:37+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-04T15:15:10+00:00",
       "last_seen": "2026-10-04T17:41:58+00:00",
       "links": [
         "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
         "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
-        "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
         "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/"
       ],
       "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Trump Names Clayton, Ferguson to Lead AI Task Force. The “Super Intelligence Force” will be led by Director of National Intelligence Jay Clayton and chairman of the Federal Trade Commission Andrew Ferguson, President Donald Trump says on Truth Social.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-04/trump-names-clayton-ferguson-to-lead-ai-task-force",
-          "created_at": "2026-10-04T12:38:37+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
@@ -65,13 +55,14 @@
       ]
     },
     {
-      "cluster_id": "c0231dc43",
-      "score": 6.442,
+      "cluster_id": "c319302b2",
+      "score": 6.619,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
       "entities": [
-        "Google"
+        "Google",
+        "Nvidia"
       ],
       "independent_sources": [
         "Bloomberg Tech",
@@ -79,9 +70,11 @@
       ],
       "source_count": 2,
       "first_seen": "2026-10-04T16:05:33+00:00",
-      "last_seen": "2026-10-05T04:00:00+00:00",
+      "last_seen": "2026-10-05T07:04:29+00:00",
       "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-05/nvidia-s-valuations-show-ai-rally-isn-t-a-bubble-dbs-says",
         "https://www.bloomberg.com/news/videos/2026-10-04/ai-stocks-drive-an-increasingly-divided-market-video",
+        "https://www.bloomberg.com/news/videos/2026-10-05/dbs-cio-on-ai-bonds-and-market-risks-video",
         "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
       ],
       "posts": [
@@ -100,12 +93,28 @@
           "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
           "created_at": "2026-10-05T04:00:00+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "DBS CIO on AI, Bonds and Market Risks. DBS Group Chief Investment Officer Hou Wey Fook says AI-led earnings growth continues to underpin major technology stocks while investment-grade bonds yielding above 5% offer an attractive source of income and portfolio stability. He joined Bloomberg's Insight with Haslinda Amin (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-05/dbs-cio-on-ai-bonds-and-market-risks-video",
+          "created_at": "2026-10-05T06:00:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says. Nvidia Corp.’s price-to-earnings multiple and projected 70% earnings growth for next year demonstrate that artificial intelligence-driven technology stocks remain far from bubble territory, DBS Group Chief Investment Officer Hou Wey Fook said.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/nvidia-s-valuations-show-ai-rally-isn-t-a-bubble-dbs-says",
+          "created_at": "2026-10-05T07:04:29+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ca7ef657e",
-      "score": 6.177,
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -144,7 +153,7 @@
     },
     {
       "cluster_id": "cd025cff5",
-      "score": 5.994,
+      "score": 5.796,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
