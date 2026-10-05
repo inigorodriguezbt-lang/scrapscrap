@@ -333,6 +333,69 @@
    "published_at": "2026-10-05T15:33:00+00:00",
    "embed": "https://x.com/Thom_Wolf/status/2107117057066061965",
    "id": "thom-wolf-of-hugging-face-posted"
+  },
+  {
+   "text": "Cursor says its SDK agents can now be steered mid-run: run.steer() adds a message to the next turn, and a subagent that is mid-task moves to the background and keeps working.",
+   "why": "Steering a running agent rather than restarting it is a small change that matters for long jobs; Cursor's own post is the only source so far.",
+   "source": {
+    "name": "Cursor on X",
+    "url": "https://x.com/cursor_ai/status/2107141004482793827"
+   },
+   "published_at": "2026-10-05T17:48:58+00:00",
+   "embed": "https://x.com/cursor_ai/status/2107141004482793827",
+   "id": "cursor-says-its-sdk-agents-can"
+  },
+  {
+   "text": "Cognition says Devin now has Dreaming: across sessions it builds a memory graph of how you work and tidies stale records overnight. It is also creating an open standard called Agent Memory Repo.",
+   "why": "Persistent agent memory is becoming a product feature, and an open standard could let the memory move between tools; Cognition's claims are untested.",
+   "source": {
+    "name": "Cognition on X",
+    "url": "https://x.com/cognition/status/2107165034463867001"
+   },
+   "published_at": "2026-10-05T18:24:28+00:00",
+   "embed": "https://x.com/cognition/status/2107165034463867001",
+   "id": "cognition-says-devin-now-has-dreaming"
+  },
+  {
+   "text": "Krea says its agent now runs inside Adobe After Effects, where it can create motion graphics, resize video and handle sound and images. Krea says the plug-in is free to try.",
+   "why": "It puts a generative agent inside a tool video editors already use; Krea's own video is the only demonstration so far.",
+   "source": {
+    "name": "Krea on X",
+    "url": "https://x.com/krea_ai/status/2107138756507763130"
+   },
+   "published_at": "2026-10-05T17:20:02+00:00",
+   "embed": "https://x.com/krea_ai/status/2107138756507763130",
+   "id": "krea-says-its-agent-now-runs"
+  },
+  {
+   "text": "Hobbyist 0xSero says DeepSeek V4.1 Flash now runs on one RTX 3090 plus CPU with a 262k context cache, at about 26 tokens a second decoding. It needs 256GB of RAM and 200GB of NVMe.",
+   "why": "A frontier-scale open model on one consumer GPU is the kind of home setup that spreads; the figures are the poster's own and unverified.",
+   "source": {
+    "name": "0xSero on X",
+    "url": "https://x.com/0xSero/status/2107080090878152779"
+   },
+   "published_at": "2026-10-05T15:26:55+00:00",
+   "id": "hobbyist-0xsero-says-deepseek-v4-1"
+  },
+  {
+   "text": "Empero AI says it has released Homebrew, an open agent that picks a base model, prepares data, sets safe parameters and trains a model from a plain-language request. Its post had 833 likes when we read it.",
+   "why": "Automating model training for non-researchers is a bold claim; nobody outside the company has shown it working yet.",
+   "source": {
+    "name": "Empero AI on X",
+    "url": "https://x.com/EmperoAI/status/2106875094442430966"
+   },
+   "published_at": "2026-10-04T23:52:21+00:00",
+   "id": "empero-ai-says-it-has-released"
+  },
+  {
+   "text": "The Pentagon told the BBC it has ceased using Anthropic products, but sources said Claude was still in use last week, including in operations against Iran, Intelligence Cyber Digest reports from the BBC.",
+   "why": "The Pentagon designated Anthropic a supply-chain risk in March, with a six-month phase-out, so continued use shows how hard the removal has been; we have not read the BBC piece.",
+   "source": {
+    "name": "Intelligence Cyber Digest on X",
+    "url": "https://x.com/IntCyberDigest/status/2107162889907789889"
+   },
+   "published_at": "2026-10-05T18:15:56+00:00",
+   "id": "the-pentagon-told-the-bbc-it"
   }
  ]
 }

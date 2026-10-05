@@ -1,52 +1,144 @@
 {
-  "generated_at": "2026-10-05T16:04:55.737805+00:00",
+  "generated_at": "2026-10-05T18:06:05.981168+00:00",
   "edition_date": "2026-10-05",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 77,
-  "clusters_found": 61,
-  "stories_declared": 3,
+  "posts_considered": 100,
+  "clusters_found": 76,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c02353708",
-      "score": 10.538,
+      "cluster_id": "c2ef146cb",
+      "score": 16.066,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
-      "entities": [],
-      "independent_sources": [
-        "The Decoder",
-        "mark_k"
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Amazon"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-04T17:41:58+00:00",
-      "last_seen": "2026-10-05T15:33:45+00:00",
+      "independent_sources": [
+        "AWS ML",
+        "ClementDelangue",
+        "IntCyberDigest"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-05T14:48:22+00:00",
+      "last_seen": "2026-10-05T17:35:56+00:00",
       "links": [
-        "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
-        "https://x.com/mark_k/status/2107132138663407840"
+        "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+        "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+        "https://x.com/ClementDelangue/status/2107120717980471638",
+        "https://x.com/IntCyberDigest/status/2107162889907789889"
       ],
       "posts": [
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence. Donald Trump has established a \"Super Intelligence Force.\" \"Superintelligence\" is his term for artificial intelligence. The unit is led by Director of National Intelligence Jay Clayton and other government officials, coordinates with AI companies, critical infrastructure operators, and interest groups. The group reports directly to the president. The article Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence appeared first on The Decoder .",
-          "url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
-          "created_at": "2026-10-04T17:41:58+00:00",
+          "author": "ClementDelangue",
+          "tier": "commentary",
+          "text": "We turned Claude Code, Codex, Hermes, Pi, opencode and other coding harnesses into RL environments. No changes to the harnesses, no changes to the training code. Any open model, any task set, fully open source. Same model, same weights: 62% under Mini-SWE-Agent, 33%",
+          "url": "https://x.com/ClementDelangue/status/2107120717980471638",
+          "created_at": "2026-10-05T14:48:22+00:00",
+          "engagement": 1217
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent. Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker Python SDK v3 code to benchmark, recommend, and compare deployments.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+          "created_at": "2026-10-05T17:23:19+00:00",
           "engagement": 0
         },
         {
-          "author": "mark_k",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Supercharge regulated workloads with Claude Code and Amazon Bedrock. Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+          "created_at": "2026-10-05T17:25:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
           "tier": "commentary",
-          "text": "Trump created a super intelligence force task force led by Jay Clayton; report within 120 days. Reuters",
-          "url": "https://x.com/mark_k/status/2107132138663407840",
-          "created_at": "2026-10-05T15:33:45+00:00",
-          "engagement": 27
+          "text": "BREAKING: The Pentagon told the BBC it has ceased the use of Anthropic products months after designating the company a supply chain risk, yet sources say Claude was still in use there last week, including in military operations against Iran.",
+          "url": "https://x.com/IntCyberDigest/status/2107162889907789889",
+          "created_at": "2026-10-05T17:35:56+00:00",
+          "engagement": 42
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9654a516",
+      "score": 11.095,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta"
+      ],
+      "independent_sources": [
+        "AndrewCurran_",
+        "Bloomberg Tech",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-04T20:00:00+00:00",
+      "last_seen": "2026-10-05T17:32:42+00:00",
+      "links": [
+        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+        "https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
+        "https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing",
+        "https://x.com/AndrewCurran_/status/2107131382904623351",
+        "https://x.com/AndrewCurran_/status/2107144242481271279"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Whistleblowers, Google, OpenAI, Meta to Face New York City Council. Former Anthropic researcher Jacob Coxon, who warned that artificial intelligence could become too powerful for humans to control, will testify Monday at a New York City Council hearing alongside representatives of some of the world’s biggest AI companies.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
+          "created_at": "2026-10-04T20:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Intelligencer has published an interview with Miles Brundage, Rosie Campbell, Jacob Coxon... The New York City Council hearing on AI safeguards has just started, streamed live.",
+          "url": "https://x.com/AndrewCurran_/status/2107131382904623351",
+          "created_at": "2026-10-05T15:30:44+00:00",
+          "engagement": 241
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Text watermarking in ChatGPT and Codex is rolling out. Unlike Anthropic and Google, OpenAI is launching watermarking (textGrain) only in the EU.",
+          "url": "https://x.com/AndrewCurran_/status/2107144242481271279",
+          "created_at": "2026-10-05T16:21:50+00:00",
+          "engagement": 384
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Ex-Anthropic Researcher Jacob Coxon Testifies at NYC Council AI Hearing. Former Anthropic researcher Jacob Coxon warned that the race to develop artificial intelligence poses risks that the industry itself doesn’t fully understand, at a New York City Council hearing where lawmakers weighed whether to impose their own safeguards on a burgeoning global business.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing",
+          "created_at": "2026-10-05T16:46:47+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide. OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a quarter of the words are replaced. The article OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+          "created_at": "2026-10-05T17:32:42+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cf562d786",
-      "score": 9.251,
+      "score": 8.914,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -106,7 +198,7 @@
     },
     {
       "cluster_id": "ce67c78e7",
-      "score": 5.885,
+      "score": 5.549,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -139,6 +231,55 @@
           "text": "OpenAI is testing more ads in ChatGPT. Display ads, what a concept.",
           "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
           "created_at": "2026-10-05T14:38:31+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca1c1cd60",
+      "score": 4.616,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T16:00:12+00:00",
+      "last_seen": "2026-10-05T17:44:57+00:00",
+      "links": [
+        "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+        "https://www.bloomberg.com/news/videos/2026-10-05/ai-pacing-doesn-t-mean-slower-adoption-video",
+        "https://www.bloomberg.com/news/videos/2026-10-05/anthropic-can-keep-creating-value-after-ipo-fanari-video"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO. Anthropic employees donated $540 million in 2025 alone, nearly five times as much as the next-largest Fortune 500 donors, thanks to a company program that tops up every stock donation with extra shares and triples contributions from early employees. The article Anthropic is quietly becoming America&#039;s biggest corporate donor ahead of its mega IPO appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+          "created_at": "2026-10-05T16:00:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic Can Keep Creating Value After IPO: Fanari. Maggie Fanari, chief executive officer of J. Rothschild Capital Management and an Anthropic investor, says the AI company can continue creating value after going public as it compounds growth over the long term. She also views Anthropic’s focus on AI safety as a strength, arguing that technological development and safeguards need to advance together. She speaks on \"Bloomberg Surveillance.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-05/anthropic-can-keep-creating-value-after-ipo-fanari-video",
+          "created_at": "2026-10-05T16:52:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI ‘Pacing’ Doesn’t Mean Slower Adoption. NEA partner Tiffany Luck says any slowdown in development at the AI frontier doesn’t have to slow adoption across the economy. She argues increasingly powerful models from OpenAI, Anthropic and others are already well ahead of enterprise deployment, leaving a major opportunity for companies that can turn raw intelligence into real-world workflows and measurable returns. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-05/ai-pacing-doesn-t-mean-slower-adoption-video",
+          "created_at": "2026-10-05T17:44:57+00:00",
           "engagement": 0
         }
       ]
