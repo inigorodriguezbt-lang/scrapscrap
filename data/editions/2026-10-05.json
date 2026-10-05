@@ -30,6 +30,97 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-nolla-ai-prescribing-utah",
+   "section": "products",
+   "headline": "Nolla Health says Utah has cleared its AI to issue first prescriptions for acne",
+   "standfirst": "Nolla Health says Utah regulators approved an AI that writes first acne prescriptions, with a physician checking each of the first 100. The company says it costs $4.99 a month.",
+   "body": [
+    "Nolla Health said on 5 October that it has received regulatory approval in Utah for what it calls the first AI system in the United States authorised to issue initial prescriptions. The company, in a press release, said it worked with the Utah Office of Artificial Intelligence and that the Utah Medical Board provided oversight. Bloomberg reported the same news under a headline saying the AI can prescribe acne drugs without doctors.",
+    "According to the company, the system can only choose from a short list of pre-approved topical acne treatments inside structured clinical protocols, and cannot write open-ended prescriptions. Chief Medical Advisor Dr. Zaid Fadul is quoted in the release as saying: \"The AI can't improvise. It can only choose from a short list of physician-approved topical treatments.\"",
+    "Nolla describes three stages of oversight. For the first 100 patients a physician reviews and approves every AI prescription before it is delivered. For the first 500 patients the AI issues prescriptions on its own while a physician reviews them retroactively each day. After that, the company says, a physician reviews a sample of prescriptions each week.",
+    "The service runs through the Nolla Derm app and is open to Utah residents aged 18 and over, at $4.99 a month during the pilot, the company says. It also says licensed clinicians agreed with the AI's recommendations in more than 96 percent of real-world cases. That figure is Nolla's own, and the release does not say how large the sample was or who checked it."
+   ],
+   "entities": [
+    "Nolla Health",
+    "Utah Office of Artificial Intelligence",
+    "Utah Medical Board",
+    "Zaid Fadul"
+   ],
+   "sources": [
+    {
+     "author": "Nolla Health",
+     "url": "https://www.prnewswire.com/news-releases/nolla-health-announces-nations-first-ai-to-issue-initial-prescriptions-302897659.html"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-05/nolla-health-ai-can-now-prescribe-acne-drugs-in-utah-without-doctors"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-hashsmash-ai-hash-attacks",
+   "section": "security",
+   "headline": "Eigen Labs and Zcash group open HashSmash, a contest for AI to attack SHA-256",
+   "standfirst": "Anyone can now point an AI agent at SHA-256, SHA-3, BLAKE3 and Poseidon and submit attacks. Eigen Labs and Shielded Labs say people were already probing SHA-3 and BLAKE3 within 23 minutes.",
+   "body": [
+    "Eigen Labs and Shielded Labs, a Zcash organisation, launched HashSmash on 5 October, which they describe as an open competition to test how far AI can advance attacks on widely used hash functions. The four targets are SHA-256, SHA-3, BLAKE3 and Poseidon, which the organisers say help secure blockchains, zero-knowledge systems, software and internet infrastructure.",
+    "Participants point an AI agent at the challenges. The release names SAT solvers, automated differential search and formal methods as tools. Each proposed attack has to show what it defeats and how much computing it needs. An AI verifier checks submissions first. Expert cryptographers then evaluate them. All results are public on Yukon, Eigen Labs' research platform.",
+    "Zooko Wilcox, Zcash co-founder, said in the release: \"AI's rapid advance could threaten the cryptographic foundations of digital security.\" Soubhik Deb, Eigen Labs' head of research, called cryptography \"the bedrock of individual freedom and privacy on the Internet.\"",
+    "The organisers say Yukon has produced results before, including an ECDSA benchmark that they say beats Google Quantum AI's by more than 60 percent. Those claims were not checked here. The release names no prize and no end date, and no attack on any of the four functions has been reported as successful."
+   ],
+   "entities": [
+    "Eigen Labs",
+    "Shielded Labs",
+    "Zcash",
+    "Zooko Wilcox",
+    "Soubhik Deb"
+   ],
+   "sources": [
+    {
+     "author": "Eigen Labs and Shielded Labs",
+     "url": "https://www.prnewswire.com/news-releases/preparing-the-worlds-cryptography-for-the-ai-era-eigen-labs-and-zcash-organization-shielded-labs-launch-hashsmash-an-open-multiplayer-competition-to-test-how-far-ai-can-advance-attacks-on-widely-used-hash-functions-302897508.html"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-figure-hark-assistant",
+   "section": "products",
+   "headline": "Figure is about to launch Hark, an AI assistant with memory, TestingCatalog reports",
+   "standfirst": "TestingCatalog says code for Figure's Hark assistant points to Claude Opus 5.5 as its main model. Founder Brett Adcock says it launches this week, and the first 100,000 users reportedly get paid access free.",
+   "body": [
+    "Figure, the robotics company, plans to release a proactive AI assistant called Hark this week, TestingCatalog reported on 5 October. The outlet says it found the details in development materials, so they are unconfirmed until Figure ships. TestingCatalog quotes founder Brett Adcock as saying: \"Hark launches this week... I don't do anything without Hark anymore.\"",
+    "The outlet describes Hark as a personal-intelligence system rather than a chatbot, with a home screen of widgets connected to email and calendars. It reports persistent memory covering people, places, projects and voice conversations, plus a browser agent called Handoff for ordering and booking, and a markdown \"soul\" document that sets its personality.",
+    "On models, TestingCatalog says Claude Opus 5.5 appears to power the main assistant and task agents. It says Gemini 3.1 Flash Image handles pictures, Qwen3.6-27B and Gemini 3.5 Flash Lite run browser functions, and GPT-6 Astra is referenced for harder challenges. Figure has not confirmed any of these model choices.",
+    "The outlet reports paid tiers called Pro, Pro², Pro³ and Pro⁴, with 5x and 20x usage options, and says the first 100,000 users get paid access free. Pricing and the launch date come only from that account. Figure had not published a product page at the time of writing, and nobody outside the company has tested Hark."
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2107120580147200299",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "entities": [
+    "Figure",
+    "Hark",
+    "Brett Adcock",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/figure-plans-to-release-hark-ai-assistant-this-week/"
+    },
+    {
+     "author": "TestingCatalog on X",
+     "url": "https://x.com/testingcatalog/status/2107120580147200299"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-cohere-north-2",
    "section": "business",
    "headline": "Cohere launches North 2 agent platform with memory and token spending caps",
