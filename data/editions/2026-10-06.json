@@ -30,6 +30,41 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-codex-auto-review-free",
+   "section": "products",
+   "headline": "OpenAI makes Codex Auto-review free for every ChatGPT sign-in",
+   "standfirst": "A second agent now watches Codex's first one for risky actions, free for anyone signed in with ChatGPT. The Codex poster @thsottiaux told users to run it instead of full access.",
+   "body": [
+    "OpenAI has made Auto-review free for all users who sign in to Codex through a ChatGPT account, the Codex-focused X account @thsottiaux said on X on Tuesday. He labelled the post \"Day 2.1\", part of a numbered series. TestingCatalog, an outlet that tracks AI product changes, reported the change within minutes. OpenAI has not published a separate announcement that we found.",
+    "@thsottiaux said users switch it on under Settings, Permissions, Auto-review. He described it as an improvement on the default sandbox, which asks the user to approve everything and is \"prone to decision fatigue\" unless the user spends a lot of time configuring specific rules. These descriptions are the company's own, and nobody outside OpenAI has yet tested how well the feature works.",
+    "The feature lets people run long tasks while a second agent reviews every action the primary agent takes, according to @thsottiaux. He said its only goal is to stop high-risk actions and to guard against unwanted actions that do not match the original user intent. Which actions the reviewer counts as high-risk was not detailed in the post.",
+    "In a follow-up post @thsottiaux told users to \"use auto-review instead of full-access\", adding that it is \"not a trade-off anymore\". TestingCatalog was more cautious, noting that approving small steps without granting full access has been a challenge and that it will have to prove it makes the process less distracting."
+   ],
+   "entities": [
+    "OpenAI",
+    "Codex",
+    "ChatGPT",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "@thsottiaux",
+     "url": "https://x.com/thsottiaux/status/2107368734981517634"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2107371974540382697"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/thsottiaux/status/2107368734981517634",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-deepseek-12b-round",
    "section": "business",
    "headline": "DeepSeek nears $12 billion round led by Tencent and CATL, Bloomberg reports",
@@ -239,7 +274,7 @@
      "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-chinese-agent-fleet-amap",

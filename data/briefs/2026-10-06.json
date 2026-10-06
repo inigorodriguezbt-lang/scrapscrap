@@ -1,54 +1,162 @@
 {
-  "generated_at": "2026-10-06T06:03:19.937943+00:00",
+  "generated_at": "2026-10-06T08:03:17.215747+00:00",
   "edition_date": "2026-10-06",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 116,
-  "clusters_found": 91,
-  "stories_declared": 5,
+  "posts_considered": 135,
+  "clusters_found": 98,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c1e32e043",
-      "score": 8.777,
-      "interest": "neutral",
+      "cluster_id": "c8f138229",
+      "score": 13.139,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "products",
       "entities": [
-        "DeepSeek"
+        "OpenAI",
+        "Anthropic",
+        "Google"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "jukan05"
+        "9to5Mac",
+        "Import AI",
+        "TechCrunch AI",
+        "The Verge AI",
+        "testingcatalog"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T05:00:22+00:00",
-      "last_seen": "2026-10-06T05:17:23+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-05T12:32:30+00:00",
+      "last_seen": "2026-10-06T06:36:41+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
-        "https://x.com/jukan05/status/2107339415463059669"
+        "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+        "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+        "https://x.com/testingcatalog/status/2107359369276891293"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding. DeepSeek is close to securing at least 80 billion yuan ($12 billion) in its latest round of funding, blowing past its own capital-raising target ahead of a landmark initial public offering in early 2027.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
-          "created_at": "2026-10-06T05:00:22+00:00",
+          "author": "Import AI",
+          "tier": "commentary",
+          "text": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy. Who chooses what AI gets to do?",
+          "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+          "created_at": "2026-10-05T12:32:30+00:00",
           "engagement": 0
         },
         {
-          "author": "jukan05",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "created_at": "2026-10-05T18:08:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI will start watermarking ChatGPT’s text in the EU. OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "created_at": "2026-10-05T20:36:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API. OpenAI today announced how it will comply with the EU AI Act, which requires providers of generative AI systems to mark AI-generated text in a way that makes it identifiable. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+          "created_at": "2026-10-05T20:46:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "BBG: DeepSeek has secured at least $12 billion in a funding round, with the final amount potentially approaching RMB 100 billion.\n\nBBG: DeepSeek is targeting an IPO in early 2027.",
-          "url": "https://x.com/jukan05/status/2107339415463059669",
-          "created_at": "2026-10-06T05:17:23+00:00",
-          "engagement": 77
+          "text": "DAILY AI BRIEF 🗞 — Oct 6\n\nOPENAI 🔥:\n* GPT-6 Astra and GPT-6.1 Sol now run about 50% faster in ChatGPT, kicking off a 28-day daily-improvement pledge for Codex and Work users.\n* API customers can now opt in to textGrain text watermarking, with ChatGPT and Codex text in the EU getting invisible watermarks in the coming weeks.\n* ChatGPT will start testing visual ads during image generation in the US later this month.\n* The Wikimedia Foundation says rogue OpenAI agents edited its wikis and may have contributed to a partial outage in May.\n\nREFLECTION 🔥:\n* Reflection unveiled Beam, a 501B-paramet",
+          "url": "https://x.com/testingcatalog/status/2107359369276891293",
+          "created_at": "2026-10-06T06:36:41+00:00",
+          "engagement": 60
+        }
+      ]
+    },
+    {
+      "cluster_id": "c5f688c62",
+      "score": 13.081,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "testingcatalog",
+        "thsottiaux"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T07:13:54+00:00",
+      "last_seen": "2026-10-06T07:26:46+00:00",
+      "links": [
+        "https://x.com/testingcatalog/status/2107371974540382697",
+        "https://x.com/thsottiaux/status/2107368734981517634"
+      ],
+      "posts": [
+        {
+          "author": "thsottiaux",
+          "tier": "commentary",
+          "text": "Day 2.1/\n\nWe have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.\n\nIt allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent",
+          "url": "https://x.com/thsottiaux/status/2107368734981517634",
+          "created_at": "2026-10-06T07:13:54+00:00",
+          "engagement": 3396
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "OPENAI 🔥: ChatGPT Auto-review is now free for all uses signed via ChatGPT account. \n\n> This feature runs a separate background agent that supervises actions taken by the main agent to make sure they are aligned with the user intent. \n\nThe need to approve baby steps w/o providing a full access is still a challenge. Let’s see if that would make it less districting.",
+          "url": "https://x.com/testingcatalog/status/2107371974540382697",
+          "created_at": "2026-10-06T07:26:46+00:00",
+          "engagement": 44
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb17f348c",
+      "score": 8.528,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "Latent Space",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T19:33:53+00:00",
+      "last_seen": "2026-10-06T06:28:43+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost. Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "created_at": "2026-10-05T19:33:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Reflection Beam - 501B-A23B American Open Model. A small win for US open source",
+          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+          "created_at": "2026-10-06T06:28:43+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cc834c635",
-      "score": 8.499,
+      "score": 8.166,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -127,7 +235,7 @@
     },
     {
       "cluster_id": "c854659d7",
-      "score": 7.244,
+      "score": 7.213,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -175,69 +283,8 @@
       ]
     },
     {
-      "cluster_id": "c2cf3d6d4",
-      "score": 6.384,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Import AI",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-05T12:32:30+00:00",
-      "last_seen": "2026-10-05T20:46:17+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-        "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
-      ],
-      "posts": [
-        {
-          "author": "Import AI",
-          "tier": "commentary",
-          "text": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy. Who chooses what AI gets to do?",
-          "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-          "created_at": "2026-10-05T12:32:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-          "created_at": "2026-10-05T18:08:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI will start watermarking ChatGPT’s text in the EU. OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-          "created_at": "2026-10-05T20:36:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API. OpenAI today announced how it will comply with the EU AI Act, which requires providers of generative AI systems to mark AI-generated text in a way that makes it identifiable. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-          "created_at": "2026-10-05T20:46:17+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cb1d50b04",
-      "score": 4.363,
+      "score": 4.03,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
