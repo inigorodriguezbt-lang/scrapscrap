@@ -30,6 +30,69 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-perplexity-computer-starcraft",
+   "section": "products",
+   "headline": "Perplexity says its Computer agent played StarCraft against itself in real time",
+   "standfirst": "Perplexity says two instances of its Computer agent played live Brood War matches with no pausing, and the final ended 5 to 2 after a Psionic Storm ambush on 41 Dragoons.",
+   "body": [
+    "Perplexity chief executive Aravind Srinivas posted a video on 6 October in which, he said, the company's Computer agent plays StarCraft: Brood War against another Computer in real time. He wrote that the game never pauses while each agent thinks. The score he gave was Blue 2, Red 5, and he described the final match in the post.",
+    "In that final, Srinivas said, Blue built up safely, reached 41 Dragoons and moved out. Red was waiting with High Templar and hit the army with Psionic Storm. His account says Blue had not scouted what Red was building. The paper has only his description and the clip, and has not independently watched the full matches.",
+    "On the setup, Srinivas said Computer assembled the whole thing itself: an OpenBW-based Brood War runtime on a VPS, a C++ bridge, and four gameplay tools per agent. Each agent receives its own game state limited by fog of war, he wrote. Recording and camera control run separately, and the agents are not given video input.",
+    "Perplexity did not say how long the agents took per decision, how many matches were played beyond the final series, or how the result compares with existing Brood War bots. The clip had drawn 136 likes and 30 replies when the paper read it. The claims about the build and the matches are Perplexity's own and no one else has verified them."
+   ],
+   "entities": [
+    "Perplexity",
+    "Aravind Srinivas",
+    "StarCraft",
+    "OpenBW"
+   ],
+   "sources": [
+    {
+     "author": "Aravind Srinivas (Perplexity)",
+     "url": "https://x.com/AravSrinivas/status/2107477001108078661"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AravSrinivas/status/2107477001108078661",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-nano-banana-2-1-rollout",
+   "section": "models",
+   "headline": "TestingCatalog says Google is rolling out Nano Banana 2.1 at 3.4 cents an image",
+   "standfirst": "TestingCatalog says Google's Nano Banana 2.1 is arriving in AI Studio, the API and Gemini, at $0.034 for a 1K image and $0.076 at 4K.",
+   "body": [
+    "TestingCatalog, which tracks unreleased AI features, reported on 6 October that Nano Banana 2.1 is rolling out on Google AI Studio, the Gemini APIs and the Gemini app. It quoted what it presented as Google's description: a high-quality image generation and editing model with enhanced factuality, visual fidelity and multi-turn consistency at Flash scale. Google had not published a post the paper could open.",
+    "The pricing it listed is per token. Image output is $30 per million tokens, TestingCatalog said. A 1K image (1024 by 1024 pixels) uses 1,120 tokens, or $0.034. A 2K image uses 1,680 tokens, or $0.050, and a 4K image uses 2,520 tokens, or $0.076. Those figures come from the outlet's reading of the listing and could change.",
+    "TestingCatalog offered its own guess: based on the pricing, it wrote, the model looks like a Pro model, though it added a question mark. That is speculation and not confirmed by Google, whose naming and tiers the paper has not been able to check. A Flash-scale label would normally imply a cheaper, faster model.",
+    "A separate TestingCatalog report earlier in the day said Nano Banana 2.1 appeared to be available in Google Flow. Nobody outside the outlet has published tests of the model yet, so quality claims remain unverified. Google has not said whether the rollout is complete in every region, and the paper could not confirm it."
+   ],
+   "entities": [
+    "Google",
+    "Nano Banana 2.1",
+    "Gemini",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2107499443532530001"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2107499443532530001",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "c131323b6",
    "section": "models",
    "headline": "Mistral Large 4 launches in preview, open weights due in October",
@@ -241,7 +304,7 @@
      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-codex-auto-review-free",
@@ -276,7 +339,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-deepseek-12b-round",
