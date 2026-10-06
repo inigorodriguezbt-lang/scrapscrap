@@ -1,147 +1,279 @@
 {
-  "generated_at": "2026-10-06T12:03:43.330811+00:00",
+  "generated_at": "2026-10-06T14:04:46.250474+00:00",
   "edition_date": "2026-10-06",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 139,
-  "clusters_found": 100,
-  "stories_declared": 4,
+  "posts_considered": 151,
+  "clusters_found": 103,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c7df52dea",
-      "score": 10.598,
+      "cluster_id": "c131323b6",
+      "score": 19.926,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "Google",
-        "Apple",
-        "Amazon"
+        "Mistral"
       ],
       "independent_sources": [
-        "9to5Google",
-        "9to5Mac",
-        "Ars Technica AI",
-        "Engadget",
-        "The Verge AI"
+        "Mistral",
+        "MistralAI",
+        "ValsAI",
+        "Wired AI",
+        "kimmonismus",
+        "synthwavedd",
+        "testingcatalog"
       ],
-      "source_count": 5,
-      "first_seen": "2026-10-05T12:23:32+00:00",
-      "last_seen": "2026-10-06T11:22:53+00:00",
+      "source_count": 7,
+      "first_seen": "2026-10-06T12:00:27+00:00",
+      "last_seen": "2026-10-06T13:40:45+00:00",
       "links": [
-        "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
-        "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
-        "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
-        "https://9to5mac.com/2026/10/05/prime-day-mac-deals-start-early-new-mac-mini-150-off-macbook-air-200-off-much-more/",
-        "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
-        "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
-        "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool"
+        "https://mistral.ai/news/mistral-large-4/",
+        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+        "https://x.com/MistralAI/status/2107457414387622310",
+        "https://x.com/ValsAI/status/2107458782372802943",
+        "https://x.com/kimmonismus/status/2107466092599775249",
+        "https://x.com/synthwavedd/status/2107463923205079480",
+        "https://x.com/testingcatalog/status/2107458562825802143",
+        "https://x.com/testingcatalog/status/2107462961090469943"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Prime Day Mac deals: New Mac mini $150 off, MacBook Air $200 off, much more. Just after catching AirPods Pro 3 dropping to one of the lowest prices to date, the fall Prime Day deals are starting to flood in on the latest Mac releases. We have new all-time low pricing on M6 Mac mini releases at up to nearly $150 off, and a near-$200 price drop on the 2026 Mac Studio. Those deals also join solid $200 price drops across just about all M5 MacBook Air models, an ongoing M5 Pro MacBook Pro offer at $500 off, the first deal on Apple’s new minimalist all-glyph Magic Keyboard, and rare Magic Mouse price drops too. more…",
-          "url": "https://9to5mac.com/2026/10/05/prime-day-mac-deals-start-early-new-mac-mini-150-off-macbook-air-200-off-much-more/",
-          "created_at": "2026-10-05T12:23:32+00:00",
+          "author": "Mistral",
+          "tier": "primary",
+          "text": "Introducing Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "created_at": "2026-10-06T12:00:27+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "MistralAI",
+          "tier": "commentary",
+          "text": "Meet Mistral Large 4, aka Le Chonk. \n\n• 1T parameters, natively multimodal. 49B active.\nIt is the best open weights model from US or Europe on aggregated benchmarks.\n• State-of-the-art on critical workloads, including cyber defense, manufacturing and finance and it surpasses closed frontier models on visual grounding.\n• Forged in Europe end-to-end and is deployable from Europe via our own Mistral Cloud infrastructure.\n• Available to all via API today. Working with cybersecurity partners privately.\n\nOpen weights release end of October.",
+          "url": "https://x.com/MistralAI/status/2107457414387622310",
+          "created_at": "2026-10-06T13:06:16+00:00",
+          "engagement": 13968,
+          "video": true
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "BREAKING 🔥: Mistral announced Mistral Large 4 \"Le Chonk\", a new 1T-parameter open-weight model!\n\n> 49B active parameters, native multimodality.\n\n> Rolling out via APIs today; open-weight release is planned for the end of October.\n\n> SOTA on \"critical workloads\", including cyber defense.\n\nLe Chaton Fat \"Le Chonk\" is here 👀\n https://t.co/FDh5mmvZxH",
+          "url": "https://x.com/testingcatalog/status/2107458562825802143",
+          "created_at": "2026-10-06T13:10:50+00:00",
+          "engagement": 338,
+          "video": true
+        },
+        {
+          "author": "ValsAI",
+          "tier": "commentary",
+          "text": "Mistral Large 4 is now the #1 open-weight model on HLAB and #9 among open-weight models on the Vals Index. https://t.co/oqjSnetRyv",
+          "url": "https://x.com/ValsAI/status/2107458782372802943",
+          "created_at": "2026-10-06T13:11:43+00:00",
+          "engagement": 283
+        },
+        {
+          "author": "Wired AI",
           "tier": "press",
-          "text": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS. Getting some extra storage space on your Mac could be as easy as deleting Apple's AI features with a new open-source command line tool called RemoveMacAI. There used to be a single Settings toggle for disabling Apple Intelligence, but that was removed in macOS 27. Now, the models stay on your disk, and the features [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
-          "created_at": "2026-10-05T13:47:14+00:00",
+          "text": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+          "created_at": "2026-10-06T13:15:23+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Deals: AirPods Pro 3, AirPods Max 2 $120 off, M6 Mac mini $150 off, Series 12, Ultra 4, more. The fall Prime Day Apple are seriously kicking off early today folks. We have AirPods Pro 3 at one of the lowest prices ever and AirPods Max 2 at $120 off joined by all-time low pricing on the M6 Mac mini lineup at up to $150 off and loads of M5 MacBook Air models at $200 off. On top of that, we are now tracking the first solid discounts on Apple Watch Series 12 models and Apple Watch Ultra 4 at up to nearly $100 off alongside all-time lows on a collection of Apple’s new iPhone 18 Pro/Max cases, rare discounts on Magic Mouse, and the first deal on Apple’s brand new Magic Keyboard. Scope it all",
-          "url": "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
-          "created_at": "2026-10-05T15:13:36+00:00",
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Mistral Large 4 scores 62% on DeepSWE, outperforming GLM-5.3, according to VentureBeat. \n\nAdditionally, it scores 67% on Finch (Financial tasks, SOTA open-weight).\n\nLe Chonk also scores 15% on Harvey’s Legal Agent Benchmark (Legal tasks, SOTA open-weight).\n\nWe need a tech report now 👀\nh/t @AiBattle_",
+          "url": "https://x.com/testingcatalog/status/2107462961090469943",
+          "created_at": "2026-10-06T13:28:19+00:00",
+          "engagement": 106
+        },
+        {
+          "author": "synthwavedd",
+          "tier": "commentary",
+          "text": "It's pretty funny that it seems the one thing Mistral Large 4 is actually leading on is a benchmark about regulation\n\nAnother EU banger https://t.co/KZPJlzFwXg",
+          "url": "https://x.com/synthwavedd/status/2107463923205079480",
+          "created_at": "2026-10-06T13:32:08+00:00",
+          "engagement": 564
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Never expected Europe to be back. From what I’ve heard their benchmarks will be a welcome surprise, in a very positive way.\n\n1T para model, 49b active. \n\n“It is the best open weights model from US or Europe on aggregated benchmarks.”",
+          "url": "https://x.com/kimmonismus/status/2107466092599775249",
+          "created_at": "2026-10-06T13:40:45+00:00",
+          "engagement": 162
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2b7789d3",
+      "score": 15.541,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Bloomberg Tech",
+        "The Decoder",
+        "rohanpaul_ai"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-05T15:50:01+00:00",
+      "last_seen": "2026-10-06T13:38:08+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+        "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+        "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+        "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+        "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
+        "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
+        "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
+        "https://x.com/rohanpaul_ai/status/2107447530204131352"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore. Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-in, custom, and explainability evaluators.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+          "created_at": "2026-10-05T15:50:01+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Deals: Pixel Watch 5 $70 off, Steph Curry model all-time low, massive Best Buy Techtober sale, Yoga Tab Gen 2, more. The fall Prime Day deals are kicking off early with loads of new offers now up for grabs including some of the best cash discounts across just about all Pixel Watch 5 models from $350 . You’ll also find Amazon’s first cash discount on the Steph Curry Special Edition Google Pixel Watch 5 (45mm) at $70 off joined by some all-time lows across the Nothing earbud and headphone lineup, up to $227 off Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets with FREE ANC earbuds and a giant selection of deals now live in the Best Buy Techtober Prime Day sale . Scope it all out below. more…",
-          "url": "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
-          "created_at": "2026-10-05T15:23:06+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases. Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. Run the same query through both paths, read the trace events, and compare what each retrieval path costs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+          "created_at": "2026-10-05T15:53:56+00:00",
           "engagement": 0
         },
         {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Command-line tool quickly removes Apple Intelligence from macOS 27. The tool can free up over 12GB of storage.",
-          "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
-          "created_at": "2026-10-05T19:14:44+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion. Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+          "created_at": "2026-10-05T15:56:28+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Monday’s Android app deals and freebies: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, House of Da Vinci, more. Amazon ramp-ed up its early fall Prime Day deals ahead of tomorrow’s official start time with loads of new deals, but we also have your Google Play app and game deals of the day at the ready too. Highlights include Cultures: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, The House of Da Vinci, Box Head: Roguelike Premium, WINCH IT OUT, LIMBO, Paign 2 – RPG, and more. Just be sure to dive into the Pixel Watch 5 deals that went live today, the first discount on the Steph Curry Special Edition model, and Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets at up to $227 off with FREE ANC earbuds throw",
-          "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
-          "created_at": "2026-10-05T19:39:59+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Supercharge regulated workloads with Claude Code and Amazon Bedrock. Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+          "created_at": "2026-10-05T17:25:20+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Google seems to finally understand why it bought Fitbit. Good morning! Today, I’m searching for Prime Day deals, watching Chris Rock masterfully dodge questions about The Slap, questioning Sam Altman about whether we have to accept “some bad things” to justify AI’s exponential growth, and brushing up on my chess game after many years of neglect. As a reminder, Inbox is the tech newsletter that goes beyond the news cycle. We cover the most important 9to5Google stories from the last couple of days along with a few highlights from around the web. We publish every Tuesday and Thursday, and if you like what you read, please subscribe . more…",
-          "url": "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
-          "created_at": "2026-10-06T11:00:00+00:00",
+          "text": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor. Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. The article Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+          "created_at": "2026-10-05T18:59:19+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing GLM 5.3 on Amazon Bedrock. GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+          "created_at": "2026-10-05T23:25:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Google removes free access to Gemini Flash and Pro on October 9. Free Gemini users are losing access to Google's Flash and Pro AI models.",
-          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-          "created_at": "2026-10-06T11:22:53+00:00",
+          "text": "AI Firms Face Scrutiny in Australia. Australia is stepping up scrutiny of artificial intelligence, with representatives from OpenAI, Anthropic, Microsoft and Google facing questions from a parliamentary inquiry. The hearing comes after OpenAI revealed their technology breached Australian government agencies earlier this year. Director of the AI Institute at the University of New South Wales, Sue Keay joins \"Bloomberg: The Asia Trade\" to discuss safety concerns, regulation and whether Australia risks missing out on the benefits of AI. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
+          "created_at": "2026-10-06T08:00:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users. AI-powered software startups are increasingly turning to cheaper open models",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
+          "created_at": "2026-10-06T11:02:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "New Meta paper finds that having 2 different coding agents review each other's patches catches far more silent bugs than giving 1 agent a bigger budget.\n\nMixing Claude Code and Codex on the same task raised fully correct patches from 45.8% to 62.5% at matched spend.\n\nAgents editing real training code can leak test data, break a gradient, or miswire a flag.\n\nThe code still runs, so you burn GPU hours and get numbers that look valid.\n\nThe reason is uncorrelated mistakes: agents from the same product fail the same way, so there is little for review to catch.",
+          "url": "https://x.com/rohanpaul_ai/status/2107447530204131352",
+          "created_at": "2026-10-06T12:27:00+00:00",
+          "engagement": 65
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Mythos Drove Up Cyber Risk 10-Fold, Says JPMorgan's Dimon. JPMorgan Chase & Co. Chief Executive Officer Jamie Dimon says artificial intelligence has exposed new vulnerabilities for banks. He says the risks of cyber attacks have gone up 10-fold since the release of Anthropic's Mythos ai model. He speaks exclusively to Bloomberg's Tom Mackenzie at the JPMorgan Tech Stars Conference in London. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
+          "created_at": "2026-10-06T13:38:08+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c21339cde",
-      "score": 8.689,
-      "interest": "neutral",
+      "cluster_id": "c0764e8d5",
+      "score": 15.091,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "policy",
+      "suggested_section": "business",
       "entities": [
         "OpenAI",
         "Anthropic",
         "Google",
-        "Microsoft"
+        "Mistral",
+        "DeepSeek"
       ],
       "independent_sources": [
         "9to5Mac",
-        "Bloomberg Tech",
-        "Import AI",
+        "ArtificialAnlys",
         "TechCrunch AI",
+        "The Decoder",
         "The Verge AI"
       ],
       "source_count": 5,
-      "first_seen": "2026-10-05T12:32:30+00:00",
-      "last_seen": "2026-10-06T11:02:01+00:00",
+      "first_seen": "2026-10-05T16:00:12+00:00",
+      "last_seen": "2026-10-06T13:45:15+00:00",
       "links": [
         "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-        "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
         "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-        "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
-        "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+        "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+        "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+        "https://x.com/ArtificialAnlys/status/2107467221421420919"
       ],
       "posts": [
         {
-          "author": "Import AI",
-          "tier": "commentary",
-          "text": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy. Who chooses what AI gets to do?",
-          "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-          "created_at": "2026-10-05T12:32:30+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO. Anthropic employees donated $540 million in 2025 alone, nearly five times as much as the next-largest Fortune 500 donors, thanks to a company program that tops up every stock donation with extra shares and triples contributions from early employees. The article Anthropic is quietly becoming America&#039;s biggest corporate donor ahead of its mega IPO appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
+          "created_at": "2026-10-05T16:00:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide. OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a quarter of the words are replaced. The article OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
+          "created_at": "2026-10-05T17:32:42+00:00",
           "engagement": 0
         },
         {
@@ -169,63 +301,158 @@
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "AI Firms Face Scrutiny in Australia. Australia is stepping up scrutiny of artificial intelligence, with representatives from OpenAI, Anthropic, Microsoft and Google facing questions from a parliamentary inquiry. The hearing comes after OpenAI revealed their technology breached Australian government agencies earlier this year. Director of the AI Institute at the University of New South Wales, Sue Keay joins \"Bloomberg: The Asia Trade\" to discuss safety concerns, regulation and whether Australia risks missing out on the benefits of AI. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
-          "created_at": "2026-10-06T08:00:28+00:00",
+          "text": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO. Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports. The article CATL and Tencent back Deepseek&#039;s ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .",
+          "url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+          "created_at": "2026-10-06T10:50:18+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users. AI-powered software startups are increasingly turning to cheaper open models",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
-          "created_at": "2026-10-06T11:02:01+00:00",
+          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
+          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+          "created_at": "2026-10-06T12:11:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
+          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+          "created_at": "2026-10-06T12:54:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China\n\n@MistralAI has released Mistral Large 4 in Research Public Preview, with plans to release the weights of the 1T parameter (49B active) model at the end of October. It achieves 38 on the Artificial Analysis Intelligence Index, comparable to GPT-6 Luna (max, 38) and DeepSeek V4.1 Flash (max, 39). It also achieves 50% on the Artificial Analysis Cyber Index, level with GLM-5.3-Flash",
+          "url": "https://x.com/ArtificialAnlys/status/2107467221421420919",
+          "created_at": "2026-10-06T13:45:15+00:00",
+          "engagement": 132
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc56fa909",
+      "score": 9.862,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google",
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "9to5Mac",
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-05T15:13:36+00:00",
+      "last_seen": "2026-10-06T13:19:01+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
+        "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
+        "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
+        "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
+        "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Deals: AirPods Pro 3, AirPods Max 2 $120 off, M6 Mac mini $150 off, Series 12, Ultra 4, more. The fall Prime Day Apple are seriously kicking off early today folks. We have AirPods Pro 3 at one of the lowest prices ever and AirPods Max 2 at $120 off joined by all-time low pricing on the M6 Mac mini lineup at up to $150 off and loads of M5 MacBook Air models at $200 off. On top of that, we are now tracking the first solid discounts on Apple Watch Series 12 models and Apple Watch Ultra 4 at up to nearly $100 off alongside all-time lows on a collection of Apple’s new iPhone 18 Pro/Max cases, rare discounts on Magic Mouse, and the first deal on Apple’s brand new Magic Keyboard. Scope it all",
+          "url": "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
+          "created_at": "2026-10-05T15:13:36+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Pixel Watch 5 $70 off, Steph Curry model all-time low, massive Best Buy Techtober sale, Yoga Tab Gen 2, more. The fall Prime Day deals are kicking off early with loads of new offers now up for grabs including some of the best cash discounts across just about all Pixel Watch 5 models from $350 . You’ll also find Amazon’s first cash discount on the Steph Curry Special Edition Google Pixel Watch 5 (45mm) at $70 off joined by some all-time lows across the Nothing earbud and headphone lineup, up to $227 off Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets with FREE ANC earbuds and a giant selection of deals now live in the Best Buy Techtober Prime Day sale . Scope it all out below. more…",
+          "url": "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
+          "created_at": "2026-10-05T15:23:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Monday’s Android app deals and freebies: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, House of Da Vinci, more. Amazon ramp-ed up its early fall Prime Day deals ahead of tomorrow’s official start time with loads of new deals, but we also have your Google Play app and game deals of the day at the ready too. Highlights include Cultures: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, The House of Da Vinci, Box Head: Roguelike Premium, WINCH IT OUT, LIMBO, Paign 2 – RPG, and more. Just be sure to dive into the Pixel Watch 5 deals that went live today, the first discount on the Steph Curry Special Edition model, and Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets at up to $227 off with FREE ANC earbuds throw",
+          "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
+          "created_at": "2026-10-05T19:39:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google seems to finally understand why it bought Fitbit. Good morning! Today, I’m searching for Prime Day deals, watching Chris Rock masterfully dodge questions about The Slap, questioning Sam Altman about whether we have to accept “some bad things” to justify AI’s exponential growth, and brushing up on my chess game after many years of neglect. As a reminder, Inbox is the tech newsletter that goes beyond the news cycle. We cover the most important 9to5Google stories from the last couple of days along with a few highlights from around the web. We publish every Tuesday and Thursday, and if you like what you read, please subscribe . more…",
+          "url": "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
+          "created_at": "2026-10-06T11:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google removes free access to Gemini Flash and Pro on October 9. Free Gemini users are losing access to Google's Flash and Pro AI models.",
+          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+          "created_at": "2026-10-06T11:22:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "created_at": "2026-10-06T13:19:01+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c9ec2d786",
-      "score": 8.544,
-      "interest": "want",
+      "cluster_id": "c30389f35",
+      "score": 8.937,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "ai",
       "entities": [],
       "independent_sources": [
-        "MIT Tech Review",
-        "Tom's Hardware"
+        "AndrewCurran_",
+        "ClementDelangue"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-05T13:20:00+00:00",
-      "last_seen": "2026-10-06T10:35:00+00:00",
+      "first_seen": "2026-10-06T13:05:22+00:00",
+      "last_seen": "2026-10-06T13:50:09+00:00",
       "links": [
-        "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
-        "https://www.tomshardware.com/tech-industry/data-centers/tencent-scores-100-000-offshore-ai-chip-deal-with-oracle-for-usd7-billion-despite-climbing-prices-per-hour-costs-estimated-to-be-43-percent-under-standard-h100-rental-rates"
+        "https://x.com/AndrewCurran_/status/2107457185253106034",
+        "https://x.com/ClementDelangue/status/2107468457768092149"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Tencent scores 100,000 offshore AI chip deal with Oracle for $7 billion despite climbing prices. Tencent is reportedly renting 100,000 AI chips from Oracle data centers in Southeast Asia for about $7 billion over five years.",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/tencent-scores-100-000-offshore-ai-chip-deal-with-oracle-for-usd7-billion-despite-climbing-prices-per-hour-costs-estimated-to-be-43-percent-under-standard-h100-rental-rates",
-          "created_at": "2026-10-05T13:20:00+00:00",
-          "engagement": 0
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "The Fat Cat has arrived.",
+          "url": "https://x.com/AndrewCurran_/status/2107457185253106034",
+          "created_at": "2026-10-06T13:05:22+00:00",
+          "engagement": 83
         },
         {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "WaveSave and its portable rubber dam. As sea levels rise and flood risks worsen due to global warming, WaveSave’s easy-to-erect portable dam offers a quick-response tool. People can use the dam to protect themselves and their property, and it can also store freshwater for later use. Communities in Europe, Africa, and Southeast Asia have deployed it successfully. Now, the company is&#8230;",
-          "url": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
-          "created_at": "2026-10-06T10:35:00+00:00",
-          "engagement": 0
+          "author": "ClementDelangue",
+          "tier": "commentary",
+          "text": "Le fat chaton! https://t.co/svhuNNJHnZ https://t.co/nbT0DF8BN7",
+          "url": "https://x.com/ClementDelangue/status/2107468457768092149",
+          "created_at": "2026-10-06T13:50:09+00:00",
+          "engagement": 117
         }
       ]
     },
     {
       "cluster_id": "cb17f348c",
-      "score": 7.86,
+      "score": 7.523,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",

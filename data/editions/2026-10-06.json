@@ -30,6 +30,62 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "c131323b6",
+   "section": "models",
+   "headline": "Mistral Large 4 launches in preview, open weights due in October",
+   "standfirst": "Mistral says its 1 trillion-parameter Large 4, 49 billion active, beats every open-weight model from the US or Europe, with weights due at the end of October and a 1M-token context in the API.",
+   "body": [
+    "Mistral released Large 4 on Tuesday in public preview through its Mistral Studio API, calling the 1 trillion-parameter, 49 billion-active mixture-of-experts model \"the best open weights model from US or Europe on aggregated benchmarks.\" That ranking is Mistral's own claim. The company says the weights, which are not yet out, will drop at the end of October.",
+    "Mistral's documentation lists a 1M-token context window, a 1.6 billion-parameter vision encoder, structured outputs, function calling and agent endpoints under the model id mistral-large-4. The company says it trained the model on 3,800 Nvidia Grace Blackwell GPUs in its own European data centres. It has not said which licence the weights will carry.",
+    "Mistral's own benchmark table puts it at 61.7 per cent on DeepSWE v1.1, 59.9 per cent on AutomationBench and 93 per cent on the Cybench security challenges. It says Large 4 beats GPT-6 Astra on the Dense 200 visual-grounding test, 42 per cent to 41, and leads open models on Harvey's Legal Agent Benchmark. These figures come from the maker and had not been reproduced at publication.",
+    "Two outside scorers had posted early numbers. Vals AI said Large 4 is first among open-weight models on its HLAB benchmark and ninth among open-weight models on the Vals Index. Artificial Analysis said it scores 38 on its Intelligence Index, level with GPT-6 Luna at 38 and just under DeepSeek V4.1 Flash at 39, which it called the most intelligent model from outside the US and China.",
+    "Prices are less settled. The Mistral announcement and TestingCatalog give $1.36 per million input tokens and $4.18 per million output. The model page lists $0.68 and $2.09, exactly half. Mistral has not explained the difference, and it may reflect a preview discount. The company also says it is red-teaming a reduced-moderation, cyber-focused version with security partners before it releases weights."
+   ],
+   "entities": [
+    "Mistral AI",
+    "Artificial Analysis",
+    "Vals AI"
+   ],
+   "sources": [
+    {
+     "author": "Mistral",
+     "url": "https://mistral.ai/news/mistral-large-4/"
+    },
+    {
+     "author": "Mistral docs",
+     "url": "https://docs.mistral.ai/models/mistral-large-4-0"
+    },
+    {
+     "author": "MistralAI on X",
+     "url": "https://x.com/MistralAI/status/2107457414387622310"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/mistral-launches-large-4-preview-with-1-t-parameters/"
+    },
+    {
+     "author": "Vals AI on X",
+     "url": "https://x.com/ValsAI/status/2107458782372802943"
+    },
+    {
+     "author": "Artificial Analysis on X",
+     "url": "https://x.com/ArtificialAnlys/status/2107467221421420919"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/MistralAI/status/2107457414387622310",
+     "after": 1,
+     "video": true
+    },
+    {
+     "url": "https://x.com/ValsAI/status/2107458782372802943",
+     "after": 4
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-mistral-cyber-model-abu-dhabi",
    "section": "models",
    "headline": "Mistral says its new model beats Chinese rivals on cyber, without naming one",
@@ -256,7 +312,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-kandinsky-6-video",
