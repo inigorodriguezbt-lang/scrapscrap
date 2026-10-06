@@ -1,240 +1,15 @@
 {
-  "generated_at": "2026-10-06T10:03:23.015911+00:00",
+  "generated_at": "2026-10-06T12:03:43.330811+00:00",
   "edition_date": "2026-10-06",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 127,
-  "clusters_found": 90,
-  "stories_declared": 7,
+  "posts_considered": 139,
+  "clusters_found": 100,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c94acc33d",
-      "score": 13.892,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-05T15:50:01+00:00",
-      "last_seen": "2026-10-06T09:01:02+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
-        "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
-        "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-        "https://x.com/kimmonismus/status/2107395696265494665"
-      ],
-      "posts": [
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore. Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-in, custom, and explainability evaluators.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
-          "created_at": "2026-10-05T15:50:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases. Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. Run the same query through both paths, read the trace events, and compare what each retrieval path costs.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
-          "created_at": "2026-10-05T15:53:56+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion. Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
-          "created_at": "2026-10-05T15:56:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Supercharge regulated workloads with Claude Code and Amazon Bedrock. Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-          "created_at": "2026-10-05T17:25:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing GLM 5.3 on Amazon Bedrock. GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-          "created_at": "2026-10-05T23:25:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Super cool: Vals AI says 90+ Claude Opus 5.5 agents helped identify two magnetic semiconductor candidates in three days of simulation work.\n\nThe goal: materials that could support spin-based computer memory while their opposing magnetic moments cancel out.\n\nOne candidate, YBaMnFeO₅, is a new proposed design. Its useful atomic structure may be difficult to manufacture.\n\nThe other, KV[Cr(CN)₆], was already made in 1999. The team's calculations suggest it has electronic properties worth testing for spintronics.",
-          "url": "https://x.com/kimmonismus/status/2107395696265494665",
-          "created_at": "2026-10-06T09:01:02+00:00",
-          "engagement": 146
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca8a560e6",
-      "score": 10.828,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T01:55:00+00:00",
-      "last_seen": "2026-10-06T07:55:39+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
-        "https://x.com/testingcatalog/status/2107379242023739810"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google Docs and Drive now support markdown files natively. Spurred by the use of markdown files in the AI age, Google Drive and Google Docs are adding full, native support for markdown (.md) files. more…",
-          "url": "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
-          "created_at": "2026-10-06T01:55:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "Google is making Markdown files natively supported in Google Drive and Google Docs. Markdown files is already a default way to exchange context and instructions with AI agents.",
-          "url": "https://x.com/testingcatalog/status/2107379242023739810",
-          "created_at": "2026-10-06T07:55:39+00:00",
-          "engagement": 122
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9be8485d",
-      "score": 8.394,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Bloomberg Tech",
-        "Import AI",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-10-05T12:32:30+00:00",
-      "last_seen": "2026-10-06T08:00:28+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-        "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-        "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
-      ],
-      "posts": [
-        {
-          "author": "Import AI",
-          "tier": "commentary",
-          "text": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy. Who chooses what AI gets to do?",
-          "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-          "created_at": "2026-10-05T12:32:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-          "created_at": "2026-10-05T18:08:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI will start watermarking ChatGPT’s text in the EU. OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-          "created_at": "2026-10-05T20:36:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API. OpenAI today announced how it will comply with the EU AI Act, which requires providers of generative AI systems to mark AI-generated text in a way that makes it identifiable. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-          "created_at": "2026-10-05T20:46:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Firms Face Scrutiny in Australia. Australia is stepping up scrutiny of artificial intelligence, with representatives from OpenAI, Anthropic, Microsoft and Google facing questions from a parliamentary inquiry. The hearing comes after OpenAI revealed their technology breached Australian government agencies earlier this year. Director of the AI Institute at the University of New South Wales, Sue Keay joins \"Bloomberg: The Asia Trade\" to discuss safety concerns, regulation and whether Australia risks missing out on the benefits of AI. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
-          "created_at": "2026-10-06T08:00:28+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb17f348c",
-      "score": 8.194,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Latent Space",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-05T19:33:53+00:00",
-      "last_seen": "2026-10-06T06:28:43+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-        "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost. Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
-          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-          "created_at": "2026-10-05T19:33:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Reflection Beam - 501B-A23B American Open Model. A small win for US open source",
-          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-          "created_at": "2026-10-06T06:28:43+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc834c635",
-      "score": 7.832,
+      "cluster_id": "c7df52dea",
+      "score": 10.598,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -247,24 +22,27 @@
         "9to5Google",
         "9to5Mac",
         "Ars Technica AI",
+        "Engadget",
         "The Verge AI"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "first_seen": "2026-10-05T12:23:32+00:00",
-      "last_seen": "2026-10-05T19:39:59+00:00",
+      "last_seen": "2026-10-06T11:22:53+00:00",
       "links": [
         "https://9to5google.com/2026/10/05/deals-pixel-watch-5-steph-curry-model-best-buy-techtober/",
+        "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
         "https://9to5mac.com/2026/10/05/deals-airpods-pro-3-airpods-max-2-mac-mini-series-12/",
         "https://9to5mac.com/2026/10/05/prime-day-mac-deals-start-early-new-mac-mini-150-off-macbook-air-200-off-much-more/",
         "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
         "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+        "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
         "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool"
       ],
       "posts": [
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "Prime Day Mac deals start early: New Mac mini $150 off, MacBook Air $200 off, much more. Just after catching AirPods Pro 3 dropping to one of the lowest prices to date, the fall Prime Day deals are starting to flood in on the latest Mac releases. We have new all-time low pricing on M6 Mac mini releases at up to nearly $150 off, and a near-$200 price drop on the 2026 Mac Studio. Those deals also join solid $200 price drops across just about all M5 MacBook Air models, an ongoing M5 Pro MacBook Pro offer at $500 off, the first deal on Apple’s new minimalist all-glyph Magic Keyboard, and rare Magic Mouse price drops too. more…",
+          "text": "Prime Day Mac deals: New Mac mini $150 off, MacBook Air $200 off, much more. Just after catching AirPods Pro 3 dropping to one of the lowest prices to date, the fall Prime Day deals are starting to flood in on the latest Mac releases. We have new all-time low pricing on M6 Mac mini releases at up to nearly $150 off, and a near-$200 price drop on the 2026 Mac Studio. Those deals also join solid $200 price drops across just about all M5 MacBook Air models, an ongoing M5 Pro MacBook Pro offer at $500 off, the first deal on Apple’s new minimalist all-glyph Magic Keyboard, and rare Magic Mouse price drops too. more…",
           "url": "https://9to5mac.com/2026/10/05/prime-day-mac-deals-start-early-new-mac-mini-150-off-macbook-air-200-off-much-more/",
           "created_at": "2026-10-05T12:23:32+00:00",
           "engagement": 0
@@ -308,94 +86,176 @@
           "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
           "created_at": "2026-10-05T19:39:59+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c854659d7",
-      "score": 7.213,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-05T13:09:48+00:00",
-      "last_seen": "2026-10-05T15:14:24+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-        "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
-      ],
-      "posts": [
+        },
         {
-          "author": "The Verge AI",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "OpenAI is sticking more ads in ChatGPT. OpenAI's latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will \"initially\" appear when you generate images with ChatGPT, according to an announcement on Monday. The company first brought ads to ChatGPT in February. Until now, ChatGPT's [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
-          "created_at": "2026-10-05T13:09:48+00:00",
+          "text": "Google seems to finally understand why it bought Fitbit. Good morning! Today, I’m searching for Prime Day deals, watching Chris Rock masterfully dodge questions about The Slap, questioning Sam Altman about whether we have to accept “some bad things” to justify AI’s exponential growth, and brushing up on my chess game after many years of neglect. As a reminder, Inbox is the tech newsletter that goes beyond the news cycle. We cover the most important 9to5Google stories from the last couple of days along with a few highlights from around the web. We publish every Tuesday and Thursday, and if you like what you read, please subscribe . more…",
+          "url": "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
+          "created_at": "2026-10-06T11:00:00+00:00",
           "engagement": 0
         },
         {
           "author": "Engadget",
           "tier": "press",
-          "text": "OpenAI is testing more ads in ChatGPT. Display ads, what a concept.",
-          "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
-          "created_at": "2026-10-05T14:38:31+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI launches visual ads that appear alongside image generation results. The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
-          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-          "created_at": "2026-10-05T15:14:24+00:00",
+          "text": "Google removes free access to Gemini Flash and Pro on October 9. Free Gemini users are losing access to Google's Flash and Pro AI models.",
+          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+          "created_at": "2026-10-06T11:22:53+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cb1d50b04",
-      "score": 3.697,
+      "cluster_id": "c21339cde",
+      "score": 8.689,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "policy",
       "entities": [
         "OpenAI",
-        "Anthropic"
+        "Anthropic",
+        "Google",
+        "Microsoft"
       ],
       "independent_sources": [
-        "The Verge AI",
-        "Tom's Hardware"
+        "9to5Mac",
+        "Bloomberg Tech",
+        "Import AI",
+        "TechCrunch AI",
+        "The Verge AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-05T11:50:00+00:00",
-      "last_seen": "2026-10-05T19:28:59+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-05T12:32:30+00:00",
+      "last_seen": "2026-10-06T11:02:01+00:00",
       "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack"
+        "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+        "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+        "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
+        "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Former OpenAI safety employee says company’s safety culture is broken. David Robinson argues that Silicon Valley lacks the wisdom on how to handle AI safely and urges the industry to seek outside experts to help build a culture that prioritizes it.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
-          "created_at": "2026-10-05T11:50:00+00:00",
+          "author": "Import AI",
+          "tier": "commentary",
+          "text": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy. Who chooses what AI gets to do?",
+          "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
+          "created_at": "2026-10-05T12:32:30+00:00",
           "engagement": 0
         },
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "All the drama around AI&#8217;s takeover of mathematics. This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
-          "created_at": "2026-10-05T19:28:59+00:00",
+          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "created_at": "2026-10-05T18:08:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI will start watermarking ChatGPT’s text in the EU. OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "created_at": "2026-10-05T20:36:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API. OpenAI today announced how it will comply with the EU AI Act, which requires providers of generative AI systems to mark AI-generated text in a way that makes it identifiable. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+          "created_at": "2026-10-05T20:46:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Firms Face Scrutiny in Australia. Australia is stepping up scrutiny of artificial intelligence, with representatives from OpenAI, Anthropic, Microsoft and Google facing questions from a parliamentary inquiry. The hearing comes after OpenAI revealed their technology breached Australian government agencies earlier this year. Director of the AI Institute at the University of New South Wales, Sue Keay joins \"Bloomberg: The Asia Trade\" to discuss safety concerns, regulation and whether Australia risks missing out on the benefits of AI. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
+          "created_at": "2026-10-06T08:00:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users. AI-powered software startups are increasingly turning to cheaper open models",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
+          "created_at": "2026-10-06T11:02:01+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9ec2d786",
+      "score": 8.544,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [],
+      "independent_sources": [
+        "MIT Tech Review",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T13:20:00+00:00",
+      "last_seen": "2026-10-06T10:35:00+00:00",
+      "links": [
+        "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
+        "https://www.tomshardware.com/tech-industry/data-centers/tencent-scores-100-000-offshore-ai-chip-deal-with-oracle-for-usd7-billion-despite-climbing-prices-per-hour-costs-estimated-to-be-43-percent-under-standard-h100-rental-rates"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Tencent scores 100,000 offshore AI chip deal with Oracle for $7 billion despite climbing prices. Tencent is reportedly renting 100,000 AI chips from Oracle data centers in Southeast Asia for about $7 billion over five years.",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/tencent-scores-100-000-offshore-ai-chip-deal-with-oracle-for-usd7-billion-despite-climbing-prices-per-hour-costs-estimated-to-be-43-percent-under-standard-h100-rental-rates",
+          "created_at": "2026-10-05T13:20:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "WaveSave and its portable rubber dam. As sea levels rise and flood risks worsen due to global warming, WaveSave’s easy-to-erect portable dam offers a quick-response tool. People can use the dam to protect themselves and their property, and it can also store freshwater for later use. Communities in Europe, Africa, and Southeast Asia have deployed it successfully. Now, the company is&#8230;",
+          "url": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
+          "created_at": "2026-10-06T10:35:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb17f348c",
+      "score": 7.86,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "Latent Space",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T19:33:53+00:00",
+      "last_seen": "2026-10-06T06:28:43+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost. Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "created_at": "2026-10-05T19:33:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Reflection Beam - 501B-A23B American Open Model. A small win for US open source",
+          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+          "created_at": "2026-10-06T06:28:43+00:00",
           "engagement": 0
         }
       ]
