@@ -30,6 +30,129 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-deepseek-12b-round",
+   "section": "business",
+   "headline": "DeepSeek nears $12 billion round led by Tencent and CATL, Bloomberg reports",
+   "standfirst": "DeepSeek is close to raising at least 80 billion yuan, about $12 billion, Bloomberg reports, well past its target and ahead of an early-2027 IPO. Tencent and CATL are reported among the biggest backers.",
+   "body": [
+    "DeepSeek is close to securing at least 80 billion yuan ($12 billion) in its latest funding round, Bloomberg reported on Tuesday, citing people familiar with the matter. Bloomberg's account says the figure blows past the company's own capital-raising target. DeepSeek has not confirmed the numbers, and this paper has not seen the investment terms.",
+    "Tencent and the battery maker CATL are among the lead investors, according to summaries of the Bloomberg report carried by Newsquawk and Investing.com. Those summaries say DeepSeek first sought about 50 billion yuan, and that terms already signed could take the final amount close to 100 billion yuan. Bloomberg's full article was behind a paywall when this paper tried to open it.",
+    "The raise is the run-up to what Bloomberg calls an initial public offering in early 2027. The summaries say investor interest rose after the launch of DeepSeek's V4 Flash model, and that the company is preparing a possible listing on Shanghai's STAR Market. None of that comes from DeepSeek itself, which had not commented in the coverage read.",
+    "The same summaries say the money would help DeepSeek install at least 160,000 Huawei AI accelerators at a data center in Inner Mongolia. That detail rests on secondhand relays of a single Bloomberg report, so treat it as unconfirmed. No other outlet had independently reported the round when this story was filed."
+   ],
+   "entities": [
+    "DeepSeek",
+    "Tencent",
+    "CATL",
+    "Bloomberg",
+    "Huawei"
+   ],
+   "sources": [
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding"
+    },
+    {
+     "author": "Newsquawk",
+     "url": "https://newsquawk.com/headlines/chinas-deepseek-is-set-to-raise-at-least-usd-12bn-in-tencent-700-hk-and-catl-300750-chled-round"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/jukan05/status/2107339415463059669",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-kandinsky-6-video",
+   "section": "models",
+   "headline": "Kandinsky Lab releases open 29B model that generates video with synced audio",
+   "standfirst": "Kandinsky 6.0 Video makes five-second clips with 44 kHz lip-synced audio from text or an image, in 3B and 29B sizes. Weights, code and Diffusers support are public under the MIT license.",
+   "body": [
+    "Kandinsky Lab has published Kandinsky 6.0 Video, a family of diffusion models that generate video and audio together, with weights on Hugging Face and an accompanying paper that was among the day's most-upvoted on the site, at 23 votes. The family has two sizes: Lite at 3 billion parameters and Pro at 29 billion. Nobody outside the lab has published tests of them yet.",
+    "Both models make five-second clips at 24 frames per second with synchronized 44 kHz audio, including lip-sync, from a text prompt or a starting image, according to the model card. Full-HD output at 1920 by 1080 comes from a separate super-resolution stage. The Hugging Face page lists six checkpoints, including distilled versions and a 1-billion-parameter upscaler.",
+    "The paper says a dual-stream CrossDiT architecture connects a pretrained video stream to a newly trained audio stream through bidirectional cross-attention. The lab says it trained with supervised fine-tuning, reinforcement learning and distillation, and that the reinforcement step cut Pro's speech word error rate by 47 percent. Those are the authors' figures, not independent results.",
+    "The lab says Pro beats its predecessor, Kandinsky 5.0 Video Pro, and is competitive with leading audio-video generators, especially on speech quality. The lab has released code and checkpoints, plus a Diffusers integration, under the MIT license. The Hugging Face pages showed only a few hundred downloads each within about an hour of upload, so uptake is unmeasured."
+   ],
+   "entities": [
+    "Kandinsky Lab",
+    "Kandinsky 6.0 Video",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Kandinsky Lab",
+     "url": "https://huggingface.co/papers/2610.05608"
+    },
+    {
+     "author": "Kandinsky Lab model card",
+     "url": "https://huggingface.co/kandinskylab/Kandinsky-6.0-Pro-5s-Diffusers"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-alodlm-amazon",
+   "section": "research",
+   "headline": "Amazon releases diffusion language model it says beats Qwen3 at 2.7x speed",
+   "standfirst": "Amazon's ALoDLM spends extra compute only on hard tokens. The authors say the 8B model scores 80.3 across eleven benchmarks against 78.5 for Qwen3-8B, and runs about 2.7 times faster on GSM8K.",
+   "body": [
+    "Amazon researchers have released ALoDLM, a diffusion language model that tries to close the quality gap between parallel-decoding models and ordinary autoregressive ones. The paper took 33 upvotes on Hugging Face's daily papers page. Weights for 1.7-billion and 8-billion-parameter versions are on Hugging Face, with code on GitHub. Nobody outside Amazon has reported testing them yet.",
+    "The authors argue that diffusion models waste effort by giving every unknown token the same depth of computation, although some are easy to predict and others are not. ALoDLM instead loops extra refinement passes on unresolved tokens, while tokens that are ready get committed as fixed context. The schedule is learned during training rather than hand-labelled.",
+    "On eleven benchmarks the authors report an average of 80.3 for the 8B model against 78.5 for Qwen3-8B, and 65.5 against 63.8 at 1.7B. The authors say it outperforms every diffusion model they evaluated. On GSM8K they report about 2.7 times the throughput of Qwen3-8B served with vLLM, and 612.4 tokens per second on one Nvidia B200. These are the authors' measurements.",
+    "The repository carries a non-commercial license, CC BY-NC 4.0, for the original work, so companies cannot build products on it as released. It had two stars and one fork when this paper looked, so it reads as a research drop rather than a community favourite. Independent reproductions of the benchmark numbers have not appeared."
+   ],
+   "entities": [
+    "Amazon",
+    "ALoDLM",
+    "Qwen3",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Amazon researchers",
+     "url": "https://huggingface.co/papers/2610.04198"
+    },
+    {
+     "author": "ALoDLM project page",
+     "url": "https://alo-dlm.github.io/"
+    },
+    {
+     "author": "ALoDLM repository",
+     "url": "https://github.com/amazon-science/ALoDLM"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-semianalysis-subscriptions",
+   "section": "ai",
+   "headline": "SemiAnalysis says Claude plans give about 5x the API value of OpenAI's",
+   "standfirst": "SemiAnalysis says OpenAI halved the tokens on its $200 plan and cut cached pricing, leaving Anthropic's Opus 5.5 subscriptions with roughly five times the API-equivalent value of GPT 6.1 Sol.",
+   "body": [
+    "Anthropic's subscriptions deliver about five times more API-equivalent value per month than OpenAI's for agentic work, comparing Claude Opus 5.5 with GPT 6.1 Sol, according to an analysis SemiAnalysis published on 5 October. The firm is an independent research shop, and the headline figure is its own estimate. Neither OpenAI nor Anthropic had commented in the coverage read.",
+    "The firm says OpenAI recently halved the number of tokens included on its $200 plan for each model tier and cut cached-input pricing for GPT 6.1 Sol, which together lowered API-equivalent value by more than 50 percent. A new $500 plan gives only 21 percent more of the Astra model than the old $200 one, it says. Existing $200 subscribers keep their old limits until 29 October.",
+    "To measure it, SemiAnalysis says it ran controlled experiments to see how each plan's usage meter moves for input, cache-write, cache-read and output tokens. It converted those rates into API dollars using its own September workload. The article says Anthropic's value per dollar stays consistent across tiers, while OpenAI's tiers are now similar to one another.",
+    "It also says Plans from the Chinese labs MiniMax, Moonshot and Z.ai beat OpenAI's new pricing but trail Anthropic's slightly, and that Cursor and Cognition plans offer worse value than first-party ones. Details beyond that sit behind the paywall, and the figures rest on one firm's workload. Different usage patterns could give different ratios, and no one else has replicated them."
+   ],
+   "entities": [
+    "SemiAnalysis",
+    "Anthropic",
+    "OpenAI",
+    "Claude Opus 5.5",
+    "GPT 6.1 Sol"
+   ],
+   "sources": [
+    {
+     "author": "SemiAnalysis",
+     "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-hackerrank-chakra",
    "section": "products",
    "headline": "HackerRank opens Chakra, an AI interviewer that runs coding rounds on real repositories",
@@ -142,7 +265,7 @@
      "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-etched-funding-talks",
@@ -167,7 +290,7 @@
      "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }
