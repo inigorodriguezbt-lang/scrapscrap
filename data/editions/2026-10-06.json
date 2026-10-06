@@ -30,6 +30,69 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-t3-code-visualizations",
+   "section": "agents-coding",
+   "headline": "T3 Code lets coding agents draw live visualizations inside the chat thread",
+   "standfirst": "Theo's T3 Code now lets agents build dynamic visualizations inside a thread, styled with the user's own theme. The maker's clip drew 969 likes in about an hour.",
+   "body": [
+    "T3 Code, the open-source app that lets developers run coding agents from one window, says it has shipped in-app visualization. Theo, its developer, said on X the feature \"enables agents to build cool dynamic experiences within the thread\". His post carries a short video and had 969 likes when read at around 02:00 UTC on 6 October, about an hour after he posted it.",
+    "Theo credited a contributor known as davis7 with pushing for the feature and building most of it. He said he \"didn't expect to dig it so much\". The post gives no list of what kinds of visualization are supported, and the video is the only demonstration of it so far. Nobody outside the team has publicly tested the feature.",
+    "In a reply, Theo said the agent is handed CSS style tokens from the theme the user has chosen, so a visualization should always match the app. Whether that holds is untested. In a second post he called theme compatibility \"the coolest part\". Both statements are the maker's own, and neither says how well the match holds across custom themes.",
+    "T3 Code describes itself on GitHub as an agent harness control surface that works with providers including Claude Code and Codex, across desktop, web and phone apps. The repository is MIT-licensed and showed 25.6k stars when read. Its README warns the project is \"very very early\" and says users should expect bugs, so the feature may be rough."
+   ],
+   "entities": [
+    "T3 Code",
+    "Theo",
+    "davis7"
+   ],
+   "sources": [
+    {
+     "author": "Theo (T3 Code)",
+     "url": "https://x.com/theo/status/2107269392874782873"
+    },
+    {
+     "author": "Theo (T3 Code)",
+     "url": "https://x.com/theo/status/2107271582565765398"
+    },
+    {
+     "author": "T3 Code on GitHub",
+     "url": "https://github.com/pingdotgg/t3code"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/theo/status/2107269392874782873",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-anthropic-donations-ipo",
+   "section": "business",
+   "headline": "Anthropic staff gave $540m in 2025, five times the next corporate donor",
+   "standfirst": "The Information reports IPO documents show Anthropic employees donated $540 million in 2025, helped by a share top-up program. The next biggest Fortune 500 donors gave about $115 million.",
+   "body": [
+    "Anthropic employees donated $540 million in 2025, nearly five times as much as the next-largest Fortune 500 donors, The Information reported, according to a summary by The Decoder on 5 October. The figures come from company documents shared with prospective IPO investors. Anthropic has not published them, and neither The Decoder nor this paper has seen the documents.",
+    "The report says staff gave a further $660 million between October 2025 and March 2026. For comparison, the Decoder says Truist Financial gave $115 million and BlackRock $109 million, the closest Fortune 500 totals it cites. The comparison is between employee donations and corporate giving, so the two groups are not strictly like for like.",
+    "The size comes from a company program. Employees donate shares to charities, and Anthropic tops up each gift with extra shares. According to the report, early employees get a triple match on the value of their donation, while the match rate for others varies with how long they have been at the company.",
+    "The Decoder says the top-ups dilute other shareholders, and that totals could reach billions after an IPO if the stock rises. It adds that CEO Dario Amodei and six co-founders have pledged to give away at least 80 percent of their wealth. Anthropic has not commented in the coverage read, and no second outlet has confirmed the numbers."
+   ],
+   "entities": [
+    "Anthropic",
+    "The Information",
+    "The Decoder"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-chinese-agent-fleet-amap",
    "section": "security",
    "headline": "Researchers track an AI 'agent fleet' asking Amap for zoo directions",
