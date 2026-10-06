@@ -1,0 +1,84 @@
+{
+ "edition_date": "2026-10-06",
+ "stories": [
+  {
+   "cluster_id": "find-reka-rho-1",
+   "section": "models",
+   "headline": "Reka's Rho-1 puts text, video and robot control in one 19B model",
+   "standfirst": "Reka says its 19-billion-parameter Rho-1 draws images, edits video and outputs robot joint trajectories from one network, trained on 320 H100 GPUs. It is a research preview, and Reka lists its own limits.",
+   "body": [
+    "Reka AI has announced Rho-1, a 19-billion-parameter model that Reka says \"understands and generates text, images, and video, reasons over them, and takes actions\" inside a single neural network. The Decoder reported the launch on 5 October. Reka calls it a research preview, and the announcement gives a contact address for partnership inquiries rather than a download or a price.",
+    "Reka says text, pixels and physical actions are all tokens in one context window, so the model needs no tool calls or helper models. In its post, Rho-1 draws images, detects objects, animates scenes and edits video in one conversation. It can also stream video that responds to live instructions, which Reka describes as \"infinite, steerable livestreams\".",
+    "For robots, Reka says the model treats actions as native tokens and can simulate future movements and output joint trajectories without an external planning layer. It says it extracted control signals from ordinary internet video with an inverse dynamics model, because robot training data is scarce. The Decoder says no robot types or demonstrations were detailed.",
+    "Reka puts the base model at 0.79 times real time and a distilled version at about one second per video, and says it trained on 320 H100 GPUs over about three months. The post concedes structural drift in long sequences, inconsistent grounding across frames, brittle editing and a native resolution capped at 672 by 384. No outside benchmarks exist yet."
+   ],
+   "entities": [
+    "Reka AI",
+    "Rho-1",
+    "The Decoder"
+   ],
+   "sources": [
+    {
+     "author": "Reka AI",
+     "url": "https://reka.ai/news/rho-1-collapsing-the-multimodal-stack"
+    },
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-chinese-agent-fleet-amap",
+   "section": "security",
+   "headline": "Researchers track an AI 'agent fleet' asking Amap for zoo directions",
+   "standfirst": "Researchers say many parallel AI agents, apparently on Tencent servers, query Alibaba's Amap for routes to a park, a zoo and a hospital. They see no sign the agents talk.",
+   "body": [
+    "Independent researchers have found what they call an \"agent fleet\" that appears to run on Tencent's infrastructure and target Alibaba's Amap map service, TechCrunch reported on 5 October. They spotted it in traffic logs from urlquery, a domain-scanning service. The report names no owner or purpose, and no other outlet had confirmed the findings when this was written.",
+    "According to TechCrunch, the agents ask Amap for directions to different entrances of public places, including a park, a zoo and a hospital. One researcher distinguished a fleet from a swarm: \"many parallel agents on the same kind of task, with no sign of communication between them.\" That, the researchers argue, is what separates this from coordinated multi-agent behaviour.",
+    "The agents made little effort to hide, TechCrunch says, and left records in the scanning logs. The report ties the find to tighter monitoring for rogue agents since the Hugging Face incident. Researchers caution the activity may be benign compared with what could come.",
+    "What the agents are for is unknown. The observed queries are routine map lookups. TechCrunch does not say who runs the fleet or how large it is, or whether Tencent or Alibaba has commented. Until the operator or a vendor responds, the account rests on the researchers' reading of the logs."
+   ],
+   "entities": [
+    "Tencent",
+    "Alibaba",
+    "Amap",
+    "urlquery",
+    "TechCrunch"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-etched-funding-talks",
+   "section": "chips",
+   "headline": "Etched is reported to be fielding funding offers at a $40bn to $50bn valuation",
+   "standfirst": "TechCrunch, citing sources, says the inference-chip start-up is in early talks at $40 billion to $50 billion, up from $21 billion last month. Etched says it has $1 billion in customer orders.",
+   "body": [
+    "Etched, the AI inference-chip start-up, is fielding funding offers at a valuation between $40 billion and $50 billion, TechCrunch reported on 5 October, citing sources. The talks are early and nothing has closed. No other outlet had confirmed the figures when this was written, and Etched had not publicly commented on the valuation.",
+    "The offers would roughly double the $21 billion valuation from its last round, a $700 million raise in September that TechCrunch says Jane Street led. Jane Street is also a customer. In July, TechCrunch reports, Etched raised $300 million at $10.3 billion in a round led by Sequoia, so its price has risen fourfold in three months.",
+    "Etched designs chips meant to speed up inference, with faster token processing and lower costs than Nvidia's, according to the report. Co-founder and chief operating officer Robert Wachen is quoted saying investors are keen because the company \"designed two new components from scratch to speed up inference.\" Those performance claims are the company's and unverified here.",
+    "TechCrunch says the company has about 400 staff, roughly 15 percent from Nvidia, and has secured $1 billion in customer orders. It runs a 10-megawatt data centre in Silicon Valley and a Taiwan facility near TSMC. The founders, Gavin Uberti, Chris Zhu and Wachen, started the company about four years ago."
+   ],
+   "entities": [
+    "Etched",
+    "Jane Street",
+    "Sequoia",
+    "TechCrunch"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
