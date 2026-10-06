@@ -690,6 +690,128 @@
    },
    "published_at": "2026-10-06T17:43:30+00:00",
    "id": "engineer-poteto-says-he-automated-his"
+  },
+  {
+   "text": "fal released a Claude connector and a GPT plugin that generate images and video inside Claude or ChatGPT Codex without an API key, and posted a YouTube tutorial.",
+   "why": "Image and video models become a tool call inside the chat apps developers already use, with no separate key to manage.",
+   "source": {
+    "name": "fal",
+    "url": "https://x.com/fal/status/2107561234778190131"
+   },
+   "published_at": "2026-10-06T19:58:49+00:00",
+   "embed": "https://x.com/fal/status/2107561234778190131",
+   "id": "fal-released-a-claude-connector-and"
+  },
+  {
+   "text": "Arena says Google's Nano Banana 2.1 ranks fifth in text-to-image with 1,328 points and fourth in multi-image edit with 1,431, gains of 80 and 67 points over Nano Banana 2.",
+   "why": "The leaderboard gives an outside read on Google's new image model, whose gains over version 2 are measured by Arena's own voting.",
+   "source": {
+    "name": "Arena",
+    "url": "https://x.com/arena/status/2107576893973344578"
+   },
+   "published_at": "2026-10-06T21:01:03+00:00",
+   "id": "arena-says-google-s-nano-banana"
+  },
+  {
+   "text": "OpenAI says its new Meetings plugin takes notes in calls and saves summaries and next steps to ChatGPT Space; it is in beta for Pro and Business users on the macOS desktop app.",
+   "why": "Note-taking that feeds into ChatGPT's memory of a user's projects puts OpenAI against dedicated meeting-notes apps; Enterprise access is promised later.",
+   "source": {
+    "name": "ChatGPT",
+    "url": "https://x.com/ChatGPT/status/2107567930557026653"
+   },
+   "published_at": "2026-10-06T20:25:26+00:00",
+   "id": "openai-says-its-new-meetings-plugin"
+  },
+  {
+   "text": "Overmind open-sourced a platform that trains small models on records of an agent's real work. In its own test it reports invented quotes on 0.12% of questions versus 3.36% for a frontier model.",
+   "why": "The 28x gap is the vendor's figure from 4,000-plus contract questions, so independent replication will decide whether task-specific fine-tuning beats big general models.",
+   "source": {
+    "name": "Overmind, via kimmonismus on X",
+    "url": "https://x.com/kimmonismus/status/2107565191366156701"
+   },
+   "published_at": "2026-10-06T20:14:32+00:00",
+   "id": "overmind-open-sourced-a-platform-that"
+  },
+  {
+   "text": "TestingCatalog reports Sesame's voice assistant gained a more expressive model, image generation, connectors and computer use, and can now operate coding agents such as Devin, Codex and Claude Code by voice.",
+   "why": "It turns a consumer voice companion into a remote control for coding agents, which would be a new use for conversational voice models.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2107568598172741974"
+   },
+   "published_at": "2026-10-06T20:28:05+00:00",
+   "id": "testingcatalog-reports-sesame-s-voice-assistant"
+  },
+  {
+   "text": "Anthropic says the Every team built a company agent on Claude Managed Agents, used in Slack, to share skills when a new model arrives, then released it to Every's subscribers.",
+   "why": "It is a worked example of a team shipping an internal agent as a product, shown by Anthropic with a full video interview.",
+   "source": {
+    "name": "Claude",
+    "url": "https://x.com/claudeai/status/2107574195978641911"
+   },
+   "published_at": "2026-10-06T20:50:19+00:00",
+   "embed": "https://x.com/claudeai/status/2107574195978641911",
+   "id": "anthropic-says-the-every-team-built"
+  },
+  {
+   "text": "Perplexity CEO Aravind Srinivas says the company halved its Decision API price, now 2 cents per million input tokens.",
+   "why": "The cut makes Perplexity's decision-model API far cheaper to try, and it is the vendor's own announcement rather than an independent price check.",
+   "source": {
+    "name": "Aravind Srinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2107573198145663233"
+   },
+   "published_at": "2026-10-06T20:46:21+00:00",
+   "id": "perplexity-ceo-aravind-srinivas-says-the-2"
+  },
+  {
+   "text": "EV charging firm Xeal plans to put 100,000 Nvidia GPUs in pods at its US roadside sites, calling it the world's first edge inference network built on idle charging capacity.",
+   "why": "Xeal is a plan, not deployed hardware, but it tests whether spare grid connections at charging sites can host AI compute.",
+   "source": {
+    "name": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/data-centers/ev-charging-company-plans-to-deploy-100-000-nvidia-gpus-in-pods-at-its-roadside-sites-across-the-us-aims-to-offer-worlds-first-edge-inference-compute-network-using-idle-ev-charging-capacity"
+   },
+   "published_at": "2026-10-06T12:45:00+00:00",
+   "id": "ev-charging-firm-xeal-plans-to"
+  },
+  {
+   "text": "OpenAI and Synopsys are developing GPT-Synopsys, a specialised model that will directly operate Synopsys's chip-design software, Tom's Hardware reports, aiming to let engineers deliver more sophisticated chips faster.",
+   "why": "If it works as described, a model driving electronic design tools would put AI inside the chip-design loop; no launch date has been given.",
+   "source": {
+    "name": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-and-synopsys-partner-to-build-gpt-synopsys-for-autonomous-chip-design-specialized-ai-model-will-operate-eda-tools-allowing-engineers-to-deliver-more-sophisticated-chips-faster"
+   },
+   "published_at": "2026-10-06T11:00:00+00:00",
+   "id": "openai-and-synopsys-are-developing-gpt"
+  },
+  {
+   "text": "Musubi announced PolicyLM-1.7B, a lightweight decision model for real-time content moderation, released with open weights, TechCrunch reports.",
+   "why": "A 1.7-billion-parameter model small enough for cheap, fast moderation checks shows where open models are heading beyond chat.",
+   "source": {
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/"
+   },
+   "published_at": "2026-10-06T20:35:20+00:00",
+   "id": "musubi-announced-policylm-1-7b-a"
+  },
+  {
+   "text": "TwelveLabs says Pegasus 1.6 understands first-person video and supports workflows including data labelling for robotics developers, The Robot Report reports.",
+   "why": "Egocentric video is a key training source for robot learning, so a model that labels it could cut a slow manual step.",
+   "source": {
+    "name": "The Robot Report",
+    "url": "https://www.therobotreport.com/pegasus-1-6-brings-video-understanding-physical-ai-says-twelvelabs/"
+   },
+   "published_at": "2026-10-06T20:07:48+00:00",
+   "id": "twelvelabs-says-pegasus-1-6-understands"
+  },
+  {
+   "text": "Google's AI Edge Foresight for Mac, a demo built on EmbeddingGemma 2, turns scribbles and offline recordings into full notes, 9to5Google reports.",
+   "why": "The app is Google's showcase for running its new open embedding model locally on consumer hardware.",
+   "source": {
+    "name": "9to5Google",
+    "url": "https://9to5google.com/2026/10/06/google-ai-edge-foresight/"
+   },
+   "published_at": "2026-10-06T17:15:19+00:00",
+   "id": "google-s-ai-edge-foresight-for"
   }
  ]
 }
