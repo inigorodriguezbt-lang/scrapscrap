@@ -1,39 +1,156 @@
 {
-  "generated_at": "2026-10-06T08:03:17.215747+00:00",
+  "generated_at": "2026-10-06T10:03:23.015911+00:00",
   "edition_date": "2026-10-06",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 135,
-  "clusters_found": 98,
-  "stories_declared": 6,
+  "posts_considered": 127,
+  "clusters_found": 90,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c8f138229",
-      "score": 13.139,
+      "cluster_id": "c94acc33d",
+      "score": 13.892,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T15:50:01+00:00",
+      "last_seen": "2026-10-06T09:01:02+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+        "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+        "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+        "https://x.com/kimmonismus/status/2107395696265494665"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore. Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-in, custom, and explainability evaluators.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+          "created_at": "2026-10-05T15:50:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases. Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. Run the same query through both paths, read the trace events, and compare what each retrieval path costs.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+          "created_at": "2026-10-05T15:53:56+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion. Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+          "created_at": "2026-10-05T15:56:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Supercharge regulated workloads with Claude Code and Amazon Bedrock. Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+          "created_at": "2026-10-05T17:25:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing GLM 5.3 on Amazon Bedrock. GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+          "created_at": "2026-10-05T23:25:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Super cool: Vals AI says 90+ Claude Opus 5.5 agents helped identify two magnetic semiconductor candidates in three days of simulation work.\n\nThe goal: materials that could support spin-based computer memory while their opposing magnetic moments cancel out.\n\nOne candidate, YBaMnFeO₅, is a new proposed design. Its useful atomic structure may be difficult to manufacture.\n\nThe other, KV[Cr(CN)₆], was already made in 1999. The team's calculations suggest it has electronic properties worth testing for spintronics.",
+          "url": "https://x.com/kimmonismus/status/2107395696265494665",
+          "created_at": "2026-10-06T09:01:02+00:00",
+          "engagement": 146
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca8a560e6",
+      "score": 10.828,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
         "Google"
       ],
       "independent_sources": [
+        "9to5Google",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T01:55:00+00:00",
+      "last_seen": "2026-10-06T07:55:39+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
+        "https://x.com/testingcatalog/status/2107379242023739810"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Docs and Drive now support markdown files natively. Spurred by the use of markdown files in the AI age, Google Drive and Google Docs are adding full, native support for markdown (.md) files. more…",
+          "url": "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
+          "created_at": "2026-10-06T01:55:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Google is making Markdown files natively supported in Google Drive and Google Docs. Markdown files is already a default way to exchange context and instructions with AI agents.",
+          "url": "https://x.com/testingcatalog/status/2107379242023739810",
+          "created_at": "2026-10-06T07:55:39+00:00",
+          "engagement": 122
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9be8485d",
+      "score": 8.394,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Microsoft"
+      ],
+      "independent_sources": [
         "9to5Mac",
+        "Bloomberg Tech",
         "Import AI",
         "TechCrunch AI",
-        "The Verge AI",
-        "testingcatalog"
+        "The Verge AI"
       ],
       "source_count": 5,
       "first_seen": "2026-10-05T12:32:30+00:00",
-      "last_seen": "2026-10-06T06:36:41+00:00",
+      "last_seen": "2026-10-06T08:00:28+00:00",
       "links": [
         "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
         "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
         "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-        "https://x.com/testingcatalog/status/2107359369276891293"
+        "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
       ],
       "posts": [
         {
@@ -69,57 +186,18 @@
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF 🗞 — Oct 6\n\nOPENAI 🔥:\n* GPT-6 Astra and GPT-6.1 Sol now run about 50% faster in ChatGPT, kicking off a 28-day daily-improvement pledge for Codex and Work users.\n* API customers can now opt in to textGrain text watermarking, with ChatGPT and Codex text in the EU getting invisible watermarks in the coming weeks.\n* ChatGPT will start testing visual ads during image generation in the US later this month.\n* The Wikimedia Foundation says rogue OpenAI agents edited its wikis and may have contributed to a partial outage in May.\n\nREFLECTION 🔥:\n* Reflection unveiled Beam, a 501B-paramet",
-          "url": "https://x.com/testingcatalog/status/2107359369276891293",
-          "created_at": "2026-10-06T06:36:41+00:00",
-          "engagement": 60
-        }
-      ]
-    },
-    {
-      "cluster_id": "c5f688c62",
-      "score": 13.081,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "testingcatalog",
-        "thsottiaux"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T07:13:54+00:00",
-      "last_seen": "2026-10-06T07:26:46+00:00",
-      "links": [
-        "https://x.com/testingcatalog/status/2107371974540382697",
-        "https://x.com/thsottiaux/status/2107368734981517634"
-      ],
-      "posts": [
-        {
-          "author": "thsottiaux",
-          "tier": "commentary",
-          "text": "Day 2.1/\n\nWe have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.\n\nIt allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent",
-          "url": "https://x.com/thsottiaux/status/2107368734981517634",
-          "created_at": "2026-10-06T07:13:54+00:00",
-          "engagement": 3396
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "OPENAI 🔥: ChatGPT Auto-review is now free for all uses signed via ChatGPT account. \n\n> This feature runs a separate background agent that supervises actions taken by the main agent to make sure they are aligned with the user intent. \n\nThe need to approve baby steps w/o providing a full access is still a challenge. Let’s see if that would make it less districting.",
-          "url": "https://x.com/testingcatalog/status/2107371974540382697",
-          "created_at": "2026-10-06T07:26:46+00:00",
-          "engagement": 44
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Firms Face Scrutiny in Australia. Australia is stepping up scrutiny of artificial intelligence, with representatives from OpenAI, Anthropic, Microsoft and Google facing questions from a parliamentary inquiry. The hearing comes after OpenAI revealed their technology breached Australian government agencies earlier this year. Director of the AI Institute at the University of New South Wales, Sue Keay joins \"Bloomberg: The Asia Trade\" to discuss safety concerns, regulation and whether Australia risks missing out on the benefits of AI. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
+          "created_at": "2026-10-06T08:00:28+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cb17f348c",
-      "score": 8.528,
+      "score": 8.194,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -156,7 +234,7 @@
     },
     {
       "cluster_id": "cc834c635",
-      "score": 8.166,
+      "score": 7.832,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -284,7 +362,7 @@
     },
     {
       "cluster_id": "cb1d50b04",
-      "score": 4.03,
+      "score": 3.697,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
