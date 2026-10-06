@@ -1,276 +1,19 @@
 {
-  "generated_at": "2026-10-06T16:03:46.992972+00:00",
+  "generated_at": "2026-10-06T18:03:14.658605+00:00",
   "edition_date": "2026-10-06",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 149,
-  "clusters_found": 100,
-  "stories_declared": 7,
+  "posts_considered": 125,
+  "clusters_found": 85,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ce95dcdfd",
-      "score": 19.636,
+      "cluster_id": "cecb2a44f",
+      "score": 15.449,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Microsoft",
-        "Mistral",
-        "DeepSeek",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "AWS ML",
-        "Bloomberg Tech",
-        "Interconnects",
-        "Simon Willison",
-        "TechCrunch AI",
-        "The Decoder",
-        "arena",
-        "kimmonismus",
-        "mark_k",
-        "simonw"
-      ],
-      "source_count": 10,
-      "first_seen": "2026-10-05T17:23:19+00:00",
-      "last_seen": "2026-10-06T15:47:02+00:00",
-      "links": [
-        "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
-        "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-        "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-        "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
-        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-        "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
-        "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/ai-to-see-adoption-unseen-in-previous-cycles-says-lee-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
-        "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-        "https://x.com/arena/status/2107476436223504484",
-        "https://x.com/kimmonismus/status/2107475548217786458",
-        "https://x.com/mark_k/status/2107488923215642671",
-        "https://x.com/simonw/status/2107496114299822393"
-      ],
-      "posts": [
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent. Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker Python SDK v3 code to benchmark, recommend, and compare deployments.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-          "created_at": "2026-10-05T17:23:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Supercharge regulated workloads with Claude Code and Amazon Bedrock. Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
-          "created_at": "2026-10-05T17:25:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor. Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. The article Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
-          "created_at": "2026-10-05T18:59:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing GLM 5.3 on Amazon Bedrock. GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-          "created_at": "2026-10-05T23:25:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Firms Face Scrutiny in Australia. Australia is stepping up scrutiny of artificial intelligence, with representatives from OpenAI, Anthropic, Microsoft and Google facing questions from a parliamentary inquiry. The hearing comes after OpenAI revealed their technology breached Australian government agencies earlier this year. Director of the AI Institute at the University of New South Wales, Sue Keay joins \"Bloomberg: The Asia Trade\" to discuss safety concerns, regulation and whether Australia risks missing out on the benefits of AI. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-firms-face-scrutiny-in-australia-video",
-          "created_at": "2026-10-06T08:00:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users. AI-powered software startups are increasingly turning to cheaper open models",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
-          "created_at": "2026-10-06T11:02:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Mythos Drove Up Cyber Risk 10-Fold, Says JPMorgan's Dimon. JPMorgan Chase & Co. Chief Executive Officer Jamie Dimon says artificial intelligence has exposed new vulnerabilities for banks. He says the risks of cyber attacks have gone up 10-fold since the release of Anthropic's Mythos ai model. He speaks exclusively to Bloomberg's Tom Mackenzie at the JPMorgan Tech Stars Conference in London. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
-          "created_at": "2026-10-06T13:38:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "JPMorgan's Dimon Weighs In on AI Boom, Bond Selloff and UK Banks. JPMorgan Chase Chairman and CEO Jamie Dimon discusses the issues behind financing the AI boom, the global bond selloff and the state of UK banks. He speaks with Tom Mackenzie at JPMorgan's Tech Stars Conference in London. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video",
-          "created_at": "2026-10-06T14:02:18+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
-          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-          "created_at": "2026-10-06T14:18:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "This is a surprising great release. Le Chaton fat is real! Mistral Large 4 puts Europe back in contention on coding and cybersecurity.\n\nDidnt expect Mistral to compete with GLM5.3!\n\n“Le Chonk” is a natively multimodal model with 1T parameters and 49B active. The preview already delivers:\n\n- DeepSWE v1.1: 61.7%, roughly level with GLM-5.3 at 61%. Kimi K3 remains ahead at around 68% in Mistral’s comparison. \n- Artificial Analysis Cyber Index: 50, matching GLM-5.3-Flash and beating GLM-5.3’s 36.\n- CyberGym-E2E-AA: 82%, ahead of MiMo-V2.6-Pro’s 79%.\n\nMistral says it trained the model from scratch ",
-          "url": "https://x.com/kimmonismus/status/2107475548217786458",
-          "created_at": "2026-10-06T14:18:20+00:00",
-          "engagement": 427
-        },
-        {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "Mistral Large 4 by @MistralAI is now in the Arena!\n\nHead to Agent Arena to test it out, and your votes will shape its evaluation. Scores coming soon.\n\nIn Agent Arena, we measure models on millions of real-world, long-horizon agentic tasks. Models can access web search, filesystem, and terminal tools to complete complex workflows. The leaderboard measures model performance on outcomes relative to the average model using a causal tracing methodology.\n\nMistral Large 4 is also available in Code Arena: WebDev, Text, and Vision.",
-          "url": "https://x.com/arena/status/2107476436223504484",
-          "created_at": "2026-10-06T14:21:52+00:00",
-          "engagement": 98
-        },
-        {
-          "author": "Interconnects",
-          "tier": "commentary",
-          "text": "The Cyber Risk Discourse is Broken. Open-weights, ideology, and acknowledging trade-offs.",
-          "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-          "created_at": "2026-10-06T14:22:41+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "created_at": "2026-10-06T14:33:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI to See Massive Adoption 'Unseen' in Previous Tech Cycles, Says Neostellar Principal. American AI companies’ performance lead over China narrowed sharply in past months to a record low after labs such as DeepSeek gained ground, threatening US tech supremacy, according to Bloomberg Intelligence. Willy Lee, Principal at Neostellar, offers his view from the VC world when it comes to AI investments and the IPO market. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-to-see-adoption-unseen-in-previous-cycles-says-lee-video",
-          "created_at": "2026-10-06T14:42:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Mistral is back with a trillion-parameter beast called \"Le Chonk\". 🐈🔥\n\n@MistralAI just announced Mistral Large 4, its biggest and most capable model yet. It can process text and images, with 49 billion parameters active at a time out of more than a trillion in total. Mistral says it’s the strongest open-weight model developed outside China, taking aim at coding, AI agents and cybersecurity.\n\nThe preview API is available today, with the weights scheduled to drop on October 27. That’s the part I’m most interested in: another serious model that developers can run and customize themselves. The o",
-          "url": "https://x.com/mark_k/status/2107488923215642671",
-          "created_at": "2026-10-06T15:11:29+00:00",
-          "engagement": 52
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Scrimshaw Jukebox. Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for te",
-          "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-          "created_at": "2026-10-06T15:17:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "simonw",
-          "tier": "commentary",
-          "text": "Anyone know when the models started being able to compose competent music? I had Opus 5.5 \"write some computer game music for me\" and the results were much better than I had expected\nhttps://t.co/vFhfgHh7B3",
-          "url": "https://x.com/simonw/status/2107496114299822393",
-          "created_at": "2026-10-06T15:40:03+00:00",
-          "engagement": 37
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic. Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
-          "created_at": "2026-10-06T15:45:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio. Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
-          "created_at": "2026-10-06T15:47:02+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c364fa7aa",
-      "score": 15.469,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Mistral"
-      ],
-      "independent_sources": [
-        "Mistral",
-        "simonw",
-        "testingcatalog"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-06T12:00:27+00:00",
-      "last_seen": "2026-10-06T14:35:18+00:00",
-      "links": [
-        "https://mistral.ai/news/mistral-large-4/",
-        "https://x.com/simonw/status/2107479817780400577",
-        "https://x.com/testingcatalog/status/2107472033189634436"
-      ],
-      "posts": [
-        {
-          "author": "Mistral",
-          "tier": "primary",
-          "text": "Introducing Mistral Large 4",
-          "url": "https://mistral.ai/news/mistral-large-4/",
-          "created_at": "2026-10-06T12:00:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "Mistral Large 4 jumps to the 6th spot on the Open-Weight Artificial Analysis Index. \n\nLe Chonk also scores 82 on the CyberGym-E2E (AA) benchmark. Similar performance appears across other Cyber benchmarks.\n\nNeeds testing now 👀\n\nOverall, it seems like a decent release. The biggest question is how quickly Mistral can ship new model upgrades to stay relevant.",
-          "url": "https://x.com/testingcatalog/status/2107472033189634436",
-          "created_at": "2026-10-06T14:04:22+00:00",
-          "engagement": 79
-        },
-        {
-          "author": "simonw",
-          "tier": "commentary",
-          "text": "Mistral can pelican now! https://t.co/Mvtss5e5ay https://t.co/A2GQpvhEF0",
-          "url": "https://x.com/simonw/status/2107479817780400577",
-          "created_at": "2026-10-06T14:35:18+00:00",
-          "engagement": 262
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc8628ea2",
-      "score": 14.41,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "OpenAI",
         "Google",
         "Microsoft",
         "Apple",
@@ -280,37 +23,32 @@
         "9to5Google",
         "9to5Mac",
         "AWS ML",
+        "Engadget",
         "The Verge AI",
         "testingcatalog"
       ],
-      "source_count": 5,
-      "first_seen": "2026-10-05T16:44:21+00:00",
-      "last_seen": "2026-10-06T15:53:17+00:00",
+      "source_count": 6,
+      "first_seen": "2026-10-05T19:39:59+00:00",
+      "last_seen": "2026-10-06T17:28:02+00:00",
       "links": [
         "https://9to5google.com/2026/10/06/galaxy-watch-9-drops-to-319-but-not-on-amazon-during-prime-day/",
         "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
         "https://9to5google.com/2026/10/06/prime-day-1-deals-galaxy-z-fold-8-pixel-11-pixel-watch-5/",
+        "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
         "https://9to5mac.com/2026/10/06/prime-day-deals-airpods-pro-3-m6-mac-mini-macbook-air/",
+        "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
         "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-        "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
-        "https://x.com/testingcatalog/status/2107499443532530001"
+        "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+        "https://x.com/testingcatalog/status/2107507173177880753"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Sam Altman says ‘some bad things&#8217; will happen, but AI is totally worth it. Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-          "created_at": "2026-10-05T16:44:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user&#8217;s suicide. An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
-          "created_at": "2026-10-05T16:55:42+00:00",
+          "text": "Monday’s Android app deals and freebies: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, House of Da Vinci, more. Amazon ramp-ed up its early fall Prime Day deals ahead of tomorrow’s official start time with loads of new deals, but we also have your Google Play app and game deals of the day at the ready too. Highlights include Cultures: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, The House of Da Vinci, Box Head: Roguelike Premium, WINCH IT OUT, LIMBO, Paign 2 – RPG, and more. Just be sure to dive into the Pixel Watch 5 deals that went live today, the first discount on the Steph Curry Special Edition model, and Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets at up to $227 off with FREE ANC earbuds throw",
+          "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
+          "created_at": "2026-10-05T19:39:59+00:00",
           "engagement": 0
         },
         {
@@ -319,6 +57,22 @@
           "text": "Google seems to finally understand why it bought Fitbit. Good morning! Today, I’m searching for Prime Day deals, watching Chris Rock masterfully dodge questions about The Slap, questioning Sam Altman about whether we have to accept “some bad things” to justify AI’s exponential growth, and brushing up on my chess game after many years of neglect. As a reminder, Inbox is the tech newsletter that goes beyond the news cycle. We cover the most important 9to5Google stories from the last couple of days along with a few highlights from around the web. We publish every Tuesday and Thursday, and if you like what you read, please subscribe . more…",
           "url": "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
           "created_at": "2026-10-06T11:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google removes free access to Gemini Flash and Pro on October 9. Free Gemini users are losing access to Google's Flash and Pro AI models.",
+          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+          "created_at": "2026-10-06T11:22:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "created_at": "2026-10-06T13:19:01+00:00",
           "engagement": 0
         },
         {
@@ -356,135 +110,154 @@
         {
           "author": "testingcatalog",
           "tier": "commentary",
-          "text": "GOOGLE 🔥: Nano Banana 2.1 is rolling out on Google AI Studio, APIs, and Gemini! \n\n> \"High-quality image generation and editing model with enhanced factuality, visual fidelity, and multi-turn consistency at Flash scale.\"\n\n> Image output is priced at $30 per 1,000,000 tokens. \n\n> Output images at 1K (1024x1024px) consume 1120 tokens and cost $0.034 per image. \n\n> Output images at 2K (2048x2048px) consume 1680 tokens and cost $0.050 per image. \n\n> Output images at 4K (4096x4096px) consume 2520 tokens and cost $0.076 per image.\n\nBased on the pricing, it looks like it is a Pro model!?",
-          "url": "https://x.com/testingcatalog/status/2107499443532530001",
-          "created_at": "2026-10-06T15:53:17+00:00",
-          "engagement": 40
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf93263f9",
-      "score": 13.422,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "TechCrunch AI",
-        "The Decoder",
-        "The Verge AI",
-        "reach_vb"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-10-05T17:32:42+00:00",
-      "last_seen": "2026-10-06T15:37:04+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-        "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-        "https://x.com/reach_vb/status/2107495364760609158"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide. OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a quarter of the words are replaced. The article OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide/",
-          "created_at": "2026-10-05T17:32:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-          "created_at": "2026-10-05T18:08:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "OpenAI will start watermarking ChatGPT’s text in the EU. OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-          "created_at": "2026-10-05T20:36:48+00:00",
-          "engagement": 0
+          "text": "Hark Pro is now available on web, iOS, and Android and a $100 Pro plan is now available for free. Hark is a proactive AI agent from Figure.",
+          "url": "https://x.com/testingcatalog/status/2107507173177880753",
+          "created_at": "2026-10-06T16:24:00+00:00",
+          "engagement": 156
         },
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API. OpenAI today announced how it will comply with the EU AI Act, which requires providers of generative AI systems to mark AI-generated text in a way that makes it identifiable. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-          "created_at": "2026-10-05T20:46:17+00:00",
+          "text": "Apple’s flagship AirPods now up to $120 off for Prime Day. With the Amazon fall Prime Day event now underway, it is one of the best times of year to refresh your AirPods. While we are still awaiting holiday-worthy pricing on Apple’s latest AirPods 5 models, with AirPods Pro 3 down this low they might be a better buy for most folks anyway, and the 2026 AirPods Max 2 are now $120 off in all five colorways for those looking to get into the Apple over-ear experience. AirPods Pro 3 $179 (Reg. $249) AirPods Max 2 $429 (Reg. $549) more…",
+          "url": "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
+          "created_at": "2026-10-06T17:28:02+00:00",
           "engagement": 0
-        },
-        {
-          "author": "reach_vb",
-          "tier": "commentary",
-          "text": "There’s a bit of confusion about Auto-review, so a quick primer 👇\n\nAuto-review is the “Approve for me” permission mode. \n\nA separate agent checks actions that need approval, including requests to run commands outside the sandbox or access additional files and network resources.\n\nThe value add: fewer approval prompts to babysit during long tasks, with the sandbox protections still in place. If an action is blocked, Codex can find a safer path or ask you.\n\nIt’s now free with ChatGPT sign-in, and the reviews don’t draw from your plan’s usage.\n\nTo use it, open the permissions menu below the compo",
-          "url": "https://x.com/reach_vb/status/2107495364760609158",
-          "created_at": "2026-10-06T15:37:04+00:00",
-          "engagement": 61
         }
       ]
     },
     {
-      "cluster_id": "c884a035b",
-      "score": 12.365,
+      "cluster_id": "c56d18719",
+      "score": 13.455,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Amazon"
+        "Google"
       ],
       "independent_sources": [
-        "arXiv",
-        "arankomatsuzaki"
+        "GoogleDeepMind",
+        "UnslothAI",
+        "testingcatalog"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-05T17:48:14+00:00",
-      "last_seen": "2026-10-06T14:10:53+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-06T16:04:36+00:00",
+      "last_seen": "2026-10-06T17:25:08+00:00",
       "links": [
-        "https://arxiv.org/abs/2610.06790v1",
-        "https://arxiv.org/abs/2610.06844v1",
-        "https://x.com/arankomatsuzaki/status/2107473674211328010"
+        "https://x.com/GoogleDeepMind/status/2107502289652982118",
+        "https://x.com/UnslothAI/status/2107505698531868941",
+        "https://x.com/testingcatalog/status/2107522559109476786"
       ],
       "posts": [
         {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification. The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (EDA), approximately 74.6% of existing studies target static Register-Transfer Level (RTL) code generation, leaving post-simulation verification and interactive waveform debugging largely untouched. We introduce Back-to-the-Future (BTTF), an end-to-end agentic framework that closes this infrastructura",
-          "url": "https://arxiv.org/abs/2610.06790v1",
-          "created_at": "2026-10-05T17:48:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Learning to Read the Contextual Tokens in Diffusion Transformers. Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a framework for reading this contextual space through natural-language interrogation. We train a lightweight bottleneck network that maps intermediate contextual tokens into the input space of a frozen Large Language Model (LLM), allowing the LLM to answer questions about the emerging image directly from",
-          "url": "https://arxiv.org/abs/2610.06844v1",
-          "created_at": "2026-10-05T17:59:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arankomatsuzaki",
+          "author": "GoogleDeepMind",
           "tier": "commentary",
-          "text": "Amazon AGI presents Adaptively Looped Diffusion Language Models\n\nOutperforms all evaluated DLMs and the corresponding AR baselines in average benchmark score\n\nproj: https://t.co/iRtX3Q05Xk\nabs: https://t.co/V6JnHBuI4g\nrepo: https://t.co/xLacvhEQz4\nmodel: https://t.co/yh10ENVAxG https://t.co/iQkIRzOa1C",
-          "url": "https://x.com/arankomatsuzaki/status/2107473674211328010",
-          "created_at": "2026-10-06T14:10:53+00:00",
-          "engagement": 121
+          "text": "At 740M parameters, it’s competitive across benchmarks – even outperforming some specialist models more than twice its size. EmbeddingGemma 2 is released under an Apache 2.0 license. weights on HuggingFace and Kaggle.",
+          "url": "https://x.com/GoogleDeepMind/status/2107502289652982118",
+          "created_at": "2026-10-06T16:04:36+00:00",
+          "engagement": 175
+        },
+        {
+          "author": "UnslothAI",
+          "tier": "commentary",
+          "text": "Google releases EmbeddingGemma 2, a new open model that runs locally on 0.5GB RAM. The 740M parameter Apache 2.0 model combines a 270M text model with vision (170M) + audio (300M). Run & train the model via Unsloth.",
+          "url": "https://x.com/UnslothAI/status/2107505698531868941",
+          "created_at": "2026-10-06T16:18:08+00:00",
+          "engagement": 1302
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Google released EmbeddingGemma 2 open weight model under Apache 2 license! 740M parameter form factor with modular encoders and 8K context window. Embedded testing time",
+          "url": "https://x.com/testingcatalog/status/2107522559109476786",
+          "created_at": "2026-10-06T17:25:08+00:00",
+          "engagement": 58,
+          "video": true
         }
       ]
     },
     {
-      "cluster_id": "c176e4321",
-      "score": 9.361,
+      "cluster_id": "c36474e1c",
+      "score": 11.012,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "claudeai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T16:00:00+00:00",
+      "last_seen": "2026-10-06T16:49:07+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+        "https://x.com/claudeai/status/2107513494493179954"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits. \"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "created_at": "2026-10-06T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "The Claude Startups program is expanding to more founders. Members can get a year of Claude Team, API credits, special offers, and office hours.",
+          "url": "https://x.com/claudeai/status/2107513494493179954",
+          "created_at": "2026-10-06T16:49:07+00:00",
+          "engagement": 4856,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3c5b305e",
+      "score": 10.65,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "claudeai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T01:55:00+00:00",
+      "last_seen": "2026-10-06T17:25:17+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
+        "https://x.com/claudeai/status/2107522596845822135"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Docs and Drive now support markdown files natively. Spurred by the use of markdown files in the AI age, Google Drive and Google Docs are adding full, native support for markdown (.md) files. more…",
+          "url": "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
+          "created_at": "2026-10-06T01:55:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "claudeai",
+          "tier": "commentary",
+          "text": "Claude now works inside Google Docs, Sheets, and Slides, and those files also open inside Claude. In Google Workspace, Claude sits in a sidebar next to your file, reads what you have open, and edits it in place. You can approve each edit before it lands.",
+          "url": "https://x.com/claudeai/status/2107522596845822135",
+          "created_at": "2026-10-06T17:25:17+00:00",
+          "engagement": 3891,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7546fd72",
+      "score": 10.236,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -492,17 +265,19 @@
         "DeepSeek"
       ],
       "independent_sources": [
+        "Bloomberg Tech",
         "Latent Space",
         "TechCrunch AI",
         "The Decoder"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "first_seen": "2026-10-05T19:33:53+00:00",
-      "last_seen": "2026-10-06T12:54:31+00:00",
+      "last_seen": "2026-10-06T14:42:15+00:00",
       "links": [
         "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
         "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
         "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+        "https://www.bloomberg.com/news/videos/2026-10-06/ai-to-see-adoption-unseen-in-previous-cycles-says-lee-video",
         "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
       ],
       "posts": [
@@ -537,55 +312,249 @@
           "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
           "created_at": "2026-10-06T12:54:31+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI to See Massive Adoption 'Unseen' in Previous Tech Cycles, Says Neostellar Principal. American AI companies’ performance lead over China narrowed sharply in past months to a record low after labs such as DeepSeek gained ground, threatening US tech supremacy, according to Bloomberg Intelligence. Willy Lee, Principal at Neostellar, offers his view from the VC world when it comes to AI investments and the IPO market. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-to-see-adoption-unseen-in-previous-cycles-says-lee-video",
+          "created_at": "2026-10-06T14:42:15+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cad22cf34",
-      "score": 8.978,
+      "cluster_id": "cc7bad37d",
+      "score": 9.985,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Google",
-        "Amazon"
+        "Mistral"
       ],
       "independent_sources": [
-        "9to5Google",
-        "Engadget",
-        "The Verge AI"
+        "Mistral",
+        "Wired AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-05T19:39:59+00:00",
-      "last_seen": "2026-10-06T13:19:01+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-06T12:00:27+00:00",
+      "last_seen": "2026-10-06T13:15:23+00:00",
       "links": [
-        "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
-        "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
+        "https://mistral.ai/news/mistral-large-4/",
+        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/"
       ],
       "posts": [
         {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Monday’s Android app deals and freebies: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, House of Da Vinci, more. Amazon ramp-ed up its early fall Prime Day deals ahead of tomorrow’s official start time with loads of new deals, but we also have your Google Play app and game deals of the day at the ready too. Highlights include Cultures: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, The House of Da Vinci, Box Head: Roguelike Premium, WINCH IT OUT, LIMBO, Paign 2 – RPG, and more. Just be sure to dive into the Pixel Watch 5 deals that went live today, the first discount on the Steph Curry Special Edition model, and Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets at up to $227 off with FREE ANC earbuds throw",
-          "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
-          "created_at": "2026-10-05T19:39:59+00:00",
+          "author": "Mistral",
+          "tier": "primary",
+          "text": "Introducing Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "created_at": "2026-10-06T12:00:27+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "Google removes free access to Gemini Flash and Pro on October 9. Free Gemini users are losing access to Google's Flash and Pro AI models.",
-          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-          "created_at": "2026-10-06T11:22:53+00:00",
+          "text": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+          "created_at": "2026-10-06T13:15:23+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd202fa7b",
+      "score": 9.117,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Interconnects"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T13:38:08+00:00",
+      "last_seen": "2026-10-06T17:42:20+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-10-06/anthropic-openai-can-both-win-ai-race-t-rowe-price-video",
+        "https://www.bloomberg.com/news/videos/2026-10-06/bender-ai-s-existential-risk-is-fake-video",
+        "https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video",
+        "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
+        "https://www.bloomberg.com/news/videos/2026-10-06/openai-anthropic-lead-consumer-ai-spending-a16z-video",
+        "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Mythos Drove Up Cyber Risk 10-Fold, Says JPMorgan's Dimon. JPMorgan Chase & Co. Chief Executive Officer Jamie Dimon says artificial intelligence has exposed new vulnerabilities for banks. He says the risks of cyber attacks have gone up 10-fold since the release of Anthropic's Mythos ai model. He speaks exclusively to Bloomberg's Tom Mackenzie at the JPMorgan Tech Stars Conference in London. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
+          "created_at": "2026-10-06T13:38:08+00:00",
           "engagement": 0
         },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "JPMorgan's Dimon Weighs In on AI Boom, Bond Selloff and UK Banks. JPMorgan Chase Chairman and CEO Jamie Dimon discusses the issues behind financing the AI boom, the global bond selloff and the state of UK banks. He speaks with Tom Mackenzie at JPMorgan's Tech Stars Conference in London. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video",
+          "created_at": "2026-10-06T14:02:18+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Interconnects",
+          "tier": "commentary",
+          "text": "The Cyber Risk Discourse is Broken. Open-weights, ideology, and acknowledging trade-offs.",
+          "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+          "created_at": "2026-10-06T14:22:41+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Bender: AI’s ‘Existential’ Risk Is ‘Fake’. University of Washington professor Emily Bender argues the AI safety debate is too focused on hypothetical existential threats while overlooking harms already happening today. She points to environmental costs, disruption to workers, surveillance, misinformation and chatbot dependence. She argues that incidents involving AI systems accessing outside networks should be viewed as the responsibility of the companies deploying them - not as autonomous models “going rogue.” She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bender-ai-s-existential-risk-is-fake-video",
+          "created_at": "2026-10-06T17:11:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic, OpenAI Can Both Win AI Race: T. Rowe Price. T. Rowe Price partner Emma Norchet says Anthropic is entering “act two” of its growth story, moving beyond its early success in coding toward becoming an AI layer through which businesses can execute entire workflows. With multi-billion-dollar positions in both Anthropic and OpenAI, Norchet explains why T. Rowe Price doesn’t see frontier AI as a winner-take-all market. Norchet discusses where she sees the next opportunities for Anthropic, and why public-market investors will have an appetite for leading AI companies when they choose to IPO. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Blo",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/anthropic-openai-can-both-win-ai-race-t-rowe-price-video",
+          "created_at": "2026-10-06T17:18:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI, Anthropic Lead Consumer AI Spending: A16z. Andreessen Horowitz partner Olivia Moore says consumer AI adoption is growing, but fewer than 5% of consumers are paying for even one AI product. She discusses why OpenAI and Anthropic dominate spending, with a small group of power users paying as much as $1,000 a month, and why AI’s next consumer opportunity could come from new business models and categories beyond productivity - including social, entertainment, health and other “multiplayer” experiences. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/openai-anthropic-lead-consumer-ai-spending-a16z-video",
+          "created_at": "2026-10-06T17:42:20+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cfe36c29f",
+      "score": 8.868,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Meta",
+        "Microsoft",
+        "Mistral"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-05T18:59:19+00:00",
+      "last_seen": "2026-10-06T17:31:51+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+        "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+        "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+        "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor. Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. The article Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor appeared first on The Decoder .",
+          "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+          "created_at": "2026-10-05T18:59:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
+          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+          "created_at": "2026-10-06T14:18:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "created_at": "2026-10-06T14:33:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Insurers brace for millions in claims as AI agents spin out of control. Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
+          "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+          "created_at": "2026-10-06T16:06:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Microsoft publishes Nobel economist's bearish AI forecast of just 1.5% GDP growth over a decade. Microsoft published a bearish AI outlook from Nobel economist Daron Acemoglu. He predicts about 1.5 percent GDP growth over ten years and at most five percent of jobs replaced. Bigger models won't move the needle, he argues. What's missing are practical apps that change how work gets done. The article Microsoft publishes Nobel economist&#039;s bearish AI forecast of just 1.5% GDP growth over a decade appeared first on The Decoder .",
+          "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+          "created_at": "2026-10-06T17:31:51+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cfcb7826c",
+      "score": 4.713,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-05T18:08:39+00:00",
+      "last_seen": "2026-10-05T20:46:17+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+      ],
+      "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-          "created_at": "2026-10-06T13:19:01+00:00",
+          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "created_at": "2026-10-05T18:08:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI will start watermarking ChatGPT’s text in the EU. OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "created_at": "2026-10-05T20:36:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI details new text watermarking system for ChatGPT, Codex, and the API. OpenAI today announced how it will comply with the EU AI Act, which requires providers of generative AI systems to mark AI-generated text in a way that makes it identifiable. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
+          "created_at": "2026-10-05T20:46:17+00:00",
           "engagement": 0
         }
       ]
