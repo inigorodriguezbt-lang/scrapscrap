@@ -30,6 +30,60 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-anthropic-cvp-expansion",
+   "section": "security",
+   "headline": "Anthropic opens Mythos 5.1 to vetted security teams in three tiers",
+   "standfirst": "Anthropic says verified defenders can now use Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5, with a Red Team tier for authorised penetration testing and a third for critical infrastructure.",
+   "body": [
+    "Anthropic said on Tuesday it is expanding its Cyber Verification Program so that verified security professionals can use Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5 with safeguards built for defensive work. The company also announced new tiers for authorised offensive work, such as penetration testing and red-teaming, according to its post on X and its announcement page.",
+    "The announcement page describes three tiers. Defense Access covers work such as incident response, malware reverse-engineering and vulnerability analysis, and is open to company security teams, nonprofits, universities, open-source maintainers and individual researchers with a vulnerability-reporting record. Anthropic says applications are reviewed in a few days.",
+    "Red Team Access adds authorised penetration testing and red-teaming, and is for in-house and government red teams and security firms, not individuals, and Anthropic says review takes a few weeks. It says real-time blocks remain on actions that cause physical harm or mass disruption, such as deploying ransomware. A third, Specialized Access tier has the fewest blocks.",
+    "Specialized Access is limited to verified organisations testing critical systems such as power grids, telecom networks and government networks, and Anthropic says it is reviewed with the US government. Project Glasswing members move into it without reapproval. Anthropic says the generally available models carry conservative cyber safeguards that block most cyber work.",
+    "Anthropic gives its own measurements of the difference. On its CyScenarioBench evaluation, it says the Defense Access tier still blocked 46 of 50 tasks, while the Red Team and Specialized tiers blocked none. It also says Glasswing partners found at least 129,000 verified vulnerabilities from April to July, and its own scanning found 5,500 more. These are Anthropic's figures, and no outside party has checked them."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Mythos 5.1",
+    "Project Glasswing"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/news/cyber-verification-program"
+    },
+    {
+     "author": "Anthropic on X",
+     "url": "https://x.com/AnthropicAI/status/2107546569654636883"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-scrimshaw-jukebox",
+   "section": "products",
+   "headline": "Simon Willison has Opus 5.5 write six game tracks and a player in one prompt",
+   "standfirst": "Willison asked Claude Opus 5.5 for Monkey Island-quality game music and a player. It returned six tracks in a plain-text format, played by a browser synthesizer with 16 voices.",
+   "body": [
+    "Developer Simon Willison said he asked Claude Opus 5.5 to write computer game music, first designing a simple text format and building an artifact that plays it aloud. His prompt asked for \"music of the quality of the original secret of Monkey Island\". He published the result on Tuesday as a tool called Scrimshaw Jukebox, which runs in the browser.",
+    "Willison's write-up lists six original tracks: Moonlit Harbor at 100 beats a minute, The Rusty Anchor at 112, The Ghost Galleon at 66, The Jungle Path at 92, Duel on the Docks at 152 and Lantern Waltz at 96. They run from 56 seconds to 2 minutes 11 seconds, by his listing.",
+    "The music is plain-text notation that the page renders through a piano-roll display. The synthesizer has 16 voices, among them steel drums and strings, according to his post. The player and its example tracks were part of what the model produced, rather than something Willison wrote himself.",
+    "Willison said the results were much better than he expected, though he noted Claude took the Monkey Island reference more literally than he had intended. He also questioned whether composing is a newly emergent skill or one earlier models had. He said settling that would need the same prompt run across several models.",
+    "No one else has published a comparison yet, and the quality of the music is Willison's judgement. The tool is public, so anyone can open it and play the tracks, and judge whether a text prompt can stand in for a composer in a small adventure game."
+   ],
+   "entities": [
+    "Simon Willison",
+    "Claude Opus 5.5",
+    "Scrimshaw Jukebox"
+   ],
+   "sources": [
+    {
+     "author": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "c56d18719",
    "section": "open-models",
    "headline": "Google releases Apache 2.0 EmbeddingGemma 2 for text, images, audio and video",
@@ -233,7 +287,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nano-banana-2-1-rollout",
@@ -264,7 +318,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "c131323b6",

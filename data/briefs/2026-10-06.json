@@ -1,19 +1,186 @@
 {
-  "generated_at": "2026-10-06T18:03:14.658605+00:00",
+  "generated_at": "2026-10-06T20:03:21.105518+00:00",
   "edition_date": "2026-10-06",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 125,
-  "clusters_found": 85,
-  "stories_declared": 9,
+  "posts_considered": 118,
+  "clusters_found": 84,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cecb2a44f",
-      "score": 15.449,
+      "cluster_id": "cba6e0b01",
+      "score": 14.757,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Mistral",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "MistralAI",
+        "Simon Willison",
+        "TechCrunch AI",
+        "The Decoder"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-06T06:28:43+00:00",
+      "last_seen": "2026-10-06T18:20:58+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+        "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+        "https://x.com/MistralAI/status/2107532335294067106"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Reflection Beam - 501B-A23B American Open Model. A small win for US open source",
+          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+          "created_at": "2026-10-06T06:28:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
+          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+          "created_at": "2026-10-06T12:11:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
+          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+          "created_at": "2026-10-06T12:54:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
+          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+          "created_at": "2026-10-06T14:18:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "created_at": "2026-10-06T14:33:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MistralAI",
+          "tier": "commentary",
+          "text": "Malware reverse-engineering: solving an out-of-distribution investigation task.\n\nWhen faced with an unknown binary, Mistral Large 4 reverse-engineers it end-to-end. In this case, it concludes the sample is Cobalt Strike, extracts the IoCs and malware configuration, and writes a report with a YARA rule to catch future incidents.\n\nA task that could take a day's work, completed in 12 minutes.",
+          "url": "https://x.com/MistralAI/status/2107532335294067106",
+          "created_at": "2026-10-06T18:03:59+00:00",
+          "engagement": 96,
+          "video": true
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Mistral Large 4. My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default re",
+          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+          "created_at": "2026-10-06T18:20:58+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c833b4836",
+      "score": 14.489,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Mistral"
+      ],
+      "independent_sources": [
+        "Mistral",
+        "MistralAI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T12:00:27+00:00",
+      "last_seen": "2026-10-06T18:03:58+00:00",
+      "links": [
+        "https://mistral.ai/news/mistral-large-4/",
+        "https://x.com/MistralAI/status/2107532329937723861"
+      ],
+      "posts": [
+        {
+          "author": "Mistral",
+          "tier": "primary",
+          "text": "Introducing Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "created_at": "2026-10-06T12:00:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MistralAI",
+          "tier": "commentary",
+          "text": "Mistral Large 4 is one of the world's strongest AI models for cybersecurity.",
+          "url": "https://x.com/MistralAI/status/2107532329937723861",
+          "created_at": "2026-10-06T18:03:58+00:00",
+          "engagement": 1445
+        }
+      ]
+    },
+    {
+      "cluster_id": "c17c0bb30",
+      "score": 12.961,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "AnthropicAI",
+        "Simon Willison"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T15:17:39+00:00",
+      "last_seen": "2026-10-06T19:00:33+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+        "https://x.com/AnthropicAI/status/2107546569654636883"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Scrimshaw Jukebox. Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for te",
+          "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+          "created_at": "2026-10-06T15:17:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AnthropicAI",
+          "tier": "commentary",
+          "text": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models.\n\nThrough this program, verified security professionals can access Claude Mythos 5.1, Opus 5.5, and Sonnet 5.5 with safeguards designed for defensive work.\n\nWe’re also opening up new tiers to allow for authorized offensive work, like penetration testing and red-teaming.",
+          "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+          "created_at": "2026-10-06T19:00:33+00:00",
+          "engagement": 1397
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3e0419ec",
+      "score": 11.958,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
+        "OpenAI",
+        "Anthropic",
         "Google",
         "Microsoft",
         "Apple",
@@ -23,56 +190,30 @@
         "9to5Google",
         "9to5Mac",
         "AWS ML",
-        "Engadget",
-        "The Verge AI",
-        "testingcatalog"
+        "The Decoder",
+        "Wired AI"
       ],
-      "source_count": 6,
-      "first_seen": "2026-10-05T19:39:59+00:00",
-      "last_seen": "2026-10-06T17:28:02+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-06T11:00:00+00:00",
+      "last_seen": "2026-10-06T18:45:39+00:00",
       "links": [
         "https://9to5google.com/2026/10/06/galaxy-watch-9-drops-to-319-but-not-on-amazon-during-prime-day/",
         "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
         "https://9to5google.com/2026/10/06/prime-day-1-deals-galaxy-z-fold-8-pixel-11-pixel-watch-5/",
+        "https://9to5mac.com/2026/10/06/apple-killed-the-mac-minis-best-hidden-feature-video/",
         "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
         "https://9to5mac.com/2026/10/06/prime-day-deals-airpods-pro-3-m6-mac-mini-macbook-air/",
-        "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
         "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
-        "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-        "https://x.com/testingcatalog/status/2107507173177880753"
+        "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+        "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/"
       ],
       "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Monday’s Android app deals and freebies: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, House of Da Vinci, more. Amazon ramp-ed up its early fall Prime Day deals ahead of tomorrow’s official start time with loads of new deals, but we also have your Google Play app and game deals of the day at the ready too. Highlights include Cultures: 8th Wonder, Dawnfolk, Metal Soldiers 4 Pro, The House of Da Vinci, Box Head: Roguelike Premium, WINCH IT OUT, LIMBO, Paign 2 – RPG, and more. Just be sure to dive into the Pixel Watch 5 deals that went live today, the first discount on the Steph Curry Special Edition model, and Lenovo’s all-new 4K Yoga Tab Gen 2 Android tablets at up to $227 off with FREE ANC earbuds throw",
-          "url": "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
-          "created_at": "2026-10-05T19:39:59+00:00",
-          "engagement": 0
-        },
         {
           "author": "9to5Google",
           "tier": "press",
           "text": "Google seems to finally understand why it bought Fitbit. Good morning! Today, I’m searching for Prime Day deals, watching Chris Rock masterfully dodge questions about The Slap, questioning Sam Altman about whether we have to accept “some bad things” to justify AI’s exponential growth, and brushing up on my chess game after many years of neglect. As a reminder, Inbox is the tech newsletter that goes beyond the news cycle. We cover the most important 9to5Google stories from the last couple of days along with a few highlights from around the web. We publish every Tuesday and Thursday, and if you like what you read, please subscribe . more…",
           "url": "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
           "created_at": "2026-10-06T11:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google removes free access to Gemini Flash and Pro on October 9. Free Gemini users are losing access to Google's Flash and Pro AI models.",
-          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-          "created_at": "2026-10-06T11:22:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-          "created_at": "2026-10-06T13:19:01+00:00",
           "engagement": 0
         },
         {
@@ -108,12 +249,12 @@
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "Hark Pro is now available on web, iOS, and Android and a $100 Pro plan is now available for free. Hark is a proactive AI agent from Figure.",
-          "url": "https://x.com/testingcatalog/status/2107507173177880753",
-          "created_at": "2026-10-06T16:24:00+00:00",
-          "engagement": 156
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Insurers brace for millions in claims as AI agents spin out of control. Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
+          "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+          "created_at": "2026-10-06T16:06:46+00:00",
+          "engagement": 0
         },
         {
           "author": "9to5Mac",
@@ -122,118 +263,47 @@
           "url": "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
           "created_at": "2026-10-06T17:28:02+00:00",
           "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple killed the Mac mini’s best hidden feature [Video]. With the release of the M6 Mac mini and its more powerful M5 Pro counterpart , Apple quietly killed off one of the machine’s most compelling features. While both new Mac mini models look like their predecessors from the outside, Apple nixed the hidden feature that made the previous-generation Mac mini an incredible value. more…",
+          "url": "https://9to5mac.com/2026/10/06/apple-killed-the-mac-minis-best-hidden-feature-video/",
+          "created_at": "2026-10-06T18:44:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers. From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
+          "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+          "created_at": "2026-10-06T18:45:39+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c56d18719",
-      "score": 13.455,
+      "cluster_id": "c112b9fca",
+      "score": 8.581,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "GoogleDeepMind",
-        "UnslothAI",
-        "testingcatalog"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-06T16:04:36+00:00",
-      "last_seen": "2026-10-06T17:25:08+00:00",
-      "links": [
-        "https://x.com/GoogleDeepMind/status/2107502289652982118",
-        "https://x.com/UnslothAI/status/2107505698531868941",
-        "https://x.com/testingcatalog/status/2107522559109476786"
-      ],
-      "posts": [
-        {
-          "author": "GoogleDeepMind",
-          "tier": "commentary",
-          "text": "At 740M parameters, it’s competitive across benchmarks – even outperforming some specialist models more than twice its size. EmbeddingGemma 2 is released under an Apache 2.0 license. weights on HuggingFace and Kaggle.",
-          "url": "https://x.com/GoogleDeepMind/status/2107502289652982118",
-          "created_at": "2026-10-06T16:04:36+00:00",
-          "engagement": 175
-        },
-        {
-          "author": "UnslothAI",
-          "tier": "commentary",
-          "text": "Google releases EmbeddingGemma 2, a new open model that runs locally on 0.5GB RAM. The 740M parameter Apache 2.0 model combines a 270M text model with vision (170M) + audio (300M). Run & train the model via Unsloth.",
-          "url": "https://x.com/UnslothAI/status/2107505698531868941",
-          "created_at": "2026-10-06T16:18:08+00:00",
-          "engagement": 1302
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "Google released EmbeddingGemma 2 open weight model under Apache 2 license! 740M parameter form factor with modular encoders and 8K context window. Embedded testing time",
-          "url": "https://x.com/testingcatalog/status/2107522559109476786",
-          "created_at": "2026-10-06T17:25:08+00:00",
-          "engagement": 58,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "c36474e1c",
-      "score": 11.012,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "claudeai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T16:00:00+00:00",
-      "last_seen": "2026-10-06T16:49:07+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
-        "https://x.com/claudeai/status/2107513494493179954"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits. \"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
-          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
-          "created_at": "2026-10-06T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "claudeai",
-          "tier": "commentary",
-          "text": "The Claude Startups program is expanding to more founders. Members can get a year of Claude Team, API credits, special offers, and office hours.",
-          "url": "https://x.com/claudeai/status/2107513494493179954",
-          "created_at": "2026-10-06T16:49:07+00:00",
-          "engagement": 4856,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3c5b305e",
-      "score": 10.65,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
+        "Anthropic",
         "Google"
       ],
       "independent_sources": [
         "9to5Google",
-        "claudeai"
+        "The Decoder"
       ],
       "source_count": 2,
       "first_seen": "2026-10-06T01:55:00+00:00",
-      "last_seen": "2026-10-06T17:25:17+00:00",
+      "last_seen": "2026-10-06T19:47:27+00:00",
       "links": [
         "https://9to5google.com/2026/10/05/google-docs-drive-markdown-support/",
-        "https://x.com/claudeai/status/2107522596845822135"
+        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+        "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+        "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/"
       ],
       "posts": [
         {
@@ -245,302 +315,92 @@
           "engagement": 0
         },
         {
-          "author": "claudeai",
-          "tier": "commentary",
-          "text": "Claude now works inside Google Docs, Sheets, and Slides, and those files also open inside Claude. In Google Workspace, Claude sits in a sidebar next to your file, reads what you have open, and edits it in place. You can approve each edit before it lands.",
-          "url": "https://x.com/claudeai/status/2107522596845822135",
-          "created_at": "2026-10-06T17:25:17+00:00",
-          "engagement": 3891,
-          "video": true
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
+          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+          "created_at": "2026-10-06T19:10:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+          "created_at": "2026-10-06T19:29:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size. Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+          "created_at": "2026-10-06T19:47:27+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c7546fd72",
-      "score": 10.236,
-      "interest": "want",
+      "cluster_id": "c201e70ef",
+      "score": 6.431,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "business",
       "entities": [
+        "OpenAI",
         "DeepSeek"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Latent Space",
-        "TechCrunch AI",
-        "The Decoder"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-05T19:33:53+00:00",
-      "last_seen": "2026-10-06T14:42:15+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-        "https://www.bloomberg.com/news/videos/2026-10-06/ai-to-see-adoption-unseen-in-previous-cycles-says-lee-video",
-        "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost. Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
-          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-          "created_at": "2026-10-05T19:33:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Reflection Beam - 501B-A23B American Open Model. A small win for US open source",
-          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-          "created_at": "2026-10-06T06:28:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
-          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-          "created_at": "2026-10-06T12:11:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
-          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-          "created_at": "2026-10-06T12:54:31+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI to See Massive Adoption 'Unseen' in Previous Tech Cycles, Says Neostellar Principal. American AI companies’ performance lead over China narrowed sharply in past months to a record low after labs such as DeepSeek gained ground, threatening US tech supremacy, according to Bloomberg Intelligence. Willy Lee, Principal at Neostellar, offers his view from the VC world when it comes to AI investments and the IPO market. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/ai-to-see-adoption-unseen-in-previous-cycles-says-lee-video",
-          "created_at": "2026-10-06T14:42:15+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc7bad37d",
-      "score": 9.985,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Mistral"
-      ],
-      "independent_sources": [
-        "Mistral",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T12:00:27+00:00",
-      "last_seen": "2026-10-06T13:15:23+00:00",
-      "links": [
-        "https://mistral.ai/news/mistral-large-4/",
-        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/"
-      ],
-      "posts": [
-        {
-          "author": "Mistral",
-          "tier": "primary",
-          "text": "Introducing Mistral Large 4",
-          "url": "https://mistral.ai/news/mistral-large-4/",
-          "created_at": "2026-10-06T12:00:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
-          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-          "created_at": "2026-10-06T13:15:23+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cd202fa7b",
-      "score": 9.117,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Interconnects"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T13:38:08+00:00",
-      "last_seen": "2026-10-06T17:42:20+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/videos/2026-10-06/anthropic-openai-can-both-win-ai-race-t-rowe-price-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/bender-ai-s-existential-risk-is-fake-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
-        "https://www.bloomberg.com/news/videos/2026-10-06/openai-anthropic-lead-consumer-ai-spending-a16z-video",
-        "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Mythos Drove Up Cyber Risk 10-Fold, Says JPMorgan's Dimon. JPMorgan Chase & Co. Chief Executive Officer Jamie Dimon says artificial intelligence has exposed new vulnerabilities for banks. He says the risks of cyber attacks have gone up 10-fold since the release of Anthropic's Mythos ai model. He speaks exclusively to Bloomberg's Tom Mackenzie at the JPMorgan Tech Stars Conference in London. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/mythos-drove-up-cyber-risk-10-fold-dimon-says-video",
-          "created_at": "2026-10-06T13:38:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "JPMorgan's Dimon Weighs In on AI Boom, Bond Selloff and UK Banks. JPMorgan Chase Chairman and CEO Jamie Dimon discusses the issues behind financing the AI boom, the global bond selloff and the state of UK banks. He speaks with Tom Mackenzie at JPMorgan's Tech Stars Conference in London. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video",
-          "created_at": "2026-10-06T14:02:18+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Interconnects",
-          "tier": "commentary",
-          "text": "The Cyber Risk Discourse is Broken. Open-weights, ideology, and acknowledging trade-offs.",
-          "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-          "created_at": "2026-10-06T14:22:41+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Bender: AI’s ‘Existential’ Risk Is ‘Fake’. University of Washington professor Emily Bender argues the AI safety debate is too focused on hypothetical existential threats while overlooking harms already happening today. She points to environmental costs, disruption to workers, surveillance, misinformation and chatbot dependence. She argues that incidents involving AI systems accessing outside networks should be viewed as the responsibility of the companies deploying them - not as autonomous models “going rogue.” She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bender-ai-s-existential-risk-is-fake-video",
-          "created_at": "2026-10-06T17:11:58+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Anthropic, OpenAI Can Both Win AI Race: T. Rowe Price. T. Rowe Price partner Emma Norchet says Anthropic is entering “act two” of its growth story, moving beyond its early success in coding toward becoming an AI layer through which businesses can execute entire workflows. With multi-billion-dollar positions in both Anthropic and OpenAI, Norchet explains why T. Rowe Price doesn’t see frontier AI as a winner-take-all market. Norchet discusses where she sees the next opportunities for Anthropic, and why public-market investors will have an appetite for leading AI companies when they choose to IPO. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Blo",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/anthropic-openai-can-both-win-ai-race-t-rowe-price-video",
-          "created_at": "2026-10-06T17:18:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI, Anthropic Lead Consumer AI Spending: A16z. Andreessen Horowitz partner Olivia Moore says consumer AI adoption is growing, but fewer than 5% of consumers are paying for even one AI product. She discusses why OpenAI and Anthropic dominate spending, with a small group of power users paying as much as $1,000 a month, and why AI’s next consumer opportunity could come from new business models and categories beyond productivity - including social, entertainment, health and other “multiplayer” experiences. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/openai-anthropic-lead-consumer-ai-spending-a16z-video",
-          "created_at": "2026-10-06T17:42:20+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cfe36c29f",
-      "score": 8.868,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta",
-        "Microsoft",
-        "Mistral"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
         "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-05T18:59:19+00:00",
-      "last_seen": "2026-10-06T17:31:51+00:00",
+      "first_seen": "2026-10-06T10:50:18+00:00",
+      "last_seen": "2026-10-06T18:55:23+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-        "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
-        "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
-        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/"
+        "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+        "https://www.bloomberg.com/news/videos/2026-10-06/bloomberg-tech-10-6-2026-video"
       ],
       "posts": [
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor. Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk. The article Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor appeared first on The Decoder .",
-          "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
-          "created_at": "2026-10-05T18:59:19+00:00",
+          "text": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO. Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports. The article CATL and Tencent back Deepseek&#039;s ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .",
+          "url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+          "created_at": "2026-10-06T10:50:18+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
-          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-          "created_at": "2026-10-06T14:18:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "created_at": "2026-10-06T14:33:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Insurers brace for millions in claims as AI agents spin out of control. Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
-          "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-          "created_at": "2026-10-06T16:06:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Microsoft publishes Nobel economist's bearish AI forecast of just 1.5% GDP growth over a decade. Microsoft published a bearish AI outlook from Nobel economist Daron Acemoglu. He predicts about 1.5 percent GDP growth over ten years and at most five percent of jobs replaced. Bigger models won't move the needle, he argues. What's missing are practical apps that change how work gets done. The article Microsoft publishes Nobel economist&#039;s bearish AI forecast of just 1.5% GDP growth over a decade appeared first on The Decoder .",
-          "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
-          "created_at": "2026-10-06T17:31:51+00:00",
+          "text": "Billions Pour Into OpenAI, DeepSeek Ahead of IPOs. Bloomberg’s Ed Ludlow breaks down OpenAI's talks with multiple investors to raise at least $30 billion at a valuation of about $1.4 trillion. Plus, DeepSeek is also close to securing at least $12 billion in funding ahead of its own IPO next year, and JPMorganChase CEO Jamie Dimon weighs in on data centers and AI risks from London's Tech Stars event. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bloomberg-tech-10-6-2026-video",
+          "created_at": "2026-10-06T18:55:23+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cfcb7826c",
-      "score": 4.713,
+      "cluster_id": "c1a74edbf",
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
+        "OpenAI"
       ],
       "independent_sources": [
         "9to5Mac",
-        "TechCrunch AI",
-        "The Verge AI"
+        "TechCrunch AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-05T18:08:39+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-05T20:36:48+00:00",
       "last_seen": "2026-10-05T20:46:17+00:00",
       "links": [
         "https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/",
-        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+        "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
       ],
       "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI is adding text watermarking in ChatGPT and Codex. An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-          "created_at": "2026-10-05T18:08:39+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
