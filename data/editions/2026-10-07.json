@@ -45,6 +45,46 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-tsc-rs",
+   "section": "ai",
+   "headline": "Theo says he built a Rust TypeScript compiler with agents, reading none of it",
+   "standfirst": "Developer Theo says agents wrote tsc-rs, an open-source Rust rewrite of TypeScript's compiler and language server, for about $20,000 of Opus tokens after roughly $400,000 of Codex spend got nowhere.",
+   "body": [
+    "Developer Theo announced tsc-rs on X on Wednesday morning, describing it as his complete rewrite of the TypeScript compiler, type checker and language server in Rust. In the post he calls it an open-source drop-in replacement for tsc and says it is available now. The post had drawn about 1,000 likes when the paper read it.",
+    "Theo says agents have worked on the project for five months. By his account he spent about $400,000 of Codex tokens and got nowhere, then spent about $20,000 on Opus and reached a working result in two weeks. He adds that he has not read a single line of the code, a claim that rests on his word alone.",
+    "In a follow-up post, Theo lists what he likes about the design. He says it replaces tsc directly, matches tsc's behaviour in full, and compiles to WebAssembly. He also says it has the Effect TypeScript checks built in. The paper has not run the code, and the compatibility figure is his own.",
+    "Theo also concedes a rival. He says Bun's new `bun check` command has just shipped, that Bun's creator Jarred shared its numbers with him early, and that it is probably the right choice for most apps using Bun. By his own account, tsc-rs is faster only for projects that use the Effect checks.",
+    "In another post, Theo says the work used the equivalent of about ten weeks of usage on a $200 Claude subscription. No independent benchmark of tsc-rs has appeared, and the repository link sits behind a short link in his post. Whether it matches tsc on large real-world codebases is unconfirmed."
+   ],
+   "entities": [
+    "Theo",
+    "tsc-rs",
+    "TypeScript",
+    "Bun"
+   ],
+   "sources": [
+    {
+     "author": "Theo",
+     "url": "https://x.com/theo/status/2107789940482621795"
+    },
+    {
+     "author": "Theo",
+     "url": "https://x.com/theo/status/2107789943598682617"
+    },
+    {
+     "author": "Theo",
+     "url": "https://x.com/theo/status/2107792358540730661"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/theo/status/2107789940482621795",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-common-sense-chatgpt-teens",
    "section": "policy",
    "headline": "Common Sense Media calls ChatGPT for Teens an 'unacceptable risk'",
@@ -261,7 +301,7 @@
      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }
