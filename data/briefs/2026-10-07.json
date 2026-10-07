@@ -1,19 +1,91 @@
 {
-  "generated_at": "2026-10-07T20:03:34.480912+00:00",
+  "generated_at": "2026-10-07T22:03:40.785803+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 122,
-  "clusters_found": 78,
-  "stories_declared": 14,
+  "posts_considered": 125,
+  "clusters_found": 85,
+  "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cde589e35",
-      "score": 15.817,
+      "cluster_id": "c7b253df5",
+      "score": 15.956,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "Nvidia",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "TechCrunch AI",
+        "The Verge AI",
+        "Tom's Hardware",
+        "testingcatalog"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-07T11:10:00+00:00",
+      "last_seen": "2026-10-07T21:00:15+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+        "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+        "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig",
+        "https://x.com/testingcatalog/status/2107939082571559421"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "This monster RTX 5090 Alienware gaming PC costs less than buying the GPU and CPU alone. Get an RTX 5090 Alienware gaming PC $500 less.",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig",
+          "created_at": "2026-10-07T11:10:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event. Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+          "created_at": "2026-10-07T18:42:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents. At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+          "created_at": "2026-10-07T18:45:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11. Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
+          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+          "created_at": "2026-10-07T20:22:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "MICROSOFT 🔥: Copilot for Windows is getting Hybrid intelligence through local context from your Windows PC and local models that power Copilot tasks.\n\n> \"With intelligent routing, powerful local models, and a performant runtime, Windows lets work run in the right place for each task — local or cloud. We’re bringing frontier-class capabilities to local PCs and enabling services like GitHub to route intelligently on Windows.\"",
+          "url": "https://x.com/testingcatalog/status/2107939082571559421",
+          "created_at": "2026-10-07T21:00:15+00:00",
+          "engagement": 64,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca1555dca",
+      "score": 15.382,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
         "Anthropic",
         "Google",
         "Apple",
@@ -21,19 +93,21 @@
       ],
       "independent_sources": [
         "AWS ML",
-        "ArtificialAnlys",
-        "Stratechery"
+        "Simon Willison",
+        "Stratechery",
+        "simonw"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "first_seen": "2026-10-07T10:01:39+00:00",
-      "last_seen": "2026-10-07T19:12:16+00:00",
+      "last_seen": "2026-10-07T20:58:38+00:00",
       "links": [
         "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
         "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
         "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
         "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
-        "https://x.com/ArtificialAnlys/status/2107911905822351609"
+        "https://x.com/simonw/status/2107938675405586713"
       ],
       "posts": [
         {
@@ -77,189 +151,34 @@
           "engagement": 0
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "Simon Willison",
           "tier": "commentary",
-          "text": "Anthropic has released Claude Haiku 5.5, scoring 43 on the Artificial Analysis Intelligence Index",
-          "url": "https://x.com/ArtificialAnlys/status/2107911905822351609",
-          "created_at": "2026-10-07T19:12:16+00:00",
-          "engagement": 647
+          "text": "Claude Haiku 5.5. As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also ",
+          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+          "created_at": "2026-10-07T20:56:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "simonw",
+          "tier": "commentary",
+          "text": "Pelicans and a bunch of notes on the pricing of the new Claude Haiku 5.5 https://t.co/F3Sob8WvsG",
+          "url": "https://x.com/simonw/status/2107938675405586713",
+          "created_at": "2026-10-07T20:58:38+00:00",
+          "engagement": 77
         }
       ]
     },
     {
-      "cluster_id": "cdccc0f62",
-      "score": 14.72,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "AnthropicAI",
-        "cursor_ai",
-        "testingcatalog"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T18:01:56+00:00",
-      "last_seen": "2026-10-07T18:14:13+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-        "https://x.com/AnthropicAI/status/2107894208547983705",
-        "https://x.com/cursor_ai/status/2107897245282799864",
-        "https://x.com/testingcatalog/status/2107896466970706038"
-      ],
-      "posts": [
-        {
-          "author": "AnthropicAI",
-          "tier": "commentary",
-          "text": "Claude Haiku 5.5, our latest model:",
-          "url": "https://x.com/AnthropicAI/status/2107894208547983705",
-          "created_at": "2026-10-07T18:01:56+00:00",
-          "engagement": 3851
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "BREAKING: Anthropic released Claude Haiku 5.5, its fastest and cheapest model to date. Haiku 5.5 costs 75% less to run than Haiku 4.5. First Haiku with adjustable effort.",
-          "url": "https://x.com/testingcatalog/status/2107896466970706038",
-          "created_at": "2026-10-07T18:10:55+00:00",
-          "engagement": 396
-        },
-        {
-          "author": "cursor_ai",
-          "tier": "commentary",
-          "text": "Claude Haiku 5.5 is now available in Cursor!\n\nOn shorter requests, it costs 10x less than Claude Haiku 4.5.",
-          "url": "https://x.com/cursor_ai/status/2107897245282799864",
-          "created_at": "2026-10-07T18:14:00+00:00",
-          "engagement": 1516
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
-          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-          "created_at": "2026-10-07T18:14:13+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4b1d4f2a",
-      "score": 13.805,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T09:00:00+00:00",
-      "last_seen": "2026-10-07T19:03:52+00:00",
-      "links": [
-        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-        "https://x.com/OpenAI/status/2107909792945832070"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-          "created_at": "2026-10-07T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-          "created_at": "2026-10-07T12:34:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-          "created_at": "2026-10-07T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "We're sharing progress on ChatGPT for Teens, our ChatGPT experience for people under 18, alongside a preview of College Planner, new study tools, and support for college advisers and teen voices.",
-          "url": "https://x.com/OpenAI/status/2107909792945832070",
-          "created_at": "2026-10-07T19:03:52+00:00",
-          "engagement": 1074
-        }
-      ]
-    },
-    {
-      "cluster_id": "c749fad90",
-      "score": 13.667,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T18:05:06+00:00",
-      "last_seen": "2026-10-07T19:10:42+00:00",
-      "links": [
-        "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
-        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-        "https://x.com/OpenAI/status/2107895006350791071"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "GPT‑6 with Intelligent UI rolls out globally to Plus, Pro, Business, and Enterprise users today and will expand to Free and Go users starting tomorrow.\n\nGPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers. Both are tuned for everyday conversation.\n\nThis update applies to the Chat tab in ChatGPT. The models powering Work and Codex are not changing as part of this release.",
-          "url": "https://x.com/OpenAI/status/2107895006350791071",
-          "created_at": "2026-10-07T18:05:06+00:00",
-          "engagement": 928
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps. OpenAI is rolling out GPT-6 with \"Intelligent UI,\" a feature that turns answers into interactive interfaces with charts, buttons, and forms. The model can now respond while still thinking, cutting wait times by 44 percent. Paying customers get GPT-6 Sol, free users get GPT-6 Luna. The article ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
-          "created_at": "2026-10-07T19:06:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons. OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-          "created_at": "2026-10-07T19:10:42+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce6b74eed",
-      "score": 12.529,
+      "cluster_id": "c25295597",
+      "score": 12.693,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
       "entities": [
-        "Google"
+        "OpenAI",
+        "Google",
+        "Meta",
+        "Nvidia"
       ],
       "independent_sources": [
         "Engadget",
@@ -269,11 +188,13 @@
       ],
       "source_count": 4,
       "first_seen": "2026-10-07T12:00:00+00:00",
-      "last_seen": "2026-10-07T14:44:42+00:00",
+      "last_seen": "2026-10-07T17:58:20+00:00",
       "links": [
         "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
         "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
         "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
         "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
       ],
       "posts": [
@@ -308,111 +229,67 @@
           "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
           "created_at": "2026-10-07T14:44:42+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cde605081",
-      "score": 12.135,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "The Verge AI",
-        "Tom's Hardware"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T11:10:00+00:00",
-      "last_seen": "2026-10-07T18:45:28+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-        "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-        "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig"
-      ],
-      "posts": [
+        },
         {
-          "author": "Tom's Hardware",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "This monster RTX 5090 Alienware gaming PC costs less than buying the GPU and CPU alone. Get an RTX 5090 Alienware gaming PC $500 less.",
-          "url": "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig",
-          "created_at": "2026-10-07T11:10:00+00:00",
+          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+          "created_at": "2026-10-07T17:50:17+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event. Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-          "created_at": "2026-10-07T18:42:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents. At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-          "created_at": "2026-10-07T18:45:28+00:00",
+          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
+          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+          "created_at": "2026-10-07T17:58:20+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c810149d1",
-      "score": 11.905,
+      "cluster_id": "ce05fc72a",
+      "score": 10.834,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia",
-        "Mistral"
+        "Anthropic"
       ],
       "independent_sources": [
-        "Simon Willison",
-        "arena"
+        "9to5Mac",
+        "cognition"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-06T20:18:19+00:00",
-      "last_seen": "2026-10-07T19:45:50+00:00",
+      "first_seen": "2026-10-07T18:14:13+00:00",
+      "last_seen": "2026-10-07T21:15:09+00:00",
       "links": [
-        "https://simonwillison.net/2026/Oct/6/le-chonk/",
-        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-        "https://x.com/arena/status/2107920356090802294"
+        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+        "https://x.com/cognition/status/2107942832921075726"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
-          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-          "created_at": "2026-10-06T20:18:19+00:00",
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
+          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+          "created_at": "2026-10-07T18:14:13+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
+          "author": "cognition",
           "tier": "commentary",
-          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
-          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-          "created_at": "2026-10-06T21:32:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "Mistral Large 4 by @MistralAI is a 1T-parameter model (49B active), with open weights coming at the end of the month.",
-          "url": "https://x.com/arena/status/2107920356090802294",
-          "created_at": "2026-10-07T19:45:50+00:00",
-          "engagement": 27
+          "text": "Claude Haiku 5.5 is now available in Devin.\n\nOn FrontierCode 1.1, Haiku 5.5 scores 58.4%. That puts it ahead of Sonnet 5 at about an eighth of the cost per task.",
+          "url": "https://x.com/cognition/status/2107942832921075726",
+          "created_at": "2026-10-07T21:15:09+00:00",
+          "engagement": 85
         }
       ]
     },
     {
       "cluster_id": "cebcc4aaf",
-      "score": 10.456,
+      "score": 10.122,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -461,70 +338,57 @@
       ]
     },
     {
-      "cluster_id": "c3ff031bf",
-      "score": 10.062,
-      "interest": "want",
+      "cluster_id": "c9b65781d",
+      "score": 9.906,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "models",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI",
-        "Google",
-        "Nvidia",
-        "Apple"
+        "OpenAI"
       ],
       "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "Engadget",
-        "The Decoder"
+        "ChatGPT",
+        "The Decoder",
+        "The Verge AI"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T14:00:00+00:00",
-      "last_seen": "2026-10-07T17:50:17+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-07T19:06:40+00:00",
+      "last_seen": "2026-10-07T20:36:37+00:00",
       "links": [
-        "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
-        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-        "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
+        "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+        "https://x.com/ChatGPT/status/2107933136780947764"
       ],
       "posts": [
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's AI detection website is now available. SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
-          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
-          "created_at": "2026-10-07T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google rolls out improved SynthID AI content detector, now available globally. The new SynthID website can now identify AI content from Google, OpenAI, and more.",
-          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-          "created_at": "2026-10-07T14:00:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s SynthID AI content detector expands globally, will work on Apple’s models ‘soon’. Google’s AI-detector for images and videos, SynthID, is getting a full release today. It will work for more than just content developed with Google’s AI models and initial partners. more…",
-          "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
-          "created_at": "2026-10-07T15:11:35+00:00",
-          "engagement": 0
-        },
-        {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-          "created_at": "2026-10-07T17:50:17+00:00",
+          "text": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps. OpenAI is rolling out GPT-6 with \"Intelligent UI,\" a feature that turns answers into interactive interfaces with charts, buttons, and forms. The model can now respond while still thinking, cutting wait times by 44 percent. Paying customers get GPT-6 Sol, free users get GPT-6 Luna. The article ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+          "created_at": "2026-10-07T19:06:40+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons. OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+          "created_at": "2026-10-07T19:10:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ChatGPT",
+          "tier": "commentary",
+          "text": "GPT‑6 with Intelligent UI starts rolling out globally to ChatGPT Plus, Pro, Business and Enterprise tiers today in the Chat tab.  \n\nStarting tomorrow, the rollout expands to Free and Go tiers.  \n\nGPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers.",
+          "url": "https://x.com/ChatGPT/status/2107933136780947764",
+          "created_at": "2026-10-07T20:36:37+00:00",
+          "engagement": 132
         }
       ]
     },
     {
       "cluster_id": "cf00ae179",
-      "score": 9.378,
+      "score": 9.045,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -563,7 +427,7 @@
     },
     {
       "cluster_id": "c75db5b3c",
-      "score": 8.861,
+      "score": 8.528,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -611,48 +475,59 @@
       ]
     },
     {
-      "cluster_id": "c7eba325d",
-      "score": 6.107,
-      "interest": "neutral",
+      "cluster_id": "c275229f2",
+      "score": 8.43,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "models",
       "entities": [
+        "OpenAI",
         "Google",
-        "Meta"
+        "Apple"
       ],
       "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
+        "9to5Google",
+        "Ars Technica AI",
+        "Engadget"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T14:40:52+00:00",
-      "last_seen": "2026-10-07T17:58:20+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-07T14:00:00+00:00",
+      "last_seen": "2026-10-07T15:11:35+00:00",
       "links": [
-        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell"
+        "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
+        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+        "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’. Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan. [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
-          "created_at": "2026-10-07T14:40:52+00:00",
+          "text": "Google's AI detection website is now available. SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+          "created_at": "2026-10-07T14:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
-          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-          "created_at": "2026-10-07T17:58:20+00:00",
+          "text": "Google rolls out improved SynthID AI content detector, now available globally. The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+          "created_at": "2026-10-07T14:00:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google’s SynthID AI content detector expands globally, will work on Apple’s models ‘soon’. Google’s AI-detector for images and videos, SynthID, is getting a full release today. It will work for more than just content developed with Google’s AI models and initial partners. more…",
+          "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
+          "created_at": "2026-10-07T15:11:35+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c697d9358",
-      "score": 5.786,
+      "score": 5.452,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -690,8 +565,56 @@
       ]
     },
     {
-      "cluster_id": "ca342b417",
-      "score": 5.714,
+      "cluster_id": "c7943ed2d",
+      "score": 5.445,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T09:00:00+00:00",
+      "last_seen": "2026-10-07T16:00:00+00:00",
+      "links": [
+        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "created_at": "2026-10-07T09:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+          "created_at": "2026-10-07T12:34:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "created_at": "2026-10-07T16:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb6edae5a",
+      "score": 5.38,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -705,22 +628,13 @@
         "9to5Mac"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-06T20:11:28+00:00",
+      "first_seen": "2026-10-07T15:47:03+00:00",
       "last_seen": "2026-10-07T19:34:00+00:00",
       "links": [
-        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
         "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
         "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/"
       ],
       "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google rolling out ‘massive’ Pixel Buds Pro 2 and 2a update [U]. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro 2 and Pixel Buds 2a firmware update. more…",
-          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-          "created_at": "2026-10-06T20:11:28+00:00",
-          "engagement": 0
-        },
         {
           "author": "9to5Google",
           "tier": "press",
