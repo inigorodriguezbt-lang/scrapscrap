@@ -1,124 +1,260 @@
 {
-  "generated_at": "2026-10-07T18:04:22.328324+00:00",
+  "generated_at": "2026-10-07T20:03:34.480912+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 127,
-  "clusters_found": 92,
-  "stories_declared": 11,
+  "posts_considered": 122,
+  "clusters_found": 78,
+  "stories_declared": 14,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c5c91a64f",
-      "score": 12.617,
+      "cluster_id": "cde589e35",
+      "score": 15.817,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia",
-        "Mistral"
+        "Anthropic",
+        "Google",
+        "Apple",
+        "Amazon"
       ],
       "independent_sources": [
-        "Simon Willison",
-        "arena"
+        "AWS ML",
+        "ArtificialAnlys",
+        "Stratechery"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T18:20:58+00:00",
-      "last_seen": "2026-10-07T17:05:01+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-07T10:01:39+00:00",
+      "last_seen": "2026-10-07T19:12:16+00:00",
       "links": [
-        "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-        "https://simonwillison.net/2026/Oct/6/le-chonk/",
-        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-        "https://x.com/arena/status/2107879883393384677"
+        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+        "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+        "https://x.com/ArtificialAnlys/status/2107911905822351609"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
+          "author": "Stratechery",
           "tier": "commentary",
-          "text": "Mistral Large 4. My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default re",
-          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-          "created_at": "2026-10-06T18:20:58+00:00",
+          "text": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon. Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
+          "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+          "created_at": "2026-10-07T10:01:39+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
-          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-          "created_at": "2026-10-06T20:18:19+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "created_at": "2026-10-07T15:46:49+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
-          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-          "created_at": "2026-10-06T21:32:34+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:48:46+00:00",
           "engagement": 0
         },
         {
-          "author": "arena",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "created_at": "2026-10-07T18:34:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Claude Haiku 5.5 on AWS. Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+          "created_at": "2026-10-07T18:52:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
           "tier": "commentary",
-          "text": "Update: Mistral Large 4’s debut places @MistralAI among the top 15 labs on Code Arena: WebDev! It is the only European lab to make the list. Mistral Large 4 is a preview. As a preview, this model landed #45 overall with 1534 pts. +304 pt improvement from Mistral Large 3 at #133.",
-          "url": "https://x.com/arena/status/2107879883393384677",
-          "created_at": "2026-10-07T17:05:01+00:00",
-          "engagement": 96
+          "text": "Anthropic has released Claude Haiku 5.5, scoring 43 on the Artificial Analysis Intelligence Index",
+          "url": "https://x.com/ArtificialAnlys/status/2107911905822351609",
+          "created_at": "2026-10-07T19:12:16+00:00",
+          "engagement": 647
         }
       ]
     },
     {
-      "cluster_id": "c6caba27a",
-      "score": 12.138,
+      "cluster_id": "cdccc0f62",
+      "score": 14.72,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "AnthropicAI",
+        "cursor_ai",
+        "testingcatalog"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-07T18:01:56+00:00",
+      "last_seen": "2026-10-07T18:14:13+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+        "https://x.com/AnthropicAI/status/2107894208547983705",
+        "https://x.com/cursor_ai/status/2107897245282799864",
+        "https://x.com/testingcatalog/status/2107896466970706038"
+      ],
+      "posts": [
+        {
+          "author": "AnthropicAI",
+          "tier": "commentary",
+          "text": "Claude Haiku 5.5, our latest model:",
+          "url": "https://x.com/AnthropicAI/status/2107894208547983705",
+          "created_at": "2026-10-07T18:01:56+00:00",
+          "engagement": 3851
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "BREAKING: Anthropic released Claude Haiku 5.5, its fastest and cheapest model to date. Haiku 5.5 costs 75% less to run than Haiku 4.5. First Haiku with adjustable effort.",
+          "url": "https://x.com/testingcatalog/status/2107896466970706038",
+          "created_at": "2026-10-07T18:10:55+00:00",
+          "engagement": 396
+        },
+        {
+          "author": "cursor_ai",
+          "tier": "commentary",
+          "text": "Claude Haiku 5.5 is now available in Cursor!\n\nOn shorter requests, it costs 10x less than Claude Haiku 4.5.",
+          "url": "https://x.com/cursor_ai/status/2107897245282799864",
+          "created_at": "2026-10-07T18:14:00+00:00",
+          "engagement": 1516
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
+          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+          "created_at": "2026-10-07T18:14:13+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c4b1d4f2a",
+      "score": 13.805,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Google",
-        "Meta",
-        "Apple"
+        "OpenAI"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "The Verge AI",
-        "testingcatalog"
+        "OpenAI",
+        "The Decoder",
+        "The Verge AI"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-07T14:19:14+00:00",
-      "last_seen": "2026-10-07T16:34:13+00:00",
+      "first_seen": "2026-10-07T09:00:00+00:00",
+      "last_seen": "2026-10-07T19:03:52+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-        "https://x.com/testingcatalog/status/2107872133057503400"
+        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+        "https://x.com/OpenAI/status/2107909792945832070"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
-          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-          "created_at": "2026-10-07T14:19:14+00:00",
+          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "created_at": "2026-10-07T09:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+          "created_at": "2026-10-07T12:34:34+00:00",
           "engagement": 0
         },
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-          "created_at": "2026-10-07T15:37:23+00:00",
+          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "created_at": "2026-10-07T16:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
+          "author": "OpenAI",
           "tier": "commentary",
-          "text": "SpaceXAI is working on a \"Meetings\" feature for Grok Bot. Give your Bot links to join Google Meet or Zoom",
-          "url": "https://x.com/testingcatalog/status/2107872133057503400",
-          "created_at": "2026-10-07T16:34:13+00:00",
-          "engagement": 136
+          "text": "We're sharing progress on ChatGPT for Teens, our ChatGPT experience for people under 18, alongside a preview of College Planner, new study tools, and support for college advisers and teen voices.",
+          "url": "https://x.com/OpenAI/status/2107909792945832070",
+          "created_at": "2026-10-07T19:03:52+00:00",
+          "engagement": 1074
         }
       ]
     },
     {
-      "cluster_id": "c8593805e",
-      "score": 12.052,
+      "cluster_id": "c749fad90",
+      "score": 13.667,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T18:05:06+00:00",
+      "last_seen": "2026-10-07T19:10:42+00:00",
+      "links": [
+        "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+        "https://x.com/OpenAI/status/2107895006350791071"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "commentary",
+          "text": "GPT‑6 with Intelligent UI rolls out globally to Plus, Pro, Business, and Enterprise users today and will expand to Free and Go users starting tomorrow.\n\nGPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers. Both are tuned for everyday conversation.\n\nThis update applies to the Chat tab in ChatGPT. The models powering Work and Codex are not changing as part of this release.",
+          "url": "https://x.com/OpenAI/status/2107895006350791071",
+          "created_at": "2026-10-07T18:05:06+00:00",
+          "engagement": 928
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps. OpenAI is rolling out GPT-6 with \"Intelligent UI,\" a feature that turns answers into interactive interfaces with charts, buttons, and forms. The model can now respond while still thinking, cutting wait times by 44 percent. Paying customers get GPT-6 Sol, free users get GPT-6 Luna. The article ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+          "created_at": "2026-10-07T19:06:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons. OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+          "created_at": "2026-10-07T19:10:42+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce6b74eed",
+      "score": 12.529,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -128,14 +264,16 @@
       "independent_sources": [
         "Engadget",
         "Google AI",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "The Decoder"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "first_seen": "2026-10-07T12:00:00+00:00",
-      "last_seen": "2026-10-07T14:36:23+00:00",
+      "last_seen": "2026-10-07T14:44:42+00:00",
       "links": [
         "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
         "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
         "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
       ],
       "posts": [
@@ -162,95 +300,6 @@
           "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
           "created_at": "2026-10-07T14:36:23+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c70f1d96d",
-      "score": 11.37,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Product Hunt AI",
-        "The Decoder"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-06T18:54:11+00:00",
-      "last_seen": "2026-10-07T15:47:03+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-        "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
-        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-        "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
-        "https://www.producthunt.com/products/aura-by-neural",
-        "https://www.producthunt.com/products/google",
-        "https://www.producthunt.com/products/reika"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Nano Banana 2.1. Google's image model with sharper design and mask editing Discussion | Link",
-          "url": "https://www.producthunt.com/products/google",
-          "created_at": "2026-10-06T18:54:11+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-          "created_at": "2026-10-06T19:29:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google rolling out ‘massive’ Pixel Buds Pro 2 and 2a update [U]. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro 2 and Pixel Buds 2a firmware update. more…",
-          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-          "created_at": "2026-10-06T20:11:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Aura by Neural. Turn requests into interactive interfaces on your screen Discussion | Link",
-          "url": "https://www.producthunt.com/products/aura-by-neural",
-          "created_at": "2026-10-07T02:05:50+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Reika. A coding agent CLI designed around small local models first Discussion | Link",
-          "url": "https://www.producthunt.com/products/reika",
-          "created_at": "2026-10-07T03:36:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up. OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile ground rather than bring new ideas to life. The article OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
-          "created_at": "2026-10-07T08:54:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-          "created_at": "2026-10-07T12:34:34+00:00",
-          "engagement": 0
         },
         {
           "author": "The Decoder",
@@ -259,20 +308,161 @@
           "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
           "created_at": "2026-10-07T14:44:42+00:00",
           "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cde605081",
+      "score": 12.135,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "The Verge AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T11:10:00+00:00",
+      "last_seen": "2026-10-07T18:45:28+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+        "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+        "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "This monster RTX 5090 Alienware gaming PC costs less than buying the GPU and CPU alone. Get an RTX 5090 Alienware gaming PC $500 less.",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig",
+          "created_at": "2026-10-07T11:10:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "9to5Google",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Prime Day 2 deals – Last chance: Galaxy Tab S12 up to $650 off w/ trade, S11 $355 off, Galaxy Z Fold 8 all-time low, more. Alongside the now live Galaxy Tab S11 models now at up to $355 off the list prices. Those offers join the now even lower prices on Galaxy Z Fold 8 and Ultra models at new Amazon all-time lows (Up to $400 off) as well as a long list of Google pixel deals – up to $300 of Pixel 11 series phones, new all-time lows across the Pixel Watch 5 lineup, and solid discounts on Pixel Buds Pro 2. We also have along list of deals across the current-generation Noting lineup, loads of Anker chargers, and much more waiting below more…",
-          "url": "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
-          "created_at": "2026-10-07T15:47:03+00:00",
+          "text": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event. Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+          "created_at": "2026-10-07T18:42:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents. At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+          "created_at": "2026-10-07T18:45:28+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c810149d1",
+      "score": 11.905,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "Mistral"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "arena"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T20:18:19+00:00",
+      "last_seen": "2026-10-07T19:45:50+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/6/le-chonk/",
+        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+        "https://x.com/arena/status/2107920356090802294"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
+          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+          "created_at": "2026-10-06T20:18:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+          "created_at": "2026-10-06T21:32:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Mistral Large 4 by @MistralAI is a 1T-parameter model (49B active), with open weights coming at the end of the month.",
+          "url": "https://x.com/arena/status/2107920356090802294",
+          "created_at": "2026-10-07T19:45:50+00:00",
+          "engagement": 27
+        }
+      ]
+    },
+    {
+      "cluster_id": "cebcc4aaf",
+      "score": 10.456,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T14:19:14+00:00",
+      "last_seen": "2026-10-07T18:30:57+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+        "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
+          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+          "created_at": "2026-10-07T14:19:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+          "created_at": "2026-10-07T15:37:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta’s Muse launches on iPad just a month after its mobile debut. Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "created_at": "2026-10-07T18:30:57+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c3ff031bf",
-      "score": 10.393,
+      "score": 10.062,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -334,7 +524,7 @@
     },
     {
       "cluster_id": "cf00ae179",
-      "score": 9.709,
+      "score": 9.378,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -372,135 +562,57 @@
       ]
     },
     {
-      "cluster_id": "c363e54a3",
-      "score": 8.049,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T09:00:00+00:00",
-      "last_seen": "2026-10-07T16:00:00+00:00",
-      "links": [
-        "https://openai.com/index/teens-learn-and-plan",
-        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-          "created_at": "2026-10-07T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Helping teens learn, plan, and shape the future of AI. College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "url": "https://openai.com/index/teens-learn-and-plan",
-          "created_at": "2026-10-07T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-          "created_at": "2026-10-07T16:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cfde2c510",
-      "score": 7.628,
+      "cluster_id": "c75db5b3c",
+      "score": 8.861,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "security",
+      "suggested_section": "business",
       "entities": [
-        "Anthropic",
-        "Google"
+        "Nvidia",
+        "Microsoft"
       ],
       "independent_sources": [
-        "9to5Google",
-        "The Decoder"
+        "Bloomberg Tech",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-06T19:10:00+00:00",
-      "last_seen": "2026-10-07T12:05:20+00:00",
+      "first_seen": "2026-10-07T15:07:08+00:00",
+      "last_seen": "2026-10-07T18:10:45+00:00",
       "links": [
-        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/"
+        "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+        "https://www.bloomberg.com/news/videos/2026-10-07/dazzle-wants-to-turn-your-photos-into-an-ai-assistant-video",
+        "https://www.bloomberg.com/news/videos/2026-10-07/sequoia-nvidia-back-mecka-ai-s-robotics-push-video"
       ],
       "posts": [
         {
-          "author": "9to5Google",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
-          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-          "created_at": "2026-10-06T19:10:00+00:00",
+          "text": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look. The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.",
+          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+          "created_at": "2026-10-07T15:07:08+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Anthropic gives more security teams access to Claude with fewer safety restrictions. Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical. The article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-          "created_at": "2026-10-07T12:05:20+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4464dd86",
-      "score": 6.62,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T18:29:35+00:00",
-      "last_seen": "2026-10-07T00:16:45+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-        "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Wikimedia confirms OpenAI's rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure. According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agents instead of pushing the burden onto volunteer editors. The article Wikimedia confirms OpenAI&#039;s rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure appeared first on The Decoder .",
-          "url": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
-          "created_at": "2026-10-06T18:29:35+00:00",
+          "text": "Sequoia, Nvidia Back Mecka AI’s Robotics Push. Mecka AI has raised $60 million in Series B funding led by Sequoia Capital, with backing from Nvidia, Microsoft’s M12 and Qualcomm, as it builds technology to help robots understand and operate in the physical world. CEO and cofounder Josh Gao discusses the enormous data challenge facing robotics, how Mecka captures everything from physical interactions to force and pressure, and why scaling physical AI will require major investments across sensors, infrastructure and real-world data collection. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-07/sequoia-nvidia-back-mecka-ai-s-robotics-push-video",
+          "created_at": "2026-10-07T18:06:08+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "OpenAI “rogue” agent activities found on Wikimedia projects. OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a pu",
-          "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-          "created_at": "2026-10-07T00:16:45+00:00",
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Dazzle Wants to Turn Your Camera Roll Into an AI Assistant. Dazzle is betting the next generation of personal AI should know more about you before you even ask a question. The startup uses photos and screenshots in a user’s camera roll to understand their interests, relationships, travel and belongings — then helps take actions, from finding a product and arranging a repair to planning activities or adding an event to a calendar. Dazzle CEO Marissa Mayer joins Ed Ludlow for more on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-07/dazzle-wants-to-turn-your-photos-into-an-ai-assistant-video",
+          "created_at": "2026-10-07T18:10:45+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c7eba325d",
-      "score": 6.438,
+      "score": 6.107,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -540,7 +652,7 @@
     },
     {
       "cluster_id": "c697d9358",
-      "score": 6.117,
+      "score": 5.786,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -562,7 +674,7 @@
         {
           "author": "Engadget",
           "tier": "press",
-          "text": "Everything announced at Microsoft's Windows and Surface event. The company is highlighting agentic AI features for Windows.",
+          "text": "Everything announced at Microsoft's Windows and Surface event. The company highlighted agentic AI features for Windows as well as the Surface Laptop Ultra.",
           "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
           "created_at": "2026-10-07T17:41:41+00:00",
           "engagement": 0
@@ -573,6 +685,56 @@
           "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
           "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
           "created_at": "2026-10-07T18:01:20+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca342b417",
+      "score": 5.714,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "9to5Mac"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T20:11:28+00:00",
+      "last_seen": "2026-10-07T19:34:00+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
+        "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
+        "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google rolling out ‘massive’ Pixel Buds Pro 2 and 2a update [U]. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro 2 and Pixel Buds 2a firmware update. more…",
+          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
+          "created_at": "2026-10-06T20:11:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Prime Day 2 deals – Last chance: Galaxy Tab S12 up to $650 off w/ trade, S11 $355 off, Galaxy Z Fold 8 all-time low, more. Alongside the now live Galaxy Tab S11 models now at up to $355 off the list prices. Those offers join the now even lower prices on Galaxy Z Fold 8 and Ultra models at new Amazon all-time lows (Up to $400 off) as well as a long list of Google pixel deals – up to $300 of Pixel 11 series phones, new all-time lows across the Pixel Watch 5 lineup, and solid discounts on Pixel Buds Pro 2. We also have along list of deals across the current-generation Noting lineup, loads of Anker chargers, and much more waiting below more…",
+          "url": "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
+          "created_at": "2026-10-07T15:47:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Last chance: Apple’s flagship AirPods now up to $120 off for Prime Day. Update 10/7: Amazon now has official countdown clocks on thousands of deal prices set to end at Midnight Cupertino time, and the particularly notable AirPods Pro 3 discount is one of them – get in there while you can. With the Amazon fall Prime Day event now underway, it is one of the best times of year to refresh your AirPods. While we are still awaiting holiday-worthy pricing on Apple’s latest AirPods 5 models, with AirPods Pro 3 down this low they might be a better buy for most folks anyway, and the 2026 AirPods Max 2 are now $120 off in all five colorways for those looking to get into the ",
+          "url": "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
+          "created_at": "2026-10-07T19:34:00+00:00",
           "engagement": 0
         }
       ]
