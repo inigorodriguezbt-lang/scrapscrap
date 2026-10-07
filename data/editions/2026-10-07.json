@@ -45,6 +45,34 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-penguin-mail-linux",
+   "section": "products",
+   "headline": "Penguin Mail, a Rust email client for Linux, adds a local AI assistant",
+   "standfirst": "Penguin Mail 1.0.0 is a GPL-3.0 Rust mail app whose optional assistant runs through LM Studio or Ollama and asks before sending, its developer says. It hit the Hacker News front page.",
+   "body": [
+    "Penguin Mail, a free mail and calendar client for Linux written in Rust, reached the Hacker News front page on 7 October with 65 points and 25 comments at the time of reading. Its page lists version 1.0.0, released under GPL-3.0-or-later. The project is a one-developer effort by the account c9dev, whose GitHub repository showed 45 stars when read.",
+    "The app folds Gmail, Microsoft 365, Outlook, iCloud, Yahoo, Fastmail and any IMAP or POP3 account into one inbox. It adds day, week, month and agenda calendar views. It uses GTK4 and libadwaita, supports OpenPGP and S/MIME through GnuPG, and offers Undo Send and Send Later. Packages come as .deb, .rpm, Arch, snap and tarball, on x86_64 only.",
+    "The AI assistant is optional. The developer's page says it runs on your own computer through LM Studio or Ollama, and that it asks before it sends mail or changes a setting. The README says it can also use Anthropic or OpenAI-compatible APIs. It supports MCP servers and isolates custom skills in a sandbox. It handles summarising and drafting.",
+    "On privacy, the README says remote content is blocked twice, by a WebKit filter and the page's own Content-Security-Policy, and JavaScript is off by default. Mail is cached locally for the last 30 days plus the inbox, with direct connections to Google and Microsoft. These are the developer's claims. No independent audit is cited, and nobody else has reported testing it."
+   ],
+   "entities": [
+    "Penguin Mail",
+    "LM Studio",
+    "Ollama"
+   ],
+   "sources": [
+    {
+     "author": "Penguin Mail",
+     "url": "https://penguin-mail.com/"
+    },
+    {
+     "author": "GitHub: c9dev/penguin-mail",
+     "url": "https://github.com/c9dev/penguin-mail"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-nano-banana-2-1-launch",
    "section": "models",
    "headline": "Google ships Nano Banana 2.1 image model at half the price of 2.0",
