@@ -45,6 +45,112 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-google-playground-games",
+   "section": "products",
+   "headline": "Google opens Playground, a chat box that builds playable games",
+   "standfirst": "Google says its new Playground turns a typed description into a playable browser game, 2D or 3D, with leaderboards. It is US-only, 18 and over, with access tiered by Google One plan.",
+   "body": [
+    "Google launched Playground on 7 October, an experimental platform where users type a description of a game and get something playable. Google's announcement calls it a place to a way to make, play and share custom games with no coding required. Engadget, which covered the launch, describes an interface that works like a chatbot, and reports it is open to US users aged 18 and over.",
+    "Engadget says creators can pick 2D or 3D, and single-player or multiplayer for certain genres. They can start from scratch or remix starter prompts. Follow-up prompts adjust \"game mechanics, physics and graphics\", and Engadget's example is asking for a double jump in a platformer. Google says users can test and iterate in real time on physics, rules, characters and environments.",
+    "Games can stay private, be shared by link, or go into a public gallery called Explore, where published titles get leaderboards. Google says the gallery has safety screening. Access is tiered by Google One membership level, according to both Google and Engadget, and neither says what each tier gets. The paper has not seen a price list.",
+    "Google says Unity Spark is coming to Playground, to add what it calls \"robust, professional-level mechanics, high-fidelity 3D capabilities and the flexibility of the Unity runtime\". The company has not said which models power Playground in the post the paper read, and no independent tests of the games it produces have appeared yet. Everything above is Google's description."
+   ],
+   "entities": [
+    "Google",
+    "Playground",
+    "Unity Spark"
+   ],
+   "sources": [
+    {
+     "author": "Google",
+     "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-synthid-detector-website",
+   "section": "products",
+   "headline": "Google opens SynthID Detector to everyone, and it reads OpenAI and Nvidia marks",
+   "standfirst": "Google says anyone can now upload an image, video or audio clip to a public site and check it for an AI watermark. It reads Google, OpenAI, Nvidia and Kakao marks.",
+   "body": [
+    "Google put its SynthID Detector on a public website on 7 October, TechCrunch and Engadget report. The tool had been limited to journalists and researchers. Engadget says it lives at synthid.com, is free, and asks users to sign in with a Google, OpenAI or Apple account. TechCrunch lists supported files as common image, video and audio formats, from JPG and PNG to MP4 and MP3.",
+    "SynthID is the watermarking system Google introduced in 2023. Google says it marks output from its own models, including Nano Banana, Veo and Lyria, and tools such as Gemini and Flow. TechCrunch reports OpenAI, Nvidia and Kakao also support SynthID, so the detector can flag their content, and Apple plans to follow soon. Google says the check is built into the Gemini app and Chrome, with over a million requests a day.",
+    "Google is open about the limits, Engadget reports. The tool cannot catch content from companies that use other watermarking standards, and Google said \"there's no such thing as a universal checker\". Watermarks can be removed in some cases. The detector also does not separate fully synthetic media from edited media, and it does not say which part of a file is AI-made.",
+    "TechCrunch notes that Microsoft and Meta use their own marks, and that Meta's detector has failed to identify its own cropped AI images. A clean result from the Google site therefore says only that no SynthID mark was found. Neither outlet reports independent accuracy testing, and the figures above are Google's."
+   ],
+   "entities": [
+    "Google",
+    "SynthID",
+    "OpenAI",
+    "Nvidia"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-nemotron-ioi-imo-gold",
+   "section": "research",
+   "headline": "Nvidia says a fine-tuned Nemotron beat the top human score at IOI 2026",
+   "standfirst": "Nvidia says a 550B-parameter Nemotron 3 Ultra scored 535.4 of 600 at IOI 2026, above the best human's 498.27, and 30 of 42 at the maths olympiad. It published models, data and code.",
+   "body": [
+    "Nvidia published a Hugging Face write-up on 7 October describing gold-level results on two 2026 olympiads from one model family. The company says its Nemotron-3-Ultra-CC, a 550B-parameter model with 55B active, scored 535.4 out of 600 at the International Olympiad in Informatics. Nvidia lists the gold threshold as 361.12 and the top human score as 498.27. These are Nvidia's own figures, not an independent evaluation.",
+    "On the International Mathematical Olympiad, Nvidia says Nemotron 3 Ultra reached 30 out of 42 points against a gold threshold of 29, with full credit on four of six problems. The margin over the cut-off is one point, so the result is closer than the programming one. Nvidia reports SFT and RL checkpoints for the maths run.",
+    "The company describes a four-part recipe: start from a strong Nemotron base, curate domain data, apply supervised fine-tuning and reinforcement learning, then wrap the model in loops that generate, evaluate and refine solutions. It cites 22,000 competitive programming problems and 414,890 proof examples. Of its smaller Nano model, Nvidia says \"SFT produced most of Nano's gain, with RL adding a smaller but consistent improvement.\"",
+    "Nvidia says it released the models on Hugging Face, plus training data, a 200-problem Nemotron-IMO-Bench, papers and inference pipelines through its NeMo-Skills repository. The post does not state a licence in the text the paper read, and the paper has not run the models. The inference loops matter: the scores come from a pipeline around the model, not from a single pass."
+   ],
+   "entities": [
+    "Nvidia",
+    "Nemotron",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Nvidia on Hugging Face",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-cosmic-bans-ai-code",
+   "section": "ai",
+   "headline": "System76's COSMIC desktop bans LLM-written code as GNOME debates AI bug reports",
+   "standfirst": "The Register reports COSMIC contributors must now declare their pull requests hold no LLM-generated code. GNOME's Michael Catanzaro says AI-found bugs are too valuable to refuse.",
+   "body": [
+    "System76's COSMIC desktop now requires contributors to state that a pull request contains no LLM-generated content, The Register reported on 7 October. The declaration reads: \"I have not included any LLM generated content in this PR, including code, comments, and descriptions.\" The Register says System76 demands human-written contributions for its newer Rust-based desktop environment. The Register is the only outlet the paper has read on this, and System76's own policy text was not checked.",
+    "The Register sets that against a debate in GNOME, where some projects, including Calendar and Extensions, restrict AI-generated submissions. Developer Michael Catanzaro argues the project should still accept vulnerabilities that AI tools discover. He contends, as The Register summarises it, that GNOME developers will fail to write secure code in memory-unsafe languages, which makes AI bug detection valuable.",
+    "Catanzaro points to the volume of what AI tools are finding. The Register cites the 1,313 CVEs in Debian's recent kernel advisory as an example of bot-found flaws that he says are too valuable to ignore. The paper has not verified that figure beyond The Register's report, and the report does not say how many of the CVEs were found by AI tools.",
+    "The Register frames the split as one running across open source. Debian and the Linux kernel already permit AI-assisted work, it reports, while COSMIC draws a hard line at the contribution itself. Note the distinction in the two positions: COSMIC's rule covers code and descriptions written by a model, while Catanzaro's argument concerns bug reports, which are a separate kind of input."
+   ],
+   "entities": [
+    "System76",
+    "COSMIC",
+    "GNOME",
+    "Michael Catanzaro"
+   ],
+   "sources": [
+    {
+     "author": "The Register",
+     "url": "https://www.theregister.com/software/2026/10/07/cosmic-shuts-the-door-on-ai-code-as-gnome-debates-letting-bug-reports-in/5301141"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-tsc-rs",
    "section": "ai",
    "headline": "Theo says he built a Rust TypeScript compiler with agents, reading none of it",
@@ -201,7 +307,7 @@
      "url": "https://forklog.com/en/news/openai-addresses-wiki-incident-and-promises-new-disclosure-standards"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-arizona-ai-victim-video",
@@ -225,7 +331,7 @@
      "url": "https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-google-ai-edge-foresight",
@@ -249,7 +355,7 @@
      "url": "https://9to5google.com/2026/10/06/google-ai-edge-foresight/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-penguin-mail-linux",
@@ -277,7 +383,7 @@
      "url": "https://github.com/c9dev/penguin-mail"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nano-banana-2-1-launch",

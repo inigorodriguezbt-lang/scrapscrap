@@ -1,110 +1,98 @@
 {
-  "generated_at": "2026-10-07T12:03:40.337167+00:00",
+  "generated_at": "2026-10-07T14:03:44.773184+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 142,
-  "clusters_found": 106,
-  "stories_declared": 6,
+  "posts_considered": 145,
+  "clusters_found": 108,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c716d233a",
-      "score": 15.036,
+      "cluster_id": "c9aa59073",
+      "score": 11.731,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
+      "entities": [],
       "independent_sources": [
-        "9to5Google",
-        "IntCyberDigest",
-        "The Decoder",
-        "The Verge AI"
+        "Simon Willison",
+        "testingcatalog"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-06T13:19:01+00:00",
-      "last_seen": "2026-10-07T10:06:18+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-06T15:17:39+00:00",
+      "last_seen": "2026-10-07T12:02:09+00:00",
       "links": [
-        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-        "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
-        "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
-        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-        "https://x.com/IntCyberDigest/status/2107774511089160537"
+        "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+        "https://x.com/testingcatalog/status/2107803665457189061"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-          "created_at": "2026-10-06T13:19:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
-          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-          "created_at": "2026-10-06T19:10:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-          "created_at": "2026-10-06T19:29:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size. Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
-          "created_at": "2026-10-06T19:47:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google rolling out ‘massive’ Pixel Buds Pro, Pro 2, and 2a update. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro, Pro 2, and Pixel Buds 2a firmware update. more…",
-          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-          "created_at": "2026-10-06T20:11:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up. OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile ground rather than bring new ideas to life. The article OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
-          "created_at": "2026-10-07T08:54:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "IntCyberDigest",
+          "author": "Simon Willison",
           "tier": "commentary",
-          "text": "Samsung's Galaxy S26 was remotely hacked three times on Day One of Pwn2Own Ireland, while Google's Pixel 10 survived a $300,000 attempt. Researchers earned $388,500 for 32 zero-days and also broke LiteLLM, Sonos, Philips Hue, Oracle's Autonomous AI Database and OpenAI Codex.",
-          "url": "https://x.com/IntCyberDigest/status/2107774511089160537",
-          "created_at": "2026-10-07T10:06:18+00:00",
-          "engagement": 761
+          "text": "Scrimshaw Jukebox. Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for te",
+          "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+          "created_at": "2026-10-06T15:17:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "Grok Bot will be powered by Claude Opus 5.5, or in general will use best models available on the market, according to Elon Musk.",
+          "url": "https://x.com/testingcatalog/status/2107803665457189061",
+          "created_at": "2026-10-07T12:02:09+00:00",
+          "engagement": 235
         }
       ]
     },
     {
-      "cluster_id": "c4387e893",
-      "score": 8.749,
+      "cluster_id": "c04e8900e",
+      "score": 11.276,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "Google AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T12:00:00+00:00",
+      "last_seen": "2026-10-07T12:00:00+00:00",
+      "links": [
+        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
+          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Google AI",
+          "tier": "primary",
+          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cda79d398",
+      "score": 10.87,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "Anthropic",
         "Nvidia",
-        "Mistral",
-        "DeepSeek"
+        "Mistral"
       ],
       "independent_sources": [
         "Simon Willison",
@@ -112,34 +100,17 @@
         "The Decoder"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-06T12:11:22+00:00",
-      "last_seen": "2026-10-06T21:32:34+00:00",
+      "first_seen": "2026-10-06T14:18:08+00:00",
+      "last_seen": "2026-10-07T12:05:20+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/6/hn-49982139/",
         "https://simonwillison.net/2026/Oct/6/le-chonk/",
         "https://simonwillison.net/2026/Oct/6/llm-mistral/",
         "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/"
+        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
+        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/"
       ],
       "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
-          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-          "created_at": "2026-10-06T12:11:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
-          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-          "created_at": "2026-10-06T12:54:31+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -179,16 +150,84 @@
           "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
           "created_at": "2026-10-06T21:32:34+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic gives more security teams access to Claude with fewer safety restrictions. Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical. The article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
+          "created_at": "2026-10-07T12:05:20+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cdd113d96",
-      "score": 8.218,
+      "cluster_id": "c7ff1cebc",
+      "score": 8.542,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T19:10:00+00:00",
+      "last_seen": "2026-10-07T12:34:34+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+        "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
+          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+          "created_at": "2026-10-06T19:10:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+          "created_at": "2026-10-06T19:29:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up. OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile ground rather than bring new ideas to life. The article OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+          "created_at": "2026-10-07T08:54:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+          "created_at": "2026-10-07T12:34:34+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3f8c6da4",
+      "score": 8.211,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
+        "Google",
         "Microsoft",
         "Apple",
         "Amazon"
@@ -200,9 +239,10 @@
       ],
       "source_count": 3,
       "first_seen": "2026-10-06T14:49:55+00:00",
-      "last_seen": "2026-10-06T20:00:00+00:00",
+      "last_seen": "2026-10-06T20:11:28+00:00",
       "links": [
         "https://9to5google.com/2026/10/06/galaxy-watch-9-drops-to-319-but-not-on-amazon-during-prime-day/",
+        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
         "https://9to5google.com/2026/10/06/prime-day-1-deals-galaxy-z-fold-8-pixel-11-pixel-watch-5/",
         "https://9to5mac.com/2026/10/06/apple-killed-the-mac-minis-best-hidden-feature-video/",
         "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
@@ -266,12 +306,20 @@
           "url": "https://9to5mac.com/2026/10/06/roborocks-fall-prime-day-sale-best-upgrade-your-cleaning-setup/",
           "created_at": "2026-10-06T20:00:00+00:00",
           "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google rolling out ‘massive’ Pixel Buds Pro, Pro 2, and 2a update. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro, Pro 2, and Pixel Buds 2a firmware update. more…",
+          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
+          "created_at": "2026-10-06T20:11:28+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c4464dd86",
-      "score": 7.156,
+      "score": 6.823,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -349,8 +397,47 @@
       ]
     },
     {
+      "cluster_id": "ca242c1c1",
+      "score": 6.125,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T17:15:19+00:00",
+      "last_seen": "2026-10-06T19:47:27+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
+        "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google AI Edge Foresight for Mac turns scribbles into full notes using offline recordings. Google today announced its new EmbeddingGemma 2 model that can be used to “organize, search, and connect information directly on consumer hardware.” To show off its potential, Google created an AI Edge Foresight Mac app for “intelligent notetaking.” more…",
+          "url": "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
+          "created_at": "2026-10-06T17:15:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size. Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+          "created_at": "2026-10-06T19:47:27+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c03cf911f",
-      "score": 6.111,
+      "score": 5.777,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
