@@ -45,6 +45,121 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "meta-muse-ipad-app",
+   "section": "products",
+   "headline": "Meta's Muse agent app reaches iPad after weeks as the top free iPhone app",
+   "standfirst": "Meta's Muse AI agent has spent weeks as the number one free iPhone app in the US, and now has an iPad version that connects to Figma, QuickBooks, GitHub, Zoom and more.",
+   "body": [
+    "Meta has released Muse for iPad, 9to5Mac reports, after the AI agent app spent several weeks as the number one free iPhone app on the US App Store. Alexandr Wang, who works on Meta's AI efforts, announced the tablet version on X, saying the iPad app is out now and that the interface uses the extra screen space.",
+    "According to 9to5Mac, Muse debuted on iPhone in September 2026 and reached the Mac shortly afterwards, making the iPad its third platform. The outlet describes it as a proactive AI assistant that is free to use through the App Store, and says it competes with Grok Bot, ChatGPT Dots and OpenClaw.",
+    "The update adds business connectors, 9to5Mac says. The list includes Asana, Canva, Dropbox, Figma, QuickBooks, GitHub, Klaviyo and Zoom, along with Granola and Notion. Users can set a business objective, such as planning marketing content or drafting a client pitch, and have Muse carry it out.",
+    "The paper has not tested the app, and the ranking and the connector list come from 9to5Mac's report rather than from Meta's own documentation, which was not available when this was filed. The Verge also covered the launch. The story shows how quickly consumer agent apps are crowding the App Store."
+   ],
+   "entities": [
+    "Meta",
+    "Muse",
+    "iPad"
+   ],
+   "sources": [
+    {
+     "author": "9to5Mac",
+     "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/"
+    },
+    {
+     "author": "Alexandr Wang",
+     "url": "https://x.com/alexandr_wang/status/2107857066174112175"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/alexandr_wang/status/2107857066174112175",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-sesame-agents-own-computers",
+   "section": "products",
+   "headline": "Sesame gives its voice agents their own computers",
+   "standfirst": "Sesame's October update gives each voice agent a dedicated computer, a more expressive voice model and links to Gmail, Calendar, custom MCPs and coding agents including Devin, Claude Code and Codex.",
+   "body": [
+    "Sesame, the voice-AI company, has updated its voice agents so that each one has its own computer to work on, TestingCatalog reports. The release adds a new voice model that Sesame says speaks more expressively and pronounces words more clearly. An iOS and Android preview is available now, according to the report.",
+    "With its own machine, an agent can work on tasks by itself, use tools and report back when the work is done, TestingCatalog says. Agents can also coordinate other AI assistants, including Devin, Claude Code and Codex. Hands-free uses named in the report include planning trips, exploring a project and researching a hobby.",
+    "The agents connect to Gmail and Google Calendar, and support custom MCP servers, the protocol many agent tools use to reach outside data. Sesame also says it reduced sycophancy and repetitive phrasing so its characters, among them Maya, Miles, Charlie and Simone, can challenge users instead of agreeing by reflex.",
+    "Sesame's glasses hardware is due in 2027, TestingCatalog says, with developer tooling later in 2026 and more characters to follow. Everything here is Sesame's description of its own product as relayed by one outlet. The paper has not tried the preview and no independent tests have been published."
+   ],
+   "entities": [
+    "Sesame",
+    "Claude Code",
+    "Codex"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/sesame-updates-voice-agents-with-their-own-computers/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-antigravity-gemini-4-argon",
+   "section": "products",
+   "headline": "Google readies Antigravity for Gemini 4 Argon",
+   "standfirst": "TestingCatalog says Antigravity code points to Gemini 4 Argon for Ultra subscribers, alongside an Auto mode to cut permission prompts and an early internal voice agent named Concierge.",
+   "body": [
+    "Google is preparing its Antigravity coding app for Gemini 4 Argon, TestingCatalog reports. The outlet says it found UTM links referencing an Argon model selector, and new subscription labels that prompt users to upgrade to Google AI Ultra. It reads this as a sign Ultra subscribers may get early access. Google has not confirmed a date.",
+    "TestingCatalog says Google announced Argon on 30 September, with a staged rollout starting with trusted cyber defenders, then paid API customers and Ultra subscribers. It cites a score of 77.9 per cent on DeepSWE v1.1, a benchmark for long software-engineering tasks. The figure is the outlet's report of Google's claim and has not been independently checked.",
+    "Two other features are in development, according to the report. An Auto mode could cut the permission prompts that interrupt agents as they work, though how approvals would function is unclear. Google is also testing visual skins for the app. TestingCatalog says neither feature has a release date.",
+    "The third item is Concierge, an internal real-time voice agent. TestingCatalog says it looks like an early prototype and that it is hard to say whether it will ship. If released, the outlet says, developers could direct agent work by speaking. All of it rests on app strings, not on a Google statement."
+   ],
+   "entities": [
+    "Google",
+    "Antigravity",
+    "Gemini 4 Argon"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/google-prepares-antigravity-for-gemini-4-argon-and-concierge/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2107835952924065925",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "insurers-brace-rogue-ai-agent-claims",
+   "section": "business",
+   "headline": "Insurers brace for claims from rogue AI agents",
+   "standfirst": "Verisk's Tim Rayner says 'the buck stops with the CEO' as insurers prepare for claims from malfunctioning AI agents, and a lawyer expects litigation modelled on tobacco and environmental cases.",
+   "body": [
+    "Insurers are preparing for claims in the millions from AI agents that malfunction, The Decoder reports, and executives such as OpenAI's Sam Altman and Anthropic's Dario Amodei could face personal liability. The outlet says a recent hack of Hugging Face attributed to OpenAI agents has helped push the industry towards stricter standards.",
+    "Tim Rayner of Verisk is quoted as saying that 'the buck stops with the CEO'. Hiscox chief executive Aki Hussain told the outlet that it is uncertain how US courts will treat liability for AI agents. The Decoder names Aon and Verisk among the firms studying the exposure.",
+    "Aon has reviewed more than 300 AI-related legal cases, The Decoder says. Aaron Le Marquer, an attorney at Stewarts, expects future lawsuits to follow the pattern of environmental and tobacco litigation. The article also notes that Anthropic settled a copyright lawsuit for 1.5 billion dollars in July.",
+    "This is one outlet's account, published on 6 October, and the paper has not seen the underlying insurer statements. The quotes and figures are as The Decoder gives them. No insurer has announced a specific exclusion or product in the report, so the scale of the claims remains an expectation rather than a measured loss."
+   ],
+   "entities": [
+    "Verisk",
+    "Aon",
+    "Hiscox",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-google-playground-games",
    "section": "products",
    "headline": "Google opens Playground, a chat box that builds playable games",
@@ -148,7 +263,7 @@
      "url": "https://www.theregister.com/software/2026/10/07/cosmic-shuts-the-door-on-ai-code-as-gnome-debates-letting-bug-reports-in/5301141"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-tsc-rs",
@@ -188,7 +303,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-common-sense-chatgpt-teens",
@@ -225,7 +340,7 @@
      "url": "https://mezha.net/eng/news/c420b390_common_sense_media/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-grok-bot-opus-backend",
@@ -270,7 +385,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "c4464dd86",

@@ -1,132 +1,91 @@
 {
-  "generated_at": "2026-10-07T14:03:44.773184+00:00",
+  "generated_at": "2026-10-07T16:04:01.008752+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 145,
-  "clusters_found": 108,
-  "stories_declared": 9,
+  "posts_considered": 160,
+  "clusters_found": 118,
+  "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c9aa59073",
-      "score": 11.731,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Simon Willison",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T15:17:39+00:00",
-      "last_seen": "2026-10-07T12:02:09+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-        "https://x.com/testingcatalog/status/2107803665457189061"
-      ],
-      "posts": [
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Scrimshaw Jukebox. Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for te",
-          "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
-          "created_at": "2026-10-06T15:17:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "Grok Bot will be powered by Claude Opus 5.5, or in general will use best models available on the market, according to Elon Musk.",
-          "url": "https://x.com/testingcatalog/status/2107803665457189061",
-          "created_at": "2026-10-07T12:02:09+00:00",
-          "engagement": 235
-        }
-      ]
-    },
-    {
-      "cluster_id": "c04e8900e",
-      "score": 11.276,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "Google AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T12:00:00+00:00",
-      "last_seen": "2026-10-07T12:00:00+00:00",
-      "links": [
-        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
-          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
-          "created_at": "2026-10-07T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Google AI",
-          "tier": "primary",
-          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "created_at": "2026-10-07T12:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cda79d398",
-      "score": 10.87,
+      "cluster_id": "ce132b416",
+      "score": 13.153,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "OpenAI",
         "Anthropic",
-        "Nvidia",
-        "Mistral"
+        "Meta"
       ],
       "independent_sources": [
-        "Simon Willison",
-        "TechCrunch AI",
-        "The Decoder"
+        "9to5Mac",
+        "midudev",
+        "omarsar0"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-06T14:18:08+00:00",
-      "last_seen": "2026-10-07T12:05:20+00:00",
+      "first_seen": "2026-10-07T13:39:14+00:00",
+      "last_seen": "2026-10-07T15:02:24+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+        "https://x.com/midudev/status/2107834472091598854",
+        "https://x.com/omarsar0/status/2107828097433137595"
+      ],
+      "posts": [
+        {
+          "author": "omarsar0",
+          "tier": "commentary",
+          "text": "Introducing MCP tools for @dair_ai. Connect the MCP to your Codex/Claude/Grok Bot to discover and explore the top AI papers. https://t.co/Sg7OaryRY5",
+          "url": "https://x.com/omarsar0/status/2107828097433137595",
+          "created_at": "2026-10-07T13:39:14+00:00",
+          "engagement": 62,
+          "video": true
+        },
+        {
+          "author": "midudev",
+          "tier": "commentary",
+          "text": "Todo el mundo está haciendo Ingeniería Inversa de programas y videojuegos con IA. Se llama REA. Un MCP open source para Claude Code, Codex y Cursor: https://t.co/oOFIipCGz9",
+          "url": "https://x.com/midudev/status/2107834472091598854",
+          "created_at": "2026-10-07T14:04:34+00:00",
+          "engagement": 972
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude. SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s ChatGPT Dot, Grok Bot just got a new capability upgrade with the help of Anthropic’s Claude. more…",
+          "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+          "created_at": "2026-10-07T15:02:24+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c5f5dde98",
+      "score": 12.64,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Nvidia",
+        "Mistral",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "MistralAI",
+        "Simon Willison"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T18:20:58+00:00",
+      "last_seen": "2026-10-07T14:06:15+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/6/hn-49982139/",
         "https://simonwillison.net/2026/Oct/6/le-chonk/",
         "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/"
+        "https://x.com/MistralAI/status/2107834895674323354",
+        "https://x.com/MistralAI/status/2107834897377153304"
       ],
       "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
-          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-          "created_at": "2026-10-06T14:18:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "created_at": "2026-10-06T14:33:16+00:00",
-          "engagement": 0
-        },
         {
           "author": "Simon Willison",
           "tier": "commentary",
@@ -152,46 +111,127 @@
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "MistralAI",
+          "tier": "commentary",
+          "text": "The Ballon d'Or, legal division:  \nOn Harvey's Legal Agent Benchmark (LAB), Mistral Large 4 is the #1 oss model. https://t.co/x5CEhBAdGl",
+          "url": "https://x.com/MistralAI/status/2107834897377153304",
+          "created_at": "2026-10-07T14:06:15+00:00",
+          "engagement": 74
+        },
+        {
+          "author": "MistralAI",
+          "tier": "commentary",
+          "text": "Gmail. Google Sheets. Slack. Salesforce.\ni.e. the four horsemen of Monday.\nOn AutomationBench, Mistral Large 4 took on 657 business workflows across simulated workplace apps, all four included, finishing ahead of Kimi K3, MiMo-V2.6-Pro and DeepSeek V4 Pro.",
+          "url": "https://x.com/MistralAI/status/2107834895674323354",
+          "created_at": "2026-10-07T14:06:15+00:00",
+          "engagement": 94
+        }
+      ]
+    },
+    {
+      "cluster_id": "c8593805e",
+      "score": 12.386,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "Google AI",
+        "TechCrunch AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T12:00:00+00:00",
+      "last_seen": "2026-10-07T14:36:23+00:00",
+      "links": [
+        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
           "tier": "press",
-          "text": "Anthropic gives more security teams access to Claude with fewer safety restrictions. Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical. The article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-          "created_at": "2026-10-07T12:05:20+00:00",
+          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
+          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Google AI",
+          "tier": "primary",
+          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
+          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+          "created_at": "2026-10-07T14:36:23+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c7ff1cebc",
-      "score": 8.542,
+      "cluster_id": "c0b3cbddd",
+      "score": 11.536,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Anthropic",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "independent_sources": [
         "9to5Google",
+        "Product Hunt AI",
         "The Decoder"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T19:10:00+00:00",
-      "last_seen": "2026-10-07T12:34:34+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-06T16:20:10+00:00",
+      "last_seen": "2026-10-07T15:47:03+00:00",
       "links": [
-        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
+        "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
         "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
         "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/"
+        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+        "https://www.producthunt.com/products/aura-by-neural",
+        "https://www.producthunt.com/products/google",
+        "https://www.producthunt.com/products/reika",
+        "https://www.producthunt.com/products/studyquest",
+        "https://www.producthunt.com/products/walrus-console"
       ],
       "posts": [
         {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
-          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-          "created_at": "2026-10-06T19:10:00+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "StudyQuest. Turn your notes into games Discussion | Link",
+          "url": "https://www.producthunt.com/products/studyquest",
+          "created_at": "2026-10-06T16:20:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Walrus Console. Store, Protect and Connect Your Data Discussion | Link",
+          "url": "https://www.producthunt.com/products/walrus-console",
+          "created_at": "2026-10-06T16:33:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Nano Banana 2.1. Google's image model with sharper design and mask editing Discussion | Link",
+          "url": "https://www.producthunt.com/products/google",
+          "created_at": "2026-10-06T18:54:11+00:00",
           "engagement": 0
         },
         {
@@ -200,6 +240,30 @@
           "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
           "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
           "created_at": "2026-10-06T19:29:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google rolling out ‘massive’ Pixel Buds Pro, Pro 2, and 2a update. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro, Pro 2, and Pixel Buds 2a firmware update. more…",
+          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
+          "created_at": "2026-10-06T20:11:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Aura by Neural. Turn requests into interactive interfaces on your screen Discussion | Link",
+          "url": "https://www.producthunt.com/products/aura-by-neural",
+          "created_at": "2026-10-07T02:05:50+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Reika. A coding agent CLI designed around small local models first Discussion | Link",
+          "url": "https://www.producthunt.com/products/reika",
+          "created_at": "2026-10-07T03:36:08+00:00",
           "engagement": 0
         },
         {
@@ -217,109 +281,287 @@
           "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
           "created_at": "2026-10-07T12:34:34+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+          "created_at": "2026-10-07T14:44:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Prime Day 2 deals – Last chance: Galaxy Tab S12 up to $650 off w/ trade, S11 $355 off, Galaxy Z Fold 8 all-time low, more. Alongside the now live Galaxy Tab S11 models now at up to $355 off the list prices. Those offers join the now even lower prices on Galaxy Z Fold 8 and Ultra models at new Amazon all-time lows (Up to $400 off) as well as a long list of Google pixel deals – up to $300 of Pixel 11 series phones, new all-time lows across the Pixel Watch 5 lineup, and solid discounts on Pixel Buds Pro 2. We also have along list of deals across the current-generation Noting lineup, loads of Anker chargers, and much more waiting below more…",
+          "url": "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
+          "created_at": "2026-10-07T15:47:03+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c3f8c6da4",
-      "score": 8.211,
+      "cluster_id": "c76037012",
+      "score": 10.996,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Google",
-        "Microsoft",
-        "Apple",
-        "Amazon"
+        "Google"
       ],
       "independent_sources": [
         "9to5Google",
-        "9to5Mac",
-        "AWS ML"
+        "testingcatalog"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-06T14:49:55+00:00",
-      "last_seen": "2026-10-06T20:11:28+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-06T17:15:19+00:00",
+      "last_seen": "2026-10-07T15:20:41+00:00",
       "links": [
-        "https://9to5google.com/2026/10/06/galaxy-watch-9-drops-to-319-but-not-on-amazon-during-prime-day/",
-        "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-        "https://9to5google.com/2026/10/06/prime-day-1-deals-galaxy-z-fold-8-pixel-11-pixel-watch-5/",
-        "https://9to5mac.com/2026/10/06/apple-killed-the-mac-minis-best-hidden-feature-video/",
-        "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
-        "https://9to5mac.com/2026/10/06/prime-day-deals-airpods-pro-3-m6-mac-mini-macbook-air/",
-        "https://9to5mac.com/2026/10/06/roborocks-fall-prime-day-sale-best-upgrade-your-cleaning-setup/",
-        "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/"
+        "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
+        "https://x.com/testingcatalog/status/2107853628656496657"
       ],
       "posts": [
         {
           "author": "9to5Google",
           "tier": "press",
-          "text": "Galaxy Watch 9 drops to $319, but not on Amazon during Prime Day. The Galaxy Watch 9, Samsung’s newest model, is currently $60 off while most shoppers rush to Amazon to snatch up Prime Day deals. This might be a better option. more…",
-          "url": "https://9to5google.com/2026/10/06/galaxy-watch-9-drops-to-319-but-not-on-amazon-during-prime-day/",
-          "created_at": "2026-10-06T14:49:55+00:00",
+          "text": "Google AI Edge Foresight for Mac turns scribbles into full notes using offline recordings. Google today announced its new EmbeddingGemma 2 model that can be used to “organize, search, and connect information directly on consumer hardware.” To show off its potential, Google created an AI Edge Foresight Mac app for “intelligent notetaking.” more…",
+          "url": "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
+          "created_at": "2026-10-06T17:15:19+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "ICYMI: Google released a new Google AI Edge Foresight app for macOS, powered by Gemma 4 and EmbeddingGemma2 for recording voice notes. The app can connect to your Google Drive in order to build a knowledge graph. When transcription is active, it uses local models, Gemma 4 E4B or Gemma 4 12B.",
+          "url": "https://x.com/testingcatalog/status/2107853628656496657",
+          "created_at": "2026-10-07T15:20:41+00:00",
+          "engagement": 109,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf00ae179",
+      "score": 10.044,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T23:04:13+00:00",
+      "last_seen": "2026-10-07T15:36:39+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+        "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-openai-decisions 0.1a0. Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-decisions plugin inspired by llm-typesafe . Unlike Jev, the new gpt-6-luna decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million. Otherwise the API shape is very similar to Jev, at least c",
+          "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+          "created_at": "2026-10-06T23:04:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Prime Day 1 deals: AirPods Pro 3, Max 2 $120 off, M6 Mac mini $150 off, MacBook Air $200 off, more. The official Amazon fall Prime Day sale is now flying with millions of price drops, and some particularly notable Apple deals. Alongside one of the best prices ever on AirPods Pro 3 and $120 off AirPods Max 2, we are also tracking new all-time low prices on several Apple Watch Series 12 models and nearly $100 off Ultra 4. Those offers also join the lowest prices to date on the M6 Mac mini lineup at up to $150 off, a solid $200 price drop on the new Mac Studio, and the best prices in months on the M5 MacBook Air lineup at $200 off . Head below for a closer look as well as deals on the brand new",
-          "url": "https://9to5mac.com/2026/10/06/prime-day-deals-airpods-pro-3-m6-mac-mini-macbook-air/",
-          "created_at": "2026-10-06T15:19:11+00:00",
+          "text": "OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one. OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also cut its paid API tiers from five to three. The article OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/",
+          "created_at": "2026-10-07T15:36:39+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c275229f2",
+      "score": 9.429,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "OpenAI",
+        "Google",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
+        "Engadget"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T14:00:00+00:00",
+      "last_seen": "2026-10-07T15:11:35+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
+        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+        "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's AI detection website is now available. SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+          "created_at": "2026-10-07T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google rolls out improved SynthID AI content detector, now available globally. The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+          "created_at": "2026-10-07T14:00:08+00:00",
           "engagement": 0
         },
         {
           "author": "9to5Google",
           "tier": "press",
-          "text": "Prime Day 1 deals: Z Fold 8/Ultra $400 off, Pixel 11 series $300 off, Pixel Watch 5 from $335, Surface Laptops, more. The official 2026 Amazon fall Prime Day sale is now in full swing with loads of notable deals from the Androidverse. We have up to $300 off the Pixel 11 series over at Amazon alongside new all-time lows on several Pixel Watch 5 models, including the Z Fold 8 Ultra have now dropped to the lowest prices they have ever been offered for on Amazon at up to $400 off the list prices. Those deals join a series of price drops on Bose headphones, some of the latest from the Sony 1000X lineup, and the best prices to date on Microsoft’s latest 2026 Surface Laptop and Pro 2-in-1 Copilot+ PCs. All of that a",
-          "url": "https://9to5google.com/2026/10/06/prime-day-1-deals-galaxy-z-fold-8-pixel-11-pixel-watch-5/",
-          "created_at": "2026-10-06T15:39:10+00:00",
+          "text": "Google’s SynthID AI content detector expands globally, will work on Apple’s models ‘soon’. Google’s AI-detector for images and videos, SynthID, is getting a full release today. It will work for more than just content developed with Google’s AI models and initial partners. more…",
+          "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
+          "created_at": "2026-10-07T15:11:35+00:00",
           "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Best practices for Amazon SageMaker HyperPod administration and governance. Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across the organization, project, cluster, and workload control layers.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
-          "created_at": "2026-10-06T15:50:23+00:00",
-          "engagement": 0
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "c64a76c79",
+      "score": 8.551,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T14:19:14+00:00",
+      "last_seen": "2026-10-07T15:37:23+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
+      ],
+      "posts": [
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "Apple’s flagship AirPods now up to $120 off for Prime Day. With the Amazon fall Prime Day event now underway, it is one of the best times of year to refresh your AirPods. While we are still awaiting holiday-worthy pricing on Apple’s latest AirPods 5 models, with AirPods Pro 3 down this low they might be a better buy for most folks anyway, and the 2026 AirPods Max 2 are now $120 off in all five colorways for those looking to get into the Apple over-ear experience. AirPods Pro 3 $179 (Reg. $249) AirPods Max 2 $429 (Reg. $549) more…",
-          "url": "https://9to5mac.com/2026/10/06/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
-          "created_at": "2026-10-06T17:28:02+00:00",
+          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
+          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+          "created_at": "2026-10-07T14:19:14+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Apple killed the Mac mini’s best hidden feature [Video]. With the release of the M6 Mac mini and its more powerful M5 Pro counterpart , Apple quietly killed off one of the machine’s most compelling features. While both new Mac mini models look like their predecessors from the outside, Apple nixed the hidden feature that made the previous-generation Mac mini an incredible value. more…",
-          "url": "https://9to5mac.com/2026/10/06/apple-killed-the-mac-minis-best-hidden-feature-video/",
-          "created_at": "2026-10-06T18:44:11+00:00",
+          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+          "created_at": "2026-10-07T15:37:23+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c24f1d51d",
+      "score": 8.318,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Meta"
+      ],
+      "independent_sources": [
+        "The Verge AI",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T14:40:52+00:00",
+      "last_seen": "2026-10-07T15:56:32+00:00",
+      "links": [
+        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+        "https://x.com/kimmonismus/status/2107862648490496190"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’. Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into Biohub, the nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan, as reported by Reuters. The funding is part of a $1.8 billion initiative to build AI datasets that could allow researchers to \"ask, predict, [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+          "created_at": "2026-10-07T14:40:52+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Zuckerberg's Biohub is teaming up with Google DeepMind, Meta and the U.S. government on a $1.8B effort to build AI models of living cells. Goal is a universal virtual cell. DeepMind, Isomorphic Labs and Meta are collectively investing $300M.",
+          "url": "https://x.com/kimmonismus/status/2107862648490496190",
+          "created_at": "2026-10-07T15:56:32+00:00",
+          "engagement": 39
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca1fbc1a8",
+      "score": 8.292,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "Wired AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T16:06:46+00:00",
+      "last_seen": "2026-10-07T12:05:20+00:00",
+      "links": [
+        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
+        "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+        "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Roborock’s Fall Prime Day sale is the best way to upgrade your cleaning setup. Roborock is celebrating Fall Prime Day on October 6-7 with big deals on its lineup of 2026 flagship robot vacuums and more. Here are the details on the deep limited-time discounts from Roborock, and which product may be right for you. more…",
-          "url": "https://9to5mac.com/2026/10/06/roborocks-fall-prime-day-sale-best-upgrade-your-cleaning-setup/",
-          "created_at": "2026-10-06T20:00:00+00:00",
+          "text": "Insurers brace for millions in claims as AI agents spin out of control. Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
+          "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+          "created_at": "2026-10-06T16:06:46+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "Google rolling out ‘massive’ Pixel Buds Pro, Pro 2, and 2a update. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro, Pro 2, and Pixel Buds 2a firmware update. more…",
-          "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
-          "created_at": "2026-10-06T20:11:28+00:00",
+          "text": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers. From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
+          "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+          "created_at": "2026-10-06T18:45:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic gives more security teams access to Claude with fewer safety restrictions. Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical. The article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
+          "created_at": "2026-10-07T12:05:20+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c4464dd86",
-      "score": 6.823,
+      "score": 6.62,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -357,87 +599,8 @@
       ]
     },
     {
-      "cluster_id": "c33f91415",
-      "score": 6.455,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T16:06:46+00:00",
-      "last_seen": "2026-10-06T18:45:39+00:00",
-      "links": [
-        "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-        "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Insurers brace for millions in claims as AI agents spin out of control. Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
-          "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-          "created_at": "2026-10-06T16:06:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers. From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
-          "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
-          "created_at": "2026-10-06T18:45:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca242c1c1",
-      "score": 6.125,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T17:15:19+00:00",
-      "last_seen": "2026-10-06T19:47:27+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
-        "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google AI Edge Foresight for Mac turns scribbles into full notes using offline recordings. Google today announced its new EmbeddingGemma 2 model that can be used to “organize, search, and connect information directly on consumer hardware.” To show off its potential, Google created an AI Edge Foresight Mac app for “intelligent notetaking.” more…",
-          "url": "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
-          "created_at": "2026-10-06T17:15:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size. Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
-          "created_at": "2026-10-06T19:47:27+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c03cf911f",
-      "score": 5.777,
+      "score": 5.443,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
