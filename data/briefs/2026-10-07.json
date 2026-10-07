@@ -1,142 +1,15 @@
 {
-  "generated_at": "2026-10-07T08:03:36.956093+00:00",
+  "generated_at": "2026-10-07T10:03:45.202122+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 148,
-  "clusters_found": 107,
-  "stories_declared": 7,
+  "posts_considered": 155,
+  "clusters_found": 110,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c7ce926f6",
-      "score": 18.568,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Nvidia",
-        "Mistral",
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "TechCrunch AI",
-        "The Decoder",
-        "arena",
-        "elonmusk",
-        "kimmonismus"
-      ],
-      "source_count": 6,
-      "first_seen": "2026-10-06T10:50:18+00:00",
-      "last_seen": "2026-10-07T07:37:14+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-        "https://simonwillison.net/2026/Oct/6/le-chonk/",
-        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
-        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-        "https://x.com/arena/status/2107717155374727602",
-        "https://x.com/elonmusk/status/2107724314451878104",
-        "https://x.com/kimmonismus/status/2107736997812981770"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO. Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports. The article CATL and Tencent back Deepseek&#039;s ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .",
-          "url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
-          "created_at": "2026-10-06T10:50:18+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
-          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-          "created_at": "2026-10-06T12:11:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
-          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-          "created_at": "2026-10-06T12:54:31+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
-          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-          "created_at": "2026-10-06T14:18:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "created_at": "2026-10-06T14:33:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Mistral Large 4. My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default re",
-          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-          "created_at": "2026-10-06T18:20:58+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
-          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-          "created_at": "2026-10-06T20:18:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
-          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-          "created_at": "2026-10-06T21:32:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "Mistral Large 4 by @MistralAI just landed in the Code Arena: WebDev at #45. With 1534 pts, this is a +304 pt improvement from Mistral Large 3 at #130!\n\nThis release also marks a 271-point improvement over its next-best-performing variant, Mistral Medium 3.5, at #122.\n\nMistral Large 4 delivers performance within just 2 points of Claude Opus 4.8 (High) at a nearly 6× lower blended price: $3.47/M vs. $20/M tokens. Nearby but higher-performing models are available for less, keeping it just off the Code Arena: WebDev Pareto frontier.\n\n@MistralAI announced its open weights will be released at the en",
-          "url": "https://x.com/arena/status/2107717155374727602",
-          "created_at": "2026-10-07T06:18:23+00:00",
-          "engagement": 105
-        },
-        {
-          "author": "elonmusk",
-          "tier": "commentary",
-          "text": "Important note regarding Grok @Bot:\n\nGoing forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. \n\nWhatever is most likely to give you the best outcome.",
-          "url": "https://x.com/elonmusk/status/2107724314451878104",
-          "created_at": "2026-10-07T06:46:50+00:00",
-          "engagement": 15437
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Grok Bot is already the best always on agent imho. Now will automatically choose the best AI model for each task, including Claudes Opus 5.5, Midjourney and Suno.\n\nMusk: “Whatever is most likely to give you the best outcome.”\n\nSuper based update. OpenAI, Muse and everyone else should learn from it.",
-          "url": "https://x.com/kimmonismus/status/2107736997812981770",
-          "created_at": "2026-10-07T07:37:14+00:00",
-          "engagement": 115
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc9e8b20d",
-      "score": 11.141,
+      "cluster_id": "ce1c44087",
+      "score": 15.69,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -145,6 +18,7 @@
         "Anthropic",
         "Google",
         "Microsoft",
+        "Mistral",
         "Apple",
         "Amazon"
       ],
@@ -153,11 +27,12 @@
         "9to5Mac",
         "AWS ML",
         "The Decoder",
-        "Wired AI"
+        "Wired AI",
+        "testingcatalog"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-10-06T11:00:00+00:00",
-      "last_seen": "2026-10-06T20:11:28+00:00",
+      "last_seen": "2026-10-07T08:38:11+00:00",
       "links": [
         "https://9to5google.com/2026/10/06/galaxy-watch-9-drops-to-319-but-not-on-amazon-during-prime-day/",
         "https://9to5google.com/2026/10/06/google-seems-to-finally-understand-why-it-bought-fitbit/",
@@ -169,7 +44,8 @@
         "https://9to5mac.com/2026/10/06/roborocks-fall-prime-day-sale-best-upgrade-your-cleaning-setup/",
         "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
         "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-        "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/"
+        "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+        "https://x.com/testingcatalog/status/2107752334000337001"
       ],
       "posts": [
         {
@@ -259,28 +135,94 @@
           "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
           "created_at": "2026-10-06T20:11:28+00:00",
           "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF — Oct 7\n\nMISTRAL:\n* Mistral released Mistral Large 4 \"Le Chonk\", a 1T-parameter (49B active) multimodal model, with open weights planned in about three weeks.\n\nGOOGLE:\n* Nano Banana 2.1 is rolling out across the Gemini app, AI Mode, AI Studio, the Gemini API, Flow and Stitch.\n* Google released EmbeddingGemma 2, a 740M-parameter open multimodal embedding model under Apache 2.0.\n* Google AI Edge launched Foresight, an on-device note-taking app for Mac.\n\nOPENAI:\n* OpenAI launched the Decisions API in beta with gpt-6-luna, returning typed answers 10x faster than the Resp",
+          "url": "https://x.com/testingcatalog/status/2107752334000337001",
+          "created_at": "2026-10-07T08:38:11+00:00",
+          "engagement": 49
         }
       ]
     },
     {
-      "cluster_id": "c8521fc9d",
-      "score": 9.676,
+      "cluster_id": "c15ea9e43",
+      "score": 12.807,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Hesamation",
+        "kimmonismus",
+        "mark_k"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T07:55:23+00:00",
+      "last_seen": "2026-10-07T09:06:05+00:00",
+      "links": [
+        "https://x.com/Hesamation/status/2107741565741580440",
+        "https://x.com/kimmonismus/status/2107755490646085666",
+        "https://x.com/mark_k/status/2107759358239007156"
+      ],
+      "posts": [
+        {
+          "author": "Hesamation",
+          "tier": "commentary",
+          "text": "HOLY SHIT… Grok Bot is already beating other personal agent apps. and now they'll be routing some tasks to Opus 5.5\n\nGrok Chad is here.",
+          "url": "https://x.com/Hesamation/status/2107741565741580440",
+          "created_at": "2026-10-07T07:55:23+00:00",
+          "engagement": 30
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "na, sorry, its over for OpenAI dot before it even began. Grok Bot has multiple sessions, as many bots as you need, and it uses Opus 5.5 + via cloud agents to whatever cursor model and API access to Midjourney, Suno, and much more.\n\nAnd I don't mean that in a bad way at all; Grok Bot simply has everything I need and does it exceptionally well.",
+          "url": "https://x.com/kimmonismus/status/2107755490646085666",
+          "created_at": "2026-10-07T08:50:43+00:00",
+          "engagement": 472
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Big improvements coming to Grok Bot! Elon Musk just announced that @Bot is going to use the best models, not just from @SpaceXAI, but also from other companies if the models are better! Opus 5.5, Suno, Midjourney.",
+          "url": "https://x.com/mark_k/status/2107759358239007156",
+          "created_at": "2026-10-07T09:06:05+00:00",
+          "engagement": 68
+        }
+      ]
+    },
+    {
+      "cluster_id": "c038ed2d1",
+      "score": 12.023,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "Google",
+        "Nvidia",
         "Mistral"
       ],
       "independent_sources": [
         "Mistral",
-        "Product Hunt AI"
+        "Product Hunt AI",
+        "Simon Willison",
+        "TechCrunch AI",
+        "The Decoder"
       ],
-      "source_count": 2,
+      "source_count": 5,
       "first_seen": "2026-10-06T12:00:27+00:00",
       "last_seen": "2026-10-07T03:36:08+00:00",
       "links": [
         "https://mistral.ai/news/mistral-large-4/",
+        "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+        "https://simonwillison.net/2026/Oct/6/le-chonk/",
+        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
         "https://www.producthunt.com/products/aura-by-neural",
         "https://www.producthunt.com/products/google",
         "https://www.producthunt.com/products/mistral-7b",
@@ -295,6 +237,22 @@
           "text": "Introducing Mistral Large 4",
           "url": "https://mistral.ai/news/mistral-large-4/",
           "created_at": "2026-10-06T12:00:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
+          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+          "created_at": "2026-10-06T14:18:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "created_at": "2026-10-06T14:33:16+00:00",
           "engagement": 0
         },
         {
@@ -322,11 +280,35 @@
           "engagement": 0
         },
         {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Mistral Large 4. My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default re",
+          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+          "created_at": "2026-10-06T18:20:58+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Product Hunt AI",
           "tier": "primary",
           "text": "Nano Banana 2.1. Google's image model with sharper design and mask editing Discussion | Link",
           "url": "https://www.producthunt.com/products/google",
           "created_at": "2026-10-06T18:54:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
+          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+          "created_at": "2026-10-06T20:18:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+          "created_at": "2026-10-06T21:32:34+00:00",
           "engagement": 0
         },
         {
@@ -348,8 +330,192 @@
       ]
     },
     {
+      "cluster_id": "cc9acef98",
+      "score": 10.633,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-06T13:19:01+00:00",
+      "last_seen": "2026-10-07T08:54:43+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+        "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+        "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "created_at": "2026-10-06T13:19:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
+          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+          "created_at": "2026-10-06T19:10:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+          "created_at": "2026-10-06T19:29:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size. Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+          "created_at": "2026-10-06T19:47:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up. OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile ground rather than bring new ideas to life. The article OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+          "created_at": "2026-10-07T08:54:43+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0a4cfc21",
+      "score": 10.619,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "The Decoder",
+        "askalphaxiv"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T11:43:42+00:00",
+      "last_seen": "2026-10-07T08:34:00+00:00",
+      "links": [
+        "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+        "https://x.com/askalphaxiv/status/2107751281553236473"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology. Researchers at PhAI Labs have expanded Yann LeCun's JEPA architecture to work across seven fields, from robotics to biomedicine. The effort also produced a liver cancer treatment candidate that showed promise in lab tests, though the study doesn't establish whether it could become an actual therapy. The article Researchers stretch LeCun&#039;s JEPA AI into a universal world model that works from physics to biology appeared first on The Decoder .",
+          "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+          "created_at": "2026-10-06T11:43:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "askalphaxiv",
+          "tier": "commentary",
+          "text": "New paper advised by Yann LeCun! H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning. Stacks JEPA world models across multiple timescales.",
+          "url": "https://x.com/askalphaxiv/status/2107751281553236473",
+          "created_at": "2026-10-07T08:34:00+00:00",
+          "engagement": 41
+        }
+      ]
+    },
+    {
+      "cluster_id": "cda5bd059",
+      "score": 10.57,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Lobsters AI",
+        "OpenAI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T12:00:00+00:00",
+      "last_seen": "2026-10-07T09:45:45+00:00",
+      "links": [
+        "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Sharing AI progress in mathematics. OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "created_at": "2026-10-06T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Lobsters AI",
+          "tier": "commentary",
+          "text": "Sharing AI progress in mathematics. Comments",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+          "created_at": "2026-10-07T09:45:45+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c29331124",
+      "score": 8.277,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "mark_k"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T22:57:42+00:00",
+      "last_seen": "2026-10-07T08:26:32+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says",
+        "https://x.com/mark_k/status/2107749402718679202"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "SpaceX in Talks to Borrow $40 Billion to Buy Nvidia Chips. Elon Musk’s SpaceX is in talks with banks and investors to raise $40 billion to buy chips from Nvidia Corp., people familiar with the matter said, in what would be among the biggest-ever debt financings for the AI buildout.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says",
+          "created_at": "2026-10-06T22:57:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "SpaceX is reportedly seeking $40 BILLION just to buy Nvidia chips. According to Reuters, citing the Financial Times, Apollo is arranging roughly $10 billion in bank loans and another $30 billion in investment-grade debt. Closing expected in 2027.",
+          "url": "https://x.com/mark_k/status/2107749402718679202",
+          "created_at": "2026-10-07T08:26:32+00:00",
+          "engagement": 42
+        }
+      ]
+    },
+    {
       "cluster_id": "c4464dd86",
-      "score": 7.823,
+      "score": 7.489,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -387,96 +553,8 @@
       ]
     },
     {
-      "cluster_id": "cb48c5fef",
-      "score": 7.738,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-06T13:19:01+00:00",
-      "last_seen": "2026-10-06T19:47:27+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-        "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
-        "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google is about to remove free access to Gemini Flash and Pro. Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-          "created_at": "2026-10-06T13:19:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
-          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
-          "created_at": "2026-10-06T19:10:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's new image model Nano Banana 2.1 generates better images for less money. Google's new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&#039;s new image model Nano Banana 2.1 generates better images for less money appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-          "created_at": "2026-10-06T19:29:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size. Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. The article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
-          "created_at": "2026-10-06T19:47:27+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c47b9255d",
-      "score": 7.327,
-      "interest": "want",
-      "single_source": true,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI"
-      ],
-      "source_count": 1,
-      "first_seen": "2026-10-06T12:00:00+00:00",
-      "last_seen": "2026-10-06T12:00:00+00:00",
-      "links": [
-        "https://openai.com/index/sharing-ai-progress-in-mathematics"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Sharing AI progress in mathematics. OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-          "created_at": "2026-10-06T12:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cfb373dd5",
-      "score": 6.948,
+      "score": 6.615,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -509,6 +587,45 @@
           "text": "Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO. Before Boston Dynamics, Prasad served as senior vice president and head scientist for Alexa and artificial general intelligence at Amazon. The post Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO appeared first on The Robot Report .",
           "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
           "created_at": "2026-10-06T21:00:30+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c03cf911f",
+      "score": 6.444,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T09:00:00+00:00",
+      "last_seen": "2026-10-07T09:00:21+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-07/chatgpt-for-teens-is-not-safe-for-kids-common-sense-media-report-says",
+        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "created_at": "2026-10-07T09:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "ChatGPT for Teens Is Not Safe for Kids, Common Sense Media Report Says. OpenAI’s ChatGPT for Teens — which the company rolled out in August as the default way for kids ages 13 to 17 use its popular chatbot — is too risky for children, according to a new report from Common Sense Media.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-07/chatgpt-for-teens-is-not-safe-for-kids-common-sense-media-report-says",
+          "created_at": "2026-10-07T09:00:21+00:00",
           "engagement": 0
         }
       ]
