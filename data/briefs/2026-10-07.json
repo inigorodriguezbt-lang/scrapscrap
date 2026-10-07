@@ -1,89 +1,34 @@
 {
-  "generated_at": "2026-10-07T16:04:01.008752+00:00",
+  "generated_at": "2026-10-07T18:04:22.328324+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 160,
-  "clusters_found": 118,
-  "stories_declared": 12,
+  "posts_considered": 127,
+  "clusters_found": 92,
+  "stories_declared": 11,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ce132b416",
-      "score": 13.153,
+      "cluster_id": "c5c91a64f",
+      "score": 12.617,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "midudev",
-        "omarsar0"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T13:39:14+00:00",
-      "last_seen": "2026-10-07T15:02:24+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
-        "https://x.com/midudev/status/2107834472091598854",
-        "https://x.com/omarsar0/status/2107828097433137595"
-      ],
-      "posts": [
-        {
-          "author": "omarsar0",
-          "tier": "commentary",
-          "text": "Introducing MCP tools for @dair_ai. Connect the MCP to your Codex/Claude/Grok Bot to discover and explore the top AI papers. https://t.co/Sg7OaryRY5",
-          "url": "https://x.com/omarsar0/status/2107828097433137595",
-          "created_at": "2026-10-07T13:39:14+00:00",
-          "engagement": 62,
-          "video": true
-        },
-        {
-          "author": "midudev",
-          "tier": "commentary",
-          "text": "Todo el mundo está haciendo Ingeniería Inversa de programas y videojuegos con IA. Se llama REA. Un MCP open source para Claude Code, Codex y Cursor: https://t.co/oOFIipCGz9",
-          "url": "https://x.com/midudev/status/2107834472091598854",
-          "created_at": "2026-10-07T14:04:34+00:00",
-          "engagement": 972
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude. SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s ChatGPT Dot, Grok Bot just got a new capability upgrade with the help of Anthropic’s Claude. more…",
-          "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
-          "created_at": "2026-10-07T15:02:24+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c5f5dde98",
-      "score": 12.64,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google",
         "Nvidia",
-        "Mistral",
-        "DeepSeek"
+        "Mistral"
       ],
       "independent_sources": [
-        "MistralAI",
-        "Simon Willison"
+        "Simon Willison",
+        "arena"
       ],
       "source_count": 2,
       "first_seen": "2026-10-06T18:20:58+00:00",
-      "last_seen": "2026-10-07T14:06:15+00:00",
+      "last_seen": "2026-10-07T17:05:01+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/6/hn-49982139/",
         "https://simonwillison.net/2026/Oct/6/le-chonk/",
         "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-        "https://x.com/MistralAI/status/2107834895674323354",
-        "https://x.com/MistralAI/status/2107834897377153304"
+        "https://x.com/arena/status/2107879883393384677"
       ],
       "posts": [
         {
@@ -111,26 +56,69 @@
           "engagement": 0
         },
         {
-          "author": "MistralAI",
+          "author": "arena",
           "tier": "commentary",
-          "text": "The Ballon d'Or, legal division:  \nOn Harvey's Legal Agent Benchmark (LAB), Mistral Large 4 is the #1 oss model. https://t.co/x5CEhBAdGl",
-          "url": "https://x.com/MistralAI/status/2107834897377153304",
-          "created_at": "2026-10-07T14:06:15+00:00",
-          "engagement": 74
+          "text": "Update: Mistral Large 4’s debut places @MistralAI among the top 15 labs on Code Arena: WebDev! It is the only European lab to make the list. Mistral Large 4 is a preview. As a preview, this model landed #45 overall with 1534 pts. +304 pt improvement from Mistral Large 3 at #133.",
+          "url": "https://x.com/arena/status/2107879883393384677",
+          "created_at": "2026-10-07T17:05:01+00:00",
+          "engagement": 96
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6caba27a",
+      "score": 12.138,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google",
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "The Verge AI",
+        "testingcatalog"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T14:19:14+00:00",
+      "last_seen": "2026-10-07T16:34:13+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+        "https://x.com/testingcatalog/status/2107872133057503400"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
+          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+          "created_at": "2026-10-07T14:19:14+00:00",
+          "engagement": 0
         },
         {
-          "author": "MistralAI",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+          "created_at": "2026-10-07T15:37:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "Gmail. Google Sheets. Slack. Salesforce.\ni.e. the four horsemen of Monday.\nOn AutomationBench, Mistral Large 4 took on 657 business workflows across simulated workplace apps, all four included, finishing ahead of Kimi K3, MiMo-V2.6-Pro and DeepSeek V4 Pro.",
-          "url": "https://x.com/MistralAI/status/2107834895674323354",
-          "created_at": "2026-10-07T14:06:15+00:00",
-          "engagement": 94
+          "text": "SpaceXAI is working on a \"Meetings\" feature for Grok Bot. Give your Bot links to join Google Meet or Zoom",
+          "url": "https://x.com/testingcatalog/status/2107872133057503400",
+          "created_at": "2026-10-07T16:34:13+00:00",
+          "engagement": 136
         }
       ]
     },
     {
       "cluster_id": "c8593805e",
-      "score": 12.386,
+      "score": 12.052,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -178,8 +166,8 @@
       ]
     },
     {
-      "cluster_id": "c0b3cbddd",
-      "score": 11.536,
+      "cluster_id": "c70f1d96d",
+      "score": 11.37,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -194,7 +182,7 @@
         "The Decoder"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-06T16:20:10+00:00",
+      "first_seen": "2026-10-06T18:54:11+00:00",
       "last_seen": "2026-10-07T15:47:03+00:00",
       "links": [
         "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
@@ -205,27 +193,9 @@
         "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
         "https://www.producthunt.com/products/aura-by-neural",
         "https://www.producthunt.com/products/google",
-        "https://www.producthunt.com/products/reika",
-        "https://www.producthunt.com/products/studyquest",
-        "https://www.producthunt.com/products/walrus-console"
+        "https://www.producthunt.com/products/reika"
       ],
       "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "StudyQuest. Turn your notes into games Discussion | Link",
-          "url": "https://www.producthunt.com/products/studyquest",
-          "created_at": "2026-10-06T16:20:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Walrus Console. Store, Protect and Connect Your Data Discussion | Link",
-          "url": "https://www.producthunt.com/products/walrus-console",
-          "created_at": "2026-10-06T16:33:14+00:00",
-          "engagement": 0
-        },
         {
           "author": "Product Hunt AI",
           "tier": "primary",
@@ -245,7 +215,7 @@
         {
           "author": "9to5Google",
           "tier": "press",
-          "text": "Google rolling out ‘massive’ Pixel Buds Pro, Pro 2, and 2a update. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro, Pro 2, and Pixel Buds 2a firmware update. more…",
+          "text": "Google rolling out ‘massive’ Pixel Buds Pro 2 and 2a update [U]. Following last month’s addition of Gemini control , Google is rolling out a sizable Pixel Buds Pro 2 and Pixel Buds 2a firmware update. more…",
           "url": "https://9to5google.com/2026/10/06/pixel-buds-pro-update-oct-2026/",
           "created_at": "2026-10-06T20:11:28+00:00",
           "engagement": 0
@@ -301,48 +271,70 @@
       ]
     },
     {
-      "cluster_id": "c76037012",
-      "score": 10.996,
+      "cluster_id": "c3ff031bf",
+      "score": 10.393,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "models",
       "entities": [
-        "Google"
+        "OpenAI",
+        "Google",
+        "Nvidia",
+        "Apple"
       ],
       "independent_sources": [
         "9to5Google",
-        "testingcatalog"
+        "Ars Technica AI",
+        "Engadget",
+        "The Decoder"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T17:15:19+00:00",
-      "last_seen": "2026-10-07T15:20:41+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-07T14:00:00+00:00",
+      "last_seen": "2026-10-07T17:50:17+00:00",
       "links": [
-        "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
-        "https://x.com/testingcatalog/status/2107853628656496657"
+        "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
+        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+        "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
       ],
       "posts": [
         {
-          "author": "9to5Google",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Google AI Edge Foresight for Mac turns scribbles into full notes using offline recordings. Google today announced its new EmbeddingGemma 2 model that can be used to “organize, search, and connect information directly on consumer hardware.” To show off its potential, Google created an AI Edge Foresight Mac app for “intelligent notetaking.” more…",
-          "url": "https://9to5google.com/2026/10/06/google-ai-edge-foresight/",
-          "created_at": "2026-10-06T17:15:19+00:00",
+          "text": "Google's AI detection website is now available. SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
+          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
+          "created_at": "2026-10-07T14:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "ICYMI: Google released a new Google AI Edge Foresight app for macOS, powered by Gemma 4 and EmbeddingGemma2 for recording voice notes. The app can connect to your Google Drive in order to build a knowledge graph. When transcription is active, it uses local models, Gemma 4 E4B or Gemma 4 12B.",
-          "url": "https://x.com/testingcatalog/status/2107853628656496657",
-          "created_at": "2026-10-07T15:20:41+00:00",
-          "engagement": 109,
-          "video": true
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google rolls out improved SynthID AI content detector, now available globally. The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+          "created_at": "2026-10-07T14:00:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google’s SynthID AI content detector expands globally, will work on Apple’s models ‘soon’. Google’s AI-detector for images and videos, SynthID, is getting a full release today. It will work for more than just content developed with Google’s AI models and initial partners. more…",
+          "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
+          "created_at": "2026-10-07T15:11:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+          "created_at": "2026-10-07T17:50:17+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cf00ae179",
-      "score": 10.044,
+      "score": 9.709,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -380,173 +372,81 @@
       ]
     },
     {
-      "cluster_id": "c275229f2",
-      "score": 9.429,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "Engadget"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T14:00:00+00:00",
-      "last_seen": "2026-10-07T15:11:35+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
-        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-        "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's AI detection website is now available. SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
-          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
-          "created_at": "2026-10-07T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google rolls out improved SynthID AI content detector, now available globally. The new SynthID website can now identify AI content from Google, OpenAI, and more.",
-          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-          "created_at": "2026-10-07T14:00:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s SynthID AI content detector expands globally, will work on Apple’s models ‘soon’. Google’s AI-detector for images and videos, SynthID, is getting a full release today. It will work for more than just content developed with Google’s AI models and initial partners. more…",
-          "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
-          "created_at": "2026-10-07T15:11:35+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c64a76c79",
-      "score": 8.551,
-      "interest": "want",
+      "cluster_id": "c363e54a3",
+      "score": 8.049,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Meta",
-        "Apple"
+        "OpenAI"
       ],
       "independent_sources": [
-        "9to5Mac",
+        "OpenAI",
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T14:19:14+00:00",
-      "last_seen": "2026-10-07T15:37:23+00:00",
+      "first_seen": "2026-10-07T09:00:00+00:00",
+      "last_seen": "2026-10-07T16:00:00+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
-          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-          "created_at": "2026-10-07T14:19:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-          "created_at": "2026-10-07T15:37:23+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c24f1d51d",
-      "score": 8.318,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google",
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Verge AI",
-        "kimmonismus"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T14:40:52+00:00",
-      "last_seen": "2026-10-07T15:56:32+00:00",
-      "links": [
-        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
-        "https://x.com/kimmonismus/status/2107862648490496190"
+        "https://openai.com/index/teens-learn-and-plan",
+        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’. Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into Biohub, the nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan, as reported by Reuters. The funding is part of a $1.8 billion initiative to build AI datasets that could allow researchers to \"ask, predict, [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
-          "created_at": "2026-10-07T14:40:52+00:00",
+          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "created_at": "2026-10-07T09:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Zuckerberg's Biohub is teaming up with Google DeepMind, Meta and the U.S. government on a $1.8B effort to build AI models of living cells. Goal is a universal virtual cell. DeepMind, Isomorphic Labs and Meta are collectively investing $300M.",
-          "url": "https://x.com/kimmonismus/status/2107862648490496190",
-          "created_at": "2026-10-07T15:56:32+00:00",
-          "engagement": 39
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Helping teens learn, plan, and shape the future of AI. College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "created_at": "2026-10-07T16:00:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ca1fbc1a8",
-      "score": 8.292,
+      "cluster_id": "cfde2c510",
+      "score": 7.628,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "security",
       "entities": [
-        "OpenAI",
-        "Anthropic"
+        "Anthropic",
+        "Google"
       ],
       "independent_sources": [
-        "The Decoder",
-        "Wired AI"
+        "9to5Google",
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-06T16:06:46+00:00",
+      "first_seen": "2026-10-06T19:10:00+00:00",
       "last_seen": "2026-10-07T12:05:20+00:00",
       "links": [
-        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-        "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-        "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/"
+        "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Insurers brace for millions in claims as AI agents spin out of control. Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI's Sam Altman and Anthropic's Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
-          "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
-          "created_at": "2026-10-06T16:06:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers. From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
-          "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
-          "created_at": "2026-10-06T18:45:39+00:00",
+          "text": "Claude launches Google Docs, Sheets, and Slides integration with sidebar and more. If Gemini isn’t quite your cup of tea, Anthropic’s Claude now supports sidebar integration with Google Docs, Sheets, and Slides. more…",
+          "url": "https://9to5google.com/2026/10/06/claude-google-docs-sheet-slides/",
+          "created_at": "2026-10-06T19:10:00+00:00",
           "engagement": 0
         },
         {
@@ -599,40 +499,80 @@
       ]
     },
     {
-      "cluster_id": "c03cf911f",
-      "score": 5.443,
+      "cluster_id": "c7eba325d",
+      "score": 6.438,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI"
+        "Google",
+        "Meta"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
+        "The Decoder",
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T09:00:00+00:00",
-      "last_seen": "2026-10-07T09:00:21+00:00",
+      "first_seen": "2026-10-07T14:40:52+00:00",
+      "last_seen": "2026-10-07T17:58:20+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-07/chatgpt-for-teens-is-not-safe-for-kids-common-sense-media-report-says",
-        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-          "created_at": "2026-10-07T09:00:00+00:00",
+          "text": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’. Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+          "created_at": "2026-10-07T14:40:52+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "ChatGPT for Teens Is Not Safe for Kids, Common Sense Media Report Says. OpenAI’s ChatGPT for Teens — which the company rolled out in August as the default way for kids ages 13 to 17 use its popular chatbot — is too risky for children, according to a new report from Common Sense Media.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-07/chatgpt-for-teens-is-not-safe-for-kids-common-sense-media-report-says",
-          "created_at": "2026-10-07T09:00:21+00:00",
+          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
+          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+          "created_at": "2026-10-07T17:58:20+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c697d9358",
+      "score": 6.117,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T17:41:41+00:00",
+      "last_seen": "2026-10-07T18:01:20+00:00",
+      "links": [
+        "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
+        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Everything announced at Microsoft's Windows and Surface event. The company is highlighting agentic AI features for Windows.",
+          "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
+          "created_at": "2026-10-07T17:41:41+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "created_at": "2026-10-07T18:01:20+00:00",
           "engagement": 0
         }
       ]
