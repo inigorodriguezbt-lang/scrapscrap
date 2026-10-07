@@ -1,15 +1,142 @@
 {
-  "generated_at": "2026-10-07T06:03:58.396867+00:00",
+  "generated_at": "2026-10-07T08:03:36.956093+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 140,
-  "clusters_found": 109,
+  "posts_considered": 148,
+  "clusters_found": 107,
   "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "c7ce926f6",
+      "score": 18.568,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Nvidia",
+        "Mistral",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "TechCrunch AI",
+        "The Decoder",
+        "arena",
+        "elonmusk",
+        "kimmonismus"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-10-06T10:50:18+00:00",
+      "last_seen": "2026-10-07T07:37:14+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+        "https://simonwillison.net/2026/Oct/6/le-chonk/",
+        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+        "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+        "https://x.com/arena/status/2107717155374727602",
+        "https://x.com/elonmusk/status/2107724314451878104",
+        "https://x.com/kimmonismus/status/2107736997812981770"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO. Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports. The article CATL and Tencent back Deepseek&#039;s ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .",
+          "url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+          "created_at": "2026-10-06T10:50:18+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
+          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+          "created_at": "2026-10-06T12:11:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
+          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+          "created_at": "2026-10-06T12:54:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
+          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+          "created_at": "2026-10-06T14:18:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "created_at": "2026-10-06T14:33:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Mistral Large 4. My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default re",
+          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+          "created_at": "2026-10-06T18:20:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
+          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+          "created_at": "2026-10-06T20:18:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+          "created_at": "2026-10-06T21:32:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arena",
+          "tier": "commentary",
+          "text": "Mistral Large 4 by @MistralAI just landed in the Code Arena: WebDev at #45. With 1534 pts, this is a +304 pt improvement from Mistral Large 3 at #130!\n\nThis release also marks a 271-point improvement over its next-best-performing variant, Mistral Medium 3.5, at #122.\n\nMistral Large 4 delivers performance within just 2 points of Claude Opus 4.8 (High) at a nearly 6× lower blended price: $3.47/M vs. $20/M tokens. Nearby but higher-performing models are available for less, keeping it just off the Code Arena: WebDev Pareto frontier.\n\n@MistralAI announced its open weights will be released at the en",
+          "url": "https://x.com/arena/status/2107717155374727602",
+          "created_at": "2026-10-07T06:18:23+00:00",
+          "engagement": 105
+        },
+        {
+          "author": "elonmusk",
+          "tier": "commentary",
+          "text": "Important note regarding Grok @Bot:\n\nGoing forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. \n\nWhatever is most likely to give you the best outcome.",
+          "url": "https://x.com/elonmusk/status/2107724314451878104",
+          "created_at": "2026-10-07T06:46:50+00:00",
+          "engagement": 15437
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Grok Bot is already the best always on agent imho. Now will automatically choose the best AI model for each task, including Claudes Opus 5.5, Midjourney and Suno.\n\nMusk: “Whatever is most likely to give you the best outcome.”\n\nSuper based update. OpenAI, Muse and everyone else should learn from it.",
+          "url": "https://x.com/kimmonismus/status/2107736997812981770",
+          "created_at": "2026-10-07T07:37:14+00:00",
+          "engagement": 115
+        }
+      ]
+    },
+    {
       "cluster_id": "cc9e8b20d",
-      "score": 11.474,
+      "score": 11.141,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -136,121 +263,30 @@
       ]
     },
     {
-      "cluster_id": "c4f26bb55",
-      "score": 10.494,
+      "cluster_id": "c8521fc9d",
+      "score": 9.676,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia",
-        "Mistral",
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "Simon Willison",
-        "TechCrunch AI",
-        "The Decoder"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-06T06:28:43+00:00",
-      "last_seen": "2026-10-06T21:32:34+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-        "https://simonwillison.net/2026/Oct/6/le-chonk/",
-        "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-        "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-        "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-        "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-        "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-        "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
-      ],
-      "posts": [
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Reflection Beam - 501B-A23B American Open Model. A small win for US open source",
-          "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-          "created_at": "2026-10-06T06:28:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Reflection's Beam becomes the most capable open-weight model built outside China. Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals like Deepseek and Qwen is efficiency over raw performance. The article Reflection&#039;s Beam becomes the most capable open-weight model built outside China appeared first on The Decoder .",
-          "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
-          "created_at": "2026-10-06T12:11:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China's best. South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#039;s best appeared first on The Decoder .",
-          "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
-          "created_at": "2026-10-06T12:54:31+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Mistral Large 4 is Europe's trillion-parameter answer to US models that refuse security work. Mistral's Large 4 is the company's biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral's main pitch is cybersecurity work that closed US models refuse to do. The article Mistral Large 4 is Europe&#039;s trillion-parameter answer to US models that refuse security work appeared first on The Decoder .",
-          "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
-          "created_at": "2026-10-06T14:18:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Mistral’s new 1T model aims to leapfrog closed and open rivals. French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "created_at": "2026-10-06T14:33:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Mistral Large 4. My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default re",
-          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-          "created_at": "2026-10-06T18:20:58+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Introducing Mistral Large 4: Le chonk. Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Art",
-          "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
-          "created_at": "2026-10-06T20:18:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-mistral 0.16. Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
-          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-          "created_at": "2026-10-06T21:32:34+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc7bad37d",
-      "score": 8.285,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
+        "Google",
         "Mistral"
       ],
       "independent_sources": [
         "Mistral",
-        "Wired AI"
+        "Product Hunt AI"
       ],
       "source_count": 2,
       "first_seen": "2026-10-06T12:00:27+00:00",
-      "last_seen": "2026-10-06T13:15:23+00:00",
+      "last_seen": "2026-10-07T03:36:08+00:00",
       "links": [
         "https://mistral.ai/news/mistral-large-4/",
-        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/"
+        "https://www.producthunt.com/products/aura-by-neural",
+        "https://www.producthunt.com/products/google",
+        "https://www.producthunt.com/products/mistral-7b",
+        "https://www.producthunt.com/products/reika",
+        "https://www.producthunt.com/products/studyquest",
+        "https://www.producthunt.com/products/walrus-console"
       ],
       "posts": [
         {
@@ -262,18 +298,58 @@
           "engagement": 0
         },
         {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
-          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-          "created_at": "2026-10-06T13:15:23+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Mistral Large 4. Mistral's 1T parameter open weight frontier model Discussion | Link",
+          "url": "https://www.producthunt.com/products/mistral-7b",
+          "created_at": "2026-10-06T15:07:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "StudyQuest. Turn your notes into games Discussion | Link",
+          "url": "https://www.producthunt.com/products/studyquest",
+          "created_at": "2026-10-06T16:20:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Walrus Console. Store, Protect and Connect Your Data Discussion | Link",
+          "url": "https://www.producthunt.com/products/walrus-console",
+          "created_at": "2026-10-06T16:33:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Nano Banana 2.1. Google's image model with sharper design and mask editing Discussion | Link",
+          "url": "https://www.producthunt.com/products/google",
+          "created_at": "2026-10-06T18:54:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Aura by Neural. Turn requests into interactive interfaces on your screen Discussion | Link",
+          "url": "https://www.producthunt.com/products/aura-by-neural",
+          "created_at": "2026-10-07T02:05:50+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Reika. A coding agent CLI designed around small local models first Discussion | Link",
+          "url": "https://www.producthunt.com/products/reika",
+          "created_at": "2026-10-07T03:36:08+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c4464dd86",
-      "score": 8.155,
+      "score": 7.823,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -312,7 +388,7 @@
     },
     {
       "cluster_id": "cb48c5fef",
-      "score": 8.07,
+      "score": 7.738,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -400,7 +476,7 @@
     },
     {
       "cluster_id": "cfb373dd5",
-      "score": 7.281,
+      "score": 6.948,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
