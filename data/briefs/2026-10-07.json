@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-07T04:03:28.920048+00:00",
+  "generated_at": "2026-10-07T06:03:58.396867+00:00",
   "edition_date": "2026-10-07",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 138,
-  "clusters_found": 105,
+  "posts_considered": 140,
+  "clusters_found": 109,
   "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "cc9e8b20d",
-      "score": 11.808,
+      "score": 11.474,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -137,7 +137,7 @@
     },
     {
       "cluster_id": "c4f26bb55",
-      "score": 10.829,
+      "score": 10.494,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -233,57 +233,47 @@
       ]
     },
     {
-      "cluster_id": "cb0896008",
-      "score": 8.909,
+      "cluster_id": "cc7bad37d",
+      "score": 8.285,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "Amazon"
+        "Mistral"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "The Robot Report",
-        "The Verge AI"
+        "Mistral",
+        "Wired AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-06T10:53:11+00:00",
-      "last_seen": "2026-10-06T21:34:06+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-06T12:00:27+00:00",
+      "last_seen": "2026-10-06T13:15:23+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-06/boston-dynamics-taps-amazon-alexa-executive-as-new-ceo",
-        "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
-        "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end"
+        "https://mistral.ai/news/mistral-large-4/",
+        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end. An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it's been doing. The [&#8230;]",
-          "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
-          "created_at": "2026-10-06T10:53:11+00:00",
+          "author": "Mistral",
+          "tier": "primary",
+          "text": "Introducing Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "created_at": "2026-10-06T12:00:27+00:00",
           "engagement": 0
         },
         {
-          "author": "The Robot Report",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO. Before Boston Dynamics, Prasad served as senior vice president and head scientist for Alexa and artificial general intelligence at Amazon. The post Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
-          "created_at": "2026-10-06T21:00:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Boston Dynamics Taps Amazon Alexa Executive as New CEO. Boston Dynamics appointed former Amazon.com Inc. executive Rohit Prasad as chief executive officer to lead the Hyundai Motor Co.-controlled company into its next era of innovation and commercialization of its robots.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-06/boston-dynamics-taps-amazon-alexa-executive-as-new-ceo",
-          "created_at": "2026-10-06T21:34:06+00:00",
+          "text": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
+          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+          "created_at": "2026-10-06T13:15:23+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c4464dd86",
-      "score": 8.49,
+      "score": 8.155,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -322,7 +312,7 @@
     },
     {
       "cluster_id": "cb48c5fef",
-      "score": 8.405,
+      "score": 8.07,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -380,45 +370,6 @@
       ]
     },
     {
-      "cluster_id": "cc7bad37d",
-      "score": 8.318,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Mistral"
-      ],
-      "independent_sources": [
-        "Mistral",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-06T12:00:27+00:00",
-      "last_seen": "2026-10-06T13:15:23+00:00",
-      "links": [
-        "https://mistral.ai/news/mistral-large-4/",
-        "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/"
-      ],
-      "posts": [
-        {
-          "author": "Mistral",
-          "tier": "primary",
-          "text": "Introducing Mistral Large 4",
-          "url": "https://mistral.ai/news/mistral-large-4/",
-          "created_at": "2026-10-06T12:00:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build frontier-level artificial intelligence.",
-          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-          "created_at": "2026-10-06T13:15:23+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c47b9255d",
       "score": 7.327,
       "interest": "want",
@@ -443,6 +394,45 @@
           "text": "Sharing AI progress in mathematics. OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
           "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
           "created_at": "2026-10-06T12:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cfb373dd5",
+      "score": 7.281,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "The Robot Report",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-06T10:53:11+00:00",
+      "last_seen": "2026-10-06T21:00:30+00:00",
+      "links": [
+        "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
+        "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end. An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it's been doing. The [&#8230;]",
+          "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+          "created_at": "2026-10-06T10:53:11+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Robot Report",
+          "tier": "press",
+          "text": "Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO. Before Boston Dynamics, Prasad served as senior vice president and head scientist for Alexa and artificial general intelligence at Amazon. The post Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
+          "created_at": "2026-10-06T21:00:30+00:00",
           "engagement": 0
         }
       ]
