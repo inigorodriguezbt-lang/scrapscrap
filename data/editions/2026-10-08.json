@@ -1,0 +1,82 @@
+{
+ "edition_date": "2026-10-08",
+ "stories": [
+  {
+   "cluster_id": "find-surface-rtx-spark-dev-box-preorder",
+   "section": "chips",
+   "headline": "Microsoft opens Surface RTX Spark Dev Box preorders at $5,999.99",
+   "standfirst": "Microsoft's Surface RTX Spark Dev Box, a desktop with 128GB of unified memory and about one petaflop of AI compute, is now listed from $5,999.99, well above the $3,999 rivals.",
+   "body": [
+    "Microsoft is taking preorders for the Surface RTX Spark Dev Box, a small desktop built to run AI models on the desk rather than in the cloud. Its product page lists the price as starting at $5,999.99 and links to a preorder form. The page gives no ship date, so delivery may be some way off, and the monitor and keyboard are sold separately.",
+    "According to Microsoft, the machine carries an Nvidia RTX GPU with up to one petaflop of AI compute, 128GB of unified memory and a 100-watt thermal envelope, with an aluminium chassis that doubles as the cooler. The ports are two USB-C, USB-A, HDMI, Ethernet and a headphone jack. These are Microsoft's own specifications, and the paper has not tested the box.",
+    "The pitch is local development. Microsoft's page says the box can run coding models of up to 120 billion parameters, fine-tune models and run agent experiments locally, which it says can reduce per-token API and cloud costs. It ships with Windows 11 Pro, with VS Code, GitHub Copilot CLI, WSL and PowerShell 7 preinstalled.",
+    "The price is new. When Engadget covered the announcement at Build in June, Microsoft had given no figure, and the outlet put AMD's Ryzen AI Halo PC and Nvidia's DGX Spark at $3,999 each. Engadget described it as a desktop version of the Surface Laptop Ultra, due later in 2026 through Microsoft.com rather than in shops."
+   ],
+   "entities": [
+    "Microsoft",
+    "Nvidia",
+    "Surface RTX Spark Dev Box"
+   ],
+   "sources": [
+    {
+     "author": "Microsoft",
+     "url": "https://www.microsoft.com/devbox"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://engadget.com/2185865/microsoft-surface-rtx-spark-dev-box"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-trace-fp4-rl-alibaba",
+   "section": "research",
+   "headline": "Alibaba paper trains MoE models with 4-bit rollouts, claims 5.4x speedup",
+   "standfirst": "Alibaba researchers say their TRACE method lets reinforcement learning run its rollouts in 4-bit precision on mixture-of-experts models, with up to 5.4x faster decoding and scores matching 16-bit rollouts.",
+   "body": [
+    "Researchers at Alibaba Group have posted TRACE, a method for running the expensive rollout stage of reinforcement learning in 4-bit floating point on mixture-of-experts language models. The paper, arXiv 2610.07767, was one of the day's most-voted on Hugging Face daily papers, with 79 upvotes when the paper's page was read. No other group has reported reproducing it.",
+    "The authors say rollout generation is a main cost of RL post-training, and that 4-bit rollouts usually create a gap between the numbers the model generates with and the numbers it trains on. Their fix has two parts, according to the abstract: training-side rounding guided by the rollout's own quantisation results, and a cache that keeps only mantissa and scale data from deeper layers.",
+    "The headline figures are the authors' own. They report up to 5.4x faster decoding than 16-bit rollouts, measured at 128K output length, with RL results comparable to 16-bit. On Qwen3.5-35B-A3B, they say TRACE averages 75.3 against 70.4 to 71.4 for post-hoc 4-bit baselines. They also name Qwen3.8-2.4T-A95B among four models tested.",
+    "The page gives no code link, so the results cannot yet be checked. The team is credited to Alibaba Token Hub, and the paper notes the work was done during an internship. It is a training-cost result rather than a model release, but cheaper rollouts are what limit how often labs can run RL at this scale."
+   ],
+   "entities": [
+    "Alibaba",
+    "TRACE",
+    "Qwen",
+    "arXiv"
+   ],
+   "sources": [
+    {
+     "author": "arXiv",
+     "url": "https://huggingface.co/papers/2610.07767"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-meta-signposting-csam-ads",
+   "section": "security",
+   "headline": "Meta says an LLM now checks where ads lead, to catch abuse links",
+   "standfirst": "Meta says its new language-model system reads where an ad sends people, not just what it shows, and that it acted on 33.2 million pieces of child exploitation content this year.",
+   "body": [
+    "Meta has put a new large language model system to work on ads that look harmless but link onward to child sexual abuse material, TechCrunch reported on Wednesday. Meta calls the tactic signposting. The company told the outlet that bad actors have recently adopted it to slip past review, because the ad itself contains nothing illegal.",
+    "Under the change, Meta says it evaluates the destination an ad leads to, can block non-compliant destinations and can act against the accounts behind them. TechCrunch reports that Meta is also adding scans for content earlier systems missed, a red-teaming AI agent that probes Meta's own safety measures, and better detection of people who return on new accounts after removal.",
+    "The figures are Meta's. It says it acted against 33.2 million pieces of child sexual exploitation content on Facebook and Instagram in the first half of 2026, and that more than 97 per cent was found by its systems before users reported it. In India it acted on 5.3 million pieces, with more than 98 per cent detected first.",
+    "TechCrunch quotes no Meta executive or outside expert, and the paper has not seen independent testing of the new tools. The report notes that in August Meta agreed to pay up to $18 billion to settle a suit by 29 US states over harms to children, which frames the announcement."
+   ],
+   "entities": [
+    "Meta",
+    "Facebook",
+    "Instagram"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}

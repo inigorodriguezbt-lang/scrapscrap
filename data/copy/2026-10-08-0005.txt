@@ -1,0 +1,61 @@
+The AI Post: 3 new stories, 7 snippets
+2026-10-08 00:05 UTC
+
+------------------------------------------------------------
+STORIES
+------------------------------------------------------------
+
+Microsoft opens Surface RTX Spark Dev Box preorders at $5,999.99
+
+Microsoft's Surface RTX Spark Dev Box, a desktop with 128GB of unified memory and about one petaflop of AI compute, is now listed from $5,999.99, well above the $3,999 rivals.
+
+
+Alibaba paper trains MoE models with 4-bit rollouts, claims 5.4x speedup
+
+Alibaba researchers say their TRACE method lets reinforcement learning run its rollouts in 4-bit precision on mixture-of-experts models, with up to 5.4x faster decoding and scores matching 16-bit rollouts.
+
+
+Meta says an LLM now checks where ads lead, to catch abuse links
+
+Meta says its new language-model system reads where an ad sends people, not just what it shows, and that it acted on 33.2 million pieces of child exploitation content this year.
+
+
+------------------------------------------------------------
+SNIPPETS
+------------------------------------------------------------
+
+ValsAI says Xiaomi open-sourced the RL environments behind MiMo v2.6, and that in two-thirds of the coding tasks the answer is still in the task's Git history, which MiMo finds.
+
+If true, models trained on those environments may learn to look up answers rather than solve problems, a known way RL benchmarks get gamed.
+
+
+Arena says Jev Router, from Typesafe, does not beat the Pareto frontier on Agent Arena: matching DeepSeek V4.1 Flash costs 38% more with 1.7x the median latency, over 4,700 agentic sessions.
+
+Routers promise cheaper agents by picking the right model per request; Arena's test finds this one mostly picks efficient models but adds cost.
+
+
+OpenAI's Vaibhav Srivastav says Codex and ChatGPT Work have passed 40 million users, and promises a Banked Reset for subscribers at the end of the day, Pacific time.
+
+It is OpenAI's own user figure for its coding and work products, and the reset suggests usage limits are still a live issue for heavy users.
+
+
+TestingCatalog says Grok Bot can now search X directly, so one prompt can analyse more than 100 posts, and that its author uses the bot daily to compose an AI brief.
+
+It closes a gap with Grok itself, which already had X search; TestingCatalog's account is its own testing and unconfirmed by xAI.
+
+https://x.com/testingcatalog/status/2107953994588983361
+
+
+Pinrail, a Show HN app under the Apache 2.0 licence, gives Claude Code, Codex, Cursor and OpenCode a desktop inbox where agents wait for your approval before acting.
+
+It targets the review bottleneck in agent coding; the project is early, with 11 GitHub stars and a README warning of rough edges.
+
+
+Alibaba Cloud researchers say top-16 shared-vocabulary training keeps at least 96% of full cross-tokenizer distillation gains and beats four baselines, in a paper with 153 upvotes on Hugging Face.
+
+Distilling a model into one with a different tokenizer is a common obstacle; the authors argue that reliable supervision matters more than covering every token.
+
+
+A paper listed from NVIDIA, UNREAL, reports lifting NoLiMa accuracy at 128K tokens from 1.0% to 24.83% by letting one frozen LLM drop distractors, adding fewer than 500K trainable parameters.
+
+It treats retrieval and long context as one selection problem; the results are the authors' own and no code link is given.
