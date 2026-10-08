@@ -30,6 +30,90 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-natura-interface-ring",
+   "section": "products",
+   "headline": "Natura's $99 Interface ring calls up Claude, ChatGPT or Grok Bot",
+   "standfirst": "Natura says its Interface smart ring will cost $99 at launch and hand a tap-to-talk line to Claude, ChatGPT, Meta's Muse or Grok Bot, with a $9 monthly fee after a free spell.",
+   "body": [
+    "Natura, the startup behind the HumanPods AI earbuds, has announced Interface, a smart ring that summons an AI agent with a press of the finger, TechCrunch reported on Thursday. The company says it will cost $99 at launch, with Claude, ChatGPT, Meta's Muse, Grok Bot and Instinct among the supported agents.",
+    "Founder Carlo Edoardo Ferraris, who previously started the accessories maker Rolling Square, told TechCrunch that users can assign different agents to different jobs, such as completing tasks, capturing thoughts or controlling devices including computers. Replies arrive through connected headphones, an iPhone Live Activity or Natura's NatureOS app.",
+    "The ring also tracks heart rate, sleep stages and skin temperature among other readings, TechCrunch reports. Natura puts battery life at six to 12 days, with a full charge taking 100 minutes. It says its manufacturing cost is comparable to the Oura Ring and Samsung Galaxy Ring, and that the low price is meant to build demand first.",
+    "The details are Natura's, and the dates may slip, since they are targets rather than commitments. Preorders are expected next month, with shipping slated for December or January. After a free period of three to six months, Natura plans to charge $9 a month. The ring works best for people who already run a personal AI agent, and the paper has not seen it tested."
+   ],
+   "entities": [
+    "Natura",
+    "Claude",
+    "ChatGPT",
+    "Grok Bot",
+    "Muse"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-odyssey-3-world-model",
+   "section": "models",
+   "headline": "Odyssey opens a preview of Odyssey-3, a world model for walkable scenes",
+   "standfirst": "Odyssey says Odyssey-3 Pro scores 66.1 on Physics-IQ Verified video-to-video, the highest reported, and generates worlds from a prompt that a person can walk through in real time.",
+   "body": [
+    "Odyssey has released Odyssey-3, which it calls its most powerful foundation world model, and opened a research preview, according to the company's launch post on Thursday. Odyssey says the Pro version scores 66.1 on the Physics-IQ Verified video-to-video benchmark, which it describes as the highest reported score. It reports 54.7 on image-to-video.",
+    "Users generate an environment from a prompt, then move through it in first or third person while the model predicts changes as they act or trigger events. The camera can move independently. Odyssey describes the model as an autoregressive diffusion transformer that learns physics and cause and effect from video, with a distilled few-step variant for real-time use.",
+    "The company also pitches it for machines. It says robot arms completed manipulation tasks after tens of hours of demonstrations, and that humanoid maker Flexion built policies that beat tested vision-language-action baselines when lighting changed. On real roads in India, Odyssey says a driving policy trained on 20 hours of data, with the backbone frozen, drives in closed loop.",
+    "Every number here is Odyssey's own, from its post and an evaluation it ran itself, including a first-place ranking in three of four WorldMark categories. The post gives no consumer pricing or usage limits, and TestingCatalog's report carries the same figures. The paper has not found independent tests of the model."
+   ],
+   "entities": [
+    "Odyssey",
+    "Flexion"
+   ],
+   "sources": [
+    {
+     "author": "Odyssey",
+     "url": "https://odyssey.systems/meet-odyssey-3"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2108246975883751665"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-anthropic-abuse-usage-policy",
+   "section": "policy",
+   "headline": "Anthropic's usage policy will ban sustained cruelty to Claude",
+   "standfirst": "Anthropic's usage policy will prohibit \"sustained and needless abusive or cruel behavior\" toward its models from 12 November, with ending the chat as the main enforcement.",
+   "body": [
+    "Anthropic has added a rule to its usage policy prohibiting \"sustained and needless abusive or cruel behavior toward our models\", effective 12 November 2026. The wording sits on the policy page under conduct that is cruel, abusive or psychologically harmful. The change was flagged on Thursday by Andrew Curran, an AI commentator, whose post drew more than 1,600 likes.",
+    "The Verge reported that ending the conversation remains the main enforcement mechanism, according to a summary of its article posted by the commentator behind the kimmonismus account. That summary says the rule covers extreme, repeated cruelty with no discernible purpose, and excludes ordinary frustration, pushback, dark creative themes and model testing.",
+    "The paper could not open The Verge's article, so those exclusions rest on that secondhand account and not on the policy text read directly. Anthropic first let some Claude models end abusive chats in 2025, a feature it framed around model welfare, and the new rule writes the principle into the contract users accept.",
+    "Reactions diverged. Some commenters read the rule as a sign that Anthropic takes seriously the possibility that Claude has experiences, a claim Anthropic has not made in the policy. Others, including that commentator, say Claude already ends chats in less extreme exchanges. Anthropic has not said how it will judge what counts as needless."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/legal/aup"
+    },
+    {
+     "author": "Andrew Curran",
+     "url": "https://x.com/AndrewCurran_/status/2108244808494154089"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-carbon-a-hf",
    "section": "open-models",
    "headline": "Hugging Face releases Carbon-A, an MIT-licensed model that marks coding DNA",
@@ -168,7 +252,7 @@
      "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-google-gemini-agent-work",
@@ -194,7 +278,7 @@
      "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-ahm-openai-math-statement",
@@ -223,7 +307,7 @@
      "url": "https://x.com/kimmonismus/status/2108148802947326069"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-icann-ai-tld-applications",

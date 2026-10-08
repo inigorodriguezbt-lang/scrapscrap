@@ -1,58 +1,115 @@
 {
-  "generated_at": "2026-10-08T16:04:19.741100+00:00",
+  "generated_at": "2026-10-08T18:03:49.306686+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 137,
-  "clusters_found": 101,
-  "stories_declared": 9,
+  "posts_considered": 108,
+  "clusters_found": 79,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c3b68ab70",
-      "score": 17.476,
+      "cluster_id": "ce568756d",
+      "score": 14.353,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "OpenAI",
+        "Anthropic",
         "Google",
-        "Nvidia",
-        "Microsoft",
-        "Amazon",
-        "AMD"
+        "Microsoft"
       ],
       "independent_sources": [
         "9to5Google",
+        "ArtificialAnlys",
+        "Bloomberg Tech",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-08T12:00:00+00:00",
+      "last_seen": "2026-10-08T16:42:42+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+        "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
+        "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video",
+        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+        "https://x.com/ArtificialAnlys/status/2108236656700768310"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
+          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+          "created_at": "2026-10-08T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Google Launches Workplace AI Agent That Acts Like Colleague. Alphabet Inc.’s Google announced a Gemini agent for the workplace, ramping up competition with OpenAI, Anthropic PBC and Microsoft Corp. for corporate customers.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
+          "created_at": "2026-10-08T13:25:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Broadcom in Early Financing Talks for OpenAI Chips. Broadcom is planning its next blockbuster deal after launching a $60 billion debt financing to help fund Anthropic PBC's artificial intelligence build-out. Sarah Frier has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video",
+          "created_at": "2026-10-08T14:05:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is launching a one-stop Gemini agent for your work tasks. Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+          "created_at": "2026-10-08T14:28:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2. Nano Banana 2.1 is Google's new image model, released on October 6. It is based on Gemini 3.6 Flash and replaces Nano Banana 2.",
+          "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+          "created_at": "2026-10-08T16:42:42+00:00",
+          "engagement": 142,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7daae4f1",
+      "score": 13.44,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "Microsoft",
+        "AMD"
+      ],
+      "independent_sources": [
         "Ars Technica AI",
         "NVIDIA",
         "TechCrunch AI",
         "The Verge AI",
-        "Tom's Hardware",
-        "simonw"
+        "Tom's Hardware"
       ],
-      "source_count": 7,
-      "first_seen": "2026-10-07T17:46:44+00:00",
-      "last_seen": "2026-10-08T15:53:32+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-07T18:42:22+00:00",
+      "last_seen": "2026-10-08T15:00:00+00:00",
       "links": [
-        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
         "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
         "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
         "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
         "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-        "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
         "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
-        "https://x.com/simonw/status/2108216753604248000"
+        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
       ],
       "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Surface RTX Spark Dev Box is available for preorder for $5,999. Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices have been climbing due to shortages of RAM and other components. The Dev Box's flat, 3D-printed anodized [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
-          "created_at": "2026-10-07T17:46:44+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Verge AI",
           "tier": "press",
@@ -108,120 +165,47 @@
           "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
           "created_at": "2026-10-08T15:00:00+00:00",
           "engagement": 0
-        },
-        {
-          "author": "simonw",
-          "tier": "commentary",
-          "text": "New open source cross-platform (Windows, macOS, Linux) sandboxing library from Microsoft - looks very promising, uses processcontainer/bubblewrap/seatbelt under the hood https://t.co/WMW0AXeBoG",
-          "url": "https://x.com/simonw/status/2108216753604248000",
-          "created_at": "2026-10-08T15:23:37+00:00",
-          "engagement": 100
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
-          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
-          "created_at": "2026-10-08T15:53:32+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c3da20779",
-      "score": 13.714,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Product Hunt AI",
-        "The Verge AI",
-        "testingcatalog"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-08T02:20:15+00:00",
-      "last_seen": "2026-10-08T14:28:03+00:00",
-      "links": [
-        "https://www.producthunt.com/products/claude-for-google-workspace",
-        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-        "https://x.com/testingcatalog/status/2108201283777700103"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Claude for Google Workspace. Bring Claude directly into Google Docs, Sheets & Slides Discussion | Link",
-          "url": "https://www.producthunt.com/products/claude-for-google-workspace",
-          "created_at": "2026-10-08T02:20:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "GOOGLE 🔥: A new Gemini Agent for Gemini Enterprise has been announced as a part of Gemini at Work updates.\n\n- Gemini, a single, universal agent for work that answers your questions, handles your knowledge work, creates your images and media, and writes and runs code. \n\n- Inline in Workspace, Gemini works directly inside Gmail, Drive, Docs, Slides, Sheets, Chat, and Calendar, carrying the same memory, skills, and controls it has everywhere else.",
-          "url": "https://x.com/testingcatalog/status/2108201283777700103",
-          "created_at": "2026-10-08T14:22:09+00:00",
-          "engagement": 253
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google is launching a one-stop Gemini agent for your work tasks. Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-          "created_at": "2026-10-08T14:28:03+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c87e74c4d",
-      "score": 11.994,
+      "cluster_id": "c885fb5cf",
+      "score": 13.278,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Google",
         "Amazon"
       ],
       "independent_sources": [
-        "9to5Mac",
+        "9to5Google",
         "AWS ML",
         "Latent Space",
-        "Product Hunt AI",
         "Simon Willison",
         "The Decoder"
       ],
-      "source_count": 6,
-      "first_seen": "2026-10-07T18:11:57+00:00",
-      "last_seen": "2026-10-08T10:30:23+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-07T18:34:44+00:00",
+      "last_seen": "2026-10-08T16:20:04+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
         "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
-        "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
-        "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-        "https://www.producthunt.com/products/claude-haiku-5-5"
+        "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
       ],
       "posts": [
         {
-          "author": "Product Hunt AI",
+          "author": "AWS ML",
           "tier": "primary",
-          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
-          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
-          "created_at": "2026-10-07T18:11:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
-          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-          "created_at": "2026-10-07T18:14:13+00:00",
+          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "created_at": "2026-10-07T18:34:44+00:00",
           "engagement": 0
         },
         {
@@ -251,9 +235,66 @@
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Teen's AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense. A 16-year-old planned his hiking route on Crown Mountain near Vancouver using Anthropic's Claude and had to be airlifted off a steep rock face. The chatbot had sent him down a route that requires climbing gear. Bryce doesn't blame the AI but says he'll never use it for route planning again. The article Teen&#039;s AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense appeared first on The Decoder .",
-          "url": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
-          "created_at": "2026-10-08T09:57:42+00:00",
+          "text": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found. Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found appeared first on The Decoder .",
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+          "created_at": "2026-10-08T13:01:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
+          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+          "created_at": "2026-10-08T15:53:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod. A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+          "created_at": "2026-10-08T16:20:04+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca4d0af10",
+      "score": 9.399,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Product Hunt AI",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T18:11:57+00:00",
+      "last_seen": "2026-10-08T10:30:23+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+        "https://www.producthunt.com/products/claude-haiku-5-5"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
+          "created_at": "2026-10-07T18:11:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
+          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+          "created_at": "2026-10-07T18:14:13+00:00",
           "engagement": 0
         },
         {
@@ -267,8 +308,8 @@
       ]
     },
     {
-      "cluster_id": "c5e3ee71b",
-      "score": 9.801,
+      "cluster_id": "cbde99d7e",
+      "score": 8.76,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -279,28 +320,18 @@
         "9to5Mac",
         "Engadget",
         "The Decoder",
-        "The Verge AI",
-        "Wired AI"
+        "The Verge AI"
       ],
-      "source_count": 5,
-      "first_seen": "2026-10-07T18:00:00+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-07T19:06:40+00:00",
       "last_seen": "2026-10-08T08:45:16+00:00",
       "links": [
         "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
         "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
         "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
-        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-        "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/"
+        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
       ],
       "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The New ChatGPT Is More Show Than Tell. OpenAI is updating ChatGPT for all users with an “Intelligent UI” that’s more visual—generating interactive elements as part of the chatbot’s outputs.",
-          "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
-          "created_at": "2026-10-07T18:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -336,65 +367,8 @@
       ]
     },
     {
-      "cluster_id": "cdcf0ad25",
-      "score": 8.886,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "MIT Tech Review"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T09:00:00+00:00",
-      "last_seen": "2026-10-08T13:40:50+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/videos/2026-10-08/jpmorgan-s-gehl-on-tech-ai-fundraising-capex-ipo-video",
-        "https://www.bloomberg.com/news/videos/2026-10-08/openai-investment-boosts-tiger-global-s-hedge-fund-video",
-        "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
-        "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
-      ],
-      "posts": [
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "AI breakthroughs in robotics won’t change your life any time soon. The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
-          "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-          "created_at": "2026-10-08T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MIT Tech Review",
-          "tier": "press",
-          "text": "Why we’re watching these climate tech companies. This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting advances and firms we think are worth paying attention to in the world of climate and energy technology. &#8230;",
-          "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
-          "created_at": "2026-10-08T10:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "JPMorgan's Gehl on Tech & AI Fundraising, Capex, IPO. Matthew Gehl, Co-head of International Technology Investment Banking at JPMorgan spoke to Bloomberg's Tom Mackenzie at the 2026 JPMorgan Tech Stars event in London on Oct. 6. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-08/jpmorgan-s-gehl-on-tech-ai-fundraising-capex-ipo-video",
-          "created_at": "2026-10-08T12:03:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI Investment Boosts Tiger Global's Hedge Fund. OpenAI is in talks to raise $30 billion at a $1.4 trillion valuation, with Tiger Global poised for a paper profit of $5 billion. Hema Parmar reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-08/openai-investment-boosts-tiger-global-s-hedge-fund-video",
-          "created_at": "2026-10-08T13:40:50+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "caf855b73",
-      "score": 8.853,
+      "score": 8.521,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -432,59 +406,8 @@
       ]
     },
     {
-      "cluster_id": "c409f7814",
-      "score": 8.625,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Bloomberg Tech"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T12:00:00+00:00",
-      "last_seen": "2026-10-08T14:05:33+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-        "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
-        "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
-          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-          "created_at": "2026-10-08T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Google Launches Workplace AI Agent That Acts Like Colleague. Alphabet Inc.’s Google announced a Gemini agent for the workplace, ramping up competition with OpenAI, Anthropic PBC and Microsoft Corp. for corporate customers.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
-          "created_at": "2026-10-08T13:25:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Broadcom in Early Financing Talks for OpenAI Chips. Broadcom is planning its next blockbuster deal after launching a $60 billion debt financing to help fund Anthropic PBC's artificial intelligence build-out. Sarah Frier has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video",
-          "created_at": "2026-10-08T14:05:33+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "ceace4c5b",
-      "score": 7.778,
+      "score": 7.446,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -520,40 +443,50 @@
       ]
     },
     {
-      "cluster_id": "c26de1e3b",
-      "score": 3.625,
+      "cluster_id": "cb101f9cc",
+      "score": 5.703,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Microsoft"
+        "Apple",
+        "Amazon"
       ],
       "independent_sources": [
-        "Engadget",
-        "The Verge AI"
+        "404 Media",
+        "9to5Mac"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T17:47:14+00:00",
-      "last_seen": "2026-10-07T18:01:20+00:00",
+      "first_seen": "2026-10-07T19:34:00+00:00",
+      "last_seen": "2026-10-08T16:11:25+00:00",
       "links": [
-        "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
-        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+        "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
+        "https://9to5mac.com/2026/10/08/deals-airpods-m6-mac-mini-apple-watch-series-12/",
+        "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/"
       ],
       "posts": [
         {
-          "author": "Engadget",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Microsoft may have finally fixed Windows search by turning it into a chatbot. Microsoft's Copilot search redesign arrives this fall.",
-          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
-          "created_at": "2026-10-07T17:47:14+00:00",
+          "text": "Last chance: Apple’s flagship AirPods now up to $120 off for Prime Day. Update 10/7: Amazon now has official countdown clocks on thousands of deal prices set to end at Midnight Cupertino time, and the particularly notable AirPods Pro 3 discount is one of them – get in there while you can. With the Amazon fall Prime Day event now underway, it is one of the best times of year to refresh your AirPods. While we are still awaiting holiday-worthy pricing on Apple’s latest AirPods 5 models, with AirPods Pro 3 down this low they might be a better buy for most folks anyway, and the 2026 AirPods Max 2 are now $120 off in all five colorways for those looking to get into the ",
+          "url": "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
+          "created_at": "2026-10-07T19:34:00+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-          "created_at": "2026-10-07T18:01:20+00:00",
+          "text": "Deals: AirPods Pro 3/Max 2, all-time lows on M6 Mac mini, Apple Watch Series 12, 18 Pro cases, more. Welcome to your 9to5Toys Lunch Break Prime Day Hangover Edition. While the big fall Prime sale is over, the Apple deals are flying still and you’ll find the best of them here today. One of the best deals to date on AirPods Pro 3 is still live alongside AirPods Max 2 at $120 off and the all-time lows on the M6 Mac mini at $150 off. You’ll also find the new Apple Watch Series 12 configs still sitting at all-time lows, $200 price drops on M5 MacBook Air models, and the ongoing all-time lows on Apple’s iPhone 18 Pro cases. All of that and more awaits below. more…",
+          "url": "https://9to5mac.com/2026/10/08/deals-airpods-m6-mac-mini-apple-watch-series-12/",
+          "created_at": "2026-10-08T15:35:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "404 Media",
+          "tier": "press",
+          "text": "Podcast: Leak Show Cops Can Break into Locked iPhones. Cops are getting around a very important iPhone security feature; someone made an LLM torture chamber; and lawyers going wild with ChatGPT.",
+          "url": "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/",
+          "created_at": "2026-10-08T16:11:25+00:00",
           "engagement": 0
         }
       ]

@@ -520,6 +520,56 @@
    },
    "published_at": "2026-10-08T14:22:20+00:00",
    "id": "the-x-account-mark-k-posted"
+  },
+  {
+   "text": "Microsoft's open-source mxc repo runs untrusted code, including model output, in sandboxes on Windows, Linux and macOS; Unsloth says it added mxc sandboxing with under 100 milliseconds of overhead.",
+   "why": "Sandboxing agent-written code has been a Linux-first problem, so an MIT-licensed option for Windows matters to people running local agents.",
+   "source": {
+    "name": "Unsloth",
+    "url": "https://x.com/UnslothAI/status/2108229721159053557"
+   },
+   "published_at": "2026-10-08T16:35:09+00:00",
+   "id": "microsoft-s-open-source-mxc-repo"
+  },
+  {
+   "text": "Samsung Labs' LittleBit repo, on the Hacker News front page with 58 points, compresses LLMs to between 1.0 and 0.1 bits per weight; the code is released under a non-commercial licence.",
+   "why": "Sub-one-bit weights would shrink models far below today's 4-bit norm, though the README gives no benchmark numbers to check.",
+   "source": {
+    "name": "GitHub: SamsungLabs/LittleBit",
+    "url": "https://github.com/SamsungLabs/LittleBit"
+   },
+   "published_at": "2026-10-08T13:30:00+00:00",
+   "id": "samsung-labs-littlebit-repo-on-the"
+  },
+  {
+   "text": "Vals AI says Inception's new Mercury Decide model matched frontier accuracy on claim verification at the lowest cost it has measured, using the benchmark it built for TypeSafe's Jev.",
+   "why": "Diffusion-style language models are chasing cheap, fast checking tasks, and this is an outside benchmark rather than a maker's own claim.",
+   "source": {
+    "name": "Vals AI",
+    "url": "https://x.com/ValsAI/status/2108250279846219810"
+   },
+   "published_at": "2026-10-08T17:56:50+00:00",
+   "id": "vals-ai-says-inception-s-new"
+  },
+  {
+   "text": "Arena says its new Alignment Index, built from more than 90,000 real agent sessions across 27 models, scores unauthorized action, false attribution and deceptive completion, and that OpenAI models currently lead.",
+   "why": "It is a safety leaderboard drawn from real use rather than lab tests, from the group behind the popular chatbot rankings.",
+   "source": {
+    "name": "Arena",
+    "url": "https://x.com/arena/status/2108226499560214777"
+   },
+   "published_at": "2026-10-08T16:22:21+00:00",
+   "id": "arena-says-its-new-alignment-index"
+  },
+  {
+   "text": "Perplexity's Aravind Srinivas says its Perplexity Decider ranks first on DecisionBench and at the lowest cost; the claim comes from Perplexity itself and no outside run has been published.",
+   "why": "It is another cheap verification model claiming a top spot on a benchmark, a small-model tier that is drawing several makers.",
+   "source": {
+    "name": "Aravind Srinivas",
+    "url": "https://x.com/AravSrinivas/status/2108236575859753460"
+   },
+   "published_at": "2026-10-08T17:02:23+00:00",
+   "id": "perplexity-s-aravind-srinivas-says-its"
   }
  ]
 }
