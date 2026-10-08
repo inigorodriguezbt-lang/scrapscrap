@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-10-08T06:03:21.187862+00:00",
+  "generated_at": "2026-10-08T08:03:24.224686+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 130,
-  "clusters_found": 100,
-  "stories_declared": 9,
+  "posts_considered": 148,
+  "clusters_found": 112,
+  "stories_declared": 11,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2e42f899",
-      "score": 13.761,
+      "cluster_id": "c0e7b09a9",
+      "score": 12.919,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "ai",
       "entities": [
         "OpenAI",
+        "Anthropic",
         "Google",
-        "Meta",
-        "Nvidia"
+        "Apple",
+        "Amazon"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "Engadget",
-        "Google AI",
-        "TechCrunch AI",
-        "The Decoder"
+        "AWS ML",
+        "Latent Space",
+        "Simon Willison",
+        "Stratechery"
       ],
-      "source_count": 5,
-      "first_seen": "2026-10-07T12:00:00+00:00",
-      "last_seen": "2026-10-08T04:00:00+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-07T10:01:39+00:00",
+      "last_seen": "2026-10-08T07:27:51+00:00",
       "links": [
-        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-        "https://www.bloomberg.com/news/articles/2026-10-08/alphabet-s-isomorphic-labs-in-funding-talks-for-at-least-40-billion-value",
-        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+        "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
       ],
       "posts": [
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
-          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
-          "created_at": "2026-10-07T12:00:00+00:00",
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon. Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
+          "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+          "created_at": "2026-10-07T10:01:39+00:00",
           "engagement": 0
         },
         {
-          "author": "Google AI",
+          "author": "AWS ML",
           "tier": "primary",
-          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "created_at": "2026-10-07T12:00:00+00:00",
+          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "created_at": "2026-10-07T15:46:49+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
-          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-          "created_at": "2026-10-07T14:36:23+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:48:46+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-          "created_at": "2026-10-07T14:44:42+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "created_at": "2026-10-07T18:34:44+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-          "created_at": "2026-10-07T17:50:17+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Claude Haiku 5.5 on AWS. Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+          "created_at": "2026-10-07T18:52:10+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
-          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-          "created_at": "2026-10-07T17:58:20+00:00",
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Claude Haiku 5.5. As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also ",
+          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+          "created_at": "2026-10-07T20:56:21+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Alphabet’s Isomorphic Labs in Funding Talks for at Least $40 Billion Value. Isomorphic Labs, an AI-powered drug discovery startup spun out of Alphabet Inc.’s Google DeepMind, is in early talks to raise new funds at a valuation of at least $40 billion, according to people familiar with the effort.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/alphabet-s-isomorphic-labs-in-funding-talks-for-at-least-40-billion-value",
-          "created_at": "2026-10-08T04:00:00+00:00",
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
+          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+          "created_at": "2026-10-08T07:27:51+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cca31c29b",
-      "score": 12.942,
+      "score": 12.609,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -168,88 +168,67 @@
       ]
     },
     {
-      "cluster_id": "cc2db6a55",
-      "score": 10.763,
+      "cluster_id": "ce6b74eed",
+      "score": 10.915,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "business",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Apple",
-        "Amazon"
+        "Google"
       ],
       "independent_sources": [
-        "AWS ML",
-        "Simon Willison",
-        "Stratechery"
+        "Engadget",
+        "Google AI",
+        "TechCrunch AI",
+        "The Decoder"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T10:01:39+00:00",
-      "last_seen": "2026-10-07T20:56:21+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-07T12:00:00+00:00",
+      "last_seen": "2026-10-07T14:44:42+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
-        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-        "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/"
+        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
       ],
       "posts": [
         {
-          "author": "Stratechery",
-          "tier": "commentary",
-          "text": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon. Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
-          "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
-          "created_at": "2026-10-07T10:01:39+00:00",
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
+          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+          "created_at": "2026-10-07T12:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
+          "author": "Google AI",
           "tier": "primary",
-          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-          "created_at": "2026-10-07T15:46:49+00:00",
+          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "created_at": "2026-10-07T12:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-          "created_at": "2026-10-07T15:48:46+00:00",
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
+          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+          "created_at": "2026-10-07T14:36:23+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
-          "created_at": "2026-10-07T18:34:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Claude Haiku 5.5 on AWS. Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
-          "created_at": "2026-10-07T18:52:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Claude Haiku 5.5. As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also ",
-          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-          "created_at": "2026-10-07T20:56:21+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+          "created_at": "2026-10-07T14:44:42+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cebcc4aaf",
-      "score": 8.79,
+      "score": 8.457,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -298,27 +277,30 @@
       ]
     },
     {
-      "cluster_id": "c275229f2",
-      "score": 7.098,
+      "cluster_id": "c3ff031bf",
+      "score": 8.062,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
       "entities": [
         "OpenAI",
         "Google",
+        "Nvidia",
         "Apple"
       ],
       "independent_sources": [
         "9to5Google",
         "Ars Technica AI",
-        "Engadget"
+        "Engadget",
+        "The Decoder"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "first_seen": "2026-10-07T14:00:00+00:00",
-      "last_seen": "2026-10-07T15:11:35+00:00",
+      "last_seen": "2026-10-07T17:50:17+00:00",
       "links": [
         "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
         "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
         "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
       ],
       "posts": [
@@ -345,30 +327,58 @@
           "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
           "created_at": "2026-10-07T15:11:35+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+          "created_at": "2026-10-07T17:50:17+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c79faa702",
-      "score": 4.642,
-      "interest": "neutral",
+      "cluster_id": "c2a01560d",
+      "score": 7.974,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI"
       ],
       "independent_sources": [
+        "9to5Mac",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T19:06:40+00:00",
-      "last_seen": "2026-10-07T19:10:42+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-07T08:54:43+00:00",
+      "last_seen": "2026-10-07T20:57:28+00:00",
       "links": [
+        "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
         "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
         "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
       ],
       "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up. OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile ground rather than bring new ideas to life. The article OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+          "created_at": "2026-10-07T08:54:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+          "created_at": "2026-10-07T12:34:34+00:00",
+          "engagement": 0
+        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -384,12 +394,166 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
           "created_at": "2026-10-07T19:10:42+00:00",
           "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI. After introducing the first GPT-6 models last month, OpenAI today announced new GPT-6 models built for everyday ChatGPT conversations, alongside a new Intelligent UI. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+          "created_at": "2026-10-07T20:57:28+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf6faa52e",
+      "score": 7.607,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "Google",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T14:40:52+00:00",
+      "last_seen": "2026-10-08T07:30:31+00:00",
+      "links": [
+        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+        "https://www.bloomberg.com/news/articles/2026-10-08/finland-s-data-center-tally-tops-67-billion-on-ai-boom",
+        "https://www.bloomberg.com/news/videos/2026-10-08/isomorphic-labs-seeks-funding-at-valuation-of-40-bln-video",
+        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’. Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+          "created_at": "2026-10-07T14:40:52+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
+          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+          "created_at": "2026-10-07T17:58:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Isomorphic Labs Seeks Funding at Valuation of $40 Billion. Isomorphic Labs, an AI-powered drug discovery startup spun out of Alphabet Inc.’s Google DeepMind, is in early talks to raise new funds at a valuation of at least $40 billion, according to people familiar with the effort. Bloomberg's Neil Campling has the details. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-08/isomorphic-labs-seeks-funding-at-valuation-of-40-bln-video",
+          "created_at": "2026-10-08T06:25:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Finland’s Data Center Tally Tops €67 Billion on AI Boom. Finland’s data center boom is gathering pace, with several new projects unveiled since after Alphabet Inc.’s Google announced its biggest-ever European investment in the country last month.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/finland-s-data-center-tally-tops-67-billion-on-ai-boom",
+          "created_at": "2026-10-08T07:30:31+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "caadb3c41",
+      "score": 7.163,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Product Hunt AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T18:11:57+00:00",
+      "last_seen": "2026-10-07T18:14:13+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+        "https://www.producthunt.com/products/claude-haiku-5-5"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
+          "created_at": "2026-10-07T18:11:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
+          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+          "created_at": "2026-10-07T18:14:13+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c363e54a3",
+      "score": 5.894,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T09:00:00+00:00",
+      "last_seen": "2026-10-07T16:00:00+00:00",
+      "links": [
+        "https://openai.com/index/teens-learn-and-plan",
+        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "created_at": "2026-10-07T09:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Helping teens learn, plan, and shape the future of AI. College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "created_at": "2026-10-07T16:00:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c697d9358",
-      "score": 4.12,
+      "score": 3.786,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -427,56 +591,8 @@
       ]
     },
     {
-      "cluster_id": "c7943ed2d",
-      "score": 4.112,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T09:00:00+00:00",
-      "last_seen": "2026-10-07T16:00:00+00:00",
-      "links": [
-        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-          "created_at": "2026-10-07T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-          "created_at": "2026-10-07T12:34:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-          "created_at": "2026-10-07T16:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cb6edae5a",
-      "score": 4.048,
+      "score": 3.714,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
