@@ -30,6 +30,63 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-carbon-a-hf",
+   "section": "open-models",
+   "headline": "Hugging Face releases Carbon-A, an MIT-licensed model that marks coding DNA",
+   "standfirst": "Carbon-A is a 1.2-billion-parameter model from Hugging Face's biology team that predicts protein-coding regions at single-base resolution in eukaryotic genomes, with weights under the MIT licence.",
+   "body": [
+    "Hugging Face's biology team has published Carbon-A-1.2B, a 1.2-billion-parameter model that predicts protein-coding sequence at single-base resolution in eukaryotic genomes. The model card says it outputs separate probabilities for the forward and reverse strands. The repository was updated about five hours before this was written, and the card lists the licence as MIT.",
+    "According to the model card, Carbon-A reads DNA in non-overlapping six-letter chunks, up to 16,384 of them, or 98,304 bases, in one window. Longer records are cut into windows that overlap by half, with the overlapping predictions averaged. The weights are about 4.6 gigabytes, and the card says the model needs a CUDA-enabled PyTorch setup and Transformers 4.56 or later.",
+    "The card says Carbon-A was trained on RefSeq assemblies from a range of eukaryotes, from mammals to plants and fungi. It ships with two scripts: one annotates GenBank or FASTA files, the other runs pre-packed data. It is part of the Carbon family, whose 500-million, 3-billion and 8-billion-parameter DNA models Hugging Face released in May under Apache 2.0, according to coverage of that launch.",
+    "The card is cautious about its own results. It says its checks were functional only, run on an Nvidia H100, and that they \"do not measure agreement with reference CDS annotations\". It says the model predicts coding-sequence occupancy only, not transcript paths, isoforms or full gene structure, and that the evaluation panel was also used in training, so it is not a held-out test.",
+    "Hugging Face's organisation page also lists a 70.7-terabyte storage bucket named genbank-annotations, a 10.2-terabyte bucket of Carbon-A training data and a Space for exploring genome annotations, none with a description. Posts on X credit the project with a 566-million-gene map, but the model card carries no such figure and the claim is unconfirmed. Nobody outside Hugging Face has yet reported testing the model."
+   ],
+   "entities": [
+    "Hugging Face",
+    "Carbon-A"
+   ],
+   "sources": [
+    {
+     "author": "Hugging Face (Carbon-A-1.2B model card)",
+     "url": "https://huggingface.co/HuggingFaceBio/Carbon-A-1.2B"
+    },
+    {
+     "author": "Hugging Face (HuggingFaceBio organisation page)",
+     "url": "https://huggingface.co/HuggingFaceBio"
+    },
+    {
+     "author": "Runtime Wire",
+     "url": "https://runtimewire.com/article/lvwerra-carbon-dna-model-release"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-mittr-robotics-ai",
+   "section": "research",
+   "headline": "Robot AI has advanced but home robots are a decade off, MIT says",
+   "standfirst": "Agility Robotics cofounder Jonathan Hurst told MIT Technology Review he would put useful home robots at 10 years away, as Yann LeCun said no humanoid maker knows how to make them smart enough.",
+   "body": [
+    "MIT Technology Review reported on Thursday that AI has changed how robots are built but has not yet produced machines that work reliably in homes or factories. Agility Robotics cofounder Jonathan Hurst told the magazine: \"If I had to pick a number, I'd say it's 10 years\" before robots do useful work in homes. The piece is a collaboration with the non-profit Aventine.",
+    "The article contrasts forecasts with deployments. It says Elon Musk predicted public sales of Optimus by the end of 2027, and that Nvidia's Jensen Huang said in January that humanoids would match human ability this year. Yann LeCun told the magazine none of the humanoid makers has \"any idea how to make those robots smart enough to be useful\".",
+    "On the technology, the article describes a move from hand-coded policies to vision-language-action models trained on teleoperated demonstrations. Google DeepMind's Gemini Robotics can pack a lunchbox and use tongs on the low-cost ALOHA 2 arms, it says, but could fail outside its training, and a risotto-ingredients task did fail. Edward Johns of Imperial College London said it does \"a few things here and a few things there\".",
+    "Physical Intelligence's latest model, π0.7 from April, uses a lightweight world model that generates images of the steps a task needs, the article says. Asked to load a sweet potato into an air fryer, a task it had not been trained on, the robot made a passable attempt but did not finish. Sergey Levine of UC Berkeley called it the first convincing compositional generalisation.",
+    "Deployment is modest, per the article. Agility has hundreds of robots in trials at GXO Logistics, Amazon and the supplier Schaeffler, mostly moving totes. It says 1X's Neo is preorderable at $20,000 but needs a remote human operator for most tasks, and that nearly 90 per cent of about 15,000 humanoids shipped in 2025 came from Chinese companies, citing Omdia and Unitree. This is one outlet's account; the figures are the magazine's and may not be independently confirmed."
+   ],
+   "entities": [
+    "MIT Technology Review",
+    "Agility Robotics",
+    "Physical Intelligence"
+   ],
+   "sources": [
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-math-withdrawn",
    "section": "research",
    "headline": "OpenAI withdraws three of its AI-written maths papers over a sign error",
@@ -192,7 +249,7 @@
      "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-spacex-40b-nvidia-debt",
@@ -218,7 +275,7 @@
      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-reportedly-seeking-usd40-billion-debt-package-for-nvidia-ai-hardware-massive-raise-could-fund-roughly-360-000-vera-rubin-gpus-across-5-000-nvl72-racks"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-amd-verano-sb1-socket",

@@ -1,58 +1,56 @@
 {
-  "generated_at": "2026-10-08T14:03:41.339178+00:00",
+  "generated_at": "2026-10-08T16:04:19.741100+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 151,
-  "clusters_found": 111,
+  "posts_considered": 137,
+  "clusters_found": 101,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c31864716",
-      "score": 13.822,
+      "cluster_id": "c3b68ab70",
+      "score": 17.476,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "Google",
         "Nvidia",
         "Microsoft",
+        "Amazon",
         "AMD"
       ],
       "independent_sources": [
+        "9to5Google",
         "Ars Technica AI",
-        "Engadget",
         "NVIDIA",
         "TechCrunch AI",
         "The Verge AI",
-        "Tom's Hardware"
+        "Tom's Hardware",
+        "simonw"
       ],
-      "source_count": 6,
-      "first_seen": "2026-10-07T17:41:41+00:00",
-      "last_seen": "2026-10-08T10:57:45+00:00",
+      "source_count": 7,
+      "first_seen": "2026-10-07T17:46:44+00:00",
+      "last_seen": "2026-10-08T15:53:32+00:00",
       "links": [
+        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
         "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
         "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-        "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
-        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+        "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+        "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+        "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
         "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
+        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
+        "https://x.com/simonw/status/2108216753604248000"
       ],
       "posts": [
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Everything announced at Microsoft's Windows and Surface event. The company highlighted agentic AI features for Windows as well as the Surface Laptop Ultra.",
-          "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
-          "created_at": "2026-10-07T17:41:41+00:00",
-          "engagement": 0
-        },
-        {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-          "created_at": "2026-10-07T18:01:20+00:00",
+          "text": "Surface RTX Spark Dev Box is available for preorder for $5,999. Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices have been climbing due to shortages of RAM and other components. The Dev Box's flat, 3D-printed anodized [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+          "created_at": "2026-10-07T17:46:44+00:00",
           "engagement": 0
         },
         {
@@ -94,72 +92,136 @@
           "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
           "created_at": "2026-10-08T10:57:45+00:00",
           "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "5 days to TechCrunch Disrupt 2026: Don’t pay more at the door for your pass. The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco’s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
+          "url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+          "created_at": "2026-10-08T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026. Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.",
+          "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+          "created_at": "2026-10-08T15:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "simonw",
+          "tier": "commentary",
+          "text": "New open source cross-platform (Windows, macOS, Linux) sandboxing library from Microsoft - looks very promising, uses processcontainer/bubblewrap/seatbelt under the hood https://t.co/WMW0AXeBoG",
+          "url": "https://x.com/simonw/status/2108216753604248000",
+          "created_at": "2026-10-08T15:23:37+00:00",
+          "engagement": 100
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
+          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+          "created_at": "2026-10-08T15:53:32+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cbeeae789",
-      "score": 12.433,
+      "cluster_id": "c3da20779",
+      "score": 13.714,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Product Hunt AI",
+        "The Verge AI",
+        "testingcatalog"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-08T02:20:15+00:00",
+      "last_seen": "2026-10-08T14:28:03+00:00",
+      "links": [
+        "https://www.producthunt.com/products/claude-for-google-workspace",
+        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+        "https://x.com/testingcatalog/status/2108201283777700103"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Claude for Google Workspace. Bring Claude directly into Google Docs, Sheets & Slides Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-for-google-workspace",
+          "created_at": "2026-10-08T02:20:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "GOOGLE 🔥: A new Gemini Agent for Gemini Enterprise has been announced as a part of Gemini at Work updates.\n\n- Gemini, a single, universal agent for work that answers your questions, handles your knowledge work, creates your images and media, and writes and runs code. \n\n- Inline in Workspace, Gemini works directly inside Gmail, Drive, Docs, Slides, Sheets, Chat, and Calendar, carrying the same memory, skills, and controls it has everywhere else.",
+          "url": "https://x.com/testingcatalog/status/2108201283777700103",
+          "created_at": "2026-10-08T14:22:09+00:00",
+          "engagement": 253
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is launching a one-stop Gemini agent for your work tasks. Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+          "created_at": "2026-10-08T14:28:03+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c87e74c4d",
+      "score": 11.994,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Google",
         "Amazon"
       ],
       "independent_sources": [
+        "9to5Mac",
         "AWS ML",
         "Latent Space",
+        "Product Hunt AI",
         "Simon Willison",
         "The Decoder"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T15:38:28+00:00",
+      "source_count": 6,
+      "first_seen": "2026-10-07T18:11:57+00:00",
       "last_seen": "2026-10-08T10:30:23+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-        "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
         "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
         "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
         "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
-        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+        "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+        "https://www.producthunt.com/products/claude-haiku-5-5"
       ],
       "posts": [
         {
-          "author": "AWS ML",
+          "author": "Product Hunt AI",
           "tier": "primary",
-          "text": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock. Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
-          "created_at": "2026-10-07T15:38:28+00:00",
+          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
+          "created_at": "2026-10-07T18:11:57+00:00",
           "engagement": 0
         },
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-          "created_at": "2026-10-07T15:46:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-          "created_at": "2026-10-07T15:48:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
-          "created_at": "2026-10-07T18:34:44+00:00",
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
+          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+          "created_at": "2026-10-07T18:14:13+00:00",
           "engagement": 0
         },
         {
@@ -205,100 +267,8 @@
       ]
     },
     {
-      "cluster_id": "c54031f17",
-      "score": 11.618,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta",
-        "Nvidia",
-        "Microsoft",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Bloomberg Tech",
-        "TechCrunch AI",
-        "The Decoder"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T14:36:23+00:00",
-      "last_seen": "2026-10-08T13:25:05+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-        "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
-        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-        "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
-          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-          "created_at": "2026-10-07T14:36:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-          "created_at": "2026-10-07T14:44:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-          "created_at": "2026-10-07T17:50:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
-          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-          "created_at": "2026-10-07T17:58:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
-          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-          "created_at": "2026-10-08T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found. Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found appeared first on The Decoder .",
-          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
-          "created_at": "2026-10-08T13:01:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Google Launches ‘Universal’ Gemini AI Agent for Workplace. Alphabet Inc.’s Google announced a “universal” Gemini agent for the workplace, ramping up competition with OpenAI, Anthropic PBC and Microsoft Corp. for corporate customers.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
-          "created_at": "2026-10-08T13:25:05+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c5e3ee71b",
-      "score": 10.136,
+      "score": 9.801,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -366,59 +336,155 @@
       ]
     },
     {
-      "cluster_id": "ca873a0af",
-      "score": 9.725,
+      "cluster_id": "cdcf0ad25",
+      "score": 8.886,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "MIT Tech Review"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T09:00:00+00:00",
+      "last_seen": "2026-10-08T13:40:50+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-10-08/jpmorgan-s-gehl-on-tech-ai-fundraising-capex-ipo-video",
+        "https://www.bloomberg.com/news/videos/2026-10-08/openai-investment-boosts-tiger-global-s-hedge-fund-video",
+        "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
+        "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
+      ],
+      "posts": [
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "AI breakthroughs in robotics won’t change your life any time soon. The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
+          "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+          "created_at": "2026-10-08T09:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "MIT Tech Review",
+          "tier": "press",
+          "text": "Why we’re watching these climate tech companies. This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting advances and firms we think are worth paying attention to in the world of climate and energy technology. &#8230;",
+          "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
+          "created_at": "2026-10-08T10:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "JPMorgan's Gehl on Tech & AI Fundraising, Capex, IPO. Matthew Gehl, Co-head of International Technology Investment Banking at JPMorgan spoke to Bloomberg's Tom Mackenzie at the 2026 JPMorgan Tech Stars event in London on Oct. 6. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-08/jpmorgan-s-gehl-on-tech-ai-fundraising-capex-ipo-video",
+          "created_at": "2026-10-08T12:03:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI Investment Boosts Tiger Global's Hedge Fund. OpenAI is in talks to raise $30 billion at a $1.4 trillion valuation, with Tiger Global poised for a paper profit of $5 billion. Hema Parmar reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-08/openai-investment-boosts-tiger-global-s-hedge-fund-video",
+          "created_at": "2026-10-08T13:40:50+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "caf855b73",
+      "score": 8.853,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Meta",
-        "Apple"
+        "Google"
       ],
       "independent_sources": [
-        "9to5Mac",
+        "TechCrunch AI",
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T15:02:24+00:00",
-      "last_seen": "2026-10-08T14:00:00+00:00",
+      "first_seen": "2026-10-08T13:28:39+00:00",
+      "last_seen": "2026-10-08T15:27:30+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
-        "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
+        "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+        "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude. SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s ChatGPT Dot, Grok Bot just got a new capability upgrade with the help of Anthropic’s Claude. more…",
-          "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
-          "created_at": "2026-10-07T15:02:24+00:00",
+          "text": "Google releases a new local-first Granola competitor. Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI.",
+          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+          "created_at": "2026-10-08T13:28:39+00:00",
           "engagement": 0
         },
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-          "created_at": "2026-10-07T15:37:23+00:00",
+          "text": "Google’s AI note-taking app transcribes your meetings completely offline. Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on macOS using the company's on-device EmbeddingGemma 2 model. Similar to AI note-taking apps like Granola and Wispr Flow, Foresight summarizes [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+          "created_at": "2026-10-08T15:27:30+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c409f7814",
+      "score": 8.625,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Bloomberg Tech"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T12:00:00+00:00",
+      "last_seen": "2026-10-08T14:05:33+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+        "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
+        "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
+          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+          "created_at": "2026-10-08T12:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?. My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier [&#8230;]",
-          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-          "created_at": "2026-10-08T14:00:00+00:00",
+          "text": "Google Launches Workplace AI Agent That Acts Like Colleague. Alphabet Inc.’s Google announced a Gemini agent for the workplace, ramping up competition with OpenAI, Anthropic PBC and Microsoft Corp. for corporate customers.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
+          "created_at": "2026-10-08T13:25:05+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Broadcom in Early Financing Talks for OpenAI Chips. Broadcom is planning its next blockbuster deal after launching a $60 billion debt financing to help fund Anthropic PBC's artificial intelligence build-out. Sarah Frier has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-08/broadcom-in-early-financing-talks-for-openai-chips-video",
+          "created_at": "2026-10-08T14:05:33+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ceace4c5b",
-      "score": 8.113,
+      "score": 7.778,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -454,120 +520,40 @@
       ]
     },
     {
-      "cluster_id": "caadb3c41",
-      "score": 6.966,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Product Hunt AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T18:11:57+00:00",
-      "last_seen": "2026-10-07T18:14:13+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-        "https://www.producthunt.com/products/claude-haiku-5-5"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
-          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
-          "created_at": "2026-10-07T18:11:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
-          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-          "created_at": "2026-10-07T18:14:13+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb740417d",
-      "score": 6.125,
-      "interest": "want",
+      "cluster_id": "c26de1e3b",
+      "score": 3.625,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Meta"
+        "Microsoft"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "TechCrunch AI"
+        "Engadget",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T14:19:14+00:00",
-      "last_seen": "2026-10-07T18:30:57+00:00",
+      "first_seen": "2026-10-07T17:47:14+00:00",
+      "last_seen": "2026-10-07T18:01:20+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-        "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/"
+        "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
+        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
-          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-          "created_at": "2026-10-07T14:19:14+00:00",
+          "text": "Microsoft may have finally fixed Windows search by turning it into a chatbot. Microsoft's Copilot search redesign arrives this fall.",
+          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
+          "created_at": "2026-10-07T17:47:14+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Meta’s Muse launches on iPad just a month after its mobile debut. Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
-          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-          "created_at": "2026-10-07T18:30:57+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb6edae5a",
-      "score": 3.296,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google",
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "9to5Mac"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T15:47:03+00:00",
-      "last_seen": "2026-10-07T19:34:00+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
-        "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Prime Day 2 deals – Last chance: Galaxy Tab S12 up to $650 off w/ trade, S11 $355 off, Galaxy Z Fold 8 all-time low, more. Alongside the now live Galaxy Tab S11 models now at up to $355 off the list prices. Those offers join the now even lower prices on Galaxy Z Fold 8 and Ultra models at new Amazon all-time lows (Up to $400 off) as well as a long list of Google pixel deals – up to $300 of Pixel 11 series phones, new all-time lows across the Pixel Watch 5 lineup, and solid discounts on Pixel Buds Pro 2. We also have along list of deals across the current-generation Noting lineup, loads of Anker chargers, and much more waiting below more…",
-          "url": "https://9to5google.com/2026/10/07/samsung-galaxy-tab-s12ultra-launch-deals-now-live-up-to-650-off/",
-          "created_at": "2026-10-07T15:47:03+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Last chance: Apple’s flagship AirPods now up to $120 off for Prime Day. Update 10/7: Amazon now has official countdown clocks on thousands of deal prices set to end at Midnight Cupertino time, and the particularly notable AirPods Pro 3 discount is one of them – get in there while you can. With the Amazon fall Prime Day event now underway, it is one of the best times of year to refresh your AirPods. While we are still awaiting holiday-worthy pricing on Apple’s latest AirPods 5 models, with AirPods Pro 3 down this low they might be a better buy for most folks anyway, and the 2026 AirPods Max 2 are now $120 off in all five colorways for those looking to get into the ",
-          "url": "https://9to5mac.com/2026/10/07/apples-flagship-airpods-now-up-to-120-off-for-prime-day/",
-          "created_at": "2026-10-07T19:34:00+00:00",
+          "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "created_at": "2026-10-07T18:01:20+00:00",
           "engagement": 0
         }
       ]
