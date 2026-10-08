@@ -30,6 +30,51 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-korea-bank-hacks-ai-tools",
+   "section": "security",
+   "headline": "South Korean bank breaches traced to an open-source AI hacking tool",
+   "standfirst": "A tool called ARTEX, which drives models such as DeepSeek v4.1-Flash and GLM-5.3, was reportedly behind breaches at several South Korean banks that exposed data on about 26,000 people.",
+   "body": [
+    "South Korea's Financial Security Institute traced attack addresses and server logs from Shinhan Bank, the first institution to report, and found evidence pointing to ARTEX, according to the Korea Herald. The paper describes ARTEX as an open-source penetration-testing system built on large language models and distributed mainly through GitHub. An institute official told it the hacker used the AI as a tool.",
+    "The Decoder, citing a CrowdStrike report, says the attacks may have been the work of one person. Andrew Curran, an AI commentator, wrote on X that the stack combined ARTEX with DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6 and Claude Code. We could not find the CrowdStrike report itself, so the single-attacker claim rests on that secondhand account and has not been confirmed by the banks or regulators.",
+    "The Decoder reports that researchers identified the suspect after finding Claude Code session logs in open directories on the attacker's server. The logs, it says, showed searches for Telegram groups where stolen data could be sold. The Decoder calls the attacker a suspected Chinese-speaking individual and describes the identification as likely, not established, and gives no further detail on how the investigators connected the logs to a person.",
+    "The Korea Herald puts the confirmed total at just under 26,000 people. Shinhan Bank accounts for 25,729 of them, taken through a loan-agent inquiry service. It lists 119 records at KB Kookmin Bank, 89 at Hana Bank and 11 contract workers at BNK Busan Bank. Woori Bank and NH NongHyup Bank were targeted but not breached, and two savings banks are still under investigation.",
+    "BleepingComputer reported on October 5 that the banks and authorities had not at that point confirmed ARTEX use at Shinhan, and that Yonhap's first sign was a Chinese-language string in a server page title. The Financial Services Commission held an emergency meeting and told firms to inspect externally accessible systems. The Korea Herald says the institute considers direct fund transfers unlikely, though leaked data could feed voice phishing."
+   ],
+   "entities": [
+    "ARTEX",
+    "CrowdStrike",
+    "Shinhan Bank",
+    "DeepSeek",
+    "GLM-5.3"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/"
+    },
+    {
+     "author": "Korea Herald",
+     "url": "https://biz.heraldcorp.com/article/10892497"
+    },
+    {
+     "author": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/"
+    },
+    {
+     "author": "Andrew Curran",
+     "url": "https://x.com/AndrewCurran_/status/2108108695876092323"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AndrewCurran_/status/2108108695876092323",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-rsigym-evolvent",
    "section": "research",
    "headline": "Open-source RSIGym lets Claude Opus 5 retrain a Qwen model on a $500 budget",
@@ -228,7 +273,7 @@
      "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }

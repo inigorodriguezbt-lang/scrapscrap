@@ -1,105 +1,114 @@
 {
-  "generated_at": "2026-10-08T08:03:24.224686+00:00",
+  "generated_at": "2026-10-08T10:03:22.366845+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 148,
-  "clusters_found": 112,
-  "stories_declared": 11,
+  "posts_considered": 149,
+  "clusters_found": 109,
+  "stories_declared": 13,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0e7b09a9",
-      "score": 12.919,
+      "cluster_id": "c9dbfcca6",
+      "score": 13.92,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
         "OpenAI",
-        "Anthropic",
-        "Google",
-        "Apple",
-        "Amazon"
+        "Anthropic"
       ],
       "independent_sources": [
-        "AWS ML",
-        "Latent Space",
-        "Simon Willison",
-        "Stratechery"
+        "OpenAI",
+        "The Verge AI",
+        "testingcatalog"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T10:01:39+00:00",
-      "last_seen": "2026-10-08T07:27:51+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-07T12:00:00+00:00",
+      "last_seen": "2026-10-08T08:13:39+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
-        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
-        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-        "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
-        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+        "https://openai.com/index/teens-learn-and-plan",
+        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+        "https://x.com/testingcatalog/status/2108108547741405596"
       ],
       "posts": [
         {
-          "author": "Stratechery",
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Helping teens learn, plan, and shape the future of AI. College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "created_at": "2026-10-07T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon. Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
-          "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
-          "created_at": "2026-10-07T10:01:39+00:00",
-          "engagement": 0
-        },
+          "text": "DAILY AI BRIEF Oct 8. ANTHROPIC: Anthropic launched Claude Haiku 5.5 with a 1M-token context window and adjustable effort, priced at $0.10/$0.50 per million tokens. Prompt cache reads on Claude Sonnet 5.5 now cost half as much, dropping from $0.20 to $0.10 per million tokens. OPENAI: A new GPT-6 version with Intelligent UI is rolling out to all ChatGPT users, bringing interactive visual answers. ChatGPT for Teens is getting a College Planner.",
+          "url": "https://x.com/testingcatalog/status/2108108547741405596",
+          "created_at": "2026-10-08T08:13:39+00:00",
+          "engagement": 59
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd6f4237d",
+      "score": 13.646,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "AndrewCurran_",
+        "The Decoder",
+        "kimmonismus"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-08T08:14:14+00:00",
+      "last_seen": "2026-10-08T09:24:17+00:00",
+      "links": [
+        "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+        "https://x.com/AndrewCurran_/status/2108108695876092323",
+        "https://x.com/kimmonismus/status/2108123283782512927"
+      ],
+      "posts": [
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-          "created_at": "2026-10-07T15:46:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-          "created_at": "2026-10-07T15:48:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
-          "created_at": "2026-10-07T18:34:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Claude Haiku 5.5 on AWS. Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
-          "created_at": "2026-10-07T18:52:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
+          "author": "AndrewCurran_",
           "tier": "commentary",
-          "text": "Claude Haiku 5.5. As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also ",
-          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-          "created_at": "2026-10-07T20:56:21+00:00",
-          "engagement": 0
+          "text": "Last week some of South Korea's biggest banks were hit by a cyberattack. Thanks to a report from CrowdStrike tonight, we now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code.",
+          "url": "https://x.com/AndrewCurran_/status/2108108695876092323",
+          "created_at": "2026-10-08T08:14:14+00:00",
+          "engagement": 1097
         },
         {
-          "author": "Latent Space",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
-          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-          "created_at": "2026-10-08T07:27:51+00:00",
+          "text": "And so it begins. South Korea's biggest banks were hit by a cyberattack and the hacker didn't even use the best SOTA models, DeepSeek 4.1 Flash, GLM-5.3 and Grok 4.6.",
+          "url": "https://x.com/kimmonismus/status/2108123283782512927",
+          "created_at": "2026-10-08T09:12:12+00:00",
+          "engagement": 239
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks. According to CrowdStrike, a suspected Chinese-speaking attacker hacked multiple South Korean financial institutions. At Shinhan Bank alone, more than 25,000 customer records were stolen. The attacker used ARTEX, an open-source tool that uses AI models like DeepSeek and GLM-5.3 for automated penetration testing. CrowdStrike says the case shows how AI tools can let a single person pull off massive breaches. The article AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+          "created_at": "2026-10-08T09:24:17+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cca31c29b",
-      "score": 12.609,
+      "score": 12.275,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -168,6 +177,94 @@
       ]
     },
     {
+      "cluster_id": "c8fcd941a",
+      "score": 11.762,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "Latent Space",
+        "Simon Willison"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T15:38:28+00:00",
+      "last_seen": "2026-10-08T07:27:51+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+        "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+      ],
+      "posts": [
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock. Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:38:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "created_at": "2026-10-07T15:46:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:48:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "created_at": "2026-10-07T18:34:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Claude Haiku 5.5 on AWS. Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+          "created_at": "2026-10-07T18:52:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Claude Haiku 5.5. As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also ",
+          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+          "created_at": "2026-10-07T20:56:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
+          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+          "created_at": "2026-10-08T07:27:51+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ce6b74eed",
       "score": 10.915,
       "interest": "want",
@@ -227,8 +324,117 @@
       ]
     },
     {
+      "cluster_id": "cc6e94b94",
+      "score": 10.531,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Meta"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "mark_k"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T15:02:24+00:00",
+      "last_seen": "2026-10-08T08:26:31+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+        "https://x.com/mark_k/status/2108111788722049382"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude. SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s ChatGPT Dot, Grok Bot just got a new capability upgrade with the help of Anthropic’s Claude. more…",
+          "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+          "created_at": "2026-10-07T15:02:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Grok Bot just got a HUGE upgrade: native access to X! Grok Bot can now directly read and search X, and even monitor topics for you.",
+          "url": "https://x.com/mark_k/status/2108111788722049382",
+          "created_at": "2026-10-08T08:26:31+00:00",
+          "engagement": 64
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf6aa04c8",
+      "score": 10.191,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Engadget",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-07T12:34:34+00:00",
+      "last_seen": "2026-10-08T08:45:16+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+        "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+        "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
+        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
+          "created_at": "2026-10-07T12:34:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps. OpenAI is rolling out GPT-6 with \"Intelligent UI,\" a feature that turns answers into interactive interfaces with charts, buttons, and forms. The model can now respond while still thinking, cutting wait times by 44 percent. Paying customers get GPT-6 Sol, free users get GPT-6 Luna. The article ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+          "created_at": "2026-10-07T19:06:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons. OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+          "created_at": "2026-10-07T19:10:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI. After introducing the first GPT-6 models last month, OpenAI today announced new GPT-6 models built for everyday ChatGPT conversations, alongside a new Intelligent UI. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+          "created_at": "2026-10-07T20:57:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "GPT-6 is coming to all tiers of ChatGPT. OpenAI is rolling out GPT-6 to ChatGPT, and it will come with the capability to build more visual responses.",
+          "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
+          "created_at": "2026-10-08T08:45:16+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cebcc4aaf",
-      "score": 8.457,
+      "score": 8.213,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -277,8 +483,57 @@
       ]
     },
     {
+      "cluster_id": "ca4d0af10",
+      "score": 8.159,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Product Hunt AI",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-07T18:11:57+00:00",
+      "last_seen": "2026-10-07T18:49:23+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+        "https://www.producthunt.com/products/claude-haiku-5-5"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
+          "created_at": "2026-10-07T18:11:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
+          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
+          "created_at": "2026-10-07T18:14:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over. Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+          "created_at": "2026-10-07T18:49:23+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c3ff031bf",
-      "score": 8.062,
+      "score": 7.932,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -339,75 +594,8 @@
       ]
     },
     {
-      "cluster_id": "c2a01560d",
-      "score": 7.974,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T08:54:43+00:00",
-      "last_seen": "2026-10-07T20:57:28+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
-        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-        "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
-        "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
-        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up. OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile ground rather than bring new ideas to life. The article OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
-          "created_at": "2026-10-07T08:54:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-          "created_at": "2026-10-07T12:34:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps. OpenAI is rolling out GPT-6 with \"Intelligent UI,\" a feature that turns answers into interactive interfaces with charts, buttons, and forms. The model can now respond while still thinking, cutting wait times by 44 percent. Paying customers get GPT-6 Sol, free users get GPT-6 Luna. The article ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
-          "created_at": "2026-10-07T19:06:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons. OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-          "created_at": "2026-10-07T19:10:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI. After introducing the first GPT-6 models last month, OpenAI today announced new GPT-6 models built for everyday ChatGPT conversations, alongside a new Intelligent UI. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
-          "created_at": "2026-10-07T20:57:28+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cf6faa52e",
-      "score": 7.607,
+      "score": 7.274,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -465,95 +653,8 @@
       ]
     },
     {
-      "cluster_id": "caadb3c41",
-      "score": 7.163,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Product Hunt AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T18:11:57+00:00",
-      "last_seen": "2026-10-07T18:14:13+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-        "https://www.producthunt.com/products/claude-haiku-5-5"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Claude Haiku 5.5. Anthropic's fastest and most capable Haiku yet Discussion | Link",
-          "url": "https://www.producthunt.com/products/claude-haiku-5-5",
-          "created_at": "2026-10-07T18:11:57+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Anthropic upgrades Claude with new Haiku 5.5 model, details here. Anthropic has released its latest AI model with Claude Haiku 5.5. The new version arrives about a year after the previous Haiku model upgrade. more…",
-          "url": "https://9to5mac.com/2026/10/07/anthropic-upgrades-claude-with-new-haiku-5-5-model-details-here/",
-          "created_at": "2026-10-07T18:14:13+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c363e54a3",
-      "score": 5.894,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T09:00:00+00:00",
-      "last_seen": "2026-10-07T16:00:00+00:00",
-      "links": [
-        "https://openai.com/index/teens-learn-and-plan",
-        "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-        "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media. Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-          "created_at": "2026-10-07T09:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Helping teens learn, plan, and shape the future of AI. College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-          "url": "https://openai.com/index/teens-learn-and-plan",
-          "created_at": "2026-10-07T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT is getting college planning tools. OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-          "created_at": "2026-10-07T16:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c697d9358",
-      "score": 3.786,
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -592,7 +693,7 @@
     },
     {
       "cluster_id": "cb6edae5a",
-      "score": 3.714,
+      "score": 3.381,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",

@@ -278,6 +278,36 @@
    "tag": "research",
    "published_at": "2026-10-08T00:00:00+00:00",
    "id": "sgf-a-video-generation-paper-on"
+  },
+  {
+   "text": "Agent.reviews, a Show HN site from Armature, collects software tool reviews written by coding agents such as Claude Code and Codex after real tasks; it says it never receives users' code or prompts.",
+   "why": "Agents install a skill file to post reviews, so tool ratings come from the software's actual users: other software.",
+   "source": {
+    "name": "agent.reviews",
+    "url": "https://agent.reviews/"
+   },
+   "published_at": "2026-10-07T16:59:11+00:00",
+   "id": "agent-reviews-a-show-hn-site"
+  },
+  {
+   "text": "Zhejiang University's STEPQuant paper says quantising the recurrent states of linear-attention models cuts a memory bottleneck in concurrent serving, and finds that where errors land matters. It has 84 upvotes on Hugging Face.",
+   "why": "Linear attention swaps growing KV caches for fixed-size states, so shrinking those states could let servers handle more simultaneous requests.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2609.38169"
+   },
+   "published_at": "2026-10-08T00:00:00+00:00",
+   "id": "zhejiang-university-s-stepquant-paper-says"
+  },
+  {
+   "text": "A Hugging Face paper from Huang's INTelligence lab says self-evolving reasoning models collapse over repeated rounds because of invalid and repeated self-generated questions, and proposes a way to sustain improvement. It has 56 upvotes.",
+   "why": "Models training on their own questions is a popular route past scarce data, so a diagnosis of why it stalls matters.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.04299"
+   },
+   "published_at": "2026-10-08T00:00:00+00:00",
+   "id": "a-hugging-face-paper-from-huang"
   }
  ]
 }
