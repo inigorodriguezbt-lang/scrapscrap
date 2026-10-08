@@ -1,128 +1,102 @@
 {
-  "generated_at": "2026-10-08T20:03:37.045199+00:00",
+  "generated_at": "2026-10-08T22:03:35.428690+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 111,
-  "clusters_found": 78,
+  "posts_considered": 106,
+  "clusters_found": 79,
   "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c537d6206",
-      "score": 14.352,
+      "cluster_id": "ca8e9d885",
+      "score": 13.069,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Anthropic",
-        "Google"
-      ],
+      "suggested_section": "chips",
+      "entities": [],
       "independent_sources": [
-        "Product Hunt AI",
-        "The Decoder",
-        "claudeai"
+        "The Verge AI",
+        "nvidia"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T20:38:11+00:00",
-      "last_seen": "2026-10-08T19:17:22+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-08T17:57:01+00:00",
+      "last_seen": "2026-10-08T20:20:16+00:00",
       "links": [
-        "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
-        "https://www.producthunt.com/products/claude-for-google-workspace",
-        "https://www.producthunt.com/products/clawcall",
-        "https://www.producthunt.com/products/epilude",
-        "https://www.producthunt.com/products/polylane",
-        "https://www.producthunt.com/products/semwright",
-        "https://www.producthunt.com/products/simo-3",
-        "https://www.producthunt.com/products/strac-comply",
-        "https://www.producthunt.com/products/tonefold",
-        "https://x.com/claudeai/status/2108271559928389679"
+        "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+        "https://x.com/nvidia/status/2108291409623314770"
       ],
       "posts": [
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Simo. The judgment layer for software that acts Discussion | Link",
-          "url": "https://www.producthunt.com/products/simo-3",
-          "created_at": "2026-10-07T20:38:11+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Epilude Narrator. Listen to any article, doc or text on your Mac Discussion | Link",
-          "url": "https://www.producthunt.com/products/epilude",
-          "created_at": "2026-10-07T21:03:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Polylane for Vercel. An AI on-call engineer for your Vercel apps Discussion | Link",
-          "url": "https://www.producthunt.com/products/polylane",
-          "created_at": "2026-10-07T22:05:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Semwright. Give AI agents structured access to real software Discussion | Link",
-          "url": "https://www.producthunt.com/products/semwright",
-          "created_at": "2026-10-08T01:08:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Strac Comply. Get SOC 2 without the sales call Discussion | Link",
-          "url": "https://www.producthunt.com/products/strac-comply",
-          "created_at": "2026-10-08T01:39:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Claude for Google Workspace. Bring Claude directly into Google Docs, Sheets & Slides Discussion | Link",
-          "url": "https://www.producthunt.com/products/claude-for-google-workspace",
-          "created_at": "2026-10-08T02:20:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Tonefold. Describe a song, get every part as editable MIDI Discussion | Link",
-          "url": "https://www.producthunt.com/products/tonefold",
-          "created_at": "2026-10-08T04:28:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "ClawCall. Your AI agent's phone to dial, hold, and reports back Discussion | Link",
-          "url": "https://www.producthunt.com/products/clawcall",
-          "created_at": "2026-10-08T05:27:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "claudeai",
-          "tier": "commentary",
-          "text": "Starting today, Claude Docs, Slides, and Design are out of beta and available on every plan including Free.\n\nYour team and Claude can edit the same doc, deck, or design together.",
-          "url": "https://x.com/claudeai/status/2108271559928389679",
-          "created_at": "2026-10-08T19:01:24+00:00",
-          "engagement": 290
-        },
-        {
-          "author": "The Decoder",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Claude can now generate animated explainer videos and live data dashboards from text prompts. Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design now work across all plans, including free accounts. The article Claude can now generate animated explainer videos and live data dashboards from text prompts appeared first on The Decoder .",
-          "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
-          "created_at": "2026-10-08T19:17:22+00:00",
+          "text": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute. If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's [&#8230;]",
+          "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+          "created_at": "2026-10-08T17:57:01+00:00",
           "engagement": 0
+        },
+        {
+          "author": "nvidia",
+          "tier": "commentary",
+          "text": "Congratulations to our CEO @JensenHuang on receiving the National Medal of Science for advancing GPU computing to power scientific breakthroughs.\n\nAnd to fellow honorees Elon Musk, Lisa Su, Michael Dell, Satya Nadella, and Sergey Brin.",
+          "url": "https://x.com/nvidia/status/2108291409623314770",
+          "created_at": "2026-10-08T20:20:16+00:00",
+          "engagement": 2656
         }
       ]
     },
     {
-      "cluster_id": "c78f1b5f2",
-      "score": 13.513,
+      "cluster_id": "c3c533b3b",
+      "score": 12.781,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "independent_sources": [
+        "AndrewCurran_",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-08T14:00:00+00:00",
+      "last_seen": "2026-10-08T20:21:00+00:00",
+      "links": [
+        "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+        "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+        "https://x.com/AndrewCurran_/status/2108291593031843988"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?. My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier [&#8230;]",
+          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+          "created_at": "2026-10-08T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field. The Association for Human Mathematics is calling for an OpenAI boycott after the company released more than 700 AI-generated math manuscripts at once. OpenAI had to retract three papers the next day over a sign error. Fields Medalist Terence Tao warns that AI's mass \"harvesting\" of open problems leaves entire branches of mathematics less fertile. The article Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field appeared first on The Decoder .",
+          "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+          "created_at": "2026-10-08T18:17:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "To become a member of the Association for Human Mathematics you must make three vows:\n\n1. Members commit to not working with commercial AI companies by providing technical labor, mathematical knowledge, consultation, or publicity. \n\n2. Members commit to not publishing mathematical texts (including papers, reviews, referee reports, lecture notes, teaching materials, and books) generated by AI models.\n\n3. Members of the AI-free caucus do not use AI models in a research capacity.",
+          "url": "https://x.com/AndrewCurran_/status/2108291593031843988",
+          "created_at": "2026-10-08T20:21:00+00:00",
+          "engagement": 266
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7d8a453f",
+      "score": 12.335,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -133,16 +107,16 @@
         "9to5Google",
         "TechCrunch AI",
         "The Verge AI",
-        "testingcatalog"
+        "kyleichan"
       ],
       "source_count": 4,
       "first_seen": "2026-10-08T12:00:00+00:00",
-      "last_seen": "2026-10-08T18:55:17+00:00",
+      "last_seen": "2026-10-08T20:02:51+00:00",
       "links": [
         "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
         "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
         "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-        "https://x.com/testingcatalog/status/2108270023319970086"
+        "https://x.com/kyleichan/status/2108287026852417648"
       ],
       "posts": [
         {
@@ -170,78 +144,96 @@
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
+          "author": "kyleichan",
           "tier": "commentary",
-          "text": "GOOGLE 🔥: Gemini Argon 4, Gemini Flash 3.8, Claude Opus 5 and Claude Sonnet 5.5 will be available in the recently announced Gemini Agent for Gemini Business. \n\nIt is the first time when Claude models would appear on Gemini, along with Google’s models. \n\nThis should help Google to compete for enterprise customers as loads of them are moving to Claude and ChatGPT these days. In addition, it is the beginning of multi model future that we will start seeing more and more across the board.  https://t.co/J95YZE0heq",
-          "url": "https://x.com/testingcatalog/status/2108270023319970086",
-          "created_at": "2026-10-08T18:55:17+00:00",
-          "engagement": 284,
-          "video": true
+          "text": "Chinese models are widely available on US cloud platforms, like AWS and Google Cloud.\n\nThis is likely how many if not most US users use Chinese models.",
+          "url": "https://x.com/kyleichan/status/2108287026852417648",
+          "created_at": "2026-10-08T20:02:51+00:00",
+          "engagement": 50
         }
       ]
     },
     {
-      "cluster_id": "ca3489c35",
-      "score": 10.483,
-      "interest": "neutral",
+      "cluster_id": "c4ec06d28",
+      "score": 11.759,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI"
+        "Anthropic"
       ],
       "independent_sources": [
-        "OpenAIDevs",
-        "testingcatalog"
+        "AnthropicAI",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-08T18:26:38+00:00",
-      "last_seen": "2026-10-08T18:36:04+00:00",
+      "first_seen": "2026-10-08T21:04:31+00:00",
+      "last_seen": "2026-10-08T21:53:51+00:00",
       "links": [
-        "https://x.com/OpenAIDevs/status/2108262812489531498",
-        "https://x.com/OpenAIDevs/status/2108262830348886150",
-        "https://x.com/OpenAIDevs/status/2108262843544211494",
-        "https://x.com/testingcatalog/status/2108265185106391234"
+        "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+        "https://x.com/AnthropicAI/status/2108302543977906649"
       ],
       "posts": [
         {
-          "author": "OpenAIDevs",
+          "author": "AnthropicAI",
           "tier": "commentary",
-          "text": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work.\n\nNear-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come. https://t.co/Cyy9k2hifV",
-          "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
-          "created_at": "2026-10-08T18:26:38+00:00",
-          "engagement": 3068,
-          "video": true
+          "text": "To secure open-source software, we’re launching OSS Scanner.\n\nWe’ll use our frontier models to periodically scan opted-in open-source projects for vulnerabilities, at no cost. Our reports will provide a proof-of-concept, explanation, and suggested fix.\n\nhttps://t.co/UFFrLUd25U",
+          "url": "https://x.com/AnthropicAI/status/2108302543977906649",
+          "created_at": "2026-10-08T21:04:31+00:00",
+          "engagement": 193
         },
         {
-          "author": "OpenAIDevs",
-          "tier": "commentary",
-          "text": "API pricing for GPT-6.1 Sol in Ultrafast mode is $12 per million input tokens and $60 per million output tokens.",
-          "url": "https://x.com/OpenAIDevs/status/2108262830348886150",
-          "created_at": "2026-10-08T18:26:43+00:00",
-          "engagement": 342
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic launches free AI security scans for open-source projects. Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+          "created_at": "2026-10-08T21:53:51+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cde0136d0",
+      "score": 10.461,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "NVIDIA Developer"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T18:30:02+00:00",
+      "last_seen": "2026-10-08T21:06:35+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+        "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup. The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+          "created_at": "2026-10-08T18:30:02+00:00",
+          "engagement": 0
         },
         {
-          "author": "OpenAIDevs",
-          "tier": "commentary",
-          "text": "In Codex and ChatGPT Work, access is available on Pro 500, eligible usage-based Enterprise, and credit-based Edu plans. Enterprise admins must enable access.",
-          "url": "https://x.com/OpenAIDevs/status/2108262843544211494",
-          "created_at": "2026-10-08T18:26:46+00:00",
-          "engagement": 198
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "OPENAI 🔥: GPT-6.1 Sol Ultrafast is rolling out on ChatGPT Work, Codex, and the API. \n\n> GPT-6.1 Sol in Ultrafast mode is $12 per million input tokens and $60 per million output tokens.\n\n> Ultrafast mode delivers 8x faster speeds than Sol Standard. \n\nUltrafast testing time 👀 https://t.co/XgtmJefup4",
-          "url": "https://x.com/testingcatalog/status/2108265185106391234",
-          "created_at": "2026-10-08T18:36:04+00:00",
-          "engagement": 98,
-          "video": true
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "created_at": "2026-10-08T21:06:35+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c3a9b3efd",
-      "score": 9.985,
+      "score": 9.652,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -288,98 +280,8 @@
       ]
     },
     {
-      "cluster_id": "c9bdc15ba",
-      "score": 9.741,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google",
-        "Nvidia",
-        "Microsoft",
-        "Amazon",
-        "AMD"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "TechCrunch AI",
-        "Tom's Hardware"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T20:22:37+00:00",
-      "last_seen": "2026-10-08T15:53:32+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
-        "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11. Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
-          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-          "created_at": "2026-10-07T20:22:37+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Score a 1080p gaming PC for less than $1,000 right now, fitted with Nvidia or AMD GPUs. Two gaming PCs capable of 1080p gameplay have dropped below $1,000, a price that's hard to beat in the current market, thanks to sales at Best Buy and Walmart.",
-          "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
-          "created_at": "2026-10-08T10:57:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
-          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
-          "created_at": "2026-10-08T15:53:32+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c0fb957dd",
-      "score": 8.831,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T16:00:11+00:00",
-      "last_seen": "2026-10-08T18:19:45+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-        "https://www.bloomberg.com/news/articles/2026-10-08/ai-model-evaluator-arena-valued-at-over-3-billion-in-round"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "AI Model Evaluator Arena Valued at Over $3 Billion in Round. Arena Intelligence Inc., the startup behind a popular artificial intelligence model leaderboard, has raised $200 million in funding at a $3.1 billion valuation and plans to expand into measuring AI safety, tapping into growing demand to evaluate the technology’s performance and risks.The financing, set to be announced Thursday, was led by Lightspeed Venture Partners and Khosla Ventures, with participation from Salesforce Ventures and Dell Technologies Capital. The startup was previously valued a",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/ai-model-evaluator-arena-valued-at-over-3-billion-in-round",
-          "created_at": "2026-10-08T16:00:11+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months. The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
-          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-          "created_at": "2026-10-08T18:19:45+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "caf855b73",
-      "score": 8.188,
+      "score": 7.855,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -417,124 +319,90 @@
       ]
     },
     {
-      "cluster_id": "ceace4c5b",
-      "score": 7.113,
+      "cluster_id": "c1ae3a64b",
+      "score": 7.268,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
-      "entities": [],
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Nvidia",
+        "Amazon",
+        "AMD"
+      ],
       "independent_sources": [
-        "Ars Technica AI",
+        "9to5Google",
         "Tom's Hardware"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T21:56:42+00:00",
-      "last_seen": "2026-10-08T10:00:00+00:00",
+      "first_seen": "2026-10-08T10:57:45+00:00",
+      "last_seen": "2026-10-08T15:53:32+00:00",
       "links": [
-        "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-        "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings"
+        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
       ],
       "posts": [
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones. Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
-          "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-          "created_at": "2026-10-07T21:56:42+00:00",
-          "engagement": 0
-        },
         {
           "author": "Tom's Hardware",
           "tier": "press",
-          "text": "Solo developer rebuilds Adobe Creative Suite in Rust using Claude, releases it free to all. Multiple Adobe creative tools were recreated using Claude and made open-source by one person.",
-          "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
-          "created_at": "2026-10-08T10:00:00+00:00",
+          "text": "Score a 1080p gaming PC for less than $1,000 right now, fitted with Nvidia or AMD GPUs. Two gaming PCs capable of 1080p gameplay have dropped below $1,000, a price that's hard to beat in the current market, thanks to sales at Best Buy and Walmart.",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
+          "created_at": "2026-10-08T10:57:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
+          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+          "created_at": "2026-10-08T15:53:32+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c2b7264f8",
-      "score": 6.856,
-      "interest": "want",
+      "cluster_id": "c7425b306",
+      "score": 6.483,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Anthropic"
+        "Microsoft",
+        "TSMC"
       ],
       "independent_sources": [
-        "Latent Space",
-        "Simon Willison"
+        "Bloomberg Tech",
+        "Wired AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T20:56:21+00:00",
-      "last_seen": "2026-10-08T07:27:51+00:00",
+      "first_seen": "2026-10-08T17:29:57+00:00",
+      "last_seen": "2026-10-08T21:14:12+00:00",
       "links": [
-        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+        "https://www.bloomberg.com/news/videos/2026-10-08/bloomberg-tech-10-8-2026-video",
+        "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/"
       ],
       "posts": [
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Claude Haiku 5.5. As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also ",
-          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-          "created_at": "2026-10-07T20:56:21+00:00",
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI Spending Questions Persist as Washington Targets Tech Visas. Bloomberg’s Ed Ludlow breaks down the Trump administration's decision to suspend an immigration program for multiple tech firms, including Microsoft, alleging widespread abuse of that worker visa system. Plus: Samsung's quarterly profit jumps and TSMC sales surge, but investors are still worried about the staying power of the AI investment boom. And, NASA's SpaceX Crew-12 makes it way back down to Earth after 237 days in space. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-08/bloomberg-tech-10-8-2026-video",
+          "created_at": "2026-10-08T17:29:57+00:00",
           "engagement": 0
         },
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
-          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-          "created_at": "2026-10-08T07:27:51+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cd1d71ff4",
-      "score": 6.412,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Engadget"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T20:57:28+00:00",
-      "last_seen": "2026-10-08T08:45:16+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
-        "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI. After introducing the first GPT-6 models last month, OpenAI today announced new GPT-6 models built for everyday ChatGPT conversations, alongside a new Intelligent UI. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
-          "created_at": "2026-10-07T20:57:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "GPT-6 is coming to all tiers of ChatGPT. OpenAI is rolling out GPT-6 to ChatGPT, and it will come with the capability to build more visual responses.",
-          "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
-          "created_at": "2026-10-08T08:45:16+00:00",
+          "text": "Inside Elon Musk’s Midterm Spending Spree. This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+          "created_at": "2026-10-08T21:14:12+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cb3772d9c",
-      "score": 6.331,
+      "score": 5.998,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -572,8 +440,47 @@
       ]
     },
     {
+      "cluster_id": "cd7a782cc",
+      "score": 5.997,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T17:00:00+00:00",
+      "last_seen": "2026-10-08T21:17:24+00:00",
+      "links": [
+        "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+        "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic bans ‘abusive or cruel behavior’ toward Claude. Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "created_at": "2026-10-08T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models. The company is also tightening its election policy ahead of the midterms.",
+          "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+          "created_at": "2026-10-08T21:17:24+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c872505d2",
-      "score": 5.48,
+      "score": 5.147,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
