@@ -30,6 +30,169 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-artcraft-adobe-clones",
+   "section": "products",
+   "headline": "Developer says Claude Opus 5.5 built seven open-source Adobe lookalikes in Rust",
+   "standfirst": "Brandon Thomas says Claude Opus 5.5 wrote seven free apps that mimic Photoshop, Premiere and Acrobat Pro, and promises full parity within months. Commenters list many gaps.",
+   "body": [
+    "Brandon Thomas, a software developer behind the Artcraft image tool, says he used Anthropic's Claude Opus 5.5 to build seven open-source apps. They copy the interface and tools of Adobe's Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign and Acrobat Pro, according to Ars Technica. He announced them on Reddit this week.",
+    "Thomas describes the apps as \"clean-room replacements\" written in Rust, with WebAssembly builds that run in a browser, and says they are released under MIT and Apache licences. Tom's Hardware names several of the apps PhotoCraft, LightCraft, ImageCraft and FilmCraft. Thomas calls the current state a \"super early alpha\", and Ars reports that commenters on Hacker News and elsewhere have listed many shortcomings. The paper has not run the software.",
+    "On Reddit, Thomas wrote that the apps would reach \"100% [feature] parity within a month\". Days later, on Hacker News, he softened it, saying 99% parity \"will take a while\" but would be measured \"in months and not years\". He told readers he was driven to the project by cancellation fees, and claimed to have \"one-shotted Photoshop\". Those are his statements, not tested results.",
+    "Thomas says the free apps will be paid for by selling token-based access to Artcraft's own visual AI model, which appears inside them beside third-party models. Tom's Hardware adds that the apps are built to be driven by AI agents, with a JSON control channel and an MCP server, so a model can operate the menus directly.",
+    "Questions remain. Ars notes that reverse engineering is generally treated as legal, but that Adobe could object if the apps copy its \"trade dress\" too closely. Thomas says no Adobe source code was used. Tom's Hardware cites a Sonar survey in which 96 per cent of 1,100 developers do not fully trust AI-generated code, and notes the original Reddit post has been removed. Adobe had not commented in either report."
+   ],
+   "entities": [
+    "Artcraft",
+    "Adobe",
+    "Claude Opus 5.5",
+    "Brandon Thomas"
+   ],
+   "sources": [
+    {
+     "author": "Ars Technica",
+     "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/"
+    },
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-google-gemini-agent-work",
+   "section": "products",
+   "headline": "Google Cloud unveils Gemini agent, a work assistant that also runs Claude models",
+   "standfirst": "Google says its new Gemini agent takes objectives, not instructions, and picks Gemini or Claude models per job. It is in private preview.",
+   "body": [
+    "Google Cloud announced the \"Gemini agent\" at its Gemini at Work 2026 event on Thursday, according to 9to5Google. Google describes it as a \"new single, universal agent for work\" that lives in the Gemini Enterprise app, Workspace and third-party services, and says users can \"give it objectives, not instructions\". It is in private preview.",
+    "Google says the agent answers questions, does knowledge work, creates media and writes and runs code. In its example, a manager's emailed request for a project update as a slide deck is recognised as a delegable task, with a one-click handoff to Gemini. Another has it find the right regional leads from a chat space, check their calendars and start an email thread.",
+    "Under the hood, Google says the agent \"runs each job on the model that fits best\", which today means both the Gemini and Claude families, with other private and open models to follow. Google says that is meant to deliver better quality at lower cost. The agent also uses sub-agents for multi-step tasks, and Google says jobs can run for hours or days.",
+    "Google says the agent keeps four kinds of memory: session, semantic, procedural, including skills it writes for itself, and episodic. Users can invoke it by mentioning @Gemini in Gmail, Docs, Sheets, Slides and Chat, and Google lists the command line, Slack and Microsoft 365 as other routes. An API would let developers run it as a \"headless agent\".",
+    "The claims come from Google's announcement as reported by 9to5Google, and nobody outside the company has tested the agent. Google says it will see wide availability \"soon\" for Workspace customers on select Business and Enterprise plans. It gave no pricing in the coverage the paper has seen."
+   ],
+   "entities": [
+    "Google Cloud",
+    "Gemini agent",
+    "Gemini Enterprise",
+    "Claude"
+   ],
+   "sources": [
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-ahm-openai-math-statement",
+   "section": "research",
+   "headline": "Mathematicians' group urges colleagues to quit OpenAI work after manuscript dump",
+   "standfirst": "The Association for Human Mathematics calls OpenAI's release of over 700 files a \"demonstration of power\", not scholarship, and urges mathematicians to stop working with it.",
+   "body": [
+    "The Association for Human Mathematics, a group that says it protects mathematics from the threat of artificial intelligence, published a statement on Wednesday urging mathematicians to \"discontinue their work with OpenAI\". It responds to OpenAI's release on 6 October of a repository of manuscripts that it says purport to solve high-profile problems in mathematics.",
+    "The statement, from the group's Communications Working Group, says \"mathematicians did not ask for this work to be done\". It adds that OpenAI is defending lawsuits over alleged plagiarism, copyright infringement and trademark dilution. Those are the association's characterisations of the lawsuits, and the paper has not verified them.",
+    "The association says an Advisory Group on Mathematics and Artificial Intelligence, from which it says OpenAI has claimed legitimacy, opened its own advisory statement by saying frontier AI companies should not test advanced mathematical problems on internal models. In ignoring that premise, the statement says, OpenAI showed \"total disregard for the norms of scientific research\".",
+    "The sharpest line concerns scale. \"Releasing over 700 files at once is not a demonstration of scholarship, but a demonstration of power,\" the statement says. It rejects OpenAI's assertion that the release advances the subject and urges mathematicians and the public to treat the publication model with \"due skepticism\".",
+    "A post on X by the commentator kimmonismus attributes the same opening sentence to the mathematician Terence Tao. The paper could not confirm that Tao said it; the sentence appears in the association's statement. The association's own site describes its aim as keeping mathematics independent of corporate interest, and the group says it is organising working groups on policy."
+   ],
+   "entities": [
+    "Association for Human Mathematics",
+    "OpenAI",
+    "Terence Tao"
+   ],
+   "sources": [
+    {
+     "author": "Association for Human Mathematics",
+     "url": "https://www.ahmath.org/statements"
+    },
+    {
+     "author": "kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2108148802947326069"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-icann-ai-tld-applications",
+   "section": "ai",
+   "headline": "OpenAI and Meta apply for .agi, .agent and .asi in ICANN's new-domain round",
+   "standfirst": "ICANN has published 1,615 applications for new top-level domains, and AI names are everywhere: ten firms want .agent, seven want .agi, six want .asi. OpenAI applied for 15 strings, Meta for 21.",
+   "body": [
+    "ICANN has announced the 1,615 applications received so far for new top-level domains, from 481 applicants, in its first such round for years, The Verge reports. The Verge's David Pierce writes that AI dominates the list. Ten companies, including Meta and OpenAI, applied for .agent, and seven, including OpenAI, applied for .agi.",
+    "Six applicants, again including OpenAI, want .asi, and four want .intelligence. Meta is one of two interested in .superintelligence. The Verge counts 15 strings applied for by OpenAI and 21 by Meta. It reads .asi as an attempt to get in on President Trump's demand to switch from \"artificial intelligence\" to \"super intelligence\", which is the outlet's interpretation.",
+    "The round has two kinds of application. Hundreds are generic strings anyone might use, from .geek to .anime to .jackpot, and Pierce's favourite, .itiswhatitis. The other kind is branded: The Verge counts 345 brand applications, from .zillow and .zoom to .bankofamerica. Meta filed for .facebook, .instagram, .threads and .meta, and Bluesky for .bsky.",
+    "On the AI labs, The Verge reports that OpenAI applied for .chatgpt, .codex, .openai and .gpt, and that Anthropic wants .anthropic and .claude. Such names could eventually serve as product pages or usernames. The outlet notes that few companies have secured their own domain, Google being one, and that most alternative domains have struggled to catch on.",
+    "Nothing is settled. The Verge says this is one step in a long process and that no domain will be made official before sometime next year. Applications can also face objections or competing bids, so a name appearing on the list does not mean any company will get it, and none of the companies named had commented in the report."
+   ],
+   "entities": [
+    "ICANN",
+    "OpenAI",
+    "Meta",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-spacex-40b-nvidia-debt",
+   "section": "business",
+   "headline": "SpaceX reportedly seeks $40 billion in debt to buy Nvidia Rubin chips for xAI",
+   "standfirst": "The Financial Times reports SpaceX is lining up $10 billion in bank loans and $30 billion in bonds to buy Nvidia hardware. Talks are early, with a close expected in 2027.",
+   "body": [
+    "SpaceX is reportedly looking to raise $40 billion to buy Nvidia AI processors, according to the Financial Times, as relayed by Tom's Hardware. The package would combine about $10 billion in bank loans with $30 billion of investment-grade debt. Discussions are at an early stage, and there is no guarantee that a deal will happen.",
+    "Bloomberg reports that the money would be used specifically to buy Nvidia accelerators, per Tom's Hardware. If it goes ahead, SpaceX's xAI would get $40 billion of Nvidia's Rubin-generation hardware. The deal is expected to close sometime in 2027, according to the reports.",
+    "Apollo Global Management is expected to lead the arrangement, and the bond manager Pimco is among a limited number of lenders in talks, the report claims. Bloomberg previously reported that Apollo arranged a $7 billion financing for xAI that paid for Nvidia hardware at the Colossus 2 data centre near Memphis.",
+    "Tom's Hardware's own arithmetic, which is an estimate and not a reported figure, assumes about $8 million per Vera Rubin NVL72 system. On that basis $40 billion would buy roughly 5,000 racks and about 360,000 Rubin accelerators. It says it is unclear whether $40 billion is xAI's whole 2027 compute budget.",
+    "Scale is already large. Elon Musk said last month that Colossus 2 houses 110,000 Nvidia GB200 accelerators and 440,000 GB300 devices, Tom's Hardware notes. In August Nvidia teamed up with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to create financing platforms meant to attract more than $500 billion for AI infrastructure. None of the parties commented."
+   ],
+   "entities": [
+    "SpaceX",
+    "xAI",
+    "Nvidia",
+    "Apollo Global Management"
+   ],
+   "sources": [
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-reportedly-seeking-usd40-billion-debt-package-for-nvidia-ai-hardware-massive-raise-could-fund-roughly-360-000-vera-rubin-gpus-across-5-000-nvl72-racks"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-amd-verano-sb1-socket",
+   "section": "chips",
+   "headline": "AMD's Verano AI host CPU reportedly gets its own SB1 socket",
+   "standfirst": "A cooler listing points to a smaller SB1 socket for AMD's Verano, a Zen 6 chip said to pair 72 cores with 24 channels of LPDDR5X. AMD has not confirmed it.",
+   "body": [
+    "AMD's upcoming EPYC 9006-series \"Verano\" processors, built for AI servers, will use a new SB1 socket, according to a listing at the cooler maker Dynatron that was discovered by the hardware watcher InstLatX64, Tom's Hardware reports. The socket is smaller than the SP7 and SP8 sockets used by other Zen 6 EPYC chips.",
+    "Tom's Hardware describes Verano as quite different from conventional EPYC: up to 72 Zen 6 cores at up to 5 GHz, and a 24-channel LPDDR5X memory system that uses replaceable SOCAMM2 modules. AMD positions it as a host processor, orchestrating work that runs on AI accelerators. AMD has not disclosed the socket's specifications or dimensions.",
+    "Dynatron's preliminary SB1-4U-Active cooler measures 128.05 by 106.6 by 130.7 millimetres, with an aluminium fin stack, vapor chamber and heat pipes. Its fan runs at up to 6,000 RPM and moves up to 91.7 cubic feet of air a minute. Dynatron does not list a maximum processor power, so the listing does not reveal Verano's TDP.",
+    "The outlet notes the cooler's specifications are virtually identical to Dynatron's J26 cooler for the larger SP7, which may mean Dynatron reused the design or pasted placeholder numbers. Even so, it reads a large vapor-chamber cooler as a sign of high power draw despite far fewer cores than the 256-core Venice.",
+    "Tom's Hardware speculates that AMD may offer only a few Verano versions, as Nvidia does with its Grace and Vera processors, which would explain a dedicated socket. It labels that speculation, as AMD has not said how many it plans. The outlet says AMD plans to launch Verano in the second half of 2027."
+   ],
+   "entities": [
+    "AMD",
+    "Verano",
+    "Dynatron",
+    "EPYC"
+   ],
+   "sources": [
+    {
+     "author": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/pc-components/cpus/amds-epyc-verano-ai-host-cpu-will-reportedly-use-a-special-sb1-socket-zen-6-chip-pairs-72-cores-with-a-24-channel-lpddr5x-memory-subsystem"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-korea-bank-hacks-ai-tools",
    "section": "security",
    "headline": "South Korean bank breaches traced to an open-source AI hacking tool",
@@ -109,7 +272,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-deceptval-benchmark",
@@ -138,7 +301,7 @@
      "url": "https://github.com/functy/DECEPEVAL"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-eth-bunker-mode-ai-math",
@@ -169,7 +332,7 @@
      "url": "https://scottaaronson.blog/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nvidia-long-wam",
@@ -199,7 +362,7 @@
      "url": "https://github.com/NVlabs/LongLive/tree/main/Long-WAM"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-mecka-60m-series-b",
@@ -224,7 +387,7 @@
      "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-trace-fp4-rl-alibaba",
@@ -249,7 +412,7 @@
      "url": "https://huggingface.co/papers/2610.07767"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-meta-signposting-csam-ads",
