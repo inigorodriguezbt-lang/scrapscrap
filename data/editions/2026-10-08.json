@@ -30,6 +30,186 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-gpt-6-1-sol-ultrafast",
+   "section": "models",
+   "headline": "OpenAI ships GPT-6.1 Sol Ultrafast, 8x faster but only on $500 plan",
+   "standfirst": "OpenAI says GPT-6.1 Sol Ultrafast generates tokens up to 8 times faster than Sol Standard at $12 and $60 per million, but Codex and ChatGPT Work access needs the Pro 500 plan.",
+   "body": [
+    "OpenAI began rolling out an Ultrafast mode for GPT-6.1 Sol on Thursday in the API, Codex and ChatGPT Work. The company's developer account said the mode offers near-Astra intelligence at up to 8 times the speed of Sol Standard. That is OpenAI's own claim, and the paper has not seen independent speed or quality tests.",
+    "API pricing is $12 per million input tokens and $60 per million output tokens, according to OpenAIDevs. Reach VB, an account that follows model releases, put the cost at about 1.2 times that of Astra, another GPT-6 model. OpenAI described the mode as built for work where speed matters, such as debugging an outage or agents navigating apps.",
+    "Access is narrower than the headline suggests. In Codex and ChatGPT Work, OpenAIDevs said, Ultrafast is available on the Pro 500 plan, on eligible usage-based Enterprise plans and on credit-based Edu plans, and Enterprise admins must switch it on. The API appears to have no such plan limit, though the paper could not confirm whether any usage tier applies.",
+    "OpenAIDevs added that Ultrafast is available in all supported regions, including with US and EU data residency, and that EU data residency now also covers GPT-6.1 Sol Fast and GPT-6 Luna Fast. TestingCatalog, which tracks AI product changes, reported the same rollout and prices.",
+    "Some users objected to how the plan limit was communicated. The account kimmonismus wrote, in a post with 468 likes when the paper read it on Thursday evening, that the Pro 500 restriction appeared only in the third post of OpenAI's thread and was effectively buried. OpenAI has not responded in the posts the paper reviewed."
+   ],
+   "entities": [
+    "OpenAI",
+    "GPT-6.1 Sol",
+    "Codex"
+   ],
+   "sources": [
+    {
+     "author": "OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2108262812489531498"
+    },
+    {
+     "author": "OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2108262843544211494"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2108265185106391234"
+    },
+    {
+     "author": "kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2108271817433530503"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+     "after": 1,
+     "video": true
+    },
+    {
+     "url": "https://x.com/testingcatalog/status/2108265185106391234",
+     "after": 4,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-claude-dashboards-motion",
+   "section": "products",
+   "headline": "Anthropic opens Claude Dashboards and Motion in beta, Docs and Slides to Free",
+   "standfirst": "Anthropic says Claude Motion writes short animations as code with no video model, and that Claude Docs, Slides and Design are now out of beta on every plan including Free.",
+   "body": [
+    "Anthropic announced two beta features for Claude on Thursday: Dashboards and Motion. The company's Claude account said Dashboards turns data into live dashboards and Motion turns ideas into animated explainers. The announcement video had drawn 8,940 likes when the paper read it, about an hour after posting, which makes it among the most-liked posts the paper saw in this cycle.",
+    "Anthropic says Claude Dashboards lets a user connect a data platform or CRM tool and ask a question in plain language. Claude then writes the query and builds a dashboard that updates as the data changes, and every chart shows the query behind it. Dashboards are in beta on paid plans, the company said.",
+    "Claude Motion turns reports, charts or product walkthroughs into short animations, according to Anthropic. It said Claude writes each animation as code, with no video model involved, so a user can change any word, number or timing and then export an MP4. Motion is in beta on Team and Enterprise plans only.",
+    "Anthropic also said Claude Docs, Slides and Design are out of beta from Thursday and available on every plan including Free, and that teams and Claude can edit the same doc, deck or design together. A further post said finished work can be sent on, such as a dashboard to an analytics tool or an animation to a video editor.",
+    "Every capability here is Anthropic's description of its own product, taken from its announcement posts. The paper has not tested Dashboards or Motion, and no independent review had appeared at the time of writing. Anthropic did not say how many data sources Dashboards supports or what Motion costs beyond the plan tiers."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude"
+   ],
+   "sources": [
+    {
+     "author": "Claude (Anthropic)",
+     "url": "https://x.com/claudeai/status/2108271552991252810"
+    },
+    {
+     "author": "Claude (Anthropic)",
+     "url": "https://x.com/claudeai/status/2108271558170976743"
+    },
+    {
+     "author": "Claude (Anthropic)",
+     "url": "https://x.com/claudeai/status/2108271555822092483"
+    },
+    {
+     "author": "Claude (Anthropic)",
+     "url": "https://x.com/claudeai/status/2108271559928389679"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/claudeai/status/2108271552991252810",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-zenity-agentcorruption-aws",
+   "section": "security",
+   "headline": "Zenity says one chat with a public AWS agent exposed every agent",
+   "standfirst": "Zenity Labs says one prompt to a public Bedrock AgentCore agent yielded credentials for every agent in the same AWS account and region, and AWS has only partly fixed it.",
+   "body": [
+    "Researchers at Zenity Labs say chat access to one publicly reachable agent on Amazon Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The Decoder reported the findings, which Zenity calls AgentCorruption. Zenity sells security software for AI agents, so it has a commercial interest in publicising such flaws.",
+    "According to The Decoder, the test agent was built with the open-source Strands framework and its web tool. Zenity asked it in plain language to query the instance metadata service at 169.254.169.254 and send the results to an outside server, and it complied. The service returned temporary AWS credentials that worked on the researchers' own machine.",
+    "With those credentials, Zenity says, the default permissions let it list every agent, download their code packages in seconds and invoke each one. It also says it read private conversations, moved from a public customer-service agent to an internal finance agent, and altered long-term memory so agents would forward later conversations elsewhere. The packages often held forgotten passwords or keys.",
+    "Zenity told AWS on 25 December 2025, The Decoder reports. AWS has since made the more secure IMDSv2 the default for new deployments and, around August, narrowed the default execution role so agents can no longer invoke each other, read private chats or fetch Secrets Manager credentials. Zenity calls the fix partial and still advises custom roles with narrower access.",
+    "The Decoder notes that OpenAI fixed a comparable flaw within four days, while AgentCore's broad defaults lasted months. Zenity CTO Michael Bargury said agents need creative freedom to be useful, but that cloud security rests on segmentation and least privilege. The paper has not seen a statement from AWS, and the findings are Zenity's own."
+   ],
+   "entities": [
+    "Zenity Labs",
+    "Amazon Web Services",
+    "Amazon Bedrock AgentCore"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-arena-3-1b-round",
+   "section": "business",
+   "headline": "Arena raises $200 million at $3.1 billion to grade AI safety",
+   "standfirst": "The company behind the LMArena leaderboard says it raised $200 million led by Lightspeed and Khosla, and will use it to rank models on lying and unauthorised actions.",
+   "body": [
+    "Arena, the company behind the popular LMArena leaderboard, has raised $200 million at a $3.1 billion valuation, Bloomberg and TechCrunch reported on Thursday. TechCrunch says Lightspeed Venture Partners and Khosla Ventures led the round. Bloomberg, citing the announcement, says Arena plans to expand into measuring AI safety as demand grows to evaluate the technology's performance and risks.",
+    "The valuation is nearly double the $1.7 billion set in January, when TechCrunch says Arena raised $150 million at about $30 million in annualised revenue. TechCrunch reports the company stated $100 million in annualised run-rate revenue in June. Salesforce Ventures, Dell Technologies Capital, a16z and Felicis are among other backers, it adds.",
+    "Arena began in 2023 as a UC Berkeley research project in which users submit prompts and vote on which of two models answered better. TechCrunch says the platform is free for consumers, and that Arena claims tens of millions of monthly visitors. Its commercial product, AI Evaluations, launched in September 2025 and sells performance analytics to labs and enterprises.",
+    "Arena has added an alignment category to its leaderboard, TechCrunch reports, scoring unauthorised actions, false attribution and deceptive completion, meaning claiming to finish a task that was not done. Arena argues static benchmarks decay once models can tell they are being tested, and says it is stepping into the role of independent evaluator.",
+    "On the preliminary alignment leaderboard, TechCrunch says OpenAI models hold the top spots, with Claude Opus 5.5 sixth and Claude Fable ninth. Those rankings are Arena's own and preliminary. Whether labs that pay for its evaluations will accept a neutral-referee role is a question neither report answers."
+   ],
+   "entities": [
+    "Arena",
+    "LMArena",
+    "Lightspeed",
+    "Khosla Ventures"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-08/ai-model-evaluator-arena-valued-at-over-3-billion-in-round"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-openai-revenue-50b",
+   "section": "business",
+   "headline": "OpenAI revenue nears $50 billion, not $70 billion, FT reports",
+   "standfirst": "The Financial Times reports OpenAI told investors annualised revenue is nearing $50 billion, about $20 billion under a figure Axios published, and AI stocks fell on the news.",
+   "body": [
+    "OpenAI's annualised revenue is approaching $50 billion, about $20 billion less than a figure reported two weeks ago, the Financial Times reported on Thursday, according to TechCrunch. Bloomberg, citing people familiar with the matter, also put the run rate at roughly $50 billion. The paper has not seen OpenAI's own statement.",
+    "Axios reported on 29 September that OpenAI's annualised revenue was approaching $70 billion, which would have put it near Anthropic. TechCrunch says the FT reported that the $70 billion number came from information shared with OpenAI investors. TechCrunch did not verify either figure independently.",
+    "The gap may partly reflect accounting. TechCrunch says Anthropic counts sales made through its cloud partners while OpenAI does not, and the FT suggests the $70 billion came from investors trying to compare the two on equal terms. TechCrunch puts Anthropic's run rate at $65 billion in July, citing CNBC.",
+    "CNBC reported that Nvidia, Oracle, CoreWeave and other AI-linked stocks fell after the FT report. TechCrunch asked OpenAI for comment and its article carries none. The paper cannot say how much of the share-price move is attributable to the revenue report rather than other factors that day.",
+    "TechCrunch adds context from earlier reporting: OpenAI raised $122 billion in March, leaked 2025 financials showed about $13 billion of revenue with spending far higher, and CNBC reports the expected IPO has slipped to early 2027. Annualised revenue is a run-rate estimate, not booked revenue, and firms define it differently."
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Financial Times"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says"
+    },
+    {
+     "author": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-natura-interface-ring",
    "section": "products",
    "headline": "Natura's $99 Interface ring calls up Claude, ChatGPT or Grok Bot",
@@ -111,7 +291,7 @@
      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-carbon-a-hf",
@@ -143,7 +323,7 @@
      "url": "https://runtimewire.com/article/lvwerra-carbon-dna-model-release"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-mittr-robotics-ai",
@@ -168,7 +348,7 @@
      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-math-withdrawn",
@@ -196,7 +376,7 @@
      "url": "https://github.com/openai/math"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-crunchbase-europe-q3",
@@ -222,7 +402,7 @@
      "url": "https://news.crunchbase.com/venture/q3-2026-europe-strong-quarter-ai-uk-germany-france/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-artcraft-adobe-clones",
