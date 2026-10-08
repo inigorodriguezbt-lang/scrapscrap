@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-08T02:03:20.164696+00:00",
+  "generated_at": "2026-10-08T04:02:59.713410+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 135,
-  "clusters_found": 99,
-  "stories_declared": 10,
+  "posts_considered": 134,
+  "clusters_found": 105,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cf7fd3f86",
-      "score": 16.292,
+      "cluster_id": "cca31c29b",
+      "score": 13.276,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -22,10 +22,9 @@
         "NVIDIA",
         "TechCrunch AI",
         "The Verge AI",
-        "Tom's Hardware",
-        "rohanpaul_ai"
+        "Tom's Hardware"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-10-07T11:10:00+00:00",
       "last_seen": "2026-10-08T00:00:24+00:00",
       "links": [
@@ -33,8 +32,7 @@
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
         "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
         "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-        "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig",
-        "https://x.com/rohanpaul_ai/status/2107984164750536826"
+        "https://www.tomshardware.com/desktops/gaming-pcs/this-monster-rtx-5090-alienware-gaming-pc-costs-less-than-buying-the-gpu-and-cpu-alone-take-usd500-off-a-powerful-9950x3d-rig"
       ],
       "posts": [
         {
@@ -70,15 +68,6 @@
           "engagement": 0
         },
         {
-          "author": "rohanpaul_ai",
-          "tier": "commentary",
-          "text": "Jensen Huang: agents will use software better than people do\n\n\"These agents are going to be better users of tools than us. And the reason for that is we know 10, 15% of the features of any application. The agent knows every single feature.\"\n\n----\nFull video on \"Windows\" YouTube channel, (link in comment)",
-          "url": "https://x.com/rohanpaul_ai/status/2107984164750536826",
-          "created_at": "2026-10-07T23:59:23+00:00",
-          "engagement": 47,
-          "video": true
-        },
-        {
           "author": "Ars Technica AI",
           "tier": "press",
           "text": "Microsoft event debuts new AI-friendly hardware and Windows changes. Get ready for more AI in your Windows and more AI on the desktop.",
@@ -90,7 +79,7 @@
     },
     {
       "cluster_id": "c25295597",
-      "score": 12.027,
+      "score": 11.695,
       "interest": "want",
       "single_source": false,
       "suggested_section": "business",
@@ -169,45 +158,65 @@
       ]
     },
     {
-      "cluster_id": "c8df4ed70",
-      "score": 10.638,
+      "cluster_id": "cc2db6a55",
+      "score": 11.098,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Google",
+        "Apple",
         "Amazon"
       ],
       "independent_sources": [
         "AWS ML",
         "Simon Willison",
-        "The Decoder"
+        "Stratechery"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-07T12:05:20+00:00",
+      "first_seen": "2026-10-07T10:01:39+00:00",
       "last_seen": "2026-10-07T20:56:21+00:00",
       "links": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
         "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/"
+        "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic gives more security teams access to Claude with fewer safety restrictions. Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical. The article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-          "created_at": "2026-10-07T12:05:20+00:00",
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon. Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
+          "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+          "created_at": "2026-10-07T10:01:39+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over. Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder .",
-          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
-          "created_at": "2026-10-07T18:49:23+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "created_at": "2026-10-07T15:46:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:48:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "created_at": "2026-10-07T18:34:44+00:00",
           "engagement": 0
         },
         {
@@ -230,7 +239,7 @@
     },
     {
       "cluster_id": "cebcc4aaf",
-      "score": 9.457,
+      "score": 9.124,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -279,57 +288,8 @@
       ]
     },
     {
-      "cluster_id": "c75db5b3c",
-      "score": 7.862,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Nvidia",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T15:07:08+00:00",
-      "last_seen": "2026-10-07T18:10:45+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-        "https://www.bloomberg.com/news/videos/2026-10-07/dazzle-wants-to-turn-your-photos-into-an-ai-assistant-video",
-        "https://www.bloomberg.com/news/videos/2026-10-07/sequoia-nvidia-back-mecka-ai-s-robotics-push-video"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look. The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.",
-          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
-          "created_at": "2026-10-07T15:07:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Sequoia, Nvidia Back Mecka AI’s Robotics Push. Mecka AI has raised $60 million in Series B funding led by Sequoia Capital, with backing from Nvidia, Microsoft’s M12 and Qualcomm, as it builds technology to help robots understand and operate in the physical world. CEO and cofounder Josh Gao discusses the enormous data challenge facing robotics, how Mecka captures everything from physical interactions to force and pressure, and why scaling physical AI will require major investments across sensors, infrastructure and real-world data collection. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-07/sequoia-nvidia-back-mecka-ai-s-robotics-push-video",
-          "created_at": "2026-10-07T18:06:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Dazzle Wants to Turn Your Camera Roll Into an AI Assistant. Dazzle is betting the next generation of personal AI should know more about you before you even ask a question. The startup uses photos and screenshots in a user’s camera roll to understand their interests, relationships, travel and belongings — then helps take actions, from finding a product and arranging a repair to planning activities or adding an event to a calendar. Dazzle CEO Marissa Mayer joins Ed Ludlow for more on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-07/dazzle-wants-to-turn-your-photos-into-an-ai-assistant-video",
-          "created_at": "2026-10-07T18:10:45+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c275229f2",
-      "score": 7.764,
+      "score": 7.432,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -380,7 +340,7 @@
     },
     {
       "cluster_id": "c79faa702",
-      "score": 5.309,
+      "score": 4.976,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -419,7 +379,7 @@
     },
     {
       "cluster_id": "c697d9358",
-      "score": 4.787,
+      "score": 4.454,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -458,7 +418,7 @@
     },
     {
       "cluster_id": "c7943ed2d",
-      "score": 4.779,
+      "score": 4.447,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -506,7 +466,7 @@
     },
     {
       "cluster_id": "cb6edae5a",
-      "score": 4.714,
+      "score": 4.382,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",

@@ -124,6 +124,76 @@
    },
    "published_at": "2026-10-08T01:00:00+00:00",
    "id": "bloomberg-reports-keyu-tian-a-former"
+  },
+  {
+   "text": "The open-source nanoMuse project says it is a personal agent that runs across Android, iOS, desktop and web, operates the phone or computer screen, and works with eighteen model providers, under the GPL-3.0 licence.",
+   "why": "The report is from nanoMuse contributors, not an independent test, and says it has no published success rate yet for its phone and computer control.",
+   "source": {
+    "name": "nanoMuse report on Hugging Face",
+    "url": "https://huggingface.co/papers/2610.08699"
+   },
+   "published_at": "2026-10-08T00:03:51.462827+00:00",
+   "id": "the-open-source-nanomuse-project-says"
+  },
+  {
+   "text": "Terse, a Claude Code plugin, says it cuts reply length in half: its author reports 46% fewer words on Fable 5.1 and 54% fewer on Opus 5.5. The repo, MIT-licensed, has 16 stars.",
+   "why": "The numbers are the author's own, judged partly by an LLM, and the README says long analysis replies still run long.",
+   "source": {
+    "name": "lowenbjer/claude-terse on GitHub",
+    "url": "https://github.com/lowenbjer/claude-terse"
+   },
+   "published_at": "2026-10-07T17:15:51.462827+00:00",
+   "id": "terse-a-claude-code-plugin-says"
+  },
+  {
+   "text": "The vLLM project published a technical report for vLLM-Omni, a serving runtime for speech, image, video and world-model generation that it says replaces stitching separate text and diffusion runtimes together.",
+   "why": "vLLM is the inference engine behind much self-hosted AI, so a single runtime for non-text models could change how those are deployed.",
+   "source": {
+    "name": "vLLM on X",
+    "url": "https://x.com/vllm_project/status/2108027563608350794"
+   },
+   "published_at": "2026-10-08T02:51:51+00:00",
+   "id": "the-vllm-project-published-a-technical"
+  },
+  {
+   "text": "Andrew Curran posted an update from Scott Aaronson saying some AI companies are now using their latest internal models to try to break important cryptographic protocols. Neither Aaronson's text nor any company has been confirmed here.",
+   "why": "If labs are pointing unreleased models at cryptography, the first public results may arrive before the models do.",
+   "source": {
+    "name": "Andrew Curran on X",
+    "url": "https://x.com/AndrewCurran_/status/2108034148791370002"
+   },
+   "published_at": "2026-10-08T03:18:01+00:00",
+   "id": "andrew-curran-posted-an-update-from"
+  },
+  {
+   "text": "Rohan Paul posted that the Association for Human Mathematics criticised OpenAI's release of 722 math manuscripts and urged mathematicians to stop working with OpenAI, and that Terence Tao reposted the statement on his blog.",
+   "why": "It is the first organised pushback from mathematicians against OpenAI's manuscripts; the statement itself was not checked, so the account rests on one post.",
+   "source": {
+    "name": "Rohan Paul on X",
+    "url": "https://x.com/rohanpaul_ai/status/2108021673706615292"
+   },
+   "published_at": "2026-10-08T02:28:26+00:00",
+   "id": "rohan-paul-posted-that-the-association"
+  },
+  {
+   "text": "The Wall Street Journal reports that three fired OpenAI researchers have sent a letter urging AI labs to halt work that could impair monitoring of AI, saying their firings are chilling those who remain.",
+   "why": "OpenAI has said the three were dismissed over sensitive information, so the letter turns a personnel dispute into a public argument about AI oversight.",
+   "source": {
+    "name": "The Wall Street Journal",
+    "url": "https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94"
+   },
+   "published_at": "2026-10-08T00:03:51.462827+00:00",
+   "id": "the-wall-street-journal-reports-that"
+  },
+  {
+   "text": "The Wall Street Journal reports OpenRouter data shows business spending was split roughly evenly between OpenAI and Anthropic models in September, against a 75% Anthropic share in January.",
+   "why": "OpenRouter covers only the traffic routed through it, so the figure shows a price war's effect on one marketplace rather than the whole market.",
+   "source": {
+    "name": "The Wall Street Journal",
+    "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-heating-upand-openai-is-gaining-ground-on-anthropic-48b8525b"
+   },
+   "published_at": "2026-10-08T03:15:51.462827+00:00",
+   "id": "the-wall-street-journal-reports-openrouter"
   }
  ]
 }
