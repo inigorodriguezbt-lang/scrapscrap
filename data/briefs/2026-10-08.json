@@ -1,15 +1,105 @@
 {
-  "generated_at": "2026-10-08T04:02:59.713410+00:00",
+  "generated_at": "2026-10-08T06:03:21.187862+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 134,
-  "clusters_found": 105,
+  "posts_considered": 130,
+  "clusters_found": 100,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "c2e42f899",
+      "score": 13.761,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI",
+        "Google",
+        "Meta",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Engadget",
+        "Google AI",
+        "TechCrunch AI",
+        "The Decoder"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-07T12:00:00+00:00",
+      "last_seen": "2026-10-08T04:00:00+00:00",
+      "links": [
+        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+        "https://www.bloomberg.com/news/articles/2026-10-08/alphabet-s-isomorphic-labs-in-funding-talks-for-at-least-40-billion-value",
+        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
+          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Google AI",
+          "tier": "primary",
+          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "created_at": "2026-10-07T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
+          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+          "created_at": "2026-10-07T14:36:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+          "created_at": "2026-10-07T14:44:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+          "created_at": "2026-10-07T17:50:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
+          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+          "created_at": "2026-10-07T17:58:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Alphabet’s Isomorphic Labs in Funding Talks for at Least $40 Billion Value. Isomorphic Labs, an AI-powered drug discovery startup spun out of Alphabet Inc.’s Google DeepMind, is in early talks to raise new funds at a valuation of at least $40 billion, according to people familiar with the effort.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/alphabet-s-isomorphic-labs-in-funding-talks-for-at-least-40-billion-value",
+          "created_at": "2026-10-08T04:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cca31c29b",
-      "score": 13.276,
+      "score": 12.942,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -78,88 +168,8 @@
       ]
     },
     {
-      "cluster_id": "c25295597",
-      "score": 11.695,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Meta",
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "Google AI",
-        "TechCrunch AI",
-        "The Decoder"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T12:00:00+00:00",
-      "last_seen": "2026-10-07T17:58:20+00:00",
-      "links": [
-        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-        "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's experimental Playground platform uses AI to create games for you. Google launches an AI-powered game creation platform called Playground.",
-          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
-          "created_at": "2026-10-07T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Google AI",
-          "tier": "primary",
-          "text": "Introducing Playground: Create and play custom games. Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "created_at": "2026-10-07T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
-          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-          "created_at": "2026-10-07T14:36:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-          "created_at": "2026-10-07T14:44:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-          "created_at": "2026-10-07T17:50:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
-          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-          "created_at": "2026-10-07T17:58:20+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cc2db6a55",
-      "score": 11.098,
+      "score": 10.763,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -239,7 +249,7 @@
     },
     {
       "cluster_id": "cebcc4aaf",
-      "score": 9.124,
+      "score": 8.79,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -289,7 +299,7 @@
     },
     {
       "cluster_id": "c275229f2",
-      "score": 7.432,
+      "score": 7.098,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -340,7 +350,7 @@
     },
     {
       "cluster_id": "c79faa702",
-      "score": 4.976,
+      "score": 4.642,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -379,7 +389,7 @@
     },
     {
       "cluster_id": "c697d9358",
-      "score": 4.454,
+      "score": 4.12,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -418,7 +428,7 @@
     },
     {
       "cluster_id": "c7943ed2d",
-      "score": 4.447,
+      "score": 4.112,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -466,7 +476,7 @@
     },
     {
       "cluster_id": "cb6edae5a",
-      "score": 4.382,
+      "score": 4.048,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
