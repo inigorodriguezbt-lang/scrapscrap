@@ -1,125 +1,66 @@
 {
-  "generated_at": "2026-10-08T12:04:06.343434+00:00",
+  "generated_at": "2026-10-08T14:03:41.339178+00:00",
   "edition_date": "2026-10-08",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 147,
-  "clusters_found": 107,
-  "stories_declared": 12,
+  "posts_considered": 151,
+  "clusters_found": 111,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cbefb5dae",
-      "score": 14.022,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "Hesamation",
-        "IntCyberDigest",
-        "MaxForAI",
-        "Wired AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T18:45:00+00:00",
-      "last_seen": "2026-10-08T11:13:01+00:00",
-      "links": [
-        "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
-        "https://x.com/Hesamation/status/2108153686941667698",
-        "https://x.com/IntCyberDigest/status/2108138045685829723",
-        "https://x.com/MaxForAI/status/2108128680513868018"
-      ],
-      "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out. Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful.",
-          "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
-          "created_at": "2026-10-07T18:45:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "MaxForAI",
-          "tier": "commentary",
-          "text": "Chinese student hacked several Korean banks with AI; CrowdStrike report Oct 7 says attacker used open-source AI pentest tool ARTEX with DeepSeek V4.1-Flash, plus GLM-5.3, Grok 4.6 and Claude Code; exposed directory listing with CLAUDE.md and Claude Code sessions.",
-          "url": "https://x.com/MaxForAI/status/2108128680513868018",
-          "created_at": "2026-10-08T09:33:39+00:00",
-          "engagement": 626
-        },
-        {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "An AI-enabled hacker just doxxed himself by exposing his Claude Code sessions, where he asked the AI to write his resume as YY, a 26-year-old from Maoming, China. He is behind the breaches of Shinhan, KB Kookmin and Hana Bank.",
-          "url": "https://x.com/IntCyberDigest/status/2108138045685829723",
-          "created_at": "2026-10-08T10:10:52+00:00",
-          "engagement": 242
-        },
-        {
-          "author": "Hesamation",
-          "tier": "commentary",
-          "text": "this guy literally vibe coded a hack on south korean banks with not even frontier models, then asked Claude Code to put it on his CV: used DeepSeek v4.1-Flash, GLM-5.3 and Grok 4.6 in Claude Code too; left .claude folder exposed; CrowdStrike digs through everything",
-          "url": "https://x.com/Hesamation/status/2108153686941667698",
-          "created_at": "2026-10-08T11:13:01+00:00",
-          "engagement": 50
-        }
-      ]
-    },
-    {
-      "cluster_id": "c54502053",
-      "score": 13.11,
+      "cluster_id": "c31864716",
+      "score": 13.822,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Anthropic",
         "Nvidia",
         "Microsoft",
         "AMD"
       ],
       "independent_sources": [
         "Ars Technica AI",
+        "Engadget",
         "NVIDIA",
         "TechCrunch AI",
+        "The Verge AI",
         "Tom's Hardware"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T14:00:00+00:00",
+      "source_count": 6,
+      "first_seen": "2026-10-07T17:41:41+00:00",
       "last_seen": "2026-10-08T10:57:45+00:00",
       "links": [
         "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-        "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
-        "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
         "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-        "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
+        "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
+        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+        "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
         "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "Engadget",
           "tier": "press",
-          "text": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open. In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026. If you’re planning to be one of them, register for your ticket before prices increase at the door. Save up to $100 on your pass, plus 50% on a second of the same type.",
-          "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
-          "created_at": "2026-10-07T14:00:00+00:00",
+          "text": "Everything announced at Microsoft's Windows and Surface event. The company highlighted agentic AI features for Windows as well as the Surface Laptop Ultra.",
+          "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
+          "created_at": "2026-10-07T17:41:41+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026. From Nvidia and Chime to Obvious Ventures and Anthropic, explore the entire roundtable agenda at TechCrunch Disrupt 2026. Register now to save up to $100 on your pass and get a second pass at 50% off.",
-          "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
-          "created_at": "2026-10-07T14:15:00+00:00",
+          "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "created_at": "2026-10-07T18:01:20+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots. OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off.",
-          "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
-          "created_at": "2026-10-07T14:30:00+00:00",
+          "text": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event. Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+          "created_at": "2026-10-07T18:42:22+00:00",
           "engagement": 0
         },
         {
@@ -157,14 +98,15 @@
       ]
     },
     {
-      "cluster_id": "cdb8ac42f",
-      "score": 11.953,
+      "cluster_id": "cbeeae789",
+      "score": 12.433,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
+        "Google",
         "Amazon"
       ],
       "independent_sources": [
@@ -174,23 +116,50 @@
         "The Decoder"
       ],
       "source_count": 4,
-      "first_seen": "2026-10-07T12:05:20+00:00",
+      "first_seen": "2026-10-07T15:38:28+00:00",
       "last_seen": "2026-10-08T10:30:23+00:00",
       "links": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+        "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
         "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
         "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-        "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
         "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
         "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/",
         "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
       ],
       "posts": [
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic gives more security teams access to Claude with fewer safety restrictions. Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical. The article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
-          "created_at": "2026-10-07T12:05:20+00:00",
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock. Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:38:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Automate remediation post AWS DevOps Agent investigation. AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+          "created_at": "2026-10-07T15:46:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock. Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+          "created_at": "2026-10-07T15:48:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock. Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce document-level access controls in real time, verifying permissions directly with authoritative sources at query time.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+          "created_at": "2026-10-07T18:34:44+00:00",
           "engagement": 0
         },
         {
@@ -236,8 +205,100 @@
       ]
     },
     {
-      "cluster_id": "cf6aa04c8",
-      "score": 9.855,
+      "cluster_id": "c54031f17",
+      "score": 11.618,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Nvidia",
+        "Microsoft",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Bloomberg Tech",
+        "TechCrunch AI",
+        "The Decoder"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-07T14:36:23+00:00",
+      "last_seen": "2026-10-08T13:25:05+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+        "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+        "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
+          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+          "created_at": "2026-10-07T14:36:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
+          "created_at": "2026-10-07T14:44:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
+          "created_at": "2026-10-07T17:50:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
+          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+          "created_at": "2026-10-07T17:58:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
+          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+          "created_at": "2026-10-08T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found. Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found appeared first on The Decoder .",
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+          "created_at": "2026-10-08T13:01:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Google Launches ‘Universal’ Gemini AI Agent for Workplace. Alphabet Inc.’s Google announced a “universal” Gemini agent for the workplace, ramping up competition with OpenAI, Anthropic PBC and Microsoft Corp. for corporate customers.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace",
+          "created_at": "2026-10-08T13:25:05+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c5e3ee71b",
+      "score": 10.136,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -248,25 +309,26 @@
         "9to5Mac",
         "Engadget",
         "The Decoder",
-        "The Verge AI"
+        "The Verge AI",
+        "Wired AI"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T12:34:34+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-07T18:00:00+00:00",
       "last_seen": "2026-10-08T08:45:16+00:00",
       "links": [
         "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
-        "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
         "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
         "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
-        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+        "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations. OpenAI's teen safety features for ChatGPT failed an independent audit. After more than 4,000 test prompts, the Common Sense Media Youth AI Safety Institute rated the service an \"unacceptable risk\" for minors. Conversations about suicide and self-harm on test accounts never triggered a parental alert. The institute wants teenagers locked out until safety can be independently verified. The article ChatGPT rated \"unacceptable risk\" for teens after parental alerts failed during suicide conversations appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-rated-unacceptable-risk-for-teens-after-parental-alerts-failed-during-suicide-conversations/",
-          "created_at": "2026-10-07T12:34:34+00:00",
+          "text": "The New ChatGPT Is More Show Than Tell. OpenAI is updating ChatGPT for all users with an “Intelligent UI” that’s more visual—generating interactive elements as part of the chatbot’s outputs.",
+          "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
+          "created_at": "2026-10-07T18:00:00+00:00",
           "engagement": 0
         },
         {
@@ -304,8 +366,59 @@
       ]
     },
     {
+      "cluster_id": "ca873a0af",
+      "score": 9.725,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Meta",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-07T15:02:24+00:00",
+      "last_seen": "2026-10-08T14:00:00+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+        "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude. SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s ChatGPT Dot, Grok Bot just got a new capability upgrade with the help of Anthropic’s Claude. more…",
+          "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+          "created_at": "2026-10-07T15:02:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
+          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+          "created_at": "2026-10-07T15:37:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?. My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier [&#8230;]",
+          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+          "created_at": "2026-10-08T14:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ceace4c5b",
-      "score": 8.445,
+      "score": 8.113,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -336,157 +449,6 @@
           "text": "Solo developer rebuilds Adobe Creative Suite in Rust using Claude, releases it free to all. Multiple Adobe creative tools were recreated using Claude and made open-source by one person.",
           "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
           "created_at": "2026-10-08T10:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cebcc4aaf",
-      "score": 8.213,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Meta",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T14:19:14+00:00",
-      "last_seen": "2026-10-07T18:30:57+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-        "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-        "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
-          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
-          "created_at": "2026-10-07T14:19:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Muse launches on the iPad. After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was released about a [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-          "created_at": "2026-10-07T15:37:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta’s Muse launches on iPad just a month after its mobile debut. Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
-          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-          "created_at": "2026-10-07T18:30:57+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3ff031bf",
-      "score": 7.932,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Nvidia",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "Engadget",
-        "The Decoder"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-07T14:00:00+00:00",
-      "last_seen": "2026-10-07T17:50:17+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
-        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-        "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-        "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's AI detection website is now available. SynthID Detector will flag content created with AI tools from OpenAI, Google, Apple and other companies.",
-          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
-          "created_at": "2026-10-07T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google rolls out improved SynthID AI content detector, now available globally. The new SynthID website can now identify AI content from Google, OpenAI, and more.",
-          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-          "created_at": "2026-10-07T14:00:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s SynthID AI content detector expands globally, will work on Apple’s models ‘soon’. Google’s AI-detector for images and videos, SynthID, is getting a full release today. It will work for more than just content developed with Google’s AI models and initial partners. more…",
-          "url": "https://9to5google.com/2026/10/07/google-synthid-ai-image-detector-launches-globally/",
-          "created_at": "2026-10-07T15:11:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google says 180 billion images and videos now carry SynthID watermarks as detector goes public. Google's AI watermark detector SynthID is now public. Anyone can check whether images, videos, or audio were created by Google's AI or partners like OpenAI and Nvidia. More than 180 billion pieces of content already carry the watermark, but the tool only identifies SynthID-tagged content, not AI-generated media in general. The article Google says 180 billion images and videos now carry SynthID watermarks as detector goes public appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public/",
-          "created_at": "2026-10-07T17:50:17+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cd49bac97",
-      "score": 7.455,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-07T14:36:23+00:00",
-      "last_seen": "2026-10-07T14:44:42+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-        "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google experiments with an AI-powered gaming platform. Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
-          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-          "created_at": "2026-10-07T14:36:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google bets Gemini can turn casual players into game developers with new Playground feature. Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground, Google and Unity announced Unity Spark, a more professional AI tool with a beta planned for 2026. The article Google bets Gemini can turn casual players into game developers with new Playground feature appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-bets-gemini-can-turn-casual-players-into-game-developers-with-new-playground-feature/",
-          "created_at": "2026-10-07T14:44:42+00:00",
           "engagement": 0
         }
       ]
@@ -531,109 +493,40 @@
       ]
     },
     {
-      "cluster_id": "cf6faa52e",
-      "score": 6.939,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Google",
-        "Meta"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-07T14:40:52+00:00",
-      "last_seen": "2026-10-08T07:30:31+00:00",
-      "links": [
-        "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-        "https://www.bloomberg.com/news/articles/2026-10-08/finland-s-data-center-tally-tops-67-billion-on-ai-boom",
-        "https://www.bloomberg.com/news/videos/2026-10-08/isomorphic-labs-seeks-funding-at-valuation-of-40-bln-video",
-        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’. Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan. [&#8230;]",
-          "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
-          "created_at": "2026-10-07T14:40:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior. Biohub, the research organization backed by Mark Zuckerberg and Priscilla Chan, is coordinating a $1.8 billion initiative to train AI models that predict cell behavior. Meta, Google DeepMind, Isomorphic Labs, and the US Department of Energy are funding data, lab equipment, and compute. A first dataset should be ready in about a year. The article Zuckerberg&#039;s Biohub leads a $1.8 billion push to build AI models that predict cell behavior appeared first on The Decoder .",
-          "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
-          "created_at": "2026-10-07T17:58:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Isomorphic Labs Seeks Funding at Valuation of $40 Billion. Isomorphic Labs, an AI-powered drug discovery startup spun out of Alphabet Inc.’s Google DeepMind, is in early talks to raise new funds at a valuation of at least $40 billion, according to people familiar with the effort. Bloomberg's Neil Campling has the details. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-08/isomorphic-labs-seeks-funding-at-valuation-of-40-bln-video",
-          "created_at": "2026-10-08T06:25:31+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Finland’s Data Center Tally Tops €67 Billion on AI Boom. Finland’s data center boom is gathering pace, with several new projects unveiled since after Alphabet Inc.’s Google announced its biggest-ever European investment in the country last month.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/finland-s-data-center-tally-tops-67-billion-on-ai-boom",
-          "created_at": "2026-10-08T07:30:31+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c091ea12a",
-      "score": 6.235,
+      "cluster_id": "cb740417d",
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Nvidia",
-        "Microsoft"
+        "Meta"
       ],
       "independent_sources": [
-        "Engadget",
-        "The Verge AI"
+        "9to5Mac",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-07T17:41:41+00:00",
-      "last_seen": "2026-10-07T18:42:22+00:00",
+      "first_seen": "2026-10-07T14:19:14+00:00",
+      "last_seen": "2026-10-07T18:30:57+00:00",
       "links": [
-        "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
-        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-        "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced"
+        "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+        "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/"
       ],
       "posts": [
         {
-          "author": "Engadget",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Everything announced at Microsoft's Windows and Surface event. The company highlighted agentic AI features for Windows as well as the Surface Laptop Ultra.",
-          "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
-          "created_at": "2026-10-07T17:41:41+00:00",
+          "text": "Meta launches Muse for iPad following weeks as the top iPhone app. Meta’s Muse AI agent app has spent the last several weeks as the #1 free iPhone app on the U.S. App Store. The latest Muse app update adds a new platform to tackle: iPad. more…",
+          "url": "https://9to5mac.com/2026/10/07/meta-launches-muse-for-ipad-following-weeks-as-the-top-iphone-app/",
+          "created_at": "2026-10-07T14:19:14+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Microsoft is giving Copilot more control over Windows and your files. At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-          "created_at": "2026-10-07T18:01:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event. Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-          "created_at": "2026-10-07T18:42:22+00:00",
+          "text": "Meta’s Muse launches on iPad just a month after its mobile debut. Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "created_at": "2026-10-07T18:30:57+00:00",
           "engagement": 0
         }
       ]

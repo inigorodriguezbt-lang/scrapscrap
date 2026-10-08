@@ -30,6 +30,60 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-openai-math-withdrawn",
+   "section": "research",
+   "headline": "OpenAI withdraws three of its AI-written maths papers over a sign error",
+   "standfirst": "A sign error in one manuscript invalidated an argument two other papers rely on, OpenAI's maths repository says, a day after mathematicians urged colleagues to quit its work.",
+   "body": [
+    "OpenAI withdrew three manuscripts from its public maths repository on 7 October, according to the repository's history file. The titles are \"Algebraicity of Weil classes on split abelian eightfolds\", \"Algebraicity of Kuga–Satake Correspondences for K3 Surfaces\" and \"The rational Hodge conjecture for products of K3 surfaces\". Hodge-conjecture work is among the most closely watched claims in the collection.",
+    "The file's stated reason is that in the first paper \"a sign error invalidates a stabilization-trace cancellation argument and the construction used by two dependent papers\". In plain terms, a mistake in one proof undermined a step that the other two rely on. The paper has not seen an independent mathematician's assessment of the error, and OpenAI has not published one beyond the notice.",
+    "The same entry lists 14 manuscripts that were revised, among them six on Kähler minimal model programs and four on Lipschitz heights and Ashkin–Teller currents. Another 13 were updated only to cite revised companion papers. OpenAI also added six Lean formalizations, bringing the number it says are formally checked to 300 of 719, about 42 per cent.",
+    "The repository's README says the manuscripts were produced by \"an unreleased internal OpenAI model\", at roughly three hours of ChatGPT Pro thinking compute per result. It warns that \"some of the unformalized results could have issues\" and says problems will be fixed quickly, with earlier versions kept accessible. OpenAI published the files on 6 October, and the repository now shows 719 manuscripts in 372 families.",
+    "The withdrawal landed on Hacker News, where the repository's history page drew 180 points and 130 comments when the paper looked. It follows a statement from the Association for Human Mathematics, which called the release a \"demonstration of power\" and urged mathematicians to stop working with OpenAI. The association's characterisations are its own, and OpenAI had not responded to it when the paper checked its repository."
+   ],
+   "entities": [
+    "OpenAI",
+    "Association for Human Mathematics"
+   ],
+   "sources": [
+    {
+     "author": "OpenAI (history.md)",
+     "url": "https://github.com/openai/math/blob/main/history.md"
+    },
+    {
+     "author": "OpenAI (README)",
+     "url": "https://github.com/openai/math"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-crunchbase-europe-q3",
+   "section": "business",
+   "headline": "AI took 75 per cent of Europe's $25 billion venture quarter, Crunchbase says",
+   "standfirst": "Crunchbase's Q3 tally puts European funding up 77 per cent on last year, led by Mistral's $3.5 billion round, which it calls the biggest ever for a European company.",
+   "body": [
+    "European startups raised $25 billion in the third quarter of 2026, up 77 per cent from $14 billion a year earlier and up from $24 billion in the second quarter, according to Crunchbase's data as of 5 October. Crunchbase says it is the region's strongest quarter in four years and 16 per cent of global venture funding.",
+    "AI drew $18.8 billion of that, or 75 per cent, which Crunchbase describes as the highest share on record. It says physical technology, a group covering defence, data centres, energy, aerospace and robotics, accounted for roughly half of all funding, so the two categories overlap.",
+    "The biggest cheques went to familiar names. Crunchbase lists Mistral's $3.5 billion round, which it calls the largest venture round ever for a Europe-based company, Nscale's $3.36 billion convertible note, Helsing's $1.8 billion Series E and Quantum Systems' $1.2 billion. By country, the UK led with $7.5 billion, ahead of Germany at $5 billion and France at $4.8 billion.",
+    "The money is concentrated. Late-stage rounds took $17.3 billion, 70 per cent of the total, across 83 companies. Early-stage funding was $5.7 billion across just over 200 companies, down on the previous quarter and flat on the year, Crunchbase says. Seed funding was about $2 billion across more than 750 companies, also flat, though Crunchbase expects seed figures to rise as data catches up.",
+    "These are one data provider's figures and counting rules differ between trackers, so totals may not match other tallies. The paper has not compared them with PitchBook or Dealroom, and the Crunchbase report does not break out how much of the AI total went to the four largest rounds."
+   ],
+   "entities": [
+    "Crunchbase",
+    "Mistral",
+    "Nscale",
+    "Helsing"
+   ],
+   "sources": [
+    {
+     "author": "Crunchbase News",
+     "url": "https://news.crunchbase.com/venture/q3-2026-europe-strong-quarter-ai-uk-germany-france/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-artcraft-adobe-clones",
    "section": "products",
    "headline": "Developer says Claude Opus 5.5 built seven open-source Adobe lookalikes in Rust",
@@ -190,7 +244,7 @@
      "url": "https://www.tomshardware.com/pc-components/cpus/amds-epyc-verano-ai-host-cpu-will-reportedly-use-a-special-sb1-socket-zen-6-chip-pairs-72-cores-with-a-24-channel-lpddr5x-memory-subsystem"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-korea-bank-hacks-ai-tools",
@@ -235,7 +289,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-rsigym-evolvent",
