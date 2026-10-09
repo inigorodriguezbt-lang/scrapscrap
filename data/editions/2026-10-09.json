@@ -42,6 +42,64 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-bigarrow-agent-pointer",
+   "section": "agents-coding",
+   "headline": "Open-source Bigarrow lets coding agents draw a giant arrow on your Mac screen",
+   "standfirst": "The MIT-licensed macOS tool paints an arrow, box or sign over a button so an agent can show you where to click, and it never clicks, types or captures anything itself.",
+   "body": [
+    "A developer has published Bigarrow, a small macOS tool that lets an AI agent point at something on screen instead of describing it. Franz Enzenhofer's repository says it draws a large arrow, box or text sign over a target and, in the README's words, \"never clicks, types or captures anything. It only points.\" It reached 60 points on the Hacker News front page.",
+    "Agents call it from a terminal. According to the README, `bigarrow point --element \"Allow\" --app \"System Settings\"` finds a button by its label, while other flags target a screen coordinate, a window, a rectangle, the mouse position or a Peekaboo snapshot. Arrows expire after eight seconds by default, and `start` and `stop` commands hold one for up to 300 seconds.",
+    "The README describes a single Swift binary with no daemon, menu-bar icon, account or telemetry. Drawing needs no permission, but finding elements by label needs macOS Accessibility access, which is granted to the terminal or host app rather than to Bigarrow. It requires macOS 14 or newer and exits with distinct codes for bad input, a missing target or a missing permission.",
+    "Installation is through Homebrew, and `bigarrow install-skill` registers it as a skill for Claude Code and Codex. The author credits Peter Steinberger's Peekaboo and Nameplate projects as prior art. The repository had 51 stars and 76 commits when we read it on Friday. Nobody independent has reported testing it, and the claims here are the author's own."
+   ],
+   "entities": [
+    "Bigarrow",
+    "Franz Enzenhofer",
+    "Claude Code",
+    "Codex",
+    "Peekaboo"
+   ],
+   "sources": [
+    {
+     "author": "franzenzenhofer on GitHub",
+     "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "axios-ai-execs-backlash-planning",
+   "section": "policy",
+   "headline": "AI executives are gaming out a political revolt after a catastrophe, Axios says",
+   "standfirst": "Axios says leaders at Anthropic, OpenAI and others expect a major AI incident within 6 to 12 months, most likely a cyberattack on banking, power or water, and are planning for the backlash.",
+   "body": [
+    "Top executives at Anthropic, OpenAI and other AI companies are privately gaming out a public and political revolt after a catastrophic AI event, Axios reported on Friday. We saw the outlet's post and a summary of the story on X, not the full article. The details below come from that summary.",
+    "According to the summary posted by the commentator kimmonismus, many industry insiders expect a major incident within the next 6 to 12 months, and the backlash could arrive as early as 2027. Axios reportedly says the most likely form is a cyberattack that disrupts banking, internet access, power or water. We could not confirm those details against the article itself.",
+    "OpenAI confirmed to Axios that it runs preparedness exercises. It said: \"These scenarios are not treated as inevitable, but are meant to help us prepare for a variety of circumstances.\" Anthropic declined to comment, per the summary. No other company is named in what we saw. The sourcing for the private talks is not described.",
+    "Axios has covered this theme before. A September C-Suite newsletter set out four ways AI could play out, one a catastrophe within 18 months followed by sharp backlash. It advised executives to prepare staff early. The Friday scoop reports that planning inside the labs. Nobody outside Axios has confirmed it."
+   ],
+   "entities": [
+    "Axios",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "Axios on X",
+     "url": "https://x.com/axios/status/2108518113243213997"
+    },
+    {
+     "author": "kimmonismus on X",
+     "url": "https://x.com/kimmonismus/status/2108499354252181521"
+    },
+    {
+     "author": "Axios C-Suite",
+     "url": "https://www.axios.com/2026/09/08/ai-ceo-prep-what-to-expect-2027"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-trl-v1-15-fused-lm-head",
    "section": "research",
    "headline": "Hugging Face TRL v1.15 cuts training memory by up to 82%",
@@ -238,7 +296,7 @@
      "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-rek-california-robot-fights",
@@ -279,7 +337,7 @@
      "after": 4
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-pocketty-agent-terminal",
