@@ -1,106 +1,15 @@
 {
-  "generated_at": "2026-10-09T16:03:36.228813+00:00",
+  "generated_at": "2026-10-09T18:03:40.234706+00:00",
   "edition_date": "2026-10-09",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 115,
-  "clusters_found": 92,
-  "stories_declared": 11,
+  "posts_considered": 91,
+  "clusters_found": 74,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c1561aa10",
-      "score": 13.913,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "arXiv",
-        "kimmonismus"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-08T17:59:49+00:00",
-      "last_seen": "2026-10-09T14:12:16+00:00",
-      "links": [
-        "https://arxiv.org/abs/2610.12463v1",
-        "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
-        "https://x.com/kimmonismus/status/2108561185218175388"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents. In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopp",
-          "url": "https://arxiv.org/abs/2610.12463v1",
-          "created_at": "2026-10-08T17:59:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI's safety crisis keeps getting worse and the company keeps making it worse. OpenAI fired three safety researchers who helped investigate the Hugging Face hack. In an open letter, they warn that the firings are scaring remaining staff and eroding safety culture. OpenAI claims they violated policies but won't say how. The article OpenAI&#039;s safety crisis keeps getting worse and the company keeps making it worse appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
-          "created_at": "2026-10-09T11:45:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Google plans to introduce an Ultra mode, featuring advanced skills and tools. With Gemini 4, Google aims to win back professional users.",
-          "url": "https://x.com/kimmonismus/status/2108561185218175388",
-          "created_at": "2026-10-09T14:12:16+00:00",
-          "engagement": 238
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc7eac8c3",
-      "score": 10.903,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "TSMC"
-      ],
-      "independent_sources": [
-        "kimmonismus",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T14:29:27+00:00",
-      "last_seen": "2026-10-09T14:46:51+00:00",
-      "links": [
-        "https://x.com/kimmonismus/status/2108565508127674490",
-        "https://x.com/testingcatalog/status/2108569887585022109"
-      ],
-      "posts": [
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Sabi says it has raised $50M to build a cap that turns intended speech into text. TSMC fabricated its custom EEG chip. Training its own Brain Foundation Model.",
-          "url": "https://x.com/kimmonismus/status/2108565508127674490",
-          "created_at": "2026-10-09T14:29:27+00:00",
-          "engagement": 82
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "Sabi has raised $50M from Khosla Ventures, Accel, Initialized, DST, and Collab Fund, with Kevin Weil also participating. The company is building the Sabi Cap, a non-invasive wearable that aims to read brain signals and turn thoughts into text. Its non-contact EEG chip, fabricated by TSMC.",
-          "url": "https://x.com/testingcatalog/status/2108569887585022109",
-          "created_at": "2026-10-09T14:46:51+00:00",
-          "engagement": 27
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4847b34c",
-      "score": 10.619,
+      "cluster_id": "c0a391412",
+      "score": 12.273,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -108,117 +17,127 @@
         "Meta"
       ],
       "independent_sources": [
-        "Latent Space",
-        "omarsar0"
+        "AndrewCurran_",
+        "dair_ai",
+        "testingcatalog"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T16:27:54+00:00",
-      "last_seen": "2026-10-09T15:28:02+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-09T15:59:02+00:00",
+      "last_seen": "2026-10-09T17:43:33+00:00",
       "links": [
-        "https://www.latent.space/p/periodic",
-        "https://x.com/omarsar0/status/2108580251127439710"
+        "https://x.com/AndrewCurran_/status/2108614356544225634",
+        "https://x.com/dair_ai/status/2108588052914598084",
+        "https://x.com/testingcatalog/status/2108595450529857856"
       ],
       "posts": [
         {
-          "author": "Latent Space",
+          "author": "dair_ai",
           "tier": "commentary",
-          "text": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk. A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
-          "url": "https://www.latent.space/p/periodic",
-          "created_at": "2026-10-08T16:27:54+00:00",
-          "engagement": 0
+          "text": "Banger paper from Meta Superintelligence Labs on user simulators for agent training. This work trains MIMESIS, a 9B user simulator, on human conversations and 13 behavior patterns observed in real users. It beats Claude Opus 5 on behavioral fidelity by 13.4 points.",
+          "url": "https://x.com/dair_ai/status/2108588052914598084",
+          "created_at": "2026-10-09T15:59:02+00:00",
+          "engagement": 63
         },
         {
-          "author": "omarsar0",
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "Banger paper from Meta Superintelligence Labs on self-improving agents. They call it agent plasticity: gain on held-out tasks per dollar spent on learning.",
-          "url": "https://x.com/omarsar0/status/2108580251127439710",
-          "created_at": "2026-10-09T15:28:02+00:00",
-          "engagement": 42
+          "text": "Pine AI launched Pine Computer, a cloud computer, harness, and runtime layer built for agentic tasks.\n\nOn SaaS-Bench v1.1, Pine Computer has the highest checkpoint score in the publisher's table: 78.3%, against 74.3% for Opus 5 with Claude Code. It also completed fewer whole tasks: 27.4% against 31.1%.",
+          "url": "https://x.com/testingcatalog/status/2108595450529857856",
+          "created_at": "2026-10-09T16:28:25+00:00",
+          "engagement": 54
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Done in collaboration with GPT-6 Astra and Claude Opus 5.5. https://t.co/ECpjh5dhHB",
+          "url": "https://x.com/AndrewCurran_/status/2108614356544225634",
+          "created_at": "2026-10-09T17:43:33+00:00",
+          "engagement": 79
         }
       ]
     },
     {
-      "cluster_id": "cfc63de8d",
-      "score": 10.46,
+      "cluster_id": "c532ce541",
+      "score": 8.449,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Stratechery"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-09T16:04:53+00:00",
+      "last_seen": "2026-10-09T17:00:00+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/09/apple-welcome-home-event-three-new-products/",
+        "https://stratechery.com/2026/its-not-you-its-me/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple ‘Welcome home’ event: Three new products are coming next week. Apple officially confirmed yesterday that it will hold a product launch event next week on October 13. With a “Welcome home” tagline, the launch is expected to focus on new smart home products. Here’s everything to expect at next week’s Apple event. 9to5Mac’s Apple event coverage is supported by Sony : Shop Sony’s huge Amazon sale to score big savings on its entire TV lineup, including models with Apple AirPlay 2 support. more…",
+          "url": "https://9to5mac.com/2026/10/09/apple-welcome-home-event-three-new-products/",
+          "created_at": "2026-10-09T16:04:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "2026.41: It’s Not You, It’s Me. The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+          "url": "https://stratechery.com/2026/its-not-you-its-me/",
+          "created_at": "2026-10-09T17:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cde0136d0",
+      "score": 8.12,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Mistral",
-        "DeepSeek"
+        "Nvidia"
       ],
       "independent_sources": [
-        "Tom's Hardware",
-        "arena"
+        "NVIDIA",
+        "NVIDIA Developer"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-09T11:00:00+00:00",
-      "last_seen": "2026-10-09T14:41:06+00:00",
+      "first_seen": "2026-10-08T18:30:02+00:00",
+      "last_seen": "2026-10-08T21:06:35+00:00",
       "links": [
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
-        "https://x.com/arena/status/2108568443037614515"
+        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+        "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Mistral’s new Large 4 trails some Chinese open models in independent tests. Artificial Analysis scores Mistral’s new Large 4 at 38, behind open models from Xiaomi, Z.ai, Moonshot, and DeepSeek.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
-          "created_at": "2026-10-09T11:00:00+00:00",
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup. The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+          "created_at": "2026-10-08T18:30:02+00:00",
           "engagement": 0
         },
         {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "This Week in the Arena: Nano Banana 2.1 ranked in top 6 across three Image Arena modes; Mistral Large 4 landed at #43 in Agent Arena; Claude Haiku 5.5 (High) landed in Code Arena WebDev at #30 (1587 pts).",
-          "url": "https://x.com/arena/status/2108568443037614515",
-          "created_at": "2026-10-09T14:41:06+00:00",
-          "engagement": 53
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccd15f61f",
-      "score": 7.893,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "security",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "The Verge AI",
-        "mark_k"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T09:48:26+00:00",
-      "last_seen": "2026-10-09T14:32:42+00:00",
-      "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-        "https://x.com/mark_k/status/2108566326411210866"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI doubles down on decision to fire three AI safety researchers. OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita &#8288;Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-          "created_at": "2026-10-09T09:48:26+00:00",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "created_at": "2026-10-08T21:06:35+00:00",
           "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "The three safety researchers fired by OpenAI (Tomek Korbak, Jasmine Wang, Mikita Balesni) deny leaking information in an open letter. OpenAI denies retaliation.",
-          "url": "https://x.com/mark_k/status/2108566326411210866",
-          "created_at": "2026-10-09T14:32:42+00:00",
-          "engagement": 28
         }
       ]
     },
     {
       "cluster_id": "ccd416584",
-      "score": 7.85,
+      "score": 7.516,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -256,77 +175,8 @@
       ]
     },
     {
-      "cluster_id": "cbaf7193e",
-      "score": 6.703,
-      "interest": "want",
-      "single_source": true,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA"
-      ],
-      "source_count": 1,
-      "first_seen": "2026-10-08T21:06:35+00:00",
-      "last_seen": "2026-10-08T21:06:35+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-          "created_at": "2026-10-08T21:06:35+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c75266aec",
-      "score": 6.047,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "404 Media",
-        "9to5Mac"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T16:11:25+00:00",
-      "last_seen": "2026-10-09T15:35:33+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/09/deals-airpods-max-2-mac-mini-macbook-air-magic-mouse/",
-        "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/"
-      ],
-      "posts": [
-        {
-          "author": "404 Media",
-          "tier": "press",
-          "text": "Podcast: Leak Show Cops Can Break into Locked iPhones. Cops are getting around a very important iPhone security feature; someone made an LLM torture chamber; and lawyers going wild with ChatGPT.",
-          "url": "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/",
-          "created_at": "2026-10-08T16:11:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Deals: AirPods Max 2 $120 off, Mac mini, MacBook Air, Magic Mouse 25% off, Nomad iPhone 18 Pro cases, more. While some of the Prime Day Apple deals are starting to disappear, you can still land a solid discount on AirPods Pro 3 and we are highlighting best holiday pricing still live in today’s 9to5Toys Lunch Break . Amazon is still delivering all five colors of Apple’s latest AirPods Max 2 down at $120 off, all-time lows on the M6 Mac mini at up to $150 off, the new M5 Max Mac Studio at $200 off , and all M5 MacBook Air models at $200 off. Alongside ongoing all-time lows on Apple Watch Series 12, we also tracking the return of Prime Day pricing on Apple’s latest Magic Mouse , and we have an exclusiv",
-          "url": "https://9to5mac.com/2026/10/09/deals-airpods-max-2-mac-mini-macbook-air-magic-mouse/",
-          "created_at": "2026-10-09T15:35:33+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cceb4ad7d",
-      "score": 4.852,
+      "score": 4.519,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -359,82 +209,6 @@
           "text": "Fired OpenAI safety researchers dispute their dismissals in open letter. Three OpenAI researchers said their firings may have a 'chilling' effect on employees.",
           "url": "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
           "created_at": "2026-10-09T08:25:18+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cef158282",
-      "score": 3.955,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "The Verge AI",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T17:57:01+00:00",
-      "last_seen": "2026-10-08T21:14:12+00:00",
-      "links": [
-        "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
-        "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute. If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's [&#8230;]",
-          "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
-          "created_at": "2026-10-08T17:57:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Inside Elon Musk’s Midterm Spending Spree. This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
-          "created_at": "2026-10-08T21:14:12+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cd7a782cc",
-      "score": 3.625,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T17:00:00+00:00",
-      "last_seen": "2026-10-08T21:17:24+00:00",
-      "links": [
-        "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
-        "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Anthropic bans ‘abusive or cruel behavior’ toward Claude. Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-          "created_at": "2026-10-08T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models. The company is also tightening its election policy ahead of the midterms.",
-          "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
-          "created_at": "2026-10-08T21:17:24+00:00",
           "engagement": 0
         }
       ]

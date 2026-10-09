@@ -42,6 +42,111 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-claude-science-uv-sky-map",
+   "section": "research",
+   "headline": "Anthropic says Claude Science built the first full ultraviolet sky map",
+   "standfirst": "Agents downloaded, calibrated and merged data from several space missions, then filled the gaps NASA's GALEX never imaged, and the map's predictions land within about 10 per cent of measurements.",
+   "body": [
+    "Anthropic says its Claude Science workspace has produced the first complete ultraviolet map of the sky, The Decoder reported on Friday. The Decoder is the only outlet we found with the story so far, and the map itself has not been independently checked. Johns Hopkins astrophysicist Brice Ménard describes the process on Anthropic's website, according to the report.",
+    "No complete ultraviolet map existed because the ozone layer blocks that light, so it can only be measured from space. According to The Decoder, NASA's GALEX mission covered about two-thirds of the sky and skipped bright star-forming regions. Ultraviolet light shows dust lit by starlight, such as clouds around young stars and rings left by stellar explosions.",
+    "The Decoder reports that Claude Science coordinated AI agents which downloaded data from several space missions, calibrated it and merged it into one picture. Missing regions were filled by inpainting, in which a model learns from the data it has and reconstructs the gaps. The report does not name the other missions that supplied data.",
+    "On accuracy, the report says tests found the model's predictions deviated by about 10 per cent from actual measurements on average. That figure comes from the project's own testing as relayed by The Decoder, and it is not clear what was held out. The map's resolution and whether it will be released were not stated.",
+    "Ménard presents the map as teaching material. He suspects many scientists have put off projects like this that AI could now make possible, The Decoder reports, which is the point of the exercise: tedious data work that researchers would otherwise never get to. How much of it ran without human checking is not described."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Science",
+    "Brice Ménard",
+    "GALEX",
+    "NASA"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-openai-dark-clark-bogus-bylines",
+   "section": "security",
+   "headline": "OpenAI bans accounts behind Russian and Iranian fake-news placement ops",
+   "standfirst": "A Russian campaign called Dark Clark forged audio and documents that drew official denials in Ecuador and Peru, and OpenAI rates it the first category 5 case it has reported.",
+   "body": [
+    "OpenAI says it has exposed a Russian and an Iranian influence operation and banned the ChatGPT accounts involved, The Decoder reported on Friday. Both operations used fake identities to place content in legitimate media rather than run social media campaigns. The account comes from OpenAI's own investigation report, and no outside group has confirmed the attributions.",
+    "The Russian operation, which OpenAI calls Dark Clark, targeted Latin America, according to the report. OpenAI says the aim was to discredit Ukraine and destabilise local politics. The actors controlled a think tank through a fictitious persona and likely recruited local staffers without their knowledge, the company says.",
+    "OpenAI scored Dark Clark 5 out of 6 on its Breakout Scale because politicians reacted to the content. The Decoder says it is the first category 5 case in two and a half years of OpenAI's reporting. Fabricated audio files and documents prompted fact-checks and official denials in Ecuador and Peru, according to the report.",
+    "The Iranian operation, named Bogus Bylines, used seven fake journalists to place nearly 100 articles about the US-Iran conflict in online outlets worldwide, OpenAI says. The actors also generated social media comments, which gained almost no traction. The report does not say which outlets published the articles.",
+    "OpenAI says both operations used AI mainly for internal reporting and to adapt propaganda to different languages. That would make the tool a helper rather than the engine of the campaign. The Decoder's summary does not give exact dates, the outlets involved or the number of accounts banned."
+   ],
+   "entities": [
+    "OpenAI",
+    "ChatGPT",
+    "Dark Clark",
+    "Bogus Bylines"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-boston-dynamics-atlas-hand",
+   "section": "ai",
+   "headline": "Boston Dynamics drops Atlas's pinky in a 13-actuator hand",
+   "standfirst": "The new hand has 13 identical encapsulated actuators and no cables across joints, and the company says it lifts more than 100 pounds and is built for mass manufacture.",
+   "body": [
+    "Boston Dynamics has given more detail on the redesigned hand for its Atlas humanoid, The Robot Report said on Friday. The hand has four fingers, with the pinky dropped, and 13 degrees of freedom, and it is directly actuated. The specifications come from the company's own description, and no independent testing has been published.",
+    "Boston Dynamics says the hand is built from 13 identical actuators, \"all completely encapsulated, with no fragile cables crossing joints.\" It says it designed the hand for mass manufacturing. It also built it for high-fidelity simulation, so that reinforcement learning trained there transfers to the real robot. The gripper is smaller than before.",
+    "The company says the hand can handle a payload over 100 pounds. It did not make the hand stronger, it says, because earlier hands already had enough strength. The Robot Report's account does not mention tactile sensors, so what the hand can feel is unclear from the coverage.",
+    "Rodriguez, the director of robot behavior for Atlas, said the team applied lessons from the robot's body, namely simplicity, modularity and mature actuators. The report says a two-thumb design was rejected because it added actuation complexity, cost and volume.",
+    "Tests have included industrial tasks such as using handheld power tools, handling cables and fishing for screws, as well as juggling and speed hand games, Boston Dynamics says. The hand has been used extensively at the company's headquarters but is not yet deployed across the whole fleet, per the report."
+   ],
+   "entities": [
+    "Boston Dynamics",
+    "Atlas",
+    "The Robot Report"
+   ],
+   "sources": [
+    {
+     "author": "The Robot Report",
+     "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-ultra-physical-intelligence",
+   "section": "ai",
+   "headline": "Warehouse robot renter Ultra raises $62 million, deepens Physical Intelligence tie",
+   "standfirst": "The Brooklyn startup says its packing robots have handled more than half a million orders, and Physical Intelligence supplies the AI that lets them learn.",
+   "body": [
+    "Ultra, a Brooklyn startup that leases packing robots to warehouses, has raised $62 million in two rounds, Fortune reported on Friday. A $50 million Series A was led by Framework Ventures with Y Combinator participating, and an earlier $12 million seed was led by Y Combinator and Next View. Fortune is the only outlet we found with the story.",
+    "Ultra uses a robots-as-a-service model, according to Fortune. It installs robots at third-party logistics sites, where customers pay an up-front integration fee and then a monthly fee for hardware and software support. The company, per the report, has raised its prices and says it has booked significant revenue, though it did not disclose the amount.",
+    "The deal with Physical Intelligence is the technical heart of the story. Ultra supplies the body and Physical Intelligence supplies the software brains that let the robots learn and improve, Fortune says. Physical Intelligence is valued at $5.6 billion and was founded by a team from Google DeepMind, the report notes.",
+    "On scale, Ultra says its robots have packed more than half a million orders for shipping. The figure is the company's own, and Fortune does not say how it was checked. The customers are unnamed warehouse and logistics clients across the United States, so there is no outside view of performance.",
+    "CEO Jon Miller Schwartz told Fortune that humanoid robots are likely to scale in about five years. Ultra's pitch is the nearer term: a wheeled, task-specific machine that pays for itself without large capital outlays. Whether that holds as the model underneath changes is something customers have yet to say."
+   ],
+   "entities": [
+    "Ultra",
+    "Physical Intelligence",
+    "Framework Ventures",
+    "Y Combinator",
+    "Jon Miller Schwartz"
+   ],
+   "sources": [
+    {
+     "author": "Fortune",
+     "url": "https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-sabi-brain-cap-50m",
    "section": "products",
    "headline": "Sabi raises $50 million for a cap that reads thoughts into text",
@@ -179,7 +284,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-google-ai-studio-ultra-mode",
@@ -209,7 +314,7 @@
     }
    ],
    "embeds": [],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-bigarrow-agent-pointer",
@@ -235,7 +340,7 @@
      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "axios-ai-execs-backlash-planning",
@@ -267,7 +372,7 @@
      "url": "https://www.axios.com/2026/09/08/ai-ceo-prep-what-to-expect-2027"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-trl-v1-15-fused-lm-head",
