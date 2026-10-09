@@ -1,52 +1,150 @@
 {
-  "generated_at": "2026-10-09T20:03:32.204804+00:00",
+  "generated_at": "2026-10-09T22:03:28.116024+00:00",
   "edition_date": "2026-10-09",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 92,
-  "clusters_found": 74,
-  "stories_declared": 7,
+  "posts_considered": 78,
+  "clusters_found": 60,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c4f5465b2",
-      "score": 8.493,
-      "interest": "neutral",
+      "cluster_id": "c523ee917",
+      "score": 13.363,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "mark_k",
-        "testingcatalog"
+      "suggested_section": "models",
+      "entities": [
+        "Google"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T17:49:30+00:00",
-      "last_seen": "2026-10-09T18:39:42+00:00",
+      "independent_sources": [
+        "AndrewCurran_",
+        "kimmonismus",
+        "synthwavedd"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-09T20:11:46+00:00",
+      "last_seen": "2026-10-09T21:01:37+00:00",
       "links": [
-        "https://x.com/mark_k/status/2108615855743676818",
-        "https://x.com/testingcatalog/status/2108628488299204970"
+        "https://x.com/AndrewCurran_/status/2108651657915732034",
+        "https://x.com/kimmonismus/status/2108658452293718408",
+        "https://x.com/synthwavedd/status/2108664201103151428"
       ],
       "posts": [
         {
-          "author": "mark_k",
+          "author": "AndrewCurran_",
           "tier": "commentary",
-          "text": "Grok Bot users can now secure a custom email address for their bot!\n\nIt will be yourname@mail.grokbot.com",
-          "url": "https://x.com/mark_k/status/2108615855743676818",
-          "created_at": "2026-10-09T17:49:30+00:00",
-          "engagement": 44
+          "text": "Business Insider is reporting that Google is internally testing a new Gemini 4 checkpoint named Carbon that matches Opus 5.5 in coding.",
+          "url": "https://x.com/AndrewCurran_/status/2108651657915732034",
+          "created_at": "2026-10-09T20:11:46+00:00",
+          "engagement": 713
         },
         {
-          "author": "testingcatalog",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "SPACEXAI 🔥: Grok Bot users now can ask their bots to claim its own email address. \n\nThis address can be used by the bot to communicate with others, sign up for newsletters and more! \n\nJust asked it to subscribe for TestingCatalog’s daily AI Brief newsletter and it handled it perfectly. \n\nTesting time! 🤖",
-          "url": "https://x.com/testingcatalog/status/2108628488299204970",
-          "created_at": "2026-10-09T18:39:42+00:00",
-          "engagement": 87
+          "text": "A lot is happening at Google right now. Gemini 4 \"Argon\" hasn't even been released yet, and internally they're already testing the next Checkpoint, \"Carbon,\" which is supposed to be approaching the level of Opus 5.5. It seems Google has found a way to overcome its internal hurdles and become competitive again.",
+          "url": "https://x.com/kimmonismus/status/2108658452293718408",
+          "created_at": "2026-10-09T20:38:46+00:00",
+          "engagement": 469
+        },
+        {
+          "author": "synthwavedd",
+          "tier": "commentary",
+          "text": "Google's work on Argon continues, with their latest dogfood checkpoint apparently comparable to Claude Opus 5.5 in code tasks. Carbon feels like Opus 5.5 for coding, per an employee who has tested the model",
+          "url": "https://x.com/synthwavedd/status/2108664201103151428",
+          "created_at": "2026-10-09T21:01:37+00:00",
+          "engagement": 288
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca3d4acbe",
+      "score": 9.581,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-09T19:36:56+00:00",
+      "last_seen": "2026-10-09T21:15:38+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+        "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
+        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "An Anthropic AI model sent a false homicide tip to Philadelphia police. Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+          "created_at": "2026-10-09T19:36:56+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "An Anthropic model submitted a false homicide tip to Philadelphia police. Thankfully, it does not seem to have diverted police resources.",
+          "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
+          "created_at": "2026-10-09T20:00:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide. An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+          "created_at": "2026-10-09T21:15:38+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c11e197c7",
+      "score": 9.059,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-09T13:00:09+00:00",
+      "last_seen": "2026-10-09T21:41:29+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+        "https://www.bloomberg.com/news/articles/2026-10-09/andreessen-horowitz-backs-jev-maker-at-7-5-billion-value"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Andreessen Horowitz Backs Jev Maker at $7.5 Billion Value. TypeSafe AI, the startup behind Jev, a new artificial intelligence model that went viral after it launched only a few weeks ago, has raised about $870 million at a $7.5 billion valuation in a financing led by Andreessen Horowitz.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/andreessen-horowitz-backs-jev-maker-at-7-5-billion-value",
+          "created_at": "2026-10-09T13:00:09+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch. TypeSafe AI raised $870 million in a round led by a16Z.",
+          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+          "created_at": "2026-10-09T21:41:29+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c532ce541",
-      "score": 8.116,
+      "score": 7.782,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -86,7 +184,7 @@
     },
     {
       "cluster_id": "c90995f7d",
-      "score": 7.651,
+      "score": 7.327,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -112,76 +210,8 @@
       ]
     },
     {
-      "cluster_id": "ccd416584",
-      "score": 7.184,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T21:53:51+00:00",
-      "last_seen": "2026-10-09T11:24:27+00:00",
-      "links": [
-        "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks/",
-        "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Anthropic launches free AI security scans for open-source projects. Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-          "created_at": "2026-10-08T21:53:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Anthropic now offers a free vulnerability-finding service for open-source software. Anthropic is offering open-source projects a new way to check for vulnerabilities with its OSS Scanner.",
-          "url": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks/",
-          "created_at": "2026-10-09T11:24:27+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cbaf7193e",
-      "score": 6.703,
-      "interest": "want",
-      "single_source": true,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA"
-      ],
-      "source_count": 1,
-      "first_seen": "2026-10-08T21:06:35+00:00",
-      "last_seen": "2026-10-08T21:06:35+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-          "created_at": "2026-10-08T21:06:35+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c6b7c43b6",
-      "score": 6.399,
+      "score": 6.066,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -212,45 +242,6 @@
           "text": "AI disqualification yields new Nikon Small World in Motion winner. New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
           "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
           "created_at": "2026-10-09T18:44:06+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cceb4ad7d",
-      "score": 4.186,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T20:04:26+00:00",
-      "last_seen": "2026-10-09T08:25:18+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-        "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect. Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
-          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-          "created_at": "2026-10-08T20:04:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Fired OpenAI safety researchers dispute their dismissals in open letter. Three OpenAI researchers said their firings may have a 'chilling' effect on employees.",
-          "url": "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
-          "created_at": "2026-10-09T08:25:18+00:00",
           "engagement": 0
         }
       ]

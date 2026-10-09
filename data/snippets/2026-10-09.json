@@ -783,6 +783,77 @@
    "published_at": "2026-10-09T19:49:15+00:00",
    "tag": "security",
    "id": "researchers-report-cheap-android-phones-from"
+  },
+  {
+   "text": "Telegram Desktop users are told to update to 7.2.9 after researcher BeakSec found a flaw, CVE-2026-107181, where one clicked link could expose session files and allow account takeover, International Cyber Digest says.",
+   "why": "International Cyber Digest relays the researcher's finding; Telegram has allegedly already fixed it, so updating closes the hole.",
+   "source": {
+    "name": "International Cyber Digest",
+    "url": "https://x.com/IntCyberDigest/status/2108664297580884479"
+   },
+   "published_at": "2026-10-09T21:56:00+00:00",
+   "id": "telegram-desktop-users-are-told-to"
+  },
+  {
+   "text": "SemiAnalysis says H100 rental prices have risen, though the GPU should be sliding down its depreciation curve, and cites $7 trillion of debt coming by 2029 as it launches a Compute Capital Markets group.",
+   "why": "The depreciation curve is what lenders underwrite when financing GPU clusters, so rising rental prices bear directly on AI datacentre debt.",
+   "source": {
+    "name": "SemiAnalysis",
+    "url": "https://x.com/SemiAnalysis_/status/2108653845291106641"
+   },
+   "published_at": "2026-10-09T20:20:28+00:00",
+   "id": "semianalysis-says-h100-rental-prices-have"
+  },
+  {
+   "text": "Alaya Lab and NYCU researchers released OuroWorld, which they say turns a static 3D Gaussian Splatting scene into a looping 3D cinemagraph, preferred in 70.8 to 99.0 per cent of comparisons in a 30-person study.",
+   "why": "The loop is guaranteed by a Fourier-series deformation, the authors say, so static 3D worlds from world models could gain motion without hand-drawn masks.",
+   "source": {
+    "name": "Hugging Face daily papers",
+    "url": "https://huggingface.co/papers/2610.12461"
+   },
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "id": "alaya-lab-and-nycu-researchers-released"
+  },
+  {
+   "text": "Tencent Hunyuan's MC-Sparse paper, with 27 upvotes on Hugging Face, studies why sparse attention degrades quality in diffusion transformers at high sparsity, and proposes a way to close the gap with dense attention.",
+   "why": "Sparse attention is a main route to faster video and 3D generation, so closing the quality gap would cut latency without a visible penalty.",
+   "source": {
+    "name": "Hugging Face daily papers",
+    "url": "https://huggingface.co/papers/2610.06801"
+   },
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "id": "tencent-hunyuan-s-mc-sparse-paper"
+  },
+  {
+   "text": "KAIST AI's paper on a multi-agent egocentric world model, with 42 upvotes on Hugging Face, predicts first-person views of several agents acting together using fine-grained interaction, rather than coarse locomotion actions.",
+   "why": "Most egocentric world models cover one agent, so a shared-environment version is a step toward simulators for teams of robots or game characters.",
+   "source": {
+    "name": "Hugging Face daily papers",
+    "url": "https://huggingface.co/papers/2610.12299"
+   },
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "id": "kaist-ai-s-paper-on-a"
+  },
+  {
+   "text": "Vesta, which builds AI agents that automate much of loan origination, raised $30 million led by Conversion, taking its total funding to $85 million, TechCrunch reports.",
+   "why": "It is one more sign that lenders are adopting AI agents for back-office workflows, a category now attracting steady venture money.",
+   "source": {
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/"
+   },
+   "published_at": "2026-10-09T17:30:00+00:00",
+   "id": "vesta-which-builds-ai-agents-that"
+  },
+  {
+   "text": "Microsoft says Decision-1 was post-trained from Alibaba's open-weight Qwen3.5-9B and that Microsoft plans to rebase it on MAI and OpenAI models later, TestingCatalog reports.",
+   "why": "A Microsoft flagship decision model built on a Chinese open-weight base is notable; the planned rebase suggests the base is a stopgap.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2108647491033821668"
+   },
+   "published_at": "2026-10-09T21:55:13+00:00",
+   "embed": "https://x.com/testingcatalog/status/2108647491033821668",
+   "id": "microsoft-says-decision-1-was-post"
   }
  ]
 }
