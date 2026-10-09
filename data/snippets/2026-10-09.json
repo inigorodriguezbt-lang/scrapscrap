@@ -299,6 +299,73 @@
    "published_at": "2026-10-09T04:09:54+00:00",
    "tag": "business",
    "id": "anthropic-says-it-underestimated-demand-and"
+  },
+  {
+   "text": "Xiaomi's MiMo team published MiMo-V2.6, an omni-modal model family trained by scaling reinforcement learning, with batches of 1,568 samples and 2.7 to 3.7 billion tokens per step at contexts up to 1M.",
+   "why": "The paper reports no benchmark results and promises to open-source the training dynamics, RL environments and framework; it does not itself announce model weights.",
+   "source": {
+    "name": "Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2610.11959"
+   },
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "tag": "research",
+   "id": "xiaomi-s-mimo-team-published-mimo"
+  },
+  {
+   "text": "Learn2Play Bench, from the National University of Singapore, tests whether LLM agents can learn the rules of new text games from play; its authors report top human players outscore the agents tested.",
+   "why": "The authors also find that keeping full action-and-feedback records beats summarising experience into rules, and that swapping the agent harness alone can raise scores and cut cost.",
+   "source": {
+    "name": "Learn2Play-Bench on GitHub",
+    "url": "https://github.com/liushiliushi/Learn2Play-Bench"
+   },
+   "published_at": "2026-10-09T00:00:00+00:00",
+   "tag": "research",
+   "id": "learn2play-bench-from-the-national-university"
+  },
+  {
+   "text": "The vLLM project says its Semantic Router team shipped Decision 2.0, which answers multiple questions about one input in a single forward pass, returning per-option probabilities for routing and classification.",
+   "why": "Routing cheap queries to small models and hard ones to large models is a main way serving costs are cut, and vLLM is the engine many self-hosted deployments run.",
+   "source": {
+    "name": "vLLM on X",
+    "url": "https://x.com/vllm_project/status/2108441335044997468"
+   },
+   "published_at": "2026-10-09T05:36:01+00:00",
+   "tag": "inference",
+   "id": "the-vllm-project-says-its-semantic"
+  },
+  {
+   "text": "Meta chief AI officer Alexandr Wang says Muse, the company's personal agent, launched a month ago today and drew a response that surpassed anything he could have imagined; Meta gave no user numbers.",
+   "why": "Muse and OpenAI's Dots, introduced on 29 September, are now the two big consumer agents, both running on cloud computers of their own.",
+   "source": {
+    "name": "Alexandr Wang on X",
+    "url": "https://x.com/alexandr_wang/status/2108456337374065097"
+   },
+   "published_at": "2026-10-09T07:15:38+00:00",
+   "tag": "agents-coding",
+   "id": "meta-chief-ai-officer-alexandr-wang"
+  },
+  {
+   "text": "Reuters video shows residents of Thane, next to Mumbai, objecting to a 22-hectare Amazon data center, roughly the size of 41 football fields, being built near their homes.",
+   "why": "Local opposition to AI-era data centers is spreading beyond the US and Europe, adding delay risk to the cloud build-out in India.",
+   "source": {
+    "name": "Reuters on X",
+    "url": "https://x.com/Reuters/status/2108442334715072684"
+   },
+   "published_at": "2026-10-09T05:00:00+00:00",
+   "tag": "infrastructure",
+   "embed": "https://x.com/Reuters/status/2108442334715072684",
+   "id": "reuters-video-shows-residents-of-thane"
+  },
+  {
+   "text": "Korean media reports cited by the analyst account jukan05 say Samsung has secured long-term agreements covering 75 to 80 percent of next year's memory supply, including HBM, with Nvidia, Google and Microsoft.",
+   "why": "If accurate, memory for AI servers is largely sold out before 2027. SK hynix and Micron are reportedly signing similar contracts; none of it is confirmed by the companies.",
+   "source": {
+    "name": "jukan05 on X",
+    "url": "https://x.com/jukan05/status/2108447414730510454"
+   },
+   "published_at": "2026-10-09T05:40:11+00:00",
+   "tag": "chips",
+   "id": "korean-media-reports-cited-by-the"
   }
  ]
 }

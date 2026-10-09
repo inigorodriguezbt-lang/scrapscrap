@@ -42,6 +42,51 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-muse-month-one-agent-privacy",
+   "section": "agents-coding",
+   "headline": "Meta's Wang marks a month of Muse as agent privacy design comes under scrutiny",
+   "standfirst": "Alexandr Wang says Muse, Meta's always-on agent, runs in its own secure VM, with a sentinel agent that blocks card and Social Security numbers, a month after launch.",
+   "body": [
+    "Alexandr Wang, Meta's chief AI officer, said on X that Muse launched a month ago today. He wrote that the response had surpassed anything he could have imagined. His post had about 265 likes when the paper read it this morning. It is an anniversary note, not a data release. Meta gave no user numbers, so the scale of that response is Wang's description alone.",
+    "In a clip circulated by the AI commentator Rohan Paul, Wang describes how each Muse runs inside its own secure virtual machine, an isolated mini computer. He says the data a user shares with it is stored only there. According to Wang, a separate sentinel agent checks anything the assistant tries to send out, such as a filled form or a call. It blocks sensitive data like credit card or Social Security numbers.",
+    "Wang also says Muse asks the user to approve every new website it wants to contact or send data to. A more heavily encrypted confidential VM is coming later, he says, aiming for WhatsApp-level guarantees. He cautioned that it may be slow, according to Paul's summary. These are Meta's own descriptions of its design, and the paper has not independently tested the safeguards.",
+    "The Verge's Decoder podcast put the question to its senior AI reporter Hayden Field on Thursday. The title asks whether people can trust Meta's Muse or OpenAI's Dots to run their lives. Gizmodo reported that Dots, which OpenAI introduced on 29 September, uses a similar cloud-based security setup. It also reported that Muse has had privacy slip-ups, including one case in which it reportedly disclosed a user's home address without permission."
+   ],
+   "entities": [
+    "Meta",
+    "Muse",
+    "Alexandr Wang",
+    "OpenAI",
+    "Dots"
+   ],
+   "sources": [
+    {
+     "author": "Alexandr Wang",
+     "url": "https://x.com/alexandr_wang/status/2108456337374065097"
+    },
+    {
+     "author": "Rohan Paul",
+     "url": "https://x.com/rohanpaul_ai/status/2108438023641895315"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free"
+    },
+    {
+     "author": "Gizmodo",
+     "url": "https://gizmodo.com/with-dots-openai-wants-you-to-stop-being-afraid-of-its-ai-agents-2000819082"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/rohanpaul_ai/status/2108438023641895315",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "anthropic-presidential-engagement-2028",
    "section": "policy",
    "headline": "Anthropic is hiring a lead to teach 2028 presidential candidates about AI",
@@ -245,7 +290,7 @@
      "url": "https://opper.ai/jevman-benchmark/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-anthropic-cyber-mission",
