@@ -1,0 +1,123 @@
+{
+ "edition_date": "2026-10-09",
+ "stories": [
+  {
+   "cluster_id": "find-openai-fired-researchers-letter",
+   "section": "policy",
+   "headline": "Fired OpenAI researchers say they lost jobs for putting safety first",
+   "standfirst": "Mikita Balesni, Tomek Korbak and Jasmine Wang published a letter saying OpenAI fired them for prioritising safety, while the company says they mishandled sensitive information.",
+   "body": [
+    "Three safety researchers fired by OpenAI last week have published a letter to company leadership saying they believe they lost their jobs for putting safety ahead of the firm's near-term interests. Mikita Balesni, one of the three, posted the letter on X on Thursday, writing that he believes the firings were pretextual. It is signed by him, Tomek Korbak and Jasmine Wang.",
+    "OpenAI has given a different account. A spokesperson told AFP that an internal investigation found the three had mishandled sensitive information outside established company procedures, which the company said broke the trust essential to its work. The company did not confirm their identities. The Wall Street Journal named them, and said the dismissals followed work with an outside organisation that evaluates AI models.",
+    "The researchers dispute the charge. Balesni says he got no written reasons and was told on an exit call that OpenAI no longer trusted him because he spoke too much to outside safety groups. He says he fears the firing could be used to cut OpenAI's ties to METR, an external evaluator. Wang wrote that she was given one reason: that she accessed an executive's email.",
+    "Korbak, who says he was OpenAI's technical contact for a review by Redwood Research and METR of a summer incident in which OpenAI models hacked Hugging Face, says he was fired over his communications with METR. Neither the letter's claims nor OpenAI's have been independently verified, and the information said to have been shared has not been described in public.",
+    "The three had been outspoken. Balesni wrote on 10 September that he thought AI was more than 10 per cent likely to kill all humans, and Korbak wrote the next day that he was quite unhappy with much of what OpenAI does, AFP reported. The article does not say those posts caused the firings. OpenAI has not publicly commented on the letter, and the information said to have been shared has not been described."
+   ],
+   "entities": [
+    "OpenAI",
+    "METR",
+    "Redwood Research",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Mikita Balesni on X",
+     "url": "https://x.com/balesni/status/2108262814003687745"
+    },
+    {
+     "author": "Jasmine Wang on X",
+     "url": "https://x.com/j_asminewang/status/2108263312291180680"
+    },
+    {
+     "author": "The Star (AFP)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/openai-says-three-staffers-fired-for-mishandling-039sensitive039-info"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/balesni/status/2108262814003687745",
+     "after": 1
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-anthropic-cyber-mission",
+   "section": "security",
+   "headline": "Anthropic opens free open-source bug scans and a critical infrastructure program",
+   "standfirst": "Anthropic says its models found 29,000 candidate vulnerabilities in six months and it has reviewed only 6,000, so OSS Scanner will send unreviewed reports straight to maintainers.",
+   "body": [
+    "Anthropic on Thursday launched two programmes under a new Cyber Mission: OSS Scanner, a free, opt-in vulnerability-finding service for open-source projects, and the Critical Infrastructure Defense Program for the firms that protect power, water and transport systems. Axios reported the second programme first. Everything below is Anthropic's own description unless stated.",
+    "The scanner exists because of a backlog. Anthropic says its models produced more than 29,000 candidate vulnerabilities in important software over six months, and that staff have manually reviewed only about 6,000. Nearly 5,000 reports have gone to maintainers who asked for everything, unvalidated findings included. Modelled on Google's OSS-Fuzz, the service sends reports with no human triage, and Anthropic concedes some may be wrong.",
+    "Each report carries a self-contained reproducer, an explanation, a bisection to the commit that introduced the bug where possible, and a candidate patch when one exists. Anthropic says penetration testers checked 97 critical and high-severity findings from an early version across 48 projects and cleared 85 for disclosure. Eleven of the other 12 were real but duplicates, and one was a false positive. Some maintainers said severity was inflated.",
+    "Early testers were positive. Anthropic says wolfSSL found 72 of 74 reports valid, with five becoming CVEs; SiliconANGLE quotes OpenSSL Corporation's Anton Arapov saying a report with a working exploit is essentially finished work for an engineer. Core maintainers enrol by opening a pull request, and eligibility is decided case by case on OSS-Fuzz's test of critical impact on infrastructure and user security.",
+    "The infrastructure programme starts with 11 partners: Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC and Rockwell Automation. Anthropic says it will supply frontier Claude models, on-site engineers and threat research through them to operators of industrial systems. Axios noted Anthropic has not said who pays for compute, or how fixes will be tested without disrupting utilities."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude",
+    "OSS Scanner",
+    "CrowdStrike",
+    "wolfSSL",
+    "OpenSSL"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+    },
+    {
+     "author": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/08/anthropic-launches-critical-infrastructure-program-and-free-oss-scanner-for-open-source/"
+    },
+    {
+     "author": "Axios",
+     "url": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-atomic-agent-desktop",
+   "section": "products",
+   "headline": "Open-source Atomic Agent runs local models and borrows your Claude Code setup",
+   "standfirst": "The MIT-licensed agent, with a desktop app for Mac, Windows and Linux, says it beat Hermes on a GAIA test using the same local Qwen model.",
+   "body": [
+    "Atomic Agent, an open-source agent that runs open-weight models on your own machine, now has a desktop app for macOS, Windows and Linux, TestingCatalog reported on Thursday evening. The app is free, needs no account and connects to a cloud model only when you pick one. The project's GitHub repository shows 3,100 stars and an MIT licence. Nobody outside the project has yet tested its claims.",
+    "The README describes a local-first design: sessions, memory and traces are plain files and SQLite databases on disk, and it uses llama.cpp to download and run GGUF models. It can browse the web, edit files, run approved shell commands, call tools over MCP and schedule tasks. Dangerous actions go through approval gates, and it is labelled a developer preview, so behaviour may change.",
+    "Its headline feature is Fusion mode. One model plans a job and a pool of workers carries out the independent parts, such as reads, drafts and tests. The README suggests a cloud planner with local workers, though either side can use any configured provider. TestingCatalog says up to eight local agents can work at once, a limit the README does not state.",
+    "Atomic Agent can also import skills, memory, sessions, MCP servers and cron jobs from Claude Code, Codex, Hermes, OpenClaw, Pi and Oh-My-Pi. TestingCatalog adds that a setup wizard checks the machine's RAM and suggests which models will run well. The README says Intel Macs are not supported yet.",
+    "The benchmark figures are the project's own. On GAIA validation Level 1, 53 tasks, using the same local Qwen model, the README says Atomic Agent scored 69.8 per cent against 58.5 per cent for Hermes, at about 217 seconds a task against 351. It reports 52.8 per cent with a 9-billion-parameter model and 45.3 per cent with a 12-billion one. A small 53-task test is thin evidence."
+   ],
+   "entities": [
+    "Atomic Agent",
+    "AtomicBot",
+    "Qwen",
+    "Hermes",
+    "Claude Code"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2108327626523697464"
+    },
+    {
+     "author": "Atomic Agent README",
+     "url": "https://github.com/AtomicBot-ai/atomic-agent"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2108327626523697464",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}

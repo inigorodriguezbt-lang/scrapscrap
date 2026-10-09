@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-10-09T00:03:18.805540+00:00",
+  "edition_date": "2026-10-09",
+  "source_file": "/home/user/scrapscrap/data/raw",
+  "posts_considered": 95,
+  "clusters_found": 72,
+  "stories_declared": 10,
+  "front_page_slots": 7,
+  "stories": [
+    {
+      "cluster_id": "cde0136d0",
+      "score": 10.129,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "NVIDIA Developer"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T18:30:02+00:00",
+      "last_seen": "2026-10-08T21:06:35+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+        "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup. The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+          "created_at": "2026-10-08T18:30:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "created_at": "2026-10-08T21:06:35+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c99efd02a",
+      "score": 9.329,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "ArtificialAnlys",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-08T17:57:01+00:00",
+      "last_seen": "2026-10-08T22:23:24+00:00",
+      "links": [
+        "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+        "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+        "https://x.com/ArtificialAnlys/status/2108322397237764460"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute. If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's [&#8230;]",
+          "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+          "created_at": "2026-10-08T17:57:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Inside Elon Musk’s Midterm Spending Spree. This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+          "created_at": "2026-10-08T21:14:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Grok Imagine Video 1.5 Lite lands at #17 on both AA-Video-T2V v2.0 leaderboards and takes a position on the Pareto frontier for quality and speed. New lower-cost model in SpaceXAI's Grok Imagine video family. Generates Text to Video clips of 1 to 15 seconds at 480p, 720p or 1080p, and Image to Video. Ranks ahead of Google's Veo 3.1 at about a third of its price.",
+          "url": "https://x.com/ArtificialAnlys/status/2108322397237764460",
+          "created_at": "2026-10-08T22:23:24+00:00",
+          "engagement": 53,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3a9b3efd",
+      "score": 9.319,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "AWS ML",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T13:01:01+00:00",
+      "last_seen": "2026-10-08T18:33:29+00:00",
+      "links": [
+        "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+        "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+        "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found. Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found appeared first on The Decoder .",
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+          "created_at": "2026-10-08T13:01:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod. A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+          "created_at": "2026-10-08T16:20:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments. Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months to days.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+          "created_at": "2026-10-08T18:33:29+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c15c63842",
+      "score": 8.754,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-08T12:00:00+00:00",
+      "last_seen": "2026-10-08T18:18:00+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+        "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
+          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+          "created_at": "2026-10-08T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is launching a one-stop Gemini agent for your work tasks. Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+          "created_at": "2026-10-08T14:28:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google brings agentic AI to Gemini, starting with businesses. Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "created_at": "2026-10-08T18:18:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cec63f878",
+      "score": 7.993,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T14:00:00+00:00",
+      "last_seen": "2026-10-08T18:17:07+00:00",
+      "links": [
+        "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+        "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?. My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier [&#8230;]",
+          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+          "created_at": "2026-10-08T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field. The Association for Human Mathematics is calling for an OpenAI boycott after the company released more than 700 AI-generated math manuscripts at once. OpenAI had to retract three papers the next day over a sign error. Fields Medalist Terence Tao warns that AI's mass \"harvesting\" of open problems leaves entire branches of mathematics less fertile. The article Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field appeared first on The Decoder .",
+          "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+          "created_at": "2026-10-08T18:17:07+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "caf855b73",
+      "score": 7.522,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T13:28:39+00:00",
+      "last_seen": "2026-10-08T15:27:30+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+        "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google releases a new local-first Granola competitor. Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI.",
+          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+          "created_at": "2026-10-08T13:28:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google’s AI note-taking app transcribes your meetings completely offline. Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on macOS using the company's on-device EmbeddingGemma 2 model. Similar to AI note-taking apps like Granola and Wispr Flow, Foresight summarizes [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+          "created_at": "2026-10-08T15:27:30+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1ae3a64b",
+      "score": 6.935,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Nvidia",
+        "Amazon",
+        "AMD"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T10:57:45+00:00",
+      "last_seen": "2026-10-08T15:53:32+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Score a 1080p gaming PC for less than $1,000 right now, fitted with Nvidia or AMD GPUs. Two gaming PCs capable of 1080p gameplay have dropped below $1,000, a price that's hard to beat in the current market, thanks to sales at Best Buy and Walmart.",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
+          "created_at": "2026-10-08T10:57:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
+          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+          "created_at": "2026-10-08T15:53:32+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cd7a782cc",
+      "score": 5.665,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T17:00:00+00:00",
+      "last_seen": "2026-10-08T21:17:24+00:00",
+      "links": [
+        "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+        "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic bans ‘abusive or cruel behavior’ toward Claude. Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "created_at": "2026-10-08T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models. The company is also tightening its election policy ahead of the midterms.",
+          "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+          "created_at": "2026-10-08T21:17:24+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb3772d9c",
+      "score": 5.665,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T17:04:26+00:00",
+      "last_seen": "2026-10-08T18:19:42+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI’s Revenue Run Rate Nears $50 Billion, Less Than Reported. OpenAI is on track to generate annualized revenue of roughly $50 billion based on its current performance, according to people familiar with the matter, an uptick from the prior year but less than some recently reported estimates for the ChatGPT maker.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says",
+          "created_at": "2026-10-08T17:04:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "OpenAI’s revenue is reportedly $20 billion less than previously projected. It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.",
+          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+          "created_at": "2026-10-08T18:19:42+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c872505d2",
+      "score": 4.815,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Apple"
+      ],
+      "independent_sources": [
+        "404 Media",
+        "9to5Mac"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T15:35:20+00:00",
+      "last_seen": "2026-10-08T16:11:25+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/08/deals-airpods-m6-mac-mini-apple-watch-series-12/",
+        "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Deals: AirPods Pro 3/Max 2, all-time lows on M6 Mac mini, Apple Watch Series 12, 18 Pro cases, more. Welcome to your 9to5Toys Lunch Break Prime Day Hangover Edition. While the big fall Prime sale is over, the Apple deals are flying still and you’ll find the best of them here today. One of the best deals to date on AirPods Pro 3 is still live alongside AirPods Max 2 at $120 off and the all-time lows on the M6 Mac mini at $150 off. You’ll also find the new Apple Watch Series 12 configs still sitting at all-time lows, $200 price drops on M5 MacBook Air models, and the ongoing all-time lows on Apple’s iPhone 18 Pro cases. All of that and more awaits below. more…",
+          "url": "https://9to5mac.com/2026/10/08/deals-airpods-m6-mac-mini-apple-watch-series-12/",
+          "created_at": "2026-10-08T15:35:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "404 Media",
+          "tier": "press",
+          "text": "Podcast: Leak Show Cops Can Break into Locked iPhones. Cops are getting around a very important iPhone security feature; someone made an LLM torture chamber; and lawyers going wild with ChatGPT.",
+          "url": "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/",
+          "created_at": "2026-10-08T16:11:25+00:00",
+          "engagement": 0
+        }
+      ]
+    }
+  ]
+}
