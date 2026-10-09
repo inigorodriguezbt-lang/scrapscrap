@@ -1,15 +1,52 @@
 {
-  "generated_at": "2026-10-09T00:03:18.805540+00:00",
+  "generated_at": "2026-10-09T02:03:10.922469+00:00",
   "edition_date": "2026-10-09",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 95,
-  "clusters_found": 72,
-  "stories_declared": 10,
+  "posts_considered": 123,
+  "clusters_found": 99,
+  "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "c21c01c43",
+      "score": 13.211,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "OpenAI",
+        "omarsar0"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T12:00:00+00:00",
+      "last_seen": "2026-10-09T00:53:01+00:00",
+      "links": [
+        "https://openai.com/index/legalon-halves-codex-costs",
+        "https://x.com/omarsar0/status/2108360049848717588"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "LegalOn halves Codex costs while maintaining development speed. LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+          "url": "https://openai.com/index/legalon-halves-codex-costs",
+          "created_at": "2026-10-08T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "omarsar0",
+          "tier": "commentary",
+          "text": "Build your own harness, folks. The authors find that on whole-repository migration, GPT-5.6 Sol goes from 6.5% to 31.0% when Codex is replaced with the HERMES harness, with the same model and effort setting.",
+          "url": "https://x.com/omarsar0/status/2108360049848717588",
+          "created_at": "2026-10-09T00:53:01+00:00",
+          "engagement": 78
+        }
+      ]
+    },
+    {
       "cluster_id": "cde0136d0",
-      "score": 10.129,
+      "score": 9.796,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -47,58 +84,8 @@
       ]
     },
     {
-      "cluster_id": "c99efd02a",
-      "score": 9.329,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "ArtificialAnlys",
-        "The Verge AI",
-        "Wired AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-08T17:57:01+00:00",
-      "last_seen": "2026-10-08T22:23:24+00:00",
-      "links": [
-        "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
-        "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
-        "https://x.com/ArtificialAnlys/status/2108322397237764460"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute. If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's [&#8230;]",
-          "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
-          "created_at": "2026-10-08T17:57:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Inside Elon Musk’s Midterm Spending Spree. This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
-          "created_at": "2026-10-08T21:14:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Grok Imagine Video 1.5 Lite lands at #17 on both AA-Video-T2V v2.0 leaderboards and takes a position on the Pareto frontier for quality and speed. New lower-cost model in SpaceXAI's Grok Imagine video family. Generates Text to Video clips of 1 to 15 seconds at 480p, 720p or 1080p, and Image to Video. Ranks ahead of Google's Veo 3.1 at about a third of its price.",
-          "url": "https://x.com/ArtificialAnlys/status/2108322397237764460",
-          "created_at": "2026-10-08T22:23:24+00:00",
-          "engagement": 53,
-          "video": true
-        }
-      ]
-    },
-    {
       "cluster_id": "c3a9b3efd",
-      "score": 9.319,
+      "score": 8.986,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -146,7 +133,7 @@
     },
     {
       "cluster_id": "c15c63842",
-      "score": 8.754,
+      "score": 8.421,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -194,8 +181,66 @@
       ]
     },
     {
+      "cluster_id": "cdaad330c",
+      "score": 8.339,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "Product Hunt AI",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T02:20:15+00:00",
+      "last_seen": "2026-10-08T19:17:22+00:00",
+      "links": [
+        "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+        "https://www.producthunt.com/products/claude-for-google-workspace",
+        "https://www.producthunt.com/products/clawcall",
+        "https://www.producthunt.com/products/tonefold"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Claude for Google Workspace. Bring Claude directly into Google Docs, Sheets & Slides Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-for-google-workspace",
+          "created_at": "2026-10-08T02:20:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Tonefold. Describe a song, get every part as editable MIDI Discussion | Link",
+          "url": "https://www.producthunt.com/products/tonefold",
+          "created_at": "2026-10-08T04:28:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "ClawCall. Your AI agent's phone to dial, hold, and reports back Discussion | Link",
+          "url": "https://www.producthunt.com/products/clawcall",
+          "created_at": "2026-10-08T05:27:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Claude can now generate animated explainer videos and live data dashboards from text prompts. Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design now work across all plans, including free accounts. The article Claude can now generate animated explainer videos and live data dashboards from text prompts appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+          "created_at": "2026-10-08T19:17:22+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cec63f878",
-      "score": 7.993,
+      "score": 7.66,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -235,7 +280,7 @@
     },
     {
       "cluster_id": "caf855b73",
-      "score": 7.522,
+      "score": 7.189,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -274,7 +319,7 @@
     },
     {
       "cluster_id": "c1ae3a64b",
-      "score": 6.935,
+      "score": 6.602,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -315,8 +360,45 @@
       ]
     },
     {
+      "cluster_id": "cef158282",
+      "score": 5.652,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T17:57:01+00:00",
+      "last_seen": "2026-10-08T21:14:12+00:00",
+      "links": [
+        "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+        "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute. If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's [&#8230;]",
+          "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+          "created_at": "2026-10-08T17:57:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "Inside Elon Musk’s Midterm Spending Spree. This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+          "created_at": "2026-10-08T21:14:12+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cd7a782cc",
-      "score": 5.665,
+      "score": 5.332,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
@@ -354,47 +436,56 @@
       ]
     },
     {
-      "cluster_id": "cb3772d9c",
-      "score": 5.665,
+      "cluster_id": "ca49bd976",
+      "score": 5.179,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI"
+        "Anthropic"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "TechCrunch AI"
+        "Latent Space",
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-08T17:04:26+00:00",
-      "last_seen": "2026-10-08T18:19:42+00:00",
+      "first_seen": "2026-10-08T07:27:51+00:00",
+      "last_seen": "2026-10-08T19:03:14+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-        "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says"
+        "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI’s Revenue Run Rate Nears $50 Billion, Less Than Reported. OpenAI is on track to generate annualized revenue of roughly $50 billion based on its current performance, according to people familiar with the matter, an uptick from the prior year but less than some recently reported estimates for the ChatGPT maker.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says",
-          "created_at": "2026-10-08T17:04:26+00:00",
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
+          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+          "created_at": "2026-10-08T07:27:51+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "OpenAI’s revenue is reportedly $20 billion less than previously projected. It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.",
-          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-          "created_at": "2026-10-08T18:19:42+00:00",
+          "text": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over. Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+          "created_at": "2026-10-08T10:30:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Being mean to Claude can now get your account suspended under Anthropic's new TOS. Anthropic's updated usage policy bans sustained abuse of Claude and tightens restrictions on propaganda, drone weaponization, and surveillance. The abuse rule builds on an approach that already lets models end some conversations and treats Claude as an entity that may deserve protection. The article Being mean to Claude can now get your account suspended under Anthropic&#039;s new TOS appeared first on The Decoder .",
+          "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+          "created_at": "2026-10-08T19:03:14+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c872505d2",
-      "score": 4.815,
+      "score": 4.482,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
