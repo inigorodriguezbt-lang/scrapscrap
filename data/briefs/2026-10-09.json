@@ -1,64 +1,52 @@
 {
-  "generated_at": "2026-10-09T18:03:40.234706+00:00",
+  "generated_at": "2026-10-09T20:03:32.204804+00:00",
   "edition_date": "2026-10-09",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 91,
+  "posts_considered": 92,
   "clusters_found": 74,
-  "stories_declared": 5,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0a391412",
-      "score": 12.273,
-      "interest": "want",
+      "cluster_id": "c4f5465b2",
+      "score": 8.493,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
+      "entities": [],
       "independent_sources": [
-        "AndrewCurran_",
-        "dair_ai",
+        "mark_k",
         "testingcatalog"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-09T15:59:02+00:00",
-      "last_seen": "2026-10-09T17:43:33+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-09T17:49:30+00:00",
+      "last_seen": "2026-10-09T18:39:42+00:00",
       "links": [
-        "https://x.com/AndrewCurran_/status/2108614356544225634",
-        "https://x.com/dair_ai/status/2108588052914598084",
-        "https://x.com/testingcatalog/status/2108595450529857856"
+        "https://x.com/mark_k/status/2108615855743676818",
+        "https://x.com/testingcatalog/status/2108628488299204970"
       ],
       "posts": [
         {
-          "author": "dair_ai",
+          "author": "mark_k",
           "tier": "commentary",
-          "text": "Banger paper from Meta Superintelligence Labs on user simulators for agent training. This work trains MIMESIS, a 9B user simulator, on human conversations and 13 behavior patterns observed in real users. It beats Claude Opus 5 on behavioral fidelity by 13.4 points.",
-          "url": "https://x.com/dair_ai/status/2108588052914598084",
-          "created_at": "2026-10-09T15:59:02+00:00",
-          "engagement": 63
+          "text": "Grok Bot users can now secure a custom email address for their bot!\n\nIt will be yourname@mail.grokbot.com",
+          "url": "https://x.com/mark_k/status/2108615855743676818",
+          "created_at": "2026-10-09T17:49:30+00:00",
+          "engagement": 44
         },
         {
           "author": "testingcatalog",
           "tier": "commentary",
-          "text": "Pine AI launched Pine Computer, a cloud computer, harness, and runtime layer built for agentic tasks.\n\nOn SaaS-Bench v1.1, Pine Computer has the highest checkpoint score in the publisher's table: 78.3%, against 74.3% for Opus 5 with Claude Code. It also completed fewer whole tasks: 27.4% against 31.1%.",
-          "url": "https://x.com/testingcatalog/status/2108595450529857856",
-          "created_at": "2026-10-09T16:28:25+00:00",
-          "engagement": 54
-        },
-        {
-          "author": "AndrewCurran_",
-          "tier": "commentary",
-          "text": "Done in collaboration with GPT-6 Astra and Claude Opus 5.5. https://t.co/ECpjh5dhHB",
-          "url": "https://x.com/AndrewCurran_/status/2108614356544225634",
-          "created_at": "2026-10-09T17:43:33+00:00",
-          "engagement": 79
+          "text": "SPACEXAI 🔥: Grok Bot users now can ask their bots to claim its own email address. \n\nThis address can be used by the bot to communicate with others, sign up for newsletters and more! \n\nJust asked it to subscribe for TestingCatalog’s daily AI Brief newsletter and it handled it perfectly. \n\nTesting time! 🤖",
+          "url": "https://x.com/testingcatalog/status/2108628488299204970",
+          "created_at": "2026-10-09T18:39:42+00:00",
+          "engagement": 87
         }
       ]
     },
     {
       "cluster_id": "c532ce541",
-      "score": 8.449,
+      "score": 8.116,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -97,47 +85,35 @@
       ]
     },
     {
-      "cluster_id": "cde0136d0",
-      "score": 8.12,
+      "cluster_id": "c90995f7d",
+      "score": 7.651,
       "interest": "want",
-      "single_source": false,
+      "single_source": true,
       "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
+      "entities": [],
       "independent_sources": [
-        "NVIDIA",
-        "NVIDIA Developer"
+        "OpenAI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T18:30:02+00:00",
-      "last_seen": "2026-10-08T21:06:35+00:00",
+      "source_count": 1,
+      "first_seen": "2026-10-09T07:00:00+00:00",
+      "last_seen": "2026-10-09T07:00:00+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-        "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
+        "https://openai.com/index/asana-browser-agent"
       ],
       "posts": [
         {
-          "author": "NVIDIA Developer",
+          "author": "OpenAI",
           "tier": "primary",
-          "text": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup. The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
-          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
-          "created_at": "2026-10-08T18:30:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-          "created_at": "2026-10-08T21:06:35+00:00",
+          "text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol. Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+          "url": "https://openai.com/index/asana-browser-agent",
+          "created_at": "2026-10-09T07:00:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ccd416584",
-      "score": 7.516,
+      "score": 7.184,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -175,8 +151,74 @@
       ]
     },
     {
+      "cluster_id": "cbaf7193e",
+      "score": 6.703,
+      "interest": "want",
+      "single_source": true,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA"
+      ],
+      "source_count": 1,
+      "first_seen": "2026-10-08T21:06:35+00:00",
+      "last_seen": "2026-10-08T21:06:35+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "created_at": "2026-10-08T21:06:35+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6b7c43b6",
+      "score": 6.399,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [],
+      "independent_sources": [
+        "Ars Technica AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-09T18:06:57+00:00",
+      "last_seen": "2026-10-09T18:44:06+00:00",
+      "links": [
+        "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+        "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Nikon microscopic video competition winner disqualified for using generative AI. Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the airway of a child with the [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+          "created_at": "2026-10-09T18:06:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "AI disqualification yields new Nikon Small World in Motion winner. New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
+          "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+          "created_at": "2026-10-09T18:44:06+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cceb4ad7d",
-      "score": 4.519,
+      "score": 4.186,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
