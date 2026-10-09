@@ -42,6 +42,71 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-sabi-brain-cap-50m",
+   "section": "products",
+   "headline": "Sabi raises $50 million for a cap that reads thoughts into text",
+   "standfirst": "Sabi says its non-contact EEG chip, made by TSMC, lets a hat turn intended speech into text at about 30 words a minute. No independent performance data has been published.",
+   "body": [
+    "Sabi, a Palo Alto startup, said on Friday it has raised $50 million to build the Sabi Cap, a hat with built-in sensors that it says reads brain signals without touching the scalp and turns intended speech into text. The investors named in the company's announcement are Khosla Ventures, Accel, Initialized, DST and Collab Fund, with Kevin Weil also participating.",
+    "TestingCatalog, which labelled its write-up sponsored, quotes CEO Rahul Chhabra saying Sabi designs its own chips and sensors. The centrepiece is what Sabi calls the first non-contact EEG chip, fabricated by TSMC. Sabi describes it as low-noise and low-power. Reports from the company's April debut put the sensor count at 70,000 to 100,000, far above the dozens or few hundred channels of typical EEG systems.",
+    "The software is a Brain Foundation Model that Sabi says it trained on about 100,000 hours of its own recordings from roughly 100 volunteers at launch. Sabi says the model is meant to cut per-user calibration. The first version targets about 30 words per minute, and the company claims it can predict a person's next three to four keystrokes from brain signals before they are typed.",
+    "Those figures are Sabi's own. TestingCatalog reports that no independent or peer-reviewed performance data has been published. Sabi says it encrypts neural data in transit and trains on encrypted data, and that outside neurosecurity experts are involved. It has not said how it handles consent or retention.",
+    "The roadmap goes past typing. Sabi lists thought-to-prompt, where a user thinks a request and an AI system receives it, then models tuned to each person's neural patterns, intent prediction and intent-to-action, where an agent carries out what the user means. A waitlist is open. Pricing and a shipping date have not been announced."
+   ],
+   "entities": [
+    "Sabi",
+    "Khosla Ventures",
+    "TSMC",
+    "Rahul Chhabra"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://testingcatalog.com/how-sabis-brain-reading-cap-turns-thoughts-into-text"
+    },
+    {
+     "author": "TestingCatalog on X",
+     "url": "https://x.com/testingcatalog/status/2108569887585022109"
+    },
+    {
+     "author": "kimmonismus on X",
+     "url": "https://x.com/kimmonismus/status/2108565508127674490"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-semianalysis-china-safety-disclosure",
+   "section": "research",
+   "headline": "SemiAnalysis finds only 3.6% of 857 Chinese AI releases had a safety result",
+   "standfirst": "A census of nine Chinese labs from 2021 to September 2026 found published safety results for 31 releases, and only nine of them at or before launch, SemiAnalysis says.",
+   "body": [
+    "SemiAnalysis published a census on Thursday of 857 releases from nine leading Chinese AI developers between 2021 and 15 September 2026. Its authors, Mark Chen, Doug and Dylan Patel, say just 31 of them, or 3.6 percent, ever had a safety result published by the developer. That leaves 813 releases, 94.9 percent, with no disclosure that the authors could find.",
+    "Timing is weaker still, the report says. Only nine releases, 1.1 percent, had a result at or before launch. Another 16 were documented later, with a median lag of 42 days and a maximum of 349 days. The census covers 741 product models and 116 research models, and startups disclosed for 20 of 317 releases while hyperscalers disclosed for 11 of 540.",
+    "By lab, SemiAnalysis counts Alibaba at 7 of 238 releases, Tencent at 1 of 133, ByteDance at 2 of 120 and Baidu at 1 of 49. It names Zhipu, also known as Z.ai, as the only developer with a result in every year since 2022. For DeepSeek it found documentation for V3 at launch but none for R1, V3.1 or the V4 family.",
+    "Only three documents touched cyber-offence or biological risk, and none came from the four hyperscalers, the authors say. They found 15 statements on frontier safety from founders, chief executives or chief scientists across the nine labs, six of them from Zhipu alone.",
+    "The authors argue that Beijing regulates what AI outputs and how applications reach the public, but sets no duties tied to training compute or model capability. They conclude that China's real approach is speed first. They caution that the per-company rates are indicative rather than a ranking, and that \"not found\" means not found in the materials they checked, not that a model went untested."
+   ],
+   "entities": [
+    "SemiAnalysis",
+    "Alibaba",
+    "Zhipu",
+    "DeepSeek",
+    "Tencent",
+    "ByteDance",
+    "Baidu"
+   ],
+   "sources": [
+    {
+     "author": "SemiAnalysis",
+     "url": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-qwen-image-21-turbo",
    "section": "models",
    "headline": "Alibaba releases Qwen-Image-2.1-Turbo, an 8-step image model with open weights",
@@ -237,7 +302,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-muse-month-one-agent-privacy",
@@ -282,7 +347,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "anthropic-presidential-engagement-2028",
