@@ -1,15 +1,82 @@
 {
-  "generated_at": "2026-10-09T08:03:09.284772+00:00",
+  "generated_at": "2026-10-09T10:03:22.745933+00:00",
   "edition_date": "2026-10-09",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 127,
+  "posts_considered": 125,
   "clusters_found": 96,
-  "stories_declared": 9,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c9065c48e",
-      "score": 15.87,
+      "cluster_id": "c1b525668",
+      "score": 12.156,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-08T10:30:23+00:00",
+      "last_seen": "2026-10-09T09:22:25+00:00",
+      "links": [
+        "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+        "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+        "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+        "https://x.com/testingcatalog/status/2108465147186470979"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over. Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+          "created_at": "2026-10-08T10:30:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Being mean to Claude can now get your account suspended under Anthropic's new TOS. Anthropic's updated usage policy bans sustained abuse of Claude and tightens restrictions on propaganda, drone weaponization, and surveillance. The abuse rule builds on an approach that already lets models end some conversations and treats Claude as an entity that may deserve protection. The article Being mean to Claude can now get your account suspended under Anthropic&#039;s new TOS appeared first on The Decoder .",
+          "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+          "created_at": "2026-10-08T19:03:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Claude can now generate animated explainer videos and live data dashboards from text prompts. Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design now work across all plans, including free accounts. The article Claude can now generate animated explainer videos and live data dashboards from text prompts appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+          "created_at": "2026-10-08T19:17:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF 🗞 — Oct 9\n\nOPENAI 🔥:\n* GPT-6.1 Sol Ultrafast is rolling out in the API, Codex and ChatGPT Work, running up to 8x faster than Sol Standard at $12/$60 per million tokens.\n* Steering in Codex is now instant, so you can correct a running task in real time, on day four of the 28-day pledge.\n* OpenAI's Node SDK 7.31.0 adds API support for prewarmed hosted environments.\n\nANTHROPIC 🔥:\n* Claude Dashboards is in beta on paid plans, building live dashboards from data platforms like BigQuery and Snowflake or from CRMs like Salesforce.\n* Claude Motion is in beta on Team and Enterprise pla",
+          "url": "https://x.com/testingcatalog/status/2108465147186470979",
+          "created_at": "2026-10-09T07:50:39+00:00",
+          "engagement": 58
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic's Claude Science creates the first complete ultraviolet map of the sky. Astrophysicist Brice Ménard of Johns Hopkins University used Anthropic's Claude Science to map the entire sky in ultraviolet light for the first time. AI agents downloaded data from multiple space missions, calibrated it, and filled in gaps using inpainting. Predictions averaged about ten percent deviation from actual measurements. Ménard sees the project as an example of research that simply wouldn't have gotten done without AI. The article Anthropic&#039;s Claude Science creates the first complete ultraviolet map of the sky appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
+          "created_at": "2026-10-09T09:22:25+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3e782ce3",
+      "score": 11.693,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -24,12 +91,11 @@
         "Product Hunt AI",
         "TechCrunch AI",
         "The Verge AI",
-        "arXiv",
-        "kimmonismus"
+        "arXiv"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-10-08T12:00:00+00:00",
-      "last_seen": "2026-10-09T06:02:57+00:00",
+      "last_seen": "2026-10-09T05:53:51+00:00",
       "links": [
         "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
         "https://arxiv.org/abs/2610.12463v1",
@@ -41,8 +107,7 @@
         "https://www.producthunt.com/products/openpilot",
         "https://www.producthunt.com/products/refs",
         "https://www.producthunt.com/products/sorted-6",
-        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-        "https://x.com/kimmonismus/status/2108438044722225510"
+        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
       ],
       "posts": [
         {
@@ -132,71 +197,64 @@
           "url": "https://www.producthunt.com/products/openpilot",
           "created_at": "2026-10-09T05:53:51+00:00",
           "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Today Google announced… Gemini? Again? I am so confused. Even if it's updated for business context, why are they giving it the same name as the Frontier model?",
-          "url": "https://x.com/kimmonismus/status/2108438044722225510",
-          "created_at": "2026-10-09T06:02:57+00:00",
-          "engagement": 266
         }
       ]
     },
     {
-      "cluster_id": "c9596f80e",
-      "score": 11.794,
+      "cluster_id": "cf6a751b3",
+      "score": 11.027,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Meta"
+        "Google",
+        "Nvidia",
+        "Amazon",
+        "AMD"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "The Verge AI",
-        "rohanpaul_ai"
+        "9to5Google",
+        "TheHackersNews",
+        "Tom's Hardware"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-08T14:00:00+00:00",
-      "last_seen": "2026-10-09T06:48:14+00:00",
+      "first_seen": "2026-10-08T10:57:45+00:00",
+      "last_seen": "2026-10-09T08:27:56+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-09/franklin-templeton-sees-short-term-debt-as-sweet-spot-for-ai",
-        "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-        "https://x.com/rohanpaul_ai/status/2108438023641895315"
+        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
+        "https://x.com/TheHackersNews/status/2108474531329478700"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "Tom's Hardware",
           "tier": "press",
-          "text": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?. My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier [&#8230;]",
-          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-          "created_at": "2026-10-08T14:00:00+00:00",
+          "text": "Score a 1080p gaming PC for less than $1,000 right now, fitted with Nvidia or AMD GPUs. Two gaming PCs capable of 1080p gameplay have dropped below $1,000, a price that's hard to beat in the current market, thanks to sales at Best Buy and Walmart.",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
+          "created_at": "2026-10-08T10:57:45+00:00",
           "engagement": 0
         },
         {
-          "author": "rohanpaul_ai",
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
+          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
+          "created_at": "2026-10-08T15:53:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TheHackersNews",
           "tier": "commentary",
-          "text": "Alexandr Wang (Chief AI Officer at Meta) explains how each Muse runs inside its own secure VM, a sandboxed isolated mini computer; a separate sentinel agent checks outbound data and blocks sensitive data such as credit card numbers. Muse asks the user to approve every new website.",
-          "url": "https://x.com/rohanpaul_ai/status/2108438023641895315",
-          "created_at": "2026-10-09T06:02:52+00:00",
-          "engagement": 35,
-          "video": true
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Franklin Templeton Sees Short-Term Debt as Sweet Spot for AI. Franklin Templeton Chief Executive Officer Jenny Johnson said short-term debt issued by major technology companies offers investment opportunities in artificial intelligence, citing strong cash flows and balance sheets.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-09/franklin-templeton-sees-short-term-debt-as-sweet-spot-for-ai",
-          "created_at": "2026-10-09T06:48:14+00:00",
-          "engagement": 0
+          "text": "🚨 Fully patched. Hacked remotely. Three times.\n\nThree teams successfully demonstrated remote hacks against Google's Pixel 10 at Pwn2Own Ireland, earning $562,500 combined.\n\nThe exploit details remain undisclosed.\n\nRead: https://t.co/esYNJ8T4LM",
+          "url": "https://x.com/TheHackersNews/status/2108474531329478700",
+          "created_at": "2026-10-09T08:27:56+00:00",
+          "engagement": 34
         }
       ]
     },
     {
       "cluster_id": "c3a9b3efd",
-      "score": 7.986,
+      "score": 7.735,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -219,7 +277,7 @@
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found. Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found appeared first on The Decoder .",
+          "text": "One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region. Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions. The article One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region appeared first on The Decoder .",
           "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
           "created_at": "2026-10-08T13:01:01+00:00",
           "engagement": 0
@@ -244,7 +302,7 @@
     },
     {
       "cluster_id": "cbaf7193e",
-      "score": 7.379,
+      "score": 7.046,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -311,50 +369,47 @@
       ]
     },
     {
-      "cluster_id": "c1ae3a64b",
-      "score": 5.796,
-      "interest": "want",
+      "cluster_id": "cceb4ad7d",
+      "score": 5.853,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Google",
-        "Nvidia",
-        "Amazon",
-        "AMD"
+        "OpenAI"
       ],
       "independent_sources": [
-        "9to5Google",
-        "Tom's Hardware"
+        "Engadget",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-08T10:57:45+00:00",
-      "last_seen": "2026-10-08T15:53:32+00:00",
+      "first_seen": "2026-10-08T20:04:26+00:00",
+      "last_seen": "2026-10-09T08:25:18+00:00",
       "links": [
-        "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
-        "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices"
+        "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+        "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Score a 1080p gaming PC for less than $1,000 right now, fitted with Nvidia or AMD GPUs. Two gaming PCs capable of 1080p gameplay have dropped below $1,000, a price that's hard to beat in the current market, thanks to sales at Best Buy and Walmart.",
-          "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-1080p-gaming-pc-for-less-than-usd1-000-right-now-fitted-with-nvidia-or-amd-gpus-save-up-to-usd350-to-secure-rigs-with-rtx-5060-or-rx-9060-gpus-at-low-prices",
-          "created_at": "2026-10-08T10:57:45+00:00",
+          "text": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect. Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "created_at": "2026-10-08T20:04:26+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Deals: Galaxy Z Fold 8 up to $628 off, Pixel 11 Pro up to nearly $400 off, Nothing Headphone (a) 35% off, more. Alongside the launch of Amazon’s brand new iPad-styleAndroid Alexa Tablets starting at $230, today’s 9to5Toys Lunch Break is headlined by loads of fantastic hangover Google and Samsung Prime Day deals. However, we have uncovered much lower prices now live courtesy of Best Buy open-box listing: Galaxy Z Fold 8 at over $570 off for the 256GB and over $600 off for the 512GB ( more details here ) and Pixel 11 Pro models at nearly nearly $400 off ( Canyon and Olive ). Those offers join some solid discounts on the 2026 Nothing Headphone (a) and giant lineup of Windows laptops and PCs start at just $",
-          "url": "https://9to5google.com/2026/10/08/deals-galaxy-z-fold-8-pixel-11-pro-nothing-headphone-a/",
-          "created_at": "2026-10-08T15:53:32+00:00",
+          "text": "Fired OpenAI safety researchers dispute their dismissals in open letter. Three OpenAI researchers said their firings may have a 'chilling' effect on employees.",
+          "url": "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
+          "created_at": "2026-10-09T08:25:18+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cef158282",
-      "score": 4.652,
+      "score": 4.318,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -391,7 +446,7 @@
     },
     {
       "cluster_id": "cd7a782cc",
-      "score": 4.332,
+      "score": 3.998,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",

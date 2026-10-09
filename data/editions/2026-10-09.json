@@ -42,6 +42,41 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-trl-v1-15-fused-lm-head",
+   "section": "research",
+   "headline": "Hugging Face TRL v1.15 cuts training memory by up to 82%",
+   "standfirst": "Hugging Face's TRL library now scores tokens through a Triton kernel that skips the full logits tensor, which its release notes say cuts peak memory 52% to 82% and takes KTO from 64.91 to 11.98 GiB.",
+   "body": [
+    "Hugging Face released version 1.15.0 of TRL, its open-source library for post-training language models, on 8 October. According to the release notes, the headline change is a fused language-model head. SFT, DPO, KTO, GRPO, RLOO and Distillation trainers now compute per-token log-probabilities and entropy through a Triton kernel, and the feature is on by default.",
+    "The saving comes from what the kernel avoids. The release notes say it never builds the full batch-by-sequence-by-vocabulary logits tensor, which is usually the largest single allocation when training on long sequences. At 8,192 tokens, Hugging Face says peak memory falls between 52% and 82%, depending on the trainer. It adds that the gain is largest for small models with large vocabularies.",
+    "Hugging Face gives two examples. KTO training drops from 64.91 GiB to 11.98 GiB, and GRPO from 24.15 GiB to 10.30 GiB. The notes also say the maximum trainable sequence length rises by up to 6.9 times on the same GPU, a figure measured on gemma-3-1b with 79 GiB of memory. These are the maintainers' own benchmarks; no outside tests were found.",
+    "The release carries breaking changes. Python 3.10 support is dropped, nn.DataParallel is refused, the experimental MiniLLM trainer is removed, and use_liger_kernel is deprecated in DPO, KTO, GRPO and RLOO ahead of removal in v2.0.0. Scoring with the kernel needs Triton on a GPU. Selective activation checkpointing in SFT, assistant-only loss on image datasets and vLLM 0.31.0 support also arrive."
+   ],
+   "entities": [
+    "Hugging Face",
+    "TRL",
+    "Triton",
+    "vLLM"
+   ],
+   "sources": [
+    {
+     "author": "Hugging Face TRL release notes",
+     "url": "https://github.com/huggingface/trl/releases"
+    },
+    {
+     "author": "Quentin Gallouédec on X",
+     "url": "https://x.com/QGallouedec/status/2108468004128424042"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/QGallouedec/status/2108468004128424042",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-muse-month-one-agent-privacy",
    "section": "agents-coding",
    "headline": "Meta's Wang marks a month of Muse as agent privacy design comes under scrutiny",
@@ -267,7 +302,7 @@
      "url": "https://pocketty.app/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-jevman-pacman-benchmark",
