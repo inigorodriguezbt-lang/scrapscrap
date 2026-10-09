@@ -1,91 +1,77 @@
 {
-  "generated_at": "2026-10-09T02:03:10.922469+00:00",
+  "generated_at": "2026-10-09T04:03:13.655371+00:00",
   "edition_date": "2026-10-09",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 123,
-  "clusters_found": 99,
-  "stories_declared": 12,
+  "posts_considered": 121,
+  "clusters_found": 100,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c21c01c43",
-      "score": 13.211,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "OpenAI",
-        "omarsar0"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T12:00:00+00:00",
-      "last_seen": "2026-10-09T00:53:01+00:00",
-      "links": [
-        "https://openai.com/index/legalon-halves-codex-costs",
-        "https://x.com/omarsar0/status/2108360049848717588"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "LegalOn halves Codex costs while maintaining development speed. LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-          "url": "https://openai.com/index/legalon-halves-codex-costs",
-          "created_at": "2026-10-08T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "omarsar0",
-          "tier": "commentary",
-          "text": "Build your own harness, folks. The authors find that on whole-repository migration, GPT-5.6 Sol goes from 6.5% to 31.0% when Codex is replaced with the HERMES harness, with the same model and effort setting.",
-          "url": "https://x.com/omarsar0/status/2108360049848717588",
-          "created_at": "2026-10-09T00:53:01+00:00",
-          "engagement": 78
-        }
-      ]
-    },
-    {
-      "cluster_id": "cde0136d0",
-      "score": 9.796,
+      "cluster_id": "c8283bc0a",
+      "score": 10.186,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia"
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Hugging Face"
       ],
       "independent_sources": [
-        "NVIDIA",
-        "NVIDIA Developer"
+        "9to5Google",
+        "TechCrunch AI",
+        "The Verge AI",
+        "arXiv"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T18:30:02+00:00",
-      "last_seen": "2026-10-08T21:06:35+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-08T12:00:00+00:00",
+      "last_seen": "2026-10-08T18:18:00+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-        "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
+        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+        "https://arxiv.org/abs/2610.12463v1",
+        "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
       ],
       "posts": [
         {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup. The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
-          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
-          "created_at": "2026-10-08T18:30:02+00:00",
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
+          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+          "created_at": "2026-10-08T12:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "NVIDIA",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google is launching a one-stop Gemini agent for your work tasks. Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
+          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+          "created_at": "2026-10-08T14:28:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
           "tier": "primary",
-          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-          "created_at": "2026-10-08T21:06:35+00:00",
+          "text": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents. In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopp",
+          "url": "https://arxiv.org/abs/2610.12463v1",
+          "created_at": "2026-10-08T17:59:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google brings agentic AI to Gemini, starting with businesses. Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "created_at": "2026-10-08T18:18:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c3a9b3efd",
-      "score": 8.986,
+      "score": 8.653,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -132,100 +118,116 @@
       ]
     },
     {
-      "cluster_id": "c15c63842",
-      "score": 8.421,
-      "interest": "want",
+      "cluster_id": "c30f38766",
+      "score": 8.347,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
+      "suggested_section": "chips",
+      "entities": [],
       "independent_sources": [
-        "9to5Google",
-        "TechCrunch AI",
-        "The Verge AI"
+        "404 Media",
+        "rohanpaul_ai"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-08T12:00:00+00:00",
-      "last_seen": "2026-10-08T18:18:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-08T15:36:46+00:00",
+      "last_seen": "2026-10-09T02:24:40+00:00",
       "links": [
-        "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-        "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
+        "https://www.404media.co/watch-an-unconstitutional-flock-search/",
+        "https://x.com/rohanpaul_ai/status/2108383111751086131"
       ],
       "posts": [
         {
-          "author": "9to5Google",
+          "author": "404 Media",
           "tier": "press",
-          "text": "Google Cloud announces ‘Gemini agent’ as ‘universal agent for work’. At Gemini at Work 2026, Google Cloud today announced the “Gemini agent” for enterprise customers. more…",
-          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
-          "created_at": "2026-10-08T12:00:00+00:00",
+          "text": "Watch an Unconstitutional Flock Search. We got the bodycam and in-car footage from the unconstitutional Flock search. Also now you can basically have sex with Claude Code?",
+          "url": "https://www.404media.co/watch-an-unconstitutional-flock-search/",
+          "created_at": "2026-10-08T15:36:46+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google is launching a one-stop Gemini agent for your work tasks. Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
-          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-          "created_at": "2026-10-08T14:28:03+00:00",
-          "engagement": 0
-        },
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "This post is absolutely going viral on Reddit \n\nAn independent researcher used Claude Code to find a possible new planet. It had been sitting in NASA's TESS data since 2018, and he could find no earlier report of it.\n\nClaude Code with Opus 5.5 and Fable 5.1 did most of the work: parsing the light curves, writing the transit search, fitting transits, checking nearby stars and secondary eclipses. He set the questions and the pass/fail rules.\n\nThe star is about 116 light-years away. Every 3.18 days it dims by about 0.05% for two hours, which fits a planet about 1.4 times the size of Earth.",
+          "url": "https://x.com/rohanpaul_ai/status/2108383111751086131",
+          "created_at": "2026-10-09T02:24:40+00:00",
+          "engagement": 63
+        }
+      ]
+    },
+    {
+      "cluster_id": "cbaf7193e",
+      "score": 8.046,
+      "interest": "want",
+      "single_source": true,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA"
+      ],
+      "source_count": 1,
+      "first_seen": "2026-10-08T21:06:35+00:00",
+      "last_seen": "2026-10-08T21:06:35+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+      ],
+      "posts": [
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google brings agentic AI to Gemini, starting with businesses. Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
-          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-          "created_at": "2026-10-08T18:18:00+00:00",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "created_at": "2026-10-08T21:06:35+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cdaad330c",
-      "score": 8.339,
+      "cluster_id": "c7e352dbe",
+      "score": 7.412,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Anthropic",
-        "Google"
+        "Anthropic"
       ],
       "independent_sources": [
-        "Product Hunt AI",
+        "Latent Space",
         "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-08T02:20:15+00:00",
+      "first_seen": "2026-10-08T07:27:51+00:00",
       "last_seen": "2026-10-08T19:17:22+00:00",
       "links": [
+        "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
         "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
-        "https://www.producthunt.com/products/claude-for-google-workspace",
-        "https://www.producthunt.com/products/clawcall",
-        "https://www.producthunt.com/products/tonefold"
+        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
       ],
       "posts": [
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Claude for Google Workspace. Bring Claude directly into Google Docs, Sheets & Slides Discussion | Link",
-          "url": "https://www.producthunt.com/products/claude-for-google-workspace",
-          "created_at": "2026-10-08T02:20:15+00:00",
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
+          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+          "created_at": "2026-10-08T07:27:51+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Tonefold. Describe a song, get every part as editable MIDI Discussion | Link",
-          "url": "https://www.producthunt.com/products/tonefold",
-          "created_at": "2026-10-08T04:28:14+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over. Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder .",
+          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+          "created_at": "2026-10-08T10:30:23+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "ClawCall. Your AI agent's phone to dial, hold, and reports back Discussion | Link",
-          "url": "https://www.producthunt.com/products/clawcall",
-          "created_at": "2026-10-08T05:27:12+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Being mean to Claude can now get your account suspended under Anthropic's new TOS. Anthropic's updated usage policy bans sustained abuse of Claude and tightens restrictions on propaganda, drone weaponization, and surveillance. The abuse rule builds on an approach that already lets models end some conversations and treats Claude as an entity that may deserve protection. The article Being mean to Claude can now get your account suspended under Anthropic&#039;s new TOS appeared first on The Decoder .",
+          "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+          "created_at": "2026-10-08T19:03:14+00:00",
           "engagement": 0
         },
         {
@@ -239,48 +241,8 @@
       ]
     },
     {
-      "cluster_id": "cec63f878",
-      "score": 7.66,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T14:00:00+00:00",
-      "last_seen": "2026-10-08T18:17:07+00:00",
-      "links": [
-        "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
-        "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?. My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier [&#8230;]",
-          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-          "created_at": "2026-10-08T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field. The Association for Human Mathematics is calling for an OpenAI boycott after the company released more than 700 AI-generated math manuscripts at once. OpenAI had to retract three papers the next day over a sign error. Fields Medalist Terence Tao warns that AI's mass \"harvesting\" of open problems leaves entire branches of mathematics less fertile. The article Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field appeared first on The Decoder .",
-          "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
-          "created_at": "2026-10-08T18:17:07+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "caf855b73",
-      "score": 7.189,
+      "score": 6.856,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -319,7 +281,7 @@
     },
     {
       "cluster_id": "c1ae3a64b",
-      "score": 6.602,
+      "score": 6.269,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -361,7 +323,7 @@
     },
     {
       "cluster_id": "cef158282",
-      "score": 5.652,
+      "score": 5.319,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -398,7 +360,7 @@
     },
     {
       "cluster_id": "cd7a782cc",
-      "score": 5.332,
+      "score": 4.998,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
@@ -436,56 +398,8 @@
       ]
     },
     {
-      "cluster_id": "ca49bd976",
-      "score": 5.179,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-08T07:27:51+00:00",
-      "last_seen": "2026-10-08T19:03:14+00:00",
-      "links": [
-        "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
-        "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
-        "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
-      ],
-      "posts": [
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing. yay small models",
-          "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-          "created_at": "2026-10-08T07:27:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over. Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task. The article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder .",
-          "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
-          "created_at": "2026-10-08T10:30:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Being mean to Claude can now get your account suspended under Anthropic's new TOS. Anthropic's updated usage policy bans sustained abuse of Claude and tightens restrictions on propaganda, drone weaponization, and surveillance. The abuse rule builds on an approach that already lets models end some conversations and treats Claude as an entity that may deserve protection. The article Being mean to Claude can now get your account suspended under Anthropic&#039;s new TOS appeared first on The Decoder .",
-          "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
-          "created_at": "2026-10-08T19:03:14+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c872505d2",
-      "score": 4.482,
+      "score": 4.148,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
