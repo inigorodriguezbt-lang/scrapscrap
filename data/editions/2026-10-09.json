@@ -42,6 +42,111 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-qwen-image-21-turbo",
+   "section": "models",
+   "headline": "Alibaba releases Qwen-Image-2.1-Turbo, an 8-step image model with open weights",
+   "standfirst": "The 7-billion-parameter checkpoint makes 2K images and edits them in eight denoising steps, and Alibaba's Qwen team says quality does not drop.",
+   "body": [
+    "Alibaba's Qwen team released Qwen-Image-2.1-Turbo on Friday, an accelerated version of its Qwen-Image-2.1 image model that it says generates and edits pictures in just eight denoising steps. The weights are on Hugging Face, and the team's announcement on X had drawn about 600 likes when we read it. No independent tests of the model have been published yet.",
+    "According to the model card, Turbo has 7 billion parameters, stored in BF16 as safetensors, and shares its architecture with the base model. Qwen says fewer steps does not mean lower quality, and that the checkpoint still produces strong 2K images from text. The card reports no benchmark scores, so that claim rests on the team's showcase examples alone.",
+    "The card shows editing as well as generation. Qwen's examples include portraits, posters, user-interface layouts, transparent images with an alpha channel, multi-reference composition and a four-image interior scene. Edits are given in plain language, such as adding accessories to a person or changing a scene, and the same pipeline takes an input image and continues the work.",
+    "Running it needs recent software. The card says to load QwenImage21Pipeline in Diffusers, using the latest source build and transformers 5.17 or newer, and the eight-step schedule ships inside the checkpoint. Square outputs are 2048 by 2048 pixels. The card warns that other schedules have not been evaluated, so changing the sampling steps may give worse results.",
+    "The licence is the Qwen Research License Agreement, not a fully permissive one, so commercial users should read its terms before building on it. Hugging Face lists no hosted provider yet, though a community Space from the account akhaliq already uses the checkpoint. Qwen also offers Qwen-Image-2.1 Pro and Turbo through an API."
+   ],
+   "entities": [
+    "Alibaba",
+    "Qwen",
+    "Qwen-Image-2.1-Turbo",
+    "Hugging Face",
+    "Diffusers"
+   ],
+   "sources": [
+    {
+     "author": "Alibaba Qwen",
+     "url": "https://x.com/Alibaba_Qwen/status/2108549075218120949"
+    },
+    {
+     "author": "Qwen-Image-2.1-Turbo model card",
+     "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/Alibaba_Qwen/status/2108549078456148283",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-simonw-voice-codex-blog",
+   "section": "products",
+   "headline": "Simon Willison builds a blog feature by voice with Codex while cooking dinner",
+   "standfirst": "The developer talked a Django Newsletters page into existence with the ChatGPT desktop app's Codex tab, then spent another half hour typing fixes.",
+   "body": [
+    "Developer Simon Willison says he built a new feature for his blog by voice, using the Codex tab in the ChatGPT desktop app while he cooked dinner. The feature is a Newsletters page that indexes his free weekly Substack and his monthly sponsors-only update. He wrote about it on Friday, and his post on X had drawn 50 replies within hours.",
+    "Willison says the model was GPT-6 Astra High, and that his first spoken prompt was simply to start the dev server and open it in a browser. That let him watch the site change as he talked. He says he described the design for about half an hour and that the model asked clarifying questions when it needed them.",
+    "The work was substantial, by his account. It covered a new Django model, a migration and the views behind it, plus four importers. They pull recent Substack posts through RSS, older posts through an undocumented Substack API, monthly newsletters from a public GitHub repository and a private sponsors-only archive. Pages include a by-year archive and appear in site search.",
+    "Codex opened a pull request, which he reviewed on GitHub. He then replaced a Git-subprocess importer with an API-based one by typing, and spent a further half hour on typed refinements before deploying. The pull request and the full voice transcript are public, so readers can check what was asked and what came back.",
+    "His verdict is measured. Willison writes that voice suits demos and multitasking, and that the visual preview helped, but he still prefers typing for detail because pasting examples and error messages is more efficient. In his words, the killer feature is being able to multi-task. He says he does not expect voice to become his daily way of working."
+   ],
+   "entities": [
+    "Simon Willison",
+    "Codex",
+    "ChatGPT",
+    "OpenAI",
+    "Django",
+    "GPT-6 Astra"
+   ],
+   "sources": [
+    {
+     "author": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+    },
+    {
+     "author": "Simon Willison on X",
+     "url": "https://x.com/simonw/status/2108547065634844839"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/simonw/status/2108547065634844839",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-google-ai-studio-ultra-mode",
+   "section": "products",
+   "headline": "Google tests an Ultra mode in AI Studio Build, TestingCatalog reports",
+   "standfirst": "TestingCatalog says the unannounced mode sits beside Plan, Build and Security review, and may be meant to work with Google's upcoming Gemini 4 Argon.",
+   "body": [
+    "Google is testing an unreleased Ultra mode in AI Studio Build, its app-building tool, TestingCatalog reported on Friday. The site spotted the option in a mode dropdown beside Plan, Build and a Security review mode it found earlier. Google has not announced any of this, and nobody else has confirmed the report.",
+    "The only description TestingCatalog could find reads \"Build with advanced skills and tools\". It says there is no sign of which skills or tools are meant, and none that Ultra mode will need a Google AI Ultra subscription. Those details may change before any launch, if there is one.",
+    "In TestingCatalog's own tests, the mode produced comprehensive output even with Gemini 3.8 Flash. The site suggests Ultra could spend more reasoning effort on generating an app than the standard flow does. It adds that its tests did not show how that effort is split or which tools are used.",
+    "The site links the mode to Gemini 4 Argon, which Google has announced as a model built for long-running coding work. Wider access is to start with paid API customers and Google AI Ultra subscribers after early testing, with no firm date. Any connection between Ultra mode and Argon is unconfirmed."
+   ],
+   "entities": [
+    "Google",
+    "AI Studio",
+    "Gemini 4 Argon",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/google-prepares-new-ultra-mode-for-ai-studio-build/"
+    },
+    {
+     "author": "TestingCatalog on X",
+     "url": "https://x.com/testingcatalog/status/2108540572449300741"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-bigarrow-agent-pointer",
    "section": "agents-coding",
    "headline": "Open-source Bigarrow lets coding agents draw a giant arrow on your Mac screen",
@@ -204,7 +309,7 @@
      "url": "https://fortune.com/2026/10/08/anthropic-presidential-engagement-program-hiring-political-lead-2028-elections/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cbaf7193e",
@@ -239,7 +344,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-spacexai-omarchy-grok-tokens",
@@ -270,7 +375,7 @@
      "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-goodfire-inside-out-monitors",
