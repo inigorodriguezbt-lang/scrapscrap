@@ -1,55 +1,15 @@
 {
-  "generated_at": "2026-10-10T08:03:35.582522+00:00",
+  "generated_at": "2026-10-10T10:03:22.013643+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 85,
-  "clusters_found": 70,
-  "stories_declared": 5,
+  "posts_considered": 75,
+  "clusters_found": 58,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c8732d3ea",
-      "score": 10.669,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-10T01:24:00+00:00",
-      "last_seen": "2026-10-10T07:16:07+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
-        "https://x.com/testingcatalog/status/2108818845460844904"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Free Gemini users now on ‘Auto’ models as app adds thinking levels. As announced last week , Google is rolling out a big change to the Gemini app experience for users on the free plan. Additionally, everyone is getting access to thinking or “effort” levels. more…",
-          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
-          "created_at": "2026-10-10T01:24:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF — Oct 10\n\nMICROSOFT: Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon.\n\nGOOGLE: The Gemini app now offers low, medium and high thinking levels to all users. Free Gemini users can no longer pick a model and are moved to Auto, which sends most prompts to Flash-Lite. Google is preparing a new Ultra mode for AI Studio Build.",
-          "url": "https://x.com/testingcatalog/status/2108818845460844904",
-          "created_at": "2026-10-10T07:16:07+00:00",
-          "engagement": 64
-        }
-      ]
-    },
-    {
-      "cluster_id": "cd04beb90",
-      "score": 9.675,
+      "cluster_id": "c372f0b8c",
+      "score": 10.119,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -57,17 +17,19 @@
         "Anthropic"
       ],
       "independent_sources": [
+        "Bloomberg Tech",
         "Engadget",
         "Simon Willison",
         "TechCrunch AI",
         "The Verge AI"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "first_seen": "2026-10-09T19:36:56+00:00",
       "last_seen": "2026-10-10T02:04:12+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
         "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+        "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
         "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
         "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
       ],
@@ -97,6 +59,14 @@
           "engagement": 0
         },
         {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic AI Model Went Rogue, Submitted Fake Tip to Police. Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including submitting a false tip in a police homicide case, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
+          "created_at": "2026-10-10T00:08:39+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Simon Willison",
           "tier": "commentary",
           "text": "Quoting The New York Times. Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said. &mdash; The New York Times , Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website Tags: accidental-cyberattacks , anthropic , generative-ai , ai , llms",
@@ -107,8 +77,88 @@
       ]
     },
     {
+      "cluster_id": "c8d548c19",
+      "score": 8.449,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-10T01:24:00+00:00",
+      "last_seen": "2026-10-10T08:59:49+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
+        "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Free Gemini users now on ‘Auto’ models as app adds thinking levels. As announced last week , Google is rolling out a big change to the Gemini app experience for users on the free plan. Additionally, everyone is getting access to thinking or “effort” levels. more…",
+          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
+          "created_at": "2026-10-10T01:24:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance. Gemini 4 Argon isn't even widely available yet, and rumors about a more powerful version codenamed Carbon are already making the rounds. According to Business Insider, one employee compared Carbon's coding abilities to Anthropic's Opus 5.5. Meanwhile, new modes are showing up in the Gemini app and AI Studio, suggesting Google is gearing up for the broader Gemini 4 launch. The article Google&#039;s Gemini 4 \"Carbon\" model is reportedly matching Anthropic&#039;s Opus 5.5 coding performance appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
+          "created_at": "2026-10-10T08:59:49+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cedc375a3",
+      "score": 8.317,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "jukan05"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-09T15:35:33+00:00",
+      "last_seen": "2026-10-10T09:21:47+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/09/deals-airpods-max-2-mac-mini-macbook-air-magic-mouse/",
+        "https://x.com/jukan05/status/2108850469774787030"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Deals: AirPods Max 2 $120 off, Mac mini, MacBook Air, Magic Mouse 25% off, Nomad iPhone 18 Pro cases, more. While some of the Prime Day Apple deals are starting to disappear, you can still land a solid discount on AirPods Pro 3 and we are highlighting best holiday pricing still live in today’s 9to5Toys Lunch Break . Amazon is still delivering all five colors of Apple’s latest AirPods Max 2 down at $120 off, all-time lows on the M6 Mac mini at up to $150 off, the new M5 Max Mac Studio at $200 off , and all M5 MacBook Air models at $200 off. Alongside ongoing all-time lows on Apple Watch Series 12, we also tracking the return of Prime Day pricing on Apple’s latest Magic Mouse , and we have an exclusiv",
+          "url": "https://9to5mac.com/2026/10/09/deals-airpods-max-2-mac-mini-macbook-air-magic-mouse/",
+          "created_at": "2026-10-09T15:35:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "jukan05",
+          "tier": "commentary",
+          "text": "[Exclusive] Apple Increases iPhone Duo Orders by 30%; Total iPhone 18 Pro Series Orders Unchanged",
+          "url": "https://x.com/jukan05/status/2108850469774787030",
+          "created_at": "2026-10-10T09:21:47+00:00",
+          "engagement": 80
+        }
+      ]
+    },
+    {
       "cluster_id": "c71ce486e",
-      "score": 8.575,
+      "score": 8.242,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -185,7 +235,7 @@
     },
     {
       "cluster_id": "c6b7c43b6",
-      "score": 4.399,
+      "score": 4.12,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
