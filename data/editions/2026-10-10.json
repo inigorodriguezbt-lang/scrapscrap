@@ -32,6 +32,83 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-cloudflare-clef-omni",
+   "section": "models",
+   "headline": "Cloudflare opens weights for Clef-omni, a model that answers by scoring options",
+   "standfirst": "Cloudflare released Clef-omni under Apache-2.0, a 30B-A3B model that takes audio and video and returns a probability for each option, and cut Clef-flash's price by more than half.",
+   "body": [
+    "Cloudflare published Clef-omni on Friday, an open-weights model for audio, video and text input, plus images, that it calls a decision model. Its blog post says the model changes the paradigm for such models, which have mostly been text-only. The weights are on Hugging Face under Apache-2.0, and the model costs $0.15 per million input tokens on Workers AI.",
+    "The model card says Clef-omni was post-trained from Alibaba's Qwen3-Omni-30B-A3B-Instruct, a mixture-of-experts model, and is listed at 35 billion parameters in BF16. It takes a state and a set of typed questions and returns a probability for each option in one forward pass. The card says there is no free-form text generation and no output parsing.",
+    "Cloudflare claims speed: a median of about 130 milliseconds for text, about 150 for images and about 1.5 seconds for a 21-second video with sound. Running the weights needs about 64 GB of GPU memory in bfloat16, according to the card, which was tested on a single H200. The card says SGLang support is coming soon.",
+    "The benchmark table is Cloudflare's own. It shows Clef-omni at 98.2 on BFCL against 95.75 for Jev, and 94.8 on BANKING77 against 79.74. It also shows Clef-omni behind Clef-flash on a home-appliance task, 69.3 to 97.73, and behind Jev on When2Call, 63.3 to 80.97. The card puts its GPQA Diamond score at 47.4 against 78.3 for Jev.",
+    "The post also changes two older models. Clef-flash drops from $0.09 to $0.038 per million input tokens, which Cloudflare says is now below Jev, but the hosted context window shrinks from 64k to 24k tokens. Cloudflare says only 0.24% of requests exceed 24k. Clef stays at $0.24 and, after a move to SGLang, runs 1.7 to 2 times faster, the post says. No outside group has tested any of these figures."
+   ],
+   "entities": [
+    "Cloudflare",
+    "Clef-omni",
+    "Clef-flash",
+    "Qwen3-Omni",
+    "Jev"
+   ],
+   "sources": [
+    {
+     "author": "Cloudflare",
+     "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+    },
+    {
+     "author": "Hugging Face (Cloudflare)",
+     "url": "https://huggingface.co/Cloudflare/clef-omni"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-claude-dynamic-workflows",
+   "section": "ai",
+   "headline": "Anthropic lets Claude run up to 1,000 sub-agents in parallel",
+   "standfirst": "Anthropic says its new dynamic workflows for Claude Managed Agents caught 66 of 70 hidden bugs in a test, where a single agent found 14 to 27.",
+   "body": [
+    "Anthropic added dynamic workflows to Claude Managed Agents, The Decoder reported on Friday. A lead agent writes a plan, hands tasks to sub-agents and merges their results, with up to 1,000 agents running in parallel in a single execution. Developers switch it on by selecting the agent type multiagent_20261001.",
+    "Anthropic's own test hid 70 bugs in a 116,000-line codebase. According to the company, a single agent found between 14 and 27 per run, while the dynamic workflow found 66 consistently. The Decoder notes it is unclear whether the gain holds for other kinds of work.",
+    "Anthropic warns that the workflows can use a lot of tokens and advises starting small. The Decoder calls the cost-effectiveness debatable and cites an OpenAI engineer who criticised agent swarms as a waste of tokens. The article does not say what the feature costs or which plans include it.",
+    "Anthropic points developers to its agent quickstart on platform.claude.com, or to the command /claude-api managed-agents-onboard inside Claude Code. Only The Decoder has reported the feature so far, and the bug-finding result has not been independently reproduced."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Managed Agents"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-gemini-auto-free",
+   "section": "ai",
+   "headline": "Google removes the model picker for free Gemini users, leaving only Auto",
+   "standfirst": "Free Gemini users can no longer pick a model and get Auto, which Google says routes prompts to Flash-Lite, Flash or Pro, while subscribers get effort levels.",
+   "body": [
+    "Google changed the Gemini app on Friday so that free users without a plan can no longer pick a model, 9to5Google reported. Their only option is Auto, which uses Gemini 3 models. The change reached most free accounts that evening, Pacific time, after being previewed the week before.",
+    "Google says Auto routes each prompt to the model it judges best. Most prompts go to Flash-Lite, while harder reasoning may go to Flash or Pro, according to the report. A user who turns smart model selection off gets Flash-Lite for every answer. Google's support pages had earlier named the free-tier model as 3.5 Flash-Lite.",
+    "Subscribers get new effort levels in place of the old Extended option: Low for quick answers, Medium for balanced depth and High for extra thoroughness. They match the thinking levels in Google AI Studio and Antigravity. The levels are still rolling out, and 9to5Google says all subscribers will get them.",
+    "Google AI Plus users will soon be limited to Flash-Lite and Flash, the report says. It is based on Google's support documentation and the app, and Google has not published a statement on how often Auto picks Pro."
+   ],
+   "entities": [
+    "Google",
+    "Gemini"
+   ],
+   "sources": [
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-rea-reverse-engineer-anything",
    "section": "products",
    "headline": "Open-source REA lets coding agents take apart apps and rebuild a feature",
