@@ -1,54 +1,15 @@
 {
-  "generated_at": "2026-10-10T16:03:32.862667+00:00",
+  "generated_at": "2026-10-10T18:03:29.413721+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 78,
-  "clusters_found": 59,
-  "stories_declared": 9,
+  "posts_considered": 68,
+  "clusters_found": 47,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cb94da5f4",
-      "score": 11.458,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "Product Hunt AI",
-        "dair_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T21:55:39+00:00",
-      "last_seen": "2026-10-10T15:00:33+00:00",
-      "links": [
-        "https://www.producthunt.com/products/agentdock",
-        "https://x.com/dair_ai/status/2108935723105841430"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "AgentDock. Answer Claude Code & Codex from one Inbox, in any terminal Discussion | Link",
-          "url": "https://www.producthunt.com/products/agentdock",
-          "created_at": "2026-10-09T21:55:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "dair_ai",
-          "tier": "commentary",
-          "text": "Banger paper from Meta on AI research agents. A 27B open model beats the strongest open autoresearch baseline by 14.0%, and beats Claude Code SDK and Codex SDK setups by up to 5.9%. IdeaScientist splits ideation into three roles trained separately with RL.",
-          "url": "https://x.com/dair_ai/status/2108935723105841430",
-          "created_at": "2026-10-10T15:00:33+00:00",
-          "engagement": 36
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6a0fe1b8",
-      "score": 10.379,
+      "cluster_id": "c1d4d9100",
+      "score": 14.274,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -57,20 +18,22 @@
       ],
       "independent_sources": [
         "Engadget",
+        "IntCyberDigest",
         "Simon Willison",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-10-09T19:36:56+00:00",
-      "last_seen": "2026-10-10T10:16:26+00:00",
+      "last_seen": "2026-10-10T17:23:00+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
         "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
         "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
         "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+        "https://x.com/IntCyberDigest/status/2108971571943727410"
       ],
       "posts": [
         {
@@ -112,51 +75,104 @@
           "url": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
           "created_at": "2026-10-10T10:16:26+00:00",
           "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "Anthropic's Claude invented an eyewitness tip about an unsolved murder and sent it to Philadelphia police. In another test, Claude Mythos exploited an injection flaw to run commands on a university's server. They've now cut their internal tests off from the internet.",
+          "url": "https://x.com/IntCyberDigest/status/2108971571943727410",
+          "created_at": "2026-10-10T17:23:00+00:00",
+          "engagement": 85
         }
       ]
     },
     {
-      "cluster_id": "c05c67fb3",
-      "score": 8.726,
+      "cluster_id": "cf9237df6",
+      "score": 8.809,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic"
+        "Microsoft"
       ],
       "independent_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "Product Hunt AI",
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-10T00:18:32+00:00",
-      "last_seen": "2026-10-10T14:41:16+00:00",
+      "first_seen": "2026-10-09T18:42:37+00:00",
+      "last_seen": "2026-10-10T14:57:33+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+        "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+        "https://www.producthunt.com/products/agentdock",
+        "https://www.producthunt.com/products/ej-jev-but-for-edge-devices",
+        "https://www.producthunt.com/products/lune-research",
+        "https://www.producthunt.com/products/maildun-for-mac",
+        "https://www.producthunt.com/products/microsoft-decision-1",
+        "https://www.producthunt.com/products/pixrater"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead. Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
-          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-          "created_at": "2026-10-10T00:18:32+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "ej. An 11MB local model for typed decisions in one pass Discussion | Link",
+          "url": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices",
+          "created_at": "2026-10-09T18:42:37+00:00",
           "engagement": 0
         },
         {
-          "author": "The Verge AI",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Microsoft-Decision-1. Microsoft’s decision model for agents and workflows Discussion | Link",
+          "url": "https://www.producthunt.com/products/microsoft-decision-1",
+          "created_at": "2026-10-09T18:50:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "AgentDock. Answer Claude Code & Codex from one Inbox, in any terminal Discussion | Link",
+          "url": "https://www.producthunt.com/products/agentdock",
+          "created_at": "2026-10-09T21:55:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "PixRater. Cull and rate your photos faster Discussion | Link",
+          "url": "https://www.producthunt.com/products/pixrater",
+          "created_at": "2026-10-09T22:26:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Maildun for Mac. Design on-brand emails by hand, with AI, or over MCP Discussion | Link",
+          "url": "https://www.producthunt.com/products/maildun-for-mac",
+          "created_at": "2026-10-10T01:06:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Lune. The search engine built for scientific AI agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/lune-research",
+          "created_at": "2026-10-10T03:56:36+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Anthropic is cutting off its internal evaluations from the internet. After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-          "created_at": "2026-10-10T14:41:16+00:00",
+          "text": "Microsoft's Decision-1 model enters the fast-growing AI decision model race. With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests. The article Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race appeared first on The Decoder .",
+          "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+          "created_at": "2026-10-10T14:57:33+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c8d548c19",
-      "score": 7.448,
+      "score": 7.115,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -187,7 +203,7 @@
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance. Gemini 4 Argon isn't even widely available yet, and rumors about a more powerful version codenamed Carbon are already making the rounds. According to Business Insider, one employee compared Carbon's coding abilities to Anthropic's Opus 5.5. Meanwhile, new modes are showing up in the Gemini app and AI Studio, suggesting Google is gearing up for the broader Gemini 4 launch. The article Google&#039;s Gemini 4 \"Carbon\" model is reportedly matching Anthropic&#039;s Opus 5.5 coding performance appeared first on The Decoder .",
+          "text": "Google's Gemini 4 \"Carbon\" model reportedly feels like Anthropic's Opus 5.5 coding performance. Gemini 4 Argon isn't even widely available yet, and rumors about a more powerful version codenamed Carbon are already making the rounds. According to Business Insider, one employee compared Carbon's coding abilities to Anthropic's Opus 5.5. Meanwhile, new modes are showing up in the Gemini app and AI Studio, suggesting Google is gearing up for the broader Gemini 4 launch. The article Google&#039;s Gemini 4 \"Carbon\" model reportedly feels like Anthropic&#039;s Opus 5.5 coding performance appeared first on The Decoder .",
           "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
           "created_at": "2026-10-10T08:59:49+00:00",
           "engagement": 0
@@ -196,7 +212,7 @@
     },
     {
       "cluster_id": "c71ce486e",
-      "score": 7.241,
+      "score": 6.908,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -233,7 +249,7 @@
     },
     {
       "cluster_id": "c2ae2d9be",
-      "score": 6.211,
+      "score": 5.878,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "chips",
@@ -271,48 +287,8 @@
       ]
     },
     {
-      "cluster_id": "c532ce541",
-      "score": 6.125,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Stratechery"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T16:04:53+00:00",
-      "last_seen": "2026-10-09T17:00:00+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/09/apple-welcome-home-event-three-new-products/",
-        "https://stratechery.com/2026/its-not-you-its-me/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple ‘Welcome home’ event: Three new products are coming next week. Apple officially confirmed yesterday that it will hold a product launch event next week on October 13. With a “Welcome home” tagline, the launch is expected to focus on new smart home products. Here’s everything to expect at next week’s Apple event. 9to5Mac’s Apple event coverage is supported by Sony : Shop Sony’s huge Amazon sale to score big savings on its entire TV lineup, including models with Apple AirPlay 2 support. more…",
-          "url": "https://9to5mac.com/2026/10/09/apple-welcome-home-event-three-new-products/",
-          "created_at": "2026-10-09T16:04:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Stratechery",
-          "tier": "commentary",
-          "text": "2026.41: It’s Not You, It’s Me. The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-          "url": "https://stratechery.com/2026/its-not-you-its-me/",
-          "created_at": "2026-10-09T17:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c1d29bc5d",
-      "score": 6.061,
+      "score": 5.728,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
