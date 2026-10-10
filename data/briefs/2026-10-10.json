@@ -1,15 +1,55 @@
 {
-  "generated_at": "2026-10-10T06:03:29.215439+00:00",
+  "generated_at": "2026-10-10T08:03:35.582522+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 74,
-  "clusters_found": 61,
-  "stories_declared": 4,
+  "posts_considered": 85,
+  "clusters_found": 70,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "c8732d3ea",
+      "score": 10.669,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-10T01:24:00+00:00",
+      "last_seen": "2026-10-10T07:16:07+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
+        "https://x.com/testingcatalog/status/2108818845460844904"
+      ],
+      "posts": [
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Free Gemini users now on ‘Auto’ models as app adds thinking levels. As announced last week , Google is rolling out a big change to the Gemini app experience for users on the free plan. Additionally, everyone is getting access to thinking or “effort” levels. more…",
+          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
+          "created_at": "2026-10-10T01:24:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF — Oct 10\n\nMICROSOFT: Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon.\n\nGOOGLE: The Gemini app now offers low, medium and high thinking levels to all users. Free Gemini users can no longer pick a model and are moved to Auto, which sends most prompts to Flash-Lite. Google is preparing a new Ultra mode for AI Studio Build.",
+          "url": "https://x.com/testingcatalog/status/2108818845460844904",
+          "created_at": "2026-10-10T07:16:07+00:00",
+          "engagement": 64
+        }
+      ]
+    },
+    {
       "cluster_id": "cd04beb90",
-      "score": 10.009,
+      "score": 9.675,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -67,35 +107,45 @@
       ]
     },
     {
-      "cluster_id": "c90995f7d",
-      "score": 7.327,
+      "cluster_id": "c71ce486e",
+      "score": 8.575,
       "interest": "want",
-      "single_source": true,
+      "single_source": false,
       "suggested_section": "ai",
       "entities": [],
       "independent_sources": [
-        "OpenAI"
+        "Latent Space",
+        "TechCrunch AI"
       ],
-      "source_count": 1,
-      "first_seen": "2026-10-09T07:00:00+00:00",
-      "last_seen": "2026-10-09T07:00:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-09T21:41:29+00:00",
+      "last_seen": "2026-10-10T06:45:57+00:00",
       "links": [
-        "https://openai.com/index/asana-browser-agent"
+        "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+        "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
       ],
       "posts": [
         {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol. Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "url": "https://openai.com/index/asana-browser-agent",
-          "created_at": "2026-10-09T07:00:00+00:00",
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch. What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+          "created_at": "2026-10-09T21:41:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch. Wow.",
+          "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+          "created_at": "2026-10-10T06:45:57+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c532ce541",
-      "score": 6.449,
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -135,7 +185,7 @@
     },
     {
       "cluster_id": "c6b7c43b6",
-      "score": 4.733,
+      "score": 4.399,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
