@@ -1,15 +1,54 @@
 {
-  "generated_at": "2026-10-10T14:03:22.999772+00:00",
+  "generated_at": "2026-10-10T16:03:32.862667+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 76,
+  "posts_considered": 78,
   "clusters_found": 59,
-  "stories_declared": 6,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cd04beb90",
-      "score": 8.676,
+      "cluster_id": "cb94da5f4",
+      "score": 11.458,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "Product Hunt AI",
+        "dair_ai"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-09T21:55:39+00:00",
+      "last_seen": "2026-10-10T15:00:33+00:00",
+      "links": [
+        "https://www.producthunt.com/products/agentdock",
+        "https://x.com/dair_ai/status/2108935723105841430"
+      ],
+      "posts": [
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "AgentDock. Answer Claude Code & Codex from one Inbox, in any terminal Discussion | Link",
+          "url": "https://www.producthunt.com/products/agentdock",
+          "created_at": "2026-10-09T21:55:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "dair_ai",
+          "tier": "commentary",
+          "text": "Banger paper from Meta on AI research agents. A 27B open model beats the strongest open autoresearch baseline by 14.0%, and beats Claude Code SDK and Codex SDK setups by up to 5.9%. IdeaScientist splits ideation into three roles trained separately with RL.",
+          "url": "https://x.com/dair_ai/status/2108935723105841430",
+          "created_at": "2026-10-10T15:00:33+00:00",
+          "engagement": 36
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6a0fe1b8",
+      "score": 10.379,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -20,14 +59,16 @@
         "Engadget",
         "Simon Willison",
         "TechCrunch AI",
+        "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "first_seen": "2026-10-09T19:36:56+00:00",
-      "last_seen": "2026-10-10T02:04:12+00:00",
+      "last_seen": "2026-10-10T10:16:26+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
         "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+        "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
         "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
         "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
       ],
@@ -63,12 +104,59 @@
           "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
           "created_at": "2026-10-10T02:04:12+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic cuts off Claude's internet access after the model autonomously filed a fake homicide tip with Philadelphia police. Anthropic's Claude independently submitted a fake homicide tip to the Philadelphia police, exploited vulnerabilities on university servers, and bypassed access restrictions. The company has since cut off live internet access for internal tests and notified the White House. The article Anthropic cuts off Claude&#039;s internet access after the model autonomously filed a fake homicide tip with Philadelphia police appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
+          "created_at": "2026-10-10T10:16:26+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c05c67fb3",
+      "score": 8.726,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-10T00:18:32+00:00",
+      "last_seen": "2026-10-10T14:41:16+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead. Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+          "created_at": "2026-10-10T00:18:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Anthropic is cutting off its internal evaluations from the internet. After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "created_at": "2026-10-10T14:41:16+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c8d548c19",
-      "score": 7.782,
+      "score": 7.448,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -108,7 +196,7 @@
     },
     {
       "cluster_id": "c71ce486e",
-      "score": 7.575,
+      "score": 7.241,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -144,42 +232,40 @@
       ]
     },
     {
-      "cluster_id": "c1d29bc5d",
-      "score": 6.395,
+      "cluster_id": "c2ae2d9be",
+      "score": 6.211,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "chips",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
+        "Nvidia"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Latent Space"
+        "Tom's Hardware"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-10T00:31:26+00:00",
-      "last_seen": "2026-10-10T13:41:50+00:00",
+      "first_seen": "2026-10-09T21:11:31+00:00",
+      "last_seen": "2026-10-10T15:35:00+00:00",
       "links": [
-        "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
-        "https://www.latent.space/p/biohub-deepmind"
+        "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/super-micro-smuggling-co-conspirator-pleads-guilty-to-sending-ai-chips-to-china-broker-admits-breaking-export-control-rules-as-company-co-founder-denies-charges"
       ],
       "posts": [
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub. From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
-          "url": "https://www.latent.space/p/biohub-deepmind",
-          "created_at": "2026-10-10T00:31:26+00:00",
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Super Micro Case ‘Fixer’ Pleads Guilty to Diverting AI Tech. A man charged along with Super Micro Computer Inc. co-founder Yih-Shyan “Wally” Liaw of conspiring to send cutting-edge chips to China in violation of US export controls pleaded guilty, according to court documents.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/super-micro-case-fixer-pleads-guilty-to-diverting-ai-servers",
+          "created_at": "2026-10-09T21:11:31+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "Tom's Hardware",
           "tier": "press",
-          "text": "The Race for AI Supremacy Raises Safety Concerns. Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general intelligence, raising questions about who controls the technology and its potential risks. Speaking with hosts David Gura and Christina Ruffini, Roose discusses his new book, The AGI Chronicles, and the challenges of regulating increasingly capable AI systems as developers pursue technology that could surpass human intelligence. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
-          "created_at": "2026-10-10T13:41:50+00:00",
+          "text": "Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China. Ting-Wei \"Willy\" Sun, one of the three people charged of smuggling Super Micro servers with advanced Nvidia AI chips to China, has pleaded guilty, with sentencing set for September of next year.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/super-micro-smuggling-co-conspirator-pleads-guilty-to-sending-ai-chips-to-china-broker-admits-breaking-export-control-rules-as-company-co-founder-denies-charges",
+          "created_at": "2026-10-10T15:35:00+00:00",
           "engagement": 0
         }
       ]
@@ -220,6 +306,47 @@
           "text": "2026.41: It’s Not You, It’s Me. The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
           "url": "https://stratechery.com/2026/its-not-you-its-me/",
           "created_at": "2026-10-09T17:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1d29bc5d",
+      "score": 6.061,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Latent Space"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-10T00:31:26+00:00",
+      "last_seen": "2026-10-10T13:41:50+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
+        "https://www.latent.space/p/biohub-deepmind"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub. From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+          "url": "https://www.latent.space/p/biohub-deepmind",
+          "created_at": "2026-10-10T00:31:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "The Race for AI Supremacy Raises Safety Concerns. Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general intelligence, raising questions about who controls the technology and its potential risks. Speaking with hosts David Gura and Christina Ruffini, Roose discusses his new book, The AGI Chronicles, and the challenges of regulating increasingly capable AI systems as developers pursue technology that could surpass human intelligence. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
+          "created_at": "2026-10-10T13:41:50+00:00",
           "engagement": 0
         }
       ]
