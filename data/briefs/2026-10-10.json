@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-10T12:03:30.910229+00:00",
+  "generated_at": "2026-10-10T14:03:22.999772+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
   "posts_considered": 76,
-  "clusters_found": 58,
-  "stories_declared": 5,
+  "clusters_found": 59,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cf4d768ad",
-      "score": 14.459,
+      "cluster_id": "cd04beb90",
+      "score": 8.676,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -20,20 +20,16 @@
         "Engadget",
         "Simon Willison",
         "TechCrunch AI",
-        "The Verge AI",
-        "TheHackersNews",
-        "kimmonismus"
+        "The Verge AI"
       ],
-      "source_count": 6,
+      "source_count": 4,
       "first_seen": "2026-10-09T19:36:56+00:00",
-      "last_seen": "2026-10-10T10:16:00+00:00",
+      "last_seen": "2026-10-10T02:04:12+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
         "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
         "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-        "https://x.com/TheHackersNews/status/2108850722007646462",
-        "https://x.com/kimmonismus/status/2108864114374418741"
+        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
       ],
       "posts": [
         {
@@ -67,28 +63,12 @@
           "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
           "created_at": "2026-10-10T02:04:12+00:00",
           "engagement": 0
-        },
-        {
-          "author": "TheHackersNews",
-          "tier": "commentary",
-          "text": "During internal tests, Claude Mythos Preview exploited injection flaws to run commands on a university server. Claude Haiku 4.5 sent a false homicide tip to Philadelphia police.\n\nAnthropic is cutting live internet access for all internal evaluations.",
-          "url": "https://x.com/TheHackersNews/status/2108850722007646462",
-          "created_at": "2026-10-10T09:22:47+00:00",
-          "engagement": 52
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "I don’t think anyone expected to read this headline 12 months ago:\n\nClaude submitted a fabricated tip about an unsolved murder to Philadelphia police during an automated web test, WSJ reports.\n\nThe model claimed it had seen someone matching a description near the crime scene. It left the name and contact fields blank.",
-          "url": "https://x.com/kimmonismus/status/2108864114374418741",
-          "created_at": "2026-10-10T10:16:00+00:00",
-          "engagement": 168
         }
       ]
     },
     {
-      "cluster_id": "cdb7121e1",
-      "score": 11.958,
+      "cluster_id": "c8d548c19",
+      "score": 7.782,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -98,16 +78,14 @@
       ],
       "independent_sources": [
         "9to5Google",
-        "The Decoder",
-        "mark_k"
+        "The Decoder"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "first_seen": "2026-10-10T01:24:00+00:00",
-      "last_seen": "2026-10-10T10:28:04+00:00",
+      "last_seen": "2026-10-10T08:59:49+00:00",
       "links": [
         "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
-        "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
-        "https://x.com/mark_k/status/2108867149703897429"
+        "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/"
       ],
       "posts": [
         {
@@ -125,20 +103,12 @@
           "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
           "created_at": "2026-10-10T08:59:49+00:00",
           "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Google hasn't even rolled out Gemini 4 Argon to the public yet, and its engineers are already testing a MUCH more powerful successor!\n\nAccording to Business Insider, @GoogleDeepMind has been testing several Gemini 4 variants internally, codenamed Argon, Barium, and Carbon. The latest, Carbon, is reportedly a massive improvement in coding capabilities.",
-          "url": "https://x.com/mark_k/status/2108867149703897429",
-          "created_at": "2026-10-10T10:28:04+00:00",
-          "engagement": 103
         }
       ]
     },
     {
       "cluster_id": "c71ce486e",
-      "score": 7.908,
+      "score": 7.575,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -169,6 +139,47 @@
           "text": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch. Wow.",
           "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
           "created_at": "2026-10-10T06:45:57+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1d29bc5d",
+      "score": 6.395,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Latent Space"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-10T00:31:26+00:00",
+      "last_seen": "2026-10-10T13:41:50+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
+        "https://www.latent.space/p/biohub-deepmind"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub. From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+          "url": "https://www.latent.space/p/biohub-deepmind",
+          "created_at": "2026-10-10T00:31:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "The Race for AI Supremacy Raises Safety Concerns. Technology Journalist and Author Kevin Roose tells Bloomberg This Weekend that a relatively small group of researchers and executives at OpenAI, Anthropic and Google DeepMind has driven the race toward artificial general intelligence, raising questions about who controls the technology and its potential risks. Speaking with hosts David Gura and Christina Ruffini, Roose discusses his new book, The AGI Chronicles, and the challenges of regulating increasingly capable AI systems as developers pursue technology that could surpass human intelligence. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-10/the-race-for-ai-supremacy-raises-safety-concerns-video",
+          "created_at": "2026-10-10T13:41:50+00:00",
           "engagement": 0
         }
       ]
