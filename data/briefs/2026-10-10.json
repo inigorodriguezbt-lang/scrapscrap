@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-10T10:03:22.013643+00:00",
+  "generated_at": "2026-10-10T12:03:30.910229+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 75,
+  "posts_considered": 76,
   "clusters_found": 58,
-  "stories_declared": 6,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c372f0b8c",
-      "score": 10.119,
+      "cluster_id": "cf4d768ad",
+      "score": 14.459,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -17,21 +17,23 @@
         "Anthropic"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
         "Engadget",
         "Simon Willison",
         "TechCrunch AI",
-        "The Verge AI"
+        "The Verge AI",
+        "TheHackersNews",
+        "kimmonismus"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-10-09T19:36:56+00:00",
-      "last_seen": "2026-10-10T02:04:12+00:00",
+      "last_seen": "2026-10-10T10:16:00+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
         "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-        "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
         "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+        "https://x.com/TheHackersNews/status/2108850722007646462",
+        "https://x.com/kimmonismus/status/2108864114374418741"
       ],
       "posts": [
         {
@@ -59,26 +61,34 @@
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Anthropic AI Model Went Rogue, Submitted Fake Tip to Police. Anthropic PBC said its Claude AI model carried out additional unintended actions on the digital systems of outside organizations, including submitting a false tip in a police homicide case, prompting a warning from the Trump administration for artificial intelligence companies to secure their systems.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/anthropic-shares-new-ai-misbehavior-some-on-government-sites",
-          "created_at": "2026-10-10T00:08:39+00:00",
-          "engagement": 0
-        },
-        {
           "author": "Simon Willison",
           "tier": "commentary",
           "text": "Quoting The New York Times. Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said. &mdash; The New York Times , Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website Tags: accidental-cyberattacks , anthropic , generative-ai , ai , llms",
           "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
           "created_at": "2026-10-10T02:04:12+00:00",
           "engagement": 0
+        },
+        {
+          "author": "TheHackersNews",
+          "tier": "commentary",
+          "text": "During internal tests, Claude Mythos Preview exploited injection flaws to run commands on a university server. Claude Haiku 4.5 sent a false homicide tip to Philadelphia police.\n\nAnthropic is cutting live internet access for all internal evaluations.",
+          "url": "https://x.com/TheHackersNews/status/2108850722007646462",
+          "created_at": "2026-10-10T09:22:47+00:00",
+          "engagement": 52
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "I don’t think anyone expected to read this headline 12 months ago:\n\nClaude submitted a fabricated tip about an unsolved murder to Philadelphia police during an automated web test, WSJ reports.\n\nThe model claimed it had seen someone matching a description near the crime scene. It left the name and contact fields blank.",
+          "url": "https://x.com/kimmonismus/status/2108864114374418741",
+          "created_at": "2026-10-10T10:16:00+00:00",
+          "engagement": 168
         }
       ]
     },
     {
-      "cluster_id": "c8d548c19",
-      "score": 8.449,
+      "cluster_id": "cdb7121e1",
+      "score": 11.958,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -88,14 +98,16 @@
       ],
       "independent_sources": [
         "9to5Google",
-        "The Decoder"
+        "The Decoder",
+        "mark_k"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-10T01:24:00+00:00",
-      "last_seen": "2026-10-10T08:59:49+00:00",
+      "last_seen": "2026-10-10T10:28:04+00:00",
       "links": [
         "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
-        "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/"
+        "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
+        "https://x.com/mark_k/status/2108867149703897429"
       ],
       "posts": [
         {
@@ -113,52 +125,20 @@
           "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
           "created_at": "2026-10-10T08:59:49+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cedc375a3",
-      "score": 8.317,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "jukan05"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T15:35:33+00:00",
-      "last_seen": "2026-10-10T09:21:47+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/09/deals-airpods-max-2-mac-mini-macbook-air-magic-mouse/",
-        "https://x.com/jukan05/status/2108850469774787030"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Deals: AirPods Max 2 $120 off, Mac mini, MacBook Air, Magic Mouse 25% off, Nomad iPhone 18 Pro cases, more. While some of the Prime Day Apple deals are starting to disappear, you can still land a solid discount on AirPods Pro 3 and we are highlighting best holiday pricing still live in today’s 9to5Toys Lunch Break . Amazon is still delivering all five colors of Apple’s latest AirPods Max 2 down at $120 off, all-time lows on the M6 Mac mini at up to $150 off, the new M5 Max Mac Studio at $200 off , and all M5 MacBook Air models at $200 off. Alongside ongoing all-time lows on Apple Watch Series 12, we also tracking the return of Prime Day pricing on Apple’s latest Magic Mouse , and we have an exclusiv",
-          "url": "https://9to5mac.com/2026/10/09/deals-airpods-max-2-mac-mini-macbook-air-magic-mouse/",
-          "created_at": "2026-10-09T15:35:33+00:00",
-          "engagement": 0
         },
         {
-          "author": "jukan05",
+          "author": "mark_k",
           "tier": "commentary",
-          "text": "[Exclusive] Apple Increases iPhone Duo Orders by 30%; Total iPhone 18 Pro Series Orders Unchanged",
-          "url": "https://x.com/jukan05/status/2108850469774787030",
-          "created_at": "2026-10-10T09:21:47+00:00",
-          "engagement": 80
+          "text": "Google hasn't even rolled out Gemini 4 Argon to the public yet, and its engineers are already testing a MUCH more powerful successor!\n\nAccording to Business Insider, @GoogleDeepMind has been testing several Gemini 4 variants internally, codenamed Argon, Barium, and Carbon. The latest, Carbon, is reportedly a massive improvement in coding capabilities.",
+          "url": "https://x.com/mark_k/status/2108867149703897429",
+          "created_at": "2026-10-10T10:28:04+00:00",
+          "engagement": 103
         }
       ]
     },
     {
       "cluster_id": "c71ce486e",
-      "score": 8.242,
+      "score": 7.908,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
