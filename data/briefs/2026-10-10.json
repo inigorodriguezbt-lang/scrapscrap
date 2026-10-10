@@ -1,102 +1,15 @@
 {
-  "generated_at": "2026-10-10T00:04:45.458109+00:00",
+  "generated_at": "2026-10-10T02:03:12.686755+00:00",
   "edition_date": "2026-10-10",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 85,
-  "clusters_found": 68,
-  "stories_declared": 6,
+  "posts_considered": 79,
+  "clusters_found": 65,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ce8d0bfbb",
-      "score": 12.061,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "trq212"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T09:22:25+00:00",
-      "last_seen": "2026-10-09T22:40:34+00:00",
-      "links": [
-        "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-        "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
-        "https://x.com/trq212/status/2108689101503566319"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic's Claude Science creates the first complete ultraviolet map of the sky. Astrophysicist Brice Ménard of Johns Hopkins University used Anthropic's Claude Science to map the entire sky in ultraviolet light for the first time. AI agents downloaded data from multiple space missions, calibrated it, and filled in gaps using inpainting. Predictions averaged about ten percent deviation from actual measurements. Ménard sees the project as an example of research that simply wouldn't have gotten done without AI. The article Anthropic&#039;s Claude Science creates the first complete ultraviolet map of the sky appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
-          "created_at": "2026-10-09T09:22:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows. Anthropic is adding dynamic workflows to Claude Managed Agents, letting a lead agent distribute tasks across up to 1,000 sub-agents at once. In testing, a single agent found at most 27 of 70 hidden bugs in a codebase, while the multi-agent workflow consistently caught 66. The article Anthropic&#039;s Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-          "created_at": "2026-10-09T18:28:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "trq212",
-          "tier": "commentary",
-          "text": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process & didnt work that well but one prompt to Opus 5.5 ported it to Claude Managed Agents & made it way more reliable",
-          "url": "https://x.com/trq212/status/2108689101503566319",
-          "created_at": "2026-10-09T22:40:34+00:00",
-          "engagement": 376
-        }
-      ]
-    },
-    {
-      "cluster_id": "c38289e5d",
-      "score": 11.91,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "synthwavedd",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-09T22:02:00+00:00",
-      "last_seen": "2026-10-09T23:10:57+00:00",
-      "links": [
-        "https://x.com/synthwavedd/status/2108679397117178092",
-        "https://x.com/testingcatalog/status/2108696747874697354"
-      ],
-      "posts": [
-        {
-          "author": "synthwavedd",
-          "tier": "commentary",
-          "text": "I have to say though... if they're going to take forever to get it in public hands, and if you combine that with Google's 100% pre-launch nerf rate, Argon is going to look thoroughly meh by the time it's usable",
-          "url": "https://x.com/synthwavedd/status/2108679397117178092",
-          "created_at": "2026-10-09T22:02:00+00:00",
-          "engagement": 407
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "GOOGLE: New references to the Gemini 4 Argon model, with low, medium, and high reasoning efforts, have been added recently in Antigravity (hidden). Gemini web now also shows low, medium, and high reasoning efforts for all models, unifying the reasoning selector across tools. Business Insider recently reported that Google employees are already testing the next Gemini 4 checkpoint, called \"Carbon,\" internally, and it performs at the Opus 5.5 level on coding tasks.",
-          "url": "https://x.com/testingcatalog/status/2108696747874697354",
-          "created_at": "2026-10-09T23:10:57+00:00",
-          "engagement": 122
-        }
-      ]
-    },
-    {
       "cluster_id": "ca3d4acbe",
-      "score": 9.244,
+      "score": 8.915,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -144,8 +57,35 @@
       ]
     },
     {
+      "cluster_id": "c90995f7d",
+      "score": 7.327,
+      "interest": "want",
+      "single_source": true,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "OpenAI"
+      ],
+      "source_count": 1,
+      "first_seen": "2026-10-09T07:00:00+00:00",
+      "last_seen": "2026-10-09T07:00:00+00:00",
+      "links": [
+        "https://openai.com/index/asana-browser-agent"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol. Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+          "url": "https://openai.com/index/asana-browser-agent",
+          "created_at": "2026-10-09T07:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c532ce541",
-      "score": 7.446,
+      "score": 7.116,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -184,35 +124,8 @@
       ]
     },
     {
-      "cluster_id": "c90995f7d",
-      "score": 7.327,
-      "interest": "want",
-      "single_source": true,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "OpenAI"
-      ],
-      "source_count": 1,
-      "first_seen": "2026-10-09T07:00:00+00:00",
-      "last_seen": "2026-10-09T07:00:00+00:00",
-      "links": [
-        "https://openai.com/index/asana-browser-agent"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol. Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-          "url": "https://openai.com/index/asana-browser-agent",
-          "created_at": "2026-10-09T07:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c6b7c43b6",
-      "score": 5.729,
+      "score": 5.4,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
