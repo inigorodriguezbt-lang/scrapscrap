@@ -164,6 +164,47 @@
    },
    "published_at": "2026-10-11T09:11:43+00:00",
    "id": "the-vllm-project-congratulated-the-vllm"
+  },
+  {
+   "text": "Developer Marc Lou says he asked Claude Opus 5.5 to build a macOS app that remaps mouse buttons, and it took one prompt and about five minutes, per his video.",
+   "why": "It is a typical launch-week build demo: a single-prompt utility app, shown on video, with no independent check of the result.",
+   "source": {
+    "name": "Marc Lou on X",
+    "url": "https://x.com/marclou/status/2109221315769221401"
+   },
+   "published_at": "2026-10-11T09:55:23+00:00",
+   "embed": "https://x.com/marclou/status/2109221315769221401",
+   "id": "developer-marc-lou-says-he-asked"
+  },
+  {
+   "text": "Theo says OpenAI sped up default speeds too much on GPT-6.1 Sol, which he finds barely slower than the Fast setting, while Ultrafast is quicker still.",
+   "why": "It is one developer's hands-on impression of how the tiers compare; OpenAI has not published figures for the gap.",
+   "source": {
+    "name": "Theo on X",
+    "url": "https://x.com/theo/status/2109236909885251992"
+   },
+   "published_at": "2026-10-11T10:57:21+00:00",
+   "id": "theo-says-openai-sped-up-default"
+  },
+  {
+   "text": "Rohan Paul summarises an Amazon paper in which an LLM acts as a research world model, predicting whether a training change helps, tested on 2,653 experiment records from nine setups.",
+   "why": "If it holds, research agents could rank experiments before spending GPU time on them; the figures here are a secondary summary of the paper.",
+   "source": {
+    "name": "Rohan Paul on X",
+    "url": "https://x.com/rohanpaul_ai/status/2109243398628708619"
+   },
+   "published_at": "2026-10-11T11:23:08+00:00",
+   "id": "rohan-paul-summarises-an-amazon-paper"
+  },
+  {
+   "text": "Rohan Paul summarises a Meta paper where identical agents share one Git repo and build on each other's commits, scoring 79.4 percent on 50 ProgramBench program-rebuilding tasks.",
+   "why": "The approach keeps failed attempts in the repo so later runs do not rediscover them; the score is as relayed from the paper, not independently checked.",
+   "source": {
+    "name": "Rohan Paul on X",
+    "url": "https://x.com/rohanpaul_ai/status/2109230760020574281"
+   },
+   "published_at": "2026-10-11T10:32:55+00:00",
+   "id": "rohan-paul-summarises-a-meta-paper"
   }
  ]
 }
