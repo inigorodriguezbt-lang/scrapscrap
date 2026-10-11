@@ -1,54 +1,63 @@
 {
-  "generated_at": "2026-10-11T20:03:48.810886+00:00",
+  "generated_at": "2026-10-11T22:03:30.114926+00:00",
   "edition_date": "2026-10-11",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 40,
+  "posts_considered": 38,
   "clusters_found": 34,
   "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c3c20ade0",
-      "score": 11.051,
+      "cluster_id": "c1e4b6150",
+      "score": 8.38,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "Microsoft"
+        "Apple"
       ],
       "independent_sources": [
-        "Tom's Hardware",
-        "mark_k"
+        "9to5Mac",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-11T10:50:00+00:00",
-      "last_seen": "2026-10-11T18:49:51+00:00",
+      "first_seen": "2026-10-11T04:25:16+00:00",
+      "last_seen": "2026-10-11T21:14:40+00:00",
       "links": [
-        "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
-        "https://x.com/mark_k/status/2109355818671812844"
+        "https://9to5mac.com/2026/10/10/m7-macbook-pro-redesign-next-spring/",
+        "https://9to5mac.com/2026/10/11/ipad-mini-oled-higher-price/",
+        "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
       ],
       "posts": [
         {
-          "author": "Tom's Hardware",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications. ArtCraft is expanding its roster of open-source creative tools as cross-platform alternatives to predatory subscription models.",
-          "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
-          "created_at": "2026-10-11T10:50:00+00:00",
+          "text": "MacBook Pro overhaul: entry-level model to gain new design sooner than expected. Earlier this year, Bloomberg’s Mark Gurman revealed that Apple has a new M7-powered entry level MacBook Pro in the pipeline for spring 2027. This isn’t an ordinary MacBook Pro refresh though. It’ll bring the upcoming redesign down to the entry level, something that previously wasn’t expected. more…",
+          "url": "https://9to5mac.com/2026/10/10/m7-macbook-pro-redesign-next-spring/",
+          "created_at": "2026-10-11T04:25:16+00:00",
           "engagement": 0
         },
         {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Brandon Thomas, the engineer behind ArtCraft, has been using Claude to build free, open-source alternatives to Adobe's creative suite. Now he's unveiled WordCraft, GridCraft and DeckCraft, targeting Word, Excel and PowerPoint. All written in Rust.",
-          "url": "https://x.com/mark_k/status/2109355818671812844",
-          "created_at": "2026-10-11T18:49:51+00:00",
-          "engagement": 138
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Bloomberg: New iPad mini with OLED display will be significantly more expensive than current model. The current iPad mini sells for $599 in its starting 128 GB configuration. Apple is set to introduce the next-generation iPad mini later this month and — while the starting storage may increase — interested buyers should start probably bracing for a price rise. Bloomberg’s Mark Gurman says he is hearing that the new iPad mini will be “considerably more expensive”, floating a new price closer to the $799 mark. more…",
+          "url": "https://9to5mac.com/2026/10/11/ipad-mini-oled-higher-price/",
+          "created_at": "2026-10-11T14:28:57+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Will the HomeView be Apple’s first smart home success?. Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman. Over the past couple of years, we’ve seen There have been multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman [&#8230;]",
+          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+          "created_at": "2026-10-11T21:14:40+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c6e427178",
-      "score": 7.241,
+      "cluster_id": "ca6f757c3",
+      "score": 4.302,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -58,28 +67,17 @@
         "Microsoft"
       ],
       "independent_sources": [
-        "TechCrunch AI",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-10T21:47:51+00:00",
-      "last_seen": "2026-10-11T18:33:56+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-10T22:10:17+00:00",
+      "last_seen": "2026-10-11T09:08:35+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
         "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-        "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+        "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
       ],
       "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’. In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
-          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "created_at": "2026-10-10T21:47:51+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Verge AI",
           "tier": "press",
@@ -94,14 +92,6 @@
           "text": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic. Microsoft CEO Satya Nadella now calls artificial intelligence \"super intelligence\" instead of artificial intelligence, falling in line with Trump's preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real motive is business: Microsoft risks falling behind as AI labs turn their models into the primary computer interface. The article Microsoft&#039;s Nadella bows to Trump&#039;s language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic appeared first on The Decoder .",
           "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
           "created_at": "2026-10-11T09:08:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Silicon Valley is falling in line with Trump’s attempt to rename AI. When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-          "created_at": "2026-10-11T18:33:56+00:00",
           "engagement": 0
         }
       ]
