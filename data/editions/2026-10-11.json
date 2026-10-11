@@ -1,0 +1,83 @@
+{
+ "edition_date": "2026-10-11",
+ "stories": [
+  {
+   "cluster_id": "find-codex-day-6-reset",
+   "section": "products",
+   "headline": "OpenAI's Codex lead announces global usage reset on day 6 of his pledge",
+   "standfirst": "Thibault Sottiaux posted \"Day 6/ Reset\" and promised a global reset by end of day, six days into his pledge to ship a daily Codex improvement or reset everyone's limits.",
+   "body": [
+    "Thibault Sottiaux, whom the Taiwanese outlet Inside describes as OpenAI's Codex lead, posted \"Day 6/ Reset\" on X late on Saturday, 10 October, UTC. About 20 seconds later he added: \"Global reset by EOD. May the tokens do good things for you.\" At the time we read them, the first post had about 7,100 likes and the second about 2,200. OpenAI has published no changelog entry for the reset that we could find.",
+    "The posts refer to a pledge Sottiaux made on 4 October. According to Nerdschalk and Inside, he wrote that over the next 28 days the team would each day either ship one clear improvement for most Codex and Work users, or ship a full reset. Outlets disagree on the end date. Neither early write-up names an improvement shipped under the pledge, so days one to five are unclear.",
+    "Nerdschalk's explainer says a full reset refreshes the five-hour and weekly Work and Codex allowances and shifts the weekly reset date, without raising plan limits. It describes three forms: banked resets users apply themselves, automatic ones, and purchased instant resets offered to some Plus and Pro users. Sottiaux's posts do not say which kind this is, and the same outlet notes no reset under the pledge had been confirmed when it wrote.",
+    "Separately, TestingCatalog posted a screenshot of what it says is a new Codex setting, \"Allow Codex to use resets\", in the Usage & billing section. Per the text TestingCatalog quotes, Codex could use a reset when a user explicitly asks during a conversation and has 10% or less of their limit left, and resets are never used automatically. OpenAI has not confirmed the setting, and TestingCatalog's reports are unconfirmed until a company ships.",
+    "Inside frames the pledge as a response to competition from Anthropic's Claude Code, and says Codex's weekly active developers passed 4 million in mid-2026; the outlet gives no source for that figure here, and we have not verified it. Nobody else has yet reported on the day-6 reset itself, and the details of who gets it and when remain to be confirmed."
+   ],
+   "entities": [
+    "OpenAI",
+    "Codex",
+    "Thibault Sottiaux",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "Thibault Sottiaux",
+     "url": "https://x.com/thsottiaux/status/2109045220411351517"
+    },
+    {
+     "author": "Thibault Sottiaux",
+     "url": "https://x.com/thsottiaux/status/2109045392684032299"
+    },
+    {
+     "author": "Nerdschalk",
+     "url": "https://nerdschalk.com/openai-codex-28-day-reset-pledge/"
+    },
+    {
+     "author": "Inside",
+     "url": "https://www.inside.com.tw/article/42567-openai-codex-28-day-sprint-daily-ship-reset-october-2026"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2109055151163965917"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/thsottiaux/status/2109045392684032299",
+     "after": 1
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-nvidia-reflection-ai-talks",
+   "section": "business",
+   "headline": "Nvidia in early talks to buy or deepen stake in Reflection AI, FT reports",
+   "standfirst": "The Financial Times reports Nvidia is weighing an acquisition, acqui-hire or bigger stake in the open-weights lab it already backs, days after Reflection announced its 501-billion-parameter Beam model.",
+   "body": [
+    "Nvidia is in early talks to acquire, or sharply deepen its stake in, Reflection AI, the Financial Times reported on Friday, according to summaries by Startup Fortune and Data Studios. Startup Fortune says Bloomberg confirmed the report. We could not open the FT piece itself. Neither Nvidia nor Reflection has announced an agreement, and the form of any deal is described as undecided.",
+    "Startup Fortune lists the options as an acqui-hire in which Nvidia absorbs Reflection's researchers and licenses its technology, a deal to supply more chips, or a larger equity investment. Data Studios adds a full acquisition. Reflection was valued at $25 billion in its last round, up from $8 billion in October 2025, according to Startup Fortune, which says Nvidia's first cheque was $800 million of a $2 billion raise.",
+    "Reflection was founded in March 2024 by Misha Laskin and Ioannis Antonoglou, both formerly of Google DeepMind, and presents itself as a US open-weights alternative to Chinese labs such as DeepSeek. On 5 October it announced Beam, a mixture-of-experts model with 501 billion parameters, 23 billion active, trained on 23.8 trillion tokens, with a one-million-token context window, per the same reports.",
+    "Reflection says Beam matches Z.ai's GLM-5.2 on reasoning benchmarks using three to four times less inference compute. That is Reflection's own approximation and has not been independently verified. Startup Fortune reports Beam trails DeepSeek and Kimi K3 on several benchmarks Reflection published itself. The company says weights and a technical report will follow under Apache 2.0 later this month, and Data Studios says that had not happened as of 10 October.",
+    "Startup Fortune also reports that Beam's reinforcement-learning phase ran for four weeks on 10,500 Nvidia GB300 GPUs rented through a $6.3 billion deal with SpaceX's Colossus 2 facility. That figure appears in one outlet only. Price, Nvidia's current stake and any regulatory path are all unknown. Startup Fortune suggests an acqui-hire could avoid a lengthy review, which is the writer's opinion, not reported fact."
+   ],
+   "entities": [
+    "Nvidia",
+    "Reflection AI",
+    "Financial Times",
+    "Bloomberg"
+   ],
+   "sources": [
+    {
+     "author": "Startup Fortune",
+     "url": "https://startupfortune.com/nvidia-is-in-talks-to-buy-the-open-source-ai-lab-it-just-backed/"
+    },
+    {
+     "author": "Data Studios",
+     "url": "https://www.datastudios.org/post/nvidia-reportedly-explores-acquiring-reflection-ai"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}

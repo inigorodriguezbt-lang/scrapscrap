@@ -1,0 +1,55 @@
+{
+ "date": "2026-10-11",
+ "snippets": [
+  {
+   "text": "A Hacker News front-page post by Nish Tahir builds a one-forward-pass multiple-choice model on Qwen3-1.7B; a quick finetune lifts CommonsenseQA accuracy from 59.4% to 62.4%, and temperature scaling fixes its overconfidence.",
+   "why": "It is a small, reproducible recipe, with code on GitHub, for the answer-by-scoring-options approach that Microsoft and Cloudflare models recently used.",
+   "source": {
+    "name": "Nish Tahir",
+    "url": "https://nishtahir.com/build-your-own-decision-model/"
+   },
+   "published_at": "2026-10-10T22:50:00+00:00",
+   "id": "a-hacker-news-front-page-post"
+  },
+  {
+   "text": "SemiAnalysis says the Lambda–Anthropic deal is really a four-party trade involving Nvidia, Lambda and Hut 8, giving Anthropic about 350 MW of Rubin capacity in 2028 at roughly $5.80 per GPU-hour.",
+   "why": "It is SemiAnalysis's own reading of a deal the companies have not detailed, and the thread sets out how that price pencils out.",
+   "source": {
+    "name": "SemiAnalysis",
+    "url": "https://x.com/SemiAnalysis_/status/2109056651231654310"
+   },
+   "published_at": "2026-10-10T23:01:04+00:00",
+   "id": "semianalysis-says-the-lambda-anthropic-deal"
+  },
+  {
+   "text": "Andrew Curran notes that a 4x internal productivity uplift for Mythos Preview matches what Anthropic self-reported in its August 2026 Risk Report, still below the company's Dramatic Acceleration threshold.",
+   "why": "The figure is Anthropic's own and covers an older model; Curran adds that the company is \"many generations\" beyond it now, which is his claim.",
+   "source": {
+    "name": "Andrew Curran",
+    "url": "https://x.com/AndrewCurran_/status/2109049637449687135"
+   },
+   "published_at": "2026-10-10T22:33:12+00:00",
+   "id": "andrew-curran-notes-that-a-4x"
+  },
+  {
+   "text": "A paper highlighted by DAIR.AI proposes MemoType, which labels each agent memory and query by type and retrieves with a separate strategy per type; it also introduces a dataset, TriMEM, for training the classifier.",
+   "why": "The authors argue that no single retrieval method can be best across mixed memory types, which challenges the one-embedding-search default in many agent setups.",
+   "source": {
+    "name": "DAIR.AI",
+    "url": "https://x.com/dair_ai/status/2109045065930981708"
+   },
+   "published_at": "2026-10-10T22:15:02+00:00",
+   "id": "a-paper-highlighted-by-dair-ai"
+  },
+  {
+   "text": "A post by Peter Wildeford attributes to Sam Altman the remark that society will have to accept \"fairly severe cyber incidents from open models, in exchange for the liberty that comes with that\".",
+   "why": "We have not located the original interview, so the quote is unverified; it lands as labs argue over open-weights risk.",
+   "source": {
+    "name": "Peter Wildeford",
+    "url": "https://x.com/peterwildeford/status/2109039710253551898"
+   },
+   "published_at": "2026-10-10T21:53:45+00:00",
+   "id": "a-post-by-peter-wildeford-attributes"
+  }
+ ]
+}
