@@ -1,15 +1,54 @@
 {
-  "generated_at": "2026-10-11T18:03:52.838163+00:00",
+  "generated_at": "2026-10-11T20:03:48.810886+00:00",
   "edition_date": "2026-10-11",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 37,
-  "clusters_found": 32,
-  "stories_declared": 1,
+  "posts_considered": 40,
+  "clusters_found": 34,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c53fbc8af",
-      "score": 6.928,
+      "cluster_id": "c3c20ade0",
+      "score": 11.051,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "Tom's Hardware",
+        "mark_k"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-11T10:50:00+00:00",
+      "last_seen": "2026-10-11T18:49:51+00:00",
+      "links": [
+        "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+        "https://x.com/mark_k/status/2109355818671812844"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications. ArtCraft is expanding its roster of open-source creative tools as cross-platform alternatives to predatory subscription models.",
+          "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+          "created_at": "2026-10-11T10:50:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Brandon Thomas, the engineer behind ArtCraft, has been using Claude to build free, open-source alternatives to Adobe's creative suite. Now he's unveiled WordCraft, GridCraft and DeckCraft, targeting Word, Excel and PowerPoint. All written in Rust.",
+          "url": "https://x.com/mark_k/status/2109355818671812844",
+          "created_at": "2026-10-11T18:49:51+00:00",
+          "engagement": 138
+        }
+      ]
+    },
+    {
+      "cluster_id": "c6e427178",
+      "score": 7.241,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -19,29 +58,20 @@
         "Microsoft"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-10T18:35:59+00:00",
-      "last_seen": "2026-10-11T09:08:35+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-10T21:47:51+00:00",
+      "last_seen": "2026-10-11T18:33:56+00:00",
       "links": [
         "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
         "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
-        "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
-        "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+        "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
       ],
       "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Microsoft CEO Nadella Calls for ‘Emergency Brake’ on Advanced AI. Microsoft Corp. Chief Executive Officer Satya Nadella said companies should treat powerful artificial intelligence models as potential insider threats, assume they could be compromised and create an “emergency brake” system to prevent agentic models from going rogue.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/microsoft-ceo-nadella-calls-for-emergency-brake-on-advanced-ai",
-          "created_at": "2026-10-10T18:35:59+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
@@ -64,6 +94,14 @@
           "text": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic. Microsoft CEO Satya Nadella now calls artificial intelligence \"super intelligence\" instead of artificial intelligence, falling in line with Trump's preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real motive is business: Microsoft risks falling behind as AI labs turn their models into the primary computer interface. The article Microsoft&#039;s Nadella bows to Trump&#039;s language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic appeared first on The Decoder .",
           "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
           "created_at": "2026-10-11T09:08:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Silicon Valley is falling in line with Trump’s attempt to rename AI. When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+          "created_at": "2026-10-11T18:33:56+00:00",
           "engagement": 0
         }
       ]
