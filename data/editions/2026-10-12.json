@@ -1,0 +1,171 @@
+{
+ "edition_date": "2026-10-12",
+ "stories": [
+  {
+   "cluster_id": "find-sakana-mass",
+   "section": "research",
+   "headline": "Sakana AI says a 27B model got better by training on its own team",
+   "standfirst": "Sakana AI says two rounds of a 27B open model organising copies of itself into a team, then training on the best runs, lifted research scores per output token 1.2 to 1.6 times.",
+   "body": [
+    "Sakana AI published a paper on Sunday describing Multi-Agent Self-Supervision, or MASS, a method in which a single model plays solver, workflow optimiser and judge. According to the company's blog post, the aim is to keep improving a model on open-ended research tasks that humans may struggle to grade. The code is listed as released on GitHub.",
+    "The loop has two parts, per the paper. In the first, the model evolves multi-agent workflows, deciding how subagents talk to each other, and picks a winner. In the second, the champion workflow runs 18 times per task, the model ranks the outputs, and the best runs are used to fine-tune it with LoRA, so the coordination is baked into the weights.",
+    "Sakana says it ran two rounds starting from Qwen3.6-27B, on 12 synthetic research tasks across finance, robotics and pharmacy, three of them held out for testing. Judged by GPT-5.5 and Claude Opus 4.8, which never fed back into training, the tuned model won 69.9 percent of held-out comparisons against the base model after round two, the authors report.",
+    "Score per output token against the base model reached 1.60 times on MLR-Bench, 1.35 on DSBench, 1.28 on AstaBench E2E-Hard and 1.20 on ScienceAgentBench, according to the paper. Coding did not improve: Terminal-Bench 2.0 came in at 0.96 times and SWE-bench Verified at 0.94. The authors also report that the model's agreement with the outside judges rose from 73 to 93 percent.",
+    "The authors list their own caveats. The test suite is small, and team runs generate about 2.4 times as many tokens, which the per-token figures do not charge for data generation or search. They warn that shared blind spots could let flawed results reinforce themselves. No independent group has reproduced the results, and everything above is Sakana's own account."
+   ],
+   "entities": [
+    "Sakana AI",
+    "UC Berkeley",
+    "Qwen"
+   ],
+   "sources": [
+    {
+     "author": "Sakana AI",
+     "url": "https://pub.sakana.ai/mass/"
+    },
+    {
+     "author": "Sakana AI (X)",
+     "url": "https://x.com/SakanaAILabs/status/2109385006603006435"
+    },
+    {
+     "author": "arXiv",
+     "url": "https://arxiv.org/abs/2610.12176"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/SakanaAILabs/status/2109385006603006435",
+     "after": 1
+    }
+   ],
+   "single_source": true,
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-coinbase-qwen-fraud",
+   "section": "ai",
+   "headline": "Coinbase's Armstrong says a fine-tuned 9B open model beat frontier models at fraud checks",
+   "standfirst": "Coinbase's Brian Armstrong says a Qwen3.5-9B fine-tuned on internal data beat frontier models at payments fraud checks, faster and cheaper. No figures were published.",
+   "body": [
+    "Brian Armstrong, Coinbase's chief executive, posted on X on Sunday that the company fine-tuned an open-weights model, Qwen3.5-9B, on proprietary internal data. He said it \"out performed frontier models, at much lower cost and speed\" on one specialised task, fraud prevention. The post had more than 3,000 likes when we read it.",
+    "The post gives no benchmark, no error rates and no names for the frontier models it was compared against. Coinbase has not published a technical write-up that we could find, so the claim rests on Armstrong's account alone. The post carries two images, which we could not examine in detail, and no one outside Coinbase has tested the model.",
+    "Armstrong frames it as a pattern he expects to spread. \"The frontier models are amazing generalists,\" he wrote, but specialist models will increasingly beat them on narrow tasks. He also suggested some backend services at Coinbase could be replaced entirely by this architecture, without saying which ones.",
+    "The company is building the tooling to make that routine, he said. Coinbase has an internal skill in its employee agent harness that takes a request such as \"/fine-tune-and-serve-llm I want to fine-tune Qwen for payments risk review\" and starts the training. Armstrong did not say how many teams use it or what it costs to run."
+   ],
+   "entities": [
+    "Coinbase",
+    "Qwen",
+    "Brian Armstrong"
+   ],
+   "sources": [
+    {
+     "author": "Brian Armstrong (X)",
+     "url": "https://x.com/brian_armstrong/status/2109412046244913643"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/brian_armstrong/status/2109412046244913643",
+     "after": 1
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-karpathy-llm-funnel",
+   "section": "ai",
+   "headline": "Karpathy puts people who have watched frontier agents work at about 20 million",
+   "standfirst": "Andrej Karpathy's napkin maths: 6 billion people have barely touched an LLM, 20 million have watched agents finish months of coding from a prompt, and about 5,000 have frontier systems internally.",
+   "body": [
+    "Andrej Karpathy reposted an April thought on X on Sunday, saying the gap in shared understanding of what language models can do is \"widening\" and is now \"a sharp funnel\". By the time we read it the post had about 22,500 likes and more than two million views, and the Hacker News front page carried it with 253 points.",
+    "His napkin maths has four tiers. Around 6 billion people, about 75 percent of the population, have barely met an LLM. Another 1 to 2 billion are casual users of free-tier chatbots and see, in his words, \"derpy chatbots\". He gives these as estimates, not measurements, and says some professionals outside maths and code sit in this tier too. He presents all of this as his own estimate.",
+    "Then come roughly 20 million people, 0.2 percent, who use frontier models for maths and code and see \"first-hand\" that projects that took weeks or months can be completed by agents from a prompt. Karpathy lists building, copying and translating apps. He says that less than a year ago he was still typing code by hand.",
+    "At the top, he says, are about 5,000 people with internal access to frontier systems. Karpathy describes the external preview as swarms of thousands of agents working for weeks on software projects, finding zero-day flaws and advancing mathematics, while human review falls behind. These are his characterisations, and he gives no sources for the head counts.",
+    "He offers three drivers: impact scales with the size of the problem, capability peaks where tasks are digital and verifiable, because of reinforcement learning on verifiable rewards, and access varies across free, paid and internal tiers. The result, he writes, is the \"weirdness of the moment\", with a small group feeling \"the vertigo of the curve going vertical\"."
+   ],
+   "entities": [
+    "Andrej Karpathy"
+   ],
+   "sources": [
+    {
+     "author": "Andrej Karpathy (X)",
+     "url": "https://x.com/karpathy/status/2109361546505966046"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "after": 1
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-fineenvs-openai-math",
+   "section": "research",
+   "headline": "Hugging Face's Delangue says OpenAI's maths proofs are now open training environments",
+   "standfirst": "A community dataset turns 369 Lean 4 results OpenAI published this month into tasks where an agent writes the proof. Clément Delangue calls it rough: an equivalent proof can still score zero.",
+   "body": [
+    "Clément Delangue, Hugging Face's chief executive, posted on Sunday that his team had turned OpenAI's maths problems into open-source reinforcement-learning environments on the platform. He called the work \"early and rough\" and said it shows research releases becoming \"executable training infrastructure for everyone\". The post had about 940 likes when we read it.",
+    "The dataset, FineEnvs/openai-math, holds 369 Lean 4 theorem-proving tasks for the Harbor framework, according to its page. They are ported from OpenAI's openai/math release, which formalises 405 results; the dataset keeps the 369 whose official proofs were verified end to end. It is licensed Apache-2.0, with the statements credited to OpenAI.",
+    "In each task an agent gets a sandbox with Lean 4 and Mathlib, no internet access and a theorem whose proof is replaced by `sorry`. A separate sandbox then checks the answer. The page says it scores 1 only if the statement matches the original exactly, uses only standard axioms and passes the Lean kernel, and 0 otherwise.",
+    "That strictness is the caveat Delangue flagged: an equivalent reformulation, or partial progress, also scores zero. The page adds that the problems are open research questions so near-zero rewards are expected, and that the statements and proofs have been public since 6 October, which makes contamination possible. Thirty-six statements were excluded after failing validation.",
+    "Running it is not light. Each task asks for 4 CPUs, 8 GB of memory and 10 GB of disk and gives the agent four hours, according to the page, and the sandbox image takes about an hour to build. The authors call it experimental. We found no training results reported from it yet."
+   ],
+   "entities": [
+    "Hugging Face",
+    "OpenAI",
+    "Clément Delangue"
+   ],
+   "sources": [
+    {
+     "author": "FineEnvs (Hugging Face)",
+     "url": "https://huggingface.co/datasets/FineEnvs/openai-math"
+    },
+    {
+     "author": "Clément Delangue (X)",
+     "url": "https://x.com/ClementDelangue/status/2109290775322243143"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ClementDelangue/status/2109290775322243143",
+     "after": 1
+    }
+   ],
+   "single_source": true,
+   "placement": "front"
+  },
+  {
+   "cluster_id": "cc34bd1e4",
+   "section": "products",
+   "headline": "Apple tested an Apple TV with built-in Siri microphones, Bloomberg's Gurman reports",
+   "standfirst": "Bloomberg's Mark Gurman reports Apple tested an Apple TV 4K that hears Siri directly, and a remote with a speaker, ahead of an event expected on Tuesday.",
+   "body": [
+    "Apple has tested built-in microphones and a refreshed Siri Remote for an upgraded Apple TV 4K, Bloomberg's Mark Gurman reported in his Power On newsletter on Sunday, as summarised by 9to5Mac. Apple has not announced either feature, and Gurman describes them as tested, not confirmed products.",
+    "The microphones would let people \"shout Siri commands at the set-top box\", in Gurman's words, instead of using the remote or a paired HomePod, as today. The refreshed remote would add a speaker, which Gurman says would make it \"easier to find between couch cushions\". Today's remote has only a basic Find feature.",
+    "9to5Mac says Apple's \"Welcome home\" event is set for Tuesday 13 October, where it expects the new Apple TV 4K. Gurman expects the Apple TV and a new HomePod mini to be available from 30 October, according to the same summary, with the HomeView smart display following in mid-November.",
+    "TechCrunch, also relying on Gurman, describes HomeView as a Siri-powered device with a display and an A18 chip that controls other smart-home gear, reportedly in countertop and wall-mounted versions. It says earlier reporting pointed to an LG partnership for a smart lock, thermostat and doorbell. No prices have been reported.",
+    "Both outlets draw on one Bloomberg source, so this is a single line of reporting, not two independent confirmations. The Siri features here are about voice input, and neither report describes any new AI model behind them. Apple has announced nothing, and none of it is official until the event."
+   ],
+   "entities": [
+    "Apple",
+    "Siri",
+    "Mark Gurman"
+   ],
+   "sources": [
+    {
+     "author": "9to5Mac",
+     "url": "https://9to5mac.com/2026/10/11/apple-testing-two-new-features-for-upgraded-apple-tv-4k-per-report/"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
