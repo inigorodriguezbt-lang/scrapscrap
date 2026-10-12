@@ -157,6 +157,76 @@
    },
    "published_at": "2026-10-12T01:20:23+00:00",
    "id": "reuters-reports-actor-andrew-garfield-says"
+  },
+  {
+   "text": "Samsung is developing Z-NAND-O for on-device AI, plus Z-NAND-T (high-bandwidth flash) and Z-NAND-I, a high-IOPS NAND intended for Nvidia, according to Korean media reports relayed by analyst Jukan.",
+   "why": "Flash that sits closer to the processor is one route to holding larger models in memory, if the reports prove accurate.",
+   "source": {
+    "name": "Jukan on X",
+    "url": "https://x.com/jukan05/status/2109494304259641402"
+   },
+   "published_at": "2026-10-12T03:00:09+00:00",
+   "id": "samsung-is-developing-z-nand-o"
+  },
+  {
+   "text": "Former DeepMind scientist David Silver told the Financial Times his startup Ineffable is building an AI \"super learner\" with reinforcement learning as an alternative path to large language models.",
+   "why": "Silver led DeepMind's reinforcement-learning work, so a lab built around that approach is a notable bet against pure LLM scaling.",
+   "source": {
+    "name": "Financial Times",
+    "url": "https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828"
+   },
+   "published_at": "2026-10-12T05:25:00+00:00",
+   "id": "former-deepmind-scientist-david-silver-told"
+  },
+  {
+   "text": "Theo says he added a proper \"/goal\" flow and a visual callout to the nightly build of T3 Code, his coding-agent tool.",
+   "why": "It is a small feature, but it shows how quickly independent coding-agent tools are copying each other's workflow ideas.",
+   "source": {
+    "name": "Theo on X",
+    "url": "https://x.com/theo/status/2109496367127425320"
+   },
+   "published_at": "2026-10-12T04:08:21+00:00",
+   "id": "theo-says-he-added-a-proper"
+  },
+  {
+   "text": "ProgramGym, a paper trending on Hugging Face with 30 upvotes, proposes scalable, verifiable training environments in which coding agents must work out what a program needs and design it from scratch.",
+   "why": "Most coding-agent training fixes bugs in existing repositories, so environments that test building from nothing fill a gap the authors describe.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.13395"
+   },
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "programgym-a-paper-trending-on-hugging"
+  },
+  {
+   "text": "Qwen's VisionWeave paper, with 25 upvotes on Hugging Face, proposes letting multimodal models encode images at variable detail instead of dense fixed-size patch tokens, to cut visual-encoding cost.",
+   "why": "Image tokens are a major cost in multimodal models, and the authors argue detail is unevenly needed across an image.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.07987"
+   },
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "qwen-s-visionweave-paper-with-25"
+  },
+  {
+   "text": "SoloQ, from the University of Southern California, is a calibration-free quantization method for diffusion language models, according to its paper, which has 21 upvotes on Hugging Face.",
+   "why": "Diffusion language models are an alternative to autoregressive ones, and compression methods like this decide whether they become cheap to deploy.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.07121"
+   },
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "soloq-from-the-university-of-southern"
+  },
+  {
+   "text": "A Hugging Face paper with 23 upvotes targets stereo audio for joint video-audio generation, so that perceived sound location follows the motion of the visual source.",
+   "why": "Stereo sound is needed for AR, VR and games, and the authors say current video-audio generators largely overlook it.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2609.38748"
+   },
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "a-hugging-face-paper-with-23"
   }
  ]
 }
