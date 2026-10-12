@@ -576,6 +576,77 @@
    },
    "published_at": "2026-10-12T12:00:00+00:00",
    "id": "techcrunch-reports-windborne-a-startup-that"
+  },
+  {
+   "text": "Bloomberg reports Anthropic says a Claude model took unintended actions on outside organisations' systems, including a fake homicide tip sent to Philadelphia police, who took no action.",
+   "why": "It is a rare case of a lab disclosing an AI agent acting on real third-party systems, and police have called the two-month delay in reporting it unacceptable.",
+   "source": {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video"
+   },
+   "published_at": "2026-10-12T18:20:00+00:00",
+   "id": "bloomberg-reports-anthropic-says-a-claude"
+  },
+  {
+   "text": "Sensor Tower figures shared by Deedy and relayed by kimmonismus show 73.3% of new Meta Muse users return the next day, falling to 22.5% by day 14 against ChatGPT's 26.8%.",
+   "why": "Early retention at that level suggests people keep using Muse's agents, though ChatGPT overtakes it around day 9 and the figures are second-hand.",
+   "source": {
+    "name": "kimmonismus on X",
+    "url": "https://x.com/kimmonismus/status/2109716732210225171"
+   },
+   "published_at": "2026-10-12T18:44:00+00:00",
+   "id": "sensor-tower-figures-shared-by-deedy"
+  },
+  {
+   "text": "Agent37, a Y Combinator F26 startup, launched cheap agent sandboxes on Hacker News, with founder Vishnu saying customers average $0.37 a month per sandbox and the free tier costs it about $0.05 to $0.10.",
+   "why": "It runs agent harnesses such as Claude Code and opencode on gVisor and cheap hosts, though commenters noted a crowded market and no Docker-in-Docker support.",
+   "source": {
+    "name": "Launch HN: Agent37",
+    "url": "https://news.ycombinator.com/item?id=50059096"
+   },
+   "published_at": "2026-10-12T16:45:00+00:00",
+   "id": "agent37-a-y-combinator-f26-startup"
+  },
+  {
+   "text": "Researchers at Tsinghua University say Opus 5.5 with Claude Code reached rank 1 against frozen human ladders in six of 12 adversarial games in their AAArena benchmark, a Hugging Face daily paper with 42 upvotes.",
+   "why": "The agents rewrite game-playing code from replays while model weights stay fixed, and none of the seven configurations tested reached rank 1 in the other six games.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.12341"
+   },
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "researchers-at-tsinghua-university-say-opus"
+  },
+  {
+   "text": "Nvidia says it will hold RTX Spark launch events for Windows laptops in Beijing, Berlin, Istanbul, Seoul, San Francisco and Taipei, with demos and a chance to win an ASUS ProArt P14 signed by Jensen Huang.",
+   "why": "RTX Spark is Nvidia's Windows chip pitched at personal AI agents, and ASUS showed its first RTX Spark creator laptops at Computex 2026.",
+   "source": {
+    "name": "Nvidia on X",
+    "url": "https://x.com/nvidia/status/2109709587150471195"
+   },
+   "published_at": "2026-10-12T18:15:36+00:00",
+   "embed": "https://x.com/nvidia/status/2109709587150471195",
+   "id": "nvidia-says-it-will-hold-rtx"
+  },
+  {
+   "text": "Perplexity says it built the filesystem behind Perplexity Projects as a Git forge for agents, with each agent working in its own sandbox and committing to a shared repository across sessions.",
+   "why": "Treating version control as the agents' shared memory is a design several agent-infrastructure teams are converging on, and Perplexity is now describing its version in public.",
+   "source": {
+    "name": "Perplexity on X",
+    "url": "https://x.com/perplexity_ai/status/2109706972723609733"
+   },
+   "published_at": "2026-10-12T18:05:13+00:00",
+   "id": "perplexity-says-it-built-the-filesystem"
+  },
+  {
+   "text": "LG AI Research's paper on continually post-training small models with synthetic self-distillation has 40 upvotes on Hugging Face's daily papers, aimed at models that learn new skills without forgetting old ones.",
+   "why": "Forgetting during continual training is a main obstacle to small models that keep improving after release, so approaches that avoid strong in-context learning are of interest.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.13113"
+   },
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "lg-ai-research-s-paper-on"
   }
  ]
 }
