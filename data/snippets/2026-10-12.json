@@ -227,6 +227,50 @@
    },
    "published_at": "2026-10-12T00:00:00+00:00",
    "id": "a-hugging-face-paper-with-23"
+  },
+  {
+   "text": "OpenAI's GPT-6.1 Sol now defaults to a 500K-token context window in Codex and ChatGPT Work, up from 272K, at no extra charge, according to developer-relations posts on X.",
+   "why": "Fewer compactions on long agent runs means less mid-task context loss, which is the main complaint about long Codex sessions.",
+   "source": {
+    "name": "Vaibhav Srivastav on X",
+    "url": "https://x.com/reach_vb/status/2109543080609165508"
+   },
+   "tag": "products",
+   "published_at": "2026-10-12T07:13:58+00:00",
+   "id": "openai-s-gpt-6-1-sol"
+  },
+  {
+   "text": "Atticus, a Show HN project, is an MIT-licensed hold-to-talk voice assistant for macOS 26 that routes requests through Claude Code on a Pro or Max plan; it had 23 GitHub stars.",
+   "why": "It needs no API key and handles simple commands locally, with the README estimating about 0.14 cents of plan usage per request.",
+   "source": {
+    "name": "Atticus on GitHub",
+    "url": "https://github.com/SaarthurR/atticus-mac"
+   },
+   "tag": "products",
+   "published_at": "2026-10-12T00:30:00+00:00",
+   "id": "atticus-a-show-hn-project-is"
+  },
+  {
+   "text": "EmbodiedCLBench, from Peking University, tests whether embodied agents learn from experience: 268 household tasks where zero-shot agents solve about 50 percent of basic and 10 percent of advanced ones.",
+   "why": "The authors say one learning sample lifts advanced success to 28-40 percent but more samples add little, so agents still use experience poorly.",
+   "source": {
+    "name": "EmbodiedCLBench on Hugging Face",
+    "url": "https://huggingface.co/papers/2610.13021"
+   },
+   "tag": "research",
+   "published_at": "2026-10-12T00:00:00+00:00",
+   "id": "embodiedclbench-from-peking-university-tests-whether"
+  },
+  {
+   "text": "AWS and HSBC researchers say their Double Ratchet method evolves an agent's grader from 10 labeled examples and kept 88 to 110 percent of the gain that ground-truth graders gave, per Rohan Paul's summary.",
+   "why": "Self-improving agent loops usually need a human-written grader, so removing that step could make them cheaper to set up.",
+   "source": {
+    "name": "Rohan Paul on X",
+    "url": "https://x.com/rohanpaul_ai/status/2109527405715161230"
+   },
+   "tag": "research",
+   "published_at": "2026-10-12T05:51:41+00:00",
+   "id": "aws-and-hsbc-researchers-say-their"
   }
  ]
 }
