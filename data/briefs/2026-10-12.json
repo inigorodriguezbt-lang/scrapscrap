@@ -1,52 +1,54 @@
 {
-  "generated_at": "2026-10-12T08:04:06.214172+00:00",
+  "generated_at": "2026-10-12T10:03:16.833089+00:00",
   "edition_date": "2026-10-12",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 44,
-  "clusters_found": 36,
+  "posts_considered": 47,
+  "clusters_found": 37,
   "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c5fb2e483",
-      "score": 9.031,
-      "interest": "neutral",
+      "cluster_id": "c27a9239a",
+      "score": 10.529,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
+      "suggested_section": "products",
+      "entities": [
+        "Microsoft"
+      ],
       "independent_sources": [
-        "kimmonismus",
-        "reach_vb"
+        "Tom's Hardware",
+        "kimmonismus"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-12T06:58:34+00:00",
-      "last_seen": "2026-10-12T07:13:58+00:00",
+      "first_seen": "2026-10-11T10:50:00+00:00",
+      "last_seen": "2026-10-12T09:45:02+00:00",
       "links": [
-        "https://x.com/kimmonismus/status/2109539203487060168",
-        "https://x.com/reach_vb/status/2109543080609165508"
+        "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+        "https://x.com/kimmonismus/status/2109581099903172754"
       ],
       "posts": [
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Huge update for Codex and GPT-6.1 Sol: the context window has increased from 272K to 500K tokens.\n\nCompaction works pretty well in my experience, but it takes a long time and interrupts the workflow.\n\nSo I really like this change! Much better than another reset. https://t.co/R01lwexLY1",
-          "url": "https://x.com/kimmonismus/status/2109539203487060168",
-          "created_at": "2026-10-12T06:58:34+00:00",
-          "engagement": 140
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications. ArtCraft is expanding its roster of open-source creative tools as cross-platform alternatives to predatory subscription models.",
+          "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+          "created_at": "2026-10-11T10:50:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "reach_vb",
+          "author": "kimmonismus",
           "tier": "commentary",
-          "text": "PSA: starting today GPT 6.1 Sol has a default context window of 500k (from earlier 272k)\n\nThis should mean fewer (2-3x) compactions on long running tasks and faster E2E task completion!\n\nAll at no extra charge across Codex & ChatGPT Work - Enjoy!!",
-          "url": "https://x.com/reach_vb/status/2109543080609165508",
-          "created_at": "2026-10-12T07:13:58+00:00",
-          "engagement": 136
+          "text": "Remember the team building free, open-source alternatives to Adobe apps like Photoshop? Well, they’re taking on Microsoft Word too. WordCraft rebuilds the familiar Word workflow in Rust. Free, open source, and already available on GitHub, though still in alpha.",
+          "url": "https://x.com/kimmonismus/status/2109581099903172754",
+          "created_at": "2026-10-12T09:45:02+00:00",
+          "engagement": 44
         }
       ]
     },
     {
       "cluster_id": "cc34bd1e4",
-      "score": 6.821,
+      "score": 6.49,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
