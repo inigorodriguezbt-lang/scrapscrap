@@ -42,6 +42,71 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-microsoft-maia-300",
+   "section": "chips",
+   "headline": "Microsoft says Maia 300 chip will carry most of its own AI inference",
+   "standfirst": "Satya Nadella says Microsoft will scale its Maia chips to multi-gigawatt deployments next year, and claims Maia 300 delivers 40 percent more tokens per watt than leading GPU-based systems.",
+   "body": [
+    "Microsoft chief executive Satya Nadella announced on X on Monday what he called the company's biggest bet yet on its own silicon. Starting next calendar year, he wrote, Microsoft will scale its Maia family of AI chips to multi-gigawatt deployments, making Maia the primary inference system for the company's own products and services.",
+    "Nadella introduced a new chip, Maia 300, and said it delivers 40 percent more tokens per watt than leading GPU-based systems. Microsoft has not published the benchmark behind that comparison in the post, and it does not say which GPU system it measured against. The figure is the company's own claim and has not been checked independently.",
+    "The post also described the current generation. Nadella said Microsoft is already deploying Maia 200 across the US, Europe and Australia, and that it delivers up to 1.7 times more tokens per watt across experiences in Teams and Copilot, again by Microsoft's own measure.",
+    "Earlier press reports, citing The Information, said Microsoft was negotiating with TSMC for more than 300,000 Maia 300 units for 2027 delivery. A Microsoft Azure Maia manager was also quoted by Techzine as saying the chip was expected sometime in 2027. The announcement leaves unclear when Maia 300 reaches customers, and it gives no price or external customer list."
+   ],
+   "entities": [
+    "Microsoft",
+    "Satya Nadella",
+    "Maia 300",
+    "TSMC"
+   ],
+   "sources": [
+    {
+     "author": "Satya Nadella on X",
+     "url": "https://x.com/satyanadella/status/2109631106404487523"
+    },
+    {
+     "author": "Techzine",
+     "url": "https://www.techzine.eu/news/infrastructure/143518/microsoft-aims-to-produce-hundreds-of-thousands-of-maia-300-ai-chips/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-claude-opus-55-routing",
+   "section": "models",
+   "headline": "Users say Claude Opus 5.5 is being routed to a stronger unnamed model",
+   "standfirst": "TestingCatalog reports that X users saw Opus 5.5 requests land on a new, unnamed checkpoint over the weekend, with one demo reportedly using 27 million tokens to animate a scene in JavaScript.",
+   "body": [
+    "Several X users reported over the weekend that requests to Claude Opus 5.5 appeared to be routed to a different, unannounced model, TestingCatalog reported on Monday. Users described outputs well above Opus 5.5's usual level. Anthropic has not confirmed any routing change, a new model or a name.",
+    "TestingCatalog cited a user called can, who said a one-sentence prompt with a Blender MCP connection produced a 3D model over about two hours without ready-made assets. Another user, Chetaslua, shared an animation drawn frame by frame in JavaScript from two prompts. The outlet reports it took about two hours and roughly 27 million tokens at maximum thinking effort.",
+    "Not every report was glowing. TestingCatalog said a user named Lumina found the difference from Opus 5.5 small, though the output looked slightly better. Kol Tregaskes suggested asking the model whether it knows VoxelBench without searching, but the outlet notes a yes would more likely show fresher training data than a smarter model.",
+    "On the name, TestingCatalog says speculation includes Opus 5.6 and Fable 5.5. It considers a new Opus test at least as likely as Fable, because traffic is being routed to Opus 5.5. The only official signal it cites is a post from Anthropic's John Hoffmann, who wrote that the best is yet to come and asked people to stay tuned.",
+    "Commentator kimmonismus separately wrote that a video of Anthropic's upcoming model showed it choosing images, music and visual direction and then coding the rest of the production in 2.5 hours, citing Chetaslua. The images and music were existing assets. All of this rests on user posts, and no benchmark or Anthropic statement has backed it."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Opus 5.5",
+    "TestingCatalog"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5/"
+    },
+    {
+     "author": "kimmonismus on X",
+     "url": "https://x.com/kimmonismus/status/2109623174413340866"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2109633920568377583",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-alphaproof-nexus-science",
    "section": "research",
    "headline": "DeepMind's AlphaProof Nexus reaches Science with nine Erdős problems solved",
@@ -217,7 +282,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-amazon-decart-talks",
@@ -247,7 +312,7 @@
      "url": "https://x.com/himanshustwts/status/2109385800966402325"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-us-restores-uk-aisi-access",
