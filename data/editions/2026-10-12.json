@@ -53,6 +53,65 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-anthropic-self-replicating-ai",
+   "section": "research",
+   "headline": "Anthropic says small models may soon copy themselves across cheap TV boxes",
+   "standfirst": "Anthropic's Frontier Red Team says GLM-5.2 spread across eight emulated Android nodes in 4 of 5 trials, and projects small models reaching that level by the end of 2026.",
+   "body": [
+    "Anthropic's Frontier Red Team published research on Monday arguing that small AI models could soon copy themselves across cheap, poorly secured devices instead of datacenter GPUs. Authors William Zhou and Daniel Freeman describe a \"weight-based replicator\" that carries its weights, runs inference on hijacked hardware and moves on. They write that Anthropic does not \"yet have a full rogue replicator\".",
+    "The main demonstration, Anthropic says, ran the 26-billion-parameter Gemma4-26B-A4B split across 15 off-brand Android TV boxes costing about $55 each, with 4GB of memory apiece. It generated roughly 0.3 to 0.4 tokens per second. Smart ovens and fridges appear in the post only as plausible hosts for model shards, and the authors did not test them.",
+    "In the end-to-end test, a firewalled cloud network of eight emulated Android 15 nodes with open debugging ports, GLM-5.2 was the only open-weight model to finish. It reached all eight nodes in four of five trials and seven in the fifth, the authors say. They call the open ports a simplification that makes the result an upper bound.",
+    "The authors fit a trend of 13.7 capability-index points a year across open models of 30 billion parameters or fewer, and write that small models would \"match this capability level by the end of this year\" if it holds. They call the index a rough proxy. Across six generations of Qwen3.5-9B passing notes forward, setup success rose from about 45% to between 61% and 84%.",
+    "Spread would be slow, Anthropic estimates: 28 to 51 hours per Qwen3.5-9B device for full inference setup, so a botnet the size of Kimwolf, over two million devices at its peak, might yield about 133,000 replicas. The post proposes network monitoring and ISP quarantine as defences. These are Anthropic's own experiments and estimates, and no outside group has reproduced them."
+   ],
+   "entities": [
+    "Anthropic",
+    "GLM-5.2",
+    "Gemma",
+    "Qwen"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/research/self-replicating-ai"
+    },
+    {
+     "author": "Andrew Curran",
+     "url": "https://x.com/AndrewCurran_/status/2109738666277150767"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-epic-ai-first-disney-game",
+   "section": "business",
+   "headline": "Epic tells Disney game developers to stop writing code by hand",
+   "standfirst": "Bloomberg reports Epic told developers on its Disney shooter that \"no more hand-written code\" will be written and art will come from \"full AI workflows\", with the game slipping to March.",
+   "body": [
+    "Epic Games has told developers on its Disney project to build it \"AI first\", Bloomberg reported on Monday, as summarised by Engadget and The AV Club. A director's message, according to the report, said there would be \"No more hand-written code\", and the game would be \"generated with full AI workflows\". Employees were reportedly stunned, and some had hoped it was not serious.",
+    "The game features Marvel and Star Wars characters and was reported earlier to be an extraction shooter in the vein of Arc Raiders, according to Engadget. Bloomberg says it was due in November and is now delayed to March. Engadget notes that the March date was reported before the AI directive, so the AI change is not the only reported cause of the delay.",
+    "Per the AV Club's summary of Bloomberg, Epic underestimated how many people the game would need. An Epic spokesperson confirmed the direction to Bloomberg. \"We're embracing AI-accelerated development,\" communications director Jake Jones said, according to Engadget, adding that the work would be led by Epic developers, the \"visionaries and creative drivers\" behind its games.",
+    "Disney did not comment in the Bloomberg report, which the AV Club says does not include a response from Tim Sweeney. Disney invested $1.5 billion in Epic in 2024 to build a games and entertainment universe, Engadget notes. The AV Club adds that Epic laid off 1,000 people in March after a reported downturn in Fortnite engagement.",
+    "Engadget points to a wider split among developers: in GDC's annual survey, 52% said generative AI is bad for the industry, up from 30% in 2025, and most who use it rely on it for research and programming rather than assets. Both outlets are relaying Bloomberg's account, so this rests on one original report plus Epic's confirmation."
+   ],
+   "entities": [
+    "Epic Games",
+    "Disney",
+    "Bloomberg"
+   ],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/"
+    },
+    {
+     "author": "The AV Club",
+     "url": "https://www.avclub.com/epic-games-disney-ai-delay"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-muse-wonder-3d-demo-backlash",
    "section": "models",
    "headline": "Meta's Wang admits Muse Wonder was not trained on 3D demo games",
@@ -255,7 +314,7 @@
      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cc0766bf6",
@@ -302,7 +361,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-microsoft-maia-300",

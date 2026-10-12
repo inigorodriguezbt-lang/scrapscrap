@@ -1,53 +1,64 @@
 {
-  "generated_at": "2026-10-12T20:05:07.986138+00:00",
+  "generated_at": "2026-10-12T22:04:50.324024+00:00",
   "edition_date": "2026-10-12",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 87,
-  "clusters_found": 71,
-  "stories_declared": 6,
+  "posts_considered": 83,
+  "clusters_found": 68,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c2911e8d1",
-      "score": 12.511,
+      "cluster_id": "c3676ff7a",
+      "score": 11.959,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
-      "entities": [],
-      "independent_sources": [
-        "TechCrunch AI",
-        "nvidia"
+      "suggested_section": "ai",
+      "entities": [
+        "Meta"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T14:00:00+00:00",
-      "last_seen": "2026-10-12T18:15:36+00:00",
+      "independent_sources": [
+        "The Decoder",
+        "The Verge AI",
+        "alexandr_wang"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-12T17:00:00+00:00",
+      "last_seen": "2026-10-12T21:51:06+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-        "https://x.com/nvidia/status/2109709587150471195"
+        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+        "https://x.com/alexandr_wang/status/2109763816871596359"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings. Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second.",
-          "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
-          "created_at": "2026-10-12T14:00:00+00:00",
+          "text": "Meta has some Wonder Full new AI models. Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "created_at": "2026-10-12T17:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "nvidia",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
+          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+          "created_at": "2026-10-12T18:48:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "alexandr_wang",
           "tier": "commentary",
-          "text": "A new beginning for @Windows PCs deserves a global celebration.\n\nJoin us at one of our @NVIDIARTXSpark launch events. Try out demos on the new laptops, pick up some swag, and enter for a chance to win an @ASUS ProArt P14 RTX Spark laptop signed by Jensen. Plus, more exclusive experiences to discover at each stop.\n\nHere's where we'll be:\n• Beijing\n• Berlin\n• Istanbul\n• Seoul\n• San Francisco\n• Taipei\n\n📍Event details and how to join us coming soon.",
-          "url": "https://x.com/nvidia/status/2109709587150471195",
-          "created_at": "2026-10-12T18:15:36+00:00",
-          "engagement": 1077,
-          "video": true
+          "text": "use muse wonder full to make some chips!",
+          "url": "https://x.com/alexandr_wang/status/2109763816871596359",
+          "created_at": "2026-10-12T21:51:06+00:00",
+          "engagement": 44
         }
       ]
     },
     {
       "cluster_id": "c5c51d638",
-      "score": 11.199,
+      "score": 10.866,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -96,8 +107,77 @@
       ]
     },
     {
+      "cluster_id": "c2998f229",
+      "score": 9.895,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-12T09:35:54+00:00",
+      "last_seen": "2026-10-12T20:55:48+00:00",
+      "links": [
+        "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+        "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+        "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+        "https://www.bloomberg.com/news/videos/2026-10-12/following-the-money-across-ai-s-infrastructure-boom-video",
+        "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed. Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its results reviewed before publishing. The article Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+          "created_at": "2026-10-12T09:35:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do. Andrej Karpathy, co-founder of OpenAI and now at Anthropic, sees a widening knowledge gap in AI. About 75 percent of the world's population has barely touched LLMs. Roughly 5,000 people, meanwhile, have access to internal frontier systems whose agent swarms do work that would take top experts years. The public, at best, sees a weird chatbot. The article Anthropic&#039;s Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+          "created_at": "2026-10-12T12:51:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "White House reverses course and restores UK AI Safety Institute's access to frontier models. The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models appeared first on The Decoder .",
+          "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+          "created_at": "2026-10-12T13:14:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "How the OpenAI, Anthropic IPOs Could Lift the Veil on AI Economics. VistaShares portfolio manager and DVX Ventures principal David Fetherstonhaugh says investors are increasingly looking for proof that massive AI spending is generating returns. He discusses why private companies like OpenAI and Anthropic leave a key part of the AI economy opaque and how their eventual IPOs could bring greater transparency to the ecosystem. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/following-the-money-across-ai-s-infrastructure-boom-video",
+          "created_at": "2026-10-12T18:36:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta Releases New AI Model Called Muse Wonder. Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude. Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
+          "created_at": "2026-10-12T20:55:48+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c6e1bb56c",
-      "score": 9.864,
+      "score": 9.531,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -156,138 +236,38 @@
       ]
     },
     {
-      "cluster_id": "c53675679",
-      "score": 8.791,
+      "cluster_id": "cfb48b3c6",
+      "score": 8.939,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T09:35:54+00:00",
-      "last_seen": "2026-10-12T18:36:34+00:00",
-      "links": [
-        "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
-        "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-        "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-        "https://www.bloomberg.com/news/videos/2026-10-12/following-the-money-across-ai-s-infrastructure-boom-video"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed. Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its results reviewed before publishing. The article Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-          "created_at": "2026-10-12T09:35:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do. Andrej Karpathy, co-founder of OpenAI and now at Anthropic, sees a widening knowledge gap in AI. About 75 percent of the world's population has barely touched LLMs. Roughly 5,000 people, meanwhile, have access to internal frontier systems whose agent swarms do work that would take top experts years. The public, at best, sees a weird chatbot. The article Anthropic&#039;s Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
-          "created_at": "2026-10-12T12:51:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "White House reverses course and restores UK AI Safety Institute's access to frontier models. The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models appeared first on The Decoder .",
-          "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-          "created_at": "2026-10-12T13:14:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "How the OpenAI, Anthropic IPOs Could Lift the Veil on AI Economics. VistaShares portfolio manager and DVX Ventures principal David Fetherstonhaugh says investors are increasingly looking for proof that massive AI spending is generating returns. He discusses why private companies like OpenAI and Anthropic leave a key part of the AI economy opaque and how their eventual IPOs could bring greater transparency to the ecosystem. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/following-the-money-across-ai-s-infrastructure-boom-video",
-          "created_at": "2026-10-12T18:36:34+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c8202469c",
-      "score": 8.742,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T17:00:00+00:00",
-      "last_seen": "2026-10-12T18:48:29+00:00",
-      "links": [
-        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta has some Wonder Full new AI models. Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-          "created_at": "2026-10-12T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
-          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-          "created_at": "2026-10-12T18:48:29+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c38ac6d50",
-      "score": 6.497,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
+      "entities": [],
       "independent_sources": [
         "Ars Technica AI",
-        "Bloomberg Tech"
+        "Wired AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-12T15:32:32+00:00",
-      "last_seen": "2026-10-12T18:21:36+00:00",
+      "first_seen": "2026-10-12T17:55:12+00:00",
+      "last_seen": "2026-10-12T20:59:50+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-        "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video"
+        "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+        "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
+          "author": "Wired AI",
           "tier": "press",
-          "text": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip. Anthropic PBC said its Claude AI model went rogue and carried out unintended actions on the digital systems of outside organizations. In one example, the AI model gave police in Philadelphia a fake tip on a homicide case. The police took no action. Other unintended behaviors were also noted. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
-          "created_at": "2026-10-12T15:32:32+00:00",
+          "text": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him. Musk, we find your lack of security disturbing.",
+          "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+          "created_at": "2026-10-12T17:55:12+00:00",
           "engagement": 0
         },
         {
           "author": "Ars Technica AI",
           "tier": "press",
-          "text": "Anthropic's Claude AI submitted false murder tip to Philadelphia police. “I may have information regarding this case,\" Claude AI told Philly police.",
-          "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-          "created_at": "2026-10-12T18:21:36+00:00",
+          "text": "Epic Games reportedly pivoting to \"AI first\" game development model. \"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+          "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+          "created_at": "2026-10-12T20:59:50+00:00",
           "engagement": 0
         }
       ]
