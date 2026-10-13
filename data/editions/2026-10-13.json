@@ -51,6 +51,69 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-argon-robotics",
+   "section": "models",
+   "headline": "Google says Gemini 4 Argon taught a humanoid cornhole from video",
+   "standfirst": "Google DeepMind says Gemini 4 Argon watched a video, coded its own physics simulation and taught Apptronik's Apollo humanoid to sink seven cornhole throws in a row.",
+   "body": [
+    "Google DeepMind says its new Gemini 4 Argon model taught a robot to play cornhole by watching a video. In a post on X, the lab said the model mapped the physics of the throw, wrote its own simulation in code, and used it to train Apptronik's Apollo humanoid to land seven throws in a row. The demonstration has not been independently verified.",
+    "Google DeepMind's cornhole clip sits alongside a developers blog post, published on 13 October and credited to Kanishka Rao, that presents Argon as a general-purpose physical reasoning model. Google describes it as a step change in physical understanding and code generation. The cornhole demo is not in the post, which lists other robotics examples.",
+    "Among them, Google says Argon scores 87 percent on the ERQA embodied-reasoning benchmark, which the post says beats every other frontier model. In a test of learning from simulation, Google reports a real robot's success rate rose from 56 to 75 percent, and its task time fell from 35 to 24 seconds.",
+    "The post also describes Argon building simulation twins from robot camera feeds, human video or hand-drawn sketches, and driving a Boston Dynamics Spot in the MuJoCo simulator. In one self-improvement test on an SO-101 arm, Google says pick-and-place time fell from 58.9 seconds to 17.4 over three iterations.",
+    "Argon is available as gemini-4-argon in the paid Gemini API, and in Google AI Studio and Antigravity for AI Ultra subscribers, according to Google. Every figure here comes from Google's own posts. No outside lab has reported reproducing the robot results, and Google has not said how many attempts the cornhole run took."
+   ],
+   "entities": [
+    "Google DeepMind",
+    "Apptronik",
+    "Gemini 4 Argon"
+   ],
+   "sources": [
+    {
+     "author": "Google DeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2110078384617464201"
+    },
+    {
+     "author": "Google Developers Blog",
+     "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/GoogleDeepMind/status/2110078384617464201",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "c7db2a9c7",
+   "section": "products",
+   "headline": "Facebook lets users steer their feed in plain language with Your Algorithm",
+   "standfirst": "Meta is bringing its Your Algorithm tool from Instagram to Facebook Feed and Reels, letting people describe in their own words what they want to see more or less of.",
+   "body": [
+    "Meta announced on Tuesday that Your Algorithm, an AI-powered feature it first launched on Instagram, is coming to Facebook, TechCrunch reported. Users can influence what appears in Feed and Reels by describing their preferences in their own words, and Meta says recommendations respond right away after an update, according to The Verge.",
+    "The tool is reached from the three-dot menu on a post, or by tapping Interested or Not interested on content. The Verge reports users can add and manage topics they want to see. TechCrunch adds that Facebook may ask follow-up questions about what someone liked or disliked, and users can then explain what they want more or less of.",
+    "Instagram introduced Your Algorithm in June 2026 across Feed and Explore, after an earlier launch for Reels in December 2025, TechCrunch reports. Threads offers a similar tool called Dear Algo. The Verge reports Meta also says it is using large language models more in its ranking systems, which is the claim that makes the change more than a settings panel.",
+    "Neither report says which countries get the feature first, when it reaches everyone, or how many people use the Instagram version. Meta's description of how quickly recommendations change is the company's own claim, and neither outlet reports testing it. How much weight written preferences carry against engagement signals is also not stated."
+   ],
+   "entities": [
+    "Meta",
+    "Facebook"
+   ],
+   "sources": [
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-anthropic-scion-source-control",
    "section": "ai",
    "headline": "Anthropic replaces git with its own system as merges pass 30,000 a day",
@@ -231,7 +294,7 @@
      "url": "https://eg2.haku.sh/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-homepod-mini-2-siri-ai",
@@ -264,7 +327,7 @@
      "url": "https://www.engadget.com/2285033/apple-homepod-mini-2-launch-siri-ai-later/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "c53a6bb0a",

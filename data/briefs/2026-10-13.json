@@ -1,15 +1,132 @@
 {
-  "generated_at": "2026-10-13T18:03:34.454218+00:00",
+  "generated_at": "2026-10-13T20:03:37.431198+00:00",
   "edition_date": "2026-10-13",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 116,
-  "clusters_found": 85,
+  "posts_considered": 115,
+  "clusters_found": 84,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cd40a6c5d",
-      "score": 18.435,
+      "cluster_id": "cdf0bdbc1",
+      "score": 14.383,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Engadget",
+        "TechCrunch AI",
+        "The Verge AI",
+        "ssamat"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-13T17:00:00+00:00",
+      "last_seen": "2026-10-13T18:20:04+00:00",
+      "links": [
+        "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+        "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+        "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+        "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+        "https://x.com/ssamat/status/2110073098380644709"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google Play now lets anyone build private, vibe-coded apps that run on Android. Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+          "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+          "created_at": "2026-10-13T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google makes it easier to launch your vibe-coded apps. The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code [&#8230;]",
+          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+          "created_at": "2026-10-13T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google will let you distribute vibe-coded Android apps with just a Google account. The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
+          "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+          "created_at": "2026-10-13T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google wants to host your personal vibe-coded apps in the Play Store. Google plans to help turn those personal AI-generated apps into wide releases.",
+          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+          "created_at": "2026-10-13T17:00:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ssamat",
+          "tier": "commentary",
+          "text": "Google Play: wirelessly install and run your own vibe-coded apps privately on your device.",
+          "url": "https://x.com/ssamat/status/2110073098380644709",
+          "created_at": "2026-10-13T18:20:04+00:00",
+          "engagement": 366,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "cdd29cb98",
+      "score": 12.575,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [],
+      "independent_sources": [
+        "ArtificialAnlys",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T18:55:12+00:00",
+      "last_seen": "2026-10-13T19:20:54+00:00",
+      "links": [
+        "https://x.com/ArtificialAnlys/status/2110081938140582085",
+        "https://x.com/ArtificialAnlys/status/2110087600480702881",
+        "https://x.com/kimmonismus/status/2110088407150141736"
+      ],
+      "posts": [
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Fish Audio's Drama 3 Preview is the new #1 open-weights TTS model on Artificial Analysis leaderboard. Pronunciation Robustness 93.2%.",
+          "url": "https://x.com/ArtificialAnlys/status/2110081938140582085",
+          "created_at": "2026-10-13T18:55:12+00:00",
+          "engagement": 93,
+          "video": true
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Cache hit rates and Cost per Task by provider live on Artificial Analysis; GLM-5.3 (max) cost per task varies ~9x across providers.",
+          "url": "https://x.com/ArtificialAnlys/status/2110087600480702881",
+          "created_at": "2026-10-13T19:17:42+00:00",
+          "engagement": 133
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Fish Audio's Drama 3 lets you direct an AI voice like a voice actor. 83 languages, weights under Fish Audio Community License.",
+          "url": "https://x.com/kimmonismus/status/2110088407150141736",
+          "created_at": "2026-10-13T19:20:54+00:00",
+          "engagement": 61
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7dc01b86",
+      "score": 11.466,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -20,11 +137,9 @@
         "9to5Google",
         "Ars Technica AI",
         "DeepMind",
-        "Engadget",
-        "GoogleDeepMind",
-        "demishassabis"
+        "Engadget"
       ],
-      "source_count": 6,
+      "source_count": 4,
       "first_seen": "2026-10-13T16:00:00+00:00",
       "last_seen": "2026-10-13T16:15:00+00:00",
       "links": [
@@ -32,9 +147,7 @@
         "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
         "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
         "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-        "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
-        "https://x.com/GoogleDeepMind/status/2110039277442682916",
-        "https://x.com/demishassabis/status/2110041008100843835"
+        "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/"
       ],
       "posts": [
         {
@@ -70,24 +183,6 @@
           "engagement": 0
         },
         {
-          "author": "GoogleDeepMind",
-          "tier": "commentary",
-          "text": "Here's how you can try it: Everyday users: In the GeminiApp and AI Mode in Search for Google AI Pro and Ultra subscribers. Developers: Gemini API paid tier, plus Antigravity and GoogleAIStudio for Google AI Ultra subscribers. Scientists: Apply for the top usage tier in Antigravity free of charge. Enterprises: Gemini for business and in Antigravity.",
-          "url": "https://x.com/GoogleDeepMind/status/2110039277442682916",
-          "created_at": "2026-10-13T16:05:41+00:00",
-          "engagement": 192,
-          "video": true
-        },
-        {
-          "author": "demishassabis",
-          "tier": "commentary",
-          "text": "Gemini 4 Argon is amazing for knowledge work and coding - and it's super fun to build with! We asked it to create this wizard chess game and it's so cool to see Argon's physics understanding & 3D modelling capabilities. Argon is rolling out today to Google Ultra and Pro subscribers in the @GeminiApp and Search, and Ultra subscribers in @antigravity!",
-          "url": "https://x.com/demishassabis/status/2110041008100843835",
-          "created_at": "2026-10-13T16:12:33+00:00",
-          "engagement": 2467,
-          "video": true
-        },
-        {
           "author": "9to5Google",
           "tier": "press",
           "text": "Google Antigravity is now built into Gemini app for macOS. As part of today’s Gemini 4 Argon rollout, Google is making a big update to the Gemini app for macOS by integrating Antigravity. more…",
@@ -98,115 +193,8 @@
       ]
     },
     {
-      "cluster_id": "ca9a8d06d",
-      "score": 14.098,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "DeepMind",
-        "Google AI",
-        "GoogleDeepMind"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-13T16:00:00+00:00",
-      "last_seen": "2026-10-13T16:05:40+00:00",
-      "links": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "https://deepmind.google/blog/introducing-gemini-4-argon/",
-        "https://x.com/GoogleDeepMind/status/2110039274922131792"
-      ],
-      "posts": [
-        {
-          "author": "Google AI",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: Built to solve your hardest problems. We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: Built to solve your hardest problems",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-          "created_at": "2026-10-13T16:01:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "GoogleDeepMind",
-          "tier": "commentary",
-          "text": "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense.",
-          "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
-          "created_at": "2026-10-13T16:05:40+00:00",
-          "engagement": 3405,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "c93260729",
-      "score": 10.498,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "Engadget",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-13T17:00:00+00:00",
-      "last_seen": "2026-10-13T17:00:39+00:00",
-      "links": [
-        "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-        "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-        "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
-        "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google Play now lets anyone build private, vibe-coded apps that run on Android. Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
-          "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-          "created_at": "2026-10-13T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google makes it easier to launch your vibe-coded apps. The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code [&#8230;]",
-          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
-          "created_at": "2026-10-13T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google will let you distribute vibe-coded Android apps with just a Google account. The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
-          "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
-          "created_at": "2026-10-13T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google wants to host your personal vibe-coded apps in the Play Store. Google plans to help turn those personal AI-generated apps into wide releases.",
-          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-          "created_at": "2026-10-13T17:00:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9d23b21b",
-      "score": 10.1,
+      "cluster_id": "ceca92178",
+      "score": 10.034,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -220,11 +208,12 @@
       ],
       "source_count": 3,
       "first_seen": "2026-10-13T13:00:00+00:00",
-      "last_seen": "2026-10-13T16:27:40+00:00",
+      "last_seen": "2026-10-13T18:18:54+00:00",
       "links": [
         "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
         "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
         "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
+        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
         "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look"
       ],
       "posts": [
@@ -259,12 +248,20 @@
           "url": "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
           "created_at": "2026-10-13T16:27:40+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
+          "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
+          "created_at": "2026-10-13T18:18:54+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c1ba92e1c",
-      "score": 9.937,
+      "cluster_id": "c96267438",
+      "score": 9.754,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -282,23 +279,15 @@
         "The Decoder"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-12T18:48:29+00:00",
-      "last_seen": "2026-10-13T17:06:58+00:00",
+      "first_seen": "2026-10-13T09:37:04+00:00",
+      "last_seen": "2026-10-13T18:00:49+00:00",
       "links": [
-        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
         "https://www.bloomberg.com/news/videos/2026-10-13/bloomberg-tech-10-13-2026-video",
         "https://www.bloomberg.com/news/videos/2026-10-13/meta-s-muse-wonder-takes-aim-at-openai-anthropic-video",
         "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
       ],
       "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
-          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-          "created_at": "2026-10-12T18:48:29+00:00",
-          "engagement": 0
-        },
         {
           "author": "Latent Space",
           "tier": "commentary",
@@ -322,52 +311,96 @@
           "url": "https://www.bloomberg.com/news/videos/2026-10-13/bloomberg-tech-10-13-2026-video",
           "created_at": "2026-10-13T17:06:58+00:00",
           "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
+          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+          "created_at": "2026-10-13T18:00:49+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "caddbdc3f",
-      "score": 9.382,
-      "interest": "neutral",
+      "cluster_id": "c7db2a9c7",
+      "score": 8.627,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Nvidia"
+        "Meta"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "nvidia"
+        "TechCrunch AI",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T16:07:12+00:00",
-      "last_seen": "2026-10-13T17:04:39+00:00",
+      "first_seen": "2026-10-13T17:01:31+00:00",
+      "last_seen": "2026-10-13T18:05:24+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
-        "https://x.com/nvidia/status/2110054117595066796"
+        "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+        "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week. Nvidia Corp. is planning to announce $2 billion in European investments in the next week, Chief Executive Officer Jensen Huang said at an event in Paris on the first day of a tour that will also bring him to London and Berlin.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
-          "created_at": "2026-10-13T16:07:12+00:00",
+          "text": "Facebook will let you customize your feed algorithm using AI. Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your Algorithm previously launched on Instagram earlier this [&#8230;]",
+          "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+          "created_at": "2026-10-13T17:01:31+00:00",
           "engagement": 0
         },
         {
-          "author": "nvidia",
-          "tier": "commentary",
-          "text": "An evening in Paris with Jensen and the founders, researchers, and partners shaping AI across France.",
-          "url": "https://x.com/nvidia/status/2110054117595066796",
-          "created_at": "2026-10-13T17:04:39+00:00",
-          "engagement": 226,
-          "video": true
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Facebook is giving users more control over their algorithm. Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+          "created_at": "2026-10-13T18:05:24+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c476ffc88",
-      "score": 9.378,
+      "cluster_id": "c94af594a",
+      "score": 8.272,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "DeepMind",
+        "Google AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T16:00:00+00:00",
+      "last_seen": "2026-10-13T16:01:52+00:00",
+      "links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "https://deepmind.google/blog/introducing-gemini-4-argon/"
+      ],
+      "posts": [
+        {
+          "author": "Google AI",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: Built to solve your hardest problems. We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "created_at": "2026-10-13T16:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "created_at": "2026-10-13T16:01:52+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c92feede8",
+      "score": 8.148,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -375,25 +408,24 @@
         "Anthropic"
       ],
       "independent_sources": [
-        "Latent Space",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-12T18:18:17+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-13T10:33:28+00:00",
       "last_seen": "2026-10-13T15:12:59+00:00",
       "links": [
         "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-        "https://www.latent.space/p/claude-dynamic-workflows",
+        "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
         "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
       ],
       "posts": [
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents. At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-          "url": "https://www.latent.space/p/claude-dynamic-workflows",
-          "created_at": "2026-10-12T18:18:17+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic study warns that small AI models could soon replicate across everyday devices. Small AI models may be just months away from spreading on their own across poorly secured consumer devices like smart TVs and robot vacuums, according to a new Anthropic study. In tests, one model already completed the full infection chain. CEO Dario Amodei has warned that a swarm like this could take over the entire internet with a persistent botnet within 6 to 12 months, causing hundreds of billions of dollars in damage. The article Anthropic study warns that small AI models could soon replicate across everyday devices appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+          "created_at": "2026-10-13T10:33:28+00:00",
           "engagement": 0
         },
         {
@@ -415,8 +447,8 @@
       ]
     },
     {
-      "cluster_id": "ced051fab",
-      "score": 9.12,
+      "cluster_id": "cc528a024",
+      "score": 7.512,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -425,17 +457,15 @@
       ],
       "independent_sources": [
         "9to5Mac",
-        "Bloomberg Tech",
         "Engadget"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "first_seen": "2026-10-13T13:02:28+00:00",
-      "last_seen": "2026-10-13T16:19:35+00:00",
+      "last_seen": "2026-10-13T15:21:26+00:00",
       "links": [
         "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
         "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
         "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
-        "https://www.bloomberg.com/news/videos/2026-10-13/apple-unveils-homeview-hub-as-part-of-smart-home-push-video",
         "https://www.engadget.com/2285346/some-older-apple-tv-models-are-also-getting-siri-ai/"
       ],
       "posts": [
@@ -469,51 +499,6 @@
           "text": "Some older Apple TV models are also getting Siri AI. Siri AI functionality goes all the way back to back to the second-gen Apple TV 4K box from 2021.",
           "url": "https://www.engadget.com/2285346/some-older-apple-tv-models-are-also-getting-siri-ai/",
           "created_at": "2026-10-13T15:21:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Apple Unveils HomeView Hub as Part of Smart Home Push. Apple unveiled a new smart home device called HomeView, which highlights Siri AI and lets you control a range of soon-to-be-available cameras and thermostats. Chris Welch has more (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-13/apple-unveils-homeview-hub-as-part-of-smart-home-push-video",
-          "created_at": "2026-10-13T16:19:35+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca4e7f480",
-      "score": 5.408,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [],
-      "independent_sources": [
-        "Engadget",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T12:23:42+00:00",
-      "last_seen": "2026-10-13T13:45:10+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-        "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy. The startup will sell some of its assets to Disney for $20 million.",
-          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-          "created_at": "2026-10-13T12:23:42+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts. Character.AI, a controversial generative AI startup that lets users create their own chatbot characters, has filed for Chapter 11 bankruptcy",
-          "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
-          "created_at": "2026-10-13T13:45:10+00:00",
           "engagement": 0
         }
       ]
