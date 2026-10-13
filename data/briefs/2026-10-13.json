@@ -1,15 +1,64 @@
 {
-  "generated_at": "2026-10-13T12:03:39.528557+00:00",
+  "generated_at": "2026-10-13T14:04:15.404832+00:00",
   "edition_date": "2026-10-13",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 88,
-  "clusters_found": 66,
-  "stories_declared": 8,
+  "posts_considered": 96,
+  "clusters_found": 69,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c5caa4d8f",
-      "score": 15.896,
+      "cluster_id": "ccf6ec560",
+      "score": 11.549,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "The Decoder",
+        "mark_k"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-12T18:18:17+00:00",
+      "last_seen": "2026-10-13T12:17:31+00:00",
+      "links": [
+        "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+        "https://www.latent.space/p/claude-dynamic-workflows",
+        "https://x.com/mark_k/status/2109981857517281395"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents. At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+          "url": "https://www.latent.space/p/claude-dynamic-workflows",
+          "created_at": "2026-10-12T18:18:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation. Anthropic says it has cut the extraction of Claude's internal reasoning tokens by 90 to 99 percent. The company links the large-scale distillation attacks to Chinese companies Zhipu and Moonshot, and has already banned tens of thousands of accounts. The article Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+          "created_at": "2026-10-13T11:06:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Anthropic says it has cut the Claude reasoning harvested by rival model developers by 90% to 99%.\n\nThe target is distillation: collecting a stronger model's responses to train another model.",
+          "url": "https://x.com/mark_k/status/2109981857517281395",
+          "created_at": "2026-10-13T12:17:31+00:00",
+          "engagement": 43
+        }
+      ]
+    },
+    {
+      "cluster_id": "c89434f55",
+      "score": 9.931,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -20,20 +69,16 @@
         "Latent Space",
         "TechCrunch AI",
         "The Decoder",
-        "The Verge AI",
-        "kimmonismus",
-        "theo"
+        "The Verge AI"
       ],
-      "source_count": 6,
+      "source_count": 4,
       "first_seen": "2026-10-12T17:00:00+00:00",
-      "last_seen": "2026-10-13T11:43:11+00:00",
+      "last_seen": "2026-10-13T09:37:04+00:00",
       "links": [
         "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
         "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
         "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-        "https://x.com/kimmonismus/status/2109951529344192982",
-        "https://x.com/theo/status/2109973219793096780"
+        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
       ],
       "posts": [
         {
@@ -67,66 +112,126 @@
           "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
           "created_at": "2026-10-13T09:37:04+00:00",
           "engagement": 0
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Meta built Wonder for agents that act on your behalf, starting with its Muse app. Two features: active memory, and active focus, which keeps a task going when it gets hard. Wang says Meta invested in memory disproportionately. Models trained on Meta's Prometheus cluster in Ohio.",
-          "url": "https://x.com/kimmonismus/status/2109951529344192982",
-          "created_at": "2026-10-13T10:17:00+00:00",
-          "engagement": 141
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "I really like Muse Wonder Full. Let me explain.",
-          "url": "https://x.com/theo/status/2109973219793096780",
-          "created_at": "2026-10-13T11:43:11+00:00",
-          "engagement": 164,
-          "video": true
         }
       ]
     },
     {
-      "cluster_id": "ca8291ad5",
-      "score": 8.181,
+      "cluster_id": "c53a6bb0a",
+      "score": 8.246,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
-      "entities": [],
+      "entities": [
+        "Apple"
+      ],
       "independent_sources": [
-        "Engadget",
-        "Tom's Hardware"
+        "9to5Mac",
+        "Engadget"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-12T20:48:19+00:00",
-      "last_seen": "2026-10-13T11:22:26+00:00",
+      "first_seen": "2026-10-13T13:00:00+00:00",
+      "last_seen": "2026-10-13T13:46:26+00:00",
       "links": [
-        "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
-        "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows"
+        "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
+        "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
+        "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
+        "https://www.engadget.com/2285043/new-apple-tv-4k-with-siri-ai/",
+        "https://www.engadget.com/2285072/apple-launch-homeview-smart-display-siri-ai/",
+        "https://www.engadget.com/2285178/apple-homeview-hands-on-siri-ai/"
       ],
       "posts": [
         {
           "author": "Engadget",
           "tier": "press",
-          "text": "Epic reportedly delays its Disney video game so it can be made using more AI. Developers were apparently ordered to use AI for both code and asset creation.",
-          "url": "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
-          "created_at": "2026-10-12T20:48:19+00:00",
+          "text": "Apple refreshes the Apple TV 4K for Siri AI. New microphones, a new remote and the new Siri AI are on the company's streaming box.",
+          "url": "https://www.engadget.com/2285043/new-apple-tv-4k-with-siri-ai/",
+          "created_at": "2026-10-13T13:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Epic Games reportedly delays Disney shooter title so it can pivot to AI coding. Developers working on an unnamed Disney shooter title for Epic Games were surprised when they were ordered to use as much AI as possible in their workflows.",
-          "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows",
-          "created_at": "2026-10-13T11:22:26+00:00",
+          "text": "Apple unveils HomeView, the company's smart display built for Siri AI. Two versions will be available in November for $299.",
+          "url": "https://www.engadget.com/2285072/apple-launch-homeview-smart-display-siri-ai/",
+          "created_at": "2026-10-13T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple announces new Apple TV 4K with upgraded Siri Remote, A19 chip, more. Today Apple unveiled a brand new Apple TV 4K model as part of its ‘Welcome home’ product launch event. Here are the full details from the announcement. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
+          "created_at": "2026-10-13T13:02:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Siri AI coming to older Apple TV 4K models, here’s what’s compatible. Today Apple introduced a fourth-generation Apple TV 4K with Siri AI, and A19 chip, and more. But the company also shared welcome news for current Apple TV users: Siri AI is compatible with select older models too. more…",
+          "url": "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
+          "created_at": "2026-10-13T13:12:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple HomeView hands-on: Siri AI is your new roommate. It's more than just an enlarged Apple Watch.",
+          "url": "https://www.engadget.com/2285178/apple-homeview-hands-on-siri-ai/",
+          "created_at": "2026-10-13T13:46:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "You can buy the new, improved Siri Remote for your existing Apple TV 4K. Today Apple unveiled the long-awaited new Apple TV 4K model , which includes an updated Siri Remote with a built-in speaker as part of its Find My and Precision Finding support. But even if you’re not upgrading, you can still buy the new Siri Remote for your current Apple TV. more…",
+          "url": "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
+          "created_at": "2026-10-13T13:46:26+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c41be6d70",
+      "score": 8.14,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Engadget"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T13:00:00+00:00",
+      "last_seen": "2026-10-13T13:08:20+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+        "https://www.engadget.com/2285033/apple-homepod-mini-2-launch-siri-ai-later/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple updates the HomePod mini with more audio features and new colors. The new model arrives on October 30, but its Siri AI features are coming later.",
+          "url": "https://www.engadget.com/2285033/apple-homepod-mini-2-launch-siri-ai-later/",
+          "created_at": "2026-10-13T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+          "created_at": "2026-10-13T13:08:20+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c491df326",
-      "score": 7.072,
+      "score": 6.737,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -159,55 +264,6 @@
           "text": "Gemini ‘Task’ redesign integrates Spark into the main chat app. In addition to revamping settings and the navigation drawer , Google is combining its Spark personal agent with the main Gemini chat experience. more…",
           "url": "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
           "created_at": "2026-10-13T04:42:58+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3a8eabcb",
-      "score": 6.78,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia",
-        "AMD"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T13:00:00+00:00",
-      "last_seen": "2026-10-13T05:00:31+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-        "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores. At the OCP Global Summit, AMD revealed Helion, a rack-scale reference design for agentic AI that can house up to 32,768 Zen 6 CPU cores.",
-          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
-          "created_at": "2026-10-12T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide. As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-          "created_at": "2026-10-12T15:00:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA. Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-          "created_at": "2026-10-13T05:00:31+00:00",
           "engagement": 0
         }
       ]
@@ -250,48 +306,82 @@
       ]
     },
     {
-      "cluster_id": "ce2987a2c",
-      "score": 6.455,
-      "interest": "want",
+      "cluster_id": "c4eb79849",
+      "score": 6.087,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "chips",
-      "entities": [
-        "Nvidia",
-        "Microsoft"
-      ],
+      "suggested_section": "products",
+      "entities": [],
       "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
+        "Engadget",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-12T13:00:00+00:00",
-      "last_seen": "2026-10-12T15:24:03+00:00",
+      "first_seen": "2026-10-13T08:44:18+00:00",
+      "last_seen": "2026-10-13T13:50:19+00:00",
       "links": [
-        "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
-        "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+        "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+        "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs. Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will [&#8230;]",
-          "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-          "created_at": "2026-10-12T13:00:00+00:00",
+          "text": "X bundles Premium, Grok and Cursor under a single monthly subscription. SpaceXSI has announced a new subscription scheme that gives you access to Grok, Grok Bot, Cursor and X Premium.",
+          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
+          "created_at": "2026-10-13T08:44:18+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027. Microsoft will make its in-house Azure Maia chips the main AI inference system across its products starting in 2027, deploying them at multi-gigawatt scale. The upcoming Maia 300 should deliver 40 percent more tokens per megawatt than leading GPU systems. CEO Satya Nadella calls it \"our biggest bet yet on our own silicon.\" The article Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027 appeared first on The Decoder .",
-          "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
-          "created_at": "2026-10-12T15:24:03+00:00",
+          "text": "SpaceXSI bundles X Premium, Grok and Cursor into one subscription. The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "created_at": "2026-10-13T13:50:19+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca4e7f480",
+      "score": 6.072,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [],
+      "independent_sources": [
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T12:23:42+00:00",
+      "last_seen": "2026-10-13T13:45:10+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+        "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy. The startup will sell some of its assets to Disney for $20 million.",
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+          "created_at": "2026-10-13T12:23:42+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts. Character.AI, a controversial generative AI startup that lets users create their own chatbot characters, has filed for Chapter 11 bankruptcy",
+          "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
+          "created_at": "2026-10-13T13:45:10+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cbe774528",
-      "score": 6.112,
+      "score": 5.777,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -322,47 +412,6 @@
           "text": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies. Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
           "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
           "created_at": "2026-10-13T10:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca2f8a28d",
-      "score": 4.364,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T13:14:54+00:00",
-      "last_seen": "2026-10-13T10:31:41+00:00",
-      "links": [
-        "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-        "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "White House reverses course and restores UK AI Safety Institute's access to frontier models. The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models appeared first on The Decoder .",
-          "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-          "created_at": "2026-10-12T13:14:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Moderna, Google DeepMind, Biocon on AI in Science. Noubar Afeyan, Co-Founder & Chairman, Moderna and Founder & CEO, Flagship Pioneering; Lila Ibrahim, Chief AI Readiness Officer, Google DeepMind; and Kiran Mazumdar-Shaw, Founder & Executive Chairperson, Biocon discuss how AI is reshaping scientific discovery with Bloomberg's Francine Lacqua at the 2026 Bloomberg New Economy Forum in New Delhi. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video",
-          "created_at": "2026-10-13T10:31:41+00:00",
           "engagement": 0
         }
       ]

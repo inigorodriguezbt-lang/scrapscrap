@@ -363,6 +363,76 @@
    },
    "published_at": "2026-10-13T05:00:00+00:00",
    "id": "the-financial-times-reports-per-a-2"
+  },
+  {
+   "text": "Apple researchers published Minions, a three-page paper describing a virtual GPU cloud built from idle Apple Silicon Macs for ML inference. It reports no benchmarks and no code.",
+   "why": "If it scales, teams could use Macs they already own instead of renting scarce GPUs, but the paper gives no performance numbers yet.",
+   "source": {
+    "name": "Apple Machine Learning Research",
+    "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud"
+   },
+   "published_at": "2026-10-09T12:00:00+00:00",
+   "id": "apple-researchers-published-minions-a-three"
+  },
+  {
+   "text": "A NeurIPS 2026 paper argues models can hide arbitrary capabilities that evaluations cannot draw out, by embedding encrypted networks in the weights that run only on a secret trigger.",
+   "why": "The authors say audits based on prompting a model may have a fundamental limit; they tested only a small chemistry proxy task.",
+   "source": {
+    "name": "arXiv (Draguns et al.)",
+    "url": "https://arxiv.org/abs/2610.13928"
+   },
+   "published_at": "2026-10-09T12:00:00+00:00",
+   "id": "a-neurips-2026-paper-argues-models"
+  },
+  {
+   "text": "TestingCatalog says Gemini 4 Argon has appeared on a Google Cloud quotas page, which it reads as groundwork for an API release. Google has not confirmed that.",
+   "why": "Google announced Argon on September 30 to a limited group of cyber defenders, so a wider rollout would be the next step.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2109983821471048093"
+   },
+   "published_at": "2026-10-13T13:25:00+00:00",
+   "id": "testingcatalog-says-gemini-4-argon-has"
+  },
+  {
+   "text": "Mistral says its models are going into orbit, joining Orbitworks and Loft Orbital's AI satellite constellation with Nvidia infrastructure, according to Mistral's post on X.",
+   "why": "The satellites are meant to analyse imagery in orbit rather than on the ground, so alerts such as wildfire detection could arrive in seconds.",
+   "source": {
+    "name": "Mistral AI on X",
+    "url": "https://x.com/MistralAI/status/2109998925037859091"
+   },
+   "published_at": "2026-10-13T13:45:00+00:00",
+   "id": "mistral-says-its-models-are-going"
+  },
+  {
+   "text": "Anthropic engineers told AI Engineer New York that \"flows\" let Claude write its own orchestration program for sub-agents, which Latent Space reports costs much more than a single agent.",
+   "why": "It would remove the need for developers to define a coordinator and agent roster by hand, though no benchmarks or pricing were given.",
+   "source": {
+    "name": "Latent Space",
+    "url": "https://www.latent.space/p/claude-dynamic-workflows"
+   },
+   "published_at": "2026-10-12T18:18:17+00:00",
+   "id": "anthropic-engineers-told-ai-engineer-new"
+  },
+  {
+   "text": "Apple says Siri AI is not yet available in the EU, so HomeView will not launch there, MacRumors reported after Apple's event.",
+   "why": "The region gap shows that Apple's new Siri-based hardware still depends on where its AI features have been cleared.",
+   "source": {
+    "name": "MacRumors",
+    "url": "https://www.macrumors.com/2026/10/13/apple-homeview-wont-be-available-in-eu/"
+   },
+   "published_at": "2026-10-13T13:50:00+00:00",
+   "id": "apple-says-siri-ai-is-not"
+  },
+  {
+   "text": "ScaleDown says its Constrained Decoding Models read up to 1 million tokens of text and images once and point at the answer, claiming 200 times faster and 467 times cheaper than frontier LLM APIs.",
+   "why": "The figures are the company's own and compare against frontier APIs on classification and extraction, so independent testing is still needed.",
+   "source": {
+    "name": "Elvis Saravia (omarsar0) on X",
+    "url": "https://x.com/omarsar0/status/2109984234018332879"
+   },
+   "published_at": "2026-10-13T13:27:00+00:00",
+   "id": "scaledown-says-its-constrained-decoding-models"
   }
  ]
 }
