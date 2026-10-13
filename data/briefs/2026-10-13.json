@@ -1,66 +1,308 @@
 {
-  "generated_at": "2026-10-13T04:05:00.334125+00:00",
+  "generated_at": "2026-10-13T06:04:11.674055+00:00",
   "edition_date": "2026-10-13",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 78,
+  "posts_considered": 83,
   "clusters_found": 65,
-  "stories_declared": 5,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccde95647",
-      "score": 14.364,
+      "cluster_id": "c86c97989",
+      "score": 14.981,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
-        "Mistral",
-        "Amazon"
+        "Anthropic",
+        "Google",
+        "Meta"
       ],
       "independent_sources": [
-        "AWS ML",
-        "arena",
-        "thsottiaux"
+        "Bloomberg Tech",
+        "The Decoder",
+        "theo"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-12T17:52:22+00:00",
-      "last_seen": "2026-10-13T02:39:07+00:00",
+      "first_seen": "2026-10-12T09:35:54+00:00",
+      "last_seen": "2026-10-13T05:12:44+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-        "https://x.com/arena/status/2109836301562532313",
-        "https://x.com/thsottiaux/status/2109831908620390553"
+        "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+        "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+        "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+        "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
+        "https://www.bloomberg.com/news/videos/2026-10-12/muse-wonder-puts-meta-s-aggressive-ai-push-in-focus-video",
+        "https://x.com/theo/status/2109874961070616654"
       ],
       "posts": [
         {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan. Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-          "created_at": "2026-10-12T17:52:22+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed. Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its results reviewed before publishing. The article Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+          "created_at": "2026-10-12T09:35:54+00:00",
           "engagement": 0
         },
         {
-          "author": "thsottiaux",
-          "tier": "commentary",
-          "text": "Perhaps I shall try to explain. There are significant differences between the 6.1 generation and prior models and therefore the optimal defaults are different between GPT-6 Astra and GPT-6.1 Sol. And even for 6.1 Sol we wanted to be careful with the change and make sure we felt good about the results. We do now and therefore we changed it.",
-          "url": "https://x.com/thsottiaux/status/2109831908620390553",
-          "created_at": "2026-10-13T02:21:40+00:00",
-          "engagement": 519
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do. Andrej Karpathy, co-founder of OpenAI and now at Anthropic, sees a widening knowledge gap in AI. About 75 percent of the world's population has barely touched LLMs. Roughly 5,000 people, meanwhile, have access to internal frontier systems whose agent swarms do work that would take top experts years. The public, at best, sees a weird chatbot. The article Anthropic&#039;s Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+          "created_at": "2026-10-12T12:51:21+00:00",
+          "engagement": 0
         },
         {
-          "author": "arena",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "White House reverses course and restores UK AI Safety Institute's access to frontier models. The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models appeared first on The Decoder .",
+          "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+          "created_at": "2026-10-12T13:14:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta Releases New AI Model Called Muse Wonder. Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude. Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
+          "created_at": "2026-10-12T20:55:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Muse Wonder Puts Meta's Aggressive AI Push in Focus. Meta Platforms released a new artificial intelligence model called Muse Wonder, which the company claims is a big leap over its predecessors. Riley Griffin has more on \"The Asia Trade.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/muse-wonder-puts-meta-s-aggressive-ai-push-in-focus-video",
+          "created_at": "2026-10-12T23:23:43+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "theo",
           "tier": "commentary",
-          "text": "Watch @petergostev put Muse Wonder (Max) by @AIatMeta to the test across one-shot 3D scenes, animated HTML, and front-end designs.\n\nHe compares it with Astra, Opus 5.5, GPT-6.1 Sol, Claude Sonnet 5.5, Fable, Kimi, and Mistral, and includes the cost of every generation.\n\nArena scores for Muse Wonder are coming very soon. https://t.co/lkhx6SuI0j",
-          "url": "https://x.com/arena/status/2109836301562532313",
-          "created_at": "2026-10-13T02:39:07+00:00",
-          "engagement": 48
+          "text": "Asked Opus 5.5, GPT-6.1 Sol, and Muse Wonder Full to fix a bug. Opus found the root cause and filed a pr. GPT-6.1 Sol asked a question, crashed from the async question tool interrupt, found the bug, fixed it, wrote 300 lines of tests, and explained it in impossible to understand terms. Muse Wonder Full found a small PR someone else had filed and said you should probably merge this instead. I really like this model.",
+          "url": "https://x.com/theo/status/2109874961070616654",
+          "created_at": "2026-10-13T05:12:44+00:00",
+          "engagement": 980
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9f2ece45",
+      "score": 9.706,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-12T17:00:00+00:00",
+      "last_seen": "2026-10-12T21:53:03+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+        "https://www.bloomberg.com/news/videos/2026-10-12/barclays-generational-shift-in-aerospace-defense-video",
+        "https://www.bloomberg.com/news/videos/2026-10-12/meta-unveils-muse-wonder-ai-closing-bell-video",
+        "https://www.bloomberg.com/news/videos/2026-10-12/neostellar-s-willy-lee-ai-market-is-starting-to-mature-video",
+        "https://www.bloomberg.com/news/videos/2026-10-12/the-close-10-12-2026-video",
+        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta has some Wonder Full new AI models. Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "created_at": "2026-10-12T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta releases its first frontier model, Muse Wonder. Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "created_at": "2026-10-12T17:56:56+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
+          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+          "created_at": "2026-10-12T18:48:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta Rallies as New Muse Wonder Model Heats up AI Race | Closing Bell. Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Scarlet Fu, Hema Parmar, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-unveils-muse-wonder-ai-closing-bell-video",
+          "created_at": "2026-10-12T20:25:55+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Barclays: “Generational Shift” in Aerospace & Defense. Anthony Valentini of Barclays says aerospace and defense is at an inflection point: newer, high-growth companies using commercial business models should be evaluated differently from traditional contractors and could achieve higher margins at scale. He describes the shift toward lower-cost autonomous systems as a generational change, with new entrants positioned to gain market share over the next decade. He speaks with Scarlet Fu & Hema Parmar on \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/barclays-generational-shift-in-aerospace-defense-video",
+          "created_at": "2026-10-12T21:20:08+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Neostellar’s Willy Lee on AI Landscape Ahead of Anthropic Pre-IPO Investor Day. Willy Lee, Principal at Neostellar, says attention on Anthropic’s potential IPO risks obscuring broader AI investment and adoption. He cited nearly $200 billion in U.S. venture capital deployed in the first half of the year—more than 74% of the prior year’s estimated total. He speaks with Scarlet Fu & Hema Parmar on \"The Close.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/neostellar-s-willy-lee-ai-market-is-starting-to-mature-video",
+          "created_at": "2026-10-12T21:33:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Earnings Season, AI & Oil Prices in Focus. The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are RockCreek CEO & Founder Afsaneh Beschloss, Barclays Multi-Sector Aerospace & Defense Analyst Anthony Valentini, Former Fed Governor Betsy Duke, Robinhood Markets CIO Stephanie Guild, Inflation Insights Founder & President Omair Sharif, Gabelli Funds Portfolio Manager Macrae Skyes, & Neostellar Principal Willy Lee. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/the-close-10-12-2026-video",
+          "created_at": "2026-10-12T21:53:03+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1a90bbc4",
+      "score": 9.389,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "OfficialLoganK",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T04:31:45+00:00",
+      "last_seen": "2026-10-13T05:27:04+00:00",
+      "links": [
+        "https://x.com/OfficialLoganK/status/2109864644416516309",
+        "https://x.com/testingcatalog/status/2109878567337439634"
+      ],
+      "posts": [
+        {
+          "author": "OfficialLoganK",
+          "tier": "commentary",
+          "text": "@jparkjmc excited to see how Gemini 4 Argon does on this!",
+          "url": "https://x.com/OfficialLoganK/status/2109864644416516309",
+          "created_at": "2026-10-13T04:31:45+00:00",
+          "engagement": 266
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "GOOGLE: It has been officially confirmed, today is the day for Gemini 4 Argon to arrive (for Ultra subscribers).",
+          "url": "https://x.com/testingcatalog/status/2109878567337439634",
+          "created_at": "2026-10-13T05:27:04+00:00",
+          "engagement": 207
+        }
+      ]
+    },
+    {
+      "cluster_id": "c491df326",
+      "score": 8.07,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "Engadget"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-12T22:30:00+00:00",
+      "last_seen": "2026-10-13T04:42:58+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
+        "https://www.engadget.com/2281539/how-to-use-google-gemini-automate-tasks/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "How to use Google Gemini to automate tasks. Spark is Google's AI tool that can perform tasks on your behalf.",
+          "url": "https://www.engadget.com/2281539/how-to-use-google-gemini-automate-tasks/",
+          "created_at": "2026-10-12T22:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini ‘Task’ redesign integrates Spark into the main chat app. In addition to revamping settings and the navigation drawer , Google is combining its Spark personal agent with the main Gemini chat experience. more…",
+          "url": "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
+          "created_at": "2026-10-13T04:42:58+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3a8eabcb",
+      "score": 7.778,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia",
+        "AMD"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-12T13:00:00+00:00",
+      "last_seen": "2026-10-13T05:00:31+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+        "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations"
+      ],
+      "posts": [
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores. At the OCP Global Summit, AMD revealed Helion, a rack-scale reference design for agentic AI that can house up to 32,768 Zen 6 CPU cores.",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
+          "created_at": "2026-10-12T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide. As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+          "created_at": "2026-10-12T15:00:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA. Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+          "created_at": "2026-10-13T05:00:31+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cfb48b3c6",
-      "score": 7.939,
+      "score": 7.608,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -96,47 +338,8 @@
       ]
     },
     {
-      "cluster_id": "c8202469c",
-      "score": 7.409,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T17:00:00+00:00",
-      "last_seen": "2026-10-12T18:48:29+00:00",
-      "links": [
-        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta has some Wonder Full new AI models. Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-          "created_at": "2026-10-12T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
-          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-          "created_at": "2026-10-12T18:48:29+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "ce2987a2c",
-      "score": 6.841,
+      "score": 6.51,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -170,46 +373,6 @@
           "text": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027. Microsoft will make its in-house Azure Maia chips the main AI inference system across its products starting in 2027, deploying them at multi-gigawatt scale. The upcoming Maia 300 should deliver 40 percent more tokens per megawatt than leading GPU systems. CEO Satya Nadella calls it \"our biggest bet yet on our own silicon.\" The article Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027 appeared first on The Decoder .",
           "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
           "created_at": "2026-10-12T15:24:03+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2d7e5407",
-      "score": 5.611,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia",
-        "AMD"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T13:00:00+00:00",
-      "last_seen": "2026-10-12T15:00:25+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-        "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores. At the OCP Global Summit, AMD revealed Helion, a rack-scale reference design for agentic AI that can house up to 32,768 Zen 6 CPU cores.",
-          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
-          "created_at": "2026-10-12T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide. As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-          "created_at": "2026-10-12T15:00:25+00:00",
           "engagement": 0
         }
       ]
