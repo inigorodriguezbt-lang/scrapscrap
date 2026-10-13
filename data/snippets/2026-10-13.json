@@ -433,6 +433,93 @@
    },
    "published_at": "2026-10-13T13:27:00+00:00",
    "id": "scaledown-says-its-constrained-decoding-models"
+  },
+  {
+   "text": "TestingCatalog reports traces of Claude Fable 5.5 in Azure configs, and others say it is listed in East US 2 as GenerallyAvailable; Anthropic has not announced it and the listing is unconfirmed.",
+   "why": "If real, it would be the next Anthropic model arriving on a cloud catalog before any announcement, a few days before the company's reported investor meeting.",
+   "source": {
+    "name": "TestingCatalog on X",
+    "url": "https://x.com/testingcatalog/status/2110031026026332551"
+   },
+   "published_at": "2026-10-13T15:32:53+00:00",
+   "tag": "models",
+   "id": "testingcatalog-reports-traces-of-claude-fable"
+  },
+  {
+   "text": "Commentator Andrew Curran says Anthropic will disclose its third-quarter financials for the first time at an investor meeting tomorrow, and that IPO plans are still on track.",
+   "why": "If accurate, it would be the first look at the company's books ahead of a listing, and the numbers will test its valuation.",
+   "source": {
+    "name": "Andrew Curran on X",
+    "url": "https://x.com/AndrewCurran_/status/2110027012970811751"
+   },
+   "published_at": "2026-10-13T15:16:56+00:00",
+   "tag": "business",
+   "id": "commentator-andrew-curran-says-anthropic-will"
+  },
+  {
+   "text": "ScaleDown launched three small models, Classify, Extract and Summarize, each taking 1M tokens of text or images and available through its API, OpenRouter, Vercel AI Gateway, LiteLLM and LangChain, TestingCatalog reports.",
+   "why": "Small single-job models with a huge input window are aimed at routine in-app tasks where a frontier model is overkill.",
+   "source": {
+    "name": "TestingCatalog on X",
+    "url": "https://x.com/testingcatalog/status/2110029285322903761"
+   },
+   "published_at": "2026-10-13T15:25:58+00:00",
+   "embed": "https://x.com/testingcatalog/status/2110029285322903761",
+   "id": "scaledown-launched-three-small-models-classify"
+  },
+  {
+   "text": "Google DeepMind paper Evo2 proposes training an agent's weights on logs of its own harness edits, with one policy acting as both proposer and reflector, omarsar0 summarises.",
+   "why": "It points at a way to turn the change logs teams already keep into training data for the model inside the harness.",
+   "source": {
+    "name": "omarsar0 on X",
+    "url": "https://x.com/omarsar0/status/2110006902331769049"
+   },
+   "published_at": "2026-10-13T13:57:02+00:00",
+   "tag": "research",
+   "id": "google-deepmind-paper-evo2-proposes-training"
+  },
+  {
+   "text": "Meta and MIT's ReHarness rewrites the reflections an agent retrieved after seeing how its task turned out, instead of only adding or deleting them, dair_ai reports.",
+   "why": "Agent memory usually only writes forward, so lessons that mislead are never corrected; this paper tries to close that loop.",
+   "source": {
+    "name": "dair_ai on X",
+    "url": "https://x.com/dair_ai/status/2110017231778373722"
+   },
+   "published_at": "2026-10-13T14:38:04+00:00",
+   "tag": "research",
+   "id": "meta-and-mit-s-reharness-rewrites"
+  },
+  {
+   "text": "The Information reports, per Reuters, that three senior CAISSI officials who assess advanced AI models are moving from the Commerce Department to the White House, reporting to Michael Kratsios and Sean Cairncross.",
+   "why": "It would bring frontier-model testing closer to the people who set national AI policy.",
+   "source": {
+    "name": "mark_k on X (citing Reuters)",
+    "url": "https://x.com/mark_k/status/2110005151645782188"
+   },
+   "published_at": "2026-10-13T13:50:04+00:00",
+   "tag": "policy",
+   "id": "the-information-reports-per-reuters-that"
+  },
+  {
+   "text": "Show HN: MemorySync offers a memory layer for AI agents, with a try-it page; it had 22 points and no comments on Hacker News.",
+   "why": "Shared memory for agents is a crowded area, and this one is early and untested by anyone we can find.",
+   "source": {
+    "name": "MemorySync",
+    "url": "https://memorysync.io/try"
+   },
+   "published_at": "2026-10-13T12:30:00+00:00",
+   "tag": "agents-coding",
+   "id": "show-hn-memorysync-offers-a-memory"
+  },
+  {
+   "text": "Nvidia's Jensen Huang visited the Build-A-Claw event in Paris, where Nvidia says developers and startups are building agents with open models.",
+   "why": "It shows Nvidia pushing its open models to European developers, in step with Hugging Face's France push.",
+   "source": {
+    "name": "Nvidia on X",
+    "url": "https://x.com/nvidia/status/2110007892313321595"
+   },
+   "published_at": "2026-10-13T14:00:58+00:00",
+   "id": "nvidia-s-jensen-huang-visited-the"
   }
  ]
 }

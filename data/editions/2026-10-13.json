@@ -2,6 +2,55 @@
  "edition_date": "2026-10-13",
  "stories": [
   {
+   "cluster_id": "find-gemini-4-argon-live",
+   "section": "models",
+   "headline": "Google puts Gemini 4 Argon in the API at $2 per million input tokens",
+   "standfirst": "Google says Gemini 4 Argon is rolling out to developers, Ultra and Pro subscribers and enterprises, with a 1M-token window and introductory prices of $2 input and $10 output per million tokens.",
+   "body": [
+    "Google says Gemini 4 Argon is now rolling out to the public, in a launch post by Koray Kavukcuoglu. Developers get it through the Gemini API on the paid tier and AI Studio. Google AI Ultra subscribers get it in Antigravity and Android Studio, and Ultra and Pro subscribers in the Gemini app and AI Mode in Search. Testing Catalog saw it appear in Google Cloud's Agent Studio first.",
+    "Google lists introductory pricing of $2 per million input tokens and $10 per million output tokens, with cached input 95 percent cheaper. After 30 November the public-access model rises to $4 and $20. The company says the API limit is 1M tokens shared between input and output. Scientists can apply for six months of free access to Antigravity's highest usage tier.",
+    "The benchmark claims are Google's own. It says Argon ranks first on the Vals Index, without giving a score, and reaches 87 percent on the ERQA embodied-reasoning test, which it says beats every other frontier model. Private evaluations by Gamow Labs, which Google commissioned or cites, show 57 percent on a rare-disease diagnosis test and 52.2 percent on wet-lab reasoning. No independent results are published yet.",
+    "Google also reports gains in its own tooling. In Antigravity, it says agentic code submissions rose more than 35 percent and rollbacks fell by nearly a third. It says a vLLM run of Gemma 4 E2B on an A100 went from about 37,900 to over 108,000 tokens a second. The post links demos including a racing game, a chess game and a ray-tracing video.",
+    "On safety, Google says the model was evaluated under its Frontier Safety Framework with third-party partners. It reports a 0.7 percent attack success rate across 15 adaptive prompt-injection attempts on Gray Swan's test. Its Fairwind cyber-defence programme is widening to hundreds more partners, without cyber guardrails. Google first announced Argon on 30 September with access limited to vetted defenders, according to CNBC and TechCrunch."
+   ],
+   "entities": [
+    "Google",
+    "Google DeepMind",
+    "Gemini 4 Argon",
+    "Antigravity"
+   ],
+   "sources": [
+    {
+     "author": "Google (Gemini 4 Argon launch post)",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+    },
+    {
+     "author": "TestingCatalog on X",
+     "url": "https://x.com/testingcatalog/status/2110032362738425954"
+    },
+    {
+     "author": "Google DeepMind on X",
+     "url": "https://x.com/GoogleDeepMind/status/2110034327111131168"
+    },
+    {
+     "author": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/GoogleDeepMind/status/2110034327111131168",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "lead"
+  },
+  {
    "cluster_id": "find-anthropic-distillation-defenses",
    "section": "security",
    "headline": "Anthropic says new defences cut distillation of Claude reasoning 10-fold",
@@ -29,7 +78,97 @@
      "url": "https://x.com/AnthropicAI/status/2109795898909950247"
     }
    ],
-   "placement": "lead"
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-clark-rsi-2027",
+   "section": "ai",
+   "headline": "Anthropic's Jack Clark moves his full-RSI forecast up to 2027",
+   "standfirst": "Anthropic co-founder Jack Clark writes that full recursive self-improvement is now more likely to become possible in 2027, a year earlier than he thought, because AI is showing creativity.",
+   "body": [
+    "Jack Clark, a co-founder of Anthropic, has brought forward his forecast for AI that improves itself. In Import AI 476, published on 12 October, he writes: \"I now think it's more likely we'll see full RSI become possible in 2027.\" He says his earlier expectation was 2028. RSI means recursive self-improvement, in which AI systems do the work of building better AI systems.",
+    "Clark ties the change to creativity. He had said earlier that creativity seemed a key variable in how fast systems could improve themselves, and that they had not yet shown it in a major way. He now points to AI producing what he calls creative-seeming math breakthroughs, and to a benchmark called TasteVal from P-Zero Research.",
+    "According to Clark's write-up, TasteVal's results show experimental research taste doubling about every three months since December 2025, and the best model, Opus 5.5, exceeding a human expert baseline. That figure comes from the benchmark's makers as relayed by Clark. We have not seen an independent replication, and a forecast is a judgement, not a measurement.",
+    "Reaction was quick. Andrew Curran, an AI commentator, called it a significant update and said he thinks the loop could close in under six months. Nathan Calvin, who works on AI policy, said he likes Clark's work but finds the language passive, given that Anthropic is among the labs racing toward that point. Anthropic has not issued a separate statement."
+   ],
+   "entities": [
+    "Jack Clark",
+    "Anthropic",
+    "Import AI",
+    "TasteVal"
+   ],
+   "sources": [
+    {
+     "author": "Import AI 476, Jack Clark",
+     "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi"
+    },
+    {
+     "author": "Andrew Curran on X",
+     "url": "https://x.com/AndrewCurran_/status/2110031945484931116"
+    },
+    {
+     "author": "Nathan Calvin on X",
+     "url": "https://x.com/_NathanCalvin/status/2110014927792427349"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-eg2-speech-to-text",
+   "section": "research",
+   "headline": "Builders turn Google's EmbeddingGemma 2 into a fast Mac transcriber",
+   "standfirst": "An independent team reused the audio encoder in Google's embedding model and trained only a small reader on 8 H100s, reaching about 5 percent word error rate on a base MacBook Air.",
+   "body": [
+    "A team unaffiliated with Google has turned EmbeddingGemma 2, an embedding model, into a free speech-to-text app for Macs. The project, called Embedding Gemma Transcribe, reached 263 points on the Hacker News front page. The page says it transcribes an hour of audio in about 13 seconds on a base MacBook Air, entirely on the device.",
+    "The trick is that the model is mostly left alone. According to the project page, the audio encoder from EmbeddingGemma 2, which Google DeepMind released under Apache 2.0, is used unchanged. A small trained reader maps short slices of audio into the model's text space, and the closest of about 229,000 English words becomes the transcript. A tiny separate model adds punctuation and capitals.",
+    "Only the reader was trained, in under two hours on eight H100 GPUs, using openly licensed English speech. The authors report about 5 percent word error rate, against the 2 to 3 percent they cite for leading speech models, and say a better-trained reader should narrow the gap. These are the authors' numbers. We have not run the app.",
+    "The authors give speed as 288 times real time, an hour of audio in 12.6 seconds, on a base M3 MacBook Air with 8GB using the Neural Engine. The download is 715MB and needs macOS 14 on Apple Silicon. You can drop in a file, or hold Right Option and dictate into any app. The page does not state a licence for the app itself."
+   ],
+   "entities": [
+    "EmbeddingGemma 2",
+    "Google DeepMind",
+    "Hacker News"
+   ],
+   "sources": [
+    {
+     "author": "Embedding Gemma Transcribe (project page)",
+     "url": "https://eg2.haku.sh/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-homepod-mini-2-siri-ai",
+   "section": "products",
+   "headline": "Apple's $149 HomePod mini 2 ships on 30 October without Siri AI",
+   "standfirst": "Apple's new speaker has an S10 chip and a light-up top, but its Siri AI assistant is only promised for a later software update, while the $299 HomeView display gets it from launch.",
+   "body": [
+    "Apple announced the HomePod mini 2 on Tuesday at $149. Preorders are open and the speaker reaches stores on 30 October. It uses Apple's S10 chip, which Apple says analyses music in real time to tune dynamic range and loudness. It comes in five colours, and works alone, as a stereo pair or in multiroom setups.",
+    "The headline software feature is missing at launch. Apple's newsroom post says Siri AI is \"coming to HomePod mini 2 in a future software update\" and gives no date. 9to5Mac spotted the footnote on Apple's product page. Apple says Siri AI will launch in English in the US, Australia, Canada, India, New Zealand, Singapore, South Africa and the UK.",
+    "Apple describes Siri AI as an assistant that draws on general world knowledge and personal context, with more natural conversation and hands-free smart home control. Personal-context features need an iPhone or iPad with Apple Intelligence turned on. Apple says requests can run on device or in Private Cloud Compute, and that usage limits may apply.",
+    "Other products fare better. According to 9to5Mac, the HomeView smart display and the fourth-generation Apple TV 4K both ship on 13 November and support Siri AI from day one. The site's author says he hopes the HomePod gains it by mid-November, but he notes that is speculation, not an Apple commitment. Apple also adds a Sound Glow light on top that follows the music."
+   ],
+   "entities": [
+    "Apple",
+    "HomePod mini 2",
+    "Siri AI",
+    "HomeView"
+   ],
+   "sources": [
+    {
+     "author": "Apple Newsroom",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-announces-the-next-generation-of-homepod-mini/"
+    },
+    {
+     "author": "9to5Mac",
+     "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2285033/apple-homepod-mini-2-launch-siri-ai-later/"
+    }
+   ],
+   "placement": "front"
   },
   {
    "cluster_id": "c53a6bb0a",
@@ -143,7 +282,7 @@
      "url": "https://www.engadget.com/2281539/how-to-use-google-gemini-automate-tasks/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-solidcraft",
@@ -167,7 +306,7 @@
      "url": "https://github.com/bherbruck/solidcraft"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-janas-llm-ssd-experts",
@@ -192,7 +331,7 @@
      "url": "https://github.com/prabanta-dev/janas"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-terminalhorizon-27b",
@@ -218,7 +357,7 @@
      "url": "https://huggingface.co/papers/2610.13166"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-nikkei-ntt-anthropic-osaka",
@@ -333,6 +472,12 @@
     }
    ],
    "placement": "inside"
+  }
+ ],
+ "lead_changes": [
+  {
+   "cluster_id": "find-gemini-4-argon-live",
+   "replaced": "find-anthropic-distillation-defenses"
   }
  ]
 }
