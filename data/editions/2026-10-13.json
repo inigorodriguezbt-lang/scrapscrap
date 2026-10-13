@@ -51,6 +51,77 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "c3c8971fd",
+   "section": "security",
+   "headline": "OpenAI says an engineer hid a recording device in an executive conference room",
+   "standfirst": "OpenAI says it used its own models to analyse a bug found behind a TV in an executive room. Prosecutors charged engineer Abdulrahman Alfozan, who is in custody.",
+   "body": [
+    "OpenAI said on Tuesday that it found a \"sophisticated recording device\" hidden in one of its offices and that the FBI has arrested the employee it identified as responsible. Prosecutors charged Abdulrahman Alfozan, 35, a Saudi national who joined OpenAI in July 2025, with using or attempting to use a device to intercept oral communications, according to Engadget and the San Francisco Standard. He made his first court appearance on Tuesday.",
+    "According to the criminal complaint, as reported by the San Francisco Standard, the recorder was plugged into a USB port on the back of a TV in an executive conference room, wrapped in toilet paper. OpenAI believes it was installed around 28 September and says its security team found it on 30 September during a sweep. The room often hosted talks on the product roadmap, research and government engagement, the complaint says.",
+    "OpenAI says it used its own models to analyse forensic images of the device's storage and work out where it came from. Prosecutors allege that a chatbot account tied to Alfozan's spouse, sharing identifiers with his own, asked how to \"build a continuous audio recorder\" and \"encrypt the SD card\". Those queries are prosecutors' allegations. Neither the complaint's wording nor the chatbot involved has been independently checked.",
+    "The complaint says that on 5 October he returned to the room, and later left a bag in another room containing his wallet, ID and a second recording device. He was arrested on 9 October, and OpenAI says he was fired. U.S. Attorney Craig Missakian called it \"a matter of national security\", the Standard reports. A detention hearing is set for 19 October.",
+    "OpenAI says it has \"no indications\" that he accessed or took model weights, source code or customer data, and that it has evidence he intended to place other devices in sensitive spaces. Both claims are the company's own. The charges are allegations, no motive has been given, and the maximum penalty is five years in prison and a $250,000 fine."
+   ],
+   "entities": [
+    "OpenAI",
+    "FBI",
+    "Abdulrahman Alfozan"
+   ],
+   "sources": [
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/"
+    },
+    {
+     "author": "The San Francisco Standard",
+     "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "c9242c9cc",
+   "section": "policy",
+   "headline": "Judge gives Apple early access to OpenAI hiring records in trade secrets case",
+   "standfirst": "A federal judge ordered OpenAI to hand over interview materials for ex-Apple hires within five days and cleared depositions of three former Apple staff, including its hardware chief.",
+   "body": [
+    "A federal judge on Tuesday granted part of Apple's request for early evidence in its trade secrets lawsuit against OpenAI, according to TechCrunch and 9to5Mac. U.S. District Judge Edward Davila ruled that Apple can review OpenAI's interview materials for former Apple employees who applied to its consumer hardware and robotics groups. Apple filed the suit in July.",
+    "TechCrunch reports the materials may include interview checklists, guides, scripts and records of discussions that referenced Apple technology. OpenAI must produce what it has already collected within five days and related material within 14 days. Apple also gets private LINE messages between individuals named in the case, including OpenAI employees Chang Liu and Alyssa Peng.",
+    "The judge approved depositions of Liu, Peng and Tang Yew Tan, OpenAI's chief hardware officer, all former Apple employees, TechCrunch says. Apple alleges a pattern of theft: that former staff used Apple laptops to download confidential files on unannounced products, and that ex-Apple employees at OpenAI coached others on what to bring to interviews. These are Apple's allegations.",
+    "Davila denied, for now, expedited access to OpenAI's research on areas such as metal finishes and power management, and several broader requests covering its hardware research. TechCrunch says the denial is not final, and Apple can narrow the requests and try again. Neither article carries a statement from OpenAI, and the company has not been reported to have responded."
+   ],
+   "entities": [
+    "Apple",
+    "OpenAI",
+    "Edward Davila"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
+    },
+    {
+     "author": "9to5Mac",
+     "url": "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-argon-robotics",
    "section": "models",
    "headline": "Google says Gemini 4 Argon taught a humanoid cornhole from video",
@@ -237,7 +308,7 @@
      "url": "https://x.com/AnthropicAI/status/2109795898909950247"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-clark-rsi-2027",
@@ -270,7 +341,7 @@
      "url": "https://x.com/_NathanCalvin/status/2110014927792427349"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-eg2-speech-to-text",
