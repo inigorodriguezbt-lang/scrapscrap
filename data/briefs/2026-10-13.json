@@ -1,45 +1,39 @@
 {
-  "generated_at": "2026-10-13T10:03:07.430835+00:00",
+  "generated_at": "2026-10-13T12:03:39.528557+00:00",
   "edition_date": "2026-10-13",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 83,
-  "clusters_found": 62,
-  "stories_declared": 5,
+  "posts_considered": 88,
+  "clusters_found": 66,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c8aae27d9",
-      "score": 16.406,
+      "cluster_id": "c5caa4d8f",
+      "score": 15.896,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Google",
         "Meta"
       ],
       "independent_sources": [
-        "Engadget",
         "Latent Space",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
-        "eliebakouch",
-        "mark_k",
-        "testingcatalog"
+        "kimmonismus",
+        "theo"
       ],
-      "source_count": 8,
+      "source_count": 6,
       "first_seen": "2026-10-12T17:00:00+00:00",
-      "last_seen": "2026-10-13T09:37:04+00:00",
+      "last_seen": "2026-10-13T11:43:11+00:00",
       "links": [
         "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
         "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-        "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
         "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
         "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-        "https://x.com/eliebakouch/status/2109928497074344063",
-        "https://x.com/mark_k/status/2109930457072615595",
-        "https://x.com/mark_k/status/2109936816195244465",
-        "https://x.com/testingcatalog/status/2109924204468425145"
+        "https://x.com/kimmonismus/status/2109951529344192982",
+        "https://x.com/theo/status/2109973219793096780"
       ],
       "posts": [
         {
@@ -67,58 +61,72 @@
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF — Oct 13 META: Meta released Muse Wonder, its first frontier model, on the Meta Model API and in Muse Code at $4/$20 per million input/output tokens. Muse Wonder Full, Meta's max-reasoning variant, is launching only for Muse Code subscribers and won't be offered on the API. SPACEXSI: SpaceXSI introduced The X Subscription, one set of plans covering Grok, Cursor and X Premium: Plus $8, Premium $30, Super $100 and Ultra $200 per month. GOOGLE: Gemini 4 Argon is set to arrive today for Google AI Ultra subscribers. Antigravity CLI 1.3.4 adds Gemini 4 Argon m",
-          "url": "https://x.com/testingcatalog/status/2109924204468425145",
-          "created_at": "2026-10-13T08:28:25+00:00",
-          "engagement": 82
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "X bundles Premium, Grok and Cursor under a single monthly subscription. SpaceXSI has announced a new subscription scheme that gives you access to Grok, Grok Bot, Cursor and X Premium.",
-          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
-          "created_at": "2026-10-13T08:44:18+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "eliebakouch",
-          "tier": "commentary",
-          "text": "i'm happy meta is \"catching up to the frontier\" but there is NOT EVEN ONE plot with x axis cost and y axis score in the blog or evaluation card (only bar plots). this is the only plot that we have and shows that Muse Wonder (Max) is slightly worse than Gemini 4 (high) while being more than 2x costly.",
-          "url": "https://x.com/eliebakouch/status/2109928497074344063",
-          "created_at": "2026-10-13T08:45:28+00:00",
-          "engagement": 57
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "SpaceXSI has introduced \"The X Subscription\", combining Grok, Grok Bot, Cursor and X Premium into a single subscription. Plus: $8/month Premium: $30/month Super: $100/month Ultra: $200/month. The $30 Premium tier combines SuperGrok, Cursor Pro and X Premium+, which previously cost $90/month together.",
-          "url": "https://x.com/mark_k/status/2109930457072615595",
-          "created_at": "2026-10-13T08:53:16+00:00",
-          "engagement": 29
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Today is Gemini 4 Argon release @GoogleDeepMind is returning to the frontier!",
-          "url": "https://x.com/mark_k/status/2109936816195244465",
-          "created_at": "2026-10-13T09:18:32+00:00",
-          "engagement": 108
-        },
-        {
           "author": "Latent Space",
           "tier": "commentary",
           "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
           "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
           "created_at": "2026-10-13T09:37:04+00:00",
           "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Meta built Wonder for agents that act on your behalf, starting with its Muse app. Two features: active memory, and active focus, which keeps a task going when it gets hard. Wang says Meta invested in memory disproportionately. Models trained on Meta's Prometheus cluster in Ohio.",
+          "url": "https://x.com/kimmonismus/status/2109951529344192982",
+          "created_at": "2026-10-13T10:17:00+00:00",
+          "engagement": 141
+        },
+        {
+          "author": "theo",
+          "tier": "commentary",
+          "text": "I really like Muse Wonder Full. Let me explain.",
+          "url": "https://x.com/theo/status/2109973219793096780",
+          "created_at": "2026-10-13T11:43:11+00:00",
+          "engagement": 164,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca8291ad5",
+      "score": 8.181,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "Engadget",
+        "Tom's Hardware"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-12T20:48:19+00:00",
+      "last_seen": "2026-10-13T11:22:26+00:00",
+      "links": [
+        "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+        "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Epic reportedly delays its Disney video game so it can be made using more AI. Developers were apparently ordered to use AI for both code and asset creation.",
+          "url": "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+          "created_at": "2026-10-12T20:48:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Epic Games reportedly delays Disney shooter title so it can pivot to AI coding. Developers working on an unnamed Disney shooter title for Epic Games were surprised when they were ordered to use as much AI as possible in their workflows.",
+          "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows",
+          "created_at": "2026-10-13T11:22:26+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c491df326",
-      "score": 7.407,
+      "score": 7.072,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -157,7 +165,7 @@
     },
     {
       "cluster_id": "c3a8eabcb",
-      "score": 7.114,
+      "score": 6.78,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -206,7 +214,7 @@
     },
     {
       "cluster_id": "cfb48b3c6",
-      "score": 6.944,
+      "score": 6.62,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -277,6 +285,84 @@
           "text": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027. Microsoft will make its in-house Azure Maia chips the main AI inference system across its products starting in 2027, deploying them at multi-gigawatt scale. The upcoming Maia 300 should deliver 40 percent more tokens per megawatt than leading GPU systems. CEO Satya Nadella calls it \"our biggest bet yet on our own silicon.\" The article Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027 appeared first on The Decoder .",
           "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/",
           "created_at": "2026-10-12T15:24:03+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cbe774528",
+      "score": 6.112,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [],
+      "independent_sources": [
+        "TechCrunch AI",
+        "Wired AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-12T17:19:14+00:00",
+      "last_seen": "2026-10-13T10:00:00+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+        "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "WindBorne wins a hefty US Air Force contract for its balloon data. A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+          "created_at": "2026-10-12T17:19:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies. Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+          "created_at": "2026-10-13T10:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca2f8a28d",
+      "score": 4.364,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-12T13:14:54+00:00",
+      "last_seen": "2026-10-13T10:31:41+00:00",
+      "links": [
+        "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+        "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "White House reverses course and restores UK AI Safety Institute's access to frontier models. The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models appeared first on The Decoder .",
+          "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+          "created_at": "2026-10-12T13:14:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Moderna, Google DeepMind, Biocon on AI in Science. Noubar Afeyan, Co-Founder & Chairman, Moderna and Founder & CEO, Flagship Pioneering; Lila Ibrahim, Chief AI Readiness Officer, Google DeepMind; and Kiran Mazumdar-Shaw, Founder & Executive Chairperson, Biocon discuss how AI is reshaping scientific discovery with Bloomberg's Francine Lacqua at the 2026 Bloomberg New Economy Forum in New Delhi. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video",
+          "created_at": "2026-10-13T10:31:41+00:00",
           "engagement": 0
         }
       ]
