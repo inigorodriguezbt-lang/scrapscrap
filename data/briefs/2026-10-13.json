@@ -1,99 +1,56 @@
 {
-  "generated_at": "2026-10-13T06:04:11.674055+00:00",
+  "generated_at": "2026-10-13T08:03:14.500379+00:00",
   "edition_date": "2026-10-13",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 83,
+  "posts_considered": 85,
   "clusters_found": 65,
-  "stories_declared": 7,
+  "stories_declared": 6,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c86c97989",
-      "score": 14.981,
+      "cluster_id": "cff0a56e3",
+      "score": 11.724,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta"
-      ],
+      "entities": [],
       "independent_sources": [
-        "Bloomberg Tech",
-        "The Decoder",
-        "theo"
+        "koltregaskes",
+        "synthwavedd"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-12T09:35:54+00:00",
-      "last_seen": "2026-10-13T05:12:44+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-13T06:20:47+00:00",
+      "last_seen": "2026-10-13T06:34:28+00:00",
       "links": [
-        "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
-        "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-        "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-        "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
-        "https://www.bloomberg.com/news/videos/2026-10-12/muse-wonder-puts-meta-s-aggressive-ai-push-in-focus-video",
-        "https://x.com/theo/status/2109874961070616654"
+        "https://x.com/koltregaskes/status/2109892084132192393",
+        "https://x.com/synthwavedd/status/2109895525986074837"
       ],
       "posts": [
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed. Google Deepmind's AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its results reviewed before publishing. The article Google Deepmind&#039;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-          "created_at": "2026-10-12T09:35:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do. Andrej Karpathy, co-founder of OpenAI and now at Anthropic, sees a widening knowledge gap in AI. About 75 percent of the world's population has barely touched LLMs. Roughly 5,000 people, meanwhile, have access to internal frontier systems whose agent swarms do work that would take top experts years. The public, at best, sees a weird chatbot. The article Anthropic&#039;s Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
-          "created_at": "2026-10-12T12:51:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "White House reverses course and restores UK AI Safety Institute's access to frontier models. The White House has reversed course and restored the UK's AI Security Institute's early access to AI models from Anthropic, Google DeepMind, and OpenAI. In September, the Trump administration had told the companies to stop sharing their models with the British agency. Diplomatic pressure from AI Minister Kanishka Narayan led to the reversal. The article White House reverses course and restores UK AI Safety Institute&#039;s access to frontier models appeared first on The Decoder .",
-          "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-          "created_at": "2026-10-12T13:14:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Meta Releases New AI Model Called Muse Wonder. Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude. Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
-          "created_at": "2026-10-12T20:55:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Muse Wonder Puts Meta's Aggressive AI Push in Focus. Meta Platforms released a new artificial intelligence model called Muse Wonder, which the company claims is a big leap over its predecessors. Riley Griffin has more on \"The Asia Trade.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/muse-wonder-puts-meta-s-aggressive-ai-push-in-focus-video",
-          "created_at": "2026-10-12T23:23:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "theo",
+          "author": "koltregaskes",
           "tier": "commentary",
-          "text": "Asked Opus 5.5, GPT-6.1 Sol, and Muse Wonder Full to fix a bug. Opus found the root cause and filed a pr. GPT-6.1 Sol asked a question, crashed from the async question tool interrupt, found the bug, fixed it, wrote 300 lines of tests, and explained it in impossible to understand terms. Muse Wonder Full found a small PR someone else had filed and said you should probably merge this instead. I really like this model.",
-          "url": "https://x.com/theo/status/2109874961070616654",
-          "created_at": "2026-10-13T05:12:44+00:00",
-          "engagement": 980
+          "text": "Gemini 4 Argon public release later today. https://t.co/Bs7CkI0ijA",
+          "url": "https://x.com/koltregaskes/status/2109892084132192393",
+          "created_at": "2026-10-13T06:20:47+00:00",
+          "engagement": 37
+        },
+        {
+          "author": "synthwavedd",
+          "tier": "commentary",
+          "text": "As I said! \n\nHappy Gemini 4 Argon day to those who celebrate 🍿 I have low expectations, but all I want is for the model to be as good for world knowledge tasks as Gemini 3/3.1 Pro were",
+          "url": "https://x.com/synthwavedd/status/2109895525986074837",
+          "created_at": "2026-10-13T06:34:28+00:00",
+          "engagement": 419
         }
       ]
     },
     {
-      "cluster_id": "c9f2ece45",
-      "score": 9.706,
+      "cluster_id": "c37f73813",
+      "score": 10.472,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic",
         "Meta"
       ],
       "independent_sources": [
@@ -104,14 +61,11 @@
       ],
       "source_count": 4,
       "first_seen": "2026-10-12T17:00:00+00:00",
-      "last_seen": "2026-10-12T21:53:03+00:00",
+      "last_seen": "2026-10-12T23:23:43+00:00",
       "links": [
         "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
         "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-        "https://www.bloomberg.com/news/videos/2026-10-12/barclays-generational-shift-in-aerospace-defense-video",
-        "https://www.bloomberg.com/news/videos/2026-10-12/meta-unveils-muse-wonder-ai-closing-bell-video",
-        "https://www.bloomberg.com/news/videos/2026-10-12/neostellar-s-willy-lee-ai-market-is-starting-to-mature-video",
-        "https://www.bloomberg.com/news/videos/2026-10-12/the-close-10-12-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-10-12/muse-wonder-puts-meta-s-aggressive-ai-push-in-focus-video",
         "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
       ],
       "posts": [
@@ -142,79 +96,16 @@
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Meta Rallies as New Muse Wonder Model Heats up AI Race | Closing Bell. Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Scarlet Fu, Hema Parmar, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-unveils-muse-wonder-ai-closing-bell-video",
-          "created_at": "2026-10-12T20:25:55+00:00",
+          "text": "Muse Wonder Puts Meta's Aggressive AI Push in Focus. Meta Platforms released a new artificial intelligence model called Muse Wonder, which the company claims is a big leap over its predecessors. Riley Griffin has more on \"The Asia Trade.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/muse-wonder-puts-meta-s-aggressive-ai-push-in-focus-video",
+          "created_at": "2026-10-12T23:23:43+00:00",
           "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Barclays: “Generational Shift” in Aerospace & Defense. Anthony Valentini of Barclays says aerospace and defense is at an inflection point: newer, high-growth companies using commercial business models should be evaluated differently from traditional contractors and could achieve higher margins at scale. He describes the shift toward lower-cost autonomous systems as a generational change, with new entrants positioned to gain market share over the next decade. He speaks with Scarlet Fu & Hema Parmar on \"The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/barclays-generational-shift-in-aerospace-defense-video",
-          "created_at": "2026-10-12T21:20:08+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Neostellar’s Willy Lee on AI Landscape Ahead of Anthropic Pre-IPO Investor Day. Willy Lee, Principal at Neostellar, says attention on Anthropic’s potential IPO risks obscuring broader AI investment and adoption. He cited nearly $200 billion in U.S. venture capital deployed in the first half of the year—more than 74% of the prior year’s estimated total. He speaks with Scarlet Fu & Hema Parmar on \"The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/neostellar-s-willy-lee-ai-market-is-starting-to-mature-video",
-          "created_at": "2026-10-12T21:33:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Earnings Season, AI & Oil Prices in Focus. The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are RockCreek CEO & Founder Afsaneh Beschloss, Barclays Multi-Sector Aerospace & Defense Analyst Anthony Valentini, Former Fed Governor Betsy Duke, Robinhood Markets CIO Stephanie Guild, Inflation Insights Founder & President Omair Sharif, Gabelli Funds Portfolio Manager Macrae Skyes, & Neostellar Principal Willy Lee. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/the-close-10-12-2026-video",
-          "created_at": "2026-10-12T21:53:03+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c1a90bbc4",
-      "score": 9.389,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "OfficialLoganK",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T04:31:45+00:00",
-      "last_seen": "2026-10-13T05:27:04+00:00",
-      "links": [
-        "https://x.com/OfficialLoganK/status/2109864644416516309",
-        "https://x.com/testingcatalog/status/2109878567337439634"
-      ],
-      "posts": [
-        {
-          "author": "OfficialLoganK",
-          "tier": "commentary",
-          "text": "@jparkjmc excited to see how Gemini 4 Argon does on this!",
-          "url": "https://x.com/OfficialLoganK/status/2109864644416516309",
-          "created_at": "2026-10-13T04:31:45+00:00",
-          "engagement": 266
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "GOOGLE: It has been officially confirmed, today is the day for Gemini 4 Argon to arrive (for Ultra subscribers).",
-          "url": "https://x.com/testingcatalog/status/2109878567337439634",
-          "created_at": "2026-10-13T05:27:04+00:00",
-          "engagement": 207
         }
       ]
     },
     {
       "cluster_id": "c491df326",
-      "score": 8.07,
+      "score": 7.74,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -253,7 +144,7 @@
     },
     {
       "cluster_id": "c3a8eabcb",
-      "score": 7.778,
+      "score": 7.447,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -302,7 +193,7 @@
     },
     {
       "cluster_id": "cfb48b3c6",
-      "score": 7.608,
+      "score": 7.277,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -339,7 +230,7 @@
     },
     {
       "cluster_id": "ce2987a2c",
-      "score": 6.51,
+      "score": 6.455,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
