@@ -1,0 +1,100 @@
+{
+ "edition_date": "2026-10-13",
+ "stories": [
+  {
+   "cluster_id": "find-anthropic-distillation-defenses",
+   "section": "security",
+   "headline": "Anthropic says new defences cut distillation of Claude reasoning 10-fold",
+   "standfirst": "Anthropic says reasoning tokens extractable from Claude fell 10 to 100 times after new classifiers and account limits, and it names Zhipu's GLM-5.3 as a distillation target.",
+   "body": [
+    "Anthropic said on Monday that it has sharply reduced how much of Claude's reasoning distillers can harvest, in a research post titled \"Strengthening our defenses against distillation attacks\". The company says reasoning tokens extractable on its platform fell by 10 to 100 times or more, and on some days the amount was too small to measure. These are Anthropic's own figures, and no outside party has checked them.",
+    "The post describes three layers. Anthropic says new API accounts created on or after 31 August can no longer edit Claude's prior context under a feature it calls preserved thinking. It says Claude Sonnet 5.5 reasoning is visible only to the organisation whose request produced it. A two-stage classifier, built on its constitutional-classifiers research, blocks extraction prompts, with a false positive rate Anthropic puts under 0.1 percent.",
+    "Anthropic also says persistent extractors face tighter usage limits and bans, and that tens of thousands of accounts linked to distillation have been removed, often within two hours of a campaign starting. Since 24 September it charges for requests its safeguards block before Claude replies. It says it has turned away meaningful revenue and trillions of tokens of paying traffic from distillers.",
+    "The post names two cases. Anthropic alleges Zhipu tried to distill cyber capabilities from US models while building GLM-5.3, and switched to an older Claude model and another lab's model after Anthropic's safeguards degraded the attempt. It also alleges requests to Moonshot's Kimi models were secretly forwarded to Claude. Neither company's response was in the material reviewed.",
+    "Anthropic calls the effort a cat-and-mouse game. It says it does not know how long the gains will last, and has not yet seen a sophisticated, persistent attempt to get around the new measures. Some developers must update their integrations for preserved thinking, and the classifier may occasionally block benign requests, which are now billed. The company urges other platforms to share abuse signals."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude",
+    "Zhipu",
+    "Moonshot"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/research/distillation-defenses"
+    },
+    {
+     "author": "Anthropic on X",
+     "url": "https://x.com/AnthropicAI/status/2109795898909950247"
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-aa-3d-benchmark",
+   "section": "models",
+   "headline": "Artificial Analysis launches AA-3D, with Claude Sonnet 5.5 and Opus 5.5 on top",
+   "standfirst": "A new benchmark has human judges compare interactive three.js scenes that 21 models built from the same brief, and Artificial Analysis ranks Claude Sonnet 5.5 first at 1194 Elo.",
+   "body": [
+    "Artificial Analysis launched AA-3D on Monday, a benchmark that asks AI models to build interactive 3D scenes. Each model works as an agent in an offline sandbox and turns a written brief into a three.js web page, capped at three hours or 250 turns. The company says there are 55 briefs across seven domains, including landmarks, machines, living bodies and space.",
+    "Artificial Analysis says scoring is by people. A recruited panel compares two scenes made from the same brief without knowing which model built which, and the votes become Elo ratings with 95 percent confidence intervals. The leaderboard page cites more than 10,000 panel votes. Artificial Analysis has not said on the page how many judges took part.",
+    "Claude Sonnet 5.5 leads at 1194, with Claude Opus 5.5 at 1190, though their intervals overlap heavily, so the order between them may not hold. GPT-6 Astra follows at 1165, then Claude Fable 5.1 at 1131, GPT-6 Sol at 1123 and GPT-6.1 Sol at 1114. Meta's Muse Spark 1.3 is seventh at 1035. Meta's new Muse Wonder is not on the list.",
+    "GPT-6 Luna is fixed at 1000 as the reference point. Grok 4.7 and Claude Haiku 5.5 both score 994, and Kimi K3 scores 982. Mistral Large 4 Preview sits at 868, and Nvidia's Nemotron 3 Ultra and a model called Inkling are last at 569 and 579. The results are version 1.0 of one company's benchmark, and no one else has rerun it, so the order could shift."
+   ],
+   "entities": [
+    "Artificial Analysis",
+    "Anthropic",
+    "OpenAI",
+    "Meta"
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://artificialanalysis.ai/evaluations/aa-3d"
+    },
+    {
+     "author": "Artificial Analysis on X",
+     "url": "https://x.com/ArtificialAnlys/status/2109791341802885209"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2109791341802885209",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-x-subscription-cursor",
+   "section": "products",
+   "headline": "Cursor folds into The X Subscription, with Grok models at twice the usage",
+   "standfirst": "Cursor says its plans now sit inside The X Subscription, which runs from a free tier to $200 a month, and third-party models in Cursor move to API pricing.",
+   "body": [
+    "Cursor said on Monday that it is now part of The X Subscription, a bundle that shares one usage pool across Cursor, Grok Build and other Grok products. Current Cursor subscribers can keep their plan or switch. Cursor says paid plans give twice the coding usage on Grok models as the equivalent Cursor plan, and that the top three paid tiers also include Grok Bot.",
+    "Cursor's pricing page lists five individual tiers. Free has limited agent and chat requests, Plus costs $8 a month, Premium $30, Super $100 and Ultra $200. Cursor lists Premium as four times Plus usage, Super as 15 times and Ultra as 50 times. The allowance refreshes weekly, and users can buy top-ups. Teams starts at $30 or more per user.",
+    "The change may matter most for users of other labs' models. Cursor says that to make room for more Grok usage, third-party models in Cursor move to API pricing on the new plans. Its pricing page says Premium and above include no allowance for them. They are billed separately at API list price, and users can set spending caps. Plus covers Grok models only in Cursor.",
+    "The move follows a September announcement from SpaceXAI, reported by outlets including Bloomberg, that it planned to align the Grok and Cursor plans. One source says SpaceXAI closed its purchase of Cursor's parent, Anysphere, on 14 August. Neither company has said how many subscribers are affected, and Cursor says prices may change."
+   ],
+   "entities": [
+    "Cursor",
+    "SpaceXAI",
+    "xAI",
+    "Grok"
+   ],
+   "sources": [
+    {
+     "author": "Cursor on X",
+     "url": "https://x.com/cursor_ai/status/2109783879490191502"
+    },
+    {
+     "author": "Cursor pricing",
+     "url": "https://cursor.com/pricing"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
