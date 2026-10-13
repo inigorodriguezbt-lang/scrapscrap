@@ -32,6 +32,30 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-dishwasherbench",
+   "section": "research",
+   "headline": "Composo's DishwasherBench tests whether AI models can load a dishwasher",
+   "standfirst": "Composo says its open-source Spotless game scored GPT-6.1 Sol and GPT-6 Astra above a careful reference load on a 62-piece dinner-party level, from one run each.",
+   "body": [
+    "Composo, an AI evaluation company, has published DishwasherBench on GitHub, a benchmark built as a dishwasher-loading game called Spotless. It reached the Hacker News front page on Tuesday with 44 points and 15 comments. The repository is at version 0.1.0, which the README calls an early release, and carries an MIT licence. It showed 13 stars when we read it.",
+    "According to the README, a player loads a 3D model of one real machine, a Bosch SMV4HAX40G, and the game simulates a wash on its Eco 50 programme. Items settle under rigid-body physics, and an item counts as clean with at most 4 specks and 4 mm² of visible soil. The game plays in a browser, and agents can drive it through an MCP server with 13 tools.",
+    "The README lists seven levels, of which the tutorial has 12 pieces, breakfast 37 and dinner-party 62. From the second level on, not everything fits, so the player must choose what to load. In Composo's table, GPT-6.1 Sol scored 70.8% of the points on dinner-party and GPT-6 Astra 74.7%, against 68.1% for a scripted careful loader and 24.0% for a random one.",
+    "Composo cautions against reading much into this. It says one episode per cell is \"an anecdote, not a benchmark result\", and it does not rank the two models. Anthropic models, people and several levels were not tested. The README also says calibration rests on one real test wash, drying and glass film are not modelled, and only one Apple M3 Pro Mac has run it."
+   ],
+   "entities": [
+    "Composo",
+    "OpenAI",
+    "Bosch"
+   ],
+   "sources": [
+    {
+     "author": "Composo, DishwasherBench README",
+     "url": "https://github.com/composo-ai/DishwasherBench"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "c491df326",
    "section": "products",
    "headline": "Google folds its Spark agent into the main Gemini app as a Task button",
@@ -217,7 +241,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-x-subscription-cursor",

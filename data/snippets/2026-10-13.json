@@ -242,6 +242,46 @@
    },
    "published_at": "2026-10-12T14:00:00+00:00",
    "id": "the-argmin-net-blog-says-openai"
+  },
+  {
+   "text": "Beijing Academy of AI researchers released AgentSWE, a 25-task benchmark of coding agents building agents; they report the best creation score was 19.1, by DeepSeek-V4-Pro, on held-out cases.",
+   "why": "The authors say agents that look finished on development cases mostly fail on unseen ones, with 58.1% of traced creation runs failing a validity gate.",
+   "source": {
+    "name": "AgentSWE paper on Hugging Face",
+    "url": "https://huggingface.co/papers/2610.13361"
+   },
+   "published_at": "2026-10-12T18:00:00+00:00",
+   "id": "beijing-academy-of-ai-researchers-released"
+  },
+  {
+   "text": "A Stanford-linked paper says turning thinking off does not stop reasoning: it reports DeepSeek-V4-Flash showed visible explicit inference in 99.9% of open-ended answers with thinking disabled.",
+   "why": "The authors call it thinking inertia and say stricter answer-only prompts cut open-ended accuracy by about 15 points on average.",
+   "source": {
+    "name": "Thinking Inertia paper on Hugging Face",
+    "url": "https://huggingface.co/papers/2610.11765"
+   },
+   "published_at": "2026-10-13T00:00:00+00:00",
+   "id": "a-stanford-linked-paper-says-turning"
+  },
+  {
+   "text": "Reuters reports, per IDC figures relayed by mark_k, that Nvidia shipped 678,000 AI accelerators in China in the first half of 2026, down 44% on the year, against 572,000 for Huawei.",
+   "why": "That leaves Nvidia on 34% of China's data-centre AI-chip market and Huawei on 28%, a six-point gap, as US export limits bite.",
+   "source": {
+    "name": "mark_k on X",
+    "url": "https://x.com/mark_k/status/2109921211689939314"
+   },
+   "published_at": "2026-10-13T08:36:31+00:00",
+   "id": "reuters-reports-per-idc-figures-relayed"
+  },
+  {
+   "text": "Researcher eliebakouch says Meta's Muse Wonder launch shows no cost-versus-score chart, only bar plots, and that the one Artificial Analysis plot has it slightly behind Gemini 4 (high) at over twice the cost.",
+   "why": "It is an early outside challenge to Meta's frontier claims for Muse Wonder, though Bakouch himself warns against over-reading that single plot.",
+   "source": {
+    "name": "eliebakouch on X",
+    "url": "https://x.com/eliebakouch/status/2109928497074344063"
+   },
+   "published_at": "2026-10-13T08:45:28+00:00",
+   "id": "researcher-eliebakouch-says-meta-s-muse"
   }
  ]
 }
