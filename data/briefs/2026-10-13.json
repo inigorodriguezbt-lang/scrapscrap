@@ -1,61 +1,130 @@
 {
-  "generated_at": "2026-10-13T16:04:08.704173+00:00",
+  "generated_at": "2026-10-13T18:03:34.454218+00:00",
   "edition_date": "2026-10-13",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 109,
-  "clusters_found": 77,
-  "stories_declared": 11,
+  "posts_considered": 116,
+  "clusters_found": 85,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c38d20e03",
-      "score": 16.239,
+      "cluster_id": "cd40a6c5d",
+      "score": 18.435,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
         "Google"
       ],
       "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
         "DeepMind",
-        "kimmonismus",
-        "synthwavedd",
-        "testingcatalog"
+        "Engadget",
+        "GoogleDeepMind",
+        "demishassabis"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-13T15:38:12+00:00",
-      "last_seen": "2026-10-13T16:01:58+00:00",
+      "source_count": 6,
+      "first_seen": "2026-10-13T16:00:00+00:00",
+      "last_seen": "2026-10-13T16:15:00+00:00",
       "links": [
+        "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
+        "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
+        "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
         "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-        "https://deepmind.google/blog/introducing-gemini-4-argon/",
-        "https://x.com/kimmonismus/status/2110035010539475306",
-        "https://x.com/synthwavedd/status/2110034487220330758",
-        "https://x.com/testingcatalog/status/2110032362738425954"
+        "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
+        "https://x.com/GoogleDeepMind/status/2110039277442682916",
+        "https://x.com/demishassabis/status/2110041008100843835"
       ],
       "posts": [
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "GOOGLE: Gemini 4 Argon has started rolling out and is now available in Agent Studio on GCP. You can already test the model there. Google AI Studio and Gemini apps should follow.",
-          "url": "https://x.com/testingcatalog/status/2110032362738425954",
-          "created_at": "2026-10-13T15:38:12+00:00",
-          "engagement": 254
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google's Gemini 4 Argon is now available in the Gemini app and AI Mode in Search. Google has rolled out Gemini 4 Argon to more users.",
+          "url": "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
+          "created_at": "2026-10-13T16:00:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "synthwavedd",
-          "tier": "commentary",
-          "text": "Gemini 4 Argon is now live on the Gemini API!",
-          "url": "https://x.com/synthwavedd/status/2110034487220330758",
-          "created_at": "2026-10-13T15:46:38+00:00",
-          "engagement": 293
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini app rolling out Gemini 4 Argon to AI Pro and AI Ultra. Following the announcement at the end of September, Gemini 4 Argon is starting to roll out to the Gemini app, Google Antigravity, and more. more…",
+          "url": "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
+          "created_at": "2026-10-13T16:00:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "kimmonismus",
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay. Developers will get 50 percent discounted API rates through November.",
+          "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+          "created_at": "2026-10-13T16:00:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Gemini 4 Argon for Robotics",
+          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+          "created_at": "2026-10-13T16:01:58+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "GoogleDeepMind",
           "tier": "commentary",
-          "text": "Here we go: Gemini 4 Argon: going live!",
-          "url": "https://x.com/kimmonismus/status/2110035010539475306",
-          "created_at": "2026-10-13T15:48:43+00:00",
-          "engagement": 176
+          "text": "Here's how you can try it: Everyday users: In the GeminiApp and AI Mode in Search for Google AI Pro and Ultra subscribers. Developers: Gemini API paid tier, plus Antigravity and GoogleAIStudio for Google AI Ultra subscribers. Scientists: Apply for the top usage tier in Antigravity free of charge. Enterprises: Gemini for business and in Antigravity.",
+          "url": "https://x.com/GoogleDeepMind/status/2110039277442682916",
+          "created_at": "2026-10-13T16:05:41+00:00",
+          "engagement": 192,
+          "video": true
+        },
+        {
+          "author": "demishassabis",
+          "tier": "commentary",
+          "text": "Gemini 4 Argon is amazing for knowledge work and coding - and it's super fun to build with! We asked it to create this wizard chess game and it's so cool to see Argon's physics understanding & 3D modelling capabilities. Argon is rolling out today to Google Ultra and Pro subscribers in the @GeminiApp and Search, and Ultra subscribers in @antigravity!",
+          "url": "https://x.com/demishassabis/status/2110041008100843835",
+          "created_at": "2026-10-13T16:12:33+00:00",
+          "engagement": 2467,
+          "video": true
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Antigravity is now built into Gemini app for macOS. As part of today’s Gemini 4 Argon rollout, Google is making a big update to the Gemini app for macOS by integrating Antigravity. more…",
+          "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
+          "created_at": "2026-10-13T16:15:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca9a8d06d",
+      "score": 14.098,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "DeepMind",
+        "Google AI",
+        "GoogleDeepMind"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-13T16:00:00+00:00",
+      "last_seen": "2026-10-13T16:05:40+00:00",
+      "links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "https://deepmind.google/blog/introducing-gemini-4-argon/",
+        "https://x.com/GoogleDeepMind/status/2110039274922131792"
+      ],
+      "posts": [
+        {
+          "author": "Google AI",
+          "tier": "primary",
+          "text": "Gemini 4 Argon: Built to solve your hardest problems. We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "created_at": "2026-10-13T16:00:00+00:00",
+          "engagement": 0
         },
         {
           "author": "DeepMind",
@@ -66,124 +135,239 @@
           "engagement": 0
         },
         {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon for Robotics",
-          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-          "created_at": "2026-10-13T16:01:58+00:00",
-          "engagement": 0
+          "author": "GoogleDeepMind",
+          "tier": "commentary",
+          "text": "Gemini 4 Argon is now globally available. Built to solve your hardest problems from start to finish, the model brings frontier capabilities across coding, enterprise workflows, and cyber defense.",
+          "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+          "created_at": "2026-10-13T16:05:40+00:00",
+          "engagement": 3405,
+          "video": true
         }
       ]
     },
     {
-      "cluster_id": "c669a8fe1",
-      "score": 11.706,
+      "cluster_id": "c93260729",
+      "score": 10.498,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
         "Google"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "omarsar0"
+        "Ars Technica AI",
+        "Engadget",
+        "TechCrunch AI",
+        "The Verge AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T09:58:05+00:00",
-      "last_seen": "2026-10-13T13:57:02+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-13T17:00:00+00:00",
+      "last_seen": "2026-10-13T17:00:39+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-13/moderna-founder-calls-for-urgent-regulation-of-ai-agents",
-        "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video",
-        "https://www.bloomberg.com/news/videos/2026-10-13/we-re-watching-the-wrong-ai-race-video",
-        "https://x.com/omarsar0/status/2110006902331769049"
+        "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+        "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+        "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+        "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "We’re Watching the Wrong AI Race. John Romeo, Managing Partner & CEO, Oliver Wyman Forum examines how humans can adapt and retain agency as AI becomes more powerful at the 2026 Bloomberg New Economy Forum in New Delhi. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-13/we-re-watching-the-wrong-ai-race-video",
-          "created_at": "2026-10-13T09:58:05+00:00",
+          "text": "Google Play now lets anyone build private, vibe-coded apps that run on Android. Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+          "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+          "created_at": "2026-10-13T17:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Moderna, Google DeepMind, Biocon on AI in Science. Noubar Afeyan, Co-Founder & Chairman, Moderna and Founder & CEO, Flagship Pioneering; Lila Ibrahim, Chief AI Readiness Officer, Google DeepMind; and Kiran Mazumdar-Shaw, Founder & Executive Chairperson, Biocon discuss how AI is reshaping scientific discovery with Bloomberg's Francine Lacqua at the 2026 Bloomberg New Economy Forum in New Delhi. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video",
-          "created_at": "2026-10-13T10:31:41+00:00",
+          "text": "Google makes it easier to launch your vibe-coded apps. The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code [&#8230;]",
+          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+          "created_at": "2026-10-13T17:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Moderna Founder Calls for Urgent Regulation of AI Agents. Billionaire biotech mogul Noubar Afeyan has called for urgent regulation of artificial intelligence agents that tech firms are selling, warning that waiting for a disaster risks repeating the past mistakes of the drug industry.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/moderna-founder-calls-for-urgent-regulation-of-ai-agents",
-          "created_at": "2026-10-13T13:23:02+00:00",
+          "text": "Google will let you distribute vibe-coded Android apps with just a Google account. The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
+          "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+          "created_at": "2026-10-13T17:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "omarsar0",
-          "tier": "commentary",
-          "text": "Paper from Google DeepMind on co-evolving an agent's harness and its weights: Evo2.",
-          "url": "https://x.com/omarsar0/status/2110006902331769049",
-          "created_at": "2026-10-13T13:57:02+00:00",
-          "engagement": 153
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google wants to host your personal vibe-coded apps in the Play Store. Google plans to help turn those personal AI-generated apps into wide releases.",
+          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+          "created_at": "2026-10-13T17:00:39+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c1e284414",
-      "score": 11.189,
-      "interest": "neutral",
+      "cluster_id": "c9d23b21b",
+      "score": 10.1,
+      "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "Anthropic"
+        "Apple"
       ],
       "independent_sources": [
-        "alexgetmancom",
-        "kimmonismus",
-        "testingcatalog"
+        "9to5Mac",
+        "Engadget",
+        "The Verge AI"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-13T13:33:45+00:00",
-      "last_seen": "2026-10-13T15:32:53+00:00",
+      "first_seen": "2026-10-13T13:00:00+00:00",
+      "last_seen": "2026-10-13T16:27:40+00:00",
       "links": [
-        "https://x.com/alexgetmancom/status/2110001044986163687",
-        "https://x.com/kimmonismus/status/2110023838264156496",
-        "https://x.com/testingcatalog/status/2110031026026332551"
+        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+        "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
+        "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look"
       ],
       "posts": [
         {
-          "author": "alexgetmancom",
-          "tier": "commentary",
-          "text": "Fable 5.5 appeared in Azure's East US 2 model catalog with GenerallyAvailable status",
-          "url": "https://x.com/alexgetmancom/status/2110001044986163687",
-          "created_at": "2026-10-13T13:33:45+00:00",
-          "engagement": 1161
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Apple launches HomeView, its first smart display for the home. It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibrant screen atop a speaker base for taking video calls, beautifully displaying photos, and providing information at a glance with Apple's [&#8230;]",
+          "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+          "created_at": "2026-10-13T13:00:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "Fable 5.5 has appeared in Azure's model API, according to LiteLLM.",
-          "url": "https://x.com/kimmonismus/status/2110023838264156496",
-          "created_at": "2026-10-13T15:04:20+00:00",
-          "engagement": 751
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+          "created_at": "2026-10-13T13:08:20+00:00",
+          "engagement": 0
         },
         {
-          "author": "testingcatalog",
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+          "created_at": "2026-10-13T14:47:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple HomePod mini 2 vs. Apple HomePod mini: What do you get for the $50 increase?. Are Siri AI, a new chip and Sound Glow worth the higher price?",
+          "url": "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
+          "created_at": "2026-10-13T16:27:40+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1ba92e1c",
+      "score": 9.937,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Latent Space",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-12T18:48:29+00:00",
+      "last_seen": "2026-10-13T17:06:58+00:00",
+      "links": [
+        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+        "https://www.bloomberg.com/news/videos/2026-10-13/bloomberg-tech-10-13-2026-video",
+        "https://www.bloomberg.com/news/videos/2026-10-13/meta-s-muse-wonder-takes-aim-at-openai-anthropic-video",
+        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
+          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+          "created_at": "2026-10-12T18:48:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Latent Space",
           "tier": "commentary",
-          "text": "ANTHROPIC: Claude Fable 5.5 traces have been spotted in Azure configs.",
-          "url": "https://x.com/testingcatalog/status/2110031026026332551",
-          "created_at": "2026-10-13T15:32:53+00:00",
-          "engagement": 283
+          "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
+          "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+          "created_at": "2026-10-13T09:37:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Meta’s Muse Wonder Takes Aim at OpenAI, Anthropic. Meta says its new Muse Wonder model has frontier-level capabilities, marking a major milestone in the company’s AI overhaul under chief AI officer Alexandr Wang. Bloomberg’s Riley Griffin spoke to him, and joins to discuss how Meta is positioning the model against rivals including OpenAI and Anthropic and how it was purpose-built to power the company’s Muse personal AI assistant. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-13/meta-s-muse-wonder-takes-aim-at-openai-anthropic-video",
+          "created_at": "2026-10-13T17:02:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Chip Selloff Spreads Globally, Apple Makes Smart Home Push. Bloomberg’s Ed Ludlow breaks down the accelerating chip selloff as pressure spreads from Asia to the US. Plus, Apple releases a new line of smart home devices including its HomeView Hub, the centerpiece of its push to challenge Amazon and Google in that space. And, Meta releases a new AI model which it says has \"frontier capabilities\" as it vies to take on OpenAI and Anthropic. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-13/bloomberg-tech-10-13-2026-video",
+          "created_at": "2026-10-13T17:06:58+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "caddbdc3f",
+      "score": 9.382,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "nvidia"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T16:07:12+00:00",
+      "last_seen": "2026-10-13T17:04:39+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
+        "https://x.com/nvidia/status/2110054117595066796"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nvidia’s Huang Plans $2 Billion in Europe AI Deals in Next Week. Nvidia Corp. is planning to announce $2 billion in European investments in the next week, Chief Executive Officer Jensen Huang said at an event in Paris on the first day of a tour that will also bring him to London and Berlin.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
+          "created_at": "2026-10-13T16:07:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "nvidia",
+          "tier": "commentary",
+          "text": "An evening in Paris with Jensen and the founders, researchers, and partners shaping AI across France.",
+          "url": "https://x.com/nvidia/status/2110054117595066796",
+          "created_at": "2026-10-13T17:04:39+00:00",
+          "engagement": 226,
+          "video": true
         }
       ]
     },
     {
       "cluster_id": "c476ffc88",
-      "score": 9.71,
+      "score": 9.378,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -231,115 +415,8 @@
       ]
     },
     {
-      "cluster_id": "c89434f55",
-      "score": 9.598,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "TechCrunch AI",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-12T17:00:00+00:00",
-      "last_seen": "2026-10-13T09:37:04+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-        "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-        "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta has some Wonder Full new AI models. Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-          "created_at": "2026-10-12T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Meta releases its first frontier model, Muse Wonder. Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
-          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-          "created_at": "2026-10-12T17:56:56+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier. Meta's new Muse Wonder models rank in the top three on six out of ten benchmarks, with the biggest gains in agentic tasks. But the cost per task has nearly tripled. The article Meta&#039;s new frontier model Muse Wonder Full breaks into the AI top tier appeared first on The Decoder .",
-          "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
-          "created_at": "2026-10-12T18:48:29+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
-          "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-          "created_at": "2026-10-13T09:37:04+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c793ed982",
-      "score": 8.504,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T04:42:58+00:00",
-      "last_seen": "2026-10-13T16:00:00+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
-        "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini ‘Task’ redesign integrates Spark into the main chat app. In addition to revamping settings and the navigation drawer , Google is combining its Spark personal agent with the main Gemini chat experience. more…",
-          "url": "https://9to5google.com/2026/10/12/gemini-spark-task-redesign/",
-          "created_at": "2026-10-13T04:42:58+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google finally releases Gemini 4 Argon. After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini app rolling out Gemini 4 Argon to AI Pro and AI Ultra. Following the announcement at the end of September, Gemini 4 Argon is starting to roll out to the Gemini app, Google Antigravity, and more. more…",
-          "url": "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb2e09330",
-      "score": 8.177,
+      "cluster_id": "ced051fab",
+      "score": 9.12,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -348,38 +425,20 @@
       ],
       "independent_sources": [
         "9to5Mac",
+        "Bloomberg Tech",
         "Engadget"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T13:00:00+00:00",
-      "last_seen": "2026-10-13T15:21:26+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-13T13:02:28+00:00",
+      "last_seen": "2026-10-13T16:19:35+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
         "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
         "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
         "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
-        "https://www.engadget.com/2285043/new-apple-tv-4k-with-siri-ai/",
-        "https://www.engadget.com/2285072/apple-launch-homeview-smart-display-siri-ai/",
-        "https://www.engadget.com/2285178/apple-homeview-hands-on-siri-ai/",
+        "https://www.bloomberg.com/news/videos/2026-10-13/apple-unveils-homeview-hub-as-part-of-smart-home-push-video",
         "https://www.engadget.com/2285346/some-older-apple-tv-models-are-also-getting-siri-ai/"
       ],
       "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple refreshes the Apple TV 4K for Siri AI. New microphones, a new remote and the new Siri AI are on the company's streaming box.",
-          "url": "https://www.engadget.com/2285043/new-apple-tv-4k-with-siri-ai/",
-          "created_at": "2026-10-13T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple unveils HomeView, the company's smart display built for Siri AI. Two versions will be available in November for $299.",
-          "url": "https://www.engadget.com/2285072/apple-launch-homeview-smart-display-siri-ai/",
-          "created_at": "2026-10-13T13:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "9to5Mac",
           "tier": "press",
@@ -391,25 +450,9 @@
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
-          "created_at": "2026-10-13T13:08:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
           "text": "Siri AI coming to older Apple TV 4K models, here’s what’s compatible. Today Apple introduced a fourth-generation Apple TV 4K with Siri AI, and A19 chip, and more. But the company also shared welcome news for current Apple TV users: Siri AI is compatible with select older models too. more…",
           "url": "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
           "created_at": "2026-10-13T13:12:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple HomeView hands-on: Siri AI is your new roommate. It's more than just an enlarged Apple Watch.",
-          "url": "https://www.engadget.com/2285178/apple-homeview-hands-on-siri-ai/",
-          "created_at": "2026-10-13T13:46:19+00:00",
           "engagement": 0
         },
         {
@@ -427,88 +470,20 @@
           "url": "https://www.engadget.com/2285346/some-older-apple-tv-models-are-also-getting-siri-ai/",
           "created_at": "2026-10-13T15:21:26+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c5fb2a84d",
-      "score": 8.082,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Engadget"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T13:00:00+00:00",
-      "last_seen": "2026-10-13T14:47:06+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-        "https://www.engadget.com/2285033/apple-homepod-mini-2-launch-siri-ai-later/"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple updates the HomePod mini with more audio features and new colors. The new model arrives on October 30, but its Siri AI features are coming later.",
-          "url": "https://www.engadget.com/2285033/apple-homepod-mini-2-launch-siri-ai-later/",
-          "created_at": "2026-10-13T13:00:00+00:00",
-          "engagement": 0
         },
         {
-          "author": "9to5Mac",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-          "created_at": "2026-10-13T14:47:06+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cfb48b3c6",
-      "score": 6.62,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Ars Technica AI",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T17:55:12+00:00",
-      "last_seen": "2026-10-12T20:59:50+00:00",
-      "links": [
-        "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
-        "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/"
-      ],
-      "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him. Musk, we find your lack of security disturbing.",
-          "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
-          "created_at": "2026-10-12T17:55:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Epic Games reportedly pivoting to \"AI first\" game development model. \"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
-          "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
-          "created_at": "2026-10-12T20:59:50+00:00",
+          "text": "Apple Unveils HomeView Hub as Part of Smart Home Push. Apple unveiled a new smart home device called HomeView, which highlights Siri AI and lets you control a range of soon-to-be-available cameras and thermostats. Chris Welch has more (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-13/apple-unveils-homeview-hub-as-part-of-smart-home-push-video",
+          "created_at": "2026-10-13T16:19:35+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ca4e7f480",
-      "score": 5.739,
+      "score": 5.408,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
@@ -539,43 +514,6 @@
           "text": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts. Character.AI, a controversial generative AI startup that lets users create their own chatbot characters, has filed for Chapter 11 bankruptcy",
           "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
           "created_at": "2026-10-13T13:45:10+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cbe774528",
-      "score": 5.443,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [],
-      "independent_sources": [
-        "TechCrunch AI",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-12T17:19:14+00:00",
-      "last_seen": "2026-10-13T10:00:00+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-        "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "WindBorne wins a hefty US Air Force contract for its balloon data. A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
-          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-          "created_at": "2026-10-12T17:19:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies. Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
-          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-          "created_at": "2026-10-13T10:00:00+00:00",
           "engagement": 0
         }
       ]
