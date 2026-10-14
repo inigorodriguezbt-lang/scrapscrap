@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-14T04:03:29.050046+00:00",
+  "generated_at": "2026-10-14T06:03:38.826211+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 123,
-  "clusters_found": 84,
-  "stories_declared": 9,
+  "posts_considered": 153,
+  "clusters_found": 107,
+  "stories_declared": 11,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c3b1838db",
-      "score": 12.838,
+      "cluster_id": "c88dd7e6e",
+      "score": 16.585,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -21,18 +21,20 @@
       "independent_sources": [
         "DeepMind",
         "Latent Space",
+        "OfficialLoganK",
         "Simon Willison",
         "The Decoder"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "first_seen": "2026-10-13T09:37:04+00:00",
-      "last_seen": "2026-10-13T23:00:06+00:00",
+      "last_seen": "2026-10-14T04:40:26+00:00",
       "links": [
         "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
         "https://simonwillison.net/2026/Oct/13/llm-gemini/",
         "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
         "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+        "https://x.com/OfficialLoganK/status/2110229218013651217"
       ],
       "posts": [
         {
@@ -74,12 +76,99 @@
           "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
           "created_at": "2026-10-13T23:00:06+00:00",
           "engagement": 0
+        },
+        {
+          "author": "OfficialLoganK",
+          "tier": "commentary",
+          "text": "@imjustnewatai so many teams across Google cooked on this model, and just the start of the Gemini 4 era! Lots to be excited about",
+          "url": "https://x.com/OfficialLoganK/status/2110229218013651217",
+          "created_at": "2026-10-14T04:40:26+00:00",
+          "engagement": 87
         }
       ]
     },
     {
-      "cluster_id": "c3a1ed0ff",
-      "score": 11.443,
+      "cluster_id": "c5f465235",
+      "score": 13.834,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Engadget",
+        "Reuters",
+        "TechCrunch AI",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-10-13T14:00:00+00:00",
+      "last_seen": "2026-10-14T04:10:10+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+        "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+        "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+        "https://x.com/Reuters/status/2110221603552313760"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "TechCrunch Disrupt 2026: Day 1. TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
+          "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+          "created_at": "2026-10-13T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office. An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Department.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+          "created_at": "2026-10-13T20:13:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+          "created_at": "2026-10-13T20:45:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "OpenAI says it found a 'sophisticated recording device' hidden in its offices. The company asked its AI models to figure out what the device was.",
+          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+          "created_at": "2026-10-13T21:34:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office. Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
+          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+          "created_at": "2026-10-13T23:17:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says",
+          "url": "https://x.com/Reuters/status/2110221603552313760",
+          "created_at": "2026-10-14T04:10:10+00:00",
+          "engagement": 57
+        }
+      ]
+    },
+    {
+      "cluster_id": "cef04e630",
+      "score": 13.806,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -91,11 +180,12 @@
         "Ars Technica AI",
         "DeepMind",
         "Google AI",
+        "Latent Space",
         "The Verge AI"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-10-13T16:00:00+00:00",
-      "last_seen": "2026-10-13T16:15:00+00:00",
+      "last_seen": "2026-10-14T05:40:28+00:00",
       "links": [
         "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
         "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
@@ -103,6 +193,7 @@
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
         "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
         "https://deepmind.google/blog/introducing-gemini-4-argon/",
+        "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
         "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
       ],
       "posts": [
@@ -161,91 +252,67 @@
           "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
           "created_at": "2026-10-13T16:15:00+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks. Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+          "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+          "created_at": "2026-10-14T05:40:28+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c80c84037",
-      "score": 9.724,
-      "interest": "dull",
+      "cluster_id": "c06511ecb",
+      "score": 10.545,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
+      "entities": [],
       "independent_sources": [
-        "Bloomberg Tech",
-        "Engadget",
-        "TechCrunch AI",
-        "The Verge AI",
-        "TheHackersNews",
-        "Wired AI"
+        "anabology",
+        "elonmusk"
       ],
-      "source_count": 6,
-      "first_seen": "2026-10-13T14:00:00+00:00",
-      "last_seen": "2026-10-14T02:04:17+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-14T04:23:29+00:00",
+      "last_seen": "2026-10-14T05:41:43+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
-        "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
-        "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-        "https://x.com/TheHackersNews/status/2110189921139085496"
+        "https://x.com/anabology/status/2110224953287070195",
+        "https://x.com/elonmusk/status/2110243595504820641",
+        "https://x.com/elonmusk/status/2110244638900773147"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "TechCrunch Disrupt 2026: Day 1. TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
-          "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
-          "created_at": "2026-10-13T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office. An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Department.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
-          "created_at": "2026-10-13T20:13:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-          "created_at": "2026-10-13T20:45:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "OpenAI says it found a 'sophisticated recording device' hidden in its offices. The company asked its AI models to figure out what the device was.",
-          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-          "created_at": "2026-10-13T21:34:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office. Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-          "created_at": "2026-10-13T23:17:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TheHackersNews",
+          "author": "anabology",
           "tier": "commentary",
-          "text": "BREAKING - An OpenAI engineering lead has been arrested for allegedly planting a covert audio recorder in an executive conference room. The device was found hidden behind a TV, wrapped in toilet paper.",
-          "url": "https://x.com/TheHackersNews/status/2110189921139085496",
-          "created_at": "2026-10-14T02:04:17+00:00",
-          "engagement": 113
+          "text": "I made a Grok Bot that can use Suno, Midjourney, and Opus to make music videos. \"Claudia\" (the Grok Bot) made this teaser autonomously with @imagine",
+          "url": "https://x.com/anabology/status/2110224953287070195",
+          "created_at": "2026-10-14T04:23:29+00:00",
+          "engagement": 929,
+          "video": true
+        },
+        {
+          "author": "elonmusk",
+          "tier": "commentary",
+          "text": "Made with @Grok @Imagine",
+          "url": "https://x.com/elonmusk/status/2110243595504820641",
+          "created_at": "2026-10-14T05:37:34+00:00",
+          "engagement": 919
+        },
+        {
+          "author": "elonmusk",
+          "tier": "commentary",
+          "text": "Make music videos easily with Grok @Bot",
+          "url": "https://x.com/elonmusk/status/2110244638900773147",
+          "created_at": "2026-10-14T05:41:43+00:00",
+          "engagement": 1184
         }
       ]
     },
     {
-      "cluster_id": "c93260729",
-      "score": 8.832,
+      "cluster_id": "c72b6fddd",
+      "score": 7.954,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -254,17 +321,15 @@
       ],
       "independent_sources": [
         "Ars Technica AI",
-        "Engadget",
         "TechCrunch AI",
         "The Verge AI"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "first_seen": "2026-10-13T17:00:00+00:00",
       "last_seen": "2026-10-13T17:00:39+00:00",
       "links": [
         "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
         "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-        "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
         "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
       ],
       "posts": [
@@ -285,14 +350,6 @@
           "engagement": 0
         },
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google will let you distribute vibe-coded Android apps with just a Google account. The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
-          "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
-          "created_at": "2026-10-13T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
           "author": "Ars Technica AI",
           "tier": "press",
           "text": "Google wants to host your personal vibe-coded apps in the Play Store. Google plans to help turn those personal AI-generated apps into wide releases.",
@@ -304,7 +361,7 @@
     },
     {
       "cluster_id": "c7db2a9c7",
-      "score": 7.294,
+      "score": 6.96,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -343,7 +400,7 @@
     },
     {
       "cluster_id": "c92feede8",
-      "score": 6.815,
+      "score": 6.481,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -390,8 +447,8 @@
       ]
     },
     {
-      "cluster_id": "c1253f118",
-      "score": 6.672,
+      "cluster_id": "ca2d36573",
+      "score": 6.338,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -403,11 +460,16 @@
         "Engadget"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T13:08:20+00:00",
+      "first_seen": "2026-10-13T13:02:28+00:00",
       "last_seen": "2026-10-13T18:18:54+00:00",
       "links": [
         "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+        "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
         "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+        "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
+        "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
+        "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
+        "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
         "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
         "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/"
       ],
@@ -415,9 +477,41 @@
         {
           "author": "9to5Mac",
           "tier": "press",
+          "text": "Apple announces new Apple TV 4K with upgraded Siri Remote, A19 chip, more. Today Apple unveiled a brand new Apple TV 4K model as part of its ‘Welcome home’ product launch event. Here are the full details from the announcement. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
+          "created_at": "2026-10-13T13:02:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
           "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
           "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
           "created_at": "2026-10-13T13:08:20+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Siri AI coming to older Apple TV 4K models, here’s what’s compatible. Today Apple introduced a fourth-generation Apple TV 4K with Siri AI, and A19 chip, and more. But the company also shared welcome news for current Apple TV users: Siri AI is compatible with select older models too. more…",
+          "url": "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
+          "created_at": "2026-10-13T13:12:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "You can buy the new, improved Siri Remote for your existing Apple TV 4K. Today Apple unveiled the long-awaited new Apple TV 4K model , which includes an updated Siri Remote with a built-in speaker as part of its Find My and Precision Finding support. But even if you’re not upgrading, you can still buy the new Siri Remote for your current Apple TV. more…",
+          "url": "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
+          "created_at": "2026-10-13T13:46:26+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "HomeView for your wall doesn’t include mount, which costs $59 minimum. Today Apple unveiled its new HomeView product in two models, one with a speaker base and the other built for wall mounting. But if you buy the latter, just know you’ll need to spend more for a separate mount. more…",
+          "url": "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
+          "created_at": "2026-10-13T14:21:39+00:00",
           "engagement": 0
         },
         {
@@ -437,6 +531,14 @@
           "engagement": 0
         },
         {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple’s two HomeViews have one big hidden difference. Today Apple unveiled HomeView , its long-awaited smart home hub. The HomeView comes in two distinct models, one with a domed speaker base and the other designed for wall mounting. But there’s a hidden feature difference beyond the form factors. more…",
+          "url": "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
+          "created_at": "2026-10-13T18:15:35+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Engadget",
           "tier": "press",
           "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
@@ -448,7 +550,7 @@
     },
     {
       "cluster_id": "ccca89e5b",
-      "score": 5.533,
+      "score": 5.199,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -485,7 +587,7 @@
     },
     {
       "cluster_id": "c9242c9cc",
-      "score": 4.909,
+      "score": 4.575,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -519,6 +621,45 @@
           "text": "Apple wins early access to OpenAI documents and employee testimony in trade secrets lawsuit. Judge Edward Davila today granted some of Apple’s requests for expedited discovery in its trade secrets lawsuit against former employees, OpenAI, and io Products. Here are the details. more…",
           "url": "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
           "created_at": "2026-10-13T20:45:29+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c334f81d6",
+      "score": 3.949,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T16:30:00+00:00",
+      "last_seen": "2026-10-13T17:00:00+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+        "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "created_at": "2026-10-13T16:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google will let you distribute vibe-coded Android apps with just a Google account. The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
+          "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+          "created_at": "2026-10-13T17:00:00+00:00",
           "engagement": 0
         }
       ]
