@@ -343,6 +343,76 @@
    },
    "published_at": "2026-10-14T07:56:40+00:00",
    "id": "a-paper-on-mixture-of-experts"
+  },
+  {
+   "text": "Researchers at P-Zero Research say their TasteVal benchmark, which scores how well models design experiments, has Claude Opus 5.5 at 2.30 times the human-expert baseline, ahead of Fable 5.1 and GPT-6 Astra.",
+   "why": "The benchmark's authors say scores have doubled every three months since December 2025; the result is their own and has not been independently checked.",
+   "source": {
+    "name": "kimmonismus",
+    "url": "https://x.com/kimmonismus/status/2110338579733897678"
+   },
+   "published_at": "2026-10-14T11:55:00+00:00",
+   "id": "researchers-at-p-zero-research-say"
+  },
+  {
+   "text": "ServiceNow and McGill researchers say AI judges miss subtle errors in long computer-use runs: on their AgentHorizon set of 1,373 tasks, the best judge, GPT-5.5 in Codex, reached 80.9% balanced accuracy.",
+   "why": "Labs use model judges to grade agent runs for training, so blind spots in the judge can feed straight back into the agents.",
+   "source": {
+    "name": "Rohan Paul",
+    "url": "https://x.com/rohanpaul_ai/status/2110307766158180605"
+   },
+   "published_at": "2026-10-14T09:52:33+00:00",
+   "id": "servicenow-and-mcgill-researchers-say-ai"
+  },
+  {
+   "text": "T3 Code's maker Theo says a nightly build ships large performance gains to its sqlite database, and that the \"reconnecting\" banners some users saw should now be gone.",
+   "why": "The fix targets large databases and slow drives, which is where a local coding-agent app tends to stall first.",
+   "source": {
+    "name": "Theo",
+    "url": "https://x.com/theo/status/2110321385105166643"
+   },
+   "published_at": "2026-10-14T10:46:40+00:00",
+   "id": "t3-code-s-maker-theo-says"
+  },
+  {
+   "text": "A new paper, Vela, turns anonymized behaviour records from 100,000 users into training tasks; its authors say fine-tuning Qwen3.6-35B-A3B lifts user-related benchmarks by up to 11.5 points.",
+   "why": "The authors also report an average gain of 4 points on general benchmarks, which suggests the behaviour data does not narrow the model.",
+   "source": {
+    "name": "alphaXiv",
+    "url": "https://x.com/askalphaxiv/status/2110316453459304498"
+   },
+   "published_at": "2026-10-14T10:27:04+00:00",
+   "id": "a-new-paper-vela-turns-anonymized"
+  },
+  {
+   "text": "The Information reports that OpenAI is in early talks to acquire security firm Trail of Bits, according to a summary on X by Mark Kretschmann; neither company has confirmed a deal.",
+   "why": "Trail of Bits already works with OpenAI on Patch the Planet, which OpenAI says turned up hundreds of issues across 19 open-source projects.",
+   "source": {
+    "name": "Mark Kretschmann",
+    "url": "https://x.com/mark_k/status/2110308563750899813"
+   },
+   "published_at": "2026-10-14T09:55:43+00:00",
+   "id": "the-information-reports-that-openai-is-2"
+  },
+  {
+   "text": "Security researchers say an account uploaded at least 15 fake copies of the Arch Linux helper yay carrying malware; International Cyber Digest says one scan shows it pulling code from a Russian git host and running it as root.",
+   "why": "Package helpers like yay run with wide access, so a look-alike name is enough to hand over a machine.",
+   "source": {
+    "name": "International Cyber Digest",
+    "url": "https://x.com/IntCyberDigest/status/2110313496747368696"
+   },
+   "published_at": "2026-10-14T10:15:20+00:00",
+   "id": "security-researchers-say-an-account-uploaded"
+  },
+  {
+   "text": "Show HN: Building an LLM from Scratch in TypeScript is a book and repo that builds a GPT-style model in Node.js on TensorFlow.js; the repo has 6 stars and chapters 4 and 5 are unfinished.",
+   "why": "It is early, but it offers a way to learn how transformers work without leaving JavaScript.",
+   "source": {
+    "name": "node-llm (GitHub)",
+    "url": "https://github.com/BaraaSoft/node-llm"
+   },
+   "published_at": "2026-10-14T10:34:30.434337+00:00",
+   "id": "show-hn-building-an-llm-from"
   }
  ]
 }
