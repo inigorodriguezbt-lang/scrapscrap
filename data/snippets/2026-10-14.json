@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-14",
+ "snippets": [
+  {
+   "text": "Parsimony, an open-source benchmark posted to Show HN, ranks coding models by how much net code they add to solved SWE-bench tasks, counting statements and calls rather than lines.",
+   "why": "Existing coding benchmarks reward solve rate and cost, so a measure of bloat adds a missing axis for anyone choosing a model to maintain code.",
+   "source": {
+    "name": "Parsimony",
+    "url": "https://parsimony.lasu.dev/"
+   },
+   "published_at": "2026-10-13T19:50:31+00:00",
+   "id": "parsimony-an-open-source-benchmark-posted"
+  },
+  {
+   "text": "X user thsottiaux, who posts a daily series of ChatGPT and Codex updates, says a desktop app change cuts the state stored on disk by 60%, after power users ran out of space.",
+   "why": "Heavy Codex users had been filling their drives with local agent history, so the fix lands on the people running long sessions.",
+   "source": {
+    "name": "thsottiaux on X",
+    "url": "https://x.com/thsottiaux/status/2110151780478927344"
+   },
+   "published_at": "2026-10-13T23:52:43+00:00",
+   "id": "x-user-thsottiaux-who-posts-a"
+  },
+  {
+   "text": "ComfyUI says NVIDIA's RTX VFX nodes are now in the app, with EXR file support, RTX Video Super Resolution, Frame Generation and SDR-to-HDR conversion, all running locally on RTX GPUs.",
+   "why": "Chaining the three nodes lets VFX artists finish AI footage on their own hardware before it returns to a compositing pipeline.",
+   "source": {
+    "name": "ComfyUI on X",
+    "url": "https://x.com/ComfyUI/status/2110126529510560225"
+   },
+   "published_at": "2026-10-13T21:52:23+00:00",
+   "embed": "https://x.com/ComfyUI/status/2110126529510560225",
+   "id": "comfyui-says-nvidia-s-rtx-vfx"
+  },
+  {
+   "text": "Developer Theo says ts-rust v0.6.0 is 30% faster than the last release and up to 70% faster in a new --fast mode that trades memory for speed, while staying compatible with upstream TypeScript.",
+   "why": "The project aims to close the speed gap with Bun's type checker while keeping full TypeScript compatibility, which Theo says Bun does not.",
+   "source": {
+    "name": "Theo on X",
+    "url": "https://x.com/theo/status/2110147128949714964"
+   },
+   "published_at": "2026-10-13T23:54:14+00:00",
+   "id": "developer-theo-says-ts-rust-v0"
+  }
+ ]
+}
