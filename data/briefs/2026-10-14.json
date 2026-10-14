@@ -1,41 +1,38 @@
 {
-  "generated_at": "2026-10-14T02:03:09.322398+00:00",
+  "generated_at": "2026-10-14T04:03:29.050046+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 139,
-  "clusters_found": 97,
+  "posts_considered": 123,
+  "clusters_found": 84,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c6f0236e1",
-      "score": 15.912,
+      "cluster_id": "c3b1838db",
+      "score": 12.838,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "Anthropic",
         "Google",
-        "Meta",
-        "Mistral"
+        "Meta"
       ],
       "independent_sources": [
         "DeepMind",
         "Latent Space",
         "Simon Willison",
-        "The Decoder",
-        "ValsAI"
+        "The Decoder"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "first_seen": "2026-10-13T09:37:04+00:00",
-      "last_seen": "2026-10-14T00:03:16+00:00",
+      "last_seen": "2026-10-13T23:00:06+00:00",
       "links": [
         "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
         "https://simonwillison.net/2026/Oct/13/llm-gemini/",
         "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
         "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-        "https://x.com/ValsAI/status/2110159468067766275"
+        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
       ],
       "posts": [
         {
@@ -77,20 +74,12 @@
           "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
           "created_at": "2026-10-13T23:00:06+00:00",
           "engagement": 0
-        },
-        {
-          "author": "ValsAI",
-          "tier": "commentary",
-          "text": "How pro-China are Chinese AI models? Surprisingly, not what you would expect.\n\nWe asked both Chinese and American models hundreds of politically sensitive questions about China, and found a range of behaviors.\n\nMiMo V2.6 Pro and GLM-5.3 (via Fireworks) sometimes openly criticize China. Meanwhile, Gemini 4 Argon, Mistral Large 4, and even Grok 4.7 occasionally repeat CCP propaganda.",
-          "url": "https://x.com/ValsAI/status/2110159468067766275",
-          "created_at": "2026-10-14T00:03:16+00:00",
-          "engagement": 33
         }
       ]
     },
     {
       "cluster_id": "c3a1ed0ff",
-      "score": 11.777,
+      "score": 11.443,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -176,9 +165,9 @@
       ]
     },
     {
-      "cluster_id": "cadcd7636",
-      "score": 10.884,
-      "interest": "want",
+      "cluster_id": "c80c84037",
+      "score": 9.724,
+      "interest": "dull",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
@@ -189,17 +178,19 @@
         "Engadget",
         "TechCrunch AI",
         "The Verge AI",
+        "TheHackersNews",
         "Wired AI"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "first_seen": "2026-10-13T14:00:00+00:00",
-      "last_seen": "2026-10-13T23:17:59+00:00",
+      "last_seen": "2026-10-14T02:04:17+00:00",
       "links": [
         "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
         "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
         "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
         "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/"
+        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+        "https://x.com/TheHackersNews/status/2110189921139085496"
       ],
       "posts": [
         {
@@ -241,12 +232,20 @@
           "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
           "created_at": "2026-10-13T23:17:59+00:00",
           "engagement": 0
+        },
+        {
+          "author": "TheHackersNews",
+          "tier": "commentary",
+          "text": "BREAKING - An OpenAI engineering lead has been arrested for allegedly planting a covert audio recorder in an executive conference room. The device was found hidden behind a TV, wrapped in toilet paper.",
+          "url": "https://x.com/TheHackersNews/status/2110189921139085496",
+          "created_at": "2026-10-14T02:04:17+00:00",
+          "engagement": 113
         }
       ]
     },
     {
       "cluster_id": "c93260729",
-      "score": 9.166,
+      "score": 8.832,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -305,7 +304,7 @@
     },
     {
       "cluster_id": "c7db2a9c7",
-      "score": 7.628,
+      "score": 7.294,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -344,7 +343,7 @@
     },
     {
       "cluster_id": "c92feede8",
-      "score": 7.149,
+      "score": 6.815,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -392,7 +391,7 @@
     },
     {
       "cluster_id": "c1253f118",
-      "score": 7.006,
+      "score": 6.672,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -449,7 +448,7 @@
     },
     {
       "cluster_id": "ccca89e5b",
-      "score": 5.867,
+      "score": 5.533,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -486,7 +485,7 @@
     },
     {
       "cluster_id": "c9242c9cc",
-      "score": 5.243,
+      "score": 4.909,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
