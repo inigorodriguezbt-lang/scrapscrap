@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-14T12:03:39.735732+00:00",
+  "generated_at": "2026-10-14T14:04:16.409651+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 158,
-  "clusters_found": 111,
-  "stories_declared": 9,
+  "posts_considered": 152,
+  "clusters_found": 101,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c5dcdf69f",
-      "score": 17.469,
+      "cluster_id": "c01acf7f3",
+      "score": 14.337,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -24,22 +24,24 @@
         "DeepMind",
         "Simon Willison",
         "The Decoder",
-        "The Verge AI",
-        "mark_k"
+        "The Verge AI"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-10-13T15:12:59+00:00",
-      "last_seen": "2026-10-14T11:55:13+00:00",
+      "last_seen": "2026-10-14T13:26:00+00:00",
       "links": [
         "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
         "https://simonwillison.net/2026/Oct/13/llm-gemini/",
         "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+        "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
         "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+        "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
+        "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-impact-on-businesses-startups-video",
         "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-safety-concerns-video",
         "https://www.bloomberg.com/news/videos/2026-10-14/deepl-ceo-on-voice-ai-growth-and-competition-video",
+        "https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video",
         "https://www.bloomberg.com/news/videos/2026-10-14/openai-may-hold-back-next-generation-model-for-checks-video",
-        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
-        "https://x.com/mark_k/status/2110315692452937927"
+        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
       ],
       "posts": [
         {
@@ -91,14 +93,6 @@
           "engagement": 0
         },
         {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Google's latest app update brings Gemini 4 Argon to Pro and Ultra subscribers, with a toggle between chatting and assigning work. Gemini connects to more than 40 apps, including Instacart, OpenTable, Adobe and Shopify. On macOS, Antigravity's coding interface is built into the Gemini app.",
-          "url": "https://x.com/mark_k/status/2110315692452937927",
-          "created_at": "2026-10-14T10:24:03+00:00",
-          "engagement": 75
-        },
-        {
           "author": "Bloomberg Tech",
           "tier": "press",
           "text": "DeepL CEO on Voice AI Growth and Competition. DeepL CEO Jarek Kutylowski discusses surging demand for voice-to-voice translation and how AI is transforming global business. He also addresses competition with OpenAI and Anthropic, DeepL’s AWS strategy, European data sovereignty, recent workforce cuts and why the company is comfortable remaining private. He spoke with Bloomberg’s Tom Mackenzie, at the International AI Summit in Dublin, Ireland. (Source: Bloomberg)",
@@ -113,12 +107,44 @@
           "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-may-hold-back-next-generation-model-for-checks-video",
           "created_at": "2026-10-14T11:55:13+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic's Princen on AI Impact on Businesses, Startups. Guillaume Princen, Anthropic Head of International Startups & Digital Native, joins Bloomberg's Tom Mackenzie on \"The Opening Trade\" to discuss how artificial intelligence will impact businesses, customer spending on frontier models, and AI safety risks. They speak from the International AI Summit in Dublin, Ireland. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-impact-on-businesses-startups-video",
+          "created_at": "2026-10-14T12:18:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI CFO Says Firms Using Chinese AI Models Are Risking Safety. Businesses opting to use low-cost Chinese artificial intelligence models are taking a cybersecurity risk, said OpenAI Chief Financial Officer Sarah Friar, echoing concerns from rival Anthropic PBC.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
+          "created_at": "2026-10-14T12:54:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap. Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+          "created_at": "2026-10-14T13:24:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI CFO Sarah Friar Discusses AI Safety & Alignment Spending. Bloomberg's Tom MacKenzie sits down with OpenAI CFO Sarah Friar at at the International AI Summit in Dublin to discuss AI safety and alignment spending. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video",
+          "created_at": "2026-10-14T13:26:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cef04e630",
-      "score": 12.806,
+      "score": 12.471,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -214,120 +240,126 @@
       ]
     },
     {
-      "cluster_id": "c8ec56d95",
-      "score": 9.921,
+      "cluster_id": "c269135bf",
+      "score": 11.526,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Apple"
+        "Google"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "Engadget",
-        "Product Hunt AI"
+        "TechCrunch AI",
+        "testingcatalog"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-13T13:08:20+00:00",
-      "last_seen": "2026-10-14T05:07:36+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-13T16:30:00+00:00",
+      "last_seen": "2026-10-14T13:01:41+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
-        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
-        "https://www.producthunt.com/products/apple-homepod-mini",
-        "https://www.producthunt.com/products/aurora-lifeline",
-        "https://www.producthunt.com/products/kugelaudio",
-        "https://www.producthunt.com/products/nimble-5",
-        "https://www.producthunt.com/products/rolefit",
-        "https://www.producthunt.com/products/vectorize",
-        "https://www.producthunt.com/products/writerzroom"
+        "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+        "https://x.com/testingcatalog/status/2110355363984007470"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
-          "created_at": "2026-10-13T13:08:20+00:00",
+          "text": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "created_at": "2026-10-13T16:30:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Apple HomePod mini 2. Apple's tiny smart speaker, now built for Siri AI Discussion | Link",
-          "url": "https://www.producthunt.com/products/apple-homepod-mini",
-          "created_at": "2026-10-13T13:43:16+00:00",
-          "engagement": 0
-        },
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "ICYMI: Google will let users release their personalized vibe-coded apps to Google Play. Users can build their Android apps on Google AI Studio and publish them from there. Users can also share these apps with a close circle of friends & family.",
+          "url": "https://x.com/testingcatalog/status/2110355363984007470",
+          "created_at": "2026-10-14T13:01:41+00:00",
+          "engagement": 167
+        }
+      ]
+    },
+    {
+      "cluster_id": "c382c86a8",
+      "score": 11.471,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Engadget",
+        "The Decoder",
+        "The Verge AI",
+        "Tom's Hardware",
+        "Wired AI"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-10-13T20:13:49+00:00",
+      "last_seen": "2026-10-14T12:37:05+00:00",
+      "links": [
+        "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
+        "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+        "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology",
+        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/"
+      ],
+      "posts": [
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Kugel 3.5. ext-to-speech that beats any other Model out there Discussion | Link",
-          "url": "https://www.producthunt.com/products/kugelaudio",
-          "created_at": "2026-10-13T13:51:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-          "created_at": "2026-10-13T14:47:06+00:00",
+          "text": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office. An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Department.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+          "created_at": "2026-10-13T20:13:49+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Nimble. SOTA Decision Model Discussion | Link",
-          "url": "https://www.producthunt.com/products/nimble-5",
-          "created_at": "2026-10-13T17:21:30+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "AURORA Lifeline. Know who a cyclone will cut off, before the roads close Discussion | Link",
-          "url": "https://www.producthunt.com/products/aurora-lifeline",
-          "created_at": "2026-10-13T17:35:59+00:00",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+          "created_at": "2026-10-13T20:45:25+00:00",
           "engagement": 0
         },
         {
           "author": "Engadget",
           "tier": "press",
-          "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
-          "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
-          "created_at": "2026-10-13T18:18:54+00:00",
+          "text": "OpenAI says it found a 'sophisticated recording device' hidden in its offices. The company asked its AI models to figure out what the device was.",
+          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+          "created_at": "2026-10-13T21:34:17+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Hindsight 1.0 + Memlake. Open source memory for AI agents to learn from experience Discussion | Link",
-          "url": "https://www.producthunt.com/products/vectorize",
-          "created_at": "2026-10-13T18:51:23+00:00",
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office. Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
+          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+          "created_at": "2026-10-13T23:17:59+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "WriterzRoom. Governed multi-agent AI content for regulated industries Discussion | Link",
-          "url": "https://www.producthunt.com/products/writerzroom",
-          "created_at": "2026-10-14T04:35:22+00:00",
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Saudi OpenAI engineer arrested for allegedly planting $14 recording device in company office. An OpenAI engineer has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications and is facing up to five years in prison plus a $250,000 fine.",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology",
+          "created_at": "2026-10-14T11:48:41+00:00",
           "engagement": 0
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "RoleFit. Tailor every job application without starting from scratch Discussion | Link",
-          "url": "https://www.producthunt.com/products/rolefit",
-          "created_at": "2026-10-14T05:07:36+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Alleged OpenAI spy vibe-coded a surveillance device using his wife's chatbot account. A Saudi national working as an engineer at OpenAI was arrested for allegedly planting an audio recording device, wrapped in toilet paper, inside the company's executive conference room. According to the indictment, he built the spy tool by vibe-coding it with a chatbot. If convicted, he faces up to five years in prison. The article Alleged OpenAI spy vibe-coded a surveillance device using his wife&#039;s chatbot account appeared first on The Decoder .",
+          "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
+          "created_at": "2026-10-14T12:37:05+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cf44e46f2",
-      "score": 9.611,
+      "score": 9.276,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -365,40 +397,49 @@
       ]
     },
     {
-      "cluster_id": "c51e1c89c",
-      "score": 8.584,
+      "cluster_id": "c55c3e2fe",
+      "score": 8.045,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
+      "suggested_section": "products",
       "entities": [
-        "OpenAI"
+        "Apple"
       ],
       "independent_sources": [
-        "The Verge AI",
-        "Tom's Hardware"
+        "9to5Mac",
+        "Engadget"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T20:45:25+00:00",
-      "last_seen": "2026-10-14T11:48:41+00:00",
+      "first_seen": "2026-10-13T14:47:06+00:00",
+      "last_seen": "2026-10-14T12:33:51+00:00",
       "links": [
-        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology"
+        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+        "https://9to5mac.com/2026/10/14/apple-website-suggested-siri-ai-may-be-coming-to-full-size-homepods/",
+        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-          "created_at": "2026-10-13T20:45:25+00:00",
+          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+          "created_at": "2026-10-13T14:47:06+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
+          "author": "Engadget",
           "tier": "press",
-          "text": "Saudi OpenAI engineer arrested for allegedly planting $14 recording device in company office. An OpenAI engineer has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications and is facing up to five years in prison plus a $250,000 fine.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology",
-          "created_at": "2026-10-14T11:48:41+00:00",
+          "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
+          "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
+          "created_at": "2026-10-13T18:18:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple website suggested Siri AI may be coming to full size HomePods. The headline feature of the new HomePod mini 2 is support for Siri AI , something that won’t be available for the first-gen model. But there’s hope that existing full size HomePods may also get access to the smarter intelligent assistant. A leaker noticed two clues on Apple’s website seemingly pointing to this, but it’s possible that it was an error on the part of the company … more…",
+          "url": "https://9to5mac.com/2026/10/14/apple-website-suggested-siri-ai-may-be-coming-to-full-size-homepods/",
+          "created_at": "2026-10-14T12:33:51+00:00",
           "engagement": 0
         }
       ]
@@ -492,40 +533,49 @@
       ]
     },
     {
-      "cluster_id": "c334f81d6",
-      "score": 3.625,
+      "cluster_id": "cd9ede70a",
+      "score": 5.337,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "Google"
+        "Apple"
       ],
       "independent_sources": [
-        "Engadget",
-        "TechCrunch AI"
+        "9to5Mac",
+        "Stratechery"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T16:30:00+00:00",
-      "last_seen": "2026-10-13T17:00:00+00:00",
+      "first_seen": "2026-10-13T14:21:39+00:00",
+      "last_seen": "2026-10-14T10:00:00+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-        "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/"
+        "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
+        "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
+        "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-          "created_at": "2026-10-13T16:30:00+00:00",
+          "text": "HomeView for your wall doesn’t include mount, which costs $59 minimum. Today Apple unveiled its new HomeView product in two models, one with a speaker base and the other built for wall mounting. But if you buy the latter, just know you’ll need to spend more for a separate mount. more…",
+          "url": "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
+          "created_at": "2026-10-13T14:21:39+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Google will let you distribute vibe-coded Android apps with just a Google account. The company is revamping the Play Store for the AI era with changes to publishing, recommendations and more.",
-          "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
-          "created_at": "2026-10-13T17:00:00+00:00",
+          "text": "Apple’s two HomeViews have one big hidden difference. Today Apple unveiled HomeView , its long-awaited smart home hub. The HomeView comes in two distinct models, one with a domed speaker base and the other designed for wall mounting. But there’s a hidden feature difference beyond the form factors. more…",
+          "url": "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
+          "created_at": "2026-10-13T18:15:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Stratechery",
+          "tier": "commentary",
+          "text": "Apple HomeView, The New Apple TV, The App Story. The Apple Homeview is official, and the question is how big is the addressable market for expensive devices based on subpar AI.",
+          "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
+          "created_at": "2026-10-14T10:00:00+00:00",
           "engagement": 0
         }
       ]
