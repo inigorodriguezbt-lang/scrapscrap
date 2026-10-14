@@ -1,174 +1,15 @@
 {
-  "generated_at": "2026-10-14T06:03:38.826211+00:00",
+  "generated_at": "2026-10-14T08:03:34.869959+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 153,
+  "posts_considered": 160,
   "clusters_found": 107,
-  "stories_declared": 11,
+  "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c88dd7e6e",
-      "score": 16.585,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic",
-        "Google",
-        "Meta"
-      ],
-      "independent_sources": [
-        "DeepMind",
-        "Latent Space",
-        "OfficialLoganK",
-        "Simon Willison",
-        "The Decoder"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-10-13T09:37:04+00:00",
-      "last_seen": "2026-10-14T04:40:26+00:00",
-      "links": [
-        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-        "https://x.com/OfficialLoganK/status/2110229218013651217"
-      ],
-      "posts": [
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
-          "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-          "created_at": "2026-10-13T09:37:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
-          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-          "created_at": "2026-10-13T18:00:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "created_at": "2026-10-13T19:43:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
-          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-          "created_at": "2026-10-13T22:28:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
-          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-          "created_at": "2026-10-13T23:00:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OfficialLoganK",
-          "tier": "commentary",
-          "text": "@imjustnewatai so many teams across Google cooked on this model, and just the start of the Gemini 4 era! Lots to be excited about",
-          "url": "https://x.com/OfficialLoganK/status/2110229218013651217",
-          "created_at": "2026-10-14T04:40:26+00:00",
-          "engagement": 87
-        }
-      ]
-    },
-    {
-      "cluster_id": "c5f465235",
-      "score": 13.834,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Engadget",
-        "Reuters",
-        "TechCrunch AI",
-        "The Verge AI",
-        "Wired AI"
-      ],
-      "source_count": 6,
-      "first_seen": "2026-10-13T14:00:00+00:00",
-      "last_seen": "2026-10-14T04:10:10+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
-        "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
-        "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-        "https://x.com/Reuters/status/2110221603552313760"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "TechCrunch Disrupt 2026: Day 1. TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
-          "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
-          "created_at": "2026-10-13T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office. An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Department.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
-          "created_at": "2026-10-13T20:13:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-          "created_at": "2026-10-13T20:45:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "OpenAI says it found a 'sophisticated recording device' hidden in its offices. The company asked its AI models to figure out what the device was.",
-          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-          "created_at": "2026-10-13T21:34:17+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office. Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
-          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-          "created_at": "2026-10-13T23:17:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Reuters",
-          "tier": "commentary",
-          "text": "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says",
-          "url": "https://x.com/Reuters/status/2110221603552313760",
-          "created_at": "2026-10-14T04:10:10+00:00",
-          "engagement": 57
-        }
-      ]
-    },
-    {
       "cluster_id": "cef04e630",
-      "score": 13.806,
+      "score": 13.473,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -264,191 +105,235 @@
       ]
     },
     {
-      "cluster_id": "c06511ecb",
-      "score": 10.545,
-      "interest": "neutral",
+      "cluster_id": "c72fde3bf",
+      "score": 13.149,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [],
+      "entities": [
+        "Nvidia"
+      ],
       "independent_sources": [
-        "anabology",
-        "elonmusk"
+        "NVIDIA",
+        "nvidia"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-14T04:23:29+00:00",
-      "last_seen": "2026-10-14T05:41:43+00:00",
+      "first_seen": "2026-10-13T12:00:49+00:00",
+      "last_seen": "2026-10-14T06:26:12+00:00",
       "links": [
-        "https://x.com/anabology/status/2110224953287070195",
-        "https://x.com/elonmusk/status/2110243595504820641",
-        "https://x.com/elonmusk/status/2110244638900773147"
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+        "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+        "https://x.com/nvidia/status/2110255837297987913"
       ],
       "posts": [
         {
-          "author": "anabology",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark. NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+          "created_at": "2026-10-13T12:00:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA. Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+          "created_at": "2026-10-14T06:04:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "nvidia",
           "tier": "commentary",
-          "text": "I made a Grok Bot that can use Suno, Midjourney, and Opus to make music videos. \"Claudia\" (the Grok Bot) made this teaser autonomously with @imagine",
-          "url": "https://x.com/anabology/status/2110224953287070195",
-          "created_at": "2026-10-14T04:23:29+00:00",
-          "engagement": 929,
+          "text": "From enterprise to Earthshot, the UK is building with NVIDIA. More computing power and open models... committing $250 million in computing access over five years to UK research on AI agent safety and security. NVIDIA joining The Earthshot Prize as Global Alliance Founding Partner. Ahead of GTC Berlin",
+          "url": "https://x.com/nvidia/status/2110255837297987913",
+          "created_at": "2026-10-14T06:26:12+00:00",
+          "engagement": 139,
           "video": true
-        },
-        {
-          "author": "elonmusk",
-          "tier": "commentary",
-          "text": "Made with @Grok @Imagine",
-          "url": "https://x.com/elonmusk/status/2110243595504820641",
-          "created_at": "2026-10-14T05:37:34+00:00",
-          "engagement": 919
-        },
-        {
-          "author": "elonmusk",
-          "tier": "commentary",
-          "text": "Make music videos easily with Grok @Bot",
-          "url": "https://x.com/elonmusk/status/2110244638900773147",
-          "created_at": "2026-10-14T05:41:43+00:00",
-          "engagement": 1184
         }
       ]
     },
     {
-      "cluster_id": "c72b6fddd",
-      "score": 7.954,
+      "cluster_id": "c3b1838db",
+      "score": 12.171,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-13T17:00:00+00:00",
-      "last_seen": "2026-10-13T17:00:39+00:00",
-      "links": [
-        "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-        "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-        "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google Play now lets anyone build private, vibe-coded apps that run on Android. Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
-          "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-          "created_at": "2026-10-13T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google makes it easier to launch your vibe-coded apps. The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code [&#8230;]",
-          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
-          "created_at": "2026-10-13T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Google wants to host your personal vibe-coded apps in the Play Store. Google plans to help turn those personal AI-generated apps into wide releases.",
-          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-          "created_at": "2026-10-13T17:00:39+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7db2a9c7",
-      "score": 6.96,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
+        "Anthropic",
+        "Google",
         "Meta"
       ],
       "independent_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
+        "DeepMind",
+        "Latent Space",
+        "Simon Willison",
+        "The Decoder"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T17:01:31+00:00",
-      "last_seen": "2026-10-13T18:05:24+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-13T09:37:04+00:00",
+      "last_seen": "2026-10-13T23:00:06+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
-        "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai"
+        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Facebook will let you customize your feed algorithm using AI. Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your Algorithm previously launched on Instagram earlier this [&#8230;]",
-          "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
-          "created_at": "2026-10-13T17:01:31+00:00",
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
+          "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+          "created_at": "2026-10-13T09:37:04+00:00",
           "engagement": 0
         },
         {
-          "author": "TechCrunch AI",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Facebook is giving users more control over their algorithm. Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
-          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
-          "created_at": "2026-10-13T18:05:24+00:00",
+          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
+          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+          "created_at": "2026-10-13T18:00:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "created_at": "2026-10-13T19:43:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "created_at": "2026-10-13T22:28:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "created_at": "2026-10-13T23:00:06+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c92feede8",
-      "score": 6.481,
+      "cluster_id": "cf44e46f2",
+      "score": 10.278,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic"
+        "Nvidia"
       ],
       "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
+        "NVIDIA",
+        "NVIDIA Developer"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T10:33:28+00:00",
-      "last_seen": "2026-10-13T15:12:59+00:00",
+      "first_seen": "2026-10-13T14:19:40+00:00",
+      "last_seen": "2026-10-14T06:00:28+00:00",
       "links": [
-        "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-        "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
-        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
+        "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+        "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/"
       ],
       "posts": [
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic study warns that small AI models could soon replicate across everyday devices. Small AI models may be just months away from spreading on their own across poorly secured consumer devices like smart TVs and robot vacuums, according to a new Anthropic study. In tests, one model already completed the full infection chain. CEO Dario Amodei has warned that a swarm like this could take over the entire internet with a persistent botnet within 6 to 12 months, causing hundreds of billions of dollars in damage. The article Anthropic study warns that small AI models could soon replicate across everyday devices appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
-          "created_at": "2026-10-13T10:33:28+00:00",
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform. NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to...",
+          "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+          "created_at": "2026-10-13T14:19:40+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation. Anthropic says it has cut the extraction of Claude's internal reasoning tokens by 90 to 99 percent. The company links the large-scale distillation attacks to Chinese companies Zhipu and Moonshot, and has already banned tens of thousands of accounts. The article Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-          "created_at": "2026-10-13T11:06:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game. Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
-          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
-          "created_at": "2026-10-13T15:12:59+00:00",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations. Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+          "created_at": "2026-10-14T06:00:28+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ca2d36573",
-      "score": 6.338,
+      "cluster_id": "cadcd7636",
+      "score": 9.883,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Engadget",
+        "TechCrunch AI",
+        "The Verge AI",
+        "Wired AI"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-13T14:00:00+00:00",
+      "last_seen": "2026-10-13T23:17:59+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+        "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+        "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "TechCrunch Disrupt 2026: Day 1. TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
+          "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+          "created_at": "2026-10-13T14:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office. An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Department.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+          "created_at": "2026-10-13T20:13:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+          "created_at": "2026-10-13T20:45:25+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "OpenAI says it found a 'sophisticated recording device' hidden in its offices. The company asked its AI models to figure out what the device was.",
+          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+          "created_at": "2026-10-13T21:34:17+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office. Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
+          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+          "created_at": "2026-10-13T23:17:59+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1941e12b",
+      "score": 8.285,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -457,9 +342,10 @@
       ],
       "independent_sources": [
         "9to5Mac",
-        "Engadget"
+        "Engadget",
+        "Product Hunt AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-13T13:02:28+00:00",
       "last_seen": "2026-10-13T18:18:54+00:00",
       "links": [
@@ -471,7 +357,8 @@
         "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
         "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
         "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
-        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/"
+        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
+        "https://www.producthunt.com/products/apple-homepod-mini"
       ],
       "posts": [
         {
@@ -496,6 +383,14 @@
           "text": "Siri AI coming to older Apple TV 4K models, here’s what’s compatible. Today Apple introduced a fourth-generation Apple TV 4K with Siri AI, and A19 chip, and more. But the company also shared welcome news for current Apple TV users: Siri AI is compatible with select older models too. more…",
           "url": "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
           "created_at": "2026-10-13T13:12:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Apple HomePod mini 2. Apple's tiny smart speaker, now built for Siri AI Discussion | Link",
+          "url": "https://www.producthunt.com/products/apple-homepod-mini",
+          "created_at": "2026-10-13T13:43:16+00:00",
           "engagement": 0
         },
         {
@@ -549,8 +444,144 @@
       ]
     },
     {
+      "cluster_id": "c72b6fddd",
+      "score": 7.629,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-13T17:00:00+00:00",
+      "last_seen": "2026-10-13T17:00:39+00:00",
+      "links": [
+        "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+        "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+        "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google Play now lets anyone build private, vibe-coded apps that run on Android. Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+          "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+          "created_at": "2026-10-13T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google makes it easier to launch your vibe-coded apps. The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to vibe-code [&#8230;]",
+          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+          "created_at": "2026-10-13T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Google wants to host your personal vibe-coded apps in the Play Store. Google plans to help turn those personal AI-generated apps into wide releases.",
+          "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+          "created_at": "2026-10-13T17:00:39+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7db2a9c7",
+      "score": 6.627,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Meta"
+      ],
+      "independent_sources": [
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T17:01:31+00:00",
+      "last_seen": "2026-10-13T18:05:24+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+        "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Facebook will let you customize your feed algorithm using AI. Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your Algorithm previously launched on Instagram earlier this [&#8230;]",
+          "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+          "created_at": "2026-10-13T17:01:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Facebook is giving users more control over their algorithm. Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+          "created_at": "2026-10-13T18:05:24+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c92feede8",
+      "score": 6.455,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T10:33:28+00:00",
+      "last_seen": "2026-10-13T15:12:59+00:00",
+      "links": [
+        "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+        "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic study warns that small AI models could soon replicate across everyday devices. Small AI models may be just months away from spreading on their own across poorly secured consumer devices like smart TVs and robot vacuums, according to a new Anthropic study. In tests, one model already completed the full infection chain. CEO Dario Amodei has warned that a swarm like this could take over the entire internet with a persistent botnet within 6 to 12 months, causing hundreds of billions of dollars in damage. The article Anthropic study warns that small AI models could soon replicate across everyday devices appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+          "created_at": "2026-10-13T10:33:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation. Anthropic says it has cut the extraction of Claude's internal reasoning tokens by 90 to 99 percent. The company links the large-scale distillation attacks to Chinese companies Zhipu and Moonshot, and has already banned tens of thousands of accounts. The article Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+          "created_at": "2026-10-13T11:06:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game. Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
+          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+          "created_at": "2026-10-13T15:12:59+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ccca89e5b",
-      "score": 5.199,
+      "score": 4.866,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -587,7 +618,7 @@
     },
     {
       "cluster_id": "c9242c9cc",
-      "score": 4.575,
+      "score": 4.242,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -627,7 +658,7 @@
     },
     {
       "cluster_id": "c334f81d6",
-      "score": 3.949,
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",

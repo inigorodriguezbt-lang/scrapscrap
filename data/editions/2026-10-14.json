@@ -27,6 +27,63 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-nvidia-rtx-spark-nemotron-bolt",
+   "section": "products",
+   "headline": "Nvidia says RTX Spark laptops ship Friday with a 74B open model",
+   "standfirst": "Nvidia says its Nemotron 3.5 Bolt, a 74-billion-parameter open model with training data and recipes, runs in 24GB through 2-bit quantisation on RTX Spark laptops that launch on 16 October.",
+   "body": [
+    "Nvidia says RTX Spark laptops go on sale on Friday, 16 October, and that the chip inside them offers up to 128GB of unified memory and one petaflop of AI compute. In a blog post dated 13 October, the company calls it a gaming PC, a creative studio and a personal AI supercomputer in one superchip. The post names no laptop makers or prices.",
+    "The model headline is Nemotron 3.5 Bolt 74B, due on 15 October. Nvidia describes it as a mixture-of-experts model with 9 billion active parameters, packed into 24GB using 2-bit quantisation. It says the release is fully open source, including training data, weights and recipes, and will run through llama.cpp, vLLM, Ollama, Unsloth and LM Studio. Nobody outside Nvidia has tested those claims yet.",
+    "A first-boot screen is meant to get people running a local agent in a few clicks. Nvidia lists GitHub Copilot, Hermes, OpenClaw, Perplexity, Pi and WorkBuddy as supported agent apps, with sandboxing from Nvidia OpenShell and Microsoft Execution Containers. A router library called Switchyard, which Nvidia says is open source, is meant to send queries between local and cloud models Hermes is adding it later in October.",
+    "Nvidia also says it is shipping developer plumbing. It describes PyTorch-CUDA for Windows on Arm, a native Conda installer with more than 2,000 packages, and says about 97 per cent of the top 15,000 Python wheels are ready. Llama.cpp adds decision-model support, which Nvidia claims is up to 200 times faster than traditional agents for decision steps. That figure is Nvidia's own and the post gives no method.",
+    "For creators and gamers, Nvidia cites more than 130 accelerated creative apps. It says Adobe is promising up to twice the speed in Photoshop, Premiere and Substance 3D, though that is listed as coming soon. DLSS 5 arrives at launch, with a faster model debuting in NBA 2K27 on 16 October. Independent reviews and benchmarks of the laptops have not appeared yet."
+   ],
+   "entities": [
+    "Nvidia",
+    "RTX Spark",
+    "Nemotron 3.5 Bolt"
+   ],
+   "sources": [
+    {
+     "author": "NVIDIA",
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/nvidia/status/2110255837297987913",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-nvidia-runai-open-source",
+   "section": "infrastructure",
+   "headline": "Nvidia opens up the code for its Run AI GPU scheduler",
+   "standfirst": "Nvidia says the full Run:ai platform, which schedules and splits GPUs on Kubernetes, is now open source on GitHub, with no paid subscription needed but no Nvidia support either.",
+   "body": [
+    "Nvidia says it is releasing the full Run:ai platform as open source, a day after the company's developer blog post of 13 October. The platform schedules AI workloads and shares GPUs across a Kubernetes cluster. It sits under what Nvidia calls its DSX AI Factory Platform. The code is on GitHub and a packaged version is on Nvidia's NGC catalogue.",
+    "The release is four parts that can be adopted separately, according to the post. KAI Scheduler handles GPU-aware scheduling and is Apache 2.0, and Nvidia says it also gave it to the CNCF as a Sandbox project. A GPU Fractioning Operator splits one GPU between workloads. A resource layer sets team quotas, and a Workload Map describes different AI job types.",
+    "Nvidia says it retired its own proprietary GPU-splitting code in favour of a native capability in CUDA 13.4, and that the fractions get hard memory isolation enforced by the driver. The post does not name one licence for the whole platform, saying only that source is governed by its applicable open source licences. Downloading from NGC requires accepting an Nvidia software agreement.",
+    "No paid Run:ai subscription is needed, the post says, but Nvidia enterprise support is not included. Commercial versions stay on sale through Mission Control and AI Enterprise. Eight partners are integrating it: Crusoe, Mirantis, Nebius, OpenNebula Systems, Rafay, Saturn Cloud, Spectro Cloud and vCluster, with Nebius offering one-click deployment.",
+    "Two related projects were named. Model Streamer loads weights into GPU memory in parallel and sits inside vLLM and SGLang while Nvidia cites Microsoft Azure results showing 3 to 6 times faster loading than the default loader. Grove, a Kubernetes interface for inference, is said to support deployments across tens of thousands of GPUs. Nvidia reports both figures and nobody else has verified them."
+   ],
+   "entities": [
+    "Nvidia",
+    "Run:ai",
+    "KAI Scheduler"
+   ],
+   "sources": [
+    {
+     "author": "NVIDIA Developer",
+     "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-pulse-local",
    "section": "products",
    "headline": "Pulse Local is a Mac budgeting app with its AI models on-device",
