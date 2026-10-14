@@ -1,310 +1,47 @@
 {
-  "generated_at": "2026-10-14T14:04:16.409651+00:00",
+  "generated_at": "2026-10-14T16:03:37.226985+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 152,
-  "clusters_found": 101,
-  "stories_declared": 10,
+  "posts_considered": 166,
+  "clusters_found": 122,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c01acf7f3",
-      "score": 14.337,
+      "cluster_id": "c8b047434",
+      "score": 15.231,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "OpenAI",
         "Anthropic",
-        "Google",
-        "Meta"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "DeepMind",
-        "Simon Willison",
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-10-13T15:12:59+00:00",
-      "last_seen": "2026-10-14T13:26:00+00:00",
-      "links": [
-        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-        "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
-        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-        "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
-        "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-impact-on-businesses-startups-video",
-        "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-safety-concerns-video",
-        "https://www.bloomberg.com/news/videos/2026-10-14/deepl-ceo-on-voice-ai-growth-and-competition-video",
-        "https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video",
-        "https://www.bloomberg.com/news/videos/2026-10-14/openai-may-hold-back-next-generation-model-for-checks-video",
-        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game. Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
-          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
-          "created_at": "2026-10-13T15:12:59+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
-          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-          "created_at": "2026-10-13T18:00:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "created_at": "2026-10-13T19:43:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
-          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-          "created_at": "2026-10-13T22:28:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
-          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-          "created_at": "2026-10-13T23:00:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "MAIA: Interview of Guillaume Princen on Anthropic’s AI Strategy. In an interview on October 14, 2026, Anthropic’s Head of International Startups & Digital Native, Guillaume Princen, discussed how startups and major firms are adopting Anthropic’s AI, including Claude tools, to boost employee productivity, overhaul processes, and build new products. He highlighted growing demand for frontier models like Opus 5.5, now about 40% cheaper than its predecessor, and a shift toward using different models for specific tasks across the 5.5 family. Princen emphasized Anthropic’s safety-first approach versus open-source and open-weight competitors, underscoring third-pa",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-safety-concerns-video",
-          "created_at": "2026-10-14T09:16:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "DeepL CEO on Voice AI Growth and Competition. DeepL CEO Jarek Kutylowski discusses surging demand for voice-to-voice translation and how AI is transforming global business. He also addresses competition with OpenAI and Anthropic, DeepL’s AWS strategy, European data sovereignty, recent workforce cuts and why the company is comfortable remaining private. He spoke with Bloomberg’s Tom Mackenzie, at the International AI Summit in Dublin, Ireland. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/deepl-ceo-on-voice-ai-growth-and-competition-video",
-          "created_at": "2026-10-14T11:42:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI May Hold Back Next Generation Model for Checks, CFO Says. OpenAI Chief Financial Officer Sarah Friar discusses artificial intelligence security concerns, telling Bloomberg's Tom Mackenzie that the firm is \"doubling down\" on safety and alignment, and is holding back its next generation model while it carries out checks. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-may-hold-back-next-generation-model-for-checks-video",
-          "created_at": "2026-10-14T11:55:13+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Anthropic's Princen on AI Impact on Businesses, Startups. Guillaume Princen, Anthropic Head of International Startups & Digital Native, joins Bloomberg's Tom Mackenzie on \"The Opening Trade\" to discuss how artificial intelligence will impact businesses, customer spending on frontier models, and AI safety risks. They speak from the International AI Summit in Dublin, Ireland. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-impact-on-businesses-startups-video",
-          "created_at": "2026-10-14T12:18:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI CFO Says Firms Using Chinese AI Models Are Risking Safety. Businesses opting to use low-cost Chinese artificial intelligence models are taking a cybersecurity risk, said OpenAI Chief Financial Officer Sarah Friar, echoing concerns from rival Anthropic PBC.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
-          "created_at": "2026-10-14T12:54:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap. Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
-          "created_at": "2026-10-14T13:24:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "OpenAI CFO Sarah Friar Discusses AI Safety & Alignment Spending. Bloomberg's Tom MacKenzie sits down with OpenAI CFO Sarah Friar at at the International AI Summit in Dublin to discuss AI safety and alignment spending. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video",
-          "created_at": "2026-10-14T13:26:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cef04e630",
-      "score": 12.471,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "DeepMind",
-        "Google AI",
-        "Latent Space",
-        "The Verge AI"
-      ],
-      "source_count": 6,
-      "first_seen": "2026-10-13T16:00:00+00:00",
-      "last_seen": "2026-10-14T05:40:28+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
-        "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
-        "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-        "https://deepmind.google/blog/introducing-gemini-4-argon/",
-        "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-        "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Google finally releases Gemini 4 Argon. After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini app rolling out Gemini 4 Argon to AI Pro and AI Ultra. Following the announcement at the end of September, Gemini 4 Argon is starting to roll out to the Gemini app, Google Antigravity, and more. more…",
-          "url": "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Google AI",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: Built to solve your hardest problems. We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay. Developers will get 50 percent discounted API rates through November.",
-          "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-          "created_at": "2026-10-13T16:00:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon: Built to solve your hardest problems",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-          "created_at": "2026-10-13T16:01:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Gemini 4 Argon for Robotics",
-          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-          "created_at": "2026-10-13T16:01:58+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google Antigravity is now built into Gemini app for macOS. As part of today’s Gemini 4 Argon rollout, Google is making a big update to the Gemini app for macOS by integrating Antigravity. more…",
-          "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
-          "created_at": "2026-10-13T16:15:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks. Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
-          "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-          "created_at": "2026-10-14T05:40:28+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c269135bf",
-      "score": 11.526,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "testingcatalog"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T16:30:00+00:00",
-      "last_seen": "2026-10-14T13:01:41+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-        "https://x.com/testingcatalog/status/2110355363984007470"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-          "created_at": "2026-10-13T16:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "ICYMI: Google will let users release their personalized vibe-coded apps to Google Play. Users can build their Android apps on Google AI Studio and publish them from there. Users can also share these apps with a close circle of friends & family.",
-          "url": "https://x.com/testingcatalog/status/2110355363984007470",
-          "created_at": "2026-10-14T13:01:41+00:00",
-          "engagement": 167
-        }
-      ]
-    },
-    {
-      "cluster_id": "c382c86a8",
-      "score": 11.471,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
+        "Nvidia"
       ],
       "independent_sources": [
         "Bloomberg Tech",
         "Engadget",
+        "IntCyberDigest",
         "The Decoder",
         "The Verge AI",
         "Tom's Hardware",
         "Wired AI"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "first_seen": "2026-10-13T20:13:49+00:00",
-      "last_seen": "2026-10-14T12:37:05+00:00",
+      "last_seen": "2026-10-14T15:04:55+00:00",
       "links": [
         "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
         "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+        "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
+        "https://www.bloomberg.com/news/videos/2026-10-14/ai-s-biggest-risk-debt-fueled-growth-video",
+        "https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video",
+        "https://www.bloomberg.com/news/videos/2026-10-14/stripe-bets-on-ai-powered-commerce-video",
         "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
         "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
         "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology",
-        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/"
+        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+        "https://x.com/IntCyberDigest/status/2110381110152593490"
       ],
       "posts": [
         {
@@ -354,55 +91,262 @@
           "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
           "created_at": "2026-10-14T12:37:05+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI CFO Says Firms Using Chinese AI Models Are Risking Safety. Businesses opting to use low-cost Chinese artificial intelligence models are taking a cybersecurity risk, said OpenAI Chief Financial Officer Sarah Friar, echoing concerns from rival Anthropic PBC.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
+          "created_at": "2026-10-14T12:54:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "OpenAI CFO Sarah Friar Discusses AI Safety & Alignment Spending. Bloomberg's Tom MacKenzie sits down with OpenAI CFO Sarah Friar at at the International AI Summit in Dublin to discuss AI safety and alignment spending. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video",
+          "created_at": "2026-10-14T13:26:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Stripe Bets on AI-Powered Commerce. Eileen O'Mara, Stripe Vice Chair, joins Bloomberg Open Interest from the International AI Summit in Dublin. She discusses Europe’s push to help startups scale, the surge of AI-powered businesses and how agentic commerce could reshape payments. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/stripe-bets-on-ai-powered-commerce-video",
+          "created_at": "2026-10-14T14:21:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "‼️ European AI security firm Aisle found 24 curl vulnerabilities after Anthropic's Mythos and OpenAI's Codex could no longer find any.\n\ncurl lead Daniel Stenberg says Aisle has found 35 curl CVEs in about a year, more than any group or person. https://t.co/KWbSAfOwrA",
+          "url": "https://x.com/IntCyberDigest/status/2110381110152593490",
+          "created_at": "2026-10-14T14:44:00+00:00",
+          "engagement": 139
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "AI’s Biggest Risk: Debt-Fueled Growth. DA Davidson Head of Technology Research Gil Luria joined Bloomberg Open Interest to explain why Nvidia’s ecosystem and chip demand could support growth through 2030, while warning that debt-heavy data-center builders may face serious pressure. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/ai-s-biggest-risk-debt-fueled-growth-video",
+          "created_at": "2026-10-14T15:04:55+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cf44e46f2",
-      "score": 9.276,
+      "cluster_id": "c07cd7d69",
+      "score": 13.093,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia"
+        "Anthropic",
+        "Google",
+        "Meta"
       ],
       "independent_sources": [
-        "NVIDIA",
-        "NVIDIA Developer"
+        "9to5Google",
+        "DeepMind",
+        "Simon Willison",
+        "The Decoder"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T14:19:40+00:00",
-      "last_seen": "2026-10-14T06:00:28+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-13T16:15:00+00:00",
+      "last_seen": "2026-10-14T13:24:22+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-        "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/"
+        "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
+        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+        "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/"
       ],
       "posts": [
         {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform. NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to...",
-          "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
-          "created_at": "2026-10-13T14:19:40+00:00",
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google Antigravity is now built into Gemini app for macOS. As part of today’s Gemini 4 Argon rollout, Google is making a big update to the Gemini app for macOS by integrating Antigravity. more…",
+          "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
+          "created_at": "2026-10-13T16:15:00+00:00",
           "engagement": 0
         },
         {
-          "author": "NVIDIA",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
+          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+          "created_at": "2026-10-13T18:00:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
           "tier": "primary",
-          "text": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations. Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-          "created_at": "2026-10-14T06:00:28+00:00",
+          "text": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "created_at": "2026-10-13T19:43:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "created_at": "2026-10-13T22:28:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "created_at": "2026-10-13T23:00:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap. Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+          "created_at": "2026-10-14T13:24:22+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c55c3e2fe",
-      "score": 8.045,
+      "cluster_id": "cf3a81cc3",
+      "score": 12.069,
       "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "arXiv",
+        "arankomatsuzaki"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T17:59:31+00:00",
+      "last_seen": "2026-10-14T14:01:00+00:00",
+      "links": [
+        "https://arxiv.org/abs/2610.18861v1",
+        "https://x.com/arankomatsuzaki/status/2110370289334816861"
+      ],
+      "posts": [
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "Hybrid Reasoning Agents. How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturally, a lightweight HybridLink enables seamless transitions between text and latent modes, while the ag",
+          "url": "https://arxiv.org/abs/2610.18861v1",
+          "created_at": "2026-10-13T17:59:31+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arankomatsuzaki",
+          "tier": "commentary",
+          "text": "Together + Stanford present Hybrid Reasoning Agents\n\nCombines efficient latent reasoning with text-based inspection and tool interaction\n\nImproves performance by 10.4%, while delivering ~40% token reduction, ~2× faster inference, and ~3× cost saving\n\nrepo: https://t.co/kAlejuObiu\nabs: https://t.co/s1IqWOHGzZ",
+          "url": "https://x.com/arankomatsuzaki/status/2110370289334816861",
+          "created_at": "2026-10-14T14:01:00+00:00",
+          "engagement": 77
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7e7f016b",
+      "score": 10.101,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
+        "OpenAI",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "AndrewCurran_",
+        "TechCrunch AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-13T20:36:44+00:00",
+      "last_seen": "2026-10-14T15:35:02+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
+        "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+        "https://x.com/AndrewCurran_/status/2110393953220743438"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case. A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+          "created_at": "2026-10-13T20:36:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple wins early access to OpenAI documents and employee testimony in trade secrets lawsuit. Judge Edward Davila today granted some of Apple’s requests for expedited discovery in its trade secrets lawsuit against former employees, OpenAI, and io Products. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
+          "created_at": "2026-10-13T20:45:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "A former OpenAI employee made a presentation to Apple leadership about an unannounced device, according to a new filing this morning from OpenAI. https://t.co/9sJPLFNze6",
+          "url": "https://x.com/AndrewCurran_/status/2110393953220743438",
+          "created_at": "2026-10-14T15:35:02+00:00",
+          "engagement": 222
+        }
+      ]
+    },
+    {
+      "cluster_id": "c496f5526",
+      "score": 8.549,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "IntCyberDigest",
+        "TechCrunch AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-13T16:30:00+00:00",
+      "last_seen": "2026-10-14T14:55:00+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+        "https://x.com/IntCyberDigest/status/2110383878032785509"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s. Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "created_at": "2026-10-13T16:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "❗️ Researchers at ThreatFabric found a new Android trojan swaps the apps of seven Indonesian banks for patched copies that blind their security checks.\n\nEven Google's Play Integrity checks go to an attacker server that hands back the verdict. https://t.co/f0uXsujBYn",
+          "url": "https://x.com/IntCyberDigest/status/2110383878032785509",
+          "created_at": "2026-10-14T14:55:00+00:00",
+          "engagement": 77
+        }
+      ]
+    },
+    {
+      "cluster_id": "c23613c7c",
+      "score": 8.221,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Alibaba",
         "Apple"
       ],
       "independent_sources": [
@@ -410,36 +354,36 @@
         "Engadget"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T14:47:06+00:00",
-      "last_seen": "2026-10-14T12:33:51+00:00",
+      "first_seen": "2026-10-13T19:24:36+00:00",
+      "last_seen": "2026-10-14T15:36:33+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-        "https://9to5mac.com/2026/10/14/apple-website-suggested-siri-ai-may-be-coming-to-full-size-homepods/",
-        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/"
+        "https://9to5mac.com/2026/10/13/apple-rolls-out-new-airpods-beta-firmware-for-several-models-including-airpods-pro-3/",
+        "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
+        "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
       ],
       "posts": [
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-          "created_at": "2026-10-13T14:47:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
-          "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
-          "created_at": "2026-10-13T18:18:54+00:00",
+          "text": "Apple rolls out new AirPods beta firmware for several models, including AirPods Pro 3. In addition to the rollout of developer beta 4 for macOS 27.2, iOS 27.2, iPadOS 27.2, and more, Apple also rolled out developer and public firmware betas for several AirPods models. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-rolls-out-new-airpods-beta-firmware-for-several-models-including-airpods-pro-3/",
+          "created_at": "2026-10-13T19:24:36+00:00",
           "engagement": 0
         },
         {
           "author": "9to5Mac",
           "tier": "press",
-          "text": "Apple website suggested Siri AI may be coming to full size HomePods. The headline feature of the new HomePod mini 2 is support for Siri AI , something that won’t be available for the first-gen model. But there’s hope that existing full size HomePods may also get access to the smarter intelligent assistant. A leaker noticed two clues on Apple’s website seemingly pointing to this, but it’s possible that it was an error on the part of the company … more…",
-          "url": "https://9to5mac.com/2026/10/14/apple-website-suggested-siri-ai-may-be-coming-to-full-size-homepods/",
-          "created_at": "2026-10-14T12:33:51+00:00",
+          "text": "Apple reportedly gearing up for strong iPhone 18 sales. While the iPhone 18 Pro is out, the entry-level model has been held back until early next year. That’s likely because the company wanted to maximize early production capacity and memory availability for the Pro model, alongside the iPhone Duo . But even this far ahead, one leaker has suggested that supply-chain orders indicate Apple is optimistic about demand for the base model … more…",
+          "url": "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
+          "created_at": "2026-10-14T14:59:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch. Apple's integrated AI system is still yet to be rolled out in mainland China, despite launching nearly two years ago.",
+          "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/",
+          "created_at": "2026-10-14T15:36:33+00:00",
           "engagement": 0
         }
       ]
@@ -533,8 +477,8 @@
       ]
     },
     {
-      "cluster_id": "cd9ede70a",
-      "score": 5.337,
+      "cluster_id": "c740a6d6e",
+      "score": 5.115,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -546,22 +490,13 @@
         "Stratechery"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T14:21:39+00:00",
+      "first_seen": "2026-10-13T18:15:35+00:00",
       "last_seen": "2026-10-14T10:00:00+00:00",
       "links": [
         "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
-        "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
         "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/"
       ],
       "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "HomeView for your wall doesn’t include mount, which costs $59 minimum. Today Apple unveiled its new HomeView product in two models, one with a speaker base and the other built for wall mounting. But if you buy the latter, just know you’ll need to spend more for a separate mount. more…",
-          "url": "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
-          "created_at": "2026-10-13T14:21:39+00:00",
-          "engagement": 0
-        },
         {
           "author": "9to5Mac",
           "tier": "press",
@@ -576,46 +511,6 @@
           "text": "Apple HomeView, The New Apple TV, The App Story. The Apple Homeview is official, and the question is how big is the addressable market for expensive devices based on subpar AI.",
           "url": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
           "created_at": "2026-10-14T10:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9242c9cc",
-      "score": 3.625,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T20:36:44+00:00",
-      "last_seen": "2026-10-13T20:45:29+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
-        "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case. A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
-          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-          "created_at": "2026-10-13T20:36:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple wins early access to OpenAI documents and employee testimony in trade secrets lawsuit. Judge Edward Davila today granted some of Apple’s requests for expedited discovery in its trade secrets lawsuit against former employees, OpenAI, and io Products. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-wins-early-access-to-openai-documents-and-employee-testimony-in-trade-secrets-lawsuit/",
-          "created_at": "2026-10-13T20:45:29+00:00",
           "engagement": 0
         }
       ]

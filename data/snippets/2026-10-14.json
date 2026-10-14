@@ -475,6 +475,77 @@
    },
    "published_at": "2026-10-14T12:30:14+00:00",
    "id": "researcher-omarsar0-highlights-a-paper-listed"
+  },
+  {
+   "text": "Perplexity CEO Aravind Srinivas says its Computer agent decompiled a Windows-only keyboard app with headless Ghidra and rebuilt it as a native Rust app for Linux, lighting sync included.",
+   "why": "It is a vendor demo of one user's project, but it shows agents being pointed at reverse engineering and porting, not only new code.",
+   "source": {
+    "name": "Aravind Srinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2110389625277813212"
+   },
+   "published_at": "2026-10-14T15:17:50+00:00",
+   "embed": "https://x.com/AravSrinivas/status/2110389625277813212",
+   "id": "perplexity-ceo-aravind-srinivas-says-its"
+  },
+  {
+   "text": "The Ling team's LLaDA2.2-flash, a 103B diffusion language model under Apache 2.0, reports 519 tokens a second on SWE-bench Verified against 303 for Ling-2.6-flash, though the baseline ran with speculative decoding.",
+   "why": "Diffusion models generate in parallel rather than token by token, and this card is a rare agent-focused example with open weights.",
+   "source": {
+    "name": "LLaDA2.2-flash model card",
+    "url": "https://huggingface.co/inclusionAI/LLaDA2.2-flash"
+   },
+   "published_at": "2026-10-14T07:00:00+00:00",
+   "id": "the-ling-team-s-llada2-2"
+  },
+  {
+   "text": "The Ling team's Ming-Image-0.1-Design is a 6B MIT-licensed text-to-image model for interfaces, posters and infographics that can output transparent-background images; it has 425 likes on Hugging Face.",
+   "why": "Text-rich design is where most image models still fail, and this one is small enough to self-host on a single 80GB GPU.",
+   "source": {
+    "name": "Ming-Image-0.1-Design on Hugging Face",
+    "url": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design"
+   },
+   "published_at": "2026-10-14T04:30:00+00:00",
+   "id": "the-ling-team-s-ming-image"
+  },
+  {
+   "text": "Hugging Face paper VideoJev scores video answers directly instead of generating them; its authors say the 4B model beats TimeLens2-4B by 3.3 mIoU points on grounding and answers questions 129 times faster than a thinking baseline.",
+   "why": "The claim is the authors' own, and no code or weights are linked yet, so it is a result to watch rather than try.",
+   "source": {
+    "name": "VideoJev on Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2610.18615"
+   },
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "id": "hugging-face-paper-videojev-scores-video"
+  },
+  {
+   "text": "Sber Robotics Center's GreenWAM is one model that serves as both a robot world model and a policy across 20 robot families; the team says it tops RoboTwin 2.0 entries, and code and weights are public.",
+   "why": "Sharing one model between predicting the world and acting in it is a bet that could cut the cost of training robot policies.",
+   "source": {
+    "name": "GreenWAM on Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2610.18774"
+   },
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "id": "sber-robotics-center-s-greenwam-is"
+  },
+  {
+   "text": "Thomas Wolf of Hugging Face posted a nanoGPT variant that trains inside a tweet: tap and press train, which he called the GPU-poor final form.",
+   "why": "It makes the smallest possible training loop a shareable link, aimed at people with no GPU at all.",
+   "source": {
+    "name": "Thomas Wolf on X",
+    "url": "https://x.com/Thom_Wolf/status/2110381625200795942"
+   },
+   "published_at": "2026-10-14T14:46:03+00:00",
+   "id": "thomas-wolf-of-hugging-face-posted"
+  },
+  {
+   "text": "Kimmonismus posted a photo claiming Qwen 3.8 27B runs at about 20 tokens a second on the GPU of a jailbroken PlayStation 5; the post has 218 likes and the result is unverified.",
+   "why": "The post is a photo and a claim, not a reproducible benchmark, but it fits a run of stunts pushing big local models onto odd hardware.",
+   "source": {
+    "name": "Kimmonismus on X",
+    "url": "https://x.com/kimmonismus/status/2110384641404490024"
+   },
+   "published_at": "2026-10-14T14:58:02+00:00",
+   "id": "kimmonismus-posted-a-photo-claiming-qwen"
   }
  ]
 }
