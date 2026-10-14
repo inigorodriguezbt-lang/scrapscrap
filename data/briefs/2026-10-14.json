@@ -1,15 +1,96 @@
 {
-  "generated_at": "2026-10-14T00:03:11.347383+00:00",
+  "generated_at": "2026-10-14T02:03:09.322398+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 126,
-  "clusters_found": 84,
+  "posts_considered": 139,
+  "clusters_found": 97,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c05cac419",
-      "score": 14.237,
+      "cluster_id": "c6f0236e1",
+      "score": 15.912,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Google",
+        "Meta",
+        "Mistral"
+      ],
+      "independent_sources": [
+        "DeepMind",
+        "Latent Space",
+        "Simon Willison",
+        "The Decoder",
+        "ValsAI"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-13T09:37:04+00:00",
+      "last_seen": "2026-10-14T00:03:16+00:00",
+      "links": [
+        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+        "https://x.com/ValsAI/status/2110159468067766275"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
+          "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+          "created_at": "2026-10-13T09:37:04+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
+          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+          "created_at": "2026-10-13T18:00:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "created_at": "2026-10-13T19:43:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "created_at": "2026-10-13T22:28:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "created_at": "2026-10-13T23:00:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ValsAI",
+          "tier": "commentary",
+          "text": "How pro-China are Chinese AI models? Surprisingly, not what you would expect.\n\nWe asked both Chinese and American models hundreds of politically sensitive questions about China, and found a range of behaviors.\n\nMiMo V2.6 Pro and GLM-5.3 (via Fireworks) sometimes openly criticize China. Meanwhile, Gemini 4 Argon, Mistral Large 4, and even Grok 4.7 occasionally repeat CCP propaganda.",
+          "url": "https://x.com/ValsAI/status/2110159468067766275",
+          "created_at": "2026-10-14T00:03:16+00:00",
+          "engagement": 33
+        }
+      ]
+    },
+    {
+      "cluster_id": "c3a1ed0ff",
+      "score": 11.777,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -20,22 +101,19 @@
         "9to5Google",
         "Ars Technica AI",
         "DeepMind",
-        "Engadget",
         "Google AI",
         "The Verge AI"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-10-13T16:00:00+00:00",
-      "last_seen": "2026-10-13T19:43:07+00:00",
+      "last_seen": "2026-10-13T16:15:00+00:00",
       "links": [
         "https://9to5google.com/2026/10/13/gemini-app-4-argon/",
         "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
         "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
         "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
         "https://deepmind.google/blog/introducing-gemini-4-argon/",
-        "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
         "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
       ],
       "posts": [
@@ -44,14 +122,6 @@
           "tier": "press",
           "text": "Google finally releases Gemini 4 Argon. After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-          "created_at": "2026-10-13T16:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Google's Gemini 4 Argon is now available in the Gemini app and AI Mode in Search. Google has rolled out Gemini 4 Argon to more users.",
-          "url": "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
           "created_at": "2026-10-13T16:00:00+00:00",
           "engagement": 0
         },
@@ -102,21 +172,13 @@
           "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/",
           "created_at": "2026-10-13T16:15:00+00:00",
           "engagement": 0
-        },
-        {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "created_at": "2026-10-13T19:43:07+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "ce07233a5",
-      "score": 11.219,
-      "interest": "dull",
+      "cluster_id": "cadcd7636",
+      "score": 10.884,
+      "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
@@ -125,12 +187,11 @@
       "independent_sources": [
         "Bloomberg Tech",
         "Engadget",
-        "IntCyberDigest",
         "TechCrunch AI",
         "The Verge AI",
         "Wired AI"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "first_seen": "2026-10-13T14:00:00+00:00",
       "last_seen": "2026-10-13T23:17:59+00:00",
       "links": [
@@ -138,8 +199,7 @@
         "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
         "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
         "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-        "https://x.com/IntCyberDigest/status/2110130770522018273"
+        "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/"
       ],
       "posts": [
         {
@@ -175,14 +235,6 @@
           "engagement": 0
         },
         {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "BREAKING: photo of the Saudi OpenAI engineer arrested for bugging the executive conference room of OpenAI.",
-          "url": "https://x.com/IntCyberDigest/status/2110130770522018273",
-          "created_at": "2026-10-13T22:09:14+00:00",
-          "engagement": 977
-        },
-        {
           "author": "Wired AI",
           "tier": "press",
           "text": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office. Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.",
@@ -193,67 +245,8 @@
       ]
     },
     {
-      "cluster_id": "c3cade49a",
-      "score": 10.027,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic",
-        "Google",
-        "Meta"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T01:40:05+00:00",
-      "last_seen": "2026-10-13T23:00:06+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-        "https://simonwillison.net/2026/Oct/13/web-edit/",
-        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/"
-      ],
-      "posts": [
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "web-edit 0.1a1. Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-          "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-          "created_at": "2026-10-13T01:40:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
-          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-          "created_at": "2026-10-13T18:00:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
-          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-          "created_at": "2026-10-13T22:28:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
-          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-          "created_at": "2026-10-13T23:00:06+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c93260729",
-      "score": 9.5,
+      "score": 9.166,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -312,7 +305,7 @@
     },
     {
       "cluster_id": "c7db2a9c7",
-      "score": 7.961,
+      "score": 7.628,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -351,7 +344,7 @@
     },
     {
       "cluster_id": "c92feede8",
-      "score": 7.482,
+      "score": 7.149,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -399,7 +392,7 @@
     },
     {
       "cluster_id": "c1253f118",
-      "score": 7.339,
+      "score": 7.006,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -456,7 +449,7 @@
     },
     {
       "cluster_id": "ccca89e5b",
-      "score": 6.2,
+      "score": 5.867,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
@@ -493,7 +486,7 @@
     },
     {
       "cluster_id": "c9242c9cc",
-      "score": 5.576,
+      "score": 5.243,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
