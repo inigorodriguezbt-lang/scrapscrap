@@ -546,6 +546,69 @@
    },
    "published_at": "2026-10-14T14:58:02+00:00",
    "id": "kimmonismus-posted-a-photo-claiming-qwen"
+  },
+  {
+   "text": "Graphicle, a Rust port of the Graphify code-graph tool, adds project memory for coding agents; its README says an extract of the Kubernetes repo took 3m18s against 26m38s for Graphify.",
+   "why": "It runs locally under Apache-2.0 and serves agents through MCP, but had only 54 GitHub stars and the speed figures are the project's own single runs.",
+   "source": {
+    "name": "GitHub: graphicle-ai/graphicle",
+    "url": "https://github.com/graphicle-ai/graphicle"
+   },
+   "published_at": "2026-10-14T15:00:00+00:00",
+   "id": "graphicle-a-rust-port-of-the"
+  },
+  {
+   "text": "Arena says Anthropic's Claude Haiku 5.5 (High) ranks 27th in its Agent Arena after 20,500 real agentic sessions, at a median $0.09 per task.",
+   "why": "The small model scores a net +1.48 percent and ranks 15th in Code, close to GPT-6 Luna at $0.08 per task.",
+   "source": {
+    "name": "Arena on X",
+    "url": "https://x.com/arena/status/2110407223226851478"
+   },
+   "published_at": "2026-10-14T16:27:46+00:00",
+   "id": "arena-says-anthropic-s-claude-haiku"
+  },
+  {
+   "text": "OpenAI says ChatGPT Space, introduced at DevDay, lets teams build living documents with ChatGPT and edit them together, with comments and tagging; it is for Pro, Business and Enterprise plans.",
+   "why": "It is a shared workspace in ChatGPT rather than a solo chat, and OpenAI's own post has a demo clip.",
+   "source": {
+    "name": "ChatGPT on X",
+    "url": "https://x.com/ChatGPT/status/2110424821331034550"
+   },
+   "published_at": "2026-10-14T17:37:41+00:00",
+   "embed": "https://x.com/ChatGPT/status/2110424821331034550",
+   "id": "openai-says-chatgpt-space-introduced-at"
+  },
+  {
+   "text": "Perplexity says ultrafast versions of OpenAI's GPT-6 Astra and SOL 6.1 are now in Perplexity Computer for Max subscribers, chosen under Custom by setting speed to Ultrafast.",
+   "why": "Faster token generation is aimed at long Computer agent tasks, which Perplexity says will finish sooner.",
+   "source": {
+    "name": "Perplexity on X",
+    "url": "https://x.com/perplexity_ai/status/2110415710073819389"
+   },
+   "published_at": "2026-10-14T17:01:29+00:00",
+   "embed": "https://x.com/perplexity_ai/status/2110415710073819389",
+   "id": "perplexity-says-ultrafast-versions-of-openai"
+  },
+  {
+   "text": "Perplexity says its SPACE sandbox runs millions of executions a day with an error rate below 0.0002 percent, and has published how it ties requests to the right execution as sandboxes pause and move.",
+   "why": "The write-up covers the plumbing behind agent code execution, which is where coding assistants most often fail at scale.",
+   "source": {
+    "name": "Perplexity on X",
+    "url": "https://x.com/perplexity_ai/status/2110400881028149315"
+   },
+   "published_at": "2026-10-14T15:42:34+00:00",
+   "id": "perplexity-says-its-space-sandbox-runs"
+  },
+  {
+   "text": "Aravind Srinivas says Perplexity Computer now has an /anatomy skill available to everyone, originally built by community member wheresryan22, and shared a demo clip.",
+   "why": "A community-built skill moving into the main product shows how Perplexity is borrowing from users' agent add-ons.",
+   "source": {
+    "name": "Aravind Srinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2110406042114990162"
+   },
+   "published_at": "2026-10-14T16:23:04+00:00",
+   "embed": "https://x.com/AravSrinivas/status/2110406042114990162",
+   "id": "aravind-srinivas-says-perplexity-computer-now"
   }
  ]
 }
