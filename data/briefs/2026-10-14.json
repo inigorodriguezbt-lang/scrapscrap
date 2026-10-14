@@ -1,15 +1,123 @@
 {
-  "generated_at": "2026-10-14T08:03:34.869959+00:00",
+  "generated_at": "2026-10-14T10:03:19.273636+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 160,
-  "clusters_found": 107,
-  "stories_declared": 12,
+  "posts_considered": 158,
+  "clusters_found": 105,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "cb65adb21",
+      "score": 17.314,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "Google",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "DeepMind",
+        "Simon Willison",
+        "The Decoder",
+        "The Verge AI",
+        "testingcatalog"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-10-13T10:33:28+00:00",
+      "last_seen": "2026-10-14T09:16:25+00:00",
+      "links": [
+        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+        "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+        "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+        "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-safety-concerns-video",
+        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+        "https://x.com/testingcatalog/status/2110281620641010119"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic study warns that small AI models could soon replicate across everyday devices. Small AI models may be just months away from spreading on their own across poorly secured consumer devices like smart TVs and robot vacuums, according to a new Anthropic study. In tests, one model already completed the full infection chain. CEO Dario Amodei has warned that a swarm like this could take over the entire internet with a persistent botnet within 6 to 12 months, causing hundreds of billions of dollars in damage. The article Anthropic study warns that small AI models could soon replicate across everyday devices appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+          "created_at": "2026-10-13T10:33:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation. Anthropic says it has cut the extraction of Claude's internal reasoning tokens by 90 to 99 percent. The company links the large-scale distillation attacks to Chinese companies Zhipu and Moonshot, and has already banned tens of thousands of accounts. The article Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+          "created_at": "2026-10-13T11:06:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game. Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
+          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+          "created_at": "2026-10-13T15:12:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
+          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
+          "created_at": "2026-10-13T18:00:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "created_at": "2026-10-13T19:43:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "created_at": "2026-10-13T22:28:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "created_at": "2026-10-13T23:00:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF 🗞 — Oct 14\n\nGOOGLE 🔥:\n- Google released Gemini 4 Argon globally in the paid Gemini API and Gemini platform, the Gemini app and Search for Pro and Ultra subscribers, and Antigravity for Ultra subscribers.\n- Gemini 4 Argon placed 5th on the Arena Overall leaderboard.\n- Google Play now lets anyone build private vibe-coded Android apps and keep them in a personal library.\n- YouTube's contextual AI search is rolling out to all US users on Android and iOS.\n- Google is rolling out custom MCP support in the Gemini desktop app to more users.\n\nANTHROPIC 🔥:\n- Claude Fable 5.5 traces wer",
+          "url": "https://x.com/testingcatalog/status/2110281620641010119",
+          "created_at": "2026-10-14T08:08:40+00:00",
+          "engagement": 86
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "MAIA: Interview of Guillaume Princen on Anthropic’s AI Strategy. In an interview on October 14, 2026, Anthropic’s Head of International Startups & Digital Native, Guillaume Princen, discussed how startups and major firms are adopting Anthropic’s AI, including Claude tools, to boost employee productivity, overhaul processes, and build new products. He highlighted growing demand for frontier models like Opus 5.5, now about 40% cheaper than its predecessor, and a shift toward using different models for specific tasks across the 5.5 family. Princen emphasized Anthropic’s safety-first approach versus open-source and open-weight competitors, underscoring third-pa",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/anthropic-s-princen-on-ai-safety-concerns-video",
+          "created_at": "2026-10-14T09:16:25+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cef04e630",
-      "score": 13.473,
+      "score": 13.14,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -105,127 +213,178 @@
       ]
     },
     {
-      "cluster_id": "c72fde3bf",
-      "score": 13.149,
-      "interest": "want",
+      "cluster_id": "cb026977f",
+      "score": 12.113,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia"
+        "Google"
       ],
       "independent_sources": [
-        "NVIDIA",
-        "nvidia"
+        "AnthropicAI",
+        "DeepMind"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-13T12:00:49+00:00",
-      "last_seen": "2026-10-14T06:26:12+00:00",
+      "first_seen": "2026-10-14T02:00:14+00:00",
+      "last_seen": "2026-10-14T08:40:45+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-        "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-        "https://x.com/nvidia/status/2110255837297987913"
+        "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+        "https://x.com/AnthropicAI/status/2110289695888511368"
       ],
       "posts": [
         {
-          "author": "NVIDIA",
+          "author": "DeepMind",
           "tier": "primary",
-          "text": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark. NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-          "created_at": "2026-10-13T12:00:49+00:00",
+          "text": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection. Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "created_at": "2026-10-14T02:00:14+00:00",
           "engagement": 0
         },
         {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA. Across industries, the U.K. is putting the full stack to work — and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-          "created_at": "2026-10-14T06:04:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "nvidia",
+          "author": "AnthropicAI",
           "tier": "commentary",
-          "text": "From enterprise to Earthshot, the UK is building with NVIDIA. More computing power and open models... committing $250 million in computing access over five years to UK research on AI agent safety and security. NVIDIA joining The Earthshot Prize as Global Alliance Founding Partner. Ahead of GTC Berlin",
-          "url": "https://x.com/nvidia/status/2110255837297987913",
-          "created_at": "2026-10-14T06:26:12+00:00",
-          "engagement": 139,
-          "video": true
+          "text": "We’ve opened an office in Singapore—our fifth in the Asia-Pacific region. We’ve also signed an MOU with the Government of Singapore on AI safety and responsible adoption.\n\nYou can read more about our new office here: https://t.co/125mBgHLkM",
+          "url": "https://x.com/AnthropicAI/status/2110289695888511368",
+          "created_at": "2026-10-14T08:40:45+00:00",
+          "engagement": 1138
         }
       ]
     },
     {
-      "cluster_id": "c3b1838db",
-      "score": 12.171,
+      "cluster_id": "cd1269ce2",
+      "score": 10.283,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
-        "Anthropic",
         "Google",
-        "Meta"
+        "Apple"
       ],
       "independent_sources": [
-        "DeepMind",
-        "Latent Space",
-        "Simon Willison",
-        "The Decoder"
+        "9to5Mac",
+        "Engadget",
+        "Product Hunt AI"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-13T09:37:04+00:00",
-      "last_seen": "2026-10-13T23:00:06+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-13T13:08:20+00:00",
+      "last_seen": "2026-10-14T05:07:36+00:00",
       "links": [
-        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-        "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-        "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+        "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
+        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
+        "https://www.producthunt.com/products/apple-homepod-mini",
+        "https://www.producthunt.com/products/aurora-lifeline",
+        "https://www.producthunt.com/products/gemini-4-argon-2",
+        "https://www.producthunt.com/products/kugelaudio",
+        "https://www.producthunt.com/products/nimble-5",
+        "https://www.producthunt.com/products/rolefit",
+        "https://www.producthunt.com/products/vectorize",
+        "https://www.producthunt.com/products/writerzroom"
       ],
       "posts": [
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model. MSL&#8217;s emergence as a frontier lab is finally complete.",
-          "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-          "created_at": "2026-10-13T09:37:04+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model. Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks from months to weeks. The article Gemini 4 Argon is now available worldwide as Google&#039;s most capable frontier model appeared first on The Decoder .",
-          "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-          "created_at": "2026-10-13T18:00:49+00:00",
+          "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
+          "created_at": "2026-10-13T13:08:20+00:00",
           "engagement": 0
         },
         {
-          "author": "DeepMind",
+          "author": "Product Hunt AI",
           "tier": "primary",
-          "text": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "created_at": "2026-10-13T19:43:07+00:00",
+          "text": "Apple HomePod mini 2. Apple's tiny smart speaker, now built for Siri AI Discussion | Link",
+          "url": "https://www.producthunt.com/products/apple-homepod-mini",
+          "created_at": "2026-10-13T13:43:16+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
-          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-          "created_at": "2026-10-13T22:28:54+00:00",
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Kugel 3.5. ext-to-speech that beats any other Model out there Discussion | Link",
+          "url": "https://www.producthunt.com/products/kugelaudio",
+          "created_at": "2026-10-13T13:51:15+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
-          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-          "created_at": "2026-10-13T23:00:06+00:00",
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
+          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
+          "created_at": "2026-10-13T14:47:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple HomePod mini 2 vs. Apple HomePod mini: What do you get for the $50 increase?. Are Siri AI, a new chip and Sound Glow worth the higher price?",
+          "url": "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
+          "created_at": "2026-10-13T16:27:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Nimble. SOTA Decision Model Discussion | Link",
+          "url": "https://www.producthunt.com/products/nimble-5",
+          "created_at": "2026-10-13T17:21:30+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "AURORA Lifeline. Know who a cyclone will cut off, before the roads close Discussion | Link",
+          "url": "https://www.producthunt.com/products/aurora-lifeline",
+          "created_at": "2026-10-13T17:35:59+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Gemini 4 Argon. Google's frontier model for long, complex agentic work Discussion | Link",
+          "url": "https://www.producthunt.com/products/gemini-4-argon-2",
+          "created_at": "2026-10-13T17:45:29+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
+          "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
+          "created_at": "2026-10-13T18:18:54+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Hindsight 1.0 + Memlake. Open source memory for AI agents to learn from experience Discussion | Link",
+          "url": "https://www.producthunt.com/products/vectorize",
+          "created_at": "2026-10-13T18:51:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "WriterzRoom. Governed multi-agent AI content for regulated industries Discussion | Link",
+          "url": "https://www.producthunt.com/products/writerzroom",
+          "created_at": "2026-10-14T04:35:22+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "RoleFit. Tailor every job application without starting from scratch Discussion | Link",
+          "url": "https://www.producthunt.com/products/rolefit",
+          "created_at": "2026-10-14T05:07:36+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cf44e46f2",
-      "score": 10.278,
+      "score": 9.945,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -264,7 +423,7 @@
     },
     {
       "cluster_id": "cadcd7636",
-      "score": 9.883,
+      "score": 9.55,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -332,118 +491,6 @@
       ]
     },
     {
-      "cluster_id": "c1941e12b",
-      "score": 8.285,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "Engadget",
-        "Product Hunt AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-13T13:02:28+00:00",
-      "last_seen": "2026-10-13T18:18:54+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
-        "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
-        "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-        "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
-        "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
-        "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
-        "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
-        "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
-        "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
-        "https://www.producthunt.com/products/apple-homepod-mini"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple announces new Apple TV 4K with upgraded Siri Remote, A19 chip, more. Today Apple unveiled a brand new Apple TV 4K model as part of its ‘Welcome home’ product launch event. Here are the full details from the announcement. more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-announces-new-apple-tv-4k/",
-          "created_at": "2026-10-13T13:02:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple announces HomePod mini 2: Siri AI, new colors, Sound Glow, more. Apple has officially announced the new HomePod mini 2 smart speaker. The new product was announced by Apple today alongside the new HomeView smart display and fourth-gen Apple TV 4K . more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-announces-homepod-mini-2-siri-ai-new-colors-sound-glow-more/",
-          "created_at": "2026-10-13T13:08:20+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Siri AI coming to older Apple TV 4K models, here’s what’s compatible. Today Apple introduced a fourth-generation Apple TV 4K with Siri AI, and A19 chip, and more. But the company also shared welcome news for current Apple TV users: Siri AI is compatible with select older models too. more…",
-          "url": "https://9to5mac.com/2026/10/13/siri-ai-coming-to-older-apple-tv-4k-models-heres-whats-compatible/",
-          "created_at": "2026-10-13T13:12:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Apple HomePod mini 2. Apple's tiny smart speaker, now built for Siri AI Discussion | Link",
-          "url": "https://www.producthunt.com/products/apple-homepod-mini",
-          "created_at": "2026-10-13T13:43:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "You can buy the new, improved Siri Remote for your existing Apple TV 4K. Today Apple unveiled the long-awaited new Apple TV 4K model , which includes an updated Siri Remote with a built-in speaker as part of its Find My and Precision Finding support. But even if you’re not upgrading, you can still buy the new Siri Remote for your current Apple TV. more…",
-          "url": "https://9to5mac.com/2026/10/13/you-can-buy-the-new-improved-siri-remote-for-your-existing-apple-tv-4k/",
-          "created_at": "2026-10-13T13:46:26+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "HomeView for your wall doesn’t include mount, which costs $59 minimum. Today Apple unveiled its new HomeView product in two models, one with a speaker base and the other built for wall mounting. But if you buy the latter, just know you’ll need to spend more for a separate mount. more…",
-          "url": "https://9to5mac.com/2026/10/13/homeview-for-your-wall-doesnt-include-mount-which-costs-59-minimum/",
-          "created_at": "2026-10-13T14:21:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple confirms HomePod mini 2 won’t have Siri AI at launch. Today Apple introduced HomePod mini 2 with Siri AI as a major tentpole feature. HomePod mini 2 ships on October 30, but checking the fine print on Apple’s website, it seems Siri AI won’t be available on launch day. more…",
-          "url": "https://9to5mac.com/2026/10/13/apple-confirms-homepod-mini-2-wont-have-siri-ai-at-launch/",
-          "created_at": "2026-10-13T14:47:06+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple HomePod mini 2 vs. Apple HomePod mini: What do you get for the $50 increase?. Are Siri AI, a new chip and Sound Glow worth the higher price?",
-          "url": "https://www.engadget.com/2285476/apple-homepod-mini-2-vs-mini-comparison-50-dollar-increase/",
-          "created_at": "2026-10-13T16:27:40+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple’s two HomeViews have one big hidden difference. Today Apple unveiled HomeView , its long-awaited smart home hub. The HomeView comes in two distinct models, one with a domed speaker base and the other designed for wall mounting. But there’s a hidden feature difference beyond the form factors. more…",
-          "url": "https://9to5mac.com/2026/10/13/apples-two-homeviews-have-one-big-hidden-difference/",
-          "created_at": "2026-10-13T18:15:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Apple TV 4K and HomePod mini 2 hands-on: A look at the audio updates and Siri AI. Listening to Apple's new audio features with Siri as our binge-watching companion.",
-          "url": "https://www.engadget.com/2285699/apple-tv-4k-2026-and-homepod-mini-2-hands-on-siri-ai-audio-upgrade/",
-          "created_at": "2026-10-13T18:18:54+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c72b6fddd",
       "score": 7.629,
       "interest": "want",
@@ -494,7 +541,7 @@
     },
     {
       "cluster_id": "c7db2a9c7",
-      "score": 6.627,
+      "score": 6.455,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -532,93 +579,8 @@
       ]
     },
     {
-      "cluster_id": "c92feede8",
-      "score": 6.455,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T10:33:28+00:00",
-      "last_seen": "2026-10-13T15:12:59+00:00",
-      "links": [
-        "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-        "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
-        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic study warns that small AI models could soon replicate across everyday devices. Small AI models may be just months away from spreading on their own across poorly secured consumer devices like smart TVs and robot vacuums, according to a new Anthropic study. In tests, one model already completed the full infection chain. CEO Dario Amodei has warned that a swarm like this could take over the entire internet with a persistent botnet within 6 to 12 months, causing hundreds of billions of dollars in damage. The article Anthropic study warns that small AI models could soon replicate across everyday devices appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
-          "created_at": "2026-10-13T10:33:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation. Anthropic says it has cut the extraction of Claude's internal reasoning tokens by 90 to 99 percent. The company links the large-scale distillation attacks to Chinese companies Zhipu and Moonshot, and has already banned tens of thousands of accounts. The article Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
-          "created_at": "2026-10-13T11:06:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game. Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
-          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
-          "created_at": "2026-10-13T15:12:59+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccca89e5b",
-      "score": 4.866,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "Wired AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-13T10:00:00+00:00",
-      "last_seen": "2026-10-13T21:32:08+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/videos/2026-10-13/applied-materials-ceo-on-doubling-revenue-thanks-to-ai-video",
-        "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/"
-      ],
-      "posts": [
-        {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies. Backed by Silicon Valley titans, Leading the Future has raised huge sums to promote pro-AI candidates on both side of the aisle.",
-          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-          "created_at": "2026-10-13T10:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Applied Materials CEO on Doubling Revenue Thanks To AI. Applied Materials CEO Gary Dickerson says he expects revenue to double over the next few years. He notes that Applied Materials had opened a $5 billion research and development center in Silicon Valley to speed development of next-generation chips. He speaks with Ed Ludlow on \"The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-13/applied-materials-ceo-on-doubling-revenue-thanks-to-ai-video",
-          "created_at": "2026-10-13T21:32:08+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c9242c9cc",
-      "score": 4.242,
+      "score": 3.909,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",

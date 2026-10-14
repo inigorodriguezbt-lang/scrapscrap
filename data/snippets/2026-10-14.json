@@ -293,6 +293,56 @@
    },
    "published_at": "2026-10-14T06:46:59+00:00",
    "id": "openai-s-codex-app-threads-now"
+  },
+  {
+   "text": "Anthropic says it has opened its fifth Asia-Pacific office, in Singapore, and signed an MOU with the Singapore Government on AI safety and responsible adoption.",
+   "why": "It extends Anthropic's regional footprint just as Singapore's government is also working with Google DeepMind on AI projects.",
+   "source": {
+    "name": "Anthropic",
+    "url": "https://x.com/AnthropicAI/status/2110289695888511368"
+   },
+   "published_at": "2026-10-14T08:40:45+00:00",
+   "id": "anthropic-says-it-has-opened-its"
+  },
+  {
+   "text": "TestingCatalog reports Gemini 4 Argon placed fifth on the LMArena Overall leaderboard, and that Google is rolling out custom MCP support in the Gemini desktop app to more users.",
+   "why": "The ranking is a first outside read on Argon's quality, while MCP support in the desktop app would let users wire their own tools into Gemini.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2110281620641010119"
+   },
+   "published_at": "2026-10-14T08:08:40+00:00",
+   "id": "testingcatalog-reports-gemini-4-argon-placed"
+  },
+  {
+   "text": "The Hacker News reports a Linux kernel flaw, dubbed Vghost (CVE-2026-74580), that can let an untrusted VM hijack its host's QEMU process in specific setups, and says AI assisted the discovery.",
+   "why": "It also allows local root escalation for users with vhost device access; the AI-assisted claim comes from the outlet, not a kernel advisory.",
+   "source": {
+    "name": "The Hacker News",
+    "url": "https://x.com/TheHackersNews/status/2110278636754575716"
+   },
+   "published_at": "2026-10-14T07:56:48+00:00",
+   "id": "the-hacker-news-reports-a-linux"
+  },
+  {
+   "text": "Researcher teortaxes flagged a Dots (Rednote) paper that generalises Kimi's Attention Residuals to multi-head depth attention, reporting a 1.58x iso-loss compute speedup over a standard residual baseline.",
+   "why": "The paper's figure is the authors' own claim; it compares against 1.35x for AttnRes and 1.30x for mHC, and nobody has reproduced it yet.",
+   "source": {
+    "name": "teortaxesTex on X",
+    "url": "https://x.com/teortaxesTex/status/2110280791746081154"
+   },
+   "published_at": "2026-10-14T08:05:22+00:00",
+   "id": "researcher-teortaxes-flagged-a-dots-rednote"
+  },
+  {
+   "text": "A paper on mixture-of-experts training, flagged by researcher teortaxes, says its method improves expert load balancing and beats DeepSeek's auxiliary-loss-free approach at no throughput cost.",
+   "why": "Load balancing decides how efficiently mixture-of-experts models train, so a free improvement would matter to open-model labs, if results hold up.",
+   "source": {
+    "name": "teortaxesTex on X",
+    "url": "https://x.com/teortaxesTex/status/2110278603573264737"
+   },
+   "published_at": "2026-10-14T07:56:40+00:00",
+   "id": "a-paper-on-mixture-of-experts"
   }
  ]
 }
