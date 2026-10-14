@@ -27,6 +27,90 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "ai-music-labels-youtube-deezer",
+   "section": "products",
+   "headline": "YouTube Music labels AI songs as Deezer builds a switch to hide them",
+   "standfirst": "YouTube Music now tags tracks as fully or partly AI-made, while Deezer says over half its daily uploads are AI-generated and a hide filter is due by year end.",
+   "body": [
+    "YouTube Music announced on Wednesday a labelling system for songs made with generative AI, TechCrunch reports. The label appears on the player page, and tapping it shows more detail about the role AI played in the track. YouTube says the labels will also reach the main YouTube app.",
+    "YouTube says it built the system with music partners and its own detection tools, according to TechCrunch. Partners declare their use of generative AI under one of three designations: Fully Gen AI, Partly Gen AI, which mixes generated parts with the artist's own live elements, and No Gen AI. Tracks edited with pitch correction such as Auto-Tune fall under the last.",
+    "The labels are disclosure, not a ban. TechCrunch reports that AI involvement alone does not make a track ineligible for monetization on YouTube. The company is still experimenting with AI music creation through Dream Track, which lets selected creators generate soundtracks using AI versions of participating artists' voices.",
+    "Deezer went further the day before. It said it is developing a toggle that hides AI-generated tracks and albums from search, due before the end of 2026, TechCrunch reports. Chief executive Alexis Lanternier said there is \"clear user demand for the ability to filter out AI-generated music.\"",
+    "Deezer's own figures show why. AI tracks were 10 per cent of daily uploads when it added detection in 2025, and in July 2026 they were more than half, averaging 90,000 a day, according to TechCrunch. Deezer also cited a survey in which about 45 per cent of customers wanted AI music out of their feeds.",
+    "Rivals are splitting. TechCrunch reports Bandcamp banned AI tracks in January, Tidal lets listeners switch them off and excludes them from royalties, and Spotify tags them without banning. Apple Music is reported to be planning \"Made With AI\" labels later this year. No service has yet published how accurate its detection is."
+   ],
+   "entities": [
+    "YouTube Music",
+    "Deezer",
+    "Spotify",
+    "Apple Music",
+    "Tidal",
+    "Bandcamp"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+    },
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+    },
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/10/14/youtube-music-ai-label/"
+    },
+    {
+     "author": "Engadget",
+     "url": "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "nvidia-europe-2-billion-uk-250-million",
+   "section": "business",
+   "headline": "Jensen Huang pledges $2 billion for Europe and $250 million for UK safety labs",
+   "standfirst": "On a Paris stop of a European tour, Nvidia's chief executive disclosed stakes in Doctolib, Genesis AI, Pigment and Entalpic and promised UK labs five years of compute for agent-safety research.",
+   "body": [
+    "Nvidia chief executive Jensen Huang announced $2 billion of new investments in Europe in Paris, The Decoder reports, with deals due the following week according to Bloomberg. Nvidia spent about $8 billion in Europe last year. The trip also takes in London and Berlin.",
+    "Huang disclosed new stakes in four French startups: Doctolib, Genesis AI, Pigment and Entalpic. The Decoder's account gives no sizes for the individual stakes. Posts from the commentator kimmonismus, who watched the event, describe Huang announcing five more investments in UK companies, though the amounts were not stated.",
+    "In the UK, Nvidia is donating $250 million of compute over five years to labs working on AI agent safety and security, The Decoder reports. The named recipients are BOLD at Oxford, SOFAIR at UCL and Imperial College London. Their work covers open-ended learning, open-source architectures and robotics safety.",
+    "UK AI minister Kanishka Narayan called it a \"vote of confidence in our world-leading strength and expertise in AI research.\" The money is compute rather than cash, so its value depends on how Nvidia prices the hardware time. The report does not break that down.",
+    "Huang pitched open-weight models as Europe's way to close its AI gap and repeated his pushback against calls to slow development. In a clip posted by kimmonismus he said Europe has the scientists it needs but must find a lasting answer on energy: \"Without energy, there is no industry.\""
+   ],
+   "entities": [
+    "Nvidia",
+    "Jensen Huang",
+    "Doctolib",
+    "Genesis AI",
+    "Pigment",
+    "Entalpic"
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/kimmonismus/status/2110451084103741588",
+     "after": 4,
+     "video": true
+    }
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/"
+    },
+    {
+     "author": "kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2110451084103741588"
+    },
+    {
+     "author": "kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2110427412605673615"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-torvalds-llm-patch-series",
    "section": "ai",
    "headline": "Linus Torvalds posts his first patch series written with an LLM",
@@ -229,7 +313,7 @@
      "after": 3
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-alibaba-apple-intelligence-china",
@@ -255,7 +339,7 @@
      "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-eu-ai-office-agent-incident-probes",

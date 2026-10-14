@@ -1,202 +1,91 @@
 {
-  "generated_at": "2026-10-14T18:03:28.659356+00:00",
+  "generated_at": "2026-10-14T20:03:56.467339+00:00",
   "edition_date": "2026-10-14",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 126,
-  "clusters_found": 98,
-  "stories_declared": 9,
+  "posts_considered": 141,
+  "clusters_found": 107,
+  "stories_declared": 11,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cc5ec607b",
-      "score": 15.617,
+      "cluster_id": "cdbd00f7f",
+      "score": 13.748,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [],
       "independent_sources": [
-        "DeepMind",
-        "OfficialLoganK",
-        "Simon Willison"
+        "elonmusk",
+        "mark_k",
+        "testingcatalog"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-13T19:43:07+00:00",
-      "last_seen": "2026-10-14T17:22:20+00:00",
+      "first_seen": "2026-10-14T18:01:26+00:00",
+      "last_seen": "2026-10-14T18:33:33+00:00",
       "links": [
-        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-        "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-        "https://x.com/OfficialLoganK/status/2110420958737813612"
+        "https://x.com/elonmusk/status/2110438877274259488",
+        "https://x.com/mark_k/status/2110433370119544905",
+        "https://x.com/testingcatalog/status/2110430795672564136"
       ],
       "posts": [
         {
-          "author": "DeepMind",
-          "tier": "primary",
-          "text": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "created_at": "2026-10-13T19:43:07+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "llm-gemini 0.35. Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output -",
-          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-          "created_at": "2026-10-13T22:28:54+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OfficialLoganK",
-          "tier": "commentary",
-          "text": "A conversation with Sergey Brin, @joshwoodward, @tulseedoshi, and @melvinjohnsonp about Gemini 4 Argon, how we got here, and the path ahead!",
-          "url": "https://x.com/OfficialLoganK/status/2110420958737813612",
-          "created_at": "2026-10-14T17:22:20+00:00",
-          "engagement": 738,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "c172069bb",
-      "score": 13.363,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "OpenAI",
-        "perplexity_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T07:00:00+00:00",
-      "last_seen": "2026-10-14T17:01:29+00:00",
-      "links": [
-        "https://openai.com/index/third-moment-research",
-        "https://x.com/perplexity_ai/status/2110415710073819389"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "How Third Moment Research runs 10,000 agents for 36+ hours. With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-          "url": "https://openai.com/index/third-moment-research",
-          "created_at": "2026-10-14T07:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "perplexity_ai",
-          "tier": "commentary",
-          "text": "Ultrafast versions of GPT-6 Astra and SOL 6.1 are now available in Perplexity Computer for Max subscribers.\n\nBoth generate tokens faster, completing long Computer tasks sooner.\n\nChoose Astra or SOL 6.1 under Custom, then set speed to Ultrafast.",
-          "url": "https://x.com/perplexity_ai/status/2110415710073819389",
-          "created_at": "2026-10-14T17:01:29+00:00",
-          "engagement": 97,
-          "video": true
-        }
-      ]
-    },
-    {
-      "cluster_id": "c0298b429",
-      "score": 11.205,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [],
-      "independent_sources": [
-        "The Verge AI",
-        "mark_k"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T13:55:02+00:00",
-      "last_seen": "2026-10-14T16:14:19+00:00",
-      "links": [
-        "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-        "https://x.com/mark_k/status/2110403839673200853"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Epic&#8217;s new games launcher is ‘vibe coded’. Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-assisted development, also notes that the refresh was \"vibe coded.\" \"Programming is hard,\" Epic says in [&#8230;]",
-          "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-          "created_at": "2026-10-14T13:55:02+00:00",
-          "engagement": 0
+          "text": "SPACEXSI 🔥: Grok Voice 3.0 has been announced, and it is now a SOTA speech-to-speech model on many benchmarks and the Artificial Analysis Speech-to-Speech Index.\n\nGrok Voice 3.0 also comes with 40% lower latency.\n\nAI call center testing time 👀 https://t.co/clyoAsBTJI",
+          "url": "https://x.com/testingcatalog/status/2110430795672564136",
+          "created_at": "2026-10-14T18:01:26+00:00",
+          "engagement": 179
         },
         {
           "author": "mark_k",
           "tier": "commentary",
-          "text": "Epic Games is putting Super Intelligence front and center, openly telling everyone that they vibe coded their new launcher program.",
-          "url": "https://x.com/mark_k/status/2110403839673200853",
-          "created_at": "2026-10-14T16:14:19+00:00",
-          "engagement": 121
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6259a5e7",
-      "score": 9.107,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "AIatMeta",
-        "alexandr_wang"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T15:57:27+00:00",
-      "last_seen": "2026-10-14T16:02:21+00:00",
-      "links": [
-        "https://x.com/AIatMeta/status/2110399597088477681",
-        "https://x.com/alexandr_wang/status/2110400826632249468"
-      ],
-      "posts": [
-        {
-          "author": "AIatMeta",
-          "tier": "commentary",
-          "text": "@finkd and @alexandr_wang talk Muse Wonder and all things MSL with @collision.\n\nWatch the full convo",
-          "url": "https://x.com/AIatMeta/status/2110399597088477681",
-          "created_at": "2026-10-14T15:57:27+00:00",
-          "engagement": 88,
-          "video": true
+          "text": "Grok Voice 3.0 is here from @SpaceXSI 🔥\n\nLooks like a considerable upgrade over the 2.0 version. If you build systems that need voice functionality, this could be very useful:",
+          "url": "https://x.com/mark_k/status/2110433370119544905",
+          "created_at": "2026-10-14T18:11:40+00:00",
+          "engagement": 38
         },
         {
-          "author": "alexandr_wang",
+          "author": "elonmusk",
           "tier": "commentary",
-          "text": "we're going to have to look into what happened here\n\n[sound on, made with muse wonder full]",
-          "url": "https://x.com/alexandr_wang/status/2110400826632249468",
-          "created_at": "2026-10-14T16:02:21+00:00",
-          "engagement": 348,
-          "video": true
+          "text": "Try Grok Voice",
+          "url": "https://x.com/elonmusk/status/2110438877274259488",
+          "created_at": "2026-10-14T18:33:33+00:00",
+          "engagement": 2970
         }
       ]
     },
     {
-      "cluster_id": "cc74ba0b1",
-      "score": 9.095,
+      "cluster_id": "ce7afeae5",
+      "score": 12.959,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "chips",
       "entities": [
         "OpenAI",
         "Nvidia"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "TechCrunch AI"
+        "TechCrunch AI",
+        "kimmonismus"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-13T22:36:59+00:00",
-      "last_seen": "2026-10-14T17:54:27+00:00",
+      "last_seen": "2026-10-14T19:15:20+00:00",
       "links": [
         "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
         "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
         "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
         "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
         "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
+        "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia",
         "https://www.bloomberg.com/news/articles/2026-10-14/coreweave-s-ceo-blames-rout-on-market-acting-irrationally",
         "https://www.bloomberg.com/news/articles/2026-10-14/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
         "https://www.bloomberg.com/news/videos/2026-10-14/bloomberg-tech-10-14-2026-video",
         "https://www.bloomberg.com/news/videos/2026-10-14/modal-ceo-ai-has-entered-a-new-era-of-software-video",
-        "https://www.bloomberg.com/news/videos/2026-10-14/openai-employee-arrested-over-hidden-recording-device-video"
+        "https://www.bloomberg.com/news/videos/2026-10-14/nvidia-s-huang-would-cut-off-irresponsible-ai-customers-video",
+        "https://www.bloomberg.com/news/videos/2026-10-14/openai-employee-arrested-over-hidden-recording-device-video",
+        "https://x.com/kimmonismus/status/2110426969686835274"
       ],
       "posts": [
         {
@@ -226,7 +115,7 @@
         {
           "author": "TechCrunch AI",
           "tier": "press",
-          "text": "TechCrunch Disrupt 2026: Day 2. Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, investor-only session, more roundtables, and more. Register to save 50% on your pass.",
+          "text": "TechCrunch Disrupt 2026: Day 2. Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, as well as an investor-only session, more roundtables, Side Events, and more. Register to save 50% on your pass.",
           "url": "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
           "created_at": "2026-10-14T14:30:00+00:00",
           "engagement": 0
@@ -272,18 +161,278 @@
           "engagement": 0
         },
         {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Jensen Huang: We are witnessing the emergence of a new industrial revolution driven by AI. Massive investments have been made, and highly valuable startups have sprung up. \n\nJensen repeatedly emphasizes the need to proceed safely and carefully; however, he views AI safety as an engineering challenge. Given the immense opportunities, we should move forward with cautious optimism rather than slowing down.\n\nI couldn’t agree more. Accelerate! To quote Demis Hassabis: a golden era of scientific discovery right infront of us!\n\n(Ps I love Jensens humor)",
+          "url": "https://x.com/kimmonismus/status/2110426969686835274",
+          "created_at": "2026-10-14T17:46:14+00:00",
+          "engagement": 134,
+          "video": true
+        },
+        {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "CoreWeave’s CEO Blames Rout on Market Acting ‘Irrationally’. CoreWeave Inc. Chief Executive Officer Mike Intrator, facing a plunge in the company’s stock and bond prices, said the market is acting “irrationally” and that he remains confident in the AI cloud company.",
+          "text": "CoreWeave CEO Says Market Acting ‘Irrationally,’ Stands by Model. CoreWeave Inc. Chief Executive Officer Mike Intrator, facing a plunge in the company’s stock and bond prices, said the market is acting “irrationally” and that he remains confident in the AI cloud company’s business model.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-14/coreweave-s-ceo-blames-rout-on-market-acting-irrationally",
           "created_at": "2026-10-14T17:54:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Arrested OpenAI Engineer Booked a One-Way Ticket to Saudi Arabia. The OpenAI employee who was arrested and charged with allegedly using a hidden recording device in one of the ChatGPT maker’s San Francisco offices had a one-way ticket to Saudi Arabia booked for Oct. 12, according to a court filing.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/arrested-openai-engineer-booked-a-one-way-ticket-to-saudi-arabia",
+          "created_at": "2026-10-14T18:52:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nvidia's Huang Says He Would Not Sell Chips to Irresponsible AI Customers. Nvidia Corp. Chief Executive Officer Jensen Huang says his company would stop selling chips to a customer that was developing unsafe AI software. He talks extensively about AI safety and how the industry is growing with Bloomberg's Emily Chang in London. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-14/nvidia-s-huang-would-cut-off-irresponsible-ai-customers-video",
+          "created_at": "2026-10-14T19:15:20+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c467450ec",
+      "score": 12.672,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "SemiAnalysis_",
+        "Simon Willison",
+        "testingcatalog"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-13T23:00:06+00:00",
+      "last_seen": "2026-10-14T19:41:14+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+        "https://x.com/SemiAnalysis_/status/2110444144233480309",
+        "https://x.com/testingcatalog/status/2110455911344931130"
+      ],
+      "posts": [
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Redesigning source control at Anthropic. Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for A",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "created_at": "2026-10-13T23:00:06+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "SemiAnalysis_",
+          "tier": "commentary",
+          "text": "COOL & INSIGHTFUL: \"Idle compaction\" was added to Claude Code TUI in their most recent release (2.1.299).\n\nEach Claude Code session (with at least 200k+ context) will now automatically compact after being idle for ~54 minutes, in order to refresh the 1-hour TTL and prevent the user from incurring the cost of uncached input.\n\nThis will save end users a lot of money! Although, with the way Anthropic investor day is going, maybe they should roll this change back? 🤔",
+          "url": "https://x.com/SemiAnalysis_/status/2110444144233480309",
+          "created_at": "2026-10-14T18:54:28+00:00",
+          "engagement": 122
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "ANTHROPIC 🔥: Claude Code Desktop now has a new sessions hub, live session statuses on the nav bar, and more!\n\nUsers can now start, track, manage, and follow up on multiple sessions at once from the Claude Code main screen. \n\nThis \"Claude Hub\" experience has been in testing for a while and has gone through several iterations. \n\nInterestingly, OpenAI was planning to release a similar experience called \"magic notepad\" but abandoned it. \n\nIf you use Claude Code heavily, this is worth testing! https://t.co/OaUKxKwUrC",
+          "url": "https://x.com/testingcatalog/status/2110455911344931130",
+          "created_at": "2026-10-14T19:41:14+00:00",
+          "engagement": 71,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c42061cd3",
+      "score": 11.966,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [],
+      "independent_sources": [
+        "AndrewCurran_",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-14T13:55:02+00:00",
+      "last_seen": "2026-10-14T18:22:30+00:00",
+      "links": [
+        "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
+        "https://x.com/AndrewCurran_/status/2110436097541214554"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Epic&#8217;s new games launcher is ‘vibe coded’. Epic Games is announcing a big refresh of its PC games launcher today in preview, saying that the new version is \"way faster\" and now supports Linux. But the company, which has been publicly making a big push into AI-assisted development, also notes that the refresh was \"vibe coded.\" \"Programming is hard,\" Epic says in [&#8230;]",
+          "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
+          "created_at": "2026-10-14T13:55:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "This is a AAA game, a Marvel/Star Wars FPS, and Epic Games is vibe coding it. The directive went out to devs last week: 'No more hand-written code,' and all the art will be generated by AI as well. Claude is on the job. Things have changed dramatically over the last few weeks. https://t.co/Ag49SbVmV9",
+          "url": "https://x.com/AndrewCurran_/status/2110436097541214554",
+          "created_at": "2026-10-14T18:22:30+00:00",
+          "engagement": 418
+        }
+      ]
+    },
+    {
+      "cluster_id": "c77f86d89",
+      "score": 11.619,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "kimmonismus"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-14T14:24:34+00:00",
+      "last_seen": "2026-10-14T19:22:03+00:00",
+      "links": [
+        "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+        "https://x.com/kimmonismus/status/2110443843241873873",
+        "https://x.com/kimmonismus/status/2110451084103741588"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs. Nvidia CEO Jensen Huang announced $2 billion in European investments and new stakes in French startups like Doctolib and Entalpic. The UK gets $250 million in compute for AI agent safety and security research. Huang pitched open-weight models as Europe's way to close the AI gap. The article Nvidia&#039;s Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs appeared first on The Decoder .",
+          "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+          "created_at": "2026-10-14T14:24:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Contrary to the assumption that there is anti-AI sentiment, data consistently shows that agentic AI is being adopted in Europe at rates far above average. Usage has increased eightfold since May 2026, an eightfold rise in five months. Furthermore, token output in Europe ranks in the top decile.\n\nJensen announced big investments in Europe today. Interesting to see a comeback.",
+          "url": "https://x.com/kimmonismus/status/2110443843241873873",
+          "created_at": "2026-10-14T18:53:17+00:00",
+          "engagement": 149
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "„Without energy, there is no industry.” \n\nJensen says Europe has everything it needs to succeed in this AI revolution, especially great scientists. But Europe needs to find a long lasting solution for energy. \n\nAnd one great advice:\n\n“To succeed you have to be somehow ignorant.” https://t.co/gqeNgPGvUj",
+          "url": "https://x.com/kimmonismus/status/2110451084103741588",
+          "created_at": "2026-10-14T19:22:03+00:00",
+          "engagement": 64,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9659dea5",
+      "score": 9.381,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "9to5Google",
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-14T17:01:12+00:00",
+      "last_seen": "2026-10-14T19:44:10+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
+        "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+        "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "YouTube Music adds new labels for AI-generated content. Now please let us hide all of it.",
+          "url": "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/",
+          "created_at": "2026-10-14T17:01:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "YouTube Music launches new labels as AI-generated music floods streaming platforms. The label will appear on the player page and include songs entirely generated by AI or partially, such as involved in composition and vocals.",
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+          "created_at": "2026-10-14T18:23:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "YouTube Music rolling out AI labels in the Now Playing screen. In response to more AI-generated content appearing on streaming services, YouTube Music is adding a new AI label directly to the player. more…",
+          "url": "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
+          "created_at": "2026-10-14T19:44:10+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c8ea16f81",
+      "score": 8.832,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Alibaba",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Bloomberg Tech",
+        "Engadget"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-14T10:30:00+00:00",
+      "last_seen": "2026-10-14T15:36:33+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
+        "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+        "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Apple-OpenAI Judge Says He’s ‘Likely’ to Side With iPhone Maker. The judge in Apple Inc.’s high-stakes trade-secret theft case against OpenAI said he’s “highly likely” to grant the iPhone maker an injunction barring use of its proprietary information by former employees now at the artificial intelligence startup.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+          "created_at": "2026-10-14T10:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple reportedly gearing up for strong iPhone 18 sales. While the iPhone 18 Pro is out, the entry-level model has been held back until early next year. That’s likely because the company wanted to maximize early production capacity and memory availability for the Pro model, alongside the iPhone Duo . But even this far ahead, one leaker has suggested that supply-chain orders indicate Apple is optimistic about demand for the base model … more…",
+          "url": "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
+          "created_at": "2026-10-14T14:59:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch. Apple's integrated AI system is still yet to be rolled out in mainland China, despite launching nearly two years ago.",
+          "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/",
+          "created_at": "2026-10-14T15:36:33+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ca0e0fec2",
-      "score": 8.817,
+      "score": 8.483,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -311,90 +460,78 @@
       ]
     },
     {
-      "cluster_id": "cf30a16ee",
-      "score": 8.807,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "The Decoder",
-        "The Verge AI",
-        "Tom's Hardware"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-13T20:45:25+00:00",
-      "last_seen": "2026-10-14T12:37:05+00:00",
-      "links": [
-        "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
-        "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI employee arrested for allegedly planting a bug in a conference room. An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-          "created_at": "2026-10-13T20:45:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Saudi OpenAI engineer arrested for allegedly planting $14 recording device in company office. An OpenAI engineer has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications and is facing up to five years in prison plus a $250,000 fine.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology",
-          "created_at": "2026-10-14T11:48:41+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Alleged OpenAI spy vibe-coded a surveillance device using his wife's chatbot account. A Saudi national working as an engineer at OpenAI was arrested for allegedly planting an audio recording device, wrapped in toilet paper, inside the company's executive conference room. According to the indictment, he built the spy tool by vibe-coding it with a chatbot. If convicted, he faces up to five years in prison. The article Alleged OpenAI spy vibe-coded a surveillance device using his wife&#039;s chatbot account appeared first on The Decoder .",
-          "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
-          "created_at": "2026-10-14T12:37:05+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c280431bc",
-      "score": 7.888,
-      "interest": "want",
+      "cluster_id": "cda3dba6c",
+      "score": 5.906,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "Alibaba",
-        "Apple"
-      ],
+      "entities": [],
       "independent_sources": [
-        "9to5Mac",
-        "Engadget"
+        "Engadget",
+        "TechCrunch AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-14T14:59:39+00:00",
-      "last_seen": "2026-10-14T15:36:33+00:00",
+      "first_seen": "2026-10-14T15:16:04+00:00",
+      "last_seen": "2026-10-14T18:45:06+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
-        "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
+        "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+        "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Apple reportedly gearing up for strong iPhone 18 sales. While the iPhone 18 Pro is out, the entry-level model has been held back until early next year. That’s likely because the company wanted to maximize early production capacity and memory availability for the Pro model, alongside the iPhone Duo . But even this far ahead, one leaker has suggested that supply-chain orders indicate Apple is optimistic about demand for the base model … more…",
-          "url": "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
-          "created_at": "2026-10-14T14:59:39+00:00",
+          "text": "Deezer will soon let you filter out AI-generated music. Deezer said that the new toggle will be rolled out by the end of the year.",
+          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+          "created_at": "2026-10-14T15:16:04+00:00",
           "engagement": 0
         },
         {
           "author": "Engadget",
           "tier": "press",
-          "text": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch. Apple's integrated AI system is still yet to be rolled out in mainland China, despite launching nearly two years ago.",
-          "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/",
-          "created_at": "2026-10-14T15:36:33+00:00",
+          "text": "Deezer will let listeners completely filter out AI music. Good riddance.",
+          "url": "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/",
+          "created_at": "2026-10-14T18:45:06+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c024df330",
+      "score": 5.568,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "The Verge AI"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-14T16:09:19+00:00",
+      "last_seen": "2026-10-14T16:43:24+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+        "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI alleges ex-employee took ‘highly confidential’ device files to Apple. In a new filing today, OpenAI claims that a former employee who departed for Apple sent “over a hundred highly confidential files about at least one unreleased OpenAI device under development to his personal accounts.” Apple, however, told Reuters that it hasn’t found any evidence to support these allegations. more…",
+          "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+          "created_at": "2026-10-14T16:09:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI claims an ex-employee took its product plans and presented them to Apple. OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president of the company's operations in Asia. The [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+          "created_at": "2026-10-14T16:43:24+00:00",
           "engagement": 0
         }
       ]
