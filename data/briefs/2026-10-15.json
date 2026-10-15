@@ -1,125 +1,15 @@
 {
-  "generated_at": "2026-10-15T14:04:29.512800+00:00",
+  "generated_at": "2026-10-15T16:03:36.256584+00:00",
   "edition_date": "2026-10-15",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 136,
-  "clusters_found": 101,
-  "stories_declared": 12,
+  "posts_considered": 145,
+  "clusters_found": 109,
+  "stories_declared": 14,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c825e791b",
-      "score": 14.172,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "Product Hunt AI",
-        "Simon Willison",
-        "theo"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-14T15:35:56+00:00",
-      "last_seen": "2026-10-15T12:43:45+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-        "https://www.producthunt.com/products/actually-asked",
-        "https://www.producthunt.com/products/atticus",
-        "https://www.producthunt.com/products/basedash",
-        "https://www.producthunt.com/products/brussle-2",
-        "https://www.producthunt.com/products/rushilo",
-        "https://www.producthunt.com/products/silixon",
-        "https://www.producthunt.com/products/superdraft",
-        "https://www.producthunt.com/products/withhuman",
-        "https://x.com/theo/status/2110713238593908868"
-      ],
-      "posts": [
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Rushilo. Edit video by talking to Claude Code or Codex Discussion | Link",
-          "url": "https://www.producthunt.com/products/rushilo",
-          "created_at": "2026-10-14T15:35:56+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Actually Asked. A self-improving branded AI FAQ page Discussion | Link",
-          "url": "https://www.producthunt.com/products/actually-asked",
-          "created_at": "2026-10-14T15:36:37+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "withHuman. A open-source human approval layer for AI Agents Discussion | Link",
-          "url": "https://www.producthunt.com/products/withhuman",
-          "created_at": "2026-10-14T16:01:56+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "siliXon. Turn a plain English idea into a circuit board you can order Discussion | Link",
-          "url": "https://www.producthunt.com/products/silixon",
-          "created_at": "2026-10-14T16:06:31+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Superdraft. Automatically identify opportunities to email your customers Discussion | Link",
-          "url": "https://www.producthunt.com/products/superdraft",
-          "created_at": "2026-10-14T19:22:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Atticus. Hold a key, talk, and your Mac does what you asked Discussion | Link",
-          "url": "https://www.producthunt.com/products/atticus",
-          "created_at": "2026-10-14T21:14:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Tree Appreciator. Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minut",
-          "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-          "created_at": "2026-10-14T21:23:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Basedash Connector gallery. See what you'll build before you connect a data source Discussion | Link",
-          "url": "https://www.producthunt.com/products/basedash",
-          "created_at": "2026-10-14T21:32:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Brussle. Improve Jev's accuracy on your data Discussion | Link",
-          "url": "https://www.producthunt.com/products/brussle-2",
-          "created_at": "2026-10-15T04:18:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "theo",
-          "tier": "commentary",
-          "text": "In the 24 days since Opus dropped, I shipped ts-rust, a complete rewrite of the Typescript Compiler in Rust that is 2-3x faster than the official version; 245 PRs into T3 Code",
-          "url": "https://x.com/theo/status/2110713238593908868",
-          "created_at": "2026-10-15T12:43:45+00:00",
-          "engagement": 235
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6973ee52",
-      "score": 11.687,
+      "cluster_id": "c2eba691f",
+      "score": 16.631,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -127,57 +17,315 @@
         "Nvidia"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
+        "ArtificialAnlys",
         "NVIDIA",
-        "The Decoder"
+        "NVIDIA Developer",
+        "lmstudio",
+        "nvidia",
+        "testingcatalog"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-14T14:24:34+00:00",
-      "last_seen": "2026-10-15T13:22:58+00:00",
+      "source_count": 6,
+      "first_seen": "2026-10-15T15:00:00+00:00",
+      "last_seen": "2026-10-15T15:51:19+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-        "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-        "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
-        "https://www.bloomberg.com/news/videos/2026-10-15/santander-s-ana-botin-the-david-rubenstein-show-video"
+        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+        "https://x.com/ArtificialAnlys/status/2110760441240752399",
+        "https://x.com/lmstudio/status/2110755019360284881",
+        "https://x.com/nvidia/status/2110750157272719562",
+        "https://x.com/testingcatalog/status/2110752702439276593"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "created_at": "2026-10-15T15:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "created_at": "2026-10-15T15:00:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "nvidia",
+          "tier": "commentary",
+          "text": "Today, we’re expanding our Nemotron family of open models with Nemotron 3.5 Super VL. \n\nBringing visual understanding, reasoning, and tool use together to help AI agents complete more work in less time. \n\nOpen models ➡️ more control to customize, deploy, and build on your own terms.\n\nDive into what’s new:",
+          "url": "https://x.com/nvidia/status/2110750157272719562",
+          "created_at": "2026-10-15T15:10:27+00:00",
+          "engagement": 357
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "NVIDIA: A new Nemotron 3.5 Super VL model has been announced!\n\n> NVIDIA Nemotron 3.5 Super VL is an open model with 120B total parameters and 12B active.\n\n> The model supports reasoning, tool use with text, image, document, and video understanding for long-running AI agents.",
+          "url": "https://x.com/testingcatalog/status/2110752702439276593",
+          "created_at": "2026-10-15T15:20:34+00:00",
+          "engagement": 109,
+          "video": true
+        },
+        {
+          "author": "lmstudio",
+          "tier": "commentary",
+          "text": "Nemotron 3.5 Super VL from @NVIDIAAI is live in LM Studio!\n\n• 120B total / 12B active MoE\n• Supports vision input, reasoning\n• Trained for visual understanding, tool use\n\nRequires ~70GB RAM to run locally",
+          "url": "https://x.com/lmstudio/status/2110755019360284881",
+          "created_at": "2026-10-15T15:29:47+00:00",
+          "engagement": 75
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Nvidia’s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index\n\nNemotron 3.5 Super VL achieves twice the intelligence of its predecessor, Nemotron 3 Super (13), and does so using ~60% fewer output tokens per task\n\nIt launches alongside Nemotron 3.5 Bolt 74B-A9B 24GB, the first model in its new Bolt family, which scores 21 on the Intelligence Index\n\nLeading US open weight model: Nemotron 3.5 Super VL scores 26.5, edging out Thinking Machines' Inkling Small (25.7)",
+          "url": "https://x.com/ArtificialAnlys/status/2110760441240752399",
+          "created_at": "2026-10-15T15:51:19+00:00",
+          "engagement": 61
+        }
+      ]
+    },
+    {
+      "cluster_id": "cfbace5a3",
+      "score": 12.657,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "Hugging Face",
+        "fal"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T00:00:00+00:00",
+      "last_seen": "2026-10-15T15:34:57+00:00",
+      "links": [
+        "https://huggingface.co/blog/flux-3",
+        "https://x.com/fal/status/2110756319804211318"
+      ],
+      "posts": [
+        {
+          "author": "Hugging Face",
+          "tier": "primary",
+          "text": "Welcome FLUX.3 Image Klein in Diffusers",
+          "url": "https://huggingface.co/blog/flux-3",
+          "created_at": "2026-10-15T00:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "fal",
+          "tier": "commentary",
+          "text": "FLUX 3 Image Klein by @bfl_ai is now on fal\n\nDraw a box and get exactly that layout. Pick objects from any reference and place them where you want, edit with boxes, transfer styles and render text.\n\nText-to-image and edit, Klein and Klein Base",
+          "url": "https://x.com/fal/status/2110756319804211318",
+          "created_at": "2026-10-15T15:34:57+00:00",
+          "engagement": 58,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "cca594cfd",
+      "score": 11.679,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "policy",
+      "entities": [],
+      "independent_sources": [
+        "krea_ai",
+        "synthwavedd"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T15:49:43+00:00",
+      "last_seen": "2026-10-15T15:53:12+00:00",
+      "links": [
+        "https://x.com/krea_ai/status/2110760037128012146",
+        "https://x.com/synthwavedd/status/2110760914223788328"
+      ],
+      "posts": [
+        {
+          "author": "krea_ai",
+          "tier": "commentary",
+          "text": "today we open the beta for Krea 3, a new frontier for image editing.\n\n- end-to-end 2k edits in under 8s.\n- matches Nano Banana Pro or GPT Image 2.5 quality.\n- bounding box control and precise multi-turn edits.",
+          "url": "https://x.com/krea_ai/status/2110760037128012146",
+          "created_at": "2026-10-15T15:49:43+00:00",
+          "engagement": 238,
+          "video": true
+        },
+        {
+          "author": "synthwavedd",
+          "tier": "commentary",
+          "text": "today, @krea_ai are launching Krea 3 - nano banana pro quality, 4x faster, at a quarter of the cost! it's built for fast image editing - high quality edits back in under 8 seconds.",
+          "url": "https://x.com/synthwavedd/status/2110760914223788328",
+          "created_at": "2026-10-15T15:53:12+00:00",
+          "engagement": 56,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb74f8661",
+      "score": 10.859,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Bloomberg Tech",
+        "Latent Space",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-14T19:06:03+00:00",
+      "last_seen": "2026-10-15T15:43:24+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+        "https://www.bloomberg.com/news/videos/2026-10-15/anthropic-urged-to-pause-ipo-by-nyc-comptroller-video",
+        "https://www.latent.space/p/crossing-the-threshold",
+        "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs. Nvidia CEO Jensen Huang announced $2 billion in European investments and new stakes in French startups like Doctolib and Entalpic. The UK gets $250 million in compute for AI agent safety and security research. Huang pitched open-weight models as Europe's way to close the AI gap. The article Nvidia&#039;s Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
-          "created_at": "2026-10-14T14:24:34+00:00",
+          "text": "The AI race is back on. Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+          "created_at": "2026-10-14T19:06:03+00:00",
           "engagement": 0
         },
         {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing. The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-          "created_at": "2026-10-15T05:00:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute. Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-          "created_at": "2026-10-15T10:00:12+00:00",
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents. At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+          "url": "https://www.latent.space/p/crossing-the-threshold",
+          "created_at": "2026-10-14T21:40:52+00:00",
           "engagement": 0
         },
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Santander's Ana Botin on US Growth, Debt, AI and the Global Economy | The David Rubenstein Show. Santander Executive Chair Ana Botin sits down with David Rubenstein to discuss the bank's expansion in the US, including its recent acquisition of Webster Financial, and why she sees lack of economic growth as one of the biggest challenges facing the global economy. She also discusses US debt, the outlook for the US and European economies amid geopolitical uncertainty, and the impact of AI on banking and jobs. Botin is on this week's episode of The David Rubenstein Show: Peer to Peer Conversations. This episode was recorded July 13 in New York. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-15/santander-s-ana-botin-the-david-rubenstein-show-video",
-          "created_at": "2026-10-15T13:22:58+00:00",
+          "text": "Anthropic Urged to Pause IPO for AI Safety by NYC Comptroller. Anthropic should pause its initial public offering until it has fully addressed risks around artificial intelligence, according to New York City’s comptroller. A letter from Mark Levine addressed to Anthropic Chief Executive Officer Dario Amodei on Wednesday suggested the Claude developer should instead focus on addressing the unprecedented risks of the technology. Ed Ludlow reports on Bloomberg Television. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-15/anthropic-urged-to-pause-ipo-by-nyc-comptroller-video",
+          "created_at": "2026-10-15T13:50:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”. FTC may fine AI firms on par with companies that delay data breach reports.",
+          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+          "created_at": "2026-10-15T15:43:24+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb68bc98e",
+      "score": 10.8,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "mark_k"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-14T16:14:16+00:00",
+      "last_seen": "2026-10-15T15:29:00+00:00",
+      "links": [
+        "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+        "https://x.com/mark_k/status/2110754823716962755"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work. OpenAI is racing to finish its next flagship model, which uses the same looped transformer technique as Astra to boost math and coding performance. The tradeoff is that looping makes safety monitoring harder. Microsoft accidentally revealed details about how the technique works on a public page. Whether or not the flagship is ready in time, employees say one or two new models will likely ship by year's end. The article OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+          "created_at": "2026-10-14T16:14:16+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "That's right, OpenAI is going to release Astra 6.1 as part of their \"28 Days of Improvements (or resets)\" event. But mostly it's just little features and bug fixes.",
+          "url": "https://x.com/mark_k/status/2110754823716962755",
+          "created_at": "2026-10-15T15:29:00+00:00",
+          "engagement": 43
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc1461b39",
+      "score": 10.291,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [],
+      "independent_sources": [
+        "9to5Google",
+        "Ars Technica AI",
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-14T17:01:12+00:00",
+      "last_seen": "2026-10-15T15:12:58+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
+        "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+        "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+        "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "YouTube Music adds new labels for AI-generated content. Now please let us hide all of it.",
+          "url": "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/",
+          "created_at": "2026-10-14T17:01:12+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "YouTube Music launches new labels as AI-generated music floods streaming platforms. The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+          "created_at": "2026-10-14T18:23:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "YouTube Music rolling out AI labels in the Now Playing screen. In response to more AI-generated content appearing on streaming services, YouTube Music is adding a new AI label directly to the player. more…",
+          "url": "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
+          "created_at": "2026-10-14T19:44:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Singer or clanker? YouTube Music will tell you with new gen AI labeling. The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
+          "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+          "created_at": "2026-10-15T15:12:58+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cb9ac3a60",
-      "score": 10.605,
+      "score": 10.275,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -213,60 +361,127 @@
       ]
     },
     {
-      "cluster_id": "ca69f70dc",
-      "score": 9.951,
+      "cluster_id": "c7be534e7",
+      "score": 9.481,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "models",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta"
+        "Google"
       ],
       "independent_sources": [
-        "Bloomberg Tech",
-        "Latent Space",
+        "9to5Google",
+        "TechCrunch AI",
         "The Verge AI"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-14T19:06:03+00:00",
-      "last_seen": "2026-10-15T13:50:16+00:00",
+      "first_seen": "2026-10-15T13:00:00+00:00",
+      "last_seen": "2026-10-15T14:40:00+00:00",
       "links": [
-        "https://www.bloomberg.com/news/videos/2026-10-15/anthropic-urged-to-pause-ipo-by-nyc-comptroller-video",
-        "https://www.latent.space/p/crossing-the-threshold",
-        "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
+        "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+        "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "The AI race is back on. Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-          "created_at": "2026-10-14T19:06:03+00:00",
+          "text": "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays. Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+          "created_at": "2026-10-15T13:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents. At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-          "url": "https://www.latent.space/p/crossing-the-threshold",
-          "created_at": "2026-10-14T21:40:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Anthropic Urged to Pause IPO for AI Safety by NYC Comptroller. Anthropic should pause its initial public offering until it has fully addressed risks around artificial intelligence, according to New York City’s comptroller. A letter from Mark Levine addressed to Anthropic Chief Executive Officer Dario Amodei on Wednesday suggested the Claude developer should instead focus on addressing the unprecedented risks of the technology. Ed Ludlow reports on Bloomberg Television. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-15/anthropic-urged-to-pause-ipo-by-nyc-comptroller-video",
-          "created_at": "2026-10-15T13:50:16+00:00",
+          "text": "Google’s Universal Cart shopping tool launches in the US. The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "created_at": "2026-10-15T14:29:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search. Following its announcement at Google I/O earlier this year , Google’s new Universal Cart is now rolling out in the US, giving you the ability to shop the web and watch for deals using Search, Gemini, and more. more…",
+          "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+          "created_at": "2026-10-15T14:40:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2d6d554c",
+      "score": 9.065,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "chips",
+      "entities": [
+        "Nvidia",
+        "Microsoft",
+        "Apple",
+        "AMD"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "The Verge AI",
+        "Tom's Hardware"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-15T12:00:00+00:00",
+      "last_seen": "2026-10-15T14:30:00+00:00",
+      "links": [
+        "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+        "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
+        "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+        "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+        "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit"
+      ],
+      "posts": [
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Adobe rebuilt Photoshop and Premiere for NVIDIA's RTX Spark platform. Adobe has 'rearchitected' Photoshop, Premiere and Substance 3D to work faster on computers powered by NVIDIA's RTX Spark AI superchip.",
+          "url": "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
+          "created_at": "2026-10-15T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "We tested the RTX Spark Superchip in Microsoft's Surface Laptop Ultra. We've tested Nvidia's RTX Spark against the latest and greatest from Apple and AMD to see how Nvidia's efforts to transform the PC for the agentic AI era stack up.",
+          "url": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
+          "created_at": "2026-10-15T12:00:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI. NVIDIA's RTX Spark is meant for AI fiends, but it could end up helping Windows PCs in general",
+          "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+          "created_at": "2026-10-15T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "How Windows is being optimized for Nvidia’s RTX Spark laptops. Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+          "created_at": "2026-10-15T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999. Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo.",
+          "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+          "created_at": "2026-10-15T14:30:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c43b474fd",
-      "score": 8.609,
+      "score": 8.278,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -305,7 +520,7 @@
     },
     {
       "cluster_id": "ce3c36d44",
-      "score": 8.382,
+      "score": 8.051,
       "interest": "want",
       "single_source": true,
       "suggested_section": "models",
@@ -331,99 +546,49 @@
       ]
     },
     {
-      "cluster_id": "c43c4a50a",
-      "score": 8.117,
-      "interest": "want",
+      "cluster_id": "cd9c093c6",
+      "score": 7.838,
+      "interest": "neutral",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "policy",
       "entities": [
-        "Nvidia",
-        "Microsoft",
-        "Apple",
-        "AMD"
+        "Nvidia"
       ],
       "independent_sources": [
-        "Engadget",
-        "Tom's Hardware"
+        "Bloomberg Tech",
+        "NVIDIA"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-15T12:00:00+00:00",
-      "last_seen": "2026-10-15T13:00:00+00:00",
+      "first_seen": "2026-10-15T05:00:12+00:00",
+      "last_seen": "2026-10-15T13:22:58+00:00",
       "links": [
-        "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
-        "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
-        "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit"
+        "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+        "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+        "https://www.bloomberg.com/news/videos/2026-10-15/santander-s-ana-botin-the-david-rubenstein-show-video"
       ],
       "posts": [
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Adobe rebuilt Photoshop and Premiere for NVIDIA's RTX Spark platform. Adobe has 'rearchitected' Photoshop, Premiere and Substance 3D to work faster on computers powered by NVIDIA's RTX Spark AI superchip.",
-          "url": "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
-          "created_at": "2026-10-15T12:00:00+00:00",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing. The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+          "created_at": "2026-10-15T05:00:12+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "We tested the RTX Spark Superchip in Microsoft's Surface Laptop Ultra. We've tested Nvidia's RTX Spark against the latest and greatest from Apple and AMD to see how Nvidia's efforts to transform the PC for the agentic AI era stack up.",
-          "url": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
-          "created_at": "2026-10-15T12:00:21+00:00",
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute. Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+          "created_at": "2026-10-15T10:00:12+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI. NVIDIA's RTX Spark is meant for AI fiends, but it could end up helping Windows PCs in general",
-          "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
-          "created_at": "2026-10-15T13:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9659dea5",
-      "score": 6.936,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "9to5Google",
-        "Engadget",
-        "TechCrunch AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-14T17:01:12+00:00",
-      "last_seen": "2026-10-14T19:44:10+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
-        "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-        "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/"
-      ],
-      "posts": [
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "YouTube Music adds new labels for AI-generated content. Now please let us hide all of it.",
-          "url": "https://www.engadget.com/2286764/youtube-music-adds-new-labels-for-ai-generated-content/",
-          "created_at": "2026-10-14T17:01:12+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "YouTube Music launches new labels as AI-generated music floods streaming platforms. The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-          "created_at": "2026-10-14T18:23:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "YouTube Music rolling out AI labels in the Now Playing screen. In response to more AI-generated content appearing on streaming services, YouTube Music is adding a new AI label directly to the player. more…",
-          "url": "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
-          "created_at": "2026-10-14T19:44:10+00:00",
+          "text": "Santander's Ana Botin on US Growth, Debt, AI and the Global Economy | The David Rubenstein Show. Santander Executive Chair Ana Botin sits down with David Rubenstein to discuss the bank's expansion in the US, including its recent acquisition of Webster Financial, and why she sees lack of economic growth as one of the biggest challenges facing the global economy. She also discusses US debt, the outlook for the US and European economies amid geopolitical uncertainty, and the impact of AI on banking and jobs. Botin is on this week's episode of The David Rubenstein Show: Peer to Peer Conversations. This episode was recorded July 13 in New York. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-15/santander-s-ana-botin-the-david-rubenstein-show-video",
+          "created_at": "2026-10-15T13:22:58+00:00",
           "engagement": 0
         }
       ]
@@ -468,8 +633,8 @@
       ]
     },
     {
-      "cluster_id": "ca0e32a15",
-      "score": 5.461,
+      "cluster_id": "c2b502ae6",
+      "score": 5.494,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "business",
@@ -483,10 +648,11 @@
       ],
       "source_count": 3,
       "first_seen": "2026-10-14T22:53:31+00:00",
-      "last_seen": "2026-10-15T13:04:03+00:00",
+      "last_seen": "2026-10-15T15:27:25+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
         "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+        "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
         "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
       ],
       "posts": [
@@ -513,91 +679,13 @@
           "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
           "created_at": "2026-10-15T13:04:03+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cda3dba6c",
-      "score": 3.625,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Engadget",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T15:16:04+00:00",
-      "last_seen": "2026-10-14T18:45:06+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-        "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Deezer will soon let you filter out AI-generated music. Deezer said that the new toggle will be rolled out by the end of the year.",
-          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-          "created_at": "2026-10-14T15:16:04+00:00",
-          "engagement": 0
         },
         {
-          "author": "Engadget",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Deezer will let listeners completely filter out AI music. Good riddance.",
-          "url": "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/",
-          "created_at": "2026-10-14T18:45:06+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c53b21b56",
-      "score": 1.539,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T16:09:19+00:00",
-      "last_seen": "2026-10-14T23:12:59+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
-        "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
-        "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI alleges ex-employee took ‘highly confidential’ device files to Apple. In a new filing today, OpenAI claims that a former employee who departed for Apple sent “over a hundred highly confidential files about at least one unreleased OpenAI device under development to his personal accounts.” Apple, however, told Reuters that it hasn’t found any evidence to support these allegations. more…",
-          "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
-          "created_at": "2026-10-14T16:09:19+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "OpenAI claims an ex-employee took its product plans and presented them to Apple. OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president of the company's operations in Asia. The [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
-          "created_at": "2026-10-14T16:43:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI agrees not to use alleged Apple trade secrets amid ongoing lawsuit. Bloomberg reports that during a hearing today, OpenAI voluntarily agreed not to use Apple’s alleged trade secrets while the legal battle between the two companies plays out. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
-          "created_at": "2026-10-14T23:12:59+00:00",
+          "text": "Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models. Bank of America has hired 1,000 outside contractors to fix software vulnerabilities uncovered by AI models like Anthropic's Mythos, CNBC reports. The article Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic&#039;s Mythos and other AI models appeared first on The Decoder .",
+          "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
+          "created_at": "2026-10-15T15:27:25+00:00",
           "engagement": 0
         }
       ]

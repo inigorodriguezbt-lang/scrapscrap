@@ -35,6 +35,238 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "nvidia-nemotron-3-5-super-vl",
+   "section": "models",
+   "headline": "Nvidia opens a 120B vision model and a 24GB Bolt for desktops",
+   "standfirst": "Nvidia says its open Nemotron 3.5 Super VL has 120 billion parameters, 12 billion active, and Artificial Analysis rates it the top US open-weight model at 26.5, ahead of a 24GB Bolt for RTX laptops.",
+   "body": [
+    "Nvidia released Nemotron 3.5 Super VL on Thursday, an open model with 120 billion parameters of which 12 billion are active per token. The company says it reads documents, charts, tables, web pages and video, calls tools, and is built for always-on agents. Weights are on Hugging Face, OpenRouter and ModelScope, and the model is packaged for Nvidia's NIM service.",
+    "Nvidia makes the performance claims. Its blog says the model matches Nvidia's largest reasoning model on multimodal agentic tasks at about one-fifth the parameter count. It also calls the model the fastest open agentic model in its class, roughly five times quicker than the next best. Nvidia says it trained on about 26 trillion tokens. The blog names no licence, only open weights, datasets and training recipes.",
+    "Artificial Analysis, which runs its own tests, scored the model 26.5 on its Intelligence Index. That makes it the leading US open-weight model, the firm says, edging out Thinking Machines' Inkling Small at 25.7. It reports the score is twice that of the earlier Nemotron 3 Super at 13, while using about 60 percent fewer output tokens per task.",
+    "The smaller release is the one people can run at home. Nemotron 3.5 Bolt 74B-A9B uses native 2-bit quantisation to fit in 24GB of memory, Nvidia says, and works with llama.cpp, Ollama, LM Studio, Unsloth and vLLM. Artificial Analysis gives it 21 on its index. A 4GB Bolt E4B follows on 23 October.",
+    "LM Studio says Super VL is already available in its app and needs about 70GB of RAM to run locally. Nvidia says Bolt is built for its RTX Spark laptops, which arrive on 16 October. Scale AI, AfterQuery, AI21 and Mercor are among the firms Nvidia says are customising the model, and no outside testing beyond Artificial Analysis has been published yet."
+   ],
+   "entities": [
+    "Nvidia",
+    "Nemotron",
+    "Artificial Analysis",
+    "LM Studio"
+   ],
+   "sources": [
+    {
+     "author": "Nvidia",
+     "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    },
+    {
+     "author": "Nvidia Developer",
+     "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2110760441240752399"
+    },
+    {
+     "author": "LM Studio",
+     "url": "https://x.com/lmstudio/status/2110755019360284881"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2110752702439276593",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "flux-3-image-klein-diffusers",
+   "section": "generative-media",
+   "headline": "Black Forest Labs' FLUX.3 Klein draws to a box layout in 2 seconds",
+   "standfirst": "Hugging Face says FLUX.3 Image Klein makes a 1024-pixel image in about two seconds on an H100 and lets users draw boxes to set the layout.",
+   "body": [
+    "Black Forest Labs' FLUX.3 Image Klein reached Hugging Face's Diffusers library on Thursday, and image host fal added it the same day. Hugging Face's launch post describes two checkpoints. Klein is distilled to run 16 steps with no guidance, and Klein Base takes 50 steps and is the one meant for fine-tuning.",
+    "The headline feature is layout control. Users supply JSON bounding boxes on a 0 to 1000 scale, and the model places content inside them. It also accepts several reference images, addressed as numbered tags, for editing and style transfer, and renders text. fal's post says you draw a box and get exactly that layout.",
+    "Hugging Face reports its own timings on one H100 80GB, averaged over three runs: 1.93 seconds for a 1024-pixel text-to-image, 3.87 seconds with one reference image and 4.10 seconds for a layout edit. Peak memory was 18.8 GiB after loading in bf16, 14.35 GiB in fp8 and 13.4 GiB in nvfp4 on an RTX 6000.",
+    "The post does not reconcile the model's size. Its model pages list 6B parameters, while a Spaces card says 5.6B open weights, so the exact count is unclear. It also does not state the licence. The text encoder is Qwen3-VL, and Diffusers ships DreamBooth LoRA training scripts for both generation and editing.",
+    "The numbers come from Hugging Face's own tests of the distilled checkpoint, and no independent benchmark of image quality has been published. The fp8 weights get fast kernels on Ada, Hopper and Blackwell cards, while older GPUs save memory but gain no speed, the post says. The nvfp4 version is fast only on Blackwell."
+   ],
+   "entities": [
+    "Black Forest Labs",
+    "FLUX.3",
+    "Hugging Face",
+    "fal"
+   ],
+   "sources": [
+    {
+     "author": "Hugging Face",
+     "url": "https://huggingface.co/blog/flux-3"
+    },
+    {
+     "author": "fal",
+     "url": "https://x.com/fal/status/2110756319804211318"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/fal/status/2110756319804211318",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "krea-3-image-editing-beta",
+   "section": "generative-media",
+   "headline": "Krea opens its Krea 3 editing beta, promising 2K edits in 8 seconds",
+   "standfirst": "Krea says its new Krea 3 model makes end-to-end 2K image edits in under eight seconds and matches Nano Banana Pro quality, and the beta is open now.",
+   "body": [
+    "Krea opened the beta of Krea 3 on Thursday, which it calls a new frontier for image editing. The company's announcement on X lists three claims: end-to-end 2K edits in under eight seconds, quality that matches Nano Banana Pro or GPT Image 2.5, and bounding-box control with precise multi-turn edits. A launch video is attached to the post.",
+    "Those figures are Krea's own, and no independent comparison has been published. The company pairs the announcement with two videos, one on how its research team built the model's visual intelligence and one on using it for fast iteration. Krea says speed matters most for creative workflows, where people try many variations before picking one.",
+    "Developer synthwavedd, who posted a hands-on take within minutes of the launch, says Krea 3 reaches Nano Banana Pro quality at four times the speed and a quarter of the cost. They describe giving it a character, a product shot or a pile of references and getting edits back in under eight seconds. That is one user's early impression, not a test.",
+    "Krea had announced Krea 3 in August as part of a push towards editing agents, according to coverage of that event. This release is the first time the model is open for people to try. Krea's post points to a page to learn more and get access, and the posts reviewed give no pricing or limits.",
+    "Nobody outside Krea has yet published side-by-side results against the models it names. The speed claim is also unqualified: Krea does not say which hardware or image sizes the eight-second figure covers."
+   ],
+   "entities": [
+    "Krea",
+    "Krea 3"
+   ],
+   "sources": [
+    {
+     "author": "Krea",
+     "url": "https://x.com/krea_ai/status/2110760037128012146"
+    },
+    {
+     "author": "synthwavedd",
+     "url": "https://x.com/synthwavedd/status/2110760914223788328"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/krea_ai/status/2110760037128012146",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "mistral-timestral-time-series",
+   "section": "open-models",
+   "headline": "Mistral's Timestral forecasting models start at 5 million parameters",
+   "standfirst": "Mistral says its first time-series family tops three zero-shot forecasting leaderboards with a 209M model, while the 5M version forecasts a day ahead in 10 milliseconds on a server CPU.",
+   "body": [
+    "Mistral released Timestral on Thursday, its first family of time-series foundation models. There are four sizes, at 5 million, 28 million, 123 million and 209 million parameters, sharing one architecture and training recipe. A GitHub repository and a Hugging Face collection are linked from the announcement.",
+    "Mistral says the 209M model ranks first among pre-trained, zero-shot models on the GIFT-Eval, TIME and fev-bench leaderboards, using two-thirds the parameters of the previous best and a single checkpoint with no ensembling. It also says the 28M model beats Chronos-2, which is about four times larger, on GIFT-Eval and TIME.",
+    "Speed is the other claim. On an 8-thread server CPU, Mistral says one-day-ahead forecasts from three weeks of 15-minute history take 10 milliseconds with the 5M model and 140 milliseconds with the 209M. Forecasts are probabilistic and multivariate, return 21 quantiles, and can take past-only and known-future covariates over a 32,768-step context.",
+    "Mistral says it trained mostly on synthetic data, then post-trained on a mix of real and synthetic series. The weights are released under what it calls a Modified MIT licence, and it offers on-premises, private-cloud and air-gapped deployment, plus fine-tuning through its Forge service. The page does not spell out the licence's modifications.",
+    "The benchmark results are Mistral's own, and a technical report with full numbers is still to come. No outside group has reproduced the leaderboard placings yet. Mistral has not yet said when the report will appear."
+   ],
+   "entities": [
+    "Mistral",
+    "Timestral",
+    "Chronos-2"
+   ],
+   "sources": [
+    {
+     "author": "Mistral",
+     "url": "https://mistral.ai/news/timestral/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "google-universal-cart-us",
+   "section": "products",
+   "headline": "Google's Universal Cart reaches Search and Gemini for US shoppers",
+   "standfirst": "Google says its Universal Cart now saves products from any retailer, watches for price drops and restocks, and checks out through its open Universal Commerce Protocol.",
+   "body": [
+    "Google's Universal Cart is rolling out across Google Search and the Gemini app in the US, the company announced on Thursday. It first previewed the tool at its I/O event in May. The Verge, TechCrunch and 9to5Google all reported the launch, which arrives ahead of the holiday shopping season.",
+    "The cart holds items from multiple retailers in one place and keeps their progress when users return later, TechCrunch reported. Google says it can send an alert when a saved item drops in price or when an out-of-stock product returns. It can also factor in credit-card perks when suggesting how to pay.",
+    "Google says the cart surfaces relevant promo codes as well. Checkout runs on the Universal Commerce Protocol, an open standard Google introduced earlier this year to let AI agents and retailers work together, including at checkout. Google has not said in the coverage reviewed which retailers are signed up to it.",
+    "The cart joins two other shopping tools Google already offers: conversational product discovery in AI Mode, and Let Google Call, which uses an AI agent to check stock at nearby stores. TechCrunch notes that Amazon, OpenAI and other rivals have also added agentic shopping features this year.",
+    "The rollout is US-only, and Google has given no date for other countries. The claims about price tracking and checkout come from Google. The outlets reporting the launch describe the features from the company's announcement and have not published hands-on tests of how reliably alerts or checkout work."
+   ],
+   "entities": [
+    "Google",
+    "Gemini",
+    "Universal Cart",
+    "Universal Commerce Protocol"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch"
+    },
+    {
+     "author": "9to5Google",
+     "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "simons-ai-math-initiative",
+   "section": "research",
+   "headline": "Simons Foundation, OpenAI and Anthropic fund a $15M AI-for-maths effort",
+   "standfirst": "The Simons Foundation says it will run a $15 million open call to help mathematicians check AI-produced results, with OpenAI putting in $5 million and both labs supplying compute.",
+   "body": [
+    "The Simons Foundation announced on Thursday a $15 million initiative to help mathematicians make sense of results produced by AI. The foundation says the money comes from itself, Anthropic and OpenAI together, and that the foundation will manage and award it, including through an open call for proposals.",
+    "OpenAI said on X that it is contributing $5 million. In its post, the company said it wants to support the mathematics community in turning AI progress into deeper human understanding, and that the money covers workshops, conferences and special programmes. OpenAI mentioned results it recently published, without detailing them in the post.",
+    "According to the foundation, the funding could help researchers evaluate recent AI-assisted results, learn the new tools, share perspectives and shape collective standards for using AI. Anthropic and OpenAI will also give researchers the foundation supports access to AI tools and computing resources, and the foundation says this extends beyond mathematics to basic science.",
+    "Foundation president David Spergel said the community should be driving discussions of how these tools are evaluated, rather than any single company or institution. The foundation points to its earlier funding of the Lean proof assistant, which it says made AI-assisted proofs possible and changed how mathematicians work.",
+    "The announcement does not say how many grants will be made or when the call opens, and the funding may not all be new money. Anthropic's share and the foundation's own are not stated in the sources reviewed. The post drew 64 points on Hacker News within about an hour."
+   ],
+   "entities": [
+    "Simons Foundation",
+    "OpenAI",
+    "Anthropic",
+    "Lean"
+   ],
+   "sources": [
+    {
+     "author": "Simons Foundation",
+     "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
+    },
+    {
+     "author": "OpenAI",
+     "url": "https://x.com/OpenAI/status/2110741355739963884"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "theophyseval-gpt-6-astra",
+   "section": "research",
+   "headline": "GPT-6-Astra solves 49 of 50 physics research problems in a new test",
+   "standfirst": "A 35-author benchmark says OpenAI's GPT-6-Astra in Codex got 49 of 50 theoretical physics problems right at under $3 each, while Claude Opus 5.5 in Claude Code scored 92 percent.",
+   "body": [
+    "GPT-6-Astra answered 49 of 50 theoretical physics research problems correctly in a new benchmark called TheoPhysEval, The Decoder reported on Thursday. Thirty-five researchers from institutions including Harvard, KU Leuven, the International Centre for Theoretical Sciences and Google DeepMind built the test. Astra ran inside OpenAI's Codex, averaged under $3 a problem and cost just under $116 in total.",
+    "The problems are unpublished, span eleven subfields and have verifiable answers. The authors call them turn-the-crank tasks: known methods applied to slightly altered questions, often made by changing values in the contributors' own recent papers. A leading expert would need about a day per problem, they say. Agents got no human hints and ran twice, once with web search and once offline.",
+    "Claude Opus 5.5 in Claude Code scored 92 percent, according to The Decoder's account. Gemini 3.8 Flash reached 68 percent, DeepSeek-V4.1-Flash 54 percent and GLM 5.3 42 percent. Without web search, Astra and Opus both scored 92 percent. With search, Astra missed only one problem, and that one stumped every model tested.",
+    "The authors flag limits. Follow-ups with experts found small errors in some reference answers, and Astra was correct every time once they were fixed, which may explain why agents score higher here than on other physics benchmarks. Web access changed little, which the authors read as a sign models have largely memorised the literature.",
+    "The authors say the benchmark covers routine research work, not open major questions, and that agents lack research taste, struggling to pick promising related problems. Their observations cannot be quantified, they write, and are not a forecast. The problems and test setup are available as a dataset on Hugging Face. The Decoder is the only outlet reviewed that reports the results."
+   ],
+   "entities": [
+    "OpenAI",
+    "GPT-6-Astra",
+    "TheoPhysEval",
+    "Claude Opus 5.5"
+   ],
+   "sources": [
+    {
+     "author": "The Decoder",
+     "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-step-5-preview-open-weights",
    "section": "models",
    "headline": "StepFun opens weights for 600B-parameter Step 5 Preview",
@@ -84,7 +316,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-apertus-1-5-release-notes",
@@ -108,7 +340,7 @@
      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "amazon-bee-frontier-eclipse",
@@ -136,7 +368,7 @@
      "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-anthropic-distillation-revenue",
@@ -160,7 +392,7 @@
      "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-fish-audio-drama-3",
@@ -194,7 +426,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-player-1-game-agents",
@@ -217,7 +449,7 @@
      "url": "https://huggingface.co/papers/2610.20584"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-tsmc-q3-ai-guidance",
@@ -239,7 +471,7 @@
      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-figma-config-india-agents",
