@@ -35,6 +35,63 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-fish-audio-drama-3",
+   "section": "models",
+   "headline": "Fish Audio's Drama 3 voice model now runs in vLLM-Omni",
+   "standfirst": "The 35-billion-parameter speech model activates 3 billion per token and speaks 83 languages, its model card says, and vLLM reports 255 ms to first audio.",
+   "body": [
+    "Fish Audio has published Drama 3, a text-to-speech model built for multi-character scenes and long-form audio, and the vLLM project said on Thursday that its vLLM-Omni server now supports it. According to the model card, it has about 35 billion parameters in total, with 3 billion active for each token, and covers 83 languages.",
+    "The card says a single script can carry up to 16 speakers, marked with tags from speaker 0 to speaker 15, and that voices can be cloned from a reference clip and its transcript. Inline tags add sighs and laughs, and earlier takes can be fed back as context to edit a performance. Fish Audio also says long text is split into chunks automatically, with optional streaming.",
+    "The speed figures come from the makers. The model card claims a median 88.9 ms to first audio for one stream on an Nvidia H200. The vLLM post says its merged optimisation reaches 128 concurrent streams on one H200, with 255 ms median time to first audio and 222.2 seconds of audio generated per second, averaged over five runs of 1,088 English Seed-TTS-Eval requests.",
+    "To try it, vLLM gives the command vllm serve fishaudio/drama-3 --omni --port 8091 on current upstream code, and says it streams 44.1 kHz audio through its speech endpoint. One snag: the model card links a community licence while its metadata lists a research licence, so anyone planning commercial use should check the licence file. No independent tests of quality or speed have been published yet."
+   ],
+   "entities": [
+    "Fish Audio",
+    "vLLM"
+   ],
+   "sources": [
+    {
+     "author": "Fish Audio",
+     "url": "https://huggingface.co/fishaudio/drama-3"
+    },
+    {
+     "author": "vLLM",
+     "url": "https://x.com/vllm_project/status/2110651698847093121"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/vllm_project/status/2110651698847093121",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-player-1-game-agents",
+   "section": "research",
+   "headline": "Player-1 agents learn to play games from 16 synthetic worlds",
+   "standfirst": "Two Qwen3.5-based models rose from 10.5% to 38.3% on a Minecraft test after reinforcement learning, the paper's authors say, and also played Doom.",
+   "body": [
+    "Researchers from the National University of Singapore, Tencent's ARC Lab and Nanyang Technological University have posted Player-1, a method for teaching computer-use agents to play video games. The paper had 121 upvotes on Hugging Face's daily papers page when read on Thursday morning.",
+    "The authors, according to the paper, add relative mouse movement, held keys and composite actions that press several inputs at once. They start with 6,044 curated gameplay trajectories, then run reinforcement learning across Player-1-Gym, sixteen made-up 2D and 3D environments. Tasks include aiming, combat, driving and menus.",
+    "The paper reports two models: Player-1-9B, built on Qwen3.5-9B, and Player-1-35B-A3B, built on Qwen3.5-35B-A3B. The authors say the smaller one climbs from 10.54% to 38.33% on MineDojo-300, against 12.63% for the strongest baseline. On ViZDoom-10 the larger model scores 0.7236 against 0.3938 for GameWAM.",
+    "Gains on browser games were smaller, from 31.43% to 34.45%, and the Watch Dogs 2 example is a single run. The text read here does not say whether code, models or data will be released. Nobody outside the team appears to have reproduced the results yet."
+   ],
+   "entities": [
+    "Tencent",
+    "Qwen"
+   ],
+   "sources": [
+    {
+     "author": "Ouyang et al.",
+     "url": "https://huggingface.co/papers/2610.20584"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-tsmc-q3-ai-guidance",
    "section": "chips",
    "headline": "TSMC guides fourth-quarter revenue up to $54.3 billion",
@@ -210,7 +267,7 @@
      "after": 2
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "cac584057",
@@ -235,7 +292,7 @@
      "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-vllm-adaptive-verification",

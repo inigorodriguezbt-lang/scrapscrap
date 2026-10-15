@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-10-15T08:03:17.768589+00:00",
+  "generated_at": "2026-10-15T10:03:40.490888+00:00",
   "edition_date": "2026-10-15",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 140,
-  "clusters_found": 105,
-  "stories_declared": 10,
+  "posts_considered": 139,
+  "clusters_found": 107,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c63b8da22",
-      "score": 13.172,
+      "cluster_id": "c73e26a01",
+      "score": 12.845,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
-      "entities": [
-        "Anthropic"
-      ],
+      "entities": [],
       "independent_sources": [
+        "Hesamation",
         "Product Hunt AI",
-        "Simon Willison",
-        "testingcatalog"
+        "Simon Willison"
       ],
       "source_count": 3,
       "first_seen": "2026-10-14T10:18:29+00:00",
-      "last_seen": "2026-10-15T06:06:41+00:00",
+      "last_seen": "2026-10-15T08:01:13+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
         "https://www.producthunt.com/products/actually-asked",
@@ -36,7 +34,7 @@
         "https://www.producthunt.com/products/silixon",
         "https://www.producthunt.com/products/superdraft",
         "https://www.producthunt.com/products/withhuman",
-        "https://x.com/testingcatalog/status/2110613310403936714"
+        "https://x.com/Hesamation/status/2110642133862375690"
       ],
       "posts": [
         {
@@ -128,18 +126,69 @@
           "engagement": 0
         },
         {
-          "author": "testingcatalog",
+          "author": "Hesamation",
           "tier": "commentary",
-          "text": "DAILY AI BRIEF — Oct 15\n\nSPACEXSI: Launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. The Grok Bot marketplace is now open for developer submissions of connectors, plugins and MCP servers.\n\nANTHROPIC: Claude Code Desktop added a sessions hub for starting, tracking and following up on multiple sessions from one screen. Claude Managed Agents, the Messages API and the Claude SDK now support OpenTelemetry traces. Anthropic opened a Singapore office",
-          "url": "https://x.com/testingcatalog/status/2110613310403936714",
-          "created_at": "2026-10-15T06:06:41+00:00",
-          "engagement": 56
+          "text": "introducing CrusaderBench!\n\nan independent benchmark I’ve been working on that scores models on playing Stronghold Crusader, measuring their strategic thinking, computer use, reasoning, planning, and handling in-game disasters!\n\nResults so far:\n> Gemini 4 Argon: 62.3\n> GPT-6.1 Sol: 56.9\n> Claude Opus 5.5: 43.4\n> Claude Sonnet 5.5: 37.8\n> Muse Wonder: 31.0\n\nTHE OBJECTIVE:\ngrow an economy within a fixed time with limited resources. models must figure out how to build an economy, manage production chains, trade resources, keep their population happy, and deal with whatever goes wrong along the wa",
+          "url": "https://x.com/Hesamation/status/2110642133862375690",
+          "created_at": "2026-10-15T08:01:13+00:00",
+          "engagement": 33,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2ac153a7",
+      "score": 11.737,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "business",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Latent Space",
+        "The Decoder",
+        "rohanpaul_ai"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-14T21:40:52+00:00",
+      "last_seen": "2026-10-15T09:50:43+00:00",
+      "links": [
+        "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+        "https://www.latent.space/p/crossing-the-threshold",
+        "https://x.com/rohanpaul_ai/status/2110634367517389097"
+      ],
+      "posts": [
+        {
+          "author": "Latent Space",
+          "tier": "commentary",
+          "text": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents. At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+          "url": "https://www.latent.space/p/crossing-the-threshold",
+          "created_at": "2026-10-14T21:40:52+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "rohanpaul_ai",
+          "tier": "commentary",
+          "text": "> Anthropic’s third-quarter revenue of $16.8B grew about 45% from the second quarter, a steep drop from the more than 100% jump between the first and second quarters.\n\n~ Financial Times\n\nRevenue more than doubled between the 1st and 2nd quarters, from about $4.8B to $11.5B, but third-quarter growth lagged behind that earlier rate.",
+          "url": "https://x.com/rohanpaul_ai/status/2110634367517389097",
+          "created_at": "2026-10-15T07:30:21+00:00",
+          "engagement": 38
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO. Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic&#039;s Q3 revenue hits $16.8B but growth slows ahead of planned November IPO appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+          "created_at": "2026-10-15T09:50:43+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c9a4a9705",
-      "score": 10.111,
+      "score": 9.777,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -177,8 +226,37 @@
       ]
     },
     {
+      "cluster_id": "ca0e0fec2",
+      "score": 7.327,
+      "interest": "want",
+      "single_source": true,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI"
+      ],
+      "source_count": 1,
+      "first_seen": "2026-10-14T12:00:00+00:00",
+      "last_seen": "2026-10-14T12:00:00+00:00",
+      "links": [
+        "https://openai.com/index/amp-beyond-coding"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Amp puts AI agents to work beyond code with OpenAI models. See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "created_at": "2026-10-14T12:00:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c9659dea5",
-      "score": 7.383,
+      "score": 7.049,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -224,79 +302,8 @@
       ]
     },
     {
-      "cluster_id": "ca0e0fec2",
-      "score": 7.327,
-      "interest": "want",
-      "single_source": true,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "OpenAI"
-      ],
-      "source_count": 1,
-      "first_seen": "2026-10-14T12:00:00+00:00",
-      "last_seen": "2026-10-14T12:00:00+00:00",
-      "links": [
-        "https://openai.com/index/amp-beyond-coding"
-      ],
-      "posts": [
-        {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Amp puts AI agents to work beyond code with OpenAI models. See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-          "url": "https://openai.com/index/amp-beyond-coding",
-          "created_at": "2026-10-14T12:00:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c3fef3b28",
-      "score": 7.061,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta"
-      ],
-      "independent_sources": [
-        "Latent Space",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T19:06:03+00:00",
-      "last_seen": "2026-10-14T21:40:52+00:00",
-      "links": [
-        "https://www.latent.space/p/crossing-the-threshold",
-        "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "The AI race is back on. Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-          "created_at": "2026-10-14T19:06:03+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents. At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-          "url": "https://www.latent.space/p/crossing-the-threshold",
-          "created_at": "2026-10-14T21:40:52+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c1a1dd72e",
-      "score": 6.848,
+      "score": 6.514,
       "interest": "want",
       "single_source": false,
       "suggested_section": "policy",
@@ -374,67 +381,8 @@
       ]
     },
     {
-      "cluster_id": "c22de2e29",
-      "score": 4.887,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Microsoft"
-      ],
-      "independent_sources": [
-        "Ars Technica AI",
-        "The Decoder",
-        "Tom's Hardware"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-14T11:48:41+00:00",
-      "last_seen": "2026-10-14T16:41:49+00:00",
-      "links": [
-        "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-        "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
-        "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology"
-      ],
-      "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Saudi OpenAI engineer arrested for allegedly planting $14 recording device in company office. An OpenAI engineer has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications and is facing up to five years in prison plus a $250,000 fine.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-engineer-arrested-for-allegedly-planting-usd14-recording-device-in-company-office-cheap-microcontroller-was-meant-to-secretly-capture-sensitive-communications-about-the-companys-super-intelligence-technology",
-          "created_at": "2026-10-14T11:48:41+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Alleged OpenAI spy vibe-coded a surveillance device using his wife's chatbot account. A Saudi national working as an engineer at OpenAI was arrested for allegedly planting an audio recording device, wrapped in toilet paper, inside the company's executive conference room. According to the indictment, he built the spy tool by vibe-coding it with a chatbot. If convicted, he faces up to five years in prison. The article Alleged OpenAI spy vibe-coded a surveillance device using his wife&#039;s chatbot account appeared first on The Decoder .",
-          "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
-          "created_at": "2026-10-14T12:37:05+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work. OpenAI is racing to finish its next flagship model, which uses the same looped transformer technique as Astra to boost math and coding performance. The tradeoff is that looping makes safety monitoring harder. Microsoft accidentally revealed details about how the technique works on a public page. Whether or not the flagship is ready in time, employees say one or two new models will likely ship by year's end. The article OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
-          "created_at": "2026-10-14T16:14:16+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room. OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
-          "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-          "created_at": "2026-10-14T16:41:49+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cda3dba6c",
-      "score": 3.908,
+      "score": 3.625,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -470,9 +418,9 @@
       ]
     },
     {
-      "cluster_id": "c53b21b56",
-      "score": 2.542,
-      "interest": "dull",
+      "cluster_id": "c024df330",
+      "score": 3.625,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
@@ -485,9 +433,8 @@
       ],
       "source_count": 2,
       "first_seen": "2026-10-14T16:09:19+00:00",
-      "last_seen": "2026-10-14T23:12:59+00:00",
+      "last_seen": "2026-10-14T16:43:24+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
         "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
         "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
       ],
@@ -506,14 +453,6 @@
           "text": "OpenAI claims an ex-employee took its product plans and presented them to Apple. OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president of the company's operations in Asia. The [&#8230;]",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
           "created_at": "2026-10-14T16:43:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "OpenAI agrees not to use alleged Apple trade secrets amid ongoing lawsuit. Bloomberg reports that during a hearing today, OpenAI voluntarily agreed not to use Apple’s alleged trade secrets while the legal battle between the two companies plays out. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
-          "created_at": "2026-10-14T23:12:59+00:00",
           "engagement": 0
         }
       ]
