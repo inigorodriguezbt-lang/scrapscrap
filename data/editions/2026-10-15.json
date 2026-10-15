@@ -50,6 +50,139 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "cc63326e9",
+   "section": "products",
+   "headline": "OpenAI ships GPT-Live-1.1 voice with six new languages",
+   "standfirst": "OpenAI says GPT-Live-1.1 is rolling out today to all users in ChatGPT, Codex and dots, with new voices in six languages and fewer \"checking...\" pauses.",
+   "body": [
+    "OpenAI said on Thursday that GPT-Live-1.1 is rolling out to all users of Voice in ChatGPT, Codex and a product it calls dots. In a post on X, the company said the update brings new voices and better accents, and trims the \"checking...\" delay the voice mode shows.",
+    "The company listed new voices in French, German, Hindi, Mexican Spanish, Korean and Japanese. OpenAI said API access is coming soon, without giving a date or a price. The post carries a short demonstration clip. Nothing in the post describes how the accents were improved or how the delay was cut.",
+    "TestingCatalog, which tracks app changes, described the release as a new model and said the constant \"checking\" message had been annoying during coding sessions. That observation is the outlet's own and describes the Codex experience, not a measured latency. The outlet's post also said API support is coming soon, matching OpenAI.",
+    "The original GPT-Live model was announced in the API in September, according to OpenAI pages dated 10 September that a search returned, at $0.05 per minute for the voice layer. Whether 1.1 keeps that price is not stated. No independent tests of the new voices had appeared at the time of writing."
+   ],
+   "entities": [
+    "OpenAI",
+    "GPT-Live-1.1",
+    "ChatGPT",
+    "Codex"
+   ],
+   "sources": [
+    {
+     "author": "OpenAI",
+     "url": "https://x.com/OpenAI/status/2110797830361436604"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2110801529896665188"
+    },
+    {
+     "author": "OpenAI",
+     "url": "https://openai.com/es-ES/index/introducing-gpt-live-1-in-the-api/"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/OpenAI/status/2110797830361436604",
+     "after": 2,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-microsoft-mai-base-2",
+   "section": "models",
+   "headline": "Microsoft finishes MAI-Base-2, a 3-trillion-parameter base model built in-house",
+   "standfirst": "Microsoft AI says its MAI-Base-2 base model beats every open-weight model it tested and is 4 to 12 times more pre-training efficient than DeepSeek-V4-Pro-Base.",
+   "body": [
+    "Microsoft AI chief Mustafa Suleyman said on X that the company now has top-tier pre-trained base models in the 3-trillion-parameter weight class, built entirely in-house. He said post-training results are coming soon and pointed to a technical blog post that was not opened for this report.",
+    "Quotations from that blog post, shared by TestingCatalog, say MAI-Base-2 outperforms every open-weight model Microsoft tested on held-out evaluations. The company says it is 4 to 12 times more pre-training FLOPs-efficient than the strongest open base model, DeepSeek-V4-Pro-Base, and that it put the saving into a larger model.",
+    "Microsoft said a follow-on run, MAI-Base-3, is already being prepared. Suleyman said MAI-Base-2 trained cleanly over the full run because of careful scaling ladders and steady refinement of the recipe. These are the company's descriptions of its own training, and they may not hold up to outside checks.",
+    "A base model is the raw pre-trained network before instruction tuning, so it cannot be compared directly with chat models. No weights, licence or release date for the base models were mentioned in the posts, and nobody outside Microsoft has reported testing them."
+   ],
+   "entities": [
+    "Microsoft",
+    "MAI-Base-2",
+    "Mustafa Suleyman"
+   ],
+   "sources": [
+    {
+     "author": "Mustafa Suleyman",
+     "url": "https://x.com/mustafasuleyman/status/2110766651344146564"
+    },
+    {
+     "author": "TestingCatalog",
+     "url": "https://x.com/testingcatalog/status/2110797298661744928"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/mustafasuleyman/status/2110766651344146564",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-agent-arena-mimo-v26-pro",
+   "section": "open-models",
+   "headline": "Xiaomi's MiMo V2.6 Pro takes top open spot in Arena's Agent leaderboard",
+   "standfirst": "Arena says MiMo V2.6 Pro leads open models in Agent Arena at $0.11 per task, and is one of only two open models on the cost frontier.",
+   "body": [
+    "Arena said on Thursday that Xiaomi's MiMo V2.6 Pro has taken first place among open models in its Agent Arena, with a net improvement of 3.8 per cent over the average model. Arena measures outcomes on long-horizon agentic tasks submitted by its community, where models can use web search and a terminal.",
+    "Behind it, by Arena's figures, are DeepSeek V4.1 Flash (Max) at 3.0 per cent, Hy4 preview at 2.9, MiMo V2.6 Flash at 2.5 and GLM 5.2 (Max) at 2.4. Arena said it changed its Bash Recovery signal earlier this week, so these standings are not comparable with earlier ones.",
+    "On cost, Arena said MiMo V2.6 Pro runs at $0.11 per task and Flash at $0.05, making them the only two open models on its Pareto frontier. It said Pro beats DeepSeek V4.1 Flash while costing 15 per cent less, and the Hy4 preview at 71 per cent less cost.",
+    "All of the numbers come from Arena's own methodology, which the post describes only briefly, and they could shift as more sessions arrive. Xiaomi had not commented in the material reviewed. Arena also said Meta's Muse Spark Open is now listed, with scores to follow."
+   ],
+   "entities": [
+    "Arena",
+    "Xiaomi",
+    "MiMo V2.6 Pro"
+   ],
+   "sources": [
+    {
+     "author": "Arena",
+     "url": "https://x.com/arena/status/2110815995950731340"
+    },
+    {
+     "author": "Arena",
+     "url": "https://x.com/arena/status/2110797782953132049"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-liquid-d1-ultra",
+   "section": "models",
+   "headline": "Liquid AI releases d1-ultra, a model it says tops a decision index",
+   "standfirst": "Liquid AI says d1-ultra, a multimodal model covering 44 languages, scores 65 and ranks first on Artificial Analysis's Decision Index.",
+   "body": [
+    "Liquid AI released d1-ultra on Thursday, which it calls its most powerful decision model and says is built for hard decision problems. In a post on X, the company said the model is multimodal and supports 44 languages.",
+    "Liquid claims it ranks first on the Artificial Analysis Decision Index with a score of 65, and leads all eight categories of its own 112-evaluation suite. Both claims are the company's. The index result was not checked against Artificial Analysis's own page for this report.",
+    "The post did not give a parameter count, a licence, a price or where the model can be tried. Some social summaries say the model has no output costs, but that claim does not appear in Liquid's post and is left out here.",
+    "The post had more than 770 likes and roughly 36,000 views when read in the evening. No independent group has reported testing d1-ultra yet, and what a decision model does that a general model does not is not explained in the post."
+   ],
+   "entities": [
+    "Liquid AI",
+    "d1-ultra",
+    "Artificial Analysis"
+   ],
+   "sources": [
+    {
+     "author": "Liquid AI",
+     "url": "https://x.com/liquidai/status/2110777964489285875"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/liquidai/status/2110777964489285875",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-aa-robotics-v01",
    "section": "research",
    "headline": "Artificial Analysis ranks frontier models by how well they drive a robot arm",
@@ -182,7 +315,7 @@
      "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "goodfire-neural-networks-already-clean",
@@ -207,7 +340,7 @@
      "url": "https://already-clean.goodfire.com/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "nvidia-nemotron-3-5-super-vl",
@@ -252,7 +385,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "flux-3-image-klein-diffusers",
@@ -289,7 +422,7 @@
      "video": true
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "krea-3-image-editing-beta",

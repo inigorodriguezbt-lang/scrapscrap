@@ -1,46 +1,48 @@
 {
-  "generated_at": "2026-10-15T18:03:31.817560+00:00",
+  "generated_at": "2026-10-15T20:03:22.032768+00:00",
   "edition_date": "2026-10-15",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 120,
-  "clusters_found": 81,
-  "stories_declared": 14,
+  "posts_considered": 122,
+  "clusters_found": 82,
+  "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c4ef73724",
-      "score": 17.614,
+      "cluster_id": "cfffcb08b",
+      "score": 17.247,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "Meta",
         "Nvidia",
-        "Hugging Face",
         "Apple",
         "Amazon",
         "AMD"
       ],
       "independent_sources": [
         "9to5Mac",
-        "AIatMeta",
         "AWS ML",
         "Engadget",
         "Hugging Face",
         "NVIDIA Developer",
-        "The Verge AI"
+        "The Decoder",
+        "The Verge AI",
+        "vllm_project"
       ],
-      "source_count": 7,
+      "source_count": 8,
       "first_seen": "2026-10-15T00:00:00+00:00",
-      "last_seen": "2026-10-15T18:00:01+00:00",
+      "last_seen": "2026-10-15T18:34:32+00:00",
       "links": [
         "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
         "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
         "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "https://huggingface.co/blog/meta-muse-spark-open",
+        "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
         "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+        "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
         "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-        "https://x.com/AIatMeta/status/2110779756828557356"
+        "https://x.com/vllm_project/status/2110796242427228585"
       ],
       "posts": [
         {
@@ -76,14 +78,6 @@
           "engagement": 0
         },
         {
-          "author": "AIatMeta",
-          "tier": "commentary",
-          "text": "To help make advanced models more accessible, Muse Spark Open is optimized to run on two Apple M5 Ultra Mac Studios with the latest MLX framework.\n\nIt also runs on leading inference engines like SGLang, vLLM, TensorRT-LLM, Hugging Face Transformers, llama.cpp, and Unsloth with optimizations for AMD, Apple, Intel, and NVIDIA silicon.",
-          "url": "https://x.com/AIatMeta/status/2110779756828557356",
-          "created_at": "2026-10-15T17:08:05+00:00",
-          "engagement": 197
-        },
-        {
           "author": "AWS ML",
           "tier": "primary",
           "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
@@ -98,159 +92,113 @@
           "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
           "created_at": "2026-10-15T18:00:01+00:00",
           "engagement": 0
+        },
+        {
+          "author": "vllm_project",
+          "tier": "commentary",
+          "text": "Day-0 support for Meta's open-weight Muse Spark Open is live on vLLM, verified on NVIDIA and AMD GPUs as well as on TPUs! 816B parameters, 42B active per token, a 1M-token image, video and audio inputs, built for long-horizon agentic coding. 1M context; native image, video, audio & document understanding; BF16, NVFP4 & MXFP4 support; DSpark speculative decoding on both CUDA and ROCm",
+          "url": "https://x.com/vllm_project/status/2110796242427228585",
+          "created_at": "2026-10-15T18:13:35+00:00",
+          "engagement": 66
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta and Apple team up to make Muse AI models run better on Macs. Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, [&#8230;]",
+          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+          "created_at": "2026-10-15T18:15:36+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race. Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The article Muse Spark Open is Meta&#039;s answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder .",
+          "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+          "created_at": "2026-10-15T18:34:32+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c09954d94",
-      "score": 14.055,
+      "cluster_id": "c887c8d11",
+      "score": 15.799,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Nvidia"
+        "Nvidia",
+        "DeepSeek"
       ],
       "independent_sources": [
-        "NVIDIA",
+        "Apple ML",
         "NVIDIA Developer",
-        "The Decoder",
-        "vllm_project"
+        "arena",
+        "perplexity_ai"
       ],
       "source_count": 4,
-      "first_seen": "2026-10-15T15:00:00+00:00",
-      "last_seen": "2026-10-15T16:09:44+00:00",
+      "first_seen": "2026-10-15T00:00:00+00:00",
+      "last_seen": "2026-10-15T19:32:05+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
         "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-        "https://x.com/vllm_project/status/2110761251865501911"
+        "https://machinelearning.apple.com/research/selection-structured-reasoning",
+        "https://x.com/arena/status/2110815995950731340",
+        "https://x.com/perplexity_ai/status/2110793639727358422"
       ],
       "posts": [
+        {
+          "author": "Apple ML",
+          "tier": "primary",
+          "text": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents. Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of open-ended generation. SSR represents recurring high-level reasoning as pre-specified, reusable natural-language candidates. At each turn, the model selects from the reasoning candidates based on their",
+          "url": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+          "created_at": "2026-10-15T00:00:00+00:00",
+          "engagement": 0
+        },
         {
           "author": "NVIDIA Developer",
           "tier": "primary",
           "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
           "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-          "created_at": "2026-10-15T15:00:00+00:00",
+          "created_at": "2026-10-15T18:01:00+00:00",
           "engagement": 0
         },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "created_at": "2026-10-15T15:00:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "vllm_project",
-          "tier": "commentary",
-          "text": "Great work from @RedHat_AI bringing FP8 + DSpark to NVIDIA Nemotron 3.5 Super VL with LLM Compressor, Speculators, and vLLM!",
-          "url": "https://x.com/vllm_project/status/2110761251865501911",
-          "created_at": "2026-10-15T15:54:33+00:00",
-          "engagement": 38
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-          "created_at": "2026-10-15T16:09:44+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c04978352",
-      "score": 13.362,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "AIatMeta",
-        "alexandr_wang"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T17:04:01+00:00",
-      "last_seen": "2026-10-15T17:08:04+00:00",
-      "links": [
-        "https://x.com/AIatMeta/status/2110779754274292212",
-        "https://x.com/alexandr_wang/status/2110778736434184611"
-      ],
-      "posts": [
-        {
-          "author": "alexandr_wang",
-          "tier": "commentary",
-          "text": "1/ muse spark open is the most capable US open-weight model to date.\n\n816B total params, 42B active. 1M-token context. natively multimodal. built for coding and agentic work like long-horizon tasks, hard software engineering, multi-step reasoning.\n\namerica! 🇺🇲 https://t.co/NjtOB7aY9D",
-          "url": "https://x.com/alexandr_wang/status/2110778736434184611",
-          "created_at": "2026-10-15T17:04:01+00:00",
-          "engagement": 2407
-        },
-        {
-          "author": "AIatMeta",
-          "tier": "commentary",
-          "text": "Today we’re releasing Muse Spark Open, the most capable US open-weight model to date.\n\nBuilt for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning.\n\nKey Model Specs:\n→ 816B total / 42B active parameters\n→ 1M token context window\n→ Natively multimodal across text, image, video, audio",
-          "url": "https://x.com/AIatMeta/status/2110779754274292212",
-          "created_at": "2026-10-15T17:08:04+00:00",
-          "engagement": 3593
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc10a461e",
-      "score": 11.746,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "AravSrinivas",
-        "perplexity_ai"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T17:03:00+00:00",
-      "last_seen": "2026-10-15T17:32:17+00:00",
-      "links": [
-        "https://x.com/AravSrinivas/status/2110785848958759165",
-        "https://x.com/perplexity_ai/status/2110778478312481167"
-      ],
-      "posts": [
         {
           "author": "perplexity_ai",
           "tier": "commentary",
-          "text": "We're open sourcing SPACE, the sandbox platform that runs every task in Perplexity Computer.\n\nSPACE gives each agent task its own Firecracker microVM and controls credentials and outbound traffic from outside the VM.\n\nAvailable now under Apache 2.0: https://t.co/DzSmq6o1xA",
-          "url": "https://x.com/perplexity_ai/status/2110778478312481167",
-          "created_at": "2026-10-15T17:03:00+00:00",
-          "engagement": 255
+          "text": "NVIDIA's Nemotron 3.5 Super VL is now available in Perplexity for Pro and Max subscribers, and in Agent API.",
+          "url": "https://x.com/perplexity_ai/status/2110793639727358422",
+          "created_at": "2026-10-15T18:03:15+00:00",
+          "engagement": 117,
+          "video": true
         },
         {
-          "author": "AravSrinivas",
+          "author": "arena",
           "tier": "commentary",
-          "text": "While sandboxes are a commodity, serving millions of them under production-grade traffic requires a lot of detail to scale agents for businesses and consumers. We're open-sourcing the sandbox platform SPACE that powers all of Perplexity Computer to support the ecosystem. https://t.co/0lIp85buNJ",
-          "url": "https://x.com/AravSrinivas/status/2110785848958759165",
-          "created_at": "2026-10-15T17:32:17+00:00",
-          "engagement": 107
+          "text": "New leader in the Agent Arena among open models. MiMo V2.6 Pro by @XiaomiMiMo has landed the #1 spot with +3.8% net improvement. Top 5 open: MiMo V2.6 Pro, Deepseek V4.1 Flash (Max), Hy4 preview, MiMo V2.6 Flash, GLM 5.2 (Max). MiMo V2.6 Pro ($0.11 cost per task) and Flash ($0.05 cost per task) are the only two open models on the Agent Arena Pareto frontier.",
+          "url": "https://x.com/arena/status/2110815995950731340",
+          "created_at": "2026-10-15T19:32:05+00:00",
+          "engagement": 50
         }
       ]
     },
     {
-      "cluster_id": "caaa3e9cf",
-      "score": 11.436,
+      "cluster_id": "cb4f86e6e",
+      "score": 15.045,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
       "entities": [],
       "independent_sources": [
+        "ComfyUI",
         "Hugging Face",
         "The Decoder"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-15T00:00:00+00:00",
-      "last_seen": "2026-10-15T16:57:14+00:00",
+      "last_seen": "2026-10-15T17:59:11+00:00",
       "links": [
         "https://huggingface.co/blog/flux-3",
-        "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/"
+        "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+        "https://x.com/ComfyUI/status/2110792619454533820"
       ],
       "posts": [
         {
@@ -268,12 +216,62 @@
           "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
           "created_at": "2026-10-15T16:57:14+00:00",
           "engagement": 0
+        },
+        {
+          "author": "ComfyUI",
+          "tier": "commentary",
+          "text": "FLUX 3 Image Klein by @bfl_ai is now natively supported in ComfyUI. 5.6B parameters, with open weights for both the base and distilled versions. Native 4K generation, bounding boxes for layout control, multi-reference generation, pixel perfect editing, text rendering and editing",
+          "url": "https://x.com/ComfyUI/status/2110792619454533820",
+          "created_at": "2026-10-15T17:59:11+00:00",
+          "engagement": 157,
+          "video": true
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc63326e9",
+      "score": 13.221,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T18:19:54+00:00",
+      "last_seen": "2026-10-15T18:34:36+00:00",
+      "links": [
+        "https://x.com/OpenAI/status/2110797830361436604",
+        "https://x.com/testingcatalog/status/2110801529896665188"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "commentary",
+          "text": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
+          "url": "https://x.com/OpenAI/status/2110797830361436604",
+          "created_at": "2026-10-15T18:19:54+00:00",
+          "engagement": 5349,
+          "video": true
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "BREAKING: OpenAI shipped an upgrade to its Voice Mode on ChatGPT, Codex and dots! A new model, GPT-Live-1.1, comes with support of new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. API support is coming soon",
+          "url": "https://x.com/testingcatalog/status/2110801529896665188",
+          "created_at": "2026-10-15T18:34:36+00:00",
+          "engagement": 193,
+          "video": true
         }
       ]
     },
     {
       "cluster_id": "c96264637",
-      "score": 11.177,
+      "score": 10.844,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -322,70 +320,106 @@
       ]
     },
     {
-      "cluster_id": "cede704ed",
-      "score": 10.866,
+      "cluster_id": "c3e391392",
+      "score": 9.976,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Google",
-        "Meta"
+        "Google"
       ],
       "independent_sources": [
-        "Ars Technica AI",
-        "Bloomberg Tech",
-        "Latent Space",
+        "9to5Google",
+        "TechCrunch AI",
+        "The Decoder",
         "The Verge AI"
       ],
       "source_count": 4,
-      "first_seen": "2026-10-14T19:06:03+00:00",
-      "last_seen": "2026-10-15T17:46:10+00:00",
+      "first_seen": "2026-10-15T13:00:00+00:00",
+      "last_seen": "2026-10-15T16:35:47+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-        "https://www.bloomberg.com/news/videos/2026-10-15/inside-blackstone-s-massive-bet-on-the-ai-boom-video",
-        "https://www.latent.space/p/crossing-the-threshold",
-        "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
+        "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+        "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+        "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "The AI race is back on. Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-          "created_at": "2026-10-14T19:06:03+00:00",
+          "text": "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays. Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+          "created_at": "2026-10-15T13:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "Latent Space",
-          "tier": "commentary",
-          "text": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents. At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-          "url": "https://www.latent.space/p/crossing-the-threshold",
-          "created_at": "2026-10-14T21:40:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”. FTC may fine AI firms on par with companies that delay data breach reports.",
-          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-          "created_at": "2026-10-15T15:43:24+00:00",
+          "text": "Google’s Universal Cart shopping tool launches in the US. The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "created_at": "2026-10-15T14:29:33+00:00",
           "engagement": 0
         },
         {
-          "author": "Bloomberg Tech",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Inside Blackstone’s Massive Bet on the AI Boom. Blackstone has built one of Wall Street’s broadest bets on AI, investing across the ecosystem from data centers, power and cooling to chip financing and companies including OpenAI, Anthropic and SpaceX. Bloomberg’s Preeti Singh explains how President and COO Jon Gray spotted the infrastructure opportunity early and why he sees AI as a generational economic shift that investors can’t afford to ignore. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-15/inside-blackstone-s-massive-bet-on-the-ai-boom-video",
-          "created_at": "2026-10-15T17:46:10+00:00",
+          "text": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search. Following its announcement at Google I/O earlier this year , Google’s new Universal Cart is now rolling out in the US, giving you the ability to shop the web and watch for deals using Search, Gemini, and more. more…",
+          "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+          "created_at": "2026-10-15T14:40:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google wants Gemini 4 Argon to be the only AI model robots need. Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos. On Google's own ERQA benchmark, it scores 87 percent. But the published example prompts show that the demos still need a lot of human guidance. The article Google wants Gemini 4 Argon to be the only AI model robots need appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+          "created_at": "2026-10-15T16:35:47+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c27d81595",
+      "score": 9.971,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T15:00:24+00:00",
+      "last_seen": "2026-10-15T16:09:44+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "created_at": "2026-10-15T15:00:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
+          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+          "created_at": "2026-10-15T16:09:44+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c2972c57a",
-      "score": 9.56,
+      "score": 9.227,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -433,104 +467,56 @@
       ]
     },
     {
-      "cluster_id": "cf96b7d17",
-      "score": 9.378,
+      "cluster_id": "c4819592f",
+      "score": 8.938,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "9to5Google",
-        "Ars Technica AI",
-        "TechCrunch AI"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-14T18:23:46+00:00",
-      "last_seen": "2026-10-15T15:12:58+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
-        "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-        "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "YouTube Music launches new labels as AI-generated music floods streaming platforms. The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-          "created_at": "2026-10-14T18:23:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "YouTube Music rolling out AI labels in the Now Playing screen. In response to more AI-generated content appearing on streaming services, YouTube Music is adding a new AI label directly to the player. more…",
-          "url": "https://9to5google.com/2026/10/14/youtube-music-ai-label/",
-          "created_at": "2026-10-14T19:44:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Ars Technica AI",
-          "tier": "press",
-          "text": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.. The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
-          "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-          "created_at": "2026-10-15T15:12:58+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7be534e7",
-      "score": 9.148,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
       "entities": [
-        "Google"
+        "Amazon"
       ],
       "independent_sources": [
-        "9to5Google",
         "TechCrunch AI",
         "The Verge AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-15T13:00:00+00:00",
-      "last_seen": "2026-10-15T14:40:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-15T14:00:00+00:00",
+      "last_seen": "2026-10-15T19:57:16+00:00",
       "links": [
-        "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
-        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-        "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch"
+        "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+        "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+        "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays. Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier [&#8230;]",
-          "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-          "created_at": "2026-10-15T13:00:00+00:00",
+          "text": "TechCrunch Disrupt 2026: Last day. Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+          "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+          "created_at": "2026-10-15T14:00:00+00:00",
           "engagement": 0
         },
         {
           "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Google’s Universal Cart shopping tool launches in the US. The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-          "created_at": "2026-10-15T14:29:33+00:00",
+          "text": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps. Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+          "created_at": "2026-10-15T19:55:25+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search. Following its announcement at Google I/O earlier this year , Google’s new Universal Cart is now rolling out in the US, giving you the ability to shop the web and watch for deals using Search, Gemini, and more. more…",
-          "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
-          "created_at": "2026-10-15T14:40:00+00:00",
+          "text": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social. Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni Schneider said [&#8230;]",
+          "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+          "created_at": "2026-10-15T19:57:16+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "ce3c36d44",
-      "score": 7.718,
+      "score": 7.385,
       "interest": "want",
       "single_source": true,
       "suggested_section": "models",
@@ -557,7 +543,7 @@
     },
     {
       "cluster_id": "cd9c093c6",
-      "score": 7.505,
+      "score": 7.172,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
@@ -604,65 +590,23 @@
       ]
     },
     {
-      "cluster_id": "c1a1dd72e",
-      "score": 6.125,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "policy",
-      "entities": [
-        "OpenAI"
-      ],
-      "independent_sources": [
-        "Engadget",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T21:11:28+00:00",
-      "last_seen": "2026-10-14T21:23:27+00:00",
-      "links": [
-        "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
-        "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids. OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-          "created_at": "2026-10-14T21:11:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Iowa, Nebraska and six other states are suing OpenAI for endangering children. The lawsuits cover everything from the design of ChatGPT to the company's recent issues with rogue agents.",
-          "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
-          "created_at": "2026-10-14T21:23:27+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2b502ae6",
-      "score": 5.161,
-      "interest": "dull",
+      "cluster_id": "cd1faa5b5",
+      "score": 4.753,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "business",
       "entities": [
         "Anthropic"
       ],
       "independent_sources": [
-        "Simon Willison",
         "The Decoder",
         "The Verge AI"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "first_seen": "2026-10-14T22:53:31+00:00",
-      "last_seen": "2026-10-15T15:27:25+00:00",
+      "last_seen": "2026-10-15T09:50:43+00:00",
       "links": [
-        "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
         "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
         "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
       ],
       "posts": [
@@ -680,22 +624,6 @@
           "text": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO. Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic&#039;s Q3 revenue hits $16.8B but growth slows ahead of planned November IPO appeared first on The Decoder .",
           "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
           "created_at": "2026-10-15T09:50:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO. Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is wo",
-          "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-          "created_at": "2026-10-15T13:04:03+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models. Bank of America has hired 1,000 outside contractors to fix software vulnerabilities uncovered by AI models like Anthropic's Mythos, CNBC reports. The article Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic&#039;s Mythos and other AI models appeared first on The Decoder .",
-          "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
-          "created_at": "2026-10-15T15:27:25+00:00",
           "engagement": 0
         }
       ]
