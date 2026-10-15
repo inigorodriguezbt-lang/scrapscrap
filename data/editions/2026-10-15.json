@@ -35,6 +35,110 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-step-5-preview-open-weights",
+   "section": "models",
+   "headline": "StepFun opens weights for 600B-parameter Step 5 Preview",
+   "standfirst": "StepFun says its agent-focused Step 5 Preview, a 600B mixture-of-experts model with a 1M-token window, is downloadable now, with vLLM and SGLang support from day one.",
+   "body": [
+    "StepFun, the Chinese lab, said on X on Thursday that Step 5 Preview is now open weights, with BF16 and FP8 checkpoints on Hugging Face and ModelScope alongside a technical blog. The company describes it as a sparse mixture-of-experts model with 600 billion parameters in total and 27 billion active for each token.",
+    "According to StepFun, the model takes text and images, handles up to one million tokens of input and output combined, and is built for long-horizon agentic work: coding, software engineering, professional knowledge work and finance. Adina Yakup, posting on X, called finance a strong focus and the licence customised.",
+    "The model card names the licence StepFun Model License 1.0, which it describes as Apache-2.0-style with extra attribution and commercial-licence conditions. Its benchmark results appear only in a chart image, citing GDPval-AA v2.1 scores from Artificial Analysis as of September 20 and DeepSWE v1.1. The text does not name the comparison models.",
+    "Both vLLM and SGLang said they support the model from day zero. The card lists FP8 serving on four B300 or eight H200 GPUs, and BF16 on eight B300 or sixteen H200. It says the full BF16 route through Transformers is not yet validated end to end. No independent tests had appeared when this was written, so the capability claims are StepFun's own."
+   ],
+   "entities": [
+    "StepFun",
+    "vLLM",
+    "SGLang",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "StepFun",
+     "url": "https://x.com/StepFun_ai/status/2110717330657616092"
+    },
+    {
+     "author": "StepFun (model card)",
+     "url": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+    },
+    {
+     "author": "vLLM",
+     "url": "https://x.com/vllm_project/status/2110719689127292945"
+    },
+    {
+     "author": "SGLang",
+     "url": "https://x.com/sgl_project/status/2110717632257155164"
+    },
+    {
+     "author": "Adina Yakup",
+     "url": "https://x.com/AdinaYakup/status/2110689169848647834"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/StepFun_ai/status/2110717330657616092",
+     "after": 1
+    },
+    {
+     "url": "https://x.com/vllm_project/status/2110719689127292945",
+     "after": 4,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-apertus-1-5-release-notes",
+   "section": "models",
+   "headline": "Swiss Apertus 1.5 takes images and audio, with a 262,144-token window",
+   "standfirst": "The Swiss AI team's release notes describe 8B and 70B open models under Apache 2.0, trained on data it calls permissively licensed, while admitting they still trail frontier open weights.",
+   "body": [
+    "The Swiss AI initiative published release notes on Hugging Face on Thursday for Apertus 1.5, a family of 8B and 70B models released under Apache 2.0. The notes say the weights have been available since July 24, and list base, SFT, RLVR and DPO checkpoints for both sizes in an Apertus v1.5 collection.",
+    "The team says continued pretraining added four trillion tokens to the 8B model and two trillion to the 70B, bringing the totals to 19 trillion and 17 trillion. The models accept text, images and audio but output text only. The notes call speech support experimental, and the context window is 262,144 tokens, four times that of Apertus 1.0.",
+    "The authors say all training data is publicly available and permissively licensed, with robots.txt opt-outs respected retroactively. The post-training recipe includes about 3.7 million supervised samples and reinforcement learning on about 350,000 prompts. A final charter-alignment stage applies only to the 8B model.",
+    "On benchmarks, the notes say the 8B beats similar-sized open models on instruction following and multilingual tasks and matches GPT-OSS-20B on the Last Translation Benchmark. The post gives no scores in text, and the claims are the developers' own. They concede the models are still trailing frontier open-weight models, and announce a roughly 600B sparse Apertus 2.0 as a plan, not a release."
+   ],
+   "entities": [
+    "Apertus",
+    "Swiss AI",
+    "Hugging Face"
+   ],
+   "sources": [
+    {
+     "author": "Swiss AI (Hugging Face)",
+     "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "amazon-bee-frontier-eclipse",
+   "section": "products",
+   "headline": "Amazon's Bee adds a $75 wristband and a phone-back recorder",
+   "standfirst": "Amazon says its Bee Frontier listens all day for $74.99, with seven days of battery, and a $11.99-a-month Bee Pro plan hooks it into Alexa and Amazon shopping.",
+   "body": [
+    "Bee, the AI wearable startup Amazon bought in 2025, announced two devices on Thursday, TechCrunch reported. The Bee Frontier, at $74.99, is available now on Amazon. The Bee Eclipse, a credit-card-sized recorder that magnetically attaches to the back of a phone, costs $99.99 and follows soon after.",
+    "Amazon says the Frontier, worn on the wrist or pinned to clothing, is IP67 water resistant, has dual microphones and runs up to seven days on a charge. Both devices turn conversations into summaries, to-do lists and calendar invites, and an indicator light shows when one is summarising. The Verge noted the new device can now help users buy things.",
+    "Free use covers conversation summaries with 14 days of memory. A Bee Pro subscription at $11.99 a month adds unlimited summaries, Amazon.com and Alexa+ integrations, suggested to-dos and a chat assistant. With Alexa connected, Amazon says Voice ID spots when the owner is speaking and records conversations for Bee's insights.",
+    "On privacy, Amazon says raw audio is processed in real time and deleted, and that transcripts are encrypted with keys the device controls, so no one at Amazon can read them unless users share them. Those are the company's claims; no independent testing has been published. TechCrunch lists rivals Plaud Note at $159 and Pocket at $129."
+   ],
+   "entities": [
+    "Amazon",
+    "Bee",
+    "Alexa+"
+   ],
+   "sources": [
+    {
+     "author": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+    },
+    {
+     "author": "The Verge",
+     "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-anthropic-distillation-revenue",
    "section": "business",
    "headline": "Anthropic tells investors distillation brings in 5 to 7 percent of revenue",
@@ -157,7 +261,7 @@
      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-grok-bot-make-you-whole",
@@ -196,7 +300,7 @@
      "after": 1
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "c383ee815",
@@ -226,7 +330,7 @@
      "url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-vals-robotics-sim",
