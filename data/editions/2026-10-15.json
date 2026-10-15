@@ -1,0 +1,156 @@
+{
+ "edition_date": "2026-10-15",
+ "stories": [
+  {
+   "cluster_id": "find-aa-robotics-v01",
+   "section": "research",
+   "headline": "Artificial Analysis ranks frontier models by how well they drive a robot arm",
+   "standfirst": "Its AA-Robotics v0.1 preview gives each model a six-axis arm and four cameras, and the top score is 69 for GPT-6 Astra, at about 30 minutes a task.",
+   "body": [
+    "Artificial Analysis, the firm that benchmarks AI models, launched AA-Robotics v0.1 on Wednesday. It describes the research preview as a test of how well frontier language models understand the physical world, plan and act in it. Each model controls a six-axis robot arm with a simple objective, and the firm released results for its first eight tasks, covering control and dexterity, spatial reasoning and adaptability.",
+    "Per the firm's thread, models get only brief instructions: how to reach the arm over a simple HTTP API, which arm it is and how to submit an attempt. The arm is a Hiwonder NexArm, with no further specifications given. Models see the table through four cameras, three around it and one on the wrist, and write and run code to plan movements. Attempts are zero-shot, and a pass scores 100.",
+    "Artificial Analysis says GPT-6 Astra places first with 69, ahead of GPT-6.1 Sol at 65 and Gemini 4 Argon at 55. Claude Opus 5.5 scores 49 and Claude Fable 5.1 scores 46. The firm says GPT-6.1 Sol is the cheapest at $1.93 a task on average, while GPT-6 Astra costs $16.36, more than eight times as much, for four extra points.",
+    "Speed is the weak spot. The firm says models take about 30 minutes on average to finish each tabletop task, and that the best are roughly 100 times slower and 10 times more expensive than a human. It calls them far too slow and expensive for production use, though it expects that to change quickly. That is the firm's own reading of its own test.",
+    "It lists three kinds of mistake. Models miss grasps and placements, which drops objects or pushes them out of reach. They reason poorly about space, which leads to the wrong sequence and knocked-over towers. And they misjudge success, often carrying on after a task has passed. The scores are Artificial Analysis's alone, and no outside group has reproduced them."
+   ],
+   "entities": [
+    "Artificial Analysis",
+    "GPT-6 Astra",
+    "Gemini 4 Argon",
+    "Claude Opus 5.5"
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2110500262628806787"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2110500262628806787",
+     "after": 1,
+     "video": true
+    }
+   ],
+   "placement": "lead"
+  },
+  {
+   "cluster_id": "find-vals-robotics-sim",
+   "section": "research",
+   "headline": "Vals AI says no model reached 2 out of 100 on its humanoid tasks",
+   "standfirst": "In real-time MuJoCo simulations, Vals says GPT-6.1 Sol averaged 51 on 13 robot-arm tasks, while the 11 humanoid tasks, which need balance and walking, stayed near zero.",
+   "body": [
+    "Vals AI, which runs model evaluations, posted a robotics benchmark on Wednesday that puts frontier models in real-time MuJoCo physics simulations of a robot arm and a humanoid. Models receive only camera feeds and sensor readings and answer with motor commands. Vals says it tested them on 24 tasks built around spatial reasoning and reaction time, and says it is the first team to test a humanoid.",
+    "By Vals's account, every model did better on the arm. GPT-6.1 Sol averaged 51 out of 100 on the 13 arm tasks. On the 11 humanoid tasks, where the model has to balance and walk on its own, no model reached 2 out of 100. Vals posted the results in a thread and pointed to a methodology page, which this paper has not opened.",
+    "The simulations run in real time, so thinking time costs the model. Vals says GPT-6 Astra and GPT-6.1 Sol moved the robot in every episode, after 75 to 80 seconds on average. Every other model averaged more than two minutes before its first command, it says, and Grok 4.7 and Gemini 4 Argon never moved the robot in most episodes.",
+    "Vals says it simulated the 7-DoF Franka Emika Panda arm in MuJoCo and held it to the real arm's limits, from datasheet joint speeds to protective stops. The firm argues that such tests are only as good as the infrastructure behind them. A simulation is not a physical robot, so how the numbers carry over to hardware is not established.",
+    "Artificial Analysis launched a separate robot-arm benchmark the same evening, in which OpenAI's GPT models also lead. Both sets of results are the testers' own, and neither has been reproduced by an outside group. Vals's thread includes an animated clip of the simulated robots at work."
+   ],
+   "entities": [
+    "Vals AI",
+    "GPT-6.1 Sol",
+    "MuJoCo"
+   ],
+   "sources": [
+    {
+     "author": "Vals AI",
+     "url": "https://x.com/ValsAI/status/2110504836521496812"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ValsAI/status/2110504836521496812",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "cb0c59de3",
+   "section": "business",
+   "headline": "Anthropic tells investors third-quarter revenue reached $16.8 billion",
+   "standfirst": "Bloomberg reports the figure, up from about $11.6 billion in the second quarter, went to prospective investors as the company pushes ahead with plans to go public.",
+   "body": [
+    "Anthropic told prospective investors that its revenue in the third quarter reached $16.8 billion, Bloomberg reported on Wednesday, citing people familiar with the matter. Bloomberg said the artificial intelligence company is pushing ahead with plans to go public. Anthropic has not published the figure itself, and this paper has not seen the investor materials.",
+    "Andrew Curran, who covers AI companies on X, posted numbers after what he described as a meeting that had just ended, saying people who attended had begun to report them. He wrote that third-quarter revenue rose 45% to $16.8 billion, from $11.6 billion in the second quarter and $4.7 billion in the first. His account is secondhand and names no source.",
+    "The arithmetic fits, since $16.8 billion is about 45% above $11.6 billion. A summary of a Financial Times report gives the second quarter as $11.5 billion and says Anthropic also told investors it was profitable on an adjusted basis in the third quarter. The Financial Times article could not be opened here, so the profit detail is unconfirmed.",
+    "Bloomberg reported earlier that preliminary second-quarter revenue was above $11.5 billion. Some social posts also quote a valuation near $965 billion and a November listing. No source this paper opened confirms a valuation, and one summary of Financial Times reporting says senior executives have not set a target. Another summary of a Wall Street Journal report says the listing slipped from October to November.",
+    "Those listing details could change, and Anthropic has not commented in anything seen here. What is reported so far is a set of figures given to investors, relayed by one news outlet and one commentator, with a second outlet's account in summary. The company's own filings, if it files publicly, would be the first place to check the numbers."
+   ],
+   "entities": [
+    "Anthropic",
+    "Bloomberg"
+   ],
+   "sources": [
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo"
+    },
+    {
+     "author": "Andrew Curran",
+     "url": "https://x.com/AndrewCurran_/status/2110498968082043327"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AndrewCurran_/status/2110498968082043327",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "cac584057",
+   "section": "chips",
+   "headline": "Nvidia says tuning lifted a chip-design agent's score from 55% to 95%",
+   "standfirst": "In a case study with Siemens' Fuse EDA agent, Nvidia says better skills and tool descriptions cut agent turns by two thirds, using Claude Opus 4.8 in Claude Code.",
+   "body": [
+    "Nvidia published a developer blog post on Wednesday describing how it used NeMo Gym, its open library for evaluating and improving models and agents with environments, on an agent that automates standard-cell characterization in chip design. That step generates the timing, power and noise models for logic cells. The post is Nvidia's own account of its own tool.",
+    "The agent is Siemens' Fuse EDA AI Agent, which drives tools from the Solido Characterization Suite through MCP servers and skills and produces Liberty files. Nvidia's verifier rewards the output through five checks: coverage, validity, relative validation, accuracy and integrity. If any gate fails, the reward is zero, and accuracy is the fraction of values within tolerance.",
+    "The test used the open-source GF180MCU process design kit, with 229 standard cells across 36 process, voltage and temperature corners. Tuning runs covered two cells across all 36 corners. Nvidia says it ran about 25 rollouts, each taking roughly 1.5 to 2 hours. The model and harness stayed fixed throughout: Claude Opus 4.8, running in Claude Code.",
+    "Nvidia reports that the composite benchmark score rose from about 55% to about 95%. Average agent turns fell from 155 to 53, and average output tokens fell from about 81,000 to about 29,000, roughly 64% fewer. The authors credit refined characterization skills and tool descriptions, simpler overlapping file and shell interfaces, and tool inputs defined with explicit JSON schemas.",
+    "The authors say the approach of grading final artifacts, building domain-specific verifiers and running many rollouts could apply to other engineering agents, including those in electronic design automation and computer-aided engineering. That is a claim for the method, tested here on one task with one model. No independent group has repeated the numbers, and the benchmark is built and graded by Nvidia."
+   ],
+   "entities": [
+    "Nvidia",
+    "Siemens",
+    "NeMo Gym"
+   ],
+   "sources": [
+    {
+     "author": "NVIDIA Developer",
+     "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-vllm-adaptive-verification",
+   "section": "ai",
+   "headline": "vLLM adaptive verification now works with draft models lacking a confidence head",
+   "standfirst": "A new estimator learns acceptance odds while serving, so EAGLE, MTP and DFlash checkpoints can use the feature with no retraining, the vLLM team says.",
+   "body": [
+    "The vLLM project said on Wednesday that adaptive verification, a speculative-decoding feature that needed a drafter with a trained confidence head, now works with the draft models people already serve. According to the team's announcement and blog post, it is on the main branch behind a flag. The team lists MTP, EAGLE, DFlash and DSpark checkpoints without a head.",
+    "In speculative decoding a small draft model proposes tokens and the target model checks them. The blog says adaptive verification trims draft tokens with low predicted acceptance before the target's forward pass, which saves compute, and helps most at large batch sizes where the GPU is compute-bound. Until now it worked only with DSpark drafters, which ship with a trained head.",
+    "The fix is an online-fitted estimator, a logistic regression over the log-odds of the drafter's top token, with one shared slope and one intercept per draft position. It refits during serving from the target model's accept and reject decisions. The team says the top-token probability ranks drafts about as well as a trained head but overestimates acceptance, and the fit corrects that.",
+    "On DeepSeek-V4-Flash with DSpark, the post reports the estimator scored an AUC of 0.8336 against 0.8191 for the trained head, with a worse calibration error of 0.0100 against 0.0052. For MiMo-V2.5-Pro-FP4 with DFlash, it says adaptive verification stays on the throughput-interactivity frontier at five of seven concurrency levels. Most throughput gains appear in charts rather than stated numbers.",
+    "To use it, set enable_adaptive_verification to true in the speculative config, with probabilistic draft sampling. It needs an attention backend that supports variable-length verification, and the blog says MTP and EAGLE gain less than DFlash and DSpark. Giancarlo Delfin of Inferact built it, as PR 52228. The benchmarks are the project's own and have not been independently run."
+   ],
+   "entities": [
+    "vLLM",
+    "Inferact"
+   ],
+   "sources": [
+    {
+     "author": "vLLM",
+     "url": "https://vllm.ai/blog/2026-10-14-adaptive-verification-online-estimator"
+    },
+    {
+     "author": "vLLM",
+     "url": "https://x.com/vllm_project/status/2110490023128920264"
+    }
+   ],
+   "placement": "front"
+  }
+ ]
+}
