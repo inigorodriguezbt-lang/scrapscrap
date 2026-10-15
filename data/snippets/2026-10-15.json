@@ -243,6 +243,56 @@
    "published_at": "2026-10-15T05:34:07+00:00",
    "embed": "https://x.com/nvidia/status/2110600083892785270",
    "id": "nvidia-said-nordic-companies-are-building"
+  },
+  {
+   "text": "International Cyber Digest says Cisco is warning that attackers are exploiting a zero-day, CVE-2026-76519, in its Secure Email Gateway that lets an unauthenticated sender run commands as root through a crafted attachment.",
+   "why": "It is the second Cisco gateway zero-day patched this month, so email security teams have another urgent fix to check.",
+   "source": {
+    "name": "International Cyber Digest",
+    "url": "https://x.com/IntCyberDigest/status/2110617920254419214"
+   },
+   "published_at": "2026-10-15T06:25:00+00:00",
+   "id": "international-cyber-digest-says-cisco-is"
+  },
+  {
+   "text": "International Cyber Digest says Palo Alto Networks reports attackers exploiting CVE-2026-0322, a flaw that lets a logged-in user run code as root through the PAN-OS management interface; Palo Alto calls exploitation limited.",
+   "why": "Patches exist, and the flaw needs a login, so restricting access to the management interface limits exposure until firewalls are updated.",
+   "source": {
+    "name": "International Cyber Digest",
+    "url": "https://x.com/IntCyberDigest/status/2110630503028347264"
+   },
+   "published_at": "2026-10-15T07:15:00+00:00",
+   "id": "international-cyber-digest-says-palo-alto"
+  },
+  {
+   "text": "TestingCatalog's daily brief reports that Claude Code Desktop gained a sessions hub for starting and tracking several sessions on one screen, and that Anthropic's Messages API and SDK now support OpenTelemetry traces.",
+   "why": "Tracing support lets teams feed agent runs into the monitoring tools they already use, which matters once agents run unattended.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2110613310403936714"
+   },
+   "published_at": "2026-10-15T06:06:41+00:00",
+   "id": "testingcatalog-s-daily-brief-reports-that"
+  },
+  {
+   "text": "Ollama posted that LFM2.5 at 24 billion parameters can now be run locally with the command ollama run lfm2.5:24b.",
+   "why": "It adds another mid-sized open model to the one-line local installs that many hobbyists and developers use.",
+   "source": {
+    "name": "Ollama",
+    "url": "https://x.com/ollama/status/2110618663934124100"
+   },
+   "published_at": "2026-10-15T06:27:57+00:00",
+   "id": "ollama-posted-that-lfm2-5-at"
+  },
+  {
+   "text": "AlphaXiv highlighted a paper, HybridAgent, that switches from latent reasoning to text only when calling tools, and says it beats matched baselines by 10.4% while using 35 to 55% fewer generation steps.",
+   "why": "If the authors' numbers hold, it would let reasoning models keep fast hidden-state thinking without giving up tool use.",
+   "source": {
+    "name": "alphaXiv",
+    "url": "https://x.com/askalphaxiv/status/2110615940694208997"
+   },
+   "published_at": "2026-10-15T06:17:08+00:00",
+   "id": "alphaxiv-highlighted-a-paper-hybridagent-that"
   }
  ]
 }
