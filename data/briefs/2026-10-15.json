@@ -1,204 +1,31 @@
 {
-  "generated_at": "2026-10-15T20:03:22.032768+00:00",
+  "generated_at": "2026-10-15T22:05:15.985082+00:00",
   "edition_date": "2026-10-15",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 122,
-  "clusters_found": 82,
+  "posts_considered": 119,
+  "clusters_found": 83,
   "stories_declared": 12,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cfffcb08b",
-      "score": 17.247,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta",
-        "Nvidia",
-        "Apple",
-        "Amazon",
-        "AMD"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "AWS ML",
-        "Engadget",
-        "Hugging Face",
-        "NVIDIA Developer",
-        "The Decoder",
-        "The Verge AI",
-        "vllm_project"
-      ],
-      "source_count": 8,
-      "first_seen": "2026-10-15T00:00:00+00:00",
-      "last_seen": "2026-10-15T18:34:32+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-        "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-        "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
-        "https://huggingface.co/blog/meta-muse-spark-open",
-        "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-        "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
-        "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-        "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-        "https://x.com/vllm_project/status/2110796242427228585"
-      ],
-      "posts": [
-        {
-          "author": "Hugging Face",
-          "tier": "primary",
-          "text": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-          "url": "https://huggingface.co/blog/meta-muse-spark-open",
-          "created_at": "2026-10-15T00:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Friends don&#8217;t let friends feed their data to AI agents. There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
-          "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-          "created_at": "2026-10-15T16:21:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
-          "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-          "created_at": "2026-10-15T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it. Muse Spark Open is &#34;the most capable US open-weight model to date,&#34; the company says.",
-          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
-          "created_at": "2026-10-15T17:02:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-          "created_at": "2026-10-15T17:43:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72. Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on...",
-          "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
-          "created_at": "2026-10-15T18:00:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "vllm_project",
-          "tier": "commentary",
-          "text": "Day-0 support for Meta's open-weight Muse Spark Open is live on vLLM, verified on NVIDIA and AMD GPUs as well as on TPUs! 816B parameters, 42B active per token, a 1M-token image, video and audio inputs, built for long-horizon agentic coding. 1M context; native image, video, audio & document understanding; BF16, NVFP4 & MXFP4 support; DSpark speculative decoding on both CUDA and ROCm",
-          "url": "https://x.com/vllm_project/status/2110796242427228585",
-          "created_at": "2026-10-15T18:13:35+00:00",
-          "engagement": 66
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta and Apple team up to make Muse AI models run better on Macs. Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, [&#8230;]",
-          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-          "created_at": "2026-10-15T18:15:36+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race. Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The article Muse Spark Open is Meta&#039;s answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder .",
-          "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-          "created_at": "2026-10-15T18:34:32+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c887c8d11",
-      "score": 15.799,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia",
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "Apple ML",
-        "NVIDIA Developer",
-        "arena",
-        "perplexity_ai"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-15T00:00:00+00:00",
-      "last_seen": "2026-10-15T19:32:05+00:00",
-      "links": [
-        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-        "https://machinelearning.apple.com/research/selection-structured-reasoning",
-        "https://x.com/arena/status/2110815995950731340",
-        "https://x.com/perplexity_ai/status/2110793639727358422"
-      ],
-      "posts": [
-        {
-          "author": "Apple ML",
-          "tier": "primary",
-          "text": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents. Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of open-ended generation. SSR represents recurring high-level reasoning as pre-specified, reusable natural-language candidates. At each turn, the model selects from the reasoning candidates based on their",
-          "url": "https://machinelearning.apple.com/research/selection-structured-reasoning",
-          "created_at": "2026-10-15T00:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
-          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-          "created_at": "2026-10-15T18:01:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "perplexity_ai",
-          "tier": "commentary",
-          "text": "NVIDIA's Nemotron 3.5 Super VL is now available in Perplexity for Pro and Max subscribers, and in Agent API.",
-          "url": "https://x.com/perplexity_ai/status/2110793639727358422",
-          "created_at": "2026-10-15T18:03:15+00:00",
-          "engagement": 117,
-          "video": true
-        },
-        {
-          "author": "arena",
-          "tier": "commentary",
-          "text": "New leader in the Agent Arena among open models. MiMo V2.6 Pro by @XiaomiMiMo has landed the #1 spot with +3.8% net improvement. Top 5 open: MiMo V2.6 Pro, Deepseek V4.1 Flash (Max), Hy4 preview, MiMo V2.6 Flash, GLM 5.2 (Max). MiMo V2.6 Pro ($0.11 cost per task) and Flash ($0.05 cost per task) are the only two open models on the Agent Arena Pareto frontier.",
-          "url": "https://x.com/arena/status/2110815995950731340",
-          "created_at": "2026-10-15T19:32:05+00:00",
-          "engagement": 50
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb4f86e6e",
-      "score": 15.045,
+      "cluster_id": "c5c55da45",
+      "score": 14.487,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
       "entities": [],
       "independent_sources": [
-        "ComfyUI",
         "Hugging Face",
-        "The Decoder"
+        "The Decoder",
+        "testingcatalog"
       ],
       "source_count": 3,
       "first_seen": "2026-10-15T00:00:00+00:00",
-      "last_seen": "2026-10-15T17:59:11+00:00",
+      "last_seen": "2026-10-15T20:20:24+00:00",
       "links": [
         "https://huggingface.co/blog/flux-3",
         "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
-        "https://x.com/ComfyUI/status/2110792619454533820"
+        "https://x.com/testingcatalog/status/2110828155594559966"
       ],
       "posts": [
         {
@@ -218,60 +45,149 @@
           "engagement": 0
         },
         {
-          "author": "ComfyUI",
+          "author": "testingcatalog",
           "tier": "commentary",
-          "text": "FLUX 3 Image Klein by @bfl_ai is now natively supported in ComfyUI. 5.6B parameters, with open weights for both the base and distilled versions. Native 4K generation, bounding boxes for layout control, multi-reference generation, pixel perfect editing, text rendering and editing",
-          "url": "https://x.com/ComfyUI/status/2110792619454533820",
-          "created_at": "2026-10-15T17:59:11+00:00",
-          "engagement": 157,
+          "text": "Black Forest Labs launched FLUX 3 Image Klein, its new open-weight image model: 5.6B parameters, runs on a single consumer GPU. Native 4K, bounding boxes, pixel-perfect editing. FP8, NVFP4, INT8 quantized versions.",
+          "url": "https://x.com/testingcatalog/status/2110828155594559966",
+          "created_at": "2026-10-15T20:20:24+00:00",
+          "engagement": 56,
           "video": true
         }
       ]
     },
     {
-      "cluster_id": "cc63326e9",
-      "score": 13.221,
+      "cluster_id": "ca85897e0",
+      "score": 13.879,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI"
+        "Meta",
+        "Apple",
+        "Amazon"
       ],
       "independent_sources": [
-        "OpenAI",
-        "testingcatalog"
+        "9to5Mac",
+        "AWS ML",
+        "Apple ML",
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T18:19:54+00:00",
-      "last_seen": "2026-10-15T18:34:36+00:00",
+      "source_count": 6,
+      "first_seen": "2026-10-15T00:00:00+00:00",
+      "last_seen": "2026-10-15T20:04:53+00:00",
       "links": [
-        "https://x.com/OpenAI/status/2110797830361436604",
-        "https://x.com/testingcatalog/status/2110801529896665188"
+        "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+        "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+        "https://machinelearning.apple.com/research/mlx-distributed-inference",
+        "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+        "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+        "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
       ],
       "posts": [
         {
-          "author": "OpenAI",
-          "tier": "commentary",
-          "text": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.",
-          "url": "https://x.com/OpenAI/status/2110797830361436604",
-          "created_at": "2026-10-15T18:19:54+00:00",
-          "engagement": 5349,
-          "video": true
+          "author": "Apple ML",
+          "tier": "primary",
+          "text": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
+          "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+          "created_at": "2026-10-15T00:00:00+00:00",
+          "engagement": 0
         },
         {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "BREAKING: OpenAI shipped an upgrade to its Voice Mode on ChatGPT, Codex and dots! A new model, GPT-Live-1.1, comes with support of new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. API support is coming soon",
-          "url": "https://x.com/testingcatalog/status/2110801529896665188",
-          "created_at": "2026-10-15T18:34:36+00:00",
-          "engagement": 193,
-          "video": true
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
+          "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+          "created_at": "2026-10-15T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+          "created_at": "2026-10-15T17:43:35+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Meta and Apple team up to make Muse AI models run better on Macs. Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, [&#8230;]",
+          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+          "created_at": "2026-10-15T18:15:36+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race. Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The article Muse Spark Open is Meta&#039;s answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder .",
+          "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+          "created_at": "2026-10-15T18:34:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Meta launches an open-weight AI model that runs on Macs. Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+          "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+          "created_at": "2026-10-15T20:04:53+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c188c7054",
+      "score": 11.587,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "NVIDIA",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-15T15:00:24+00:00",
+      "last_seen": "2026-10-15T21:00:02+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+        "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "created_at": "2026-10-15T15:00:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
+          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+          "created_at": "2026-10-15T16:09:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nscale’s $35 Billion IPO Plans Muddied by AI Data Center Delays. One flagship AI data center in Norway is six months behind schedule, with workers set to be housed in a floating hotel to get it over the finish line.",
+          "url": "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays",
+          "created_at": "2026-10-15T21:00:02+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c96264637",
-      "score": 10.844,
+      "score": 10.505,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -320,8 +236,87 @@
       ]
     },
     {
+      "cluster_id": "c16427420",
+      "score": 9.939,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta",
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Hugging Face",
+        "NVIDIA Developer"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T00:00:00+00:00",
+      "last_seen": "2026-10-15T18:00:01+00:00",
+      "links": [
+        "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+        "https://huggingface.co/blog/meta-muse-spark-open"
+      ],
+      "posts": [
+        {
+          "author": "Hugging Face",
+          "tier": "primary",
+          "text": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+          "url": "https://huggingface.co/blog/meta-muse-spark-open",
+          "created_at": "2026-10-15T00:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72. Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on...",
+          "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+          "created_at": "2026-10-15T18:00:01+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cbf43807c",
+      "score": 9.776,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Apple ML",
+        "NVIDIA Developer"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T00:00:00+00:00",
+      "last_seen": "2026-10-15T18:01:00+00:00",
+      "links": [
+        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+        "https://machinelearning.apple.com/research/selection-structured-reasoning"
+      ],
+      "posts": [
+        {
+          "author": "Apple ML",
+          "tier": "primary",
+          "text": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents. Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of open-ended generation. SSR represents recurring high-level reasoning as pre-specified, reusable natural-language candidates. At each turn, the model selects from the reasoning candidates based on their",
+          "url": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+          "created_at": "2026-10-15T00:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "created_at": "2026-10-15T18:01:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c3e391392",
-      "score": 9.976,
+      "score": 9.637,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -379,47 +374,8 @@
       ]
     },
     {
-      "cluster_id": "c27d81595",
-      "score": 9.971,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T15:00:24+00:00",
-      "last_seen": "2026-10-15T16:09:44+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "created_at": "2026-10-15T15:00:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-          "created_at": "2026-10-15T16:09:44+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c2972c57a",
-      "score": 9.227,
+      "score": 8.889,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -468,7 +424,7 @@
     },
     {
       "cluster_id": "c4819592f",
-      "score": 8.938,
+      "score": 8.599,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -516,7 +472,7 @@
     },
     {
       "cluster_id": "ce3c36d44",
-      "score": 7.385,
+      "score": 7.046,
       "interest": "want",
       "single_source": true,
       "suggested_section": "models",
@@ -543,7 +499,7 @@
     },
     {
       "cluster_id": "cd9c093c6",
-      "score": 7.172,
+      "score": 6.834,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "policy",
@@ -590,40 +546,80 @@
       ]
     },
     {
-      "cluster_id": "cd1faa5b5",
-      "score": 4.753,
-      "interest": "neutral",
+      "cluster_id": "cfd39bff0",
+      "score": 4.866,
+      "interest": "dull",
       "single_source": false,
-      "suggested_section": "business",
+      "suggested_section": "products",
       "entities": [
-        "Anthropic"
+        "OpenAI",
+        "Google",
+        "Meta",
+        "Apple"
       ],
       "independent_sources": [
-        "The Decoder",
-        "The Verge AI"
+        "9to5Mac",
+        "The Verge AI",
+        "Wired AI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T22:53:31+00:00",
-      "last_seen": "2026-10-15T09:50:43+00:00",
+      "source_count": 3,
+      "first_seen": "2026-10-14T23:12:59+00:00",
+      "last_seen": "2026-10-15T21:39:52+00:00",
       "links": [
-        "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+        "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
+        "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
+        "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
+        "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/"
       ],
       "posts": [
         {
-          "author": "The Verge AI",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "McKinsey is making job applicants spar with a fake AI client. Consulting firm McKinsey &#38; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the [&#8230;]",
-          "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-          "created_at": "2026-10-14T22:53:31+00:00",
+          "text": "OpenAI agrees not to use alleged Apple trade secrets amid ongoing lawsuit. Bloomberg reports that during a hearing today, OpenAI voluntarily agreed not to use Apple’s alleged trade secrets while the legal battle between the two companies plays out. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
+          "created_at": "2026-10-14T23:12:59+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO. Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic&#039;s Q3 revenue hits $16.8B but growth slows ahead of planned November IPO appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-          "created_at": "2026-10-15T09:50:43+00:00",
+          "text": "Apple SVP Greg Joswiak: ‘We don’t feel threatened’ by OpenAI hardware plans. Today in a new story at TIME , the publication interviewed CEO John Ternus but also spoke to Greg “Joz” Joswiak, Apple’s SVP of Worldwide Marketing, who addressed the “lunatic fringe” of AI in Silicon Valley, hardware threats from OpenAI, and more. more…",
+          "url": "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
+          "created_at": "2026-10-15T15:05:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Here’s Apple’s official response to OpenAI’s trade secret theft allegations. Apple has responded to OpenAI’s allegations that one of its former employees who departed for Apple took confidential files along with him. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+          "created_at": "2026-10-15T19:57:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView. This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+          "created_at": "2026-10-15T21:18:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "9to5Mac Daily: October 15, 2026 – OpenAI vs Apple, iPhone Duo details. Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
+          "url": "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
+          "created_at": "2026-10-15T21:25:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "The tech backlash is now in theaters. Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+          "created_at": "2026-10-15T21:39:52+00:00",
           "engagement": 0
         }
       ]
