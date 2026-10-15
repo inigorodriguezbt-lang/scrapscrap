@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-15T02:03:15.336879+00:00",
+  "generated_at": "2026-10-15T04:02:58.219801+00:00",
   "edition_date": "2026-10-15",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 140,
-  "clusters_found": 114,
-  "stories_declared": 9,
+  "posts_considered": 142,
+  "clusters_found": 115,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ccf5e55aa",
-      "score": 8.984,
+      "cluster_id": "cce2be37b",
+      "score": 13.123,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -19,17 +19,19 @@
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "The Decoder"
+        "The Decoder",
+        "kimmonismus"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-14T14:24:34+00:00",
-      "last_seen": "2026-10-15T00:38:40+00:00",
+      "last_seen": "2026-10-15T02:35:49+00:00",
       "links": [
         "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
         "https://www.bloomberg.com/news/articles/2026-10-14/coreweave-s-ceo-blames-rout-on-market-acting-irrationally",
         "https://www.bloomberg.com/news/articles/2026-10-14/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
         "https://www.bloomberg.com/news/videos/2026-10-14/nvidia-anthropic-weigh-in-on-ai-safeguards-video",
-        "https://www.bloomberg.com/news/videos/2026-10-15/coreweave-shares-plunge-as-ceo-expresses-confidence-video"
+        "https://www.bloomberg.com/news/videos/2026-10-15/coreweave-shares-plunge-as-ceo-expresses-confidence-video",
+        "https://x.com/kimmonismus/status/2110560244661211563"
       ],
       "posts": [
         {
@@ -71,71 +73,68 @@
           "url": "https://www.bloomberg.com/news/videos/2026-10-15/coreweave-shares-plunge-as-ceo-expresses-confidence-video",
           "created_at": "2026-10-15T00:38:40+00:00",
           "engagement": 0
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Best news Anthropic could ask for: Bloomberg reports Anthropic generated $16.8 billion in Q3 revenue, achieved adjusted profitability and positive free cash flow, and everything just before their IPO before Thanksgiving.\n\nNow all that's left is Fable 5.5 https://t.co/Mqd1H5OLP8",
+          "url": "https://x.com/kimmonismus/status/2110560244661211563",
+          "created_at": "2026-10-15T02:35:49+00:00",
+          "engagement": 219
         }
       ]
     },
     {
-      "cluster_id": "cbb14925d",
-      "score": 8.603,
+      "cluster_id": "cd693f57c",
+      "score": 12.391,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Alibaba",
-        "Apple"
-      ],
+      "suggested_section": "ai",
+      "entities": [],
       "independent_sources": [
-        "9to5Mac",
-        "Bloomberg Tech",
-        "Engadget"
+        "ArtificialAnlys",
+        "Simon Willison",
+        "The Decoder"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-14T14:59:39+00:00",
-      "last_seen": "2026-10-14T20:50:55+00:00",
+      "first_seen": "2026-10-14T13:24:22+00:00",
+      "last_seen": "2026-10-15T03:14:58+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
-        "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
-        "https://www.bloomberg.com/news/videos/2026-10-14/apple-to-release-ai-platform-in-mainland-china-video",
-        "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
+        "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+        "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+        "https://x.com/ArtificialAnlys/status/2110570099602280475"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "Apple reportedly gearing up for strong iPhone 18 sales. While the iPhone 18 Pro is out, the entry-level model has been held back until early next year. That’s likely because the company wanted to maximize early production capacity and memory availability for the Pro model, alongside the iPhone Duo . But even this far ahead, one leaker has suggested that supply-chain orders indicate Apple is optimistic about demand for the base model … more…",
-          "url": "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
-          "created_at": "2026-10-14T14:59:39+00:00",
+          "text": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap. Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+          "created_at": "2026-10-14T13:24:22+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch. Apple's integrated AI system is still yet to be rolled out in mainland China, despite launching nearly two years ago.",
-          "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/",
-          "created_at": "2026-10-14T15:36:33+00:00",
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "Tree Appreciator. Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minute",
+          "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+          "created_at": "2026-10-14T21:23:01+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple Intelligence reportedly coming to China in December, but without Siri AI. Bloomberg reports that Apple plans to finally launch Apple Intelligence in China in December, although some important features could still be missing. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
-          "created_at": "2026-10-14T20:20:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Apple to Release AI Platform in Mainland China. Apple is planning to launch Apple Intelligence in mainland China in December. This is a huge market for the company. Bloomberg's Mark Gurman broke the news and has more on \"Bloomberg The Close.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/apple-to-release-ai-platform-in-mainland-china-video",
-          "created_at": "2026-10-14T20:50:55+00:00",
-          "engagement": 0
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "We asked AI models to build the Eiffel Tower in 3D, offline. Two of them added all 72 scientists' names to it, in order, from memory\n\nWe did not expect this. Every AA-3D model got the same brief of about 200 words, on the tower's shape, lattice, platforms and lighting. It never mentions the names.\n\nGustave Eiffel put the names of 72 French scientists, engineers, and mathematicians under the tower's first platform, 18 on each side. Claude Opus 5.5 and Grok 4.7 wrote all 72, with each side in the real order.\n\nClaude Opus 5.5 also put each set on the side that faces the same way in Paris.",
+          "url": "https://x.com/ArtificialAnlys/status/2110570099602280475",
+          "created_at": "2026-10-15T03:14:58+00:00",
+          "engagement": 85,
+          "video": true
         }
       ]
     },
     {
       "cluster_id": "c9659dea5",
-      "score": 8.383,
+      "score": 8.051,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -181,45 +180,8 @@
       ]
     },
     {
-      "cluster_id": "cb1dc4e1e",
-      "score": 8.341,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [],
-      "independent_sources": [
-        "Simon Willison",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T13:24:22+00:00",
-      "last_seen": "2026-10-14T21:23:01+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-        "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap. Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
-          "created_at": "2026-10-14T13:24:22+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Tree Appreciator. Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minute",
-          "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-          "created_at": "2026-10-14T21:23:01+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c1a1dd72e",
-      "score": 7.848,
+      "score": 7.516,
       "interest": "want",
       "single_source": false,
       "suggested_section": "policy",
@@ -258,7 +220,7 @@
     },
     {
       "cluster_id": "ca0e0fec2",
-      "score": 7.485,
+      "score": 7.327,
       "interest": "want",
       "single_source": true,
       "suggested_section": "ai",
@@ -286,58 +248,8 @@
       ]
     },
     {
-      "cluster_id": "c30ce6cf7",
-      "score": 7.328,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia",
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "Tom's Hardware",
-        "arXiv"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-14T08:59:35+00:00",
-      "last_seen": "2026-10-14T11:15:00+00:00",
-      "links": [
-        "https://arxiv.org/abs/2610.19822v1",
-        "https://www.tomshardware.com/pc-components/gpus/nvidia-gpu-prices-spike-in-japan-prices-up-to-41-percent-higher-than-amazon-us-rtx-5060-ti-sees-the-biggest-increase-among-the-rtx-50-series-stack",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-researchers-turn-idle-macs-into-a-virtual-gpu-cloud-with-minions-researchers-say-the-distributed-scheme-could-scale-globally-and-support-model-training"
-      ],
-      "posts": [
-        {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "JointServe: Serving Multi-Model Agents on Memory-Constrained GPUs. LLM agents are evolving from a single model calling tools to planners that orchestrate multiple expert models whose capabilities live in distinct weights. This shift breaks a hidden assumption of today's serving systems: that the working set of models fits in GPU memory. On the memory-constrained GPUs typical of private and edge deployments, naive whole-model swapping serializes weight transfer with computation and, without host-backed KV restoration, discards session state at a switch. We present JointServe, a serving system that treats weight shards and KV blocks as residency objects competi",
-          "url": "https://arxiv.org/abs/2610.19822v1",
-          "created_at": "2026-10-14T08:59:35+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Nvidia GPU prices spike in Japan; prices up to 41% higher than Amazon US. A Japanese retailer has increased the prices of RTX 50-series GPUs between 12.71% and 41.10%, with the mainstream models bearing the brunt of the price increases.",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-gpu-prices-spike-in-japan-prices-up-to-41-percent-higher-than-amazon-us-rtx-5060-ti-sees-the-biggest-increase-among-the-rtx-50-series-stack",
-          "created_at": "2026-10-14T10:25:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Apple researchers turn idle Macs into a virtual GPU cloud with ‘Minions’. Apple researchers describe Minions, an internal system that runs AI inference jobs on idle Apple Silicon Macs when GPUs are scarce.",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-researchers-turn-idle-macs-into-a-virtual-gpu-cloud-with-minions-researchers-say-the-distributed-scheme-could-scale-globally-and-support-model-training",
-          "created_at": "2026-10-14T11:15:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cda3dba6c",
-      "score": 4.908,
+      "score": 4.576,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -373,9 +285,9 @@
       ]
     },
     {
-      "cluster_id": "c383ee815",
-      "score": 3.817,
-      "interest": "dull",
+      "cluster_id": "c024df330",
+      "score": 4.238,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
@@ -384,14 +296,59 @@
       ],
       "independent_sources": [
         "9to5Mac",
-        "Bloomberg Tech"
+        "The Verge AI"
       ],
       "source_count": 2,
+      "first_seen": "2026-10-14T16:09:19+00:00",
+      "last_seen": "2026-10-14T16:43:24+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+        "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "OpenAI alleges ex-employee took ‘highly confidential’ device files to Apple. In a new filing today, OpenAI claims that a former employee who departed for Apple sent “over a hundred highly confidential files about at least one unreleased OpenAI device under development to his personal accounts.” Apple, however, told Reuters that it hasn’t found any evidence to support these allegations. more…",
+          "url": "https://9to5mac.com/2026/10/14/openai-alleges-ex-employee-took-highly-confidential-device-files-to-apple/",
+          "created_at": "2026-10-14T16:09:19+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "OpenAI claims an ex-employee took its product plans and presented them to Apple. OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president of the company's operations in Asia. The [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+          "created_at": "2026-10-14T16:43:24+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ccc8304d7",
+      "score": 4.103,
+      "interest": "dull",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Alibaba",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Bloomberg Tech",
+        "Engadget"
+      ],
+      "source_count": 3,
       "first_seen": "2026-10-14T10:30:00+00:00",
       "last_seen": "2026-10-14T23:12:59+00:00",
       "links": [
+        "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
+        "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
         "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
-        "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight"
+        "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+        "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
       ],
       "posts": [
         {
@@ -400,6 +357,30 @@
           "text": "OpenAI Vows Not to Use Trade Secrets Allegedly Taken From Apple. OpenAI agreed not to use trade secrets that Apple Inc. claims were stolen by employees who defected from the iPhone maker to the artificial intelligence startup while a legal fight between the companies plays out.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
           "created_at": "2026-10-14T10:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple reportedly gearing up for strong iPhone 18 sales. While the iPhone 18 Pro is out, the entry-level model has been held back until early next year. That’s likely because the company wanted to maximize early production capacity and memory availability for the Pro model, alongside the iPhone Duo . But even this far ahead, one leaker has suggested that supply-chain orders indicate Apple is optimistic about demand for the base model … more…",
+          "url": "https://9to5mac.com/2026/10/14/apple-reportedly-gearing-up-for-strong-iphone-18-sales/",
+          "created_at": "2026-10-14T14:59:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch. Apple's integrated AI system is still yet to be rolled out in mainland China, despite launching nearly two years ago.",
+          "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/",
+          "created_at": "2026-10-14T15:36:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple Intelligence reportedly coming to China in December, but without Siri AI. Bloomberg reports that Apple plans to finally launch Apple Intelligence in China in December, although some important features could still be missing. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/14/apple-intelligence-reportedly-coming-to-china-in-december-but-without-siri-ai/",
+          "created_at": "2026-10-14T20:20:14+00:00",
           "engagement": 0
         },
         {
