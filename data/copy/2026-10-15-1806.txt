@@ -1,0 +1,78 @@
+The AI Post: 5 new stories, 8 snippets
+2026-10-15 18:06 UTC
+
+------------------------------------------------------------
+STORIES
+------------------------------------------------------------
+
+Meta releases Muse Spark Open, an 816B model it calls America's best open one
+
+Meta says Muse Spark Open, an 816-billion-parameter mixture-of-experts model with a 1M-token context, is the most capable US open-weight model to date, and the weights are on Hugging Face today.
+
+https://x.com/alexandr_wang/status/2110780784051474666
+
+
+Perplexity open-sources SPACE, the Firecracker sandbox behind its Computer agent
+
+Perplexity has released SPACE under Apache 2.0, the microVM sandbox platform it says runs every Perplexity Computer task, and reports no escapes from the VM in 108 red-team attempts.
+
+
+Anthropic gives six METR staff employee-like access and no veto
+
+Anthropic says a six-person METR team now has the access of its internal risk reviewers, and that it cannot block METR's findings, only redact narrow categories.
+
+
+Accenture caps Claude funding at $29 a month per employee, 404 Media says
+
+A memo seen by 404 Media says Accenture will fund only $29 of Claude use per person a month, though some staff had been spending up to $1,000.
+
+
+Goodfire essay argues neural networks are already clean, not tangled
+
+Goodfire's Nick Cammarata says superposition was the wrong explanation: retrained image models reach about 99% interpretable neurons, and a rough Qwen3-32B audit finds about 90% have one main job.
+
+
+------------------------------------------------------------
+SNIPPETS
+------------------------------------------------------------
+
+Cognition says Devin Oncall, launched Thursday, automatically investigates alerts and bugs to help teams diagnose production incidents, and already handles thousands of alerts a day for large customers.
+
+It moves Devin from writing code to the pager, a test of whether teams will let an agent triage live outages.
+
+https://x.com/cognition/status/2110790097369010292
+
+
+Red Hat AI says FP8 plus DSpark speculative decoding on NVIDIA's Nemotron 3.5 Super VL, run with vLLM on four H100s, beats either optimization alone on HumanEval, maths reasoning and RAG, per the vLLM project.
+
+Both open checkpoints are public, so anyone with Hopper GPUs can test the combined speed-up themselves.
+
+
+Meta says custom Helion GPU kernels in SGLang speed Muse Spark Open up by 1.03 to 3.95 times at kernel level on NVIDIA and AMD chips, and 3% end to end on AMD's MI350.
+
+The end-to-end gain is small next to the kernel numbers, which shows how much of serving time sits outside the kernels.
+
+
+Hugging Face says a LoRA fine-tune of Muse Spark Open on 64 H100 GPUs took about two hours for 500 steps, lifting token accuracy from 72% to 84%.
+
+It is an early sign that the 816B model can be customised on a cluster, with its experts frozen and only attention layers trained.
+
+
+Ollama says Meta's Muse Spark Open will be available on Ollama shortly, calling it the best US open-weight model so far.
+
+Ollama is the easiest way many people run models locally, though the model's size means few will fit it on one machine.
+
+
+NVIDIA says it joined Sweden's Wallenberg Investments and Spotify's Daniel Ek to launch Sferical One, a shared AI supercomputer powered by NVIDIA chips for researchers and businesses in the Nordics.
+
+It is a regional bet on shared compute, the model Jensen Huang has been pushing across Europe this week.
+
+
+Elon Musk says the Star Mind computer, co-engineered by SpaceX and Nvidia, is far better than almost anyone expects and will reach volume production next year, giving no specifications.
+
+The claim is Musk's alone and carries no specs or pricing, so treat the timeline as a stated goal rather than a plan.
+
+
+The Information reports, via Techmeme, that Portland startup Mueon raised $65 million led by Maverick Silicon, saying its AI server racks could fit up to 10 times more computing capacity.
+
+The capacity figure is the startup's own and unverified; density is the constraint the funding is aimed at.

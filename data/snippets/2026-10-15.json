@@ -567,6 +567,87 @@
    },
    "published_at": "2026-10-15T15:09:47+00:00",
    "id": "lm-studio-says-nvidia-s-nemotron"
+  },
+  {
+   "text": "Cognition says Devin Oncall, launched Thursday, automatically investigates alerts and bugs to help teams diagnose production incidents, and already handles thousands of alerts a day for large customers.",
+   "why": "It moves Devin from writing code to the pager, a test of whether teams will let an agent triage live outages.",
+   "source": {
+    "name": "Cognition",
+    "url": "https://x.com/cognition/status/2110790097369010292"
+   },
+   "published_at": "2026-10-15T17:49:10+00:00",
+   "embed": "https://x.com/cognition/status/2110790097369010292",
+   "id": "cognition-says-devin-oncall-launched-thursday"
+  },
+  {
+   "text": "Red Hat AI says FP8 plus DSpark speculative decoding on NVIDIA's Nemotron 3.5 Super VL, run with vLLM on four H100s, beats either optimization alone on HumanEval, maths reasoning and RAG, per the vLLM project.",
+   "why": "Both open checkpoints are public, so anyone with Hopper GPUs can test the combined speed-up themselves.",
+   "source": {
+    "name": "vLLM",
+    "url": "https://x.com/vllm_project/status/2110761251865501911"
+   },
+   "published_at": "2026-10-15T15:54:33+00:00",
+   "id": "red-hat-ai-says-fp8-plus"
+  },
+  {
+   "text": "Meta says custom Helion GPU kernels in SGLang speed Muse Spark Open up by 1.03 to 3.95 times at kernel level on NVIDIA and AMD chips, and 3% end to end on AMD's MI350.",
+   "why": "The end-to-end gain is small next to the kernel numbers, which shows how much of serving time sits outside the kernels.",
+   "source": {
+    "name": "Meta AI Research",
+    "url": "https://research.meta.ai/blog/muse-spark-open"
+   },
+   "published_at": "2026-10-15T17:08:04+00:00",
+   "id": "meta-says-custom-helion-gpu-kernels"
+  },
+  {
+   "text": "Hugging Face says a LoRA fine-tune of Muse Spark Open on 64 H100 GPUs took about two hours for 500 steps, lifting token accuracy from 72% to 84%.",
+   "why": "It is an early sign that the 816B model can be customised on a cluster, with its experts frozen and only attention layers trained.",
+   "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/meta-muse-spark-open"
+   },
+   "published_at": "2026-10-15T17:15:00+00:00",
+   "id": "hugging-face-says-a-lora-fine"
+  },
+  {
+   "text": "Ollama says Meta's Muse Spark Open will be available on Ollama shortly, calling it the best US open-weight model so far.",
+   "why": "Ollama is the easiest way many people run models locally, though the model's size means few will fit it on one machine.",
+   "source": {
+    "name": "Ollama",
+    "url": "https://x.com/ollama/status/2110781259635212688"
+   },
+   "published_at": "2026-10-15T17:14:03+00:00",
+   "id": "ollama-says-meta-s-muse-spark"
+  },
+  {
+   "text": "NVIDIA says it joined Sweden's Wallenberg Investments and Spotify's Daniel Ek to launch Sferical One, a shared AI supercomputer powered by NVIDIA chips for researchers and businesses in the Nordics.",
+   "why": "It is a regional bet on shared compute, the model Jensen Huang has been pushing across Europe this week.",
+   "source": {
+    "name": "NVIDIA",
+    "url": "https://x.com/nvidia/status/2110784129658691756"
+   },
+   "published_at": "2026-10-15T17:25:27+00:00",
+   "id": "nvidia-says-it-joined-sweden-s"
+  },
+  {
+   "text": "Elon Musk says the Star Mind computer, co-engineered by SpaceX and Nvidia, is far better than almost anyone expects and will reach volume production next year, giving no specifications.",
+   "why": "The claim is Musk's alone and carries no specs or pricing, so treat the timeline as a stated goal rather than a plan.",
+   "source": {
+    "name": "Elon Musk",
+    "url": "https://x.com/elonmusk/status/2110789964430786745"
+   },
+   "published_at": "2026-10-15T17:48:38+00:00",
+   "id": "elon-musk-says-the-star-mind"
+  },
+  {
+   "text": "The Information reports, via Techmeme, that Portland startup Mueon raised $65 million led by Maverick Silicon, saying its AI server racks could fit up to 10 times more computing capacity.",
+   "why": "The capacity figure is the startup's own and unverified; density is the constraint the funding is aimed at.",
+   "source": {
+    "name": "The Information",
+    "url": "https://www.theinformation.com/"
+   },
+   "published_at": "2026-10-15T13:46:00+00:00",
+   "id": "the-information-reports-via-techmeme-that"
   }
  ]
 }
