@@ -81,6 +81,66 @@
    "published_at": "2026-10-14T23:46:15+00:00",
    "embed": "https://x.com/AIatMeta/status/2110517571149807685",
    "id": "meta-says-muse-wonder-and-muse"
+  },
+  {
+   "text": "A paper from Daijin Hu on JointServe says it cuts session completion time 21.7% against the best whole-model swapping baseline when agents juggle several expert models on small GPUs.",
+   "why": "Planner agents that call many specialist models are hard to host on edge or private hardware, and this targets that memory squeeze.",
+   "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2610.19822"
+   },
+   "published_at": "2026-10-14T08:59:35+00:00",
+   "id": "a-paper-from-daijin-hu-on"
+  },
+  {
+   "text": "Liquid AI says LFM2.5-24B-A2B scored 96.75 on IFEval, ahead of Qwen3.6-35B-A3B at 93.06, and lists a local Hermes Agent demo on an M5 Max MacBook Pro.",
+   "why": "The company pitches the small active-parameter count as what makes useful agents possible on ordinary laptops.",
+   "source": {
+    "name": "Liquid AI",
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+   },
+   "published_at": "2026-10-13T16:00:00+00:00",
+   "id": "liquid-ai-says-lfm2-5-24b"
+  },
+  {
+   "text": "The lightx2v team released Qwen-Image-2.1-Lightning, a 4-step distilled LoRA for text-to-image and editing, trained on 16 Huawei Ascend 910B NPUs, per its Hugging Face page.",
+   "why": "Four steps instead of 40 means much faster Qwen-Image generation, and the training ran on Chinese rather than Nvidia hardware.",
+   "source": {
+    "name": "lightx2v on Hugging Face",
+    "url": "https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning"
+   },
+   "published_at": "2026-10-14T00:00:00+00:00",
+   "id": "the-lightx2v-team-released-qwen-image"
+  },
+  {
+   "text": "AndrewCurran_ posted on X that you can run a Qwen 3.8-27B on a PS5, without giving a setup or speed; no write-up of the test has surfaced yet.",
+   "why": "Qwen3.8-27B normally wants 16GB or more of memory, so a console run would be a stunt worth watching for details.",
+   "source": {
+    "name": "AndrewCurran_ on X",
+    "url": "https://x.com/AndrewCurran_/status/2110541327045980447"
+   },
+   "published_at": "2026-10-15T01:40:38+00:00",
+   "id": "andrewcurran-posted-on-x-that-you"
+  },
+  {
+   "text": "A Show HN project, a free online book, walks readers through building an LLM from scratch in TypeScript; it had 32 points on Hacker News at the time of writing.",
+   "why": "It is a hands-on route for web developers to learn how transformers work without leaving JavaScript tooling.",
+   "source": {
+    "name": "Show HN: book.humanexperiences.io",
+    "url": "https://book.humanexperiences.io/"
+   },
+   "published_at": "2026-10-14T10:30:00+00:00",
+   "id": "a-show-hn-project-a-free"
+  },
+  {
+   "text": "Elon Musk posted that a Grok bot bought LEGO directly from the LEGO website when asked to find the best deal, offering no log or demo of the purchase.",
+   "why": "It is the maker's own account of an agent completing a real purchase, so treat it as an unverified claim until someone reproduces it.",
+   "source": {
+    "name": "Elon Musk on X",
+    "url": "https://x.com/elonmusk/status/2110541862389911574"
+   },
+   "published_at": "2026-10-15T01:42:46+00:00",
+   "id": "elon-musk-posted-that-a-grok"
   }
  ]
 }
