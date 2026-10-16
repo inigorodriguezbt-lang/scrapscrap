@@ -38,6 +38,78 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-organoid-braille-bristol",
+   "section": "research",
+   "headline": "Three lab-grown brain organoids read Braille at 83% accuracy",
+   "standfirst": "Bristol researchers fed Braille touch data into clusters of about 10,000 living human neurons: one organoid got 61% of letters right, three together got 83%, 404 Media reports.",
+   "body": [
+    "Clusters of human brain tissue grown in a lab identified letters of the Braille alphabet with about 83% accuracy when three of them worked together, according to 404 Media's report on a study from the University of Bristol. A single organoid managed about 61%. The lead researcher is PhD candidate Tianyi Liu.",
+    "An organoid is a small neural cluster grown from stem cells. 404 Media says each one here is under 1 millimetre across and holds roughly 10,000 neurons. A tactile sensor scanned the 26 Braille letters, and the team converted the readings into electrical stimulation patterns delivered to the tissue.",
+    "The accuracy figures match a preprint by Liu, Hemma Philamore and Benjamin Ward-Cherrier on arXiv, first posted in August 2025 and last revised on 7 September 2026. The preprint lists no journal and 404 Media says the study was published in Frontiers in Artificial Intelligence, which this paper has not been able to confirm. FinalSpark, the Swiss company whose Neuroplatform hosted the experiments, announced the result in December 2025.",
+    "Liu told 404 Media her hypothesis is that different organoids respond to the same stimulation in similar but not identical ways, so combining them improves accuracy. The exact mechanism is unknown. The preprint also reports that the multi-organoid setup held up better against several kinds of added noise.",
+    "The limits are large. The experiment was open-loop: the organoids received inputs and no feedback on how they did, so the study does not show they learned Braille or were changed by the task. Organoids cannot be standardised, and 404 Media reports Liu saying they have \"a long way to go\" in reliability and scalability against conventional chips. Earlier studies had shown organoids recognising Japanese vowels and playing Pong."
+   ],
+   "entities": [
+    "University of Bristol",
+    "Tianyi Liu",
+    "FinalSpark",
+    "404 Media"
+   ],
+   "sources": [
+    {
+     "author": "404 Media",
+     "url": "https://www.404media.co/computers-made-of-human-brain-tissue-identify-braille-letters-in-breakthrough/"
+    },
+    {
+     "author": "arXiv (Liu, Philamore, Ward-Cherrier)",
+     "url": "https://arxiv.org/abs/2508.20850"
+    },
+    {
+     "author": "FinalSpark",
+     "url": "https://finalspark.com/first-publication-from-a-neuroplatform-user/"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-taiwan-us-industrial-parks-nvidia",
+   "section": "chips",
+   "headline": "Taiwan plans US industrial parks of up to $4 billion for Nvidia suppliers",
+   "standfirst": "Economy Minister Kung Ming-hsin told Bloomberg Taiwan will fund US industrial parks, starting with a Texas site costing up to $4 billion, for the smaller firms behind Nvidia, TSMC and Foxconn.",
+   "body": [
+    "Taiwan plans to build industrial parks in the United States for the supply chain behind Nvidia and other AI hardware makers, Bloomberg reported on Friday. The first would be in Texas and could cost up to $4 billion. Bloomberg cites Economy Minister Kung Ming-hsin, interviewed on 12 October.",
+    "The parks target smaller Taiwanese suppliers that serve TSMC, Nvidia's main chip manufacturer, and server assemblers such as Foxconn. Investing.com's account of the Bloomberg report says the Taiwan Electrical and Electronic Manufacturers' Association will raise the money. The government will add loan guarantees and help suppliers with US federal and local rules.",
+    "Taiwan is under pressure to meet the investment commitments in its trade deal with Washington. It also wants to limit the risks from tension with China. The same account says TSMC has pledged $265 billion for US expansion, and Foxconn and Wistron are adding US capacity.",
+    "Key details are missing. The reports available give no schedule, no named suppliers and no total across all the parks. Secondary summaries put each park at $2 billion to $4 billion, which could not be traced to Bloomberg's text. Bloomberg's article is paywalled, and no other outlet has confirmed the figures.",
+    "Bloomberg ran a second item the same morning. Taiwan is preparing to tighten export controls on AI chips to China to align with US restrictions, it reported, citing a senior Taipei official. Only Bloomberg has reported either plan so far."
+   ],
+   "entities": [
+    "Taiwan",
+    "Nvidia",
+    "TSMC",
+    "Foxconn",
+    "Kung Ming-hsin",
+    "Bloomberg"
+   ],
+   "sources": [
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-fund-4-billion-texas-complex-for-ai-nvidia-partners"
+    },
+    {
+     "author": "Investing.com (Bloomberg report)",
+     "url": "https://www.investing.com/news/stock-market-news/taiwan-plans-4-bln-texas-park-to-support-nvidias-ai-supply-chain--bloomberg-4952979"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-opus-55-fast-mode",
    "section": "models",
    "headline": "Opus 5.5 fast mode runs up to 2.5x quicker at double the price",
@@ -237,7 +309,7 @@
     }
    ],
    "embeds": [],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }
