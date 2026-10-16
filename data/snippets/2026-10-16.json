@@ -337,6 +337,46 @@
    },
    "published_at": "2026-10-16T08:03:53+00:00",
    "id": "nvidia-says-it-is-expanding-its"
+  },
+  {
+   "text": "Mistral says Mistral Large 4 scores well in engineering and astronomy on STEMBench, a private benchmark run by Ulam, and posted a chart of the results.",
+   "why": "The benchmark is private and the chart is Mistral's own, so nobody outside Ulam can check the scores yet.",
+   "source": {
+    "name": "Mistral AI",
+    "url": "https://x.com/MistralAI/status/2111056939841163336"
+   },
+   "published_at": "2026-10-16T11:49:30+00:00",
+   "id": "mistral-says-mistral-large-4-scores"
+  },
+  {
+   "text": "Researchers from Xiamen University say GPT-5.6-Sol solves 17% of RoTA-Bench's 3D rotation tasks, while 20 human participants solved all of them, in a paper posted on Hugging Face.",
+   "why": "The task asks a model to rotate a 3D object until its silhouette matches a target, exposing a gap in spatial reasoning.",
+   "source": {
+    "name": "RoTA-Bench paper",
+    "url": "https://huggingface.co/papers/2610.17665"
+   },
+   "published_at": "2026-10-16T00:00:00+00:00",
+   "id": "researchers-from-xiamen-university-say-gpt"
+  },
+  {
+   "text": "Zhejiang University researchers say InfiniSplat v2 cuts perceptual error (LPIPS) by 25.8% against the strongest baselines when building 3D Gaussian Splatting scenes from images without per-scene optimisation.",
+   "why": "Feed-forward splatting skips slow per-scene fitting, so gains like this matter for turning phone photos into explorable 3D.",
+   "source": {
+    "name": "InfiniSplat v2 paper",
+    "url": "https://huggingface.co/papers/2610.20341"
+   },
+   "published_at": "2026-10-16T00:00:00+00:00",
+   "id": "zhejiang-university-researchers-say-infinisplat-v2"
+  },
+  {
+   "text": "Engadget reports Google's Gmail Live, a spoken search for your inbox, has left beta and is rolling out to Google AI Plus, Pro and Ultra subscribers, with Keep Live alongside it.",
+   "why": "Workspace business customers are not covered yet; Google says they are coming soon, and Docs Live needs a Pro or Ultra plan.",
+   "source": {
+    "name": "Engadget",
+    "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/"
+   },
+   "published_at": "2026-10-16T08:31:48+00:00",
+   "id": "engadget-reports-google-s-gmail-live"
   }
  ]
 }

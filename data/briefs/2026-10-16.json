@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T10:04:16.236933+00:00",
+  "generated_at": "2026-10-16T12:04:17.831370+00:00",
   "edition_date": "2026-10-16",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 138,
-  "clusters_found": 101,
+  "posts_considered": 130,
+  "clusters_found": 92,
   "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cefc44280",
-      "score": 13.451,
+      "cluster_id": "c88aaa37f",
+      "score": 17.202,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -17,57 +17,36 @@
         "Meta",
         "Nvidia",
         "Microsoft",
+        "Hugging Face",
         "Apple",
-        "Amazon",
         "AMD"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "AWS ML",
-        "Engadget",
         "NVIDIA",
         "NVIDIA Developer",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
         "Tom's Hardware",
-        "Wired AI"
+        "Wired AI",
+        "mark_k"
       ],
-      "source_count": 10,
-      "first_seen": "2026-10-15T12:00:21+00:00",
-      "last_seen": "2026-10-15T21:18:15+00:00",
+      "source_count": 8,
+      "first_seen": "2026-10-15T14:30:00+00:00",
+      "last_seen": "2026-10-16T12:00:00+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-        "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
         "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
         "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-        "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
-        "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
         "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
         "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
         "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
-        "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
-        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/"
+        "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
+        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+        "https://x.com/mark_k/status/2111046693718253585"
       ],
       "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "We tested the RTX Spark Superchip in Microsoft's Surface Laptop Ultra. We've tested Nvidia's RTX Spark against the latest and greatest from Apple and AMD to see how Nvidia's efforts to transform the PC for the agentic AI era stack up.",
-          "url": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
-          "created_at": "2026-10-15T12:00:21+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI. NVIDIA's RTX Spark is meant for AI fiends, but it could end up helping Windows PCs in general",
-          "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
-          "created_at": "2026-10-15T13:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Verge AI",
           "tier": "press",
@@ -85,35 +64,11 @@
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
-          "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-          "created_at": "2026-10-15T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
           "author": "NVIDIA",
           "tier": "primary",
           "text": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark. A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
           "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
           "created_at": "2026-10-15T17:00:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it. Muse Spark Open is &#34;the most capable US open-weight model to date,&#34; the company says.",
-          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
-          "created_at": "2026-10-15T17:02:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-          "created_at": "2026-10-15T17:43:35+00:00",
           "engagement": 0
         },
         {
@@ -155,12 +110,106 @@
           "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
           "created_at": "2026-10-15T21:18:15+00:00",
           "engagement": 0
+        },
+        {
+          "author": "mark_k",
+          "tier": "commentary",
+          "text": "Meta just released an absolute monster of an open-weight model! Muse Spark Open has 816 billion parameters (42B active), a massive 1 million token context window, and is specifically designed for agentic coding, complex software engineering, and long-running tasks. Meta claims it's the most capable US open-weight model ever released!\n\nYou can run this beast locally on just two Apple M5 Ultra Mac Studios! The weights are available on Hugging Face, with support for llama.cpp and vLLM.",
+          "url": "https://x.com/mark_k/status/2111046693718253585",
+          "created_at": "2026-10-16T10:48:47+00:00",
+          "engagement": 34
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Microsoft Surface Laptop Ultra review: RTX Spark in a straight-up beautiful Windows PC. Microsoft’s Surface Laptop Ultra is its most beautiful laptop ever, but using Windows on it is the same as ever. Only AI enthusiasts will get the most out of RTX Spark.",
+          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
+          "created_at": "2026-10-16T12:00:00+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c008f5514",
-      "score": 12.004,
+      "cluster_id": "c0945653c",
+      "score": 13.471,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Google",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "IntCyberDigest",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-15T15:05:02+00:00",
+      "last_seen": "2026-10-16T10:41:31+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
+        "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
+        "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+        "https://x.com/IntCyberDigest/status/2111044864553152570"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple SVP Greg Joswiak: ‘We don’t feel threatened’ by OpenAI hardware plans. Today in a new story at TIME , the publication interviewed CEO John Ternus but also spoke to Greg “Joz” Joswiak, Apple’s SVP of Worldwide Marketing, who addressed the “lunatic fringe” of AI in Silicon Valley, hardware threats from OpenAI, and more. more…",
+          "url": "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
+          "created_at": "2026-10-15T15:05:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Here’s Apple’s official response to OpenAI’s trade secret theft allegations. Apple has responded to OpenAI’s allegations that one of its former employees who departed for Apple took confidential files along with him. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+          "created_at": "2026-10-15T19:57:37+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "9to5Mac Daily: October 15, 2026 – OpenAI vs Apple, iPhone Duo details. Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
+          "url": "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
+          "created_at": "2026-10-15T21:25:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "The tech backlash is now in theaters. Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+          "created_at": "2026-10-15T21:39:52+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT can peek at your Chrome tabs now. OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+          "created_at": "2026-10-15T22:43:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "‼️ BREAKING: Security firm Calif unveiled an untethered iPhone 18 Pro jailbreak on stage in Paris.\n\nIts Hexacon demo shows the phone on iOS 27.0.1, Apple's latest, giving up a root shell within 2 minutes of boot.",
+          "url": "https://x.com/IntCyberDigest/status/2111044864553152570",
+          "created_at": "2026-10-16T10:41:31+00:00",
+          "engagement": 1221
+        }
+      ]
+    },
+    {
+      "cluster_id": "cec7c8c06",
+      "score": 11.548,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -171,16 +220,19 @@
         "Bloomberg Tech",
         "NVIDIA",
         "NVIDIA Developer",
+        "Product Hunt AI",
         "The Decoder"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "first_seen": "2026-10-15T15:00:24+00:00",
       "last_seen": "2026-10-16T06:53:01+00:00",
       "links": [
         "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
         "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
         "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-        "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video"
+        "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
+        "https://www.producthunt.com/products/gbrain",
+        "https://www.producthunt.com/products/nvidia"
       ],
       "posts": [
         {
@@ -189,6 +241,14 @@
           "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
           "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
           "created_at": "2026-10-15T15:00:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Nemotron 3.5 Super VL. NVIDIA’s open multimodal model for specialized agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/nvidia",
+          "created_at": "2026-10-15T15:27:13+00:00",
           "engagement": 0
         },
         {
@@ -208,6 +268,14 @@
           "engagement": 0
         },
         {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "GBrain Tools. A password manager for AI Discussion | Link",
+          "url": "https://www.producthunt.com/products/gbrain",
+          "created_at": "2026-10-16T00:51:53+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Bloomberg Tech",
           "tier": "press",
           "text": "Nscale's Flagship Data Center Hit by Delays Ahead of IPO. Artificial intelligence infrastructure firm Nscale is seeking to raise up to $3 billion in an initial public offering as soon as this month, just as investors are growing increasingly wary of the risks of the AI buildout. The UK firm has also been hit by regulatory hurdles, a fire and other delays during construction of a flagship data center in Norway. Bloomberg's Paula Doenecke reports. (Source: Bloomberg)",
@@ -218,8 +286,45 @@
       ]
     },
     {
+      "cluster_id": "cd9fc2490",
+      "score": 11.402,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "ArtificialAnlys",
+        "Bloomberg Tech"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T21:26:53+00:00",
+      "last_seen": "2026-10-16T11:11:59+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-15/msci-decision-moves-michael-saylor-s-strategy-toward-index-exit",
+        "https://x.com/ArtificialAnlys/status/2111052531166249039"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "MSCI Decision Moves Saylor’s Strategy Toward Index Exit. MSCI Inc. adopted new rules that could ultimately push Strategy Inc. out of its global equity benchmarks, potentially triggering billions of dollars in stock sales and adding fresh pressure to the financing model behind Michael Saylor’s vast Bitcoin holdings.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/msci-decision-moves-michael-saylor-s-strategy-toward-index-exit",
+          "created_at": "2026-10-15T21:26:53+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Liquid AI has released d1-ultra, taking the #1 position on the Artificial Analysis Decision Index v1.0, supported by a reduction in hallucinations\n\nd1-ultra is the new decision model from @liquidai and follows on from their release of d1 earlier this month. It is priced at $0.042 per 1M input tokens compared to $0.02 per 1M input tokens for d1. Like d1, d1-ultra is billed only on input tokens.",
+          "url": "https://x.com/ArtificialAnlys/status/2111052531166249039",
+          "created_at": "2026-10-16T11:11:59+00:00",
+          "engagement": 98
+        }
+      ]
+    },
+    {
       "cluster_id": "c66bef6fc",
-      "score": 11.23,
+      "score": 10.897,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -286,8 +391,69 @@
       ]
     },
     {
+      "cluster_id": "c0e43ea4a",
+      "score": 10.19,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Meta",
+        "Apple",
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "AWS ML",
+        "Engadget",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-15T16:21:45+00:00",
+      "last_seen": "2026-10-15T17:43:35+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+        "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+        "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+        "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Friends don&#8217;t let friends feed their data to AI agents. There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+          "created_at": "2026-10-15T16:21:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
+          "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+          "created_at": "2026-10-15T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it. Muse Spark Open is &#34;the most capable US open-weight model to date,&#34; the company says.",
+          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+          "created_at": "2026-10-15T17:02:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+          "created_at": "2026-10-15T17:43:35+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ce9d8d3a8",
-      "score": 8.039,
+      "score": 7.706,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -335,58 +501,8 @@
       ]
     },
     {
-      "cluster_id": "c7eec3aae",
-      "score": 6.624,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T11:28:44+00:00",
-      "last_seen": "2026-10-15T22:43:23+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-        "https://9to5mac.com/2026/10/15/the-renewable-iphone-duo-display-layer-may-help-buyers-justify-the-price/",
-        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "The ‘renewable’ iPhone Duo display layer may help buyers justify the price. The iPhone Duo starts at $1999 for the 256GB model and rises to an eye-watering $3199 for the 2TB version – but a “renewable” inner display layer may help buyers to justify spending so much money on a phone. Apple has addressed the biggest problem experienced with folding phones to date via a surprisingly affordable option … more…",
-          "url": "https://9to5mac.com/2026/10/15/the-renewable-iphone-duo-display-layer-may-help-buyers-justify-the-price/",
-          "created_at": "2026-10-15T11:28:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "9to5Mac Daily: October 15, 2026 – OpenAI vs Apple, iPhone Duo details. Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-          "url": "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-          "created_at": "2026-10-15T21:25:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT can peek at your Chrome tabs now. OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-          "created_at": "2026-10-15T22:43:23+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c4819592f",
-      "score": 6.602,
+      "score": 6.455,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -433,96 +549,8 @@
       ]
     },
     {
-      "cluster_id": "cf7979c61",
-      "score": 6.125,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T12:00:00+00:00",
-      "last_seen": "2026-10-15T17:08:21+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/15/amazon-launches-bee-ai-wearables/",
-        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Amazon’s Bee launches two new personal AI devices, starting at $75. Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
-          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-          "created_at": "2026-10-15T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Amazon launches two Bee AI recorders to remember everything you say. Just over a year after acquiring the AI company, Bee, Amazon has officially unveiled two of its first AI wearables, so you never forget what was said. more…",
-          "url": "https://9to5google.com/2026/10/15/amazon-launches-bee-ai-wearables/",
-          "created_at": "2026-10-15T17:08:21+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cdbafd225",
-      "score": 3.948,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Apple"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T15:05:02+00:00",
-      "last_seen": "2026-10-15T21:39:52+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
-        "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
-        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial"
-      ],
-      "posts": [
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple SVP Greg Joswiak: ‘We don’t feel threatened’ by OpenAI hardware plans. Today in a new story at TIME , the publication interviewed CEO John Ternus but also spoke to Greg “Joz” Joswiak, Apple’s SVP of Worldwide Marketing, who addressed the “lunatic fringe” of AI in Silicon Valley, hardware threats from OpenAI, and more. more…",
-          "url": "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
-          "created_at": "2026-10-15T15:05:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Here’s Apple’s official response to OpenAI’s trade secret theft allegations. Apple has responded to OpenAI’s allegations that one of its former employees who departed for Apple took confidential files along with him. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
-          "created_at": "2026-10-15T19:57:37+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "The tech backlash is now in theaters. Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-          "created_at": "2026-10-15T21:39:52+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "c32283b9b",
-      "score": 3.859,
+      "score": 3.79,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "security",
