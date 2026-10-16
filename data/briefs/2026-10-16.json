@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T12:04:17.831370+00:00",
+  "generated_at": "2026-10-16T14:04:05.979326+00:00",
   "edition_date": "2026-10-16",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 130,
-  "clusters_found": 92,
-  "stories_declared": 9,
+  "posts_considered": 134,
+  "clusters_found": 94,
+  "stories_declared": 10,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c88aaa37f",
-      "score": 17.202,
+      "cluster_id": "cddeb7abc",
+      "score": 17.95,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -17,23 +17,22 @@
         "Meta",
         "Nvidia",
         "Microsoft",
-        "Hugging Face",
         "Apple",
         "AMD"
       ],
       "independent_sources": [
+        "ArtificialAnlys",
         "NVIDIA",
         "NVIDIA Developer",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
         "Tom's Hardware",
-        "Wired AI",
-        "mark_k"
+        "Wired AI"
       ],
       "source_count": 8,
       "first_seen": "2026-10-15T14:30:00+00:00",
-      "last_seen": "2026-10-16T12:00:00+00:00",
+      "last_seen": "2026-10-16T13:31:22+00:00",
       "links": [
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
         "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
@@ -44,7 +43,7 @@
         "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
         "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
         "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-        "https://x.com/mark_k/status/2111046693718253585"
+        "https://x.com/ArtificialAnlys/status/2111087606759030831"
       ],
       "posts": [
         {
@@ -112,31 +111,32 @@
           "engagement": 0
         },
         {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Meta just released an absolute monster of an open-weight model! Muse Spark Open has 816 billion parameters (42B active), a massive 1 million token context window, and is specifically designed for agentic coding, complex software engineering, and long-running tasks. Meta claims it's the most capable US open-weight model ever released!\n\nYou can run this beast locally on just two Apple M5 Ultra Mac Studios! The weights are available on Hugging Face, with support for llama.cpp and vLLM.",
-          "url": "https://x.com/mark_k/status/2111046693718253585",
-          "created_at": "2026-10-16T10:48:47+00:00",
-          "engagement": 34
-        },
-        {
           "author": "Tom's Hardware",
           "tier": "press",
           "text": "Microsoft Surface Laptop Ultra review: RTX Spark in a straight-up beautiful Windows PC. Microsoft’s Surface Laptop Ultra is its most beautiful laptop ever, but using Windows on it is the same as ever. Only AI enthusiasts will get the most out of RTX Spark.",
           "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
           "created_at": "2026-10-16T12:00:00+00:00",
           "engagement": 0
+        },
+        {
+          "author": "ArtificialAnlys",
+          "tier": "commentary",
+          "text": "Reflection’s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models\n\nBeam is an open weights model with 501B total and 23B active parameters, released on @huggingface \n\nCongratulations to @reflection_ai on the release!\n\nKey takeaways:\n\n➤ Second among US open weights models: Beam scores 30, behind only Meta's Muse Spark Open (39) and ahead of yesterday’s NVIDIA Nemotron 3.5 Super VL (26) release. Outside China, only Muse Spark Open and the UAE's K2 Horizon (31) score higher\n\n➤ Token efficient for its intelligence: Beam uses ~26k ou",
+          "url": "https://x.com/ArtificialAnlys/status/2111087606759030831",
+          "created_at": "2026-10-16T13:31:22+00:00",
+          "engagement": 138
         }
       ]
     },
     {
-      "cluster_id": "c0945653c",
-      "score": 13.471,
+      "cluster_id": "c7cda9547",
+      "score": 12.967,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI",
+        "Anthropic",
         "Google",
         "Apple"
       ],
@@ -147,14 +147,15 @@
       ],
       "source_count": 3,
       "first_seen": "2026-10-15T15:05:02+00:00",
-      "last_seen": "2026-10-16T10:41:31+00:00",
+      "last_seen": "2026-10-16T13:17:34+00:00",
       "links": [
         "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
         "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
         "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+        "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
         "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
         "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-        "https://x.com/IntCyberDigest/status/2111044864553152570"
+        "https://x.com/IntCyberDigest/status/2111081223166783767"
       ],
       "posts": [
         {
@@ -200,131 +201,100 @@
         {
           "author": "IntCyberDigest",
           "tier": "commentary",
-          "text": "‼️ BREAKING: Security firm Calif unveiled an untethered iPhone 18 Pro jailbreak on stage in Paris.\n\nIts Hexacon demo shows the phone on iOS 27.0.1, Apple's latest, giving up a root shell within 2 minutes of boot.",
-          "url": "https://x.com/IntCyberDigest/status/2111044864553152570",
-          "created_at": "2026-10-16T10:41:31+00:00",
-          "engagement": 1221
-        }
-      ]
-    },
-    {
-      "cluster_id": "cec7c8c06",
-      "score": 11.548,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "NVIDIA",
-        "NVIDIA Developer",
-        "Product Hunt AI",
-        "The Decoder"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-10-15T15:00:24+00:00",
-      "last_seen": "2026-10-16T06:53:01+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-        "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
-        "https://www.producthunt.com/products/gbrain",
-        "https://www.producthunt.com/products/nvidia"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "created_at": "2026-10-15T15:00:24+00:00",
-          "engagement": 0
+          "text": "‼️ An autonomous hacking agent marketed on a cybercrime forum feeds off stolen OpenAI, Anthropic and Google API keys.\n\nBitsight says MONST3R-AI buyers paste in a stolen key, set a budget cap and aim the agent at a list of targets.\n\nThe API bill is paid by the owner of the key.",
+          "url": "https://x.com/IntCyberDigest/status/2111081223166783767",
+          "created_at": "2026-10-16T13:06:00+00:00",
+          "engagement": 89
         },
         {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Nemotron 3.5 Super VL. NVIDIA’s open multimodal model for specialized agents Discussion | Link",
-          "url": "https://www.producthunt.com/products/nvidia",
-          "created_at": "2026-10-15T15:27:13+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-          "created_at": "2026-10-15T16:09:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
-          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-          "created_at": "2026-10-15T18:01:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "GBrain Tools. A password manager for AI Discussion | Link",
-          "url": "https://www.producthunt.com/products/gbrain",
-          "created_at": "2026-10-16T00:51:53+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Nscale's Flagship Data Center Hit by Delays Ahead of IPO. Artificial intelligence infrastructure firm Nscale is seeking to raise up to $3 billion in an initial public offering as soon as this month, just as investors are growing increasingly wary of the risks of the AI buildout. The UK firm has also been hit by regulatory hurdles, a fire and other delays during construction of a flagship data center in Norway. Bloomberg's Paula Doenecke reports. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
-          "created_at": "2026-10-16T06:53:01+00:00",
+          "text": "iPhone Duo accessories: Here are five top picks for Apple’s foldable. iPhone Duo is almost here, so if you want to get a head start on accessories for Apple’s new model, here are our top recommendations. more…",
+          "url": "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
+          "created_at": "2026-10-16T13:17:34+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "cd9fc2490",
-      "score": 11.402,
+      "cluster_id": "c73d23a50",
+      "score": 12.307,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [],
       "independent_sources": [
-        "ArtificialAnlys",
-        "Bloomberg Tech"
+        "Ollama",
+        "ollama"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-15T21:26:53+00:00",
-      "last_seen": "2026-10-16T11:11:59+00:00",
+      "first_seen": "2026-10-16T00:00:00+00:00",
+      "last_seen": "2026-10-16T13:31:44+00:00",
       "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-15/msci-decision-moves-michael-saylor-s-strategy-toward-index-exit",
-        "https://x.com/ArtificialAnlys/status/2111052531166249039"
+        "https://ollama.com/blog/reflection-beam",
+        "https://x.com/ollama/status/2111087699574903061"
       ],
       "posts": [
         {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "MSCI Decision Moves Saylor’s Strategy Toward Index Exit. MSCI Inc. adopted new rules that could ultimately push Strategy Inc. out of its global equity benchmarks, potentially triggering billions of dollars in stock sales and adding fresh pressure to the financing model behind Michael Saylor’s vast Bitcoin holdings.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-15/msci-decision-moves-michael-saylor-s-strategy-toward-index-exit",
-          "created_at": "2026-10-15T21:26:53+00:00",
+          "author": "Ollama",
+          "tier": "primary",
+          "text": "Reflection's Beam is freely available on Ollama for a limited time. Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.",
+          "url": "https://ollama.com/blog/reflection-beam",
+          "created_at": "2026-10-16T00:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "ollama",
           "tier": "commentary",
-          "text": "Liquid AI has released d1-ultra, taking the #1 position on the Artificial Analysis Decision Index v1.0, supported by a reduction in hallucinations\n\nd1-ultra is the new decision model from @liquidai and follows on from their release of d1 earlier this month. It is priced at $0.042 per 1M input tokens compared to $0.02 per 1M input tokens for d1. Like d1, d1-ultra is billed only on input tokens.",
-          "url": "https://x.com/ArtificialAnlys/status/2111052531166249039",
-          "created_at": "2026-10-16T11:11:59+00:00",
-          "engagement": 98
+          "text": "We’re excited to be day 0 partners for @reflection_ai’s first open-weight model! For a limited time, \n\nBeam is FREE on Ollama! In partnership with @reflection_ai this model is hosted in the US with full ZDR.\n\nIt has a 1M token context window and is designed for software engineering, reasoning, and long-running agentic tasks.\n\nRun Beam on Ollama’s Cloud:\nollama run beam\n\nClaude Code\nollama launch claude --model beam:cloud\n\nCodex\nollama launch codex --model beam:cloud\n\nOpenCode\nollama launch opencode --model beam:cloud\n\nFree to use for a limited time only.",
+          "url": "https://x.com/ollama/status/2111087699574903061",
+          "created_at": "2026-10-16T13:31:44+00:00",
+          "engagement": 57
+        }
+      ]
+    },
+    {
+      "cluster_id": "cfc776612",
+      "score": 10.978,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "OpenAI"
+      ],
+      "independent_sources": [
+        "OpenAI",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T19:00:00+00:00",
+      "last_seen": "2026-10-16T13:15:09+00:00",
+      "links": [
+        "https://openai.com/index/introducing-the-rosalind-academic-plan",
+        "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/"
+      ],
+      "posts": [
+        {
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Bringing GPT-Rosalind to academic research labs. Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "created_at": "2026-10-15T19:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year. OpenAI is launching the Rosalind Academic Plan, a free offering that's currently open only to research labs at US universities without an enterprise contract. The article OpenAI&#039;s new Rosalind Academic Plan gives research labs up to 30 free seats for a year appeared first on The Decoder .",
+          "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
+          "created_at": "2026-10-16T13:15:09+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c66bef6fc",
-      "score": 10.897,
+      "score": 10.564,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -452,8 +422,76 @@
       ]
     },
     {
+      "cluster_id": "cc167d4ab",
+      "score": 9.417,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "NVIDIA",
+        "NVIDIA Developer",
+        "Product Hunt AI",
+        "The Decoder"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-15T15:00:24+00:00",
+      "last_seen": "2026-10-16T00:51:53+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+        "https://www.producthunt.com/products/gbrain",
+        "https://www.producthunt.com/products/nvidia"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "created_at": "2026-10-15T15:00:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "Nemotron 3.5 Super VL. NVIDIA’s open multimodal model for specialized agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/nvidia",
+          "created_at": "2026-10-15T15:27:13+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
+          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+          "created_at": "2026-10-15T16:09:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "created_at": "2026-10-15T18:01:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Product Hunt AI",
+          "tier": "primary",
+          "text": "GBrain Tools. A password manager for AI Discussion | Link",
+          "url": "https://www.producthunt.com/products/gbrain",
+          "created_at": "2026-10-16T00:51:53+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "ce9d8d3a8",
-      "score": 7.706,
+      "score": 7.373,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -501,7 +539,7 @@
       ]
     },
     {
-      "cluster_id": "c4819592f",
+      "cluster_id": "c658e208c",
       "score": 6.455,
       "interest": "want",
       "single_source": false,
@@ -514,22 +552,13 @@
         "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-15T14:00:00+00:00",
+      "first_seen": "2026-10-15T19:55:25+00:00",
       "last_seen": "2026-10-15T19:57:16+00:00",
       "links": [
         "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-        "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
         "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
       ],
       "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "TechCrunch Disrupt 2026: Last day. Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
-          "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-          "created_at": "2026-10-15T14:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",

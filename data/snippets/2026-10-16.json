@@ -377,6 +377,76 @@
    },
    "published_at": "2026-10-16T08:31:48+00:00",
    "id": "engadget-reports-google-s-gmail-live"
+  },
+  {
+   "text": "Four Gemini 4 Argon agents beat Minecraft's Ender Dragon in 27 hours 14 minutes, writing 2,783 programs and dying 605 times, according to a paper by Faldor, Singh and Raileanu.",
+   "why": "The authors call it the first end-to-end autonomous Minecraft completion by AI agents, with no human-written game tools; the claim has not been independently checked.",
+   "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2610.22319v1"
+   },
+   "published_at": "2026-10-15T17:00:00+00:00",
+   "id": "four-gemini-4-argon-agents-beat"
+  },
+  {
+   "text": "Nvidia and IIT Madras say Nemotron-pretraining-Indic-v1 holds about 2.8 trillion tokens across 22 Indian languages, and that an open data-generation pipeline will ship with it soon.",
+   "why": "Many of the 22 languages, such as Bodo, Dogri and Santali, have little web text, so synthetic translation is how the corpus reaches them.",
+   "source": {
+    "name": "Hugging Face blog (NVIDIA)",
+    "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+   },
+   "published_at": "2026-10-16T13:00:00+00:00",
+   "id": "nvidia-and-iit-madras-say-nemotron"
+  },
+  {
+   "text": "IBM says Granite Switch 4.1, in 8B and 30B sizes, runs chat, decisions and speech-to-text from one endpoint, and claims its embedded speech model tops the OpenASR Leaderboard.",
+   "why": "Adapters built into one model are meant to avoid running three separate models, which IBM says costs about the same VRAM as the base model alone.",
+   "source": {
+    "name": "IBM Granite on Hugging Face",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+   },
+   "published_at": "2026-10-15T20:00:00+00:00",
+   "id": "ibm-says-granite-switch-4-1"
+  },
+  {
+   "text": "Analyst Jukan, citing DigiTimes and Korean media, reports Samsung will break ground on a second Taylor, Texas fab in November, targeting mass production in 2030, with the first fab due late 2026.",
+   "why": "It is a single-outlet report relayed on X; Samsung has not confirmed the schedule in anything this paper has seen.",
+   "source": {
+    "name": "Jukan on X",
+    "url": "https://x.com/jukan05/status/2111072841747791937"
+   },
+   "published_at": "2026-10-16T12:32:41+00:00",
+   "id": "analyst-jukan-citing-digitimes-and-korean"
+  },
+  {
+   "text": "International Cyber Digest says Bitsight reports an autonomous hacking agent called MONST3R-AI, sold on a cybercrime forum, runs on buyers' stolen OpenAI, Anthropic and Google API keys.",
+   "why": "The key owner pays the bill, so the seller's compute costs fall on victims; this paper has not seen Bitsight's own report.",
+   "source": {
+    "name": "International Cyber Digest on X",
+    "url": "https://x.com/IntCyberDigest/status/2111081223166783767"
+   },
+   "published_at": "2026-10-16T13:06:00+00:00",
+   "id": "international-cyber-digest-says-bitsight-reports"
+  },
+  {
+   "text": "International Cyber Digest says suspected Chinese spies used a zero-day, CVE-2026-102764, to hack BeyondTrust Remote Support servers, one hosted by BeyondTrust, whose third-party triage tool closed the alerts as false positives.",
+   "why": "If accurate, an automated triage tool buried the first warning on a vendor's own server; the account has not been confirmed by BeyondTrust here.",
+   "source": {
+    "name": "International Cyber Digest on X",
+    "url": "https://x.com/IntCyberDigest/status/2111064865666199597"
+   },
+   "published_at": "2026-10-16T12:01:00+00:00",
+   "id": "international-cyber-digest-says-suspected-chinese"
+  },
+  {
+   "text": "Reflection says it will award $10,000 in Hugging Face Hub credits to the best projects built with its new Beam model, with entries shared on the model's discussions page.",
+   "why": "The prize is how the lab hopes to get outside demos of a model whose benchmark numbers so far come from Reflection itself.",
+   "source": {
+    "name": "Hugging Face blog (Reflection)",
+    "url": "https://huggingface.co/blog/reflection-beam"
+   },
+   "published_at": "2026-10-16T13:15:47+00:00",
+   "id": "reflection-says-it-will-award-10"
   }
  ]
 }
