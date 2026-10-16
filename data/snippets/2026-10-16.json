@@ -246,6 +246,36 @@
    },
    "published_at": "2026-10-15T13:00:00+00:00",
    "id": "engadget-s-review-of-nvidia-s"
+  },
+  {
+   "text": "NVIDIA released Nemotron 3.5 Super VL, a 120B-total, 12B-active multimodal mixture-of-experts model with a 1M-token context, taking text, image and video, listed under the OpenMDW-1.1 licence.",
+   "why": "It is an open vision-language model aimed at long-running agents, with a hybrid Mamba-2 and attention design and an NVFP4 variant for cheaper serving.",
+   "source": {
+    "name": "Modal model library",
+    "url": "https://modal.com/library/nvidia/nemotron-3-5-super-vl-120b-a12b-nvfp4"
+   },
+   "published_at": "2026-10-15T12:00:00+00:00",
+   "id": "nvidia-released-nemotron-3-5-super"
+  },
+  {
+   "text": "Alibaba Cloud researchers say Waypoint-OPD, a distillation method that down-weights conflicting reinforcement-learning signals, scored highest in all six Qwen3 student settings they tested; code is on GitHub.",
+   "why": "It targets a cheap way to pass RL gains from a small teacher to larger students, with one extra scoring pass.",
+   "source": {
+    "name": "Hugging Face Papers",
+    "url": "https://huggingface.co/papers/2610.21601"
+   },
+   "published_at": "2026-10-16T00:59:17+00:00",
+   "id": "alibaba-cloud-researchers-say-waypoint-opd"
+  },
+  {
+   "text": "Authors of 3DCodeVerse say fine-tuning on their 2-million-program dataset lifted a 9B model's executable 3D code rate from 0.0% to 84.9%, and promise to release data, harness and models.",
+   "why": "The paper claims its agent harness beat Claude Design in 90% of human comparisons, though nothing is downloadable yet.",
+   "source": {
+    "name": "3DCodeVerse paper",
+    "url": "https://arxiv.org/html/2610.22341"
+   },
+   "published_at": "2026-10-16T01:38:36+00:00",
+   "id": "authors-of-3dcodeverse-say-fine-tuning"
   }
  ]
 }
