@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T14:04:05.979326+00:00",
+  "generated_at": "2026-10-16T16:04:51.650685+00:00",
   "edition_date": "2026-10-16",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 134,
-  "clusters_found": 94,
-  "stories_declared": 10,
+  "posts_considered": 135,
+  "clusters_found": 100,
+  "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cddeb7abc",
-      "score": 17.95,
+      "cluster_id": "c513cab3d",
+      "score": 17.743,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -18,56 +18,70 @@
         "Nvidia",
         "Microsoft",
         "Apple",
+        "Amazon",
         "AMD"
       ],
       "independent_sources": [
-        "ArtificialAnlys",
-        "NVIDIA",
+        "9to5Mac",
+        "AWS ML",
+        "Engadget",
         "NVIDIA Developer",
         "TechCrunch AI",
         "The Decoder",
         "The Verge AI",
         "Tom's Hardware",
-        "Wired AI"
+        "Wired AI",
+        "vllm_project"
       ],
-      "source_count": 8,
-      "first_seen": "2026-10-15T14:30:00+00:00",
-      "last_seen": "2026-10-16T13:31:22+00:00",
+      "source_count": 10,
+      "first_seen": "2026-10-15T16:21:45+00:00",
+      "last_seen": "2026-10-16T15:26:32+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+        "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+        "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
         "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
         "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+        "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
         "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-        "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-        "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+        "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+        "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
         "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
         "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-        "https://x.com/ArtificialAnlys/status/2111087606759030831"
+        "https://x.com/vllm_project/status/2111116589063872989"
       ],
       "posts": [
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "How Windows is being optimized for Nvidia’s RTX Spark laptops. Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear [&#8230;]",
-          "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-          "created_at": "2026-10-15T14:30:00+00:00",
+          "text": "Friends don&#8217;t let friends feed their data to AI agents. There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+          "created_at": "2026-10-15T16:21:45+00:00",
           "engagement": 0
         },
         {
-          "author": "Tom's Hardware",
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999. Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo.",
-          "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
-          "created_at": "2026-10-15T14:30:00+00:00",
+          "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
+          "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
+          "created_at": "2026-10-15T17:00:00+00:00",
           "engagement": 0
         },
         {
-          "author": "NVIDIA",
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it. Muse Spark Open is &#34;the most capable US open-weight model to date,&#34; the company says.",
+          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+          "created_at": "2026-10-15T17:02:48+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
           "tier": "primary",
-          "text": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark. A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-          "created_at": "2026-10-15T17:00:23+00:00",
+          "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+          "created_at": "2026-10-15T17:43:35+00:00",
           "engagement": 0
         },
         {
@@ -119,59 +133,148 @@
           "engagement": 0
         },
         {
-          "author": "ArtificialAnlys",
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops. Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia [&#8230;]",
+          "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+          "created_at": "2026-10-16T15:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS. Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+          "created_at": "2026-10-16T15:23:10+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "vllm_project",
           "tier": "commentary",
-          "text": "Reflection’s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models\n\nBeam is an open weights model with 501B total and 23B active parameters, released on @huggingface \n\nCongratulations to @reflection_ai on the release!\n\nKey takeaways:\n\n➤ Second among US open weights models: Beam scores 30, behind only Meta's Muse Spark Open (39) and ahead of yesterday’s NVIDIA Nemotron 3.5 Super VL (26) release. Outside China, only Muse Spark Open and the UAE's K2 Horizon (31) score higher\n\n➤ Token efficient for its intelligence: Beam uses ~26k ou",
-          "url": "https://x.com/ArtificialAnlys/status/2111087606759030831",
-          "created_at": "2026-10-16T13:31:22+00:00",
-          "engagement": 138
+          "text": "🎉 Reflection-Beam-1.0 from @reflection_ai has Day-0 support in vLLM.\n\n501B total parameters, 23B active per token, and a 1M-token context window. Beam combines hybrid attention with Harmony-format reasoning and tool use.\n\nBeam also has Day-0 RL support in SkyRL (@NovaSkyAI): LoRA, BF16 full fine-tuning and MXFP8 RL, with vLLM rollouts.\n\nWe worked with @reflection_ai and @Inferact on the serving path, from fused kernels to DFlash. Here is what is under the hood. 🧵",
+          "url": "https://x.com/vllm_project/status/2111116589063872989",
+          "created_at": "2026-10-16T15:26:32+00:00",
+          "engagement": 43,
+          "video": true
         }
       ]
     },
     {
-      "cluster_id": "c7cda9547",
-      "score": 12.967,
+      "cluster_id": "cb3bcb0f1",
+      "score": 17.699,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "AravSrinivas",
+        "DeepMind",
+        "The Decoder",
+        "omarsar0",
+        "perplexity_ai"
+      ],
+      "source_count": 6,
+      "first_seen": "2026-10-15T16:08:03+00:00",
+      "last_seen": "2026-10-16T15:05:38+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
+        "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+        "https://x.com/AravSrinivas/status/2111111329536987234",
+        "https://x.com/omarsar0/status/2111093058024755365",
+        "https://x.com/perplexity_ai/status/2111110772747321460"
+      ],
+      "posts": [
+        {
+          "author": "DeepMind",
+          "tier": "primary",
+          "text": "Accelerating the search for antimicrobial peptides with Google Antigravity. Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+          "created_at": "2026-10-15T16:08:03+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini 4 Argon is now rolling out to Google’s Antigravity for AI Pro subscribers. Google is now rolling out support for Gemini 4 Argon to Antigravity, its AI coding tool. more…",
+          "url": "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
+          "created_at": "2026-10-16T01:10:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "omarsar0",
+          "tier": "commentary",
+          "text": "Banger paper from Google DeepMind on long-horizon multi-agent coding.\n\nThey report that four Gemini 4 Argon agents beat Minecraft end-to-end. They defeated the Ender Dragon in 27 hours and 14 minutes with no human intervention.",
+          "url": "https://x.com/omarsar0/status/2111093058024755365",
+          "created_at": "2026-10-16T13:53:01+00:00",
+          "engagement": 140
+        },
+        {
+          "author": "perplexity_ai",
+          "tier": "commentary",
+          "text": "Gemini 4 Argon sets a new record on WANDR.\n\nIt is now available in Perplexity for Pro and Max subscribers. https://t.co/n1TyI9RhBX",
+          "url": "https://x.com/perplexity_ai/status/2111110772747321460",
+          "created_at": "2026-10-16T15:03:25+00:00",
+          "engagement": 206
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months. Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+          "created_at": "2026-10-16T15:03:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "AravSrinivas",
+          "tier": "commentary",
+          "text": "Gemini 4 Argon is a frontier model and has set a new SoTA on Wide-And-Deep-Research (WANDR) benchmark. Available now to all Perplexity users both on fast search and Computer (agent) modes.",
+          "url": "https://x.com/AravSrinivas/status/2111111329536987234",
+          "created_at": "2026-10-16T15:05:38+00:00",
+          "engagement": 260
+        }
+      ]
+    },
+    {
+      "cluster_id": "c877a03f4",
+      "score": 10.907,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI",
-        "Anthropic",
         "Google",
         "Apple"
       ],
       "independent_sources": [
+        "9to5Google",
         "9to5Mac",
-        "IntCyberDigest",
+        "Engadget",
         "The Verge AI"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-15T15:05:02+00:00",
-      "last_seen": "2026-10-16T13:17:34+00:00",
+      "source_count": 4,
+      "first_seen": "2026-10-15T17:46:45+00:00",
+      "last_seen": "2026-10-16T15:43:39+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
+        "https://9to5google.com/2026/10/16/deals-nothing-phone-3-lenovo-android-idea-tab-laptops/",
         "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-        "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+        "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
         "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
-        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-        "https://x.com/IntCyberDigest/status/2111081223166783767"
+        "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
+        "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
+          "author": "9to5Google",
           "tier": "press",
-          "text": "Apple SVP Greg Joswiak: ‘We don’t feel threatened’ by OpenAI hardware plans. Today in a new story at TIME , the publication interviewed CEO John Ternus but also spoke to Greg “Joz” Joswiak, Apple’s SVP of Worldwide Marketing, who addressed the “lunatic fringe” of AI in Silicon Valley, hardware threats from OpenAI, and more. more…",
-          "url": "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
-          "created_at": "2026-10-15T15:05:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Here’s Apple’s official response to OpenAI’s trade secret theft allegations. Apple has responded to OpenAI’s allegations that one of its former employees who departed for Apple took confidential files along with him. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
-          "created_at": "2026-10-15T19:57:37+00:00",
+          "text": "Today’s Android app deals and freebies: Live or Die, Endling, Cat Lady, more. Today’s best Google Play app and game deals are ready, including Live or Die 1: Survival Pro, Neighbours from Hell 1 Premium, Gun Tactics, Endling Extinction is Forever, Cat Lady, Braveland, and more. Just be sure to dive into the now live Samsung Week 2026 sale , these Galaxy Book6 Copilot+ PCs at up to $500 off , and another shot at scoring the latest Moto Tag 2 Android Find Hub trackers at $17.50 each. The apps await below. more…",
+          "url": "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
+          "created_at": "2026-10-15T17:46:45+00:00",
           "engagement": 0
         },
         {
@@ -185,26 +288,18 @@
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "The tech backlash is now in theaters. Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-          "created_at": "2026-10-15T21:39:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
           "text": "ChatGPT can peek at your Chrome tabs now. OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
           "created_at": "2026-10-15T22:43:23+00:00",
           "engagement": 0
         },
         {
-          "author": "IntCyberDigest",
-          "tier": "commentary",
-          "text": "‼️ An autonomous hacking agent marketed on a cybercrime forum feeds off stolen OpenAI, Anthropic and Google API keys.\n\nBitsight says MONST3R-AI buyers paste in a stolen key, set a budget cap and aim the agent at a list of targets.\n\nThe API bill is paid by the owner of the key.",
-          "url": "https://x.com/IntCyberDigest/status/2111081223166783767",
-          "created_at": "2026-10-16T13:06:00+00:00",
-          "engagement": 89
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Gmail's Live AI search feature arrives for Google AI subscribers. Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers.",
+          "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+          "created_at": "2026-10-16T08:31:48+00:00",
+          "engagement": 0
         },
         {
           "author": "9to5Mac",
@@ -213,49 +308,28 @@
           "url": "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
           "created_at": "2026-10-16T13:17:34+00:00",
           "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c73d23a50",
-      "score": 12.307,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [],
-      "independent_sources": [
-        "Ollama",
-        "ollama"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-16T00:00:00+00:00",
-      "last_seen": "2026-10-16T13:31:44+00:00",
-      "links": [
-        "https://ollama.com/blog/reflection-beam",
-        "https://x.com/ollama/status/2111087699574903061"
-      ],
-      "posts": [
+        },
         {
-          "author": "Ollama",
-          "tier": "primary",
-          "text": "Reflection's Beam is freely available on Ollama for a limited time. Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.",
-          "url": "https://ollama.com/blog/reflection-beam",
-          "created_at": "2026-10-16T00:00:00+00:00",
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Best iPhone Duo cases now available for purchase: Fabric, leather, aramid fiber, metal, more. Apple’s new iPhone Duo Apple’s all-new TechWoven treatment and Pitaka’s aramid fiber, we are also seeing some of the best leather brands in the business ready to take orders for their latest full-grain covers. Those, of course, join some ultra-affordable models starting from $27 or less and you can scope them all out below. more…",
+          "url": "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
+          "created_at": "2026-10-16T15:00:36+00:00",
           "engagement": 0
         },
         {
-          "author": "ollama",
-          "tier": "commentary",
-          "text": "We’re excited to be day 0 partners for @reflection_ai’s first open-weight model! For a limited time, \n\nBeam is FREE on Ollama! In partnership with @reflection_ai this model is hosted in the US with full ZDR.\n\nIt has a 1M token context window and is designed for software engineering, reasoning, and long-running agentic tasks.\n\nRun Beam on Ollama’s Cloud:\nollama run beam\n\nClaude Code\nollama launch claude --model beam:cloud\n\nCodex\nollama launch codex --model beam:cloud\n\nOpenCode\nollama launch opencode --model beam:cloud\n\nFree to use for a limited time only.",
-          "url": "https://x.com/ollama/status/2111087699574903061",
-          "created_at": "2026-10-16T13:31:44+00:00",
-          "engagement": 57
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Nothing Phone (3) up to $300 off, Lenovo Android Idea Tab $142, Best Buy 1-day laptop sale up to $500 off, more. The Moto Tag 2 Android Find Hub trackers are still down at the lowest prices we have tracked, but today’s 9to5Toys Lunch Break is headlined by Nothing’s Glyph Matrix-equipped Phone (3) up to $300 off the original price alongside Best Buy’s 1-day Windows Copilot+ PC flash sale with up to $500 off touchscreen laptops and desktops . We also have $500 off Lenovo’s 2K OLED touchscreen Yoga 7i 2-in-1 Copilot+ PC as well as its budget-friendly 11-inch 2.5K Android Idea Tab down at the $142 low. Head below for a closer look at the details. more…",
+          "url": "https://9to5google.com/2026/10/16/deals-nothing-phone-3-lenovo-android-idea-tab-laptops/",
+          "created_at": "2026-10-16T15:43:39+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cfc776612",
-      "score": 10.978,
+      "score": 10.643,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -293,8 +367,8 @@
       ]
     },
     {
-      "cluster_id": "c66bef6fc",
-      "score": 10.564,
+      "cluster_id": "cea548fb6",
+      "score": 8.625,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -302,38 +376,17 @@
         "Google"
       ],
       "independent_sources": [
-        "9to5Google",
-        "TechCrunch AI",
         "The Decoder",
         "arXiv"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-15T14:29:33+00:00",
-      "last_seen": "2026-10-16T01:10:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-15T16:35:47+00:00",
+      "last_seen": "2026-10-15T17:51:32+00:00",
       "links": [
-        "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
-        "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
         "https://arxiv.org/abs/2610.22319v1",
-        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
         "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/"
       ],
       "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google’s Universal Cart shopping tool launches in the US. The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-          "created_at": "2026-10-15T14:29:33+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search. Following its announcement at Google I/O earlier this year , Google’s new Universal Cart is now rolling out in the US, giving you the ability to shop the web and watch for deals using Search, Gemini, and more. more…",
-          "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
-          "created_at": "2026-10-15T14:40:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -349,81 +402,12 @@
           "url": "https://arxiv.org/abs/2610.22319v1",
           "created_at": "2026-10-15T17:51:32+00:00",
           "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini 4 Argon is now rolling out to Google’s Antigravity for AI Pro subscribers. Google is now rolling out support for Gemini 4 Argon to Antigravity, its AI coding tool. more…",
-          "url": "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
-          "created_at": "2026-10-16T01:10:00+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c0e43ea4a",
-      "score": 10.19,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Meta",
-        "Apple",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Mac",
-        "AWS ML",
-        "Engadget",
-        "The Verge AI"
-      ],
-      "source_count": 4,
-      "first_seen": "2026-10-15T16:21:45+00:00",
-      "last_seen": "2026-10-15T17:43:35+00:00",
-      "links": [
-        "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-        "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-        "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
-        "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
-      ],
-      "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Friends don&#8217;t let friends feed their data to AI agents. There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
-          "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-          "created_at": "2026-10-15T16:21:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
-          "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
-          "created_at": "2026-10-15T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it. Muse Spark Open is &#34;the most capable US open-weight model to date,&#34; the company says.",
-          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
-          "created_at": "2026-10-15T17:02:48+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart. Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
-          "created_at": "2026-10-15T17:43:35+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc167d4ab",
-      "score": 9.417,
+      "cluster_id": "cf960946b",
+      "score": 7.955,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -431,38 +415,17 @@
         "Nvidia"
       ],
       "independent_sources": [
-        "NVIDIA",
         "NVIDIA Developer",
-        "Product Hunt AI",
         "The Decoder"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-15T15:00:24+00:00",
-      "last_seen": "2026-10-16T00:51:53+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-15T16:09:44+00:00",
+      "last_seen": "2026-10-15T18:01:00+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
         "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-        "https://www.producthunt.com/products/gbrain",
-        "https://www.producthunt.com/products/nvidia"
+        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/"
       ],
       "posts": [
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "created_at": "2026-10-15T15:00:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "Nemotron 3.5 Super VL. NVIDIA’s open multimodal model for specialized agents Discussion | Link",
-          "url": "https://www.producthunt.com/products/nvidia",
-          "created_at": "2026-10-15T15:27:13+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Decoder",
           "tier": "press",
@@ -477,63 +440,6 @@
           "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
           "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
           "created_at": "2026-10-15T18:01:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Product Hunt AI",
-          "tier": "primary",
-          "text": "GBrain Tools. A password manager for AI Discussion | Link",
-          "url": "https://www.producthunt.com/products/gbrain",
-          "created_at": "2026-10-16T00:51:53+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "ce9d8d3a8",
-      "score": 7.373,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Google",
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "Engadget"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T15:44:02+00:00",
-      "last_seen": "2026-10-16T08:31:48+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/15/deals-samsung-week-now-live-galaxy-book-6-moto-tag-2/",
-        "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
-        "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Deals: Samsung Week 2026 now live, Galaxy Book 6 $500 off, Moto Tag 2 trackers from $17.50 each, OLED Chromebook, more. Alongside the return of the latest Moto Tag 2 Android Find Hub trackers in-stock again at $17.50 each on Amazon, today’s 9to5Toys Lunch Break is headlined by the now live Samsung Week 2026 sale – save hundreds on new Tab S12, Fold 8, and the latest Galaxy Book6 Copilot+ PCs at up to $500 off . For today only, we also have Lenovo’s 14-inch touchscreen OLED Chromebook with the Kompanio Ultra chip and Google AI features at $320 off alongside a host of charger and headphone deals to scope out below. more…",
-          "url": "https://9to5google.com/2026/10/15/deals-samsung-week-now-live-galaxy-book-6-moto-tag-2/",
-          "created_at": "2026-10-15T15:44:02+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Today’s Android app deals and freebies: Live or Die, Endling, Cat Lady, more. Today’s best Google Play app and game deals are ready, including Live or Die 1: Survival Pro, Neighbours from Hell 1 Premium, Gun Tactics, Endling Extinction is Forever, Cat Lady, Braveland, and more. Just be sure to dive into the now live Samsung Week 2026 sale , these Galaxy Book6 Copilot+ PCs at up to $500 off , and another shot at scoring the latest Moto Tag 2 Android Find Hub trackers at $17.50 each. The apps await below. more…",
-          "url": "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
-          "created_at": "2026-10-15T17:46:45+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "Gmail's Live AI search feature arrives for Google AI subscribers. Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers.",
-          "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
-          "created_at": "2026-10-16T08:31:48+00:00",
           "engagement": 0
         }
       ]
@@ -578,41 +484,40 @@
       ]
     },
     {
-      "cluster_id": "c32283b9b",
-      "score": 3.79,
+      "cluster_id": "c9ca57101",
+      "score": 5.975,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "security",
+      "suggested_section": "ai",
       "entities": [
-        "OpenAI",
         "Anthropic"
       ],
       "independent_sources": [
-        "Ars Technica AI",
-        "Engadget"
+        "TechCrunch AI",
+        "The Decoder"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-15T15:43:24+00:00",
-      "last_seen": "2026-10-15T19:28:53+00:00",
+      "first_seen": "2026-10-15T19:14:26+00:00",
+      "last_seen": "2026-10-16T13:11:55+00:00",
       "links": [
-        "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-        "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/"
+        "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+        "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/"
       ],
       "posts": [
         {
-          "author": "Ars Technica AI",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”. FTC may fine AI firms on par with companies that delay data breach reports.",
-          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-          "created_at": "2026-10-15T15:43:24+00:00",
+          "text": "Anthropic is letting METR researchers look under the hood with employee-level access. METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+          "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+          "created_at": "2026-10-15T19:14:26+00:00",
           "engagement": 0
         },
         {
-          "author": "Engadget",
+          "author": "The Decoder",
           "tier": "press",
-          "text": "FTC subpoenas OpenAI and Anthropic following safety failures. The FTC is investigating possible consumer harms at two major AI companies.",
-          "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
-          "created_at": "2026-10-15T19:28:53+00:00",
+          "text": "Anthropic gives METR inside access to audit its AI models and safety practices. Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
+          "created_at": "2026-10-16T13:11:55+00:00",
           "engagement": 0
         }
       ]

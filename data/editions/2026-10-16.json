@@ -38,6 +38,68 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-gemini4-argon-minecraft-ender-dragon",
+   "section": "research",
+   "headline": "Four Gemini 4 Argon agents beat Minecraft in 27 hours, dying 605 times",
+   "standfirst": "Researchers say four Gemini 4 Argon coding agents beat the Ender Dragon with no human help, writing 2,783 programs for about $810. It was a single run.",
+   "body": [
+    "Four copies of Google's Gemini 4 Argon model have completed Minecraft on their own, according to a paper posted to arXiv on Thursday by Maxence Faldor, Satinder Singh and Roberta Raileanu. The authors say it is the first end-to-end autonomous completion of the game by AI agents using only the standard Mineflayer library. That is their claim, and no one has independently verified it.",
+    "Each agent controlled one player by writing short JavaScript programs through Mineflayer and reading the text that came back. The paper says the only instruction was a paragraph telling them to defeat the Ender Dragon, and that the agents talked through in-game chat and a shared memory. A fifth agent observed without playing. The world was random, on Easy difficulty, with cheats off.",
+    "No one assigned roles, the authors say. The agents split the work themselves. The paper credits one agent with food and supplies, another with tools and the fortress, a third with the Nether portal and the crystal method, and a fourth with shelters and the final blow. The agents also kept shared notes of coordinates and recovered each other's items after deaths.",
+    "The run took 27 hours and 14 minutes and 2,783 programs, and the agents died 605 times, 69 of them at the dragon. They lit the Nether portal after about 1 hour 42 minutes and the End portal at 13 hours 17 minutes, then spent roughly 14 hours on the End fight. The paper says 22 percent of programs ended in errors.",
+    "The authors list caveats themselves. Mineflayer gives exact world and dragon state that a human player would have to see, the difficulty was Easy, and the model may already know a lot about Minecraft. It was a single run, so how reliable the result is remains unknown. They estimate the session cost about $810 at introductory list price, or about $1,620 at standard price, and cite earlier community attempts that used extra tools."
+   ],
+   "entities": [
+    "Google DeepMind",
+    "Gemini 4 Argon",
+    "Minecraft",
+    "Mineflayer"
+   ],
+   "sources": [
+    {
+     "author": "arXiv (Faldor, Singh, Raileanu)",
+     "url": "https://arxiv.org/html/2610.22319"
+    },
+    {
+     "author": "arXiv abstract",
+     "url": "https://arxiv.org/abs/2610.22319"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/omarsar0/status/2111093058024755365",
+     "after": 2
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-starskirmish-bench-v02",
+   "section": "agents-coding",
+   "headline": "Models write StarCraft bots in an hour, and the best wins 7% of games",
+   "standfirst": "StarSkirmish Bench v0.2 had each model write a Protoss bot in C++ in an hour. GPT-6 Astra scored highest, and Gemini 4 Argon placed third, tied with two Claude models.",
+   "body": [
+    "A new benchmark called StarSkirmish asks language models to write a competitive StarCraft: Brood War bot in one hour of wall-clock time. Kai McPheeters, who published version 0.2 of the benchmark on 15 October, says each model writes a Protoss bot in C++ and that whatever sits in its folder when the hour ends is submitted. It reached the Hacker News front page on Friday with 48 points.",
+    "Each model runs in its lab's own command-line harness. The page says Gemini 4 Argon ran in Google's Antigravity CLI at high reasoning effort, the highest available to it, while every other model ran at max. Models start from a skeleton bot that only mines, can compile and play practice games, and have web search disabled.",
+    "By the benchmark's own scoring, which could shift in later versions, GPT-6 Astra comes first and GPT-6.1 Sol second. Gemini 4 Argon, Claude Opus 5.5 and Claude Fable 5.1 are roughly tied between 37 and 39, with Argon placing third. The page says Argon's results varied most between runs, with its best and worst 18 points apart.",
+    "Scores are the average win rate of each model's five final bots against a fixed roster of 13 opponents, 10 of them competitive human-written bots. The page says even the best model wins only 7 percent of games against the top human-written bots. These are the benchmark author's numbers, and no one else has reported rerunning them. It may not match results elsewhere."
+   ],
+   "entities": [
+    "Gemini 4 Argon",
+    "GPT-6 Astra",
+    "Claude Opus 5.5",
+    "StarCraft"
+   ],
+   "sources": [
+    {
+     "author": "StarSkirmish Bench",
+     "url": "https://starskirmish.com/bench/v0-2/"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-reflection-beam-open-weights",
    "section": "models",
    "headline": "Reflection's Beam, a 501B open model, ships under Apache 2.0",
@@ -239,7 +301,7 @@
     }
    ],
    "embeds": [],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-organoid-braille-bristol",
@@ -274,7 +336,7 @@
     }
    ],
    "embeds": [],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-taiwan-us-industrial-parks-nvidia",
