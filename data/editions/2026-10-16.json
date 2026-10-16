@@ -38,6 +38,118 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-prismml-bonsai-2",
+   "section": "models",
+   "headline": "PrismML opens Bonsai 2, ternary models from 0.43 GB",
+   "standfirst": "PrismML says its Apache 2.0 Bonsai 2 models run in 0.43 GB, 0.95 GB and 2 GB, and that the 9B reaches up to 34 tokens a second on an iPhone 18 Pro Max.",
+   "body": [
+    "PrismML released Bonsai 2 in three sizes on Thursday: 2B, 4B and 9B. In a launch thread on X, the company says the models are ternary, built on Qwen3.5, and take 0.43 GB, 0.95 GB and 2.0 GB respectively. It says they are available today under the Apache 2.0 licence. The thread had about 1,800 likes when we read it.",
+    "PrismML says the work went into making small models useful as local assistants: following instructions, avoiding repetitive loops, calling tools on mobile devices and giving useful answers without unnecessary output. It claims the 9B uses roughly 40 percent fewer tokens on standard instruction-following and everyday maths tasks. These are the company's own claims, and no independent benchmark has been published yet.",
+    "The company shows the 9B running agentic tasks on an iPhone 18 Pro Max, where it says the model reaches up to 34 tokens a second and the 2B reaches up to 120. A second demo has the 9B on a Mac replacing sensitive details in a data room with codes before a cloud model drafts a due diligence memo. PrismML says that sends 8.6 percent of the data to the cloud and cuts cloud costs by 86 percent.",
+    "Bonsai 2 succeeds the first-generation Bonsai 1.7B, 4B and 8B. PrismML says the family now spans four sizes from 2B to 27B parameters, though only the three smaller ones shipped on Thursday. It lists a blog, model downloads, a hosted API on Darkbloom, a web demo, an iPhone app, a whitepaper and docs in a second post.",
+    "PrismML is also running an open challenge with Darkbloom on Yukon Research to make the 9B faster. We have not run the models, and the speeds and token savings come from the maker. Nobody else has tested the models yet, as far as we can tell from public posts."
+   ],
+   "entities": [
+    "PrismML",
+    "Bonsai 2",
+    "Qwen3.5",
+    "Darkbloom"
+   ],
+   "sources": [
+    {
+     "author": "PrismML",
+     "url": "https://x.com/PrismML/status/2110823964650164348"
+    },
+    {
+     "author": "PrismML",
+     "url": "https://x.com/PrismML/status/2110823972107612202"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/PrismML/status/2110823966717927773",
+     "after": 3,
+     "video": true
+    },
+    {
+     "url": "https://x.com/PrismML/status/2110823968831832189",
+     "after": 3,
+     "video": true
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-vera-rubin-aa-agentperf",
+   "section": "chips",
+   "headline": "Vera Rubin posts up to 5.7x GB300's throughput per megawatt",
+   "standfirst": "Artificial Analysis says Nvidia's Vera Rubin NVL72 serves up to about 5.7x the throughput per megawatt of GB300 on DeepSeek V4 Pro in its first agentic benchmark results.",
+   "body": [
+    "Artificial Analysis published initial Vera Rubin NVL72 results on its AA-AgentPerf benchmark on Thursday. It says the rack-scale system delivers up to about 5.7x the total throughput per megawatt of its predecessor, GB300 NVL72, on DeepSeek V4 Pro. The other figures are about 5.4x on DeepSeek V4.1 Flash, 3.0x on GLM-5.2 and 2.8x on Kimi K3.",
+    "Artificial Analysis says Nvidia submitted every Vera Rubin result itself, running TensorRT-LLM and vLLM with Nvidia Dynamo. That matters for reading the numbers: the vendor chose the serving setup. The benchmark replays real agentic coding sessions with long cached contexts and tool-call delays, and measures throughput per megawatt of measured GPU power alongside per-agent output speed.",
+    "According to Artificial Analysis, each Rubin GPU keeps the 288 GB of memory of Blackwell Ultra but has 2.4x the memory bandwidth, 1.7x the NVLink bandwidth and 2.3x the dense NVFP4 compute. A Vera Rubin NVL72 pairs 72 Rubin GPUs with 36 Vera CPUs. It says the lead is largest at faster per-user speeds, where GB300's throughput falls away.",
+    "On DeepSeek V4.1 Flash, it says Vera Rubin serves roughly 3.4x to 3.6x GB300's throughput per megawatt between about 230 and 350 tokens a second per user. It also reports 906 tokens a second per user on a single four-GPU server, the fastest result on its leaderboard for any model. On GLM-5.2 it reports 408 tokens a second per user.",
+    "On Kimi K3 it reports about 2.8x GB300's throughput per megawatt at roughly 67 tokens a second per user, and a leaderboard-fastest 255 tokens a second per user. These are initial results from one benchmarker, using Nvidia's own submissions, and the full analysis on Artificial Analysis's site was not independently reproduced."
+   ],
+   "entities": [
+    "Nvidia",
+    "Vera Rubin",
+    "Artificial Analysis",
+    "DeepSeek",
+    "Kimi K3"
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2110903253013762365"
+    },
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2110903256318869569"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2110903253013762365",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-rtx-spark-laptop-agentperf-local",
+   "section": "chips",
+   "headline": "128 GB RTX Spark laptop runs an agent workload on Qwen3.8 27B in 18.7 minutes",
+   "standfirst": "Artificial Analysis says a prototype Surface laptop with Nvidia's RTX Spark chip finished its local agent test about twice as fast as an M5 Pro MacBook Pro.",
+   "body": [
+    "Artificial Analysis ran a prototype 15-inch Surface Laptop Ultra with Nvidia's RTX Spark N1X chip through its new AA-AgentPerf-Local benchmark and posted the first results on X on Thursday. It says the laptop finished its default local agent workload on Qwen3.8 27B in 18.7 minutes. The test is eight recorded agent tasks and 168 model turns.",
+    "By its numbers, that is close to the DGX Spark at 17.3 minutes, 2.0x faster than a MacBook Pro with an M5 Pro and 64 GB at 37.6 minutes, and 1.8x faster than the AMD Ryzen AI Halo at 34.5. A GeForce RTX 5090 desktop was fastest at 4.9 minutes. The benchmarker plugged the laptop in with Windows on high performance.",
+    "Artificial Analysis describes the N1X as essentially the GB10 from DGX Spark: a 20-core Arm CPU and a 6,144-core Blackwell GPU, with up to 128 GB of memory at 300 GB/s. The unit tested had 128 GB and costs $5,900, it says, and it used Nvidia's published llama.cpp recipes where they existed.",
+    "On Qwen3.6 35B A3B the laptop took 7.6 minutes against 7.3 for DGX Spark and 11.9 for the MacBook Pro, it reports. On Ling 3.0 Flash, the largest model it tests, with 77 GB of weights, the laptop took 15.3 minutes. That model does not fit on the MacBook, and the Ryzen took 25.1 minutes.",
+    "These are first results from one tester on a prototype, and Artificial Analysis says anyone can benchmark their own machine with AA-AgentPerf-Local. Whether retail units match the prototype is not yet known, and Nvidia has not commented on the figures in the posts we read."
+   ],
+   "entities": [
+    "Nvidia",
+    "RTX Spark",
+    "Artificial Analysis",
+    "Qwen3.8",
+    "Microsoft"
+   ],
+   "sources": [
+    {
+     "author": "Artificial Analysis",
+     "url": "https://x.com/ArtificialAnlys/status/2110831401671217394"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/ArtificialAnlys/status/2110831401671217394",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "apple-joswiak-openai-hardware-trade-secrets",
    "section": "business",
    "headline": "Apple's Joswiak 'not threatened' by OpenAI hardware",
