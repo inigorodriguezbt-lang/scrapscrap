@@ -1,24 +1,22 @@
 {
-  "generated_at": "2026-10-16T02:03:15.491917+00:00",
+  "generated_at": "2026-10-16T04:04:06.639877+00:00",
   "edition_date": "2026-10-16",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 133,
-  "clusters_found": 89,
+  "posts_considered": 136,
+  "clusters_found": 94,
   "stories_declared": 8,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c039d94a4",
-      "score": 19.421,
+      "cluster_id": "c63153dfa",
+      "score": 17.931,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Google",
         "Meta",
         "Nvidia",
         "Microsoft",
-        "DeepSeek",
         "Apple",
         "Amazon",
         "AMD"
@@ -26,7 +24,6 @@
       "independent_sources": [
         "9to5Mac",
         "AWS ML",
-        "ArtificialAnlys",
         "Engadget",
         "NVIDIA",
         "NVIDIA Developer",
@@ -37,9 +34,9 @@
         "Tom's Hardware",
         "Wired AI"
       ],
-      "source_count": 12,
+      "source_count": 11,
       "first_seen": "2026-10-15T12:00:21+00:00",
-      "last_seen": "2026-10-16T01:18:48+00:00",
+      "last_seen": "2026-10-16T03:43:03+00:00",
       "links": [
         "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
         "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
@@ -54,9 +51,7 @@
         "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
         "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
         "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-        "https://x.com/ArtificialAnlys/status/2110893784422908225",
-        "https://x.com/ArtificialAnlys/status/2110903253013762365",
-        "https://x.com/SemiAnalysis_/status/2110891071706198431"
+        "https://x.com/SemiAnalysis_/status/2110939555096306067"
       ],
       "posts": [
         {
@@ -166,32 +161,94 @@
         {
           "author": "SemiAnalysis_",
           "tier": "commentary",
-          "text": "Google just submitted their FIRST TPUv7 Agentic benchmark, and it delivers 1.42x better perf per dollar than GB300 NVL72 FP4, even on an external non-Google workload cost basis! TPUv7 is even 2.5x better than AMD MI355X",
-          "url": "https://x.com/SemiAnalysis_/status/2110891071706198431",
-          "created_at": "2026-10-16T00:30:24+00:00",
-          "engagement": 107
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model\n\nMuse Spark Open (xhigh) scores 22 points above Muse Glimmer (high, 17), Meta's 30B dense open-weights model from August. It is also ahead of NVIDIA's Nemotron 3.5 Super VL (26), the next highest-scoring US open-weights model, which launched today\n\n@AIatMeta shared access with us ahead of public release for benchmarking.",
-          "url": "https://x.com/ArtificialAnlys/status/2110893784422908225",
-          "created_at": "2026-10-16T00:41:11+00:00",
-          "engagement": 241
-        },
-        {
-          "author": "ArtificialAnlys",
-          "tier": "commentary",
-          "text": "Initial results for NVIDIA's Vera Rubin NVL72 are now live on AA-AgentPerf, with up to ~5.7x the total throughput per megawatt of its predecessor GB300 NVL72 on DeepSeek V4 Pro, ~5.4x on DeepSeek V4.1 Flash, ~3.0x on GLM-5.2 and ~2.8x on Kimi K3\n\nVera Rubin is NVIDIA's successor to Blackwell, and Vera Rubin NVL72 is its rack-scale system, with 72 Rubin GPUs and 36 Vera CPUs. Each Rubin GPU has the same 288 GB of memory as Blackwell Ultra, but 2.4x the memory bandwidth, 1.7x the NVLink bandwidth and 2.3x the dense NVFP4 compute. NVIDIA submitted every Vera Rubin result, running TensorRT-LLM and",
-          "url": "https://x.com/ArtificialAnlys/status/2110903253013762365",
-          "created_at": "2026-10-16T01:18:48+00:00",
-          "engagement": 41
+          "text": "American open weights are back. Huge credit to @finkd, @alexandr_wang and the Meta team for putting Muse Spark Open in developers’ hands.\n\nMuse Spark Open beats Nemotron 3 Ultra by a wide margin on agentic tasks. We’ve already added it to I for B200, with more configs to come. (1/2)",
+          "url": "https://x.com/SemiAnalysis_/status/2110939555096306067",
+          "created_at": "2026-10-16T03:43:03+00:00",
+          "engagement": 37
         }
       ]
     },
     {
-      "cluster_id": "cc51a6fa0",
-      "score": 15.604,
+      "cluster_id": "ca77a96b6",
+      "score": 12.929,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "TechCrunch AI",
+        "The Decoder",
+        "The Verge AI",
+        "arXiv"
+      ],
+      "source_count": 5,
+      "first_seen": "2026-10-15T13:00:00+00:00",
+      "last_seen": "2026-10-16T01:10:00+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
+        "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+        "https://arxiv.org/abs/2610.22319v1",
+        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+        "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+        "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch"
+      ],
+      "posts": [
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays. Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+          "created_at": "2026-10-15T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Google’s Universal Cart shopping tool launches in the US. The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "created_at": "2026-10-15T14:29:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search. Following its announcement at Google I/O earlier this year , Google’s new Universal Cart is now rolling out in the US, giving you the ability to shop the web and watch for deals using Search, Gemini, and more. more…",
+          "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+          "created_at": "2026-10-15T14:40:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google wants Gemini 4 Argon to be the only AI model robots need. Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos. On Google's own ERQA benchmark, it scores 87 percent. But the published example prompts show that the demos still need a lot of human guidance. The article Google wants Gemini 4 Argon to be the only AI model robots need appeared first on The Decoder .",
+          "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+          "created_at": "2026-10-15T16:35:47+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "arXiv",
+          "tier": "primary",
+          "text": "A team of Gemini 4 Argon agents beats Minecraft. We placed four Gemini 4 Argon agents in a sandboxed Minecraft survival world and gave them one goal: defeat the Ender Dragon. Each agent controlled a player via an open-source library called Mineflayer and coordinated with its teammates through in-game chat and shared memory. No one assigned roles or wrote game logic. The agents planned, wrote, and debugged every program themselves. Researchers could watch the run on a live dashboard and pause or stop it at any time, but they had no cause to intervene. Starting from a randomly generated world on Easy difficulty, the team wrote 2,783 programs a",
+          "url": "https://arxiv.org/abs/2610.22319v1",
+          "created_at": "2026-10-15T17:51:32+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Gemini 4 Argon is now rolling out to Google’s Antigravity for AI Pro subscribers. Google is now rolling out support for Gemini 4 Argon to Antigravity, its AI coding tool. more…",
+          "url": "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
+          "created_at": "2026-10-16T01:10:00+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c013fe6b8",
+      "score": 11.357,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -199,20 +256,19 @@
         "Nvidia"
       ],
       "independent_sources": [
+        "Bloomberg Tech",
         "NVIDIA",
         "NVIDIA Developer",
-        "The Decoder",
-        "ollama"
+        "The Decoder"
       ],
       "source_count": 4,
       "first_seen": "2026-10-15T15:00:24+00:00",
-      "last_seen": "2026-10-15T23:53:16+00:00",
+      "last_seen": "2026-10-15T21:00:02+00:00",
       "links": [
         "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
         "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
         "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-        "https://x.com/ollama/status/2110881033713320273",
-        "https://x.com/ollama/status/2110881725815324829"
+        "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays"
       ],
       "posts": [
         {
@@ -240,257 +296,90 @@
           "engagement": 0
         },
         {
-          "author": "ollama",
-          "tier": "commentary",
-          "text": "NVIDIA Nemotron 3.5 Super VL is now available on Ollama\n\nThis model combines reasoning and visual understanding across a range of agent workflows.\n\nOn a single GPU, this model delivers up to 5x higher throughput for agentic tasks compared to other open models in its size category.\n\nollama run nemotron-3.5-super",
-          "url": "https://x.com/ollama/status/2110881033713320273",
-          "created_at": "2026-10-15T23:50:31+00:00",
-          "engagement": 51
-        },
-        {
-          "author": "ollama",
-          "tier": "commentary",
-          "text": "NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB is now on Ollama\n\nThis model vision-language model (VLM) is designed to run everyday agentic tasks locally, using a native 2-bit quantization to fit in 24GB of memory and run alongside other applications.\n\nollama run nemotron-3.5-bolt",
-          "url": "https://x.com/ollama/status/2110881725815324829",
-          "created_at": "2026-10-15T23:53:16+00:00",
-          "engagement": 87
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nscale’s $35 Billion IPO Plans Muddied by AI Data Center Delays. One flagship AI data center in Norway is six months behind schedule, with workers set to be housed in a floating hotel to get it over the finish line.",
+          "url": "https://www.bloomberg.com/news/features/2026-10-15/nscale-s-35-billion-ipo-plans-muddied-by-ai-data-center-delays",
+          "created_at": "2026-10-15T21:00:02+00:00",
+          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c65d0773c",
-      "score": 11.377,
+      "cluster_id": "cf3044a14",
+      "score": 11.033,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
-        "OpenAI",
         "Google",
-        "Apple"
+        "Amazon"
       ],
       "independent_sources": [
-        "9to5Mac",
-        "Simon Willison",
-        "The Verge AI",
-        "arXiv"
+        "9to5Google",
+        "jukan05"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-15T09:43:26+00:00",
-      "last_seen": "2026-10-15T22:43:23+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-15T15:44:02+00:00",
+      "last_seen": "2026-10-16T02:18:50+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-        "https://arxiv.org/abs/2610.21597v1",
-        "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+        "https://9to5google.com/2026/10/15/deals-samsung-week-now-live-galaxy-book-6-moto-tag-2/",
+        "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
+        "https://x.com/jukan05/status/2110918360779333676"
       ],
       "posts": [
         {
-          "author": "arXiv",
-          "tier": "primary",
-          "text": "Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker. Reverse engineering the data formats used by mobile software is skilled and slow, and using AI to assist with it is attractive. We evaluate this for the protobuf messages that an iPhone sends to Apple's location services. Working from Apple's binaries, we use two frontier models (Claude Opus 4.8, Codex GPT Sol 5.6) to reconstruct the schemas of protobufs observed in network traffic. The great majority of the schemas contain substantial errors, and these are hard to detect because the schemas are internally consistent. Direct AI use is therefore unsuitable for forensic and privacy analysis. AI ",
-          "url": "https://arxiv.org/abs/2610.21597v1",
-          "created_at": "2026-10-15T09:43:26+00:00",
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Samsung Week 2026 now live, Galaxy Book 6 $500 off, Moto Tag 2 trackers from $17.50 each, OLED Chromebook, more. Alongside the return of the latest Moto Tag 2 Android Find Hub trackers in-stock again at $17.50 each on Amazon, today’s 9to5Toys Lunch Break is headlined by the now live Samsung Week 2026 sale – save hundreds on new Tab S12, Fold 8, and the latest Galaxy Book6 Copilot+ PCs at up to $500 off . For today only, we also have Lenovo’s 14-inch touchscreen OLED Chromebook with the Kompanio Ultra chip and Google AI features at $320 off alongside a host of charger and headphone deals to scope out below. more…",
+          "url": "https://9to5google.com/2026/10/15/deals-samsung-week-now-live-galaxy-book-6-moto-tag-2/",
+          "created_at": "2026-10-15T15:44:02+00:00",
           "engagement": 0
         },
         {
-          "author": "Simon Willison",
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Today’s Android app deals and freebies: Live or Die, Endling, Cat Lady, more. Today’s best Google Play app and game deals are ready, including Live or Die 1: Survival Pro, Neighbours from Hell 1 Premium, Gun Tactics, Endling Extinction is Forever, Cat Lady, Braveland, and more. Just be sure to dive into the now live Samsung Week 2026 sale , these Galaxy Book6 Copilot+ PCs at up to $500 off , and another shot at scoring the latest Moto Tag 2 Android Find Hub trackers at $17.50 each. The apps await below. more…",
+          "url": "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
+          "created_at": "2026-10-15T17:46:45+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "jukan05",
           "tier": "commentary",
-          "text": "Chirp Pong. Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , cla",
-          "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-          "created_at": "2026-10-15T19:47:52+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "9to5Mac Daily: October 15, 2026 – OpenAI vs Apple, iPhone Duo details. Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-          "url": "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-          "created_at": "2026-10-15T21:25:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT can peek at your Chrome tabs now. OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-          "created_at": "2026-10-15T22:43:23+00:00",
-          "engagement": 0
+          "text": "According to Korean media reports, Qualcomm's Snapdragon 8 Elite Extreme Gen 6, which was slated for the Galaxy S27 Ultra, has shown performance degradation in recent internal testing. The chip's temperature repeatedly exceeded the threshold. $QCOM",
+          "url": "https://x.com/jukan05/status/2110918360779333676",
+          "created_at": "2026-10-16T02:18:50+00:00",
+          "engagement": 155
         }
       ]
     },
     {
-      "cluster_id": "c072f5f87",
-      "score": 9.427,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "TechCrunch AI",
-        "The Decoder"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-15T14:29:33+00:00",
-      "last_seen": "2026-10-16T01:10:00+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
-        "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
-        "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-        "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Google’s Universal Cart shopping tool launches in the US. The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-          "created_at": "2026-10-15T14:29:33+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search. Following its announcement at Google I/O earlier this year , Google’s new Universal Cart is now rolling out in the US, giving you the ability to shop the web and watch for deals using Search, Gemini, and more. more…",
-          "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
-          "created_at": "2026-10-15T14:40:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google wants Gemini 4 Argon to be the only AI model robots need. Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos. On Google's own ERQA benchmark, it scores 87 percent. But the published example prompts show that the demos still need a lot of human guidance. The article Google wants Gemini 4 Argon to be the only AI model robots need appeared first on The Decoder .",
-          "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
-          "created_at": "2026-10-15T16:35:47+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Gemini 4 Argon is now rolling out to Google’s Antigravity for AI Pro subscribers. Google is now rolling out support for Gemini 4 Argon to Antigravity, its AI coding tool. more…",
-          "url": "https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/",
-          "created_at": "2026-10-16T01:10:00+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4819592f",
-      "score": 7.938,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T14:00:00+00:00",
-      "last_seen": "2026-10-15T19:57:16+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-        "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-        "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "TechCrunch Disrupt 2026: Last day. Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
-          "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-          "created_at": "2026-10-15T14:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps. Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
-          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-          "created_at": "2026-10-15T19:55:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social. Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni Schneider said [&#8230;]",
-          "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-          "created_at": "2026-10-15T19:57:16+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf7979c61",
-      "score": 7.14,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "models",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "TechCrunch AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T12:00:00+00:00",
-      "last_seen": "2026-10-15T17:08:21+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/15/amazon-launches-bee-ai-wearables/",
-        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Amazon’s Bee launches two new personal AI devices, starting at $75. Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
-          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-          "created_at": "2026-10-15T12:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Amazon launches two Bee AI recorders to remember everything you say. Just over a year after acquiring the AI company, Bee, Amazon has officially unveiled two of its first AI wearables, so you never forget what was said. more…",
-          "url": "https://9to5google.com/2026/10/15/amazon-launches-bee-ai-wearables/",
-          "created_at": "2026-10-15T17:08:21+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc6411139",
-      "score": 5.336,
+      "cluster_id": "c4e080a3e",
+      "score": 8.625,
       "interest": "dull",
       "single_source": false,
       "suggested_section": "business",
       "entities": [
-        "OpenAI",
         "Anthropic",
         "Nvidia"
       ],
       "independent_sources": [
         "Bloomberg Tech",
-        "Engadget",
         "Simon Willison",
-        "The Decoder"
+        "The Decoder",
+        "kimmonismus"
       ],
       "source_count": 4,
       "first_seen": "2026-10-15T09:50:43+00:00",
-      "last_seen": "2026-10-15T19:28:53+00:00",
+      "last_seen": "2026-10-16T03:04:53+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
         "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
         "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
         "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-stands-alone-as-rest-of-us-ipo-market-slows-to-a-crawl",
         "https://www.bloomberg.com/news/videos/2026-10-15/bloomberg-tech-10-15-2026-video",
-        "https://www.bloomberg.com/news/videos/2026-10-15/inside-blackstone-s-massive-bet-on-the-ai-boom-video",
-        "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/"
+        "https://x.com/kimmonismus/status/2110929950270165030"
       ],
       "posts": [
         {
@@ -520,14 +409,6 @@
         {
           "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Inside Blackstone’s Massive Bet on the AI Boom. Blackstone has built one of Wall Street’s broadest bets on AI, investing across the ecosystem from data centers, power and cooling to chip financing and companies including OpenAI, Anthropic and SpaceX. Bloomberg’s Preeti Singh explains how President and COO Jon Gray spotted the infrastructure opportunity early and why he sees AI as a generational economic shift that investors can’t afford to ignore. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-15/inside-blackstone-s-massive-bet-on-the-ai-boom-video",
-          "created_at": "2026-10-15T17:46:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
           "text": "Anthropic’s IPO Momentum as CoreWeave Rattles AI Trade. Bloomberg’s Ed Ludlow breaks down Anthropic's third-quarter revenue numbers as the company gets ready for its IPO. Plus: CoreWeave’s talk of tapping “unlimited” pools of money rattles markets and puts the financing behind the data center buildout back under the microscope; and Nvidia CEO Jensen Huang says safety and containment should be integrated into AI systems even as AI advances. (Source: Bloomberg)",
           "url": "https://www.bloomberg.com/news/videos/2026-10-15/bloomberg-tech-10-15-2026-video",
           "created_at": "2026-10-15T17:46:41+00:00",
@@ -542,60 +423,137 @@
           "engagement": 0
         },
         {
-          "author": "Engadget",
-          "tier": "press",
-          "text": "FTC subpoenas OpenAI and Anthropic following safety failures. The FTC is investigating possible consumer harms at two major AI companies.",
-          "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
-          "created_at": "2026-10-15T19:28:53+00:00",
-          "engagement": 0
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "Anthropics upcoming ipo valuation down to $1.5 trillion from the expected $2 trillion\n\nLet’s see if fable 5.5 will fix that:\n\n“Some investors who attended Anthropic's investor dayon Wednesday in San Francisco discussed a valuation of around $1.5 trillion, three of the people said, a significant step down from the roughly $2 trillion valuation that investors had previously expected for the November share sale.”",
+          "url": "https://x.com/kimmonismus/status/2110929950270165030",
+          "created_at": "2026-10-16T03:04:53+00:00",
+          "engagement": 55
         }
       ]
     },
     {
-      "cluster_id": "cdbafd225",
-      "score": 5.284,
+      "cluster_id": "c112716fd",
+      "score": 8.603,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Apple"
-      ],
+      "suggested_section": "ai",
+      "entities": [],
       "independent_sources": [
-        "9to5Mac",
-        "The Verge AI"
+        "Lobsters AI",
+        "MaxForAI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-15T15:05:02+00:00",
-      "last_seen": "2026-10-15T21:39:52+00:00",
+      "first_seen": "2026-10-15T22:25:03+00:00",
+      "last_seen": "2026-10-16T02:41:07+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
-        "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
-        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial"
+        "https://already-clean.goodfire.com/",
+        "https://x.com/MaxForAI/status/2110923965107704110"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Apple SVP Greg Joswiak: ‘We don’t feel threatened’ by OpenAI hardware plans. Today in a new story at TIME , the publication interviewed CEO John Ternus but also spoke to Greg “Joz” Joswiak, Apple’s SVP of Worldwide Marketing, who addressed the “lunatic fringe” of AI in Silicon Valley, hardware threats from OpenAI, and more. more…",
-          "url": "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
-          "created_at": "2026-10-15T15:05:02+00:00",
+          "author": "Lobsters AI",
+          "tier": "commentary",
+          "text": "Neural Networks Are Already Clean. Comments",
+          "url": "https://already-clean.goodfire.com/",
+          "created_at": "2026-10-15T22:25:03+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Mac",
+          "author": "MaxForAI",
+          "tier": "commentary",
+          "text": "Nick Cammarata essay 'Neural Networks Are Already Clean' (interpretability; Qwen3-32B ~90% neurons with identifiable function)",
+          "url": "https://x.com/MaxForAI/status/2110923965107704110",
+          "created_at": "2026-10-16T02:41:07+00:00",
+          "engagement": 207
+        }
+      ]
+    },
+    {
+      "cluster_id": "c2972c57a",
+      "score": 7.892,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "models",
+      "entities": [
+        "Amazon"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "TechCrunch AI",
+        "The Verge AI"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-15T12:00:00+00:00",
+      "last_seen": "2026-10-15T17:08:21+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/15/amazon-launches-bee-ai-wearables/",
+        "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+        "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Here’s Apple’s official response to OpenAI’s trade secret theft allegations. Apple has responded to OpenAI’s allegations that one of its former employees who departed for Apple took confidential files along with him. Here are the details. more…",
-          "url": "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
-          "created_at": "2026-10-15T19:57:37+00:00",
+          "text": "Amazon’s Bee launches two new personal AI devices, starting at $75. Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+          "created_at": "2026-10-15T12:00:00+00:00",
           "engagement": 0
         },
         {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "The tech backlash is now in theaters. Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
-          "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-          "created_at": "2026-10-15T21:39:52+00:00",
+          "text": "Amazon’s always-listening Bee wearable can now help you buy stuff. Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
+          "created_at": "2026-10-15T12:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Amazon launches two Bee AI recorders to remember everything you say. Just over a year after acquiring the AI company, Bee, Amazon has officially unveiled two of its first AI wearables, so you never forget what was said. more…",
+          "url": "https://9to5google.com/2026/10/15/amazon-launches-bee-ai-wearables/",
+          "created_at": "2026-10-15T17:08:21+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c32283b9b",
+      "score": 4.859,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "security",
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Ars Technica AI",
+        "Engadget"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-15T15:43:24+00:00",
+      "last_seen": "2026-10-15T19:28:53+00:00",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+        "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/"
+      ],
+      "posts": [
+        {
+          "author": "Ars Technica AI",
+          "tier": "press",
+          "text": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”. FTC may fine AI firms on par with companies that delay data breach reports.",
+          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+          "created_at": "2026-10-15T15:43:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "FTC subpoenas OpenAI and Anthropic following safety failures. The FTC is investigating possible consumer harms at two major AI companies.",
+          "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
+          "created_at": "2026-10-15T19:28:53+00:00",
           "engagement": 0
         }
       ]
