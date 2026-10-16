@@ -1,0 +1,75 @@
+The AI Post: 3 new stories, 9 snippets
+2026-10-16 20:06 UTC
+
+------------------------------------------------------------
+STORIES
+------------------------------------------------------------
+
+Claude traces NIST's mystery curve seeds to a 1990s random-number generator
+
+Anthropic says Claude worked out in under half an hour that the NIST P-256 curve seeds, unexplained since 2000, came from lrand48 seeded with a timestamp, not from a hashed passphrase.
+
+
+Elorian's Glimpse can go back and look again at a video while it reasons
+
+Elorian says its first model, Glimpse, can crop, zoom and replay video frames mid-thought, and beats GPT-6 Astra on chart reading and video captioning at $0.60 per million input tokens.
+
+https://x.com/testingcatalog/status/2111174690337177607
+
+
+PS5LM turns a jailbroken PlayStation 5 into a local LLM server
+
+A GitHub project with 270 stars says a jailbroken PS5 can serve GGUF models over the home network, running a 27B Qwen model at about 20 tokens a second.
+
+
+------------------------------------------------------------
+SNIPPETS
+------------------------------------------------------------
+
+Perplexity open-sourced pplx-decider-v1.2, a 27B decision model at 2 cents per million tokens, and a 4B flash version at 1 cent, both on Hugging Face and its Decisions API.
+
+Perplexity says the 27B ranks second on Hugging Face's Decision Index; that ranking is the company's own claim and not independently checked.
+
+
+fal says Kling 4.0 is coming soon to its platform, generating up to 30 seconds of video per run with native audio and up to 15 reference assets for characters, scenes and camera moves.
+
+fal's own page lists Kling 4.0 as early access by sales contact only, with no public pricing yet.
+
+https://x.com/fal/status/2111171366548369776
+
+
+A user reports the ChatGPT desktop app's animated Pet rewrites its ~1 MB state file and backup about 10 times a second, 385 MB of writes in 20 seconds; setting Pet to None stopped it.
+
+It is one user's trace, not confirmed by OpenAI, but anyone leaving the app open all day can check the setting in seconds.
+
+
+SemiAnalysis says it has confirmed that several neoclouds were refused access to Nvidia's GTC Berlin after adding AMD GPUs, TPUs and other chips to their clouds; hyperscalers were not affected.
+
+If accurate it points to Nvidia pressing smaller cloud providers to stay Nvidia-only; Nvidia had not commented in the post.
+
+
+Anthropic's Claude account posted six recent user projects, including a wildfire-spread analysis prototype made with Opus 5.5, a handwriting-to-font tool and chess played as doodles with Sonnet 5.5.
+
+The thread is Anthropic's own pick of what people built, so it shows launch-month use cases rather than a representative sample.
+
+https://x.com/claudeai/status/2111177834127601902
+
+
+Arena says Reflection AI's Beam-1.0-501B-A23B ranks 13th overall and sixth among US labs in its Agent Arena, putting Reflection in the top 15 labs.
+
+Beam shipped days ago as an open 501B model, so this is the first outside leaderboard placement of it we have seen.
+
+
+A user on X reports PhotoCraft, an open-source Photoshop-style editor written in Rust with egui and part of the ArtCraft suite, runs fast on Linux; the poster says the suite is being built largely with AI coding.
+
+It is a first-impressions post from a single user, not a review, and the editor's feature depth is untested.
+
+
+AI Search says MOSS Image, a 5B-parameter image model released under Apache 2.0, is already uncensored and a good image model, linking the weights.
+
+The claims come from one enthusiast account and we could not find an official release page, so treat the licence and quality as unconfirmed.
+
+
+TestingCatalog says Grok Bots have rolled out in Grok on web and mobile, bringing the bot features into one place.
+
+Musk separately said xAI is building a Hagglebot for business use; neither claim has been independently confirmed.

@@ -1,66 +1,42 @@
 {
-  "generated_at": "2026-10-16T18:03:42.576064+00:00",
+  "generated_at": "2026-10-16T20:04:09.906816+00:00",
   "edition_date": "2026-10-16",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 100,
-  "clusters_found": 76,
-  "stories_declared": 6,
+  "posts_considered": 109,
+  "clusters_found": 88,
+  "stories_declared": 7,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c67dbad8f",
-      "score": 16.72,
+      "cluster_id": "c81ee9e36",
+      "score": 13.237,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "products",
       "entities": [
         "Meta",
         "Nvidia",
-        "Microsoft",
         "Apple",
         "AMD"
       ],
       "independent_sources": [
         "NVIDIA Developer",
         "TechCrunch AI",
-        "The Decoder",
         "The Verge AI",
         "Tom's Hardware",
-        "Wired AI",
-        "ggerganov"
+        "Wired AI"
       ],
-      "source_count": 7,
-      "first_seen": "2026-10-15T18:15:36+00:00",
-      "last_seen": "2026-10-16T17:42:47+00:00",
+      "source_count": 5,
+      "first_seen": "2026-10-15T20:04:53+00:00",
+      "last_seen": "2026-10-16T17:04:44+00:00",
       "links": [
         "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
         "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-        "https://the-decoder.com/china-tightens-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-        "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-        "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
         "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
         "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl",
-        "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
-        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-        "https://x.com/ggerganov/status/2111146995003924576"
+        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/"
       ],
       "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Meta and Apple team up to make Muse AI models run better on Macs. Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, [&#8230;]",
-          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-          "created_at": "2026-10-15T18:15:36+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race. Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The article Muse Spark Open is Meta&#039;s answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder .",
-          "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-          "created_at": "2026-10-15T18:34:32+00:00",
-          "engagement": 0
-        },
         {
           "author": "TechCrunch AI",
           "tier": "press",
@@ -75,14 +51,6 @@
           "text": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView. This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
           "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
           "created_at": "2026-10-15T21:18:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Microsoft Surface Laptop Ultra review: RTX Spark in a straight-up beautiful Windows PC. Microsoft’s Surface Laptop Ultra is its most beautiful laptop ever, but using Windows on it is the same as ever. Only AI enthusiasts will get the most out of RTX Spark.",
-          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
-          "created_at": "2026-10-16T12:00:00+00:00",
           "engagement": 0
         },
         {
@@ -108,66 +76,109 @@
           "url": "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl",
           "created_at": "2026-10-16T17:04:44+00:00",
           "engagement": 0
-        },
-        {
-          "author": "ggerganov",
-          "tier": "commentary",
-          "text": "llama.cpp v0.7.0, 128GB Mac/Spark:\n\nllama serve -hf ggml-org/Qwen3.8-Flash-Next-GGUF:IQ4_NL --spec-type draft-mtp --lazy-mode on",
-          "url": "https://x.com/ggerganov/status/2111146995003924576",
-          "created_at": "2026-10-16T17:27:21+00:00",
-          "engagement": 36
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "China tightens export controls on open-weight models and 23 key AI technologies. China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Western companies to double down on US open-weight models over Chinese alternatives. The article China tightens export controls on open-weight models and 23 key AI technologies appeared first on The Decoder .",
-          "url": "https://the-decoder.com/china-tightens-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-          "created_at": "2026-10-16T17:42:47+00:00",
-          "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c188d308a",
-      "score": 16.188,
+      "cluster_id": "cd0563b48",
+      "score": 11.899,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Google"
-      ],
+      "entities": [],
       "independent_sources": [
-        "GoogleDeepMind",
-        "OpenAI",
         "The Decoder",
-        "testingcatalog"
+        "kyleichan"
       ],
-      "source_count": 4,
-      "first_seen": "2026-10-15T19:00:00+00:00",
-      "last_seen": "2026-10-16T16:21:37+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-16T17:42:47+00:00",
+      "last_seen": "2026-10-16T18:54:44+00:00",
       "links": [
-        "https://openai.com/index/introducing-the-rosalind-academic-plan",
-        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-        "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
-        "https://x.com/GoogleDeepMind/status/2111127991401247033",
-        "https://x.com/testingcatalog/status/2111130452111114618"
+        "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+        "https://x.com/kyleichan/status/2111168985085759732"
       ],
       "posts": [
         {
-          "author": "OpenAI",
-          "tier": "primary",
-          "text": "Bringing GPT-Rosalind to academic research labs. Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "created_at": "2026-10-15T19:00:00+00:00",
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "China plans to tighten export controls on open-weight models and 23 key AI technologies. China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Western companies to double down on US open-weight models over Chinese alternatives. The article China plans to tighten export controls on open-weight models and 23 key AI technologies appeared first on The Decoder .",
+          "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+          "created_at": "2026-10-16T17:42:47+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "kyleichan",
+          "tier": "commentary",
+          "text": "My initial reaction to China's new AI export controls: confusing, restrictions for China AI exports while signaling continued automatic approval for open-source models.",
+          "url": "https://x.com/kyleichan/status/2111168985085759732",
+          "created_at": "2026-10-16T18:54:44+00:00",
+          "engagement": 60
+        }
+      ]
+    },
+    {
+      "cluster_id": "c28bc79f4",
+      "score": 11.093,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "OpenAI",
+        "Google",
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "9to5Mac",
+        "The Decoder",
+        "The Verge AI"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-15T21:25:15+00:00",
+      "last_seen": "2026-10-16T19:55:17+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/",
+        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+        "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
+        "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
+        "https://9to5mac.com/2026/10/16/iphone-18-pro-vs-iphone-duo-heres-every-key-difference/",
+        "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
+        "https://9to5toys.com/2026/10/16/todays-highlight-google-play-deals-30/",
+        "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
           "tier": "press",
-          "text": "OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year. OpenAI is launching the Rosalind Academic Plan, a free offering that's currently open only to research labs at US universities without an enterprise contract. The article OpenAI&#039;s new Rosalind Academic Plan gives research labs up to 30 free seats for a year appeared first on The Decoder .",
-          "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
-          "created_at": "2026-10-16T13:15:09+00:00",
+          "text": "9to5Mac Daily: October 15, 2026 – OpenAI vs Apple, iPhone Duo details. Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
+          "url": "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
+          "created_at": "2026-10-15T21:25:15+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Verge AI",
+          "tier": "press",
+          "text": "ChatGPT can peek at your Chrome tabs now. OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+          "created_at": "2026-10-15T22:43:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "iPhone Duo accessories: Here are five top picks for Apple’s foldable. iPhone Duo is almost here, so if you want to get a head start on accessories for Apple’s new model, here are our top recommendations. more…",
+          "url": "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
+          "created_at": "2026-10-16T13:17:34+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Best iPhone Duo cases now available for purchase: Fabric, leather, aramid fiber, metal, more. Apple’s new iPhone Duo Apple’s all-new TechWoven treatment and Pitaka’s aramid fiber, we are also seeing some of the best leather brands in the business ready to take orders for their latest full-grain covers. Those, of course, join some ultra-affordable models starting from $27 or less and you can scope them all out below. more…",
+          "url": "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
+          "created_at": "2026-10-16T15:00:36+00:00",
           "engagement": 0
         },
         {
@@ -179,26 +190,88 @@
           "engagement": 0
         },
         {
-          "author": "GoogleDeepMind",
-          "tier": "commentary",
-          "text": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours.\n\nOperating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓\nhttps://t.co/uyIhDOQXGT",
-          "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
-          "created_at": "2026-10-16T16:11:50+00:00",
-          "engagement": 869
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "ChatGPT gets deeper Google Chrome integration including control over tabs. OpenAI this week announced deeper integration between ChatGPT and Google Chrome, including the ability to hand control over your tabs to the AI assistant. more…",
+          "url": "https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/",
+          "created_at": "2026-10-16T17:50:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs. OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs appeared first on The Decoder .",
+          "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+          "created_at": "2026-10-16T18:10:27+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Friday’s Android app deals and freebies: Majesty, Boxville 2, Dungeon Defense, Mythic Trials 2, more. Friday’s best Google Play app and game deals are ready, including Majesty: The Fantasy Kingdom, Majesty－The Northern Expansion, Boxville 2, Dungeon Defense, Mythic Trials 2, Tempest: Pirate RPG Premium, The Tiny Bang Story: Premium, MiniChess by Kasparov, and more. Just be sure to dive into Nothing’s Glyph Matrix-equipped Phone (3) at up to $300 off and Best Buy’s 1-day Windows Copilot+ PC flash sale at up to $500 off . The apps await below. more…",
+          "url": "https://9to5toys.com/2026/10/16/todays-highlight-google-play-deals-30/",
+          "created_at": "2026-10-16T18:57:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
+          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+          "created_at": "2026-10-16T19:47:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "iPhone Duo vs iPhone 18 Pro: Here’s every key difference. Apple has strong pitches for all of its flagship iPhones this fall, but which model is right for you? Here’s an overview of the key differences between iPhone Duo and iPhone 18 Pro. more…",
+          "url": "https://9to5mac.com/2026/10/16/iphone-18-pro-vs-iphone-duo-heres-every-key-difference/",
+          "created_at": "2026-10-16T19:55:17+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c63c47939",
+      "score": 10.629,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [],
+      "independent_sources": [
+        "TechCrunch AI",
+        "testingcatalog"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-16T16:01:37+00:00",
+      "last_seen": "2026-10-16T19:17:24+00:00",
+      "links": [
+        "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+        "https://x.com/testingcatalog/status/2111174690337177607"
+      ],
+      "posts": [
+        {
+          "author": "TechCrunch AI",
+          "tier": "press",
+          "text": "Elorian’s first AI model wants to reason with images, not just about them. According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "created_at": "2026-10-16T16:01:37+00:00",
+          "engagement": 0
         },
         {
           "author": "testingcatalog",
           "tier": "commentary",
-          "text": "ICYMI: Google AI Studio Build now has Pan and Max modes available.\n\n> \"Max mode - Work longer for better results\"\n> \"Plan mode - Create a plan before making changes\"\n\nGemini 4 Argon MAX",
-          "url": "https://x.com/testingcatalog/status/2111130452111114618",
-          "created_at": "2026-10-16T16:21:37+00:00",
-          "engagement": 187
+          "text": "Elorian has released Glimpse, its first AI model, which can go back and reanalyze part of an image or video mid-thought. On Elorian's own tests, Glimpse scored better than GPT-6 Astra on scientific chart reading and short-form video captioning. Robot arm simulation planning cost $0.035 vs. $0.249 for GPT-6 Astra.",
+          "url": "https://x.com/testingcatalog/status/2111174690337177607",
+          "created_at": "2026-10-16T19:17:24+00:00",
+          "engagement": 34,
+          "video": true
         }
       ]
     },
     {
       "cluster_id": "cb1f68fb3",
-      "score": 10.679,
+      "score": 10.345,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -236,138 +309,67 @@
       ]
     },
     {
-      "cluster_id": "c119f6c19",
-      "score": 8.952,
+      "cluster_id": "c9db4940a",
+      "score": 8.327,
       "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Google",
-        "Apple"
-      ],
+      "single_source": true,
+      "suggested_section": "ai",
+      "entities": [],
       "independent_sources": [
-        "9to5Mac",
-        "The Verge AI"
+        "OpenAI"
       ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T21:25:15+00:00",
-      "last_seen": "2026-10-16T15:00:36+00:00",
+      "source_count": 1,
+      "first_seen": "2026-10-16T00:00:00+00:00",
+      "last_seen": "2026-10-16T00:00:00+00:00",
       "links": [
-        "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-        "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
-        "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
-        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+        "https://openai.com/index/stack-overflow-chatgpt-plugin"
       ],
       "posts": [
         {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "9to5Mac Daily: October 15, 2026 – OpenAI vs Apple, iPhone Duo details. Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-          "url": "https://9to5mac.com/2026/10/15/daily-october-15-2026/",
-          "created_at": "2026-10-15T21:25:15+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "ChatGPT can peek at your Chrome tabs now. OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-          "created_at": "2026-10-15T22:43:23+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "iPhone Duo accessories: Here are five top picks for Apple’s foldable. iPhone Duo is almost here, so if you want to get a head start on accessories for Apple’s new model, here are our top recommendations. more…",
-          "url": "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
-          "created_at": "2026-10-16T13:17:34+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Mac",
-          "tier": "press",
-          "text": "Best iPhone Duo cases now available for purchase: Fabric, leather, aramid fiber, metal, more. Apple’s new iPhone Duo Apple’s all-new TechWoven treatment and Pitaka’s aramid fiber, we are also seeing some of the best leather brands in the business ready to take orders for their latest full-grain covers. Those, of course, join some ultra-affordable models starting from $27 or less and you can scope them all out below. more…",
-          "url": "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
-          "created_at": "2026-10-16T15:00:36+00:00",
+          "author": "OpenAI",
+          "tier": "primary",
+          "text": "Stack Overflow for Agents triples signups with ChatGPT plugin. Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+          "created_at": "2026-10-16T00:00:00+00:00",
           "engagement": 0
         }
       ]
     },
     {
-      "cluster_id": "c658e208c",
-      "score": 6.455,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "Amazon"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "The Verge AI"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T19:55:25+00:00",
-      "last_seen": "2026-10-15T19:57:16+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-        "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps. Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
-          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-          "created_at": "2026-10-15T19:55:25+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social. Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni Schneider said [&#8230;]",
-          "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-          "created_at": "2026-10-15T19:57:16+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c9ca57101",
-      "score": 5.644,
+      "cluster_id": "cdb205fe4",
+      "score": 6.416,
       "interest": "neutral",
       "single_source": false,
-      "suggested_section": "ai",
+      "suggested_section": "policy",
       "entities": [
-        "Anthropic"
+        "Google"
       ],
       "independent_sources": [
-        "TechCrunch AI",
-        "The Decoder"
+        "Bloomberg Tech",
+        "The Verge AI"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-15T19:14:26+00:00",
-      "last_seen": "2026-10-16T13:11:55+00:00",
+      "first_seen": "2026-10-15T21:09:33+00:00",
+      "last_seen": "2026-10-16T18:50:56+00:00",
       "links": [
-        "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-        "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/"
+        "https://www.bloomberg.com/news/videos/2026-10-16/hard-to-overstate-volatility-of-wh-ai-messaging-allen-video",
+        "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column"
       ],
       "posts": [
         {
-          "author": "TechCrunch AI",
+          "author": "The Verge AI",
           "tier": "press",
-          "text": "Anthropic is letting METR researchers look under the hood with employee-level access. METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
-          "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-          "created_at": "2026-10-15T19:14:26+00:00",
+          "text": "Trump posts AI-edited photo to brag about White House restoration work. President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector as \"made or [&#8230;]",
+          "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+          "created_at": "2026-10-15T21:09:33+00:00",
           "engagement": 0
         },
         {
-          "author": "The Decoder",
+          "author": "Bloomberg Tech",
           "tier": "press",
-          "text": "Anthropic gives METR inside access to audit its AI models and safety practices. Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
-          "created_at": "2026-10-16T13:11:55+00:00",
+          "text": "'Difficult to Overstate' Volatility of White House AI Messaging, Says Greg Allen. Greg Allen, Founder and CEO of Decision Tree Research and former AI strategy official at the Department of Defense, said that it is 'extremely difficult to overstate' how volatile the Trump administration's messaging has been on artificial intelligence regulations as it swings between dismissing AI safety fears and requiring mandatory regulations. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-16/hard-to-overstate-volatility-of-wh-ai-messaging-allen-video",
+          "created_at": "2026-10-16T18:50:56+00:00",
           "engagement": 0
         }
       ]
