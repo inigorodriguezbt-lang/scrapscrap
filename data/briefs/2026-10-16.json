@@ -1,123 +1,87 @@
 {
-  "generated_at": "2026-10-16T08:03:43.227702+00:00",
+  "generated_at": "2026-10-16T10:04:16.236933+00:00",
   "edition_date": "2026-10-16",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 128,
-  "clusters_found": 93,
-  "stories_declared": 10,
+  "posts_considered": 138,
+  "clusters_found": 101,
+  "stories_declared": 9,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c4b0ad37d",
-      "score": 16.122,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Meta",
-        "Nvidia",
-        "Hugging Face"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "NVIDIA",
-        "NVIDIA Developer",
-        "The Decoder",
-        "testingcatalog"
-      ],
-      "source_count": 5,
-      "first_seen": "2026-10-15T15:00:24+00:00",
-      "last_seen": "2026-10-16T07:05:02+00:00",
-      "links": [
-        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-        "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
-        "https://x.com/testingcatalog/status/2110990382670467547"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "created_at": "2026-10-15T15:00:24+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
-          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-          "created_at": "2026-10-15T16:09:44+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
-          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-          "created_at": "2026-10-15T18:01:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "Nscale's Flagship Data Center Hit by Delays Ahead of IPO. Artificial intelligence infrastructure firm Nscale is seeking to raise up to $3 billion in an initial public offering as soon as this month, just as investors are growing increasingly wary of the risks of the AI buildout. The UK firm has also been hit by regulatory hurdles, a fire and other delays during construction of a flagship data center in Norway. Bloomberg's Paula Doenecke reports. (Source: Bloomberg)",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
-          "created_at": "2026-10-16T06:53:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
-          "tier": "commentary",
-          "text": "DAILY AI BRIEF Oct 16 META: Meta released Muse Spark Open, an open-weight 816B-total, 42B-active MoE model with a 1M-token context window, on Hugging Face and optimized to run locally on Mac Studio. NVIDIA: released Nemotron 3.5 Super VL, an open 120B-total, 12B-active multimodal model for long-running AI agents. Nemotron 3.5 Bolt 24GB fits into 24GB. OPENAI: rolling out GPT-Live-1.1 to Voice in ChatGPT, Codex for all users, new voices in six languages",
-          "url": "https://x.com/testingcatalog/status/2110990382670467547",
-          "created_at": "2026-10-16T07:05:02+00:00",
-          "engagement": 48
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2bb47f48",
-      "score": 12.258,
+      "cluster_id": "cefc44280",
+      "score": 13.451,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
         "Meta",
         "Nvidia",
+        "Microsoft",
         "Apple",
-        "Amazon"
+        "Amazon",
+        "AMD"
       ],
       "independent_sources": [
         "9to5Mac",
         "AWS ML",
+        "Engadget",
+        "NVIDIA",
         "NVIDIA Developer",
         "TechCrunch AI",
         "The Decoder",
-        "The Verge AI"
+        "The Verge AI",
+        "Tom's Hardware",
+        "Wired AI"
       ],
-      "source_count": 6,
-      "first_seen": "2026-10-15T16:21:45+00:00",
-      "last_seen": "2026-10-15T20:04:53+00:00",
+      "source_count": 10,
+      "first_seen": "2026-10-15T12:00:21+00:00",
+      "last_seen": "2026-10-15T21:18:15+00:00",
       "links": [
         "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
         "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
         "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
         "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+        "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+        "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
         "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-        "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
+        "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+        "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+        "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
+        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/"
       ],
       "posts": [
         {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "We tested the RTX Spark Superchip in Microsoft's Surface Laptop Ultra. We've tested Nvidia's RTX Spark against the latest and greatest from Apple and AMD to see how Nvidia's efforts to transform the PC for the agentic AI era stack up.",
+          "url": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
+          "created_at": "2026-10-15T12:00:21+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI. NVIDIA's RTX Spark is meant for AI fiends, but it could end up helping Windows PCs in general",
+          "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
+          "created_at": "2026-10-15T13:00:00+00:00",
+          "engagement": 0
+        },
+        {
           "author": "The Verge AI",
           "tier": "press",
-          "text": "Friends don&#8217;t let friends feed their data to AI agents. There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
-          "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-          "created_at": "2026-10-15T16:21:45+00:00",
+          "text": "How Windows is being optimized for Nvidia’s RTX Spark laptops. Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear [&#8230;]",
+          "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+          "created_at": "2026-10-15T14:30:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Tom's Hardware",
+          "tier": "press",
+          "text": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999. Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo.",
+          "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+          "created_at": "2026-10-15T14:30:00+00:00",
           "engagement": 0
         },
         {
@@ -126,6 +90,22 @@
           "text": "Meta launches new Muse Spark Open model, optimized to run on Mac Studio. Meta today unveiled Muse Spark Open, which it says is the “most capable US open-weight model to date.” For Apple users, Meta says Muse Spark Open is optimized to run on the Mac Studio powered by M5 Ultra. more…",
           "url": "https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/",
           "created_at": "2026-10-15T17:00:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark. A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+          "created_at": "2026-10-15T17:00:23+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it. Muse Spark Open is &#34;the most capable US open-weight model to date,&#34; the company says.",
+          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+          "created_at": "2026-10-15T17:02:48+00:00",
           "engagement": 0
         },
         {
@@ -167,12 +147,79 @@
           "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
           "created_at": "2026-10-15T20:04:53+00:00",
           "engagement": 0
+        },
+        {
+          "author": "Wired AI",
+          "tier": "press",
+          "text": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView. This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+          "created_at": "2026-10-15T21:18:15+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c008f5514",
+      "score": 12.004,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Nvidia"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "NVIDIA",
+        "NVIDIA Developer",
+        "The Decoder"
+      ],
+      "source_count": 4,
+      "first_seen": "2026-10-15T15:00:24+00:00",
+      "last_seen": "2026-10-16T06:53:01+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+        "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+        "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models. NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "created_at": "2026-10-15T15:00:24+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop. With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware. The article Nvidia&#039;s Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder .",
+          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+          "created_at": "2026-10-15T16:09:44+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "NVIDIA Developer",
+          "tier": "primary",
+          "text": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning. Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "created_at": "2026-10-15T18:01:00+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Nscale's Flagship Data Center Hit by Delays Ahead of IPO. Artificial intelligence infrastructure firm Nscale is seeking to raise up to $3 billion in an initial public offering as soon as this month, just as investors are growing increasingly wary of the risks of the AI buildout. The UK firm has also been hit by regulatory hurdles, a fire and other delays during construction of a flagship data center in Norway. Bloomberg's Paula Doenecke reports. (Source: Bloomberg)",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-16/nscale-s-flagship-data-center-hit-by-delays-ahead-of-ipo-video",
+          "created_at": "2026-10-16T06:53:01+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c66bef6fc",
-      "score": 11.565,
+      "score": 11.23,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -239,58 +286,57 @@
       ]
     },
     {
-      "cluster_id": "c96264637",
-      "score": 8.852,
+      "cluster_id": "ce9d8d3a8",
+      "score": 8.039,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "models",
+      "suggested_section": "products",
       "entities": [
-        "Nvidia",
-        "Microsoft"
+        "Google",
+        "Amazon"
       ],
       "independent_sources": [
-        "Engadget",
-        "NVIDIA",
-        "The Verge AI"
+        "9to5Google",
+        "Engadget"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-15T13:00:00+00:00",
-      "last_seen": "2026-10-15T17:00:23+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-15T15:44:02+00:00",
+      "last_seen": "2026-10-16T08:31:48+00:00",
       "links": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-        "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
-        "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad"
+        "https://9to5google.com/2026/10/15/deals-samsung-week-now-live-galaxy-book-6-moto-tag-2/",
+        "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
+        "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/"
       ],
       "posts": [
         {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Deals: Samsung Week 2026 now live, Galaxy Book 6 $500 off, Moto Tag 2 trackers from $17.50 each, OLED Chromebook, more. Alongside the return of the latest Moto Tag 2 Android Find Hub trackers in-stock again at $17.50 each on Amazon, today’s 9to5Toys Lunch Break is headlined by the now live Samsung Week 2026 sale – save hundreds on new Tab S12, Fold 8, and the latest Galaxy Book6 Copilot+ PCs at up to $500 off . For today only, we also have Lenovo’s 14-inch touchscreen OLED Chromebook with the Kompanio Ultra chip and Google AI features at $320 off alongside a host of charger and headphone deals to scope out below. more…",
+          "url": "https://9to5google.com/2026/10/15/deals-samsung-week-now-live-galaxy-book-6-moto-tag-2/",
+          "created_at": "2026-10-15T15:44:02+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Today’s Android app deals and freebies: Live or Die, Endling, Cat Lady, more. Today’s best Google Play app and game deals are ready, including Live or Die 1: Survival Pro, Neighbours from Hell 1 Premium, Gun Tactics, Endling Extinction is Forever, Cat Lady, Braveland, and more. Just be sure to dive into the now live Samsung Week 2026 sale , these Galaxy Book6 Copilot+ PCs at up to $500 off , and another shot at scoring the latest Moto Tag 2 Android Find Hub trackers at $17.50 each. The apps await below. more…",
+          "url": "https://9to5toys.com/2026/10/15/todays-highlight-google-play-deals-29/",
+          "created_at": "2026-10-15T17:46:45+00:00",
+          "engagement": 0
+        },
+        {
           "author": "Engadget",
           "tier": "press",
-          "text": "NVIDIA's RTX Spark is good for Windows, even if you don't need local AI. NVIDIA's RTX Spark is meant for AI fiends, but it could end up helping Windows PCs in general",
-          "url": "https://www.engadget.com/2287239/nvidia-rtx-spark-good-for-windows-even-if-you-do-not-need-local-ai/",
-          "created_at": "2026-10-15T13:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "How Windows is being optimized for Nvidia’s RTX Spark laptops. Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear [&#8230;]",
-          "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-          "created_at": "2026-10-15T14:30:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "NVIDIA",
-          "tier": "primary",
-          "text": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark. A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-          "created_at": "2026-10-15T17:00:23+00:00",
+          "text": "Gmail's Live AI search feature arrives for Google AI subscribers. Gmail's search can be frustrating and basic, but Google is finally smartening it up for AI plan subscribers.",
+          "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+          "created_at": "2026-10-16T08:31:48+00:00",
           "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "c7eec3aae",
-      "score": 6.959,
+      "score": 6.624,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -340,7 +386,7 @@
     },
     {
       "cluster_id": "c4819592f",
-      "score": 6.937,
+      "score": 6.602,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -388,7 +434,7 @@
     },
     {
       "cluster_id": "cf7979c61",
-      "score": 6.138,
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "models",
@@ -426,29 +472,26 @@
       ]
     },
     {
-      "cluster_id": "cc3c30517",
-      "score": 5.342,
+      "cluster_id": "cdbafd225",
+      "score": 3.948,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
       "entities": [
         "OpenAI",
-        "Meta",
         "Apple"
       ],
       "independent_sources": [
         "9to5Mac",
-        "The Verge AI",
-        "Wired AI"
+        "The Verge AI"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "first_seen": "2026-10-15T15:05:02+00:00",
       "last_seen": "2026-10-15T21:39:52+00:00",
       "links": [
         "https://9to5mac.com/2026/10/15/apple-svp-greg-joswiak-we-dont-feel-threatened-by-openai-hardware-plans/",
         "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
-        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-        "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/"
+        "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial"
       ],
       "posts": [
         {
@@ -468,14 +511,6 @@
           "engagement": 0
         },
         {
-          "author": "Wired AI",
-          "tier": "press",
-          "text": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView. This week on “Uncanny Valley,” we dive into an unexpected Muse feature, shadowy spending from the largest pro-AI super PAC, and men’s tendency to lie about how much they know about AI.",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-          "created_at": "2026-10-15T21:18:15+00:00",
-          "engagement": 0
-        },
-        {
           "author": "The Verge AI",
           "tier": "press",
           "text": "The tech backlash is now in theaters. Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
@@ -487,7 +522,7 @@
     },
     {
       "cluster_id": "c32283b9b",
-      "score": 4.193,
+      "score": 3.859,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "security",
@@ -521,54 +556,6 @@
           "text": "FTC subpoenas OpenAI and Anthropic following safety failures. The FTC is investigating possible consumer harms at two major AI companies.",
           "url": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures/",
           "created_at": "2026-10-15T19:28:53+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "c2a59b021",
-      "score": 2.065,
-      "interest": "dull",
-      "single_source": false,
-      "suggested_section": "business",
-      "entities": [
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "Simon Willison",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-15T09:50:43+00:00",
-      "last_seen": "2026-10-15T15:27:25+00:00",
-      "links": [
-        "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-        "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO. Anthropic hit $16.8 billion in third-quarter revenue, a 45 percent gain that still falls far short of Q2's 140 percent surge. With a November IPO approaching, some investors now expect the company's valuation to drop below $1.5 trillion. Slowing growth and a tough market are cooling expectations for the AI boom's biggest Wall Street test yet. The article Anthropic&#039;s Q3 revenue hits $16.8B but growth slows ahead of planned November IPO appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-          "created_at": "2026-10-15T09:50:43+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Simon Willison",
-          "tier": "commentary",
-          "text": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO. Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is wo",
-          "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-          "created_at": "2026-10-15T13:04:03+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic's Mythos and other AI models. Bank of America has hired 1,000 outside contractors to fix software vulnerabilities uncovered by AI models like Anthropic's Mythos, CNBC reports. The article Bank of America puts 4,000 people on fixing vulnerabilities uncovered by Anthropic&#039;s Mythos and other AI models appeared first on The Decoder .",
-          "url": "https://the-decoder.com/bank-of-america-puts-4000-people-on-fixing-vulnerabilities-uncovered-by-anthropics-mythos-and-other-ai-models/",
-          "created_at": "2026-10-15T15:27:25+00:00",
           "engagement": 0
         }
       ]

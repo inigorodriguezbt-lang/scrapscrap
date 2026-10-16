@@ -276,6 +276,67 @@
    },
    "published_at": "2026-10-16T01:38:36+00:00",
    "id": "authors-of-3dcodeverse-say-fine-tuning"
+  },
+  {
+   "text": "Unitree introduced UniUni, a swarm control system for choreographing groups of robots, with real-time status monitoring and safety braking, and posted a demo video on X.",
+   "why": "It points Unitree's gala-style formation demos toward a product, though the post gives no robot count, price or release date.",
+   "source": {
+    "name": "Unitree",
+    "url": "https://x.com/UnitreeRobotics/status/2111015545869107471"
+   },
+   "published_at": "2026-10-16T08:45:01+00:00",
+   "embed": "https://x.com/UnitreeRobotics/status/2111015545869107471",
+   "id": "unitree-introduced-uniuni-a-swarm-control"
+  },
+  {
+   "text": "Hesamation says Stanford has posted a 45-minute lecture from SpaceX on how the Grok Bot works, covering always-on agent architecture, harness design and context engineering for long tasks.",
+   "why": "It is a rare engineering walkthrough of a deployed always-on agent; the claims are Hesamation's summary and we have not watched the lecture.",
+   "source": {
+    "name": "Hesamation on X",
+    "url": "https://x.com/Hesamation/status/2111013795858374743"
+   },
+   "published_at": "2026-10-16T08:38:04+00:00",
+   "id": "hesamation-says-stanford-has-posted-a"
+  },
+  {
+   "text": "Tongyi-MAI released OpenGCUA, a first open stack for computer-use agents, and says its harness lifted mean partial score on OSWorld-v2 by 19.6 points across eight models.",
+   "why": "The release is a harness, trajectories and a macOS and cross-device SDK, not new weights, so the gain is the authors' own measurement.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.22200"
+   },
+   "published_at": "2026-10-16T08:00:00+00:00",
+   "id": "tongyi-mai-released-opengcua-a-first"
+  },
+  {
+   "text": "A paper from Zhongguancun Academy says GPT-5.4-nano with its HarnessOpt method scored 77.58% on SpreadsheetBench, above GPT-5.5 with SkillOpt at 76.20%, with model weights held fixed.",
+   "why": "The authors say agents can revise their own prompts and workflows between runs, and caution the result does not show superiority at matched cost.",
+   "source": {
+    "name": "Hugging Face papers",
+    "url": "https://huggingface.co/papers/2610.18813"
+   },
+   "published_at": "2026-10-16T08:00:00+00:00",
+   "id": "a-paper-from-zhongguancun-academy-says"
+  },
+  {
+   "text": "A paper advised by Li Fei-Fei trains image tokenizers with a generative model and says it improves ImageNet FID from 2.36 to 2.18 at similar compute, per alphaXiv's summary.",
+   "why": "The authors extrapolate that tokenizer training could need 7 to 8 times less compute than DINOv2 or WebSSL, which is a projection, not a measured run.",
+   "source": {
+    "name": "alphaXiv on X",
+    "url": "https://x.com/askalphaxiv/status/2111011583141019787"
+   },
+   "published_at": "2026-10-16T08:29:16+00:00",
+   "id": "a-paper-advised-by-li-fei"
+  },
+  {
+   "text": "Nvidia says it is expanding its strategic partnership with Mercedes-Benz to develop driver-assistance and automated driving systems, and that Mercedes will keep to its high safety standards.",
+   "why": "Nvidia's post gives no vehicle models, dates or terms, so what ships and when is not yet known.",
+   "source": {
+    "name": "Nvidia",
+    "url": "https://x.com/nvidia/status/2111005194058179020"
+   },
+   "published_at": "2026-10-16T08:03:53+00:00",
+   "id": "nvidia-says-it-is-expanding-its"
   }
  ]
 }
