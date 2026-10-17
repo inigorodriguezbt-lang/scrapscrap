@@ -158,6 +158,87 @@
    },
    "published_at": "2026-10-17T01:21:20+00:00",
    "id": "perplexity-ceo-aravind-srinivas-says-vercel"
+  },
+  {
+   "text": "ComfyUI posted on X that it is on its way to open-sourcing Higgsfield, with a short video attached. The post gives no date or licence, and Higgsfield has not confirmed it.",
+   "why": "Higgsfield is a commercial AI video app, so an open version inside ComfyUI would put its workflows in reach of local users.",
+   "source": {
+    "name": "ComfyUI on X",
+    "url": "https://x.com/ComfyUI/status/2111290899342950687"
+   },
+   "published_at": "2026-10-17T02:59:10+00:00",
+   "embed": "https://x.com/ComfyUI/status/2111290899342950687",
+   "id": "comfyui-posted-on-x-that-it"
+  },
+  {
+   "text": "Developer teortaxesTex says DeepSeek's flash endpoint changed its system_fingerprint overnight and suspects a V4.1-Flash-1017 update that feels smarter but terser. DeepSeek has not announced a release.",
+   "why": "A fingerprint change shows the backend was swapped, but only DeepSeek can say what changed.",
+   "source": {
+    "name": "teortaxesTex on X",
+    "url": "https://x.com/teortaxesTex/status/2111297187560722758"
+   },
+   "published_at": "2026-10-17T03:24:10+00:00",
+   "id": "developer-teortaxestex-says-deepseek-s-flash"
+  },
+  {
+   "text": "Security firm AIR Security says an official OpenAI agent skill named an unregistered domain as Render's private network, and that it registered it and saw production apps send tokens there, per Intel Cyber Digest.",
+   "why": "If confirmed, skills that hard-code hostnames can quietly point agents at attacker-registrable domains; Render fixed its copy while OpenAI's reportedly still carries it.",
+   "source": {
+    "name": "Intel Cyber Digest on X",
+    "url": "https://x.com/IntCyberDigest/status/2111287331252531587"
+   },
+   "published_at": "2026-10-17T02:45:00+00:00",
+   "id": "security-firm-air-security-says-an"
+  },
+  {
+   "text": "Anthropic's engineering blog says Claude writes about 90% of Claude Code's own code, and that the share of internal PRs getting substantive review comments rose from 16% to 54% after AI review launched.",
+   "why": "The post, which drew 267 points on Hacker News, is a rare account of how a major lab reviews agent-written code.",
+   "source": {
+    "name": "Claude Dev blog",
+    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+   },
+   "published_at": "2026-10-17T00:00:00+00:00",
+   "id": "anthropic-s-engineering-blog-says-claude"
+  },
+  {
+   "text": "Bloomberg, citing Politico, reports Anthropic has presented US lawmakers with its own draft AI safety and security bill, which would limit when the government could block a model's release.",
+   "why": "Anthropic drafting its own statute puts a lab's preferred rules into the congressional debate; neither outlet's text of the bill is public.",
+   "source": {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says"
+   },
+   "published_at": "2026-10-16T22:25:33+00:00",
+   "id": "bloomberg-citing-politico-reports-anthropic-has"
+  },
+  {
+   "text": "The Financial Times reports, citing sources, that Anthropic is offering Blackstone a yield above 10% on a $60 billion debt package to buy Google TPUs, with Blackstone putting in $9 billion.",
+   "why": "Earlier reports put similar TPU financings near $36 billion, so the figure is unconfirmed and the package appears to have grown.",
+   "source": {
+    "name": "Financial Times",
+    "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89"
+   },
+   "published_at": "2026-10-17T01:40:00+00:00",
+   "id": "the-financial-times-reports-citing-sources"
+  },
+  {
+   "text": "Bloomberg reports SoftBank is weighing a purchase of US security giant Allied Universal at roughly $18 billion equity value, as Masayoshi Son explores putting AI-powered robots into security work.",
+   "why": "It would be a bet that guard-and-patrol robots can reach scale through an incumbent's customer base; no deal has been announced.",
+   "source": {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-16/softbank-is-said-to-weigh-buying-largest-us-security-firm-allied"
+   },
+   "published_at": "2026-10-16T19:50:00+00:00",
+   "id": "bloomberg-reports-softbank-is-weighing-a"
+  },
+  {
+   "text": "Ollama says it is heading to Seoul this November to meet users and partners, and will team up with FriendliAI while there, with details to follow.",
+   "why": "The local-model runner is courting Korea's developer community, which points to growing demand for self-hosted open models there.",
+   "source": {
+    "name": "Ollama on X",
+    "url": "https://x.com/ollama/status/2111274755777290474"
+   },
+   "published_at": "2026-10-17T01:55:02+00:00",
+   "id": "ollama-says-it-is-heading-to"
   }
  ]
 }
