@@ -1,15 +1,113 @@
 {
-  "generated_at": "2026-10-17T08:03:10.412509+00:00",
+  "generated_at": "2026-10-17T10:03:34.164766+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 72,
-  "clusters_found": 61,
-  "stories_declared": 3,
+  "posts_considered": 80,
+  "clusters_found": 66,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "ca4aacceb",
+      "score": 14.098,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "deepseek_ai",
+        "kimmonismus",
+        "testingcatalog"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-17T08:35:57+00:00",
+      "last_seen": "2026-10-17T09:16:18+00:00",
+      "links": [
+        "https://x.com/deepseek_ai/status/2111375650414309859",
+        "https://x.com/kimmonismus/status/2111385805449048181",
+        "https://x.com/testingcatalog/status/2111380259295653976"
+      ],
+      "posts": [
+        {
+          "author": "deepseek_ai",
+          "tier": "commentary",
+          "text": "🔍 Search & Fetch APIs are now open to everyone!\n\nPowered by our in-house search engine, serving hundreds of millions of requests daily worldwide.\n\n💰 Each endpoint: $0.75 per 1,000 calls.\n📌 Search & Fetch calls via server-side tools in DeepSeek Harness, Claude Code, and Codex are currently free for DeepSeek API users. Billing starts Oct 31, 2026, at 16:00 UTC.\n\n3/4",
+          "url": "https://x.com/deepseek_ai/status/2111375650414309859",
+          "created_at": "2026-10-17T08:35:57+00:00",
+          "engagement": 415
+        },
+        {
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "BREAKING: DeepSeek released DeepSeek-V4.1-Flash-1017, a new open-weight model. It scores 77% on DeepSWE 1.1 benchmark, outperforming GLM-5.3, Kimi K3 and GPT-5.6 Sol and Opus 5. Available on DeepSeek Chat and APIs as well as HuggingFace.",
+          "url": "https://x.com/testingcatalog/status/2111380259295653976",
+          "created_at": "2026-10-17T08:54:16+00:00",
+          "engagement": 206
+        },
+        {
+          "author": "kimmonismus",
+          "tier": "commentary",
+          "text": "DeepSeek V4.1 Flash-1017 beats GPT-5.6 Sol and Opus 5 on selected coding and agent benchmarks, at much lower token prices. DeepSeek Flash-1017: $0.15 / $0.60 off-peak; $0.30 / $1.20 peak. GPT-5.6 Sol: $4 / $20. Claude Opus 5: $5 / $25. DeepSWE: 77.0 vs 74.2 previous Flash",
+          "url": "https://x.com/kimmonismus/status/2111385805449048181",
+          "created_at": "2026-10-17T09:16:18+00:00",
+          "engagement": 261
+        }
+      ]
+    },
+    {
+      "cluster_id": "c46d369e8",
+      "score": 8.71,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-16T15:03:46+00:00",
+      "last_seen": "2026-10-17T09:54:36+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+        "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months. Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+          "created_at": "2026-10-16T15:03:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
+          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+          "created_at": "2026-10-16T19:47:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help. AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your prompt can help appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+          "created_at": "2026-10-17T09:54:36+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "c72b0d263",
-      "score": 8.579,
+      "score": 8.575,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -69,48 +167,8 @@
       ]
     },
     {
-      "cluster_id": "ce8060e37",
-      "score": 6.581,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-16T15:03:46+00:00",
-      "last_seen": "2026-10-16T19:47:01+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months. Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-          "created_at": "2026-10-16T15:03:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
-          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-          "created_at": "2026-10-16T19:47:01+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cb4522c1f",
-      "score": 6.312,
+      "score": 6.125,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
