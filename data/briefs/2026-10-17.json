@@ -1,99 +1,48 @@
 {
-  "generated_at": "2026-10-17T12:04:30.434657+00:00",
+  "generated_at": "2026-10-17T14:03:10.550776+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 78,
-  "clusters_found": 66,
-  "stories_declared": 4,
+  "posts_considered": 70,
+  "clusters_found": 57,
+  "stories_declared": 5,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cc4a0811c",
-      "score": 13.513,
+      "cluster_id": "cef192aa5",
+      "score": 10.842,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "DeepSeek",
-        "Amazon"
+        "DeepSeek"
       ],
       "independent_sources": [
-        "AWS ML",
-        "vllm_project"
+        "The Decoder",
+        "teortaxesTex"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-16T15:23:10+00:00",
-      "last_seen": "2026-10-17T10:18:37+00:00",
+      "first_seen": "2026-10-17T10:33:28+00:00",
+      "last_seen": "2026-10-17T12:22:44+00:00",
       "links": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
-        "https://x.com/vllm_project/status/2111401488392343722"
-      ],
-      "posts": [
-        {
-          "author": "AWS ML",
-          "tier": "primary",
-          "text": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS. Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
-          "created_at": "2026-10-16T15:23:10+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "vllm_project",
-          "tier": "commentary",
-          "text": "🎉 Congrats @deepseek_ai on DeepSeek-V4.1-Flash-1017! Better scores and shorter outputs make it a great fit for long agent loops. Making each step fast is the serving side's job.\n\nOn DeepSeek-V4.1-Flash, vLLM delivers 1.3B tokens per dollar TCO on SemiAnalysis AgentX: 830K tok/s per GPU (cached + input + output) at 100 tok/s per user. 🚀\n\nIt's been a fun few weeks building with the community. Chapter one, 5x agentic throughput since day 0:\n🔗 https://t.co/2ZE4ZPrsBx\n\nNext chapter coming soon. 👀",
-          "url": "https://x.com/vllm_project/status/2111401488392343722",
-          "created_at": "2026-10-17T10:18:37+00:00",
-          "engagement": 114
-        }
-      ]
-    },
-    {
-      "cluster_id": "c54fb17c7",
-      "score": 12.915,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder",
-        "testingcatalog"
-      ],
-      "source_count": 3,
-      "first_seen": "2026-10-16T15:03:46+00:00",
-      "last_seen": "2026-10-17T10:49:40+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-        "https://x.com/testingcatalog/status/2111409303701577925"
+        "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+        "https://x.com/teortaxesTex/status/2111432725169414458"
       ],
       "posts": [
         {
           "author": "The Decoder",
           "tier": "press",
-          "text": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months. Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-          "created_at": "2026-10-16T15:03:46+00:00",
+          "text": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs. Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code and Codex get free access for now. The article Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs appeared first on The Decoder .",
+          "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+          "created_at": "2026-10-17T10:33:28+00:00",
           "engagement": 0
         },
         {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
-          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-          "created_at": "2026-10-16T19:47:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "testingcatalog",
+          "author": "teortaxesTex",
           "tier": "commentary",
-          "text": "DAILY AI BRIEF 🗞 — Oct 17\n\nOPENAI 🔥:\n- OpenAI upgraded GPT-6 Astra Pro in ChatGPT with faster responses, better plugin and tool use, and multiple agents working in parallel, now available to Pro users.\n- Codex and Work now give more effective usage by reusing context across subagents, caching it longer, and routing requests for more cache hits.\n\nGOOGLE 🔥:\n- Google AI Pro subscribers can now build with Gemini 4 Argon in AI Studio Build and the playground.\n- Google AI Studio Build added Plan and Max modes for planning before changes and working longer for better results.",
-          "url": "https://x.com/testingcatalog/status/2111409303701577925",
-          "created_at": "2026-10-17T10:49:40+00:00",
-          "engagement": 87
+          "text": "I'm very interested in seeing whether the new model finally has unambiguously better performance in DSH vs other harnesses (pi, omp, Claude Code, Codex). Time to integrate all product lines.",
+          "url": "https://x.com/teortaxesTex/status/2111432725169414458",
+          "created_at": "2026-10-17T12:22:44+00:00",
+          "engagement": 63
         }
       ]
     },
@@ -149,6 +98,55 @@
       ]
     },
     {
+      "cluster_id": "c46d369e8",
+      "score": 8.045,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Google"
+      ],
+      "independent_sources": [
+        "9to5Google",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-16T15:03:46+00:00",
+      "last_seen": "2026-10-17T09:54:36+00:00",
+      "links": [
+        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+        "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months. Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder .",
+          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+          "created_at": "2026-10-16T15:03:46+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
+          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+          "created_at": "2026-10-16T19:47:01+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help. AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your prompt can help appeared first on The Decoder .",
+          "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+          "created_at": "2026-10-17T09:54:36+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
       "cluster_id": "cb4522c1f",
       "score": 6.125,
       "interest": "want",
@@ -184,6 +182,45 @@
           "text": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs. OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs appeared first on The Decoder .",
           "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
           "created_at": "2026-10-16T18:10:27+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf725797e",
+      "score": 5.553,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Apple"
+      ],
+      "independent_sources": [
+        "9to5Mac",
+        "Engadget"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-16T22:17:07+00:00",
+      "last_seen": "2026-10-17T12:35:56+00:00",
+      "links": [
+        "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
+        "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/"
+      ],
+      "posts": [
+        {
+          "author": "9to5Mac",
+          "tier": "press",
+          "text": "Apple’s new App Store rules crack down on AI nudification and ‘bait-and-switch’ apps. Apple updated its App Review Guidelines today with a series of changes meant to strengthen protections against harmful content and deceptive app review practices. Here are the details. more…",
+          "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
+          "created_at": "2026-10-16T22:17:07+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Apple updates App Store rules to ensure it doesn't offer AI nudify apps. Apple has tightened the App Store's rules against AI-generated nonconsensual intimate imagery.",
+          "url": "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
+          "created_at": "2026-10-17T12:35:56+00:00",
           "engagement": 0
         }
       ]

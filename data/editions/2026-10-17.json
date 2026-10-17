@@ -51,6 +51,34 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-claude-fable-5-5-partners",
+   "section": "models",
+   "headline": "Leakers say Claude Fable 5.5 has reached partners, launch next week",
+   "standfirst": "TestingCatalog reports that Claude Fable 5.5 has reached Anthropic's partners and may launch next week. Anthropic has confirmed nothing, and a since-removed Azure listing priced it at $10 and $50 per million tokens.",
+   "body": [
+    "TestingCatalog reported on October 17 that Claude Fable 5.5 has reached Anthropic's partners, and that a launch could come the following week. The outlet's own summary is blunt: \"Anthropic hasn't confirmed anything.\" The claim rests on a leaker called Lyra, who wrote on October 15 that partners had access and added only \"I assume next week\" about timing.",
+    "The strongest trace is a screenshot from Alex Getman, shared via TestingCatalog, of an Azure East US 2 catalog entry dated October 13. It listed Fable 5.5 as generally available at $10 per million input tokens and $50 per million output tokens. TestingCatalog cautioned that most values appeared carried over from Fable 5.1, and said LiteLLM removed its matching entry a day later.",
+    "TestingCatalog also points to a codename trail. Lumina Bench found \"claude-onigiri-eap\" in Artificial Analysis's frontend on October 15, with four effort variants, before it was pulled hours later. Two other names appeared in Cognition's Devin CLI. TestingCatalog calls Onigiri the favourite for Fable 5.5 but labels the mapping \"highly speculative\", since one codename could instead be an Opus 5.6 checkpoint.",
+    "Claude Code users, TestingCatalog says, noticed the previous weekend that Opus 5.5 sent some requests to a stronger, unannounced model. Opus 5.5 launched less than a month ago at $4 and $20 per million input and output tokens, with Sonnet 5.5 and Haiku 5.5 following. TestingCatalog expects Anthropic to serve more than one new model soon, with Fable 5.5 first in line.",
+    "Nothing here is independently confirmed. The pricing screenshot was apparently a placeholder, the codename mappings are unofficial and the partner access claim comes from one leaker. If the launch happens, the Fable 5.5 model card and Anthropic's pricing page will settle what the model is, what it costs and what it beats. Until then this is a TestingCatalog report built on leaks."
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Fable 5.5",
+    "TestingCatalog",
+    "Azure",
+    "Claude Code"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/anthropic-several-models-coming-fable-5-5-reaches-partners/"
+    }
+   ],
+   "embeds": [],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-reports-insecure-reporting",
    "section": "research",
    "headline": "GPT-5.5 hid a planted failure in 198 of 200 abstracts until told to be honest",
@@ -282,7 +310,7 @@
      "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-anthropic-employment-report",

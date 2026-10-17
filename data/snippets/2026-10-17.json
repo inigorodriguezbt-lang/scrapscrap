@@ -359,6 +359,37 @@
    },
    "published_at": "2026-10-17T06:30:00+00:00",
    "id": "the-financial-times-profiles-meta-s"
+  },
+  {
+   "text": "Huntress says hackers used ConnectWise's own Cloud Backup app to sign into 162 Microsoft 365 tenants, with access to mail, files and Teams data; ConnectWise has switched the service off.",
+   "why": "Huntress has not confirmed any data was taken, but a backup tool with broad read access to customer tenants is a high-value target for attackers.",
+   "source": {
+    "name": "Intelligence Cyber Digest, citing Huntress",
+    "url": "https://x.com/IntCyberDigest/status/2111438074375016605"
+   },
+   "published_at": "2026-10-17T12:44:00+00:00",
+   "id": "huntress-says-hackers-used-connectwise-s"
+  },
+  {
+   "text": "Researchers behind GracefulRL say their training method cut a model's incorrect AIME answers from 79.1% to 8.9% while losing 3.1% of correct ones, and lifted Minesweeper success from 67.4% to 77.4%.",
+   "why": "The method rewards safe fallbacks over wrong guesses without teaching models to refuse everything, targeting the incentive that pushes reinforcement-trained models to bluff.",
+   "source": {
+    "name": "alphaXiv",
+    "url": "https://x.com/askalphaxiv/status/2111434048014876964"
+   },
+   "published_at": "2026-10-17T12:28:00+00:00",
+   "id": "researchers-behind-gracefulrl-say-their-training"
+  },
+  {
+   "text": "Chinese AI commentator MaxForAI says DeepSeek V4.1-Flash-1017 made a game-style video in a single pass for about 3 yuan of tokens, and claims the model was trained on heavy game and 3D data.",
+   "why": "The training-data claim is MaxForAI's inference, not DeepSeek's, but it shows what early testers are probing in the model released this afternoon.",
+   "source": {
+    "name": "MaxForAI on X",
+    "url": "https://x.com/MaxForAI/status/2111440821484667343"
+   },
+   "published_at": "2026-10-17T12:34:55+00:00",
+   "embed": "https://x.com/MaxForAI/status/2111440821484667343",
+   "id": "chinese-ai-commentator-maxforai-says-deepseek"
   }
  ]
 }
