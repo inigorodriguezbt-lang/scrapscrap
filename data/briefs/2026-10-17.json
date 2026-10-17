@@ -1,64 +1,55 @@
 {
-  "generated_at": "2026-10-17T10:03:34.164766+00:00",
+  "generated_at": "2026-10-17T12:04:30.434657+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 80,
+  "posts_considered": 78,
   "clusters_found": 66,
   "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "ca4aacceb",
-      "score": 14.098,
+      "cluster_id": "cc4a0811c",
+      "score": 13.513,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "DeepSeek"
+        "DeepSeek",
+        "Amazon"
       ],
       "independent_sources": [
-        "deepseek_ai",
-        "kimmonismus",
-        "testingcatalog"
+        "AWS ML",
+        "vllm_project"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-17T08:35:57+00:00",
-      "last_seen": "2026-10-17T09:16:18+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-16T15:23:10+00:00",
+      "last_seen": "2026-10-17T10:18:37+00:00",
       "links": [
-        "https://x.com/deepseek_ai/status/2111375650414309859",
-        "https://x.com/kimmonismus/status/2111385805449048181",
-        "https://x.com/testingcatalog/status/2111380259295653976"
+        "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+        "https://x.com/vllm_project/status/2111401488392343722"
       ],
       "posts": [
         {
-          "author": "deepseek_ai",
-          "tier": "commentary",
-          "text": "🔍 Search & Fetch APIs are now open to everyone!\n\nPowered by our in-house search engine, serving hundreds of millions of requests daily worldwide.\n\n💰 Each endpoint: $0.75 per 1,000 calls.\n📌 Search & Fetch calls via server-side tools in DeepSeek Harness, Claude Code, and Codex are currently free for DeepSeek API users. Billing starts Oct 31, 2026, at 16:00 UTC.\n\n3/4",
-          "url": "https://x.com/deepseek_ai/status/2111375650414309859",
-          "created_at": "2026-10-17T08:35:57+00:00",
-          "engagement": 415
+          "author": "AWS ML",
+          "tier": "primary",
+          "text": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS. Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure.",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+          "created_at": "2026-10-16T15:23:10+00:00",
+          "engagement": 0
         },
         {
-          "author": "testingcatalog",
+          "author": "vllm_project",
           "tier": "commentary",
-          "text": "BREAKING: DeepSeek released DeepSeek-V4.1-Flash-1017, a new open-weight model. It scores 77% on DeepSWE 1.1 benchmark, outperforming GLM-5.3, Kimi K3 and GPT-5.6 Sol and Opus 5. Available on DeepSeek Chat and APIs as well as HuggingFace.",
-          "url": "https://x.com/testingcatalog/status/2111380259295653976",
-          "created_at": "2026-10-17T08:54:16+00:00",
-          "engagement": 206
-        },
-        {
-          "author": "kimmonismus",
-          "tier": "commentary",
-          "text": "DeepSeek V4.1 Flash-1017 beats GPT-5.6 Sol and Opus 5 on selected coding and agent benchmarks, at much lower token prices. DeepSeek Flash-1017: $0.15 / $0.60 off-peak; $0.30 / $1.20 peak. GPT-5.6 Sol: $4 / $20. Claude Opus 5: $5 / $25. DeepSWE: 77.0 vs 74.2 previous Flash",
-          "url": "https://x.com/kimmonismus/status/2111385805449048181",
-          "created_at": "2026-10-17T09:16:18+00:00",
-          "engagement": 261
+          "text": "🎉 Congrats @deepseek_ai on DeepSeek-V4.1-Flash-1017! Better scores and shorter outputs make it a great fit for long agent loops. Making each step fast is the serving side's job.\n\nOn DeepSeek-V4.1-Flash, vLLM delivers 1.3B tokens per dollar TCO on SemiAnalysis AgentX: 830K tok/s per GPU (cached + input + output) at 100 tok/s per user. 🚀\n\nIt's been a fun few weeks building with the community. Chapter one, 5x agentic throughput since day 0:\n🔗 https://t.co/2ZE4ZPrsBx\n\nNext chapter coming soon. 👀",
+          "url": "https://x.com/vllm_project/status/2111401488392343722",
+          "created_at": "2026-10-17T10:18:37+00:00",
+          "engagement": 114
         }
       ]
     },
     {
-      "cluster_id": "c46d369e8",
-      "score": 8.71,
+      "cluster_id": "c54fb17c7",
+      "score": 12.915,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -68,15 +59,16 @@
       ],
       "independent_sources": [
         "9to5Google",
-        "The Decoder"
+        "The Decoder",
+        "testingcatalog"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-16T15:03:46+00:00",
-      "last_seen": "2026-10-17T09:54:36+00:00",
+      "last_seen": "2026-10-17T10:49:40+00:00",
       "links": [
         "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-        "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
+        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+        "https://x.com/testingcatalog/status/2111409303701577925"
       ],
       "posts": [
         {
@@ -96,24 +88,23 @@
           "engagement": 0
         },
         {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help. AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your prompt can help appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-          "created_at": "2026-10-17T09:54:36+00:00",
-          "engagement": 0
+          "author": "testingcatalog",
+          "tier": "commentary",
+          "text": "DAILY AI BRIEF 🗞 — Oct 17\n\nOPENAI 🔥:\n- OpenAI upgraded GPT-6 Astra Pro in ChatGPT with faster responses, better plugin and tool use, and multiple agents working in parallel, now available to Pro users.\n- Codex and Work now give more effective usage by reusing context across subagents, caching it longer, and routing requests for more cache hits.\n\nGOOGLE 🔥:\n- Google AI Pro subscribers can now build with Gemini 4 Argon in AI Studio Build and the playground.\n- Google AI Studio Build added Plan and Max modes for planning before changes and working longer for better results.",
+          "url": "https://x.com/testingcatalog/status/2111409303701577925",
+          "created_at": "2026-10-17T10:49:40+00:00",
+          "engagement": 87
         }
       ]
     },
     {
-      "cluster_id": "c72b0d263",
-      "score": 8.575,
+      "cluster_id": "c26b68b14",
+      "score": 8.713,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
       "entities": [
         "Nvidia",
-        "Microsoft",
         "Apple",
         "AMD"
       ],
@@ -123,23 +114,14 @@
         "Tom's Hardware"
       ],
       "source_count": 3,
-      "first_seen": "2026-10-16T12:00:00+00:00",
+      "first_seen": "2026-10-16T15:00:00+00:00",
       "last_seen": "2026-10-16T17:04:44+00:00",
       "links": [
         "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
         "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-        "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl",
-        "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review"
+        "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl"
       ],
       "posts": [
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "Microsoft Surface Laptop Ultra review: RTX Spark in a straight-up beautiful Windows PC. Microsoft’s Surface Laptop Ultra is its most beautiful laptop ever, but using Windows on it is the same as ever. Only AI enthusiasts will get the most out of RTX Spark.",
-          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review",
-          "created_at": "2026-10-16T12:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "The Verge AI",
           "tier": "press",
