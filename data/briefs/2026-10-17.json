@@ -1,15 +1,94 @@
 {
-  "generated_at": "2026-10-17T20:04:09.253067+00:00",
+  "generated_at": "2026-10-17T22:04:14.549566+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 43,
-  "clusters_found": 40,
-  "stories_declared": 1,
+  "posts_considered": 42,
+  "clusters_found": 36,
+  "stories_declared": 3,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cf725797e",
-      "score": 4.551,
+      "cluster_id": "ce6453a30",
+      "score": 12.122,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "The Decoder",
+        "ollama"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-17T10:33:28+00:00",
+      "last_seen": "2026-10-17T21:53:59+00:00",
+      "links": [
+        "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+        "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+        "https://x.com/ollama/status/2111576482879553726"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs. Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code and Codex get free access for now. The article Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs appeared first on The Decoder .",
+          "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+          "created_at": "2026-10-17T10:33:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes. Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from \"lrand48,\" a simple C random number generator, making deliberate backdoors far less likely. The article Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+          "created_at": "2026-10-17T14:42:56+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "ollama",
+          "tier": "commentary",
+          "text": "✈ DeepSeek-V4.1-Flash-1017 is on Ollama! US-based hosting with zero data retention. \n\nIt's strong on agentic tasks while being cheaper per task. \n\nTry it on Ollama Cloud: \nollama run deepseek-v4.1-flash:1017-cloud\n\nClaude Code: \nollama launch claude --model deepseek-v4.1-flash:1017-cloud\n\nOpenCode: \nollama launch opencode --model deepseek-v4.1-flash:1017-cloud",
+          "url": "https://x.com/ollama/status/2111576482879553726",
+          "created_at": "2026-10-17T21:53:59+00:00",
+          "engagement": 55
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc850cbc2",
+      "score": 9.025,
+      "interest": "want",
+      "single_source": true,
+      "suggested_section": "models",
+      "entities": [
+        "Nvidia",
+        "Microsoft"
+      ],
+      "independent_sources": [
+        "NVIDIA"
+      ],
+      "source_count": 1,
+      "first_seen": "2026-10-17T21:00:13+00:00",
+      "last_seen": "2026-10-17T21:00:13+00:00",
+      "links": [
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+      ],
+      "posts": [
+        {
+          "author": "NVIDIA",
+          "tier": "primary",
+          "text": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive. NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+          "created_at": "2026-10-17T21:00:13+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c1670b6e6",
+      "score": 8.973,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
@@ -18,14 +97,16 @@
       ],
       "independent_sources": [
         "9to5Mac",
-        "Engadget"
+        "Engadget",
+        "IntCyberDigest"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-16T22:17:07+00:00",
-      "last_seen": "2026-10-17T12:35:56+00:00",
+      "last_seen": "2026-10-17T21:13:00+00:00",
       "links": [
         "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
-        "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/"
+        "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
+        "https://x.com/IntCyberDigest/status/2111566168318214227"
       ],
       "posts": [
         {
@@ -43,6 +124,14 @@
           "url": "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
           "created_at": "2026-10-17T12:35:56+00:00",
           "engagement": 0
+        },
+        {
+          "author": "IntCyberDigest",
+          "tier": "commentary",
+          "text": "‼️ Apple now explicitly requires App Store apps to block and remove nonconsensual intimate images, including AI fakes.\n\nHiding features with code obfuscation can get a developer banned.\n\nIn January, Tech Transparency Project found 47 App Store apps that would undress people. https://t.co/x1ROySkln4",
+          "url": "https://x.com/IntCyberDigest/status/2111566168318214227",
+          "created_at": "2026-10-17T21:13:00+00:00",
+          "engagement": 59
         }
       ]
     }
