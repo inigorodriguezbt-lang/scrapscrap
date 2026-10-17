@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-17T04:02:48.809638+00:00",
+  "generated_at": "2026-10-17T06:04:12.122185+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
   "posts_considered": 77,
-  "clusters_found": 66,
-  "stories_declared": 3,
+  "clusters_found": 65,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "c72b0d263",
-      "score": 9.247,
+      "score": 8.91,
       "interest": "want",
       "single_source": false,
       "suggested_section": "chips",
@@ -69,8 +69,47 @@
       ]
     },
     {
+      "cluster_id": "cac0ee14b",
+      "score": 8.173,
+      "interest": "neutral",
+      "single_source": false,
+      "suggested_section": "products",
+      "entities": [
+        "Anthropic"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "Reuters"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-16T22:25:33+00:00",
+      "last_seen": "2026-10-17T03:30:12+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says",
+        "https://x.com/Reuters/status/2111298707752673457"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Anthropic Pitches AI Safety Bill to Lawmakers. Anthropic PBC has presented its own draft bill to US lawmakers with a plan for regulating artificial intelligence safety and security, in a moment of heightened concern about the potential risks of the rapidly advancing technology.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says",
+          "created_at": "2026-10-16T22:25:33+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Reuters",
+          "tier": "commentary",
+          "text": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
+          "url": "https://x.com/Reuters/status/2111298707752673457",
+          "created_at": "2026-10-17T03:30:12+00:00",
+          "engagement": 46
+        }
+      ]
+    },
+    {
       "cluster_id": "ce8060e37",
-      "score": 7.248,
+      "score": 6.911,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
@@ -110,7 +149,7 @@
     },
     {
       "cluster_id": "cb4522c1f",
-      "score": 6.98,
+      "score": 6.643,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
