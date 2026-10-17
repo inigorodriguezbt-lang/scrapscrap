@@ -1,143 +1,15 @@
 {
-  "generated_at": "2026-10-17T16:03:38.060535+00:00",
+  "generated_at": "2026-10-17T18:05:20.092550+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 58,
-  "clusters_found": 50,
-  "stories_declared": 4,
+  "posts_considered": 55,
+  "clusters_found": 53,
+  "stories_declared": 1,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c0b7887da",
-      "score": 7.816,
-      "interest": "neutral",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "independent_sources": [
-        "TechCrunch AI",
-        "mark_k"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-16T21:22:28+00:00",
-      "last_seen": "2026-10-17T13:12:27+00:00",
-      "links": [
-        "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-        "https://x.com/mark_k/status/2111445236962496570"
-      ],
-      "posts": [
-        {
-          "author": "TechCrunch AI",
-          "tier": "press",
-          "text": "Replit is no longer working with Anthropic, CEO says. Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-          "created_at": "2026-10-16T21:22:28+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "mark_k",
-          "tier": "commentary",
-          "text": "Replit's CEO says they're done with Anthropic. Replit's own blog says otherwise. Onstage at TechCrunch Disrupt, Amjad Masad said Replit no longer works with Anthropic. An insider told TechCrunch the partnership is still in place.",
-          "url": "https://x.com/mark_k/status/2111445236962496570",
-          "created_at": "2026-10-17T13:12:27+00:00",
-          "engagement": 36
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6fb02eeb",
-      "score": 7.625,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Nvidia"
-      ],
-      "independent_sources": [
-        "NVIDIA Developer",
-        "Tom's Hardware"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-16T17:00:00+00:00",
-      "last_seen": "2026-10-16T17:04:44+00:00",
-      "links": [
-        "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
-        "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl"
-      ],
-      "posts": [
-        {
-          "author": "NVIDIA Developer",
-          "tier": "primary",
-          "text": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark. AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...",
-          "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
-          "created_at": "2026-10-16T17:00:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "Tom's Hardware",
-          "tier": "press",
-          "text": "This could be your last chance to grab an RTX 5090. With no new Nvidia 5090 GPU replacement anticipated before at least 2028, this could well be your last opportunity to get your hands on a very powerful GPU for gaming.",
-          "url": "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl",
-          "created_at": "2026-10-16T17:04:44+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cc60a1857",
-      "score": 6.016,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "products",
-      "entities": [
-        "OpenAI",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-16T17:50:00+00:00",
-      "last_seen": "2026-10-16T19:47:01+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/",
-        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-        "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
-      ],
-      "posts": [
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "ChatGPT gets deeper Google Chrome integration including control over tabs. OpenAI this week announced deeper integration between ChatGPT and Google Chrome, including the ability to hand control over your tabs to the AI assistant. more…",
-          "url": "https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/",
-          "created_at": "2026-10-16T17:50:00+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs. OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs appeared first on The Decoder .",
-          "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
-          "created_at": "2026-10-16T18:10:27+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
-          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-          "created_at": "2026-10-16T19:47:01+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
       "cluster_id": "cf725797e",
-      "score": 5.219,
+      "score": 4.881,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
