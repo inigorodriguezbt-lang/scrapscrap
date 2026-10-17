@@ -1,84 +1,73 @@
 {
-  "generated_at": "2026-10-17T14:03:10.550776+00:00",
+  "generated_at": "2026-10-17T16:03:38.060535+00:00",
   "edition_date": "2026-10-17",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 70,
-  "clusters_found": 57,
-  "stories_declared": 5,
+  "posts_considered": 58,
+  "clusters_found": 50,
+  "stories_declared": 4,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "cef192aa5",
-      "score": 10.842,
-      "interest": "want",
+      "cluster_id": "c0b7887da",
+      "score": 7.816,
+      "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "DeepSeek"
+        "OpenAI",
+        "Anthropic"
       ],
       "independent_sources": [
-        "The Decoder",
-        "teortaxesTex"
+        "TechCrunch AI",
+        "mark_k"
       ],
       "source_count": 2,
-      "first_seen": "2026-10-17T10:33:28+00:00",
-      "last_seen": "2026-10-17T12:22:44+00:00",
+      "first_seen": "2026-10-16T21:22:28+00:00",
+      "last_seen": "2026-10-17T13:12:27+00:00",
       "links": [
-        "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
-        "https://x.com/teortaxesTex/status/2111432725169414458"
+        "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "https://x.com/mark_k/status/2111445236962496570"
       ],
       "posts": [
         {
-          "author": "The Decoder",
+          "author": "TechCrunch AI",
           "tier": "press",
-          "text": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs. Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code and Codex get free access for now. The article Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs appeared first on The Decoder .",
-          "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
-          "created_at": "2026-10-17T10:33:28+00:00",
+          "text": "Replit is no longer working with Anthropic, CEO says. Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "created_at": "2026-10-16T21:22:28+00:00",
           "engagement": 0
         },
         {
-          "author": "teortaxesTex",
+          "author": "mark_k",
           "tier": "commentary",
-          "text": "I'm very interested in seeing whether the new model finally has unambiguously better performance in DSH vs other harnesses (pi, omp, Claude Code, Codex). Time to integrate all product lines.",
-          "url": "https://x.com/teortaxesTex/status/2111432725169414458",
-          "created_at": "2026-10-17T12:22:44+00:00",
-          "engagement": 63
+          "text": "Replit's CEO says they're done with Anthropic. Replit's own blog says otherwise. Onstage at TechCrunch Disrupt, Amjad Masad said Replit no longer works with Anthropic. An insider told TechCrunch the partnership is still in place.",
+          "url": "https://x.com/mark_k/status/2111445236962496570",
+          "created_at": "2026-10-17T13:12:27+00:00",
+          "engagement": 36
         }
       ]
     },
     {
-      "cluster_id": "c26b68b14",
-      "score": 8.713,
+      "cluster_id": "c6fb02eeb",
+      "score": 7.625,
       "interest": "want",
       "single_source": false,
-      "suggested_section": "chips",
+      "suggested_section": "ai",
       "entities": [
-        "Nvidia",
-        "Apple",
-        "AMD"
+        "Nvidia"
       ],
       "independent_sources": [
         "NVIDIA Developer",
-        "The Verge AI",
         "Tom's Hardware"
       ],
-      "source_count": 3,
-      "first_seen": "2026-10-16T15:00:00+00:00",
+      "source_count": 2,
+      "first_seen": "2026-10-16T17:00:00+00:00",
       "last_seen": "2026-10-16T17:04:44+00:00",
       "links": [
         "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
-        "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
         "https://www.tomshardware.com/desktops/gaming-pcs/this-could-be-your-last-chance-to-grab-an-rtx-5090-how-to-secure-nvidias-top-rtx-gpu-as-rumors-of-discontinuation-swirl"
       ],
       "posts": [
-        {
-          "author": "The Verge AI",
-          "tier": "press",
-          "text": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops. Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia [&#8230;]",
-          "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-          "created_at": "2026-10-16T15:00:00+00:00",
-          "engagement": 0
-        },
         {
           "author": "NVIDIA Developer",
           "tier": "primary",
@@ -98,57 +87,8 @@
       ]
     },
     {
-      "cluster_id": "c46d369e8",
-      "score": 8.045,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Google"
-      ],
-      "independent_sources": [
-        "9to5Google",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-16T15:03:46+00:00",
-      "last_seen": "2026-10-17T09:54:36+00:00",
-      "links": [
-        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-        "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-        "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months. Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals in math and software engineering. The article Google&#039;s Gemini 4 Argon is closer to the AI frontier than any Google model in months appeared first on The Decoder .",
-          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-          "created_at": "2026-10-16T15:03:46+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "9to5Google",
-          "tier": "press",
-          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
-          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
-          "created_at": "2026-10-16T19:47:01+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help. AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your prompt can help appeared first on The Decoder .",
-          "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-          "created_at": "2026-10-17T09:54:36+00:00",
-          "engagement": 0
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb4522c1f",
-      "score": 6.125,
+      "cluster_id": "cc60a1857",
+      "score": 6.016,
       "interest": "want",
       "single_source": false,
       "suggested_section": "products",
@@ -162,9 +102,10 @@
       ],
       "source_count": 2,
       "first_seen": "2026-10-16T17:50:00+00:00",
-      "last_seen": "2026-10-16T18:10:27+00:00",
+      "last_seen": "2026-10-16T19:47:01+00:00",
       "links": [
         "https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/",
+        "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
         "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
       ],
       "posts": [
@@ -183,12 +124,20 @@
           "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
           "created_at": "2026-10-16T18:10:27+00:00",
           "engagement": 0
+        },
+        {
+          "author": "9to5Google",
+          "tier": "press",
+          "text": "Google’s Universal Cart puts a shopping cart everywhere, including Search homepage, Chrome. Yesterday, Google started rolling out its Universal Cart, and the company is very prominently placing it in Search, AI Mode, Chrome, and the Gemini app. more…",
+          "url": "https://9to5google.com/2026/10/16/google-universal-cart-shopping-icon/",
+          "created_at": "2026-10-16T19:47:01+00:00",
+          "engagement": 0
         }
       ]
     },
     {
       "cluster_id": "cf725797e",
-      "score": 5.553,
+      "score": 5.219,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "products",
