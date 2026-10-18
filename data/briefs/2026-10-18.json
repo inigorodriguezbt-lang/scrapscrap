@@ -1,15 +1,57 @@
 {
-  "generated_at": "2026-10-18T00:03:59.507658+00:00",
+  "generated_at": "2026-10-18T02:04:06.659378+00:00",
   "edition_date": "2026-10-18",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 38,
-  "clusters_found": 36,
-  "stories_declared": 1,
+  "posts_considered": 35,
+  "clusters_found": 32,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
+      "cluster_id": "c3a7341da",
+      "score": 11.77,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "Nvidia",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "Bloomberg Tech",
+        "SemiAnalysis_"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-17T13:47:14+00:00",
+      "last_seen": "2026-10-18T01:15:06+00:00",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+        "https://x.com/SemiAnalysis_/status/2111627094878790023"
+      ],
+      "posts": [
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner. DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company’s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+          "created_at": "2026-10-17T13:47:14+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "SemiAnalysis_",
+          "tier": "commentary",
+          "text": "BREAKING NEWS: NVIDIA has just achieved 423 tok/s/user on the 2.8T Parameter Kimi K3 model via a new upstream vLLM optimization. 1.68x Faster on the Same Hardware! This was done by NVIDIA CentML's Benjamin, who wrote NVIDIA's new decode-specialized kernels in Cute DSL via aggressive Megakernel fusion. 12,000 LoC Megakernel. NVIDIA is already working on DeepSeekv4.1 and other models for vLLM too.",
+          "url": "https://x.com/SemiAnalysis_/status/2111627094878790023",
+          "created_at": "2026-10-18T01:15:06+00:00",
+          "engagement": 179
+        }
+      ]
+    },
+    {
       "cluster_id": "cc850cbc2",
-      "score": 8.693,
+      "score": 8.359,
       "interest": "want",
       "single_source": true,
       "suggested_section": "models",
