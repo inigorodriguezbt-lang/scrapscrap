@@ -1,57 +1,15 @@
 {
-  "generated_at": "2026-10-18T02:04:06.659378+00:00",
+  "generated_at": "2026-10-18T04:04:41.023844+00:00",
   "edition_date": "2026-10-18",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 35,
-  "clusters_found": 32,
+  "posts_considered": 37,
+  "clusters_found": 34,
   "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c3a7341da",
-      "score": 11.77,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "OpenAI",
-        "Anthropic",
-        "Nvidia",
-        "DeepSeek"
-      ],
-      "independent_sources": [
-        "Bloomberg Tech",
-        "SemiAnalysis_"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-17T13:47:14+00:00",
-      "last_seen": "2026-10-18T01:15:06+00:00",
-      "links": [
-        "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
-        "https://x.com/SemiAnalysis_/status/2111627094878790023"
-      ],
-      "posts": [
-        {
-          "author": "Bloomberg Tech",
-          "tier": "press",
-          "text": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner. DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company’s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
-          "created_at": "2026-10-17T13:47:14+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "SemiAnalysis_",
-          "tier": "commentary",
-          "text": "BREAKING NEWS: NVIDIA has just achieved 423 tok/s/user on the 2.8T Parameter Kimi K3 model via a new upstream vLLM optimization. 1.68x Faster on the Same Hardware! This was done by NVIDIA CentML's Benjamin, who wrote NVIDIA's new decode-specialized kernels in Cute DSL via aggressive Megakernel fusion. 12,000 LoC Megakernel. NVIDIA is already working on DeepSeekv4.1 and other models for vLLM too.",
-          "url": "https://x.com/SemiAnalysis_/status/2111627094878790023",
-          "created_at": "2026-10-18T01:15:06+00:00",
-          "engagement": 179
-        }
-      ]
-    },
-    {
       "cluster_id": "cc850cbc2",
-      "score": 8.359,
+      "score": 8.024,
       "interest": "want",
       "single_source": true,
       "suggested_section": "models",
@@ -75,6 +33,55 @@
           "text": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive. NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
           "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
           "created_at": "2026-10-17T21:00:13+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce8d8edda",
+      "score": 6.838,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "Simon Willison",
+        "The Decoder"
+      ],
+      "source_count": 2,
+      "first_seen": "2026-10-17T10:33:28+00:00",
+      "last_seen": "2026-10-17T14:42:56+00:00",
+      "links": [
+        "https://simonwillison.net/2026/Oct/17/web-edit/",
+        "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+        "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs. Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code and Codex get free access for now. The article Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs appeared first on The Decoder .",
+          "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+          "created_at": "2026-10-17T10:33:28+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Simon Willison",
+          "tier": "commentary",
+          "text": "web-edit 0.1a2. Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+          "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+          "created_at": "2026-10-17T13:16:49+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes. Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from \"lrand48,\" a simple C random number generator, making deliberate backdoors far less likely. The article Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes appeared first on The Decoder .",
+          "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+          "created_at": "2026-10-17T14:42:56+00:00",
           "engagement": 0
         }
       ]
