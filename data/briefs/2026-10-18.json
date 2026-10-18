@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-18T08:03:48.773221+00:00",
+  "generated_at": "2026-10-18T10:04:07.011546+00:00",
   "edition_date": "2026-10-18",
-  "source_file": "/home/user/scrapscrap/data/raw",
+  "source_file": "/home/user/work/data/raw",
   "posts_considered": 35,
-  "clusters_found": 32,
+  "clusters_found": 33,
   "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
       "cluster_id": "cc850cbc2",
-      "score": 7.36,
+      "score": 7.026,
       "interest": "want",
       "single_source": true,
       "suggested_section": "models",
@@ -38,13 +38,12 @@
       ]
     },
     {
-      "cluster_id": "ce8d8edda",
-      "score": 6.565,
+      "cluster_id": "c957b1239",
+      "score": 6.62,
       "interest": "want",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
-        "Anthropic",
         "DeepSeek"
       ],
       "independent_sources": [
@@ -53,10 +52,9 @@
       ],
       "source_count": 2,
       "first_seen": "2026-10-17T10:33:28+00:00",
-      "last_seen": "2026-10-17T14:42:56+00:00",
+      "last_seen": "2026-10-17T13:16:49+00:00",
       "links": [
         "https://simonwillison.net/2026/Oct/17/web-edit/",
-        "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
         "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/"
       ],
       "posts": [
@@ -74,14 +72,6 @@
           "text": "web-edit 0.1a2. Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
           "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
           "created_at": "2026-10-17T13:16:49+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes. Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from \"lrand48,\" a simple C random number generator, making deliberate backdoors far less likely. The article Anthropics&#039; Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes appeared first on The Decoder .",
-          "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
-          "created_at": "2026-10-17T14:42:56+00:00",
           "engagement": 0
         }
       ]
