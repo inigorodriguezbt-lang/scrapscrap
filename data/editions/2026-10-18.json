@@ -33,6 +33,85 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-anthropic-public-benefit-fund",
+   "section": "business",
+   "headline": "Anthropic commits 5% of its shares to a new public benefit fund",
+   "standfirst": "Anthropic says a new wholly owned fund will start with 5% of its shares, with roughly 20% of the company pledged to the public good once founder and staff pledges are counted.",
+   "body": [
+    "Anthropic said on October 18 that it will put 5% of its shares into the Anthropic Public Benefit Fund, a new entity it describes as dedicated entirely to the public benefit. According to the company's announcement, the starting stake is subject to stockholder approval. Bloomberg also reported the plan, under a headline saying Anthropic would shift some shares into a \"public good\" fund.",
+    "The stake could grow. Anthropic says that for every 50% increase in the company's value over a set baseline it can add up to 2% more, at its board's discretion. The announcement does not give the baseline, the dollar value of the shares or who will run the fund. Anthropic says it will publish more on structure, governance and the valuation milestones in the coming months.",
+    "Anthropic puts the total at roughly 20% of its shares once other pledges are included. It says its co-founders pledged at founding to donate 80% of their equity, and that around half of its employees are donating part of their equity through a matching programme. Those pledges are the company's own account, and the announcement does not itemise them.",
+    "The fund is a wholly owned LLC rather than a charity, which Anthropic says allows flexibility between forms of giving. It says equity held by the fund cannot be used for lobbying or political giving, in the US or abroad. Examples it gives include large donations to nonprofits and what it calls direct distributions to specific populations.",
+    "Commentators read the last example in different ways. AI commentator Andrew Curran wrote that the phrase sounds to him like a self-directed form of global universal basic income, which is his interpretation, not something Anthropic has said. Anthropic also says it has already committed $200 million to labour market impacts, and that the fund could support bolder approaches. Details of any grants have not been announced."
+   ],
+   "entities": [
+    "Anthropic",
+    "Bloomberg",
+    "Andrew Curran"
+   ],
+   "sources": [
+    {
+     "author": "Anthropic",
+     "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+     "author": "Anthropic (X)",
+     "url": "https://x.com/AnthropicAI/status/2111881963657412903"
+    },
+    {
+     "author": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund"
+    },
+    {
+     "author": "Andrew Curran (X)",
+     "url": "https://x.com/AndrewCurran_/status/2111889465438601604"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/AnthropicAI/status/2111881963657412903",
+     "after": 1
+    }
+   ],
+   "placement": "front"
+  },
+  {
+   "cluster_id": "find-openai-aurora-image-models-arena",
+   "section": "models",
+   "headline": "OpenAI's unannounced 'Aurora' image models turn up in Arena tests",
+   "standfirst": "Three models named aurora-red, green and blue briefly appeared in OpenAI's API, then in blind Arena image tests. TestingCatalog's hands-on says green looks better than OpenAI's current image model.",
+   "body": [
+    "Three model names, aurora-red-alpha, aurora-green-alpha and aurora-blue-alpha, briefly appeared in OpenAI's API over the weekend and were pulled soon after, TestingCatalog reported on October 18. The outlet suggests the rollout was accidental. OpenAI has announced nothing, and TestingCatalog calls the link to a GPT-Image-3 successor unconfirmed.",
+    "According to TestingCatalog, an alert in the Dev Mode Discord server surfaced the names, and within hours the models were showing up in blind image tests on Arena. Lumina Bench noted that all three look like image models. The names were also posted on X by AI commentator Andrew Curran.",
+    "TestingCatalog's own testing is early. It says red was faster but lower quality, green was slower but better, and blue had not yet been tried. Its writer said two cat portraits do not reveal much, though both looked clean and detailed. On the samples seen, the article says, none seemed especially impressive.",
+    "The outlet's writer later said on X that Aurora outputs feel much better than gpt-image-2.5-flare, another model seen in testing, especially in colour scheme. He added that the images felt like a blend of Nano Banana and GPT Image. That is one tester's impression, not a benchmark.",
+    "There is no documentation, pricing or release date for any Aurora model, and nobody outside OpenAI has confirmed what they are. TestingCatalog notes that three new entries called Aspen, Cypress and Maple appeared on Design Arena about an hour after the API references, but nothing links them to Aurora. OpenAI has run several image variants in public tests before."
+   ],
+   "entities": [
+    "OpenAI",
+    "Arena",
+    "TestingCatalog",
+    "Lumina Bench"
+   ],
+   "sources": [
+    {
+     "author": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+    },
+    {
+     "author": "TestingCatalog (X)",
+     "url": "https://x.com/testingcatalog/status/2111894437877916032"
+    }
+   ],
+   "embeds": [
+    {
+     "url": "https://x.com/testingcatalog/status/2111894437877916032",
+     "after": 4
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-deepseek-search-fetch-api",
    "section": "models",
    "headline": "DeepSeek opens search and fetch APIs at $0.75 per 1,000 requests",
@@ -208,7 +287,7 @@
      "url": "https://news.ycombinator.com/item?id=50137950"
     }
    ],
-   "placement": "front"
+   "placement": "inside"
   },
   {
    "cluster_id": "find-openai-humanoid-robot-altman-we-will",
@@ -237,7 +316,7 @@
     }
    ],
    "embeds": [],
-   "placement": "front"
+   "placement": "inside"
   }
  ]
 }
