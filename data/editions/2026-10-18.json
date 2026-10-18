@@ -33,6 +33,36 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-sphinx-git-hook",
+   "section": "products",
+   "headline": "Sphinx blocks git pushes until you explain your AI's code",
+   "standfirst": "A new open-source Git hook pauses a push and quizzes the developer on what the coding agent's change does when things go wrong, then lets it through after a correct answer.",
+   "body": [
+    "Sphinx, an open-source Git hook posted to Show HN on Sunday, stops a push to a protected branch until the developer answers questions about the code their AI agent wrote. The project's page describes its aim as \"outsource your thinking, not your understanding.\" The post had 46 points and 11 comments when the desk read it.",
+    "According to the project's page and README, a separate reviewer model reads the diff without the developer's chat history, through read-only Git tools, and asks what the change does when things go wrong. A wrong answer brings an explanation and a new scenario. A right one lets the push continue. The page's example, which it calls illustrative, questions a webhook handler that saves an event ID before calling charge().",
+    "The README says it works with Codex, Claude Code, Cursor, OpenCode, Pi or plain Git, and the reviewer can run on an existing coding agent, OpenRouter or any OpenAI-compatible endpoint. Installation needs Node 22.19 or newer on macOS, Linux or WSL: npm install -g sphinx-understand, then sphinx install. The page says a sphinx yolo mode lets pushes through, with every skip logged.",
+    "The maker's own caveats are plain. The README says code leaves the machine, because the reviewer provider receives the changed code, the answers and a .sphinxcontext.md file, and calls the tool \"practice, not a security gate.\" The page does not name an author. The linked GitHub repository, under the user parthh01, is MIT licensed and showed 4 stars. No one else has tested it, and there is no demo video."
+   ],
+   "entities": [
+    "Sphinx"
+   ],
+   "sources": [
+    {
+     "author": "Sphinx project page",
+     "url": "https://sphinx-six-theta.vercel.app/"
+    },
+    {
+     "author": "Sphinx README on GitHub",
+     "url": "https://github.com/parthh01/sphinx"
+    },
+    {
+     "author": "Show HN discussion",
+     "url": "https://news.ycombinator.com/item?id=50137950"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-openai-humanoid-robot-altman-we-will",
    "section": "ai",
    "headline": "Altman says OpenAI will build a humanoid robot, with a demo hoped for 2027",
