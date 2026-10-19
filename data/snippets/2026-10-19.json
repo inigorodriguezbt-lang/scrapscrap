@@ -1,0 +1,65 @@
+{
+ "date": "2026-10-19",
+ "snippets": [
+  {
+   "text": "SemiAnalysis says Inferact, the makers of vLLM, and Google made a first preliminary TPUv7 submission for the 2.8-trillion-parameter Kimi K3, claiming strong performance per total cost against Nvidia GB200 NVL72, B300 and AMD MI355.",
+   "why": "If it holds up, Google's TPUs become a credible rival to Nvidia for serving the largest open models, and vLLM's makers are driving it.",
+   "source": {
+    "name": "SemiAnalysis",
+    "url": "https://x.com/SemiAnalysis_/status/2111938013852762351"
+   },
+   "published_at": "2026-10-18T21:50:35+00:00",
+   "id": "semianalysis-says-inferact-the-makers-of"
+  },
+  {
+   "text": "TestingCatalog says Anthropic's Claude personal-finance feature, which reads bank data through Plaid and builds dashboards, has been renamed from 'Claude Money' in the latest app update, and may launch soon. Unconfirmed.",
+   "why": "Andrew Curran separately called the product 'Claude Monet'; Anthropic has announced nothing, so the name and the timing both rest on app strings.",
+   "source": {
+    "name": "TestingCatalog",
+    "url": "https://x.com/testingcatalog/status/2111944960652034447"
+   },
+   "published_at": "2026-10-18T22:18:11+00:00",
+   "id": "testingcatalog-says-anthropic-s-claude-personal"
+  },
+  {
+   "text": "Hugging Face's Thomas Wolf says the most built-upon model on the Hub is Black Forest Labs' FLUX.1-dev, with 43,000 derivative models, ahead of Llama and Qwen.",
+   "why": "He also says Europe trained about 8% of the Hub's open-model compute but accounts for about 18% of what is built on top of it, his own estimate.",
+   "source": {
+    "name": "Thomas Wolf on X",
+    "url": "https://x.com/Thom_Wolf/status/2111960585369772163"
+   },
+   "published_at": "2026-10-18T23:20:16+00:00",
+   "id": "hugging-face-s-thomas-wolf-says"
+  },
+  {
+   "text": "International Cyber Digest says a draft Chinese export-control list would require licences to export AI that finds five or more unknown severe flaws in a major OS, or models above 2 trillion parameters.",
+   "why": "Chinese ministries published the draft on October 16 for comment until November 15; it reads as restrictions and registration rather than a blanket ban.",
+   "source": {
+    "name": "International Cyber Digest",
+    "url": "https://x.com/IntCyberDigest/status/2111958000722124954"
+   },
+   "published_at": "2026-10-18T23:10:00+00:00",
+   "id": "international-cyber-digest-says-a-draft"
+  },
+  {
+   "text": "Developer finereli released whatsapp-mcp, an MIT-licensed read-only server that lets an AI agent search your WhatsApp messages, running on Cloudflare Workers. It had 14 GitHub stars and 25 Show HN points.",
+   "why": "The README says it breaks WhatsApp's terms, stores messages in plaintext in your own Cloudflare account, and has been tested on only one account.",
+   "source": {
+    "name": "finereli/whatsapp-mcp",
+    "url": "https://github.com/finereli/whatsapp-mcp"
+   },
+   "published_at": "2026-10-18T21:30:00+00:00",
+   "id": "developer-finereli-released-whatsapp-mcp-an"
+  },
+  {
+   "text": "Researcher Elvis Saravia summarises a paper in which an engine generates data-analysis training environments from scratch; reinforcement learning on 2,135 tasks lifts Qwen3.6-35B-A3B by 20.9 points on DABstep-Hard.",
+   "why": "Because the generating process is known, answers can be checked, which the authors use to train without distilled trajectories; the results are the paper's own.",
+   "source": {
+    "name": "Elvis Saravia on X",
+    "url": "https://x.com/omarsar0/status/2111936617699332566"
+   },
+   "published_at": "2026-10-18T21:45:02+00:00",
+   "id": "researcher-elvis-saravia-summarises-a-paper"
+  }
+ ]
+}
