@@ -1,79 +1,34 @@
 {
-  "generated_at": "2026-10-19T00:04:01.630587+00:00",
+  "generated_at": "2026-10-19T02:03:42.737474+00:00",
   "edition_date": "2026-10-19",
   "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 36,
-  "clusters_found": 32,
-  "stories_declared": 2,
+  "posts_considered": 40,
+  "clusters_found": 35,
+  "stories_declared": 1,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c8d8c6915",
-      "score": 11.092,
-      "interest": "want",
-      "single_source": false,
-      "suggested_section": "ai",
-      "entities": [
-        "Google"
-      ],
-      "independent_sources": [
-        "OfficialLoganK",
-        "The Decoder"
-      ],
-      "source_count": 2,
-      "first_seen": "2026-10-18T10:52:39+00:00",
-      "last_seen": "2026-10-18T23:39:12+00:00",
-      "links": [
-        "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-        "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-        "https://x.com/OfficialLoganK/status/2111965350472655241"
-      ],
-      "posts": [
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Two German courts now hold Google liable for what its AI overviews say. Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else. A consistent legal view is forming across German courts, and it treats Google's AI answers as the company's own content. The article Two German courts now hold Google liable for what its AI overviews say appeared first on The Decoder .",
-          "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-          "created_at": "2026-10-18T10:52:39+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "The Decoder",
-          "tier": "press",
-          "text": "Four Gemini 4 Argon agents beat Minecraft without any human help. Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620. The article Four Gemini 4 Argon agents beat Minecraft without any human help appeared first on The Decoder .",
-          "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-          "created_at": "2026-10-18T12:39:51+00:00",
-          "engagement": 0
-        },
-        {
-          "author": "OfficialLoganK",
-          "tier": "commentary",
-          "text": "@vishalsingh2972 have you tried Gemini 4 Argon ?",
-          "url": "https://x.com/OfficialLoganK/status/2111965350472655241",
-          "created_at": "2026-10-18T23:39:12+00:00",
-          "engagement": 56
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6a76b859",
-      "score": 6.047,
+      "cluster_id": "c37a9f849",
+      "score": 9.823,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
       "entities": [
+        "OpenAI",
         "Anthropic"
       ],
       "independent_sources": [
+        "AndrewCurran_",
         "Bloomberg Tech",
         "TechCrunch AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-18T18:03:03+00:00",
-      "last_seen": "2026-10-18T20:37:40+00:00",
+      "last_seen": "2026-10-19T01:35:34+00:00",
       "links": [
         "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-        "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund"
+        "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund",
+        "https://x.com/AndrewCurran_/status/2111994636164345988"
       ],
       "posts": [
         {
@@ -91,6 +46,14 @@
           "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
           "created_at": "2026-10-18T20:37:40+00:00",
           "engagement": 0
+        },
+        {
+          "author": "AndrewCurran_",
+          "tier": "commentary",
+          "text": "Elon says that instead of putting shares into a Public Benefit Fund he will be giving shares directly to the public. Back in April, OpenAI also proposed a Public Wealth Fund that would distribute returns directly to US citizens through a dividend.",
+          "url": "https://x.com/AndrewCurran_/status/2111994636164345988",
+          "created_at": "2026-10-19T01:35:34+00:00",
+          "engagement": 69
         }
       ]
     }
