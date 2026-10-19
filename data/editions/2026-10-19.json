@@ -31,6 +31,31 @@
    "placement": "lead"
   },
   {
+   "cluster_id": "find-claude-desert-island",
+   "section": "research",
+   "headline": "MIT researchers left Claude alone on a virtual island, and it began to play",
+   "standfirst": "MIT researchers say Claude agents left alone for 30 hours on a Roblox-style island invented games and arranged blocks into constellations, then did better on later tasks.",
+   "body": [
+    "MIT researchers stranded copies of Claude Opus 4.7 alone for 30 hours on a virtual desert island loosely based on Roblox, and the agents began inventing games, MIT Technology Review reports. The paper, by Antonio Norelli, Nathan Cloos and Phillip Isola, is on arXiv and had not been peer reviewed when the magazine wrote about it.",
+    "Each agent, nicknamed Eko, wrote instructions to move its avatar and kept its memory as text log files. A 'soul' file described it as naturally curious. When it stalled, a continuation prompt told it: 'Please don't stop. Just continue doing whatever you want to do.' Eko often stood still until prompted, the report says.",
+    "Eko tried to reach the island's highest point and tested how high it could throw a block. It arranged blocks into hearts, pyramids, its own name and constellations such as Cassiopeia, and invented a basketball variant around hour 10. It juggled to a record of 50 consecutive catches, then voided the record as too fast and restarted with stricter rules.",
+    "The researchers say agents that had played for 30 hours did better on later tasks, such as getting objects onto the peak, than fresh copies did. Deleting lines from the memory files made performance worse, which they read as a sign that play contributed to learning. They propose 'playful learning' as a third approach beside supervised and reinforcement learning.",
+    "Cloos concedes that 'all of this could be role-playing'. Eunice Yiu of UC Berkeley, who was not part of the work, says calling it play would need more evidence of cognition and motivation, and the behaviour could reflect the prompt or imitation of humans. Isola notes the system learned from human culture and was placed on the island by the researchers."
+   ],
+   "entities": [
+    "Claude",
+    "MIT",
+    "Anthropic"
+   ],
+   "sources": [
+    {
+     "author": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+    }
+   ],
+   "placement": "front"
+  },
+  {
    "cluster_id": "find-hexashell",
    "section": "research",
    "headline": "Codex agent that writes its own robot tools tops RoboDojo, HexaFuture says",

@@ -1,15 +1,75 @@
 {
-  "generated_at": "2026-10-19T08:03:24.586479+00:00",
+  "generated_at": "2026-10-19T10:06:21.034165+00:00",
   "edition_date": "2026-10-19",
-  "source_file": "/home/user/scrapscrap/data/raw",
-  "posts_considered": 46,
-  "clusters_found": 43,
-  "stories_declared": 1,
+  "source_file": "/home/user/cycle/data/raw",
+  "posts_considered": 66,
+  "clusters_found": 59,
+  "stories_declared": 2,
   "front_page_slots": 7,
   "stories": [
     {
-      "cluster_id": "c6a76b859",
-      "score": 4.715,
+      "cluster_id": "c1694590d",
+      "score": 13.409,
+      "interest": "want",
+      "single_source": false,
+      "suggested_section": "ai",
+      "entities": [
+        "Google",
+        "DeepSeek"
+      ],
+      "independent_sources": [
+        "Engadget",
+        "RafaCrackYT",
+        "The Decoder"
+      ],
+      "source_count": 3,
+      "first_seen": "2026-10-18T10:52:39+00:00",
+      "last_seen": "2026-10-19T09:19:19+00:00",
+      "links": [
+        "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+        "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+        "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+        "https://x.com/RafaCrackYT/status/2111861310619029557"
+      ],
+      "posts": [
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Two German courts now hold Google liable for what its AI overviews say. Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else. A consistent legal view is forming across German courts, and it treats Google's AI answers as the company's own content. The article Two German courts now hold Google liable for what its AI overviews say appeared first on The Decoder .",
+          "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+          "created_at": "2026-10-18T10:52:39+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "The Decoder",
+          "tier": "press",
+          "text": "Four Gemini 4 Argon agents beat Minecraft without any human help. Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620. The article Four Gemini 4 Argon agents beat Minecraft without any human help appeared first on The Decoder .",
+          "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+          "created_at": "2026-10-18T12:39:51+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "RafaCrackYT",
+          "tier": "commentary",
+          "text": "I asked 4 AI models to take me back to Paris in 1996. 100% code. Same prompt, one-shot: Opus 5.5: $73.80 · 2h56m; Gemini 4 Argon: ~$2.50 · 30m; DeepSeek Flash 1017: $0.34 · 46m; Grok 4.7: ~$7 · 2h07m",
+          "url": "https://x.com/RafaCrackYT/status/2111861310619029557",
+          "created_at": "2026-10-18T16:45:47+00:00",
+          "engagement": 740,
+          "video": true
+        },
+        {
+          "author": "Engadget",
+          "tier": "press",
+          "text": "Google Gemini 4 agents just beat Minecraft with no human intervention. Four Gemini 4 Argon agents beat Minecraft's Ender Dragon with no human intervention by sharing tips, threats and mistakes.",
+          "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+          "created_at": "2026-10-19T09:19:19+00:00",
+          "engagement": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": "c10659b43",
+      "score": 13.235,
       "interest": "neutral",
       "single_source": false,
       "suggested_section": "ai",
@@ -17,15 +77,18 @@
         "Anthropic"
       ],
       "independent_sources": [
+        "AnthropicAI",
         "Bloomberg Tech",
         "TechCrunch AI"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "first_seen": "2026-10-18T18:03:03+00:00",
-      "last_seen": "2026-10-18T20:37:40+00:00",
+      "last_seen": "2026-10-19T08:56:49+00:00",
       "links": [
         "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-        "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund"
+        "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund",
+        "https://www.bloomberg.com/news/articles/2026-10-19/musk-says-he-will-gift-spacex-shares-to-every-kid-in-america",
+        "https://x.com/AnthropicAI/status/2111881963657412903"
       ],
       "posts": [
         {
@@ -37,11 +100,27 @@
           "engagement": 0
         },
         {
+          "author": "AnthropicAI",
+          "tier": "commentary",
+          "text": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new wholly owned entity dedicated entirely to the public benefit. It will start off with 5% of our shares. For every 50% increase in the company’s value over a set baseline, we can contribute up to an extra 2%, subject to our board’s discretion.",
+          "url": "https://x.com/AnthropicAI/status/2111881963657412903",
+          "created_at": "2026-10-18T18:07:51+00:00",
+          "engagement": 19841
+        },
+        {
           "author": "TechCrunch AI",
           "tier": "press",
           "text": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’. Anthropic said that it will commit 5% of its shares to the fund.",
           "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
           "created_at": "2026-10-18T20:37:40+00:00",
+          "engagement": 0
+        },
+        {
+          "author": "Bloomberg Tech",
+          "tier": "press",
+          "text": "Musk Says He’ll Gift SpaceX Shares to ‘Every Kid in America’. Elon Musk pledged to distribute a share of SpaceX to each American child, posting the move just hours after artificial intelligence competitor Anthropic PBC said it would set aside a portion of its shares for the public benefit.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/musk-says-he-will-gift-spacex-shares-to-every-kid-in-america",
+          "created_at": "2026-10-19T08:56:49+00:00",
           "engagement": 0
         }
       ]
